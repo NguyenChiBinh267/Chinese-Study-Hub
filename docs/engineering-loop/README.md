@@ -22,7 +22,7 @@ node .\tools\engineering-loop\smoke.mjs
 .\tools\engineering-loop\control.ps1 resume
 ```
 
-`dry-run` exercises real local Git/files/checkpoints with simulated external adapters. It creates no real PR or Work verdict. `smoke.mjs` invokes the actual Codex CLI through the existing ChatGPT login in a separate synthetic repository; its evidence reports actual file-byte readback. `dry-github` creates a real synthetic issue, branch and PR and requires real reviewer comments. Its developer is a deterministic fixture writer so the first REVIEW must fail, then the repair changes the fixture to APPROVED. It never changes SSOT or merges fixture content into main.
+`dry-run` exercises real local Git/files/checkpoints with simulated external adapters. It creates no real PR or Work verdict. `smoke.mjs` invokes the actual Codex CLI through the existing ChatGPT login in a separate synthetic repository; its evidence reports actual file-byte readback. `dry-github` creates a real synthetic issue, branch and PR, runs the actual Codex CLI and requires real reviewer comments. The initial Codex fixture intentionally contains NEEDS_REPAIR so the first REVIEW must fail; the repair changes it to APPROVED. It never changes SSOT or merges fixture content into main.
 
 `step` advances one durable state transition. `start` launches the controller hidden; `pause`/`stop` signal it and terminate its active Codex process tree. `resume` clears control flags; run `start` again if the prior process exited. Resume does not erase BLOCKED. A timeout, ambiguous external side effect, source drift or interrupted developer write stops the task for inspection. Never delete an active writer lock or reset a worktree to recover.
 
