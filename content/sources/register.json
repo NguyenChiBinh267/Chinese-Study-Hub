@@ -1,0 +1,818 @@
+{
+  "formatVersion": 1,
+  "project": "Chinese Study Hub",
+  "projectRoot": "D:\\Chinese-Study-Hub",
+  "taskId": "T002",
+  "sourcePlan": {
+    "url": "https://docs.google.com/document/d/1frjm6ZWnrBzLV9tZ4xiCQmiF83-QhMu322ntpmJRn30",
+    "version": "v1.1",
+    "readRevision": "AHj4eMQz6r1beJJrD1yX1U81Pa0nuWZYdTbkf2rosfEmAOkIMI5bhtkz5jdOyQRiHyaZHh-QL_wX-hQi4084CHDxO0tmjpsPOO4KydfeRzY",
+    "statusRevision": "AHj4eMTRwJbEwy0-KTvCTLLRAhi79Zwo0Ool8CV1B9Kq77PWTzNsRIVStWII_Qzh4-nfCkWB-WoeC_QG_1gE4u_oFtkspt_hm0boVRAhBmM",
+    "statusSync": "synced",
+    "statusSyncedAt": "2026-10-13T18:14:46+07:00"
+  },
+  "createdAt": "2026-10-13",
+  "timezone": "Asia/Saigon",
+  "policy": {
+    "oneTimeServiceFee": 0,
+    "recurringServiceFee": 0,
+    "currency": "USD",
+    "noPaidFallbackTrialOrTemporaryCredits": true,
+    "metadataOnly": true,
+    "unknownRightsBlockAppUseAndPublication": true,
+    "noAssetsImportedOrPublished": true,
+    "reviewerApprovalNeverInferred": true,
+    "codeAndDataLicensesSeparate": true,
+    "checksumOnlyForActuallyRetainedAuthorizedSnapshot": true
+  },
+  "fieldSemantics": {
+    "commercialStatus": "License permission for this source: allowed/restricted/unknown; never expands owner-only product scope.",
+    "verificationStatus": "Per-claim evidence status/method is authoritative; an accessible URL/license is not reviewed content or an artifact pin.",
+    "publicationDate": "Only observed source date; null if not known. accessedAt is research date, not source publication date.",
+    "useDecision": "reference_only / permitted_with_conditions / not_permitted; permitted_with_conditions is a candidate rights decision, not published/approved content.",
+    "rightsScope": "Rights flags describe cited grant subject to conditions; website personalStudy means official-site consultation, not permission to copy into app."
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "name": "HSK考试大纲 / Syllabus for the Chinese Proficiency Test — exact SSOT 1219 PDF",
+      "publisher": "CTI Co., Ltd. (official distribution); issuer of exact PDF not reread",
+      "url": "https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B21219.pdf",
+      "dataType": "exam_syllabus",
+      "version": {
+        "id": "hsk-exam-2025-11",
+        "origin": "SSOT intended version; exact PDF cover unverified in T002",
+        "publishedMonth": null,
+        "effectiveMonth": null
+      },
+      "publicationDate": null,
+      "accessedAt": "2026-10-13",
+      "accessedAtTimezone": "Asia/Saigon",
+      "checksum": null,
+      "snapshotPath": null,
+      "snapshotNote": "Không lưu PDF/corpus/audio/package hoặc snapshot bytes; không có checksum. Browser/search reads không được coi là snapshot đã pin.",
+      "license": {
+        "id": null,
+        "name": null,
+        "version": null,
+        "url": null,
+        "termsUrls": [
+          "https://www.chinesetest.cn/legal-notice"
+        ]
+      },
+      "commercialStatus": "unknown",
+      "verificationStatus": "partially_verified",
+      "attribution": {
+        "status": "restricted",
+        "requirements": [
+          "CTI link/reference notice: Source: www.chinesetest.cn. §6 also names Chinese Test Service Website for reproductions/quotations; attribution alone does not authorize PDF reuse."
+        ]
+      },
+      "redistribution": {
+        "status": "unknown",
+        "conditions": []
+      },
+      "derivativeUse": {
+        "status": "unknown",
+        "conditions": []
+      },
+      "usageRights": {
+        "personalStudy": "unknown",
+        "downloadAndStore": "unknown",
+        "webAppUse": "unknown",
+        "pwaDistribution": "unknown"
+      },
+      "access": {
+        "metadataReadable": true,
+        "accountRequirement": "No login requested for CTI overview/indexed source metadata",
+        "paymentRequirement": "No payment requested for reference reads; no account or download tested",
+        "accountOrPlaybackTested": false
+      },
+      "reviewerRequirement": "Người đủ chuyên môn Mandarin/HSK kiểm nội dung và asset trước sử dụng; reviewer/approval chưa có.",
+      "reviewerApproval": null,
+      "useDecision": {
+        "status": "reference_only",
+        "reason": "Chưa có quyền dùng lại nội dung trong app.",
+        "evidenceIds": [
+          "S01-E1",
+          "S01-E2",
+          "S01-E4",
+          "S01-E6"
+        ]
+      },
+      "contentState": "not_imported",
+      "evidence": [
+        {
+          "id": "S01-E1",
+          "url": "https://docs.google.com/document/d/1frjm6ZWnrBzLV9tZ4xiCQmiF83-QhMu322ntpmJRn30#heading=h.r4bkhx9y673q",
+          "locator": "§16/S01",
+          "method": "live_ssot",
+          "status": "verified_as_ssot_statement",
+          "claim": "Exact 1219 PDF URL and intended syllabus version recorded in SSOT; not independent verification of PDF dates/content."
+        },
+        {
+          "id": "S01-E2",
+          "url": "https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B21219.pdf",
+          "locator": "exact PDF URL",
+          "method": "direct_web_open",
+          "status": "unverified",
+          "claim": "Direct read timed out/returned tool Internal Error; no cover, contents, page boundaries or publisher readback."
+        },
+        {
+          "id": "S01-E3",
+          "url": "https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B21219.pdf",
+          "locator": "indexed result at exact official-host URL",
+          "method": "official_source_search_index",
+          "status": "verified",
+          "claim": "Search index locates the exact PDF; this is not a complete direct read."
+        },
+        {
+          "id": "S01-E4",
+          "url": "https://www.chinesetest.cn/hsk",
+          "locator": "About the New HSK; Examination Syllabus link",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "Official CTI overview identifies new syllabus components; does not prove detailed blueprint or exact 1219 cover."
+        },
+        {
+          "id": "S01-E5",
+          "url": "https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E8%AF%8D%E6%B1%87%E3%80%81%E6%B1%89%E5%AD%97%E3%80%81%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+          "locator": "PDF physical page 1 (cover); S01-VOCAB",
+          "method": "direct_pdf_text",
+          "status": "verified",
+          "claim": "Related official-host PDF cover corroborates 2025-11/2026-07; not silently substituted for 1219."
+        },
+        {
+          "id": "S01-E6",
+          "url": "https://www.chinesetest.cn/legal-notice",
+          "locator": "§3, §4(1–7), §6–7",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "CTI imposes citation/reproduction conditions/exclusions; no blanket syllabus dataset/audio redistribution grant established."
+        }
+      ],
+      "blockers": [
+        {
+          "taskIds": [
+            "T005"
+          ],
+          "issue": "Reread exact 1219 PDF cover/contents and official samples/notices; detailed exam format/scoring/duration not verified in T002."
+        },
+        {
+          "taskIds": [
+            "T014"
+          ],
+          "issue": "Determine rights for the intended mapping/import; public PDF is not a dataset license. Do not import/redistribute until rights cleared without payment."
+        }
+      ]
+    },
+    {
+      "id": "S01-VOCAB",
+      "name": "HSK考试大纲 — related 词汇/汉字/语法 PDF",
+      "publisher": "中外语言交流合作中心 (CLEC), named on cover; CTI official hosting",
+      "url": "https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E8%AF%8D%E6%B1%87%E3%80%81%E6%B1%89%E5%AD%97%E3%80%81%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+      "dataType": "exam_syllabus_related_pdf",
+      "version": {
+        "id": "hsk-exam-2025-11",
+        "publishedMonth": "2025-11",
+        "effectiveMonth": "2026-07",
+        "origin": "Related PDF cover, physical page 1; no exact issue day given"
+      },
+      "publicationDate": null,
+      "accessedAt": "2026-10-13",
+      "accessedAtTimezone": "Asia/Saigon",
+      "checksum": null,
+      "snapshotPath": null,
+      "snapshotNote": "Không lưu PDF/corpus/audio/package hoặc snapshot bytes; không có checksum. Browser/search reads không được coi là snapshot đã pin.",
+      "license": {
+        "id": null,
+        "name": null,
+        "version": null,
+        "url": null,
+        "termsUrls": [
+          "https://www.chinesetest.cn/legal-notice"
+        ]
+      },
+      "commercialStatus": "unknown",
+      "verificationStatus": "partially_verified",
+      "attribution": {
+        "status": "restricted",
+        "requirements": [
+          "CTI link/reference notice: Source: www.chinesetest.cn. §6 also names Chinese Test Service Website for reproductions/quotations; attribution alone does not authorize PDF reuse."
+        ]
+      },
+      "redistribution": {
+        "status": "unknown",
+        "conditions": []
+      },
+      "derivativeUse": {
+        "status": "unknown",
+        "conditions": []
+      },
+      "usageRights": {
+        "personalStudy": "unknown",
+        "downloadAndStore": "unknown",
+        "webAppUse": "unknown",
+        "pwaDistribution": "unknown"
+      },
+      "access": {
+        "metadataReadable": true,
+        "accountRequirement": "No login requested for CTI overview/indexed source metadata",
+        "paymentRequirement": "No payment requested for reference reads; no account or download tested",
+        "accountOrPlaybackTested": false
+      },
+      "reviewerRequirement": "Người đủ chuyên môn Mandarin/HSK kiểm nội dung và asset trước sử dụng; reviewer/approval chưa có.",
+      "reviewerApproval": null,
+      "useDecision": {
+        "status": "reference_only",
+        "reason": "Corroborating reference only; distinct filename/content scope from 1219, rights remain unknown.",
+        "evidenceIds": [
+          "S01V-E1",
+          "S01V-E3"
+        ]
+      },
+      "contentState": "not_imported",
+      "evidence": [
+        {
+          "id": "S01V-E1",
+          "url": "https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E8%AF%8D%E6%B1%87%E3%80%81%E6%B1%89%E5%AD%97%E3%80%81%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+          "locator": "PDF physical page 1; parsed cover",
+          "method": "direct_pdf_text",
+          "status": "verified",
+          "claim": "Chinese/English title, CLEC issuer and published/effective months read directly."
+        },
+        {
+          "id": "S01V-E2",
+          "url": "https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E8%AF%8D%E6%B1%87%E3%80%81%E6%B1%89%E5%AD%97%E3%80%81%E8%AF%AD%E6%B3%95%EF%BC%89.pdf",
+          "locator": "PDF physical page 2; contents",
+          "method": "direct_pdf_text",
+          "status": "verified",
+          "claim": "Vocabulary syllabus lists separate HSK level sections including 1–4; no vocabulary totals recorded."
+        },
+        {
+          "id": "S01V-E3",
+          "url": "https://www.chinesetest.cn/legal-notice",
+          "locator": "§3–4",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "Website notice does not establish permission for this PDF dataset."
+        }
+      ],
+      "blockers": [
+        {
+          "taskIds": [
+            "T005",
+            "T014"
+          ],
+          "issue": "Confirm relation/coverage to exact SSOT PDF; do not merge datasets or infer blueprint from this related file. Rights for reuse unresolved."
+        }
+      ],
+      "parentSourceId": "S01"
+    },
+    {
+      "id": "S02",
+      "name": "CTI HSK overview and Legal Notice",
+      "publisher": "CTI Co., Ltd.",
+      "url": "https://www.chinesetest.cn/hsk",
+      "dataType": "official_web_reference",
+      "version": null,
+      "publicationDate": null,
+      "accessedAt": "2026-10-13",
+      "accessedAtTimezone": "Asia/Saigon",
+      "checksum": null,
+      "snapshotPath": null,
+      "snapshotNote": "Không lưu PDF/corpus/audio/package hoặc snapshot bytes; không có checksum. Browser/search reads không được coi là snapshot đã pin.",
+      "license": {
+        "id": null,
+        "name": null,
+        "version": null,
+        "url": null,
+        "termsUrls": [
+          "https://www.chinesetest.cn/legal-notice"
+        ]
+      },
+      "commercialStatus": "restricted",
+      "verificationStatus": "verified_reference_terms",
+      "attribution": {
+        "status": "restricted",
+        "requirements": [
+          "CTI link/reference notice: Source: www.chinesetest.cn. §6 also names Chinese Test Service Website for reproductions/quotations; attribution alone does not authorize PDF reuse."
+        ]
+      },
+      "redistribution": {
+        "status": "restricted",
+        "conditions": [
+          "§4 excludes certain linked/third-party/special-authorization content; quotations/reproductions are purpose-limited, require source, and §7 mentions signed-author remuneration. Do not treat the website as an open dataset."
+        ]
+      },
+      "derivativeUse": {
+        "status": "restricted",
+        "conditions": [
+          "§4(7) requires preserving original meaning for the specified quotations/reproductions; no general derivative-data grant."
+        ]
+      },
+      "usageRights": {
+        "personalStudy": "allowed",
+        "downloadAndStore": "unknown",
+        "webAppUse": "restricted",
+        "pwaDistribution": "unknown"
+      },
+      "access": {
+        "metadataReadable": true,
+        "accountRequirement": "No login requested for CTI overview/indexed source metadata",
+        "paymentRequirement": "No payment requested for reference reads; no account or download tested",
+        "accountOrPlaybackTested": false
+      },
+      "reviewerRequirement": "Người đủ chuyên môn Mandarin/HSK kiểm nội dung và asset trước sử dụng; reviewer/approval chưa có.",
+      "reviewerApproval": null,
+      "useDecision": {
+        "status": "reference_only",
+        "reason": "Use a cited link and factual summary only; licensed app-content reproduction not established.",
+        "evidenceIds": [
+          "S02-E1",
+          "S02-E2"
+        ]
+      },
+      "contentState": "not_imported",
+      "evidence": [
+        {
+          "id": "S02-E1",
+          "url": "https://www.chinesetest.cn/hsk",
+          "locator": "About HSK / About the New HSK",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "CTI organizes HSK; new test guided by Chinese Proficiency Grading Standards; syllabus covers tasks, topics, vocabulary, grammar, Chinese characters."
+        },
+        {
+          "id": "S02-E2",
+          "url": "https://www.chinesetest.cn/legal-notice",
+          "locator": "§3–7",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "Copyright/attribution/limited-purpose reproduction and exceptions read; no general commercial/open license."
+        }
+      ],
+      "blockers": [
+        {
+          "taskIds": [
+            "T005"
+          ],
+          "issue": "Official sample/news dynamic body and detailed blueprint not inspected for T005; no exam counts/scoring inferred from overview."
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "name": "国际中文教育中文水平等级标准 — GF0025-2021",
+      "publisher": "中华人民共和国教育部 / 国家语言文字工作委员会",
+      "url": "https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202103/t20210329_523304.html",
+      "dataType": "proficiency_standard_reference",
+      "version": {
+        "id": "gf0025-2021",
+        "standardCode": "GF0025-2021",
+        "issuedMonth": "2021-03",
+        "exactIssueDate": null,
+        "effectiveDate": "2021-07-01",
+        "dateEvidenceScope": "Official publication article through search index; English MOE release corroborates issue month."
+      },
+      "publicationDate": "2021-03-31",
+      "accessedAt": "2026-10-13",
+      "accessedAtTimezone": "Asia/Saigon",
+      "checksum": null,
+      "snapshotPath": null,
+      "snapshotNote": "Không lưu PDF/corpus/audio/package hoặc snapshot bytes; không có checksum. Browser/search reads không được coi là snapshot đã pin.",
+      "license": {
+        "id": null,
+        "name": null,
+        "version": null,
+        "url": null,
+        "termsUrls": []
+      },
+      "commercialStatus": "unknown",
+      "verificationStatus": "partially_verified",
+      "attribution": {
+        "status": "unknown",
+        "requirements": []
+      },
+      "redistribution": {
+        "status": "unknown",
+        "conditions": []
+      },
+      "derivativeUse": {
+        "status": "unknown",
+        "conditions": []
+      },
+      "usageRights": {
+        "personalStudy": "unknown",
+        "downloadAndStore": "unknown",
+        "webAppUse": "unknown",
+        "pwaDistribution": "unknown"
+      },
+      "access": {
+        "metadataReadable": true,
+        "accountRequirement": "No login requested for official-source indexed excerpts; direct HTML reads failed",
+        "paymentRequirement": "No payment requested for reference research; attachment/download not tested",
+        "accountOrPlaybackTested": false
+      },
+      "reviewerRequirement": "Người đủ chuyên môn Mandarin/HSK kiểm nội dung và asset trước sử dụng; reviewer/approval chưa có.",
+      "reviewerApproval": null,
+      "useDecision": {
+        "status": "reference_only",
+        "reason": "Framework facts corroborated in indexed first-party announcements; no redistributable full-standard/data license established. Never merge levels/vocabulary with S01.",
+        "evidenceIds": [
+          "S03-E1",
+          "S03-E2",
+          "S03-E3"
+        ]
+      },
+      "contentState": "not_imported",
+      "evidence": [
+        {
+          "id": "S03-E1",
+          "url": "https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202103/t20210329_523304.html",
+          "locator": "heading/date; opening paragraph",
+          "method": "official_source_search_index",
+          "status": "verified",
+          "claim": "Name/code, announcement date 2021-03-31, MOE/State Language Commission issuance and effective 2021-07-01."
+        },
+        {
+          "id": "S03-E2",
+          "url": "https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202103/t20210329_523304.html",
+          "locator": "paragraphs on purpose, three stages/nine levels and five skills",
+          "method": "official_source_search_index",
+          "status": "verified",
+          "claim": "Framework for learning/teaching/testing/evaluation; not an exam-2025 blueprint."
+        },
+        {
+          "id": "S03-E3",
+          "url": "https://en.moe.gov.cn/news/press_releases/202104/t20210428_528917.html",
+          "locator": "Launch of new Chinese proficiency standard; date/second body paragraph",
+          "method": "official_source_search_index",
+          "status": "verified",
+          "claim": "MOE English announcement dated 2021-04-28 corroborates March issue and July 1 implementation."
+        },
+        {
+          "id": "S03-E4",
+          "url": "https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202103/t20210329_523304.html",
+          "locator": "direct HTML endpoint",
+          "method": "direct_web_open",
+          "status": "unverified",
+          "claim": "Direct read timed out; no complete live HTML or attachment read."
+        },
+        {
+          "id": "S03-E5",
+          "url": "https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202104/t20210422_527601.html",
+          "locator": "second URL from SSOT",
+          "method": "direct_web_open",
+          "status": "unverified",
+          "claim": "Timeout/redirect-loop; article body not verified."
+        }
+      ],
+      "blockers": [
+        {
+          "taskIds": [
+            "T005",
+            "T014"
+          ],
+          "issue": "Obtain complete primary document/locators as needed; preserve gf0025-2021 separate from hsk-exam-2025-11. Full-text/data rights unknown; no vocabulary counts recorded."
+        }
+      ],
+      "publicationDateNote": "Date shown on MOE announcement; not inferred from URL 20210329 and not claimed as exact standard promulgation date."
+    },
+    {
+      "id": "AUDIO-001",
+      "name": "Yoyo Chinese Interactive Pinyin Chart",
+      "publisher": "Yoyo Chinese Inc.",
+      "url": "https://yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table",
+      "dataType": "mandarin_pinyin_audio_candidate",
+      "version": null,
+      "publicationDate": null,
+      "accessedAt": "2026-10-13",
+      "accessedAtTimezone": "Asia/Saigon",
+      "checksum": null,
+      "snapshotPath": null,
+      "snapshotNote": "Không lưu PDF/corpus/audio/package hoặc snapshot bytes; không có checksum. Browser/search reads không được coi là snapshot đã pin.",
+      "license": {
+        "id": null,
+        "name": null,
+        "version": null,
+        "url": null,
+        "termsUrls": [
+          "https://yoyochinese.com/terms"
+        ]
+      },
+      "commercialStatus": "unknown",
+      "verificationStatus": "verified_candidate_rights_unresolved",
+      "attribution": {
+        "status": "unknown",
+        "requirements": []
+      },
+      "redistribution": {
+        "status": "unknown",
+        "conditions": []
+      },
+      "derivativeUse": {
+        "status": "unknown",
+        "conditions": []
+      },
+      "usageRights": {
+        "personalStudy": "allowed",
+        "downloadAndStore": "unknown",
+        "webAppUse": "unknown",
+        "pwaDistribution": "unknown"
+      },
+      "access": {
+        "metadataReadable": true,
+        "accountRequirement": "Pricing Free offers a free account/full chart; chart asks signup for all videos; actual audio access not tested",
+        "paymentRequirement": "Free chart advertised; no registration/card/playback test. Paid plans excluded, not fallback.",
+        "accountOrPlaybackTested": false
+      },
+      "reviewerRequirement": "Người đủ chuyên môn Mandarin/HSK kiểm nội dung và asset trước sử dụng; reviewer/approval chưa có.",
+      "reviewerApproval": null,
+      "useDecision": {
+        "status": "reference_only",
+        "reason": "Free access is not a reuse license; audio reuse/attribution/commercial/derivative/redistribution unknown. Do not download, hotlink or package into app/PWA.",
+        "evidenceIds": [
+          "AUDIO-E1",
+          "AUDIO-E2",
+          "AUDIO-E3"
+        ]
+      },
+      "contentState": "not_imported",
+      "evidence": [
+        {
+          "id": "AUDIO-E1",
+          "url": "https://yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table",
+          "locator": "Interactive Pinyin Chart introduction; signup prompt",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "Publisher describes Mandarin audio/video demonstrations; signup requested for all videos. Promotional quality claims not validated."
+        },
+        {
+          "id": "AUDIO-E2",
+          "url": "https://yoyochinese.com/pricing",
+          "locator": "Free plan; FAQ on video downloads",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "Free plan advertises full chart; lesson videos streaming only. Video restriction is not proof of a specific standalone audio license."
+        },
+        {
+          "id": "AUDIO-E3",
+          "url": "https://yoyochinese.com/terms",
+          "locator": "opening, §1/§7/§14; footer",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "Service terms cover learning audio/video/text; open-source-code clause is not an audio license; no app/redistribution/derivative/commercial audio grant found."
+        }
+      ],
+      "blockers": [
+        {
+          "taskIds": [
+            "T016"
+          ],
+          "issue": "No explicit no-fee audio reuse grant or competent review; use proposed original volunteer recordings with documented rights instead."
+        },
+        {
+          "taskIds": [
+            "T068"
+          ],
+          "issue": "Do not treat a advertised free site as an approved no-billing provider dependency; no account/service setup in T002."
+        }
+      ],
+      "usageRightsScope": "PersonalStudy means advertised learning on publisher site under its terms, not downloaded/audio copies or reuse in this app.",
+      "quality": {
+        "mandarinSuitability": "unverified",
+        "pinyinAndToneAccuracy": "unverified",
+        "cleanAudioAndTranscriptMatch": "unverified",
+        "listened": false,
+        "approvedForSlice": false
+      }
+    },
+    {
+      "id": "S08-code",
+      "name": "Hanzi Writer",
+      "publisher": "David Chanin / chanind",
+      "url": "https://github.com/chanind/hanzi-writer",
+      "dataType": "library_code",
+      "version": {
+        "observedPackageVersion": "3.0.0",
+        "branch": "master",
+        "commit": null,
+        "versionMeaning": "Observed package.json, not latest-release claim or implementation pin"
+      },
+      "publicationDate": null,
+      "accessedAt": "2026-10-13",
+      "accessedAtTimezone": "Asia/Saigon",
+      "checksum": null,
+      "snapshotPath": null,
+      "snapshotNote": "Không lưu PDF/corpus/audio/package hoặc snapshot bytes; không có checksum. Browser/search reads không được coi là snapshot đã pin.",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "version": null,
+        "url": "https://github.com/chanind/hanzi-writer/blob/master/LICENSE",
+        "termsUrls": []
+      },
+      "commercialStatus": "allowed",
+      "verificationStatus": "license_terms_verified_artifact_unpinned",
+      "attribution": {
+        "status": "restricted",
+        "requirements": [
+          "Keep copyright (c) 2014 David Chanin and full permission notice in all copies/substantial portions. Preserve AS IS warranty notice when packaging."
+        ]
+      },
+      "redistribution": {
+        "status": "allowed",
+        "conditions": [
+          "MIT notices preserved; grant applies to software, not S08-data."
+        ]
+      },
+      "derivativeUse": {
+        "status": "allowed",
+        "conditions": [
+          "MIT notices preserved."
+        ]
+      },
+      "usageRights": {
+        "personalStudy": "allowed",
+        "downloadAndStore": "allowed",
+        "webAppUse": "allowed",
+        "pwaDistribution": "allowed"
+      },
+      "access": {
+        "metadataReadable": true,
+        "accountRequirement": "Public README/license/package metadata readable without login",
+        "paymentRequirement": "License grant free of charge; no install/account/payment",
+        "accountOrPlaybackTested": false
+      },
+      "reviewerRequirement": "Future integration checks; Mandarin/stroke reviewer applies to separate data, not code-license verification.",
+      "reviewerApproval": null,
+      "useDecision": {
+        "status": "permitted_with_conditions",
+        "reason": "License grant checked for code only; candidate, not integrated or approved for release.",
+        "evidenceIds": [
+          "S08C-E1",
+          "S08C-E2"
+        ]
+      },
+      "contentState": "not_imported",
+      "evidence": [
+        {
+          "id": "S08C-E1",
+          "url": "https://github.com/chanind/hanzi-writer/blob/master/LICENSE",
+          "locator": "MIT title, grant, notice condition, warranty",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "MIT grants use/copy/modify/publish/distribute/sublicense/sell with copyright/permission notice."
+        },
+        {
+          "id": "S08C-E2",
+          "url": "https://github.com/chanind/hanzi-writer/blob/master/package.json",
+          "locator": "name/version/license",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "master package metadata observed: 3.0.0 / MIT; branch not pinned."
+        }
+      ],
+      "blockers": [
+        {
+          "taskIds": [
+            "T032",
+            "T068"
+          ],
+          "issue": "Pin actual code artifact/version and accompanying MIT notice; service/CDN free eligibility separate. No dependency install in T002."
+        }
+      ],
+      "parentSourceId": "S08"
+    },
+    {
+      "id": "S08-data",
+      "name": "hanzi-writer-data",
+      "publisher": "chanind; upstream Make Me A Hanzi; font rights Arphic Technology Co., Ltd.",
+      "url": "https://github.com/chanind/hanzi-writer-data/blob/master/README.md",
+      "dataType": "hanzi_stroke_data",
+      "version": {
+        "observedPackageVersion": "2.0.1",
+        "branch": "master",
+        "commit": null,
+        "versionMeaning": "Observed package.json, not implementation pin"
+      },
+      "publicationDate": null,
+      "accessedAt": "2026-10-13",
+      "accessedAtTimezone": "Asia/Saigon",
+      "checksum": null,
+      "snapshotPath": null,
+      "snapshotNote": "Không lưu PDF/corpus/audio/package hoặc snapshot bytes; không có checksum. Browser/search reads không được coi là snapshot đã pin.",
+      "license": {
+        "id": "LicenseRef-Arphic-Public-License",
+        "name": "Arphic Public License",
+        "version": null,
+        "url": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/master/ARPHICPL.TXT",
+        "termsUrls": [],
+        "copyrightYear": 1999,
+        "idMeaning": "Local registry identifier; no numbered license version asserted."
+      },
+      "commercialStatus": "allowed",
+      "verificationStatus": "license_terms_verified_artifact_unpinned",
+      "attribution": {
+        "status": "restricted",
+        "requirements": [
+          "Retain unaltered ARPHICPL.TXT in all data copies (§1). Preserve Arphic/provenance notices; modifications record how/when in each modified file (§2a)."
+        ]
+      },
+      "redistribution": {
+        "status": "allowed",
+        "conditions": [
+          "Keep license (§1); recipient gets same rights, no extra restrictions (§5). If obligations cannot all be met, do not distribute (§6)."
+        ]
+      },
+      "derivativeUse": {
+        "status": "allowed",
+        "conditions": [
+          "Modified files carry prominent how/when notices; modifications as a whole freely available to all third parties under APL (§2a/b). Interactive announcement when §2c applies; independent separate works/mere aggregation exception §2."
+        ]
+      },
+      "usageRights": {
+        "personalStudy": "allowed",
+        "downloadAndStore": "allowed",
+        "webAppUse": "allowed",
+        "pwaDistribution": "allowed"
+      },
+      "access": {
+        "metadataReadable": true,
+        "accountRequirement": "Public README/license/package metadata readable without login",
+        "paymentRequirement": "APL royalty-free grant; public repo metadata; CDN terms not verified, no install",
+        "accountOrPlaybackTested": false
+      },
+      "reviewerRequirement": "Người đủ chuyên môn Mandarin/HSK kiểm nội dung và asset trước sử dụng; reviewer/approval chưa có.",
+      "reviewerApproval": null,
+      "useDecision": {
+        "status": "permitted_with_conditions",
+        "reason": "Upstream attaches APL to this data; conditional candidate only. Does not license all Make Me A Hanzi files, and MIT code does not license data.",
+        "evidenceIds": [
+          "S08D-E1",
+          "S08D-E2",
+          "S08D-E3"
+        ]
+      },
+      "contentState": "not_imported",
+      "evidence": [
+        {
+          "id": "S08D-E1",
+          "url": "https://github.com/chanind/hanzi-writer-data/blob/master/README.md",
+          "locator": "About and License",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "README separates data/code licenses and traces data through Make Me A Hanzi to Arphic fonts; expressly assigns data redistribution/modification to APL."
+        },
+        {
+          "id": "S08D-E2",
+          "url": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/master/ARPHICPL.TXT",
+          "locator": "§0/§1/§2/§5/§6",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "APL grants copy/distribution/modification with retained license and obligations; Freely Available describes rights, not price. No numbered version observed."
+        },
+        {
+          "id": "S08D-E3",
+          "url": "https://github.com/chanind/hanzi-writer-data/blob/master/package.json",
+          "locator": "version",
+          "method": "direct_web_open",
+          "status": "verified",
+          "claim": "Observed master package version 2.0.1; no exact commit pinned."
+        }
+      ],
+      "blockers": [
+        {
+          "taskIds": [
+            "T032"
+          ],
+          "issue": "Pin asset/version and complete license/provenance/packaging check before import; competent stroke/character review required. Future v0.2 task only."
+        }
+      ],
+      "parentSourceId": "S08"
+    }
+  ],
+  "handoff": [
+    {
+      "taskId": "T005",
+      "state": "pending",
+      "needs": "Exact S01 cover/contents/sample/blueprint reread, version/page locators; separate S01 and GF0025-2021. No detailed exam counts/scoring asserted."
+    },
+    {
+      "taskId": "T014",
+      "state": "pending",
+      "needs": "Authorized fact/mapping import only after source/version/locator/rights proof and dependencies T002/T005/T013. No raw protected PDF/corpus in git."
+    },
+    {
+      "taskId": "T016",
+      "state": "pending",
+      "needs": "Original Vietnamese explanations/exercises/audio with free contributor grants and competent Mandarin/answer/audio review; no approval yet. Dependencies T014/T013."
+    },
+    {
+      "taskId": "T068",
+      "state": "pending",
+      "needs": "Verify actual free tiers/accounts/no-billing/quota/terms before provider setup. Candidate source access is not provider approval; no account/charges in T002."
+    }
+  ]
+}
