@@ -198,6 +198,7 @@ export async function step() {
     const task = readyTasks(snap).find(t => cfg.authorizedTasks.includes(t.id) && cfg.policies[t.id]);
     requireThat(task, 'No authorized ready task');
     requireThat(!['T053', 'T069'].includes(task.id), 'Hosting/deployment requires separate authorization and concrete gates');
+    requireThat(!['T016', 'T034', 'T044', 'T047', 'T050', 'T055'].includes(task.id), 'Content family dispatch requires SSOT-materialized bounded instance IDs and a reviewed instance policy; this minimal harness blocks unbounded family execution');
     state = newExecution(task, snap); save(state);
   }
   if (state.phase === 'BLOCKED') return state;

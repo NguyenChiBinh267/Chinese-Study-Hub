@@ -178,7 +178,8 @@
     "Unattended reviewer artifact transport",
     "Real backlog implementation",
     "Real-task merge and guarded SSOT write/readback cycle",
-    "Full OS sandbox security audit"
+    "Full OS sandbox security audit",
+    "Bounded content instance dispatch (base authoring families explicitly blocked by this minimal harness)"
   ],
   "safety": {
     "liveEnabled": false,
@@ -186,6 +187,11 @@
     "autoMerge": false,
     "workTriggerVerified": false,
     "noForcePush": true,
-    "noSandboxBypass": true
+    "noSandboxBypass": true,
+    "configuredRealTaskPolicies": [
+      "T004",
+      "T005",
+      "T068"
+    ]
   }
 }
