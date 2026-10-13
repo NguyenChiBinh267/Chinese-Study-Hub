@@ -1,7 +1,7 @@
 # Implementation status — SSOT cache
 
 Release **M0/v0.1**; current task **T002: done — SSOT synced with revision guard/readback**.
-Source: **v1.1**, revision `AHj4eMTRwJbEwy0-KTvCTLLRAhi79Zwo0Ool8CV1B9Kq77PWTzNsRIVStWII_Qzh4-nfCkWB-WoeC_QG_1gE4u_oFtkspt_hm0boVRAhBmM`; synced **2026-10-13T18:14:46+07:00**.
+Source: **v1.1**, revision `AHj4eMTRwJbEwy0-KTvCTLLRAhi79Zwo0Ool8CV1B9Kq77PWTzNsRIVStWII_Qzh4-nfCkWB-WoeC_QG_1gE4u_oFtkspt_hm0boVRAhBmM`; synced **2026-10-13T22:12:47.553+07:00**.
 [Activation/backlog SSOT](https://docs.google.com/document/d/1frjm6ZWnrBzLV9tZ4xiCQmiF83-QhMu322ntpmJRn30#heading=h.e4gkrknsyse0); decisions/gates: [brief.md](brief.md).
 
 ## M0 — exactly 34 IDs
@@ -41,3 +41,9 @@ T002 register blocker: none. Downstream gates: T005 exact exam-source/blueprint 
 Next ready: **T005** (T002), **T068** (T001+T002), **T004** (T001). Recommend T068 for zero-cost eligibility gate; T003 still needs T068. No next task started.
 
 Cache note: AGENTS.md and brief.md held byte-identical per T002 request; their T001 authorization/checkpoint is historical, superseded by this explicit T002 assignment. SSOT readback confirmed only the T002 note added and outside text/headings unchanged. The source revision difference from brief is limited to that note; use this status revision and reread affected sections before another task. No architecture/release change.
+
+## Engineering loop setup — outside the SSOT backlog
+
+2026-10-13: local Windows orchestrator, dependency picker, persistent state/lock, bounded repair/timeouts, GitHub bridge and controls implemented. Real synthetic D001 PR #2: Codex CLI -> independent manually invoked web review REWORK -> Codex repair -> independent PASS for fd687214a0b3eb5b020876988a738b7ca32457a4. One repair; source timeout/recovery and start/stop/resume verified. Reviewer artifacts were relayed verbatim through existing Git credentials after connector comment write returned 403. This is not proof of an automatic Work event trigger.
+
+Automatic operation: BLOCKED (no verified Work GitHub event trigger; connector Issues comment integration returns 403). Real task execution/auto-merge disabled; no additional SSOT Task ID started/completed. SSOT revision re-read unchanged; brief/status metadata reconciled. T001/T002 remain the only completed backlog IDs. Evidence: docs/engineering-loop/setup-report.json; docs/engineering-loop/README.md. Historical T001/T002-only authorization notes are superseded only for this explicitly requested tooling setup.

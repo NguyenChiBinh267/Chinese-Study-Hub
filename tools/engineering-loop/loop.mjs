@@ -208,17 +208,20 @@ export async function step() {
     if (state.phase === 'BLOCKED') return state;
     if (state.phase === 'QUEUED') await openHandoff(state, cfg, gh, snap, task);
     else if (state.phase === 'SOURCE_WAIT') {
-      const response = (await bridgeEvents(state, cfg, gh)).find(x => x.event.type === 'SOURCE');
+      const response = (await bridgeEvents(state, cfg, gh)).findLast(x => x.event.type === 'SOURCE');
       if (response) {
         verifySourceEvent(state, response.event, task, snap, response.createdAt); consume(state, response.event);
         move(state, 'DEVELOP_READY', { deadline: null }); save(state);
       }
     } else if (['DEVELOP_READY', 'REPAIR_READY'].includes(state.phase)) await implement(state, cfg, gh, snap, task);
     else if (state.phase === 'REVIEW_WAIT') {
-      const response = (await bridgeEvents(state, cfg, gh)).find(x => x.event.type === 'REVIEW' && x.event.commitSha === state.commitSha);
+      const response = (await bridgeEvents(state, cfg, gh)).findLast(x => x.event.type === 'REVIEW' && x.event.commitSha === state.commitSha);
       if (response) {
         requireThat(response.event.sourceRevision === state.sourceRevision && response.event.sourceReadbackVerified === true, 'Reviewer did not verify the current SSOT');
-        applyReview(state, response.event, pr.head.sha); consume(state, response.event); save(state);
+        applyReview(state, response.event, pr.head.sha);
+        // Matching live-source revision in the independent review renews the repair source check.
+        state.sourceAttestation.attestedAt = response.createdAt;
+        consume(state, response.event); save(state);
       }
     } else if (state.phase === 'MERGE_WAIT') {
       if (state.mode === 'dry-github') { move(state, 'DONE', { deadline: null }); save(state); }
@@ -233,7 +236,7 @@ export async function step() {
         await gh.comment(state.pr, eventRequest(state, task, snap, 'SSOT_SYNC'));
       }
     } else if (state.phase === 'SSOT_WAIT') {
-      const response = (await bridgeEvents(state, cfg, gh)).find(x => x.event.type === 'SSOT_SYNC');
+      const response = (await bridgeEvents(state, cfg, gh)).findLast(x => x.event.type === 'SSOT_SYNC');
       if (response) {
         const event = response.event;
         requireThat(event.commitSha === state.commitSha && event.completedTaskId === state.taskId && event.readbackVerified === true,
