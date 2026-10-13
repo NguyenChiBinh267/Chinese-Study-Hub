@@ -84,7 +84,7 @@ export function applyReview(state, event, headSha) {
 }
 
 export function checkDeadline(state, timestamp = Date.now()) {
-  if (state.deadline && timestamp >= Date.parse(state.deadline)) move(state, 'BLOCKED', { blocker: `Timeout waiting in ${state.phase}` });
+  if (state.deadline && timestamp >= Date.parse(state.deadline)) move(state, 'BLOCKED', { blockedFrom: state.phase, blocker: `Timeout waiting in ${state.phase}` });
   return state;
 }
 

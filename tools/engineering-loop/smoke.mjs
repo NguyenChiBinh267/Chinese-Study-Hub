@@ -25,7 +25,7 @@ try {
 } catch (error) { evidence.passed = false; evidence.blocker = error.message; process.exitCode = 1; }
 finally {
   evidence.finishedAt = new Date().toISOString();
-  writeJson(path.join(root, 'docs', 'engineering-loop', 'codex-smoke-evidence.json'), evidence);
+  writeJson(path.join(runtime, 'codex-smoke-evidence.json'), evidence);
   release();
   console.log(JSON.stringify(evidence, null, 2));
 }

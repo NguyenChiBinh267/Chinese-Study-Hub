@@ -66,7 +66,7 @@ function eventRequest(state, task, snap, type) {
 async function reconcile(state, cfg, gh, snap) {
   assertCleanRoot();
   requireThat(!state.writerPid, 'A writer PID remains; inspect process and partial workspace before resuming');
-  requireThat(snap.revision === state.sourceRevision || state.phase === 'SSOT_WAIT' || state.phase === 'DONE', 'Cached SSOT revision changed mid-task');
+  requireThat(snap.revision === state.sourceRevision || ['SSOT_WAIT', 'CACHE_SYNCING', 'DONE'].includes(state.phase), 'Cached SSOT revision changed mid-task');
   if (state.pr) {
     const pr = await gh.repo(`/pulls/${state.pr}`);
     requireThat(pr.head.ref === state.branch && pr.head.repo?.full_name === cfg.repository && pr.base.ref === cfg.baseBranch, 'PR identity changed');
@@ -147,6 +147,7 @@ async function implement(state, cfg, gh, snap, task) {
       onStart: pid => { state.writerPid = pid; save(state); }, onStop: () => { state.writerPid = null; save(state); } });
     state.developerReport = result.report;
   }
+  requireThat(git(state.worktree, 'rev-parse', 'HEAD') === state.commitSha && state.developerReport.commitSha === '', 'Developer changed Git history; inspect before publishing');
   const changed = git(state.worktree, 'status', '--porcelain', '-uall').split(/\r?\n/).filter(Boolean).map(x => x.slice(3).replace(/^"|"$/g, ''));
   requireThat(changed.length > 0 && changed.every(f => allowedPath(f, policy.allowedFiles)), 'Developer changed files outside allowlist or made no changes');
   validateReport(state.developerReport, state, changed);
@@ -245,14 +246,18 @@ export async function step() {
         snap.revision = event.revision; snap.fetchedAt = now();
         snap.tasks.find(t => t.id === state.taskId).status = 'done';
         writeJson(SOURCE, validateSource(snap));
-        state.syncedRevision = event.revision; consume(state, event);
+        state.syncedRevision = event.revision;
         writeJson(path.join(DATA, 'ssot-checkpoint.json'), { revision: event.revision, taskId: state.taskId, doneIds: event.doneIds, at: now() });
+        move(state, 'CACHE_SYNCING', { syncEvent: event }); save(state);
         refreshHandoffCaches(state, event);
-        move(state, 'DONE', { deadline: null }); save(state);
+        consume(state, event); move(state, 'DONE', { deadline: null }); save(state);
       }
+    } else if (state.phase === 'CACHE_SYNCING') {
+      refreshHandoffCaches(state, state.syncEvent);
+      consume(state, state.syncEvent); move(state, 'DONE', { deadline: null }); save(state);
     } else throw new Error(`Interrupted unsafe phase ${state.phase}; inspect GitHub/worktree and explicitly recover`);
   } catch (error) {
-    move(state, 'BLOCKED', { blocker: error.message }); save(state);
+    move(state, 'BLOCKED', { blockedFrom: state.phase, blocker: error.message }); save(state);
   }
   return state;
 }
@@ -266,9 +271,10 @@ function refreshHandoffCaches(state, event) {
   const status = fs.readFileSync(statusFile, 'utf8').replace(/current task \*\*[^\n]+/, `current task **${state.taskId}: done — Work review, merged commit and SSOT readback verified**.`)
     .replace(/revision `[^`]+`/, `revision \`${event.revision}\``).replace(/synced \*\*[^*]+\*\*/, `synced **${now()}**`);
   fs.writeFileSync(briefFile, brief);
-  fs.writeFileSync(statusFile, status + `\n## ${state.taskId} — engineering loop checkpoint\n\nWork PASS for ${state.commitSha}; PR ${state.prUrl}; SSOT revision ${event.revision}. Verified done IDs: ${event.doneIds.join(', ')}. Historical checkpoints above remain historical.\n`);
+  const note = `Work PASS for ${state.commitSha}; PR ${state.prUrl}; SSOT revision ${event.revision}. Verified done IDs: ${event.doneIds.join(', ')}. Historical checkpoints above remain historical.`;
+  fs.writeFileSync(statusFile, status.includes(note) ? status : status + `\n## ${state.taskId} — engineering loop checkpoint\n\n${note}\n`);
   git(ROOT, 'add', '--', 'docs/implementation/brief.md', 'docs/implementation/status.md');
-  git(ROOT, 'commit', '-m', `docs: sync ${state.taskId} SSOT checkpoint`);
+  if (git(ROOT, 'diff', '--cached', '--name-only')) git(ROOT, 'commit', '-m', `docs: sync ${state.taskId} SSOT checkpoint`);
   git(ROOT, 'push', 'origin', config().baseBranch);
 }
 
@@ -312,6 +318,18 @@ async function main() {
       const prior = stateOrNull(); requireThat(!prior || prior.phase === 'DONE', 'An execution already exists; do not overwrite it');
       save(newExecution(synthetic, source(), 'dry-github'));
       console.log(JSON.stringify(await step(), null, 2));
+    } else if (action === 'recover') {
+      const state = stateOrNull(), cfg = config();
+      requireThat(state?.phase === 'BLOCKED', 'No BLOCKED execution to recover');
+      const target = process.argv[3];
+      requireThat(['SOURCE_WAIT', 'REVIEW_WAIT', 'MERGE_WAIT', 'SSOT_WAIT'].includes(target) && target === state.blockedFrom,
+        'Recovery is allowed only to the prior stable wait phase; interrupted writes need manual inspection');
+      const gh = new GitHub(ROOT, cfg.repository);
+      await reconcile(state, cfg, gh, source());
+      if (target === 'SOURCE_WAIT') state.consumedComments = state.consumedComments.filter(id => id !== state.sourceAttestation?.commentId);
+      move(state, target, { blocker: null, deadline: deadline(cfg) }); save(state);
+      await gh.comment(state.pr, `CSH_LOOP_RECOVERY\nOperator resumed ${state.taskId} from ${target}; please re-read the latest request/live source before responding.`);
+      console.log(JSON.stringify(state, null, 2));
     } else if (action === 'step') console.log(JSON.stringify(await step(), null, 2));
     else if (action === 'run') {
       const cfg = config(); let completed = 0;
@@ -322,7 +340,7 @@ async function main() {
         if (state.phase === 'DONE') { completed++; if (state.mode === 'dry-github') break; }
         if (completed < cfg.maxTasksPerRun) await new Promise(resolve => setTimeout(resolve, Math.min(cfg.pollSeconds, 60) * 1000));
       }
-    } else throw new Error('Commands: doctor, status, pick, dry-run, dry-github, step, run, pause, stop, resume');
+    } else throw new Error('Commands: doctor, status, pick, dry-run, dry-github, step, run, pause, stop, resume, recover PRIOR_WAIT_PHASE');
   } finally { release(); }
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main().catch(e => { console.error(JSON.stringify({ phase: 'BLOCKED', blocker: e.message })); process.exitCode = 1; });

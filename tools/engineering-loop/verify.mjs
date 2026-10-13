@@ -86,7 +86,6 @@ export async function dryRun() {
   const evidence = { mode: 'local-simulation', at: new Date().toISOString(), scope: 'Real local Git/files/state; simulated GitHub/Work/Codex adapters',
     noExternalWrites: true, noModelCalls: true, passed: results.filter(r => r.passed).length, total: results.length, results, transcript, directory: dir };
   writeJson(path.join(dir, 'evidence.json'), evidence);
-  writeJson(path.join(ROOT, 'docs', 'engineering-loop', 'dry-run-evidence.json'), { ...evidence, directory: '.engineering-loop/dry-runs (ignored local artifacts)' });
   assert.equal(evidence.passed, evidence.total, 'Dry-run verification failed');
   return evidence;
 }
