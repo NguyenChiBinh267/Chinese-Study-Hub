@@ -1,0 +1,1560 @@
+{
+  "schemaVersion": 1,
+  "documentId": "1frjm6ZWnrBzLV9tZ4xiCQmiF83-QhMu322ntpmJRn30",
+  "sourceUrl": "https://docs.google.com/document/d/1frjm6ZWnrBzLV9tZ4xiCQmiF83-QhMu322ntpmJRn30",
+  "version": "v1.1",
+  "revision": "AHj4eMTRwJbEwy0-KTvCTLLRAhi79Zwo0Ool8CV1B9Kq77PWTzNsRIVStWII_Qzh4-nfCkWB-WoeC_QG_1gE4u_oFtkspt_hm0boVRAhBmM",
+  "fetchedAt": "2026-10-13T12:25:00.769Z",
+  "activeRelease": "M0",
+  "activeIds": [
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T006",
+    "T007",
+    "T008",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013",
+    "T014",
+    "T015",
+    "T016",
+    "T017",
+    "T018",
+    "T019",
+    "T020",
+    "T021",
+    "T022",
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T052",
+    "T053",
+    "T064",
+    "T065",
+    "T066",
+    "T067",
+    "T068",
+    "T069"
+  ],
+  "common": [
+    "2.3. Coding entry packet — M0 online, fees0, owner-only",
+    "v1.1 current release=M0/v0.1. Hard constraint: Monthly recurring cash cost=$0 và one-time service costs=$0; build/infra/deploy/CI/CD/AI/speech đều no-billing/no paidfallback. App trước mắt cho đúng owner trên Android/Windows browser. Giữ Next.js/TypeScript/Supabase/FSRS/mastery/weekly planner và content provenance. Chưa khóa hosting: ADR006/T069. Không yêu cầu offline sync, multi-device lease, microphone, AI, full backup automation để dùng bài đầu tiên.",
+    "M0 exact active set34 IDs: T001, T002, T003, T004, T005, T006, T007, T008, T009, T010, T011, T012, T013, T014, T015, T016, T017, T018, T019, T020, T021, T022, T023, T024, T025, T026, T052, T053, T064, T065, T066, T067, T068, T069. T007/T008 chỉ M0 schema subset; mục5 vẫn long-term full design. T009 runtime proof là security blocker trước core data commands; không mua add-on/bỏ RLS/service_role để bỏ qua. T069 trước final host lock/T053; T068 trước cloud/provider setup. Content fixture4 micro-lessons F01/F02/L001/L002 đủ slice, không full corpus trước pilot.",
+    "Document preservation: HSK facts/curriculum/mastery/FSRS/AI pedagogy, database design và security giữ. Các chi tiết offline/cache/download/lease/sync và availability fallback trong4–10 chỉ activate v0.3; nếu đoạn cũ viết offline 'P0/MVP', scope gate hiện hành là11/12.6/14. M0 lost network là chưa lưu→explicit error/retry khi online, không durable offline. Lập lịch tuần vẫn algorithm thường, AI không chấm/unlock/planner.",
+    "Cách giao: T001 tạo brief/status nhỏ từ packet này +11/12.6/14.1, kèm Doc URL/revision. Một task ID/lượt và chỉ sections liên quan; không build future tables/features vì thấy trong master design. Dữ liệu học liệu chưa hoàn chỉnh; mỗi bài có scope/key/audio/license/review trước publish; AI không tự xuất bản. Không scope exception làm mất safety/rights/semantic correctness.",
+    "11. Implementation Roadmap",
+    "11.1. Phạm vi giao code và release sequence v1.1",
+    "PH0 decisions/rights/free audit: T001–T005,T068; PH1 scaffold/auth/DB proof: T006–T012,T069 benchmark host. PH2/M0 v0.1 online: T013–T026,T064–T067,T052–T053. Chính xác34 Task IDs là M0 activation set ở12.6; task families vẫn chia bài/batch nhỏ. Không gọi toàn backlog là MVP. T069 host-specific proof sau scaffold/RLS/auth, trước final lock ADR006/T053. T009 feasibility trước user-data APIs; giữ least privilege/RLS, không service_role fast path.",
+    "PH3/M1 v0.2: T032–T039,T041–T045,T061 → foundation F01–F05, HSK1 curriculum có coverage+review, luyện viết, tutor explain/correct/text roleplay/memory/consent/evals, unit diagnostic và pilot. Corpus authoring không chờ tutor để publish; M1 release mới cần evaluation/provider flags rõ. Không T027–031/T040 prerequisite. Tutor quota0 không chặn các chức năng core, không hạ chuẩn đáp án/eval.",
+    "PH4/M2 v0.3: T027–T031,T040,T070 → PWA install/download/offline/outbox/lease/conflicts, record/playback; STT nếu actual free capability phù hợp, thiếu thì self-record+typed fallback. Multi-device scheduling contract giữ ở ADR004/4.4 và chỉ triển khai lúc này, không tự mở đồng bộ ghi đồng thời nhiều thiết bị hơn spec. T059 voice tutor P2 optional; T057/T058 pronunciation scoring deferred đến có validated free evidence.",
+    "PH5/M3 v0.4: T046–T048 HSK2; PH6/M4 v0.5: T049–T051 HSK3; PH7/M5 v1.0: T054–T056 HSK4. HSK1 quality gate trước full levels cao; mapping/authoring sau M1 có thể chuẩn bị song song với offline, release HSK2 sau M2 theo T048. Official-format exam/readiness cần verified blueprint/rights, thiếu thì internal practice labels. T060 optimizer P2; T062–T063 multi-user/hosting-scale ngoài current personal scope.",
+    "11.2. Dependencies và work lanes",
+    "M0 critical path rút gọn: T001→T002/T068→T003→T006→T007/T008→T009→T010/T011→core grade/evidence/review→weekly planner→T026→T052→T053. T069 chạy sau T006/T009/T010/T011/T068, cần hoàn tất trước T053. Exact dependencies nằm ở mỗi task; parser audit M0 transitive closure không chứa T027–031/T040 hoặc tasks M1+.",
+    "Song song khi contracts freeze: T007/T008 migration ownership phối hợp; content T014/T016 với UI T012/T017; pure T019/mastery và T022/FSRS; T069 host benchmark với content/UI online nếu không đổi DB contract. Tuần tự: role/RLS proof trước core data commands; reviewed keys trước grading; FSRS tx trước scheduling; HSK1 pilot trước higher-level full corpus; model eval trước tutor modes enable. Không parallel edits cùng migration/contract mà thiếu owner/merge review.",
+    "11.3. Milestones, estimates và release gates",
+    "M0 chạy thử: user mở online Android/Windows, chọn quỹ giờ, F01/F02/L001/L002, nghe/làm bài/chấm, đóng-mở lại vẫn đúng attempts/progress/cards, ôn FSRS/next action và basic free deploy. Không cần app install, offline, microphone, AI hoặc enterprise monitoring. Release safety giữ idempotency/auth/RLS/transaction/keys/license/basic CI và snapshot trước migrations; test mobile/desktop online thực.",
+    "M1: complete reviewed HSK1 + learning pilot và tutor text evaluated/free privacy; M2: offline/sync chaos/device UAT + recordings/free STT capability và ops T070; M3/M4/M5: từng level coverage/holdout/skill grading/evidence và regression suite theo scope. Không mark bộ từ vựng/migrations hoàn thành như toàn khóa học hoàn thành; từng published lesson có reviewers/rights/answer/audio evidence.",
+    "Ước lượng [A] sau đo throughput: PH0–PH1 khoảng3–7 ngày; PH2 khoảng1–2 tuần; PH3 khoảng3–6 tuần do content/review; PH4 khoảng1–2 tuần; HSK2/3/4 authoring cần estimate theo actual lesson throughput. Không deadline/cam kết, lịch build khác lịch học6–8 tháng. Nếu task>6h chia instance trước làm; tránh giải quyết thêm future schema/ops để 'xong cả spec' trong M0.",
+    "Source precedence v1.1: activation/criteria ở2.3,11,12.6,14 quyết định release scope. Các thiết kế chi tiết offline/PWA/speech/ops trong4–10 là long-term specification, không đồng nghĩa P0-M0. Những ngưỡng an toàn/bản quyền/độ đúng/RLS/FSRS/mastery không được giảm khi thu scope.",
+    "12. Atomic Task Backlog",
+    "12.1. Cách đọc và giới hạn atomic task",
+    "Backlog v1.1 gồm70 Task IDs, giữ IDs cũ và thêm T069 hosting benchmark, T070 ops mở rộng. Task chưa làm pending; deferred theo labels. M0 chỉ active34 task entries/families trong12.6; mọi dependency phải nằm trong M0 closure. Phần còn lại là backlog dài hạn, không giao toàn bộ cho coding agent. Chi tiết architecture/data/curriculum/security giữ; phiên bản kích hoạt mục11/12.6/14 có ưu tiên hơn mô tả 'P0/offline' cũ trong các specifications future.",
+    "14.1. M0/v0.1 — Online learning acceptance",
+    "[ ] Active34 M0 IDs ở12.6 done đúng subset, dependency closure sạch future/offline. [ ] T068 hardfees0/no trial/billing/paid fallback và owner-only. [ ] T069 actual free host benchmark+T009 custom role/RLS/pool proof, ADR006 final selection recorded trước T053.",
+    "[ ] F01/F02/L001/L002 có objective/prerequisite/source/rights/review/audio/accepted answers. [ ] Owner login → chọn giờ/tuần/preview → today → lesson/listen/exercise → server grade → immutable attempts/mastery → cards/FSRS → next block/dashboard. [ ] Missing AI không chặn flow; corpus chưa full HSK1 hiển thị slice.",
+    "[ ] Review/attempt writes nguyên tử, duplicate retry/same key/concurrent version/crash-after-commit không mất/nhân đôi dữ liệu đã ack; client không quyết score; pool context clear; RLS/owner/CSRF/XSS/secret tests pass. [ ] Lost network: chưa ack không báo saved, retry khi online, không claim durable offline.",
+    "[ ] Weekly budget/cap/skip-day invariants; time events không cộng trùng; sparse data không giả forecast; skill mastery khác card recall. [ ] Android/Windows browser online audio/input/layout/core a11y, reopen progress đúng; basic local/CI checks+build/smoke pass.",
+    "[ ] Deploy commit/lockfile trên free host đã chọn; migrations credential tách runtime, manual encrypted snapshot + small read/restore test, rollback/redeploy hướng dẫn. [ ] Không yêu cầu cloud staging riêng, automated retention/uptime dashboard, full performance matrix, mic/STT, package/outbox/lease/conflict. Những phần đó không là nguyên nhân trì hoãn M0.",
+    "14.2. M1/v0.2 — HSK1 + text tutor",
+    "[ ] T032–039,T041–045,T061 done; F01–F05/HSK1 task/topic/word/grammar/character coverage reviewed. [ ] Writing state không tracing=mastery; unit diagnostics held-out/answer quality; 14-day delayed-transfer pilot có evidence. [ ] Tutor explain/correct/roleplay tiếng Việt/memory consent + GeminiFree source/schema/eval; paid routes off, quota0 approved fallback. Nếu chưa free/eval thì feature disabled rõ, không quảng cáo đã có validated Tutor.",
+    "[ ] Core grading/mastery/unlock/planner/FSRS independent of AI. [ ] Export/delete/turn/memory TTL và privacy tested. [ ] Không T027–031/T040 dependency; nội dung HSK1 có thể publish trước tutor, M1 scope release có gate riêng. Không offline/speech checks để chặn text tutor.",
+    "14.3. M2/v0.3 — Offline và speaking practice",
+    "[ ] T027–031,T040,T070 done, basic M0/M1 regression giữ. [ ] Install/download/checksum/outbox/72h lease/conflict/replay clock/version/duplicates và real-device chaos tested; auth cache logout không leak. [ ] Mic/record/playback/missing voice/STT availability/privacy; free STT optional labeled, transcript không tone score. [ ] Backup/restore version/evidence/tombstones và measured cadence theo T070.",
+    "14.4. M3–M5 — HSK2 đến HSK4",
+    "[ ] v0.4/M3 T046–048; v0.5/M4 T049–051; v1.0/M5 T054–056. Mỗi level full published lesson coverage+review+holdout/rubrics, không chỉ vocab count. Official mock/readiness cần đúng version/rights/verified blueprint; AI provisional không được xếp secure/pass. Speaking/writing thiếu evidence hiện unknown.",
+    "[ ] Owner-only/free-only vẫn giữ; relevant CI/security/data/UX/regression pass mỗi release. T057/T058 automated tone scoring chỉ activate sau validated free candidate; T059/T060 optional, T062/T063 deferred. Mục tiêu HSK4 là evidence/learning-based, không guarantee từ ngày/giờ.",
+    "15.1. SSOT và tiết kiệm context",
+    "Doc này là SSOT cho scope, architecture, schema/API/engine contracts và thứ tự. Repo về sau chỉ chứa implementation artifacts và bản tóm tắt/cache có source Doc URL + revision/lastSyncedAt; không tự biến docs/plan.md thành plan authoritative khác. AGENTS.md ≤600 tokens: SSOT URL, module boundaries, required checks, task handoff policy. Brief ≤1.200 tokens: stack/ADRs/M0 scope/open gates. Status nhỏ: current task, done IDs, evidence link, next dependencies.",
+    "Phiên Codex đầu chỉ đọc entry packet2.3, ADR005/006/007, roadmap11, active index12.6, checklist14.1 và task T001; dữ liệu/learning/security đọc thêm sections cần cho task cụ thể. Không yêu cầu mọi phiên nạp toàn tài liệu. Brief≤1.200tokens + status cache≤600tokens, links/SSOT revision và activeRelease=M0. Task data đọc5/ADR002; learning6/4.2; tutor7/privacy; offline4.4 chỉ khi v0.3 được kích hoạt. Revision changed→đọc change log/affected sections trước tin cache.",
+    "Connector Docs availability khác nhau giữa Work/Codex sessions. Nếu phiên triển khai không có Docs connector: owner cung cấp approved export/snapshot với revision, dùng cache read-only để code task; thay đổi kế hoạch giữ pending proposal, không claim đã sửa SSOT. Phiên có connector phải reconcile và cập nhật Doc trước architecture/scope change được coi accepted. Không yêu cầu Claude/Codex đọc Google Docs bằng scraping hoặc unofficial endpoints.",
+    "15.2. Task execution protocol",
+    "Nhận một Task ID và kiểm dependencies done + release/version. Đọc đúng phần SSOT/contracts; inspected repo state không reset user edits. Tạo implementation plan ngắn, làm trong scope; test targeted required; report changed files/evidence/risk. Nếu dependency chưa đạt, làm phần không phụ thuộc hoặc chọn task ready; không lén thiết kế lại. Nếu code cần schema/API/engine change: ghi proposal impact + tests + updated ADR/task scope, sửa SSOT khi đã authorized rồi triển khai.",
+    "Cuối task cập nhật status trong Doc: ID, trạng thái done/blocked/in-progress, ngày, commit/artifact, test evidence, residual risks, next ready IDs. Nhánh/repo nhỏ có implementation status cache để tránh mỗi phiên đọc toàn Doc; cache liên kết nguồn và không ghi kiến trúc trái plan. Mỗi task có checkpoint giới hạn vài bullet, không đưa full logs vào brief. Hai task cùng schema/API merge tuần tự; content lane có owner và bounded instances.",
+    "15.3. Task đầu tiên nên giao",
+    "Task đầu vẫn T001: tạo brief/status/AGENTS từ v1.1 chỉ chứa M0 active34 IDs, future70-ID index bằng links và gates. Sau T001→T002/T068/T004/T005→T003; code scaffold T006 và DB proof T009 trước học modules; T069 sau minimal scaffold/auth/RLS, trước khóa host/T053. Không giao toàn bộ backlog70 IDs. Đây là hướng dẫn tương lai, chưa tạo repo/code ở phiên sửa plan.",
+    "Prompt: “Dùng Master Plan v1.1 tại Doc này làm SSOT. Chỉ T001: brief≤1.200tokens, AGENTS≤600tokens, status currentRelease=M0/34 active IDs ở12.6 và gates T068/T009/T069; links tới70-ID future backlog. Không code feature/offline/paid API/billing/hosting setup; ADR006 pending benchmark. Đọc scope/checklist/revision/task sections cần, không auto triển khai future tasks. Update SSOT status khi được authorized và connector available.”",
+    "15.4. Final consistency review và change log",
+    "Review ngày 13/10/2026: schema/API/backlog cùng stable IDs + immutable versions; attempt/review/sync dùng owner+idempotency và chung command; mastery tách FSRS/AI/provisional; nextAction deterministic; offline public practice keys không leak secure mock keys; tutor chỉ read-only evidence; quota ledger/reservation có entities và task; rights/source publish gates trước content; HSK1 trước HSK2–4; backup bao gồm Storage.",
+    "Điều chỉnh trong review: T061 privacy được kéo vào M1 gate thay vì chờ PH8; PH4 roadmap bao gồm T061 trước promotion. T005 done có thể là hồ sơ verified/unverified rõ, không ép bịa blueprint; T039 done là evaluation+mode gating, không imply failing modes enabled. Content family instances materialize trước làm, bounded scope, không nhận toàn level một task. Không có cycle giữa T061 và T045 sau dependency cập nhật.",
+    "Change log v1.0/13-10-2026: net-new plan, 6 ADR, 9 phases PH0–PH8, 63 backlog entries/families, source evidence; status all pending. Open gates: nguồn/quyền cụ thể khi import; qualified reviewer; new exam blueprint/scoring/speaking details; actual provider price/access/region; runtime-role pool compatibility; real device/pilot measurements. Các gate có owner/task rõ, không chặn việc lập kế hoạch.",
+    "Change log v1.0 — weekly-planner revision/13-10-2026: user yêu cầu tự chia theo giờ học/tuần. FR01/FR14, profiles/API, UX, daily planner và forecast chuyển sang weekly budget. Bổ sung6.6, T064–T067(P0/PH2), gate M0 và S17–S18; total67 entries. Giữ IDs cũ và6 ADR; thay daily_minutes bằng weekly preferences, thêm plan/block/time evidence schema. History change log63 entries là trạng thái bản gốc, không task count hiện tại.",
+    "Change log v1.0 — free-only personal revision,13/10/2026: owner-only và phí0 toàn build/infra/deploy/CI/CD/features. Hủy budget20+5USD; sửa ADR002/005/006, thêm ADR007/4.5/T068. Defaults Vercel Hobby/Supabase Free/GitHub Free/Gemini Unpaid; speech local/browser, chấm thanh điệu deferred. Tổng68 IDs/7 ADR; logs63/67 là lịch sử. Quota ledger dùng request/token/service_fee=0, auth owner allowlist/no paid SMTP, staging/backup local. OpenAI/Azure/Render references lịch sử, không implementation hiện hành. Terms/limits kiểm lại trước triển khai.",
+    "Change log v1.1/13-10-2026: cập nhật review online-first. Rename cùng Google Doc/SSOT từ v1.0→v1.1, không tạo plan duplicate. M0 online34 IDs, offline/speaking v0.3; host ADR006 pending actual T069 benchmark; T070 advanced ops sau M0. Hardfees0/GeminiFree/owner-only từ revision trước giữ. Tổng70 task IDs và7 ADR; core HSK/database/learning/security/AI pedagogy giữ nguyên. Đã sửa dependency M0/M1 để không kéo T027–031/T040/T070 vào release sớm; task/code/benchmark/cloud chưa thực hiện."
+  ],
+  "tasks": [
+    {
+      "id": "T001",
+      "title": "T001 — Handoff SSOT và decision register [P0/PH0]",
+      "release": "M0",
+      "dependencies": [],
+      "status": "done",
+      "spec": [
+        "T001 — Handoff SSOT và decision register [P0/PH0]",
+        "Mục tiêu/phạm vi: Đóng gói brief triển khai trỏ đúng Doc này; không thiết kế mới.",
+        "Module/file dự kiến: docs/implementation/brief.md; docs/implementation/status.md; AGENTS.md (tương lai). Phụ thuộc: Không.",
+        "Bước triển khai: Đọc mục 1–4,10–15; ghi version/revision/source URL; liệt kê accepted/open gates; tạo task index có trạng thái pending.",
+        "Acceptance criteria: SSOT v1.1 link/revision,7 ADR(status ADR006 pending benchmark), owner-only/fees0,70IDs và exact34 M0 active tasks; brief có defer list, không copy cả Doc vào AGENTS.",
+        "Test cases: Đối chiếu task IDs/links; stale-revision scenario phát hiện; đọc brief trong phiên mới hiểu scope.",
+        "Definition of Done: DoD chung + handoff ≤1.200 tokens, không mất ràng buộc; cập nhật Doc sau khi tạo khi được phép.",
+        "Trạng thái T001: done — 13/10/2026 (Asia/Saigon). Evidence local tại workspace D:\\Chinese-Study-Hub: AGENTS.md; docs/implementation/brief.md; docs/implementation/status.md. Kiểm chứng: đọc SSOT v1.1 hiện tại; 7 ADR đúng trạng thái (hosting ADR-006 pending T069, content-versioning Accepted); M0 đúng 34 IDs, dependency closure trong M0; activation buckets bao phủ 70 IDs duy nhất, không thiếu/trùng; owner-only/phí một lần và định kỳ 0; tutor chữ v0.2, offline/sync/ghi âm v0.3; cache có URL/revision/thời điểm và quy tắc refresh khi revision đổi; luồng đọc AGENTS → brief → status rõ scope; không secrets/logs dài. Giới hạn: chưa đo chính xác tokens bằng tokenizer; không có code/app/runtime/device/cloud benchmark trong T001, các gate tương ứng vẫn pending/unverified. Next ready: T002 hoặc T004 (chỉ phụ thuộc T001); T068 cần thêm T002. Không bắt đầu task tiếp theo."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T002",
+      "title": "T002 — Source và license register [P0/PH0]",
+      "release": "M0",
+      "dependencies": [
+        "T001"
+      ],
+      "status": "done",
+      "spec": [
+        "T002 — Source và license register [P0/PH0]",
+        "Mục tiêu/phạm vi: Xác minh S01/S03 và một nguồn audio/chữ candidate; không import corpus.",
+        "Module/file dự kiến: content/sources/register.json; docs/implementation/rights.md. Phụ thuộc: T001.",
+        "Bước triển khai: Đọc nguồn primary; ghi source/version/date/locator; đọc đúng license snapshot; chọn original-reviewed nếu unknown; ghi attribution và reviewer gate.",
+        "Acceptance criteria: Mọi candidate có allowed/restricted/unknown và evidence; unknown không thành published; tách code/data licenses.",
+        "Test cases: Public PDF không license test; missing terms blocked; Hanzii không xuất hiện như API/source sao chép.",
+        "Definition of Done: DoD chung + source table trong SSOT cập nhật, chưa hứa commercial rights.",
+        "Trạng thái T002: done — 13/10/2026 (Asia/Saigon). Evidence tại D:\\Chinese-Study-Hub: content/sources/register.json (7 metadata records), docs/implementation/rights.md; docs/implementation/status.md cập nhật. Đã đối chiếu CTI overview/Legal Notice; PDF riêng S01-VOCAB bìa trang 1 ghi 2025-11 phát hành/2026-07 áp dụng, không thay exact S01 1219.pdf còn lỗi đọc trực tiếp. S03 tên/mã GF0025-2021, ngày thông báo 2021-03-31, hiệu lực 2021-07-01 và mục đích framework qua chỉ mục nguồn MOE; HTML/attachment đầy đủ và URL S03 thứ hai unverified. Không trộn framework với exam syllabus hoặc suy blueprint/counts. Audio Yoyo Chinese Pinyin Chart quảng bá Free nhưng quyền reuse app/PWA, attribution/derivatives/commercial và chất lượng chưa xác minh: reference-only/unknown. S08-code MIT; S08-data Arphic Public License riêng, allowed có điều kiện notices/derivatives, chưa pin/import/review/publish. JSON/metadata/unique IDs/evidence refs/URL syntax/unknown-rights gates/code-data license separation kiểm tra pass; checksum/reviewer approvals null, AGENTS.md và brief.md giữ nguyên SHA-256. Phí 0; không corpus/lessons/dependencies/accounts/resources/AI calls. T002 register complete; downstream gates T005 exact sources/blueprint, T014 mapping/provenance/rights, T016 original free audio + competent review, T068 actual eligibility/quota/no-billing vẫn pending. Next ready: T005 (T002), T068 (T001+T002), T004 (T001); chưa bắt đầu task khác. Chỉ thêm trạng thái T002, không sửa ADR/roadmap/release hoặc task khác."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T003",
+      "title": "T003 — Contract freeze v1 [P0/PH0]",
+      "release": "M0",
+      "dependencies": [
+        "T001",
+        "T068"
+      ],
+      "status": "pending",
+      "spec": [
+        "T003 — Contract freeze v1 [P0/PH0]",
+        "Mục tiêu/phạm vi: Freeze contracts cho M0 online và DB/security boundaries; future offline contracts tham chiếu, không triển khai.",
+        "Module/file dự kiến: docs/implementation/contracts.md; src/shared/contracts (spec). Phụ thuộc: T001,T068.",
+        "Bước triển khai: Chốt owner/IDs/content/grade/FSRS/weekly APIs/idempotency/errors; runtime role/tx claims prototype criteria trước learning endpoints. Hosting host-specific options pending T069; nếu role Free không chạy, sửa data-access ADR và test trước modules, tuyệt đối không service_role bypass.",
+        "Acceptance criteria: API mục 4 khớp entities mục 5; không đường cho client ghi score; runtime không BYPASSRLS.",
+        "Test cases: Walkthrough attempt/review/conflict; forged owner và pool reuse được mô tả; chưa code cần không gọi provider.",
+        "Definition of Done: DoD chung + nếu role không khả thi ghi ADR sửa trước T009."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T004",
+      "title": "T004 — UX flow slice [P0/PH0]",
+      "release": "M0",
+      "dependencies": [
+        "T001"
+      ],
+      "status": "pending",
+      "spec": [
+        "T004 — UX flow slice [P0/PH0]",
+        "Mục tiêu/phạm vi: Đặc tả wireframe/state bằng tài liệu, không yêu cầu Figma riêng.",
+        "Module/file dự kiến: docs/implementation/ux-slice.md. Phụ thuộc: T001.",
+        "Bước triển khai: Mô tả weekly budget/availability/preview và today/player/review/resume/conflict; tokens/a11y; rà 360px/keyboard; labels Việt.",
+        "Acceptance criteria: Mỗi màn có loading/empty/error/offline; một CTA học tiếp; không action cần AI để qua bài.",
+        "Test cases: Walkthrough người mới chọn next trong ≤10s; ratings hiểu; denied audio vẫn tiếp tục.",
+        "Definition of Done: DoD chung + flow A–D trace được vào backlog."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T005",
+      "title": "T005 — Exam version evidence gate [P0/PH0]",
+      "release": "M0",
+      "dependencies": [
+        "T002"
+      ],
+      "status": "pending",
+      "spec": [
+        "T005 — Exam version evidence gate [P0/PH0]",
+        "Mục tiêu/phạm vi: Đối chiếu đề cương và blueprint 11/2025; xác định phần chưa xác minh.",
+        "Module/file dự kiến: content/sources/exam-register.json; docs/implementation/exam-gaps.md. Phụ thuộc: T002.",
+        "Bước triển khai: Đọc PDF bìa/mục lục và official samples/thông báo; tách old page; ghi counts/duration/scoring có locators; thiếu thì state unverified.",
+        "Acceptance criteria: hsk-exam-2025-11 khác gf0025-2021; sample chưa đọc không bịa; official mock chưa bật nếu thiếu evidence.",
+        "Test cases: Conflict 100-question old HSK4 không override new blueprint; source changed checksum flagged.",
+        "Definition of Done: DoD chung + facts/open gates trong SSOT; unverified được chấp nhận cho slice."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T006",
+      "title": "T006 — Project scaffold & CI baseline [P0/PH1]",
+      "release": "M0",
+      "dependencies": [
+        "T003",
+        "T004",
+        "T068"
+      ],
+      "status": "pending",
+      "spec": [
+        "T006 — Project scaffold & CI baseline [P0/PH1]",
+        "Mục tiêu/phạm vi: Khởi tạo app tối thiểu khi bước sang triển khai; không học engine ở task này.",
+        "Module/file dự kiến: package.json; lockfile; tsconfig; eslint; src/app; .github/workflows/check.yml. Phụ thuộc: T003,T004,T068.",
+        "Bước triển khai: Supported OSS versions/strict TS/boundaries; env no-billing/free-only profile; GitHub Ubuntu standard CI cap/cancel/artifact TTL; local commands parity; không dùng premium registry/build tool.",
+        "Acceptance criteria: Build sạch, module imports đúng, env missing báo rõ không in secret; lockfile duy nhất.",
+        "Test cases: CI wrong import/invalid env fail; clean checkout build; landing smoke.",
+        "Definition of Done: DoD chung + pin versions/runtime và README setup, không credential plaintext."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T007",
+      "title": "T007 — Content schema migration [P0/PH1]",
+      "release": "M0",
+      "dependencies": [
+        "T006",
+        "T002"
+      ],
+      "status": "pending",
+      "spec": [
+        "T007 — Content schema migration [P0/PH1]",
+        "Mục tiêu/phạm vi: M0 migration subset cho source/license/syllabus/release/concepts, F01–F02/L001–L002 lesson/exercise/answer/media chains. Không migrate toàn bộ long-term catalog ở mục5 ngay.",
+        "Module/file dự kiến: supabase/migrations/*_content.sql; src/shared/db/types.ts. Phụ thuộc: T006,T002.",
+        "Bước triển khai: Chỉ tables/columns/FKs/index cần phục vụ slice; frozen schema design mục5 giữ; full course/topic/grammar/character catalog khi T043/T032 cần. Private answer keys/published read/immutability/source review vẫn bắt buộc. Sinh types từ schema thực; no artificial dummy tables để đủ toàn spec.",
+        "Acceptance criteria: Fresh DB có chain version immutable và source refs; FK/unique đúng; runtime chưa đọc keys tùy ý.",
+        "Test cases: Duplicate stable version fail; invalid release refs fail; delete attempted version restrict.",
+        "Definition of Done: DoD chung + fresh/upgrade/constraints/types subset evidence; T007 done nghĩa M0 baseline, không toàn database mục5 đã được xây."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T008",
+      "title": "T008 — Learner/review schema migration [P0/PH1]",
+      "release": "M0",
+      "dependencies": [
+        "T006"
+      ],
+      "status": "pending",
+      "spec": [
+        "T008 — Learner/review schema migration [P0/PH1]",
+        "Mục tiêu/phạm vi: M0 owner/profile/session/attempt/events/mastery/card/log/idempotency schema; chưa device lease/outbox/tutor/exam/jobs/organization.",
+        "Module/file dự kiến: supabase/migrations/*_learning.sql; src/shared/db/types.ts. Phụ thuộc: T006.",
+        "Bước triển khai: Core learner/review tables + owner_seq/composite FKs/ratings/scores/version/indexes; time planner extension T064. Device identity tối thiểu nếu time event cần; lease/sync_events chỉ T029/v0.3.",
+        "Acceptance criteria: Cross-owner session/card links bị DB reject; due index có; append-only evidence privileges.",
+        "Test cases: A attempt→B session reject; rating0/5 reject; duplicate event/card template reject.",
+        "Definition of Done: DoD chung + synthetic test fixtures và migration pass."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T009",
+      "title": "T009 — RLS runtime role & scoped transaction [P0/PH1]",
+      "release": "M0",
+      "dependencies": [
+        "T007",
+        "T008",
+        "T003"
+      ],
+      "status": "pending",
+      "spec": [
+        "T009 — RLS runtime role & scoped transaction [P0/PH1]",
+        "Mục tiêu/phạm vi: Áp RLS private schema, least privilege và context isolation.",
+        "Module/file dự kiến: supabase/migrations/*_roles_rls.sql; src/shared/db/transaction.ts; tests/security/rls. Phụ thuộc: T007,T008,T003.",
+        "Bước triển khai: Tạo role không owner/BYPASSRLS; grants private; verify uid rồi SET LOCAL via set_config; FORCE RLS; revoke exposed write; test pool reuse.",
+        "Acceptance criteria: A/B/unauth không cross-read/write; claims clear after commit/rollback; runtime không tạo admin.",
+        "Test cases: Pool A→B và failure→B; WITH CHECK spoof uid; exposed Data API blocked; admin credential không runtime.",
+        "Definition of Done: DoD chung + P0 security gate evidence; không service_role workaround."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T010",
+      "title": "T010 — Owner-only auth & profile [P0/PH1]",
+      "release": "M0",
+      "dependencies": [
+        "T009"
+      ],
+      "status": "pending",
+      "spec": [
+        "T010 — Owner-only auth & profile [P0/PH1]",
+        "Mục tiêu/phạm vi: Login/logout một owner, server-validated; reset qua admin runbook miễn phí, không email-service dependency.",
+        "Module/file dự kiến: src/modules/auth/*; src/app/(auth)/*; /api/v1/me. Phụ thuộc: T009.",
+        "Bước triển khai: Provision owner một lần qua dashboard/local admin; OWNER_USER_ID allowlist; Supabase SSR verify; signup/invites tắt; profile init/origin/CSRF; password-reset runbook không phí.",
+        "Acceptance criteria: Owner vào today; ID khác dù valid JWT blocked; signup off; invalid401; timezone valid; logout clean; không SMTP/OTP trả phí.",
+        "Test cases: Wrong password/admin reset/expired JWT/forged uid/non-owner valid JWT/two-account cache; no unexpected email/API charge.",
+        "Definition of Done: DoD chung + cookie/config documented và secret scanning pass."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T011",
+      "title": "T011 — API boundaries & idempotency primitive [P0/PH1]",
+      "release": "M0",
+      "dependencies": [
+        "T009",
+        "T010"
+      ],
+      "status": "pending",
+      "spec": [
+        "T011 — API boundaries & idempotency primitive [P0/PH1]",
+        "Mục tiêu/phạm vi: Zod contracts, errors, requestId và idempotency repository.",
+        "Module/file dự kiến: src/shared/contracts; src/shared/errors; src/modules/operations/idempotency. Phụ thuộc: T009,T010.",
+        "Bước triển khai: Validate request/error schema; payload hash; unique scoped key; response store trong command transaction; throttle primitive.",
+        "Acceptance criteria: Cùng key/payload trả outcome cũ; key khác payload409; lỗi không stack/secret; endpoint owner authenticated.",
+        "Test cases: Concurrent same key; crash-after-commit retry; malformed/large body422; wrong origin blocked.",
+        "Definition of Done: DoD chung + API tests và contracts match mục4."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T012",
+      "title": "T012 — UI shell & accessible components [P0/PH1]",
+      "release": "M0",
+      "dependencies": [
+        "T006",
+        "T004"
+      ],
+      "status": "pending",
+      "spec": [
+        "T012 — UI shell & accessible components [P0/PH1]",
+        "Mục tiêu/phạm vi: Today layout/nav/player controls chưa chứa logic học.",
+        "Module/file dự kiến: src/components; src/app/(study)/layout.tsx; theme tokens. Phụ thuộc: T006,T004.",
+        "Bước triển khai: Tokens/Radix; mobile bottom nav/desktop sidebar; error/pending primitives; lang/ruby/audio controls.",
+        "Acceptance criteria: 360px/200% zoom không horizontal overflow; 44px targets; keyboard visible focus.",
+        "Test cases: Axe critical0, tab order, empty/loading/error, mobile keyboard sticky CTA.",
+        "Definition of Done: DoD chung + manual focus/contrast evidence."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T013",
+      "title": "T013 — Lesson/exercise package validators [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T007",
+        "T003"
+      ],
+      "status": "pending",
+      "spec": [
+        "T013 — Lesson/exercise package validators [P0/PH2]",
+        "Mục tiêu/phạm vi: Schema v1 và DAG/reference/license validators.",
+        "Module/file dự kiến: src/modules/content/domain; src/modules/curriculum/domain; tests/unit/content. Phụ thuộc: T007,T003.",
+        "Bước triển khai: Zod manifest/lesson/exercise schemas; allowed types; references/versions; DAG; media hashes; publish readiness report.",
+        "Acceptance criteria: Invalid/missing refs/license/DAG bị chặn; public projection không private rubric secure item.",
+        "Test cases: Cycle/self-edge, unknown concept, missing media/answer review, stale content hash.",
+        "Definition of Done: DoD chung + valid synthetic package fixture dùng được cho API."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T014",
+      "title": "T014 — HSK source mapping proof [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T002",
+        "T005",
+        "T013"
+      ],
+      "status": "pending",
+      "spec": [
+        "T014 — HSK source mapping proof [P0/PH2]",
+        "Mục tiêu/phạm vi: Import dry-run một bounded mẫu ≤50 official entries, không toàn kho.",
+        "Module/file dự kiến: content/staging/hsk-2025-11; src/modules/content/infrastructure/import. Phụ thuộc: T002,T005,T013.",
+        "Bước triển khai: Authorized/manual mapping có locators; NFC/pinyin/sense normalization; diff+duplicate report; dry-run không publish.",
+        "Acceptance criteria: Entry giữ official sequence/version/sense; reimport cùng snapshot no-op; count tách từ/senses.",
+        "Test cases: Polyphonic/level-parentheses, ü/neutral tone, duplicate word different sense, checksum drift.",
+        "Definition of Done: DoD chung + mapping review và source report trong SSOT."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T015",
+      "title": "T015 — Session command & content read API [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T011",
+        "T013"
+      ],
+      "status": "pending",
+      "spec": [
+        "T015 — Session command & content read API [P0/PH2]",
+        "Mục tiêu/phạm vi: Mở/resume/complete session và serve published public payload.",
+        "Module/file dự kiến: src/modules/learning/application/session; src/modules/content/repository; api lessons/sessions. Phụ thuộc: T011,T013.",
+        "Bước triển khai: Create session bằng content version; ownership; resume currentStep; complete state guard; expose only published.",
+        "Acceptance criteria: Draft không truy cập learner; keys không leak; resume same session; invalid completion blocked.",
+        "Test cases: B user session404; stale/retired content; complete duplicate; draft lesson404.",
+        "Definition of Done: DoD chung + integration contract evidence."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T016",
+      "title": "T016 — Author slice F01–F02/L001/L002 [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T014",
+        "T013"
+      ],
+      "status": "pending",
+      "spec": [
+        "T016 — Author slice F01–F02/L001/L002 [P0/PH2]",
+        "Mục tiêu/phạm vi: Task family: mỗi instance chỉ 1 micro-lesson ≤6 senses, ≤8 items.",
+        "Module/file dự kiến: content/staging/slice/<lesson-key>; content_reviews; media sources. Phụ thuộc: T014,T013.",
+        "Bước triển khai: Instance T016-F01/F02/L001/L002: scope/references explicit; original Vietnamese draft/audio; language/answer/rights review; publish via validator.",
+        "Acceptance criteria: Mỗi bài có objective, prerequisite, approved audio/key/provenance; L001→L002 path đầy đủ.",
+        "Test cases: Peer review pinyin/tone/gloss; audio match; ambiguous item reject; no source copying.",
+        "Definition of Done: DoD chung + tất cả 4 instances approved; family gate xong khi 4 done."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T017",
+      "title": "T017 — Lesson player rendering [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T012",
+        "T013",
+        "T015",
+        "T016"
+      ],
+      "status": "pending",
+      "spec": [
+        "T017 — Lesson player rendering [P0/PH2]",
+        "Mục tiêu/phạm vi: Render schema content, audio/transcript/controls và resume UI.",
+        "Module/file dự kiến: src/modules/learning/ui/player; src/app/(study)/learn/[id]. Phụ thuộc: T012,T013,T015,T016.",
+        "Bước triển khai: Render allowed blocks; one exercise view; transcript assisted flag; local draft/currentStep; fetch error state.",
+        "Acceptance criteria: F01/L001 học được mobile; paused step resume; no autoplay violation; transcript access ghi assistance.",
+        "Test cases: No audio, wrong package version, keyboard input, refresh midway, XSS payload sanitized.",
+        "Definition of Done: DoD chung + Playwright player smoke."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T018",
+      "title": "T018 — Deterministic grading v1 [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T013",
+        "T016"
+      ],
+      "status": "pending",
+      "spec": [
+        "T018 — Deterministic grading v1 [P0/PH2]",
+        "Mục tiêu/phạm vi: Chấm chọn/sắp xếp/nhập ngắn/listening từ reviewed keys.",
+        "Module/file dự kiến: src/modules/assessment/domain/grading; normalizers; tests/unit/grading. Phụ thuộc: T013,T016.",
+        "Bước triển khai: Type-specific normalization; accepted alternatives; answer explanation; score0..1; hint/reveal flags.",
+        "Acceptance criteria: Wrong tone/sense không normalize thành đúng; no LLM call; key version pinned.",
+        "Test cases: NFC/blank/punctuation/ü/wrong tone/word order/accepted set matrix; invalid type rejected.",
+        "Definition of Done: DoD chung + all golden cases pass, documented normalization version."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T019",
+      "title": "T019 — Mastery projection rules v1 [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T018",
+        "T008"
+      ],
+      "status": "pending",
+      "spec": [
+        "T019 — Mastery projection rules v1 [P0/PH2]",
+        "Mục tiêu/phạm vi: Pure evidence eligibility/status transitions mục6.",
+        "Module/file dự kiến: src/modules/learning/domain/mastery; tests/unit/mastery. Phụ thuộc: T018,T008.",
+        "Bước triển khai: Concept×skill updates; independent filter; ≥5 independent attempts/≥3 distinct items/≥2 ngày/delayed thresholds; stale flag; engine version.",
+        "Acceptance criteria: Assisted/AI/self thẻ không secure; skills independent; deterministic replay.",
+        "Test cases: Same item twice/hint/retry excluded; 48h boundary; 3 errors needs_review; speaking unknown.",
+        "Definition of Done: DoD chung + golden transition tables và config version."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T020",
+      "title": "T020 — Persist attempt atomically [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T015",
+        "T018",
+        "T019",
+        "T011"
+      ],
+      "status": "pending",
+      "spec": [
+        "T020 — Persist attempt atomically [P0/PH2]",
+        "Mục tiêu/phạm vi: Command grade→attempt/event/mastery/cards candidates trong một transaction.",
+        "Module/file dự kiến: src/modules/learning/application/submit-attempt; api sessions/[id]/attempts. Phụ thuộc: T015,T018,T019,T011.",
+        "Bước triển khai: Lock session; validate exercise membership; grade server; insert evidence/projections; idempotency; completion update.",
+        "Acceptance criteria: Commit hoặc rollback toàn bộ; forged score ignored; duplicate exactly once; returned feedback có correct version.",
+        "Test cases: Failure after attempt insert rolls back projection; concurrent duplicate; cross-user/item session reject.",
+        "Definition of Done: DoD chung + integration rollback/concurrency evidence."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T021",
+      "title": "T021 — Feedback & lesson completion UX [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T017",
+        "T020"
+      ],
+      "status": "pending",
+      "spec": [
+        "T021 — Feedback & lesson completion UX [P0/PH2]",
+        "Mục tiêu/phạm vi: Nối player đến submit command, feedback và nextAction placeholder.",
+        "Module/file dự kiến: src/modules/learning/ui/feedback; src/app/(study)/learn/[id]. Phụ thuộc: T017,T020.",
+        "Bước triển khai: Pending states; disabled double submit; feedback/hints; complete summary skills evidence; retry when safe.",
+        "Acceptance criteria: Không hiện success trước ack; bài sai explanation rõ; offline state sẽ hookup PH3.",
+        "Test cases: Response lost/retry; submit twice; 422/401; completion partial; screen reader feedback.",
+        "Definition of Done: DoD chung + online learn→complete Playwright pass."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T022",
+      "title": "T022 — FSRS adapter versioned [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T006",
+        "T008"
+      ],
+      "status": "pending",
+      "spec": [
+        "T022 — FSRS adapter versioned [P0/PH2]",
+        "Mục tiêu/phạm vi: Wrapper ts-fsrs pure và golden fixtures.",
+        "Module/file dự kiến: src/modules/review/domain/fsrs-adapter; tests/unit/fsrs. Phụ thuộc: T006,T008.",
+        "Bước triển khai: Pin library; defaults/retention config; mapping ratings; new/learning/review/relearning transitions; fixed clock.",
+        "Acceptance criteria: Card snapshot roundtrip không mất field; scheduler.next đúng supported version; no manual formula.",
+        "Test cases: Again/Hard/Good/Easy; null lastReview; overdue; timezone; config change; supplied golden states.",
+        "Definition of Done: DoD chung + adapter/type doc và tests locked version."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T023",
+      "title": "T023 — Cards & review transaction [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T020",
+        "T022",
+        "T011"
+      ],
+      "status": "pending",
+      "spec": [
+        "T023 — Cards & review transaction [P0/PH2]",
+        "Mục tiêu/phạm vi: Tạo limited templates/cards, due query và review mutation.",
+        "Module/file dự kiến: src/modules/review/application; api reviews; repositories. Phụ thuộc: T020,T022,T011.",
+        "Bước triển khai: Eligible card creation UNIQUE; max new cap; due query; lock card/version; append log+projection+idempotency response.",
+        "Acceptance criteria: Exactly once review, stale409; before/after config persisted; ownership enforced.",
+        "Test cases: Two concurrent ratings, duplicate retry, create sibling duplicate, rollback after log insert, due index plan.",
+        "Definition of Done: DoD chung + integration/fresh migrations match FSRS."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T024",
+      "title": "T024 — Daily planner v1 [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T019",
+        "T023",
+        "T015",
+        "T065"
+      ],
+      "status": "pending",
+      "spec": [
+        "T024 — Daily planner v1 [P0/PH2]",
+        "Mục tiêu/phạm vi: Resume/overdue/remediation/next eligible deterministic plan.",
+        "Module/file dự kiến: src/modules/learning/domain/planner; api today/progress. Phụ thuộc: T019,T023,T015,T065.",
+        "Bước triển khai: Consume weekly plan blocks/budget còn lại; ưu tiên due reviews; prereq/card caps; stable tie-break; reason codes; asOf; no LLM; không tự tăng ngân sách.",
+        "Acceptance criteria: Today không vượt cap ngày/quỹ tuần còn lại; nhiều ôn giảm new=0; L002 khi eligible; unknown skill không claim ready; closed/rest day không tự thêm lesson.",
+        "Test cases: No data→F01, overdue storm, locked prerequisite, budget spent/paused/rest day, stale plan, AI disabled same plan.",
+        "Definition of Done: DoD chung + golden plan cases + API timings."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T025",
+      "title": "T025 — Review & progress screens [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T012",
+        "T023",
+        "T024"
+      ],
+      "status": "pending",
+      "spec": [
+        "T025 — Review & progress screens [P0/PH2]",
+        "Mục tiêu/phạm vi: Ratings/due/empty/overload và evidence dashboard.",
+        "Module/file dự kiến: src/modules/review/ui; src/app/(study)/reviews; progress/today. Phụ thuộc: T012,T023,T024.",
+        "Bước triển khai: Prompt/reveal/rating; display intervals; sibling bury UX; distinct secure/completed; one today CTA.",
+        "Acceptance criteria: User hiểu Again/Hard; progress không gộp AI provisional; no due shows next lesson.",
+        "Test cases: Double rating/version409/empty queue/audio fail; color-independent labels; keyboard controls.",
+        "Definition of Done: DoD chung + review end-to-end and a11y pass."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T026",
+      "title": "T026 — Online slice UAT gate [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T021",
+        "T025",
+        "T016",
+        "T067"
+      ],
+      "status": "pending",
+      "spec": [
+        "T026 — Online slice UAT gate [P0/PH2]",
+        "Mục tiêu/phạm vi: Kiểm toàn vòng học với 2 bài; chưa mở rộng corpus.",
+        "Module/file dự kiến: tests/e2e/slice-online; docs/implementation/uat-M0-online. Phụ thuộc: T021,T025,T016,T067.",
+        "Bước triển khai: Fresh user chọn 3/6/9h tuần và preview; F01/F02/L001; attempts/cards/time usage; next block; simulated delayed rule; real usability walkthrough.",
+        "Acceptance criteria: Learn→exercise→record→review→continue works, no critical issue; pilot feedback logged.",
+        "Test cases: Crash/relogin, duplicate network response, userB isolation, next day due, no AI provider.",
+        "Definition of Done: M0 online learning+weekly UAT evidence; không chờ PH4/offline. V0.1 không thể test durable offline vì chưa có tính năng này."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T027",
+      "title": "T027 — Installable PWA shell [P1/PH4 — v0.3]",
+      "release": "inactive",
+      "dependencies": [
+        "T026"
+      ],
+      "status": "pending",
+      "spec": [
+        "T027 — Installable PWA shell [P1/PH4 — v0.3]",
+        "Mục tiêu/phạm vi: Manifest/SW static allowlist và update UX.",
+        "Module/file dự kiến: src/app/manifest.ts; public/sw.js; icons; PWA components. Phụ thuộc: T026.",
+        "Bước triển khai: Install metadata/icons; HTTPS; cache shell immutable; APIs network-only; update defer during lesson.",
+        "Acceptance criteria: Android/Windows install; offline shell opens; auth/private endpoints not cached.",
+        "Test cases: SW upgrade mid-session, offline reload, logout cached state not exposed, cache inspection.",
+        "Definition of Done: DoD chung + real device install evidence, no broad catch-all cache."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T028",
+      "title": "T028 — Offline lesson package storage [P1/PH4 — v0.3]",
+      "release": "inactive",
+      "dependencies": [
+        "T027",
+        "T013",
+        "T016"
+      ],
+      "status": "pending",
+      "spec": [
+        "T028 — Offline lesson package storage [P1/PH4 — v0.3]",
+        "Mục tiêu/phạm vi: Versioned downloads và IndexedDB package install.",
+        "Module/file dự kiến: src/modules/sync/infrastructure/idb; content package API; downloads UI. Phụ thuộc: T027,T013,T016.",
+        "Bước triển khai: Dexie schema per uid; checksums/assets sizes; atomic complete; quota/LRU; local practice grade.",
+        "Acceptance criteria: Downloaded slice ready all assets, corrupt/incomplete not ready, unacked outbox untouched.",
+        "Test cases: Quota exceeded, download interrupted, wrong hash, account switch, missing audio, old schema migration.",
+        "Definition of Done: DoD chung + ≤10MB sample and offline player practice."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T029",
+      "title": "T029 — Active-device lease & outbox [P1/PH4 — v0.3]",
+      "release": "inactive",
+      "dependencies": [
+        "T028",
+        "T011",
+        "T009"
+      ],
+      "status": "pending",
+      "spec": [
+        "T029 — Active-device lease & outbox [P1/PH4 — v0.3]",
+        "Mục tiêu/phạm vi: Leases/events serialization, no FSRS multi-device merge.",
+        "Module/file dự kiến: supabase/migrations/*_sync.sql; src/modules/sync/domain; api sync/lease. Phụ thuộc: T028,T011,T009.",
+        "Bước triển khai: 72h lease/generation; explicit takeover; UUID event/clientSeq; FIFO durable enqueue; local preview version.",
+        "Acceptance criteria: Secondary writes blocked during lease; unacked events durable; expired lease practice label.",
+        "Test cases: Two tabs seq collision, device takeover offline stale lease, reload after enqueue, logout pending notice.",
+        "Definition of Done: DoD chung + lease/outbox tests and user message clear."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T030",
+      "title": "T030 — Sync server replay & reconciliation [P1/PH4 — v0.3]",
+      "release": "inactive",
+      "dependencies": [
+        "T029",
+        "T023",
+        "T020",
+        "T022"
+      ],
+      "status": "pending",
+      "spec": [
+        "T030 — Sync server replay & reconciliation [P1/PH4 — v0.3]",
+        "Mục tiêu/phạm vi: Batch ack/duplicate/reject/conflict qua cùng commands.",
+        "Module/file dự kiến: src/modules/sync/application; api sync/batch/state; conflict UI. Phụ thuộc: T029,T023,T020,T022.",
+        "Bước triển khai: ≤100 events, per-owner ordering/locks; validate timestamps/content/base version; commands reuse; rebase confirmed projections.",
+        "Acceptance criteria: Retry exactly once; stale/bad-clock events không mutate schedule; partial conflict giữ local.",
+        "Test cases: Commit lost response, invalid future time, retired content, lease generation change, baseVersion mismatch.",
+        "Definition of Done: DoD chung + rollback/chaos integration and informative UI."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T031",
+      "title": "T031 — Offline chaos & recovery gate [P1/PH4 — v0.3]",
+      "release": "inactive",
+      "dependencies": [
+        "T030",
+        "T027",
+        "T028"
+      ],
+      "status": "pending",
+      "spec": [
+        "T031 — Offline chaos & recovery gate [P1/PH4 — v0.3]",
+        "Mục tiêu/phạm vi: Acceptance chạy device thực trước v0.1.",
+        "Module/file dự kiến: tests/e2e/offline; tests/integration/sync-chaos; docs/implementation/offline-UAT. Phụ thuộc: T030,T027,T028.",
+        "Bước triển khai: Airplane mode lesson+review; crash/reopen; reconnect foreground; account swap/update; compare DB invariants.",
+        "Acceptance criteria: 0 lost/duplicate mutations toàn scenarios; pending/conflict truthful; core offline version matches.",
+        "Test cases: Mục10 sync chaos; 3 retries lost response; takeover/storage full; weekly-plan snapshot/rest day; settings offline không sửa; late offline time intervals/duplicate overlap không double-count; reconnect replan khi budget giảm, không đổi mastery/FSRS vì calendar.",
+        "Definition of Done: DoD chung + Android/Windows evidence, fixes traced task IDs."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T032",
+      "title": "T032 — Character/component data rights & adapter [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T002",
+        "T026"
+      ],
+      "status": "pending",
+      "spec": [
+        "T032 — Character/component data rights & adapter [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Chỉ 10 chữ slice/batch; license/data separate.",
+        "Module/file dự kiến: content/staging/characters; src/modules/content/character-loader. Phụ thuộc: T002,T026.",
+        "Bước triển khai: Đọc Arphic terms đúng snapshot; lưu attribution; map glyph/readings/components; preload qua own package; fallback missing glyph.",
+        "Acceptance criteria: 10 glyph có reviewed strokes/readings, no etymology invented, offline data license known.",
+        "Test cases: Polyphonic/missing strokes/mnemonic label/attributions; loading failure fallback. Offline package integration kích hoạt T028/v0.3.",
+        "Definition of Done: DoD chung + license evidence và 10-char golden set."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T033",
+      "title": "T033 — Writing practice component [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T032",
+        "T013",
+        "T019"
+      ],
+      "status": "pending",
+      "spec": [
+        "T033 — Writing practice component [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Animation/tracing/free-recall UI, không OCR general.",
+        "Module/file dự kiến: src/modules/learning/ui/writing; character exercise type. Phụ thuộc: T032,T013,T019.",
+        "Bước triển khai: Hanzi Writer adapter; touch/mouse; stroke order steps; hints/reveal labels; evidence source practice separate.",
+        "Acceptance criteria: Tracing không secure handwriting; touch scroll không bị khóa; missing glyph có alternative.",
+        "Test cases: Touch/mouse tolerance, redraw, hidden model, wrong order, keyboard/text alternative, offline.",
+        "Definition of Done: DoD chung + Android/Windows canvas UAT và truthful progress."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T034",
+      "title": "T034 — Foundation complete by lesson [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T016",
+        "T026"
+      ],
+      "status": "pending",
+      "spec": [
+        "T034 — Foundation complete by lesson [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Family T034-F03/F04/F05, mỗi instance 1 bài nhỏ.",
+        "Module/file dự kiến: content/staging/foundation; tests/content/foundation. Phụ thuộc: T016,T026.",
+        "Bước triển khai: Author original minimal pairs/sandhi/input/strokes; review audio/pinyin; approved prereqs; publish individually.",
+        "Acceptance criteria: F01–F05 đủ mục6; sandhi tách canonical/spoken; assessed discrimination và ability evidence.",
+        "Test cases: Wrong tone vs written pinyin; j/q/x/ü; 一/不/context; input mode; native-speaker audio review.",
+        "Definition of Done: DoD chung + 3 required instances published with coverage."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T035",
+      "title": "T035 — Tutor schemas & pedagogical state machine [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T003",
+        "T019",
+        "T026"
+      ],
+      "status": "pending",
+      "spec": [
+        "T035 — Tutor schemas & pedagogical state machine [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Contract/state/retrieval allowlist, chưa live provider.",
+        "Module/file dự kiến: src/modules/tutor/domain; src/shared/contracts/tutor. Phụ thuộc: T003,T019,T026.",
+        "Bước triển khai: Zod/JSON schema; mode states; lookup published snippets via concept IDs; caps/sources; unknown handling.",
+        "Acceptance criteria: Không function viết mastery/score; invalid source/concept rejected; bounded hints.",
+        "Test cases: Fake source, arbitrary tool instructions, level overflow, unsupported schema field, lesson retired.",
+        "Definition of Done: DoD chung + deterministic tutor validator tests, versioned prompts spec."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T036",
+      "title": "T036 — Learner memory consent & CRUD [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T035",
+        "T009",
+        "T010"
+      ],
+      "status": "pending",
+      "spec": [
+        "T036 — Learner memory consent & CRUD [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Evidence snapshot, explicit memory confirmation and deletion.",
+        "Module/file dự kiến: supabase/migrations/*_tutor_memory.sql; src/modules/tutor/memory; settings/memory. Phụ thuộc: T035,T009,T010.",
+        "Bước triển khai: Tables/RLS/compact evidence; confirmed memory CRUD/TTL/export; private preferences ở DB, không gửi identity/sensitive memory lên Gemini Free; consent/data minimization.",
+        "Acceptance criteria: Không lưu AI guess như fact; user B không read A; expired memory excluded; no sensitive auto memory.",
+        "Test cases: Injection memory/useredit/delete/TTL, identity/contact string blocked from outbound prompt, non-owner access, consent withdrawn.",
+        "Definition of Done: DoD chung + privacy UX and memory export contract."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T037",
+      "title": "T037 — Gemini Free adapter & atomic quota [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T035",
+        "T036",
+        "T011",
+        "T068"
+      ],
+      "status": "pending",
+      "spec": [
+        "T037 — Gemini Free adapter & atomic quota [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Tutor text Gemini API Free có schema/eval/consent, zero-fee/quota fallback; không OpenAI paid adapter.",
+        "Module/file dự kiến: src/modules/tutor/infrastructure/gemini-free; operations quotas/ledger; migrations usage. Phụ thuộc: T035,T036,T011,T068.",
+        "Bước triển khai: Verify actual account Free/no billing/allowedmodel; @google/genai schema; sanitize approved educational input; reserve/settle request/token units; timeout/429/circuit; paid providers disabled; no DBtx waiting.",
+        "Acceptance criteria: service_fee=0; paid-enabled account không được dùng; no key/quota0 graceful fallback; PII not outbound; API key server-only; concurrency cap enforced.",
+        "Test cases: Paidconfig rejected; missing free eligibility/429/timeout/refusal/schemafail; quota reserve concurrency; fullcontext cap/PII block/consent disabled; no paid fallback endpoint.",
+        "Definition of Done: DoD chung + free eligibility evidence/date/terms/privacy/quotas + mock tests; only no-billing free calls at authorized implementation, never top-up."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T038",
+      "title": "T038 — Tutor UI integration [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T037",
+        "T012",
+        "T021"
+      ],
+      "status": "pending",
+      "spec": [
+        "T038 — Tutor UI integration [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Explain/hint/correct/roleplay context, report errors.",
+        "Module/file dự kiến: src/modules/tutor/ui; /tutor; lesson drawer; tutor API handlers. Phụ thuộc: T037,T012,T021.",
+        "Bước triển khai: Structured render; sources/confidence limits; current task; user retry; quota banner; fallback approved text.",
+        "Acceptance criteria: Tutor off never blocks learning; max segments/corrections; hints not answer dumping; no HTML rendering.",
+        "Test cases: Quota exhausted/provider failed/user cancels/fake response/keyboard; report wrong pipeline.",
+        "Definition of Done: DoD chung + tutor mock E2E/a11y, production flag remains off until T039."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T039",
+      "title": "T039 — Tutor eval & enable gate [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T038",
+        "T037",
+        "T002"
+      ],
+      "status": "pending",
+      "spec": [
+        "T039 — Tutor eval & enable gate [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: 120 versioned cases/human rubric, bounded eval batches ≤20.",
+        "Module/file dự kiến: tests/evals/tutor; docs/implementation/tutor-eval; feature flags. Phụ thuộc: T038,T037,T002.",
+        "Bước triển khai: Rights-safe120cases;3runs/case chia≤20cases/batch theo free quota/ngày; deterministic+competent volunteer critical review; model/prompt versions; fee0 report; localmock CI.",
+        "Acceptance criteria: Thresholds mục7.4; critical0/schema≥99%; failing mode off; results include worst run.",
+        "Test cases: Injection, fabricated grammar/source, tone explanation, unknown/refusal/semantic mistakes, cross-user leak.",
+        "Definition of Done: DoD chung + free-tier eval evidence,0 fees, onlypassing modes enabled; quota insufficient kéo dài eval hoặc disabledmode, không mua lượt/công cụ/reviewer."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T040",
+      "title": "T040 — Local recording & free speech practice [P1/PH4]",
+      "release": "inactive",
+      "dependencies": [
+        "T031",
+        "T012",
+        "T068"
+      ],
+      "status": "pending",
+      "spec": [
+        "T040 — Local recording & free speech practice [P1/PH4]",
+        "Mục tiêu/phạm vi: ≤30s input, typed fallback; no pronunciation score.",
+        "Module/file dự kiến: src/modules/speech/*; recording UI; local storage/cleanup; capability contract. Phụ thuộc: T031,T012,T068.",
+        "Bước triển khai: MediaRecorder MIME detect; local record/playback; downloaded reference/browser TTS; optional browser zh-CN STT consent, typed corrections; no Azure API/no cloudtranscode.",
+        "Acceptance criteria: No mic/voice/STT/network vẫn text/reference; no rawaudio uploaded mặc định; transcript not pronunciation mastery; no fees.",
+        "Test cases: Android/Windows WebM/MP4 playback, silence/noise/permission/cancel, missing zh-CNvoice/STTunsupported/offline/privacy, local recordings cleanup.",
+        "Definition of Done: DoD chung + real-device capability/free mode report; record/playback works, missingautomatic STT explicitly unavailable; no tone score."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T041",
+      "title": "T041 — Assessment schema & internal blueprint [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T005",
+        "T018",
+        "T009",
+        "T026"
+      ],
+      "status": "pending",
+      "spec": [
+        "T041 — Assessment schema & internal blueprint [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Tables/versioned unit blueprint/holdout selection.",
+        "Module/file dự kiến: supabase/migrations/*_assessment.sql; src/modules/assessment/domain/blueprint. Phụ thuộc: T005,T018,T009,T026.",
+        "Bước triển khai: Create owner/FKs/keys; original internal blueprint; held-out item refs; timer/scoring contracts; secure keys server only.",
+        "Acceptance criteria: Unverified official blueprint hidden; unit held-out differs practice; attempt pins blueprint/rubric.",
+        "Test cases: Wrong owner, version mix, duplicate item set, secure key leak, missing scoring fields.",
+        "Definition of Done: DoD chung + RLS/migration and blueprint validator tests."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T042",
+      "title": "T042 — Assessment session/report vertical slice [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T041",
+        "T019",
+        "T021"
+      ],
+      "status": "pending",
+      "spec": [
+        "T042 — Assessment session/report vertical slice [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Một unit test đầy đủ autosave/timer/report, không full mocks.",
+        "Module/file dự kiến: src/modules/assessment/application/ui; assessments routes/API. Phụ thuộc: T041,T019,T021.",
+        "Bước triển khai: Start seeded selection; server deadline; autosave idempotent; deterministic grades; evidence/gaps report.",
+        "Acceptance criteria: Refresh resume; timed no arbitrary pause; report shows internal/provisional labels and n.",
+        "Test cases: Deadline/time spoof, network retry, partial submit, duplicate finalization, key leak, AI grading withheld.",
+        "Definition of Done: DoD chung + timed session E2E và report contract consistent."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T043",
+      "title": "T043 — HSK 1 coverage manifest [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T014",
+        "T034",
+        "T026"
+      ],
+      "status": "pending",
+      "spec": [
+        "T043 — HSK 1 coverage manifest [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Full level1 mapping audit; no authoring entire course.",
+        "Module/file dự kiến: content/staging/hsk1/manifest; coverage report; supabase/migrations/*_catalog_extension.sql khi topics/tasks/grammar/characters thực sự cần. Phụ thuộc: T014,T034,T026.",
+        "Bước triển khai: Authorized entries batches ≤50 (T043-Bnn); task/topic/grammar/character IDs; map objectives/skills; DAG; identify content gaps.",
+        "Acceptance criteria: Official sequence counts reconciled; coverage states not inflated; next micro-lesson list exact IDs.",
+        "Test cases: Count/sense mismatch, unmapped task, wrong standard list, multi-reading, DAG missing prereq.",
+        "Definition of Done: DoD chung + all bounded mapping instances reviewed and gaps in SSOT."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T044",
+      "title": "T044 — HSK 1 content release by micro-lesson [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T043",
+        "T042",
+        "T033",
+        "T002"
+      ],
+      "status": "pending",
+      "spec": [
+        "T044 — HSK 1 content release by micro-lesson [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Family T044-Lnn/Ann: 1 lesson or ≤10 audio assets, not whole level/task.",
+        "Module/file dự kiến: content/staging/hsk1; content_reviews; published manifests. Phụ thuộc: T043,T042,T033,T002.",
+        "Bước triển khai: Materialize lesson IDs/objectives; original author; language+key/audio+rights reviews; verify exercise types; publish bounded batches; coverage diff.",
+        "Acceptance criteria: Mỗi lesson ≤6 senses/8items được reviewed; family gate complete HSK1 objectives after all required instances; no unknown rights.",
+        "Test cases: Per-instance golden answers/audio match/accessibility; item alternatives; delayed-transfer item reviewed.",
+        "Definition of Done: DoD chung + qualified review/versioned manifest/coverage; content xuất bản không phụ thuộc tutor provider/eval. Offline packaging sau v0.3; AI không auto publish."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T045",
+      "title": "T045 — 14-day HSK1 pilot & M1 gate [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T044",
+        "T039",
+        "T042",
+        "T052",
+        "T053",
+        "T061"
+      ],
+      "status": "pending",
+      "spec": [
+        "T045 — 14-day HSK1 pilot & M1 gate [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Validate learning effectiveness/workload và make targeted fixes.",
+        "Module/file dự kiến: docs/implementation/pilot-M1; analytics summaries; tests/e2e/regression. Phụ thuộc: T044,T039,T042,T052,T053,T061.",
+        "Bước triển khai: Pilot sessions; real delayed 48h/7d probes; record confusion/workload/cost; adaptive rule diff; replay regressions.",
+        "Acceptance criteria: ≥8 sessions + transfer evidence, no blocked daily flow; failed goals create fixes or shrink release claim; n=1 limitation explicit.",
+        "Test cases: Delayed recall/new transfer; card load; online reconnect/retry; AI down/quota0; wrong source/schema; chưa offline sync/microphone requirement.",
+        "Definition of Done: DoD chung + v0.2 decision with raw evidence references/privacy safe, not guaranteed HSK pass."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T046",
+      "title": "T046 — HSK 2 mappings and prerequisite diff [P1/PH5]",
+      "release": "inactive",
+      "dependencies": [
+        "T045",
+        "T005"
+      ],
+      "status": "pending",
+      "spec": [
+        "T046 — HSK 2 mappings and prerequisite diff [P1/PH5]",
+        "Mục tiêu/phạm vi: Family bounded 50-source-entry audit batches; no full lessons.",
+        "Module/file dự kiến: content/staging/hsk2/manifest; syllabus mappings. Phụ thuộc: T045,T005.",
+        "Bước triển khai: Audit incremental level2/task/grammar/characters; prerequisite inherited level1; define micro-lesson slots; rights checks.",
+        "Acceptance criteria: Separate cumulative/introduced counts; no hidden level1 gap; exact family IDs before authoring.",
+        "Test cases: Sense level changes, missing prerequisites, count differences, no level1 content mutation.",
+        "Definition of Done: DoD chung + all mapping instances reviewed and T047 instances enumerated."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T047",
+      "title": "T047 — HSK 2 lesson/assessment author instances [P1/PH5]",
+      "release": "inactive",
+      "dependencies": [
+        "T046",
+        "T044",
+        "T042"
+      ],
+      "status": "pending",
+      "spec": [
+        "T047 — HSK 2 lesson/assessment author instances [P1/PH5]",
+        "Mục tiêu/phạm vi: 1 micro-lesson or 1 unit holdout ≤8items each child.",
+        "Module/file dự kiến: content/staging/hsk2; media; answer keys/reviews. Phụ thuộc: T046,T044,T042.",
+        "Bước triển khai: T047-Lnn/Unn: author task/senses/pattern; progressive pinyin; audio/answer reviews; publish/check coverage; retain package size.",
+        "Acceptance criteria: Per-child quality checklist, complete syllabus coverage as family gate; no shadow writing-as-typing mastery.",
+        "Test cases: New pattern accepted variants, audio normal/slow, holdout item no leakage, offline package validated.",
+        "Definition of Done: DoD chung + each child tests/reviewer and coverage diff in SSOT."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T048",
+      "title": "T048 — HSK 2 M2 gate [P1/PH5]",
+      "release": "inactive",
+      "dependencies": [
+        "T047",
+        "T045",
+        "T031"
+      ],
+      "status": "pending",
+      "spec": [
+        "T048 — HSK 2 M2 gate [P1/PH5]",
+        "Mục tiêu/phạm vi: Learner diagnostics/retention/cost after approved content.",
+        "Module/file dự kiến: docs/implementation/release-M3; tests/e2e/hsk2. Phụ thuộc: T047,T045,T031.",
+        "Bước triển khai: Run unit forms, delayed tests, planner workload; inspect weak skills; full security/sync smoke; release notes gap labels.",
+        "Acceptance criteria: HSK2 content taught/practiced/assessed trace; unknown production explicit; P0 invariants/SLO/cost pass.",
+        "Test cases: New user catch-up/returning old version; delayed transfer; score provenance; disabled AI.",
+        "Definition of Done: DoD chung + v0.4/M3 go/no-go evidence, HSK1 quality gate và v0.3 offline invariants trước release."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T049",
+      "title": "T049 — HSK 3 blueprint & speaking/writing rubric [P1/PH6]",
+      "release": "inactive",
+      "dependencies": [
+        "T048",
+        "T005",
+        "T041"
+      ],
+      "status": "pending",
+      "spec": [
+        "T049 — HSK 3 blueprint & speaking/writing rubric [P1/PH6]",
+        "Mục tiêu/phạm vi: Verified exam format gate separate internal skills; author rubric small.",
+        "Module/file dự kiến: content/sources/hsk3-blueprint; assessment rubrics; schema migrations if needed. Phụ thuộc: T048,T005,T041.",
+        "Bước triển khai: Re-open official sources at implementation; pin counts/time/speaking/scoring; define reviewed production rubric/examples; keep unknown labeled.",
+        "Acceptance criteria: No old blueprint; written/spoken tests pinned; human rubric independent of LLM score.",
+        "Test cases: Format conflict, missing speaking evidence, two raters disagree, AI response ungrounded.",
+        "Definition of Done: DoD chung + verified source register or unverified block official mock."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T050",
+      "title": "T050 — HSK 3 content bounded families [P1/PH6]",
+      "release": "inactive",
+      "dependencies": [
+        "T049",
+        "T046",
+        "T047"
+      ],
+      "status": "pending",
+      "spec": [
+        "T050 — HSK 3 content bounded families [P1/PH6]",
+        "Mục tiêu/phạm vi: T050-Bnn ≤50 mapping, Lnn 1 lesson, Unn 1 unit assessment.",
+        "Module/file dự kiến: content/staging/hsk3; reviewed rubrics/media/coverage. Phụ thuộc: T049,T046,T047.",
+        "Bước triển khai: Audit level3 mappings before authoring; dependency per lesson; author original longer input; production exercises reviewed; publish versions.",
+        "Acceptance criteria: Coverage all required components before family gate; more Chinese exposure with support; core pipeline unchanged.",
+        "Test cases: Longer listening/audio data, vocabulary level/sense, rubric accepted range, offline bounded packages.",
+        "Definition of Done: DoD chung + every instance materialized and reviewed; original content rights."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T051",
+      "title": "T051 — HSK 3 production evidence & M3 [P1/PH6]",
+      "release": "inactive",
+      "dependencies": [
+        "T050",
+        "T049",
+        "T042",
+        "T040"
+      ],
+      "status": "pending",
+      "spec": [
+        "T051 — HSK 3 production evidence & M3 [P1/PH6]",
+        "Mục tiêu/phạm vi: Capture rubric review results and readiness without inflated claims.",
+        "Module/file dự kiến: src/modules/assessment/production; progress report; docs/release-M3. Phụ thuộc: T050,T049,T042,T040.",
+        "Bước triển khai: Store human/provisional assessments source/version; report skill gaps; two equivalent test forms; throughput/retention UAT.",
+        "Acceptance criteria: Writing/speaking secure only accepted evidence; unvalidated provider report provisional; mock label matches blueprint state.",
+        "Test cases: AI-vs-human disagreement, insufficient n, stale grade, practice tracing distinction, two forms.",
+        "Definition of Done: DoD chung + v0.5/M4 gates và RLS/API/schema/backlog consistency review."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T052",
+      "title": "T052 — M0 core security/data/UX gate [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T026",
+        "T009"
+      ],
+      "status": "pending",
+      "spec": [
+        "T052 — M0 core security/data/UX gate [P0/PH2]",
+        "Mục tiêu/phạm vi: Gate dùng lại trước mỗi release, bounded fixes split riêng.",
+        "Module/file dự kiến: tests/security; core integration/E2E; docs/quality/M0. Phụ thuộc: T026,T009.",
+        "Bước triển khai: Auth/owner/RLS/pool reuse/CSRF/XSS/no secrets; rollback/duplicate/concurrent review; core learn/review/weekly smoke Android/Windows; accessibility core; measure one-user warm/cold latency. Offline chaos sau T031/v0.3,10VU/full perf matrix không M0 blocker.",
+        "Acceptance criteria: 0 wrong/duplicate/missing acknowledged writes,0 owner leak/critical reachable security issue; usable core mobile/desktop; performance measured/honest, không mua compute để đạt targets.",
+        "Test cases: Pool leakage, signed objects, slow network, expired auth, mobile keyboard, wrong owner all endpoints.",
+        "Definition of Done: DoD chung + M0 evidence; rerun relevant changed modules each later release."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T053",
+      "title": "T053 — M0 free deploy & minimal recovery [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T052",
+        "T006",
+        "T068",
+        "T069"
+      ],
+      "status": "pending",
+      "spec": [
+        "T053 — M0 free deploy & minimal recovery [P0/PH2]",
+        "Mục tiêu/phạm vi: Future deployment only after implementation authorization; no infra created now.",
+        "Module/file dự kiến: selected-host config/basic CI; env policy; manual export/recovery runbook. Phụ thuộc: T052,T006,T068,T069.",
+        "Bước triển khai: Host selected byT069; free/no billing config; basic CI/local checks; owner Auth/Supabase pooler; release tested commit; manual encrypted DB/media snapshot và một small read/restore test; rollback/redeploy. Không full staging stack/backup automation/offline sync.",
+        "Acceptance criteria: Owner mở online học/review đúng; fees0; deployment uses evaluated host; basic failure/rollback/snapshot recover verified; không claim durable offline hoặc managed dailybackup.",
+        "Test cases: Wrong paid config rejected; auth/token expiry; hostcoldstart/loaderror; lost write response retry; migration failure; freequota exhausted→online unavailable, no false ack; restore sample attempts/cards.",
+        "Definition of Done: M0 targeted tests/host report/checks/free deployment evidence khi user cho phép triển khai; T070 và T027–031 không dependencies. Không infra/code created inplanning."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T054",
+      "title": "T054 — HSK 4 source/blueprint/coverage audit [P1/PH7]",
+      "release": "inactive",
+      "dependencies": [
+        "T051",
+        "T049",
+        "T005"
+      ],
+      "status": "pending",
+      "spec": [
+        "T054 — HSK 4 source/blueprint/coverage audit [P1/PH7]",
+        "Mục tiêu/phạm vi: T054-Bnn ≤50 entries; new official verification before readiness.",
+        "Module/file dự kiến: content/staging/hsk4/manifest; exam blueprint v4. Phụ thuộc: T051,T049,T005.",
+        "Bước triển khai: Verify official current syllabus/format and target test version; audit level4 tasks/senses/grammar/characters; plan required bounded lessons/forms.",
+        "Acceptance criteria: New HSK4 ≠ old 100Q page; cumulative mapping reconciled; scoring pass target verified or blocked.",
+        "Test cases: Wrong source/version, current revision changed, missing skill/topic, allowed license unknown.",
+        "Definition of Done: DoD chung + exact T055 instances and open exam gates in SSOT."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T055",
+      "title": "T055 — HSK 4 lessons and holdout instances [P1/PH7]",
+      "release": "inactive",
+      "dependencies": [
+        "T054",
+        "T050",
+        "T042"
+      ],
+      "status": "pending",
+      "spec": [
+        "T055 — HSK 4 lessons and holdout instances [P1/PH7]",
+        "Mục tiêu/phạm vi: One lesson or one section ≤8 items/child, original licensed audio.",
+        "Module/file dự kiến: content/staging/hsk4; assessment forms; media/reviews. Phụ thuộc: T054,T050,T042.",
+        "Bước triển khai: Materialize Lnn/Snn; author authentic task contexts; review grammar/meaning/audio/keys; publish incremental; complete coverage diff.",
+        "Acceptance criteria: Per-instance checks; full level4 gate requires reviewed task/topic/grammar/character objectives, not just 2.000 words.",
+        "Test cases: HSK4 reading/listening distractors, multiple valid writing variants, production rubric, no practice-test leak.",
+        "Definition of Done: DoD chung + reviewed content and every child evidence trace."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T056",
+      "title": "T056 — HSK 4 readiness and M4 release [P1/PH7]",
+      "release": "inactive",
+      "dependencies": [
+        "T055",
+        "T051",
+        "T045",
+        "T052",
+        "T053"
+      ],
+      "status": "pending",
+      "spec": [
+        "T056 — HSK 4 readiness and M4 release [P1/PH7]",
+        "Mục tiêu/phạm vi: Readiness labels plus full 1–4 regression/cost/ops.",
+        "Module/file dự kiến: src/modules/assessment/readiness; docs/release-M4; tests/e2e/hsk4. Phụ thuộc: T055,T051,T045,T052,T053.",
+        "Bước triển khai: Implement evidence thresholds mục6.5; two holdout days; gaps/uncertainty; benchmark storage/workload; verify sources; final go/no-go.",
+        "Acceptance criteria: No probability/pass guarantee; official claims only verified blueprint; unknown speaking/writing explicit; P0 invariants remain.",
+        "Test cases: Coverage90% boundary, secure80%, stale/insufficient evidence, mock version mismatch, provisional AI excluded.",
+        "Definition of Done: DoD chung + v1.0/M5 matrix/qualified rubric assessment; cập nhật SSOT, không probability đỗ giả."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T057",
+      "title": "T057 — Free pronunciation research gate [P2/DEFERRED]",
+      "release": "inactive",
+      "dependencies": [
+        "T040",
+        "T039",
+        "T051"
+      ],
+      "status": "pending",
+      "spec": [
+        "T057 — Free pronunciation research gate [P2/DEFERRED]",
+        "Mục tiêu/phạm vi: Chỉ nghiên cứu free/local validated candidate nếu có; hiện deferred, không Azure paid assessment.",
+        "Module/file dự kiến: tests/evals/speech; src/modules/speech/assessment adapter; docs/speech-capabilities. Phụ thuộc: T040,T039,T051.",
+        "Bước triển khai: Verify free/license/hardware capability trước benchmark;100clips/5speakers/humanvolunteerreview nếu có; nofee data/model; abstain nếu thiếu nguồn/reviewer.",
+        "Acceptance criteria: Only validated dimensions enabled; tone unsupported or low agreement hidden; noisy audio abstain.",
+        "Test cases: Correct transcript wrong tone, silence/clipping, accent/gender/device, repeated phrase, missing provider field.",
+        "Definition of Done: DoD chung + go/no-go fee0 report; không available candidate ghi deferred/unavailable, không mark chấm phát âm delivered hoặc mua API."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T058",
+      "title": "T058 — Free pronunciation UI gated rollout [P2/DEFERRED]",
+      "release": "inactive",
+      "dependencies": [
+        "T057",
+        "T040"
+      ],
+      "status": "pending",
+      "spec": [
+        "T058 — Free pronunciation UI gated rollout [P2/DEFERRED]",
+        "Mục tiêu/phạm vi: Report calibrated dimensions and limitations, no official grade.",
+        "Module/file dự kiến: speech UI/report APIs; progress evidence rules. Phụ thuộc: T057,T040.",
+        "Bước triển khai: Expose quality gate/results with explainable actionable feedback; uncertainty/retry; gradual flag; cap usage.",
+        "Acceptance criteria: False negative≤10% and useful≥80% benchmark target or feature off; no falsely secure speaking.",
+        "Test cases: Bad mic/noise/provider disagreement/no tone available/expiry; user report wrong; accessibility.",
+        "Definition of Done: DoD chung + fee0 benchmark/qualifiedreview evidence; không cóvalidatedfreecandidate thì unavailable, record/playback và no-score label; không prerequisite HSK1–4 personal release."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T059",
+      "title": "T059 — Push-to-talk voice tutor [P2/PH8]",
+      "release": "inactive",
+      "dependencies": [
+        "T040",
+        "T039",
+        "T038"
+      ],
+      "status": "pending",
+      "spec": [
+        "T059 — Push-to-talk voice tutor [P2/PH8]",
+        "Mục tiêu/phạm vi: Sequential STT-confirm→tutor→TTS, not realtime duplex.",
+        "Module/file dự kiến: src/modules/speech/voice; tutor UI; usage quotas. Phụ thuộc: T040,T039,T038.",
+        "Bước triển khai: Browser STT optional/type-confirm → GeminiFreetext → browser/downloaded TTS, quotas/consent/statecancel; local STT chỉ nếuuserbật/freebenchmark; no paidrealtime.",
+        "Acceptance criteria: Typed fallback always; no unauthorized recording; quality unchanged vs text tutor; total quota enforced.",
+        "Test cases: Record cancel/provider timeout/overlapping turns/denied mic/quota exhaustion/background tab.",
+        "Definition of Done: DoD chung + fee0/device/latency evidence; unsupportedSTT/missingvoice có typedfallback, không bổ sung cloudpaid API."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T060",
+      "title": "T060 — Personal FSRS parameter optimization [P2/PH8]",
+      "release": "inactive",
+      "dependencies": [
+        "T056",
+        "T023"
+      ],
+      "status": "pending",
+      "spec": [
+        "T060 — Personal FSRS parameter optimization [P2/PH8]",
+        "Mục tiêu/phạm vi: Optional after sufficient logs, not core prerequisite.",
+        "Module/file dự kiến: src/modules/review/optimizer job; scheduler configs; evaluation. Phụ thuộc: T056,T023.",
+        "Bước triển khai: Check ≥1.000 logs/≥60d; privacy-safe export; optimize pinned binding; temporal holdout; compare workload/retention; config preview/rollback.",
+        "Acceptance criteria: Không optimize sparse user; logs immutable; config affects future reviews; no bulk reschedule silently.",
+        "Test cases: Small dataset abort; bad fit/NaN; holdout worse defaults; changed timezone; rollback config.",
+        "Definition of Done: DoD chung + holdout evidence and explicit config activation policy."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T061",
+      "title": "T061 — User data export/delete and retention automation [P1/PH3 — v0.2]",
+      "release": "inactive",
+      "dependencies": [
+        "T036",
+        "T041",
+        "T053"
+      ],
+      "status": "pending",
+      "spec": [
+        "T061 — User data export/delete and retention automation [P1/PH3 — v0.2]",
+        "Mục tiêu/phạm vi: Full privacy lifecycle; slice manual cleanup until this task.",
+        "Module/file dự kiến: operations/privacy; settings/data; local/foreground TTL maintenance; tombstone schema. Phụ thuộc: T036,T041,T053.",
+        "Bước triển khai: Own evidence export/reauth delete; memory/turn TTL purge; no paid cron/no raw audio cloud requirement. Tombstones retained for future restore T070; audio cleanup cases bổ sung T040/v0.3, không dependency để bật tutor chữ.",
+        "Acceptance criteria: Cross-user export impossible; deleted account sessions revoked; storage/derived memory purged; restored backups reapply deletes.",
+        "Test cases: Cancel export, expired reauth, partial storage purge retry, backup restore deleted user, A/B export.",
+        "Definition of Done: DoD chung + privacy acceptance trước v0.2 tutor promotion; no offline/speech requirement. Backup restore tombstone regression ở T070 khi advanced restore activated."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T062",
+      "title": "T062 — Multi-user pilot [P2/DEFERRED: ngoài scope cá nhân]",
+      "release": "inactive",
+      "dependencies": [
+        "T056",
+        "T061",
+        "T052",
+        "T053"
+      ],
+      "status": "pending",
+      "spec": [
+        "T062 — Multi-user pilot [P2/DEFERRED: ngoài scope cá nhân]",
+        "Mục tiêu/phạm vi: Parked, không mời thêm người trong personal scope. Chỉ xét lại khi user yêu cầu multi-user, constraint0phí vẫn giữ.",
+        "Module/file dự kiến: auth invite admin; monitoring; usage dashboards; tests/load. Phụ thuộc: T056,T061,T052,T053.",
+        "Bước triển khai: Invite 5 adults; per-user quota/data isolation; monitor workload/cost; accessibility feedback; abuse limits; actual DAU scaling decision.",
+        "Acceptance criteria: No data crossover; cap aggregate budget; release has delete/export; access/roles auditable.",
+        "Test cases: Parallel users/card collisions, shared device logout, unauthorized invite/admin, quotas concurrent.",
+        "Definition of Done: Hiện không làm và không là releasegate; sau scope mới phải kiểm free-license/limits/terms/rights và ownership trước pilot, không paid migration."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T063",
+      "title": "T063 — Hosting/worker scale [P2/DEFERRED: ngoài scope cá nhân]",
+      "release": "inactive",
+      "dependencies": [
+        "T062",
+        "T053"
+      ],
+      "status": "pending",
+      "spec": [
+        "T063 — Hosting/worker scale [P2/DEFERRED: ngoài scope cá nhân]",
+        "Mục tiêu/phạm vi: Parked, không worker/cloudGPU/VPS/Redis trả phí cho một user.",
+        "Module/file dự kiến: src/modules/operations/jobs; worker entry; deploy config; ADR updates. Phụ thuộc: T062,T053.",
+        "Bước triển khai: Nếu scope mới thật sự cần, profile→query/cache→localfreejobs trước; freehosting eligibility/quotas; ADR cập nhật; không paid scale.",
+        "Acceptance criteria: No speculative Redis/service split; job idempotent; p95 meets measured target; costs tracked.",
+        "Test cases: Worker crash lease expiry, duplicate job, max retries, deployment old/new schema compatibility.",
+        "Definition of Done: Hiện parked/non-releasegate; chỉ activate sau user scope mới và chứng minhfee0; không tự đổi constraint để tối ưu."
+      ],
+      "priority": 1
+    },
+    {
+      "id": "T064",
+      "title": "T064 — Weekly time-preferences schema/API [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T008",
+        "T009",
+        "T010",
+        "T011"
+      ],
+      "status": "pending",
+      "spec": [
+        "T064 — Weekly time-preferences schema/API [P0/PH2]",
+        "Mục tiêu/phạm vi: Lưu ngân sách giờ/tuần, available days, day/session caps; chuẩn bị plan/block/time tables.",
+        "Module/file dự kiến: supabase/migrations/*_weekly_planner.sql; src/modules/learning/time-preferences; /api/v1/learning/time-preferences. Phụ thuộc: T008,T009,T010,T011.",
+        "Bước triển khai: Typed schemas/constraints/FKs/RLS mục6.6; PATCH optimistic version/idempotency; preview capacity; expose default6h đề xuất; loại dailyMinutes input authoritative.",
+        "Acceptance criteria: Owner-only; active weekly30..1260/paused0; daycap≤180/session≤45; impossible budget trả requested/feasible/gap không tự tăng cap.",
+        "Test cases: Invalid values/empty active days, paused, userA/B, concurrent samekey/version conflict, budget dưới giờ đã học giữ history.",
+        "Definition of Done: DoD chung + migration fresh/upgrade/types/API tests; contracts/profile không còn daily_minutes primary."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T065",
+      "title": "T065 — Weekly allocation engine v1 [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T064",
+        "T019",
+        "T023",
+        "T015"
+      ],
+      "status": "pending",
+      "spec": [
+        "T065 — Weekly allocation engine v1 [P0/PH2]",
+        "Mục tiêu/phạm vi: Pure deterministic planner từ budget/availability, cards/evidence/time snapshot; không AI.",
+        "Module/file dự kiến: src/modules/learning/domain/weekly-planner; /api/v1/learning/weekly-plan/replan; plan repositories. Phụ thuộc: T064,T019,T023,T015.",
+        "Bước triển khai: Reserve review và buffer; constrain day/block budgets; tentative lesson prereqs; ordered tie-break; missed/replan active version atomic; forecast denominator explicit.",
+        "Acceptance criteria: Budget/day/block invariants; all overdue giảm new0; due_at/history không đổi; exactly1 active version; sparse-data no false forecast.",
+        "Test cases: Property random inputs;270min capacity vs360budget; paused/rest; active/completed frozen; missed day; timezone/week; concurrent replan; no model call.",
+        "Definition of Done: DoD chung + golden/property/integration evidence, plannerVersion and reason codes; T024 consume plan after this task."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T066",
+      "title": "T066 — Weekly budget onboarding/preview/settings [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T065",
+        "T024",
+        "T012"
+      ],
+      "status": "pending",
+      "spec": [
+        "T066 — Weekly budget onboarding/preview/settings [P0/PH2]",
+        "Mục tiêu/phạm vi: User chọn tổng giờ/tuần và tùy chọn ngày; xem/sửa kế hoạch trước áp dụng; one-click today.",
+        "Module/file dự kiến: src/modules/learning/ui/weekly-plan; onboarding/settings; today components. Phụ thuộc: T065,T024,T012.",
+        "Bước triển khai: 3/6/9/12h + custom; availability/daycap/block inputs; requested/feasible/buffer preview; optional accept lower-capacity plan; budget change/missed UI; online-only settings.",
+        "Acceptance criteria: Mở app rõ next block; không ép tăng giờ; overtime/unscheduled/debt truthful; mobile/a11y; offline snapshot state.",
+        "Test cases: 360px/keyboard/screen-reader; impossible request; midweek reduce belowspent; no dataforecast; restday;401/409/offline edit disabled.",
+        "Definition of Done: DoD chung + UX tests, source contracts/labels match6.6, approved snapshot ready for package cache."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T067",
+      "title": "T067 — Weekly planner acceptance gate [P0/PH2]",
+      "release": "M0",
+      "dependencies": [
+        "T066",
+        "T021",
+        "T025",
+        "T016"
+      ],
+      "status": "pending",
+      "spec": [
+        "T067 — Weekly planner acceptance gate [P0/PH2]",
+        "Mục tiêu/phạm vi: Online budget→plan→learn→time→replan UAT trước M0; bổ sung offline cases vào T031.",
+        "Module/file dự kiến: tests/e2e/weekly-planner; tests/integration/time-accounting; docs/implementation/weekly-UAT. Phụ thuộc: T066,T021,T025,T016.",
+        "Bước triển khai: Test 3/6/9h/custom; active-time dedup overlap/idlecap; skip/reduce/increase; replan forecasts/costfree; userB isolation; compare plan/card/history.",
+        "Acceptance criteria: 0 overscheduled planned minutes/0 doubletime/0 data crossover in suite; no FSRS due change by calendar; skipped không dồn quá cap; task allfields evidence.",
+        "Test cases: 6h/6days;6h/3×90 impossible; completed100min→budget60; two tabs duplicate interval; timezone Monday; overdue; zero forecastdata; concurrency/retry.",
+        "Definition of Done: DoD chung + measured edge cases; M0 checklist/traceability/backlog updated; offline regression inherited T031, không chờ PH4."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T068",
+      "title": "T068 — Free-only service/license/capacity register [P0/PH0]",
+      "release": "M0",
+      "dependencies": [
+        "T001",
+        "T002"
+      ],
+      "status": "pending",
+      "spec": [
+        "T068 — Free-only service/license/capacity register [P0/PH0]",
+        "Mục tiêu/phạm vi: Chốt one-owner fees0 profile trên mọi stage; kiểm freeplan eligibility/quota/no-billing/terms cho từng service trước implementation, không tạo account hay infra trong planning.",
+        "Module/file dự kiến: docs/implementation/free-services.md; config/free-only policy schema; env.example placeholders; CI limits spec. Phụ thuộc: T001,T002.",
+        "Bước triển khai: Register Vercel Hobby/Render Free candidates, Supabase Free/GitHub Free/Gemini Unpaid/OSS licenses; actual account no-billing/no-payment/remaining quota/terms. T068 khóa fees0 và eligibility, không final host. T069 dùng baseline proof quyết ADR006; không paid add-on/trial/GPU. Content rights/free reviewer path và fallbacks documented.",
+        "Acceptance criteria: Mỗiservice có0fee evidence/date/owneraccounttier/no-billing attestation, limits/reset/memoryruntime/whatstops/fallback. Khôngservice bắtpayment/requirespaidaddon; impossiblefree setup chọnlocal/deferred thaymua. Non-commercial personal restriction documented; one-owner scope consistent UI/auth/backlog.",
+        "Test cases: Paidproject key/defaultmodel/trialcredits/Prodomain/SMTP/CIpaidrunner/mandatoryGPU rejected; quota0/servicepause choosefallback; providertermschanged→disable candidate; APIkey alone notaccepted billingproof; freeUI/font/data license separate rights.",
+        "Definition of Done: DoD chung + service table và ADR007 khớpSSOT; fees0 releasechecklist, accountlimits cósource; no secrets/charges/newinfrastructure duringplanning. T068 chưaverified account thực thì khôngclaim deployment đãzero-cost."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T069",
+      "title": "T069 — Free hosting benchmark & ADR-006 lock [P0/PH1]",
+      "release": "M0",
+      "dependencies": [
+        "T006",
+        "T009",
+        "T010",
+        "T011",
+        "T068"
+      ],
+      "status": "pending",
+      "spec": [
+        "T069 — Free hosting benchmark & ADR-006 lock [P0/PH1]",
+        "Mục tiêu/phạm vi: Một proof nhỏ ≤2–4h so Vercel Hobby và Render Free nếu actual no-payment eligible; không full app/deploy pipeline hoặc paid service.",
+        "Module/file dự kiến: tests/bench/hosting-proof; docs/implementation/hosting-benchmark.md; candidate host config; ADR006 evidence. Phụ thuộc: T006,T009,T010,T011,T068.",
+        "Bước triển khai: Eligibility/quota/no-payment precheck; deploy minimal samecommit route auth+one read/idempotent SQLtx vào synthetic/isolated testdata; ≥5 cold-like opens/≥20 warm requests mỗi eligible host, Android/Windows/audio smoke; record network/region/latency/failure/body/runtime/pool role; test lost response retry/logout/migration+rollback flow; remove unneeded proof resources after evidence khi authorized; select rule ADR006.",
+        "Acceptance criteria: Fee0 và auth/RLS/tx/claims cleanup/idempotency0errors bắt buộc. Actual timings + limitations đủ quyết host; Render cold start/loading measured, Vercel cold function/pool verified. Unavailable host có reason, không fake successful benchmark. Final ADR006 accepted + selected config trước T053; both fail localfree/blocked.",
+        "Test cases: Sleeping Render cold start/ephemeral disk, Vercel DB role/connection limits, JWTnonowner/expired, A→B pool context locally, duplicate mutation/lost ack, networkslow, no card/free-tier quota suspension. Không paid Render Postgres/IPv4/keepalive để nâng kết quả.",
+        "Definition of Done: Short benchmark report/raw results/source/tier evidence + chosen host/trade-off/ADR006 update; no full CI/staging/features. Trong planning chỉ task spec, chưa benchmark hoặc cloud setup."
+      ],
+      "priority": 0
+    },
+    {
+      "id": "T070",
+      "title": "T070 — Free backup/restore/operations extension [P1/PH4 — v0.3]",
+      "release": "inactive",
+      "dependencies": [
+        "T053",
+        "T061",
+        "T031"
+      ],
+      "status": "pending",
+      "spec": [
+        "T070 — Free backup/restore/operations extension [P1/PH4 — v0.3]",
+        "Mục tiêu/phạm vi: Sau bản học online, thêm cadence/retention/restore validation/tombstones/log alerts; không trở thành dependency của M0 hoặc tutor chữ.",
+        "Module/file dự kiến: local backup/restore scripts; ops settings/runbooks; tests/integration/restore; deletion tombstone replay. Phụ thuộc: T053,T061,T031.",
+        "Bước triển khai: Encrypted DB+media copy free/local khi PC bật; actual lastBackupAt/cadence/retentionbounded; restore isolated schema+attempt/card/content versions; reapply deleted user/tutor TTL; preserve acknowledged evidence/outbox; quota/health logs không transcript; local/foreground scheduling, no paid cron/vendor.",
+        "Acceptance criteria: Backup bytes/checksums+full sample restore exact; deletion không resurrect; RPO/RTO measured thực không uptime guarantee; restore không auto overwrite prod; fees0. Offline package/outbox semantics được kiểm khi activated.",
+        "Test cases: Partial dump/corrupt media/wrong keys/old schema/no PC running; duplicate restore/conflicting card versions; userdelete before backup restore; data+Storage metadata match; raw audio privacy cleanup nếu có.",
+        "Definition of Done: Free runbook + restore test evidence/versioned settings; failsafe/owner confirmation cho destructive restore; required v0.3 gate, không M0. Không tool/script cài/chạy trong planning."
+      ],
+      "priority": 1
+    }
+  ]
+}

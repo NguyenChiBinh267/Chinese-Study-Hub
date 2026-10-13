@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["taskId", "result", "changedFiles", "tests", "evidence", "blocker", "commitSha"],
+  "properties": {
+    "taskId": { "type": "string" },
+    "result": { "type": "string", "enum": ["COMPLETE", "BLOCKED"] },
+    "changedFiles": { "type": "array", "items": { "type": "string" } },
+    "tests": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["name", "passed", "evidence"], "properties": { "name": { "type": "string" }, "passed": { "type": "boolean" }, "evidence": { "type": "string" } } } },
+    "evidence": { "type": "array", "items": { "type": "string" } },
+    "blocker": { "type": "string" },
+    "commitSha": { "type": "string" }
+  }
+}

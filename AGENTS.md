@@ -16,4 +16,6 @@ Gates: **T068** verifies actual free eligibility/terms/quota/no-billing before p
 
 Documentation: source/readback checks. Code: targeted checks/common DoD. Update only the authorized task in SSOT with revision guard; refresh status. Completion never authorizes the next task.
 
-Current authorization: **T001 only** — these three handoff files and its SSOT status. No app/scaffold/package.json/migrations/app tests/hosting config, dependency installs, AI calls, accounts/resources/deploy/billing/credits. Stop after T001.
+Historical authorization: T001 only; superseded by the explicit T002 assignment recorded in status.md.
+
+Current authorization (2026-10-13): build and verify the local engineering-loop tooling, GitHub handoff/review bridge and synthetic dry-run only. This is tooling setup, not a new SSOT Task ID. Preserve completed T001/T002 artifacts. Real backlog execution remains disabled until loop/trigger verification and explicit task policy activation. No app scaffold, package.json, migrations, hosting/provider/account/resource setup, production deploy, billing, credits or paid API. A synthetic Codex CLI check may use the existing ChatGPT login with a bounded sandbox; never bypass approvals/sandbox. One writer; at most two repair rounds; absent Work verdict means BLOCKED. See tools/engineering-loop/WORK.md and docs/engineering-loop/README.md.

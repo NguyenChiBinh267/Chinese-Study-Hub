@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "repository": "NguyenChiBinh267/Chinese-Study-Hub",
+  "baseBranch": "main",
+  "reviewers": ["NguyenChiBinh267"],
+  "liveEnabled": false,
+  "authorizedTasks": [],
+  "autoMerge": false,
+  "workTriggerVerified": false,
+  "reviewTimeoutMinutes": 60,
+  "codexTimeoutMinutes": 30,
+  "pollSeconds": 30,
+  "maxTasksPerRun": 1,
+  "policies": {
+    "T004": { "allowedFiles": ["docs/implementation/ux-slice.md"], "checks": [] },
+    "T005": { "allowedFiles": ["content/sources/exam-register.json", "docs/implementation/exam-gaps.md"], "checks": [] },
+    "T068": { "allowedFiles": ["docs/implementation/free-services.md", "config/free-only/**", ".env.example"], "checks": [] }
+  }
+}
