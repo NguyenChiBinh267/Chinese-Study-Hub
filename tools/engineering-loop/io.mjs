@@ -22,7 +22,7 @@ export function lock(directory, stateFile) {
     const owner = readJson(ownerFile), state = fs.existsSync(stateFile) ? readJson(stateFile) : null;
     const smokeFile = path.join(path.dirname(stateFile), 'smoke-writer.json');
     const smoke = fs.existsSync(smokeFile) ? readJson(smokeFile) : null;
-    requireThat(owner.host === os.hostname() && !alive(owner.pid) && !(state?.writerPid && alive(state.writerPid)) && !(smoke?.writerPid && alive(smoke.writerPid)), 'Another orchestrator or Codex writer is active');
+    requireThat(owner.host === os.hostname() && !alive(owner.pid) && !(state?.writerPid && alive(state.writerPid)) && !(state?.reviewerPid && alive(state.reviewerPid)) && !(smoke?.writerPid && alive(smoke.writerPid)), 'Another orchestrator or Codex process is active');
     fs.unlinkSync(ownerFile); fs.rmdirSync(directory); fs.mkdirSync(directory);
   }
   writeJson(path.join(directory, 'owner.json'), { pid: process.pid, host: os.hostname(), at: new Date().toISOString() });
@@ -77,20 +77,96 @@ export function codexEntrypoint(root) {
   return entry;
 }
 
-export async function runCodex({ root, workspace, prompt, schema, output, timeoutMs, onStart, onStop, control }) {
-  const login = spawnSync(process.execPath, [codexEntrypoint(root), 'login', 'status'], { cwd: root, encoding: 'utf8', windowsHide: true, timeout: 15000 });
-  requireThat(login.status === 0 && `${login.stdout}${login.stderr}`.includes('ChatGPT'), 'Codex must use existing ChatGPT account login');
-  const env = { ...process.env, GIT_TERMINAL_PROMPT: '0', GCM_INTERACTIVE: 'Never' };
-  for (const name of Object.keys(env)) if (/TOKEN|SECRET|PASSWORD|API_KEY|^GH_|^GITHUB_|^GOOGLE_|^AZURE_|^AWS_/i.test(name)) delete env[name];
-  const args = [codexEntrypoint(root), 'exec', '--ignore-user-config', '--ephemeral', '--sandbox', 'workspace-write',
+export function codexEnvironment(input = process.env) {
+  const env = { ...input, GIT_TERMINAL_PROMPT: '0', GCM_INTERACTIVE: 'Never' };
+  for (const name of Object.keys(env)) if (/TOKEN|SECRET|PASSWORD|API_KEY|^OPENAI_|^ANTHROPIC_|^GH_|^GITHUB_|^GOOGLE_|^AZURE_|^AWS_/i.test(name)) delete env[name];
+  return env;
+}
+
+export function validateFreeQuota(result, accountType = 'chatgpt') {
+  requireThat(accountType === 'chatgpt', 'Only existing ChatGPT account auth is allowed');
+  const limits = Object.values(result.rateLimitsByLimitId ?? { codex: result.rateLimits });
+  requireThat(limits.length && limits.every(x => x && x.credits?.hasCredits === false && x.credits?.unlimited === false && Number(x.credits?.balance) === 0),
+    'Paid credit eligibility unavailable/nonzero; no model call permitted');
+  requireThat(limits.every(x => !x.rateLimitReachedType && [x.primary, x.secondary].filter(Boolean).length > 0 && [x.primary, x.secondary].filter(Boolean).every(w => Number.isFinite(w.usedPercent) && w.usedPercent >= 0 && w.usedPercent < 100)),
+    'ChatGPT model limit reached; no paid credits, resets or fallback');
+  return { checkedAt: new Date().toISOString(), chatgptOnly: true, hasCredits: false, balance: '0', ordinaryQuotaAvailable: true,
+    resetCreditsUsed: false, methods: ['initialize', 'account/read', 'account/rateLimits/read'] };
+}
+
+export async function freeQuota(root) {
+  return new Promise((resolve, reject) => {
+    const child = spawn(process.execPath, [codexEntrypoint(root), 'app-server', '--stdio', '-c', 'forced_login_method="chatgpt"', '-c', 'model_provider="openai"'],
+      { cwd: root, env: codexEnvironment(), windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] });
+    let pending = '', accountType = null, done = false;
+    const send = item => child.stdin.write(JSON.stringify(item) + '\n');
+    function finish(error, value) {
+      if (done) return; done = true; clearTimeout(timer);
+      child.stdin.end();
+      if (process.platform === 'win32' && child.pid) spawnSync('taskkill.exe', ['/PID', String(child.pid), '/T', '/F'], { windowsHide: true, stdio: 'ignore' });
+      else child.kill();
+      error ? reject(error) : resolve(value);
+    }
+    const timer = setTimeout(() => finish(new Error('Account quota read timeout; no model call permitted')), 30000);
+    child.stderr.on('data', () => {});
+    child.stdout.on('data', bytes => {
+      pending += bytes.toString('utf8'); if (pending.length > 1024 * 1024) return finish(new Error('Oversized account response'));
+      let i;
+      while ((i = pending.indexOf('\n')) >= 0 && !done) {
+        const line = pending.slice(0, i); pending = pending.slice(i + 1);
+        try {
+          const event = JSON.parse(line);
+          if (event.error && [0, 1, 2].includes(event.id)) return finish(new Error('Account quota API failed; no model call permitted'));
+          if (event.id === 0) { send({ method: 'initialized', params: {} }); send({ method: 'account/read', id: 1, params: { refreshToken: false } }); }
+          if (event.id === 1) { accountType = event.result?.account?.type; send({ method: 'account/rateLimits/read', id: 2 }); }
+          if (event.id === 2) { finish(null, validateFreeQuota(event.result, accountType)); }
+        } catch (e) { if (e instanceof SyntaxError) continue; finish(e); }
+      }
+    });
+    child.on('error', () => finish(new Error('Account quota process failed')));
+    child.on('close', () => { if (!done) finish(new Error('Account quota process closed unexpectedly')); });
+    send({ method: 'initialize', id: 0, params: { clientInfo: { name: 'chinese_study_hub_quota_guard', version: '0.2.0' } } });
+  });
+}
+
+export function codexArguments(entry, { workspace, schema, output, role = 'developer' }) {
+  requireThat(['developer', 'reviewer'].includes(role), 'Unknown Codex role');
+  return [entry, 'exec', '--ignore-user-config', '--ephemeral', '--sandbox', role === 'reviewer' ? 'read-only' : 'workspace-write',
     '-c', 'approval_policy="never"', '-c', 'forced_login_method="chatgpt"', '-c', 'model_provider="openai"',
     '-c', 'windows.sandbox="unelevated"', '-c', 'sandbox_workspace_write.network_access=false',
     '--cd', workspace, '--output-schema', schema, '--output-last-message', output, '--json', '--color', 'never', '-'];
+}
+
+export async function runCodex({ root, workspace, prompt, schema, output, timeoutMs, role = 'developer', onStart = () => {}, onStop = () => {}, control = () => ({}) }) {
+  const login = spawnSync(process.execPath, [codexEntrypoint(root), 'login', 'status'], { cwd: root, encoding: 'utf8', windowsHide: true, timeout: 15000 });
+  requireThat(login.status === 0 && `${login.stdout}${login.stderr}`.includes('ChatGPT'), 'Codex must use existing ChatGPT account login');
+  const costProof = await freeQuota(root);
+  const env = codexEnvironment();
+  const args = codexArguments(codexEntrypoint(root), { workspace, schema, output, role });
+  const receipt = { role, sandbox: role === 'reviewer' ? 'read-only' : 'workspace-write', newSession: true, resumed: false,
+    chatgptOnly: true, paidApiKeysInherited: false, costProof, processId: null, threadId: null, startedAt: new Date().toISOString(), writeProbeAttempted: false, writeProbeDenied: false, writeProbeExitCode: null };
   return new Promise((resolve, reject) => {
     const child = spawn(process.execPath, args, { cwd: workspace, env, windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] });
-    let ended = false, failure = null, events = 0;
+    let ended = false, failure = null, events = 0, pending = '';
     // Deliberately discard command output: it can contain secrets or unbounded model text.
-    child.stdout.on('data', () => { events++; }); child.stderr.on('data', () => {});
+    child.stdout.on('data', bytes => {
+      events++; pending += bytes.toString('utf8');
+      if (pending.length > 1024 * 1024) { terminate('Oversized Codex event'); return; }
+      let index;
+      while ((index = pending.indexOf('\n')) >= 0) {
+        const line = pending.slice(0, index); pending = pending.slice(index + 1);
+        try {
+          const event = JSON.parse(line);
+          if (event.type === 'thread.started') receipt.threadId = event.thread_id;
+          if (event.item?.type === 'command_execution' && event.item.command?.includes('readonly-probe.txt') && /Set-Content|WriteAllText|Out-File|writeFile|New-Item|printf|echo/i.test(event.item.command)) {
+            receipt.writeProbeAttempted = true;
+            if (Number.isInteger(event.item.exit_code)) receipt.writeProbeExitCode = event.item.exit_code;
+            if (/access.*denied|permission denied|read.only|unauthorizedaccess/i.test(event.item.aggregated_output ?? '')) receipt.writeProbeDenied = true;
+          }
+        } catch { /* Raw model/tool content never enters logs. */ }
+      }
+    }); child.stderr.on('data', () => {});
+    receipt.processId = child.pid;
     onStart(child.pid);
     function terminate(reason) {
       if (ended) return;
@@ -102,9 +178,9 @@ export async function runCodex({ root, workspace, prompt, schema, output, timeou
     const interval = setInterval(() => { if (control()?.stop || control()?.pause) terminate('Operator paused/stopped Codex; inspect partial edits'); }, 1000);
     child.on('error', e => { failure = `Codex spawn failed: ${e.code}`; });
     child.on('close', code => {
-      ended = true; clearTimeout(timeout); clearInterval(interval); onStop();
+      ended = true; clearTimeout(timeout); clearInterval(interval); onStop(); receipt.finishedAt = new Date().toISOString();
       if (failure || code !== 0) reject(new Error(failure ?? `Codex failed (exit ${code})`));
-      else { try { resolve({ report: readJson(output), eventChunks: events }); } catch { reject(new Error('Codex did not return valid structured output')); } }
+      else { try { requireThat(receipt.threadId, 'Missing fresh Codex session evidence'); resolve({ report: readJson(output), eventChunks: events, receipt }); } catch { reject(new Error('Codex did not return valid structured output/session evidence')); } }
     });
     child.stdin.end(prompt);
   });

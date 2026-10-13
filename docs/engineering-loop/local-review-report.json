@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-13T18:07:26.349Z",
+  "overall": "PARTIAL_AUTOMATION_VERIFIED_LIVE_SSOT_BLOCKED",
+  "fullyAutomatedLifecycle": false,
+  "reuse": [
+    "writer lock",
+    "atomic state",
+    "dependency picker",
+    "existing Git/GCM transport",
+    "state machine",
+    "two-repair limit",
+    "controls/recovery",
+    "optional Work backend"
+  ],
+  "localCycle": {
+    "taskId": "D001",
+    "sourceKind": "synthetic-fixture",
+    "runId": "8ef8ee4a-776a-48f2-99e9-85fd487dfaa4",
+    "branch": "loop/d001-8ef8ee4a",
+    "headSha": "3830c4ad3cb4cc244a7a6bb7dca4282f06de9fed",
+    "phase": "MERGE_WAIT",
+    "repairs": 1,
+    "manualRelay": false,
+    "workTriggerUsed": false,
+    "realCodexCli": true,
+    "realBacklogExecuted": false,
+    "mergeVerified": false,
+    "googleSsotVerified": false,
+    "fileBytes": [
+      65,
+      80,
+      80,
+      82,
+      79,
+      86,
+      69,
+      68,
+      10
+    ],
+    "fixtureSha256": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3",
+    "events": [
+      {
+        "at": "2026-10-13T17:57:00.228Z",
+        "phase": "HANDOFF_CREATING",
+        "repairs": 0
+      },
+      {
+        "at": "2026-10-13T17:57:00.711Z",
+        "phase": "SOURCE_WAIT",
+        "repairs": 0
+      },
+      {
+        "at": "2026-10-13T17:57:01.049Z",
+        "phase": "DEVELOP_READY",
+        "repairs": 0
+      },
+      {
+        "at": "2026-10-13T17:57:01.454Z",
+        "phase": "DEVELOPING",
+        "repairs": 0
+      },
+      {
+        "at": "2026-10-13T17:57:30.725Z",
+        "phase": "PUBLISHING",
+        "repairs": 0
+      },
+      {
+        "at": "2026-10-13T17:57:30.726Z",
+        "phase": "REVIEW_WAIT",
+        "repairs": 0
+      },
+      {
+        "at": "2026-10-13T17:58:09.474Z",
+        "phase": "REPAIR_READY",
+        "repairs": 1
+      },
+      {
+        "at": "2026-10-13T17:58:09.891Z",
+        "phase": "DEVELOPING",
+        "repairs": 1
+      },
+      {
+        "at": "2026-10-13T17:58:32.644Z",
+        "phase": "PUBLISHING",
+        "repairs": 1
+      },
+      {
+        "at": "2026-10-13T17:58:32.645Z",
+        "phase": "REVIEW_WAIT",
+        "repairs": 1
+      },
+      {
+        "at": "2026-10-13T17:59:08.910Z",
+        "phase": "MERGE_WAIT",
+        "repairs": 1
+      }
+    ],
+    "processes": [
+      {
+        "role": "developer",
+        "sandbox": "workspace-write",
+        "newSession": true,
+        "resumed": false,
+        "chatgptOnly": true,
+        "paidApiKeysInherited": false,
+        "costProof": {
+          "checkedAt": "2026-10-13T17:57:03.123Z",
+          "chatgptOnly": true,
+          "hasCredits": false,
+          "balance": "0",
+          "ordinaryQuotaAvailable": true,
+          "resetCreditsUsed": false,
+          "methods": [
+            "initialize",
+            "account/read",
+            "account/rateLimits/read"
+          ]
+        },
+        "processId": 25776,
+        "threadId": "01a13669-2821-7493-b86e-61bc43f63773",
+        "startedAt": "2026-10-13T17:57:03.432Z",
+        "writeProbeAttempted": false,
+        "writeProbeDenied": false,
+        "writeProbeExitCode": null,
+        "finishedAt": "2026-10-13T17:57:30.285Z"
+      },
+      {
+        "role": "reviewer",
+        "sandbox": "read-only",
+        "newSession": true,
+        "resumed": false,
+        "chatgptOnly": true,
+        "paidApiKeysInherited": false,
+        "costProof": {
+          "checkedAt": "2026-10-13T17:57:33.504Z",
+          "chatgptOnly": true,
+          "hasCredits": false,
+          "balance": "0",
+          "ordinaryQuotaAvailable": true,
+          "resetCreditsUsed": false,
+          "methods": [
+            "initialize",
+            "account/read",
+            "account/rateLimits/read"
+          ]
+        },
+        "processId": 23932,
+        "threadId": "01a13669-9ebe-7621-b6d9-17caa3cb43ee",
+        "startedAt": "2026-10-13T17:57:33.818Z",
+        "writeProbeAttempted": true,
+        "writeProbeDenied": true,
+        "writeProbeExitCode": 1,
+        "finishedAt": "2026-10-13T17:58:08.583Z",
+        "sourceBefore": "fixture:5d73ec57963759c14a0a17e7e89d6fa09a3db9f0ddb68351a727bec8696554df",
+        "sourceAfter": "fixture:5d73ec57963759c14a0a17e7e89d6fa09a3db9f0ddb68351a727bec8696554df",
+        "sourceKind": "synthetic-fixture",
+        "snapshotHashBefore": "fc66312f166769b298ffb4e178cf11e8dcdd1f1d69b2c39942c9f22f1d3481e6",
+        "snapshotHashAfter": "fc66312f166769b298ffb4e178cf11e8dcdd1f1d69b2c39942c9f22f1d3481e6",
+        "developerHashAfter": "fc66312f166769b298ffb4e178cf11e8dcdd1f1d69b2c39942c9f22f1d3481e6",
+        "checks": [
+          {
+            "name": "exact bytes: docs/engineering-loop/dry-run-fixture.txt",
+            "file": "docs/engineering-loop/dry-run-fixture.txt",
+            "passed": false,
+            "actualHash": "f2da43908be9cdbe07e2e31d9de4e6a19655b4b8f0508d5ce03c8b8fa43c3172",
+            "expectedHash": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3",
+            "byteCount": 13
+          }
+        ],
+        "snapshot": "D:\\Chinese-Study-Hub\\.engineering-loop\\reviews\\8ef8ee4a\\f154bee1e9c2-56386641\\snapshot",
+        "probeAbsent": true
+      },
+      {
+        "role": "developer",
+        "sandbox": "workspace-write",
+        "newSession": true,
+        "resumed": false,
+        "chatgptOnly": true,
+        "paidApiKeysInherited": false,
+        "costProof": {
+          "checkedAt": "2026-10-13T17:58:11.488Z",
+          "chatgptOnly": true,
+          "hasCredits": false,
+          "balance": "0",
+          "ordinaryQuotaAvailable": true,
+          "resetCreditsUsed": false,
+          "methods": [
+            "initialize",
+            "account/read",
+            "account/rateLimits/read"
+          ]
+        },
+        "processId": 21180,
+        "threadId": "01a1366a-330c-7581-b742-1df8f4abcd2b",
+        "startedAt": "2026-10-13T17:58:11.750Z",
+        "writeProbeAttempted": false,
+        "writeProbeDenied": false,
+        "writeProbeExitCode": null,
+        "finishedAt": "2026-10-13T17:58:32.203Z"
+      },
+      {
+        "role": "reviewer",
+        "sandbox": "read-only",
+        "newSession": true,
+        "resumed": false,
+        "chatgptOnly": true,
+        "paidApiKeysInherited": false,
+        "costProof": {
+          "checkedAt": "2026-10-13T17:58:35.241Z",
+          "chatgptOnly": true,
+          "hasCredits": false,
+          "balance": "0",
+          "ordinaryQuotaAvailable": true,
+          "resetCreditsUsed": false,
+          "methods": [
+            "initialize",
+            "account/read",
+            "account/rateLimits/read"
+          ]
+        },
+        "processId": 23060,
+        "threadId": "01a1366a-8fba-78d3-8499-d78e6f012f2d",
+        "startedAt": "2026-10-13T17:58:35.519Z",
+        "writeProbeAttempted": false,
+        "writeProbeDenied": false,
+        "writeProbeExitCode": null,
+        "finishedAt": "2026-10-13T17:59:08.002Z",
+        "sourceBefore": "fixture:5d73ec57963759c14a0a17e7e89d6fa09a3db9f0ddb68351a727bec8696554df",
+        "sourceAfter": "fixture:5d73ec57963759c14a0a17e7e89d6fa09a3db9f0ddb68351a727bec8696554df",
+        "sourceKind": "synthetic-fixture",
+        "snapshotHashBefore": "2c10faafdf4d3e1f772b8a00f2936cac581ea27b5232c9f2cd30962e6b74f623",
+        "snapshotHashAfter": "2c10faafdf4d3e1f772b8a00f2936cac581ea27b5232c9f2cd30962e6b74f623",
+        "developerHashAfter": "2c10faafdf4d3e1f772b8a00f2936cac581ea27b5232c9f2cd30962e6b74f623",
+        "checks": [
+          {
+            "name": "exact bytes: docs/engineering-loop/dry-run-fixture.txt",
+            "file": "docs/engineering-loop/dry-run-fixture.txt",
+            "passed": true,
+            "actualHash": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3",
+            "expectedHash": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3",
+            "byteCount": 9
+          }
+        ],
+        "snapshot": "D:\\Chinese-Study-Hub\\.engineering-loop\\reviews\\8ef8ee4a\\3830c4ad3cb4-c87836da\\snapshot",
+        "probeAbsent": true
+      }
+    ],
+    "reviews": [
+      {
+        "review": {
+          "runId": "8ef8ee4a-776a-48f2-99e9-85fd487dfaa4",
+          "taskId": "D001",
+          "nonce": "f2f2d287-e421-4fd7-9033-18a57994af49",
+          "commitSha": "f154bee1e9c2d5e0f89476014abf2b6d539a75f1",
+          "sourceRevision": "fixture:5d73ec57963759c14a0a17e7e89d6fa09a3db9f0ddb68351a727bec8696554df",
+          "verdict": "REWORK",
+          "findings": [
+            {
+              "severity": "P1",
+              "file": "docs/engineering-loop/dry-run-fixture.txt",
+              "line": 1,
+              "message": "Actual bytes contain NEEDS_REPAIR followed by LF (13 bytes). Acceptance requires exactly APPROVED followed by one newline. Replace the content with APPROVED plus LF."
+            }
+          ],
+          "evidenceSummary": "The single readonly-probe.txt creation attempt was denied with Access denied; confirmed the file does not exist. Verified HEAD matches the packet commit and working tree is clean. Read fixture-spec.json, actual Git diff, and diff.patch; only the permitted fixture changed. Format-Hex independently confirmed bytes 4E-45-45-44-53-5F-52-45-50-41-49-52-0A. Working file blob hash matches the committed blob. Developer claims describe the failing content, not satisfaction of acceptance."
+        },
+        "receipt": {
+          "role": "reviewer",
+          "sandbox": "read-only",
+          "newSession": true,
+          "resumed": false,
+          "chatgptOnly": true,
+          "paidApiKeysInherited": false,
+          "costProof": {
+            "checkedAt": "2026-10-13T17:57:33.504Z",
+            "chatgptOnly": true,
+            "hasCredits": false,
+            "balance": "0",
+            "ordinaryQuotaAvailable": true,
+            "resetCreditsUsed": false,
+            "methods": [
+              "initialize",
+              "account/read",
+              "account/rateLimits/read"
+            ]
+          },
+          "processId": 23932,
+          "threadId": "01a13669-9ebe-7621-b6d9-17caa3cb43ee",
+          "startedAt": "2026-10-13T17:57:33.818Z",
+          "writeProbeAttempted": true,
+          "writeProbeDenied": true,
+          "writeProbeExitCode": 1,
+          "finishedAt": "2026-10-13T17:58:08.583Z",
+          "sourceBefore": "fixture:5d73ec57963759c14a0a17e7e89d6fa09a3db9f0ddb68351a727bec8696554df",
+          "sourceAfter": "fixture:5d73ec57963759c14a0a17e7e89d6fa09a3db9f0ddb68351a727bec8696554df",
+          "sourceKind": "synthetic-fixture",
+          "snapshotHashBefore": "fc66312f166769b298ffb4e178cf11e8dcdd1f1d69b2c39942c9f22f1d3481e6",
+          "snapshotHashAfter": "fc66312f166769b298ffb4e178cf11e8dcdd1f1d69b2c39942c9f22f1d3481e6",
+          "developerHashAfter": "fc66312f166769b298ffb4e178cf11e8dcdd1f1d69b2c39942c9f22f1d3481e6",
+          "checks": [
+            {
+              "name": "exact bytes: docs/engineering-loop/dry-run-fixture.txt",
+              "file": "docs/engineering-loop/dry-run-fixture.txt",
+              "passed": false,
+              "actualHash": "f2da43908be9cdbe07e2e31d9de4e6a19655b4b8f0508d5ce03c8b8fa43c3172",
+              "expectedHash": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3",
+              "byteCount": 13
+            }
+          ],
+          "snapshot": "D:\\Chinese-Study-Hub\\.engineering-loop\\reviews\\8ef8ee4a\\f154bee1e9c2-56386641\\snapshot",
+          "probeAbsent": true
+        }
+      },
+      {
+        "review": {
+          "runId": "8ef8ee4a-776a-48f2-99e9-85fd487dfaa4",
+          "taskId": "D001",
+          "nonce": "f2f2d287-e421-4fd7-9033-18a57994af49",
+          "commitSha": "3830c4ad3cb4cc244a7a6bb7dca4282f06de9fed",
+          "sourceRevision": "fixture:5d73ec57963759c14a0a17e7e89d6fa09a3db9f0ddb68351a727bec8696554df",
+          "verdict": "PASS",
+          "findings": [],
+          "evidenceSummary": "Verified HEAD matches the packet and working tree is clean. Read actual fixture bytes: exactly 41-50-50-52-4F-56-45-44-0A (APPROVED plus one LF); file blob matches HEAD. Inspected saved diff and Git changes from immutable specification baseline: only the permitted fixture changed. Latest commit replaces NEEDS_REPAIR with APPROVED. Git diff --check passed. Local specification matches packet acceptance criteria. Developer claims were independently checked."
+        },
+        "receipt": {
+          "role": "reviewer",
+          "sandbox": "read-only",
+          "newSession": true,
+          "resumed": false,
+          "chatgptOnly": true,
+          "paidApiKeysInherited": false,
+          "costProof": {
+            "checkedAt": "2026-10-13T17:58:35.241Z",
+            "chatgptOnly": true,
+            "hasCredits": false,
+            "balance": "0",
+            "ordinaryQuotaAvailable": true,
+            "resetCreditsUsed": false,
+            "methods": [
+              "initialize",
+              "account/read",
+              "account/rateLimits/read"
+            ]
+          },
+          "processId": 23060,
+          "threadId": "01a1366a-8fba-78d3-8499-d78e6f012f2d",
+          "startedAt": "2026-10-13T17:58:35.519Z",
+          "writeProbeAttempted": false,
+          "writeProbeDenied": false,
+          "writeProbeExitCode": null,
+          "finishedAt": "2026-10-13T17:59:08.002Z",
+          "sourceBefore": "fixture:5d73ec57963759c14a0a17e7e89d6fa09a3db9f0ddb68351a727bec8696554df",
+          "sourceAfter": "fixture:5d73ec57963759c14a0a17e7e89d6fa09a3db9f0ddb68351a727bec8696554df",
+          "sourceKind": "synthetic-fixture",
+          "snapshotHashBefore": "2c10faafdf4d3e1f772b8a00f2936cac581ea27b5232c9f2cd30962e6b74f623",
+          "snapshotHashAfter": "2c10faafdf4d3e1f772b8a00f2936cac581ea27b5232c9f2cd30962e6b74f623",
+          "developerHashAfter": "2c10faafdf4d3e1f772b8a00f2936cac581ea27b5232c9f2cd30962e6b74f623",
+          "checks": [
+            {
+              "name": "exact bytes: docs/engineering-loop/dry-run-fixture.txt",
+              "file": "docs/engineering-loop/dry-run-fixture.txt",
+              "passed": true,
+              "actualHash": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3",
+              "expectedHash": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3",
+              "byteCount": 9
+            }
+          ],
+          "snapshot": "D:\\Chinese-Study-Hub\\.engineering-loop\\reviews\\8ef8ee4a\\3830c4ad3cb4-c87836da\\snapshot",
+          "probeAbsent": true
+        }
+      }
+    ]
+  },
+  "checks": {
+    "legacy": {
+      "passed": 18,
+      "total": 18
+    },
+    "additional": {
+      "passed": 27,
+      "total": 27,
+      "command": "node --test tools/engineering-loop/local.test.mjs",
+      "externalTransports": "test doubles; no live Google or model API calls in unit tests"
+    }
+  },
+  "ssot": {
+    "backend": "google-docs",
+    "documentId": "1frjm6ZWnrBzLV9tZ4xiCQmiF83-QhMu322ntpmJRn30",
+    "credentialDirectory": "C:\\Users\\admin\\AppData\\Local\\ChineseStudyHub\\oauth",
+    "scope": "https://www.googleapis.com/auth/drive.file",
+    "status": "BLOCKED",
+    "missingFiles": [
+      "client.json",
+      "tokens.json",
+      "zero-cost.json"
+    ],
+    "liveReadVerified": false,
+    "liveWriteVerified": false,
+    "noCloudResourcesCreated": true,
+    "noConnectorTokenReuse": true,
+    "connectorReadVerifiedSeparately": true,
+    "localReadAttempt": "BLOCKED before network: zero-cost proof missing",
+    "sourceCacheRevision": "AHj4eMTRwJbEwy0-KTvCTLLRAhi79Zwo0Ool8CV1B9Kq77PWTzNsRIVStWII_Qzh4-nfCkWB-WoeC_QG_1gE4u_oFtkspt_hm0boVRAhBmM",
+    "ssotModified": false
+  },
+  "cost": {
+    "existingChatgptLogin": true,
+    "ordinaryQuotaCheckedBeforeEveryInvocation": true,
+    "paidApi": false,
+    "paidCredits": false,
+    "rateReset": false,
+    "cloudResourcesCreated": false,
+    "dependencyInstalls": false,
+    "oauthCredentialCreated": false,
+    "subscriptionCostNotAssessed": true
+  },
+  "safety": {
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "stop": true,
+    "liveWriter": false,
+    "liveReviewer": false,
+    "lockRemaining": false
+  },
+  "blockers": [
+    {
+      "kind": "SSOT_OAUTH",
+      "fact": "Configured local store lacks client.json, tokens.json and zero-cost.json. Existing connector read access does not grant local OAuth/per-file write access."
+    },
+    {
+      "kind": "ZERO_COST_PROOF",
+      "fact": "Actual existing project billing/terms/quota have not been verified. Fresh owner proof expires after 24h; automatic proof refresh is not implemented."
+    },
+    {
+      "kind": "LIVE_LIFECYCLE",
+      "fact": "Real SOURCE and scoped guarded SSOT write/readback and unattended MERGE are unverified. autoMerge and SSOT status writes stay disabled."
+    },
+    {
+      "kind": "TASK_ACCEPTANCE",
+      "fact": "Real task policies lack owner-defined deterministic acceptance contracts. Only exact-byte acceptance is implemented; meaningful document/code checks need a reviewed extension."
+    },
+    {
+      "kind": "SCOPED_DISPATCH",
+      "fact": "Controller requires clean main after this upgrade is reviewed/merged; bounded content-instance dispatch and hosting/deploy remain separately blocked."
+    }
+  ],
+  "notVerified": [
+    "Live OAuth consent/token exchange",
+    "Actual per-file Google read/write permission",
+    "Entire unattended SOURCE-to-DONE cycle",
+    "Automatic project no-billing/terms proof refresh",
+    "Full OS sandbox security audit",
+    "Real backlog acceptance/content review"
+  ]
+}

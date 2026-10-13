@@ -2,7 +2,7 @@
 
 Source: [Chinese Study Hub — Master Plan v1.1][source].
 Version: **v1.1**; source revision: `AHj4eMTRwJbEwy0-KTvCTLLRAhi79Zwo0Ool8CV1B9Kq77PWTzNsRIVStWII_Qzh4-nfCkWB-WoeC_QG_1gE4u_oFtkspt_hm0boVRAhBmM`.
-lastSyncedAt: **2026-10-13T22:12:47.553+07:00** (Asia/Saigon). This is a cache; live SSOT controls decisions.
+lastSyncedAt: **2026-10-14T01:10:12+07:00** (Asia/Saigon). This is a cache; live SSOT controls decisions.
 
 Goal: Vietnamese UI; owner only, Android/Windows; Simplified Chinese/zh-CN toward HSK4. M0 is a reviewed online slice, not full HSK1.
 

@@ -1,4 +1,4 @@
-param([ValidateSet('doctor','status','pick','dry-run','dry-github','step','start','pause','stop','resume')][string]$Action = 'status')
+param([ValidateSet('doctor','status','pick','dry-run','dry-local','dry-github','ssot-status','step','start','pause','stop','resume')][string]$Action = 'status')
 $ErrorActionPreference = 'Stop'
 $taskRoot = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..\..'))
 $loopFile = Join-Path $PSScriptRoot 'loop.mjs'

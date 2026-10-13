@@ -44,7 +44,7 @@ export function newExecution(task, source, mode = 'live') {
   return { schemaVersion: 1, runId: randomUUID(), taskId: task.id, mode, phase: 'QUEUED',
     sourceRevision: source.revision, repairs: 0, branch: null, baseSha: null, commitSha: null,
     issue: null, pr: null, worktree: null, evidence: [], events: [], consumedComments: [],
-    nonce: randomUUID(), deadline: null, writerPid: null, blocker: null, createdAt: now(), updatedAt: now() };
+    nonce: randomUUID(), deadline: null, writerPid: null, reviewerPid: null, blocker: null, createdAt: now(), updatedAt: now() };
 }
 
 export function move(state, phase, detail = {}) {
@@ -94,6 +94,7 @@ export function allowedPath(file, allowed) {
 }
 
 export function validateReport(report, state, changedFiles) {
+  requireThat(!('verdict' in report) && !('findings' in report), 'Developer cannot supply a reviewer verdict');
   requireThat(report.taskId === state.taskId && ['COMPLETE', 'BLOCKED'].includes(report.result), 'Invalid developer report');
   requireThat(Array.isArray(report.tests) && Array.isArray(report.evidence) && Array.isArray(report.changedFiles), 'Missing developer evidence');
   requireThat(typeof report.blocker === 'string', 'Missing blocker field');

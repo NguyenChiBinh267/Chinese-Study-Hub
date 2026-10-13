@@ -1,7 +1,7 @@
 # Implementation status — SSOT cache
 
 Release **M0/v0.1**; current task **T002: done — SSOT synced with revision guard/readback**.
-Source: **v1.1**, revision `AHj4eMTRwJbEwy0-KTvCTLLRAhi79Zwo0Ool8CV1B9Kq77PWTzNsRIVStWII_Qzh4-nfCkWB-WoeC_QG_1gE4u_oFtkspt_hm0boVRAhBmM`; synced **2026-10-13T22:12:47.553+07:00**.
+Source: **v1.1**, revision `AHj4eMTRwJbEwy0-KTvCTLLRAhi79Zwo0Ool8CV1B9Kq77PWTzNsRIVStWII_Qzh4-nfCkWB-WoeC_QG_1gE4u_oFtkspt_hm0boVRAhBmM`; synced **2026-10-14T01:10:12+07:00**.
 [Activation/backlog SSOT](https://docs.google.com/document/d/1frjm6ZWnrBzLV9tZ4xiCQmiF83-QhMu322ntpmJRn30#heading=h.e4gkrknsyse0); decisions/gates: [brief.md](brief.md).
 
 ## M0 — exactly 34 IDs
@@ -42,8 +42,14 @@ Next ready: **T005** (T002), **T068** (T001+T002), **T004** (T001). Recommend T0
 
 Cache note: AGENTS.md and brief.md held byte-identical per T002 request; their T001 authorization/checkpoint is historical, superseded by this explicit T002 assignment. SSOT readback confirmed only the T002 note added and outside text/headings unchanged. The source revision difference from brief is limited to that note; use this status revision and reread affected sections before another task. No architecture/release change.
 
-## Engineering loop setup — outside the SSOT backlog
+## Engineering loop setup — historical 2026-10-13 checkpoint
 
 2026-10-13: local Windows orchestrator, dependency picker, persistent state/lock, bounded repair/timeouts, GitHub bridge and controls implemented. Real synthetic D001 PR #2: Codex CLI -> independent manually invoked web review REWORK -> Codex repair -> independent PASS for fd687214a0b3eb5b020876988a738b7ca32457a4. One repair; source timeout/recovery and start/stop/resume verified. Reviewer artifacts were relayed verbatim through existing Git credentials after connector comment write returned 403. This is not proof of an automatic Work event trigger.
 
 Automatic operation: BLOCKED (no verified Work GitHub event trigger; connector Issues comment integration returns 403). Real task execution/auto-merge disabled; no additional SSOT Task ID started/completed. SSOT revision re-read unchanged; brief/status metadata reconciled. T001/T002 remain the only completed backlog IDs. Evidence: docs/engineering-loop/setup-report.json; docs/engineering-loop/README.md. Historical T001/T002-only authorization notes are superseded only for this explicitly requested tooling setup.
+
+## Local reviewer upgrade — current tooling checkpoint, outside backlog
+
+2026-10-14: existing controller reused; separate read-only Codex reviewer and Google Docs OAuth adapter added. Actual synthetic D001 automatic Developer → REWORK → one repair on same branch → PASS; four independent process/session IDs, exact new SHA, actual byte checks and CLI Access denied probe recorded. 18 legacy + 27 additional checks pass. No Work trigger/comment/manual relay in this cycle. Stops at MERGE_WAIT; merge and live Google SOURCE/SSOT sync remain unverified. This does not complete a project Task ID or prove FULLY AUTOMATED.
+
+Direct SSOT BLOCKED: local OAuth client/token/per-file access and actual no-billing proof missing; proof refresh is not automated. Real task acceptance policies also need meaningful deterministic checks (currently exact-byte support only). Keep liveEnabled=false, authorizedTasks=[], autoMerge=false, SSOT writes disabled, stop=true. No T004/T005/T068 started; no cloud resources, dependencies, billing/credits or production changes. Live v1.1 revision reread unchanged; T001/T002 remain the only done IDs. See docs/engineering-loop/local-review-report.json, README.md and google-docs-oauth.md.
