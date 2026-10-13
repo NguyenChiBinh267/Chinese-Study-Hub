@@ -34,6 +34,8 @@ Lifecycle: QUEUED → SOURCE_WAIT → DEVELOP_READY → REVIEW_WAIT → REWORK/r
 
 The actual protocol and saved reviewer prompt are in [WORK.md](../../tools/engineering-loop/WORK.md). GitHub transports issue briefs, PRs, evidence and structured SOURCE/REVIEW/SSOT_SYNC issue comments. The local controller does not call a hypothetical Work API. A Work event task must watch PR activity, comments and commit updates in the named repository, filter title `[loop]`, and ignore its own events unless a new request/head appears.
 
+If the connector cannot write comments but the owner has separately verified local Git write access, the independent reviewer may return a JSON handoff artifact. Save the verbatim event and observed chat provenance as `{"event":{...},"provenance":{"chatUrl":"https://chatgpt.com/c/OBSERVED_ID","manuallyInvoked":true}}` in `.engineering-loop/review-inbox`. `node tools/engineering-loop/loop.mjs relay .engineering-loop/review-inbox/source.json` posts it with exact artifact hash/provenance and verifies readback. The relay never invents a verdict and never counts as an automatic Work trigger. It uses existing local credentials, not expanded connector scopes.
+
 ## Initial activation gates
 
 1. GitHub and Codex account login must already work; GitHub bridge uses the existing Git Credential Manager credential in memory. No token is written to the repository or forwarded to the developer.

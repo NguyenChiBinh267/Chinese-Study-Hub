@@ -318,6 +318,30 @@ async function main() {
       const prior = stateOrNull(); requireThat(!prior || prior.phase === 'DONE', 'An execution already exists; do not overwrite it');
       save(newExecution(synthetic, source(), 'dry-github'));
       console.log(JSON.stringify(await step(), null, 2));
+    } else if (action === 'relay') {
+      const state = stateOrNull(), cfg = config();
+      requireThat(state?.pr && !state.writerPid, 'No idle PR execution for reviewer artifact');
+      const input = path.resolve(process.argv[3] ?? '');
+      const inbox = path.join(DATA, 'review-inbox') + path.sep;
+      requireThat(input.startsWith(inbox) && !fs.lstatSync(input).isSymbolicLink(), 'Artifact must be a real file in the local review inbox');
+      const artifact = readJson(input);
+      requireThat(/^https:\/\/chatgpt\.com\/c\/[a-zA-Z0-9-]+$/.test(artifact.provenance?.chatUrl) && artifact.provenance.manuallyInvoked === true,
+        'Require observed independent reviewer chat provenance; relay is not proof of an automatic trigger');
+      requireThat(['SOURCE', 'REVIEW', 'SSOT_SYNC'].includes(artifact.event?.type), 'Unknown reviewer artifact');
+      const gh = new GitHub(ROOT, cfg.repository), user = await gh.api('/user');
+      requireThat(cfg.reviewers.includes(user.login), 'Local relay identity is not an authorized reviewer account');
+      const body = `CSH_LOOP_EVENT\n\n\`\`\`json\n${JSON.stringify(artifact.event, null, 2)}\n\`\`\`\n\n` +
+        `Relayed verbatim from an independent, manually invoked ChatGPT web reviewer: ${artifact.provenance.chatUrl}. ` +
+        `Artifact SHA-256: ${hash(JSON.stringify(artifact.event))}. GitHub connector write was unavailable; transport uses existing local Git credentials. This is not an event-triggered Work run.`;
+      requireThat(parseBridgeComment({ user: { login: user.login }, body }, cfg, state), 'Artifact does not match active run/task/nonce');
+      const comments = await gh.comments(state.pr);
+      const marker = `Artifact SHA-256: ${hash(JSON.stringify(artifact.event))}`;
+      const existing = comments.find(c => c.user.login === user.login && c.body.includes(marker));
+      const comment = existing ?? await gh.comment(state.pr, body);
+      const readback = (await gh.comments(state.pr)).find(c => c.id === comment.id);
+      requireThat(readback?.body === body, 'Relay comment readback differs');
+      writeJson(path.join(DATA, 'relays', `${comment.id}.json`), { commentId: comment.id, commentUrl: comment.html_url, artifactHash: hash(JSON.stringify(artifact.event)), provenance: artifact.provenance, readbackVerified: true });
+      console.log(JSON.stringify({ relayed: true, commentId: comment.id, commentUrl: comment.html_url, readbackVerified: true, automaticTrigger: false }));
     } else if (action === 'recover') {
       const state = stateOrNull(), cfg = config();
       requireThat(state?.phase === 'BLOCKED', 'No BLOCKED execution to recover');
@@ -340,7 +364,7 @@ async function main() {
         if (state.phase === 'DONE') { completed++; if (state.mode === 'dry-github') break; }
         if (completed < cfg.maxTasksPerRun) await new Promise(resolve => setTimeout(resolve, Math.min(cfg.pollSeconds, 60) * 1000));
       }
-    } else throw new Error('Commands: doctor, status, pick, dry-run, dry-github, step, run, pause, stop, resume, recover PRIOR_WAIT_PHASE');
+    } else throw new Error('Commands: doctor, status, pick, dry-run, dry-github, step, run, pause, stop, resume, relay INBOX_ARTIFACT, recover PRIOR_WAIT_PHASE');
   } finally { release(); }
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main().catch(e => { console.error(JSON.stringify({ phase: 'BLOCKED', blocker: e.message })); process.exitCode = 1; });
