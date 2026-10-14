@@ -1,52 +1,66 @@
-# Engineering loop — Windows
+# Git-native engineering loop — operations
 
-Local orchestrator for Chinese Study Hub. It uses the existing Node.js/Git/Codex CLI and Git Credential Manager; no dependency packages, OpenAI API key, GitHub Actions runner, server, billing or new credentials are required. The Google Doc remains SSOT. The 70-task JSON index is a revision-labelled cache; only 34 M0 tasks are active. The deterministic local picker is explicitly **not Work**.
+Zero-touch scheduling/bootstrap is documented in [zero-touch.md](zero-touch.md). It reuses this controller and its phase/merge/status adapters. `multi-proof` runs multiple synthetic tasks and supervised restart; `bootstrap-review` reviews actual PR #3. Real authority remains disabled. Historical single-task proof below remains intact.
 
-Current setup: real backlog disabled (`liveEnabled=false`, `authorizedTasks=[]`, `autoMerge=false`). T001/T002 remain the only completed project tasks. Do not enable a task because a local simulation passed. Work trigger availability must be checked on the actual account; official documentation says availability depends on plan/workspace settings. A desktop recurring automation is not a GitHub event trigger.
+The existing controller now uses Git SOURCE/status and independent local Codex review. No Google API/OAuth/Picker/Cloud project or Work event is on the critical path. The owner approved this authority change; it takes effect only after migration review and merge into verified origin/main. PR #3 remains draft/unmerged, so main currently lacks Git SSOT and live SOURCE is BLOCKED. The workspace plan is a candidate, never a runtime fallback.
 
-## Controls
+Specification: docs/master-plan/master-plan-v1.1.md. The only mutable status source: docs/master-plan/task-status.json. Manifest/original snapshot/import validation live beside them. Task index is derived in memory from pinned Git blobs. Historical Work/manual PR #2, local-review and pre-Git cache/handoffs are retained as evidence; they do not control readiness.
 
-Run from `D:\Chinese-Study-Hub`:
+## Run checks and isolated fixtures
+
+From D:\Chinese-Study-Hub, with existing Node/Git/Codex:
 
 ```powershell
-.\tools\engineering-loop\control.ps1 doctor
-.\tools\engineering-loop\control.ps1 pick
-.\tools\engineering-loop\control.ps1 dry-run
-node .\tools\engineering-loop\smoke.mjs
-.\tools\engineering-loop\control.ps1 dry-github
-.\tools\engineering-loop\control.ps1 step
-.\tools\engineering-loop\control.ps1 start
+node tools/engineering-loop/validate-import.mjs
+node tools/engineering-loop/loop.mjs candidate-pick
+node tools/engineering-loop/loop.mjs ssot-status
+node tools/engineering-loop/loop.mjs doctor
+node tools/engineering-loop/loop.mjs dry-run
+node --test tools/engineering-loop/local.test.mjs tools/engineering-loop/git.test.mjs tools/engineering-loop/autonomous.test.mjs tools/engineering-loop/bootstrap.test.mjs
+node tools/engineering-loop/loop.mjs dry-git
+```
+
+`candidate-pick` labels branch-derived readiness explicitly; it authorizes nothing. `pick` and `ssot-check T001` fetch origin/main and require valid pinned Git SSOT. Before migration is merged they block, without Google/cache fallback. Legacy 18-check dry-run simulates external adapters; local/Git unit tests use explicitly marked reviewer/transport doubles plus actual local Git. They are not external GitHub lifecycle proof.
+
+`dry-git` uses isolated local bare remote and D001/D002 IDs outside the real backlog. It runs actual Codex Developer → local Reviewer REWORK → same-branch repair → new-HEAD PASS → actual Git merge → single-task status push/readback → DONE → next pick D002. D002 is not executed. One fresh controller process per transition reloads persistent state. Four separate CLI role sessions use existing ChatGPT included ordinary quota. Real safety flags remain false/empty, and stop=true is restored. Root task-status.json remains unchanged. Runtime evidence: .engineering-loop/git-cycle-latest.json and per-review packets/diffs/receipts. Curated proof: git-native-report.json.
+
+The initial generator intentionally creates NEEDS_REPAIR; generator checks go in tests, its known acceptance failure stays in evidence and controller acceptance. It is never called passed. The independent reviewer must REWORK, and final APPROVED + LF bytes must be verified. A failed developer check still blocks; no false COMPLETE bypass was introduced.
+
+## Configuration and source binding
+
+Defaults in config.example.json/ignored runtime config:
+
+```json
+{"sourceBackend":"git","ssotBackend":"git","reviewerBackend":"local-codex","liveEnabled":false,"authorizedTasks":[],"autoMerge":false,"ssotAllowStatusWrites":false}
+```
+
+SOURCE/SSOT backends in the migrated controller are Git only; selecting legacy Google/Work SOURCE is rejected. Legacy OAuth module/guide/tests remain historical and are never called by the Git path. Optional Work review/relay remains disabled until a real supported/free trigger is separately verified; no trigger creation is retried. It cannot write SOURCE/status. WORK.md is review-only guidance; its former protocol is archived.
+
+Before live selection fetch/verify the exact GitHub origin/main. Read specification/status/manifest from that commit, validate version/title/provenance hashes, 70 IDs/buckets/DAG/M0 closure and dependencies done. Packets bind run/task/nonce, source/base SHA, spec/status/policy hashes, acceptance, allowed files and owner checks. Never trust specification from the developer branch. Any source HEAD/policy drift blocks; the sole exceptions are already-checkpointed exact own merge/status commits with unchanged specification and verified single-task status. No silent rebase or cached-source acceptance.
+
+Prepared T068/T004/T005 contracts cover required paths, supported JSON schema subset, screen sections/states, source URLs/evidence/hash claims, rights/publication, internal vs verified exam labels, dependency/scope/whitespace, secrets/paid config and allowlisted commands. Unsupported schema/check/command or missing human evidence blocks. These contracts are proposals requiring owner review before activation, not real-task completion proof. Owner evidence is pinned outside developer scope as described in docs/master-plan/README.md. Account, legal and competent-language facts cannot be invented by either model. Final artifact approvals bind actual bytes; adding proof on main during a run requires explicit source reconciliation. An unattended human approval/reconciliation lane is not implemented.
+
+## Processes, merge and status
+
+The existing phase semantics remain SOURCE_WAIT → DEVELOP_READY → REVIEW_WAIT → REPAIR_READY → MERGE_WAIT → SSOT_WAIT → DONE (plus durable write/cache phases). REWORK permits at most two repairs. Fresh ephemeral Developer and read-only Reviewer processes have different PIDs/thread IDs and no shared conversation. Reviewer reads exact detached snapshot/diff/actual bytes/tests, with before/after fingerprints; developer COMPLETE is not a verdict. Deterministic acceptance must pass independently. Timeout, malformed/stale verdict, missing evidence, crash/quota limit or mutation becomes BLOCKED.
+
+Every invocation verifies ChatGPT auth and ordinary available quota with zero/known-no credits; secrets/API-provider overrides are removed from the environment. No API key, paid credits, resets, fallback or new subscription/resource exists. This uses an existing account, not a claim that its subscription is free. Scope and Git config/hooks are checked before controller publication. Windows sandbox/fixture checks are not a complete OS security audit.
+
+Real automatic merge stays disabled. If separately authorized later, the controller rechecks PASS/current HEAD/source/scope/acceptance/no concurrent process, creates a two-parent merge whose parents are pinned main and reviewed SHA, then pushes non-force. An advanced main rejects the push. Server permissions/protection can also reject; they are never weakened. No paid GitHub auto-merge feature is required. Manual GitHub merge may be confirmed only if exact reviewed SHA and pinned parent/tree are preserved; squash/rebase or later concurrent main changes block and require reconciliation.
+
+Merge/status intent SHA is persisted before push. Recovery after an actual push recognizes the same remote commit instead of creating/pushing a duplicate. Status sync verifies merged ancestry and unchanged specification/status base, changes only the authorized task in task-status.json, records run/PR/reviewed/merge/source/checks/verdict/time, commits only that path, pushes non-force and reads exact remote HEAD/blob plus every unrelated task back. DONE occurs only after readback and cache refresh. A failed status push stays recoverable at SSOT_WAIT; implementation/merge are not repeated.
+
+## Controls and blockers
+
+```powershell
 .\tools\engineering-loop\control.ps1 status
 .\tools\engineering-loop\control.ps1 pause
 .\tools\engineering-loop\control.ps1 stop
 .\tools\engineering-loop\control.ps1 resume
+.\tools\engineering-loop\control.ps1 start
+node tools/engineering-loop/loop.mjs recover SSOT_WAIT
 ```
 
-`dry-run` exercises real local Git/files/checkpoints with simulated external adapters. It creates no real PR or Work verdict. `smoke.mjs` invokes the actual Codex CLI through the existing ChatGPT login in a separate synthetic repository; its evidence reports actual file-byte readback. `dry-github` creates a real synthetic issue, branch and PR, runs the actual Codex CLI and requires real reviewer comments. The initial Codex fixture intentionally contains NEEDS_REPAIR so the first REVIEW must fail; the repair changes it to APPROVED. It never changes SSOT or merges fixture content into main.
+Start uses the existing hidden controller. Resume clears control flags but never erases BLOCKED. Recovery requires the recorded prior stable wait phase and actual source/HEAD/clean tree; it preserves pending merge/status SHAs and repair count. Interrupted writer/publication needs inspection. Never delete a live lock, reset edits or edit checkpoints to bypass drift. One shared writer lock protects the controller/model; a separate fixture-driver lock prevents duplicate dry-git drivers. All real activation requires clean main and a separately authorized Task ID/policy.
 
-`step` advances one durable state transition. `start` launches the controller hidden; `pause`/`stop` signal it and terminate its active Codex process tree. `resume` clears control flags; run `start` again if the prior process exited. Resume does not erase BLOCKED. A timeout, ambiguous external side effect, source drift or interrupted developer write stops the task for inspection. After checking the blocker, `node tools/engineering-loop/loop.mjs recover SOURCE_WAIT` (or the recorded prior REVIEW_WAIT/MERGE_WAIT/SSOT_WAIT) reconciles the actual PR/worktree and restarts only that wait, preserving repair counters. Interrupted writes require explicit local inspection. Never delete an active writer lock or reset a worktree to recover. Repeated dry-runs/smoke write ignored runtime evidence; checked-in evidence files are curated checkpoints.
-
-## Persistent state and review
-
-Runtime files in `.engineering-loop` are ignored by Git: config, state, control, locks, reports, evidence and task worktrees. State includes exact run/task, SSOT revision, retry count, nonce, branch, issue/PR, commit and events. Writes use temporary file + rename. One shared lock covers controller and CLI smoke; a dead controller cannot reclaim a live child writer. On each transition/restart the controller checks actual local root/task Git state and GitHub PR identity/head; source approval and review come from live-SSOT-attested Work comments. Uncertain effects are BLOCKED instead of replayed blindly.
-
-Lifecycle: QUEUED → SOURCE_WAIT → DEVELOP_READY → REVIEW_WAIT → REWORK/repair (maximum 2) → MERGE_WAIT → SSOT_WAIT → DONE. A real task is not done until its reviewed head is merged and Work has written/read back the single task status in SSOT. Without autoMerge, MERGE_WAIT awaits an actual merge. Missing responses timeout into BLOCKED. Only exact configured reviewer login/runId/nonce/HEAD is accepted. GitHub author proves the account that wrote a comment, not cryptographic proof of which application produced it; the trusted reviewer must be Work or the owner, never the developer.
-
-The actual protocol and saved reviewer prompt are in [WORK.md](../../tools/engineering-loop/WORK.md). GitHub transports issue briefs, PRs, evidence and structured SOURCE/REVIEW/SSOT_SYNC issue comments. The local controller does not call a hypothetical Work API. A Work event task must watch PR activity, comments and commit updates in the named repository, filter title `[loop]`, and ignore its own events unless a new request/head appears.
-
-If the connector cannot write comments but the owner has separately verified local Git write access, the independent reviewer may return a JSON handoff artifact. Save the verbatim event and observed chat provenance as `{"event":{...},"provenance":{"chatUrl":"https://chatgpt.com/c/OBSERVED_ID","manuallyInvoked":true}}` in `.engineering-loop/review-inbox`. `node tools/engineering-loop/loop.mjs relay .engineering-loop/review-inbox/source.json` posts it with exact artifact hash/provenance and verifies readback. The relay never invents a verdict and never counts as an automatic Work trigger. It uses existing local credentials, not expanded connector scopes.
-
-## Initial activation gates
-
-1. GitHub and Codex account login must already work; GitHub bridge uses the existing Git Credential Manager credential in memory. No token is written to the repository or forwarded to the developer.
-2. Set up the event-triggered Work reviewer on the actual supported account, with repository read/comment and Google Docs read/scoped-write access. No upgrade or paid fallback is allowed. If unsupported, the local picker remains usable; automatic independent review is BLOCKED.
-3. Complete the real synthetic PR → REWORK → repair → PASS cycle and record evidence that the trigger fired automatically. A manually requested review is a useful bridge test, but not proof of event delivery.
-4. Only then activate owner-approved Task IDs and per-task file/check policies in `.engineering-loop/config.json`. Code tasks require concrete targeted checks; content families require materialized bounded instances. Future releases, deployments/cloud accounts and reviewer rights are not activated by this setup. No 70-task bulk run.
-
-Codex uses `--ignore-user-config`, ChatGPT-only login, workspace-write, approval policy never and an unelevated Windows sandbox with network access disabled in configuration. It blocks rather than requests an unsandboxed fallback. Official documentation describes weaker network isolation in the unelevated legacy sandbox; the CLI smoke verifies the requested fixture, not a full OS isolation/security audit. Task allowlists and secret detection are publication checks, not protection against every hostile local process. Never treat these controls as permission to process untrusted credentials/content without review.
-
-The minimal harness does not yet dispatch SSOT-materialized content instance IDs. Base authoring families T016/T034/T044/T047/T050/T055 are explicitly blocked, even if someone adds a broad file policy. Hosting/deploy tasks T069/T053 are separately blocked pending their own authorization. Currently configured real-task file policies cover only T004/T005/T068; code-task checks and bounded-instance support require a separate reviewed extension before activation.
-
-Published evidence excludes raw Codex streams and secrets. Logs contain compact task phases/errors. Local secret/config files are ignored. Task checks are selected by owner policy, not executable commands supplied by the model. Documentation uses scope/JSON/whitespace/source review; code checks must be added before code-task activation. T068, T009, T069 and content-review gates remain intact.
-
-Sources: [non-interactive Codex](https://learn.chatgpt.com/docs/non-interactive-mode), [Work scheduled/event tasks](https://learn.chatgpt.com/docs/automations), [Windows sandbox](https://learn.chatgpt.com/docs/windows/windows-sandbox).
+Verified: complete text/spec import validation, actual local CLI/Git-bare lifecycle, fresh-controller checkpoint reload, local non-force races and failure/duplicate recovery. Unverified: external GitHub merge/status lifecycle, real backlog, provider/account/legal/language eligibility and a full OS security audit. Do not claim FULLY AUTOMATED for the real project. Main migration is pending; human gates, T009/T068/T069, bounded content instances and hosting/deploy require separate work/authorization. No T068/T004/T005 execution or PR #2/#3 merge is authorized by this upgrade.

@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["runId", "taskId", "nonce", "commitSha", "sourceRevision", "verdict", "findings", "evidenceSummary"],
+  "properties": {
+    "runId": { "type": "string" },
+    "taskId": { "type": "string" },
+    "nonce": { "type": "string" },
+    "commitSha": { "type": "string" },
+    "sourceRevision": { "type": "string" },
+    "verdict": { "enum": ["PASS", "REWORK", "BLOCKED"] },
+    "findings": { "type": "array", "items": { "type": "object", "additionalProperties": false,
+      "required": ["severity", "file", "line", "message"],
+      "properties": { "severity": { "enum": ["P0", "P1", "P2", "P3"] }, "file": { "type": "string" }, "line": { "type": "integer" }, "message": { "type": "string" } } } },
+    "evidenceSummary": { "type": "string" }
+  }
+}

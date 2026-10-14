@@ -1,0 +1,45 @@
+# Zero-touch driver and PR #3 bootstrap
+
+This extends the existing controller. SOURCE_WAIT → DEVELOP_READY → REVIEW_WAIT → REPAIR_READY → MERGE_WAIT → SSOT_WAIT → DONE keeps its existing meaning. The driver starts a fresh controller process for every transition, with the shared writer lock and exact Git adapter checks. Developer never supplies the verdict or status. Work remains optional; no trigger creation is retried.
+
+The current authorization covers tooling and isolated synthetic tasks only. PR #3 remains draft/unmerged; Git SSOT on main is unavailable until reviewed migration merge. Real flags stay liveEnabled=false, authorizedTasks=[], autoMerge=false, ssotAllowStatusWrites=false. No real T068/T004/T005 or resources/deployments/paid APIs/credits are permitted. T009/T068/T069 and rights/competent content review are preserved.
+
+## Bootstrap, outside the real backlog
+
+`node tools/engineering-loop/loop.mjs bootstrap-review` pins the actual open draft PR #3 repository/branch/head/base and verifies it against GitHub before and after review. It clones the exact candidate bytes, runs the regression suite and 18 legacy checks, then calls a fresh read-only local Codex Reviewer with full diff, source/import contract and exact-SHA test evidence. Large diffs are provided as a complete readable file, not truncated. Imported plan/status/export/manifest hashes remain fixed through bootstrap repairs.
+
+REWORK invokes a fresh Developer in the isolated clone, accepts only engineering-scope changes, checks actual report/scope/Git metadata/tests, commits and non-force pushes the same PR branch, and reviews the new exact HEAD. Maximum two repairs. A failed check, missing/malformed/stale verdict, source drift, model failure or unsafe partial edit means BLOCKED. No silent approval.
+
+Runtime bootstrap evidence is `.engineering-loop/bootstrap-latest.json` plus independent snapshot/packet/diff/receipt and exact-SHA JUnit files. Changing PR HEAD invalidates an earlier PASS. Recording the result in the PR description does not change the reviewed Git commit; adding a later repository commit requires review again.
+
+The controller owns the fixed regression allowlist. When a bootstrap Developer reports BLOCKED specifically because its unchanged sandbox cannot launch regression child processes, its report stays BLOCKED; scoped/history-verified edits can be handed to controller checks under existing ordinary permissions. All checks must pass on the exact local commit before publication/review, and only the separate Reviewer may PASS. Human/account/legal blockers cannot use this handoff. `bootstrap-recover-tests` can recover the preserved post-scope-check denial from an older controller version, without overwriting root changes or fabricating an unavailable original process receipt. No model permission is elevated.
+
+`bootstrap-merge` additionally requires an owner-issued `bootstrapMergeAuthorization` in ignored runtime config: ownerApproved=true, repository, pr=3, merge=true, exact commitSha/baseSha and expiresAt. The defaults contain null. The controller creates a two-parent merge, checkpoints its SHA before non-force push, checks exact remote HEAD/parents/reviewed tree and Git SSOT 70/34/T001-T002 readback, and verifies GitHub reports PR #3 merged. A retry recognizes its pending merge. This path has not been exercised on external GitHub without the initial explicit merge grant. It never changes backlog status to complete bootstrap B001.
+
+## One-time cycle authorization
+
+`tools/engineering-loop/authorization.example.json` is an inactive template. It binds repository/release, explicit task IDs, merge/status rights, independently reviewed bootstrap SHA, expiry, task/model-call/run-time/retry/quota-wait budgets and a hard zero service-cost/no paid credits/no new service rule. The owner grant is operational authority; it is not legal, account, Chinese-language or publication evidence.
+
+After initial authorization and verified main migration, put the explicit grant in `zeroTouchAuthorization` in ignored `.engineering-loop/config.json`, and set the real flags to exactly its task scope/merge/status authority. Run `autonomous` or the hidden `control.ps1 start`. The driver rejects missing/dormant/expired/mismatched authority and grant drift. Neither setup, a completed task, nor this document activates those flags. Starting a stopped grant again cannot reset its budgets: a new run requires a new explicit grant ID. Restart of a RUNNING cycle uses the same grant/checkpoints/budgets via `autonomous-resume`.
+
+The driver derives readiness from freshly verified main, active release and dependencies DONE in the sole Git task-status source. It dispatches only granted IDs with an adequate acceptance contract. Missing contracts, unsupported bounded content/hosting authority or missing pinned human attestations produce a BLOCKED attempt and it considers the next independent task. Final artifact evidence is still checked against actual hashes; it cannot be forged by either model. A Developer BLOCKED report is never approval; only scoped isolated changes are retained and never merged.
+
+BLOCKED attempts are recorded in the persistent cycle ledger/report; they do not mark Git tasks DONE or satisfy dependencies. Git task-status.json remains the only task-status authority. The ledger is execution history and bounded dispatch exclusion for this cycle, not a second plan/status database. A descendant of a task without DONE remains ineligible. Missing evidence is reported once in the aggregate; there is no per-transition owner prompt.
+
+## Recovery and stop behavior
+
+The ledger binds grant hash and cycle/run/task IDs, outcomes, expected remote head, attempts, retries and controller/driver PIDs. It recognizes a task whose durable DONE checkpoint preceded a driver restart, archives it once and picks the next task. Source drift between tasks stops globally; it never silently adopts concurrent specification changes. The Git adapters preserve exact pending merge/status commits, so an already-pushed merge/status resumes by readback without repeating Developer or merge. Direct concurrent step/run is refused while the driver owns execution.
+
+Only identified transient Git transport errors at stable read/publish/merge/status/cache checkpoints retry with bounded backoff, at most three retries. Non-force rejection, protection/permission failure, unknown error, source drift, malformed review, model crash or unsafe writer checkpoint stops globally and preserves evidence/partial files. Safe stop is the response to uncertainty; protection is never weakened.
+
+Quota exhaustion detected before model dispatch leaves a stable ready/review checkpoint and BLOCKED state. If the existing account exposes a finite reset time within the authorized wait/run budgets, the driver persists the wait and retries after reset. Otherwise it stops with an aggregate blocker. Every new model call rechecks ChatGPT auth, known-zero credits and ordinary quota. No purchased reset/credits/API key/fallback/new service is used. Unknown mid-call failures are not blindly replayed. Budgets count attempted model dispatch before launch, including interrupted attempts.
+
+No eligible task, task/model/time/expiry limit, operator pause/stop or global blocker ends the cycle safely with `.engineering-loop/autonomous-report.json`. No routine transition asks the owner to review, merge, copy findings, sync status or assign another task. New human evidence or new authority remains a separate explicit act.
+
+## Isolated multi-task proof
+
+`node tools/engineering-loop/loop.mjs multi-proof` creates a separate local bare Git remote and runs the real CLI roles through D001 → D002, D003 missing human evidence, then independent D004. D005 depends on D003 and must stay ineligible. D001 deliberately generates wrong bytes, requires independent REWORK and a same-branch repair before PASS. The supervisor restarts the driver automatically at MERGE_WAIT and SSOT_WAIT and preserves task/status/repair identities. No owner relay is part of these transitions. `multi-supervise` can supervise a still-RUNNING fixture checkpoint; `multi-resume` is the lower-level recovery command.
+
+Receipts must show different Developer/Reviewer processes and threads, read-only review snapshots, exact reviewed/merge/status commits, remote readback, unrelated statuses/spec unchanged and unchanged real task-status bytes. Runtime proof is `.engineering-loop/multi-cycle-latest.json`; curated outcome is `zero-touch-report.json`. Failed attempts are retained and must be distinguished from successful proof. The fixtures use ordinary quota on the already logged-in ChatGPT account; availability is checked immediately before each call.
+
+Local synthetic proof does not prove GitHub merge/status permissions, branch-protection behavior, real task acceptance, provider/account eligibility, publication rights or competent content review. FULLY AUTOMATED for the real backlog is not claimed before that lifecycle is actually authorized and verified.

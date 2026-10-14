@@ -6,6 +6,7 @@ import { hash, validateSource, readyTasks, newExecution, move, parseBridgeCommen
   checkDeadline, allowedPath, validateReport } from './core.mjs';
 import { readJson, writeJson, lock, git } from './io.mjs';
 import { TOOL, ROOT } from './loop.mjs';
+import { deriveRepository } from './plan.mjs';
 
 export async function dryRun() {
   const dir = path.join(ROOT, '.engineering-loop', 'dry-runs', new Date().toISOString().replace(/[:.]/g, '-'));
@@ -15,7 +16,7 @@ export async function dryRun() {
     try { action(); results.push({ name, passed: true }); }
     catch (e) { results.push({ name, passed: false, error: e.message }); }
   }
-  const source = readJson(path.join(TOOL, 'source-index.json'));
+  const source = deriveRepository(ROOT);
   test('Real SSOT index: 70 unique IDs, 34 active, dependency closure and no cycle', () => validateSource(source));
   test('Deterministic picker selects T068 then T004/T005, no inactive tasks', () => assert.deepEqual(readyTasks(source).map(t => t.id), ['T068', 'T004', 'T005']));
   test('Pending dependency excludes T003', () => assert(!readyTasks(source).some(t => t.id === 'T003')));

@@ -193,5 +193,43 @@
       "T005",
       "T068"
     ]
+  },
+  "localReviewerUpgrade": {
+    "at": "2026-10-13T18:07:26.349Z",
+    "evidence": "docs/engineering-loop/local-review-report.json",
+    "reviewCycle": "AUTOMATIC_PASS",
+    "fullyAutomatedLifecycle": false,
+    "remainingBlockers": [
+      {
+        "kind": "SSOT_OAUTH",
+        "fact": "Configured local store lacks client.json, tokens.json and zero-cost.json. Existing connector read access does not grant local OAuth/per-file write access."
+      },
+      {
+        "kind": "ZERO_COST_PROOF",
+        "fact": "Actual existing project billing/terms/quota have not been verified. Fresh owner proof expires after 24h; automatic proof refresh is not implemented."
+      },
+      {
+        "kind": "LIVE_LIFECYCLE",
+        "fact": "Real SOURCE and scoped guarded SSOT write/readback and unattended MERGE are unverified. autoMerge and SSOT status writes stay disabled."
+      },
+      {
+        "kind": "TASK_ACCEPTANCE",
+        "fact": "Real task policies lack owner-defined deterministic acceptance contracts. Only exact-byte acceptance is implemented; meaningful document/code checks need a reviewed extension."
+      },
+      {
+        "kind": "SCOPED_DISPATCH",
+        "fact": "Controller requires clean main after this upgrade is reviewed/merged; bounded content-instance dispatch and hosting/deploy remain separately blocked."
+      }
+    ]
+  },
+  "gitNativeUpgrade": {
+    "at": "2026-10-14T04:22:47.265Z",
+    "evidence": "docs/engineering-loop/git-native-report.json",
+    "sourceBackend": "git",
+    "ssotBackend": "git",
+    "reviewerBackend": "local-codex",
+    "localLifecycle": "VERIFIED",
+    "mainMigration": "PENDING_OWNER_REVIEW_MERGE",
+    "fullyAutomatedProject": false
   }
 }

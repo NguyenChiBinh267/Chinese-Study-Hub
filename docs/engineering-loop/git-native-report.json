@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-14T04:22:47.265Z",
+  "overall": "LOCAL_SYNTHETIC_FULL_LIFECYCLE_VERIFIED_MAIN_MIGRATION_PENDING",
+  "fullyAutomatedProject": false,
+  "import": {
+    "manifest": "docs/master-plan/source-manifest.json",
+    "report": "docs/master-plan/migration-report.json",
+    "taskCount": 70,
+    "buckets": {
+      "M0": 34,
+      "M1": 14,
+      "M2": 7,
+      "M3": 3,
+      "M4": 3,
+      "M5": 3,
+      "optional": 6
+    },
+    "doneIds": [
+      "T001",
+      "T002"
+    ],
+    "sourceSnapshotSha256": "ce17be2efa544d92487abeeb4fbaad884a7c82f9eee2f610460c72c9d83d8af1",
+    "googleModified": false
+  },
+  "synthetic": {
+    "at": "2026-10-14T03:53:35.767Z",
+    "status": "LOCAL_SYNTHETIC_LIFECYCLE_VERIFIED",
+    "sourceKind": "synthetic-local-Git-bare-remote",
+    "runId": "da55a02f-8bb3-4338-abb0-09bea811dd3f",
+    "taskId": "D001",
+    "sourceCommit": "f54a35679d1a316ccf69cf6f2fabbdcce9bcf7f6",
+    "specHash": "cbf90e79c2e32a40b4836bc7a7f542a11592205853438e9d14b82cfb98ce23d8",
+    "initialStatusHash": "2678e1ce3ec1b5b4542e2b8154aa2494c943f9fb8a7379e52242aa165ad43653",
+    "reviewedSha": "cbc8d9aaed6bee2d96b32f1c646008bdcc3c210e",
+    "mergeSha": "fd91660c44e43c39ed234ccc41b2ad4b2ca6c26a",
+    "statusSha": "8bab9e5d72985e4b580f27576e1477a70716a18d",
+    "remoteHead": "8bab9e5d72985e4b580f27576e1477a70716a18d",
+    "phase": "DONE",
+    "verdict": "PASS",
+    "repairs": 1,
+    "nextPick": [
+      "D002"
+    ],
+    "controllerProcessIds": [
+      24464,
+      31176,
+      7440,
+      25452,
+      32576,
+      23172,
+      26176,
+      33652,
+      26064
+    ],
+    "processReceipts": [
+      {
+        "role": "developer",
+        "sandbox": "workspace-write",
+        "newSession": true,
+        "resumed": false,
+        "chatgptOnly": true,
+        "paidApiKeysInherited": false,
+        "costProof": {
+          "checkedAt": "2026-10-14T03:50:46.478Z",
+          "chatgptOnly": true,
+          "hasCredits": false,
+          "balance": "0",
+          "ordinaryQuotaAvailable": true,
+          "resetCreditsUsed": false,
+          "methods": [
+            "initialize",
+            "account/read",
+            "account/rateLimits/read"
+          ]
+        },
+        "processId": 24616,
+        "threadId": "01a13888-b9bf-7fd1-89c6-c988d010b3c4",
+        "startedAt": "2026-10-14T03:50:46.741Z",
+        "writeProbeAttempted": false,
+        "writeProbeDenied": false,
+        "writeProbeExitCode": null,
+        "finishedAt": "2026-10-14T03:51:30.705Z"
+      },
+      {
+        "role": "reviewer",
+        "sandbox": "read-only",
+        "newSession": true,
+        "resumed": false,
+        "chatgptOnly": true,
+        "paidApiKeysInherited": false,
+        "costProof": {
+          "checkedAt": "2026-10-14T03:51:36.478Z",
+          "chatgptOnly": true,
+          "hasCredits": false,
+          "balance": "0",
+          "ordinaryQuotaAvailable": true,
+          "resetCreditsUsed": false,
+          "methods": [
+            "initialize",
+            "account/read",
+            "account/rateLimits/read"
+          ]
+        },
+        "processId": 11476,
+        "threadId": "01a13889-7ce6-7280-8708-7ab82ff92f92",
+        "startedAt": "2026-10-14T03:51:36.748Z",
+        "writeProbeAttempted": false,
+        "writeProbeDenied": false,
+        "writeProbeExitCode": null,
+        "finishedAt": "2026-10-14T03:52:10.858Z",
+        "sourceBefore": "git:f54a35679d1a316ccf69cf6f2fabbdcce9bcf7f6",
+        "sourceAfter": "git:f54a35679d1a316ccf69cf6f2fabbdcce9bcf7f6",
+        "sourceKind": "synthetic-git",
+        "snapshotHashBefore": "151e4634aae479c45bf5dad1997895607d4c75fbdaab5b5f69011bc607806ff8",
+        "snapshotHashAfter": "151e4634aae479c45bf5dad1997895607d4c75fbdaab5b5f69011bc607806ff8",
+        "developerHashAfter": "151e4634aae479c45bf5dad1997895607d4c75fbdaab5b5f69011bc607806ff8",
+        "checks": [
+          {
+            "name": "exact-bytes: docs/engineering-loop/dry-run-fixture.txt",
+            "kind": "exact-bytes",
+            "passed": false,
+            "file": "docs/engineering-loop/dry-run-fixture.txt",
+            "actualHash": "f2da43908be9cdbe07e2e31d9de4e6a19655b4b8f0508d5ce03c8b8fa43c3172",
+            "byteCount": 13,
+            "expectedHash": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3"
+          }
+        ],
+        "snapshot": "D:\\Chinese-Study-Hub\\.engineering-loop\\reviews\\da55a02f\\858bc96dba71-4e61c9d0\\snapshot",
+        "probeAbsent": true
+      },
+      {
+        "role": "developer",
+        "sandbox": "workspace-write",
+        "newSession": true,
+        "resumed": false,
+        "chatgptOnly": true,
+        "paidApiKeysInherited": false,
+        "costProof": {
+          "checkedAt": "2026-10-14T03:52:16.107Z",
+          "chatgptOnly": true,
+          "hasCredits": false,
+          "balance": "0",
+          "ordinaryQuotaAvailable": true,
+          "resetCreditsUsed": false,
+          "methods": [
+            "initialize",
+            "account/read",
+            "account/rateLimits/read"
+          ]
+        },
+        "processId": 30936,
+        "threadId": "01a1388a-17c6-72e0-9a6b-6666e227a186",
+        "startedAt": "2026-10-14T03:52:16.393Z",
+        "writeProbeAttempted": false,
+        "writeProbeDenied": false,
+        "writeProbeExitCode": null,
+        "finishedAt": "2026-10-14T03:52:44.032Z"
+      },
+      {
+        "role": "reviewer",
+        "sandbox": "read-only",
+        "newSession": true,
+        "resumed": false,
+        "chatgptOnly": true,
+        "paidApiKeysInherited": false,
+        "costProof": {
+          "checkedAt": "2026-10-14T03:52:49.462Z",
+          "chatgptOnly": true,
+          "hasCredits": false,
+          "balance": "0",
+          "ordinaryQuotaAvailable": true,
+          "resetCreditsUsed": false,
+          "methods": [
+            "initialize",
+            "account/read",
+            "account/rateLimits/read"
+          ]
+        },
+        "processId": 8096,
+        "threadId": "01a1388a-9a04-78a0-b366-0ce2472d2a6b",
+        "startedAt": "2026-10-14T03:52:49.737Z",
+        "writeProbeAttempted": false,
+        "writeProbeDenied": false,
+        "writeProbeExitCode": null,
+        "finishedAt": "2026-10-14T03:53:22.676Z",
+        "sourceBefore": "git:f54a35679d1a316ccf69cf6f2fabbdcce9bcf7f6",
+        "sourceAfter": "git:f54a35679d1a316ccf69cf6f2fabbdcce9bcf7f6",
+        "sourceKind": "synthetic-git",
+        "snapshotHashBefore": "e77dfabad626822fbee47bff5ad76ba1c3569517b7bb2b503254fea293fa8bf0",
+        "snapshotHashAfter": "e77dfabad626822fbee47bff5ad76ba1c3569517b7bb2b503254fea293fa8bf0",
+        "developerHashAfter": "e77dfabad626822fbee47bff5ad76ba1c3569517b7bb2b503254fea293fa8bf0",
+        "checks": [
+          {
+            "name": "exact-bytes: docs/engineering-loop/dry-run-fixture.txt",
+            "kind": "exact-bytes",
+            "passed": true,
+            "file": "docs/engineering-loop/dry-run-fixture.txt",
+            "actualHash": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3",
+            "byteCount": 9,
+            "expectedHash": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3"
+          }
+        ],
+        "snapshot": "D:\\Chinese-Study-Hub\\.engineering-loop\\reviews\\da55a02f\\cbc8d9aaed6b-987272c4\\snapshot",
+        "probeAbsent": true
+      }
+    ],
+    "events": [
+      {
+        "at": "2026-10-14T03:50:39.717Z",
+        "phase": "HANDOFF_CREATING",
+        "repairs": 0
+      },
+      {
+        "at": "2026-10-14T03:50:40.152Z",
+        "phase": "SOURCE_WAIT",
+        "repairs": 0
+      },
+      {
+        "at": "2026-10-14T03:50:42.079Z",
+        "phase": "DEVELOP_READY",
+        "repairs": 0
+      },
+      {
+        "at": "2026-10-14T03:50:44.368Z",
+        "phase": "DEVELOPING",
+        "repairs": 0
+      },
+      {
+        "at": "2026-10-14T03:51:31.157Z",
+        "phase": "PUBLISHING",
+        "repairs": 0
+      },
+      {
+        "at": "2026-10-14T03:51:31.467Z",
+        "phase": "REVIEW_WAIT",
+        "repairs": 0
+      },
+      {
+        "at": "2026-10-14T03:52:12.180Z",
+        "phase": "REPAIR_READY",
+        "repairs": 1
+      },
+      {
+        "at": "2026-10-14T03:52:14.502Z",
+        "phase": "DEVELOPING",
+        "repairs": 1
+      },
+      {
+        "at": "2026-10-14T03:52:44.505Z",
+        "phase": "PUBLISHING",
+        "repairs": 1
+      },
+      {
+        "at": "2026-10-14T03:52:44.805Z",
+        "phase": "REVIEW_WAIT",
+        "repairs": 1
+      },
+      {
+        "at": "2026-10-14T03:53:24.011Z",
+        "phase": "MERGE_WAIT",
+        "repairs": 1
+      },
+      {
+        "at": "2026-10-14T03:53:28.144Z",
+        "phase": "SSOT_WAIT",
+        "repairs": 1
+      },
+      {
+        "at": "2026-10-14T03:53:32.894Z",
+        "phase": "CACHE_SYNCING",
+        "repairs": 1
+      },
+      {
+        "at": "2026-10-14T03:53:35.285Z",
+        "phase": "DONE",
+        "repairs": 1
+      }
+    ],
+    "realCodexCli": true,
+    "manualRelay": false,
+    "googleOAuthRequired": false,
+    "workTriggerUsed": false,
+    "externalGitHubMergeStatusLifecycleVerified": false,
+    "realBacklogExecuted": false,
+    "fullyAutomatedProject": false,
+    "realTaskStatusUnchanged": true,
+    "blocker": null,
+    "mergeParents": [
+      "f54a35679d1a316ccf69cf6f2fabbdcce9bcf7f6",
+      "cbc8d9aaed6bee2d96b32f1c646008bdcc3c210e"
+    ],
+    "statusChangedPaths": [
+      "docs/master-plan/task-status.json"
+    ],
+    "reviews": [
+      {
+        "report": {
+          "runId": "da55a02f-8bb3-4338-abb0-09bea811dd3f",
+          "taskId": "D001",
+          "nonce": "1b47b2ee-04a4-4660-80f1-81ed5a456b2f",
+          "commitSha": "858bc96dba71ff66d61c347e6c8d359b370b4835",
+          "sourceRevision": "git:f54a35679d1a316ccf69cf6f2fabbdcce9bcf7f6",
+          "verdict": "REWORK",
+          "findings": [
+            {
+              "severity": "P1",
+              "file": "docs/engineering-loop/dry-run-fixture.txt",
+              "line": 1,
+              "message": "Actual bytes are NEEDS_REPAIR followed by LF (13 bytes). Acceptance requires exactly APPROVED followed by LF (9 bytes). Replace the contents with the required bytes."
+            }
+          ],
+          "evidenceSummary": "Read the saved diff and independently inspected the actual snapshot file using byte-stream hex output, file length, and SHA-256. Bytes: 4E454544535F5245504149520A. SHA-256: f2da43908be9cdbe07e2e31d9de4e6a19655b4b8f0508d5ce03c8b8fa43c3172. The diff agrees with the actual contents. Exact-byte acceptance fails; developer test claims were not relied upon."
+        },
+        "receipt": {
+          "role": "reviewer",
+          "sandbox": "read-only",
+          "newSession": true,
+          "resumed": false,
+          "chatgptOnly": true,
+          "paidApiKeysInherited": false,
+          "costProof": {
+            "checkedAt": "2026-10-14T03:51:36.478Z",
+            "chatgptOnly": true,
+            "hasCredits": false,
+            "balance": "0",
+            "ordinaryQuotaAvailable": true,
+            "resetCreditsUsed": false,
+            "methods": [
+              "initialize",
+              "account/read",
+              "account/rateLimits/read"
+            ]
+          },
+          "processId": 11476,
+          "threadId": "01a13889-7ce6-7280-8708-7ab82ff92f92",
+          "startedAt": "2026-10-14T03:51:36.748Z",
+          "writeProbeAttempted": false,
+          "writeProbeDenied": false,
+          "writeProbeExitCode": null,
+          "finishedAt": "2026-10-14T03:52:10.858Z",
+          "sourceBefore": "git:f54a35679d1a316ccf69cf6f2fabbdcce9bcf7f6",
+          "sourceAfter": "git:f54a35679d1a316ccf69cf6f2fabbdcce9bcf7f6",
+          "sourceKind": "synthetic-git",
+          "snapshotHashBefore": "151e4634aae479c45bf5dad1997895607d4c75fbdaab5b5f69011bc607806ff8",
+          "snapshotHashAfter": "151e4634aae479c45bf5dad1997895607d4c75fbdaab5b5f69011bc607806ff8",
+          "developerHashAfter": "151e4634aae479c45bf5dad1997895607d4c75fbdaab5b5f69011bc607806ff8",
+          "checks": [
+            {
+              "name": "exact-bytes: docs/engineering-loop/dry-run-fixture.txt",
+              "kind": "exact-bytes",
+              "passed": false,
+              "file": "docs/engineering-loop/dry-run-fixture.txt",
+              "actualHash": "f2da43908be9cdbe07e2e31d9de4e6a19655b4b8f0508d5ce03c8b8fa43c3172",
+              "byteCount": 13,
+              "expectedHash": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3"
+            }
+          ],
+          "snapshot": "D:\\Chinese-Study-Hub\\.engineering-loop\\reviews\\da55a02f\\858bc96dba71-4e61c9d0\\snapshot",
+          "probeAbsent": true
+        }
+      },
+      {
+        "report": {
+          "runId": "da55a02f-8bb3-4338-abb0-09bea811dd3f",
+          "taskId": "D001",
+          "nonce": "1b47b2ee-04a4-4660-80f1-81ed5a456b2f",
+          "commitSha": "cbc8d9aaed6bee2d96b32f1c646008bdcc3c210e",
+          "sourceRevision": "git:f54a35679d1a316ccf69cf6f2fabbdcce9bcf7f6",
+          "verdict": "PASS",
+          "findings": [],
+          "evidenceSummary": "Read on-disk packet and diff; verified HEAD matches the exact commit. Actual base-to-HEAD diff changes only the allowed fixture. Independently read all 9 bytes: 65 80 80 82 79 86 69 68 10, exactly APPROVED followed by one LF. SHA256 matches 82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3. File blob matches HEAD; working tree is clean. Developer claims were not relied upon. Controller merge/status-sync steps were not assessed."
+        },
+        "receipt": {
+          "role": "reviewer",
+          "sandbox": "read-only",
+          "newSession": true,
+          "resumed": false,
+          "chatgptOnly": true,
+          "paidApiKeysInherited": false,
+          "costProof": {
+            "checkedAt": "2026-10-14T03:52:49.462Z",
+            "chatgptOnly": true,
+            "hasCredits": false,
+            "balance": "0",
+            "ordinaryQuotaAvailable": true,
+            "resetCreditsUsed": false,
+            "methods": [
+              "initialize",
+              "account/read",
+              "account/rateLimits/read"
+            ]
+          },
+          "processId": 8096,
+          "threadId": "01a1388a-9a04-78a0-b366-0ce2472d2a6b",
+          "startedAt": "2026-10-14T03:52:49.737Z",
+          "writeProbeAttempted": false,
+          "writeProbeDenied": false,
+          "writeProbeExitCode": null,
+          "finishedAt": "2026-10-14T03:53:22.676Z",
+          "sourceBefore": "git:f54a35679d1a316ccf69cf6f2fabbdcce9bcf7f6",
+          "sourceAfter": "git:f54a35679d1a316ccf69cf6f2fabbdcce9bcf7f6",
+          "sourceKind": "synthetic-git",
+          "snapshotHashBefore": "e77dfabad626822fbee47bff5ad76ba1c3569517b7bb2b503254fea293fa8bf0",
+          "snapshotHashAfter": "e77dfabad626822fbee47bff5ad76ba1c3569517b7bb2b503254fea293fa8bf0",
+          "developerHashAfter": "e77dfabad626822fbee47bff5ad76ba1c3569517b7bb2b503254fea293fa8bf0",
+          "checks": [
+            {
+              "name": "exact-bytes: docs/engineering-loop/dry-run-fixture.txt",
+              "kind": "exact-bytes",
+              "passed": true,
+              "file": "docs/engineering-loop/dry-run-fixture.txt",
+              "actualHash": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3",
+              "byteCount": 9,
+              "expectedHash": "82c8f8af98b335ba9df3b77d297742d4fbf789e4b0632315dd21be7e02a5d9a3"
+            }
+          ],
+          "snapshot": "D:\\Chinese-Study-Hub\\.engineering-loop\\reviews\\da55a02f\\cbc8d9aaed6b-987272c4\\snapshot",
+          "probeAbsent": true
+        }
+      }
+    ],
+    "controllerRestartProof": "Each durable transition invoked a separate Node controller process",
+    "modelSandboxAudit": "Read-only reviewer and unchanged bytes verified; not a full OS audit"
+  },
+  "checks": {
+    "legacy": {
+      "passed": 18,
+      "total": 18
+    },
+    "suites": [
+      {
+        "kind": "git",
+        "total": 24,
+        "passed": 24,
+        "sha256": "7e5169508371abfe3a0c9f6ed412e8be8fea0748661c1bf3dd0fb9ecf460832d",
+        "cases": [
+          "Official full import preserves paragraphs, all URLs, ADRs and activation/dependency graph",
+          "Index is derived from canonical specification and single status source",
+          "Git source uses pinned main, disregards edited developer specification",
+          "Any source HEAD drift blocks without silently accepting cached specification",
+          "Origin identity and real/synthetic domain cannot be interchanged",
+          "Pinned status hash and task specification hash reject stale source packet",
+          "Real local bare merge/status readback/next pick with explicit reviewer test double",
+          "Wrong SHA, developer verdict, unresolved finding or concurrent process cannot merge",
+          "Deterministic acceptance defeats false reviewer PASS at merge",
+          "Failed merge push resumes same pending commit without duplicate merge",
+          "Crash after actual merge push recovers remote merge and never pushes a duplicate",
+          "Non-force merge push rejects actual concurrent remote update",
+          "Failed status push reloads SSOT_WAIT and reuses status commit, never reimplements/remerges",
+          "Crash after actual status push and duplicate sync reuse remote readback only",
+          "Concurrent update after merge blocks status; no overwrite or premature done",
+          "Status synchronization rejects wrong Task ID/unverified merge/PASS",
+          "Schema subset blocks unsupported keywords and validates required/type/enum/range",
+          "Required file/schema/headings/provenance/rights/secrets/paid checks reject false success",
+          "Prepared T068/T004/T005 policies have concrete acceptance and mandatory owner gates",
+          "Model quota exhaustion blocks before any paid fallback",
+          "Developer tests cannot relabel intentional failed acceptance as passed",
+          "Developer cannot redirect publisher/config/hooks while retaining clean source diff",
+          "Per-screen states and official practice label cannot receive generic success",
+          "Allowlisted targeted command runs; unsupported command and bogus verified provenance do not"
+        ]
+      },
+      {
+        "kind": "local",
+        "total": 27,
+        "passed": 27,
+        "sha256": "c374ea8e53a2267a1371d19375b2fafca559d5a7fde98941073c041221559c9d",
+        "cases": [
+          "Developer COMPLETE cannot carry PASS or reviewer findings",
+          "Reviewer arguments enforce fresh ephemeral read-only session and no escalation",
+          "Paid API credentials are removed from child environment",
+          "Zero credit guard accepts ordinary ChatGPT quota",
+          "Model limit, API auth, missing credit evidence or paid balance stop before invocation",
+          "Fabricated PASS rejected by independently read wrong bytes",
+          "HEAD, nonce, source revision and missing evidence invalidate review",
+          "Independent local review works with no Work event or comment",
+          "Reviewer cannot reuse developer thread or process",
+          "Reviewer source/snapshot mutation is detected and cannot approve",
+          "Missing exact commit test evidence blocks before model runner",
+          "Empty or failed actual test checks cannot support reviewer PASS",
+          "Reviewer crash/timeout/malformed JSON becomes persisted BLOCKED, never PASS",
+          "Live revision drift before/after review blocks",
+          "Two repairs maximum survives persistent recovery",
+          "Missing reviewer response deadline persists BLOCKED",
+          "Orphan writer lock cannot be reclaimed while reviewer remains alive",
+          "Fixture source refuses real backlog and specification drift",
+          "Native Docs UTF-16 indices/tab ID scope one status and preserve other text",
+          "SSOT drift and ambiguous status cannot write",
+          "Only recommended per-file scope is selected",
+          "Missing live required sections cannot be substituted with cached summaries",
+          "Mismatched Task ID cannot reach SSOT write transport",
+          "Disabled SSOT write and missing OAuth/cost proof make zero Docs requests",
+          "Mock Docs transport sends requiredRevisionId then reads back just this status",
+          "Mock Docs revision conflict/429 has no retry or paid fallback",
+          "Mock Docs concurrent unrelated changes fail readback, never DONE"
+        ]
+      }
+    ],
+    "total": 69,
+    "passed": 69,
+    "supplementalLatestChecks": [
+      "import re-run cannot reset status",
+      "done without controller evidence rejected",
+      "current title/manifest mismatch rejected"
+    ],
+    "externalGitHubLifecycleClaim": false
+  },
+  "safety": {
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "stopped": true,
+    "writerPid": null,
+    "reviewerPid": null,
+    "writerLock": false,
+    "driverLock": false
+  },
+  "cost": {
+    "newServices": 0,
+    "dependencyInstalls": false,
+    "newCloudResources": false,
+    "paidApi": false,
+    "paidCredits": false,
+    "rateReset": false,
+    "existingChatgptIncludedQuotaOnly": true,
+    "existingSubscriptionCostNotAssessed": true,
+    "googleRuntimeRequired": false,
+    "workTriggerRequired": false
+  },
+  "verified": [
+    "Full official Markdown export imported; ordered paragraph/link/ADR/task/dependency checks",
+    "Pinned local Git SOURCE and exact-byte independent CLI review/repair",
+    "Actual local bare merge/status non-force pushes and readbacks",
+    "Fresh controller reload per transition",
+    "Actual local concurrent update rejects; merge/status push-failure and post-push restart/duplicate tests",
+    "Prepared deterministic and pinned human-evidence contracts"
+  ],
+  "unverified": [
+    "Git SSOT authority on origin/main until PR #3 review/merge",
+    "External GitHub merge/status end-to-end lifecycle",
+    "Real T068/T004/T005 or other backlog acceptance",
+    "Actual cloud/account/legal/competent Chinese review facts",
+    "Unattended human approval and source reconciliation lane",
+    "Full OS sandbox security audit"
+  ],
+  "remainingGates": [
+    "Review/merge migration separately, then clean main and verified Git SOURCE",
+    "Explicit owner Task ID authorization, approved policy and valid pinned human evidence where required",
+    "Separate automatic merge/status-write authorization and external GitHub lifecycle proof",
+    "T009/T068/T069 and rights/competent-content review; bounded authoring/hosting/deploy dispatch remain separately blocked"
+  ],
+  "firstGeneratorBlock": {
+    "retained": true,
+    "reason": "Developer truthfully reported a failed final acceptance in tests; controller blocked. Prompt clarified generator tests vs known acceptance evidence; no failed test was converted to pass."
+  }
+}
