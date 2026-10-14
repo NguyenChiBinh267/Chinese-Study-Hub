@@ -36,7 +36,7 @@ function fixtureSource(text, status, manifest, commit) {
     for (const dep of task.dependencies) visit(dep); visiting.delete(id); done.add(id); }
   for (const task of tasks) visit(task.id);
   return { schemaVersion: 1, version: 'synthetic-v1', activeRelease: 'fixture', revision: `git:${commit}`, tasks,
-    activeIds: tasks.map(t => t.id), common: [], parsed, sourceUrl: 'synthetic local Git bare remote' };
+    activeIds: tasks.map(t => t.id), common: [], parsed, policies: manifest.policies, sourceUrl: 'synthetic local Git bare remote' };
 }
 export const readyGitTasks = source => source.tasks.filter(t => source.activeIds.includes(t.id) && t.status === 'pending' &&
   t.dependencies.every(id => source.tasks.find(x => x.id === id)?.status === 'done'))

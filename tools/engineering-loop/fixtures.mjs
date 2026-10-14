@@ -37,3 +37,28 @@ export function fixtureImplementation(fixture, bytes = 'APPROVED\n') {
     commitSha: state.commitSha, verdict: 'PASS', findings: [], evidenceSummary: 'Unit test reviewer double, not an actual model verdict.' };
   return state;
 }
+
+export function makeMultiGitFixture(parent) {
+  const f = makeGitFixture(parent);
+  let markdown = fs.readFileSync(path.join(f.controller, PLAN), 'utf8').split('### D002')[0];
+  const definitions = [
+    ['D002', 'second dependent task', 'D001', 'docs/engineering-loop/second-fixture.txt', 'SECOND'],
+    ['D003', 'missing human evidence', 'Không', 'docs/engineering-loop/human-fixture.txt', 'HUMAN'],
+    ['D004', 'independent task after blocker', 'Không', 'docs/engineering-loop/fourth-fixture.txt', 'FOURTH'],
+    ['D005', 'blocked dependency descendant', 'D003', 'docs/engineering-loop/fifth-fixture.txt', 'FIFTH'] ];
+  const policies = { D001: fixturePolicy };
+  for (const [id, title, dep, file, value] of definitions) {
+    markdown += `### ${id} — ${title} [P0]\n\nModule/file dự kiến: ${file}. Phụ thuộc: ${dep}.\nAcceptance criteria: File contains exactly ${value} followed by one LF.\nDefinition of Done: Independent exact-SHA PASS, local Git merge/status readback.\n\n`;
+    policies[id] = { allowedFiles: [file], checks: [], acceptanceChecks: [{ kind: 'exact-bytes', file, expectedBase64: Buffer.from(value + '\n').toString('base64') }] };
+  }
+  policies.D003.acceptanceChecks.push({ kind: 'owner-evidence', file: policies.D003.allowedFiles[0], scope: 'synthetic-human-only' });
+  fs.writeFileSync(path.join(f.controller, PLAN), markdown);
+  writeJson(path.join(f.controller, STATUS), { schemaVersion: 1, activeRelease: 'fixture', tasks: Object.fromEntries(Object.keys(policies).map(id => [id, { status: 'pending' }])) });
+  writeJson(path.join(f.controller, MANIFEST), { schemaVersion: 1, synthetic: true, planSha256: hash(markdown), policies });
+  fs.writeFileSync(path.join(f.controller, 'AGENTS.md'), 'Owner authorizes only synthetic D001-D005 per pinned fixture specification and packet scope. Fresh developer/reviewer; reviewer read-only. No model Git changes/commits/push, spec/status/tooling edits, external APIs/providers, accounts/resources, billing/credits/install or real backlog tasks. Controller alone may merge/status-sync this local bare remote. D003 requires human evidence; never invent it.\n');
+  git(f.controller, 'add', '.'); git(f.controller, 'commit', '-m', 'multi-task fixture contracts'); git(f.controller, 'push', 'origin', 'main');
+  return { controller: f.controller, remote: f.remote, policies, restartProbe: true,
+    grant: { schemaVersion: 1, ownerApproved: true, grantId: `synthetic-${randomUUID()}`, repository: 'NguyenChiBinh267/Chinese-Study-Hub', release: 'fixture', tasks: Object.keys(policies),
+      autoMerge: true, statusWrites: true, maxServiceCost: 0, allowPaidCredits: false, allowNewServices: false,
+      maxTasks: 5, maxModelCalls: 12, maxRunSeconds: 10800, maxRetries: 3, maxQuotaWaitSeconds: 60, expiresAt: new Date(Date.now() + 86400000).toISOString() } };
+}

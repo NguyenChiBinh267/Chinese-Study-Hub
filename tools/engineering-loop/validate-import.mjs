@@ -6,7 +6,7 @@ import { readJson, writeJson } from './io.mjs';
 import { plain, deriveRepository, PLAN, STATUS, MANIFEST } from './plan.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-export function validateImport(directory = root) {
+export function validateImport(directory = root, { persist = false } = {}) {
   const base = path.join(directory, 'docs/master-plan'), native = readJson(path.join(base, 'native-paragraph-validation.json'));
   const raw = fs.readFileSync(path.join(base, 'source-export-v1.1.md')), text = raw.toString('utf8');
   const normalized = s => s.normalize('NFC').replace(/\s+/g, ' ').trim();
@@ -38,8 +38,8 @@ export function validateImport(directory = root) {
     limitations: ['Paragraph comparison uses FNV1a digests after whitespace/Markdown normalization; not a cryptographic proof of semantic equivalence',
       'Exact export bytes are protected separately by SHA256; layout/comment/revision history equivalence is not claimed',
       'Git SSOT authority on main remains pending migration review/merge; no Google Doc writes performed'] };
-  writeJson(path.join(base, 'migration-report.json'), report);
+  if (persist) writeJson(path.join(base, 'migration-report.json'), report);
   requireThat(report.status === 'PASS_TEXT_AND_SPEC_VALIDATION', 'Import content mismatch; see migration-report.json and stop migration');
   return report;
 }
-if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) console.log(JSON.stringify(validateImport(), null, 2));
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) console.log(JSON.stringify(validateImport(root, { persist: true }), null, 2));

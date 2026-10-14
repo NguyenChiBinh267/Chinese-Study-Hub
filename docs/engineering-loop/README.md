@@ -1,5 +1,7 @@
 # Git-native engineering loop — operations
 
+Zero-touch scheduling/bootstrap is documented in [zero-touch.md](zero-touch.md). It reuses this controller and its phase/merge/status adapters. `multi-proof` runs multiple synthetic tasks and supervised restart; `bootstrap-review` reviews actual PR #3. Real authority remains disabled. Historical single-task proof below remains intact.
+
 The existing controller now uses Git SOURCE/status and independent local Codex review. No Google API/OAuth/Picker/Cloud project or Work event is on the critical path. The owner approved this authority change; it takes effect only after migration review and merge into verified origin/main. PR #3 remains draft/unmerged, so main currently lacks Git SSOT and live SOURCE is BLOCKED. The workspace plan is a candidate, never a runtime fallback.
 
 Specification: docs/master-plan/master-plan-v1.1.md. The only mutable status source: docs/master-plan/task-status.json. Manifest/original snapshot/import validation live beside them. Task index is derived in memory from pinned Git blobs. Historical Work/manual PR #2, local-review and pre-Git cache/handoffs are retained as evidence; they do not control readiness.
@@ -14,7 +16,7 @@ node tools/engineering-loop/loop.mjs candidate-pick
 node tools/engineering-loop/loop.mjs ssot-status
 node tools/engineering-loop/loop.mjs doctor
 node tools/engineering-loop/loop.mjs dry-run
-node --test tools/engineering-loop/local.test.mjs tools/engineering-loop/git.test.mjs
+node --test tools/engineering-loop/local.test.mjs tools/engineering-loop/git.test.mjs tools/engineering-loop/autonomous.test.mjs tools/engineering-loop/bootstrap.test.mjs
 node tools/engineering-loop/loop.mjs dry-git
 ```
 

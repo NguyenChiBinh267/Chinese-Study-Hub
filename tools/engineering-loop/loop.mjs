@@ -67,7 +67,7 @@ function taskFor(state, snap) {
   return task;
 }
 function policyFor(state, cfg) {
-  const policy = isSynthetic(state) ? { allowedFiles: ['docs/engineering-loop/dry-run-fixture.txt'], checks: [], acceptanceChecks: [{ kind: 'exact-bytes', file: 'docs/engineering-loop/dry-run-fixture.txt', expectedBase64: 'QVBQUk9WRUQK' }] } : cfg.policies[state.taskId];
+  const policy = state.fixturePolicies ? adapterFor(state, cfg).snapshot(state.sourceCommit).policies?.[state.taskId] : (isSynthetic(state) ? { allowedFiles: ['docs/engineering-loop/dry-run-fixture.txt'], checks: [], acceptanceChecks: [{ kind: 'exact-bytes', file: 'docs/engineering-loop/dry-run-fixture.txt', expectedBase64: 'QVBQUk9WRUQK' }] } : cfg.policies[state.taskId]);
   requireThat(policy?.allowedFiles?.length && Array.isArray(policy.checks), 'Task has no owner-configured file/check policy');
   if (cfg.reviewerBackend === 'local-codex') requireThat(policy.acceptanceChecks?.length, 'Local reviewer needs owner-defined deterministic acceptance before developer dispatch');
   const policyHash = hash(JSON.stringify(policy));
@@ -161,7 +161,7 @@ async function openLocalHandoff(state, cfg) {
 async function openGitFixtureHandoff(state, cfg) {
   const src = adapterFor(state, cfg), worktree = path.join(DATA, 'git-work', state.runId.slice(0, 8));
   await src.verifyTask(state, taskFor(state, src.snapshot(state.sourceCommit)));
-  move(state, 'HANDOFF_CREATING', { worktree, baseSha: state.sourceCommit, branch: `loop/d001-${state.runId.slice(0, 8)}` }); save(state);
+  move(state, 'HANDOFF_CREATING', { worktree, baseSha: state.sourceCommit, branch: `loop/${state.taskId.toLowerCase()}-${state.runId.slice(0, 8)}` }); save(state);
   fs.mkdirSync(path.dirname(worktree), { recursive: true });
   command('git', ['clone', '--no-local', '--no-hardlinks', '--no-checkout', src.root, worktree], ROOT);
   git(worktree, 'config', 'core.autocrlf', 'false'); git(worktree, 'remote', 'set-url', 'origin', src.expectedRemote);
@@ -191,7 +191,7 @@ async function implement(state, cfg, gh, snap, task) {
   requireThat(git(state.worktree, 'status', '--porcelain') === '', 'Worktree has existing changes');
   if (cfg.sourceBackend === 'git' && state.mode !== 'dry-local') requireThat(git(state.worktree, 'remote', 'get-url', 'origin') === adapterFor(state, cfg).expectedRemote, 'Task publication remote changed');
   state.gitMetadataBefore = captureGitMetadata(state.worktree); save(state);
-  move(state, 'DEVELOPING', { deadline: null }); save(state);
+  // Preserve the stable ready checkpoint until quota/auth checks have passed and the child actually starts.
   {
     if (state.mode === 'live') requireThat(cfg.liveEnabled && cfg.authorizedTasks.includes(task.id) && reviewerReady(cfg), 'Live task is not authorized/reviewer ready');
     const output = path.join(DATA, 'reports', `${state.runId}-${state.repairs}.json`);
@@ -209,10 +209,15 @@ async function implement(state, cfg, gh, snap, task) {
         `Repair the fixture to exactly APPROVED + one LF. Read back the actual file bytes and verify them. Findings: ${JSON.stringify(state.review.findings)}\n`) +
       `For the initial generator only: tests records generator/scope/readback checks. Record the deliberately failed final APPROVED acceptance in evidence, never call it passed. The independent reviewer/controller will test final acceptance separately and must REWORK. COMPLETE here means generator executed, not task approved.\n` +
       `Return structured taskId D001, result COMPLETE if generator/repair succeeded, changedFiles [docs/engineering-loop/dry-run-fixture.txt], real targeted tests/evidence, blocker empty, commitSha empty. This is test data and cannot be published as a lesson.\nVerified task packet:\n${JSON.stringify(packet(state, task, snap))}`;
-    const prompt = isSynthetic(state) ? dryPrompt : livePrompt;
+    const multiPrompt = state.fixturePolicies ? `You are developer for synthetic ${state.taskId}. Read AGENTS.md. Edit only ${JSON.stringify(policy.allowedFiles)}. No Git changes/commits/push/status edits, external APIs/providers/billing/install/resource/backlog calls.\n` +
+      `Write exactly ${JSON.stringify(state.fixtureInitialDefect && state.repairs === 0 ? 'NEEDS_REPAIR\n' : Buffer.from(policy.acceptanceChecks.find(c => c.kind === 'exact-bytes').expectedBase64, 'base64').toString('utf8'))} to ${policy.allowedFiles[0]}.\n` +
+      `Read actual bytes and test this requested generator/repair operation. On the initial D001 generator, record the intentional failed final acceptance in evidence, not as a passed test. COMPLETE means the generator/repair operation ran; only the reviewer can approve final acceptance.\n` +
+      `The tests array contains final generator/repair-operation verification results only. Expected final APPROVED acceptance failure for the initial generator belongs in evidence, not tests; do not include superseded failed setup attempts as final checks. Never claim a failed check passed. Ensure parent directories exist before writing.\n` +
+      `Return schema JSON taskId ${state.taskId}, result COMPLETE, changedFiles ${JSON.stringify(policy.allowedFiles)}, actual operation tests/evidence, empty blocker and empty commitSha. Repair findings: ${JSON.stringify(state.review?.findings ?? [])}. Verified task packet ${JSON.stringify(packet(state, task, snap))}` : '';
+    const prompt = state.fixturePolicies ? multiPrompt : isSynthetic(state) ? dryPrompt : livePrompt;
     const result = await runCodex({ root: ROOT, workspace: state.worktree, prompt, schema: path.join(TOOL, 'report.schema.json'), output,
       timeoutMs: cfg.codexTimeoutMinutes * 60000, control,
-      onStart: pid => { state.writerPid = pid; save(state); }, onStop: () => { state.writerPid = null; save(state); } });
+      onStart: pid => { move(state, 'DEVELOPING', { deadline: null, writerPid: pid }); save(state); }, onStop: () => { state.writerPid = null; save(state); } });
     state.developerReport = result.report;
     state.developerReceipt = result.receipt;
     (state.processReceipts ??= []).push(result.receipt);
@@ -220,13 +225,19 @@ async function implement(state, cfg, gh, snap, task) {
   verifyGitMetadata(state.gitMetadataBefore);
   requireThat(git(state.worktree, 'rev-parse', 'HEAD') === state.commitSha && state.developerReport.commitSha === '', 'Developer changed Git history; inspect before publishing');
   const changed = git(state.worktree, 'status', '--porcelain', '-uall').split(/\r?\n/).filter(Boolean).map(x => x.slice(3).replace(/^"|"$/g, ''));
+  if (state.cycleId && state.developerReport.result === 'BLOCKED') {
+    requireThat(changed.every(f => allowedPath(f, policy.allowedFiles) && !allowedPath(f.toLowerCase(), PROTECTED.map(x => x.toLowerCase()))), 'Blocked developer changed protected scope');
+    validateReport(state.developerReport, state, changed);
+    requireThat(state.developerReport.blocker.trim().length > 0 && !/-----BEGIN.*PRIVATE KEY|sk-(?:proj-)?[A-Za-z0-9_-]{25,}|gh[pousr]_[A-Za-z0-9]{20,}/.test(JSON.stringify(state.developerReport)), 'Invalid/unsafe task blocker');
+    move(state, 'BLOCKED', { blockedFrom: 'DEVELOP_READY', blockerCode: 'TASK_LOCAL', blocker: state.developerReport.blocker }); save(state); return;
+  }
   requireThat(changed.length > 0 && changed.every(f => allowedPath(f, policy.allowedFiles) && !allowedPath(f.toLowerCase(), PROTECTED.map(x => x.toLowerCase()))), 'Developer changed protected/out-of-task files or made no changes');
   validateReport(state.developerReport, state, changed);
   requireThat(state.developerReport.result === 'COMPLETE', state.developerReport.blocker || 'Developer reported BLOCKED');
   const secretPattern = /-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|sk-(?:proj-)?[A-Za-z0-9_-]{25,}|gh[pousr]_[A-Za-z0-9]{20,}/;
   requireThat(!secretPattern.test(JSON.stringify(state.developerReport)), 'Possible secret in developer evidence; do not publish');
   if (isSynthetic(state)) {
-    const expected = state.repairs === 0 ? 'NEEDS_REPAIR\n' : 'APPROVED\n';
+    const expected = state.fixturePolicies ? state.fixtureInitialDefect && state.repairs === 0 ? 'NEEDS_REPAIR\n' : Buffer.from(policy.acceptanceChecks.find(c => c.kind === 'exact-bytes').expectedBase64, 'base64').toString('utf8') : state.repairs === 0 ? 'NEEDS_REPAIR\n' : 'APPROVED\n';
     requireThat(fs.readFileSync(path.join(state.worktree, policy.allowedFiles[0]), 'utf8') === expected, 'Actual synthetic generator/repair bytes are incorrect');
   }
   requireThat(!changed.some(f => /\.(?:tsx?|jsx?|mjs|sql|css)$/.test(f)) || policy.checks.length > 0, 'Code changes require owner-configured targeted checks');
@@ -265,6 +276,10 @@ export async function step() {
   assertOrdinaryUser();
   const cfg = config(), gh = new GitHub(ROOT, cfg.repository);
   let state = stateOrNull();
+  if (state?.cycleId && state.mode === 'live') {
+    const { validateAuthorization } = await import('./autonomous.mjs');
+    requireThat(validateAuthorization(cfg.zeroTouchAuthorization, cfg) === state.authorizationHash, 'One-time grant changed during execution');
+  }
   if (control().pause || control().stop) return { phase: 'PAUSED', execution: state?.phase ?? 'IDLE' };
   if (state?.mode === 'git-fixture') { (state.controllerProcessIds ??= []).push(process.pid); save(state); }
   let snap;
@@ -382,9 +397,15 @@ export async function step() {
         writeJson(path.join(DATA, 'git-checkpoint.json'), { revision: fresh.revision, taskId: state.taskId, readbackVerified: true, at: now() });
       } else refreshHandoffCaches(state, state.syncEvent);
       consume(state, state.syncEvent); move(state, 'DONE', { deadline: null }); save(state);
+    } else if (state.phase === 'PUBLISHING' && state.cycleId && cfg.reviewerBackend === 'local-codex') {
+      verifyGitMetadata(state.gitMetadataBefore);
+      requireThat(git(state.worktree, 'rev-parse', 'HEAD') === state.commitSha && git(state.worktree, 'status', '--porcelain') === '', 'Publication retry HEAD/bytes changed');
+      requireThat(state.evidence.at(-1)?.commitSha === state.commitSha, 'Publication retry evidence missing');
+      git(state.worktree, 'push', 'origin', state.branch); move(state, 'REVIEW_WAIT', { deadline: deadline(cfg) }); save(state);
     } else throw new Error(`Interrupted unsafe phase ${state.phase}; inspect GitHub/worktree and explicitly recover`);
   } catch (error) {
-    move(state, 'BLOCKED', { blockedFrom: state.phase, blocker: error.message }); save(state);
+    if (error.receipt) (state.processReceipts ??= []).push({ ...error.receipt, failed: true });
+    move(state, 'BLOCKED', { blockedFrom: state.phase, blocker: error.message, blockerCode: error.code ?? 'INTEGRITY_OR_UNKNOWN', retryAt: error.retryAt ?? null }); save(state);
   }
   return state;
 }
@@ -500,6 +521,48 @@ async function main() {
   if (action === 'dry-run') { const { dryRun } = await import('./verify.mjs'); console.log(JSON.stringify(await dryRun(), null, 2)); return; }
   if (action === 'ssot-status') { console.log(JSON.stringify(gitStatus(), null, 2)); return; }
   if (action === 'dry-git') { await dryGitCycle(); return; }
+  if (['bootstrap-review', 'bootstrap-merge'].includes(action)) {
+    const { bootstrapReview, bootstrapMerge } = await import('./bootstrap.mjs');
+    const state = await (action === 'bootstrap-review' ? bootstrapReview : bootstrapMerge)({ root: ROOT, tool: TOOL, data: DATA, cfg: config() });
+    console.log(JSON.stringify({ taskId: state.taskId, phase: state.phase, verdict: state.review?.verdict, commitSha: state.commitSha, blocker: state.blocker })); return;
+  }
+  if (['multi-proof', 'multi-supervise'].includes(action)) {
+    const { superviseFixture } = await import('./autonomous.mjs');
+    const report = superviseFixture({ root: ROOT, tool: TOOL, data: DATA, start: action === 'multi-proof' });
+    console.log(JSON.stringify({ phase: report.phase, stopReason: report.stopReason, outcomes: report.outcomes.map(x => ({ taskId: x.taskId, phase: x.phase })) })); return;
+  }
+  if (['autonomous', 'autonomous-resume', 'dry-multi', 'multi-resume'].includes(action)) {
+    const { autonomousRun, validateAuthorization } = await import('./autonomous.mjs');
+    let fixture = null, driverRelease = null;
+    if (action === 'dry-multi') {
+      const releaseLock = lock(path.join(DATA, 'git-driver.lock'), STATE); let released = false;
+      driverRelease = () => { if (!released) { released = true; releaseLock(); } };
+      let writerRelease;
+      try {
+        writerRelease = lock(path.join(DATA, 'writer.lock'), STATE);
+        const prior = stateOrNull();
+        requireThat(!prior || prior.mode === 'git-fixture' && ['DONE', 'BLOCKED'].includes(prior.phase) && !prior.writerPid && !prior.reviewerPid, 'Cannot replace an active/real execution');
+        if (prior) writeJson(path.join(DATA, 'history', `${prior.runId}-before-multi.json`), prior);
+        for (const file of ['multi-ledger.json', 'multi-cycle-latest.json']) if (fs.existsSync(path.join(DATA, file))) {
+          const previous = readJson(path.join(DATA, file)); writeJson(path.join(DATA, 'history', `${previous.cycleId}-${file}`), previous);
+        }
+        const { makeMultiGitFixture } = await import('./fixtures.mjs'); fixture = makeMultiGitFixture(path.join(DATA, 'git-fixtures'));
+        if (prior) fs.unlinkSync(STATE);
+        writeJson(CONTROL, { pause: false, stop: false, changedAt: now() });
+      } catch (error) { driverRelease(); throw error; }
+      finally { writerRelease?.(); }
+    } else if (action === 'multi-resume') fixture = readJson(path.join(DATA, 'multi-ledger.json')).fixture;
+    if (action.startsWith('autonomous')) {
+      const cfg = config(); validateAuthorization(cfg.zeroTouchAuthorization, cfg);
+      writeJson(CONTROL, { pause: false, stop: false, changedAt: now() });
+    }
+    let result;
+    try { result = await autonomousRun({ root: ROOT, tool: TOOL, data: DATA, cfg: config(), fixture, resume: action.endsWith('resume'), driverRelease }); }
+    finally { driverRelease?.(); }
+    console.log(JSON.stringify({ phase: result.phase, stopReason: result.stopReason, ledgerPath: result.ledgerPath, outcomes: result.outcomes?.map(x => ({ taskId: x.taskId, phase: x.phase })) })); return;
+  }
+  const driverOwner = path.join(DATA, 'git-driver.lock', 'owner.json');
+  if (fs.existsSync(driverOwner)) requireThat(readJson(driverOwner).pid === process.ppid, 'Active zero-touch driver owns execution; direct concurrent step/run forbidden');
   const release = lock(path.join(DATA, 'writer.lock'), STATE);
   try {
     if (action === 'ssot-check') {

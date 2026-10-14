@@ -31,7 +31,11 @@ export function lock(directory, stateFile) {
 export function command(executable, args, cwd, options = {}) {
   const result = spawnSync(executable, args, { cwd, encoding: 'utf8', windowsHide: true,
     timeout: 30000, maxBuffer: 4 * 1024 * 1024, env: { ...process.env, GIT_TERMINAL_PROMPT: '0', GCM_INTERACTIVE: 'Never' }, ...options });
-  requireThat(result.status === 0, `${path.basename(executable)} failed (exit ${result.status ?? result.error?.code ?? 'unknown'})`);
+  if (result.status !== 0) {
+    const error = new Error(`${path.basename(executable)} failed (exit ${result.status ?? result.error?.code ?? 'unknown'})`);
+    if (path.basename(executable).toLowerCase() === 'git' && /Could not resolve host|Connection (?:reset|timed out)|Failed to connect|remote end hung up|Operation timed out/i.test(result.stderr ?? '')) error.code = 'TRANSIENT_TRANSPORT';
+    throw error;
+  }
   return result.stdout.trimEnd();
 }
 export const git = (cwd, ...args) => command('git', args, cwd);
@@ -104,8 +108,13 @@ export function validateFreeQuota(result, accountType = 'chatgpt') {
   const limits = Object.values(result.rateLimitsByLimitId ?? { codex: result.rateLimits });
   requireThat(limits.length && limits.every(x => x && x.credits?.hasCredits === false && x.credits?.unlimited === false && Number(x.credits?.balance) === 0),
     'Paid credit eligibility unavailable/nonzero; no model call permitted');
-  requireThat(limits.every(x => !x.rateLimitReachedType && [x.primary, x.secondary].filter(Boolean).length > 0 && [x.primary, x.secondary].filter(Boolean).every(w => Number.isFinite(w.usedPercent) && w.usedPercent >= 0 && w.usedPercent < 100)),
-    'ChatGPT model limit reached; no paid credits, resets or fallback');
+  requireThat(limits.every(x => [x.primary, x.secondary].filter(Boolean).length > 0 && [x.primary, x.secondary].filter(Boolean).every(w => Number.isFinite(w.usedPercent) && w.usedPercent >= 0 && w.usedPercent <= 100)), 'Invalid quota evidence; no model call permitted');
+  if (limits.some(x => x.rateLimitReachedType || [x.primary, x.secondary].filter(Boolean).some(w => w.usedPercent >= 100))) {
+    const exhausted = limits.flatMap(x => [x.primary, x.secondary].filter(Boolean).filter(w => w.usedPercent >= 100));
+    const error = new Error('ChatGPT model limit reached; no paid credits, resets or fallback'); error.code = 'QUOTA_EXHAUSTED';
+    if (exhausted.length && exhausted.every(w => Number.isFinite(w.resetsAt))) error.retryAt = Math.max(...exhausted.map(w => w.resetsAt)) * 1000;
+    throw error;
+  }
   return { checkedAt: new Date().toISOString(), chatgptOnly: true, hasCredits: false, balance: '0', ordinaryQuotaAvailable: true,
     resetCreditsUsed: false, methods: ['initialize', 'account/read', 'account/rateLimits/read'] };
 }
@@ -163,7 +172,7 @@ export async function runCodex({ root, workspace, prompt, schema, output, timeou
     chatgptOnly: true, paidApiKeysInherited: false, costProof, processId: null, threadId: null, startedAt: new Date().toISOString(), writeProbeAttempted: false, writeProbeDenied: false, writeProbeExitCode: null };
   return new Promise((resolve, reject) => {
     const child = spawn(process.execPath, args, { cwd: workspace, env, windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] });
-    let ended = false, failure = null, events = 0, pending = '';
+    let ended = false, failure = null, events = 0, pending = '', modelFailure = null;
     // Deliberately discard command output: it can contain secrets or unbounded model text.
     child.stdout.on('data', bytes => {
       events++; pending += bytes.toString('utf8');
@@ -174,6 +183,11 @@ export async function runCodex({ root, workspace, prompt, schema, output, timeou
         try {
           const event = JSON.parse(line);
           if (event.type === 'thread.started') receipt.threadId = event.thread_id;
+          if (['error', 'turn.failed'].includes(event.type)) {
+            const message = event.message ?? event.error?.message ?? '';
+            modelFailure = /usage.limit|rate.limit|quota|limit reached/i.test(message) ? 'MODEL_LIMIT' :
+              /stream disconnected|connection|timed out|temporar|overloaded|internal server|503|502/i.test(message) ? 'MODEL_TRANSPORT' : 'MODEL_FAILURE';
+          }
           if (event.item?.type === 'command_execution' && event.item.command?.includes('readonly-probe.txt') && /Set-Content|WriteAllText|Out-File|writeFile|New-Item|printf|echo/i.test(event.item.command)) {
             receipt.writeProbeAttempted = true;
             if (Number.isInteger(event.item.exit_code)) receipt.writeProbeExitCode = event.item.exit_code;
@@ -195,7 +209,11 @@ export async function runCodex({ root, workspace, prompt, schema, output, timeou
     child.on('error', e => { failure = `Codex spawn failed: ${e.code}`; });
     child.on('close', code => {
       ended = true; clearTimeout(timeout); clearInterval(interval); onStop(); receipt.finishedAt = new Date().toISOString();
-      if (failure || code !== 0) reject(new Error(failure ?? `Codex failed (exit ${code})`));
+      if (failure || code !== 0) {
+        const error = new Error(failure ?? `Codex failed (exit ${code}; ${modelFailure ?? 'UNCLASSIFIED'})`);
+        error.code = failure ? 'MODEL_FAILURE' : modelFailure ?? 'MODEL_FAILURE';
+        error.receipt = receipt; reject(error);
+      }
       else { try { requireThat(receipt.threadId, 'Missing fresh Codex session evidence'); resolve({ report: readJson(output), eventChunks: events, receipt }); } catch { reject(new Error('Codex did not return valid structured output/session evidence')); } }
     });
     child.stdin.end(prompt);

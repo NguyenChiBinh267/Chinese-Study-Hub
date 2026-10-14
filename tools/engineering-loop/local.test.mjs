@@ -28,6 +28,15 @@ function fixture(content = 'APPROVED\n') {
 }
 const report = (s, extra = {}) => ({ runId: s.runId, taskId: s.taskId, nonce: s.nonce, commitSha: s.commitSha,
   sourceRevision: s.sourceRevision, verdict: 'PASS', findings: [], evidenceSummary: 'Read actual fixture bytes and exact commit diff.', ...extra });
+
+test('Cycle final-artifact human evidence failure blocks locally before any reviewer model call', async () => {
+  const s = fixture(); s.cycleId = 'cycle'; let calls = 0;
+  const gatedPolicy = { ...policy, acceptanceChecks: [...policy.acceptanceChecks, { kind: 'owner-evidence', file: 'fixture.txt', scope: 'ux-walkthrough' }] };
+  await reviewTransition({ root, tool, data, state: s, task, policy: gatedPolicy, sourceAdapter: { ...source, ownerEvidence: () => null }, timeoutMs: 1000,
+    runner: async () => { calls++; throw new Error('Must not invoke model'); } });
+  assert.equal(calls, 0); assert.equal(s.phase, 'BLOCKED'); assert.equal(s.blockerCode, 'TASK_LOCAL'); assert.equal(s.blockedFrom, 'REVIEW_WAIT');
+  assert.equal(git(s.worktree, 'status', '--porcelain'), '');
+});
 const receipt = { role: 'reviewer', sandbox: 'read-only', newSession: true, processId: 222, threadId: 'reviewer-thread' };
 const review = (s, runner, sourceAdapter = source) => localReview({ root, tool, data, state: s, task, policy, sourceAdapter,
   timeoutMs: 2000, control: () => ({}), runner });
