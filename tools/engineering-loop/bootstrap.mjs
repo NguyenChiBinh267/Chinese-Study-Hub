@@ -18,6 +18,24 @@ export function controllerCheckHandoff(report) {
     /(?:sandbox|EPERM)/i.test(report.blocker) && /(?:checks|regression|child.process)/i.test(report.blocker) &&
     report.tests.some(t => t.passed === false);
 }
+export function applyScopedRepairPatch(previous, repo, changes, patchFile) {
+  const tracked = changes.filter(file => git(previous.worktree, 'ls-tree', '--name-only', previous.commitSha, '--', file) === file);
+  for (const file of changes) {
+    const from = path.join(previous.worktree, file);
+    requireThat(allowedPath(file, REPAIR_SCOPE) && fs.statSync(from).isFile() && !fs.lstatSync(from).isSymbolicLink() &&
+      fs.realpathSync(from).startsWith(fs.realpathSync(previous.worktree) + path.sep), 'Escaping recovery file');
+    if (!tracked.includes(file)) requireThat(!fs.existsSync(path.join(repo, file)), 'New recovery file conflicts with root changes');
+  }
+  if (tracked.length) {
+    const patch = git(previous.worktree, 'diff', '--binary', '--no-ext-diff', '--no-textconv', previous.commitSha, '--', ...tracked);
+    fs.writeFileSync(patchFile, patch + '\n');
+    git(repo, 'apply', '--check', patchFile); // Matching hunks preserve unrelated root edits; any conflict blocks.
+    git(repo, 'apply', patchFile);
+  }
+  for (const file of changes.filter(f => !tracked.includes(f))) {
+    const to = path.join(repo, file); fs.mkdirSync(path.dirname(to), { recursive: true }); fs.copyFileSync(path.join(previous.worktree, file), to);
+  }
+}
 export function validateBootstrapIdentity(pr, base, sha) {
   requireThat(pr.number === 3 && pr.state === 'open' && !pr.merged && pr.draft === true && pr.head.ref === 'loop/local-codex-reviewer' &&
     pr.head.repo?.full_name === 'NguyenChiBinh267/Chinese-Study-Hub' && pr.base.ref === 'main' && pr.base.repo?.full_name === 'NguyenChiBinh267/Chinese-Study-Hub', 'Bootstrap PR identity/state mismatch');
@@ -48,7 +66,7 @@ function actualChecks(repo, directory, commitSha) {
     { name: '18 legacy loop checks', passed: true, commitSha }, { name: 'Clean actual tracked bytes and whitespace', passed: true, commitSha }];
 }
 
-export async function bootstrapReview({ root, tool, data, cfg, recoverTesting = false }) {
+export async function bootstrapReview({ root, tool, data, cfg, recoverTesting = false, recoveryRunId = null }) {
   requireThat(!fs.existsSync(path.join(data, 'git-driver.lock')), 'Finish/stop the active task driver before bootstrap');
   const release = lock(path.join(data, 'writer.lock'), path.join(data, 'state.json'));
   const gh = new GitHub(root, cfg.repository);
@@ -69,6 +87,11 @@ export async function bootstrapReview({ root, tool, data, cfg, recoverTesting = 
       previous = readJson(previousPath);
       writeJson(path.join(data, 'history', `${previous.runId}-bootstrap.json`), previous);
       if (previous.baseSha === base) state.repairs = previous.repairs;
+    }
+    if (recoverTesting && recoveryRunId) {
+      requireThat(/^[a-f0-9-]{36}$/.test(recoveryRunId), 'Invalid recovery identity');
+      previous = readJson(path.join(data, 'history', `${recoveryRunId}-bootstrap.json`));
+      state.repairs = Math.max(state.repairs, previous.repairs);
     }
     const repo = path.join(data, 'bootstrap', state.runId.slice(0, 8));
     bootstrapSnapshot(root, repo, sha, `https://github.com/${cfg.repository}.git`);
@@ -93,12 +116,7 @@ export async function bootstrapReview({ root, tool, data, cfg, recoverTesting = 
       const changes = git(previous.worktree, 'status', '--porcelain', '-uall').split(/\r?\n/).filter(Boolean).map(x => x.slice(3).replace(/^"|"$/g, ''));
       validateReport(report, state, changes);
       requireThat(changes.length && changes.every(f => allowedPath(f, REPAIR_SCOPE)), 'Recovery scope invalid');
-      for (const file of changes) {
-        requireThat(changedPaths(root, previous.commitSha, sha).every(f => f !== file), 'Root changed a partial-repair path; no overwrite');
-        const from = path.join(previous.worktree, file), to = path.join(repo, file);
-        requireThat(fs.statSync(from).isFile() && !fs.lstatSync(from).isSymbolicLink() && fs.realpathSync(from).startsWith(fs.realpathSync(previous.worktree) + path.sep), 'Escaping recovery file');
-        fs.mkdirSync(path.dirname(to), { recursive: true }); fs.copyFileSync(from, to);
-      }
+      applyScopedRepairPatch(previous, repo, changes, path.join(evidenceDir, 'preserved-repair.patch'));
       state.developerReport = report; state.testingRecovery = { originalRunId: previous.runId, reportResultPreserved: 'BLOCKED', originalDeveloperReceiptUnavailable: true };
       git(repo, 'diff', '--check'); git(repo, 'add', '--', ...changes); git(repo, 'commit', '-m', 'B001: verify preserved scoped repair with controller checks');
       const next = git(repo, 'rev-parse', 'HEAD'); actualChecks(repo, evidenceDir, next);

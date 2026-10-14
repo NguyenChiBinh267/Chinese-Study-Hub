@@ -523,7 +523,7 @@ async function main() {
   if (action === 'dry-git') { await dryGitCycle(); return; }
   if (['bootstrap-review', 'bootstrap-recover-tests', 'bootstrap-merge'].includes(action)) {
     const { bootstrapReview, bootstrapMerge } = await import('./bootstrap.mjs');
-    const state = await (action === 'bootstrap-merge' ? bootstrapMerge : bootstrapReview)({ root: ROOT, tool: TOOL, data: DATA, cfg: config(), recoverTesting: action === 'bootstrap-recover-tests' });
+    const state = await (action === 'bootstrap-merge' ? bootstrapMerge : bootstrapReview)({ root: ROOT, tool: TOOL, data: DATA, cfg: config(), recoverTesting: action === 'bootstrap-recover-tests', recoveryRunId: process.argv[3] ?? null });
     console.log(JSON.stringify({ taskId: state.taskId, phase: state.phase, verdict: state.review?.verdict, commitSha: state.commitSha, blocker: state.blocker })); return;
   }
   if (['multi-proof', 'multi-supervise'].includes(action)) {

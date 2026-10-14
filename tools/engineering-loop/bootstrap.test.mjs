@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { validateBootstrapIdentity, validateBootstrapMergeGrant, bootstrapSnapshot, controllerCheckHandoff } from './bootstrap.mjs';
+import { validateBootstrapIdentity, validateBootstrapMergeGrant, bootstrapSnapshot, controllerCheckHandoff, applyScopedRepairPatch } from './bootstrap.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -42,4 +42,19 @@ test('Bootstrap testing-denial handoff preserves BLOCKED and never replaces huma
   assert.equal(controllerCheckHandoff(report), true); assert.equal(report.result, 'BLOCKED');
   for (const blocker of ['Missing publication rights', 'No account consent', 'Model quota exhausted', 'Unknown implementation failure']) assert.equal(controllerCheckHandoff({ ...report, blocker }), false);
   assert.equal(controllerCheckHandoff({ ...report, tests: [{ passed: true }] }), false);
+});
+test('Scoped repair patch preserves non-overlapping root edits and rejects conflicts without overwrite', () => {
+  const parent = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../.engineering-loop/bootstrap-patch-tests', String(Date.now()));
+  const original = path.join(parent, 'original'), copy = path.join(parent, 'copy'); fs.mkdirSync(path.join(original, 'tools/engineering-loop'), { recursive: true });
+  git(original, 'init', '-b', 'main'); git(original, 'config', 'core.autocrlf', 'false'); git(original, 'config', 'user.name', 'Patch fixture'); git(original, 'config', 'user.email', 'fixture@example.invalid');
+  const file = 'tools/engineering-loop/fixture.mjs', lines = Array.from({ length: 20 }, (_, n) => `line ${n}`);
+  fs.writeFileSync(path.join(original, file), lines.join('\n') + '\n'); git(original, 'add', '.'); git(original, 'commit', '-m', 'baseline');
+  const head = git(original, 'rev-parse', 'HEAD'); bootstrapSnapshot(original, copy, head, original);
+  const repair = [...lines]; repair[2] = 'reviewer fix'; fs.writeFileSync(path.join(original, file), repair.join('\n') + '\n');
+  const rootEdit = [...lines]; rootEdit[17] = 'owner edit'; fs.writeFileSync(path.join(copy, file), rootEdit.join('\n') + '\n'); git(copy, 'add', '.'); git(copy, 'commit', '-m', 'preserved root change');
+  applyScopedRepairPatch({ worktree: original, commitSha: head }, copy, [file], path.join(parent, 'repair.patch'));
+  const result = fs.readFileSync(path.join(copy, file), 'utf8'); assert.ok(result.includes('reviewer fix')); assert.ok(result.includes('owner edit'));
+  git(copy, 'restore', '--', file); const conflict = [...rootEdit]; conflict[2] = 'conflicting owner edit'; fs.writeFileSync(path.join(copy, file), conflict.join('\n') + '\n'); git(copy, 'add', '.'); git(copy, 'commit', '-m', 'conflict');
+  assert.throws(() => applyScopedRepairPatch({ worktree: original, commitSha: head }, copy, [file], path.join(parent, 'conflict.patch')));
+  assert.equal(fs.readFileSync(path.join(copy, file), 'utf8'), conflict.join('\n') + '\n');
 });
