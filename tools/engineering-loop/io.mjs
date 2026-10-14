@@ -58,9 +58,9 @@ export function verifyGitMetadata(receipt) {
 
 // Credentials stay in memory, are never logged, and are never inherited by Codex.
 export class GitHub {
-  constructor(root, repository) {
+  constructor(root, repository, { transport = fetch, wait = ms => new Promise(resolve => setTimeout(resolve, ms)) } = {}) {
     requireThat(/^[\w.-]+\/[\w.-]+$/.test(repository), 'Invalid repository');
-    this.root = root; this.repository = repository; this.token = null;
+    this.root = root; this.repository = repository; this.token = null; this.transport = transport; this.wait = wait;
   }
   authenticate() {
     const credentials = command('git', ['credential', 'fill'], this.root,
@@ -71,12 +71,32 @@ export class GitHub {
   async api(endpoint, method = 'GET', body) {
     if (!this.token) this.authenticate();
     requireThat(endpoint.startsWith('/'), 'Invalid GitHub endpoint');
-    const response = await fetch(`https://api.github.com${endpoint}`, { method,
-      signal: AbortSignal.timeout(30000), redirect: 'error', headers: { 'User-Agent': 'Chinese-Study-Hub-loop',
-        Accept: 'application/vnd.github+json', Authorization: `Bearer ${this.token}`, 'Content-Type': 'application/json',
-        'X-GitHub-Api-Version': '2022-11-28' }, body: body === undefined ? undefined : JSON.stringify(body) });
-    requireThat(response.ok, `GitHub ${method} failed (${response.status}); reconcile before retry`);
-    return response.status === 204 ? null : response.json();
+    for (let attempt = 0; attempt < 3; attempt++) {
+      let response;
+      try {
+        response = await this.transport(`https://api.github.com${endpoint}`, { method,
+          signal: AbortSignal.timeout(30000), redirect: 'error', headers: { 'User-Agent': 'Chinese-Study-Hub-loop',
+            Accept: 'application/vnd.github+json', Authorization: `Bearer ${this.token}`, 'Content-Type': 'application/json',
+            'X-GitHub-Api-Version': '2022-11-28' }, body: body === undefined ? undefined : JSON.stringify(body) });
+      } catch (cause) {
+        const error = new Error(`GitHub ${method} transport failed; credentials/content not logged`);
+        if (method === 'GET' && ['TypeError', 'TimeoutError', 'AbortError'].includes(cause.name)) {
+          if (attempt < 2) { await this.wait(1000 * 2 ** attempt); continue; }
+          error.code = 'TRANSIENT_TRANSPORT';
+        }
+        throw error;
+      }
+      if (!response.ok) {
+        const error = new Error(`GitHub ${method} failed (${response.status}); reconcile before retry`);
+        if (method === 'GET' && [408, 429, 500, 502, 503, 504].includes(response.status)) {
+          const retrySeconds = Number(response.headers?.get('retry-after'));
+          if (attempt < 2 && (!retrySeconds || retrySeconds <= 60)) { await this.wait(Math.max(1000 * 2 ** attempt, retrySeconds > 0 ? retrySeconds * 1000 : 0)); continue; }
+          error.code = 'TRANSIENT_TRANSPORT';
+        }
+        throw error;
+      }
+      return response.status === 204 ? null : response.json();
+    }
   }
   repo(endpoint = '', method = 'GET', body) { return this.api(`/repos/${this.repository}${endpoint}`, method, body); }
   async comments(number) {

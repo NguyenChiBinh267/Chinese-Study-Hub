@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { validateAuthorization, preflight, recoveryDecision, chooseTask, newLedger, summarize } from './autonomous.mjs';
 import { makeMultiGitFixture } from './fixtures.mjs';
 import { GitSource, blob } from './git-ssot.mjs';
-import { git, validateFreeQuota } from './io.mjs';
+import { git, validateFreeQuota, GitHub } from './io.mjs';
 import { STATUS } from './plan.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const cfg = { repository: 'NguyenChiBinh267/Chinese-Study-Hub', liveEnabled: false, autoMerge: false, ssotAllowStatusWrites: false, authorizedTasks: [] };
@@ -79,4 +79,18 @@ test('Task-local block can advance only before merge; source/stale/malformed/uns
   assert.equal(recoveryDecision(s, g, l).kind, 'task');
   assert.equal(recoveryDecision({ ...s, mergePendingSha: 'x' }, g, l).kind, 'global');
   for (const code of ['INTEGRITY_OR_UNKNOWN', 'REVIEW_FAILURE', 'SOURCE_DRIFT', 'MALFORMED_REVIEW']) assert.equal(recoveryDecision({ ...s, blockerCode: code }, g, l).kind, 'global');
+});
+test('GitHub GET network/temporary server failures retry within a fixed bound without logging credentials', async () => {
+  let calls = 0; const delays = [];
+  const gh = new GitHub(root, cfg.repository, { wait: async ms => delays.push(ms), transport: async () => {
+    calls++; if (calls === 1) throw new TypeError('fetch failed'); if (calls === 2) return { ok: false, status: 503 }; return { ok: true, status: 200, json: async () => ({ sha: 'verified' }) };
+  } }); gh.token = 'synthetic-placeholder';
+  assert.deepEqual(await gh.repo('/pulls/3'), { sha: 'verified' }); assert.equal(calls, 3); assert.deepEqual(delays, [1000, 2000]);
+  calls = 0; gh.transport = async () => { calls++; throw new TypeError('contains sensitive raw payload'); };
+  await assert.rejects(gh.repo('/pulls/3'), e => e.code === 'TRANSIENT_TRANSPORT' && !e.message.includes('sensitive')); assert.equal(calls, 3);
+});
+test('GitHub writes and permission failures are never blindly retried', async () => {
+  let calls = 0; const gh = new GitHub(root, cfg.repository, { wait: async () => assert.fail('Must not retry'), transport: async () => { calls++; throw new TypeError('fetch failed'); } }); gh.token = 'synthetic-placeholder';
+  await assert.rejects(gh.repo('/pulls', 'POST', { title: 'synthetic' }), /transport/); assert.equal(calls, 1);
+  calls = 0; gh.transport = async () => { calls++; return { ok: false, status: 403 }; }; await assert.rejects(gh.repo('/pulls/3'), /403/); assert.equal(calls, 1);
 });
