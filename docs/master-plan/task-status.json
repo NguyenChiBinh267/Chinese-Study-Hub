@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "activeRelease": "M0",
+  "tasks": {
+    "T001": {
+      "status": "done",
+      "evidence": {
+        "kind": "historical-owner-verified-import",
+        "originalRevision": "AHj4eMTRwJbEwy0-KTvCTLLRAhi79Zwo0Ool8CV1B9Kq77PWTzNsRIVStWII_Qzh4-nfCkWB-WoeC_QG_1gE4u_oFtkspt_hm0boVRAhBmM",
+        "sourceNote": "Trạng thái T001: done — 13/10/2026 (Asia/Saigon). Evidence local tại workspace D:\\Chinese-Study-Hub: AGENTS.md; docs/implementation/brief.md; docs/implementation/status.md. Kiểm chứng: đọc SSOT v1.1 hiện tại; 7 ADR đúng trạng thái (hosting ADR-006 pending T069, content-versioning Accepted); M0 đúng 34 IDs, dependency closure trong M0; activation buckets bao phủ 70 IDs duy nhất, không thiếu/trùng; owner-only/phí một lần và định kỳ 0; tutor chữ v0.2, offline/sync/ghi âm v0.3; cache có URL/revision/thời điểm và quy tắc refresh khi revision đổi; luồng đọc AGENTS → brief → status rõ scope; không secrets/logs dài. Giới hạn: chưa đo chính xác tokens bằng tokenizer; không có code/app/runtime/device/cloud benchmark trong T001, các gate tương ứng vẫn pending/unverified. Next ready: T002 hoặc T004 (chỉ phụ thuộc T001); T068 cần thêm T002. Không bắt đầu task tiếp theo."
+      }
+    },
+    "T002": {
+      "status": "done",
+      "evidence": {
+        "kind": "historical-owner-verified-import",
+        "originalRevision": "AHj4eMTRwJbEwy0-KTvCTLLRAhi79Zwo0Ool8CV1B9Kq77PWTzNsRIVStWII_Qzh4-nfCkWB-WoeC_QG_1gE4u_oFtkspt_hm0boVRAhBmM",
+        "sourceNote": "Trạng thái T002: done — 13/10/2026 (Asia/Saigon). Evidence tại D:\\Chinese-Study-Hub: content/sources/register.json (7 metadata records), docs/implementation/rights.md; docs/implementation/status.md cập nhật. Đã đối chiếu CTI overview/Legal Notice; PDF riêng S01-VOCAB bìa trang 1 ghi 2025-11 phát hành/2026-07 áp dụng, không thay exact S01 1219.pdf còn lỗi đọc trực tiếp. S03 tên/mã GF0025-2021, ngày thông báo 2021-03-31, hiệu lực 2021-07-01 và mục đích framework qua chỉ mục nguồn MOE; HTML/attachment đầy đủ và URL S03 thứ hai unverified. Không trộn framework với exam syllabus hoặc suy blueprint/counts. Audio Yoyo Chinese Pinyin Chart quảng bá Free nhưng quyền reuse app/PWA, attribution/derivatives/commercial và chất lượng chưa xác minh: reference-only/unknown. S08-code MIT; S08-data Arphic Public License riêng, allowed có điều kiện notices/derivatives, chưa pin/import/review/publish. JSON/metadata/unique IDs/evidence refs/URL syntax/unknown-rights gates/code-data license separation kiểm tra pass; checksum/reviewer approvals null, AGENTS.md và brief.md giữ nguyên SHA-256. Phí 0; không corpus/lessons/dependencies/accounts/resources/AI calls. T002 register complete; downstream gates T005 exact sources/blueprint, T014 mapping/provenance/rights, T016 original free audio + competent review, T068 actual eligibility/quota/no-billing vẫn pending. Next ready: T005 (T002), T068 (T001+T002), T004 (T001); chưa bắt đầu task khác. Chỉ thêm trạng thái T002, không sửa ADR/roadmap/release hoặc task khác."
+      }
+    },
+    "T003": {
+      "status": "pending"
+    },
+    "T004": {
+      "status": "pending"
+    },
+    "T005": {
+      "status": "pending"
+    },
+    "T006": {
+      "status": "pending"
+    },
+    "T007": {
+      "status": "pending"
+    },
+    "T008": {
+      "status": "pending"
+    },
+    "T009": {
+      "status": "pending"
+    },
+    "T010": {
+      "status": "pending"
+    },
+    "T011": {
+      "status": "pending"
+    },
+    "T012": {
+      "status": "pending"
+    },
+    "T013": {
+      "status": "pending"
+    },
+    "T014": {
+      "status": "pending"
+    },
+    "T015": {
+      "status": "pending"
+    },
+    "T016": {
+      "status": "pending"
+    },
+    "T017": {
+      "status": "pending"
+    },
+    "T018": {
+      "status": "pending"
+    },
+    "T019": {
+      "status": "pending"
+    },
+    "T020": {
+      "status": "pending"
+    },
+    "T021": {
+      "status": "pending"
+    },
+    "T022": {
+      "status": "pending"
+    },
+    "T023": {
+      "status": "pending"
+    },
+    "T024": {
+      "status": "pending"
+    },
+    "T025": {
+      "status": "pending"
+    },
+    "T026": {
+      "status": "pending"
+    },
+    "T027": {
+      "status": "pending"
+    },
+    "T028": {
+      "status": "pending"
+    },
+    "T029": {
+      "status": "pending"
+    },
+    "T030": {
+      "status": "pending"
+    },
+    "T031": {
+      "status": "pending"
+    },
+    "T032": {
+      "status": "pending"
+    },
+    "T033": {
+      "status": "pending"
+    },
+    "T034": {
+      "status": "pending"
+    },
+    "T035": {
+      "status": "pending"
+    },
+    "T036": {
+      "status": "pending"
+    },
+    "T037": {
+      "status": "pending"
+    },
+    "T038": {
+      "status": "pending"
+    },
+    "T039": {
+      "status": "pending"
+    },
+    "T040": {
+      "status": "pending"
+    },
+    "T041": {
+      "status": "pending"
+    },
+    "T042": {
+      "status": "pending"
+    },
+    "T043": {
+      "status": "pending"
+    },
+    "T044": {
+      "status": "pending"
+    },
+    "T045": {
+      "status": "pending"
+    },
+    "T046": {
+      "status": "pending"
+    },
+    "T047": {
+      "status": "pending"
+    },
+    "T048": {
+      "status": "pending"
+    },
+    "T049": {
+      "status": "pending"
+    },
+    "T050": {
+      "status": "pending"
+    },
+    "T051": {
+      "status": "pending"
+    },
+    "T052": {
+      "status": "pending"
+    },
+    "T053": {
+      "status": "pending"
+    },
+    "T054": {
+      "status": "pending"
+    },
+    "T055": {
+      "status": "pending"
+    },
+    "T056": {
+      "status": "pending"
+    },
+    "T057": {
+      "status": "deferred"
+    },
+    "T058": {
+      "status": "deferred"
+    },
+    "T059": {
+      "status": "pending"
+    },
+    "T060": {
+      "status": "pending"
+    },
+    "T061": {
+      "status": "pending"
+    },
+    "T062": {
+      "status": "deferred"
+    },
+    "T063": {
+      "status": "deferred"
+    },
+    "T064": {
+      "status": "pending"
+    },
+    "T065": {
+      "status": "pending"
+    },
+    "T066": {
+      "status": "pending"
+    },
+    "T067": {
+      "status": "pending"
+    },
+    "T068": {
+      "status": "pending"
+    },
+    "T069": {
+      "status": "pending"
+    },
+    "T070": {
+      "status": "pending"
+    }
+  }
+}

@@ -3,22 +3,13 @@ import path from 'node:path';
 import { randomUUID } from 'node:crypto';
 import { hash, requireThat, allowedPath, applyReview, move } from './core.mjs';
 import { git, readJson, writeJson, runCodex, command } from './io.mjs';
+import { acceptanceChecks } from './acceptance.mjs';
+export { acceptanceChecks } from './acceptance.mjs';
 
 export function repositoryFingerprint(repo) {
   const files = command('git', ['ls-files', '-z'], repo).split('\0').filter(Boolean);
   const tracked = files.map(file => ({ file, hash: hash(fs.readFileSync(path.join(repo, file))) }));
   return hash(JSON.stringify({ head: git(repo, 'rev-parse', 'HEAD'), status: git(repo, 'status', '--porcelain', '-uall'), tracked }));
-}
-
-export function acceptanceChecks(repo, policy) {
-  requireThat(policy.acceptanceChecks?.length, 'Missing owner-defined deterministic acceptance checks');
-  return policy.acceptanceChecks.map(check => {
-    requireThat(check.kind === 'exact-bytes' && allowedPath(check.file, policy.allowedFiles) && typeof check.expectedBase64 === 'string', 'Unsupported/unscoped acceptance check');
-    const target = path.join(repo, check.file);
-    requireThat(fs.existsSync(target) && !fs.lstatSync(target).isSymbolicLink(), 'Missing actual acceptance file');
-    const bytes = fs.readFileSync(target), expected = Buffer.from(check.expectedBase64, 'base64');
-    return { name: `exact bytes: ${check.file}`, file: check.file, passed: bytes.equals(expected), actualHash: hash(bytes), expectedHash: hash(expected), byteCount: bytes.length };
-  });
 }
 
 export function validateLocalReview(report, state, actualHead, checks) {
@@ -60,7 +51,8 @@ export async function localReview({ root, tool, data, state, task, policy, sourc
   const proofBefore = await sourceAdapter.verifyTask(state, task);
   requireThat(proofBefore.revision === state.sourceRevision && proofBefore.readbackVerified, 'Source revision drift before review');
   requireThat(git(state.worktree, 'rev-parse', 'HEAD') === state.commitSha && git(state.worktree, 'status', '--porcelain') === '', 'Unclean/stale developer HEAD');
-  const before = repositoryFingerprint(state.worktree), checks = acceptanceChecks(state.worktree, policy);
+  const context = { state, source: sourceAdapter };
+  const before = repositoryFingerprint(state.worktree), checks = acceptanceChecks(state.worktree, policy, context);
   const testEvidence = state.evidence.at(-1);
   requireThat(testEvidence?.commitSha === state.commitSha && testEvidence.checks?.length > 0 && testEvidence.checks.every(c => typeof c.name === 'string' && c.passed === true), 'Missing exact-commit test evidence');
   // Full identities stay in the packet; short directory components avoid Windows MAX_PATH failures.
@@ -75,6 +67,8 @@ export async function localReview({ root, tool, data, state, task, policy, sourc
   const reviewPacket = { role: 'independent-reviewer', runId: state.runId, taskId: state.taskId, nonce: state.nonce,
     commitSha: state.commitSha, sourceRevision: state.sourceRevision, sourceKind: proofBefore.kind,
     specification: task.spec, acceptanceCriteria: task.spec.filter(x => /Acceptance|criteria/i.test(x)),
+    baseCommitSha: state.sourceCommit ?? state.baseSha, specHash: proofBefore.specHash ?? hash(JSON.stringify(task.spec)),
+    taskStatusHash: proofBefore.taskStatusHash ?? null, deterministicAcceptance: checks, requiredChecks: policy.acceptanceChecks,
     testEvidence: state.evidence.at(-1), developerTestClaims: state.developerReport?.tests ?? [],
     sourceEvidence: { revision: proofBefore.revision, readbackVerified: proofBefore.readbackVerified, relevantSections: proofBefore.relevantSections },
     diffPath: path.join(reviewDirectory, 'diff.patch'), scope: policy.allowedFiles };
@@ -98,7 +92,7 @@ export async function localReview({ root, tool, data, state, task, policy, sourc
   requireThat(!probeReadOnly || result.receipt.writeProbeAttempted && result.receipt.writeProbeDenied, 'Read-only probe denial not independently observed in CLI tool events');
   const proofAfter = await sourceAdapter.verifyTask(state, task);
   requireThat(proofAfter.revision === proofBefore.revision && proofAfter.readbackVerified, 'Source revision drift during review');
-  validateLocalReview(result.report, state, git(state.worktree, 'rev-parse', 'HEAD'), acceptanceChecks(state.worktree, policy));
+  validateLocalReview(result.report, state, git(state.worktree, 'rev-parse', 'HEAD'), acceptanceChecks(state.worktree, policy, context));
   const event = { ...result.report, type: 'REVIEW', sourceReadbackVerified: true, backend: 'local-codex' };
   const receipt = { ...result.receipt, sourceBefore: proofBefore.revision, sourceAfter: proofAfter.revision,
     sourceKind: proofBefore.kind, snapshotHashBefore: before, snapshotHashAfter: repositoryFingerprint(snapshot),

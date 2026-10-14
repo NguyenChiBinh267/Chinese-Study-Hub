@@ -1,58 +1,64 @@
-# Engineering loop — Windows
+# Git-native engineering loop — operations
 
-The existing controller now selects independent local Codex review without Work events. Writer lock, persistent state, GitHub transport, picker, repair limit and state semantics are reused. No dependency installs, API keys or new cloud resources were added. Historical manual Work/PR #2 evidence stays in setup-report.json.
+The existing controller now uses Git SOURCE/status and independent local Codex review. No Google API/OAuth/Picker/Cloud project or Work event is on the critical path. The owner approved this authority change; it takes effect only after migration review and merge into verified origin/main. PR #3 remains draft/unmerged, so main currently lacks Git SSOT and live SOURCE is BLOCKED. The workspace plan is a candidate, never a runtime fallback.
 
-Safety settings: `liveEnabled=false`, `authorizedTasks=[]`, `autoMerge=false`, `ssotAllowStatusWrites=false`; controller stopped. T001/T002 remain the only completed SSOT tasks. The automatic synthetic Developer → REWORK → repair → PASS cycle is verified. The whole lifecycle is **not FULLY AUTOMATED**: direct live SOURCE/SSOT are BLOCKED; automatic merge and live SSOT write/readback are unverified.
+Specification: docs/master-plan/master-plan-v1.1.md. The only mutable status source: docs/master-plan/task-status.json. Manifest/original snapshot/import validation live beside them. Task index is derived in memory from pinned Git blobs. Historical Work/manual PR #2, local-review and pre-Git cache/handoffs are retained as evidence; they do not control readiness.
 
-## Controls
+## Run checks and isolated fixtures
 
-From D:\Chinese-Study-Hub, using existing Node/Git/Codex CLI:
+From D:\Chinese-Study-Hub, with existing Node/Git/Codex:
 
 ```powershell
-node tools/engineering-loop/loop.mjs doctor
+node tools/engineering-loop/validate-import.mjs
+node tools/engineering-loop/loop.mjs candidate-pick
 node tools/engineering-loop/loop.mjs ssot-status
+node tools/engineering-loop/loop.mjs doctor
 node tools/engineering-loop/loop.mjs dry-run
-node --test tools/engineering-loop/local.test.mjs
-node tools/engineering-loop/loop.mjs dry-local
+node --test tools/engineering-loop/local.test.mjs tools/engineering-loop/git.test.mjs
+node tools/engineering-loop/loop.mjs dry-git
+```
+
+`candidate-pick` labels branch-derived readiness explicitly; it authorizes nothing. `pick` and `ssot-check T001` fetch origin/main and require valid pinned Git SSOT. Before migration is merged they block, without Google/cache fallback. Legacy 18-check dry-run simulates external adapters; local/Git unit tests use explicitly marked reviewer/transport doubles plus actual local Git. They are not external GitHub lifecycle proof.
+
+`dry-git` uses isolated local bare remote and D001/D002 IDs outside the real backlog. It runs actual Codex Developer → local Reviewer REWORK → same-branch repair → new-HEAD PASS → actual Git merge → single-task status push/readback → DONE → next pick D002. D002 is not executed. One fresh controller process per transition reloads persistent state. Four separate CLI role sessions use existing ChatGPT included ordinary quota. Real safety flags remain false/empty, and stop=true is restored. Root task-status.json remains unchanged. Runtime evidence: .engineering-loop/git-cycle-latest.json and per-review packets/diffs/receipts. Curated proof: git-native-report.json.
+
+The initial generator intentionally creates NEEDS_REPAIR; generator checks go in tests, its known acceptance failure stays in evidence and controller acceptance. It is never called passed. The independent reviewer must REWORK, and final APPROVED + LF bytes must be verified. A failed developer check still blocks; no false COMPLETE bypass was introduced.
+
+## Configuration and source binding
+
+Defaults in config.example.json/ignored runtime config:
+
+```json
+{"sourceBackend":"git","ssotBackend":"git","reviewerBackend":"local-codex","liveEnabled":false,"authorizedTasks":[],"autoMerge":false,"ssotAllowStatusWrites":false}
+```
+
+SOURCE/SSOT backends in the migrated controller are Git only; selecting legacy Google/Work SOURCE is rejected. Legacy OAuth module/guide/tests remain historical and are never called by the Git path. Optional Work review/relay remains disabled until a real supported/free trigger is separately verified; no trigger creation is retried. It cannot write SOURCE/status. WORK.md is review-only guidance; its former protocol is archived.
+
+Before live selection fetch/verify the exact GitHub origin/main. Read specification/status/manifest from that commit, validate version/title/provenance hashes, 70 IDs/buckets/DAG/M0 closure and dependencies done. Packets bind run/task/nonce, source/base SHA, spec/status/policy hashes, acceptance, allowed files and owner checks. Never trust specification from the developer branch. Any source HEAD/policy drift blocks; the sole exceptions are already-checkpointed exact own merge/status commits with unchanged specification and verified single-task status. No silent rebase or cached-source acceptance.
+
+Prepared T068/T004/T005 contracts cover required paths, supported JSON schema subset, screen sections/states, source URLs/evidence/hash claims, rights/publication, internal vs verified exam labels, dependency/scope/whitespace, secrets/paid config and allowlisted commands. Unsupported schema/check/command or missing human evidence blocks. These contracts are proposals requiring owner review before activation, not real-task completion proof. Owner evidence is pinned outside developer scope as described in docs/master-plan/README.md. Account, legal and competent-language facts cannot be invented by either model. Final artifact approvals bind actual bytes; adding proof on main during a run requires explicit source reconciliation. An unattended human approval/reconciliation lane is not implemented.
+
+## Processes, merge and status
+
+The existing phase semantics remain SOURCE_WAIT → DEVELOP_READY → REVIEW_WAIT → REPAIR_READY → MERGE_WAIT → SSOT_WAIT → DONE (plus durable write/cache phases). REWORK permits at most two repairs. Fresh ephemeral Developer and read-only Reviewer processes have different PIDs/thread IDs and no shared conversation. Reviewer reads exact detached snapshot/diff/actual bytes/tests, with before/after fingerprints; developer COMPLETE is not a verdict. Deterministic acceptance must pass independently. Timeout, malformed/stale verdict, missing evidence, crash/quota limit or mutation becomes BLOCKED.
+
+Every invocation verifies ChatGPT auth and ordinary available quota with zero/known-no credits; secrets/API-provider overrides are removed from the environment. No API key, paid credits, resets, fallback or new subscription/resource exists. This uses an existing account, not a claim that its subscription is free. Scope and Git config/hooks are checked before controller publication. Windows sandbox/fixture checks are not a complete OS security audit.
+
+Real automatic merge stays disabled. If separately authorized later, the controller rechecks PASS/current HEAD/source/scope/acceptance/no concurrent process, creates a two-parent merge whose parents are pinned main and reviewed SHA, then pushes non-force. An advanced main rejects the push. Server permissions/protection can also reject; they are never weakened. No paid GitHub auto-merge feature is required. Manual GitHub merge may be confirmed only if exact reviewed SHA and pinned parent/tree are preserved; squash/rebase or later concurrent main changes block and require reconciliation.
+
+Merge/status intent SHA is persisted before push. Recovery after an actual push recognizes the same remote commit instead of creating/pushing a duplicate. Status sync verifies merged ancestry and unchanged specification/status base, changes only the authorized task in task-status.json, records run/PR/reviewed/merge/source/checks/verdict/time, commits only that path, pushes non-force and reads exact remote HEAD/blob plus every unrelated task back. DONE occurs only after readback and cache refresh. A failed status push stays recoverable at SSOT_WAIT; implementation/merge are not repeated.
+
+## Controls and blockers
+
+```powershell
 .\tools\engineering-loop\control.ps1 status
 .\tools\engineering-loop\control.ps1 pause
 .\tools\engineering-loop\control.ps1 stop
+.\tools\engineering-loop\control.ps1 resume
+.\tools\engineering-loop\control.ps1 start
+node tools/engineering-loop/loop.mjs recover SSOT_WAIT
 ```
 
-`dry-local` archives the previous completed/blocked synthetic checkpoint, creates a D001 repository under ignored runtime storage and runs actual CLI processes. It intentionally generates NEEDS_REPAIR, obtains REWORK, repairs the same branch to APPROVED + LF, then reviews the new HEAD. It needs no GitHub comment, Work event, Google access or manual relay. It refuses an active execution or enabled backlog/merge settings. It stops at MERGE_WAIT with PASS and restores stop=true; no synthetic merge, Google write or DONE is invented. Runtime evidence: `.engineering-loop/local-cycle-latest.json`, per-review receipts/packets/diffs and exact-commit test evidence. Curated evidence: local-review-report.json.
+Start uses the existing hidden controller. Resume clears control flags but never erases BLOCKED. Recovery requires the recorded prior stable wait phase and actual source/HEAD/clean tree; it preserves pending merge/status SHAs and repair count. Interrupted writer/publication needs inspection. Never delete a live lock, reset edits or edit checkpoints to bypass drift. One shared writer lock protects the controller/model; a separate fixture-driver lock prevents duplicate dry-git drivers. All real activation requires clean main and a separately authorized Task ID/policy.
 
-`dry-run` retains 18 checks with simulated external adapters. New tests use fake reviewer/Docs transports and actual local Git; they are separate from the real CLI cycle. `dry-github`, manual relay and WORK.md remain the optional legacy Work path. Do not retry creating a trigger during this upgrade.
-
-`step` advances one durable transition. `control.ps1 start` runs the controller hidden; pause/stop terminates its active CLI process tree. Resume clears flags but preserves BLOCKED; restart explicitly. Never enable live tasks just to run a fixture.
-
-## Adapter configuration
-
-Review config.example.json and ignored `.engineering-loop/config.json`. Defaults:
-
-```json
-{"reviewerBackend":"local-codex","sourceBackend":"google-docs","ssotBackend":"google-docs","ssotAllowStatusWrites":false,"liveEnabled":false,"authorizedTasks":[],"autoMerge":false}
-```
-
-Local review requires direct live Google SOURCE for real tasks. Synthetic source is D001-only and cannot authorize backlog tasks. To use Work later, select `work` for all three backend fields and verify event delivery first. Local review never consumes developer verdicts or relayed Work verdicts.
-
-Each real task needs an owner-reviewed allowlist, targeted checks and deterministic `acceptanceChecks` before developer dispatch. Currently only exact-byte acceptance checks are implemented (file and expectedBase64); meaningful document/code acceptance needs a separately reviewed extension. Existing T004/T005/T068 policies have no deterministic acceptance contract and cannot activate local review as supplied. Optional `sourceSections` lists additional numeric sections: data needs 5/3.2 (ADR-002), learning 6/4.2, tutor 7, offline 4.4 only in its authorized release. Common live sections 2.3/11/12.6/14.1/15 and DoD 10.3 are always read from the guarded revision.
-
-## Independent review and recovery
-
-Lifecycle remains SOURCE_WAIT → DEVELOP_READY → REVIEW_WAIT → REPAIR_READY → MERGE_WAIT → SSOT_WAIT → DONE. REWORK permits at most two repairs. PASS requires current HEAD and passing deterministic acceptance. Timeout, malformed JSON, missing exact-commit tests, crash, exhausted quota, source drift or mutation becomes BLOCKED. No response never means PASS.
-
-Developer/reviewer launch fresh `codex exec --ephemeral --ignore-user-config` processes, no resume or shared conversation. Reviewer uses `--sandbox read-only`, approval never and JSON Schema output. Its verified packet contains specification/revision, exact SHA, actual diff and test evidence, never the developer transcript/COMPLETE verdict. It inspects actual bytes in a detached clone without shared object hardlinks. Fingerprints guard original and snapshot; SHA/source are rechecked after review. The synthetic probe tries only a disposable filename; CLI tool-event denial and file absence are recorded independently.
-
-Every model invocation checks ChatGPT auth and local app-server quota. Unknown/nonzero credits, missing ordinary quota or a model limit blocks the call. Secret/API-key environment values are stripped. No resets, credit purchase, paid fallback or billing setup exists. This uses existing included quota; it does not claim the account's subscription is free. The Windows sandbox/byte checks are fixture evidence, not a full OS security audit.
-
-Ignored runtime files contain state/control/config, atomic checkpoints, packets/evidence, snapshots and locks. The shared lock also protects a live reviewer after controller crash. Recovery to the recorded stable wait phase checks HEAD/clean tree, retained counters and source verification: `node tools/engineering-loop/loop.mjs recover REVIEW_WAIT`. Interrupted writes/publication remain BLOCKED for inspection. Never delete a live lock or reset user edits.
-
-## SOURCE and SSOT
-
-Google Docs remains SSOT; task index is a revision-labelled cache. See [OAuth guide](google-docs-oauth.md) for missing credentials, minimum scope and no-billing prerequisites. Consent alone does not grant an existing Master Plan. Connector credentials are never reused; cache never substitutes for live SOURCE.
-
-API verification checks live v1.1 revision, M0 membership, exact specification/dependencies and done statuses before developer/reviewer turns. Drift requires section reconciliation/cache refresh. A merged exact-SHA PASS plus explicit task/write authorization may update only one status paragraph using requiredRevisionId and full paragraph-text readback. Live OAuth/writes remain untested. No ADR, backlog or other task update is authorized.
-
-Before backlog activation: verify OAuth/per-file/no-billing evidence and one authorized task's live SOURCE and guarded SSOT write/readback; separately authorize/prove automatic merge if desired; supply meaningful task acceptance policies. Bounded content-instance dispatch remains unsupported, so T016/T034/T044/T047/T050/T055 are blocked. T069/T053 hosting/deploy require separate work/authorization. T009/T068/T069, rights and competent content review remain required; AI PASS cannot replace them. No bulk run is authorized.
-
-Sources: [Codex non-interactive mode](https://learn.chatgpt.com/docs/non-interactive-mode), [app-server](https://learn.chatgpt.com/docs/app-server), [Windows sandbox](https://learn.chatgpt.com/docs/windows/windows-sandbox), [Docs scopes](https://developers.google.com/workspace/docs/api/auth), [Docs limits/pricing](https://developers.google.com/workspace/docs/api/limits).
+Verified: complete text/spec import validation, actual local CLI/Git-bare lifecycle, fresh-controller checkpoint reload, local non-force races and failure/duplicate recovery. Unverified: external GitHub merge/status lifecycle, real backlog, provider/account/legal/language eligibility and a full OS security audit. Do not claim FULLY AUTOMATED for the real project. Main migration is pending; human gates, T009/T068/T069, bounded content instances and hosting/deploy require separate work/authorization. No T068/T004/T005 execution or PR #2/#3 merge is authorized by this upgrade.

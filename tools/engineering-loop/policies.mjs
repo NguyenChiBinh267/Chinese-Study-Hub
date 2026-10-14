@@ -1,0 +1,31 @@
+const common = file => [
+  { kind: 'required-file', file }, { kind: 'file-scope' }, { kind: 'whitespace' }, { kind: 'dependencies' },
+  { kind: 'no-secrets', file }, { kind: 'no-paid-config', file }, { kind: 'task-safety' }
+];
+export const preparedPolicies = {
+  T004: { contractVersion: 1, allowedFiles: ['docs/implementation/ux-slice.md'], sourceSections: ['8'], checks: [], acceptanceChecks: [
+    ...common('docs/implementation/ux-slice.md'),
+    { kind: 'required-headings', file: 'docs/implementation/ux-slice.md', headings: ['Weekly budget', 'Today', 'Player', 'Review', 'Resume', 'Flow A–D', 'Accessibility', 'States'] },
+    { kind: 'required-text', file: 'docs/implementation/ux-slice.md', text: ['loading', 'empty', 'error', 'offline', '360px', 'keyboard', 'CTA', '10s'] },
+    { kind: 'section-contract', file: 'docs/implementation/ux-slice.md', sections: ['Weekly budget', 'Today', 'Player', 'Review', 'Resume'], required: ['loading', 'empty', 'error', 'offline', 'CTA'] },
+    { kind: 'owner-evidence', file: 'docs/implementation/ux-slice.md', scope: 'ux-walkthrough' }
+  ] },
+  T005: { contractVersion: 1, allowedFiles: ['content/sources/exam-register.json', 'docs/implementation/exam-gaps.md'], sourceSections: ['2.1', '9'], checks: [], acceptanceChecks: [
+    ...common('content/sources/exam-register.json'), { kind: 'required-file', file: 'docs/implementation/exam-gaps.md' },
+    { kind: 'json-schema', file: 'content/sources/exam-register.json', schema: { type: 'object', required: ['examVersion', 'sources', 'gaps', 'practiceLabel'], properties: {
+      examVersion: { type: 'string', minLength: 3 }, practiceLabel: { type: 'string', enum: ['internal-practice', 'verified-official-format'] },
+      gaps: { type: 'array', items: { type: 'string' } }, sources: { type: 'array', minItems: 1, items: { type: 'object', required: ['url', 'observedAt', 'evidence', 'verification', 'rightsStatus'], properties: {
+        url: { type: 'string', pattern: '^https://' }, observedAt: { type: 'string' }, evidence: { type: 'string', minLength: 20 },
+        verification: { type: 'string', enum: ['verified', 'unverified', 'blocked'] }, rightsStatus: { type: 'string', enum: ['allowed', 'restricted', 'unknown'] }
+      } } }
+    } } },
+    { kind: 'source-provenance', file: 'content/sources/exam-register.json' }, { kind: 'rights-gate', file: 'content/sources/exam-register.json' },
+    { kind: 'practice-label', file: 'content/sources/exam-register.json' },
+    { kind: 'owner-evidence', file: 'content/sources/exam-register.json', scope: 'exam-label-review' }
+  ] },
+  T068: { contractVersion: 1, allowedFiles: ['docs/implementation/free-services.md', 'config/free-only/**', '.env.example'], sourceSections: ['3.8', '4.5', '12.5'], checks: [], acceptanceChecks: [
+    ...common('docs/implementation/free-services.md'),
+    { kind: 'required-headings', file: 'docs/implementation/free-services.md', headings: ['Eligibility', 'Account evidence', 'Terms', 'Quotas', 'No-billing', 'Stop conditions', 'Fallbacks', 'Limitations'] },
+    { kind: 'owner-evidence', scope: 'account-zero-cost' }
+  ] }
+};

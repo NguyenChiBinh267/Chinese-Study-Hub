@@ -1,3 +1,5 @@
+> Historical adapter/setup guide. Git-native SOURCE/SSOT no longer uses this path; OAuth/Picker/Cloud are not activation prerequisites. The migrated controller rejects Google SOURCE/status configuration. Preserve this guide as prior evidence, not current setup instructions.
+
 # Google Docs SSOT — one-time owner access
 
 Actual setup on 2026-10-14: the configured private store `%LOCALAPPDATA%\ChineseStudyHub\oauth` lacks client.json, tokens.json and zero-cost.json. Local SOURCE/SSOT is BLOCKED. The connected Google Drive tool can read v1.1; that does not authorize local OAuth. No local consent, direct Google API call, cloud resource or live SSOT write was performed in this upgrade.

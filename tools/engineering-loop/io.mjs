@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
 import { spawn, spawnSync } from 'node:child_process';
-import { requireThat } from './core.mjs';
+import { requireThat, hash } from './core.mjs';
 
 export function readJson(file) { return JSON.parse(fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, '')); }
 export function writeJson(file, value) {
@@ -35,6 +35,22 @@ export function command(executable, args, cwd, options = {}) {
   return result.stdout.trimEnd();
 }
 export const git = (cwd, ...args) => command('git', args, cwd);
+function metadataDigest(configPath, hooksPath) {
+  const hooks = fs.existsSync(hooksPath) ? fs.readdirSync(hooksPath, { withFileTypes: true }).map(entry => {
+    const file = path.join(hooksPath, entry.name);
+    return { name: entry.name, kind: entry.isSymbolicLink() ? 'link' : entry.isFile() ? 'file' : 'other',
+      hash: entry.isSymbolicLink() ? hash(fs.readlinkSync(file)) : entry.isFile() ? hash(fs.readFileSync(file)) : null };
+  }).sort((a, b) => a.name.localeCompare(b.name)) : [];
+  return hash(JSON.stringify({ config: fs.existsSync(configPath) ? hash(fs.readFileSync(configPath)) : null, hooks }));
+}
+export function captureGitMetadata(repo) {
+  const configPath = path.resolve(repo, git(repo, 'rev-parse', '--git-path', 'config'));
+  const hooksPath = path.resolve(repo, git(repo, 'rev-parse', '--git-path', 'hooks'));
+  return { configPath, hooksPath, digest: metadataDigest(configPath, hooksPath) };
+}
+export function verifyGitMetadata(receipt) {
+  requireThat(receipt && metadataDigest(receipt.configPath, receipt.hooksPath) === receipt.digest, 'Developer changed Git config/hooks; inspect before controller Git operations');
+}
 
 // Credentials stay in memory, are never logged, and are never inherited by Codex.
 export class GitHub {

@@ -4,9 +4,12 @@ import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { hash, now, requireThat, validateSource, readyTasks, newExecution, move, parseBridgeComment,
   applyReview, checkDeadline, allowedPath, validateReport, TERMINAL } from './core.mjs';
-import { readJson, writeJson, lock, git, command, GitHub, codexEntrypoint, runCodex } from './io.mjs';
+import { readJson, writeJson, lock, git, command, GitHub, codexEntrypoint, runCodex, captureGitMetadata, verifyGitMetadata } from './io.mjs';
 import { reviewTransition } from './reviewer.mjs';
 import { FixtureSource, GoogleDocsSource } from './ssot.mjs';
+import { deriveRepository, PROTECTED } from './plan.mjs';
+import { GitSource, GitMerge, GitSSOT, readyGitTasks } from './git-ssot.mjs';
+import { acceptanceChecks } from './acceptance.mjs';
 
 export const TOOL = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT = path.resolve(TOOL, '../..');
@@ -16,12 +19,12 @@ const CONFIG = path.join(DATA, 'config.json'), SOURCE = path.join(DATA, 'source-
 const save = state => writeJson(STATE, state);
 const control = () => fs.existsSync(CONTROL) ? readJson(CONTROL) : { pause: false, stop: false };
 const stateOrNull = () => fs.existsSync(STATE) ? readJson(STATE) : null;
-const source = () => validateSource(readJson(fs.existsSync(SOURCE) ? SOURCE : path.join(TOOL, 'source-index.json')));
+const source = () => deriveRepository(ROOT); // Candidate diagnostics only; live dispatch reads pinned origin/main through GitSource.
 function config() {
-  const cfg = { reviewerBackend: 'work', sourceBackend: 'work', ssotBackend: 'work', ssotAllowStatusWrites: false, ...readJson(CONFIG) };
+  const cfg = { reviewerBackend: 'local-codex', sourceBackend: 'git', ssotBackend: 'git', ssotAllowStatusWrites: false, ...readJson(CONFIG) };
   requireThat(cfg.schemaVersion === 1 && cfg.repository === 'NguyenChiBinh267/Chinese-Study-Hub', 'Unexpected loop configuration');
   requireThat(cfg.baseBranch === 'main' && cfg.reviewers?.length, 'Invalid base/reviewer configuration');
-  requireThat(['work', 'local-codex'].includes(cfg.reviewerBackend) && ['work', 'google-docs'].includes(cfg.sourceBackend) && ['work', 'google-docs'].includes(cfg.ssotBackend), 'Unknown adapter backend');
+  requireThat(['work', 'local-codex'].includes(cfg.reviewerBackend) && cfg.sourceBackend === 'git' && cfg.ssotBackend === 'git', 'SOURCE/SSOT require Git; legacy OAuth/Work source adapters are not selectable in the migrated controller');
   for (const key of ['liveEnabled', 'autoMerge', 'workTriggerVerified', 'ssotAllowStatusWrites']) requireThat(typeof cfg[key] === 'boolean', `Invalid boolean: ${key}`);
   requireThat(Array.isArray(cfg.authorizedTasks) && cfg.authorizedTasks.every(id => /^T\d{3}$/.test(id)), 'Invalid authorized Task IDs');
   for (const key of ['reviewTimeoutMinutes', 'codexTimeoutMinutes', 'pollSeconds', 'maxTasksPerRun'])
@@ -33,10 +36,16 @@ const synthetic = { id: 'D001', title: 'D001 — synthetic loop verification (no
   spec: ['Only docs/engineering-loop/dry-run-fixture.txt may change.', 'Acceptance: file must contain exactly APPROVED followed by one newline.',
     'The first local fixture intentionally contains NEEDS_REPAIR to exercise REWORK. This is test data, not lesson content.'] };
 const reviewerReady = cfg => cfg.reviewerBackend === 'local-codex' || cfg.workTriggerVerified;
-const isSynthetic = state => ['dry-local', 'dry-github'].includes(state.mode);
+const isSynthetic = state => ['dry-local', 'dry-github', 'git-fixture'].includes(state.mode);
 function fixtureSnapshot() { return { revision: `fixture:${hash(JSON.stringify(synthetic))}`, sourceUrl: 'synthetic fixture (not Google Docs)', version: 'synthetic-v1', activeRelease: 'synthetic', common: [] }; }
 function adapterFor(state, cfg) {
-  return state.mode === 'dry-local' ? new FixtureSource(state.fixtureSpecPath) : new GoogleDocsSource({ root: ROOT, cfg });
+  if (state.mode === 'dry-local') return new FixtureSource(state.fixtureSpecPath);
+  if (state.mode === 'git-fixture') {
+    requireThat(path.resolve(state.fixtureControllerRoot).startsWith(path.join(DATA, 'git-fixtures') + path.sep), 'Fixture controller must be inside isolated runtime storage');
+    requireThat(path.resolve(state.fixtureRemote).startsWith(path.join(DATA, 'git-fixtures') + path.sep), 'Fixture remote must be inside isolated runtime storage');
+    return new GitSource({ root: state.fixtureControllerRoot, synthetic: true, expectedRemote: state.fixtureRemote, data: path.join(DATA, 'git-operations', state.runId.slice(0, 8)) });
+  }
+  return cfg.sourceBackend === 'git' ? new GitSource({ root: ROOT, data: DATA }) : new GoogleDocsSource({ root: ROOT, cfg });
 }
 
 function assertOrdinaryUser() {
@@ -52,16 +61,18 @@ function assertCleanRoot() {
   requireThat(git(ROOT, 'remote', 'get-url', 'origin') === `https://github.com/${config().repository}.git`, 'Unexpected Git remote');
 }
 function taskFor(state, snap) {
-  if (isSynthetic(state)) return synthetic;
+  if (isSynthetic(state) && state.mode !== 'git-fixture') return synthetic;
   const task = snap.tasks.find(t => t.id === state.taskId);
-  requireThat(task && task.release === 'M0', 'Task is not active in M0');
+  requireThat(task && task.release === (state.mode === 'git-fixture' ? 'fixture' : 'M0'), 'Task is not active in release');
   return task;
 }
 function policyFor(state, cfg) {
-  if (isSynthetic(state)) return { allowedFiles: ['docs/engineering-loop/dry-run-fixture.txt'], checks: [], acceptanceChecks: [{ kind: 'exact-bytes', file: 'docs/engineering-loop/dry-run-fixture.txt', expectedBase64: 'QVBQUk9WRUQK' }] };
-  const policy = cfg.policies[state.taskId];
+  const policy = isSynthetic(state) ? { allowedFiles: ['docs/engineering-loop/dry-run-fixture.txt'], checks: [], acceptanceChecks: [{ kind: 'exact-bytes', file: 'docs/engineering-loop/dry-run-fixture.txt', expectedBase64: 'QVBQUk9WRUQK' }] } : cfg.policies[state.taskId];
   requireThat(policy?.allowedFiles?.length && Array.isArray(policy.checks), 'Task has no owner-configured file/check policy');
   if (cfg.reviewerBackend === 'local-codex') requireThat(policy.acceptanceChecks?.length, 'Local reviewer needs owner-defined deterministic acceptance before developer dispatch');
+  const policyHash = hash(JSON.stringify(policy));
+  requireThat(!state.policyHash || state.policyHash === policyHash, 'Owner task policy drift');
+  state.policyHash = policyHash; state.policy = structuredClone(policy); save(state);
   return policy;
 }
 function packet(state, task, snap) {
@@ -69,6 +80,9 @@ function packet(state, task, snap) {
     nonce: state.nonce, sourceUrl: snap.sourceUrl, sourceRevision: state.sourceRevision, activeRelease: snap.activeRelease,
     dependencies: task.dependencies, specification: task.spec, commonRules: isSynthetic(state) ? [] : snap.common,
     specificationHash: hash(JSON.stringify(task.spec)), commitSha: state.commitSha, repairs: state.repairs,
+    baseCommitSha: state.sourceCommit ?? state.baseSha, specHash: state.specHash ?? hash(JSON.stringify(task.spec)), taskStatusHash: state.taskStatusHash,
+    allowedFiles: state.policy?.allowedFiles, requiredChecks: state.policy?.acceptanceChecks, policyHash: state.policyHash,
+    acceptanceCriteria: task.spec.filter(x => /Acceptance criteria|Acceptance:/i.test(x)),
     issue: state.issue, pr: state.pr, reviewDeadline: state.deadline };
 }
 function eventRequest(state, task, snap, type) {
@@ -76,11 +90,12 @@ function eventRequest(state, task, snap, type) {
     '```json\n' + JSON.stringify(packet(state, task, snap), null, 2) + '\n```';
 }
 async function reconcile(state, cfg, gh, snap) {
-  if (state.mode !== 'dry-local') assertCleanRoot();
+  if (!['dry-local', 'git-fixture'].includes(state.mode)) assertCleanRoot();
   requireThat(!state.writerPid && !state.reviewerPid, 'A Codex PID remains; inspect process and partial workspace before resuming');
   requireThat(snap.revision === state.sourceRevision || ['SSOT_WAIT', 'CACHE_SYNCING', 'DONE'].includes(state.phase), 'Cached SSOT revision changed mid-task');
-  if (state.mode === 'dry-local' && state.worktree) {
+  if (['dry-local', 'git-fixture'].includes(state.mode) && state.worktree) {
     requireThat(git(state.worktree, 'rev-parse', 'HEAD') === state.commitSha && git(state.worktree, 'status', '--porcelain') === '', 'Local fixture HEAD/working tree changed');
+    if (state.mode === 'git-fixture') await adapterFor(state, cfg).verifyTask(state, taskFor(state, snap));
     return null;
   }
   if (state.pr) {
@@ -88,6 +103,10 @@ async function reconcile(state, cfg, gh, snap) {
     requireThat(pr.head.ref === state.branch && pr.head.repo?.full_name === cfg.repository && pr.base.ref === cfg.baseBranch, 'PR identity changed');
     if (state.commitSha) requireThat(pr.head.sha === state.commitSha, 'GitHub PR head differs from checkpoint');
     requireThat(pr.state === 'open' || pr.merged, 'PR closed without merge; blocked');
+    if (cfg.sourceBackend === 'git' && state.mode === 'live') {
+      if (pr.merged && state.phase === 'MERGE_WAIT') { state.mergePendingSha = pr.merge_commit_sha; save(state); }
+      await adapterFor(state, cfg).verifyTask(state, taskFor(state, snap));
+    }
     if (state.worktree) {
       requireThat(fs.existsSync(state.worktree), 'Task worktree disappeared');
       requireThat(git(state.worktree, 'rev-parse', 'HEAD') === state.commitSha, 'Local task HEAD differs from checkpoint');
@@ -95,6 +114,7 @@ async function reconcile(state, cfg, gh, snap) {
     }
     return pr;
   }
+  if (cfg.sourceBackend === 'git' && state.mode === 'live') await adapterFor(state, cfg).verifyTask(state, taskFor(state, snap));
   return null;
 }
 async function openHandoff(state, cfg, gh, snap, task) {
@@ -106,9 +126,11 @@ async function openHandoff(state, cfg, gh, snap, task) {
   fs.mkdirSync(path.dirname(worktree), { recursive: true });
   // Record intent before side effects. Interrupted creation is BLOCKED instead of silently repeated.
   move(state, 'HANDOFF_CREATING', { baseSha, branch, worktree }); save(state);
-  git(ROOT, 'worktree', 'add', '-b', branch, worktree, baseSha);
+  requireThat(!state.sourceCommit || baseSha === state.sourceCommit, 'Pinned main changed before handoff');
+  git(ROOT, '-c', 'core.autocrlf=false', 'worktree', 'add', '-b', branch, worktree, baseSha);
   const handoff = `docs/engineering-loop/handoffs/${state.taskId}-${state.runId.slice(0, 8)}.json`;
   writeJson(path.join(worktree, handoff), packet(state, task, snap));
+  state.handoffFile = handoff; state.handoffHash = hash(fs.readFileSync(path.join(worktree, handoff)));
   git(worktree, 'add', '--', handoff); git(worktree, 'commit', '-m', `docs(loop): handoff ${state.taskId}`);
   state.commitSha = git(worktree, 'rev-parse', 'HEAD'); save(state);
   git(worktree, 'push', '-u', 'origin', branch);
@@ -136,6 +158,17 @@ async function openLocalHandoff(state, cfg) {
   git(worktree, 'checkout', '-b', state.branch);
   move(state, 'SOURCE_WAIT', { deadline: deadline(cfg) }); save(state);
 }
+async function openGitFixtureHandoff(state, cfg) {
+  const src = adapterFor(state, cfg), worktree = path.join(DATA, 'git-work', state.runId.slice(0, 8));
+  await src.verifyTask(state, taskFor(state, src.snapshot(state.sourceCommit)));
+  move(state, 'HANDOFF_CREATING', { worktree, baseSha: state.sourceCommit, branch: `loop/d001-${state.runId.slice(0, 8)}` }); save(state);
+  fs.mkdirSync(path.dirname(worktree), { recursive: true });
+  command('git', ['clone', '--no-local', '--no-hardlinks', '--no-checkout', src.root, worktree], ROOT);
+  git(worktree, 'config', 'core.autocrlf', 'false'); git(worktree, 'remote', 'set-url', 'origin', src.expectedRemote);
+  git(worktree, 'checkout', '-b', state.branch, state.sourceCommit);
+  state.commitSha = state.sourceCommit; state.prUrl = `local-fixture:${state.taskId}/${state.runId}`;
+  move(state, 'SOURCE_WAIT', { deadline: deadline(cfg) }); save(state);
+}
 function verifySourceEvent(state, event, task, snap, createdAt) {
   requireThat(event.type === 'SOURCE' && event.approved === true, 'Work did not approve source packet');
   requireThat(event.revision === state.sourceRevision && event.version === 'v1.1' && event.activeRelease === 'M0', 'Work observed a stale/changed source');
@@ -150,12 +183,14 @@ function verifySourceEvent(state, event, task, snap, createdAt) {
 }
 async function implement(state, cfg, gh, snap, task) {
   const policy = policyFor(state, cfg);
-  if (state.mode === 'dry-local' || cfg.sourceBackend === 'google-docs') {
+  if (state.mode === 'dry-local' || ['git', 'google-docs'].includes(cfg.sourceBackend)) {
     const proof = await adapterFor(state, cfg).verifyTask(state, task);
     state.sourceAttestation = { ...proof, attestedAt: now() }; save(state);
   }
   requireThat(Date.now() - Date.parse(state.sourceAttestation.attestedAt) <= 10 * 60000, 'Source attestation expired; request a fresh source check before implementation');
   requireThat(git(state.worktree, 'status', '--porcelain') === '', 'Worktree has existing changes');
+  if (cfg.sourceBackend === 'git' && state.mode !== 'dry-local') requireThat(git(state.worktree, 'remote', 'get-url', 'origin') === adapterFor(state, cfg).expectedRemote, 'Task publication remote changed');
+  state.gitMetadataBefore = captureGitMetadata(state.worktree); save(state);
   move(state, 'DEVELOPING', { deadline: null }); save(state);
   {
     if (state.mode === 'live') requireThat(cfg.liveEnabled && cfg.authorizedTasks.includes(task.id) && reviewerReady(cfg), 'Live task is not authorized/reviewer ready');
@@ -172,7 +207,8 @@ async function implement(state, cfg, gh, snap, task) {
       `Only edit docs/engineering-loop/dry-run-fixture.txt. No commits/push/merge/GitHub/Google/provider/billing/install calls.\n` +
       (state.repairs === 0 ? `Create the file with exactly NEEDS_REPAIR + one LF, an intentional test defect to exercise the independent review bridge. Test generator bytes. Do not fix the intentional defect yet.\n` :
         `Repair the fixture to exactly APPROVED + one LF. Read back the actual file bytes and verify them. Findings: ${JSON.stringify(state.review.findings)}\n`) +
-      `Return structured taskId D001, result COMPLETE if generator/repair succeeded, changedFiles [docs/engineering-loop/dry-run-fixture.txt], real targeted tests/evidence, blocker empty, commitSha empty. This is test data and cannot be published as a lesson.`;
+      `For the initial generator only: tests records generator/scope/readback checks. Record the deliberately failed final APPROVED acceptance in evidence, never call it passed. The independent reviewer/controller will test final acceptance separately and must REWORK. COMPLETE here means generator executed, not task approved.\n` +
+      `Return structured taskId D001, result COMPLETE if generator/repair succeeded, changedFiles [docs/engineering-loop/dry-run-fixture.txt], real targeted tests/evidence, blocker empty, commitSha empty. This is test data and cannot be published as a lesson.\nVerified task packet:\n${JSON.stringify(packet(state, task, snap))}`;
     const prompt = isSynthetic(state) ? dryPrompt : livePrompt;
     const result = await runCodex({ root: ROOT, workspace: state.worktree, prompt, schema: path.join(TOOL, 'report.schema.json'), output,
       timeoutMs: cfg.codexTimeoutMinutes * 60000, control,
@@ -181,9 +217,10 @@ async function implement(state, cfg, gh, snap, task) {
     state.developerReceipt = result.receipt;
     (state.processReceipts ??= []).push(result.receipt);
   }
+  verifyGitMetadata(state.gitMetadataBefore);
   requireThat(git(state.worktree, 'rev-parse', 'HEAD') === state.commitSha && state.developerReport.commitSha === '', 'Developer changed Git history; inspect before publishing');
   const changed = git(state.worktree, 'status', '--porcelain', '-uall').split(/\r?\n/).filter(Boolean).map(x => x.slice(3).replace(/^"|"$/g, ''));
-  requireThat(changed.length > 0 && changed.every(f => allowedPath(f, policy.allowedFiles)), 'Developer changed files outside allowlist or made no changes');
+  requireThat(changed.length > 0 && changed.every(f => allowedPath(f, policy.allowedFiles) && !allowedPath(f.toLowerCase(), PROTECTED.map(x => x.toLowerCase()))), 'Developer changed protected/out-of-task files or made no changes');
   validateReport(state.developerReport, state, changed);
   requireThat(state.developerReport.result === 'COMPLETE', state.developerReport.blocker || 'Developer reported BLOCKED');
   const secretPattern = /-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|sk-(?:proj-)?[A-Za-z0-9_-]{25,}|gh[pousr]_[A-Za-z0-9]{20,}/;
@@ -217,6 +254,7 @@ async function implement(state, cfg, gh, snap, task) {
   move(state, 'PUBLISHING', { deadline: deadline(cfg) }); save(state);
   if (state.mode === 'dry-local') { move(state, 'REVIEW_WAIT'); save(state); return; }
   git(state.worktree, 'push', 'origin', state.branch);
+  if (state.mode === 'git-fixture') { move(state, 'REVIEW_WAIT'); save(state); return; }
   const evidenceBody = `CSH_LOOP_EVIDENCE\n\n\`\`\`json\n${JSON.stringify(evidence, null, 2)}\n\`\`\``;
   requireThat(evidenceBody.length < 50000, 'Evidence exceeds GitHub comment budget');
   await gh.comment(state.pr, evidenceBody + '\n\n' + eventRequest(state, task, snap, 'REVIEW'));
@@ -227,15 +265,22 @@ export async function step() {
   assertOrdinaryUser();
   const cfg = config(), gh = new GitHub(ROOT, cfg.repository);
   let state = stateOrNull();
-  const snap = state?.mode === 'dry-local' ? fixtureSnapshot() : source();
   if (control().pause || control().stop) return { phase: 'PAUSED', execution: state?.phase ?? 'IDLE' };
+  if (state?.mode === 'git-fixture') { (state.controllerProcessIds ??= []).push(process.pid); save(state); }
+  let snap;
+  try {
+    snap = executionSnapshot(state, cfg);
+    if ((!state || state.phase === 'DONE') && cfg.sourceBackend === 'git' && cfg.liveEnabled) snap = new GitSource({ root: ROOT, data: DATA }).loadRemote();
+  } catch (error) { if (state) { move(state, 'BLOCKED', { blockedFrom: state.phase, blocker: error.message }); save(state); return state; } throw error; }
   if (!state || state.phase === 'DONE') {
     requireThat(cfg.liveEnabled && reviewerReady(cfg), 'Live backlog disabled; verify selected adapters before activation');
     const task = readyTasks(snap).find(t => cfg.authorizedTasks.includes(t.id) && cfg.policies[t.id]);
     requireThat(task, 'No authorized ready task');
     requireThat(!['T053', 'T069'].includes(task.id), 'Hosting/deployment requires separate authorization and concrete gates');
     requireThat(!['T016', 'T034', 'T044', 'T047', 'T050', 'T055'].includes(task.id), 'Content family dispatch requires SSOT-materialized bounded instance IDs and a reviewed instance policy; this minimal harness blocks unbounded family execution');
-    state = newExecution(task, snap); save(state);
+    state = newExecution(task, snap);
+    if (cfg.sourceBackend === 'git') Object.assign(state, { sourceCommit: snap.commit, specHash: hash(JSON.stringify(task.spec)), taskStatusHash: snap.statusHash });
+    save(state);
   }
   if (state.phase === 'BLOCKED') return state;
   const task = taskFor(state, snap);
@@ -244,14 +289,16 @@ export async function step() {
     checkDeadline(state); save(state);
     if (state.phase === 'BLOCKED') return state;
     if (state.phase === 'QUEUED') {
+      policyFor(state, cfg);
       if (state.mode === 'dry-local') await openLocalHandoff(state, cfg);
+      else if (state.mode === 'git-fixture') await openGitFixtureHandoff(state, cfg);
       else {
-        if (cfg.sourceBackend === 'google-docs') await adapterFor(state, cfg).verifyTask(state, task);
+        if (['git', 'google-docs'].includes(cfg.sourceBackend)) await adapterFor(state, cfg).verifyTask(state, task);
         await openHandoff(state, cfg, gh, snap, task);
       }
     }
     else if (state.phase === 'SOURCE_WAIT') {
-      if (state.mode === 'dry-local' || cfg.sourceBackend === 'google-docs') {
+      if (state.mode === 'dry-local' || ['git', 'google-docs'].includes(cfg.sourceBackend)) {
         const proof = await adapterFor(state, cfg).verifyTask(state, task);
         state.sourceAttestation = { ...proof, attestedAt: now() };
         move(state, 'DEVELOP_READY', { deadline: null }); save(state);
@@ -281,6 +328,14 @@ export async function step() {
       }
       }
     } else if (state.phase === 'MERGE_WAIT') {
+      if (cfg.ssotBackend === 'git' && !['dry-local', 'dry-github'].includes(state.mode)) {
+        const src = adapterFor(state, cfg), merger = new GitMerge({ source: src, cfg, checks: acceptanceChecks });
+        if (state.mode !== 'git-fixture' && !cfg.autoMerge) {
+          if (!pr?.merged) return state;
+          await merger.confirmMerged(state, task, policyFor(state, cfg), pr.merge_commit_sha, save);
+        } else await merger.merge(state, task, policyFor(state, cfg), save);
+        move(state, 'SSOT_WAIT', { deadline: deadline(cfg) }); save(state); return state;
+      }
       if (state.mode === 'dry-local') return state; // Real merge/Google SSOT are not simulated or declared verified.
       if (state.mode === 'dry-github') { move(state, 'DONE', { deadline: null }); save(state); }
       else {
@@ -294,6 +349,10 @@ export async function step() {
         if (cfg.ssotBackend === 'work') await gh.comment(state.pr, eventRequest(state, task, snap, 'SSOT_SYNC'));
       }
     } else if (state.phase === 'SSOT_WAIT') {
+      if (cfg.ssotBackend === 'git') {
+        const event = await new GitSSOT({ source: adapterFor(state, cfg), cfg }).syncTask(state, task, save);
+        move(state, 'CACHE_SYNCING', { syncEvent: event }); save(state); return state;
+      }
       const response = cfg.ssotBackend === 'google-docs' ? { event: await adapterFor(state, cfg).syncTask(state, task) } :
         (await bridgeEvents(state, cfg, gh)).findLast(x => x.event.type === 'SSOT_SYNC');
       if (response) {
@@ -315,13 +374,24 @@ export async function step() {
         consume(state, event); move(state, 'DONE', { deadline: null }); save(state);
       }
     } else if (state.phase === 'CACHE_SYNCING') {
-      refreshHandoffCaches(state, state.syncEvent);
+      if (cfg.ssotBackend === 'git') {
+        const src = adapterFor(state, cfg), fresh = src.loadRemote();
+        requireThat(fresh.revision === state.syncedRevision && fresh.tasks.find(t => t.id === state.taskId)?.status === 'done', 'Git status cache readback drift');
+        requireThat(git(src.root, 'status', '--porcelain') === '' && git(src.root, 'branch', '--show-current') === 'main', 'Source checkout changed during cache refresh');
+        git(src.root, 'merge', '--ff-only', fresh.commit);
+        writeJson(path.join(DATA, 'git-checkpoint.json'), { revision: fresh.revision, taskId: state.taskId, readbackVerified: true, at: now() });
+      } else refreshHandoffCaches(state, state.syncEvent);
       consume(state, state.syncEvent); move(state, 'DONE', { deadline: null }); save(state);
     } else throw new Error(`Interrupted unsafe phase ${state.phase}; inspect GitHub/worktree and explicitly recover`);
   } catch (error) {
     move(state, 'BLOCKED', { blockedFrom: state.phase, blocker: error.message }); save(state);
   }
   return state;
+}
+function executionSnapshot(state, cfg) {
+  if (state?.mode === 'dry-local') return fixtureSnapshot();
+  if (state?.mode === 'git-fixture' || cfg.sourceBackend === 'git' && state?.sourceCommit) return adapterFor(state, cfg).snapshot(state.sourceCommit);
+  return source();
 }
 
 function refreshHandoffCaches(state, event) {
@@ -357,10 +427,58 @@ export async function doctor() {
   try { const repo = await gh.repo(); result.github = { repository: repo.full_name, push: repo.permissions?.push, visibility: repo.visibility }; }
   catch (e) { result.blockers.push(e.message); }
   result.reviewerBackend = cfg.reviewerBackend;
-  result.ssot = new GoogleDocsSource({ root: ROOT, cfg }).status();
+  result.ssot = gitStatus();
   if (cfg.reviewerBackend === 'work' && !cfg.workTriggerVerified) result.blockers.push('Work event trigger not yet verified end to end');
-  if (cfg.sourceBackend === 'google-docs' && result.ssot.status !== 'VERIFIED') result.blockers.push('Direct SSOT OAuth/per-file access and zero-cost proof not verified');
+  if (result.ssot.status !== 'VERIFIED_READ') result.blockers.push(result.ssot.blocker ?? 'Git SSOT migration not verified on main');
   writeJson(path.join(DATA, 'doctor.json'), result); return result;
+}
+function gitStatus() {
+  try { const snap = new GitSource({ root: ROOT, data: DATA }).loadRemote(); return { backend: 'git', status: 'VERIFIED_READ', mainCommit: snap.commit,
+    taskCount: snap.tasks.length, activeTasks: snap.activeIds.length, oauthRequired: false, googleRequired: false, liveWriteVerified: false }; }
+  catch (error) { return { backend: 'git', status: 'BLOCKED', blocker: error.message, candidateOnly: true, oauthRequired: false, googleRequired: false }; }
+}
+async function dryGitCycle() {
+  const driverRelease = lock(path.join(DATA, 'git-driver.lock'), STATE);
+  try {
+    const cfg = config(), prior = stateOrNull();
+    requireThat(cfg.sourceBackend === 'git' && cfg.ssotBackend === 'git' && cfg.reviewerBackend === 'local-codex' && cfg.liveEnabled === false &&
+      cfg.autoMerge === false && cfg.authorizedTasks.length === 0 && cfg.ssotAllowStatusWrites === false, 'Synthetic Git cycle requires all real safety flags disabled');
+    requireThat(!prior || !prior.writerPid && !prior.reviewerPid && isSynthetic(prior) &&
+      (['DONE', 'BLOCKED'].includes(prior.phase) || prior.phase === 'MERGE_WAIT' && prior.review?.verdict === 'PASS'), 'Do not replace an active execution');
+    let fixture;
+    const writerRelease = lock(path.join(DATA, 'writer.lock'), STATE);
+    try {
+      if (prior) writeJson(path.join(DATA, 'history', `${prior.runId}-${Date.now()}.json`), prior);
+      const { makeGitFixture } = await import('./fixtures.mjs'); fixture = makeGitFixture(path.join(DATA, 'git-fixtures'));
+      save(fixture.state); writeJson(CONTROL, { pause: false, stop: false, changedAt: now() });
+    } finally { writerRelease(); }
+    const initialHash = hash(fs.readFileSync(path.join(ROOT, 'docs/master-plan/task-status.json')));
+    try {
+      for (let i = 0; i < 20; i++) {
+        // One fresh controller process per transition proves checkpoint reload; only its writer lock covers mutations.
+        const child = spawnSync(process.execPath, [path.join(TOOL, 'loop.mjs'), 'step'], { cwd: ROOT, windowsHide: true, encoding: 'utf8',
+          timeout: (cfg.codexTimeoutMinutes + cfg.reviewTimeoutMinutes + 5) * 60000, maxBuffer: 4 * 1024 * 1024 });
+        requireThat(child.status === 0, 'Fixture controller step exited/crashed; inspect persistent checkpoint');
+        const state = stateOrNull();
+        console.log(JSON.stringify({ at: now(), taskId: state.taskId, phase: state.phase, repairs: state.repairs, blocker: state.blocker }));
+        if (['DONE', 'BLOCKED'].includes(state.phase) || control().pause || control().stop) break;
+      }
+      const state = stateOrNull(), fresh = fixture.source.loadRemote(), next = readyGitTasks(fresh).map(t => t.id);
+      const report = { at: now(), status: state.phase === 'DONE' ? 'LOCAL_SYNTHETIC_LIFECYCLE_VERIFIED' : 'BLOCKED',
+        sourceKind: 'synthetic-local-Git-bare-remote', runId: state.runId, taskId: state.taskId, sourceCommit: state.sourceCommit,
+        specHash: state.specHash, initialStatusHash: state.taskStatusHash, reviewedSha: state.commitSha, mergeSha: state.mergeSha, statusSha: state.statusSha,
+        remoteHead: fresh.commit, phase: state.phase, verdict: state.review?.verdict, repairs: state.repairs, nextPick: next,
+        controllerProcessIds: state.controllerProcessIds, processReceipts: state.processReceipts, events: state.events,
+        realCodexCli: true, manualRelay: false, googleOAuthRequired: false, workTriggerUsed: false,
+        externalGitHubMergeStatusLifecycleVerified: false, realBacklogExecuted: false, fullyAutomatedProject: false,
+        realTaskStatusUnchanged: hash(fs.readFileSync(path.join(ROOT, 'docs/master-plan/task-status.json'))) === initialHash,
+        blocker: state.blocker, mergeParents: state.mergeSha ? git(fixture.controller, 'rev-list', '--parents', '-n', '1', state.mergeSha).split(' ').slice(1) : [],
+        statusChangedPaths: state.statusSha ? git(fixture.controller, 'diff', '--name-only', state.mergeSha, state.statusSha).split(/\r?\n/) : [] };
+      writeJson(path.join(DATA, 'git-cycle-latest.json'), report);
+      requireThat(state.phase === 'DONE' && fresh.commit === state.statusSha && next.join(',') === 'D002' && report.realTaskStatusUnchanged,
+        state.blocker || 'Synthetic Git cycle did not complete exact merge/status readback/next pick');
+    } finally { writeJson(CONTROL, { pause: false, stop: true, changedAt: now() }); }
+  } finally { driverRelease(); }
 }
 
 async function main() {
@@ -373,16 +491,22 @@ async function main() {
     console.log(JSON.stringify({ control: control(), execution: stateOrNull()?.phase ?? 'IDLE' }, null, 2)); return;
   }
   if (action === 'status') { console.log(JSON.stringify({ control: control(), state: stateOrNull(), liveEnabled: config().liveEnabled }, null, 2)); return; }
-  if (action === 'pick') { console.log(JSON.stringify({ picker: 'deterministic local code, not Work', ready: readyTasks(source()).map(t => ({ id: t.id, dependencies: t.dependencies, title: t.title })) }, null, 2)); return; }
+  if (action === 'pick' || action === 'candidate-pick') {
+    const snap = action === 'pick' ? new GitSource({ root: ROOT, data: DATA }).loadRemote() : source();
+    console.log(JSON.stringify({ picker: 'deterministic Git-derived code', candidateOnly: action === 'candidate-pick', sourceCommit: snap.commit,
+      ready: readyGitTasks(snap).map(t => ({ id: t.id, dependencies: t.dependencies, title: t.title })) }, null, 2)); return;
+  }
   if (action === 'doctor') { console.log(JSON.stringify(await doctor(), null, 2)); return; }
   if (action === 'dry-run') { const { dryRun } = await import('./verify.mjs'); console.log(JSON.stringify(await dryRun(), null, 2)); return; }
-  if (action === 'ssot-status') { console.log(JSON.stringify(new GoogleDocsSource({ root: ROOT, cfg: config() }).status(), null, 2)); return; }
+  if (action === 'ssot-status') { console.log(JSON.stringify(gitStatus(), null, 2)); return; }
+  if (action === 'dry-git') { await dryGitCycle(); return; }
   const release = lock(path.join(DATA, 'writer.lock'), STATE);
   try {
     if (action === 'ssot-check') {
-      const cfg = config(), snap = source(), task = snap.tasks.find(t => t.id === process.argv[3]);
+      const cfg = config(), src = new GitSource({ root: ROOT, data: DATA }), snap = src.loadRemote(), task = snap.tasks.find(t => t.id === process.argv[3]);
       requireThat(task && snap.activeIds.includes(task.id), 'Specify one active Task ID for read-only SSOT verification');
-      const proof = await new GoogleDocsSource({ root: ROOT, cfg }).verifyTask(newExecution(task, snap), task);
+      const reading = { ...newExecution(task, snap), sourceCommit: snap.commit, specHash: hash(JSON.stringify(task.spec)), taskStatusHash: snap.statusHash };
+      const proof = await src.verifyTask(reading, task);
       const receipt = { at: now(), status: 'VERIFIED_READ', taskId: task.id, revision: proof.revision,
         specificationHash: hash(JSON.stringify(task.spec)), dependenciesDone: true, liveWriteVerified: false, taskExecuted: false };
       writeJson(path.join(DATA, 'ssot-read-check.json'), receipt); console.log(JSON.stringify(receipt, null, 2));
@@ -422,7 +546,7 @@ async function main() {
       const artifact = readJson(input);
       requireThat(/^https:\/\/chatgpt\.com\/c\/[a-zA-Z0-9-]+$/.test(artifact.provenance?.chatUrl) && artifact.provenance.manuallyInvoked === true,
         'Require observed independent reviewer chat provenance; relay is not proof of an automatic trigger');
-      requireThat(['SOURCE', 'REVIEW', 'SSOT_SYNC'].includes(artifact.event?.type), 'Unknown reviewer artifact');
+      requireThat(artifact.event?.type === 'REVIEW', 'Legacy relay is review-only; Git controller owns SOURCE and status');
       const gh = new GitHub(ROOT, cfg.repository), user = await gh.api('/user');
       requireThat(cfg.reviewers.includes(user.login), 'Local relay identity is not an authorized reviewer account');
       const body = `CSH_LOOP_EVENT\n\n\`\`\`json\n${JSON.stringify(artifact.event, null, 2)}\n\`\`\`\n\n` +
@@ -444,8 +568,9 @@ async function main() {
       requireThat(['SOURCE_WAIT', 'REVIEW_WAIT', 'MERGE_WAIT', 'SSOT_WAIT'].includes(target) && target === state.blockedFrom,
         'Recovery is allowed only to the prior stable wait phase; interrupted writes need manual inspection');
       const gh = new GitHub(ROOT, cfg.repository);
-      await reconcile(state, cfg, gh, state.mode === 'dry-local' ? fixtureSnapshot() : source());
-      if (state.mode === 'dry-local' || cfg.sourceBackend === 'google-docs') await adapterFor(state, cfg).verifyTask(state, taskFor(state, state.mode === 'dry-local' ? fixtureSnapshot() : source()));
+      const recovering = { ...state, phase: target }, snap = executionSnapshot(recovering, cfg);
+      await reconcile(recovering, cfg, gh, snap);
+      await adapterFor(recovering, cfg).verifyTask(recovering, taskFor(recovering, snap));
       if (target === 'SOURCE_WAIT') state.consumedComments = state.consumedComments.filter(id => id !== state.sourceAttestation?.commentId);
       move(state, target, { blocker: null, deadline: deadline(cfg) }); save(state);
       if (state.pr && cfg.reviewerBackend === 'work') await gh.comment(state.pr, `CSH_LOOP_RECOVERY\nOperator resumed ${state.taskId} from ${target}; please re-read the latest request/live source before responding.`);
@@ -460,7 +585,7 @@ async function main() {
         if (state.phase === 'DONE') { completed++; if (state.mode === 'dry-github') break; }
         if (completed < cfg.maxTasksPerRun) await new Promise(resolve => setTimeout(resolve, Math.min(cfg.pollSeconds, 60) * 1000));
       }
-    } else throw new Error('Commands: doctor, status, pick, dry-run, dry-local, dry-github, ssot-status, ssot-check TASK_ID, step, run, pause, stop, resume, relay INBOX_ARTIFACT, recover PRIOR_WAIT_PHASE');
+    } else throw new Error('Commands: doctor, status, pick, candidate-pick, dry-run, dry-local, dry-git, dry-github, ssot-status, ssot-check TASK_ID, step, run, pause, stop, resume, relay INBOX_ARTIFACT, recover PRIOR_WAIT_PHASE');
   } finally { release(); }
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main().catch(e => { console.error(JSON.stringify({ phase: 'BLOCKED', blocker: e.message })); process.exitCode = 1; });
