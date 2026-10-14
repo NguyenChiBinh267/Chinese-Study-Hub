@@ -89,7 +89,7 @@ function eventRequest(state, task, snap, type) {
   return `CSH_LOOP_REQUEST ${type}\n\nRead the task packet and the actual diff/checks. Reply using CSH_LOOP_EVENT and the JSON protocol in tools/engineering-loop/WORK.md.\n\n` +
     '```json\n' + JSON.stringify(packet(state, task, snap), null, 2) + '\n```';
 }
-async function reconcile(state, cfg, gh, snap) {
+export async function reconcile(state, cfg, gh, snap) {
   if (!['dry-local', 'git-fixture'].includes(state.mode)) assertCleanRoot();
   requireThat(!state.writerPid && !state.reviewerPid, 'A Codex PID remains; inspect process and partial workspace before resuming');
   requireThat(snap.revision === state.sourceRevision || ['SSOT_WAIT', 'CACHE_SYNCING', 'DONE'].includes(state.phase), 'Cached SSOT revision changed mid-task');
@@ -101,7 +101,10 @@ async function reconcile(state, cfg, gh, snap) {
   if (state.pr) {
     const pr = await gh.repo(`/pulls/${state.pr}`);
     requireThat(pr.head.ref === state.branch && pr.head.repo?.full_name === cfg.repository && pr.base.ref === cfg.baseBranch, 'PR identity changed');
-    if (state.commitSha) requireThat(pr.head.sha === state.commitSha, 'GitHub PR head differs from checkpoint');
+    if (state.commitSha) requireThat(pr.head.sha === state.commitSha ||
+      state.phase === 'PUBLISHING' && state.cycleId && cfg.reviewerBackend === 'local-codex' &&
+      /^[a-f0-9]{40}$/.test(state.previouslyPublishedSha ?? '') && pr.head.sha === state.previouslyPublishedSha && !pr.merged,
+    'GitHub PR head differs from checkpoint');
     requireThat(pr.state === 'open' || pr.merged, 'PR closed without merge; blocked');
     if (cfg.sourceBackend === 'git' && state.mode === 'live') {
       if (pr.merged && state.phase === 'MERGE_WAIT') { state.mergePendingSha = pr.merge_commit_sha; save(state); }
@@ -256,6 +259,7 @@ async function implement(state, cfg, gh, snap, task) {
     checks.push({ name: check.name, passed: true });
   }
   git(state.worktree, 'add', '--', ...changed); git(state.worktree, 'commit', '-m', `${state.taskId}: ${state.repairs ? 'repair review findings' : 'implement scoped task'}`);
+  state.previouslyPublishedSha = state.commitSha;
   state.commitSha = git(state.worktree, 'rev-parse', 'HEAD');
   state.developerReport.commitSha = state.commitSha;
   const evidence = { taskId: state.taskId, commitSha: state.commitSha, repairs: state.repairs, changedFiles: changed,

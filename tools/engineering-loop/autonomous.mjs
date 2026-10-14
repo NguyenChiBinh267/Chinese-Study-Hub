@@ -68,7 +68,7 @@ export function summarize(ledger, snapshot, reason) {
 
 // Driver delegates every transition to the existing controller, with its existing writer lock/state machine.
 // The ledger is execution evidence only; it never marks Git SSOT tasks done or satisfies dependencies.
-export async function autonomousRun({ root, tool, data, cfg, fixture = null, resume = false, driverRelease = null }) {
+export async function autonomousRun({ root, tool, data, cfg, fixture = null, resume = false, driverRelease = null, sourceFactory = options => new GitSource(options) }) {
   const synthetic = !!fixture;
   const grant = synthetic ? fixture.grant : cfg.zeroTouchAuthorization;
   const grantHash = validateAuthorization(grant, cfg, synthetic);
@@ -82,7 +82,7 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
     ledger = resume ? readJson(ledgerPath) : newLedger(grantHash, grant);
     requireThat(ledger.grantHash === grantHash && ledger.phase === 'RUNNING', 'Grant drift or stopped cycle; new explicit run required');
     if (resume && synthetic) fixture = ledger.fixture;
-    src = new GitSource({ root: synthetic ? fixture.controller : root, synthetic,
+    src = sourceFactory({ root: synthetic ? fixture.controller : root, synthetic,
       expectedRemote: synthetic ? fixture.remote : `https://github.com/${cfg.repository}.git`, data: path.join(data, 'git-operations', ledger.cycleId.slice(0, 8)) });
     if (synthetic) ledger.fixture = fixture;
     if (!synthetic) {
@@ -100,7 +100,23 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
       const ctl = readControl();
       if (ctl.pause || ctl.stop) { reason = 'Operator stop/pause'; break; }
       if (Date.now() - Date.parse(ledger.startedAt) >= grant.maxRunSeconds * 1000) { reason = 'Run time budget'; break; }
-      snapshot = src.loadRemote();
+      // Respect durable backoff before any remote read, including after restart.
+      const pendingAt = Math.max(ledger.remoteWait?.at ?? 0, ledger.wait?.at ?? 0);
+      if (Date.now() < pendingAt) {
+        await new Promise(resolve => setTimeout(resolve, Math.min(1000, pendingAt - Date.now()))); continue;
+      }
+      try {
+        snapshot = src.loadRemote();
+        ledger.remoteWait = null;
+        persist();
+      } catch (error) {
+        if (error.code !== 'TRANSIENT_TRANSPORT') throw error;
+        const attempts = ledger.remoteRetries ?? 0;
+        requireThat(attempts < grant.maxRetries, 'Remote read transport retry limit');
+        ledger.remoteRetries = attempts + 1;
+        ledger.remoteWait = { at: Date.now() + Math.min(60, 2 ** attempts) * 1000 };
+        persist(); continue;
+      }
       let state = fs.existsSync(statePath) ? readJson(statePath) : null;
       if (!state || ['DONE', 'BLOCKED'].includes(state.phase)) {
         if (state && state.cycleId === ledger.cycleId && !ledger.outcomes.some(x => x.runId === state.runId)) {
@@ -163,7 +179,7 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
   } catch (error) { reason = `Global blocker: ${error.message}`; }
   finally { release(); }
   if (ledger) {
-    if (!snapshot) { try { snapshot = src.loadRemote(); } catch { snapshot = { tasks: [], kind: synthetic ? 'synthetic-git' : 'git-origin-main', commit: null }; } }
+    if (!snapshot) snapshot = { tasks: [], kind: synthetic ? 'synthetic-git' : 'git-origin-main', commit: null };
     const report = summarize(ledger, snapshot, reason);
     if (fs.existsSync(statePath)) {
       const active = readJson(statePath);
