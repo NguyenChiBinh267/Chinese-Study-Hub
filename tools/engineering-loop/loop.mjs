@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { hash, now, requireThat, validateSource, readyTasks, newExecution, move, parseBridgeComment,
   applyReview, checkDeadline, allowedPath, validateReport, TERMINAL } from './core.mjs';
-import { readJson, writeJson, lock, git, command, GitHub, codexEntrypoint, runCodex, captureGitMetadata, verifyGitMetadata } from './io.mjs';
+import { readJson, writeJson, lock, git, remainingTime, command, GitHub, codexEntrypoint, runCodex, captureGitMetadata, verifyGitMetadata } from './io.mjs';
 import { reviewTransition } from './reviewer.mjs';
 import { FixtureSource, GoogleDocsSource } from './ssot.mjs';
 import { deriveRepository, PROTECTED } from './plan.mjs';
@@ -277,6 +277,7 @@ async function implement(state, cfg, gh, snap, task) {
 }
 
 export async function step() {
+  remainingTime(30000);
   assertOrdinaryUser();
   const cfg = config(), gh = new GitHub(ROOT, cfg.repository);
   let state = stateOrNull();
@@ -304,7 +305,9 @@ export async function step() {
   if (state.phase === 'BLOCKED') return state;
   const task = taskFor(state, snap);
   try {
+    remainingTime(30000);
     const pr = await reconcile(state, cfg, gh, snap);
+    remainingTime(30000);
     checkDeadline(state); save(state);
     if (state.phase === 'BLOCKED') return state;
     if (state.phase === 'QUEUED') {

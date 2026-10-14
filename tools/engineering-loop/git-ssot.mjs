@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { hash, requireThat, now, allowedPath } from './core.mjs';
-import { git, command, writeJson } from './io.mjs';
+import { git, command, writeJson, remainingTime } from './io.mjs';
 import { PLAN, STATUS, MANIFEST, PROTECTED, derive, parsePlan } from './plan.mjs';
 
 export function blob(root, commit, file) {
@@ -147,6 +147,7 @@ export class GitMerge {
       git(repo, 'diff', '--cached', '--check'); git(repo, 'commit', '-m', `Merge ${state.taskId} independently reviewed ${state.commitSha}`);
       state.mergePendingSha = git(repo, 'rev-parse', 'HEAD'); state.mergeRepository = repo; checkpoint(state);
     }
+    remainingTime(30000);
     this.push(state.mergeRepository, state.mergePendingSha); // Non-force push: an advanced main rejects this merge, never overwrites it.
     head = this.source.fetchHead(); requireThat(head === state.mergePendingSha, 'Remote merge readback mismatch/concurrent update');
     verifyMerge(this.source, state, head); state.mergeSha = head; state.mergeVerified = true; checkpoint(state); return head;
@@ -178,11 +179,13 @@ export class GitSSOT {
       command('git', ['clone', '--no-local', '--no-hardlinks', '--no-checkout', this.source.root, repo], this.source.root);
       git(repo, 'remote', 'set-url', 'origin', this.source.expectedRemote); git(repo, 'config', 'core.autocrlf', 'false');
       git(repo, 'fetch', 'origin', 'main'); git(repo, 'checkout', '--detach', state.mergeSha);
+      remainingTime(30000);
       writeJson(path.join(repo, STATUS), updated); git(repo, 'add', '--', STATUS);
       requireThat(git(repo, 'diff', '--cached', '--name-only') === STATUS, 'Status commit includes unrelated files');
       git(repo, 'diff', '--cached', '--check'); git(repo, 'commit', '-m', `status: complete ${state.taskId} run ${state.runId}`);
       state.statusPendingSha = git(repo, 'rev-parse', 'HEAD'); state.statusRepository = repo; state.expectedStatusHash = hash(blob(repo, state.statusPendingSha, STATUS)); checkpoint(state);
     }
+    remainingTime(30000);
     if (head !== state.statusPendingSha) this.push(state.statusRepository, state.statusPendingSha);
     head = this.source.fetchHead(); requireThat(head === state.statusPendingSha, 'Remote status readback mismatch/concurrent update');
     const after = this.source.snapshot(head);

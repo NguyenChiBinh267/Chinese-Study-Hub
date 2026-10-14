@@ -4,6 +4,25 @@ import os from 'node:os';
 import { spawn, spawnSync } from 'node:child_process';
 import { requireThat, hash } from './core.mjs';
 
+// Absolute authorization boundary inherited by the controller. Checkpoint JSON remains
+// writable after expiry so interrupted work can be inspected without replay.
+export function remainingTime(limit, at = Date.now()) {
+  const value = process.env.ENGINEERING_LOOP_DEADLINE;
+  if (value === undefined) return limit;
+  const deadline = Number(value);
+  if (!Number.isFinite(deadline) || deadline <= at) {
+    const error = new Error('Authorized deadline reached; preserve checkpoint');
+    error.code = 'AUTHORIZATION_EXPIRED'; throw error;
+  }
+  return Math.min(limit, deadline - at);
+}
+
+export function deadlineTimer(limit, stop) {
+  // Expiry between spawn and timer installation must cancel, not orphan the child.
+  try { return setTimeout(stop, remainingTime(limit)); }
+  catch { return setTimeout(stop, 0); }
+}
+
 export function readJson(file) { return JSON.parse(fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, '')); }
 export function writeJson(file, value) {
   fs.mkdirSync(path.dirname(file), { recursive: true });
@@ -29,8 +48,9 @@ export function lock(directory, stateFile) {
   return () => { fs.unlinkSync(path.join(directory, 'owner.json')); fs.rmdirSync(directory); };
 }
 export function command(executable, args, cwd, options = {}) {
+  const timeout = remainingTime(options.timeout ?? 30000);
   const result = spawnSync(executable, args, { cwd, encoding: 'utf8', windowsHide: true,
-    timeout: 30000, maxBuffer: 4 * 1024 * 1024, env: { ...process.env, GIT_TERMINAL_PROMPT: '0', GCM_INTERACTIVE: 'Never' }, ...options });
+    timeout: 30000, maxBuffer: 4 * 1024 * 1024, env: { ...process.env, GIT_TERMINAL_PROMPT: '0', GCM_INTERACTIVE: 'Never' }, ...options, timeout });
   if (result.status !== 0) {
     const error = new Error(`${path.basename(executable)} failed (exit ${result.status ?? result.error?.code ?? 'unknown'})`);
     if (path.basename(executable).toLowerCase() === 'git' && /Could not resolve host|Connection (?:reset|timed out)|Failed to connect|remote end hung up|Operation timed out/i.test(result.stderr ?? '')) error.code = 'TRANSIENT_TRANSPORT';
@@ -69,13 +89,14 @@ export class GitHub {
     requireThat(this.token, 'No existing Git Credential Manager credential; sign in once outside the loop');
   }
   async api(endpoint, method = 'GET', body) {
+    remainingTime(30000);
     if (!this.token) this.authenticate();
     requireThat(endpoint.startsWith('/'), 'Invalid GitHub endpoint');
     for (let attempt = 0; attempt < 3; attempt++) {
       let response;
       try {
         response = await this.transport(`https://api.github.com${endpoint}`, { method,
-          signal: AbortSignal.timeout(30000), redirect: 'error', headers: { 'User-Agent': 'Chinese-Study-Hub-loop',
+          signal: AbortSignal.timeout(remainingTime(30000)), redirect: 'error', headers: { 'User-Agent': 'Chinese-Study-Hub-loop',
             Accept: 'application/vnd.github+json', Authorization: `Bearer ${this.token}`, 'Content-Type': 'application/json',
             'X-GitHub-Api-Version': '2022-11-28' }, body: body === undefined ? undefined : JSON.stringify(body) });
       } catch (cause) {
@@ -140,6 +161,7 @@ export function validateFreeQuota(result, accountType = 'chatgpt') {
 }
 
 export async function freeQuota(root) {
+  remainingTime(30000);
   return new Promise((resolve, reject) => {
     const child = spawn(process.execPath, [codexEntrypoint(root), 'app-server', '--stdio', '-c', 'forced_login_method="chatgpt"', '-c', 'model_provider="openai"'],
       { cwd: root, env: codexEnvironment(), windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] });
@@ -152,7 +174,7 @@ export async function freeQuota(root) {
       else child.kill();
       error ? reject(error) : resolve(value);
     }
-    const timer = setTimeout(() => finish(new Error('Account quota read timeout; no model call permitted')), 30000);
+    const timer = deadlineTimer(30000, () => finish(new Error('Account quota read timeout or authorized deadline reached; no model call permitted')));
     child.stderr.on('data', () => {});
     child.stdout.on('data', bytes => {
       pending += bytes.toString('utf8'); if (pending.length > 1024 * 1024) return finish(new Error('Oversized account response'));
@@ -183,7 +205,7 @@ export function codexArguments(entry, { workspace, schema, output, role = 'devel
 }
 
 export async function runCodex({ root, workspace, prompt, schema, output, timeoutMs, role = 'developer', onStart = () => {}, onStop = () => {}, control = () => ({}) }) {
-  const login = spawnSync(process.execPath, [codexEntrypoint(root), 'login', 'status'], { cwd: root, encoding: 'utf8', windowsHide: true, timeout: 15000 });
+  const login = spawnSync(process.execPath, [codexEntrypoint(root), 'login', 'status'], { cwd: root, encoding: 'utf8', windowsHide: true, timeout: remainingTime(15000) });
   requireThat(login.status === 0 && `${login.stdout}${login.stderr}`.includes('ChatGPT'), 'Codex must use existing ChatGPT account login');
   const costProof = await freeQuota(root);
   const env = codexEnvironment();
@@ -191,6 +213,7 @@ export async function runCodex({ root, workspace, prompt, schema, output, timeou
   const receipt = { role, sandbox: role === 'reviewer' ? 'read-only' : 'workspace-write', newSession: true, resumed: false,
     chatgptOnly: true, paidApiKeysInherited: false, costProof, processId: null, threadId: null, startedAt: new Date().toISOString(), writeProbeAttempted: false, writeProbeDenied: false, writeProbeExitCode: null };
   return new Promise((resolve, reject) => {
+    const authorizedTimeout = remainingTime(timeoutMs);
     const child = spawn(process.execPath, args, { cwd: workspace, env, windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] });
     let ended = false, failure = null, events = 0, pending = '', modelFailure = null;
     // Deliberately discard command output: it can contain secrets or unbounded model text.
@@ -224,7 +247,7 @@ export async function runCodex({ root, workspace, prompt, schema, output, timeou
       if (process.platform === 'win32') spawnSync('taskkill.exe', ['/PID', String(child.pid), '/T', '/F'], { windowsHide: true, stdio: 'ignore' });
       else child.kill('SIGTERM');
     }
-    const timeout = setTimeout(() => terminate('Codex timeout'), timeoutMs);
+    const timeout = deadlineTimer(authorizedTimeout, () => terminate('Codex timeout or authorized deadline reached'));
     const interval = setInterval(() => { if (control()?.stop || control()?.pause) terminate('Operator paused/stopped Codex; inspect partial edits'); }, 1000);
     child.on('error', e => { failure = `Codex spawn failed: ${e.code}`; });
     child.on('close', code => {
@@ -234,7 +257,7 @@ export async function runCodex({ root, workspace, prompt, schema, output, timeou
         error.code = failure ? 'MODEL_FAILURE' : modelFailure ?? 'MODEL_FAILURE';
         error.receipt = receipt; reject(error);
       }
-      else { try { requireThat(receipt.threadId, 'Missing fresh Codex session evidence'); resolve({ report: readJson(output), eventChunks: events, receipt }); } catch { reject(new Error('Codex did not return valid structured output/session evidence')); } }
+      else { try { remainingTime(1); requireThat(receipt.threadId, 'Missing fresh Codex session evidence'); resolve({ report: readJson(output), eventChunks: events, receipt }); } catch { reject(new Error('Codex did not return valid structured output/session evidence')); } }
     });
     child.stdin.end(prompt);
   });

@@ -3,10 +3,10 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { fileURLToPath } from 'node:url';
-import { validateAuthorization, preflight, recoveryDecision, chooseTask, newLedger, summarize } from './autonomous.mjs';
+import { validateAuthorization, preflight, recoveryDecision, chooseTask, newLedger, summarize, autonomousRun } from './autonomous.mjs';
 import { makeMultiGitFixture } from './fixtures.mjs';
 import { GitSource, blob } from './git-ssot.mjs';
-import { git, validateFreeQuota, GitHub } from './io.mjs';
+import { git, validateFreeQuota, GitHub, remainingTime, deadlineTimer, command, writeJson, readJson } from './io.mjs';
 import { STATUS } from './plan.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const cfg = { repository: 'NguyenChiBinh267/Chinese-Study-Hub', liveEnabled: false, autoMerge: false, ssotAllowStatusWrites: false, authorizedTasks: [] };
@@ -93,4 +93,67 @@ test('GitHub writes and permission failures are never blindly retried', async ()
   let calls = 0; const gh = new GitHub(root, cfg.repository, { wait: async () => assert.fail('Must not retry'), transport: async () => { calls++; throw new TypeError('fetch failed'); } }); gh.token = 'synthetic-placeholder';
   await assert.rejects(gh.repo('/pulls', 'POST', { title: 'synthetic' }), /transport/); assert.equal(calls, 1);
   calls = 0; gh.transport = async () => { calls++; return { ok: false, status: 403 }; }; await assert.rejects(gh.repo('/pulls/3'), /403/); assert.equal(calls, 1);
+});
+
+test('Elapsed quota reset retries immediately but remains bounded and requires stable checkpoint', () => {
+  const g = grant(), l = newLedger('h', g);
+  const s = { phase: 'BLOCKED', runId: 'r', blockedFrom: 'REVIEW_WAIT', blockerCode: 'QUOTA_EXHAUSTED', retryAt: 1000 };
+  assert.deepEqual(recoveryDecision(s, g, l, 1001), { kind: 'retry', at: 1001, phase: 'REVIEW_WAIT' });
+  assert.equal(recoveryDecision(s, g, l, 1000).at, 1000);
+  l.retries.r = g.maxRetries;
+  assert.equal(recoveryDecision(s, g, l, 1001).kind, 'global');
+  l.retries.r = 0;
+  const expiredGrant = { ...g, expiresAt: new Date(1001).toISOString() };
+  assert.equal(recoveryDecision(s, expiredGrant, l, 1001).kind, 'global');
+  const expiredRun = { ...l, startedAt: new Date(0).toISOString() };
+  assert.equal(recoveryDecision(s, { ...g, maxRunSeconds: 1 }, expiredRun, 1001).kind, 'global');
+  assert.equal(recoveryDecision({ ...s, reviewerPid: 123 }, g, l, 1001).kind, 'global');
+});
+
+test('Authorization boundary caps timeouts, cancels active work and blocks subsequent commands/writes', async () => {
+  const previous = process.env.ENGINEERING_LOOP_DEADLINE;
+  try {
+    process.env.ENGINEERING_LOOP_DEADLINE = '2000';
+    assert.equal(remainingTime(95000, 1990), 10);
+    assert.throws(() => remainingTime(95000, 2000), /deadline/);
+    process.env.ENGINEERING_LOOP_DEADLINE = String(Date.now() + 40);
+    await new Promise(resolve => deadlineTimer(95000, resolve));
+    assert.throws(() => command(process.execPath, ['-e', 'process.exit(0)'], root), /deadline/);
+    let writes = 0;
+    const gh = new GitHub(root, cfg.repository, { transport: async () => { writes++; } });
+    gh.token = 'fixture';
+    await assert.rejects(gh.repo('/pulls', 'POST', {}), /deadline/);
+    assert.equal(writes, 0);
+  } finally {
+    if (previous === undefined) delete process.env.ENGINEERING_LOOP_DEADLINE;
+    else process.env.ENGINEERING_LOOP_DEADLINE = previous;
+  }
+});
+
+test('Slow source read crossing run budget or grant expiry cannot dispatch or mutate checkpoint', async () => {
+  for (const boundary of ['run', 'grant']) {
+    const data = fs.mkdtempSync(path.join(root, '.engineering-loop', 'deadline-test-'));
+    const realNow = Date.now, at = realNow();
+    const g = grant();
+    g.maxRunSeconds = boundary === 'run' ? 1 : 1000;
+    g.expiresAt = new Date(at + (boundary === 'grant' ? 1000 : 600000)).toISOString();
+    const fixture = { grant: g, controller: root, remote: 'fixture', policies: {} };
+    const l = newLedger(validateAuthorization(g, cfg, true), g);
+    l.fixture = fixture;
+    const state = { cycleId: l.cycleId, runId: 'r', taskId: 'D001', phase: 'REVIEW_WAIT' };
+    writeJson(path.join(data, 'multi-ledger.json'), l);
+    writeJson(path.join(data, 'state.json'), state);
+    writeJson(path.join(data, 'control.json'), {});
+    try {
+      const report = await autonomousRun({ root, tool: 'must-not-dispatch', data, cfg, fixture, resume: true, driverRelease: () => {},
+        sourceFactory: () => ({ loadRemote: () => {
+          Date.now = () => at + 2000;
+          return { tasks: [], kind: 'synthetic-git', commit: 'fixture' };
+        } }) });
+      assert.equal(report.stopReason, 'Authorized deadline reached');
+      assert.equal(report.modelCalls, 0);
+      assert.equal(report.transitions, 0);
+      assert.deepEqual(readJson(path.join(data, 'state.json')), state);
+    } finally { Date.now = realNow; }
+  }
 });

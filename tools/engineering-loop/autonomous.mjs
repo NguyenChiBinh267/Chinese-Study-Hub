@@ -41,9 +41,11 @@ export function recoveryDecision(state, grant, ledger, at = Date.now()) {
   if (state.phase !== 'BLOCKED') return null;
   if (state.writerPid || state.reviewerPid || !STABLE.includes(state.blockedFrom)) return { kind: 'global', reason: 'Unsafe interrupted process/write checkpoint' };
   if (state.blockerCode === 'QUOTA_EXHAUSTED') {
-    if (!Number.isFinite(state.retryAt) || state.retryAt <= at || state.retryAt - at > grant.maxQuotaWaitSeconds * 1000) return { kind: 'global', reason: 'Quota reset unavailable/outside authorized wait budget' };
+    const deadline = Math.min(Date.parse(grant.expiresAt), Date.parse(ledger.startedAt) + grant.maxRunSeconds * 1000);
+    if (Number.isFinite(deadline) && Math.max(at, state.retryAt) >= deadline) return { kind: 'global', reason: 'Quota retry outside authorized run/grant deadline' };
+    if (!Number.isFinite(state.retryAt) || state.retryAt - at > grant.maxQuotaWaitSeconds * 1000) return { kind: 'global', reason: 'Quota reset unavailable/outside authorized wait budget' };
     if ((ledger.retries[state.runId] ?? 0) >= grant.maxRetries) return { kind: 'global', reason: 'Quota retry limit' };
-    return { kind: 'retry', at: state.retryAt, phase: state.blockedFrom };
+    return { kind: 'retry', at: Math.max(at, state.retryAt), phase: state.blockedFrom };
   }
   if (state.blockerCode === 'TRANSIENT_TRANSPORT' && ['SOURCE_WAIT', 'MERGE_WAIT', 'SSOT_WAIT', 'CACHE_SYNCING', 'PUBLISHING'].includes(state.blockedFrom)) {
     if ((ledger.retries[state.runId] ?? 0) >= grant.maxRetries) return { kind: 'global', reason: 'Transport retry limit' };
@@ -91,6 +93,8 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
         bootstrap.reviewerReceipt?.sandbox === 'read-only' && bootstrap.reviewerReceipt?.newSession && bootstrap.checks?.every(c => c.passed), 'Missing independent exact-SHA bootstrap PASS');
       const main = src.fetchHead(); git(root, 'merge-base', '--is-ancestor', grant.bootstrapReviewedSha, main);
     }
+    const runDeadline = Math.min(Date.parse(grant.expiresAt), Date.parse(ledger.startedAt) + grant.maxRunSeconds * 1000);
+    requireThat(Number.isFinite(runDeadline), 'Invalid run deadline');
     const persist = () => writeJson(ledgerPath, ledger);
     ledger.driverPids ??= []; ledger.driverPids.push(process.pid);
     persist();
@@ -117,6 +121,7 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
         ledger.remoteWait = { at: Date.now() + Math.min(60, 2 ** attempts) * 1000 };
         persist(); continue;
       }
+      if (Date.now() >= runDeadline) { reason = 'Authorized deadline reached'; break; }
       let state = fs.existsSync(statePath) ? readJson(statePath) : null;
       if (!state || ['DONE', 'BLOCKED'].includes(state.phase)) {
         if (state && state.cycleId === ledger.cycleId && !ledger.outcomes.some(x => x.runId === state.runId)) {
@@ -153,6 +158,7 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
           ...(synthetic ? { fixtureControllerRoot: fixture.controller, fixtureRemote: fixture.remote, fixturePolicies: fixture.policies, fixtureInitialDefect: task.id === 'D001' } : {}) });
         const blocker = preflight(task, policy, src, snapshot.commit);
         if (blocker) Object.assign(state, { phase: 'BLOCKED', blockedFrom: 'QUEUED', blocker, blockerCode: 'TASK_LOCAL' });
+        if (Date.now() >= runDeadline) { reason = 'Authorized deadline reached'; break; }
         writeJson(statePath, state); persist();
         if (blocker) continue;
       }
@@ -162,8 +168,11 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
         // Count before dispatch, so a driver crash cannot hide an attempted model invocation.
         ledger.modelCalls++; persist();
       }
+      if (Date.now() >= runDeadline) { reason = 'Authorized deadline reached'; break; }
       const child = spawnSync(process.execPath, [path.join(tool, 'loop.mjs'), 'step'], { cwd: root, windowsHide: true, encoding: 'utf8',
-        timeout: (cfg.codexTimeoutMinutes + cfg.reviewTimeoutMinutes + 5) * 60000, maxBuffer: 8 * 1024 * 1024 });
+        // Controller owns deadline cancellation and checkpoint cleanup; parent allows bounded cleanup time.
+        env: { ...process.env, ENGINEERING_LOOP_DEADLINE: String(runDeadline) },
+        timeout: Math.min((cfg.codexTimeoutMinutes + cfg.reviewTimeoutMinutes + 5) * 60000, runDeadline - Date.now() + 10000), maxBuffer: 8 * 1024 * 1024 });
       ledger.transitions++; if (child.pid) ledger.controllerPids.push(child.pid); persist();
       requireThat(child.status === 0, 'Controller exited; preserve checkpoint for restart, no automatic replay of unsafe writes');
       state = readJson(statePath);
