@@ -8,6 +8,11 @@ import { PLAN, STATUS, MANIFEST } from './plan.mjs';
 import { blob, changedPaths, GitSource } from './git-ssot.mjs';
 
 const REPAIR_SCOPE = ['tools/engineering-loop/**', 'docs/engineering-loop/**', 'AGENTS.md', 'docs/implementation/brief.md', 'docs/implementation/status.md', '.gitattributes'];
+export function bootstrapSnapshot(root, repo, sha, remote) {
+  command('git', ['clone', '--no-local', '--no-hardlinks', '--no-checkout', root, repo], root);
+  git(repo, 'config', 'core.autocrlf', 'false'); git(repo, 'checkout', '--detach', sha);
+  git(repo, 'remote', 'set-url', 'origin', remote);
+}
 export function validateBootstrapIdentity(pr, base, sha) {
   requireThat(pr.number === 3 && pr.state === 'open' && !pr.merged && pr.draft === true && pr.head.ref === 'loop/local-codex-reviewer' &&
     pr.head.repo?.full_name === 'NguyenChiBinh267/Chinese-Study-Hub' && pr.base.ref === 'main' && pr.base.repo?.full_name === 'NguyenChiBinh267/Chinese-Study-Hub', 'Bootstrap PR identity/state mismatch');
@@ -61,9 +66,7 @@ export async function bootstrapReview({ root, tool, data, cfg }) {
       if (previous.baseSha === base) state.repairs = previous.repairs;
     }
     const repo = path.join(data, 'bootstrap', state.runId.slice(0, 8));
-    command('git', ['clone', '--no-local', '--no-hardlinks', '--no-checkout', root, repo], root);
-    git(repo, 'config', 'core.autocrlf', 'false'); git(repo, 'checkout', '-b', 'loop/local-codex-reviewer', sha);
-    git(repo, 'remote', 'set-url', 'origin', `https://github.com/${cfg.repository}.git`);
+    bootstrapSnapshot(root, repo, sha, `https://github.com/${cfg.repository}.git`);
     Object.assign(state, { worktree: repo, baseSha: base, sourceCommit: base, commitSha: sha, phase: 'REVIEW_WAIT', pr: 3, branch: 'loop/local-codex-reviewer' });
     const evidenceDir = path.join(data, 'bootstrap-evidence', state.runId.slice(0, 8)), save = () => writeJson(path.join(data, 'bootstrap-latest.json'), state);
     const pinned = Object.fromEntries([PLAN, STATUS, MANIFEST, 'docs/master-plan/source-export-v1.1.md'].map(file => [file, hash(blob(root, sha, file))]));

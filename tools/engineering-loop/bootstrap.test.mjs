@@ -1,6 +1,10 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { validateBootstrapIdentity, validateBootstrapMergeGrant } from './bootstrap.mjs';
+import { validateBootstrapIdentity, validateBootstrapMergeGrant, bootstrapSnapshot } from './bootstrap.mjs';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { git } from './io.mjs';
 const sha = 'a'.repeat(40), base = 'b'.repeat(40), repo = 'NguyenChiBinh267/Chinese-Study-Hub';
 const pr = () => ({ number: 3, state: 'open', merged: false, draft: true, head: { sha, ref: 'loop/local-codex-reviewer', repo: { full_name: repo } }, base: { sha: base, ref: 'main', repo: { full_name: repo } } });
 const state = () => ({ commitSha: sha, baseSha: base, sourceRevision: `git-bootstrap:${base}:${sha}`, runId: 'run', nonce: 'nonce',
@@ -22,4 +26,14 @@ test('Bootstrap merge cannot accept stale/self verdict, findings, missing determ
   for (const patch of [{ review: { ...state().review, verdict: 'REWORK' } }, { review: { ...state().review, commitSha: base } }, { review: { ...state().review, nonce: 'stale' } },
     { review: { ...state().review, findings: [{ severity: 'P1' }] } }, { reviewerReceipt: { sandbox: 'workspace-write', newSession: true } }, { checks: [] }, { checks: [{ passed: false }] }])
     assert.throws(() => validateBootstrapMergeGrant(grant(), { ...state(), ...patch }), /independent/);
+});
+test('Bootstrap snapshot detaches exact bytes even when clone already has the PR branch name', () => {
+  const parent = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../.engineering-loop/bootstrap-tests', String(Date.now()));
+  const original = path.join(parent, 'original'), copy = path.join(parent, 'copy'); fs.mkdirSync(original, { recursive: true });
+  git(original, 'init', '-b', 'loop/local-codex-reviewer'); git(original, 'config', 'core.autocrlf', 'false');
+  git(original, 'config', 'user.name', 'Bootstrap fixture'); git(original, 'config', 'user.email', 'fixture@example.invalid');
+  fs.writeFileSync(path.join(original, 'fixture.txt'), 'EXACT\n'); git(original, 'add', '.'); git(original, 'commit', '-m', 'bootstrap snapshot fixture');
+  const head = git(original, 'rev-parse', 'HEAD'); bootstrapSnapshot(original, copy, head, original);
+  assert.equal(git(copy, 'rev-parse', 'HEAD'), head); assert.equal(git(copy, 'branch', '--show-current'), '');
+  assert.equal(git(copy, 'status', '--porcelain'), ''); assert.equal(fs.readFileSync(path.join(copy, 'fixture.txt'), 'utf8'), 'EXACT\n');
 });
