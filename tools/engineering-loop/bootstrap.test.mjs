@@ -52,7 +52,7 @@ test('Scoped repair patch preserves non-overlapping root edits and rejects confl
   const head = git(original, 'rev-parse', 'HEAD'); bootstrapSnapshot(original, copy, head, original);
   const repair = [...lines]; repair[2] = 'reviewer fix'; fs.writeFileSync(path.join(original, file), repair.join('\n') + '\n');
   const rootEdit = [...lines]; rootEdit[17] = 'owner edit'; fs.writeFileSync(path.join(copy, file), rootEdit.join('\n') + '\n'); git(copy, 'add', '.'); git(copy, 'commit', '-m', 'preserved root change');
-  applyScopedRepairPatch({ worktree: original, commitSha: head }, copy, [file], path.join(parent, 'repair.patch'));
+  applyScopedRepairPatch({ worktree: original, commitSha: head }, copy, [file], path.join(parent, 'not-yet-created', 'repair.patch'));
   const result = fs.readFileSync(path.join(copy, file), 'utf8'); assert.ok(result.includes('reviewer fix')); assert.ok(result.includes('owner edit'));
   git(copy, 'restore', '--', file); const conflict = [...rootEdit]; conflict[2] = 'conflicting owner edit'; fs.writeFileSync(path.join(copy, file), conflict.join('\n') + '\n'); git(copy, 'add', '.'); git(copy, 'commit', '-m', 'conflict');
   assert.throws(() => applyScopedRepairPatch({ worktree: original, commitSha: head }, copy, [file], path.join(parent, 'conflict.patch')));

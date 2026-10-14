@@ -28,6 +28,7 @@ export function applyScopedRepairPatch(previous, repo, changes, patchFile) {
   }
   if (tracked.length) {
     const patch = git(previous.worktree, 'diff', '--binary', '--no-ext-diff', '--no-textconv', previous.commitSha, '--', ...tracked);
+    fs.mkdirSync(path.dirname(patchFile), { recursive: true });
     fs.writeFileSync(patchFile, patch + '\n');
     git(repo, 'apply', '--check', patchFile); // Matching hunks preserve unrelated root edits; any conflict blocks.
     git(repo, 'apply', patchFile);
