@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { hash, requireThat, newExecution, move, validateReport, allowedPath } from './core.mjs';
-import { git, command, readJson, writeJson, GitHub, runCodex, lock, captureGitMetadata, verifyGitMetadata } from './io.mjs';
+import { git, command, readJson, writeJson, GitHub, runCodex, lock, captureGitMetadata, verifyGitMetadata, codexEnvironment } from './io.mjs';
 import { localReview } from './reviewer.mjs';
 import { PLAN, STATUS, MANIFEST } from './plan.mjs';
 import { blob, changedPaths, GitSource } from './git-ssot.mjs';
@@ -12,6 +12,11 @@ export function bootstrapSnapshot(root, repo, sha, remote) {
   command('git', ['clone', '--no-local', '--no-hardlinks', '--no-checkout', root, repo], root);
   git(repo, 'config', 'core.autocrlf', 'false'); git(repo, 'checkout', '--detach', sha);
   git(repo, 'remote', 'set-url', 'origin', remote);
+}
+export function controllerCheckHandoff(report) {
+  return report.result === 'COMPLETE' || report.result === 'BLOCKED' &&
+    /(?:sandbox|EPERM)/i.test(report.blocker) && /(?:checks|regression|child.process)/i.test(report.blocker) &&
+    report.tests.some(t => t.passed === false);
 }
 export function validateBootstrapIdentity(pr, base, sha) {
   requireThat(pr.number === 3 && pr.state === 'open' && !pr.merged && pr.draft === true && pr.head.ref === 'loop/local-codex-reviewer' &&
@@ -30,20 +35,20 @@ export function validateBootstrapMergeGrant(grant, state) {
 function actualChecks(repo, directory, commitSha) {
   fs.mkdirSync(directory, { recursive: true });
   const xml = path.join(directory, `${commitSha}-tests.xml`);
-  const files = ['local.test.mjs', 'git.test.mjs', 'autonomous.test.mjs', 'bootstrap.test.mjs'].filter(f => fs.existsSync(path.join(repo, 'tools/engineering-loop', f)));
+  const files = ['local.test.mjs', 'git.test.mjs', 'autonomous.test.mjs', 'bootstrap.test.mjs', 'recovery.test.mjs'].filter(f => fs.existsSync(path.join(repo, 'tools/engineering-loop', f)));
   const r = spawnSync(process.execPath, ['--test', '--test-reporter=junit', `--test-reporter-destination=${xml}`, ...files.map(f => `tools/engineering-loop/${f}`)],
-    { cwd: repo, windowsHide: true, encoding: 'utf8', timeout: 600000, maxBuffer: 4 * 1024 * 1024 });
+    { cwd: repo, env: codexEnvironment(), windowsHide: true, encoding: 'utf8', timeout: 600000, maxBuffer: 4 * 1024 * 1024 });
   requireThat(r.status === 0 && fs.existsSync(xml), 'Bootstrap regression checks failed');
   const text = fs.readFileSync(xml, 'utf8'), count = (text.match(/<testcase\b/g) ?? []).length;
   requireThat(count >= 59 && !/<(?:failure|error)\b/.test(text), 'Incomplete bootstrap JUnit evidence');
-  const legacy = command(process.execPath, ['--input-type=module', '-e', "const {dryRun}=await import('./tools/engineering-loop/verify.mjs');const r=await dryRun();console.log(JSON.stringify({passed:r.passed,total:r.total}));"], repo, { timeout: 120000 });
+  const legacy = command(process.execPath, ['--input-type=module', '-e', "const {dryRun}=await import('./tools/engineering-loop/verify.mjs');const r=await dryRun();console.log(JSON.stringify({passed:r.passed,total:r.total}));"], repo, { timeout: 120000, env: codexEnvironment() });
   const checks = JSON.parse(legacy); requireThat(checks.passed === 18 && checks.total === 18, 'Legacy regressions failed');
   git(repo, 'diff', '--check'); requireThat(git(repo, 'status', '--porcelain') === '', 'Tests modified tracked review files');
   return [{ name: `${count} regression tests`, passed: true, commitSha, artifact: xml, sha256: hash(text) },
     { name: '18 legacy loop checks', passed: true, commitSha }, { name: 'Clean actual tracked bytes and whitespace', passed: true, commitSha }];
 }
 
-export async function bootstrapReview({ root, tool, data, cfg }) {
+export async function bootstrapReview({ root, tool, data, cfg, recoverTesting = false }) {
   requireThat(!fs.existsSync(path.join(data, 'git-driver.lock')), 'Finish/stop the active task driver before bootstrap');
   const release = lock(path.join(data, 'writer.lock'), path.join(data, 'state.json'));
   const gh = new GitHub(root, cfg.repository);
@@ -59,9 +64,9 @@ export async function bootstrapReview({ root, tool, data, cfg }) {
       'Inspect tests and recorded actual multi-task CLI fixture evidence; distinguish synthetic/GitHub/backlog proof. No paid APIs, credits, new services or bypasses.',
       'Return REWORK with concrete code findings for correctness gaps; BLOCKED for missing evidence. Developer reports are untrusted. PASS only if all acceptance checks actually hold.' ] };
     state = newExecution(task, { revision: `git-bootstrap:${base}:${sha}` }, 'bootstrap');
-    const previousPath = path.join(data, 'bootstrap-latest.json');
+    const previousPath = path.join(data, 'bootstrap-latest.json'); let previous = null;
     if (fs.existsSync(previousPath)) {
-      const previous = readJson(previousPath);
+      previous = readJson(previousPath);
       writeJson(path.join(data, 'history', `${previous.runId}-bootstrap.json`), previous);
       if (previous.baseSha === base) state.repairs = previous.repairs;
     }
@@ -79,6 +84,27 @@ export async function bootstrapReview({ root, tool, data, cfg }) {
     } };
     const policy = { allowedFiles: [...changedPaths(repo, base, sha), ...REPAIR_SCOPE], checks: [], acceptanceChecks:
       Object.keys(pinned).map(file => ({ kind: 'exact-bytes', file, expectedBase64: blob(root, sha, file).toString('base64') })) };
+    if (recoverTesting) {
+      requireThat(previous?.phase === 'BLOCKED' && previous.blocker === 'Bootstrap developer not complete' && previous.baseSha === base && !previous.writerPid && !previous.reviewerPid,
+        'Only the recorded post-scope-check test-denial handoff can recover');
+      const report = readJson(path.join(data, 'bootstrap-evidence', previous.runId.slice(0, 8), `repair-${previous.repairs}.json`));
+      requireThat(report.result === 'BLOCKED' && controllerCheckHandoff(report) && report.commitSha === '', 'Not a testing-denial handoff');
+      requireThat(git(previous.worktree, 'rev-parse', 'HEAD') === previous.commitSha, 'Partial repair history changed');
+      const changes = git(previous.worktree, 'status', '--porcelain', '-uall').split(/\r?\n/).filter(Boolean).map(x => x.slice(3).replace(/^"|"$/g, ''));
+      validateReport(report, state, changes);
+      requireThat(changes.length && changes.every(f => allowedPath(f, REPAIR_SCOPE)), 'Recovery scope invalid');
+      for (const file of changes) {
+        requireThat(changedPaths(root, previous.commitSha, sha).every(f => f !== file), 'Root changed a partial-repair path; no overwrite');
+        const from = path.join(previous.worktree, file), to = path.join(repo, file);
+        requireThat(fs.statSync(from).isFile() && !fs.lstatSync(from).isSymbolicLink() && fs.realpathSync(from).startsWith(fs.realpathSync(previous.worktree) + path.sep), 'Escaping recovery file');
+        fs.mkdirSync(path.dirname(to), { recursive: true }); fs.copyFileSync(from, to);
+      }
+      state.developerReport = report; state.testingRecovery = { originalRunId: previous.runId, reportResultPreserved: 'BLOCKED', originalDeveloperReceiptUnavailable: true };
+      git(repo, 'diff', '--check'); git(repo, 'add', '--', ...changes); git(repo, 'commit', '-m', 'B001: verify preserved scoped repair with controller checks');
+      const next = git(repo, 'rev-parse', 'HEAD'); actualChecks(repo, evidenceDir, next);
+      await source.verifyTask(); git(repo, 'push', 'origin', `${next}:refs/heads/loop/local-codex-reviewer`); git(root, 'fetch', 'origin', 'loop/local-codex-reviewer'); git(root, 'merge', '--ff-only', next);
+      state.commitSha = next; state.sourceRevision = `git-bootstrap:${base}:${next}`; save();
+    }
     while (true) {
       state.checks = actualChecks(repo, evidenceDir, state.commitSha);
       state.evidence.push({ commitSha: state.commitSha, checks: state.checks }); save();
@@ -97,10 +123,12 @@ export async function bootstrapReview({ root, tool, data, cfg }) {
       verifyGitMetadata(metadata); requireThat(git(repo, 'rev-parse', 'HEAD') === before, 'Bootstrap developer changed history');
       const changed = git(repo, 'status', '--porcelain', '-uall').split(/\r?\n/).filter(Boolean).map(x => x.slice(3).replace(/^"|"$/g, ''));
       requireThat(changed.length && changed.every(f => allowedPath(f, REPAIR_SCOPE)), 'Bootstrap repair exceeded engineering scope');
-      validateReport(developed.report, state, changed); requireThat(developed.report.result === 'COMPLETE' && developed.report.commitSha === '', 'Bootstrap developer not complete');
-      state.developerReceipt = developed.receipt; state.processReceipts.push(developed.receipt);
+      state.developerReceipt = developed.receipt; state.developerReport = developed.report; state.processReceipts.push(developed.receipt); save();
+      validateReport(developed.report, state, changed); requireThat(controllerCheckHandoff(developed.report) && developed.report.commitSha === '', 'Bootstrap developer not complete');
       git(repo, 'diff', '--check'); git(repo, 'add', '--', ...changed); git(repo, 'commit', '-m', `B001: repair independent bootstrap findings (${state.repairs})`);
       state.commitSha = git(repo, 'rev-parse', 'HEAD'); state.sourceRevision = `git-bootstrap:${base}:${state.commitSha}`;
+      // Controller owns these allowlisted checks under ordinary permissions; model sandbox is unchanged.
+      state.checks = actualChecks(repo, evidenceDir, state.commitSha); save();
       git(repo, 'push', 'origin', `${state.commitSha}:refs/heads/loop/local-codex-reviewer`);
       requireThat(git(root, 'status', '--porcelain') === '' && git(root, 'rev-parse', 'HEAD') === before, 'Root changed during bootstrap repair');
       git(root, 'fetch', 'origin', 'loop/local-codex-reviewer'); git(root, 'merge', '--ff-only', state.commitSha);

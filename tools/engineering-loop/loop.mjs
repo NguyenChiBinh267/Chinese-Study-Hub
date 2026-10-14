@@ -521,9 +521,9 @@ async function main() {
   if (action === 'dry-run') { const { dryRun } = await import('./verify.mjs'); console.log(JSON.stringify(await dryRun(), null, 2)); return; }
   if (action === 'ssot-status') { console.log(JSON.stringify(gitStatus(), null, 2)); return; }
   if (action === 'dry-git') { await dryGitCycle(); return; }
-  if (['bootstrap-review', 'bootstrap-merge'].includes(action)) {
+  if (['bootstrap-review', 'bootstrap-recover-tests', 'bootstrap-merge'].includes(action)) {
     const { bootstrapReview, bootstrapMerge } = await import('./bootstrap.mjs');
-    const state = await (action === 'bootstrap-review' ? bootstrapReview : bootstrapMerge)({ root: ROOT, tool: TOOL, data: DATA, cfg: config() });
+    const state = await (action === 'bootstrap-merge' ? bootstrapMerge : bootstrapReview)({ root: ROOT, tool: TOOL, data: DATA, cfg: config(), recoverTesting: action === 'bootstrap-recover-tests' });
     console.log(JSON.stringify({ taskId: state.taskId, phase: state.phase, verdict: state.review?.verdict, commitSha: state.commitSha, blocker: state.blocker })); return;
   }
   if (['multi-proof', 'multi-supervise'].includes(action)) {

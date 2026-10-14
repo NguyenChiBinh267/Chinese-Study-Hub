@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { validateBootstrapIdentity, validateBootstrapMergeGrant, bootstrapSnapshot } from './bootstrap.mjs';
+import { validateBootstrapIdentity, validateBootstrapMergeGrant, bootstrapSnapshot, controllerCheckHandoff } from './bootstrap.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -36,4 +36,10 @@ test('Bootstrap snapshot detaches exact bytes even when clone already has the PR
   const head = git(original, 'rev-parse', 'HEAD'); bootstrapSnapshot(original, copy, head, original);
   assert.equal(git(copy, 'rev-parse', 'HEAD'), head); assert.equal(git(copy, 'branch', '--show-current'), '');
   assert.equal(git(copy, 'status', '--porcelain'), ''); assert.equal(fs.readFileSync(path.join(copy, 'fixture.txt'), 'utf8'), 'EXACT\n');
+});
+test('Bootstrap testing-denial handoff preserves BLOCKED and never replaces human evidence or reviewer verdict', () => {
+  const report = { result: 'BLOCKED', blocker: 'Sandbox EPERM prevents child-process regression checks', tests: [{ passed: false }] };
+  assert.equal(controllerCheckHandoff(report), true); assert.equal(report.result, 'BLOCKED');
+  for (const blocker of ['Missing publication rights', 'No account consent', 'Model quota exhausted', 'Unknown implementation failure']) assert.equal(controllerCheckHandoff({ ...report, blocker }), false);
+  assert.equal(controllerCheckHandoff({ ...report, tests: [{ passed: true }] }), false);
 });
