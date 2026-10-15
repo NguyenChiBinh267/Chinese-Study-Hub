@@ -9,6 +9,7 @@ import { GitSource, blob } from './git-ssot.mjs';
 import { git, validateFreeQuota, GitHub, remainingTime, deadlineTimer, command, writeJson, readJson } from './io.mjs';
 import { STATUS } from './plan.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
+fs.mkdirSync(path.join(root, '.engineering-loop'), { recursive: true });
 const cfg = { repository: 'NguyenChiBinh267/Chinese-Study-Hub', liveEnabled: false, autoMerge: false, ssotAllowStatusWrites: false, authorizedTasks: [] };
 const grant = () => ({ schemaVersion: 1, ownerApproved: true, grantId: 'synthetic-owner-grant', repository: cfg.repository, release: 'fixture', tasks: ['D001', 'D002', 'D003', 'D004', 'D005'],
   autoMerge: true, statusWrites: true, maxServiceCost: 0, allowPaidCredits: false, allowNewServices: false, maxTasks: 5, maxModelCalls: 12, maxRunSeconds: 1000, maxRetries: 3, maxQuotaWaitSeconds: 60, expiresAt: new Date(Date.now() + 600000).toISOString() });
@@ -26,6 +27,78 @@ test('Grant binding changes when scope, expiry or budgets change across restart'
   const restored = JSON.parse(JSON.stringify(l)); assert.equal(restored.grantHash, h);
   assert.notEqual(validateAuthorization({ ...g, maxTasks: 4 }, cfg, true), restored.grantHash);
   assert.notEqual(validateAuthorization({ ...g, tasks: ['D001'] }, cfg, true), restored.grantHash);
+});
+
+test('Grant A budgets survive A -> B -> A, changed terms, and process reload', async () => {
+  const data = fs.mkdtempSync(path.join(root, '.engineering-loop', 'grant-replay-'));
+  const a = { ...grant(), grantId: 'persistent-owner-grant-A' }, b = { ...a, grantId: 'persistent-owner-grant-B' };
+  const exhausted = { ...newLedger(validateAuthorization(a, cfg, true), a), phase: 'STOPPED', modelCalls: a.maxModelCalls,
+    outcomes: [{ taskId: 'D001', runId: 'old-run' }], retries: { 'old-run': 3 } };
+  // Migrate the pre-fix single ledger without losing already-consumed A authority.
+  writeJson(path.join(data, 'multi-ledger.json'), exhausted);
+  writeJson(path.join(data, 'control.json'), { stop: true });
+  const args = g => ({ root, tool: 'must-not-dispatch', data, cfg,
+    fixture: { grant: g, controller: root, remote: 'synthetic', policies: {} },
+    sourceFactory: () => ({ loadRemote: () => assert.fail('Must stop before task dispatch') }) });
+  const reportB = await autonomousRun(args(b));
+  assert.equal(reportB.grantId, b.grantId);
+  const { autonomousRun: reloaded } = await import(`./autonomous.mjs?replay=${Date.now()}`);
+  for (const g of [a, { ...a, maxModelCalls: a.maxModelCalls + 1 }]) {
+    await assert.rejects(reloaded(args(g)), /grant.*reus|grant.*consum|reset budgets/i);
+    assert.deepEqual(readJson(path.join(data, 'multi-ledger.json')), reportB, 'Denied replay must preserve latest ledger');
+  }
+  const { hash } = await import('./core.mjs');
+  const savedA = readJson(path.join(data, 'grant-ledgers', 'synthetic', `${hash(a.grantId)}.json`));
+  assert.equal(savedA.modelCalls, a.maxModelCalls);
+  assert.deepEqual(savedA.retries, exhausted.retries);
+  assert.deepEqual(savedA.outcomes, exhausted.outcomes);
+  assert.equal(savedA.startedAt, exhausted.startedAt);
+  const child = command(process.execPath, ['--input-type=module', '-e', `
+    import { autonomousRun } from ${JSON.stringify(new URL('./autonomous.mjs', import.meta.url).href)};
+    const args = JSON.parse(process.argv[1]);
+    try { await autonomousRun(args); process.exitCode = 1; }
+    catch (error) { if (!/Consumed grant/.test(error.message)) throw error; console.log('replay-denied'); }
+  `, JSON.stringify(args(a))], root);
+  assert.equal(child, 'replay-denied', 'A fresh process must also reject consumed A');
+});
+
+test('Resume uses durable per-identity counters; failed starts also consume grant identity', async () => {
+  const data = fs.mkdtempSync(path.join(root, '.engineering-loop', 'grant-resume-'));
+  const g = grant(), l = newLedger(validateAuthorization(g, cfg, true), g);
+  const fixture = { grant: g, controller: root, remote: 'synthetic' };
+  Object.assign(l, { fixture, modelCalls: 7, transitions: 9, retries: { r: 2 } });
+  const { hash } = await import('./core.mjs');
+  const canonical = path.join(data, 'grant-ledgers', 'synthetic', `${hash(g.grantId)}.json`);
+  writeJson(canonical, l);
+  writeJson(path.join(data, 'multi-ledger.json'), { ...l, modelCalls: 0, transitions: 0, retries: {} });
+  writeJson(path.join(data, 'control.json'), { stop: true });
+  const args = { root, tool: 'must-not-dispatch', data, cfg, fixture,
+    sourceFactory: () => ({}) };
+  const resumed = await autonomousRun({ ...args, resume: true });
+  assert.equal(resumed.stopReason, 'Operator stop/pause');
+  assert.equal(resumed.cycleId, l.cycleId);
+  assert.equal(resumed.modelCalls, 7); assert.equal(resumed.transitions, 9);
+  assert.equal(resumed.startedAt, l.startedAt); assert.deepEqual(resumed.retries, l.retries);
+  assert.deepEqual(readJson(canonical), resumed);
+  const failed = { ...g, grantId: 'failed-start-owner-grant' };
+  const failure = await autonomousRun({ ...args, fixture: { ...args.fixture, grant: failed }, sourceFactory: () => { throw new Error('Source unavailable'); } });
+  assert.match(failure.stopReason, /Source unavailable/);
+  await assert.rejects(autonomousRun({ ...args, fixture: { ...args.fixture, grant: failed } }), /Consumed grant/);
+});
+
+test('Final grant ledger is durable before driver lock release', async () => {
+  const data = fs.mkdtempSync(path.join(root, '.engineering-loop', 'grant-lock-'));
+  const g = grant();
+  const { hash } = await import('./core.mjs');
+  writeJson(path.join(data, 'control.json'), { stop: true });
+  let released = false;
+  await autonomousRun({ root, tool: 'must-not-dispatch', data, cfg, fixture: { grant: g, controller: root, remote: 'synthetic' },
+    sourceFactory: () => ({}), driverRelease: () => {
+      assert.equal(readJson(path.join(data, 'grant-ledgers', 'synthetic', `${hash(g.grantId)}.json`)).phase, 'STOPPED');
+      assert.equal(readJson(path.join(data, 'multi-ledger.json')).phase, 'STOPPED');
+      released = true;
+    } });
+  assert.equal(released, true);
 });
 test('Real pinned multi-task Git source has dependencies and human gate, never mutates backlog', () => {
   const initial = fs.readFileSync(path.join(root, STATUS));
