@@ -8,6 +8,11 @@ import { PLAN, STATUS, MANIFEST } from './plan.mjs';
 import { blob, changedPaths, GitSource } from './git-ssot.mjs';
 
 const REPAIR_SCOPE = ['tools/engineering-loop/**', 'docs/engineering-loop/**', 'AGENTS.md', 'docs/implementation/brief.md', 'docs/implementation/status.md', '.gitattributes'];
+export function bootstrapPolicy(repo, base, sha) {
+  const acceptanceReadOnlyFiles = [PLAN, STATUS, MANIFEST, 'docs/master-plan/source-export-v1.1.md'];
+  return { allowedFiles: [...changedPaths(repo, base, sha), ...REPAIR_SCOPE], acceptanceReadOnlyFiles, checks: [],
+    acceptanceChecks: acceptanceReadOnlyFiles.map(file => ({ kind: 'exact-bytes', file, expectedBase64: blob(repo, base, file).toString('base64') })) };
+}
 export function bootstrapSnapshot(root, repo, sha, remote) {
   command('git', ['clone', '--no-local', '--no-hardlinks', '--no-checkout', root, repo], root);
   git(repo, 'config', 'core.autocrlf', 'false'); git(repo, 'checkout', '--detach', sha);
@@ -152,8 +157,7 @@ export async function bootstrapReview({ root, tool, data, cfg, prNumber, recover
       for (const [file, digest] of Object.entries(pinned)) requireThat(hash(blob(root, state.commitSha, file)) === digest, 'Bootstrap repair changed immutable source/status');
       return { kind: 'GitHub-pinned-PR-bootstrap-candidate', revision: state.sourceRevision, readbackVerified: true, relevantSections: task.spec };
     } };
-    const policy = { allowedFiles: [...changedPaths(repo, base, sha), ...REPAIR_SCOPE], checks: [], acceptanceChecks:
-      Object.keys(pinned).map(file => ({ kind: 'exact-bytes', file, expectedBase64: blob(root, sha, file).toString('base64') })) };
+    const policy = bootstrapPolicy(repo, base, sha);
     if (recoverTesting) {
       requireThat(previous?.phase === 'BLOCKED' && previous.blocker === 'Bootstrap developer not complete' && previous.baseSha === base && !previous.writerPid && !previous.reviewerPid,
         'Only the recorded post-scope-check test-denial handoff can recover');

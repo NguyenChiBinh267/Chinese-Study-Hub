@@ -7,6 +7,9 @@ import { fileURLToPath } from 'node:url';
 import { git, GitHub, writeJson, readJson } from './io.mjs';
 import childProcess from 'node:child_process';
 import { syncBuiltinESMExports } from 'node:module';
+import { bootstrapPolicy } from './bootstrap.mjs';
+import { acceptanceChecks, validateLocalReview } from './reviewer.mjs';
+import { allowedPath } from './core.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 fs.mkdirSync(path.join(root, '.engineering-loop'), { recursive: true });
 const sha = 'a'.repeat(40), base = 'b'.repeat(40), repo = 'NguyenChiBinh267/Chinese-Study-Hub';
@@ -16,6 +19,29 @@ const state = () => ({ bootstrapTarget: target(), pr: 4, branch: target().branch
   review: { verdict: 'PASS', commitSha: sha, sourceRevision: `git-bootstrap:${repo}#4:${base}:${sha}`, runId: 'run', nonce: 'nonce', findings: [] },
   reviewerReceipt: { role: 'reviewer', sandbox: 'read-only', newSession: true, threadId: 'fresh-independent-thread', processId: 123, costProof: { chatgptOnly: true, hasCredits: false, balance: '0' } }, checks: [{ passed: true, commitSha: sha }] });
 const grant = () => ({ ownerApproved: true, pr: 4, repository: repo, merge: true, commitSha: sha, baseSha: base, expiresAt: new Date(Date.now() + 60000).toISOString() });
+
+test('Constructed bootstrap policy validates unchanged SSOT bytes without granting repair writes', () => {
+  const head = git(root, 'rev-parse', 'HEAD'), policy = bootstrapPolicy(root, head, head);
+  assert.equal(policy.acceptanceReadOnlyFiles.length, 4);
+  for (const file of policy.acceptanceReadOnlyFiles) assert.equal(allowedPath(file, policy.allowedFiles), false);
+  const checks = acceptanceChecks(root, policy);
+  assert.equal(checks.length, 4);
+  assert.ok(checks.every(c => c.passed), JSON.stringify(checks));
+  const syntheticState = { ...state(), taskId: 'B001' };
+  const report = { ...syntheticState.review, taskId: 'B001', evidenceSummary: 'Synthetic validation of actual pinned acceptance bytes.' };
+  assert.doesNotThrow(() => validateLocalReview(report, syntheticState, sha, checks));
+  const withoutReadScope = acceptanceChecks(root, { ...policy, acceptanceReadOnlyFiles: [] });
+  assert.ok(withoutReadScope.every(c => !c.passed && /outside task policy/.test(c.reason)));
+  assert.throws(() => validateLocalReview(report, syntheticState, sha, withoutReadScope), /deterministic/);
+  const mismatched = acceptanceChecks(root, { ...policy, acceptanceChecks: policy.acceptanceChecks.map(c => ({ ...c, expectedBase64: '' })) });
+  assert.ok(mismatched.every(c => !c.passed && c.actualHash !== c.expectedHash));
+  assert.throws(() => validateLocalReview(report, syntheticState, sha, mismatched), /deterministic/);
+  for (const file of ['docs/master-plan/README.md', '../AGENTS.md']) {
+    const denied = acceptanceChecks(root, { ...policy, acceptanceChecks: [{ kind: 'required-file', file }] });
+    assert.equal(denied[0].passed, false);
+    assert.match(denied[0].reason, /outside task policy/);
+  }
+});
 
 // Exercise bootstrapMerge and its real command/deadline guard; no external command is launched.
 for (const pending of [false, true]) for (const pushAt of [1999, 2000, 2001]) {
