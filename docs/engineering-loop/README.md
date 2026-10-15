@@ -1,8 +1,8 @@
 # Git-native engineering loop — operations
 
-Zero-touch scheduling/bootstrap is documented in [zero-touch.md](zero-touch.md). It reuses this controller and its phase/merge/status adapters. `multi-proof` runs multiple synthetic tasks and supervised restart; `bootstrap-review` reviews actual PR #3. Real authority remains disabled. Historical single-task proof below remains intact.
+Zero-touch scheduling/bootstrap is documented in [zero-touch.md](zero-touch.md). It reuses this controller and its phase/merge/status adapters. `multi-proof` runs multiple synthetic tasks and supervised restart; `bootstrap-review <PR>` reviews an explicitly selected open draft candidate; PR #3 is merged and is not modified. Real authority remains disabled. Historical single-task proof below remains intact.
 
-The existing controller now uses Git SOURCE/status and independent local Codex review. No Google API/OAuth/Picker/Cloud project or Work event is on the critical path. The owner approved this authority change; it takes effect only after migration review and merge into verified origin/main. PR #3 remains draft/unmerged, so main currently lacks Git SSOT and live SOURCE is BLOCKED. The workspace plan is a candidate, never a runtime fallback.
+The existing controller now uses Git SOURCE/status and independent local Codex review. No Google API/OAuth/Picker/Cloud project or Work event is on the critical path. The owner approved this authority change; PR #3 was merged as 99f00827664fa2ac1c3263d3d98b4e25d9ad5c72 and Git SSOT now exists on verified origin/main. Prior bootstrap REWORK is retained; the follow-up candidate requires full independent review before authorization. SOURCE reads pinned main, never the local candidate as fallback.
 
 Specification: docs/master-plan/master-plan-v1.1.md. The only mutable status source: docs/master-plan/task-status.json. Manifest/original snapshot/import validation live beside them. Task index is derived in memory from pinned Git blobs. Historical Work/manual PR #2, local-review and pre-Git cache/handoffs are retained as evidence; they do not control readiness.
 
@@ -16,11 +16,11 @@ node tools/engineering-loop/loop.mjs candidate-pick
 node tools/engineering-loop/loop.mjs ssot-status
 node tools/engineering-loop/loop.mjs doctor
 node tools/engineering-loop/loop.mjs dry-run
-node --test tools/engineering-loop/local.test.mjs tools/engineering-loop/git.test.mjs tools/engineering-loop/autonomous.test.mjs tools/engineering-loop/bootstrap.test.mjs
+node --test tools/engineering-loop/local.test.mjs tools/engineering-loop/git.test.mjs tools/engineering-loop/autonomous.test.mjs tools/engineering-loop/bootstrap.test.mjs tools/engineering-loop/recovery.test.mjs
 node tools/engineering-loop/loop.mjs dry-git
 ```
 
-`candidate-pick` labels branch-derived readiness explicitly; it authorizes nothing. `pick` and `ssot-check T001` fetch origin/main and require valid pinned Git SSOT. Before migration is merged they block, without Google/cache fallback. Legacy 18-check dry-run simulates external adapters; local/Git unit tests use explicitly marked reviewer/transport doubles plus actual local Git. They are not external GitHub lifecycle proof.
+`candidate-pick` labels branch-derived readiness explicitly; it authorizes nothing. `pick` and `ssot-check T001` fetch origin/main and require valid pinned Git SSOT. Missing or invalid artifacts block, without Google/cache fallback. Legacy 18-check dry-run simulates external adapters; local/Git unit tests use explicitly marked reviewer/transport doubles plus actual local Git. They are not external GitHub lifecycle proof.
 
 `dry-git` uses isolated local bare remote and D001/D002 IDs outside the real backlog. It runs actual Codex Developer → local Reviewer REWORK → same-branch repair → new-HEAD PASS → actual Git merge → single-task status push/readback → DONE → next pick D002. D002 is not executed. One fresh controller process per transition reloads persistent state. Four separate CLI role sessions use existing ChatGPT included ordinary quota. Real safety flags remain false/empty, and stop=true is restored. Root task-status.json remains unchanged. Runtime evidence: .engineering-loop/git-cycle-latest.json and per-review packets/diffs/receipts. Curated proof: git-native-report.json.
 
@@ -63,4 +63,4 @@ node tools/engineering-loop/loop.mjs recover SSOT_WAIT
 
 Start uses the existing hidden controller. Resume clears control flags but never erases BLOCKED. Recovery requires the recorded prior stable wait phase and actual source/HEAD/clean tree; it preserves pending merge/status SHAs and repair count. Interrupted writer/publication needs inspection. Never delete a live lock, reset edits or edit checkpoints to bypass drift. One shared writer lock protects the controller/model; a separate fixture-driver lock prevents duplicate dry-git drivers. All real activation requires clean main and a separately authorized Task ID/policy.
 
-Verified: complete text/spec import validation, actual local CLI/Git-bare lifecycle, fresh-controller checkpoint reload, local non-force races and failure/duplicate recovery. Unverified: external GitHub merge/status lifecycle, real backlog, provider/account/legal/language eligibility and a full OS security audit. Do not claim FULLY AUTOMATED for the real project. Main migration is pending; human gates, T009/T068/T069, bounded content instances and hosting/deploy require separate work/authorization. No T068/T004/T005 execution or PR #2/#3 merge is authorized by this upgrade.
+Verified: complete text/spec import validation, actual local CLI/Git-bare lifecycle, fresh-controller checkpoint reload, local non-force races and failure/duplicate recovery. Unverified: external GitHub merge/status lifecycle, real backlog, provider/account/legal/language eligibility and a full OS security audit. Do not claim FULLY AUTOMATED for the real project. The follow-up tooling review/authorization and human gates, T009/T068/T069, bounded content instances and hosting/deploy require separate work/authorization. No real backlog or main merge is authorized by this follow-up; merged PR #2/#3 remain untouched.
