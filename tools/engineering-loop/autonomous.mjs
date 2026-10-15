@@ -107,6 +107,12 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
     const persist = () => { writeJson(identityPath, ledger); writeJson(ledgerPath, ledger); };
     persist();
     if (resume && synthetic) fixture = ledger.fixture;
+    const inherited = process.env.ENGINEERING_LOOP_DEADLINE;
+    const inheritedDeadline = inherited === undefined ? Infinity : Number(inherited);
+    requireThat(inherited === undefined || inherited.trim() !== '' && Number.isFinite(inheritedDeadline), 'Invalid inherited deadline');
+    const runDeadline = Math.min(inheritedDeadline, Date.parse(grant.expiresAt), Date.parse(ledger.startedAt) + grant.maxRunSeconds * 1000);
+    requireThat(Number.isFinite(runDeadline), 'Invalid run deadline');
+    requireThat(Date.now() < runDeadline, 'Authorized deadline reached');
     src = sourceFactory({ root: synthetic ? fixture.controller : root, synthetic,
       expectedRemote: synthetic ? fixture.remote : `https://github.com/${cfg.repository}.git`, data: path.join(data, 'git-operations', ledger.cycleId.slice(0, 8)) });
     if (synthetic) ledger.fixture = fixture;
@@ -116,8 +122,6 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
         bootstrap.reviewerReceipt?.sandbox === 'read-only' && bootstrap.reviewerReceipt?.newSession && bootstrap.checks?.every(c => c.passed), 'Missing independent exact-SHA bootstrap PASS');
       const main = src.fetchHead(); git(root, 'merge-base', '--is-ancestor', grant.bootstrapReviewedSha, main);
     }
-    const runDeadline = Math.min(Date.parse(grant.expiresAt), Date.parse(ledger.startedAt) + grant.maxRunSeconds * 1000);
-    requireThat(Number.isFinite(runDeadline), 'Invalid run deadline');
     ledger.driverPids ??= []; ledger.driverPids.push(process.pid);
     persist();
     while (true) {
@@ -126,6 +130,7 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
       const ctl = readControl();
       if (ctl.pause || ctl.stop) { reason = 'Operator stop/pause'; break; }
       if (Date.now() - Date.parse(ledger.startedAt) >= grant.maxRunSeconds * 1000) { reason = 'Run time budget'; break; }
+      if (Date.now() >= runDeadline) { reason = 'Authorized deadline reached'; break; }
       // Respect durable backoff before any remote read, including after restart.
       const pendingAt = Math.max(ledger.remoteWait?.at ?? 0, ledger.wait?.at ?? 0);
       if (Date.now() < pendingAt) {

@@ -3,6 +3,8 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { fileURLToPath } from 'node:url';
+import childProcess from 'node:child_process';
+import { syncBuiltinESMExports } from 'node:module';
 import { validateAuthorization, preflight, recoveryDecision, chooseTask, newLedger, summarize, autonomousRun } from './autonomous.mjs';
 import { makeMultiGitFixture } from './fixtures.mjs';
 import { GitSource, blob } from './git-ssot.mjs';
@@ -203,8 +205,55 @@ test('Authorization boundary caps timeouts, cancels active work and blocks subse
   }
 });
 
-test('Slow source read crossing run budget or grant expiry cannot dispatch or mutate checkpoint', async () => {
-  for (const boundary of ['run', 'grant']) {
+test('Inherited deadlines constrain scheduler dispatch and preserve expired checkpoints', async t => {
+  const previous = process.env.ENGINEERING_LOOP_DEADLINE;
+  const at = Date.now();
+  const clock = t.mock.method(Date, 'now', () => at);
+  const calls = [];
+  const spawn = t.mock.method(childProcess, 'spawnSync', (...args) => {
+    calls.push(args);
+    return { status: 1 }; // Stop after observing dispatch; never execute a controller.
+  });
+  syncBuiltinESMExports();
+  try {
+    for (const value of [String(at - 1), String(at), 'invalid', 'Infinity', '', '   ', String(at + 1000), String(at + 900000), undefined]) {
+      if (value === undefined) delete process.env.ENGINEERING_LOOP_DEADLINE;
+      else process.env.ENGINEERING_LOOP_DEADLINE = value;
+      calls.length = 0;
+      const data = fs.mkdtempSync(path.join(root, '.engineering-loop', 'inherited-deadline-'));
+      const g = grant(), fixture = { grant: g, controller: root, remote: 'fixture', policies: {} };
+      const l = newLedger(validateAuthorization(g, cfg, true), g);
+      l.fixture = fixture;
+      const state = { cycleId: l.cycleId, runId: 'r', taskId: 'D001', phase: 'MERGE_WAIT' };
+      writeJson(path.join(data, 'multi-ledger.json'), l);
+      writeJson(path.join(data, 'state.json'), state);
+      writeJson(path.join(data, 'control.json'), {});
+      let reads = 0;
+      const report = await autonomousRun({ root, tool: 'must-not-execute', data,
+        cfg: { ...cfg, codexTimeoutMinutes: 1, reviewTimeoutMinutes: 1 }, fixture, resume: true, driverRelease: () => {},
+        sourceFactory: () => ({ loadRemote: () => { reads++; return { tasks: [], kind: 'synthetic-git', commit: 'fixture' }; } }) });
+      if (value !== undefined && (!Number.isFinite(Number(value)) || Number(value) <= at)) {
+        assert.equal(calls.length, 0, `Must not dispatch with deadline ${JSON.stringify(value)}`);
+        assert.equal(reads, 0, 'Expired/invalid authority must stop before remote reads');
+        assert.match(report.stopReason, /deadline/i);
+        assert.equal(report.transitions, 0);
+      } else {
+        assert.equal(calls.length, 1);
+        const effective = Math.min(at + 600000, value === undefined ? Infinity : Number(value));
+        assert.equal(calls[0][2].env.ENGINEERING_LOOP_DEADLINE, String(effective));
+        assert.ok(calls[0][2].timeout <= effective - at + 10000);
+      }
+      assert.deepEqual(readJson(path.join(data, 'state.json')), state);
+    }
+  } finally {
+    spawn.mock.restore(); clock.mock.restore(); syncBuiltinESMExports();
+    if (previous === undefined) delete process.env.ENGINEERING_LOOP_DEADLINE;
+    else process.env.ENGINEERING_LOOP_DEADLINE = previous;
+  }
+});
+
+test('Slow source read crossing run budget, grant or inherited expiry cannot dispatch or mutate checkpoint', async () => {
+  for (const boundary of ['run', 'grant', 'inherited']) {
     const data = fs.mkdtempSync(path.join(root, '.engineering-loop', 'deadline-test-'));
     const realNow = Date.now, at = realNow();
     const g = grant();
@@ -217,7 +266,9 @@ test('Slow source read crossing run budget or grant expiry cannot dispatch or mu
     writeJson(path.join(data, 'multi-ledger.json'), l);
     writeJson(path.join(data, 'state.json'), state);
     writeJson(path.join(data, 'control.json'), {});
+    const previous = process.env.ENGINEERING_LOOP_DEADLINE;
     try {
+      if (boundary === 'inherited') process.env.ENGINEERING_LOOP_DEADLINE = String(at + 1000);
       const report = await autonomousRun({ root, tool: 'must-not-dispatch', data, cfg, fixture, resume: true, driverRelease: () => {},
         sourceFactory: () => ({ loadRemote: () => {
           Date.now = () => at + 2000;
@@ -227,6 +278,10 @@ test('Slow source read crossing run budget or grant expiry cannot dispatch or mu
       assert.equal(report.modelCalls, 0);
       assert.equal(report.transitions, 0);
       assert.deepEqual(readJson(path.join(data, 'state.json')), state);
-    } finally { Date.now = realNow; }
+    } finally {
+      Date.now = realNow;
+      if (previous === undefined) delete process.env.ENGINEERING_LOOP_DEADLINE;
+      else process.env.ENGINEERING_LOOP_DEADLINE = previous;
+    }
   }
 });
