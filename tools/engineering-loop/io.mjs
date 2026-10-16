@@ -3,6 +3,7 @@ import path from 'node:path';
 import os from 'node:os';
 import { spawn, spawnSync } from 'node:child_process';
 import { requireThat, hash } from './core.mjs';
+import { selectModel, selectedQuota, consumeModelBudget, observeModelEvent } from './model-routing.mjs';
 
 // Absolute authorization boundary inherited by the controller. Checkpoint JSON remains
 // writable after expiry so interrupted work can be inspected without replay.
@@ -147,7 +148,7 @@ export function codexEnvironment(input = process.env) {
 export function validateFreeQuota(result, accountType = 'chatgpt') {
   requireThat(accountType === 'chatgpt', 'Only existing ChatGPT account auth is allowed');
   const limits = Object.values(result.rateLimitsByLimitId ?? { codex: result.rateLimits });
-  requireThat(limits.length && limits.every(x => x && x.credits?.hasCredits === false && x.credits?.unlimited === false && Number(x.credits?.balance) === 0),
+  requireThat(limits.length && limits.every(x => x && x.credits?.hasCredits === false && x.credits?.unlimited === false && typeof x.credits?.balance === 'string' && /^0(?:\.0+)?$/.test(x.credits.balance)),
     'Paid credit eligibility unavailable/nonzero; no model call permitted');
   requireThat(limits.every(x => [x.primary, x.secondary].filter(Boolean).length > 0 && [x.primary, x.secondary].filter(Boolean).every(w => Number.isFinite(w.usedPercent) && w.usedPercent >= 0 && w.usedPercent <= 100)), 'Invalid quota evidence; no model call permitted');
   if (limits.some(x => x.rateLimitReachedType || [x.primary, x.secondary].filter(Boolean).some(w => w.usedPercent >= 100))) {
@@ -156,7 +157,8 @@ export function validateFreeQuota(result, accountType = 'chatgpt') {
     if (exhausted.length && exhausted.every(w => Number.isFinite(w.resetsAt))) error.retryAt = Math.max(...exhausted.map(w => w.resetsAt)) * 1000;
     throw error;
   }
-  return { checkedAt: new Date().toISOString(), chatgptOnly: true, hasCredits: false, balance: '0', ordinaryQuotaAvailable: true,
+  requireThat(limits.every(x => [x.primary, x.secondary].filter(Boolean).every(w => 100 - w.usedPercent > 20)), 'QUOTA_RESERVE: preserve at least 20% ordinary account quota');
+  return { checkedAt: new Date().toISOString(), scope: 'account-diagnostic-only', modelQuotaVerified: false, chatgptOnly: true, hasCredits: false, balance: '0', ordinaryQuotaAvailable: true,
     resetCreditsUsed: false, methods: ['initialize', 'account/read', 'account/rateLimits/read'] };
 }
 
@@ -196,26 +198,140 @@ export async function freeQuota(root) {
   });
 }
 
-export function codexArguments(entry, { workspace, schema, output, role = 'developer' }) {
+// Metadata-only RPCs: never thread/start, turn/start or a generation request.
+export async function readCodexMetadata(root) {
+  remainingTime(30000);
+  const entry = codexEntrypoint(root);
+  return new Promise((resolve, reject) => {
+    const child = spawn(process.execPath, [entry, 'app-server', '--stdio', '-c', 'forced_login_method="chatgpt"', '-c', 'model_provider="openai"'],
+      { cwd: root, env: codexEnvironment(), windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] });
+    let pending = '', done = false, pages = 0, pageId = 10;
+    const result = { checkedAt: null, accountType: null, models: [], catalogueComplete: false,
+      methods: ['initialize', 'account/read', 'model/list', 'account/rateLimits/read'], inferenceCalls: 0 };
+    const send = value => child.stdin.write(JSON.stringify(value) + '\n');
+    function finish(error) {
+      if (done) return; done = true; clearTimeout(timer); child.stdin.end();
+      if (process.platform === 'win32' && child.pid) spawnSync('taskkill.exe', ['/PID', String(child.pid), '/T', '/F'], { windowsHide: true, stdio: 'ignore' });
+      else child.kill();
+      error ? reject(error) : resolve(result);
+    }
+    const timer = deadlineTimer(30000, () => finish(new Error('CLI metadata timeout; no model call permitted')));
+    child.stderr.on('data', () => {});
+    child.stdin.on('error', () => finish(new Error('CLI metadata input pipe failed')));
+    child.on('error', () => finish(new Error('CLI metadata process failed')));
+    child.on('close', () => { if (!done) finish(new Error('CLI metadata process closed unexpectedly')); });
+    child.stdout.on('data', bytes => {
+      pending += bytes.toString('utf8'); if (pending.length > 1024 * 1024) return finish(new Error('Oversized CLI metadata'));
+      let index;
+      while ((index = pending.indexOf('\n')) >= 0 && !done) {
+        const line = pending.slice(0, index); pending = pending.slice(index + 1);
+        try {
+          const e = JSON.parse(line);
+          if (e.error && Number.isInteger(e.id)) throw new Error('CLI metadata RPC rejected; no model call permitted');
+          if (e.id === 0) { send({ method: 'initialized', params: {} }); send({ method: 'account/read', id: 1, params: { refreshToken: false } }); }
+          if (e.id === 1) {
+            result.accountType = e.result?.account?.type;
+            requireThat(result.accountType === 'chatgpt', 'Only existing ChatGPT CLI auth allowed');
+            send({ method: 'model/list', id: pageId, params: { includeHidden: false, limit: 100 } });
+          }
+          if (e.id === pageId) {
+            requireThat(++pages <= 20 && Array.isArray(e.result?.data), 'Incomplete CLI model catalogue');
+            result.models.push(...e.result.data.map(m => ({ model: m.model, id: m.id, hidden: m.hidden,
+              supportedReasoningEfforts: m.supportedReasoningEfforts, availabilityNux: m.availabilityNux ?? null })));
+            if (e.result.nextCursor) { pageId++; send({ method: 'model/list', id: pageId, params: { includeHidden: false, limit: 100, cursor: e.result.nextCursor } }); }
+            else { result.catalogueComplete = true; send({ method: 'account/rateLimits/read', id: 2 }); }
+          }
+          if (e.id === 2) {
+            const limits = e.result?.rateLimitsByLimitId ?? (e.result?.rateLimits ? { codex: e.result.rateLimits } : null);
+            requireThat(limits && Object.keys(limits).length, 'Missing CLI quota metadata');
+            result.rateLimitsByLimitId = Object.fromEntries(Object.entries(limits).map(([id, b]) => [id, {
+              limitId: b.limitId, primary: b.primary, secondary: b.secondary, credits: b.credits,
+              spendControlReached: b.spendControlReached, rateLimitReachedType: b.rateLimitReachedType,
+              model: b.model, normalModelSlug: b.normalModelSlug, models: b.models
+            }]));
+            result.checkedAt = new Date().toISOString(); finish();
+          }
+        } catch (e) { if (!(e instanceof SyntaxError)) finish(e); }
+      }
+    });
+    send({ method: 'initialize', id: 0, params: { clientInfo: { name: 'csh_routing_metadata_only', version: '1.0.0' } } });
+  });
+}
+
+export function codexArguments(entry, { workspace, schema, output, role = 'developer', model, reasoningEffort }) {
   requireThat(['developer', 'reviewer'].includes(role), 'Unknown Codex role');
+  requireThat(['gpt-6-luna', 'gpt-6.1-sol', 'gpt-6-astra'].includes(model) && ['low', 'medium', 'high'].includes(reasoningEffort), 'Explicit policy-selected model/reasoning required');
   return [entry, 'exec', '--ignore-user-config', '--ephemeral', '--sandbox', role === 'reviewer' ? 'read-only' : 'workspace-write',
+    '--model', model, '-c', `model_reasoning_effort="${reasoningEffort}"`,
     '-c', 'approval_policy="never"', '-c', 'forced_login_method="chatgpt"', '-c', 'model_provider="openai"',
     '-c', 'windows.sandbox="unelevated"', '-c', 'sandbox_workspace_write.network_access=false',
     '--cd', workspace, '--output-schema', schema, '--output-last-message', output, '--json', '--color', 'never', '-'];
 }
 
-export async function runCodex({ root, workspace, prompt, schema, output, timeoutMs, role = 'developer', onStart = () => {}, onStop = () => {}, control = () => ({}) }) {
-  const login = spawnSync(process.execPath, [codexEntrypoint(root), 'login', 'status'], { cwd: root, encoding: 'utf8', windowsHide: true, timeout: remainingTime(15000) });
-  requireThat(login.status === 0 && `${login.stdout}${login.stderr}`.includes('ChatGPT'), 'Codex must use existing ChatGPT account login');
-  const costProof = await freeQuota(root);
+export async function runCodex(options, dependencies = {}) {
+  const { root, role = 'developer', routingContext, routing: explicitPolicy } = options;
+  const runtimeConfig = path.join(root, '.engineering-loop', 'config.json');
+  const configPolicy = fs.existsSync(runtimeConfig) ? readJson(runtimeConfig).modelRouting : undefined;
+  const route = selectModel(routingContext, role, explicitPolicy ?? configPolicy ?? {});
+  const metadata = dependencies.metadata ?? readCodexMetadata, execute = dependencies.execute ?? executeCodexProcess;
+  let quotaBefore;
+  const preflightFailure = error => {
+    error.receipt = { taskId: route.taskId, role, requestedModel: route.model, actualModel: null, reasoningEffort: route.reasoningEffort,
+      dispatchAttempted: false, callsThisAttempt: 0, processId: null, threadId: null, newSession: false, usage: null, quotaBefore: quotaBefore ?? null, quotaAfter: null,
+      preflightBlocked: true, blocker: error.message, repairs: route.repair, escalationReason: route.escalationReason };
+    throw error;
+  };
+  try { quotaBefore = selectedQuota(await metadata(root), route); } catch (error) { preflightFailure(error); }
+  remainingTime(1);
+  const directory = path.join(root, '.engineering-loop', 'model-budgets'), file = path.join(directory, `${hash(route.budgetKey)}.json`);
+  const locked = fn => { const release = lock(path.join(directory, 'writer.lock'), path.join(directory, 'unused-state.json')); try { return fn(); } finally { release(); } };
+  let budget;
+  try { budget = locked(() => {
+    const next = consumeModelBudget(fs.existsSync(file) ? readJson(file) : null, route);
+    if (route.syntheticProof) {
+      const proofFile = path.join(directory, `proof-${hash(route.syntheticProof.id)}.json`);
+      const proof = fs.existsSync(proofFile) ? readJson(proofFile) : { calls: 0 };
+      requireThat(Number.isSafeInteger(proof.calls) && proof.calls >= 0 && proof.calls < route.syntheticProof.maxCalls, 'Synthetic proof call budget exhausted');
+      writeJson(proofFile, { calls: proof.calls + 1 });
+    }
+    writeJson(file, next); return next;
+  }); } catch (error) { preflightFailure(error); }
+  const receipt = { taskId: route.taskId, role, requestedModel: route.model, actualModel: null,
+    reasoningEffort: route.reasoningEffort, actualReasoningEffort: null, routingReason: route.reason, escalationReason: route.escalationReason,
+    calls: budget.calls, callsThisAttempt: 1, repairs: route.repair, escalations: budget.escalations, dispatchAttempted: true, usage: null, quotaBefore, quotaAfter: null,
+    sandbox: role === 'reviewer' ? 'read-only' : 'workspace-write', newSession: true, resumed: false,
+    chatgptOnly: true, paidApiKeysInherited: false, costProof: quotaBefore, processId: null, threadId: null,
+    startedAt: new Date().toISOString(), writeProbeAttempted: false, writeProbeDenied: false, writeProbeExitCode: null };
+  let result, failure;
+  try {
+    result = await execute({ ...options, role, route, receipt, observe: event => observeModelEvent(receipt, event, route) });
+    requireThat(receipt.actualModel === route.model, 'Actual model identity unreported/unverified; cannot accept result');
+  } catch (error) { failure = error; }
+  try {
+    receipt.quotaAfter = selectedQuota(await metadata(root), route, Date.now(), false);
+    requireThat(!receipt.quotaAfter.reserveReached, 'Post-call selected-model quota reserve reached');
+  }
+  catch { receipt.quotaAfterError = 'Post-call selected-model quota unavailable or reserve reached'; failure ??= new Error(receipt.quotaAfterError); }
+  receipt.finishedAt = new Date().toISOString();
+  if (!receipt.usage) receipt.usageUnavailableReason = 'CLI JSON emitted no supported token-usage event';
+  locked(() => {
+    const saved = readJson(file), attempt = saved.attempts.find(a => a.invocationKey === route.invocationKey);
+    requireThat(attempt, 'Missing consumed model-call checkpoint');
+    Object.assign(attempt, { status: failure ? 'BLOCKED' : 'COMPLETED', receipt }); writeJson(file, saved);
+  });
+  if (failure) { failure.receipt = receipt; throw failure; }
+  return { ...result, receipt };
+}
+
+async function executeCodexProcess({ root, workspace, prompt, schema, output, timeoutMs, role, route, receipt, observe,
+  onStart = () => {}, onStop = () => {}, control = () => ({}) }) {
   const env = codexEnvironment();
-  const args = codexArguments(codexEntrypoint(root), { workspace, schema, output, role });
-  const receipt = { role, sandbox: role === 'reviewer' ? 'read-only' : 'workspace-write', newSession: true, resumed: false,
-    chatgptOnly: true, paidApiKeysInherited: false, costProof, processId: null, threadId: null, startedAt: new Date().toISOString(), writeProbeAttempted: false, writeProbeDenied: false, writeProbeExitCode: null };
+  const args = codexArguments(codexEntrypoint(root), { workspace, schema, output, role, ...route });
   return new Promise((resolve, reject) => {
     const authorizedTimeout = remainingTime(timeoutMs);
     const child = spawn(process.execPath, args, { cwd: workspace, env, windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] });
     let ended = false, failure = null, events = 0, pending = '', modelFailure = null;
+    child.stdin.on('error', () => terminate('Codex input pipe failed'));
     // Deliberately discard command output: it can contain secrets or unbounded model text.
     child.stdout.on('data', bytes => {
       events++; pending += bytes.toString('utf8');
@@ -225,6 +341,7 @@ export async function runCodex({ root, workspace, prompt, schema, output, timeou
         const line = pending.slice(0, index); pending = pending.slice(index + 1);
         try {
           const event = JSON.parse(line);
+          try { observe(event); } catch (error) { terminate(error.message); }
           if (event.type === 'thread.started') receipt.threadId = event.thread_id;
           if (['error', 'turn.failed'].includes(event.type)) {
             const message = event.message ?? event.error?.message ?? '';
@@ -240,7 +357,7 @@ export async function runCodex({ root, workspace, prompt, schema, output, timeou
       }
     }); child.stderr.on('data', () => {});
     receipt.processId = child.pid;
-    onStart(child.pid);
+    try { onStart(child.pid); } catch { terminate('Controller start callback failed'); }
     function terminate(reason) {
       if (ended) return;
       failure = reason;
@@ -251,7 +368,9 @@ export async function runCodex({ root, workspace, prompt, schema, output, timeou
     const interval = setInterval(() => { if (control()?.stop || control()?.pause) terminate('Operator paused/stopped Codex; inspect partial edits'); }, 1000);
     child.on('error', e => { failure = `Codex spawn failed: ${e.code}`; });
     child.on('close', code => {
-      ended = true; clearTimeout(timeout); clearInterval(interval); onStop(); receipt.finishedAt = new Date().toISOString();
+      ended = true; clearTimeout(timeout); clearInterval(interval);
+      try { onStop(); } catch { failure ??= 'Controller stop callback failed'; }
+      receipt.finishedAt = new Date().toISOString();
       if (failure || code !== 0) {
         const error = new Error(failure ?? `Codex failed (exit ${code}; ${modelFailure ?? 'UNCLASSIFIED'})`);
         error.code = failure ? 'MODEL_FAILURE' : modelFailure ?? 'MODEL_FAILURE';

@@ -219,6 +219,7 @@ async function implement(state, cfg, gh, snap, task) {
       `Return schema JSON taskId ${state.taskId}, result COMPLETE, changedFiles ${JSON.stringify(policy.allowedFiles)}, actual operation tests/evidence, empty blocker and empty commitSha. Repair findings: ${JSON.stringify(state.review?.findings ?? [])}. Verified task packet ${JSON.stringify(packet(state, task, snap))}` : '';
     const prompt = state.fixturePolicies ? multiPrompt : isSynthetic(state) ? dryPrompt : livePrompt;
     const result = await runCodex({ root: ROOT, workspace: state.worktree, prompt, schema: path.join(TOOL, 'report.schema.json'), output,
+      routingContext: { task, policy, state },
       timeoutMs: cfg.codexTimeoutMinutes * 60000, control,
       onStart: pid => { move(state, 'DEVELOPING', { deadline: null, writerPid: pid }); save(state); }, onStop: () => { state.writerPid = null; save(state); } });
     state.developerReport = result.report;

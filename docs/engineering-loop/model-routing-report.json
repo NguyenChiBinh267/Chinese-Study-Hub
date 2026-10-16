@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-16T00:01:30.623Z",
+  "status": "NON_AI_PATCH_VERIFIED_RUNTIME_BLOCKED",
+  "baseCommit": "6c429eff0337e286253bdba02fa5b40ccd40d370",
+  "branch": "loop/adaptive-model-routing",
+  "routing": {
+    "simpleDeveloper": "gpt-6-luna/low",
+    "ordinaryDeveloper": "gpt-6-luna/medium",
+    "highRiskDeveloper": "gpt-6.1-sol/medium",
+    "lightReviewer": "gpt-6-luna/medium",
+    "highRiskReviewer": "gpt-6.1-sol/high",
+    "classification": "deterministic verified task specification and file scope; no classifier model"
+  },
+  "policy": {
+    "quotaReservePercent": 20,
+    "maxCallsPerTask": 6,
+    "maxDeveloperCalls": 3,
+    "maxReviewerCalls": 3,
+    "maxEscalationsPerTask": 0,
+    "allowEscalation": false,
+    "allowAstra": false,
+    "allowedEscalationModels": [
+      "gpt-6.1-sol"
+    ],
+    "syntheticProofAuthorization": null
+  },
+  "nonAiValidation": {
+    "regressions": {
+      "passed": 106,
+      "total": 106,
+      "newRoutingTests": 17,
+      "artifact": ".engineering-loop/model-routing-final-tests.xml",
+      "sha256": "820a5f799a907fc663707ad4bdee1bb8f044ec9490c417ed492f6d6a6df8dcd4"
+    },
+    "legacy": {
+      "passed": 18,
+      "total": 18
+    },
+    "fakeModelRunnerOnly": true,
+    "realIsolatedGitFixtures": true
+  },
+  "authenticatedCliMetadata": {
+    "cliVersion": "codex-cli 0.153.4",
+    "checkedAt": "2026-10-15T23:55:28.842Z",
+    "accountType": "chatgpt",
+    "methods": [
+      "initialize",
+      "account/read",
+      "model/list",
+      "account/rateLimits/read"
+    ],
+    "catalogueComplete": true,
+    "advertisedModels": [
+      {
+        "model": "gpt-6-astra",
+        "hidden": false,
+        "reasoningEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ]
+      },
+      {
+        "model": "gpt-5.6-sol",
+        "hidden": false,
+        "reasoningEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ]
+      },
+      {
+        "model": "gpt-5.6-terra",
+        "hidden": false,
+        "reasoningEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ]
+      },
+      {
+        "model": "gpt-5.6-luna",
+        "hidden": false,
+        "reasoningEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      }
+    ],
+    "quotaBucketIds": [
+      "codex"
+    ],
+    "selectedModelBindings": 0,
+    "inferenceCalls": 0,
+    "apiModelCatalogueUsed": false
+  },
+  "currentRuntimeBlockers": [
+    "Authenticated CLI catalogue does not advertise gpt-6-luna or gpt-6.1-sol; no substitution to 5.6 or Astra is performed.",
+    "CLI quota metadata exposes an unbound codex account bucket; selected-model quota association is unavailable."
+  ],
+  "evidenceLimits": [
+    "No actual inference/model availability generation probe, Codex E2E, bootstrap-review, multi-proof or real backlog was run.",
+    "Actual inference model/reasoning events, real token totals and quota savings are not measured; usage tests are synthetic data only.",
+    "A future CLI call is BLOCKED when actual model identity is unreported/mismatched, required quota metadata is absent or the reserve/call budget is reached.",
+    "Preflight/postflight reserve checks cannot guarantee a long in-flight call never crosses the reserve.",
+    "No independent AI review was run or claimed; no READY_FOR_AUTHORIZATION or fully automated lifecycle claim."
+  ],
+  "priorPatch": {
+    "preserved": true,
+    "assumedMerged": false,
+    "grantImplementationAndTestsUnchanged": true,
+    "bootstrapGrantCodePreservedWithRoutingContextAndTestListAdditions": true,
+    "historicalReview": ".engineering-loop/followup-main/delivery-report.json",
+    "unresolvedPriorFindings": [
+      "Inherited effective deadline persistence across resume",
+      "Retry consumption/checkpoint crash ordering"
+    ],
+    "historicalBootstrapStateNotPromoted": true
+  },
+  "safety": {
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "bootstrapMergeAuthorization": null,
+    "zeroTouchAuthorization": null,
+    "control": {
+      "pause": false,
+      "stop": true,
+      "changedAt": "2026-10-14T10:03:53.852Z"
+    },
+    "paidApiKeysUsed": false,
+    "paidCreditsOrResetsUsed": false,
+    "newServicesCreated": false,
+    "mainMerged": false,
+    "realBacklogRun": false,
+    "syntheticCliProofRun": false,
+    "cliInferenceCalls": 0
+  },
+  "operations": "docs/engineering-loop/model-routing.md"
+}

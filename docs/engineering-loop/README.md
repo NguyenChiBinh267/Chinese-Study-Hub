@@ -1,5 +1,7 @@
 # Git-native engineering loop — operations
 
+Adaptive model routing/quota policy: [model-routing.md](model-routing.md). Real CLI dispatch now requires the selected model and its quota association to be advertised by the authenticated CLI; current requested-model availability is BLOCKED. This follow-up is verified with non-AI tests only. Synthetic model proofs are disabled by default.
+
 Zero-touch scheduling/bootstrap is documented in [zero-touch.md](zero-touch.md). It reuses this controller and its phase/merge/status adapters. `multi-proof` runs multiple synthetic tasks and supervised restart; `bootstrap-review <PR>` reviews an explicitly selected open draft candidate; PR #3 is merged and is not modified. Real authority remains disabled. Historical single-task proof below remains intact.
 
 The existing controller now uses Git SOURCE/status and independent local Codex review. No Google API/OAuth/Picker/Cloud project or Work event is on the critical path. The owner approved this authority change; PR #3 was merged as 99f00827664fa2ac1c3263d3d98b4e25d9ad5c72 and Git SSOT now exists on verified origin/main. Prior bootstrap REWORK is retained; the follow-up candidate requires full independent review before authorization. SOURCE reads pinned main, never the local candidate as fallback.
@@ -16,7 +18,7 @@ node tools/engineering-loop/loop.mjs candidate-pick
 node tools/engineering-loop/loop.mjs ssot-status
 node tools/engineering-loop/loop.mjs doctor
 node tools/engineering-loop/loop.mjs dry-run
-node --test tools/engineering-loop/local.test.mjs tools/engineering-loop/git.test.mjs tools/engineering-loop/autonomous.test.mjs tools/engineering-loop/bootstrap.test.mjs tools/engineering-loop/recovery.test.mjs
+node --test tools/engineering-loop/local.test.mjs tools/engineering-loop/git.test.mjs tools/engineering-loop/autonomous.test.mjs tools/engineering-loop/bootstrap.test.mjs tools/engineering-loop/recovery.test.mjs tools/engineering-loop/model-routing.test.mjs
 node tools/engineering-loop/loop.mjs dry-git
 ```
 
