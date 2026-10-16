@@ -1,6 +1,6 @@
 # Git-native engineering loop — operations
 
-Adaptive model routing/quota policy: [model-routing.md](model-routing.md). Real CLI dispatch now requires the selected model and its quota association to be advertised by the authenticated CLI; current requested-model availability is BLOCKED. This follow-up is verified with non-AI tests only. Synthetic model proofs are disabled by default.
+Adaptive model routing/quota policy: [model-routing.md](model-routing.md). Exact model IDs come from the authenticated CLI catalogue. When per-model quota is absent, the guard uses verified shared Codex account limits with a 20% reserve. See [metadata/mock readiness](model-routing-readiness.json); actual generation remains untested. Synthetic model proofs are disabled by default.
 
 Zero-touch scheduling/bootstrap is documented in [zero-touch.md](zero-touch.md). It reuses this controller and its phase/merge/status adapters. `multi-proof` runs multiple synthetic tasks and supervised restart; `bootstrap-review <PR>` reviews an explicitly selected open draft candidate; PR #3 is merged and is not modified. Real authority remains disabled. Historical single-task proof below remains intact.
 

@@ -260,7 +260,8 @@ export async function readCodexMetadata(root) {
 
 export function codexArguments(entry, { workspace, schema, output, role = 'developer', model, reasoningEffort }) {
   requireThat(['developer', 'reviewer'].includes(role), 'Unknown Codex role');
-  requireThat(['gpt-6-luna', 'gpt-6.1-sol', 'gpt-6-astra'].includes(model) && ['low', 'medium', 'high'].includes(reasoningEffort), 'Explicit policy-selected model/reasoning required');
+  // Availability is verified against authenticated model/list in runCodex before dispatch.
+  requireThat(typeof model === 'string' && /^[a-zA-Z0-9][a-zA-Z0-9._-]{0,99}$/.test(model) && ['low', 'medium', 'high'].includes(reasoningEffort), 'Explicit policy-selected model/reasoning required');
   return [entry, 'exec', '--ignore-user-config', '--ephemeral', '--sandbox', role === 'reviewer' ? 'read-only' : 'workspace-write',
     '--model', model, '-c', `model_reasoning_effort="${reasoningEffort}"`,
     '-c', 'approval_policy="never"', '-c', 'forced_login_method="chatgpt"', '-c', 'model_provider="openai"',
@@ -272,7 +273,8 @@ export async function runCodex(options, dependencies = {}) {
   const { root, role = 'developer', routingContext, routing: explicitPolicy } = options;
   const runtimeConfig = path.join(root, '.engineering-loop', 'config.json');
   const configPolicy = fs.existsSync(runtimeConfig) ? readJson(runtimeConfig).modelRouting : undefined;
-  const route = selectModel(routingContext, role, explicitPolicy ?? configPolicy ?? {});
+  const policy = explicitPolicy ?? configPolicy ?? {};
+  let route = selectModel(routingContext, role, policy); // Validate task/proof authorization before metadata RPCs.
   const metadata = dependencies.metadata ?? readCodexMetadata, execute = dependencies.execute ?? executeCodexProcess;
   let quotaBefore;
   const preflightFailure = error => {
@@ -281,7 +283,7 @@ export async function runCodex(options, dependencies = {}) {
       preflightBlocked: true, blocker: error.message, repairs: route.repair, escalationReason: route.escalationReason };
     throw error;
   };
-  try { quotaBefore = selectedQuota(await metadata(root), route); } catch (error) { preflightFailure(error); }
+  try { const snapshot = await metadata(root); route = selectModel(routingContext, role, policy, snapshot); quotaBefore = selectedQuota(snapshot, route); } catch (error) { preflightFailure(error); }
   remainingTime(1);
   const directory = path.join(root, '.engineering-loop', 'model-budgets'), file = path.join(directory, `${hash(route.budgetKey)}.json`);
   const locked = fn => { const release = lock(path.join(directory, 'writer.lock'), path.join(directory, 'unused-state.json')); try { return fn(); } finally { release(); } };

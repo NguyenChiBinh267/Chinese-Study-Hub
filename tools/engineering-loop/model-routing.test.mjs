@@ -3,13 +3,13 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { fileURLToPath } from 'node:url';
-import { selectModel, supportedModel, selectedQuota, consumeModelBudget, observeModelEvent } from './model-routing.mjs';
+import { selectModel as routeModel, supportedModel, selectedQuota, consumeModelBudget, observeModelEvent } from './model-routing.mjs';
 import { runCodex, codexArguments, writeJson, readJson, git } from './io.mjs';
 import { localReview, reviewPlan } from './reviewer.mjs';
 import { hash } from './core.mjs';
 
 const workspace = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const luna = 'gpt-6-luna', sol = 'gpt-6.1-sol';
+const luna = 'gpt-5.6-luna', sol = 'gpt-5.6-sol';
 const context = (extra = {}) => ({ task: { id: 'T004', spec: ['Update the small help document'] }, policy: { allowedFiles: ['docs/help.md'] },
   state: { taskId: 'T004', runId: 'unit-run', repairs: 0, commitSha: 'a'.repeat(40), sourceCommit: 'b'.repeat(40) }, ...extra });
 const bucket = (model = luna, usedPercent = 30) => ({ model, credits: { hasCredits: false, unlimited: false, balance: '0' }, spendControlReached: false,
@@ -17,6 +17,7 @@ const bucket = (model = luna, usedPercent = 30) => ({ model, credits: { hasCredi
 const metadata = () => ({ checkedAt: new Date().toISOString(), accountType: 'chatgpt', catalogueComplete: true,
   models: [luna, sol, 'gpt-6-astra'].map(model => ({ model, hidden: false, supportedReasoningEfforts: ['low', 'medium', 'high'], availabilityNux: null })),
   rateLimitsByLimitId: { luna: bucket(), sol: bucket(sol), astra: bucket('gpt-6-astra') } });
+const selectModel = (c, role, policy, m = metadata()) => routeModel(c, role, policy, m);
 function setup() {
   const parent = path.join(workspace, '.engineering-loop', 'routing-tests'); fs.mkdirSync(parent, { recursive: true });
   const root = fs.mkdtempSync(path.join(parent, 'run-'));
@@ -37,7 +38,7 @@ test('Deterministic task/role routing uses Luna low/medium and Sol for security/
   for (const file of ['settings.json', 'styles/main.css', 'src/ui/label.tsx'])
     assert.equal(selectModel(context({ policy: { allowedFiles: [file] } }), 'developer').reasoningEffort, 'low');
   assert.equal(selectModel(context({ policy: { allowedFiles: ['src/domain/planner.ts'] } }), 'developer').reasoningEffort, 'medium');
-  for (const spec of ['Implement authentication', 'RLS least privilege', 'security audit', 'concurrency race', 'Git merge and SSOT', 'Complex dependency change']) {
+  for (const spec of ['Implement authentication', 'RLS least privilege', 'security audit', 'concurrency race', 'Git merge and SSOT', 'Complex dependency change', 'Architecture decisions', 'Debug root cause of deadlock']) {
     const c = context({ task: { id: 'T004', spec: [spec] } });
     assert.equal(selectModel(c, 'developer').model, sol); assert.equal(selectModel(c, 'reviewer').reasoningEffort, 'high');
   }
@@ -48,7 +49,7 @@ test('Deterministic task/role routing uses Luna low/medium and Sol for security/
 test('Escalation never happens automatically; Astra requires explicit policy and recorded reason', () => {
   const c = context({ escalation: { model: sol, reason: 'Owner-authorized escalation for a documented implementation obstacle' } });
   assert.throws(() => selectModel(c, 'developer'), /authorized/);
-  const policy = { allowEscalation: true, maxEscalationsPerTask: 1 };
+  const policy = { allowEscalation: true, maxEscalationsPerTask: 1, allowedEscalationModels: [sol] };
   assert.equal(selectModel(c, 'developer', policy).model, sol);
   c.escalation.model = 'gpt-6-astra'; assert.throws(() => selectModel(c, 'developer', policy));
   assert.equal(selectModel(c, 'reviewer', { ...policy, allowAstra: true, allowedEscalationModels: ['gpt-6-astra'] }).model, 'gpt-6-astra');
@@ -70,12 +71,43 @@ test('Authenticated model catalogue, availability and reasoning support are mand
     { models: [{ ...m.models[0], supportedReasoningEfforts: ['high'] }] }]) assert.throws(() => supportedModel({ ...m, ...patch }, route));
 });
 
-test('Selected-model quota association is required; unrelated exhausted model does not block Luna', () => {
+test('Exact IDs come only from runtime catalogue; family preference never invents an unavailable version', () => {
+  assert.equal(routeModel(context(), 'developer').model, null); // Authorization/classification only, cannot dispatch.
+  const m = metadata();
+  assert.equal(selectModel(context(), 'developer', {}, m).model, 'gpt-5.6-luna');
+  m.models = m.models.map(x => ({ ...x, model: x.model.replace('5.6', '7.2') }));
+  assert.equal(selectModel(context(), 'developer', {}, m).model, 'gpt-7.2-luna');
+  m.models.push({ ...m.models[0], model: 'gpt-8-luna' });
+  assert.throws(() => selectModel(context(), 'developer', {}, m), /unambiguous/);
+  m.models = metadata().models.filter(x => x.model === 'gpt-6-astra');
+  assert.throws(() => selectModel(context(), 'developer', {}, m), /MODEL_UNAVAILABLE/);
+  m.models = [{ ...metadata().models[0], model: 'unknown-tiny' }];
+  assert.throws(() => selectModel(context(), 'developer', {}, m), /MODEL_UNAVAILABLE/);
+});
+
+test('Light routing chooses lowest supported policy tier; strong routing never downgrades security', () => {
+  const m = metadata(), template = m.models[0];
+  m.models = [{ ...template, model: 'gpt-5.6-terra' }, m.models[1]];
+  assert.equal(selectModel(context(), 'developer', {}, m).model, 'gpt-5.6-terra');
+  const c = context({ task: { id: 'T004', spec: ['Security architecture'] } });
+  assert.equal(selectModel(c, 'reviewer', {}, m).model, sol);
+  m.models = [template];
+  assert.throws(() => selectModel(c, 'reviewer', {}, m), /MODEL_UNAVAILABLE/);
+  m.models = [{ ...template, supportedReasoningEfforts: ['high'] }];
+  assert.throws(() => selectModel(context(), 'developer', {}, m), /MODEL_UNAVAILABLE/);
+});
+
+test('Shared account quota is used conservatively when per-model quota is unavailable', () => {
   const route = selectModel(context(), 'developer'), m = metadata();
   m.rateLimitsByLimitId.sol.primary.usedPercent = 100;
   assert.equal(selectedQuota(m, route).model, luna);
   const generic = bucket(); delete generic.model;
-  assert.throws(() => selectedQuota({ ...m, rateLimitsByLimitId: { codex: generic } }, route), /MODEL_QUOTA_UNVERIFIED/);
+  generic.secondary = { ...generic.primary, usedPercent: 35, windowDurationMins: 10080 };
+  const shared = selectedQuota({ ...m, rateLimitsByLimitId: { codex: generic } }, route);
+  assert.equal(shared.quotaScope, 'shared-account'); assert.equal(shared.modelQuotaVerified, false);
+  assert.equal(shared.remainingPercent, 65); assert.equal(shared.usablePercent, 45);
+  assert.throws(() => selectedQuota({ ...m, rateLimitsByLimitId: { unknown: generic } }, route), /QUOTA_UNVERIFIED/);
+  assert.throws(() => selectedQuota({ ...m, rateLimitsByLimitId: { codex: bucket(sol) } }, route), /QUOTA_UNVERIFIED/);
   m.rateLimitsByLimitId.codex = generic; generic.primary.usedPercent = 80;
   assert.throws(() => selectedQuota(m, route), /RESERVE/);
 });
@@ -90,12 +122,23 @@ test('20 percent reserve is protected on every window; missing/stale/paid metada
   assert.throws(() => selectedQuota({ ...m, checkedAt: new Date(Date.now() - 61000).toISOString() }, route), /Stale/);
 });
 
+test('Missing shared metadata and reserve equality block without inventing per-model quota', () => {
+  const r = selectModel(context(), 'reviewer');
+  for (const mutate of [q => { delete q.credits; }, q => { delete q.spendControlReached; }, q => { q.primary = null; },
+    q => { q.primary.resetsAt = 1; }, q => { q.primary.usedPercent = 80; }, q => { q.primary.windowDurationMins = null; }]) {
+    const m = metadata(), q = bucket(); delete q.model; mutate(q); m.rateLimitsByLimitId = { codex: q };
+    assert.throws(() => selectedQuota(m, r));
+  }
+});
+
 test('Budgets count attempts, repair/escalation limits, and exact invocation replay', () => {
   const r = selectModel(context(), 'developer'), b = consumeModelBudget(null, r);
   assert.equal(b.calls, 1); assert.equal(b.attempts[0].status, 'RESERVED'); assert.throws(() => consumeModelBudget(b, r), /Duplicate/);
   const c = context(); c.state.repairs = 3; assert.throws(() => selectModel(c, 'developer'), /repair/);
-  const e = selectModel(context({ escalation: { model: sol, reason: 'Explicit owner-approved diagnostic escalation for this task' } }), 'developer', { allowEscalation: true, maxEscalationsPerTask: 1 });
-  const eb = consumeModelBudget(null, e); assert.throws(() => consumeModelBudget(eb, { ...e, invocationKey: 'another' }), /escalation budget/);
+  const e = selectModel(context({ escalation: { model: sol, reason: 'Explicit owner-approved diagnostic escalation for this task' } }), 'developer', { allowEscalation: true, maxEscalationsPerTask: 1, allowedEscalationModels: [sol] });
+  assert.throws(() => consumeModelBudget(null, e), /recorded failed/);
+  b.attempts[0].status = 'BLOCKED';
+  const eb = consumeModelBudget(b, e); assert.throws(() => consumeModelBudget(eb, { ...e, invocationKey: 'another' }), /escalation budget/);
   assert.throws(() => consumeModelBudget({ ...b, calls: 0 }, r), /Corrupt/);
 });
 
@@ -120,6 +163,24 @@ test('Unavailable model or unbound quota stops before fake runner and consumes n
   }
 });
 
+test('Shared-account metadata admits a mock only; no per-model allowance is claimed', async () => {
+  const args = setup();
+  const result = await runCodex(args, deps({ metadata: async () => { const m = metadata(), q = bucket(); delete q.model; m.rateLimitsByLimitId = { codex: q }; return m; } }));
+  assert.equal(result.receipt.actualModel, luna); assert.equal(result.receipt.quotaBefore.quotaScope, 'shared-account');
+  assert.equal(result.receipt.quotaAfter.modelQuotaVerified, false);
+});
+
+test('Reviewer cannot spend quota again on same HEAD via repair, policy or model change after restart', async () => {
+  const args = setup(); args.role = 'reviewer'; await runCodex(args, deps());
+  args.routingContext.state.repairs = 1;
+  args.routingContext.task.spec = ['Security architecture with changed contract'];
+  await assert.rejects(runCodex(args, deps()), /Duplicate reviewer HEAD/);
+  args.routingContext.state.commitSha = 'c'.repeat(40);
+  assert.equal((await runCodex(args, deps())).receipt.calls, 2);
+  const r = selectModel(context(), 'reviewer'), legacy = consumeModelBudget(null, r); delete legacy.attempts[0].commitSha;
+  assert.throws(() => consumeModelBudget(legacy, { ...r, invocationKey: 'different' }), /legacy review missing HEAD/);
+});
+
 test('Failed dispatch consumes a durable call; restarted run cannot refund or repeat it', async () => {
   const args = setup(); let consumed;
   await assert.rejects(runCodex(args, deps({ execute: async () => {
@@ -134,7 +195,7 @@ test('Failed dispatch consumes a durable call; restarted run cannot refund or re
 
 test('One explicitly authorized escalation can follow a failed same-HEAD call; no repeated escalation', async () => {
   const args = setup(); await assert.rejects(runCodex(args, deps({ execute: async () => { throw new Error('fake failure'); } })), /failure/);
-  args.routing = { allowEscalation: true, maxEscalationsPerTask: 1 };
+  args.routing = { allowEscalation: true, maxEscalationsPerTask: 1, allowedEscalationModels: [sol] };
   args.routingContext.escalation = { model: sol, reason: 'Owner-authorized escalation following a documented failed attempt' };
   const next = await runCodex(args, deps()); assert.equal(next.receipt.calls, 2); assert.equal(next.receipt.escalations, 1);
   await assert.rejects(runCodex(args, deps()), /Duplicate|escalation budget/);

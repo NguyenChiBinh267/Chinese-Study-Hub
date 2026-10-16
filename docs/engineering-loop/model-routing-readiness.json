@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-16T00:19:50.287Z",
+  "status": "READY_FOR_SMOKE_TEST",
+  "readinessScope": "Authenticated metadata admission plus mock regression coverage; no inference or execution authorization",
+  "baseCommit": "c892d1cc19ee89cfa9e5f8156d27365b3f30edcb",
+  "branch": "loop/adaptive-model-routing",
+  "cliVersion": "codex-cli 0.153.4",
+  "discovery": {
+    "methods": [
+      "initialize",
+      "account/read",
+      "model/list",
+      "account/rateLimits/read"
+    ],
+    "accountType": "chatgpt",
+    "catalogueComplete": true,
+    "advertisedModels": [
+      {
+        "model": "gpt-6-astra",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ]
+      },
+      {
+        "model": "gpt-5.6-sol",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ]
+      },
+      {
+        "model": "gpt-5.6-terra",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ]
+      },
+      {
+        "model": "gpt-5.6-luna",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      }
+    ],
+    "apiModelCatalogueUsed": false,
+    "cliInferenceCalls": 0,
+    "desktopMechanism": "get_usage_limits: account-level rateLimitsByLimitId; not CLI model entitlement",
+    "metadataArtifact": ".engineering-loop/adaptive-routing-discovery.json"
+  },
+  "routing": {
+    "policy": "Only visible available authenticated IDs with supported effort; light family order luna/terra/sol; high risk sol; no automatic astra; ambiguous versions block",
+    "familyOrderingEvidence": "Deterministic policy assumption, not measured pricing or savings",
+    "examples": [
+      {
+        "classification": "Small help document",
+        "role": "developer",
+        "model": "gpt-5.6-luna",
+        "reasoningEffort": "low"
+      },
+      {
+        "classification": "Small help document",
+        "role": "reviewer",
+        "model": "gpt-5.6-luna",
+        "reasoningEffort": "medium"
+      },
+      {
+        "classification": "Security architecture and complex debugging",
+        "role": "developer",
+        "model": "gpt-5.6-sol",
+        "reasoningEffort": "medium"
+      },
+      {
+        "classification": "Security architecture and complex debugging",
+        "role": "reviewer",
+        "model": "gpt-5.6-sol",
+        "reasoningEffort": "high"
+      }
+    ]
+  },
+  "quota": {
+    "scope": "shared-account",
+    "modelQuotaVerified": false,
+    "reservePercent": 20,
+    "remainingPercent": 64,
+    "usablePercentagePoints": 44,
+    "formula": "remaining=min(100-usedPercent) over all applicable windows; usable=max(0,remaining-20); admission requires remaining>20",
+    "bucketIds": [
+      "codex"
+    ],
+    "freshnessMaxSeconds": 60,
+    "refreshedBeforeAndAfterEveryDispatch": true,
+    "noPerModelAllowanceAssumed": true,
+    "noTokenBudgetInferred": true,
+    "buckets": [
+      {
+        "id": "codex",
+        "windows": [
+          {
+            "usedPercent": 30,
+            "remainingPercent": 70,
+            "resetsAt": 1792125614,
+            "windowDurationMins": 300
+          },
+          {
+            "usedPercent": 36,
+            "remainingPercent": 64,
+            "resetsAt": 1792650357,
+            "windowDurationMins": 10080
+          }
+        ]
+      }
+    ]
+  },
+  "policy": {
+    "quotaReservePercent": 20,
+    "maxCallsPerTask": 6,
+    "maxDeveloperCalls": 3,
+    "maxReviewerCalls": 3,
+    "maxEscalationsPerTask": 0,
+    "allowEscalation": false,
+    "allowAstra": false,
+    "allowedEscalationModels": [],
+    "syntheticProofAuthorization": null
+  },
+  "nonAiValidation": {
+    "regressions": {
+      "passed": 111,
+      "failed": 0,
+      "routingTests": 22,
+      "artifact": ".engineering-loop/adaptive-routing-regressions.xml",
+      "sha256": "386bf010ec19b493c481bb73fcaf2ab781db094d6b49e002e06205fb98bdc52f"
+    },
+    "legacy": {
+      "passed": 18,
+      "total": 18,
+      "artifact": ".engineering-loop/adaptive-routing-legacy.json"
+    },
+    "mockRunnerOnly": true,
+    "subagentsStarted": 0
+  },
+  "priorPatch": {
+    "preserved": true,
+    "grantImplementationAndTestsUnchangedFromBase": true,
+    "bootstrapImplementationUnchangedFromBase": true,
+    "historicalReviewState": "BLOCKED",
+    "historicalReviewRepairs": 2,
+    "historicalCandidate": "6c429eff0337e286253bdba02fa5b40ccd40d370",
+    "historicalReport": ".engineering-loop/followup-main/delivery-report.json",
+    "previousRoutingReport": "docs/engineering-loop/model-routing-report.json"
+  },
+  "remainingBlockers": {
+    "smoke": "Not authorized or executed; bounded synthetic proof authorization remains null and stop remains true",
+    "unverifiedRuntime": [
+      "CLI generation availability and actual model/effort identity events",
+      "Actual token usage events, independent sandbox behavior and quota consumption in a real run",
+      "Measured quota savings; in-flight call may cross reserve before postflight snapshot"
+    ],
+    "beforeRealBacklog": [
+      "Historical full-candidate review remains BLOCKED; inherited deadline persistence and retry checkpoint crash-order findings remain unresolved",
+      "Fresh independent full-candidate PASS and explicit live/merge/status authorization plus source/dependency/human evidence gates required"
+    ]
+  },
+  "safety": {
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "bootstrapMergeAuthorization": null,
+    "zeroTouchAuthorization": null,
+    "syntheticProofAuthorization": null,
+    "control": {
+      "pause": false,
+      "stop": true,
+      "changedAt": "2026-10-14T10:03:53.852Z"
+    },
+    "paidApiKeysUsed": false,
+    "paidCreditsOrResetsUsed": false,
+    "servicesCreated": false,
+    "merged": false,
+    "pushed": false,
+    "realBacklogRun": false,
+    "smokeRun": false,
+    "bootstrapReviewRun": false,
+    "cliInferenceCalls": 0
+  }
+}
