@@ -11,6 +11,7 @@ import { localReview, reviewPlan } from './reviewer.mjs';
 import { hash } from './core.mjs';
 import { safeLaunch, processDiagnostics } from './diagnostics.mjs';
 import { createSmokeEventGuard, EXEC_SCHEMA_SOURCE } from './smoke-events.mjs';
+import { SKILL_DESCRIPTION_TRUNCATED_WARNING, EXEC_IDENTITY_CAPABILITY } from './cli-exec-contract.mjs';
 
 const workspace = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const luna = 'gpt-5.6-luna', sol = 'gpt-5.6-sol';
@@ -284,7 +285,10 @@ test('Repair review narrows to verified delta while retaining current-SHA accept
 
 async function processFixture(scenario = {}) {
   const options = setup(); options.output = path.join(options.root, 'out.json'); options.timeoutMs = scenario.timeout ? 5 : 1000;
-  if (scenario.smoke) options.executionProfile = 'minimal-luna-smoke';
+  if (scenario.smoke) {
+    options.executionProfile = 'minimal-luna-smoke'; options.schema = path.join(options.root, 'schema.json');
+    writeJson(options.schema, { type: 'object', properties: { ok: { type: 'boolean', const: true } }, required: ['ok'], additionalProperties: false });
+  }
   let spawns = 0, stops = 0, child;
   const entry = 'fixture-entry';
   const process = { entrypoint: () => entry, spawn: (executable, args) => {
@@ -427,7 +431,9 @@ test('Smoke guard: version-pinned JSONL supports observational item.updated with
   ];
   const stream = events.map(e => JSON.stringify(e)).join('\n');
   const r = await processFixture({ smoke: true, stdout: [stream.slice(0, 41), stream.slice(41, 120), stream.slice(120)], code: 0, output: { ok: true } });
-  assert.equal(r.succeeded, true); assert.equal(r.spawns, 1); assert.equal(r.stops, 0);
+  assert.equal(r.succeeded, false); assert.equal(r.receipt.runtimeVerification.verified, true);
+  assert.equal(r.receipt.actualModelVerified, false, 'Synthetic extra model fields do not extend the pinned CLI schema');
+  assert.equal(r.receipt.unverifiedReportedModel, luna); assert.equal(r.spawns, 1); assert.equal(r.stops, 0);
   assert.equal(r.receipt.diagnostics.smoke.accepted, 6); assert.equal(r.receipt.diagnostics.smoke.rejected, 0);
   assert.equal(r.receipt.diagnostics.smoke.schemaSource, EXEC_SCHEMA_SOURCE);
   assert.doesNotMatch(JSON.stringify(r.receipt.diagnostics.smoke), /PRIVATE_REASONING|fixture|"i1"|"ok"/);
@@ -444,6 +450,65 @@ test('Smoke guard: error item is a reported CLI error, never counted as a tool o
   assert.equal(d.classification, 'MODEL_ACCESS'); assert.equal(d.exitCode, 1);
   assert.equal(d.safeErrorDetails[0].mentionedModels[0], luna); assert.equal(d.safeErrorDetails[0].identityEvidence, false);
   assert.doesNotMatch(JSON.stringify(d), /DO_NOT_LOG_THIS|error-id/);
+});
+
+const supportedSmokeEvents = ({ warning = true, identity = false } = {}) => [
+  { type: 'thread.started', thread_id: 'fake-cli-thread', ...(identity ? { model: luna, reasoning_effort: 'low' } : {}) },
+  { type: 'turn.started' },
+  ...(warning ? [{ type: 'item.completed', item: { id: 'w', type: 'error', message: SKILL_DESCRIPTION_TRUNCATED_WARNING } }] : []),
+  { type: 'item.completed', item: { id: 'answer', type: 'agent_message', text: '{"ok":true}' } },
+  { type: 'turn.completed', usage: { input_tokens: 10, cached_input_tokens: 4, output_tokens: 2 } }
+];
+test('Exact source warning passes as NONFATAL_WARNING without retaining message, length heuristics or raw text', async () => {
+  const r = await processFixture({ smoke: true, stdout: [supportedSmokeEvents().map(e => JSON.stringify(e)).join('\n') + '\n'], code: 0, output: { ok: true } });
+  assert.equal(r.stops, 0); assert.equal(r.receipt.diagnostics.smoke.nonfatalWarnings, 1);
+  assert.equal(r.receipt.diagnostics.smoke.records[2].reason, 'NONFATAL_WARNING');
+  assert.equal(r.receipt.diagnostics.smoke.records[2].warningCode, 'SKILL_DESCRIPTION_TRUNCATED_WARNING');
+  assert.doesNotMatch(JSON.stringify(r.receipt.diagnostics), /Skill descriptions were shortened/);
+  assert.equal(r.receipt.runtimeVerification.verified, true);
+  assert.equal(r.succeeded, false, 'Runtime criteria do not grant an alternative model-identity policy');
+  assert.equal(r.receipt.requestedModel, luna); assert.equal(r.receipt.catalogVerifiedModel, luna);
+  assert.equal(r.receipt.actualModel, null); assert.equal(r.receipt.actualModelVerified, false);
+  assert.equal(EXEC_IDENTITY_CAPABILITY.supportedActualModelEvent, null);
+  assert.match(r.error.message, /Actual model identity/);
+});
+test('Near warnings, same-length substitutions, added text and malformed warning envelopes fail closed', () => {
+  for (const message of [SKILL_DESCRIPTION_TRUNCATED_WARNING.replace('Skill', 'skill'), SKILL_DESCRIPTION_TRUNCATED_WARNING + ' ', ' ' + SKILL_DESCRIPTION_TRUNCATED_WARNING, SKILL_DESCRIPTION_TRUNCATED_WARNING.replace('skills', 'models'), 'x'.repeat(201), 'model rerouted: luna -> sol']) {
+    const g = createSmokeEventGuard(); const r = g.inspect({ type: 'item.completed', item: { id: 'w', type: 'error', message } });
+    assert.equal(r.action, 'reject'); assert.equal(g.state.nonfatalWarnings, 0);
+  }
+  for (const e of [
+    { type: 'error', message: SKILL_DESCRIPTION_TRUNCATED_WARNING },
+    { type: 'item.updated', item: { id: 'w', type: 'error', message: SKILL_DESCRIPTION_TRUNCATED_WARNING } },
+    { type: 'item.completed', item: { id: 'w', type: 'error', message: SKILL_DESCRIPTION_TRUNCATED_WARNING, command: 'write' } }
+  ]) assert.equal(createSmokeEventGuard().inspect(e).action, 'reject');
+});
+test('An exact warning does not exempt later reroute, tools, writes, delegation or malformed stream', async () => {
+  const warning = JSON.stringify(supportedSmokeEvents()[2]) + '\n';
+  for (const last of [
+    JSON.stringify({ type: 'item.completed', item: { id: 'r', type: 'error', message: 'model rerouted: gpt-5.6-luna -> gpt-5.6-sol' } }),
+    ...['command_execution', 'file_change', 'collab_tool_call'].map(type => JSON.stringify({ type: 'item.started', item: { id: 'x', type } })),
+    '{broken'
+  ]) {
+    const r = await processFixture({ smoke: true, stdout: [warning + last + '\n'], code: 0, output: { ok: true } });
+    assert.equal(r.succeeded, false); assert.equal(r.stops, 1); assert.equal(r.receipt.diagnostics.smoke.nonfatalWarnings, 1); assert.equal(r.receipt.diagnostics.smoke.rejected, 1);
+  }
+});
+test('Stderr remains an independent gate after a recognized warning, even with valid completed output and exit zero', async () => {
+  for (const [text, category] of [['Error loading config\n', 'CLI_CONFIGURATION'], ['Failed to initialize sandbox\n', 'SANDBOX'], ['unexpected argument --secret-value\n', 'CLI_ARGUMENT'], ['opaque stderr\n', 'STDERR_UNCLASSIFIED']]) {
+    const r = await processFixture({ smoke: true, stdout: [supportedSmokeEvents({ identity: true }).map(e => JSON.stringify(e)).join('\n') + '\n'], stderr: [text], code: 0, output: { ok: true } });
+    assert.equal(r.succeeded, false); assert.equal(r.receipt.runtimeVerification.criteria.stderrAccepted, false);
+    assert.equal(r.receipt.diagnostics.classification, category); assert.equal(r.receipt.diagnostics.smoke.nonfatalWarnings, 1);
+  }
+});
+test('Runtime evidence requires completed turn, structured schema, valid usage and zero exit independently of identity', async () => {
+  const stream = events => events.map(e => JSON.stringify(e)).join('\n') + '\n';
+  for (const scenario of [
+    { stdout: [stream(supportedSmokeEvents({ identity: true }).slice(0, -1))], output: { ok: true }, code: 0 },
+    { stdout: [stream(supportedSmokeEvents({ identity: true }))], output: { ok: false }, code: 0 },
+    { stdout: [stream(supportedSmokeEvents({ identity: true }))], output: { ok: true }, code: 1 },
+    { stdout: [stream([...supportedSmokeEvents({ identity: true }).slice(0, -1), { type: 'turn.completed', usage: { input_tokens: 1, cached_input_tokens: 2, output_tokens: 0 } }])], output: { ok: true }, code: 0 }
+  ]) { const r = await processFixture({ smoke: true, ...scenario }); assert.equal(r.succeeded, false); assert.equal(r.receipt.runtimeVerification.verified, false); }
 });
 
 test('Smoke guard: unknown events/items retain only bounded shape and explicit rejection reason', async () => {

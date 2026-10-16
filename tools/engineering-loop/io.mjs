@@ -4,6 +4,7 @@ import os from 'node:os';
 import { spawn, spawnSync } from 'node:child_process';
 import { requireThat, hash } from './core.mjs';
 import { selectModel, selectedQuota, consumeModelBudget, observeModelEvent } from './model-routing.mjs';
+import { EXEC_IDENTITY_CAPABILITY } from './cli-exec-contract.mjs';
 import { safeLaunch, processDiagnostics } from './diagnostics.mjs';
 import { createSmokeEventGuard } from './smoke-events.mjs';
 
@@ -289,7 +290,7 @@ export async function runCodex(options, dependencies = {}) {
   const execute = dependencies.execute ?? (o => executeCodexProcess(o, dependencies.process));
   let quotaBefore;
   const preflightFailure = error => {
-    error.receipt = { taskId: route.taskId, role, requestedModel: route.model, actualModel: null, reasoningEffort: route.reasoningEffort,
+    error.receipt = { taskId: route.taskId, role, requestedModel: route.model, catalogVerifiedModel: null, actualModel: null, actualModelVerified: false, reasoningEffort: route.reasoningEffort,
       dispatchAttempted: false, callsThisAttempt: 0, processId: null, threadId: null, newSession: false, usage: null, quotaBefore: quotaBefore ?? null, quotaAfter: null,
       preflightBlocked: true, blocker: error.message, repairs: route.repair, escalationReason: route.escalationReason,
       diagnostics: { classification: 'PREFLIGHT_BLOCKED', preInference: { state: 'NOT_DISPATCHED', inferenceRequestSent: false } } };
@@ -310,21 +311,42 @@ export async function runCodex(options, dependencies = {}) {
     }
     writeJson(file, next); return next;
   }); } catch (error) { preflightFailure(error); }
-  const receipt = { taskId: route.taskId, role, requestedModel: route.model, actualModel: null,
+  const receipt = { taskId: route.taskId, role, requestedModel: route.model, catalogVerifiedModel: route.model, actualModel: null, actualModelVerified: false,
+    identityCapability: EXEC_IDENTITY_CAPABILITY,
     reasoningEffort: route.reasoningEffort, actualReasoningEffort: null, routingReason: route.reason, escalationReason: route.escalationReason,
     calls: budget.calls, callsThisAttempt: 1, repairs: route.repair, escalations: budget.escalations, dispatchAttempted: true, usage: null, quotaBefore, quotaAfter: null,
     sandbox: role === 'reviewer' || options.executionProfile ? 'read-only' : 'workspace-write', newSession: true, resumed: false,
     chatgptOnly: true, paidApiKeysInherited: false, costProof: quotaBefore, processId: null, threadId: null,
     startedAt: new Date().toISOString(), writeProbeAttempted: false, writeProbeDenied: false, writeProbeExitCode: null };
+  if (options.executionProfile) receipt.runtimeVerification = { verified: false, criteria: null, reason: 'No completed validated result' };
   let result, failure;
   try {
     result = await execute({ ...options, role, route, receipt, observe: event => observeModelEvent(receipt, event, route) });
-    requireThat(receipt.actualModel === route.model, 'Actual model identity unreported/unverified; cannot accept result');
+    if (options.executionProfile === 'minimal-luna-smoke') {
+      const { schemaValid } = await import('./acceptance.mjs');
+      const d = receipt.diagnostics;
+      const checks = { turnCompleted: d?.smoke?.turnCompleted === true, structuredOutputValid: schemaValid(result.report, readJson(options.schema)),
+        exitCodeZero: d?.exitCode === 0, validUsage: receipt.usage?.source === 'turn.completed' &&
+          ['inputTokens', 'cachedInputTokens', 'outputTokens'].every(key => Number.isSafeInteger(receipt.usage[key]) && receipt.usage[key] >= 0) && receipt.usage.cachedInputTokens <= receipt.usage.inputTokens,
+        noPolicyViolation: d?.smoke?.rejected === 0 && !d?.stopReason,
+        stderrAccepted: d?.stderrBytes === 0 };
+      receipt.runtimeVerification = { criteria: checks, verified: Object.values(checks).every(Boolean),
+        scope: 'CLI-supported execution criteria only; not actual-model identity or permission to review/merge' };
+      requireThat(receipt.runtimeVerification.verified, 'Smoke runtime evidence incomplete or stderr not independently classified safe');
+    }
+    receipt.actualModelVerified = receipt.actualModel === route.model;
+    if (options.executionProfile && !EXEC_IDENTITY_CAPABILITY.actualModelPromisedBySchema) {
+      // Test/future-extension fields outside this pinned exec schema are not a
+      // supported identity channel. Keep observations distinct from verification.
+      receipt.unverifiedReportedModel = receipt.actualModel; receipt.actualModel = null; receipt.actualModelVerified = false;
+    }
+    requireThat(receipt.actualModelVerified, 'Actual model identity unreported/unverified; cannot accept result');
   } catch (error) {
     failure = error;
     if (result && receipt.diagnostics) {
-      receipt.diagnostics.resultValidation = 'ACTUAL_MODEL_UNVERIFIED';
-      receipt.diagnostics.classification = 'RUNNER_RESULT_VALIDATION';
+      receipt.diagnostics.resultValidation = receipt.runtimeVerification?.verified === false ? 'SMOKE_RUNTIME_INCOMPLETE' : 'ACTUAL_MODEL_UNVERIFIED';
+      receipt.diagnostics.classification = receipt.runtimeVerification?.criteria?.stderrAccepted === false ?
+        receipt.diagnostics.messages.find(m => m.source === 'stderr')?.category ?? 'STDERR_UNCLASSIFIED' : 'RUNNER_RESULT_VALIDATION';
     }
   }
   try {
