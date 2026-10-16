@@ -2,6 +2,8 @@
 
 Adaptive model routing/quota policy: [model-routing.md](model-routing.md). Exact model IDs come from the authenticated CLI catalogue. When per-model quota is absent, the guard uses verified shared Codex account limits with a 20% reserve. See [metadata/mock readiness](model-routing-readiness.json); actual generation remains untested. Synthetic model proofs are disabled by default.
 
+The subsequent one-shot Luna smoke exited 1. [Startup diagnosis](luna-smoke-diagnosis.md) distinguishes a metadata-reproduced reserved-provider configuration error from the original missing stderr. Process receipts now include filtered diagnostics; no smoke was rerun for this investigation.
+
 Zero-touch scheduling/bootstrap is documented in [zero-touch.md](zero-touch.md). It reuses this controller and its phase/merge/status adapters. `multi-proof` runs multiple synthetic tasks and supervised restart; `bootstrap-review <PR>` reviews an explicitly selected open draft candidate; PR #3 is merged and is not modified. Real authority remains disabled. Historical single-task proof below remains intact.
 
 The existing controller now uses Git SOURCE/status and independent local Codex review. No Google API/OAuth/Picker/Cloud project or Work event is on the critical path. The owner approved this authority change; PR #3 was merged as 99f00827664fa2ac1c3263d3d98b4e25d9ad5c72 and Git SSOT now exists on verified origin/main. Prior bootstrap REWORK is retained; the follow-up candidate requires full independent review before authorization. SOURCE reads pinned main, never the local candidate as fallback.

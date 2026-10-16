@@ -4,6 +4,7 @@ import os from 'node:os';
 import { spawn, spawnSync } from 'node:child_process';
 import { requireThat, hash } from './core.mjs';
 import { selectModel, selectedQuota, consumeModelBudget, observeModelEvent } from './model-routing.mjs';
+import { safeLaunch, processDiagnostics } from './diagnostics.mjs';
 
 // Absolute authorization boundary inherited by the controller. Checkpoint JSON remains
 // writable after expiry so interrupted work can be inspected without replay.
@@ -275,12 +276,14 @@ export async function runCodex(options, dependencies = {}) {
   const configPolicy = fs.existsSync(runtimeConfig) ? readJson(runtimeConfig).modelRouting : undefined;
   const policy = explicitPolicy ?? configPolicy ?? {};
   let route = selectModel(routingContext, role, policy); // Validate task/proof authorization before metadata RPCs.
-  const metadata = dependencies.metadata ?? readCodexMetadata, execute = dependencies.execute ?? executeCodexProcess;
+  const metadata = dependencies.metadata ?? readCodexMetadata;
+  const execute = dependencies.execute ?? (o => executeCodexProcess(o, dependencies.process));
   let quotaBefore;
   const preflightFailure = error => {
     error.receipt = { taskId: route.taskId, role, requestedModel: route.model, actualModel: null, reasoningEffort: route.reasoningEffort,
       dispatchAttempted: false, callsThisAttempt: 0, processId: null, threadId: null, newSession: false, usage: null, quotaBefore: quotaBefore ?? null, quotaAfter: null,
-      preflightBlocked: true, blocker: error.message, repairs: route.repair, escalationReason: route.escalationReason };
+      preflightBlocked: true, blocker: error.message, repairs: route.repair, escalationReason: route.escalationReason,
+      diagnostics: { classification: 'PREFLIGHT_BLOCKED', preInference: { state: 'NOT_DISPATCHED', inferenceRequestSent: false } } };
     throw error;
   };
   try { const snapshot = await metadata(root); route = selectModel(routingContext, role, policy, snapshot); quotaBefore = selectedQuota(snapshot, route); } catch (error) { preflightFailure(error); }
@@ -308,7 +311,13 @@ export async function runCodex(options, dependencies = {}) {
   try {
     result = await execute({ ...options, role, route, receipt, observe: event => observeModelEvent(receipt, event, route) });
     requireThat(receipt.actualModel === route.model, 'Actual model identity unreported/unverified; cannot accept result');
-  } catch (error) { failure = error; }
+  } catch (error) {
+    failure = error;
+    if (result && receipt.diagnostics) {
+      receipt.diagnostics.resultValidation = 'ACTUAL_MODEL_UNVERIFIED';
+      receipt.diagnostics.classification = 'RUNNER_RESULT_VALIDATION';
+    }
+  }
   try {
     receipt.quotaAfter = selectedQuota(await metadata(root), route, Date.now(), false);
     requireThat(!receipt.quotaAfter.reserveReached, 'Post-call selected-model quota reserve reached');
@@ -326,59 +335,85 @@ export async function runCodex(options, dependencies = {}) {
 }
 
 async function executeCodexProcess({ root, workspace, prompt, schema, output, timeoutMs, role, route, receipt, observe,
-  onStart = () => {}, onStop = () => {}, control = () => ({}) }) {
+  onStart = () => {}, onStop = () => {}, control = () => ({}) }, dependencies = {}) {
   const env = codexEnvironment();
-  const args = codexArguments(codexEntrypoint(root), { workspace, schema, output, role, ...route });
+  const entry = (dependencies.entrypoint ?? codexEntrypoint)(root);
+  const args = codexArguments(entry, { workspace, schema, output, role, ...route });
   return new Promise((resolve, reject) => {
     const authorizedTimeout = remainingTime(timeoutMs);
-    const child = spawn(process.execPath, args, { cwd: workspace, env, windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] });
+    const known = { entry, workspace, schema, output };
+    const diagnostics = processDiagnostics(safeLaunch(process.execPath, args, known, 'runner-planned'));
+    receipt.diagnostics = diagnostics.value;
+    let child;
+    try { child = (dependencies.spawn ?? spawn)(process.execPath, args, { cwd: workspace, env, windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] }); }
+    catch (error) {
+      diagnostics.value.spawnErrorCode = ['ENOENT', 'EACCES', 'EPERM', 'EINVAL'].includes(error.code) ? error.code : 'SPAWN_ERROR';
+      diagnostics.finish(null, null); reject(new Error('Codex process could not be spawned; see filtered diagnostics')); return;
+    }
+    if (Array.isArray(child.spawnargs)) diagnostics.value.launch = safeLaunch(process.execPath, child.spawnargs.slice(1), known, 'child.spawnargs');
     let ended = false, failure = null, events = 0, pending = '', modelFailure = null;
-    child.stdin.on('error', () => terminate('Codex input pipe failed'));
-    // Deliberately discard command output: it can contain secrets or unbounded model text.
+    child.stdin.on('error', () => terminate('Codex input pipe failed', 'INPUT_PIPE'));
+    function lineEvent(line) {
+      let event;
+      try { event = JSON.parse(line); }
+      catch { diagnostics.nonJson(line); return; }
+      try {
+      diagnostics.event(event);
+      if (!event || typeof event !== 'object') return;
+      try { observe(event); } catch (error) { terminate(error.message, 'MODEL_EVENT_REJECTED'); }
+      if (event.type === 'thread.started') receipt.threadId = event.thread_id;
+      if (['error', 'turn.failed'].includes(event.type)) {
+        const message = event.message ?? event.error?.message ?? '';
+        modelFailure = /usage.limit|rate.limit|quota|limit reached/i.test(message) ? 'MODEL_LIMIT' :
+          /stream disconnected|connection|timed out|temporar|overloaded|internal server|503|502/i.test(message) ? 'MODEL_TRANSPORT' : 'MODEL_FAILURE';
+      }
+      if (event.item?.type === 'command_execution' && event.item.command?.includes('readonly-probe.txt') && /Set-Content|WriteAllText|Out-File|writeFile|New-Item|printf|echo/i.test(event.item.command)) {
+        receipt.writeProbeAttempted = true;
+        if (Number.isInteger(event.item.exit_code)) receipt.writeProbeExitCode = event.item.exit_code;
+        if (/access.*denied|permission denied|read.only|unauthorizedaccess/i.test(event.item.aggregated_output ?? '')) receipt.writeProbeDenied = true;
+      }
+      } catch { terminate('Malformed Codex JSON event; content omitted', 'MALFORMED_EVENT'); }
+    }
+    // Parse events but retain only bounded allowlisted error summaries, not model/tool text.
     child.stdout.on('data', bytes => {
+      diagnostics.value.stdoutBytes += bytes.length;
       events++; pending += bytes.toString('utf8');
-      if (pending.length > 1024 * 1024) { terminate('Oversized Codex event'); return; }
+      if (pending.length > 1024 * 1024) { pending = ''; diagnostics.value.truncated = true; terminate('Oversized Codex event', 'OVERSIZED_EVENT'); return; }
       let index;
       while ((index = pending.indexOf('\n')) >= 0) {
         const line = pending.slice(0, index); pending = pending.slice(index + 1);
-        try {
-          const event = JSON.parse(line);
-          try { observe(event); } catch (error) { terminate(error.message); }
-          if (event.type === 'thread.started') receipt.threadId = event.thread_id;
-          if (['error', 'turn.failed'].includes(event.type)) {
-            const message = event.message ?? event.error?.message ?? '';
-            modelFailure = /usage.limit|rate.limit|quota|limit reached/i.test(message) ? 'MODEL_LIMIT' :
-              /stream disconnected|connection|timed out|temporar|overloaded|internal server|503|502/i.test(message) ? 'MODEL_TRANSPORT' : 'MODEL_FAILURE';
-          }
-          if (event.item?.type === 'command_execution' && event.item.command?.includes('readonly-probe.txt') && /Set-Content|WriteAllText|Out-File|writeFile|New-Item|printf|echo/i.test(event.item.command)) {
-            receipt.writeProbeAttempted = true;
-            if (Number.isInteger(event.item.exit_code)) receipt.writeProbeExitCode = event.item.exit_code;
-            if (/access.*denied|permission denied|read.only|unauthorizedaccess/i.test(event.item.aggregated_output ?? '')) receipt.writeProbeDenied = true;
-          }
-        } catch { /* Raw model/tool content never enters logs. */ }
+        lineEvent(line);
       }
-    }); child.stderr.on('data', () => {});
+    }); child.stderr.on('data', bytes => diagnostics.stderr(bytes));
     receipt.processId = child.pid;
-    try { onStart(child.pid); } catch { terminate('Controller start callback failed'); }
-    function terminate(reason) {
+    try { onStart(child.pid); } catch { terminate('Controller start callback failed', 'START_CALLBACK'); }
+    function terminate(reason, code) {
+      failure ??= reason; diagnostics.value.stopReason ??= code;
       if (ended) return;
-      failure = reason;
+      if (dependencies.stop) { dependencies.stop(child); return; }
       if (process.platform === 'win32') spawnSync('taskkill.exe', ['/PID', String(child.pid), '/T', '/F'], { windowsHide: true, stdio: 'ignore' });
       else child.kill('SIGTERM');
     }
-    const timeout = deadlineTimer(authorizedTimeout, () => terminate('Codex timeout or authorized deadline reached'));
-    const interval = setInterval(() => { if (control()?.stop || control()?.pause) terminate('Operator paused/stopped Codex; inspect partial edits'); }, 1000);
-    child.on('error', e => { failure = `Codex spawn failed: ${e.code}`; });
-    child.on('close', code => {
+    const timeout = deadlineTimer(authorizedTimeout, () => terminate('Codex timeout or authorized deadline reached', 'TIMEOUT'));
+    const interval = setInterval(() => { if (control()?.stop || control()?.pause) terminate('Operator paused/stopped Codex; inspect partial edits', 'OPERATOR_STOP'); }, 1000);
+    child.on('error', e => {
+      const code = ['ENOENT', 'EACCES', 'EPERM', 'EINVAL'].includes(e.code) ? e.code : 'PROCESS_ERROR';
+      diagnostics.value[child.pid ? 'processErrorCode' : 'spawnErrorCode'] = code;
+      failure = `Codex process failed: ${code}`;
+    });
+    child.once('close', (code, signal) => {
       ended = true; clearTimeout(timeout); clearInterval(interval);
-      try { onStop(); } catch { failure ??= 'Controller stop callback failed'; }
+      if (pending.trim()) lineEvent(pending); pending = '';
+      try { onStop(); } catch { failure ??= 'Controller stop callback failed'; diagnostics.value.stopReason ??= 'STOP_CALLBACK'; }
+      diagnostics.finish(code, signal);
       receipt.finishedAt = new Date().toISOString();
       if (failure || code !== 0) {
         const error = new Error(failure ?? `Codex failed (exit ${code}; ${modelFailure ?? 'UNCLASSIFIED'})`);
         error.code = failure ? 'MODEL_FAILURE' : modelFailure ?? 'MODEL_FAILURE';
         error.receipt = receipt; reject(error);
       }
-      else { try { remainingTime(1); requireThat(receipt.threadId, 'Missing fresh Codex session evidence'); resolve({ report: readJson(output), eventChunks: events, receipt }); } catch { reject(new Error('Codex did not return valid structured output/session evidence')); } }
+      else { try { remainingTime(1); requireThat(receipt.threadId, 'Missing fresh Codex session evidence'); resolve({ report: readJson(output), eventChunks: events, receipt }); }
+        catch { diagnostics.value.classification = 'RUNNER_PARSER_OR_CONTROL'; diagnostics.value.stopReason = 'OUTPUT_OR_SESSION_INVALID'; reject(new Error('Codex did not return valid structured output/session evidence')); } }
     });
     child.stdin.end(prompt);
   });

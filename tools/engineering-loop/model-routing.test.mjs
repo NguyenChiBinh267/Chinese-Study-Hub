@@ -3,10 +3,13 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { fileURLToPath } from 'node:url';
+import { EventEmitter } from 'node:events';
+import { PassThrough, Writable } from 'node:stream';
 import { selectModel as routeModel, supportedModel, selectedQuota, consumeModelBudget, observeModelEvent } from './model-routing.mjs';
 import { runCodex, codexArguments, writeJson, readJson, git } from './io.mjs';
 import { localReview, reviewPlan } from './reviewer.mjs';
 import { hash } from './core.mjs';
+import { safeLaunch, processDiagnostics } from './diagnostics.mjs';
 
 const workspace = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const luna = 'gpt-5.6-luna', sol = 'gpt-5.6-sol';
@@ -266,4 +269,127 @@ test('Repair review narrows to verified delta while retaining current-SHA accept
   const plan = reviewPlan(state, task, policy); assert.equal(plan.kind, 'delta'); assert.equal(plan.diffBase, previous); assert.deepEqual(plan.changedFiles, ['a.txt']);
   assert.equal(reviewPlan(state, { ...task, spec: ['Changed contract'] }, policy).kind, 'task');
   state.evidence = [{ commitSha: state.commitSha, checks: [{ name: 'new HEAD actual bytes', passed: true }] }]; assert.equal((await run('PASS')).event.verdict, 'PASS');
+});
+
+async function processFixture(scenario = {}) {
+  const options = setup(); options.output = path.join(options.root, 'out.json'); options.timeoutMs = scenario.timeout ? 5 : 1000;
+  let spawns = 0, stops = 0, child;
+  const entry = 'fixture-entry';
+  const process = { entrypoint: () => entry, spawn: (executable, args) => {
+    spawns++;
+    if (scenario.throwSpawn) throw Object.assign(new Error('secret spawn details'), { code: 'EACCES' });
+    child = new EventEmitter(); child.pid = scenario.spawnError ? undefined : 456;
+    child.spawnargs = [executable, ...args];
+    if (scenario.readOnly) child.spawnargs[child.spawnargs.indexOf('--sandbox') + 1] = 'read-only';
+    child.stdout = new PassThrough(); child.stderr = new PassThrough();
+    child.stdin = new Writable({ write(_chunk, _encoding, callback) { callback(); }, final(callback) {
+      callback(); queueMicrotask(() => {
+        if (scenario.timeout) return;
+        for (const text of scenario.stdout ?? []) child.stdout.write(text);
+        for (const text of scenario.stderr ?? []) child.stderr.write(text);
+        if (scenario.spawnError || scenario.processError) child.emit('error', { code: 'ENOENT' });
+        if (scenario.output) writeJson(options.output, scenario.output);
+        child.emit('close', scenario.code ?? 1, scenario.signal ?? null);
+      });
+    } });
+    return child;
+  }, stop: c => { stops++; queueMicrotask(() => c.emit('close', null, 'SIGTERM')); } };
+  try {
+    const result = await runCodex(options, { metadata: async () => metadata(), process });
+    return { receipt: result.receipt, options, spawns, stops, succeeded: true };
+  } catch (error) { return { receipt: error.receipt, error, options, spawns, stops, succeeded: false }; }
+}
+
+test('Runner diagnostics: exact reserved-provider config rejection before JSON is persisted without raw secrets', async () => {
+  const result = await processFixture({ stderr: ['Error: model_providers contains reserved built-in provider IDs: `openai`. Built-in providers cannot be overridden.\n',
+    'Authorization: Bearer very-secret\napi_key=top-secret\n'] });
+  const d = result.receipt.diagnostics;
+  assert.equal(result.spawns, 1); assert.equal(result.succeeded, false); assert.equal(d.exitCode, 1);
+  assert.equal(d.classification, 'CLI_CONFIGURATION'); assert.equal(d.messages[0].code, 'RESERVED_PROVIDER_OVERRIDE');
+  assert.equal(d.preInference.state, 'NO_JSON_EVENTS'); assert.equal(d.preInference.inferenceRequestSent, null);
+  assert.equal(result.receipt.actualModel, null); assert.equal(result.receipt.usage, null);
+  assert.doesNotMatch(JSON.stringify(result.receipt), /very-secret|top-secret|Authorization|api_key=/);
+  const files = fs.readdirSync(path.join(result.options.root, '.engineering-loop/model-budgets'));
+  const saved = readJson(path.join(result.options.root, '.engineering-loop/model-budgets', files.find(f => f.endsWith('.json'))));
+  assert.equal(saved.attempts[0].status, 'BLOCKED'); assert.deepEqual(saved.attempts[0].receipt.diagnostics, d);
+});
+
+test('Runner diagnostics: argument/auth/model/sandbox failures have distinct reported signatures', async () => {
+  for (const [message, category] of [["error: unexpected argument '--bad' found", 'CLI_ARGUMENT'], ['Authentication failed; please log in', 'AUTHENTICATION'],
+    ['The requested model does not exist or you do not have access', 'MODEL_ACCESS'], ['Failed to initialize sandbox', 'SANDBOX']]) {
+    const r = await processFixture({ stderr: [message] });
+    assert.equal(r.receipt.diagnostics.classification, category); assert.equal(r.receipt.diagnostics.exitCode, 1);
+    assert.equal(r.receipt.diagnostics.preInference.inferenceRequestSent, null); assert.equal(r.spawns, 1);
+  }
+});
+
+test('Runner diagnostics: empty or unrecognized stderr never invents a pre-inference cause', async () => {
+  for (const text of ['', 'opaque diagnostic with unknown-secret-value']) {
+    const r = await processFixture({ stderr: [text] }); const d = r.receipt.diagnostics;
+    assert.equal(d.classification, 'ROOT_CAUSE_UNDETERMINED'); assert.equal(d.stderrBytes, Buffer.byteLength(text));
+    assert.equal(d.preInference.state, 'NO_JSON_EVENTS'); assert.equal(d.preInference.inferenceRequestSent, null);
+    assert.doesNotMatch(JSON.stringify(d), /unknown-secret-value/); assert.equal(d.messages.length, 0);
+  }
+});
+
+test('Runner diagnostics: non-JSON stdout and fragmented stderr are diagnosed, raw text is omitted', async () => {
+  const r = await processFixture({ stdout: ['error: unexpected argument secret-argument\n'], stderr: ['missing fi', 'eld `name` in secret-config'] });
+  assert.equal(r.receipt.diagnostics.nonJsonStdoutLines, 1); assert.equal(r.receipt.diagnostics.jsonEvents, 0);
+  assert.equal(r.receipt.diagnostics.messages.length, 2);
+  assert.doesNotMatch(JSON.stringify(r.receipt.diagnostics), /secret-argument|secret-config/);
+});
+
+test('Runner diagnostics: process spawn errors differ from CLI exit; timeout is recorded without retry', async () => {
+  for (const scenario of [{ throwSpawn: true }, { spawnError: true }, { processError: true }, { timeout: true }]) {
+    const r = await processFixture(scenario); const d = r.receipt.diagnostics;
+    assert.equal(r.spawns, 1); assert.equal(r.succeeded, false);
+    if (scenario.timeout) { assert.equal(r.stops, 1); assert.equal(d.classification, 'TIMEOUT'); assert.equal(d.signal, 'SIGTERM'); }
+    else if (scenario.processError) { assert.equal(d.classification, 'PROCESS_FAILURE'); assert.equal(d.preInference.inferenceRequestSent, null); }
+    else { assert.equal(d.classification, 'SPAWN_FAILURE'); assert.equal(d.preInference.state, 'SPAWN_FAILED'); assert.equal(d.preInference.inferenceRequestSent, false); }
+  }
+});
+
+test('Runner diagnostics: JSON startup errors, session-only events and malformed successful output stay blocked', async () => {
+  const error = await processFixture({ stdout: [JSON.stringify({ type: 'error', message: 'model not found; key=private-value' })] });
+  assert.equal(error.receipt.diagnostics.classification, 'MODEL_ACCESS'); assert.equal(error.receipt.diagnostics.jsonEvents, 1);
+  assert.doesNotMatch(JSON.stringify(error.receipt.diagnostics), /private-value/);
+  const session = await processFixture({ stdout: [JSON.stringify({ type: 'thread.started', thread_id: 'fixture-thread' }) + '\n'], code: 0 });
+  assert.equal(session.receipt.diagnostics.preInference.state, 'SESSION_ONLY_NO_TURN_EVENT');
+  assert.equal(session.receipt.diagnostics.classification, 'RUNNER_PARSER_OR_CONTROL'); assert.equal(session.succeeded, false);
+  const malformed = await processFixture({ stdout: [JSON.stringify({ type: 'item.completed', item: { type: 'command_execution', command: 123 } }) + '\n'] });
+  assert.equal(malformed.succeeded, false); assert.equal(malformed.receipt.diagnostics.stopReason, 'MALFORMED_EVENT');
+});
+
+test('Runner diagnostics: launch uses actual spawnargs and never retains arbitrary config, prompt or environment', async () => {
+  const r = await processFixture({ readOnly: true });
+  assert.equal(r.receipt.diagnostics.launch.source, 'child.spawnargs'); assert.equal(r.receipt.diagnostics.launch.sandbox, 'read-only');
+  const known = { entry: 'entry', workspace: 'repo', schema: 'schema', output: 'out' };
+  const launch = safeLaunch('node', ['entry', 'exec', '-c', 'api_key=private-value', '--unknown=other-secret', '--model', 'sk-secret', '--cd', 'unexpected-secret-path'], known, 'test-double');
+  assert.doesNotMatch(JSON.stringify(launch), /private-value|other-secret|sk-secret|unexpected-secret-path/);
+  assert.equal(launch.stdinRetained, false); assert.equal(launch.environmentRetained, false);
+});
+
+test('Runner diagnostics: diagnostics are bounded and do not inspect model/tool text', () => {
+  const d = processDiagnostics({});
+  d.stderr(Buffer.from('x'.repeat(20000) + 'api_key=secret\n'));
+  d.stderr(Buffer.from('Error loading config\n'));
+  d.event({ type: 'item.completed', item: { type: 'agent_message', text: 'authentication failed; secret' } });
+  d.finish(1, null);
+  assert.equal(d.value.truncated, true); assert.equal(d.value.messages.length, 1);
+  assert.equal(d.value.classification, 'CLI_CONFIGURATION'); assert.doesNotMatch(JSON.stringify(d.value), /api_key|secret/);
+  assert.ok(JSON.stringify(d.value).length < 2000);
+});
+
+test('Runner diagnostics: an unterminated final reroute event cannot bypass result rejection', async () => {
+  const events = [{ type: 'thread.started', thread_id: 'fixture', model: luna }, { type: 'turn.completed', usage: { input_tokens: 1, output_tokens: 1 } }];
+  const r = await processFixture({ stdout: [events.map(e => JSON.stringify(e)).join('\n') + '\n', JSON.stringify({ type: 'model.rerouted' })], code: 0, output: { ok: true } });
+  assert.equal(r.succeeded, false); assert.equal(r.receipt.diagnostics.stopReason, 'MODEL_EVENT_REJECTED');
+  assert.equal(r.receipt.diagnostics.preInference.state, 'TURN_EVENT_OBSERVED');
+});
+
+test('Runner diagnostics: zero exit and valid output do not hide unverified actual model identity', async () => {
+  const r = await processFixture({ stdout: [JSON.stringify({ type: 'thread.started', thread_id: 'fixture' }) + '\n'], code: 0, output: { ok: true } });
+  assert.equal(r.succeeded, false); assert.equal(r.receipt.actualModel, null);
+  assert.equal(r.receipt.diagnostics.classification, 'RUNNER_RESULT_VALIDATION');
+  assert.equal(r.receipt.diagnostics.resultValidation, 'ACTUAL_MODEL_UNVERIFIED');
 });
