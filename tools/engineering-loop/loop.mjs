@@ -10,6 +10,7 @@ import { FixtureSource, GoogleDocsSource } from './ssot.mjs';
 import { deriveRepository, PROTECTED } from './plan.mjs';
 import { GitSource, GitMerge, GitSSOT, readyGitTasks } from './git-ssot.mjs';
 import { acceptanceChecks } from './acceptance.mjs';
+import { existingCandidate, adoptExisting, prepareExistingReview } from './existing-pr.mjs';
 
 export const TOOL = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT = path.resolve(TOOL, '../..');
@@ -317,11 +318,15 @@ export async function step() {
       else if (state.mode === 'git-fixture') await openGitFixtureHandoff(state, cfg);
       else {
         if (['git', 'google-docs'].includes(cfg.sourceBackend)) await adapterFor(state, cfg).verifyTask(state, task);
-        await openHandoff(state, cfg, gh, snap, task);
+        const target = await existingCandidate(gh, cfg, task.id, state.sourceCommit);
+        if (target) await adoptExisting({ root: ROOT, data: DATA, state, cfg, task, policy: policyFor(state, cfg), source: adapterFor(state, cfg), gh, target, save });
+        else await openHandoff(state, cfg, gh, snap, task);
       }
     }
     else if (state.phase === 'SOURCE_WAIT') {
-      if (state.mode === 'dry-local' || ['git', 'google-docs'].includes(cfg.sourceBackend)) {
+      if (state.adoptedPullRequest) {
+        await prepareExistingReview({ state, task, policy: policyFor(state, cfg), source: adapterFor(state, cfg), gh, save });
+      } else if (state.mode === 'dry-local' || ['git', 'google-docs'].includes(cfg.sourceBackend)) {
         const proof = await adapterFor(state, cfg).verifyTask(state, task);
         state.sourceAttestation = { ...proof, attestedAt: now() };
         move(state, 'DEVELOP_READY', { deadline: null }); save(state);

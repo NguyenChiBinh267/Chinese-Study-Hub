@@ -193,6 +193,9 @@ test('Authorization boundary caps timeouts, cancels active work and blocks subse
     assert.throws(() => remainingTime(95000, 2000), /deadline/);
     process.env.ENGINEERING_LOOP_DEADLINE = String(Date.now() + 40);
     await new Promise(resolve => deadlineTimer(95000, resolve));
+    // A timer can fire just before wall-clock equality. Test subsequent expiry
+    // deterministically instead of assuming scheduler wakeup advances Date.now.
+    process.env.ENGINEERING_LOOP_DEADLINE = '2000';
     assert.throws(() => command(process.execPath, ['-e', 'process.exit(0)'], root), /deadline/);
     let writes = 0;
     const gh = new GitHub(root, cfg.repository, { transport: async () => { writes++; } });

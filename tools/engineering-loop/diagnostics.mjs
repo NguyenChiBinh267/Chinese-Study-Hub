@@ -1,4 +1,5 @@
 import { StringDecoder } from 'node:string_decoder';
+import { projectErrorMessage } from './error-projection.mjs';
 
 // Persist allowlisted diagnostic summaries, never arbitrary stderr, prompts,
 // agent messages, tool output, credential values or unrecognized config values.
@@ -35,7 +36,7 @@ export function safeLaunch(executable, argv, { entry, workspace, schema, output 
 export function processDiagnostics(launch) {
   const d = { schemaVersion: 1, launch, exitCode: null, signal: null, spawnErrorCode: null, processErrorCode: null, stopReason: null,
     stdoutBytes: 0, stderrBytes: 0, jsonEvents: 0, nonJsonStdoutLines: 0, stderrLines: 0, truncated: false,
-    sessionEventObserved: false, turnEventObserved: false, messages: [], safeErrorDetails: [], omissions: [], omittedDiagnosticRecords: 0,
+    sessionEventObserved: false, turnEventObserved: false, messages: [], safeErrorDetails: [], errorProjections: [], omissions: [], omittedDiagnosticRecords: 0,
     stderrBlankLines: 0, classification: 'ROOT_CAUSE_UNDETERMINED',
     preInference: { state: 'UNKNOWN', inferenceRequestSent: null } };
   let pending = '', dropping = false;
@@ -48,6 +49,7 @@ export function processDiagnostics(launch) {
   }
   function diagnostic(text, source) {
     if (typeof text !== 'string') { omit('NON_STRING_ERROR_PAYLOAD_NOT_PERSISTED', source, null); return; }
+    if (d.errorProjections.length < 8) d.errorProjections.push({ source, ...projectErrorMessage(text) });
     const http = /\b(?:HTTP(?:\/\d(?:\.\d)?)?(?:\s+status)?|status(?:\s+code)?)\s*[:=]?\s*([1-5]\d\d)\b/i.exec(text);
     const code = /\b(?:model_not_found|invalid_request_error|unsupported_value|invalid_api_key|insufficient_quota)\b/.exec(text);
     const models = [...new Set(text.match(/\bgpt-\d{1,2}(?:\.\d{1,2})?-(?:luna|terra|sol|astra)\b/g) ?? [])].slice(0, 4);
