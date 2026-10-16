@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { EventEmitter } from 'node:events';
 import { PassThrough, Writable } from 'node:stream';
 import { selectModel as routeModel, supportedModel, selectedQuota, consumeModelBudget, observeModelEvent } from './model-routing.mjs';
-import { runCodex, codexArguments, writeJson, readJson, git } from './io.mjs';
+import { runCodex, codexArguments, executionProfileArguments, writeJson, readJson, git } from './io.mjs';
 import { localReview, reviewPlan } from './reviewer.mjs';
 import { hash } from './core.mjs';
 import { safeLaunch, processDiagnostics } from './diagnostics.mjs';
@@ -64,6 +64,16 @@ test('CLI arguments always pin model/effort and keep independent read-only revie
   assert.equal(args[args.indexOf('--model') + 1], luna); assert.ok(args.includes('model_reasoning_effort="medium"'));
   assert.equal(args[args.indexOf('--sandbox') + 1], 'read-only'); assert.ok(args.includes('--ephemeral')); assert.ok(args.includes('--ignore-user-config'));
   assert.throws(() => codexArguments('entry', { role: 'reviewer' }), /Explicit/);
+});
+
+test('Minimal smoke startup removes provider overrides, keeps ChatGPT and enforces exact Luna/low/read-only', () => {
+  const base = { workspace: 'repo', schema: 'schema', output: 'out', role: 'developer', model: luna, reasoningEffort: 'low', executionProfile: 'minimal-luna-smoke' };
+  const args = codexArguments('entry', base);
+  assert.equal(args[args.indexOf('--sandbox') + 1], 'read-only');
+  assert.ok(args.includes('forced_login_method="chatgpt"')); assert.ok(args.includes('model_provider="openai"'));
+  assert.equal(args.some(a => a.includes('model_providers.')), false);
+  assert.equal(executionProfileArguments(base.executionProfile).filter(a => a === '--disable').length, 5);
+  for (const patch of [{ model: sol }, { reasoningEffort: 'medium' }, { executionProfile: 'unknown' }]) assert.throws(() => codexArguments('entry', { ...base, ...patch }));
 });
 
 test('Authenticated model catalogue, availability and reasoning support are mandatory', () => {
@@ -273,6 +283,7 @@ test('Repair review narrows to verified delta while retaining current-SHA accept
 
 async function processFixture(scenario = {}) {
   const options = setup(); options.output = path.join(options.root, 'out.json'); options.timeoutMs = scenario.timeout ? 5 : 1000;
+  if (scenario.smoke) options.executionProfile = 'minimal-luna-smoke';
   let spawns = 0, stops = 0, child;
   const entry = 'fixture-entry';
   const process = { entrypoint: () => entry, spawn: (executable, args) => {
@@ -367,6 +378,14 @@ test('Runner diagnostics: launch uses actual spawnargs and never retains arbitra
   const launch = safeLaunch('node', ['entry', 'exec', '-c', 'api_key=private-value', '--unknown=other-secret', '--model', 'sk-secret', '--cd', 'unexpected-secret-path'], known, 'test-double');
   assert.doesNotMatch(JSON.stringify(launch), /private-value|other-secret|sk-secret|unexpected-secret-path/);
   assert.equal(launch.stdinRetained, false); assert.equal(launch.environmentRetained, false);
+});
+
+test('Minimal smoke real executor wiring keeps read-only receipt and blocks missing actual identity without another call', async () => {
+  const r = await processFixture({ smoke: true, stdout: [JSON.stringify({ type: 'thread.started', thread_id: 'fixture' }) + '\n'], code: 0, output: { ok: true } });
+  assert.equal(r.spawns, 1); assert.equal(r.succeeded, false); assert.equal(r.receipt.sandbox, 'read-only');
+  assert.equal(r.receipt.diagnostics.launch.sandbox, 'read-only');
+  assert.equal(r.receipt.diagnostics.launch.args.some(a => a.includes('model_providers.')), false);
+  assert.equal(r.receipt.diagnostics.classification, 'RUNNER_RESULT_VALIDATION');
 });
 
 test('Runner diagnostics: diagnostics are bounded and do not inspect model/tool text', () => {

@@ -200,11 +200,17 @@ export async function freeQuota(root) {
 }
 
 // Metadata-only RPCs: never thread/start, turn/start or a generation request.
-export async function readCodexMetadata(root) {
+export function executionProfileArguments(profile) {
+  requireThat(profile === undefined || profile === 'minimal-luna-smoke', 'Unknown execution profile');
+  // Built-in provider IDs cannot be overridden. Do not add model_providers.openai.*.
+  return profile ? ['shell_tool', 'multi_agent', 'multi_agent_v2', 'sleep_tool', 'skill_search'].flatMap(feature => ['--disable', feature]) : [];
+}
+
+export async function readCodexMetadata(root, { executionProfile } = {}) {
   remainingTime(30000);
   const entry = codexEntrypoint(root);
   return new Promise((resolve, reject) => {
-    const child = spawn(process.execPath, [entry, 'app-server', '--stdio', '-c', 'forced_login_method="chatgpt"', '-c', 'model_provider="openai"'],
+    const child = spawn(process.execPath, [entry, 'app-server', '--stdio', '-c', 'forced_login_method="chatgpt"', '-c', 'model_provider="openai"', ...executionProfileArguments(executionProfile)],
       { cwd: root, env: codexEnvironment(), windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] });
     let pending = '', done = false, pages = 0, pageId = 10;
     const result = { checkedAt: null, accountType: null, models: [], catalogueComplete: false,
@@ -259,15 +265,17 @@ export async function readCodexMetadata(root) {
   });
 }
 
-export function codexArguments(entry, { workspace, schema, output, role = 'developer', model, reasoningEffort }) {
+export function codexArguments(entry, { workspace, schema, output, role = 'developer', model, reasoningEffort, executionProfile }) {
   requireThat(['developer', 'reviewer'].includes(role), 'Unknown Codex role');
   // Availability is verified against authenticated model/list in runCodex before dispatch.
   requireThat(typeof model === 'string' && /^[a-zA-Z0-9][a-zA-Z0-9._-]{0,99}$/.test(model) && ['low', 'medium', 'high'].includes(reasoningEffort), 'Explicit policy-selected model/reasoning required');
-  return [entry, 'exec', '--ignore-user-config', '--ephemeral', '--sandbox', role === 'reviewer' ? 'read-only' : 'workspace-write',
+  const profileArgs = executionProfileArguments(executionProfile);
+  requireThat(!executionProfile || model === 'gpt-5.6-luna' && reasoningEffort === 'low', 'Smoke profile permits exact Luna/low only');
+  return [entry, 'exec', '--ignore-user-config', '--ephemeral', '--sandbox', role === 'reviewer' || executionProfile ? 'read-only' : 'workspace-write',
     '--model', model, '-c', `model_reasoning_effort="${reasoningEffort}"`,
     '-c', 'approval_policy="never"', '-c', 'forced_login_method="chatgpt"', '-c', 'model_provider="openai"',
     '-c', 'windows.sandbox="unelevated"', '-c', 'sandbox_workspace_write.network_access=false',
-    '--cd', workspace, '--output-schema', schema, '--output-last-message', output, '--json', '--color', 'never', '-'];
+    '--cd', workspace, '--output-schema', schema, '--output-last-message', output, '--json', '--color', 'never', ...profileArgs, '-'];
 }
 
 export async function runCodex(options, dependencies = {}) {
@@ -304,7 +312,7 @@ export async function runCodex(options, dependencies = {}) {
   const receipt = { taskId: route.taskId, role, requestedModel: route.model, actualModel: null,
     reasoningEffort: route.reasoningEffort, actualReasoningEffort: null, routingReason: route.reason, escalationReason: route.escalationReason,
     calls: budget.calls, callsThisAttempt: 1, repairs: route.repair, escalations: budget.escalations, dispatchAttempted: true, usage: null, quotaBefore, quotaAfter: null,
-    sandbox: role === 'reviewer' ? 'read-only' : 'workspace-write', newSession: true, resumed: false,
+    sandbox: role === 'reviewer' || options.executionProfile ? 'read-only' : 'workspace-write', newSession: true, resumed: false,
     chatgptOnly: true, paidApiKeysInherited: false, costProof: quotaBefore, processId: null, threadId: null,
     startedAt: new Date().toISOString(), writeProbeAttempted: false, writeProbeDenied: false, writeProbeExitCode: null };
   let result, failure;
@@ -334,11 +342,11 @@ export async function runCodex(options, dependencies = {}) {
   return { ...result, receipt };
 }
 
-async function executeCodexProcess({ root, workspace, prompt, schema, output, timeoutMs, role, route, receipt, observe,
+async function executeCodexProcess({ root, workspace, prompt, schema, output, timeoutMs, role, route, receipt, observe, executionProfile,
   onStart = () => {}, onStop = () => {}, control = () => ({}) }, dependencies = {}) {
   const env = codexEnvironment();
   const entry = (dependencies.entrypoint ?? codexEntrypoint)(root);
-  const args = codexArguments(entry, { workspace, schema, output, role, ...route });
+  const args = codexArguments(entry, { workspace, schema, output, role, executionProfile, ...route });
   return new Promise((resolve, reject) => {
     const authorizedTimeout = remainingTime(timeoutMs);
     const known = { entry, workspace, schema, output };
