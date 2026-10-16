@@ -5,6 +5,7 @@ import { spawn, spawnSync } from 'node:child_process';
 import { requireThat, hash } from './core.mjs';
 import { selectModel, selectedQuota, consumeModelBudget, observeModelEvent } from './model-routing.mjs';
 import { safeLaunch, processDiagnostics } from './diagnostics.mjs';
+import { createSmokeEventGuard } from './smoke-events.mjs';
 
 // Absolute authorization boundary inherited by the controller. Checkpoint JSON remains
 // writable after expiry so interrupted work can be inspected without replay.
@@ -352,6 +353,8 @@ async function executeCodexProcess({ root, workspace, prompt, schema, output, ti
     const known = { entry, workspace, schema, output };
     const diagnostics = processDiagnostics(safeLaunch(process.execPath, args, known, 'runner-planned'));
     receipt.diagnostics = diagnostics.value;
+    const smoke = executionProfile === 'minimal-luna-smoke' ? createSmokeEventGuard() : null;
+    if (smoke) diagnostics.value.smoke = smoke.state;
     let child;
     try { child = (dependencies.spawn ?? spawn)(process.execPath, args, { cwd: workspace, env, windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] }); }
     catch (error) {
@@ -359,14 +362,21 @@ async function executeCodexProcess({ root, workspace, prompt, schema, output, ti
       diagnostics.finish(null, null); reject(new Error('Codex process could not be spawned; see filtered diagnostics')); return;
     }
     if (Array.isArray(child.spawnargs)) diagnostics.value.launch = safeLaunch(process.execPath, child.spawnargs.slice(1), known, 'child.spawnargs');
-    let ended = false, failure = null, events = 0, pending = '', modelFailure = null;
+    let ended = false, stopRequested = false, failure = null, events = 0, pending = '', modelFailure = null;
     child.stdin.on('error', () => terminate('Codex input pipe failed', 'INPUT_PIPE'));
     function lineEvent(line) {
       let event;
       try { event = JSON.parse(line); }
-      catch { diagnostics.nonJson(line); return; }
+      catch {
+        diagnostics.nonJson(line);
+        if (smoke && line.trim()) { smoke.malformed(Buffer.byteLength(line)); terminate('Smoke rejected malformed JSON; payload omitted', 'SMOKE_EVENT_REJECTED'); }
+        return;
+      }
       try {
       diagnostics.event(event);
+      if (smoke && smoke.inspect(event).action === 'reject') {
+        terminate(`Smoke event rejected: ${smoke.state.firstRejection.reason}`, 'SMOKE_EVENT_REJECTED'); return;
+      }
       if (!event || typeof event !== 'object') return;
       try { observe(event); } catch (error) { terminate(error.message, 'MODEL_EVENT_REJECTED'); }
       if (event.type === 'thread.started') receipt.threadId = event.thread_id;
@@ -397,7 +407,8 @@ async function executeCodexProcess({ root, workspace, prompt, schema, output, ti
     try { onStart(child.pid); } catch { terminate('Controller start callback failed', 'START_CALLBACK'); }
     function terminate(reason, code) {
       failure ??= reason; diagnostics.value.stopReason ??= code;
-      if (ended) return;
+      if (ended || stopRequested) return;
+      stopRequested = true;
       if (dependencies.stop) { dependencies.stop(child); return; }
       if (process.platform === 'win32') spawnSync('taskkill.exe', ['/PID', String(child.pid), '/T', '/F'], { windowsHide: true, stdio: 'ignore' });
       else child.kill('SIGTERM');

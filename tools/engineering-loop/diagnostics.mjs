@@ -35,23 +35,38 @@ export function safeLaunch(executable, argv, { entry, workspace, schema, output 
 export function processDiagnostics(launch) {
   const d = { schemaVersion: 1, launch, exitCode: null, signal: null, spawnErrorCode: null, processErrorCode: null, stopReason: null,
     stdoutBytes: 0, stderrBytes: 0, jsonEvents: 0, nonJsonStdoutLines: 0, stderrLines: 0, truncated: false,
-    sessionEventObserved: false, turnEventObserved: false, messages: [], classification: 'ROOT_CAUSE_UNDETERMINED',
+    sessionEventObserved: false, turnEventObserved: false, messages: [], safeErrorDetails: [], omissions: [], omittedDiagnosticRecords: 0,
+    stderrBlankLines: 0, classification: 'ROOT_CAUSE_UNDETERMINED',
     preInference: { state: 'UNKNOWN', inferenceRequestSent: null } };
   let pending = '', dropping = false;
   const decoder = new StringDecoder('utf8');
+  function omit(reason, source, bytes, sensitivePatternDetected = false) {
+    if (d.omissions.length < 8) d.omissions.push({ reason, source,
+      ...(reason === 'STDERR_LINE_EXCEEDS_SAFE_BUFFER_LIMIT' ? { observedBytesAtLeast: bytes } : { bytes }),
+      sensitivePatternDetected, payloadRetained: false });
+    else d.omittedDiagnosticRecords++;
+  }
   function diagnostic(text, source) {
+    if (typeof text !== 'string') { omit('NON_STRING_ERROR_PAYLOAD_NOT_PERSISTED', source, null); return; }
+    const http = /\b(?:HTTP(?:\/\d(?:\.\d)?)?(?:\s+status)?|status(?:\s+code)?)\s*[:=]?\s*([1-5]\d\d)\b/i.exec(text);
+    const code = /\b(?:model_not_found|invalid_request_error|unsupported_value|invalid_api_key|insufficient_quota)\b/.exec(text);
+    const models = [...new Set(text.match(/\bgpt-\d{1,2}(?:\.\d{1,2})?-(?:luna|terra|sol|astra)\b/g) ?? [])].slice(0, 4);
+    if (d.safeErrorDetails.length < 8 && (http || code || models.length)) d.safeErrorDetails.push({ source,
+      httpStatus: http ? Number(http[1]) : null, errorCode: code?.[0] ?? null, mentionedModels: models,
+      identityEvidence: false, projection: 'allowlisted error fields only; original text omitted' });
     for (const [category, code, pattern, message] of signatures) if (pattern.test(text)) {
       if (d.messages.length < 8 && !d.messages.some(m => m.code === code && m.source === source)) d.messages.push({ category, code, message, source });
       return;
     }
-    // Unknown text is counted but omitted, including strings that look harmless.
+    omit('UNRECOGNIZED_TEXT_CANNOT_BE_SAFELY_PERSISTED', source, Buffer.byteLength(text),
+      /bearer\s|sk-|gh[pousr]_|ya29\.|(?:token|secret|password|api[_-]?key|cookie)\s*[:=]|https?:\/\//i.test(text));
   }
-  function stderrLine(line) { if (line.trim()) { d.stderrLines++; diagnostic(line, 'stderr'); } }
+  function stderrLine(line) { if (line.trim()) { d.stderrLines++; diagnostic(line, 'stderr'); } else if (line) d.stderrBlankLines++; }
   function stderr(bytes) {
     d.stderrBytes += bytes.length;
     for (const part of decoder.write(bytes).split(/(?<=\n)/)) {
       if (!dropping) pending += part;
-      if (pending.length > 4096) { pending = ''; dropping = true; d.truncated = true; }
+      if (pending.length > 4096) { omit('STDERR_LINE_EXCEEDS_SAFE_BUFFER_LIMIT', 'stderr', Buffer.byteLength(pending)); pending = ''; dropping = true; d.truncated = true; }
       if (part.endsWith('\n')) { if (!dropping) stderrLine(pending); pending = ''; dropping = false; }
     }
   }
@@ -59,7 +74,8 @@ export function processDiagnostics(launch) {
     d.jsonEvents++;
     if (e?.type === 'thread.started') d.sessionEventObserved = true;
     if (['turn.started', 'turn.completed'].includes(e?.type)) d.turnEventObserved = true;
-    if (['error', 'turn.failed'].includes(e?.type)) diagnostic(String(e.message ?? e.error?.message ?? ''), 'json-error');
+    if (['error', 'turn.failed'].includes(e?.type)) diagnostic(e.message ?? e.error?.message ?? '', 'json-error');
+    if (['item.started', 'item.updated', 'item.completed'].includes(e?.type) && e.item?.type === 'error') diagnostic(e.item.message, 'json-error-item');
   }
   function nonJson(line) { if (line.trim()) { d.nonJsonStdoutLines++; diagnostic(line, 'stdout-non-json'); } }
   function finish(code, signal) {
@@ -70,7 +86,9 @@ export function processDiagnostics(launch) {
     d.preInference = { state: spawnFailed ? 'SPAWN_FAILED' : d.turnEventObserved ? 'TURN_EVENT_OBSERVED' :
       d.sessionEventObserved ? 'SESSION_ONLY_NO_TURN_EVENT' : d.jsonEvents ? 'NO_SESSION_OR_TURN_EVENT' : 'NO_JSON_EVENTS',
       inferenceRequestSent: spawnFailed ? false : null };
-    d.classification = d.stopReason === 'TIMEOUT' ? 'TIMEOUT' : d.spawnErrorCode ? 'SPAWN_FAILURE' :
+    d.classification = d.stopReason === 'SMOKE_EVENT_REJECTED' ?
+      (d.smoke?.firstRejection?.reason?.startsWith('REPORTED_CLI_ERROR') ? d.messages[0]?.category ?? 'CLI_REPORTED_ERROR' : 'SMOKE_EVENT_REJECTED') :
+      d.stopReason === 'TIMEOUT' ? 'TIMEOUT' : d.spawnErrorCode ? 'SPAWN_FAILURE' :
       d.processErrorCode ? 'PROCESS_FAILURE' : d.stopReason ? 'RUNNER_PARSER_OR_CONTROL' : d.messages[0]?.category ?? (code === 0 ? 'NO_REPORTED_PROCESS_ERROR' : 'ROOT_CAUSE_UNDETERMINED');
     return d;
   }

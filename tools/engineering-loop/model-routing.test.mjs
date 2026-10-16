@@ -10,6 +10,7 @@ import { runCodex, codexArguments, executionProfileArguments, writeJson, readJso
 import { localReview, reviewPlan } from './reviewer.mjs';
 import { hash } from './core.mjs';
 import { safeLaunch, processDiagnostics } from './diagnostics.mjs';
+import { createSmokeEventGuard, EXEC_SCHEMA_SOURCE } from './smoke-events.mjs';
 
 const workspace = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const luna = 'gpt-5.6-luna', sol = 'gpt-5.6-sol';
@@ -395,6 +396,8 @@ test('Runner diagnostics: diagnostics are bounded and do not inspect model/tool 
   d.event({ type: 'item.completed', item: { type: 'agent_message', text: 'authentication failed; secret' } });
   d.finish(1, null);
   assert.equal(d.value.truncated, true); assert.equal(d.value.messages.length, 1);
+  assert.equal(d.value.omissions[0].reason, 'STDERR_LINE_EXCEEDS_SAFE_BUFFER_LIMIT');
+  assert.ok(d.value.omissions[0].observedBytesAtLeast >= 4096); assert.equal('bytes' in d.value.omissions[0], false);
   assert.equal(d.value.classification, 'CLI_CONFIGURATION'); assert.doesNotMatch(JSON.stringify(d.value), /api_key|secret/);
   assert.ok(JSON.stringify(d.value).length < 2000);
 });
@@ -411,4 +414,103 @@ test('Runner diagnostics: zero exit and valid output do not hide unverified actu
   assert.equal(r.succeeded, false); assert.equal(r.receipt.actualModel, null);
   assert.equal(r.receipt.diagnostics.classification, 'RUNNER_RESULT_VALIDATION');
   assert.equal(r.receipt.diagnostics.resultValidation, 'ACTUAL_MODEL_UNVERIFIED');
+});
+
+test('Smoke guard: version-pinned JSONL supports observational item.updated without logging text', async () => {
+  const events = [
+    { type: 'thread.started', thread_id: 'fixture', model: luna, reasoning_effort: 'low' },
+    { type: 'turn.started' },
+    { type: 'item.started', item: { id: 'i1', type: 'reasoning', text: 'PRIVATE_REASONING_TEXT' } },
+    { type: 'item.updated', item: { id: 'i1', type: 'reasoning', text: 'PRIVATE_REASONING_UPDATE' } },
+    { type: 'item.completed', item: { id: 'i2', type: 'agent_message', text: '{"ok":true}' } },
+    { type: 'turn.completed', usage: { input_tokens: 10, cached_input_tokens: 3, output_tokens: 2 } }
+  ];
+  const stream = events.map(e => JSON.stringify(e)).join('\n');
+  const r = await processFixture({ smoke: true, stdout: [stream.slice(0, 41), stream.slice(41, 120), stream.slice(120)], code: 0, output: { ok: true } });
+  assert.equal(r.succeeded, true); assert.equal(r.spawns, 1); assert.equal(r.stops, 0);
+  assert.equal(r.receipt.diagnostics.smoke.accepted, 6); assert.equal(r.receipt.diagnostics.smoke.rejected, 0);
+  assert.equal(r.receipt.diagnostics.smoke.schemaSource, EXEC_SCHEMA_SOURCE);
+  assert.doesNotMatch(JSON.stringify(r.receipt.diagnostics.smoke), /PRIVATE_REASONING|fixture|"i1"|"ok"/);
+});
+
+test('Smoke guard: error item is a reported CLI error, never counted as a tool or converted to success', async () => {
+  const item = { type: 'item.completed', item: { id: 'error-id', type: 'error', message: 'model gpt-5.6-luna not supported; api_key=DO_NOT_LOG_THIS' } };
+  const r = await processFixture({ smoke: true, stdout: [JSON.stringify(item) + '\n'], code: 1 });
+  assert.equal(r.succeeded, false); assert.equal(r.stops, 1);
+  const d = r.receipt.diagnostics, rejection = d.smoke.firstRejection;
+  assert.equal(rejection.eventType, 'item.completed'); assert.equal(rejection.itemType, 'error');
+  assert.deepEqual(rejection.eventFields, ['item', 'type']); assert.deepEqual(rejection.itemFields, ['id', 'message', 'type']);
+  assert.equal(rejection.reason, 'REPORTED_CLI_ERROR_ITEM'); assert.equal(d.smoke.rejectedToolItems, 0);
+  assert.equal(d.classification, 'MODEL_ACCESS'); assert.equal(d.exitCode, 1);
+  assert.equal(d.safeErrorDetails[0].mentionedModels[0], luna); assert.equal(d.safeErrorDetails[0].identityEvidence, false);
+  assert.doesNotMatch(JSON.stringify(d), /DO_NOT_LOG_THIS|error-id/);
+});
+
+test('Smoke guard: unknown events/items retain only bounded shape and explicit rejection reason', async () => {
+  for (const [event, reason] of [
+    [{ type: 'future.notice', payload: 'PRIVATE_PAYLOAD' }, 'UNKNOWN_EVENT_TYPE'],
+    [{ type: 'item.updated', item: { id: 'private-id', type: 'future_item', data: 'PRIVATE_PAYLOAD' } }, 'UNKNOWN_ITEM_TYPE']
+  ]) {
+    const r = await processFixture({ smoke: true, stdout: [JSON.stringify(event) + '\n'], code: 1 });
+    const d = r.receipt.diagnostics;
+    assert.equal(r.succeeded, false); assert.equal(r.spawns, 1); assert.equal(r.stops, 1);
+    assert.equal(d.smoke.firstRejection.reason, reason); assert.equal(d.smoke.firstRejection.eventType, event.type);
+    assert.equal(d.smoke.firstRejection.payloadRetained, false); assert.equal(d.smoke.rejectedToolItems, 0);
+    assert.doesNotMatch(JSON.stringify(d), /PRIVATE_PAYLOAD|private-id/);
+  }
+});
+
+test('Smoke guard: tool/write/delegation and plan items stay denied at every item lifecycle stage', () => {
+  for (const type of ['command_execution', 'file_change', 'mcp_tool_call', 'collab_tool_call', 'web_search', 'todo_list']) {
+    for (const stage of ['item.started', 'item.updated', 'item.completed']) {
+      const guard = createSmokeEventGuard(); const decision = guard.inspect({ type: stage, item: { id: 'test', type, command: 'PRIVATE_COMMAND' } });
+      assert.equal(decision.action, 'reject'); assert.equal(decision.reason, type === 'todo_list' ? 'DISALLOWED_PLAN_ITEM' : 'DISALLOWED_TOOL_OR_WRITE_ITEM');
+      assert.doesNotMatch(JSON.stringify(guard.state), /PRIVATE_COMMAND/);
+    }
+  }
+});
+
+test('Smoke guard: malformed JSON, incomplete items and malformed usage fail closed with metadata', async () => {
+  for (const [line, reason] of [
+    ['{"type":"item.completed",PRIVATE_BROKEN_JSON', 'MALFORMED_JSON'],
+    ['[]', 'MALFORMED_EVENT_ENVELOPE'],
+    [JSON.stringify({ type: 'item.completed', item: { type: 'agent_message' } }), 'MALFORMED_ITEM_ENVELOPE'],
+    [JSON.stringify({ type: 'turn.completed', usage: { input_tokens: -1 } }), 'MALFORMED_USAGE_EVENT']
+  ]) {
+    const r = await processFixture({ smoke: true, stdout: [line], code: 1 });
+    assert.equal(r.succeeded, false); assert.equal(r.receipt.diagnostics.smoke.firstRejection.reason, reason);
+    assert.doesNotMatch(JSON.stringify(r.receipt.diagnostics), /PRIVATE_BROKEN_JSON/);
+  }
+});
+
+test('Smoke guard: repeated errors request one stop and preserve the first cause across exit code 1', async () => {
+  const events = [{ type: 'error', message: 'Authentication failed' }, { type: 'turn.failed', error: { message: 'opaque-private-value' } }];
+  const r = await processFixture({ smoke: true, stdout: [events.map(e => JSON.stringify(e)).join('\n') + '\n'], code: 1 });
+  assert.equal(r.spawns, 1); assert.equal(r.stops, 1); assert.equal(r.receipt.diagnostics.exitCode, 1);
+  assert.equal(r.receipt.diagnostics.smoke.firstRejection.eventType, 'error');
+  assert.equal(r.receipt.diagnostics.classification, 'AUTHENTICATION');
+  assert.doesNotMatch(JSON.stringify(r.receipt.diagnostics), /opaque-private-value/);
+});
+
+test('Smoke diagnostics: unknown stderr explains omission and projects safe status/code without raw tokens', () => {
+  const d = processDiagnostics({});
+  d.stderr(Buffer.from('opaque error HTTP 403 unsupported_value gpt-5.6-luna access_token=PRIVATE_ACCESS\n'));
+  d.stderr(Buffer.from('Authorization: Bea')); d.stderr(Buffer.from('rer PRIVATE_BEARER\n'));
+  d.finish(1, null);
+  assert.equal(d.value.safeErrorDetails[0].httpStatus, 403); assert.equal(d.value.safeErrorDetails[0].errorCode, 'unsupported_value');
+  assert.equal(d.value.omissions.length, 2); assert.equal(d.value.omissions[0].reason, 'UNRECOGNIZED_TEXT_CANNOT_BE_SAFELY_PERSISTED');
+  assert.equal(d.value.omissions[1].sensitivePatternDetected, true); assert.equal(d.value.classification, 'ROOT_CAUSE_UNDETERMINED');
+  assert.doesNotMatch(JSON.stringify(d.value), /PRIVATE_ACCESS|PRIVATE_BEARER|access_token=/);
+});
+
+test('Smoke diagnostics: unsafe type/key labels and large streams cannot leak payload or grow logs without bound', () => {
+  const guard = createSmokeEventGuard();
+  const decision = guard.inspect({ type: 'sk-proj-PRIVATE_TYPE', 'sk-proj-PRIVATE_KEY': 'PRIVATE_VALUE', item: { type: 'Bearer PRIVATE_ITEM' } });
+  assert.equal(decision.eventType, '[REDACTED_IDENTIFIER]'); assert.equal(decision.itemType, '[REDACTED_IDENTIFIER]');
+  for (let i = 0; i < 100; i++) guard.inspect({ type: 'future.notice', payload: 'PRIVATE_VALUE' });
+  assert.equal(guard.state.records.length, 32); assert.equal(guard.state.omittedRecords, 69);
+  assert.doesNotMatch(JSON.stringify(guard.state), /PRIVATE_TYPE|PRIVATE_KEY|PRIVATE_ITEM|PRIVATE_VALUE/);
+  const d = processDiagnostics({}); for (let i = 0; i < 20; i++) d.stderr(Buffer.from('unknown PRIVATE_TEXT\n'));
+  d.finish(1, null); assert.equal(d.value.omissions.length, 8); assert.equal(d.value.omittedDiagnosticRecords, 12);
+  assert.doesNotMatch(JSON.stringify(d.value), /PRIVATE_TEXT/);
 });
