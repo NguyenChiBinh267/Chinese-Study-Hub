@@ -1,5 +1,7 @@
 # Git-native engineering loop — operations
 
+Latest bounded owner-authorization follow-up: [readiness report](owner-authorization-readiness-report.json), [diagnostic receipt](owner-readiness-diagnostic-receipt.json), and [operating contract](owner-readiness.md). Final status BLOCKED: 143 mock/regression checks and 18 legacy checks pass, but the one permitted diagnostic stopped before actual-model/usage/final-output proof. Its safe projection and 201-byte count match a source-defined nonfatal skill-description warning; raw-message equality is not claimed. No further model run or full-candidate bootstrap review followed. Existing-PR takeover is mock-verified and dormant; PR #6 remains unchanged. No authorization or historical PASS is inferred.
+
 Adaptive model routing/quota policy: [model-routing.md](model-routing.md). Exact model IDs come from the authenticated CLI catalogue. When per-model quota is absent, the guard uses verified shared Codex account limits with a 20% reserve. See [metadata/mock readiness](model-routing-readiness.json); actual generation remains untested. Synthetic model proofs are disabled by default.
 
 The subsequent one-shot Luna smoke exited 1. [Startup diagnosis](luna-smoke-diagnosis.md) distinguishes a metadata-reproduced reserved-provider configuration error from the original missing stderr. Process receipts now include filtered diagnostics; no smoke was rerun for this investigation.
