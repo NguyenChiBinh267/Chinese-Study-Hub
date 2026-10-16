@@ -5,7 +5,7 @@ import { test } from 'node:test';
 import { fileURLToPath } from 'node:url';
 import childProcess from 'node:child_process';
 import { syncBuiltinESMExports } from 'node:module';
-import { validateAuthorization, preflight, recoveryDecision, chooseTask, newLedger, summarize, autonomousRun } from './autonomous.mjs';
+import { validateAuthorization, preflight, recoveryDecision, chooseTask, newLedger, summarize, autonomousRun, bindRunDeadline, checkpointRetry } from './autonomous.mjs';
 import { makeMultiGitFixture } from './fixtures.mjs';
 import { GitSource, blob } from './git-ssot.mjs';
 import { git, validateFreeQuota, GitHub, remainingTime, deadlineTimer, command, writeJson, readJson } from './io.mjs';
@@ -284,4 +284,126 @@ test('Slow source read crossing run budget, grant or inherited expiry cannot dis
       else process.env.ENGINEERING_LOOP_DEADLINE = previous;
     }
   }
+});
+
+test('Persisted inherited deadline cannot expand after reload, removed env or a later caller deadline', async () => {
+  const g = grant(), l = newLedger(validateAuthorization(g, cfg, true), g), ceiling = Date.now() + 1000;
+  assert.equal(bindRunDeadline(l, g, String(ceiling)), ceiling);
+  const restored = JSON.parse(JSON.stringify(l));
+  assert.equal(bindRunDeadline(restored, g, undefined), ceiling);
+  assert.equal(bindRunDeadline(restored, g, String(ceiling + 100000)), ceiling);
+  assert.equal(bindRunDeadline(restored, g, String(ceiling - 1)), ceiling - 1);
+  const { bindRunDeadline: reloaded } = await import(`./autonomous.mjs?deadline=${Date.now()}`);
+  assert.equal(reloaded(JSON.parse(JSON.stringify(restored)), g, String(ceiling + 100000)), ceiling - 1);
+  for (const value of [undefined, null, '123', NaN]) assert.throws(() => bindRunDeadline({ ...l, effectiveDeadline: value }, g), /persisted.*deadline/);
+  const quotaState = { phase: 'BLOCKED', blockedFrom: 'REVIEW_WAIT', blockerCode: 'QUOTA_EXHAUSTED', retryAt: ceiling, runId: 'r' };
+  assert.equal(recoveryDecision(quotaState, g, l, ceiling - 1).kind, 'global', 'No quota retry at the persisted inherited boundary');
+});
+
+test('Fresh process resume without inherited env stops at a persisted expired ceiling before source or controller', () => {
+  const data = fs.mkdtempSync(path.join(root, '.engineering-loop', 'persisted-expiry-'));
+  const g = grant(), l = newLedger(validateAuthorization(g, cfg, true), g);
+  const fixture = { grant: g, controller: root, remote: 'synthetic' };
+  l.fixture = fixture; l.effectiveDeadline = Date.now() - 1;
+  const state = { cycleId: l.cycleId, runId: 'r', taskId: 'D001', phase: 'MERGE_WAIT' };
+  writeJson(path.join(data, 'multi-ledger.json'), l); writeJson(path.join(data, 'state.json'), state); writeJson(path.join(data, 'control.json'), {});
+  const output = command(process.execPath, ['--input-type=module', '-e', `
+    import { autonomousRun } from ${JSON.stringify(new URL('./autonomous.mjs', import.meta.url).href)};
+    delete process.env.ENGINEERING_LOOP_DEADLINE;
+    const args = JSON.parse(process.argv[1]);
+    const r = await autonomousRun({ ...args, resume: true, sourceFactory: () => { throw new Error('Must not read source after persisted expiry'); } });
+    console.log(JSON.stringify({ deadline: r.effectiveDeadline, reason: r.stopReason, transitions: r.transitions }));
+  `, JSON.stringify({ root, tool: 'must-not-dispatch', data, cfg, fixture })], root);
+  const report = JSON.parse(output);
+  assert.equal(report.deadline, l.effectiveDeadline); assert.equal(report.transitions, 0); assert.match(report.reason, /Authorized deadline reached/);
+  assert.deepEqual(readJson(path.join(data, 'state.json')), state);
+});
+
+test('Initial driver persists inherited ceiling before source construction; hard restart cannot extend it', () => {
+  const data = fs.mkdtempSync(path.join(root, '.engineering-loop', 'initial-deadline-'));
+  const g = grant(), ceiling = Date.now() + 1000, fixture = { grant: g, controller: root, remote: 'synthetic' };
+  writeJson(path.join(data, 'control.json'), {});
+  const first = childProcess.spawnSync(process.execPath, ['--input-type=module', '-e', `
+    import { autonomousRun } from ${JSON.stringify(new URL('./autonomous.mjs', import.meta.url).href)};
+    import { readJson } from ${JSON.stringify(new URL('./io.mjs', import.meta.url).href)};
+    const args = JSON.parse(process.argv[1]); process.env.ENGINEERING_LOOP_DEADLINE = String(args.ceiling);
+    await autonomousRun({ ...args, sourceFactory: () => {
+      const l = readJson(args.data + '/multi-ledger.json');
+      if (l.effectiveDeadline !== args.ceiling || !l.fixture) process.exit(99);
+      process.exit(24);
+    } });
+  `, JSON.stringify({ root, tool: 'must-not-dispatch', data, cfg, fixture, ceiling })], { cwd: root, encoding: 'utf8', windowsHide: true, timeout: 10000 });
+  assert.equal(first.status, 24); assert.equal(readJson(path.join(data, 'multi-ledger.json')).phase, 'RUNNING');
+  const second = command(process.execPath, ['--input-type=module', '-e', `
+    import { autonomousRun } from ${JSON.stringify(new URL('./autonomous.mjs', import.meta.url).href)};
+    const args = JSON.parse(process.argv[1]); delete process.env.ENGINEERING_LOOP_DEADLINE; Date.now = () => args.ceiling;
+    const r = await autonomousRun({ ...args, resume: true, sourceFactory: () => { throw new Error('No source at inherited boundary'); } });
+    console.log(JSON.stringify({ reason: r.stopReason, deadline: r.effectiveDeadline, transitions: r.transitions }));
+  `, JSON.stringify({ root, tool: 'must-not-dispatch', data, cfg, fixture, ceiling })], root);
+  const r = JSON.parse(second); assert.equal(r.deadline, ceiling); assert.equal(r.transitions, 0); assert.match(r.reason, /Authorized deadline reached/);
+});
+
+test('Legacy running ledger with unknown inherited ceiling blocks rather than inventing authority', async () => {
+  const data = fs.mkdtempSync(path.join(root, '.engineering-loop', 'legacy-deadline-'));
+  const g = grant(), l = newLedger(validateAuthorization(g, cfg, true), g); delete l.effectiveDeadline;
+  l.fixture = { grant: g, controller: root, remote: 'synthetic' };
+  writeJson(path.join(data, 'multi-ledger.json'), l); writeJson(path.join(data, 'control.json'), {});
+  let reads = 0;
+  const r = await autonomousRun({ root, tool: 'must-not-dispatch', data, cfg, fixture: l.fixture, resume: true,
+    sourceFactory: () => { reads++; throw new Error('No source permitted'); } });
+  assert.equal(reads, 0); assert.match(r.stopReason, /persisted effective deadline/); assert.equal(r.phase, 'STOPPED');
+});
+
+test('Retry crash windows always charge before runnable state; reload finishes one intent without double charge', () => {
+  for (const fault of ['before-ledger', 'after-canonical', 'before-runnable', 'after-runnable']) {
+    const data = fs.mkdtempSync(path.join(root, '.engineering-loop', 'retry-order-'));
+    const g = grant(), original = newLedger(validateAuthorization(g, cfg, true), g);
+    const statePath = path.join(data, 'state.json'), canonical = path.join(data, 'identity.json'), latest = path.join(data, 'latest.json');
+    const state = { runId: 'r', phase: 'BLOCKED', blockedFrom: 'MERGE_WAIT', blocker: 'retry', blockerCode: 'TRANSIENT_TRANSPORT', deadline: 'old', commitSha: 'pinned' };
+    writeJson(statePath, state); writeJson(canonical, original); writeJson(latest, original);
+    const ledger = structuredClone(original);
+    assert.throws(() => checkpointRetry({ state, decision: { kind: 'retry', phase: 'MERGE_WAIT' }, grant: g, ledger, statePath,
+      persist: () => {
+        if (fault === 'before-ledger') throw new Error('crash');
+        writeJson(canonical, ledger);
+        if (fault === 'after-canonical') throw new Error('crash');
+        writeJson(latest, ledger);
+      }, writeState: (file, value) => {
+        assert.equal(readJson(canonical).retries.r, 1); assert.ok(readJson(canonical).retryPending, 'Durable charged intent precedes state release');
+        if (fault === 'before-runnable') throw new Error('crash');
+        writeJson(file, value); throw new Error('crash');
+      } }), /crash/);
+    const recovered = readJson(canonical), saved = readJson(statePath);
+    assert.equal(recovered.retries.r ?? 0, fault === 'before-ledger' ? 0 : 1);
+    if (saved.phase !== 'BLOCKED') assert.equal(recovered.retries.r, 1);
+    let stateWrites = 0;
+    checkpointRetry({ state: saved, decision: { kind: 'retry', phase: 'MERGE_WAIT' }, grant: g, ledger: recovered, statePath,
+      persist: () => { writeJson(canonical, recovered); writeJson(latest, recovered); },
+      writeState: (file, value) => { stateWrites++; writeJson(file, value); } });
+    assert.equal(readJson(canonical).retries.r, 1); assert.equal(readJson(latest).retries.r, 1);
+    assert.equal(readJson(canonical).retryPending, null); assert.equal(readJson(statePath).phase, 'MERGE_WAIT');
+    assert.equal(stateWrites, fault === 'after-runnable' ? 0 : 1);
+  }
+});
+
+test('Hard process exit after retry state release resumes the charged intent and rejects drift or exhausted budgets', () => {
+  const data = fs.mkdtempSync(path.join(root, '.engineering-loop', 'retry-process-'));
+  const g = grant(), l = newLedger(validateAuthorization(g, cfg, true), g), statePath = path.join(data, 'state.json'), ledgerPath = path.join(data, 'ledger.json');
+  const state = { runId: 'r', phase: 'BLOCKED', blockedFrom: 'MERGE_WAIT', blockerCode: 'TRANSIENT_TRANSPORT' };
+  writeJson(statePath, state); writeJson(ledgerPath, l);
+  const child = childProcess.spawnSync(process.execPath, ['--input-type=module', '-e', `
+    import { checkpointRetry } from ${JSON.stringify(new URL('./autonomous.mjs', import.meta.url).href)};
+    import { readJson, writeJson } from ${JSON.stringify(new URL('./io.mjs', import.meta.url).href)};
+    const { statePath, ledgerPath, grant } = JSON.parse(process.argv[1]), ledger = readJson(ledgerPath);
+    checkpointRetry({ state: readJson(statePath), decision: { kind: 'retry', phase: 'MERGE_WAIT' }, grant, ledger, statePath,
+      persist: () => writeJson(ledgerPath, ledger), writeState: (f, v) => { writeJson(f, v); process.exit(23); } });
+  `, JSON.stringify({ statePath, ledgerPath, grant: g })], { cwd: root, encoding: 'utf8', windowsHide: true, timeout: 10000 });
+  assert.equal(child.status, 23);
+  const recovered = readJson(ledgerPath), ready = readJson(statePath);
+  assert.equal(recovered.retries.r, 1); assert.equal(ready.phase, 'MERGE_WAIT');
+  assert.throws(() => checkpointRetry({ state: { ...ready, commitSha: 'unexpected' }, grant: g, ledger: structuredClone(recovered), statePath, persist: () => {} }), /changed outside intent/);
+  checkpointRetry({ state: ready, grant: g, ledger: recovered, statePath, persist: () => writeJson(ledgerPath, recovered), writeState: () => assert.fail('Already released; no duplicate state write') });
+  assert.equal(recovered.retries.r, 1); assert.equal(recovered.retryPending, null);
+  assert.throws(() => checkpointRetry({ state, decision: { kind: 'retry', phase: 'MERGE_WAIT' }, grant: g,
+    ledger: { ...l, retries: { r: g.maxRetries } }, statePath, persist: () => assert.fail('No durable write after exhausted budget') }), /Retry limit/);
 });
