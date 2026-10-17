@@ -10,6 +10,7 @@ import { FixtureSource, GoogleDocsSource } from './ssot.mjs';
 import { deriveRepository, PROTECTED } from './plan.mjs';
 import { GitSource, GitMerge, GitSSOT, readyGitTasks } from './git-ssot.mjs';
 import { acceptanceChecks } from './acceptance.mjs';
+import { existingCandidate, adoptExisting, prepareExistingReview } from './existing-pr.mjs';
 
 export const TOOL = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT = path.resolve(TOOL, '../..');
@@ -219,6 +220,7 @@ async function implement(state, cfg, gh, snap, task) {
       `Return schema JSON taskId ${state.taskId}, result COMPLETE, changedFiles ${JSON.stringify(policy.allowedFiles)}, actual operation tests/evidence, empty blocker and empty commitSha. Repair findings: ${JSON.stringify(state.review?.findings ?? [])}. Verified task packet ${JSON.stringify(packet(state, task, snap))}` : '';
     const prompt = state.fixturePolicies ? multiPrompt : isSynthetic(state) ? dryPrompt : livePrompt;
     const result = await runCodex({ root: ROOT, workspace: state.worktree, prompt, schema: path.join(TOOL, 'report.schema.json'), output,
+      routingContext: { task, policy, state },
       timeoutMs: cfg.codexTimeoutMinutes * 60000, control,
       onStart: pid => { move(state, 'DEVELOPING', { deadline: null, writerPid: pid }); save(state); }, onStop: () => { state.writerPid = null; save(state); } });
     state.developerReport = result.report;
@@ -316,11 +318,15 @@ export async function step() {
       else if (state.mode === 'git-fixture') await openGitFixtureHandoff(state, cfg);
       else {
         if (['git', 'google-docs'].includes(cfg.sourceBackend)) await adapterFor(state, cfg).verifyTask(state, task);
-        await openHandoff(state, cfg, gh, snap, task);
+        const target = await existingCandidate(gh, cfg, task.id, state.sourceCommit);
+        if (target) await adoptExisting({ root: ROOT, data: DATA, state, cfg, task, policy: policyFor(state, cfg), source: adapterFor(state, cfg), gh, target, save });
+        else await openHandoff(state, cfg, gh, snap, task);
       }
     }
     else if (state.phase === 'SOURCE_WAIT') {
-      if (state.mode === 'dry-local' || ['git', 'google-docs'].includes(cfg.sourceBackend)) {
+      if (state.adoptedPullRequest) {
+        await prepareExistingReview({ state, task, policy: policyFor(state, cfg), source: adapterFor(state, cfg), gh, save });
+      } else if (state.mode === 'dry-local' || ['git', 'google-docs'].includes(cfg.sourceBackend)) {
         const proof = await adapterFor(state, cfg).verifyTask(state, task);
         state.sourceAttestation = { ...proof, attestedAt: now() };
         move(state, 'DEVELOP_READY', { deadline: null }); save(state);
@@ -530,7 +536,9 @@ async function main() {
   if (action === 'dry-git') { await dryGitCycle(); return; }
   if (['bootstrap-review', 'bootstrap-recover-tests', 'bootstrap-merge'].includes(action)) {
     const { bootstrapReview, bootstrapMerge } = await import('./bootstrap.mjs');
-    const state = await (action === 'bootstrap-merge' ? bootstrapMerge : bootstrapReview)({ root: ROOT, tool: TOOL, data: DATA, cfg: config(), recoverTesting: action === 'bootstrap-recover-tests', recoveryRunId: process.argv[3] ?? null });
+    const recovering = action === 'bootstrap-recover-tests';
+    const state = await (action === 'bootstrap-merge' ? bootstrapMerge : bootstrapReview)({ root: ROOT, tool: TOOL, data: DATA, cfg: config(),
+      prNumber: Number(process.argv[recovering ? 4 : 3]), recoverTesting: recovering, recoveryRunId: recovering ? process.argv[3] ?? null : null });
     console.log(JSON.stringify({ taskId: state.taskId, phase: state.phase, verdict: state.review?.verdict, commitSha: state.commitSha, blocker: state.blocker })); return;
   }
   if (['multi-proof', 'multi-supervise'].includes(action)) {

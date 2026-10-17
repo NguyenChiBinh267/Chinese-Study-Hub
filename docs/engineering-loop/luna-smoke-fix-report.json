@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "status": "BLOCKED",
+  "baseCommit": "5d3df80c8f250d37db15af8192bf80b1eeef7b39",
+  "branch": "loop/adaptive-model-routing",
+  "fixedConfiguration": {
+    "executionProfile": "minimal-luna-smoke",
+    "removedOverrides": [
+      "model_providers.openai.request_max_retries=0",
+      "model_providers.openai.stream_max_retries=0",
+      "model_providers.openai.stream_idle_timeout_ms=15000"
+    ],
+    "scope": "These invalid overrides came from the old smoke harness; the new active runner profile omits them and does not modify built-in providers.",
+    "authUnchanged": "forced_login_method=chatgpt; model_provider=openai; API credentials stripped; no paid fallback",
+    "startup": "STARTUP_CATALOG_QUOTA_VERIFIED_NO_INFERENCE",
+    "startupCommand": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\@openai\\codex\\bin\\codex.js",
+      "app-server",
+      "--stdio",
+      "-c",
+      "forced_login_method=\"chatgpt\"",
+      "-c",
+      "model_provider=\"openai\"",
+      "--disable",
+      "shell_tool",
+      "--disable",
+      "multi_agent",
+      "--disable",
+      "multi_agent_v2",
+      "--disable",
+      "sleep_tool",
+      "--disable",
+      "skill_search"
+    ],
+    "cliVersion": "codex-cli 0.153.4",
+    "catalogue": [
+      "gpt-6-astra",
+      "gpt-5.6-sol",
+      "gpt-5.6-terra",
+      "gpt-5.6-luna"
+    ],
+    "quotaScope": "shared-account",
+    "reservePercent": 20
+  },
+  "smoke": {
+    "startedAt": "2026-10-16T07:30:30.643Z",
+    "finishedAt": "2026-10-16T07:30:37.086Z",
+    "launches": 1,
+    "exitCode": 1,
+    "signal": null,
+    "requestedModel": "gpt-5.6-luna",
+    "requestedEffort": "low",
+    "actualModel": null,
+    "actualEffort": null,
+    "usage": null,
+    "response": null,
+    "phase": "TURN_EVENT_OBSERVED_THEN_HARNESS_GUARD_STOP",
+    "failure": "Codex failed (exit 1; UNCLASSIFIED)",
+    "guardStop": "UNEXPECTED_TOOL_ITEM",
+    "observedNonAnswerItems": 1,
+    "actualItemType": "NOT_RETAINED; item count does not establish a tool was executed",
+    "rootCause": "ROOT_CAUSE_UNDETERMINED",
+    "assessment": "Startup configuration is now accepted. The one-shot harness requested process termination after an item type outside agent_message/reasoning. No original item type/body was retained. This is not evidence of model-access denial or successful inference.",
+    "diagnostics": {
+      "schemaVersion": 1,
+      "launch": {
+        "executable": "C:\\Program Files\\nodejs\\node.exe",
+        "args": [
+          "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\@openai\\codex\\bin\\codex.js",
+          "exec",
+          "--ignore-user-config",
+          "--ephemeral",
+          "--sandbox",
+          "read-only",
+          "--model",
+          "gpt-5.6-luna",
+          "-c",
+          "model_reasoning_effort=\"low\"",
+          "-c",
+          "approval_policy=\"never\"",
+          "-c",
+          "forced_login_method=\"chatgpt\"",
+          "-c",
+          "model_provider=\"openai\"",
+          "-c",
+          "windows.sandbox=\"unelevated\"",
+          "-c",
+          "sandbox_workspace_write.network_access=false",
+          "--cd",
+          "D:\\Chinese-Study-Hub\\.engineering-loop\\owner-luna-fixed-5d3df80-20261016\\workspace",
+          "--output-schema",
+          "D:\\Chinese-Study-Hub\\.engineering-loop\\owner-luna-fixed-5d3df80-20261016\\schema.json",
+          "--output-last-message",
+          "D:\\Chinese-Study-Hub\\.engineering-loop\\owner-luna-fixed-5d3df80-20261016\\result.json",
+          "--json",
+          "--color",
+          "never",
+          "--disable",
+          "shell_tool",
+          "--disable",
+          "multi_agent",
+          "--disable",
+          "multi_agent_v2",
+          "--disable",
+          "sleep_tool",
+          "--disable",
+          "skill_search",
+          "-"
+        ],
+        "cwd": "D:\\Chinese-Study-Hub\\.engineering-loop\\owner-luna-fixed-5d3df80-20261016\\workspace",
+        "source": "child.spawnargs",
+        "sandbox": "read-only",
+        "stdinRetained": false,
+        "environmentRetained": false
+      },
+      "exitCode": 1,
+      "signal": null,
+      "spawnErrorCode": null,
+      "processErrorCode": null,
+      "stopReason": null,
+      "stdoutBytes": 379,
+      "stderrBytes": 158,
+      "jsonEvents": 3,
+      "nonJsonStdoutLines": 0,
+      "stderrLines": 1,
+      "truncated": false,
+      "sessionEventObserved": true,
+      "turnEventObserved": true,
+      "messages": [],
+      "classification": "ROOT_CAUSE_UNDETERMINED",
+      "preInference": {
+        "state": "TURN_EVENT_OBSERVED",
+        "inferenceRequestSent": null
+      }
+    },
+    "stderr": {
+      "bytes": 158,
+      "lines": 1,
+      "filteredSignatures": [],
+      "rawRetained": false,
+      "limitation": "Unrecognized stderr was omitted by the secret-safe allowlist; 158 bytes cannot be reconstructed. No error text is invented."
+    },
+    "quotaBefore": {
+      "checkedAt": "2026-10-16T07:30:31.758Z",
+      "model": "gpt-5.6-luna",
+      "quotaScope": "shared-account",
+      "modelQuotaVerified": false,
+      "remainingPercent": 61,
+      "usablePercent": 41,
+      "reservePercent": 20,
+      "buckets": [
+        {
+          "id": "codex",
+          "windows": [
+            {
+              "usedPercent": 7,
+              "remainingPercent": 93,
+              "resetsAt": 1792153579,
+              "windowDurationMins": 300
+            },
+            {
+              "usedPercent": 39,
+              "remainingPercent": 61,
+              "resetsAt": 1792650357,
+              "windowDurationMins": 10080
+            }
+          ]
+        }
+      ],
+      "reserveReached": false,
+      "chatgptOnly": true,
+      "hasCredits": false,
+      "balance": "0",
+      "ordinaryQuotaAvailable": true,
+      "resetCreditsUsed": false
+    },
+    "quotaAfter": {
+      "checkedAt": "2026-10-16T07:30:36.895Z",
+      "model": "gpt-5.6-luna",
+      "quotaScope": "shared-account",
+      "modelQuotaVerified": false,
+      "remainingPercent": 61,
+      "usablePercent": 41,
+      "reservePercent": 20,
+      "buckets": [
+        {
+          "id": "codex",
+          "windows": [
+            {
+              "usedPercent": 7,
+              "remainingPercent": 93,
+              "resetsAt": 1792153579,
+              "windowDurationMins": 300
+            },
+            {
+              "usedPercent": 39,
+              "remainingPercent": 61,
+              "resetsAt": 1792650356,
+              "windowDurationMins": 10080
+            }
+          ]
+        }
+      ],
+      "reserveReached": false,
+      "chatgptOnly": true,
+      "hasCredits": false,
+      "balance": "0",
+      "ordinaryQuotaAvailable": true,
+      "resetCreditsUsed": false
+    },
+    "quotaDelta": [
+      {
+        "bucket": "codex",
+        "windowDurationMins": 300,
+        "usedBefore": 7,
+        "usedAfter": 7,
+        "usedPercentagePointDelta": 0
+      },
+      {
+        "bucket": "codex",
+        "windowDurationMins": 10080,
+        "usedBefore": 39,
+        "usedAfter": null,
+        "usedPercentagePointDelta": null
+      }
+    ],
+    "quotaLimitations": "Rounded shared-account data cannot establish isolated token usage/savings. Weekly reset timestamps differ by one second, so strict weekly delta is unknown.",
+    "orchestratorRetries": 0,
+    "escalations": 0,
+    "fallbackModels": 0,
+    "timeoutMs": 30000,
+    "providerRetryOverrides": false,
+    "internalTransportRetryPolicy": "Not configured or inferred; terminate on observed retry/error event",
+    "rawArtifact": ".engineering-loop/owner-luna-fixed-5d3df80-20261016/report.json",
+    "rawArtifactSha256": "eb1b1046eff35dbc91f0ce2d33472fc902f6b93dd48c59141f4a591e22604510"
+  },
+  "tests": {
+    "passed": 62,
+    "failed": 0,
+    "files": [
+      "tools/engineering-loop/model-routing.test.mjs",
+      "tools/engineering-loop/local.test.mjs"
+    ],
+    "artifact": ".engineering-loop/luna-fixed-related-tests.xml",
+    "sha256": "47605c802e7a36c5db9180b718034fb7288b25076199d37a80cc4deea94acee9",
+    "mockOnly": true,
+    "fullSuite": false
+  },
+  "safety": {
+    "protectedFilesUnchanged": true,
+    "grantImplementationUnchanged": true,
+    "routingAndReviewerUnchanged": true,
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "bootstrapMergeAuthorization": null,
+    "zeroTouchAuthorization": null,
+    "control": {
+      "pause": false,
+      "stop": true,
+      "changedAt": "2026-10-14T10:03:53.852Z"
+    },
+    "paidApiOrCreditsUsed": false,
+    "realBacklogRun": false,
+    "bootstrapRun": false,
+    "multiProofRun": false,
+    "pushed": false,
+    "merged": false,
+    "deployed": false
+  },
+  "conclusion": "BLOCKED: no verified actual model identity, token telemetry or valid final response. One CLI smoke launch consumed this authorization; do not retry."
+}

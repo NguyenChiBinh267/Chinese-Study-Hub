@@ -41,7 +41,7 @@ export function recoveryDecision(state, grant, ledger, at = Date.now()) {
   if (state.phase !== 'BLOCKED') return null;
   if (state.writerPid || state.reviewerPid || !STABLE.includes(state.blockedFrom)) return { kind: 'global', reason: 'Unsafe interrupted process/write checkpoint' };
   if (state.blockerCode === 'QUOTA_EXHAUSTED') {
-    const deadline = Math.min(Date.parse(grant.expiresAt), Date.parse(ledger.startedAt) + grant.maxRunSeconds * 1000);
+    const deadline = Math.min(ledger.effectiveDeadline ?? Infinity, Date.parse(grant.expiresAt), Date.parse(ledger.startedAt) + grant.maxRunSeconds * 1000);
     if (Number.isFinite(deadline) && Math.max(at, state.retryAt) >= deadline) return { kind: 'global', reason: 'Quota retry outside authorized run/grant deadline' };
     if (!Number.isFinite(state.retryAt) || state.retryAt - at > grant.maxQuotaWaitSeconds * 1000) return { kind: 'global', reason: 'Quota reset unavailable/outside authorized wait budget' };
     if ((ledger.retries[state.runId] ?? 0) >= grant.maxRetries) return { kind: 'global', reason: 'Quota retry limit' };
@@ -59,7 +59,43 @@ export function chooseTask(snapshot, grant, ledger) {
   return readyGitTasks(snapshot).find(t => grant.tasks.includes(t.id) && !attempted.has(t.id));
 }
 export function newLedger(grantHash, grant) {
-  return { schemaVersion: 1, cycleId: randomUUID(), grantHash, grantId: grant.grantId, startedAt: now(), phase: 'RUNNING', outcomes: [], retries: {}, modelCalls: 0, transitions: 0, controllerPids: [], expectedHead: null };
+  const startedAt = now();
+  return { schemaVersion: 1, cycleId: randomUUID(), grantHash, grantId: grant.grantId, startedAt,
+    effectiveDeadline: Math.min(Date.parse(grant.expiresAt), Date.parse(startedAt) + grant.maxRunSeconds * 1000),
+    phase: 'RUNNING', outcomes: [], retries: {}, modelCalls: 0, transitions: 0, controllerPids: [], expectedHead: null };
+}
+
+export function bindRunDeadline(ledger, grant, inherited = process.env.ENGINEERING_LOOP_DEADLINE) {
+  const inheritedDeadline = inherited === undefined ? Infinity : Number(inherited);
+  requireThat(inherited === undefined || inherited.trim() !== '' && Number.isFinite(inheritedDeadline), 'Invalid inherited deadline');
+  requireThat(Number.isSafeInteger(ledger.effectiveDeadline), 'Missing/invalid persisted effective deadline; reconcile legacy authority');
+  const deadline = Math.min(ledger.effectiveDeadline, inheritedDeadline, Date.parse(grant.expiresAt), Date.parse(ledger.startedAt) + grant.maxRunSeconds * 1000);
+  requireThat(Number.isSafeInteger(deadline), 'Invalid run deadline');
+  ledger.effectiveDeadline = deadline; return deadline;
+}
+
+// Write-ahead retry intent: charge canonical grant identity BEFORE releasing state.
+// A restart completes the same charged intent rather than charging/replaying it again.
+export function checkpointRetry({ state, decision, grant, ledger, statePath, persist, writeState = writeJson }) {
+  const digest = value => hash(JSON.stringify(value));
+  const runnable = phase => ({ ...state, phase, blocker: null, blockerCode: null, deadline: null });
+  if (!ledger.retryPending) {
+    requireThat(state.phase === 'BLOCKED' && decision?.kind === 'retry' && STABLE.includes(decision.phase), 'Invalid retry checkpoint');
+    const attempt = (ledger.retries[state.runId] ?? 0) + 1;
+    requireThat(Number.isSafeInteger(attempt) && attempt > 0 && attempt <= grant.maxRetries, 'Retry limit');
+    const next = runnable(decision.phase);
+    ledger.retryPending = { runId: state.runId, attempt, phase: decision.phase, fromHash: digest(state), toHash: digest(next) };
+    ledger.retries[state.runId] = attempt; ledger.wait = null;
+    persist();
+  }
+  const pending = ledger.retryPending;
+  requireThat(pending.runId === state.runId && STABLE.includes(pending.phase) && Number.isSafeInteger(pending.attempt) &&
+    pending.attempt > 0 && pending.attempt <= grant.maxRetries && ledger.retries[state.runId] === pending.attempt, 'Retry intent/counter drift');
+  if (digest(state) === pending.fromHash) {
+    requireThat(state.phase === 'BLOCKED' && digest(runnable(pending.phase)) === pending.toHash, 'Retry intent state drift');
+    writeState(statePath, runnable(pending.phase));
+  } else requireThat(state.phase === pending.phase && digest(state) === pending.toHash, 'Retry checkpoint changed outside intent');
+  ledger.retryPending = null; persist();
 }
 export function summarize(ledger, snapshot, reason) {
   return { ...ledger, phase: 'STOPPED', stoppedAt: now(), stopReason: reason,
@@ -76,26 +112,47 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
   const grantHash = validateAuthorization(grant, cfg, synthetic);
   const statePath = path.join(data, 'state.json'), ledgerPath = path.join(data, synthetic ? 'multi-ledger.json' : 'autonomous-ledger.json');
   const release = driverRelease ?? lock(path.join(data, 'git-driver.lock'), statePath);
+  const grantDirectory = path.join(data, 'grant-ledgers', synthetic ? 'synthetic' : 'live');
+  const grantPath = id => path.join(grantDirectory, `${hash(id)}.json`);
+  const identityPath = grantPath(grant.grantId);
   let ledger, snapshot, reason = 'No eligible task', src;
   const controlPath = path.join(data, 'control.json');
   const readControl = () => readJson(controlPath);
+  // Final identity/latest checkpoints must be durable before another driver takes the lock.
   try {
-    if (!resume && !synthetic && fs.existsSync(ledgerPath)) requireThat(readJson(ledgerPath).grantId !== grant.grantId, 'Stopped grant cannot be reused to reset budgets; issue a new explicit grant');
-    ledger = resume ? readJson(ledgerPath) : newLedger(grantHash, grant);
-    requireThat(ledger.grantHash === grantHash && ledger.phase === 'RUNNING', 'Grant drift or stopped cycle; new explicit run required');
+  try {
+    // Import the pre-registry checkpoint before any other grant can replace it.
+    const latest = fs.existsSync(ledgerPath) ? readJson(ledgerPath) : null;
+    if (latest) {
+      requireThat(typeof latest.grantId === 'string' && latest.grantId.length >= 16, 'Invalid prior grant identity');
+      if (!fs.existsSync(grantPath(latest.grantId))) writeJson(grantPath(latest.grantId), latest);
+    }
+    let candidate;
+    if (resume) {
+      requireThat(latest?.grantId === grant.grantId, 'Resume grant differs from latest cycle');
+      candidate = readJson(identityPath);
+      requireThat(candidate.cycleId === latest.cycleId, 'Grant cycle checkpoint mismatch');
+      requireThat(candidate.grantHash === grantHash && candidate.phase === 'RUNNING', 'Grant drift or stopped cycle; new explicit run required');
+    } else {
+      requireThat(!fs.existsSync(identityPath), 'Consumed grant cannot be reused to reset budgets; issue a new explicit grant');
+      candidate = newLedger(grantHash, grant);
+    }
+    ledger = candidate;
+    const persist = () => { writeJson(identityPath, ledger); writeJson(ledgerPath, ledger); };
+    const runDeadline = bindRunDeadline(ledger, grant);
+    if (synthetic && !resume) ledger.fixture = fixture;
+    // Persist the inherited ceiling in both identity/latest checkpoints before any work.
+    persist();
     if (resume && synthetic) fixture = ledger.fixture;
+    requireThat(Date.now() < runDeadline, 'Authorized deadline reached');
     src = sourceFactory({ root: synthetic ? fixture.controller : root, synthetic,
       expectedRemote: synthetic ? fixture.remote : `https://github.com/${cfg.repository}.git`, data: path.join(data, 'git-operations', ledger.cycleId.slice(0, 8)) });
-    if (synthetic) ledger.fixture = fixture;
     if (!synthetic) {
       const bootstrap = readJson(path.join(data, 'bootstrap-latest.json'));
       requireThat(bootstrap.review?.verdict === 'PASS' && bootstrap.review.commitSha === grant.bootstrapReviewedSha && bootstrap.review.findings.length === 0 &&
         bootstrap.reviewerReceipt?.sandbox === 'read-only' && bootstrap.reviewerReceipt?.newSession && bootstrap.checks?.every(c => c.passed), 'Missing independent exact-SHA bootstrap PASS');
       const main = src.fetchHead(); git(root, 'merge-base', '--is-ancestor', grant.bootstrapReviewedSha, main);
     }
-    const runDeadline = Math.min(Date.parse(grant.expiresAt), Date.parse(ledger.startedAt) + grant.maxRunSeconds * 1000);
-    requireThat(Number.isFinite(runDeadline), 'Invalid run deadline');
-    const persist = () => writeJson(ledgerPath, ledger);
     ledger.driverPids ??= []; ledger.driverPids.push(process.pid);
     persist();
     while (true) {
@@ -104,6 +161,8 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
       const ctl = readControl();
       if (ctl.pause || ctl.stop) { reason = 'Operator stop/pause'; break; }
       if (Date.now() - Date.parse(ledger.startedAt) >= grant.maxRunSeconds * 1000) { reason = 'Run time budget'; break; }
+      if (Date.now() >= runDeadline) { reason = 'Authorized deadline reached'; break; }
+      if (ledger.retryPending) checkpointRetry({ state: readJson(statePath), grant, ledger, statePath, persist });
       // Respect durable backoff before any remote read, including after restart.
       const pendingAt = Math.max(ledger.remoteWait?.at ?? 0, ledger.wait?.at ?? 0);
       if (Date.now() < pendingAt) {
@@ -130,10 +189,7 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
             if (decision.kind === 'retry') {
               ledger.wait = { runId: state.runId, ...decision }; persist();
               if (Date.now() < decision.at) { await new Promise(resolve => setTimeout(resolve, Math.min(1000, decision.at - Date.now()))); continue; }
-              // Intent is kept in state; existing adapters verify exact HEAD/source and checkpointed pushes.
-              state.phase = decision.phase; state.blocker = null; state.blockerCode = null; state.deadline = null;
-              ledger.retries[state.runId] = (ledger.retries[state.runId] ?? 0) + 1; ledger.wait = null;
-              writeJson(statePath, state); persist(); continue;
+              checkpointRetry({ state, decision, grant, ledger, statePath, persist }); continue;
             }
             if (decision.kind === 'global') { reason = `Global blocker: ${decision.reason}`; break; }
           }
@@ -186,7 +242,6 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
       }
     }
   } catch (error) { reason = `Global blocker: ${error.message}`; }
-  finally { release(); }
   if (ledger) {
     if (!snapshot) snapshot = { tasks: [], kind: synthetic ? 'synthetic-git' : 'git-origin-main', commit: null };
     const report = summarize(ledger, snapshot, reason);
@@ -196,12 +251,14 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
         taskId: active.taskId, runId: active.runId, phase: active.phase, blockedFrom: active.blockedFrom, blocker: active.blocker,
         blockerCode: active.blockerCode, sourceCommit: active.sourceCommit, commitSha: active.commitSha, mergeSha: active.mergeSha, statusPendingSha: active.statusPendingSha };
     }
+    writeJson(identityPath, report);
     writeJson(ledgerPath, report);
     writeJson(path.join(data, synthetic ? 'multi-cycle-latest.json' : 'autonomous-report.json'), report);
     writeJson(controlPath, { pause: false, stop: true, changedAt: now() });
     return report;
   }
   throw new Error(reason);
+  } finally { release(); }
 }
 
 export function superviseFixture({ root, tool, data, start = false }) {

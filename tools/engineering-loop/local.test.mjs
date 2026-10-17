@@ -46,7 +46,7 @@ test('Developer COMPLETE cannot carry PASS or reviewer findings', () => {
   for (const extra of [{ verdict: 'PASS' }, { findings: [] }]) assert.throws(() => validateReport({ taskId: 'D001', result: 'COMPLETE', tests: [{ passed: true }], changedFiles: ['fixture.txt'], evidence: [], blocker: '', ...extra }, task, ['fixture.txt']), /cannot supply/);
 });
 test('Reviewer arguments enforce fresh ephemeral read-only session and no escalation', () => {
-  const args = codexArguments('entry', { workspace: 'repo', schema: 'schema', output: 'out', role: 'reviewer' });
+  const args = codexArguments('entry', { workspace: 'repo', schema: 'schema', output: 'out', role: 'reviewer', model: 'gpt-6-luna', reasoningEffort: 'medium' });
   assert.equal(args[args.indexOf('--sandbox') + 1], 'read-only'); assert(args.includes('--ephemeral'));
   assert(args.includes('--ignore-user-config')); assert(args.includes('approval_policy="never"'));
   assert(!args.includes('resume')); assert(!args.some(x => x.includes('danger-full-access')));
