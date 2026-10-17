@@ -1,6 +1,6 @@
 # Git-native engineering loop — operations
 
-Current CLI0.153.4 runtime follow-up: [report](cli01534-runtime-report.json), [receipt](cli01534-runtime-receipt.json), [model-evidence policy](cli01534-runtime-policy.md). Exact source-warning equality now passes as NONFATAL_WARNING without retaining the runtime message. The single authorized proof completed with valid JSON, exit0 and token usage (16501 input,0 cached,15 output), with no tool/policy event rejection. Overall BLOCKED: independent stderr classification (158 bytes) and actual-model identity remain unverified. The alternative routing-assurance contract is only a proposal. No retry, further model fix/test, or independent bootstrap review followed; all live/merge/status authority and PR #6 remain unchanged.
+Current policy decision: [Alternative Model Assurance](cli01534-runtime-policy.md) is owner-approved for CLI0.153.4, implemented with separate `routingAssuranceVerified` and `actualModelVerified=false`. See [current report](alternative-assurance-report.json). Overall BLOCKED: the historical smoke's 158 stderr bytes cannot be exactly classified from retained evidence, and independent full-candidate review has not run. No inference/smoke/Reviewer is run for this change. Live/merge/status authority and PR #6 remain unchanged. The [prior runtime report](cli01534-runtime-report.json) and [receipt](cli01534-runtime-receipt.json) remain historical; they are not retroactively converted to PASS.
 
 Previous bounded owner-authorization follow-up: [readiness report](owner-authorization-readiness-report.json), [diagnostic receipt](owner-readiness-diagnostic-receipt.json), and [operating contract](owner-readiness.md). Final status BLOCKED: 143 mock/regression checks and 18 legacy checks pass, but the one permitted diagnostic stopped before actual-model/usage/final-output proof. Its safe projection and 201-byte count match a source-defined nonfatal skill-description warning; raw-message equality is not claimed. No further model run or full-candidate bootstrap review followed that earlier proof. Existing-PR takeover is mock-verified and dormant; PR #6 remains unchanged. No authorization or historical PASS is inferred.
 
@@ -30,7 +30,7 @@ node tools/engineering-loop/loop.mjs candidate-pick
 node tools/engineering-loop/loop.mjs ssot-status
 node tools/engineering-loop/loop.mjs doctor
 node tools/engineering-loop/loop.mjs dry-run
-node --test tools/engineering-loop/local.test.mjs tools/engineering-loop/git.test.mjs tools/engineering-loop/autonomous.test.mjs tools/engineering-loop/bootstrap.test.mjs tools/engineering-loop/recovery.test.mjs tools/engineering-loop/model-routing.test.mjs
+node --test tools/engineering-loop/local.test.mjs tools/engineering-loop/git.test.mjs tools/engineering-loop/autonomous.test.mjs tools/engineering-loop/bootstrap.test.mjs tools/engineering-loop/recovery.test.mjs tools/engineering-loop/model-routing.test.mjs tools/engineering-loop/model-assurance.test.mjs tools/engineering-loop/error-projection.test.mjs tools/engineering-loop/existing-pr.test.mjs
 node tools/engineering-loop/loop.mjs dry-git
 ```
 

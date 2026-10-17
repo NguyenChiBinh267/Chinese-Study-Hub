@@ -85,7 +85,7 @@ export function validateBootstrapMergeGrant(grant, state) {
 function actualChecks(repo, directory, commitSha) {
   fs.mkdirSync(directory, { recursive: true });
   const xml = path.join(directory, `${commitSha}-tests.xml`);
-  const files = ['local.test.mjs', 'git.test.mjs', 'autonomous.test.mjs', 'bootstrap.test.mjs', 'recovery.test.mjs', 'model-routing.test.mjs', 'error-projection.test.mjs', 'existing-pr.test.mjs'];
+  const files = ['local.test.mjs', 'git.test.mjs', 'autonomous.test.mjs', 'bootstrap.test.mjs', 'recovery.test.mjs', 'model-routing.test.mjs', 'model-assurance.test.mjs', 'error-projection.test.mjs', 'existing-pr.test.mjs'];
   requireThat(files.every(f => fs.existsSync(path.join(repo, 'tools/engineering-loop', f))), 'Missing bootstrap regression suite');
   const r = spawnSync(process.execPath, ['--test', '--test-reporter=junit', `--test-reporter-destination=${xml}`, ...files.map(f => `tools/engineering-loop/${f}`)],
     { cwd: repo, env: codexEnvironment(), windowsHide: true, encoding: 'utf8', timeout: 600000, maxBuffer: 4 * 1024 * 1024 });

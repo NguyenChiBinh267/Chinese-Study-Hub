@@ -7,6 +7,8 @@ import { selectModel, selectedQuota, consumeModelBudget, observeModelEvent } fro
 import { EXEC_IDENTITY_CAPABILITY } from './cli-exec-contract.mjs';
 import { safeLaunch, processDiagnostics } from './diagnostics.mjs';
 import { createSmokeEventGuard } from './smoke-events.mjs';
+import { readAssuranceDecision, assuranceBinding, verifyRoutingAssurance } from './model-assurance.mjs';
+import { stderrAccepted } from './stderr-policy.mjs';
 
 // Absolute authorization boundary inherited by the controller. Checkpoint JSON remains
 // writable after expiry so interrupted work can be inspected without replay.
@@ -211,11 +213,14 @@ export function executionProfileArguments(profile) {
 export async function readCodexMetadata(root, { executionProfile } = {}) {
   remainingTime(30000);
   const entry = codexEntrypoint(root);
+  const version = command(process.execPath, [entry, '--version'], root, { env: codexEnvironment() });
+  const cliVersion = /^codex-cli (\d+\.\d+\.\d+)$/.exec(version)?.[1];
+  requireThat(cliVersion, 'Unrecognized CLI version metadata; no model call permitted');
   return new Promise((resolve, reject) => {
     const child = spawn(process.execPath, [entry, 'app-server', '--stdio', '-c', 'forced_login_method="chatgpt"', '-c', 'model_provider="openai"', ...executionProfileArguments(executionProfile)],
       { cwd: root, env: codexEnvironment(), windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] });
     let pending = '', done = false, pages = 0, pageId = 10;
-    const result = { checkedAt: null, accountType: null, models: [], catalogueComplete: false,
+    const result = { checkedAt: null, accountType: null, models: [], catalogueComplete: false, cliVersion,
       methods: ['initialize', 'account/read', 'model/list', 'account/rateLimits/read'], inferenceCalls: 0 };
     const send = value => child.stdin.write(JSON.stringify(value) + '\n');
     function finish(error) {
@@ -283,20 +288,32 @@ export function codexArguments(entry, { workspace, schema, output, role = 'devel
 export async function runCodex(options, dependencies = {}) {
   const { root, role = 'developer', routingContext, routing: explicitPolicy } = options;
   const runtimeConfig = path.join(root, '.engineering-loop', 'config.json');
-  const configPolicy = fs.existsSync(runtimeConfig) ? readJson(runtimeConfig).modelRouting : undefined;
+  const config = fs.existsSync(runtimeConfig) ? readJson(runtimeConfig) : {};
+  const configPolicy = config.modelRouting;
   const policy = explicitPolicy ?? configPolicy ?? {};
   let route = selectModel(routingContext, role, policy); // Validate task/proof authorization before metadata RPCs.
   const metadata = dependencies.metadata ?? readCodexMetadata;
   const execute = dependencies.execute ?? (o => executeCodexProcess(o, dependencies.process));
-  let quotaBefore;
+  let quotaBefore, snapshotBefore, decision, binding, expectedArgs;
   const preflightFailure = error => {
-    error.receipt = { taskId: route.taskId, role, requestedModel: route.model, catalogVerifiedModel: null, actualModel: null, actualModelVerified: false, reasoningEffort: route.reasoningEffort,
+    error.receipt = { taskId: route.taskId, role, requestedModel: route.model, catalogVerifiedModel: null, actualModel: null, actualModelVerified: false, routingAssuranceVerified: false, reasoningEffort: route.reasoningEffort,
       dispatchAttempted: false, callsThisAttempt: 0, processId: null, threadId: null, newSession: false, usage: null, quotaBefore: quotaBefore ?? null, quotaAfter: null,
       preflightBlocked: true, blocker: error.message, repairs: route.repair, escalationReason: route.escalationReason,
       diagnostics: { classification: 'PREFLIGHT_BLOCKED', preInference: { state: 'NOT_DISPATCHED', inferenceRequestSent: false } } };
     throw error;
   };
-  try { const snapshot = await metadata(root); route = selectModel(routingContext, role, policy, snapshot); quotaBefore = selectedQuota(snapshot, route); } catch (error) { preflightFailure(error); }
+  try {
+    decision = readAssuranceDecision(root, config.repository);
+    snapshotBefore = await metadata(root);
+    route = selectModel(routingContext, role, policy, snapshotBefore); quotaBefore = selectedQuota(snapshotBefore, route);
+    if (decision) {
+      requireThat(snapshotBefore.cliVersion === decision.cliVersion, 'Alternative assurance requires the approved exact CLI version');
+      binding = assuranceBinding(routingContext);
+      requireThat(/^[a-f0-9]{40}$/.test(route.commitSha ?? '') && (routingContext.state.sourceCommit ?? routingContext.state.sourceRevision), 'Alternative assurance requires exact task HEAD/source');
+      const entry = (dependencies.process?.entrypoint ?? codexEntrypoint)(root);
+      expectedArgs = codexArguments(entry, { ...options, role, ...route });
+    }
+  } catch (error) { preflightFailure(error); }
   remainingTime(1);
   const directory = path.join(root, '.engineering-loop', 'model-budgets'), file = path.join(directory, `${hash(route.budgetKey)}.json`);
   const locked = fn => { const release = lock(path.join(directory, 'writer.lock'), path.join(directory, 'unused-state.json')); try { return fn(); } finally { release(); } };
@@ -311,36 +328,38 @@ export async function runCodex(options, dependencies = {}) {
     }
     writeJson(file, next); return next;
   }); } catch (error) { preflightFailure(error); }
-  const receipt = { taskId: route.taskId, role, requestedModel: route.model, catalogVerifiedModel: route.model, actualModel: null, actualModelVerified: false,
+  const receipt = { taskId: route.taskId, role, requestedModel: route.model, catalogVerifiedModel: route.model, catalogVerifiedEffort: route.reasoningEffort,
+    cliVersionBefore: snapshotBefore.cliVersion ?? null, actualModel: null, actualModelVerified: false, routingAssuranceVerified: false,
     identityCapability: EXEC_IDENTITY_CAPABILITY,
     reasoningEffort: route.reasoningEffort, actualReasoningEffort: null, routingReason: route.reason, escalationReason: route.escalationReason,
     calls: budget.calls, callsThisAttempt: 1, repairs: route.repair, escalations: budget.escalations, dispatchAttempted: true, usage: null, quotaBefore, quotaAfter: null,
     sandbox: role === 'reviewer' || options.executionProfile ? 'read-only' : 'workspace-write', newSession: true, resumed: false,
     chatgptOnly: true, paidApiKeysInherited: false, costProof: quotaBefore, processId: null, threadId: null,
     startedAt: new Date().toISOString(), writeProbeAttempted: false, writeProbeDenied: false, writeProbeExitCode: null };
-  if (options.executionProfile) receipt.runtimeVerification = { verified: false, criteria: null, reason: 'No completed validated result' };
+  if (options.executionProfile || decision) receipt.runtimeVerification = { verified: false, criteria: null, reason: 'No completed validated result' };
   let result, failure;
   try {
-    result = await execute({ ...options, role, route, receipt, observe: event => observeModelEvent(receipt, event, route) });
-    if (options.executionProfile === 'minimal-luna-smoke') {
+    result = await execute({ ...options, role, route, receipt, assuranceRequired: Boolean(decision), approvedArgs: expectedArgs, observe: event => observeModelEvent(receipt, event, route) });
+    if (options.executionProfile === 'minimal-luna-smoke' || decision) {
       const { schemaValid } = await import('./acceptance.mjs');
       const d = receipt.diagnostics;
-      const checks = { turnCompleted: d?.smoke?.turnCompleted === true, structuredOutputValid: schemaValid(result.report, readJson(options.schema)),
+      const events = d?.routingEvents ?? d?.smoke;
+      const checks = { turnCompleted: events?.turnCompleted === true, structuredOutputValid: schemaValid(result.report, readJson(options.schema)),
         exitCodeZero: d?.exitCode === 0, validUsage: receipt.usage?.source === 'turn.completed' &&
           ['inputTokens', 'cachedInputTokens', 'outputTokens'].every(key => Number.isSafeInteger(receipt.usage[key]) && receipt.usage[key] >= 0) && receipt.usage.cachedInputTokens <= receipt.usage.inputTokens,
-        noPolicyViolation: d?.smoke?.rejected === 0 && !d?.stopReason,
-        stderrAccepted: d?.stderrBytes === 0 };
+        noPolicyViolation: events?.rejected === 0 && !d?.stopReason,
+        stderrAccepted: stderrAccepted(d) };
       receipt.runtimeVerification = { criteria: checks, verified: Object.values(checks).every(Boolean),
         scope: 'CLI-supported execution criteria only; not actual-model identity or permission to review/merge' };
       requireThat(receipt.runtimeVerification.verified, 'Smoke runtime evidence incomplete or stderr not independently classified safe');
     }
     receipt.actualModelVerified = receipt.actualModel === route.model;
-    if (options.executionProfile && !EXEC_IDENTITY_CAPABILITY.actualModelPromisedBySchema) {
+    if ((options.executionProfile || decision) && !EXEC_IDENTITY_CAPABILITY.actualModelPromisedBySchema) {
       // Test/future-extension fields outside this pinned exec schema are not a
       // supported identity channel. Keep observations distinct from verification.
       receipt.unverifiedReportedModel = receipt.actualModel; receipt.actualModel = null; receipt.actualModelVerified = false;
     }
-    requireThat(receipt.actualModelVerified, 'Actual model identity unreported/unverified; cannot accept result');
+    if (!decision) requireThat(receipt.actualModelVerified, 'Actual model identity unreported/unverified; cannot accept result');
   } catch (error) {
     failure = error;
     if (result && receipt.diagnostics) {
@@ -349,11 +368,31 @@ export async function runCodex(options, dependencies = {}) {
         receipt.diagnostics.messages.find(m => m.source === 'stderr')?.category ?? 'STDERR_UNCLASSIFIED' : 'RUNNER_RESULT_VALIDATION';
     }
   }
+  // Failed calls cannot promote unsupported extension fields to identity either.
+  if (decision && !EXEC_IDENTITY_CAPABILITY.actualModelPromisedBySchema) {
+    if (receipt.actualModel !== null) receipt.unverifiedReportedModel = receipt.actualModel;
+    receipt.actualModel = null; receipt.actualModelVerified = false;
+  }
   try {
-    receipt.quotaAfter = selectedQuota(await metadata(root), route, Date.now(), false);
+    const snapshotAfter = await metadata(root);
+    receipt.cliVersionAfter = snapshotAfter.cliVersion ?? null;
+    if (decision) {
+      const after = selectModel(routingContext, role, policy, snapshotAfter);
+      requireThat(after.model === route.model && after.reasoningEffort === route.reasoningEffort, 'Post-call authenticated route drift');
+    }
+    receipt.quotaAfter = selectedQuota(snapshotAfter, route, Date.now(), false);
     requireThat(!receipt.quotaAfter.reserveReached, 'Post-call selected-model quota reserve reached');
   }
   catch { receipt.quotaAfterError = 'Post-call selected-model quota unavailable or reserve reached'; failure ??= new Error(receipt.quotaAfterError); }
+  if (decision && !failure) {
+    try {
+      receipt.routingAssurance = verifyRoutingAssurance({ decision, route, receipt, budget, context: routingContext, binding,
+        currentBinding: assuranceBinding(routingContext), expectedArgs,
+        decisionUnchanged: readAssuranceDecision(root, config.repository)?.digest === decision.digest });
+      requireThat(receipt.routingAssurance.verified, 'Alternative routing assurance incomplete; see receipt checks');
+      receipt.routingAssuranceVerified = true;
+    } catch (error) { failure = error; }
+  }
   receipt.finishedAt = new Date().toISOString();
   if (!receipt.usage) receipt.usageUnavailableReason = 'CLI JSON emitted no supported token-usage event';
   locked(() => {
@@ -365,7 +404,7 @@ export async function runCodex(options, dependencies = {}) {
   return { ...result, receipt };
 }
 
-async function executeCodexProcess({ root, workspace, prompt, schema, output, timeoutMs, role, route, receipt, observe, executionProfile,
+async function executeCodexProcess({ root, workspace, prompt, schema, output, timeoutMs, role, route, receipt, observe, executionProfile, assuranceRequired, approvedArgs,
   onStart = () => {}, onStop = () => {}, control = () => ({}) }, dependencies = {}) {
   const env = codexEnvironment();
   const entry = (dependencies.entrypoint ?? codexEntrypoint)(root);
@@ -375,8 +414,8 @@ async function executeCodexProcess({ root, workspace, prompt, schema, output, ti
     const known = { entry, workspace, schema, output };
     const diagnostics = processDiagnostics(safeLaunch(process.execPath, args, known, 'runner-planned'));
     receipt.diagnostics = diagnostics.value;
-    const smoke = executionProfile === 'minimal-luna-smoke' ? createSmokeEventGuard() : null;
-    if (smoke) diagnostics.value.smoke = smoke.state;
+    const smoke = executionProfile === 'minimal-luna-smoke' ? createSmokeEventGuard() : assuranceRequired ? createSmokeEventGuard({ taskRole: role }) : null;
+    if (smoke) { diagnostics.value.smoke = smoke.state; if (assuranceRequired) diagnostics.value.routingEvents = smoke.state; }
     let child;
     try { child = (dependencies.spawn ?? spawn)(process.execPath, args, { cwd: workspace, env, windowsHide: true, stdio: ['pipe', 'pipe', 'pipe'] }); }
     catch (error) {
@@ -456,6 +495,9 @@ async function executeCodexProcess({ root, workspace, prompt, schema, output, ti
       else { try { remainingTime(1); requireThat(receipt.threadId, 'Missing fresh Codex session evidence'); resolve({ report: readJson(output), eventChunks: events, receipt }); }
         catch { diagnostics.value.classification = 'RUNNER_PARSER_OR_CONTROL'; diagnostics.value.stopReason = 'OUTPUT_OR_SESSION_INVALID'; reject(new Error('Codex did not return valid structured output/session evidence')); } }
     });
-    child.stdin.end(prompt);
+    if (assuranceRequired && (diagnostics.value.launch.source !== 'child.spawnargs' ||
+      JSON.stringify(diagnostics.value.launch.args) !== JSON.stringify(approvedArgs))) {
+      terminate('Observed argv differs from approved dispatch; prompt withheld', 'ARGV_MISMATCH'); child.stdin.end();
+    } else child.stdin.end(prompt);
   });
 }

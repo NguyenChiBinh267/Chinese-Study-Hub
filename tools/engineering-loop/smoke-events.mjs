@@ -12,7 +12,7 @@ function name(v) {
   return typeof v === 'string' && /^[a-z][a-z0-9_.]{0,47}$/.test(v) && !/(?:bearer|secret|password|credential)|^[a-z0-9]{25,}$/.test(v) ? v : '[REDACTED_IDENTIFIER]';
 }
 function fields(v) { return object(v) ? Object.keys(v).slice(0, 32).map(name).sort() : []; }
-export function createSmokeEventGuard() {
+export function createSmokeEventGuard({ taskRole } = {}) {
   const state = { schemaVersion: 1, schemaSource: EXEC_SCHEMA_SOURCE, eventsSeen: 0, accepted: 0, rejected: 0,
     omittedRecords: 0, records: [], firstRejection: null, rejectedToolItems: 0, nonfatalWarnings: 0, turnCompleted: false };
   function record(e, reason, action = 'reject', bytes = null) {
@@ -31,7 +31,26 @@ export function createSmokeEventGuard() {
     if (e.type.startsWith('item.')) {
       if (!object(e.item) || typeof e.item.type !== 'string' || typeof e.item.id !== 'string' || !e.item.id) return record(e, 'MALFORMED_ITEM_ENVELOPE');
       if (!knownItems.has(e.item.type)) return record(e, 'UNKNOWN_ITEM_TYPE');
-      if (tools.has(e.item.type)) { state.rejectedToolItems++; return record(e, 'DISALLOWED_TOOL_OR_WRITE_ITEM'); }
+      if (tools.has(e.item.type)) {
+        // Task sessions can use shell commands under their pinned sandbox. No
+        // delegation/provider tool is introduced by the assurance decision.
+        if (taskRole && e.item.type === 'command_execution') {
+          if (typeof e.item.command !== 'string' || typeof e.item.aggregated_output !== 'string' ||
+            !(e.item.exit_code === null || Number.isSafeInteger(e.item.exit_code)) || !['in_progress', 'completed', 'failed', 'declined'].includes(e.item.status))
+            return record(e, 'MALFORMED_COMMAND_ITEM');
+          return record(e, 'SANDBOXED_TASK_ITEM', 'accept');
+        }
+        if (taskRole === 'developer' && e.item.type === 'file_change') {
+          if (e.type !== 'item.completed' || !Array.isArray(e.item.changes) || !e.item.changes.every(c => object(c) && typeof c.path === 'string' && ['add', 'delete', 'update'].includes(c.kind)) ||
+            !['in_progress', 'completed', 'failed'].includes(e.item.status)) return record(e, 'MALFORMED_FILE_CHANGE_ITEM');
+          return record(e, 'SANDBOXED_TASK_ITEM', 'accept');
+        }
+        state.rejectedToolItems++; return record(e, 'DISALLOWED_TOOL_OR_WRITE_ITEM');
+      }
+      if (taskRole && e.item.type === 'todo_list') {
+        if (!Array.isArray(e.item.items) || !e.item.items.every(i => object(i) && typeof i.text === 'string' && typeof i.completed === 'boolean')) return record(e, 'MALFORMED_PLAN_ITEM');
+        return record(e, 'TASK_PLAN_ITEM', 'accept');
+      }
       if (e.item.type === 'todo_list') return record(e, 'DISALLOWED_PLAN_ITEM');
       if (e.item.type === 'error') {
         if (isKnownNonfatalWarning(e.item.message)) {

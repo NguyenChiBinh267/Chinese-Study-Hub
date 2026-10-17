@@ -1,6 +1,6 @@
 # CLI 0.153.4 runtime and model evidence
 
-Scope: PR #5 follow-up from `443398d4cff22c2b4072df5e48382ce98529f69a`. No application task, real PR #6 takeover, merge, status write or runtime grant is activated here. Previous reports remain historical evidence, not rewritten PASS.
+Scope: PR #5 follow-up through `e0dc869742e5dd2975acff004d21c24e84ed5e5a`. Owner approved Alternative Model Assurance on 2026-10-17. This changes the model-assurance contract only. No application task, real PR #6 takeover, merge, status write or runtime grant is activated here. Previous reports remain historical evidence, not rewritten PASS.
 
 ## Exact nonfatal warning
 
@@ -27,17 +27,33 @@ Receipt fields:
 | actualModel / actualModelVerified | A supported trustworthy identity channel would be required; neither catalogue nor argv is copied into actual identity. For this version-pinned smoke, these stay null/false. |
 | unverifiedReportedModel | Optional test/future-extension field, if present outside the pinned exec schema; never verifies the model. |
 | runtimeVerification | CLI execution criteria only; cannot approve model safety, review or merge. |
+| routingAssuranceVerified | All approved alternative routing checks passed for this invocation; never actual backend identity or a task verdict. Defaults false on failure. |
 
 The JSONL processor receives SessionConfigured but emits only thread_id in thread.started. The declared turn.started has no fields; turn.completed exposes usage. The exec schema does not promise an actual-model identity event. Generic legacy/future event observers elsewhere in the runner do not establish that CLI0.153.4 emits those extensions; mock streams containing them are not runtime evidence. Stderr model mentions and agent-written JSON are not identity evidence either. Ephemeral execution does not grant access to a trustworthy persisted rollout identity channel.
 
-The existing strict model gate remains required. Even successful execution evidence is insufficient to run full-candidate bootstrap review or declare READY while actual identity remains unverified. There is no new setting, self-issued grant or auto-fallback that accepts catalogue/argv as actual model.
+For the exact approved CLI version, the owner-approved alternative below replaces the requirement for unavailable exec identity evidence. `actualModel=null` and `actualModelVerified=false` remain mandatory; extension/test fields remain unverified observations. Without the repository-bound decision file, the previous strict identity gate remains. A changed/malformed decision or wrong repository blocks; it cannot silently select a weaker mode.
 
-## Proposed alternative assurance — not authorized or activated
+## Approved alternative assurance — routing constraints only
 
-If the owner later explicitly accepts a different assurance contract for a CLI with no actual-model event, it could require all of the following together: fresh complete authenticated catalogue/effort; exact observed child argv; ChatGPT-only auth with stripped API credentials and known-zero credits; fresh conservative shared quota and20% reserve before/after; independent ephemeral read-only reviewer; strict reroute/unknown-event rejection; exact commit/source/contract/acceptance binding; persistent budgets; and valid completed output/usage/exit/stderr evidence. Record this as **routing constraints verified**, while actualModelVerified remains false.
+Decision `owner-alternative-model-assurance-2026-10-17` is recorded in `tools/engineering-loop/model-assurance-policy.json`, bound to this repository, PR #5's reference HEAD and CLI0.153.4. It grants no task, merge, status or deployment authority. The runner requires all of these together:
 
-This alternative cannot prove the provider used the requested model: absence of a reroute notice is not positive identity attestation. It requires an explicit reviewed policy decision replacing the identity requirement, including what upstream reroute reporting is trusted. It is only a proposal in this document. No repeated smoke, second model or Reviewer invocation is authorized by that proposal.
+- Exact CLI version from metadata-only `--version` before/after; fresh complete authenticated catalogue supporting the selected model and effort.
+- Actual `child.spawnargs` equal the runner's complete pinned argv. An argv mismatch withholds the prompt; no retry or fallback.
+- ChatGPT login, stripped API credentials and known-zero paid credits. Fresh quota snapshots before/after, every applicable shared/model window above at least20% reserve. Shared quota is never described as separate model quota.
+- Persistent role/total call and escalation limits; at most two repairs; duplicate-review safeguards retained.
+- New ephemeral process/session, read-only Reviewer sandbox, unchanged exact HEAD/source/task/contract binding. The existing controller/reviewer still reads actual bytes and performs deterministic acceptance; routing assurance cannot produce PASS.
+- Valid completed structured output, exit0 and full token usage; independent stderr classification; no unknown/malformed event, unapproved error, reroute or delegation. Task sessions may report schema-valid sandboxed commands, plans and Developer file changes; Reviewer file-change events remain forbidden. The minimal smoke still forbids all tools/writes/plans.
+
+Only after all checks pass does the receipt set `routingAssuranceVerified=true`. This path is covered by fake child-process tests; it has not received a new real inference proof in this change.
+
+This alternative cannot prove the provider used the requested model: absence of a reroute notice is not positive identity attestation. The owner explicitly accepted that limitation. Trust is restricted to the pinned CLI's authenticated catalogue, argv/auth/quota enforcement and surfaced event errors/reroutes; no backend identity claim follows. No additional inference, Reviewer run or operational grant follows from this policy approval.
+
+## Independent stderr policy and historical limitation
+
+[core/src/shell_snapshot.rs at rust-v0.153.4](https://raw.githubusercontent.com/openai/codex/rust-v0.153.4/codex-rs/core/src/shell_snapshot.rs) lines104-117 return an optional snapshot after `snapshot.ok()`; lines155-161 warn when writing fails; lines202-209 explicitly reject PowerShell/Cmd snapshot support. The exact PowerShell unsupported-snapshot warning is therefore a nonfatal optional-feature diagnostic, separate from sandbox initialization. `stderr-policy.mjs` accepts only its exact source-defined body, expected WARN target and valid timestamp envelope. Runtime text is compared in memory and discarded; receipts retain a fixed classification code. Extra text, another target/level, near-match or any other line blocks. Known config/auth/sandbox errors remain independent, even alongside a safe warning. Oversized/truncated or unfinished diagnostics never pass.
+
+The historical smoke's **158 stderr bytes are still UNCLASSIFIED**. Its filtered projection resembles the source warning, but resemblance/length cannot establish exact equality. The raw bytes/hash were not retained. A read-only query of existing local logs for that smoke's exact thread/time found no matching records. This is an observability gap, not proof of benign stderr or a newly diagnosed cause. The new exact classifier cannot be retroactively applied to lossy evidence. The historical receipt remains unchanged and BLOCKED; no new smoke is authorized in this turn.
 
 ## Bounded verification
 
-Mock tests must pass first, covering exact/near warning strings, error/tool/reroute retention, independent stderr rejection and each required result criterion. A newly owner-authorized real proof may use exactly one Luna/low call, read-only, timeout30s, no retry/fallback, under a fresh20% quota reserve. Once attempted, failed or incomplete evidence stops model verification. Publish VERIFIED versus UNVERIFIED facts separately; retain the strict identity blocker and do not claim READY from a partial result.
+Mock/regression tests run without inference. No smoke or Reviewer is run in this policy change. A full-candidate bootstrap review requires all runtime gates first, fresh quota/call budget, pinned PR/repository/branch/HEAD/base and independent read-only review of the entire candidate. With the historical stderr unresolved, review preparation remains BLOCKED and no model budget is consumed. Actual identity is transparently unverified under the approved alternative; unresolved stderr and missing full-candidate review still prevent READY.

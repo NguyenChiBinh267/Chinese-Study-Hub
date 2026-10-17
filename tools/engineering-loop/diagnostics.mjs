@@ -1,6 +1,7 @@
 import { StringDecoder } from 'node:string_decoder';
 import { projectErrorMessage } from './error-projection.mjs';
 import { isKnownNonfatalWarning } from './cli-exec-contract.mjs';
+import { classifySafeStderr } from './stderr-policy.mjs';
 
 // Persist allowlisted diagnostic summaries, never arbitrary stderr, prompts,
 // agent messages, tool output, credential values or unrecognized config values.
@@ -38,7 +39,7 @@ export function processDiagnostics(launch) {
   const d = { schemaVersion: 1, launch, exitCode: null, signal: null, spawnErrorCode: null, processErrorCode: null, stopReason: null,
     stdoutBytes: 0, stderrBytes: 0, jsonEvents: 0, nonJsonStdoutLines: 0, stderrLines: 0, truncated: false,
     sessionEventObserved: false, turnEventObserved: false, messages: [], safeErrorDetails: [], errorProjections: [], omissions: [], omittedDiagnosticRecords: 0,
-    stderrBlankLines: 0, nonfatalWarnings: 0, classification: 'ROOT_CAUSE_UNDETERMINED',
+    stderrBlankLines: 0, stderrRejectedLines: 0, stderrFinalized: false, safeStderr: [], nonfatalWarnings: 0, classification: 'ROOT_CAUSE_UNDETERMINED',
     preInference: { state: 'UNKNOWN', inferenceRequestSent: null } };
   let pending = '', dropping = false;
   const decoder = new StringDecoder('utf8');
@@ -65,7 +66,14 @@ export function processDiagnostics(launch) {
     omit('UNRECOGNIZED_TEXT_CANNOT_BE_SAFELY_PERSISTED', source, Buffer.byteLength(text),
       /bearer\s|sk-|gh[pousr]_|ya29\.|(?:token|secret|password|api[_-]?key|cookie)\s*[:=]|https?:\/\//i.test(text));
   }
-  function stderrLine(line) { if (line.trim()) { d.stderrLines++; diagnostic(line, 'stderr'); } else if (line) d.stderrBlankLines++; }
+  function stderrLine(line) {
+    if (line.trim()) {
+      d.stderrLines++;
+      const safe = classifySafeStderr(line);
+      if (safe) { if (d.safeStderr.length < 8) d.safeStderr.push(safe); }
+      else { d.stderrRejectedLines++; diagnostic(line, 'stderr'); }
+    } else if (line) d.stderrBlankLines++;
+  }
   function stderr(bytes) {
     d.stderrBytes += bytes.length;
     for (const part of decoder.write(bytes).split(/(?<=\n)/)) {
@@ -84,7 +92,7 @@ export function processDiagnostics(launch) {
   function nonJson(line) { if (line.trim()) { d.nonJsonStdoutLines++; diagnostic(line, 'stdout-non-json'); } }
   function finish(code, signal) {
     const tail = decoder.end(); if (!dropping && pending.length + tail.length <= 4096) stderrLine(pending + tail);
-    pending = ''; d.exitCode = Number.isInteger(code) ? code : null;
+    pending = ''; d.stderrFinalized = true; d.exitCode = Number.isInteger(code) ? code : null;
     d.signal = ['SIGTERM', 'SIGKILL', 'SIGINT', 'SIGABRT'].includes(signal) ? signal : null;
     const spawnFailed = d.spawnErrorCode && !d.sessionEventObserved && !d.turnEventObserved;
     d.preInference = { state: spawnFailed ? 'SPAWN_FAILED' : d.turnEventObserved ? 'TURN_EVENT_OBSERVED' :
