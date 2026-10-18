@@ -76,14 +76,43 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
   const grantHash = validateAuthorization(grant, cfg, synthetic);
   const statePath = path.join(data, 'state.json'), ledgerPath = path.join(data, synthetic ? 'multi-ledger.json' : 'autonomous-ledger.json');
   const release = driverRelease ?? lock(path.join(data, 'git-driver.lock'), statePath);
+  const grantDirectory = path.join(data, 'grant-ledgers', synthetic ? 'synthetic' : 'live');
+  const grantPath = id => path.join(grantDirectory, `${hash(id)}.json`);
+  const identityPath = grantPath(grant.grantId);
   let ledger, snapshot, reason = 'No eligible task', src;
   const controlPath = path.join(data, 'control.json');
   const readControl = () => readJson(controlPath);
+  // Final identity/latest checkpoints must be durable before another driver takes the lock.
   try {
-    if (!resume && !synthetic && fs.existsSync(ledgerPath)) requireThat(readJson(ledgerPath).grantId !== grant.grantId, 'Stopped grant cannot be reused to reset budgets; issue a new explicit grant');
-    ledger = resume ? readJson(ledgerPath) : newLedger(grantHash, grant);
-    requireThat(ledger.grantHash === grantHash && ledger.phase === 'RUNNING', 'Grant drift or stopped cycle; new explicit run required');
+  try {
+    // Import the pre-registry checkpoint before any other grant can replace it.
+    const latest = fs.existsSync(ledgerPath) ? readJson(ledgerPath) : null;
+    if (latest) {
+      requireThat(typeof latest.grantId === 'string' && latest.grantId.length >= 16, 'Invalid prior grant identity');
+      if (!fs.existsSync(grantPath(latest.grantId))) writeJson(grantPath(latest.grantId), latest);
+    }
+    let candidate;
+    if (resume) {
+      requireThat(latest?.grantId === grant.grantId, 'Resume grant differs from latest cycle');
+      candidate = readJson(identityPath);
+      requireThat(candidate.cycleId === latest.cycleId, 'Grant cycle checkpoint mismatch');
+      requireThat(candidate.grantHash === grantHash && candidate.phase === 'RUNNING', 'Grant drift or stopped cycle; new explicit run required');
+    } else {
+      requireThat(!fs.existsSync(identityPath), 'Consumed grant cannot be reused to reset budgets; issue a new explicit grant');
+      candidate = newLedger(grantHash, grant);
+      // Consume authority before source/model work, including failed starts.
+      writeJson(identityPath, candidate);
+    }
+    ledger = candidate;
+    const persist = () => { writeJson(identityPath, ledger); writeJson(ledgerPath, ledger); };
+    persist();
     if (resume && synthetic) fixture = ledger.fixture;
+    const inherited = process.env.ENGINEERING_LOOP_DEADLINE;
+    const inheritedDeadline = inherited === undefined ? Infinity : Number(inherited);
+    requireThat(inherited === undefined || inherited.trim() !== '' && Number.isFinite(inheritedDeadline), 'Invalid inherited deadline');
+    const runDeadline = Math.min(inheritedDeadline, Date.parse(grant.expiresAt), Date.parse(ledger.startedAt) + grant.maxRunSeconds * 1000);
+    requireThat(Number.isFinite(runDeadline), 'Invalid run deadline');
+    requireThat(Date.now() < runDeadline, 'Authorized deadline reached');
     src = sourceFactory({ root: synthetic ? fixture.controller : root, synthetic,
       expectedRemote: synthetic ? fixture.remote : `https://github.com/${cfg.repository}.git`, data: path.join(data, 'git-operations', ledger.cycleId.slice(0, 8)) });
     if (synthetic) ledger.fixture = fixture;
@@ -93,9 +122,6 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
         bootstrap.reviewerReceipt?.sandbox === 'read-only' && bootstrap.reviewerReceipt?.newSession && bootstrap.checks?.every(c => c.passed), 'Missing independent exact-SHA bootstrap PASS');
       const main = src.fetchHead(); git(root, 'merge-base', '--is-ancestor', grant.bootstrapReviewedSha, main);
     }
-    const runDeadline = Math.min(Date.parse(grant.expiresAt), Date.parse(ledger.startedAt) + grant.maxRunSeconds * 1000);
-    requireThat(Number.isFinite(runDeadline), 'Invalid run deadline');
-    const persist = () => writeJson(ledgerPath, ledger);
     ledger.driverPids ??= []; ledger.driverPids.push(process.pid);
     persist();
     while (true) {
@@ -104,6 +130,7 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
       const ctl = readControl();
       if (ctl.pause || ctl.stop) { reason = 'Operator stop/pause'; break; }
       if (Date.now() - Date.parse(ledger.startedAt) >= grant.maxRunSeconds * 1000) { reason = 'Run time budget'; break; }
+      if (Date.now() >= runDeadline) { reason = 'Authorized deadline reached'; break; }
       // Respect durable backoff before any remote read, including after restart.
       const pendingAt = Math.max(ledger.remoteWait?.at ?? 0, ledger.wait?.at ?? 0);
       if (Date.now() < pendingAt) {
@@ -186,7 +213,6 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
       }
     }
   } catch (error) { reason = `Global blocker: ${error.message}`; }
-  finally { release(); }
   if (ledger) {
     if (!snapshot) snapshot = { tasks: [], kind: synthetic ? 'synthetic-git' : 'git-origin-main', commit: null };
     const report = summarize(ledger, snapshot, reason);
@@ -196,12 +222,14 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
         taskId: active.taskId, runId: active.runId, phase: active.phase, blockedFrom: active.blockedFrom, blocker: active.blocker,
         blockerCode: active.blockerCode, sourceCommit: active.sourceCommit, commitSha: active.commitSha, mergeSha: active.mergeSha, statusPendingSha: active.statusPendingSha };
     }
+    writeJson(identityPath, report);
     writeJson(ledgerPath, report);
     writeJson(path.join(data, synthetic ? 'multi-cycle-latest.json' : 'autonomous-report.json'), report);
     writeJson(controlPath, { pause: false, stop: true, changedAt: now() });
     return report;
   }
   throw new Error(reason);
+  } finally { release(); }
 }
 
 export function superviseFixture({ root, tool, data, start = false }) {
