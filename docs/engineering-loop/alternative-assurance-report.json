@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-17T00:36:54.722Z",
+  "status": "BLOCKED",
+  "startingHead": "e0dc869742e5dd2975acff004d21c24e84ed5e5a",
+  "scope": "Owner-approved alternative routing assurance only; no additional runtime or operational authority",
+  "ownerDecision": {
+    "schemaVersion": 1,
+    "decisionId": "owner-alternative-model-assurance-2026-10-17",
+    "ownerApproved": true,
+    "approvedOn": "2026-10-17",
+    "repository": "NguyenChiBinh267/Chinese-Study-Hub",
+    "referencePr": 5,
+    "referenceHead": "e0dc869742e5dd2975acff004d21c24e84ed5e5a",
+    "cliVersion": "0.153.4",
+    "mode": "alternative-routing-assurance",
+    "verifyActualBackendModel": false,
+    "minimumQuotaReservePercent": 20,
+    "grantsTaskMergeStatusOrDeploymentAuthority": false
+  },
+  "implementation": {
+    "policyApplied": true,
+    "installedCliVersion": "0.153.4",
+    "installedVersionCheck": "Metadata-only codex --version; no inference",
+    "verificationScope": "Mock/static and version metadata only; no real invocation of changed runner",
+    "actualModel": null,
+    "actualModelVerified": false,
+    "routingAssuranceVerified": false,
+    "routingAssuranceMockVerified": true,
+    "identityRequirementReplacedByOwnerDecision": true,
+    "requiredEvidence": [
+      "Exact CLI0.153.4 before/after",
+      "Authenticated catalogue model and effort",
+      "Observed exact argv before prompt",
+      "ChatGPT and stripped API credentials, known-zero credits",
+      "Fresh quota before/after with shared/model reserve >=20%",
+      "Persistent role/total/repair/escalation/review-HEAD budgets",
+      "Independent ephemeral read-only Reviewer",
+      "Unchanged exact HEAD/source/contract",
+      "Completed valid output/exit/usage/events and separately classified stderr"
+    ],
+    "noFallbackOrRetryAdded": true
+  },
+  "stderrInvestigation": {
+    "historicalBytes": 158,
+    "status": "STDERR_UNCLASSIFIED",
+    "rootCause": "ROOT_CAUSE_UNDETERMINED",
+    "rawBytesRetained": false,
+    "rawDigestRetained": false,
+    "historicalReceiptChanged": false,
+    "exactClassificationRecovered": false,
+    "search": {
+      "readOnly": true,
+      "newModelCalls": 0,
+      "historicalReceipt": ".engineering-loop/owner-pr5-runtime-443398d-20261016/report.json",
+      "queriedIntervalEpoch": [
+        1792169555,
+        1792169566
+      ],
+      "matchingRows": 0,
+      "records": [],
+      "sameThreadLogCount": 0,
+      "shellSnapshotLogCoverage": [
+        1791397444,
+        1792196329,
+        354
+      ]
+    },
+    "sourceCandidate": {
+      "confidence": "HYPOTHESIS_ONLY_FOR_HISTORICAL_STDERR",
+      "optionalPowerShellSnapshotFailureIsNonfatal": true,
+      "sourceTag": "rust-v0.153.4",
+      "sourceHashes": {
+        "core-shell-snapshot.rs": "bba7f5b33273b1345de7ce8430cc3e8c89cc4a113415cb31bd3a310f49617f99",
+        "core-shell.rs": "99ca66a51f7f662978548b49d54346f489206b638c57abcfaa810538afdc71a2",
+        "shell-detect.rs": "371d3f9147e19ddac08ac68fceea12cf2c04cf4b465340770075ce6a6e8e7c02"
+      },
+      "evidence": "Shell::name -> PowerShell.name=powershell; try_create warns on write failure; PowerShell write bails unsupported; build_for_cwd returns snapshot.ok().map(Arc::new)",
+      "futureClassifier": "Exact source body + WARN target + timestamp; static code only retained. Unknown/near-match/truncated stderr blocks.",
+      "retroactiveExemption": false
+    },
+    "missingEvidence": "Complete stderr line(s), or independently retained exact digest tied to this process/thread/time. Neither exists in the located historical evidence. Length/projection cannot establish equality."
+  },
+  "validation": {
+    "noInference": true,
+    "regressions": {
+      "passed": 157,
+      "failed": 0,
+      "junit": ".engineering-loop/alternative-assurance-final-regressions.xml",
+      "sha256": "2bd5d8fd8260c1b5f945314fd7d61bcc689127a4006a297a32e42466b6ddf25f"
+    },
+    "finalRunnerFollowup": {
+      "passed": 58,
+      "failed": 0,
+      "artifact": ".engineering-loop/alternative-assurance-final-targeted.xml",
+      "sha256": "5c412c3527cca10e9c93fb41a0e6f253799bad2dbe888970ea941dc3cc7cf44e",
+      "reason": "Final normalization also keeps unsupported model extension fields out of identity on failed calls; targeted runner/assurance/event suites rerun after that change"
+    },
+    "legacy": {
+      "passed": 18,
+      "total": 18,
+      "noInference": true,
+      "artifact": ".engineering-loop/alternative-assurance-legacy.json"
+    },
+    "whitespace": "PASS",
+    "preservedFiles": {
+      "tools/engineering-loop/autonomous.mjs": "b869125610b38eb3a0a77ea55d04899f50b20f86166335dec2376b8d8da00543",
+      "tools/engineering-loop/existing-pr.mjs": "84800e55b4ce3b0123d6b4cadb8cec913c46791a76bf4ad52a1d343fb5cc6751",
+      "tools/engineering-loop/reviewer.mjs": "e80012636bc81ae39dc9ffedbc23a1f08003dec73d92423a63c1b7978075fc9c",
+      "tools/engineering-loop/model-routing.mjs": "522a3c339c0dcdf471da0788467ddb53d8f9bddc3697e2931f12707d9b52a2f2",
+      "docs/master-plan/task-status.json": "03546a93ae875c08d958e49ea37de7b2153489b81656228b83c0be4391bd0d77",
+      "docs/master-plan/master-plan-v1.1.md": "1ba07ad3ed023fc20cdb5f5eced9f76cd5201b388845d56c0fb58f16bcf7c43f",
+      "docs/engineering-loop/cli01534-runtime-report.json": "1f4ba73695bd5b7bb6694e33824e089b5704f08a8694763a16167c73dc98378b",
+      "docs/engineering-loop/cli01534-runtime-receipt.json": "8f5ca6f41b01de67631aea4471c625fa8f5ef5ebf6dbe00a5565beb8b36d3731"
+    }
+  },
+  "runtime": {
+    "newModelCalls": 0,
+    "smokeRuns": 0,
+    "reviewerRuns": 0,
+    "freshQuotaRequested": false,
+    "quotaBudgetAssessment": "Not attempted because unresolved runtime stderr already blocks review; historical quota is not current authorization",
+    "historicalEvidenceOnly": {
+      "report": "docs/engineering-loop/cli01534-runtime-report.json",
+      "receipt": "docs/engineering-loop/cli01534-runtime-receipt.json",
+      "testedCodeCommit": "393a2641751fa9acdf36862fe4f8888deedd1a57",
+      "exitCode": 0,
+      "turnCompleted": true,
+      "inputTokens": 16501,
+      "cachedInputTokens": 0,
+      "outputTokens": 15,
+      "newRunnerRuntimeVerified": false
+    }
+  },
+  "independentReview": {
+    "status": "NOT_RUN_RUNTIME_GATE_BLOCKED",
+    "fullCandidatePass": false,
+    "targetPr": 5,
+    "baseSha": "3813bda55be7b77108344de6e5cc6bd74c51f034",
+    "exactCandidatePin": "Resolve final published PR5 HEAD; no previous verdict transfers to it",
+    "prerequisite": "Resolve historical stderr or obtain separately authorized complete runtime proof; then recheck fresh quota/call budget and exact full-candidate pins before review"
+  },
+  "safety": {
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "bootstrapMergeAuthorization": null,
+    "zeroTouchAuthorization": null,
+    "controlStop": true,
+    "quotaReservePercent": 20,
+    "mainAndPr6Unchanged": true,
+    "pr6Head": "27e7184c89f73d8e6c2d5eaf8da6ed8231b882ef",
+    "taskStatusUnchanged": true,
+    "realBacklogRuns": 0,
+    "deploymentRuns": 0,
+    "apiCreditsUsed": false
+  },
+  "blockers": [
+    "Historical stderr158 bytes remains unclassified; raw evidence was irreversibly omitted and matching local log unavailable",
+    "Changed runner has mock/static verification only; independent exact-new-HEAD full-candidate bootstrap review has not run"
+  ]
+}
