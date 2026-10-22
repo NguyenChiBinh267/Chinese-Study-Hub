@@ -1,0 +1,3 @@
+# Temporary cloud gate proof
+
+Synthetic transactions only. No learning content, answer keys, reviewer packets or local history. Auth-protected routes use remotely verified owner identity and the existing application transaction/RLS helper. Deploy only after actual Free eligibility and cloud security checks; remove the temporary deployment after bounded measurements. No T053 release. Configure server-only CSH_PROOF_MODE=cloud-benchmark-v1, CSH_PROJECT_REF, CSH_POOLER_HOST, CSH_AUTH_URL, CSH_AUTH_PUBLISHABLE_KEY, OWNER_USER_ID and DATABASE_URL with custom runtime role and sslmode=verify-full. CSH_APP_ORIGIN must match the HTTPS proof origin. Never provide admin or service-role credentials to this app.

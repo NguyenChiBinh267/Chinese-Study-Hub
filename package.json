@@ -1,0 +1,31 @@
+{
+  "name": "csh-cloud-gate-proof",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev",
+    "test:security": "tsx --test tests/unit/cloud-gates.test.ts",
+    "test:cloud:sql": "tsx scripts/test-cloud-db.ts --verify"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.118.0",
+    "pg": "8.23.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.0",
+    "@types/pg": "8.18.0"
+  }
+}
