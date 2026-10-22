@@ -2,7 +2,7 @@
 
 **Latest checkpoint:** CLI access and exact-project key retrieval are now verified. Seven migrations, 12 cloud SQL groups using actual provider test-user IDs, eight real Auth lifecycle groups (including natural expiry), and eight desktop/360px browser checks passed. Client/server artifact secret scanning passed. See [updated T009 matrix](t009-matrix.md). The sections below retain the initial checkpoint and its failures; they are historical where superseded. Host benchmark and final account/cleanup evidence remain pending.
 
-This is execution evidence, not a canonical task-status change or a T053 release.
+This is execution evidence, not a canonical task-status change or a T053 release. The clean proof branch has now been pushed and remotely read back. The current A–M handoff is [verification-report.md](verification-report.md); sections below retain the earlier checkpoint.
 
 ## Authorization and Git boundary
 

@@ -86,6 +86,7 @@ async function main() {
     );
     assert.equal(report.checks.length, 8);
     report.completed = true;
+    report.expiryPending = false;
     report.finishedAt = new Date().toISOString();
     fs.writeFileSync(
       reportFile,

@@ -1,0 +1,139 @@
+{
+  "at": "2026-10-22T09:39:02.202Z",
+  "status": "CLOUD_GATES_PARTIAL",
+  "projectRef": "yartjbdapoyqcxfagsrj",
+  "region": "ap-southeast-1",
+  "plan": "Free/NANO",
+  "sql": {
+    "at": "2026-10-22T09:23:29.384Z",
+    "commit": "139acd2e2e0530cff4ea2d7f7ad7779a35af5115",
+    "projectRef": "yartjbdapoyqcxfagsrj",
+    "environment": "supabase-cloud",
+    "passed": 12,
+    "expected": 12,
+    "checks": [
+      "runtime-not-superuser-not-owner-no-bypass-no-memberships-19-force-rls",
+      "anonymous-database-context-fails-closed",
+      "owner-A-and-B-using-isolation",
+      "with-check-rejects-owner-spoof",
+      "failed-A-transaction-B-reuse-and-anonymous-cleanup",
+      "idempotent-synthetic-transaction-and-owner-scoped-receipt",
+      "append-only-evidence-and-proof-not-runtime-writable",
+      "unauthorized-api-roles-cannot-read-private-keys",
+      "two-client-concurrent-context-isolation",
+      "synthetic-record-survives-client-pool-restart",
+      "failed-schema-transaction-is-rolled-back",
+      "managed-auth-unchanged-seven-immutable-migration-receipts-no-content-import"
+    ],
+    "authHttpIncluded": false,
+    "identitySource": "SUPPORTED_PROVIDER_AUTH_USERS",
+    "productionGateStamped": false,
+    "personalDataImported": false,
+    "syntheticSqlCohortCleaned": true
+  },
+  "auth": {
+    "at": "2026-10-22T09:25:03.387Z",
+    "projectRef": "yartjbdapoyqcxfagsrj",
+    "environment": "supabase-cloud",
+    "expected": 8,
+    "checks": [
+      "cloud-public-signup-disabled",
+      "anonymous-user-verification-denied",
+      "actual-owner-password-login-and-remote-get-user",
+      "actual-nonowner-has-distinct-provider-identity",
+      "forged-signature-rejected-by-real-provider",
+      "wrong-password-and-public-signup-fail-without-email",
+      "actual-refresh-and-local-session-revocation",
+      "actual-expired-token-denied-refresh-restores-and-logout-revokes"
+    ],
+    "completed": true,
+    "rawTokensInReport": false,
+    "actualExpiryDue": 1792661401,
+    "passed": 8,
+    "expiryPending": false,
+    "finishedAt": "2026-10-22T09:30:24.745Z"
+  },
+  "browser": {
+    "tests": 8,
+    "passed": 8,
+    "failures": 0,
+    "skipped": 0,
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "width": 360,
+        "height": 800
+      }
+    ],
+    "server": "local Next.js technical proof",
+    "backend": "real Supabase cloud Auth and PostgreSQL",
+    "httpsHostTested": false,
+    "physicalAndroidTested": false
+  },
+  "backup": {
+    "at": "2026-10-22T08:33:45.928Z",
+    "projectRef": "yartjbdapoyqcxfagsrj",
+    "kind": "APPLICATION_SCHEMA_CLOUD_TO_DISPOSABLE_LOCAL_RECOVERY",
+    "tlsVerified": true,
+    "archiveSha256": "64b5a8abc433130426ebd7fcd6a54cdbfe9dd4f4273e6a602c83da8b6555d0a8",
+    "tables": 28,
+    "rowsAndDigestsMatch": true,
+    "syntheticReceiptRoundTrip": true,
+    "managedAuthRowsExported": false,
+    "localHistoryUploaded": false,
+    "fullProjectDisasterRecoveryProven": false,
+    "isolatedDatabaseRemoved": true
+  },
+  "artifactScan": {
+    "at": "2026-10-22T09:34:57.463Z",
+    "build": ".local-postgres/cloud-gates/publish-checkout/.next",
+    "clientFiles": 10,
+    "serverFiles": 117,
+    "actualSensitiveValuesChecked": 10,
+    "findings": [],
+    "safe": true,
+    "secretBytesPrinted": false
+  },
+  "cloudCheckpoint": {
+    "at": "2026-10-22T09:36:24.652Z",
+    "projectRef": "yartjbdapoyqcxfagsrj",
+    "database_bytes": "12408499",
+    "learning_packages": 0,
+    "runtime_stamps": 0,
+    "migration_receipts": 7,
+    "syntheticProofReceiptsRemoved": 2,
+    "retainedSyntheticAuthUsers": 2,
+    "vercelResourcesCreated": 0,
+    "managedBillingCostNotIndependentlyQueried": true
+  },
+  "accountReadback": {
+    "supabaseOrganizationFree": true,
+    "spendCapEnabled": true,
+    "invoices": 4,
+    "invoiceTotalsAllZero": true,
+    "organizationDatabaseSizeDisplayedMB": 27,
+    "organizationDatabaseAllowanceMB": 500,
+    "displayedEgressGB": 0,
+    "displayedFileStorageGB": 0,
+    "dashboardUsageMayLag": true,
+    "noPaymentMethod": "OWNER_ATTESTED_NOT_INDEPENDENTLY_VISIBLE",
+    "vercelResourceCreated": false
+  },
+  "git": {
+    "pushedBranch": "feat/v1-cloud-gates",
+    "firstVerifiedRemoteHead": "1101ff65d1e15da2439f545b313269a50ee65afb",
+    "mainUnchanged": "0dc42253180ef38d1c43f1f87c9f0f675a851341",
+    "fullApplicationHistoryPushed": false
+  },
+  "pending": [
+    "Vercel CLI owner login",
+    "temporary technical HTTPS host benchmark",
+    "final host recommendation and cleanup"
+  ],
+  "realLearningReleased": false,
+  "personalHistoryUploaded": false,
+  "canonicalStatusChanged": false
+}
