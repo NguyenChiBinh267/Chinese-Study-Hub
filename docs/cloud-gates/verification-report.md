@@ -1,8 +1,8 @@
-# Cloud gate report — 2026-10-22
+# Cloud gate report — updated 2026-10-23
 
 ## A. Status
 
-**CLOUD_GATES_PARTIAL.** Real cloud backend security passed; the clean branch is pushed. Vercel CLI remains logged out at the last check. Its owner login flow is open. No host measurement or real learning release exists. Canonical statuses and ADR-006 remain unchanged.
+**CLOUD_GATES_PARTIAL.** Real backend security and the Vercel technical benchmark passed; the disposable project was deleted. Remaining gap: current quantitative billing/quota readback is unavailable (usage CLI reports unavailable; charges API returns Costs not found; prior Chrome surface is unavailable). Missing billing data is not zero cost. No real learning release exists. Canonical statuses and ADR-006 remain unchanged.
 
 ## B. Git
 
@@ -16,7 +16,7 @@ Full application history stays on local `feat/v1-cloud-gates-local`. Public `fea
 
 Post-test Supabase dashboard still shows Free, spend cap enabled, four PAID invoices each $0.00, organization database size 27/500 MB, egress 0/5 GB and storage 0/1 GB. Organization metrics may lag: displayed MAU remained zero despite actual synthetic Auth tests. A direct query measured the new database at 12,408,499 bytes; that is not total billable storage. No-card/no-paid-add-on state remains owner attestation where the payment section did not render independent evidence.
 
-Vercel Hobby/no payment method was observed earlier; no resource has been created. Render eligibility is unverified and it is excluded from provisioning. No upgrade, card, trial credit, paid IPv4 or paid backup was used.
+Vercel CLI and authenticated team API now confirm the same Hobby/active team, no trial and an empty billing invoice-items object. Exactly one disposable project was created and deleted; no paid options were requested. The usage CLI and FOCUS charges API could not provide current amounts; no fresh independent no-card/usage dashboard evidence was available this run. Render remains excluded for unverified eligibility. No upgrade, card, trial credit, paid IPv4 or paid backup was used.
 
 ## E. Cloud security
 
@@ -34,29 +34,31 @@ Zero lesson packages were uploaded. All original native learner rows across 27 t
 
 ## G. Measurements
 
-No host URL, p50/p95, cold-like or warm samples exist yet. The committed runner is prepared for five fresh-client/TLS opening attempts and twenty warm requests, with real Auth/read/idempotency/TLS and six HTTPS security checks. It records worker reuse and does not equate fresh TLS with proven platform-cold invocation. No physical Android test occurred.
+The temporary proof ran on Vercel Singapore `sin1`, Node `v24.21.0`, exact source `cc5fb5cec2b159046542e13c93f0f8cc8cbe48d0`. Five fresh-client/TLS attempts: p50 516.4 ms, p95 1319.4 ms. Twenty warm requests: p50 169.1 ms, p95 409 ms. All 25 returned 200 with real owner verification, authorized SQL, TLS and the expected version/region; repeated writes produced one idempotency receipt. Percentiles use nearest rank. Six HTTPS negative/security groups and four hosted browser checks passed, including Secure/HttpOnly/SameSite Strict cookies, UI login/write/logout and absent learning routes.
+
+All samples used one worker: these are cold-like client openings, not proven platform-cold invocations. The sample is small, from one Windows network/session; there is no physical Android, long-idle, concurrency-load or long-term reliability proof. Alias `https://csh-cloud-gate-20261023.vercel.app` and immutable URL `https://csh-cloud-gate-20261023-e3l142kq6-ngbnh2667.vercel.app` both returned 404 after cleanup. [Raw measurements and cleanup](hosting-results.json).
 
 ## H. Host/ADR
 
-ADR-006 remains PROPOSED/PENDING. Vercel is prepared for measurement; CLI access and actual results are required. Render lacks authenticated no-billing evidence and has no measurements. No host has been selected from assumed performance.
+Recommendation: Vercel Hobby is supported as a measured candidate for one personal learner by the observed Auth/SQL/HTTPS behavior and sub-second warm p95. This does not establish superiority over Render, prove cold-start latency or guarantee future free capacity. Render has no eligible account evidence/measurements. ADR-006 remains PROPOSED/PENDING independent review and final billing/quota readback; no canonical specification was edited.
 
 ## I. Resources
 
-Retained: one isolated Supabase Free project, seven migration receipts, restricted roles, two synthetic Auth users for the pending owner/nonowner host tests, private local credentials/backup. Runtime proof stamps remain zero. SQL test profiles, disposable restore DBs, backup receipt and browser idempotency receipts were removed by exact task cohort/endpoint. No Vercel/Render project, domain, cron or monitor exists. Native databases/preview were retained.
+Retained: one isolated Supabase Free project, seven migration receipts, restricted roles, one synthetic technical owner, private local credentials/backup. Runtime proof stamps remain zero. The synthetic nonowner and exact SQL/browser/benchmark test records were removed; the disposable Vercel project, deployment and environment secrets were deleted. Vercel project listing returned none, and both URLs returned 404. The CLI-generated local OIDC env file was removed. No Render resource, custom domain, cron or monitor was created. Native databases/preview were retained.
 
 ## J. Checks
 
-| Check                                              | Result                                      |
-| -------------------------------------------------- | ------------------------------------------- |
-| Application build / TypeScript / lint / format     | PASS                                        |
-| Native PostgreSQL / unit groups / startup refusals | 42/42 / 112/112 / 18/18 PASS                |
-| Local synthetic proof negative HTTP                | 5/5 PASS; not cloud Auth evidence           |
-| Actual cloud SQL / Auth / browser                  | 12/12 / 8/8 / 8/8 PASS                      |
-| Cloud application backup/restore                   | PASS, 28 tables; managed Auth excluded      |
-| Flattened export build / security groups           | PASS / 8/8                                  |
-| Flattened artifact secret/resource scan            | 10 client + 117 server files, zero findings |
-| Public history scan at first push                  | Three commits, 46 text blobs, zero findings |
-| Hosted HTTPS / benchmark / physical Android        | NOT RUN / NOT RUN / NOT RUN                 |
+| Check                                              | Result                                                         |
+| -------------------------------------------------- | -------------------------------------------------------------- |
+| Application build / TypeScript / lint / format     | PASS                                                           |
+| Native PostgreSQL / unit groups / startup refusals | 42/42 / 112/112 / 18/18 PASS                                   |
+| Local synthetic proof negative HTTP                | 5/5 PASS; not cloud Auth evidence                              |
+| Actual cloud SQL / Auth / browser                  | 12/12 / 8/8 / 8/8 PASS                                         |
+| Cloud application backup/restore                   | PASS, 28 tables; managed Auth excluded                         |
+| Flattened export build / security groups           | PASS / 8/8                                                     |
+| Flattened artifact secret/resource scan            | 10 client + 117 server files, zero findings                    |
+| Public history scan at first push                  | Three commits, 46 text blobs, zero findings                    |
+| Hosted HTTPS / benchmark / physical Android        | 4/4 browser + 6/6 security / 25/25 measurements PASS / NOT RUN |
 
 [Sanitized machine-readable evidence](evidence.json) distinguishes actual provider tests from local/synthetic checks. Report-only fixes do not retroactively change failed runs into passes.
 
@@ -66,7 +68,7 @@ Ten historical draft-key JSON blobs in 23 unpushed application commits triggered
 
 ## L. Before separate T053 authorization
 
-Complete owner Vercel CLI login, confirm Hobby scope, deploy only the isolated proof, verify exact runtime/region/HTTPS/cookies/cache, collect bounded raw measurements, clean up and recheck quota/cost. Assess ADR-006 against those results and obtain independent review of the exact security/source evidence. Separately authorize a real deployment; resolve actual owner setup, content/answer/audio review, rights/mapping gaps and recovery limitations. Private DRAFT consent does not approve publication or mastery.
+Obtain current independent account billing/quota readback, assess the measured recommendation and absent comparison/cold-start proof, and obtain independent review of the exact security/source evidence before locking ADR-006. Separately authorize a real deployment; resolve actual owner setup, content/answer/audio review, rights/mapping gaps and recovery limitations. Private DRAFT consent does not approve publication or mastery. Repeating the test requires explicitly recreating the cleaned synthetic nonowner through the supported bootstrap, then a new disposable deployment.
 
 ## M. Boundaries
 

@@ -60,8 +60,20 @@ async function main() {
     const account = state[label];
     const old = existing.data.users.find((u) => u.email === account.email);
     if (account.id) {
-      if (!old || old.id !== account.id) throw Error("AUTH_IDENTITY_DRIFT");
-      continue;
+      if (old) {
+        if (old.id !== account.id) throw Error("AUTH_IDENTITY_DRIFT");
+        continue;
+      }
+      const cleanup = fs.existsSync(dir + "/cloud-cohort-cleanup.json")
+        ? read("cloud-cohort-cleanup.json")
+        : null;
+      if (
+        label !== "nonowner" ||
+        cleanup?.projectRef !== p.projectRef ||
+        cleanup?.syntheticNonownerRemoved !== true
+      )
+        throw Error("AUTH_IDENTITY_DRIFT");
+      delete account.id;
     }
     if (old) throw Error("PREEXISTING_ACCOUNT_REQUIRES_OWNER_RECONCILIATION");
     const result = await admin.auth.admin.createUser({

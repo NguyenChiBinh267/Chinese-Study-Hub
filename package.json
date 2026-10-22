@@ -7,25 +7,27 @@
     "start": "next start",
     "dev": "next dev",
     "test:security": "tsx --test tests/unit/cloud-gates.test.ts",
-    "test:cloud:sql": "tsx scripts/test-cloud-db.ts --verify"
+    "test:cloud:sql": "tsx scripts/test-cloud-db.ts --verify",
+    "test:host:browser": "playwright test --config playwright.host.config.ts"
   },
   "engines": {
     "node": ">=22"
   },
   "dependencies": {
-    "next": "16.4.2",
-    "react": "19.3.1",
-    "react-dom": "19.3.1",
     "@supabase/ssr": "0.12.7",
     "@supabase/supabase-js": "2.118.0",
+    "next": "16.4.2",
     "pg": "8.23.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
     "zod": "4.6.7"
   },
   "devDependencies": {
-    "tsx": "4.23.15",
-    "typescript": "5.9.3",
+    "@playwright/test": "1.58.2",
     "@types/node": "24.10.0",
+    "@types/pg": "8.18.0",
     "@types/react": "19.2.0",
-    "@types/pg": "8.18.0"
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
   }
 }

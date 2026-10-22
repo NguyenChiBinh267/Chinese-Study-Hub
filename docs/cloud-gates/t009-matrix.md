@@ -1,5 +1,7 @@
 # T009 technical verification — PASS on isolated cloud backend
 
+**2026-10-23 hosted extension:** Six HTTPS security groups and four hosted desktop/360px browser checks passed on the exact proof commit. Secure/HttpOnly/SameSite Strict cookies, owner SQL, idempotency, private caching and logout replay denial were verified on Vercel. The disposable deployment was then removed. [Measurements and cleanup](hosting-results.json) supersede pending-host statements below; no learning release or independent review is implied.
+
 Observed 2026-10-22 on project `yartjbdapoyqcxfagsrj`. The final SQL suite used actual synthetic owner/nonowner identities created through the supported provider Admin API. Browser requests ran through the local Next.js technical proof server to real Supabase Auth/PostgreSQL. Hosting HTTPS verification remains a separate benchmark step. No canonical task status, independent review or release approval is implied.
 
 | Requirement                        | Current evidence                                                                                                                         | Result               |

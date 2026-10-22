@@ -1,5 +1,7 @@
 # Cloud gate execution — PARTIAL, 2026-10-22
 
+**2026-10-23 update:** Vercel Hobby benchmark completed (5 fresh-client + 20 warm requests, six HTTPS security groups, four hosted browser checks). The disposable host and synthetic nonowner/test records were removed. Current billing amounts remain unavailable from the provider interfaces accessible in this run; missing data is not zero. [Current report](verification-report.md) and [raw host results](hosting-results.json) supersede the historical pending-host notes below. ADR and canonical status remain unchanged.
+
 **Latest checkpoint:** CLI access and exact-project key retrieval are now verified. Seven migrations, 12 cloud SQL groups using actual provider test-user IDs, eight real Auth lifecycle groups (including natural expiry), and eight desktop/360px browser checks passed. Client/server artifact secret scanning passed. See [updated T009 matrix](t009-matrix.md). The sections below retain the initial checkpoint and its failures; they are historical where superseded. Host benchmark and final account/cleanup evidence remain pending.
 
 This is execution evidence, not a canonical task-status change or a T053 release. The clean proof branch has now been pushed and remotely read back. The current A–M handoff is [verification-report.md](verification-report.md); sections below retain the earlier checkpoint.
