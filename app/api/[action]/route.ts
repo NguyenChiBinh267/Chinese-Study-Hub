@@ -76,9 +76,15 @@ export async function POST(req: NextRequest, { params }: Context) {
       v = z.strictObject({ key: z.uuid() }).parse(input);
     return s.finish(NextResponse.json(await proof(uid, v.key)));
   } catch (e) {
-    if(e instanceof z.ZodError||e instanceof SyntaxError||(e instanceof Error&&e.message==="INVALID_BODY")){
-      const res=privateResponse(NextResponse.json({error:"INVALID_BODY"},{status:400}));
-      return s?s.finish(res):res;
+    if (
+      e instanceof z.ZodError ||
+      e instanceof SyntaxError ||
+      (e instanceof Error && e.message === "INVALID_BODY")
+    ) {
+      const res = privateResponse(
+        NextResponse.json({ error: "INVALID_BODY" }, { status: 400 }),
+      );
+      return s ? s.finish(res) : res;
     }
     return s ? s.finish(denied(e)) : denied(e);
   }

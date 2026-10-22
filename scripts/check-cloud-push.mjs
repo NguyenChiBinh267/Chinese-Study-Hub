@@ -15,8 +15,16 @@ for (const line of paths) {
   if (at < 0) continue;
   const oid = line.slice(0, at),
     path = line.slice(at + 1);
-  if (!/\.(json|[cm]?[jt]sx?|md|sql|ya?ml|toml|env|txt)$/.test(path)) continue;
+  if (git(["cat-file", "-t", oid]).trim() !== "blob") continue;
   const text = git(["cat-file", "blob", oid]);
+  if (text.includes("\u0000")) {
+    findings.push({
+      oid,
+      path,
+      reason: "BINARY_OUTGOING_BLOB_REQUIRES_REVIEW",
+    });
+    continue;
+  }
   checked++;
   if (
     /^(?:\.local-postgres|\.engineering-loop|\.env(?:\.|$))/.test(path) &&
