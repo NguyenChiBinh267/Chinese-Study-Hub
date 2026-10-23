@@ -117,7 +117,7 @@ export function LocalReview({
       <p className="eyebrow">
         {technicalOnly
           ? "AUTH THẬT · FIXTURE KỸ THUẬT · KHÔNG ĐÁNH GIÁ TIẾNG TRUNG"
-          : "LOCAL DATABASE · FSRS THẬT · DRAFT CHƯA DUYỆT"}
+          : "POSTGRESQL · FSRS · DRAFT CHƯA DUYỆT"}
       </p>
       <h1>Ôn thẻ đến hạn</h1>
       <p>

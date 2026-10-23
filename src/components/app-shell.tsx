@@ -115,7 +115,11 @@ export function AppShell({ children }: { children: ReactNode }) {
             Chinese Study Hub <span className="footer-dot">·</span> Học chậm mà
             chắc.
           </span>
-          <span>Local interactive preview · v0.0.1</span>
+          <span>
+            {ownerMode
+              ? "Preview riêng tư · DRAFT"
+              : "Local interactive preview · v0.0.1"}
+          </span>
         </footer>
       </div>
       <nav className="mobile-nav" aria-label="Điều hướng di động">

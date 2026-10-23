@@ -489,7 +489,7 @@ export function FoundationPlayer({
           </button>
           {session && (
             <Link href="/review" className="button secondary">
-              Ôn thẻ FSRS local
+              Ôn thẻ FSRS
             </Link>
           )}
         </section>

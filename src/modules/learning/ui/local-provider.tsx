@@ -230,7 +230,7 @@ export function LocalModeBar() {
           <strong>PRODUCTION_AUTHENTICATED · OWNER</strong>
           <p>
             {local.privateOwnerPreview
-              ? "Danh tính được xác nhận trên server. Chỉ mở các phiên bản DRAFT đã chọn cho preview riêng tư local."
+              ? "Danh tính được xác nhận trên server. Chỉ mở các phiên bản DRAFT đã chọn cho chủ tài khoản."
               : "Danh tính được xác nhận trên server. Học liệu chưa duyệt vẫn bị khóa."}
           </p>
           {document.documentElement.dataset.authEnvironment === "local" && (
