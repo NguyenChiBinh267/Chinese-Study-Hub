@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "local-curriculum-v1",
+  "courses": [
+    {
+      "id": "60000000-0000-4000-8000-000000000001",
+      "code": "FOUNDATION",
+      "title": "Nền tảng tiếng Trung",
+      "description": "Làm quen pinyin, thanh điệu và kiến thức chuẩn bị.",
+      "order": 0,
+      "syllabusId": null,
+      "releaseRef": "local-development-phase4",
+      "availability": "PRACTICE_ONLY",
+      "coverageVerified": false
+    },
+    {
+      "id": "60000000-0000-4000-8000-000000000002",
+      "code": "HSK1",
+      "title": "HSK 1",
+      "description": "Lời chào, giới thiệu và sở thích qua bài tự soạn, mapping PARTIAL.",
+      "order": 1,
+      "syllabusId": "hsk-exam-2025-11",
+      "releaseRef": "local-development-phase4",
+      "availability": "PRACTICE_ONLY",
+      "coverageVerified": false
+    },
+    {
+      "id": "60000000-0000-4000-8000-000000000003",
+      "code": "HSK2",
+      "title": "HSK 2",
+      "description": "Bước tiếp theo sau chương trình HSK 1 được kiểm chứng.",
+      "order": 2,
+      "syllabusId": "hsk-exam-2025-11",
+      "releaseRef": null,
+      "availability": "NOT_RELEASED",
+      "coverageVerified": false
+    },
+    {
+      "id": "60000000-0000-4000-8000-000000000004",
+      "code": "HSK3",
+      "title": "HSK 3",
+      "description": "Mở rộng giao tiếp và đọc hiểu ở cấp độ tiếp theo.",
+      "order": 3,
+      "syllabusId": "hsk-exam-2025-11",
+      "releaseRef": null,
+      "availability": "NOT_RELEASED",
+      "coverageVerified": false
+    },
+    {
+      "id": "60000000-0000-4000-8000-000000000005",
+      "code": "HSK4",
+      "title": "HSK 4",
+      "description": "Mục tiêu học tập dài hạn hiện tại.",
+      "order": 4,
+      "syllabusId": "hsk-exam-2025-11",
+      "releaseRef": null,
+      "availability": "NOT_RELEASED",
+      "coverageVerified": false
+    }
+  ],
+  "units": [
+    {
+      "id": "60000000-0000-4000-8000-000000000101",
+      "slug": "pinyin",
+      "courseId": "60000000-0000-4000-8000-000000000001",
+      "order": 0,
+      "title": "Pinyin: cách đọc ký hiệu",
+      "objective": "Nhận diện pinyin và cách ghi âm tiết.",
+      "prerequisites": [],
+      "availability": "PRACTICE_ONLY"
+    },
+    {
+      "id": "60000000-0000-4000-8000-000000000102",
+      "slug": "tones",
+      "courseId": "60000000-0000-4000-8000-000000000001",
+      "order": 1,
+      "title": "Thanh điệu",
+      "objective": "Nhận diện ký hiệu và thanh nhẹ; chưa đánh giá nghe/phát âm.",
+      "prerequisites": ["60000000-0000-4000-8000-000000000101"],
+      "availability": "PRACTICE_ONLY"
+    },
+    {
+      "id": "60000000-0000-4000-8000-000000000103",
+      "slug": "greetings",
+      "courseId": "60000000-0000-4000-8000-000000000002",
+      "order": 0,
+      "title": "Chào hỏi và giới thiệu",
+      "objective": "Luyện lời chào, nói tên và hỏi lại.",
+      "prerequisites": ["60000000-0000-4000-8000-000000000102"],
+      "availability": "PRACTICE_ONLY"
+    },
+    {
+      "id": "60000000-0000-4000-8000-000000000104",
+      "slug": "preferences",
+      "courseId": "60000000-0000-4000-8000-000000000002",
+      "order": 1,
+      "title": "Sở thích và câu hỏi đơn giản",
+      "objective": "Nói thích trà, thích uống trà và hỏi lại trong ngữ cảnh.",
+      "prerequisites": ["60000000-0000-4000-8000-000000000103"],
+      "availability": "PRACTICE_ONLY"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "60000000-0000-4000-8000-000000000201",
+      "key": "F01",
+      "unitId": "60000000-0000-4000-8000-000000000101",
+      "order": 0,
+      "currentVersion": "f01-draft-v1",
+      "localDraftAllowed": true,
+      "requirements": []
+    },
+    {
+      "id": "60000000-0000-4000-8000-000000000202",
+      "key": "F02",
+      "unitId": "60000000-0000-4000-8000-000000000102",
+      "order": 0,
+      "currentVersion": "f02-draft-v1",
+      "localDraftAllowed": true,
+      "requirements": [
+        {
+          "conceptId": "f01-ma",
+          "skill": "recognition",
+          "rule": "foundation"
+        },
+        {
+          "conceptId": "f01-ni",
+          "skill": "recognition",
+          "rule": "foundation"
+        },
+        {
+          "conceptId": "f01-nu",
+          "skill": "recognition",
+          "rule": "foundation"
+        }
+      ]
+    },
+    {
+      "id": "60000000-0000-4000-8000-000000000203",
+      "key": "L001",
+      "unitId": "60000000-0000-4000-8000-000000000103",
+      "order": 0,
+      "currentVersion": "l001-draft-v2",
+      "localDraftAllowed": true,
+      "requirements": [
+        {
+          "conceptId": "f01-ma",
+          "skill": "recognition",
+          "rule": "foundation"
+        },
+        {
+          "conceptId": "f01-ni",
+          "skill": "recognition",
+          "rule": "foundation"
+        },
+        {
+          "conceptId": "f01-nu",
+          "skill": "recognition",
+          "rule": "foundation"
+        },
+        {
+          "conceptId": "f02-ma1",
+          "skill": "recognition",
+          "rule": "foundation"
+        },
+        {
+          "conceptId": "f02-ma2",
+          "skill": "recognition",
+          "rule": "foundation"
+        },
+        {
+          "conceptId": "f02-ma3",
+          "skill": "recognition",
+          "rule": "foundation"
+        },
+        {
+          "conceptId": "f02-ma4",
+          "skill": "recognition",
+          "rule": "foundation"
+        },
+        {
+          "conceptId": "f02-ma0",
+          "skill": "recognition",
+          "rule": "foundation"
+        },
+        {
+          "conceptId": "f02-nu3",
+          "skill": "recognition",
+          "rule": "foundation"
+        }
+      ]
+    },
+    {
+      "id": "60000000-0000-4000-8000-000000000204",
+      "key": "L002",
+      "unitId": "60000000-0000-4000-8000-000000000104",
+      "order": 0,
+      "currentVersion": "l002-draft-v2",
+      "localDraftAllowed": true,
+      "requirements": [
+        {
+          "conceptId": "l001-hello",
+          "skill": "reading",
+          "rule": "secure"
+        },
+        {
+          "conceptId": "l001-wo",
+          "skill": "reading",
+          "rule": "secure"
+        },
+        {
+          "conceptId": "l001-ni",
+          "skill": "reading",
+          "rule": "secure"
+        },
+        {
+          "conceptId": "l001-jiao",
+          "skill": "reading",
+          "rule": "secure"
+        },
+        {
+          "conceptId": "l001-ne",
+          "skill": "reading",
+          "rule": "secure"
+        }
+      ]
+    }
+  ]
+}

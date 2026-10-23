@@ -1,0 +1,44 @@
+{
+  "name": "chinese-study-hub",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint src next.config.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.118.0",
+    "fft.js": "4.0.4",
+    "lucide-react": "^0.577.0",
+    "next": "16.4.2",
+    "pg": "^8.23.1",
+    "pitchy": "4.1.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "server-only": "0.0.1",
+    "ts-fsrs": "5.4.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.1",
+    "@playwright/test": "^1.58.2",
+    "@tailwindcss/postcss": "^4.2.1",
+    "@types/node": "^24.0.0",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "16.4.2",
+    "prettier": "3.8.1",
+    "tailwindcss": "^4.2.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
