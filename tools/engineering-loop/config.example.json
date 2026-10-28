@@ -19,6 +19,7 @@
   "maxTasksPerRun": 1,
   "zeroTouchAuthorization": null,
   "bootstrapMergeAuthorization": null,
+  "existingPullRequests": {},
   "policies": {
     "T004": {
       "contractVersion": 1,
@@ -299,5 +300,16 @@
         }
       ]
     }
+  },
+  "modelRouting": {
+    "quotaReservePercent": 20,
+    "maxCallsPerTask": 6,
+    "maxDeveloperCalls": 3,
+    "maxReviewerCalls": 3,
+    "maxEscalationsPerTask": 0,
+    "allowEscalation": false,
+    "allowAstra": false,
+    "allowedEscalationModels": [],
+    "syntheticProofAuthorization": null
   }
 }

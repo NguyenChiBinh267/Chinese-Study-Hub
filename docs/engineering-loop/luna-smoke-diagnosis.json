@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-16T02:20:45.610Z",
+  "baseCommit": "b2cb6ca819bb95048fdbfe071abb9bc6ce0404b1",
+  "branch": "loop/adaptive-model-routing",
+  "status": "DIAGNOSED_CONFIG_BLOCKER_WITH_HISTORICAL_EVIDENCE_GAP",
+  "historicalRootCause": "ROOT_CAUSE_UNDETERMINED",
+  "verifiedConfigurationBlocker": {
+    "classification": "CLI_CONFIGURATION",
+    "code": "RESERVED_PROVIDER_OVERRIDE",
+    "cliVersion": "codex-cli 0.153.4",
+    "cause": "The retained harness overrides model_providers.openai, a reserved built-in provider ID. Current CLI rejects this config before initialize.",
+    "historicalAttribution": "Strongly supported inference from identical retained overrides and CLI version, not original stderr.",
+    "filteredMetadataError": [
+      "Error: error loading default config after config error: model_providers contains reserved built-in provider IDs: `openai`. Built-in providers cannot be overridden. Rename your custom provider (for example, `openai-custom`).",
+      "in `model_providers`"
+    ],
+    "executedInference": false,
+    "execReplayed": false
+  },
+  "historicalEvidence": {
+    "report": ".engineering-loop/owner-one-luna-970e8112-8a99-489d-b9e7-e60fd12dadc8/report.json",
+    "reportSha256": "c5ef89fa65de643ab246d8f35283635d8868fc0e4dde9ceee04cc1433d6eb117",
+    "reportUnchanged": true,
+    "budgetReceipt": ".engineering-loop/model-budgets/74b72d4f69a14ea71513005f9209e31597cc3a7bae5b174055f9b7c6cf05f2bc.json",
+    "budgetConsumed": 1,
+    "budgetStatus": "BLOCKED",
+    "processExitCode": 1,
+    "signal": null,
+    "parsedJsonEvents": {},
+    "actualModel": null,
+    "tokenUsage": null,
+    "rawStdoutRetained": false,
+    "stderrRetained": false,
+    "observabilityDefect": "Execution stderr was discarded; non-JSON stdout discarded; original stdout/stderr byte counts absent; complete actual argv not retained.",
+    "budgetReceiptSha256": "7bd638c37ee2738fa378db780dc27d0d634ad17f4c9dc9fef60fdb26d8408832"
+  },
+  "reconstructedLaunch": {
+    "executable": "C:\\Program Files\\nodejs\\node.exe",
+    "argv": [
+      "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\@openai\\codex\\bin\\codex.js",
+      "exec",
+      "--ignore-user-config",
+      "--ephemeral",
+      "--sandbox",
+      "read-only",
+      "--model",
+      "gpt-5.6-luna",
+      "-c",
+      "model_reasoning_effort=\"low\"",
+      "-c",
+      "approval_policy=\"never\"",
+      "-c",
+      "forced_login_method=\"chatgpt\"",
+      "-c",
+      "model_provider=\"openai\"",
+      "-c",
+      "windows.sandbox=\"unelevated\"",
+      "-c",
+      "sandbox_workspace_write.network_access=false",
+      "--cd",
+      "D:\\Chinese-Study-Hub\\.engineering-loop\\owner-one-luna-970e8112-8a99-489d-b9e7-e60fd12dadc8\\workspace",
+      "--output-schema",
+      "D:\\Chinese-Study-Hub\\.engineering-loop\\owner-one-luna-970e8112-8a99-489d-b9e7-e60fd12dadc8\\schema.json",
+      "--output-last-message",
+      "D:\\Chinese-Study-Hub\\.engineering-loop\\owner-one-luna-970e8112-8a99-489d-b9e7-e60fd12dadc8\\result.json",
+      "--json",
+      "--color",
+      "never",
+      "--disable",
+      "shell_tool",
+      "--disable",
+      "multi_agent",
+      "--disable",
+      "multi_agent_v2",
+      "--disable",
+      "sleep_tool",
+      "--disable",
+      "skill_search",
+      "-c",
+      "model_providers.openai.request_max_retries=0",
+      "-c",
+      "model_providers.openai.stream_max_retries=0",
+      "-c",
+      "model_providers.openai.stream_idle_timeout_ms=15000",
+      "-"
+    ],
+    "cwd": "D:\\Chinese-Study-Hub\\.engineering-loop\\owner-one-luna-970e8112-8a99-489d-b9e7-e60fd12dadc8\\workspace",
+    "stdin": "Reply {\"ok\":true}. No tools.",
+    "evidence": "Reconstructed from retained harness and unchanged b2cb6ca runner, not a historical process argv capture"
+  },
+  "controllerTimeoutMs": 30000,
+  "parameterVerification": {
+    "command": [
+      "help",
+      "exec"
+    ],
+    "modelCalls": 0,
+    "flags": [
+      {
+        "flag": "--ignore-user-config",
+        "advertised": true
+      },
+      {
+        "flag": "--ephemeral",
+        "advertised": true
+      },
+      {
+        "flag": "--sandbox",
+        "advertised": true
+      },
+      {
+        "flag": "--model",
+        "advertised": true
+      },
+      {
+        "flag": "--output-schema",
+        "advertised": true
+      },
+      {
+        "flag": "--output-last-message",
+        "advertised": true
+      },
+      {
+        "flag": "--json",
+        "advertised": true
+      },
+      {
+        "flag": "--color",
+        "advertised": true
+      },
+      {
+        "flag": "--disable",
+        "advertised": true
+      }
+    ],
+    "features": [
+      "multi_agent                              stable             true",
+      "multi_agent_v2                           stable             false",
+      "shell_tool                               stable             true",
+      "skill_search                             stable             true",
+      "sleep_tool                               stable             true"
+    ]
+  },
+  "metadataChecks": [
+    {
+      "name": "baseline",
+      "commandArgs": [
+        "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\@openai\\codex\\bin\\codex.js",
+        "app-server",
+        "--stdio",
+        "-c",
+        "forced_login_method=\"chatgpt\"",
+        "-c",
+        "model_provider=\"openai\""
+      ],
+      "exitCode": 0,
+      "errorCode": null,
+      "stdoutBytes": 420,
+      "initializeResponseObserved": true,
+      "stderrBytes": 0,
+      "filteredStderr": [],
+      "methodsSent": [
+        "initialize"
+      ],
+      "threadOrTurnMethodsSent": 0,
+      "modelCalls": 0
+    },
+    {
+      "name": "historical-provider-overrides",
+      "commandArgs": [
+        "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\@openai\\codex\\bin\\codex.js",
+        "app-server",
+        "--stdio",
+        "-c",
+        "forced_login_method=\"chatgpt\"",
+        "-c",
+        "model_provider=\"openai\"",
+        "-c",
+        "model_providers.openai.request_max_retries=0",
+        "-c",
+        "model_providers.openai.stream_max_retries=0",
+        "-c",
+        "model_providers.openai.stream_idle_timeout_ms=15000"
+      ],
+      "exitCode": 1,
+      "errorCode": null,
+      "stdoutBytes": 0,
+      "initializeResponseObserved": false,
+      "stderrBytes": 246,
+      "filteredStderr": [
+        "Error: error loading default config after config error: model_providers contains reserved built-in provider IDs: `openai`. Built-in providers cannot be overridden. Rename your custom provider (for example, `openai-custom`).",
+        "in `model_providers`"
+      ],
+      "methodsSent": [
+        "initialize"
+      ],
+      "threadOrTurnMethodsSent": 0,
+      "modelCalls": 0,
+      "followupMetadataOnlyCapture": {
+        "exitCode": 1,
+        "stdinMethods": [],
+        "modelCalls": 0
+      }
+    }
+  ],
+  "metadataChecksArtifact": ".engineering-loop/luna-startup-metadata-diagnosis.json",
+  "differentialDiagnosis": [
+    {
+      "category": "CLI_CONFIGURATION",
+      "status": "REPRODUCED",
+      "evidence": "Baseline initialize exit 0; provider overrides exit 1 with reserved-provider rejection, zero stdout."
+    },
+    {
+      "category": "CLI_ARGUMENT",
+      "status": "NO_REPORTED_HISTORICAL_SIGNATURE",
+      "evidence": "Local help advertises the common and exec-specific options and feature names; no original stderr exists."
+    },
+    {
+      "category": "AUTHENTICATION",
+      "status": "UNDETERMINED",
+      "evidence": "Historical metadata accountType=chatgpt; no original authentication error retained."
+    },
+    {
+      "category": "MODEL_ACCESS",
+      "status": "UNDETERMINED",
+      "evidence": "Luna advertised in historical model/list; actual generation access/model identity not verified."
+    },
+    {
+      "category": "SANDBOX",
+      "status": "UNDETERMINED",
+      "evidence": "Reconstructed CLI requested read-only; old receipt workspace-write was a role label. No enforcement probe or original error."
+    },
+    {
+      "category": "TIMEOUT",
+      "status": "CONTROLLER_TIMEOUT_NOT_REPORTED",
+      "evidence": "Retained failure is exit 1/UNCLASSIFIED rather than explicit controller timeout; server/internal timeout cannot be ruled out."
+    },
+    {
+      "category": "RUNNER_PARSER",
+      "status": "OBSERVABILITY_DEFECT_CONFIRMED",
+      "evidence": "stderr was unconditionally discarded and raw/non-JSON stdout was not saved. Absence of parsed events cannot establish zero inference."
+    }
+  ],
+  "patch": {
+    "files": [
+      "tools/engineering-loop/diagnostics.mjs",
+      "tools/engineering-loop/io.mjs",
+      "tools/engineering-loop/model-routing.test.mjs"
+    ],
+    "preservesRoutingAndQuota": true,
+    "preservesIndependentReviewerAndGrantGates": true,
+    "receiptFields": [
+      "diagnostics.launch (sanitized actual child.spawnargs when available)",
+      "exitCode/signal/spawnErrorCode/processErrorCode/stopReason",
+      "stdoutBytes/stderrBytes/jsonEvents/nonJsonStdoutLines",
+      "bounded allowlisted static diagnostic summaries; unknown text omitted",
+      "observed preInference state with unknown inferenceRequestSent=null"
+    ],
+    "noRawOutputOrPromptOrEnvironmentLogged": true,
+    "modelToolsNotInspected": true,
+    "historicalHarnessNotModifiedOrRun": true,
+    "historicalReportsNotPromoted": true,
+    "grantSourceAndTestsUnchanged": true
+  },
+  "nonAiValidation": {
+    "regressions": {
+      "passed": 121,
+      "failed": 0,
+      "artifact": ".engineering-loop/luna-diagnostics-regressions-final.xml",
+      "sha256": "159e9758db4b42371e475de286cbe0569494b3a4837a6721c1cb6e9cfd618641",
+      "scope": "Full six-file non-AI regression suite before final malformed-event catch/close-once refinement"
+    },
+    "legacy": {
+      "passed": 18,
+      "total": 18,
+      "artifact": ".engineering-loop/luna-diagnostics-legacy.json"
+    },
+    "fakeProcessTestsOnly": true,
+    "finalRoutingAndDiagnosticsUnit": {
+      "passed": 32,
+      "failed": 0,
+      "artifact": ".engineering-loop/luna-diagnostics-unit-final.xml",
+      "sha256": "b3edfdeca4d72bc31708cb49e56899b7dca100ad1e5434e1bd4091012f1f5cfc",
+      "scope": "Current final process-executor implementation, including malformed event rejection"
+    },
+    "diffCheck": "PASS",
+    "finalCodeHashes": {
+      "tools/engineering-loop/io.mjs": "ca5186c58412e050736f5c7a1c29fd1fb4fb8a419a8e05662de808c990497808",
+      "tools/engineering-loop/diagnostics.mjs": "57217dad6574dbe7475f9d9dc2757d70477aa91725272c376b7d0045cb8a9bb9",
+      "tools/engineering-loop/model-routing.test.mjs": "8801c4a31aca4e2e9dd76a0e72b9bf237f7bb538bd6289aeabae6956d897db02"
+    }
+  },
+  "remainingMissingEvidence": [
+    "Original stderr and raw stdout/byte counts are irrecoverable from retained receipts.",
+    "Actual historical complete argv and native binary hash were not captured; ordered argv reconstructed from source.",
+    "No original actual model identity, token telemetry or direct inference-request evidence.",
+    "No exec rerun permitted; app-server config rejection is distinct metadata evidence."
+  ],
+  "safety": {
+    "modelLaunchesThisInvestigation": 0,
+    "inferenceCalls": 0,
+    "smokeRerun": false,
+    "developerOrReviewerRun": false,
+    "subagentsStarted": 0,
+    "bootstrapRun": false,
+    "e2eRun": false,
+    "realBacklogRun": false,
+    "paidApiOrCreditsUsed": false,
+    "pushed": false,
+    "merged": false,
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "bootstrapMergeAuthorization": null,
+    "zeroTouchAuthorization": null,
+    "syntheticProofAuthorization": null,
+    "control": {
+      "pause": false,
+      "stop": true,
+      "changedAt": "2026-10-14T10:03:53.852Z"
+    }
+  }
+}

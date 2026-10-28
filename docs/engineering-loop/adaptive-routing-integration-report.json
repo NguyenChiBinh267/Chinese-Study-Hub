@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-16T08:10:03.251Z",
+  "status": "DRAFT_INTEGRATION_MODEL_BLOCKED",
+  "startingCommit": "b1bbdafb75629bd0a9c181b53c0a30f615099324",
+  "testedCodeCommit": "142a69606b451943a28150d81b126b78f5df12b3",
+  "branch": "loop/adaptive-model-routing",
+  "verifiedMain": "3813bda55be7b77108344de6e5cc6bd74c51f034",
+  "preservation": {
+    "backup": "backup/adaptive-routing-b1bbdaf",
+    "backupCommit": "b1bbdafb75629bd0a9c181b53c0a30f615099324",
+    "allLocalCommitsPreserved": true,
+    "pr4": {
+      "number": 4,
+      "url": "https://github.com/NguyenChiBinh267/Chinese-Study-Hub/pull/4",
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "head": "6c429eff0337e286253bdba02fa5b40ccd40d370"
+    },
+    "mainAndPr4AreAncestors": true,
+    "mergeOrCherryPickRequired": false,
+    "pr4Unmodified": true,
+    "gitSsotAndContentUnchanged": true,
+    "grantLedgerAndPriorRoutingImplementationPreserved": true
+  },
+  "fixes": [
+    {
+      "finding": "Inherited deadline lost on restart/resume",
+      "implementation": "Persist earliest effectiveDeadline in canonical identity/latest ledger before source construction or dispatch; resume may only shorten it; missing legacy ceiling blocks.",
+      "evidence": [
+        "Fresh Node process restart with environment removed at exact saved expiry",
+        "Caller later deadline cannot expand ceiling; earlier can narrow",
+        "No source/controller invocation after expiry"
+      ]
+    },
+    {
+      "finding": "Retry checkpoint ordering",
+      "implementation": "Persist charged retry counter and hashed from/to-state intent to canonical grant identity before releasing runnable state; resume completes same intent without refund, extra state write or double charge.",
+      "evidence": [
+        "Four crash windows before/after canonical/latest/state writes",
+        "Hard Node process exit after runnable write",
+        "State/counter drift and exhausted limits rejected"
+      ]
+    }
+  ],
+  "validation": {
+    "targeted": {
+      "passed": 109,
+      "failed": 0,
+      "modelCalls": 0,
+      "files": [
+        "tools/engineering-loop/autonomous.test.mjs",
+        "tools/engineering-loop/bootstrap.test.mjs",
+        "tools/engineering-loop/model-routing.test.mjs",
+        "tools/engineering-loop/local.test.mjs"
+      ],
+      "junit": ".engineering-loop/integration-targeted-tests.xml",
+      "sha256": "6af1784f4f2b43a5bfb2b7a45c094100c86441b34a849a533f40d10910be07fc"
+    },
+    "legacy": {
+      "passed": 18,
+      "total": 18,
+      "modelCalls": 0,
+      "scope": "Real local Git/files/state; simulated GitHub/Work/Codex adapters",
+      "artifact": ".engineering-loop/integration-legacy.json",
+      "sha256": "bafb551cfa5c336471151693d001ea05a7d1303f8f0b8e88ab7c8e93e041cee5"
+    },
+    "import": {
+      "status": "PASS_TEXT_AND_SPEC_VALIDATION",
+      "tasks": 70,
+      "m0": 34,
+      "doneIds": [
+        "T001",
+        "T002"
+      ],
+      "originalTrackedReportRestored": true,
+      "artifact": ".engineering-loop/integration-ssot-import.json"
+    },
+    "whitespace": "PASS"
+  },
+  "metadata": {
+    "checkedAt": "2026-10-16T08:06:41.562Z",
+    "methods": [
+      "initialize",
+      "account/read",
+      "model/list",
+      "account/rateLimits/read"
+    ],
+    "inferenceCalls": 0,
+    "catalogueComplete": true,
+    "advertisedModels": [
+      {
+        "model": "gpt-6-astra",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ]
+      },
+      {
+        "model": "gpt-5.6-sol",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ]
+      },
+      {
+        "model": "gpt-5.6-terra",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ]
+      },
+      {
+        "model": "gpt-5.6-luna",
+        "efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      }
+    ],
+    "accountType": "chatgpt",
+    "quotaScope": "shared-account",
+    "modelQuotaVerified": false,
+    "reservePercent": 20,
+    "admission": "Every applicable valid fresh shared window must have remainingPercent > 20; usable headroom = minimum remaining minus 20. No per-model quota or token-cost prediction is inferred."
+  },
+  "smoke": {
+    "status": "BLOCKED",
+    "attemptedProcesses": 1,
+    "requestedModel": "gpt-5.6-luna",
+    "requestedEffort": "low",
+    "actualModel": null,
+    "usage": null,
+    "exitCode": 1,
+    "stage": "CLI_REPORTED_ERROR",
+    "rootCause": "ROOT_CAUSE_UNDETERMINED",
+    "receipt": "docs/engineering-loop/adaptive-routing-integration-smoke.json",
+    "quotaDelta": [
+      {
+        "bucket": "codex",
+        "windowDurationMins": 300,
+        "usedBefore": 27,
+        "usedAfter": 27,
+        "usedPercentagePointDelta": 0
+      },
+      {
+        "bucket": "codex",
+        "windowDurationMins": 10080,
+        "usedBefore": 42,
+        "usedAfter": 42,
+        "usedPercentagePointDelta": 0
+      }
+    ],
+    "quotaSavingsProven": false,
+    "noRetryOrFallback": true
+  },
+  "readiness": {
+    "independentFullCandidateReview": "NOT_RUN",
+    "readyForAuthorization": false,
+    "fullyAutomatedProject": false,
+    "realBacklogExecuted": false,
+    "applicationTasksStarted": false,
+    "pinnedMainStatusSummary": {
+      "commit": "3813bda55be7b77108344de6e5cc6bd74c51f034",
+      "activeRelease": "M0",
+      "taskCount": 70,
+      "doneIds": [
+        "T001",
+        "T002"
+      ],
+      "referenceOnly": true,
+      "authority": "docs/master-plan/task-status.json at verified main"
+    },
+    "blockers": [
+      "Luna runtime smoke failed with CLI error item; actual model/token telemetry and final output absent; raw error meaning unavailable under existing safe projection.",
+      "Integrated candidate has no new independent full-candidate bootstrap PASS; prior PR #4 REWORK remains historical.",
+      "Live task/merge/status authority remains disabled. Human-only account/free eligibility (T068), runtime least-privilege/RLS (T009), free-host benchmark (T069), rights/competent content review remain unsatisfied gates at their respective transitions."
+    ]
+  },
+  "safety": {
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "zeroTouchAuthorization": null,
+    "bootstrapMergeAuthorization": null,
+    "quotaReservePercent": 20,
+    "controllerStopped": true,
+    "subagents": 0,
+    "reviewerCallsThisTurn": 0,
+    "bootstrapRuns": 0,
+    "e2eOrMultiProofRuns": 0,
+    "realBacklogRuns": 0,
+    "paidApiOrCredits": false,
+    "cloudOrServicesCreated": false,
+    "merged": false,
+    "deployed": false
+  },
+  "publication": {
+    "intended": "New draft integration PR from existing branch; PR #4 left untouched. No full-candidate PASS/merge authorization claimed.",
+    "resultArtifact": ".engineering-loop/integration-publication.json"
+  }
+}
