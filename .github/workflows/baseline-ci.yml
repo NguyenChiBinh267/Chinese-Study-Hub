@@ -1,0 +1,55 @@
+name: Baseline CI
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: baseline-ci-pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  baseline:
+    name: Lockfile, types, lint, build and unit
+    # Standard hosted runners are free only while this repository is public.
+    if: github.repository == 'NguyenChiBinh267/Chinese-Study-Hub' && github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      NEXT_TELEMETRY_DISABLED: '1'
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+      npm_config_cache: ${{ runner.temp }}/baseline-npm-cache
+    steps:
+      - name: Checkout exact PR head without persisted credentials
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+
+      - name: Use Node.js 22 without Actions dependency cache
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+          package-manager-cache: false
+
+      - name: Install exactly from lockfile without lifecycle scripts
+        run: npm ci --ignore-scripts --no-audit --no-fund
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build without external services
+        run: npm run build
+
+      - name: Unit tests without external services
+        run: node --import tsx --test tests/unit/*.test.ts
+
+      - name: Verify tracked files were not rewritten
+        run: git diff --exit-code && test -z "$(git ls-files --others --exclude-standard)"
