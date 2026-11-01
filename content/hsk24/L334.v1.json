@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "7239d6567571b5c9c1c12d4d1f909cfe64efaeda76fca17f2a484e2a517ad45b",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-hosting-food",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L334",
+    "version": 1,
+    "versionId": "l334-draft-v1",
+    "title": "Mời khách và gọi đồ ăn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc lời mời dùng bữa và thông tin phục vụ, không đồng nhất mời với đã trả tiền.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "“是……的”句"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-social",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "日常交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-etiquette",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "礼貌行为"
+        },
+        "written": "礼貌行为",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l334-v-620",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 620"
+        },
+        "written": "方便面",
+        "pinyin": "fāngbiànmiàn",
+        "senseId": "l334-v-620-sense",
+        "ordinal": 620,
+        "note": "3 fāngbiànmiàn 名; 方便面 là tên loại thực phẩm; không dùng 方便 như bảo đảm tốt cho sức khỏe. Không gộp mọi loại mì vào tên này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l334-v-866",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 866"
+        },
+        "written": "外卖",
+        "pinyin": "wàimài",
+        "senseId": "l334-v-866-sense",
+        "ordinal": 866,
+        "note": "3 wàimài 动、名; 外卖 trong 叫外卖 là đồ ăn đặt giao; có thể dùng hành vi bán mang đi ở ngữ cảnh khác, bài chỉ dạy danh từ đồ ăn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l334-v-632",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 632"
+        },
+        "written": "服务",
+        "pinyin": "fúwù",
+        "senseId": "l334-v-632-sense",
+        "ordinal": 632,
+        "note": "3 fúwù 动; 服务 có thể là hoạt động phục vụ hoặc danh từ chất lượng dịch vụ; 服务很好 là đánh giá, không phải món ăn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l334-v-809",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 809"
+        },
+        "written": "请客",
+        "pinyin": "qǐngkè",
+        "senseId": "l334-v-809-sense",
+        "ordinal": 809,
+        "note": "3 qǐngkè 动; 请客 thường nêu đứng ra mời/đãi bữa; ai trả bao nhiêu cần ngữ cảnh. 我请客 là lời đề nghị đãi, chưa là biên nhận đã thanh toán. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l334-v-737",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 737"
+        },
+        "written": "客人",
+        "pinyin": "kèrén",
+        "senseId": "l334-v-737-sense",
+        "ordinal": 737,
+        "note": "3 kèrén 名; 客人 là người đến chơi hoặc khách được phục vụ; không tự cho biết quốc tịch/tuổi. 客人来了 chỉ khách đã đến. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l334-v-814",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 814"
+        },
+        "written": "热情",
+        "pinyin": "rèqíng",
+        "senseId": "l334-v-814-sense",
+        "ordinal": 814,
+        "note": "3 rèqíng 形; 热情 mô tả thái độ niềm nở; khác 热 là nhiệt độ. 对客人很热情 nói cách đón tiếp. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "方",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-221",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "221"
+        },
+        "written": "务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 221,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-polite-attitude",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "是……的句2 / 看法态度"
+        },
+        "written": "“是……的”句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l334-c0",
+      "version": 1,
+      "senseId": "l334-v-620-sense",
+      "hanzi": "方便面",
+      "dictionaryPinyin": "fāng biàn miàn",
+      "meaning": "mì ăn liền",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l334-v-620"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l334-c1",
+      "version": 1,
+      "senseId": "l334-v-866-sense",
+      "hanzi": "外卖",
+      "dictionaryPinyin": "wài mài",
+      "meaning": "đồ ăn giao/đem đi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l334-v-866"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l334-c2",
+      "version": 1,
+      "senseId": "l334-v-632-sense",
+      "hanzi": "服务",
+      "dictionaryPinyin": "fú wù",
+      "meaning": "phục vụ/dịch vụ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l334-v-632"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l334-c3",
+      "version": 1,
+      "senseId": "l334-v-809-sense",
+      "hanzi": "请客",
+      "dictionaryPinyin": "qǐng kè",
+      "meaning": "mời đãi khách",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l334-v-809"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l334-c4",
+      "version": 1,
+      "senseId": "l334-v-737-sense",
+      "hanzi": "客人",
+      "dictionaryPinyin": "kè rén",
+      "meaning": "khách",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l334-v-737"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l334-c5",
+      "version": 1,
+      "senseId": "l334-v-814-sense",
+      "hanzi": "热情",
+      "dictionaryPinyin": "rè qíng",
+      "meaning": "nhiệt tình/niềm nở",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l334-v-814"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l334-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 份 fèn: phần; 送 sòng: giao; 分钟 fēnzhōng: phút; 愿意 yuànyì: sẵn lòng. Không dùng tính từ 热情 để suy ra khách đã đồng ý.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l334-t0",
+      "type": "teaching",
+      "title": "方便面 · mì ăn liền",
+      "text": "方便面 là tên loại thực phẩm; không dùng 方便 như bảo đảm tốt cho sức khỏe. Không gộp mọi loại mì vào tên này.",
+      "hanzi": "今天我不吃方便面。",
+      "pinyin": "Jīntiān wǒ bù chī fāngbiànmiàn.",
+      "meaning": "Hôm nay tôi không ăn mì ăn liền.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l334-t1",
+      "type": "teaching",
+      "title": "外卖 · đồ ăn giao/đem đi",
+      "text": "外卖 trong 叫外卖 là đồ ăn đặt giao; có thể dùng hành vi bán mang đi ở ngữ cảnh khác, bài chỉ dạy danh từ đồ ăn.",
+      "hanzi": "我们叫了两份外卖。",
+      "pinyin": "Wǒmen jiào le liǎng fèn wàimài.",
+      "meaning": "Chúng tôi đặt hai phần đồ ăn giao.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l334-t2",
+      "type": "teaching",
+      "title": "服务 · phục vụ/dịch vụ",
+      "text": "服务 có thể là hoạt động phục vụ hoặc danh từ chất lượng dịch vụ; 服务很好 là đánh giá, không phải món ăn.",
+      "hanzi": "这家店的服务很好。",
+      "pinyin": "Zhè jiā diàn de fúwù hěn hǎo.",
+      "meaning": "Dịch vụ quán này rất tốt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l334-t3",
+      "type": "teaching",
+      "title": "请客 · mời đãi khách",
+      "text": "请客 thường nêu đứng ra mời/đãi bữa; ai trả bao nhiêu cần ngữ cảnh. 我请客 là lời đề nghị đãi, chưa là biên nhận đã thanh toán.",
+      "hanzi": "今天我请客。",
+      "pinyin": "Jīntiān wǒ qǐng kè.",
+      "meaning": "Hôm nay tôi đãi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l334-t4",
+      "type": "teaching",
+      "title": "客人 · khách",
+      "text": "客人 là người đến chơi hoặc khách được phục vụ; không tự cho biết quốc tịch/tuổi. 客人来了 chỉ khách đã đến.",
+      "hanzi": "客人已经到家了。",
+      "pinyin": "Kèrén yǐjīng dào jiā le.",
+      "meaning": "Khách đã đến nhà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l334-t5",
+      "type": "teaching",
+      "title": "热情 · nhiệt tình/niềm nở",
+      "text": "热情 mô tả thái độ niềm nở; khác 热 là nhiệt độ. 对客人很热情 nói cách đón tiếp.",
+      "hanzi": "她对客人很热情。",
+      "pinyin": "Tā duì kèrén hěn rèqíng.",
+      "meaning": "Cô ấy rất niềm nở với khách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l334-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "这家店的服务是很好的 nhấn mạnh đánh giá của người nói. 虽然…可是… có thể thêm mặt hạn chế; đánh giá tốt không đồng nghĩa mọi khách đều hài lòng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l334-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "客人到了。小林热情地说：今天我请客，不吃方便面了，叫外卖吧。小王：这家店的服务是很好的，可是现在送来要四十分钟。小林：那我们先问问客人愿不愿意等。",
+      "pinyin": "Kèrén dào le. Xiǎo Lín rèqíng de shuō: Jīntiān wǒ qǐng kè, bù chī fāngbiànmiàn le, jiào wàimài ba. Xiǎo Wáng: Zhè jiā diàn de fúwù shì hěn hǎo de, kěshì xiànzài sòng lái yào sìshí fēnzhōng. Xiǎo Lín: Nà wǒmen xiān wènwen kèrén yuàn bu yuànyì děng.",
+      "meaning": "Lâm đề nghị đãi khách bằng đồ giao. Vương đánh giá dịch vụ tốt nhưng phải chờ bốn mươi phút; họ sẽ hỏi khách có muốn chờ không.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l334-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l334-v1-e0"
+    },
+    {
+      "id": "l334-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l334-v1-e1"
+    },
+    {
+      "id": "l334-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l334-v1-e2"
+    },
+    {
+      "id": "l334-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l334-v1-e3"
+    },
+    {
+      "id": "l334-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l334-v1-e4"
+    },
+    {
+      "id": "l334-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l334-v1-e5"
+    },
+    {
+      "id": "l334-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l334-v1-e6"
+    },
+    {
+      "id": "l334-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l334-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l334-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l334-c0",
+      "senseId": "l334-v-620-sense",
+      "keyRef": "l334-v1-k0",
+      "prompt": "Đúng tên loại mì ăn liền: 今天不吃□。",
+      "choices": [
+        "外卖",
+        "服务",
+        "请客",
+        "客人",
+        "热情",
+        "方便面"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l334-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l334-c1",
+      "senseId": "l334-v-866-sense",
+      "keyRef": "l334-v1-k1",
+      "prompt": "Đồ ăn đặt quán giao tới: 叫两份□。",
+      "choices": [
+        "服务",
+        "请客",
+        "客人",
+        "热情",
+        "方便面",
+        "外卖"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l334-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l334-c2",
+      "senseId": "l334-v-632-sense",
+      "keyRef": "l334-v1-k2",
+      "prompt": "Nói cách nhân viên phục vụ, không nói vị món ăn: □很好。",
+      "choices": [
+        "请客",
+        "客人",
+        "热情",
+        "方便面",
+        "外卖",
+        "服务"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l334-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l334-c3",
+      "senseId": "l334-v-809-sense",
+      "keyRef": "l334-v1-k3",
+      "prompt": "Viết pinyin của 请客 trong câu “今天我请客。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l334-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l334-c4",
+      "senseId": "l334-v-737-sense",
+      "keyRef": "l334-v1-k4",
+      "prompt": "Người được mời tới nhà: □到家了。",
+      "choices": [
+        "热情",
+        "方便面",
+        "外卖",
+        "服务",
+        "请客",
+        "客人"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l334-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l334-c5",
+      "senseId": "l334-v-814-sense",
+      "keyRef": "l334-v1-k5",
+      "prompt": "Thái độ đón khách niềm nở: 对客人很□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l334-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l334-c0",
+      "senseId": "l334-v-620-sense",
+      "keyRef": "l334-v1-k6",
+      "prompt": "Họ còn phải hỏi khách điều gì?",
+      "choices": [
+        "有没有已经付款",
+        "是不是方便面",
+        "愿不愿意等"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l334-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l334-c3",
+      "senseId": "l334-v-809-sense",
+      "keyRef": "l334-v1-k7",
+      "prompt": "Xếp câu nhấn mạnh đánh giá dịch vụ; bắt đầu bằng 这家店的服务.",
+      "choices": [
+        "是很好的",
+        "这家店的服务"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l334-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l334-v1-e0",
+      "senseId": "l334-v-620-sense",
+      "accepted": [
+        "方便面"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "方便面: mì ăn liền. 方便面 là tên loại thực phẩm; không dùng 方便 như bảo đảm tốt cho sức khỏe. Không gộp mọi loại mì vào tên này. Hôm nay tôi không ăn mì ăn liền."
+    },
+    {
+      "id": "l334-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l334-v1-e1",
+      "senseId": "l334-v-866-sense",
+      "accepted": [
+        "外卖"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "外卖: đồ ăn giao/đem đi. 外卖 trong 叫外卖 là đồ ăn đặt giao; có thể dùng hành vi bán mang đi ở ngữ cảnh khác, bài chỉ dạy danh từ đồ ăn. Chúng tôi đặt hai phần đồ ăn giao."
+    },
+    {
+      "id": "l334-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l334-v1-e2",
+      "senseId": "l334-v-632-sense",
+      "accepted": [
+        "服务"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "服务: phục vụ/dịch vụ. 服务 có thể là hoạt động phục vụ hoặc danh từ chất lượng dịch vụ; 服务很好 là đánh giá, không phải món ăn. Dịch vụ quán này rất tốt."
+    },
+    {
+      "id": "l334-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l334-v1-e3",
+      "senseId": "l334-v-809-sense",
+      "accepted": [
+        "qǐng kè"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "请客: mời đãi khách. 请客 thường nêu đứng ra mời/đãi bữa; ai trả bao nhiêu cần ngữ cảnh. 我请客 là lời đề nghị đãi, chưa là biên nhận đã thanh toán. Hôm nay tôi đãi."
+    },
+    {
+      "id": "l334-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l334-v1-e4",
+      "senseId": "l334-v-737-sense",
+      "accepted": [
+        "客人"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "客人: khách. 客人 là người đến chơi hoặc khách được phục vụ; không tự cho biết quốc tịch/tuổi. 客人来了 chỉ khách đã đến. Khách đã đến nhà."
+    },
+    {
+      "id": "l334-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l334-v1-e5",
+      "senseId": "l334-v-814-sense",
+      "accepted": [
+        "热情"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "热情: nhiệt tình/niềm nở. 热情 mô tả thái độ niềm nở; khác 热 là nhiệt độ. 对客人很热情 nói cách đón tiếp. Cô ấy rất niềm nở với khách."
+    },
+    {
+      "id": "l334-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l334-v1-e6",
+      "senseId": "l334-v-620-sense",
+      "accepted": [
+        "愿不愿意等"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 这家店的服务是很好的 nhấn mạnh đánh giá của người nói. 虽然…可是… có thể thêm mặt hạn chế; đánh giá tốt không đồng nghĩa mọi khách đều hài lòng."
+    },
+    {
+      "id": "l334-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l334-v1-e7",
+      "senseId": "l334-v-809-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 这家店的服务是很好的 nhấn mạnh đánh giá của người nói. 虽然…可是… có thể thêm mặt hạn chế; đánh giá tốt không đồng nghĩa mọi khách đều hài lòng."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,917 @@
+{
+  "batch": "HSK1-batch5",
+  "targetLevel": 1,
+  "sourceCheckedAt": "2026-10-30T14:12:34.316389Z",
+  "lessons": [
+    {
+      "id": "L121",
+      "unit": "hsk-one-f",
+      "unitTitle": "Học và nói điều mình cần",
+      "title": "Các việc khi học",
+      "objective": "Các việc khi học; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-121",
+        "动宾短语",
+        386,
+        "g-386-3",
+        "学/学习 đều nói học trong các câu của bài; không ép một từ luôn trang trọng hoặc chỉ dành cho một lứa tuổi. 写 + đối tượng là viết gì, 读书 là đọc sách/học theo ngữ cảnh. Trong 我学习汉语, 汉语 là đối tượng của hành động, không đặt trước động từ theo trật tự tùy ý."
+      ],
+      "task": [
+        "h1-task-study",
+        "介绍学习情况",
+        6,
+        "十二"
+      ],
+      "topic": [
+        "h1-topic-59dbaf6bf45d",
+        "学习内容",
+        58,
+        "学习内容"
+      ],
+      "words": [
+        [
+          "学",
+          "xué",
+          "học",
+          "学 trong 学汉语 nói học tiếng Trung; cách dùng cụ thể cần xem đối tượng theo sau.",
+          "我学汉语。",
+          "Wǒ xué Hàn yǔ.",
+          "Tôi học tiếng Trung."
+        ],
+        [
+          "学习",
+          "xué xí",
+          "học; học tập",
+          "学习 có thể có đối tượng như 汉语; không phải câu nào cũng phải thêm một danh từ sau nó.",
+          "我们学习汉语。",
+          "Wǒ men xué xí Hàn yǔ.",
+          "Chúng tôi học tiếng Trung."
+        ],
+        [
+          "写",
+          "xiě",
+          "viết",
+          "写 + tên/chữ là viết nội dung đó; biết chọn đáp án không chứng minh đã viết tay được.",
+          "请写你的名字。",
+          "Qǐng xiě nǐ de míng zi.",
+          "Xin viết tên của bạn."
+        ],
+        [
+          "读书",
+          "dú shū",
+          "đọc sách; đi học (tùy ngữ cảnh)",
+          "读书 trong câu này là đọc sách; không gán nghĩa đi học cho mọi lần xuất hiện.",
+          "我喜欢读书。",
+          "Wǒ xǐ huan dú shū.",
+          "Tôi thích đọc sách."
+        ]
+      ],
+      "passage": [
+        "A：你学什么？\nB：我学汉语。你呢？\nA：我也学习汉语。我喜欢读书。\nB：请写你的名字。\nA：好。",
+        "A: Nǐ xué shén me? B: Wǒ xué Hàn yǔ. Nǐ ne? A: Wǒ yě xué xí Hàn yǔ. Wǒ xǐ huan dú shū. B: Qǐng xiě nǐ de míng zi. A: Hǎo.",
+        "Hai người học tiếng Trung. B yêu cầu A viết tên, không yêu cầu chấm một bài văn tự do."
+      ],
+      "comprehension": [
+        "B yêu cầu A viết gì?",
+        [
+          "名字",
+          "学校",
+          "猫"
+        ],
+        "名字",
+        "Theo đoạn: 名字. Hai người học tiếng Trung. B yêu cầu A viết tên, không yêu cầu chấm một bài văn tự do."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "学习",
+          "汉语。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “học” trong câu: 我□汉语。",
+          "choices": [
+            "学",
+            "学习",
+            "写",
+            "读书"
+          ],
+          "accepted": [
+            "学"
+          ],
+          "feedback": "学: học. 学 trong 学汉语 nói học tiếng Trung; cách dùng cụ thể cần xem đối tượng theo sau. Tôi học tiếng Trung."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 学习 (học; học tập).",
+          "choices": [],
+          "accepted": [
+            "xué xí"
+          ],
+          "feedback": "学习 ghi xué xí. 学习 có thể có đối tượng như 汉语; không phải câu nào cũng phải thêm một danh từ sau nó."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "写",
+            "字",
+            "学",
+            "安"
+          ],
+          "accepted": [
+            "写"
+          ],
+          "feedback": "Chữ 写 tạo từ 写. 写 + tên/chữ là viết nội dung đó; biết chọn đáp án không chứng minh đã viết tay được. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “đọc sách; đi học (tùy ngữ cảnh)” trong câu: 我喜欢□。",
+          "choices": [
+            "学",
+            "学习",
+            "写",
+            "读书"
+          ],
+          "accepted": [
+            "读书"
+          ],
+          "feedback": "读书: đọc sách; đi học (tùy ngữ cảnh). 读书 trong câu này là đọc sách; không gán nghĩa đi học cho mọi lần xuất hiện. Tôi thích đọc sách."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “请写你的名字。”, 写 mang nghĩa nào theo bài?",
+          "choices": [
+            "học",
+            "học; học tập",
+            "viết",
+            "đọc sách; đi học (tùy ngữ cảnh)"
+          ],
+          "accepted": [
+            "viết"
+          ],
+          "feedback": "写 + tên/chữ là viết nội dung đó; biết chọn đáp án không chứng minh đã viết tay được. Xin viết tên của bạn."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我喜欢读书。”, 读书 mang nghĩa nào theo bài?",
+          "choices": [
+            "học",
+            "học; học tập",
+            "viết",
+            "đọc sách; đi học (tùy ngữ cảnh)"
+          ],
+          "accepted": [
+            "đọc sách; đi học (tùy ngữ cảnh)"
+          ],
+          "feedback": "读书 trong câu này là đọc sách; không gán nghĩa đi học cho mọi lần xuất hiện. Tôi thích đọc sách."
+        }
+      ],
+      "characterTargets": [
+        "写"
+      ]
+    },
+    {
+      "id": "L122",
+      "unit": "hsk-one-f",
+      "unitTitle": "Học và nói điều mình cần",
+      "title": "Lịch học trong ngày",
+      "objective": "Lịch học trong ngày; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-122",
+        "上课",
+        385,
+        "g-385-7",
+        "课 là tiết/buổi học hoặc môn học theo câu. 上课 nói vào học/học trên lớp, 下课 nói kết thúc tiết; không coi chúng là chỉ hướng lên/xuống một vật. 上学 là đi học. Một số tổ hợp động từ có thể tách trong mẫu khác, nhưng trước hết dùng cả cụm đúng nghĩa trong tình huống này."
+      ],
+      "task": [
+        "h1-task-study",
+        "介绍学习情况",
+        6,
+        "十二"
+      ],
+      "topic": [
+        "h1-topic-4da04dfef534",
+        "课程信息",
+        58,
+        "课程信息"
+      ],
+      "words": [
+        [
+          "课",
+          "kè",
+          "tiết học; buổi học; môn học",
+          "课 trong 汉语课 nói buổi/môn tiếng Trung, không phải trường học.",
+          "我喜欢汉语课。",
+          "Wǒ xǐ huan Hàn yǔ kè.",
+          "Tôi thích giờ tiếng Trung."
+        ],
+        [
+          "上课",
+          "shàng kè",
+          "vào học; học trên lớp",
+          "上课 chỉ hoạt động học/giờ học bắt đầu trong ngữ cảnh; không dịch từng chữ thành đi lên tiết.",
+          "我们上课。",
+          "Wǒ men shàng kè.",
+          "Chúng tôi vào học/học trên lớp."
+        ],
+        [
+          "下课",
+          "xià kè",
+          "tan học; kết thúc tiết học",
+          "下课 nói tiết học kết thúc; 了 trong ví dụ báo sự thay đổi đã xảy ra, được chú giải thêm.",
+          "下课了。",
+          "Xià kè le.",
+          "Hết tiết rồi."
+        ],
+        [
+          "上学",
+          "shàng xué",
+          "đi học",
+          "上学 nói đi học hoặc theo học, khác riêng một tiết 上课.",
+          "我弟弟上学。",
+          "Wǒ dì di shàng xué.",
+          "Em trai tôi đi học."
+        ]
+      ],
+      "passage": [
+        "A：你上什么课？\nB：我上汉语课。\nA：你喜欢汉语课吗？\nB：喜欢。\nA：好，下课了。",
+        "A: Nǐ shàng shén me kè? B: Wǒ shàng Hàn yǔ kè. A: Nǐ xǐ huan Hàn yǔ kè ma? B: Xǐ huan. A: Hǎo, xià kè le.",
+        "了 le trong câu cuối = rồi, báo giờ học kết thúc. Đoạn không nêu ngày hoặc giờ cụ thể."
+      ],
+      "comprehension": [
+        "B học môn gì theo đoạn?",
+        [
+          "汉语课",
+          "数学课",
+          "Không có lớp học"
+        ],
+        "汉语课",
+        "Theo đoạn: 汉语课. 了 le trong câu cuối = rồi, báo giờ học kết thúc. Đoạn không nêu ngày hoặc giờ cụ thể."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我们",
+          "上",
+          "汉语课。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "课",
+            "果",
+            "说",
+            "话"
+          ],
+          "accepted": [
+            "课"
+          ],
+          "feedback": "Chữ 课 tạo từ 课. 课 trong 汉语课 nói buổi/môn tiếng Trung, không phải trường học. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 上课 (vào học; học trên lớp).",
+          "choices": [],
+          "accepted": [
+            "shàng kè"
+          ],
+          "feedback": "上课 ghi shàng kè. 上课 chỉ hoạt động học/giờ học bắt đầu trong ngữ cảnh; không dịch từng chữ thành đi lên tiết."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “tan học; kết thúc tiết học”: □了。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "下课"
+          ],
+          "feedback": "下课: tan học; kết thúc tiết học. 下课 nói tiết học kết thúc; 了 trong ví dụ báo sự thay đổi đã xảy ra, được chú giải thêm. Hết tiết rồi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “đi học” trong câu: 我弟弟□。",
+          "choices": [
+            "课",
+            "上课",
+            "下课",
+            "上学"
+          ],
+          "accepted": [
+            "上学"
+          ],
+          "feedback": "上学: đi học. 上学 nói đi học hoặc theo học, khác riêng một tiết 上课. Em trai tôi đi học."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “下课了。”, 下课 mang nghĩa nào theo bài?",
+          "choices": [
+            "tiết học; buổi học; môn học",
+            "vào học; học trên lớp",
+            "tan học; kết thúc tiết học",
+            "đi học"
+          ],
+          "accepted": [
+            "tan học; kết thúc tiết học"
+          ],
+          "feedback": "下课 nói tiết học kết thúc; 了 trong ví dụ báo sự thay đổi đã xảy ra, được chú giải thêm. Hết tiết rồi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我弟弟上学。”, 上学 mang nghĩa nào theo bài?",
+          "choices": [
+            "tiết học; buổi học; môn học",
+            "vào học; học trên lớp",
+            "tan học; kết thúc tiết học",
+            "đi học"
+          ],
+          "accepted": [
+            "đi học"
+          ],
+          "feedback": "上学 nói đi học hoặc theo học, khác riêng một tiết 上课. Em trai tôi đi học."
+        }
+      ],
+      "characterTargets": [
+        "课"
+      ]
+    },
+    {
+      "id": "L123",
+      "unit": "hsk-one-f",
+      "unitTitle": "Học và nói điều mình cần",
+      "title": "Nghe và nói trong lớp",
+      "objective": "Nghe và nói trong lớp; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-123",
+        "说话",
+        385,
+        "g-385-7",
+        "说 thường đi với nội dung/ngôn ngữ, như 说汉语; 说话 nói hành động nói chuyện. 听 là nghe/lắng nghe, 听见 nhấn việc nghe được âm/thông tin trong câu. Một đoạn hội thoại có chữ 听 không biến bài đọc thành bài kiểm tra nghe; chưa có audio đã duyệt."
+      ],
+      "task": [
+        "h1-task-study",
+        "介绍学习情况",
+        6,
+        "十二"
+      ],
+      "topic": [
+        "h1-topic-59dbaf6bf45d",
+        "学习内容",
+        58,
+        "学习内容"
+      ],
+      "words": [
+        [
+          "说",
+          "shuō",
+          "nói",
+          "说 trong 说汉语 là nói tiếng Trung; không thay bằng 写 nếu đang nói bằng miệng.",
+          "我说汉语。",
+          "Wǒ shuō Hàn yǔ.",
+          "Tôi nói tiếng Trung."
+        ],
+        [
+          "说话",
+          "shuō huà",
+          "nói chuyện; nói",
+          "说话 gọi hoạt động nói; với lời nhắc trên lớp, cần chú ý lịch sự và ngữ cảnh.",
+          "请不要说话。",
+          "Qǐng bú yào shuō huà.",
+          "Xin đừng nói chuyện."
+        ],
+        [
+          "听",
+          "tīng",
+          "nghe; lắng nghe",
+          "听 chỉ việc nghe/lắng nghe; không tự chứng minh đã nghe rõ mọi nội dung.",
+          "我听老师说话。",
+          "Wǒ tīng lǎo shī shuō huà.",
+          "Tôi nghe giáo viên nói."
+        ],
+        [
+          "听见",
+          "tīng jiàn",
+          "nghe thấy; nghe được",
+          "听见 nhấn đã nghe thấy trong tình huống, khác chỉ làm hành động lắng nghe.",
+          "我听见了。",
+          "Wǒ tīng jiàn le.",
+          "Tôi nghe thấy rồi."
+        ]
+      ],
+      "passage": [
+        "A：你听见了吗？\nB：没听见，请再说。\nA：我叫安。\nB：我听见了，谢谢！",
+        "A: Nǐ tīng jiàn le ma? B: Méi tīng jiàn, qǐng zài shuō. A: Wǒ jiào Ān. B: Wǒ tīng jiàn le, xiè xie!",
+        "没 méi = không/chưa trong việc đã xảy ra; 再 zài = lại; 了 le = rồi trong câu này. Đọc lời nhân vật hư cấu, không chấm khả năng nghe thật."
+      ],
+      "comprehension": [
+        "Sau khi A nói lại tên, B xác nhận gì?",
+        [
+          "Nghe thấy rồi",
+          "Không muốn đọc sách",
+          "A không có tên"
+        ],
+        "Nghe thấy rồi",
+        "Theo đoạn: Nghe thấy rồi. 没 méi = không/chưa trong việc đã xảy ra; 再 zài = lại; 了 le = rồi trong câu này. Đọc lời nhân vật hư cấu, không chấm khả năng nghe thật."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "听见",
+          "了。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “nói” trong câu: 我□汉语。",
+          "choices": [
+            "说",
+            "说话",
+            "听",
+            "听见"
+          ],
+          "accepted": [
+            "说"
+          ],
+          "feedback": "说: nói. 说 trong 说汉语 là nói tiếng Trung; không thay bằng 写 nếu đang nói bằng miệng. Tôi nói tiếng Trung."
+        },
+        {
+          "concept": 1,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "话",
+            "语",
+            "说",
+            "活"
+          ],
+          "accepted": [
+            "话"
+          ],
+          "feedback": "Chữ 话 tạo từ 说话. 说话 gọi hoạt động nói; với lời nhắc trên lớp, cần chú ý lịch sự và ngữ cảnh. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “nghe; lắng nghe”: 我□老师说话。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "听"
+          ],
+          "feedback": "听: nghe; lắng nghe. 听 chỉ việc nghe/lắng nghe; không tự chứng minh đã nghe rõ mọi nội dung. Tôi nghe giáo viên nói."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “nghe thấy; nghe được” trong câu: 我□了。",
+          "choices": [
+            "说",
+            "说话",
+            "听",
+            "听见"
+          ],
+          "accepted": [
+            "听见"
+          ],
+          "feedback": "听见: nghe thấy; nghe được. 听见 nhấn đã nghe thấy trong tình huống, khác chỉ làm hành động lắng nghe. Tôi nghe thấy rồi."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我听老师说话。”, 听 mang nghĩa nào theo bài?",
+          "choices": [
+            "nói",
+            "nói chuyện; nói",
+            "nghe; lắng nghe",
+            "nghe thấy; nghe được"
+          ],
+          "accepted": [
+            "nghe; lắng nghe"
+          ],
+          "feedback": "听 chỉ việc nghe/lắng nghe; không tự chứng minh đã nghe rõ mọi nội dung. Tôi nghe giáo viên nói."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我听见了。”, 听见 mang nghĩa nào theo bài?",
+          "choices": [
+            "nói",
+            "nói chuyện; nói",
+            "nghe; lắng nghe",
+            "nghe thấy; nghe được"
+          ],
+          "accepted": [
+            "nghe thấy; nghe được"
+          ],
+          "feedback": "听见 nhấn đã nghe thấy trong tình huống, khác chỉ làm hành động lắng nghe. Tôi nghe thấy rồi."
+        }
+      ],
+      "characterTargets": [
+        "话"
+      ]
+    },
+    {
+      "id": "L124",
+      "unit": "hsk-one-f",
+      "unitTitle": "Học và nói điều mình cần",
+      "title": "Khả năng và sự cho phép",
+      "objective": "Khả năng và sự cho phép; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-124",
+        "会",
+        385,
+        "g-385-4",
+        "会 thường nói kỹ năng đã học, 能 nói khả năng/điều kiện làm được theo tình huống, 可以 có thể nói sự cho phép. Các nghĩa có chỗ giao nhau; không gán một quy tắc tuyệt đối cho mọi câu. 知道 là biết thông tin, khác 认识 một người đã học."
+      ],
+      "task": [
+        "h1-task-study",
+        "介绍学习情况",
+        6,
+        "十二"
+      ],
+      "topic": [
+        "h1-topic-59dbaf6bf45d",
+        "学习内容",
+        58,
+        "学习内容"
+      ],
+      "words": [
+        [
+          "会1",
+          "huì",
+          "biết; có khả năng đã học",
+          "会 trong 会写汉字 nói kỹ năng; không có nghĩa đã đạt mastery chỉ vì nhân vật nói vậy.",
+          "我会写汉字。",
+          "Wǒ huì xiě Hàn zì.",
+          "Tôi biết viết chữ Hán."
+        ],
+        [
+          "能",
+          "néng",
+          "có thể; có khả năng",
+          "能 trong câu nói khả năng nghe được ở tình huống hiện tại, không nhất thiết do đã học một kỹ năng.",
+          "我能听见你说话。",
+          "Wǒ néng tīng jiàn nǐ shuō huà.",
+          "Tôi có thể nghe bạn nói."
+        ],
+        [
+          "可以",
+          "kě yǐ",
+          "có thể; được phép",
+          "可以 ở câu hỏi xin phép đọc sách; không phải lời khẳng định có sách.",
+          "我可以读这本书吗？",
+          "Wǒ kě yǐ dú zhè běn shū ma?",
+          "Tôi có thể đọc quyển sách này không?"
+        ],
+        [
+          "知道",
+          "zhī dào",
+          "biết (thông tin)",
+          "知道 dùng với thông tin như tên; 认识 thường nói biết/quen một người.",
+          "我知道你的名字。",
+          "Wǒ zhī dào nǐ de míng zi.",
+          "Tôi biết tên bạn."
+        ]
+      ],
+      "passage": [
+        "A：你会说汉语吗？\nB：会。你呢？\nA：我会说，也会写汉字。\nB：我可以读你的书吗？\nA：可以。",
+        "A: Nǐ huì shuō Hàn yǔ ma? B: Huì. Nǐ ne? A: Wǒ huì shuō, yě huì xiě Hàn zì. B: Wǒ kě yǐ dú nǐ de shū ma? A: Kě yǐ.",
+        "B hỏi xin phép đọc sách của A và A đồng ý. Các phát biểu kỹ năng là nội dung hội thoại, không phải đánh giá người học."
+      ],
+      "comprehension": [
+        "B được A đồng ý làm gì?",
+        [
+          "读书",
+          "写名字",
+          "上学"
+        ],
+        "读书",
+        "Theo đoạn: 读书. B hỏi xin phép đọc sách của A và A đồng ý. Các phát biểu kỹ năng là nội dung hội thoại, không phải đánh giá người học."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "会写",
+          "汉字。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “biết; có khả năng đã học” trong câu: 我□写汉字。",
+          "choices": [
+            "会",
+            "能",
+            "可以",
+            "知道"
+          ],
+          "accepted": [
+            "会"
+          ],
+          "feedback": "会: biết; có khả năng đã học. 会 trong 会写汉字 nói kỹ năng; không có nghĩa đã đạt mastery chỉ vì nhân vật nói vậy. Tôi biết viết chữ Hán."
+        },
+        {
+          "concept": 1,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "能",
+            "熊",
+            "态",
+            "月"
+          ],
+          "accepted": [
+            "能"
+          ],
+          "feedback": "Chữ 能 tạo từ 能. 能 trong câu nói khả năng nghe được ở tình huống hiện tại, không nhất thiết do đã học một kỹ năng. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “có thể; được phép”: 我□读这本书吗？ Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "可以"
+          ],
+          "feedback": "可以: có thể; được phép. 可以 ở câu hỏi xin phép đọc sách; không phải lời khẳng định có sách. Tôi có thể đọc quyển sách này không?"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “biết (thông tin)” trong câu: 我□你的名字。",
+          "choices": [
+            "会",
+            "能",
+            "可以",
+            "知道"
+          ],
+          "accepted": [
+            "知道"
+          ],
+          "feedback": "知道: biết (thông tin). 知道 dùng với thông tin như tên; 认识 thường nói biết/quen một người. Tôi biết tên bạn."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我可以读这本书吗？”, 可以 mang nghĩa nào theo bài?",
+          "choices": [
+            "biết; có khả năng đã học",
+            "có thể; có khả năng",
+            "có thể; được phép",
+            "biết (thông tin)"
+          ],
+          "accepted": [
+            "có thể; được phép"
+          ],
+          "feedback": "可以 ở câu hỏi xin phép đọc sách; không phải lời khẳng định có sách. Tôi có thể đọc quyển sách này không?"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我知道你的名字。”, 知道 mang nghĩa nào theo bài?",
+          "choices": [
+            "biết; có khả năng đã học",
+            "có thể; có khả năng",
+            "có thể; được phép",
+            "biết (thông tin)"
+          ],
+          "accepted": [
+            "biết (thông tin)"
+          ],
+          "feedback": "知道 dùng với thông tin như tên; 认识 thường nói biết/quen một người. Tôi biết tên bạn."
+        }
+      ],
+      "characterTargets": [
+        "能"
+      ]
+    },
+    {
+      "id": "L125",
+      "unit": "hsk-one-f",
+      "unitTitle": "Học và nói điều mình cần",
+      "title": "Nhu cầu và điều không có",
+      "objective": "Nhu cầu và điều không có; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-125",
+        "想",
+        385,
+        "g-385-5",
+        "想 + hành động thường nói muốn làm; 要 trong tình huống chọn đồ uống nói muốn/lấy thứ đó. 不要 phủ định yêu cầu hoặc nhắc đừng làm, cần ngữ cảnh lịch sự. Phủ định có/sở hữu là 没有, không dùng 不有. Không biến lời mời thành chấm điểm sở thích cá nhân."
+      ],
+      "task": [
+        "h1-task-food",
+        "问答饮食喜好",
+        5,
+        "七"
+      ],
+      "topic": [
+        "h1-topic-4c38afd35784",
+        "意愿感受",
+        58,
+        "意愿感受"
+      ],
+      "words": [
+        [
+          "想",
+          "xiǎng",
+          "muốn; nghĩ (theo ngữ cảnh)",
+          "想 trong 想喝茶 là muốn uống trà; bài chưa khái quát mọi nghĩa nghĩ/nhớ của 想.",
+          "我想喝茶。",
+          "Wǒ xiǎng hē chá.",
+          "Tôi muốn uống trà."
+        ],
+        [
+          "要",
+          "yào",
+          "muốn; lấy; cần (theo ngữ cảnh)",
+          "要 trong lời chọn đồ uống là muốn lấy, không phải lúc nào cũng là dấu tương lai.",
+          "我要茶。",
+          "Wǒ yào chá.",
+          "Tôi muốn trà."
+        ],
+        [
+          "不要",
+          "bú yào",
+          "không muốn; đừng",
+          "不要 trong 请不要说话 là lời nhắc đừng nói; trong trả lời chọn đồ uống có thể là không muốn lấy.",
+          "请不要说话。",
+          "Qǐng bú yào shuō huà.",
+          "Xin đừng nói chuyện."
+        ],
+        [
+          "没有",
+          "méi yǒu",
+          "không có; chưa có",
+          "没有 là phủ định có/sở hữu ở ví dụ; không thay nó bằng 不有.",
+          "我没有茶。",
+          "Wǒ méi yǒu chá.",
+          "Tôi không có trà."
+        ]
+      ],
+      "passage": [
+        "A：你想喝茶吗？\nB：想。我没有茶。\nA：这是茶，你要吗？\nB：要，谢谢！",
+        "A: Nǐ xiǎng hē chá ma? B: Xiǎng. Wǒ méi yǒu chá. A: Zhè shì chá, nǐ yào ma? B: Yào, xiè xie!",
+        "B muốn uống trà nhưng chưa có; A giới thiệu trà và B đồng ý nhận. Không suy B luôn muốn uống trà ở mọi thời điểm."
+      ],
+      "comprehension": [
+        "B nói mình không có gì?",
+        [
+          "茶",
+          "书",
+          "汉字"
+        ],
+        "茶",
+        "Theo đoạn: 茶. B muốn uống trà nhưng chưa có; A giới thiệu trà và B đồng ý nhận. Không suy B luôn muốn uống trà ở mọi thời điểm."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "想喝",
+          "茶。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “muốn; nghĩ (theo ngữ cảnh)” trong câu: 我□喝茶。",
+          "choices": [
+            "想",
+            "要",
+            "不要",
+            "没有"
+          ],
+          "accepted": [
+            "想"
+          ],
+          "feedback": "想: muốn; nghĩ (theo ngữ cảnh). 想 trong 想喝茶 là muốn uống trà; bài chưa khái quát mọi nghĩa nghĩ/nhớ của 想. Tôi muốn uống trà."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 要 (muốn; lấy; cần (theo ngữ cảnh)).",
+          "choices": [],
+          "accepted": [
+            "yào"
+          ],
+          "feedback": "要 ghi yào. 要 trong lời chọn đồ uống là muốn lấy, không phải lúc nào cũng là dấu tương lai."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “không muốn; đừng”: 请□说话。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "不要"
+          ],
+          "feedback": "不要: không muốn; đừng. 不要 trong 请不要说话 là lời nhắc đừng nói; trong trả lời chọn đồ uống có thể là không muốn lấy. Xin đừng nói chuyện."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "没",
+            "设",
+            "池",
+            "河"
+          ],
+          "accepted": [
+            "没"
+          ],
+          "feedback": "Chữ 没 tạo từ 没有. 没有 là phủ định có/sở hữu ở ví dụ; không thay nó bằng 不有. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “请不要说话。”, 不要 mang nghĩa nào theo bài?",
+          "choices": [
+            "muốn; nghĩ (theo ngữ cảnh)",
+            "muốn; lấy; cần (theo ngữ cảnh)",
+            "không muốn; đừng",
+            "không có; chưa có"
+          ],
+          "accepted": [
+            "không muốn; đừng"
+          ],
+          "feedback": "不要 trong 请不要说话 là lời nhắc đừng nói; trong trả lời chọn đồ uống có thể là không muốn lấy. Xin đừng nói chuyện."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我没有茶。”, 没有 mang nghĩa nào theo bài?",
+          "choices": [
+            "muốn; nghĩ (theo ngữ cảnh)",
+            "muốn; lấy; cần (theo ngữ cảnh)",
+            "không muốn; đừng",
+            "không có; chưa có"
+          ],
+          "accepted": [
+            "không có; chưa có"
+          ],
+          "feedback": "没有 là phủ định có/sở hữu ở ví dụ; không thay nó bằng 不有. Tôi không có trà."
+        }
+      ],
+      "characterTargets": [
+        "没"
+      ]
+    }
+  ]
+}

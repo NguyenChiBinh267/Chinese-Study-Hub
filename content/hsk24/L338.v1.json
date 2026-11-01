@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "7cfc2c1433033a690af8ee0ea23acf9d6ec308260bfc162a822e61054f97197d",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-vehicles-driver",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L338",
+    "version": 1,
+    "versionId": "l338-draft-v1",
+    "title": "Đếm xe và nhận biết đèn tín hiệu",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân biệt người lái và phương tiện; đọc lời nhắc chờ đèn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "辆"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 14,
+      "physicalPage": 15,
+      "printedPage": 12,
+      "section": "task",
+      "entry": "五"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 14,
+          "physicalPage": 15,
+          "printedPage": 12,
+          "section": "task",
+          "entry": "五"
+        },
+        "written": "谈论交通出行",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-transport-rules",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "交通规则"
+        },
+        "written": "交通规则",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l338-v-762",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 762"
+        },
+        "written": "路边",
+        "pinyin": "lùbiān",
+        "senseId": "l338-v-762-sense",
+        "ordinal": 762,
+        "note": "3 lùbiān 名; 路边 chỉ phần bên cạnh đường; không tự đồng nghĩa nơi đỗ xe hợp lệ. 站在路边 nói vị trí, chưa là giấy phép đỗ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l338-v-670",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 670"
+        },
+        "written": "红绿灯",
+        "pinyin": "hóng-lǜdēng",
+        "senseId": "l338-v-670-sense",
+        "ordinal": 670,
+        "note": "3 hóng-lǜdēng 名; 红绿灯 là đèn giao thông; dấu gạch nối trong pinyin nguồn phân tách màu, không đổi thành mục từ khác. Phải đọc tín hiệu thực tế. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l338-v-754",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 754"
+        },
+        "written": "辆",
+        "pinyin": "liàng",
+        "senseId": "l338-v-754-sense",
+        "ordinal": 754,
+        "note": "3 liàng 量; 辆 là lượng từ, không phải tên một loại xe. 两辆车 là hai xe, 两个司机 là hai người lái. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l338-v-847",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 847"
+        },
+        "written": "司机",
+        "pinyin": "sījī",
+        "senseId": "l338-v-847-sense",
+        "ordinal": 847,
+        "note": "3 sījī 名; 司机 là tài xế, không phải hành khách. 一位司机 là một người lái, không đếm bằng 辆. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l338-v-803",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 803"
+        },
+        "written": "汽车",
+        "pinyin": "qìchē",
+        "senseId": "l338-v-803-sense",
+        "ordinal": 803,
+        "note": "3 qìchē 名; 汽车 chỉ ô tô/xe động cơ loại này trong bài; không dùng làm tên chung mọi xe như 自行车. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l338-v-991",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 991"
+        },
+        "written": "自行车",
+        "pinyin": "zìxíngchē",
+        "senseId": "l338-v-991-sense",
+        "ordinal": 991,
+        "note": "3 zìxíngchē 名; 自行车 là xe đạp; 骑自行车 là đạp xe, không dùng 开自行车 trong cách nói bài này. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-42",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "42"
+        },
+        "written": "灯",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 42,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-144",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "144"
+        },
+        "written": "辆",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 144,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-171",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "171"
+        },
+        "written": "汽",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 171,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-235",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "235"
+        },
+        "written": "行",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 235,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-vehicle-classifier",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "量词 / 专用名量词 / 辆"
+        },
+        "written": "辆",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l338-c0",
+      "version": 1,
+      "senseId": "l338-v-762-sense",
+      "hanzi": "路边",
+      "dictionaryPinyin": "lù biān",
+      "meaning": "ven đường",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l338-v-762"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l338-c1",
+      "version": 1,
+      "senseId": "l338-v-670-sense",
+      "hanzi": "红绿灯",
+      "dictionaryPinyin": "hóng lǜ dēng",
+      "meaning": "đèn tín hiệu giao thông",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l338-v-670"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l338-c2",
+      "version": 1,
+      "senseId": "l338-v-754-sense",
+      "hanzi": "辆",
+      "dictionaryPinyin": "liàng",
+      "meaning": "lượng từ xe",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l338-v-754"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l338-c3",
+      "version": 1,
+      "senseId": "l338-v-847-sense",
+      "hanzi": "司机",
+      "dictionaryPinyin": "sī jī",
+      "meaning": "người lái xe",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l338-v-847"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l338-c4",
+      "version": 1,
+      "senseId": "l338-v-803-sense",
+      "hanzi": "汽车",
+      "dictionaryPinyin": "qì chē",
+      "meaning": "ô tô/xe hơi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l338-v-803"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l338-c5",
+      "version": 1,
+      "senseId": "l338-v-991-sense",
+      "hanzi": "自行车",
+      "dictionaryPinyin": "zì xíng chē",
+      "meaning": "xe đạp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l338-v-991"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l338-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 绿灯 lǜ dēng: đèn xanh; 标志 biāozhì: biển/ký hiệu; 指定 zhǐdìng: chỉ định; 停 tíng: dừng/đỗ. Bài đọc không thay chỉ dẫn giao thông tại địa điểm.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l338-t0",
+      "type": "teaching",
+      "title": "路边 · ven đường",
+      "text": "路边 chỉ phần bên cạnh đường; không tự đồng nghĩa nơi đỗ xe hợp lệ. 站在路边 nói vị trí, chưa là giấy phép đỗ.",
+      "hanzi": "他在路边等车。",
+      "pinyin": "Tā zài lùbiān děng chē.",
+      "meaning": "Anh ấy chờ xe bên đường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l338-t1",
+      "type": "teaching",
+      "title": "红绿灯 · đèn tín hiệu giao thông",
+      "text": "红绿灯 là đèn giao thông; dấu gạch nối trong pinyin nguồn phân tách màu, không đổi thành mục từ khác. Phải đọc tín hiệu thực tế.",
+      "hanzi": "路口有红绿灯。",
+      "pinyin": "Lùkǒu yǒu hónglǜdēng.",
+      "meaning": "Giao lộ có đèn giao thông.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l338-t2",
+      "type": "teaching",
+      "title": "辆 · lượng từ xe",
+      "text": "辆 là lượng từ, không phải tên một loại xe. 两辆车 là hai xe, 两个司机 là hai người lái.",
+      "hanzi": "路边有两辆车。",
+      "pinyin": "Lùbiān yǒu liǎng liàng chē.",
+      "meaning": "Bên đường có hai xe.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l338-t3",
+      "type": "teaching",
+      "title": "司机 · người lái xe",
+      "text": "司机 là tài xế, không phải hành khách. 一位司机 là một người lái, không đếm bằng 辆.",
+      "hanzi": "司机说先等绿灯。",
+      "pinyin": "Sījī shuō xiān děng lǜ dēng.",
+      "meaning": "Tài xế nói hãy chờ đèn xanh trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l338-t4",
+      "type": "teaching",
+      "title": "汽车 · ô tô/xe hơi",
+      "text": "汽车 chỉ ô tô/xe động cơ loại này trong bài; không dùng làm tên chung mọi xe như 自行车.",
+      "hanzi": "这辆汽车是白色的。",
+      "pinyin": "Zhè liàng qìchē shì báisè de.",
+      "meaning": "Chiếc ô tô này màu trắng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l338-t5",
+      "type": "teaching",
+      "title": "自行车 · xe đạp",
+      "text": "自行车 là xe đạp; 骑自行车 là đạp xe, không dùng 开自行车 trong cách nói bài này.",
+      "hanzi": "她骑自行车去学校。",
+      "pinyin": "Tā qí zìxíngchē qù xuéxiào.",
+      "meaning": "Cô ấy đạp xe đến trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l338-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "辆 đếm xe có bánh như 一辆汽车、一辆自行车. 司机 là người lái, đếm bằng 位/名/个; không dùng 一辆司机.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l338-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "路边有一辆汽车和两辆自行车。司机看着红绿灯，说：先等绿灯，再按这里的标志走。小林把自行车停在指定的地方，没有因为路边空着就随便停。",
+      "pinyin": "Lùbiān yǒu yí liàng qìchē hé liǎng liàng zìxíngchē. Sījī kàn zhe hónglǜdēng, shuō: Xiān děng lǜ dēng, zài àn zhèlǐ de biāozhì zǒu. Xiǎo Lín bǎ zìxíngchē tíng zài zhǐdìng de dìfang, méiyǒu yīnwèi lùbiān kòng zhe jiù suíbiàn tíng.",
+      "meaning": "Bên đường có một ô tô và hai xe đạp. Tài xế nhắc chờ đèn và theo biển tại chỗ. Lâm để xe đúng nơi quy định, không tùy tiện đỗ vì thấy trống.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l338-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l338-v1-e0"
+    },
+    {
+      "id": "l338-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l338-v1-e1"
+    },
+    {
+      "id": "l338-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l338-v1-e2"
+    },
+    {
+      "id": "l338-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l338-v1-e3"
+    },
+    {
+      "id": "l338-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l338-v1-e4"
+    },
+    {
+      "id": "l338-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l338-v1-e5"
+    },
+    {
+      "id": "l338-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l338-v1-e6"
+    },
+    {
+      "id": "l338-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l338-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l338-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l338-c0",
+      "senseId": "l338-v-762-sense",
+      "keyRef": "l338-v1-k0",
+      "prompt": "Vị trí cạnh đường: 在□等车。",
+      "choices": [
+        "红绿灯",
+        "辆",
+        "司机",
+        "汽车",
+        "自行车",
+        "路边"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l338-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l338-c1",
+      "senseId": "l338-v-670-sense",
+      "keyRef": "l338-v1-k1",
+      "prompt": "Đèn tín hiệu ở giao lộ: 路口的□。",
+      "choices": [
+        "辆",
+        "司机",
+        "汽车",
+        "自行车",
+        "路边",
+        "红绿灯"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l338-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l338-c2",
+      "senseId": "l338-v-754-sense",
+      "keyRef": "l338-v1-k2",
+      "prompt": "Điền lượng từ cho xe: 两□车。",
+      "choices": [
+        "司机",
+        "汽车",
+        "自行车",
+        "路边",
+        "红绿灯",
+        "辆"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l338-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l338-c3",
+      "senseId": "l338-v-847-sense",
+      "keyRef": "l338-v1-k3",
+      "prompt": "Viết pinyin của 司机 trong câu “司机说先等绿灯。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l338-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l338-c4",
+      "senseId": "l338-v-803-sense",
+      "keyRef": "l338-v1-k4",
+      "prompt": "Đúng tên ô tô, khác xe đạp: 一辆白色□。",
+      "choices": [
+        "自行车",
+        "路边",
+        "红绿灯",
+        "辆",
+        "司机",
+        "汽车"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l338-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l338-c5",
+      "senseId": "l338-v-991-sense",
+      "keyRef": "l338-v1-k5",
+      "prompt": "Phương tiện đạp bằng chân theo ngữ cảnh: 骑□去学校。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l338-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l338-c0",
+      "senseId": "l338-v-762-sense",
+      "keyRef": "l338-v1-k6",
+      "prompt": "Có mấy xe đạp?",
+      "choices": [
+        "一辆",
+        "三辆",
+        "两辆"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l338-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l338-c3",
+      "senseId": "l338-v-847-sense",
+      "keyRef": "l338-v1-k7",
+      "prompt": "Xếp cụm đếm xe; bắt đầu bằng 路边有.",
+      "choices": [
+        "两辆自行车",
+        "路边有"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l338-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l338-v1-e0",
+      "senseId": "l338-v-762-sense",
+      "accepted": [
+        "路边"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "路边: ven đường. 路边 chỉ phần bên cạnh đường; không tự đồng nghĩa nơi đỗ xe hợp lệ. 站在路边 nói vị trí, chưa là giấy phép đỗ. Anh ấy chờ xe bên đường."
+    },
+    {
+      "id": "l338-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l338-v1-e1",
+      "senseId": "l338-v-670-sense",
+      "accepted": [
+        "红绿灯"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "红绿灯: đèn tín hiệu giao thông. 红绿灯 là đèn giao thông; dấu gạch nối trong pinyin nguồn phân tách màu, không đổi thành mục từ khác. Phải đọc tín hiệu thực tế. Giao lộ có đèn giao thông."
+    },
+    {
+      "id": "l338-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l338-v1-e2",
+      "senseId": "l338-v-754-sense",
+      "accepted": [
+        "辆"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "辆: lượng từ xe. 辆 là lượng từ, không phải tên một loại xe. 两辆车 là hai xe, 两个司机 là hai người lái. Bên đường có hai xe."
+    },
+    {
+      "id": "l338-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l338-v1-e3",
+      "senseId": "l338-v-847-sense",
+      "accepted": [
+        "sī jī"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "司机: người lái xe. 司机 là tài xế, không phải hành khách. 一位司机 là một người lái, không đếm bằng 辆. Tài xế nói hãy chờ đèn xanh trước."
+    },
+    {
+      "id": "l338-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l338-v1-e4",
+      "senseId": "l338-v-803-sense",
+      "accepted": [
+        "汽车"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "汽车: ô tô/xe hơi. 汽车 chỉ ô tô/xe động cơ loại này trong bài; không dùng làm tên chung mọi xe như 自行车. Chiếc ô tô này màu trắng."
+    },
+    {
+      "id": "l338-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l338-v1-e5",
+      "senseId": "l338-v-991-sense",
+      "accepted": [
+        "自行车"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "自行车: xe đạp. 自行车 là xe đạp; 骑自行车 là đạp xe, không dùng 开自行车 trong cách nói bài này. Cô ấy đạp xe đến trường."
+    },
+    {
+      "id": "l338-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l338-v1-e6",
+      "senseId": "l338-v-762-sense",
+      "accepted": [
+        "两辆"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 辆 đếm xe có bánh như 一辆汽车、一辆自行车. 司机 là người lái, đếm bằng 位/名/个; không dùng 一辆司机."
+    },
+    {
+      "id": "l338-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l338-v1-e7",
+      "senseId": "l338-v-847-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 辆 đếm xe có bánh như 一辆汽车、一辆自行车. 司机 là người lái, đếm bằng 位/名/个; không dùng 一辆司机."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

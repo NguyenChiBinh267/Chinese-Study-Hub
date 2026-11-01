@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "012246fee275e2057bfb56d8ac5f83c1da2137f34fd22e01d2f41d8b25a791cd",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "online-leisure",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L272",
+    "version": 1,
+    "versionId": "l272-draft-v1",
+    "title": "Ôn tập · Trải nghiệm hoạt động trên mạng",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học bằng dạng truy hồi khác; không tính thêm từ mới.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l232-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 10,
+      "physicalPage": 11,
+      "printedPage": 8,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-leisure",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "交流休闲活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-leisure-plan",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 休闲 / 休闲安排"
+        },
+        "written": "休闲安排",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l232-v-327",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 327"
+        },
+        "written": "打1",
+        "pinyin": "dǎ",
+        "senseId": "l232-v-327-sense",
+        "ordinal": 327,
+        "note": "2 dǎ 动; 打1 trong 打篮球 là động từ chơi bóng rổ. Không tự dùng 打 với mọi môn, ví dụ bóng đá dùng 踢. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l232-v-329",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 329"
+        },
+        "written": "打开",
+        "pinyin": "dǎkāi",
+        "senseId": "l232-v-329-sense",
+        "ordinal": 329,
+        "note": "2 dǎkāi 动; 打开 trong 打开电脑 là bật/mở máy tính; trong 打开门 là mở cửa. Nghĩa phụ thuộc đối tượng chứ không phải luôn đánh cho mở. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l232-v-428",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 428"
+        },
+        "written": "上网",
+        "pinyin": "shàngwǎng",
+        "senseId": "l232-v-428-sense",
+        "ordinal": 428,
+        "note": "2 shàngwǎng 动; 上网 là sử dụng/kết nối mạng; không tự chứng minh đang học hoặc đang chơi trò gì. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l232-v-451",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 451"
+        },
+        "written": "网上",
+        "pinyin": "wǎngshang",
+        "senseId": "l232-v-451-sense",
+        "ordinal": 451,
+        "note": "2 wǎngshang 名; 网上 dùng như nơi thông tin/hành động online; 上 trong từ này đọc nhẹ theo nguồn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l232-v-351",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 351"
+        },
+        "written": "过",
+        "pinyin": "guo",
+        "senseId": "l232-v-351-sense",
+        "ordinal": 351,
+        "note": "2 guo 助; 过 đọc nhẹ trong 看过/玩过, tách khỏi động từ 过 guò mục347. Không tự chỉ thời điểm cụ thể hoặc hành động đang diễn ra. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l232-v-398",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 398"
+        },
+        "written": "没意思",
+        "pinyin": "méi yìsi",
+        "senseId": "l232-v-398-sense",
+        "ordinal": 398,
+        "note": "2 méi yìsi; 没意思 ở đây là nhận xét không thú vị của người nói. Không dùng để kết luận ai cũng thấy chán hoặc bản thân người nói không có ý định. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l232-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "电脑",
+        "pinyin": "diàn nǎo",
+        "senseId": "l232-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: máy tính; cấp chưa xác minh, không tính vào mục từ mục tiêu."
+      },
+      {
+        "id": "l232-extra1",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "游戏",
+        "pinyin": "yóu xì",
+        "senseId": "l232-extra1-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: trò chơi; cấp chưa xác minh, chỉ giúp hiểu nhận xét."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-90",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "90"
+        },
+        "written": "网",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 90,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-25",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "25"
+        },
+        "written": "过",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 25,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-106",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "106"
+        },
+        "written": "意",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 106,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-77",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "77"
+        },
+        "written": "思",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 77,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-experience",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "动作的态 / 经历态"
+        },
+        "written": "用动态助词“过”表示",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l232-c0",
+      "version": 1,
+      "senseId": "l232-v-327-sense",
+      "hanzi": "打",
+      "dictionaryPinyin": "dǎ",
+      "meaning": "chơi một số môn hoặc thao tác trong tổ hợp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l232-v-327"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l232-c1",
+      "version": 1,
+      "senseId": "l232-v-329-sense",
+      "hanzi": "打开",
+      "dictionaryPinyin": "dǎ kāi",
+      "meaning": "mở ra, bật mở để sử dụng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l232-v-329"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l232-c2",
+      "version": 1,
+      "senseId": "l232-v-428-sense",
+      "hanzi": "上网",
+      "dictionaryPinyin": "shàng wǎng",
+      "meaning": "lên mạng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l232-v-428"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l232-c3",
+      "version": 1,
+      "senseId": "l232-v-451-sense",
+      "hanzi": "网上",
+      "dictionaryPinyin": "wǎng shang",
+      "meaning": "trên mạng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l232-v-451"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l232-c4",
+      "version": 1,
+      "senseId": "l232-v-351-sense",
+      "hanzi": "过",
+      "dictionaryPinyin": "guo",
+      "meaning": "trợ từ chỉ đã từng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l232-v-351"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l232-c5",
+      "version": 1,
+      "senseId": "l232-v-398-sense",
+      "hanzi": "没意思",
+      "dictionaryPinyin": "méi yì si",
+      "meaning": "không thú vị, chán",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l232-v-398"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l272-guide",
+      "type": "teaching",
+      "title": "Ôn tập sau bài",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l272-t0-l232-prereq",
+      "type": "teaching",
+      "title": "Nhắc lại · Kiến thức cần nhắc lại",
+      "text": "电脑 là máy tính (SUPPLEMENTARY: chưa kiểm chứng cấp trong bài); 不要 là đừng. 过 đọc nhẹ khi chỉ kinh nghiệm, khác guò là động từ đi qua/đón một dịp.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l272-t0-l232-t0",
+      "type": "teaching",
+      "title": "Nhắc lại · 打 · chơi một số môn hoặc thao tác trong tổ hợp",
+      "text": "打1 trong 打篮球 là động từ chơi bóng rổ. Không tự dùng 打 với mọi môn, ví dụ bóng đá dùng 踢.",
+      "hanzi": "我打过篮球。",
+      "pinyin": "Wǒ dǎ guo lánqiú.",
+      "meaning": "Tôi từng chơi bóng rổ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l272-t0-l232-t1",
+      "type": "teaching",
+      "title": "Nhắc lại · 打开 · mở ra, bật mở để sử dụng",
+      "text": "打开 trong 打开电脑 là bật/mở máy tính; trong 打开门 là mở cửa. Nghĩa phụ thuộc đối tượng chứ không phải luôn đánh cho mở.",
+      "hanzi": "请打开电脑。",
+      "pinyin": "Qǐng dǎkāi diànnǎo.",
+      "meaning": "Hãy bật máy tính.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l272-t0-l232-t2",
+      "type": "teaching",
+      "title": "Nhắc lại · 上网 · lên mạng",
+      "text": "上网 là sử dụng/kết nối mạng; không tự chứng minh đang học hoặc đang chơi trò gì.",
+      "hanzi": "他晚上喜欢上网。",
+      "pinyin": "Tā wǎnshang xǐhuan shàngwǎng.",
+      "meaning": "Buổi tối anh ấy thích lên mạng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l272-t0-l232-t3",
+      "type": "teaching",
+      "title": "Nhắc lại · 网上 · trên mạng",
+      "text": "网上 dùng như nơi thông tin/hành động online; 上 trong từ này đọc nhẹ theo nguồn.",
+      "hanzi": "我在网上看书。",
+      "pinyin": "Wǒ zài wǎngshang kàn shū.",
+      "meaning": "Tôi đọc sách trên mạng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l272-t0-l232-t4",
+      "type": "teaching",
+      "title": "Nhắc lại · 过 · trợ từ chỉ đã từng",
+      "text": "过 đọc nhẹ trong 看过/玩过, tách khỏi động từ 过 guò mục347. Không tự chỉ thời điểm cụ thể hoặc hành động đang diễn ra.",
+      "hanzi": "这本书我看过。",
+      "pinyin": "Zhè běn shū wǒ kàn guo.",
+      "meaning": "Quyển sách này tôi đã từng đọc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l272-t0-l232-t5",
+      "type": "teaching",
+      "title": "Nhắc lại · 没意思 · không thú vị, chán",
+      "text": "没意思 ở đây là nhận xét không thú vị của người nói. Không dùng để kết luận ai cũng thấy chán hoặc bản thân người nói không có ý định.",
+      "hanzi": "我觉得这个游戏没意思。",
+      "pinyin": "Wǒ juéde zhège yóuxì méi yìsi.",
+      "meaning": "Tôi thấy trò chơi này không thú vị.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l272-t0-l232-grammar",
+      "type": "teaching",
+      "title": "Nhắc lại · Cách nói trong ngữ cảnh",
+      "text": "Động từ + 过 nói đã từng có kinh nghiệm, như 看过. Chưa nói việc đang diễn ra. 吗 tạo câu hỏi; 没玩过 là chưa từng chơi.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l272-t0-l232-reading",
+      "type": "teaching",
+      "title": "Nhắc lại · Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：你玩过这个游戏吗？乙：玩过，我觉得没意思。甲：那我们上网看书吧。乙：好，请打开电脑。我在网上看过很多书。",
+      "pinyin": "Jiǎ: Nǐ wán guo zhège yóuxì ma? Yǐ: Wán guo, wǒ juéde méi yìsi. Jiǎ: Nà wǒmen shàngwǎng kàn shū ba. Yǐ: Hǎo, qǐng dǎkāi diànnǎo. Wǒ zài wǎngshang kàn guo hěn duō shū.",
+      "meaning": "A: Bạn từng chơi trò này chưa? B: Chơi rồi, tôi thấy không thú vị. A: Vậy cùng lên mạng đọc sách nhé. B: Được, hãy bật máy tính. Tôi từng đọc nhiều sách trên mạng.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l272-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l272-e0"
+    },
+    {
+      "id": "l272-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l272-e1"
+    },
+    {
+      "id": "l272-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l272-e2"
+    },
+    {
+      "id": "l272-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l272-e3"
+    },
+    {
+      "id": "l272-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l272-e4"
+    },
+    {
+      "id": "l272-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l272-e5"
+    },
+    {
+      "id": "l272-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l272-e6"
+    },
+    {
+      "id": "l272-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l272-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l272-e0",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l232-c0",
+      "senseId": "l232-v-327-sense",
+      "keyRef": "l272-k0",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “chơi một số môn hoặc thao tác trong tổ hợp” (dǎ).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l272-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l232-c1",
+      "senseId": "l232-v-329-sense",
+      "keyRef": "l272-k1",
+      "prompt": "Ôn nghĩa: 打开 (dǎ kāi) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "lên mạng",
+        "trên mạng",
+        "trợ từ chỉ đã từng",
+        "không thú vị, chán",
+        "chơi một số môn hoặc thao tác trong tổ hợp",
+        "mở ra, bật mở để sử dụng"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l272-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l232-c2",
+      "senseId": "l232-v-428-sense",
+      "keyRef": "l272-k2",
+      "prompt": "Ôn cách đọc của 上网 trong nghĩa “lên mạng”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l272-e3",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l232-c3",
+      "senseId": "l232-v-451-sense",
+      "keyRef": "l272-k3",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “trên mạng” (wǎng shang).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l272-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l232-c4",
+      "senseId": "l232-v-351-sense",
+      "keyRef": "l272-k4",
+      "prompt": "Ôn nghĩa: 过 (guo) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "không thú vị, chán",
+        "chơi một số môn hoặc thao tác trong tổ hợp",
+        "mở ra, bật mở để sử dụng",
+        "lên mạng",
+        "trên mạng",
+        "trợ từ chỉ đã từng"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l272-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l232-c5",
+      "senseId": "l232-v-398-sense",
+      "keyRef": "l272-k5",
+      "prompt": "Ôn cách đọc của 没意思 trong nghĩa “không thú vị, chán”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l272-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l232-c2",
+      "senseId": "l232-v-428-sense",
+      "keyRef": "l272-k6",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “lên mạng” (shàng wǎng) viết 上□. Điền chữ nào vào □?",
+      "choices": [
+        "姓",
+        "网",
+        "洗",
+        "笑"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l272-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l232-c0",
+      "senseId": "l232-v-327-sense",
+      "keyRef": "l272-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Người B đã từng chơi trò được hỏi chưa?",
+      "choices": [
+        "Rồi",
+        "Chưa bao giờ",
+        "Không có thông tin"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l272-k0",
+      "version": 1,
+      "exerciseVersionId": "l272-e0",
+      "senseId": "l232-v-327-sense",
+      "accepted": [
+        "打"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "打 · chơi một số môn hoặc thao tác trong tổ hợp."
+    },
+    {
+      "id": "l272-k1",
+      "version": 1,
+      "exerciseVersionId": "l272-e1",
+      "senseId": "l232-v-329-sense",
+      "accepted": [
+        "mở ra, bật mở để sử dụng"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "打开: mở ra, bật mở để sử dụng."
+    },
+    {
+      "id": "l272-k2",
+      "version": 1,
+      "exerciseVersionId": "l272-e2",
+      "senseId": "l232-v-428-sense",
+      "accepted": [
+        "shàng wǎng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "shàng wǎng · lên mạng"
+    },
+    {
+      "id": "l272-k3",
+      "version": 1,
+      "exerciseVersionId": "l272-e3",
+      "senseId": "l232-v-451-sense",
+      "accepted": [
+        "网上"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "网上 · trên mạng."
+    },
+    {
+      "id": "l272-k4",
+      "version": 1,
+      "exerciseVersionId": "l272-e4",
+      "senseId": "l232-v-351-sense",
+      "accepted": [
+        "trợ từ chỉ đã từng"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "过: trợ từ chỉ đã từng."
+    },
+    {
+      "id": "l272-k5",
+      "version": 1,
+      "exerciseVersionId": "l272-e5",
+      "senseId": "l232-v-398-sense",
+      "accepted": [
+        "méi yì si"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "méi yì si · không thú vị, chán"
+    },
+    {
+      "id": "l272-k6",
+      "version": 1,
+      "exerciseVersionId": "l272-e6",
+      "senseId": "l232-v-428-sense",
+      "accepted": [
+        "网"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "上网 · shàng wǎng · lên mạng. Chữ cần nhận diện là 网."
+    },
+    {
+      "id": "l272-k7",
+      "version": 1,
+      "exerciseVersionId": "l272-e7",
+      "senseId": "l232-v-327-sense",
+      "accepted": [
+        "Rồi"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "玩过 là đã từng chơi. Đánh giá 没意思 không có nghĩa chưa từng thử."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

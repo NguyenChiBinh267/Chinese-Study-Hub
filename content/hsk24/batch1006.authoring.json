@@ -1,0 +1,912 @@
+{
+  "batch": "HSK1-batch6",
+  "targetLevel": 1,
+  "sourceCheckedAt": "2026-10-30T14:20:10.489154Z",
+  "lessons": [
+    {
+      "id": "L126",
+      "unit": "hsk-one-g",
+      "unitTitle": "Hỏi và chỉ nơi chốn",
+      "title": "Hỏi nơi chốn và lựa chọn",
+      "objective": "Hỏi nơi chốn và lựa chọn; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-126",
+        "特指问句",
+        386,
+        "g-386-21",
+        "哪里/哪儿 đều hỏi ở đâu; 哪儿 có hóa r, không đọc thành hai âm nǎ ér. 哪个 hỏi một đối tượng nào, khác hỏi nơi chốn. 问 là hỏi: 我问你 nói tôi hỏi bạn. Câu hỏi giữ từ hỏi ở vị trí thông tin cần biết, như 你住在哪儿？住 được chú giải là ở/cư trú và sẽ học riêng."
+      ],
+      "task": [
+        "h1-task-place",
+        "问答环境信息",
+        5,
+        "五"
+      ],
+      "topic": [
+        "h1-topic-989989b84c4a",
+        "问路",
+        58,
+        "问路"
+      ],
+      "words": [
+        [
+          "哪里",
+          "nǎ lǐ",
+          "ở đâu (dạng có âm tiết lǐ)",
+          "哪里 hỏi nơi chốn; khi đề chỉ rõ dạng có lǐ, không nhập dạng hóa r 哪儿.",
+          "我的书在哪里？",
+          "Wǒ de shū zài nǎ lǐ?",
+          "Sách của tôi ở đâu?"
+        ],
+        [
+          "哪儿",
+          "nǎr",
+          "ở đâu (dạng hóa r)",
+          "哪儿 cùng chức năng hỏi nơi với 哪里, nhưng khác dạng chữ/âm được hỏi trong bài.",
+          "你住在哪儿？",
+          "Nǐ zhù zài nǎr?",
+          "Bạn sống ở đâu?"
+        ],
+        [
+          "哪个",
+          "nǎ ge",
+          "cái nào; người nào (một đối tượng)",
+          "哪个 chọn một đối tượng trong nhóm; không dùng nó thay mọi câu hỏi địa điểm.",
+          "你喜欢哪个？",
+          "Nǐ xǐ huan nǎ ge?",
+          "Bạn thích cái nào?"
+        ],
+        [
+          "问",
+          "wèn",
+          "hỏi",
+          "问 là hành động hỏi; lời sau dấu hai chấm ở ví dụ là nội dung câu hỏi.",
+          "我问你：这是谁的书？",
+          "Wǒ wèn nǐ: zhè shì shéi de shū?",
+          "Tôi hỏi bạn: đây là sách của ai?"
+        ]
+      ],
+      "passage": [
+        "A：我问你：你喜欢哪个？\nB：我喜欢这个。\nA：你的书在哪里？\nB：在学校。",
+        "A: Wǒ wèn nǐ: nǐ xǐ huan nǎ ge? B: Wǒ xǐ huan zhè ge. A: Nǐ de shū zài nǎ lǐ? B: Zài xué xiào.",
+        "住 zhù = sống/ở trong ví dụ; 在 zài = ở. B chọn cái này, rồi nói sách ở trường. Không suy vị trí sách từ một ảnh không được cung cấp."
+      ],
+      "comprehension": [
+        "Sách của B ở đâu theo lời B?",
+        [
+          "学校",
+          "家",
+          "桌子下"
+        ],
+        "学校",
+        "Theo đoạn: 学校. 住 zhù = sống/ở trong ví dụ; 在 zài = ở. B chọn cái này, rồi nói sách ở trường. Không suy vị trí sách từ một ảnh không được cung cấp."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "你的书",
+          "在",
+          "哪里？"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "哪",
+            "那",
+            "啊",
+            "呢"
+          ],
+          "accepted": [
+            "哪"
+          ],
+          "feedback": "Chữ 哪 tạo từ 哪里. 哪里 hỏi nơi chốn; khi đề chỉ rõ dạng có lǐ, không nhập dạng hóa r 哪儿. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 哪儿 (ở đâu (dạng hóa r)).",
+          "choices": [],
+          "accepted": [
+            "nǎr"
+          ],
+          "feedback": "哪儿 ghi nǎr. 哪儿 cùng chức năng hỏi nơi với 哪里, nhưng khác dạng chữ/âm được hỏi trong bài."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “cái nào; người nào (một đối tượng)”: 你喜欢□？ Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "哪个"
+          ],
+          "feedback": "哪个: cái nào; người nào (một đối tượng). 哪个 chọn một đối tượng trong nhóm; không dùng nó thay mọi câu hỏi địa điểm. Bạn thích cái nào?"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “hỏi” trong câu: 我□你：这是谁的书？",
+          "choices": [
+            "哪里",
+            "哪儿",
+            "哪个",
+            "问"
+          ],
+          "accepted": [
+            "问"
+          ],
+          "feedback": "问: hỏi. 问 là hành động hỏi; lời sau dấu hai chấm ở ví dụ là nội dung câu hỏi. Tôi hỏi bạn: đây là sách của ai?"
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “你喜欢哪个？”, 哪个 mang nghĩa nào theo bài?",
+          "choices": [
+            "ở đâu (dạng có âm tiết lǐ)",
+            "ở đâu (dạng hóa r)",
+            "cái nào; người nào (một đối tượng)",
+            "hỏi"
+          ],
+          "accepted": [
+            "cái nào; người nào (một đối tượng)"
+          ],
+          "feedback": "哪个 chọn một đối tượng trong nhóm; không dùng nó thay mọi câu hỏi địa điểm. Bạn thích cái nào?"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我问你：这是谁的书？”, 问 mang nghĩa nào theo bài?",
+          "choices": [
+            "ở đâu (dạng có âm tiết lǐ)",
+            "ở đâu (dạng hóa r)",
+            "cái nào; người nào (một đối tượng)",
+            "hỏi"
+          ],
+          "accepted": [
+            "hỏi"
+          ],
+          "feedback": "问 là hành động hỏi; lời sau dấu hai chấm ở ví dụ là nội dung câu hỏi. Tôi hỏi bạn: đây là sách của ai?"
+        }
+      ],
+      "characterTargets": [
+        "哪"
+      ]
+    },
+    {
+      "id": "L127",
+      "unit": "hsk-one-g",
+      "unitTitle": "Hỏi và chỉ nơi chốn",
+      "title": "Đây và đó là nơi nào",
+      "objective": "Đây và đó là nơi nào; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-127",
+        "所处+是+名词",
+        386,
+        "g-386-27",
+        "这里/这儿 chỉ chỗ này, 那里/那儿 chỉ chỗ kia theo ngữ cảnh; các dạng hóa r không cần thêm âm tiết ér riêng. Mẫu chỗ + 是 + danh từ xác định địa điểm: 这里是学校. Đây khác câu ai ở đâu như 我在这里. Khi đề yêu cầu một dạng cụ thể, giữ đúng dạng chữ/âm đã chỉ rõ. Dòng nguồn ghi nhãn 所处+是+名词; bài dùng nghĩa nơi chốn trong câu minh họa."
+      ],
+      "task": [
+        "h1-task-place",
+        "问答环境信息",
+        5,
+        "五"
+      ],
+      "topic": [
+        "h1-topic-44be8a5029aa",
+        "环境特点",
+        58,
+        "环境特点"
+      ],
+      "words": [
+        [
+          "这里",
+          "zhè lǐ",
+          "ở đây; chỗ này (dạng có âm tiết lǐ)",
+          "这里 nêu nơi gần điểm đang được chỉ, không phải đại từ chỉ một đồ vật như 这个.",
+          "这里是我们的学校。",
+          "Zhè lǐ shì wǒ men de xué xiào.",
+          "Đây là trường của chúng tôi."
+        ],
+        [
+          "这儿",
+          "zhèr",
+          "ở đây; chỗ này (dạng hóa r)",
+          "这儿 là dạng hóa r chỉ nơi này; trong câu này có thể dùng 这里 nhưng đề hình thức phân biệt hai mục.",
+          "我在这儿。",
+          "Wǒ zài zhèr.",
+          "Tôi ở đây."
+        ],
+        [
+          "那里",
+          "nà lǐ",
+          "ở đó; chỗ kia (dạng có âm tiết lǐ)",
+          "那里 chỉ nơi kia trong tình huống, không tự mang nghĩa nhà của người nghe.",
+          "那里是小学。",
+          "Nà lǐ shì xiǎo xué.",
+          "Kia là trường tiểu học."
+        ],
+        [
+          "那儿",
+          "nàr",
+          "ở đó; chỗ kia (dạng hóa r)",
+          "那儿 là dạng hóa r chỉ nơi kia; không tách chữ 儿 thành âm ér khi đọc từ này.",
+          "他在那儿。",
+          "Tā zài nàr.",
+          "Anh ấy ở kia."
+        ]
+      ],
+      "passage": [
+        "A：这里是你的学校吗？\nB：不是，这里是小学。我的学校在那里。\nA：你姐姐在那儿吗？\nB：在，她是那里的老师。",
+        "A: Zhè lǐ shì nǐ de xué xiào ma? B: Bú shì, zhè lǐ shì xiǎo xué. Wǒ de xué xiào zài nà lǐ. A: Nǐ jiě jie zài nàr ma? B: Zài, tā shì nà lǐ de lǎo shī.",
+        "B phân biệt địa điểm này với trường của mình ở kia. Chị gái B là giáo viên ở địa điểm kia; không gán cấp học cho trường ấy nếu chưa nêu."
+      ],
+      "comprehension": [
+        "B nói trường của mình ở chỗ nào?",
+        [
+          "那里",
+          "这里",
+          "Không có trường"
+        ],
+        "那里",
+        "Theo đoạn: 那里. B phân biệt địa điểm này với trường của mình ở kia. Chị gái B là giáo viên ở địa điểm kia; không gán cấp học cho trường ấy nếu chưa nêu."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "这里",
+          "是",
+          "小学。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "里",
+            "田",
+            "甲",
+            "申"
+          ],
+          "accepted": [
+            "里"
+          ],
+          "feedback": "Chữ 里 tạo từ 这里. 这里 nêu nơi gần điểm đang được chỉ, không phải đại từ chỉ một đồ vật như 这个. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 这儿 (ở đây; chỗ này (dạng hóa r)).",
+          "choices": [],
+          "accepted": [
+            "zhèr"
+          ],
+          "feedback": "这儿 ghi zhèr. 这儿 là dạng hóa r chỉ nơi này; trong câu này có thể dùng 这里 nhưng đề hình thức phân biệt hai mục."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “ở đó; chỗ kia (dạng có âm tiết lǐ)”: □是小学。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "那里"
+          ],
+          "feedback": "那里: ở đó; chỗ kia (dạng có âm tiết lǐ). 那里 chỉ nơi kia trong tình huống, không tự mang nghĩa nhà của người nghe. Kia là trường tiểu học."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “ở đó; chỗ kia (dạng hóa r)” trong câu: 他在□。",
+          "choices": [
+            "这里",
+            "这儿",
+            "那里",
+            "那儿"
+          ],
+          "accepted": [
+            "那儿"
+          ],
+          "feedback": "那儿: ở đó; chỗ kia (dạng hóa r). 那儿 là dạng hóa r chỉ nơi kia; không tách chữ 儿 thành âm ér khi đọc từ này. Anh ấy ở kia."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “那里是小学。”, 那里 mang nghĩa nào theo bài?",
+          "choices": [
+            "ở đây; chỗ này (dạng có âm tiết lǐ)",
+            "ở đây; chỗ này (dạng hóa r)",
+            "ở đó; chỗ kia (dạng có âm tiết lǐ)",
+            "ở đó; chỗ kia (dạng hóa r)"
+          ],
+          "accepted": [
+            "ở đó; chỗ kia (dạng có âm tiết lǐ)"
+          ],
+          "feedback": "那里 chỉ nơi kia trong tình huống, không tự mang nghĩa nhà của người nghe. Kia là trường tiểu học."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “他在那儿。”, 那儿 mang nghĩa nào theo bài?",
+          "choices": [
+            "ở đây; chỗ này (dạng có âm tiết lǐ)",
+            "ở đây; chỗ này (dạng hóa r)",
+            "ở đó; chỗ kia (dạng có âm tiết lǐ)",
+            "ở đó; chỗ kia (dạng hóa r)"
+          ],
+          "accepted": [
+            "ở đó; chỗ kia (dạng hóa r)"
+          ],
+          "feedback": "那儿 là dạng hóa r chỉ nơi kia; không tách chữ 儿 thành âm ér khi đọc từ này. Anh ấy ở kia."
+        }
+      ],
+      "characterTargets": [
+        "里"
+      ]
+    },
+    {
+      "id": "L128",
+      "unit": "hsk-one-g",
+      "unitTitle": "Hỏi và chỉ nơi chốn",
+      "title": "Chỉ nhiều đồ vật",
+      "objective": "Chỉ nhiều đồ vật; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-128",
+        "这些",
+        385,
+        "g-385-10",
+        "这些/那些 nói những đối tượng này/kia; 哪些 hỏi những đối tượng nào. 些 dùng trong các tổ hợp chỉ một số lượng không xác định như 一些; không dùng nó làm một con số chính xác. Phân biệt 一个/这个 chỉ một đối tượng với 这些 chỉ nhiều đối tượng trong tình huống."
+      ],
+      "task": [
+        "h1-task-thing",
+        "问答物品信息",
+        4,
+        "三"
+      ],
+      "topic": [
+        "h1-topic-b411fd04a9b3",
+        "物品名称",
+        58,
+        "物品名称"
+      ],
+      "words": [
+        [
+          "这些",
+          "zhè xiē",
+          "những cái này; những người này",
+          "这些 chỉ một nhóm ở phía này; không tự cho biết nhóm có đúng bao nhiêu thành viên.",
+          "这些是我的书。",
+          "Zhè xiē shì wǒ de shū.",
+          "Những cuốn này là sách của tôi."
+        ],
+        [
+          "那些",
+          "nà xiē",
+          "những cái kia; những người kia",
+          "那些 chỉ nhóm được nêu ở phía kia, không thay dạng một đối tượng 那个 trong câu hỏi giới hạn hình thức.",
+          "那些是新书。",
+          "Nà xiē shì xīn shū.",
+          "Những cuốn kia là sách mới."
+        ],
+        [
+          "哪些",
+          "nǎ xiē",
+          "những cái nào; những người nào",
+          "哪些 hỏi chọn những đối tượng trong nhóm; không hỏi số lượng chính xác như 几.",
+          "你喜欢哪些书？",
+          "Nǐ xǐ huan nǎ xiē shū?",
+          "Bạn thích những quyển sách nào?"
+        ],
+        [
+          "些",
+          "xiē",
+          "một số; yếu tố chỉ lượng không xác định",
+          "些 thường đi với 一/这/那/哪; 一些 trong ví dụ là một số, không cho một số đếm cụ thể.",
+          "我有一些书。",
+          "Wǒ yǒu yì xiē shū.",
+          "Tôi có một số sách."
+        ]
+      ],
+      "passage": [
+        "A：哪些是你的书？\nB：这些是我的书。\nA：那些呢？\nB：那些是我姐姐的书。",
+        "A: Nǎ xiē shì nǐ de shū? B: Zhè xiē shì wǒ de shū. A: Nà xiē ne? B: Nà xiē shì wǒ jiě jie de shū.",
+        "A hỏi nhóm sách nào thuộc B. B nhận nhóm này; nhóm kia thuộc chị gái B. Không có số lượng cụ thể trong đoạn."
+      ],
+      "comprehension": [
+        "Nhóm được chỉ bằng 那些 thuộc về ai?",
+        [
+          "姐姐",
+          "B",
+          "老师"
+        ],
+        "姐姐",
+        "Theo đoạn: 姐姐. A hỏi nhóm sách nào thuộc B. B nhận nhóm này; nhóm kia thuộc chị gái B. Không có số lượng cụ thể trong đoạn."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "这些",
+          "是",
+          "我的书。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "些",
+            "此",
+            "二",
+            "止"
+          ],
+          "accepted": [
+            "些"
+          ],
+          "feedback": "Chữ 些 tạo từ 这些. 这些 chỉ một nhóm ở phía này; không tự cho biết nhóm có đúng bao nhiêu thành viên. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 那些 (những cái kia; những người kia).",
+          "choices": [],
+          "accepted": [
+            "nà xiē"
+          ],
+          "feedback": "那些 ghi nà xiē. 那些 chỉ nhóm được nêu ở phía kia, không thay dạng một đối tượng 那个 trong câu hỏi giới hạn hình thức."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “những cái nào; những người nào”: 你喜欢□书？ Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "哪些"
+          ],
+          "feedback": "哪些: những cái nào; những người nào. 哪些 hỏi chọn những đối tượng trong nhóm; không hỏi số lượng chính xác như 几. Bạn thích những quyển sách nào?"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “một số; yếu tố chỉ lượng không xác định” trong câu: 我有一□书。",
+          "choices": [
+            "这些",
+            "那些",
+            "哪些",
+            "些"
+          ],
+          "accepted": [
+            "些"
+          ],
+          "feedback": "些: một số; yếu tố chỉ lượng không xác định. 些 thường đi với 一/这/那/哪; 一些 trong ví dụ là một số, không cho một số đếm cụ thể. Tôi có một số sách."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “你喜欢哪些书？”, 哪些 mang nghĩa nào theo bài?",
+          "choices": [
+            "những cái này; những người này",
+            "những cái kia; những người kia",
+            "những cái nào; những người nào",
+            "một số; yếu tố chỉ lượng không xác định"
+          ],
+          "accepted": [
+            "những cái nào; những người nào"
+          ],
+          "feedback": "哪些 hỏi chọn những đối tượng trong nhóm; không hỏi số lượng chính xác như 几. Bạn thích những quyển sách nào?"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我有一些书。”, 些 mang nghĩa nào theo bài?",
+          "choices": [
+            "những cái này; những người này",
+            "những cái kia; những người kia",
+            "những cái nào; những người nào",
+            "một số; yếu tố chỉ lượng không xác định"
+          ],
+          "accepted": [
+            "một số; yếu tố chỉ lượng không xác định"
+          ],
+          "feedback": "些 thường đi với 一/这/那/哪; 一些 trong ví dụ là một số, không cho một số đếm cụ thể. Tôi có một số sách."
+        }
+      ],
+      "characterTargets": [
+        "些"
+      ]
+    },
+    {
+      "id": "L129",
+      "unit": "hsk-one-g",
+      "unitTitle": "Hỏi và chỉ nơi chốn",
+      "title": "Nơi ở và vị trí trong phòng",
+      "objective": "Nơi ở và vị trí trong phòng; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-129",
+        "在",
+        385,
+        "g-385-21",
+        "在 + nơi chốn nói vị trí trong bài này: 猫在房间里. 住在 + nơi chốn nói nơi sống. 里 đứng sau tên chỗ để nói bên trong. Không nhầm 在 ở đây với mẫu đang làm một hành động; nghĩa tiến diễn sẽ học ở nhóm sau."
+      ],
+      "task": [
+        "h1-task-place",
+        "问答环境信息",
+        5,
+        "五"
+      ],
+      "topic": [
+        "h1-topic-44be8a5029aa",
+        "环境特点",
+        58,
+        "环境特点"
+      ],
+      "words": [
+        [
+          "在",
+          "zài",
+          "ở; tại (vị trí trong bài)",
+          "在 ở 我在学校 giới thiệu nơi chốn, không tự mang nghĩa đang học.",
+          "我在学校。",
+          "Wǒ zài xué xiào.",
+          "Tôi ở trường."
+        ],
+        [
+          "住",
+          "zhù",
+          "sống; ở; cư trú",
+          "住 nói nơi ở/cư trú trong câu, không phải hành động đứng tại đâu trong chốc lát.",
+          "我住在这里。",
+          "Wǒ zhù zài zhè lǐ.",
+          "Tôi sống ở đây."
+        ],
+        [
+          "房间",
+          "fáng jiān",
+          "phòng; căn phòng",
+          "房间 là một phòng, không tự đồng nghĩa toàn bộ một ngôi nhà.",
+          "这是我的房间。",
+          "Zhè shì wǒ de fáng jiān.",
+          "Đây là phòng của tôi."
+        ],
+        [
+          "里",
+          "lǐ",
+          "trong; bên trong",
+          "里 đặt sau nơi chốn như 房间里, không đưa lên đầu theo trật tự tiếng Việt.",
+          "猫在房间里。",
+          "Māo zài fáng jiān lǐ.",
+          "Mèo ở trong phòng."
+        ]
+      ],
+      "passage": [
+        "A：你住在哪儿？\nB：我住在这里。这是我的房间。\nA：你的猫呢？\nB：猫在房间里。",
+        "A: Nǐ zhù zài nǎr? B: Wǒ zhù zài zhè lǐ. Zhè shì wǒ de fáng jiān. A: Nǐ de māo ne? B: Māo zài fáng jiān lǐ.",
+        "B giới thiệu nơi ở và phòng của mình. Câu cuối nói vị trí của mèo; không yêu cầu người học suy từ ảnh."
+      ],
+      "comprehension": [
+        "Mèo của B ở đâu?",
+        [
+          "房间里",
+          "学校",
+          "桌子下"
+        ],
+        "房间里",
+        "Theo đoạn: 房间里. B giới thiệu nơi ở và phòng của mình. Câu cuối nói vị trí của mèo; không yêu cầu người học suy từ ảnh."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "猫",
+          "在",
+          "房间里。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “ở; tại (vị trí trong bài)” trong câu: 我□学校。",
+          "choices": [
+            "在",
+            "住",
+            "房间",
+            "里"
+          ],
+          "accepted": [
+            "在"
+          ],
+          "feedback": "在: ở; tại (vị trí trong bài). 在 ở 我在学校 giới thiệu nơi chốn, không tự mang nghĩa đang học. Tôi ở trường."
+        },
+        {
+          "concept": 1,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "住",
+            "往",
+            "主",
+            "任"
+          ],
+          "accepted": [
+            "住"
+          ],
+          "feedback": "Chữ 住 tạo từ 住. 住 nói nơi ở/cư trú trong câu, không phải hành động đứng tại đâu trong chốc lát. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “phòng; căn phòng”: 这是我的□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "房间"
+          ],
+          "feedback": "房间: phòng; căn phòng. 房间 là một phòng, không tự đồng nghĩa toàn bộ một ngôi nhà. Đây là phòng của tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “trong; bên trong” trong câu: 猫在房间□。",
+          "choices": [
+            "在",
+            "住",
+            "房间",
+            "里"
+          ],
+          "accepted": [
+            "里"
+          ],
+          "feedback": "里: trong; bên trong. 里 đặt sau nơi chốn như 房间里, không đưa lên đầu theo trật tự tiếng Việt. Mèo ở trong phòng."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “这是我的房间。”, 房间 mang nghĩa nào theo bài?",
+          "choices": [
+            "ở; tại (vị trí trong bài)",
+            "sống; ở; cư trú",
+            "phòng; căn phòng",
+            "trong; bên trong"
+          ],
+          "accepted": [
+            "phòng; căn phòng"
+          ],
+          "feedback": "房间 là một phòng, không tự đồng nghĩa toàn bộ một ngôi nhà. Đây là phòng của tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “猫在房间里。”, 里 mang nghĩa nào theo bài?",
+          "choices": [
+            "ở; tại (vị trí trong bài)",
+            "sống; ở; cư trú",
+            "phòng; căn phòng",
+            "trong; bên trong"
+          ],
+          "accepted": [
+            "trong; bên trong"
+          ],
+          "feedback": "里 đặt sau nơi chốn như 房间里, không đưa lên đầu theo trật tự tiếng Việt. Mèo ở trong phòng."
+        }
+      ],
+      "characterTargets": [
+        "住"
+      ]
+    },
+    {
+      "id": "L130",
+      "unit": "hsk-one-g",
+      "unitTitle": "Hỏi và chỉ nơi chốn",
+      "title": "Trên dưới trước sau",
+      "objective": "Trên dưới trước sau; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-130",
+        "方位短语",
+        386,
+        "g-386-7",
+        "Danh từ nơi/vật + 上/下/前/后 tạo cụm vị trí: 桌子下 là dưới bàn. Dùng 在 trước cả cụm: 猫在桌子下. Bài này dùng nghĩa không gian; 前/后 có thể có cách dùng thời gian ở ngữ cảnh khác. Không suy hướng trái/phải hay khoảng cách nếu đoạn không cho."
+      ],
+      "task": [
+        "h1-task-place",
+        "问答环境信息",
+        5,
+        "五"
+      ],
+      "topic": [
+        "h1-topic-44be8a5029aa",
+        "环境特点",
+        58,
+        "环境特点"
+      ],
+      "words": [
+        [
+          "上",
+          "shàng",
+          "trên; phía trên",
+          "上 đứng sau tên vật để nói vị trí ở trên; câu không tự cho biết vật có chạm bề mặt hay không ở mọi trường hợp.",
+          "书在桌子上。",
+          "Shū zài zhuō zi shang.",
+          "Sách ở trên bàn."
+        ],
+        [
+          "下",
+          "xià",
+          "dưới; phía dưới",
+          "下 trong 桌子下 nói dưới bàn, khác từ 下课 chỉ kết thúc tiết đã học.",
+          "猫在桌子下。",
+          "Māo zài zhuō zi xia.",
+          "Mèo ở dưới bàn."
+        ],
+        [
+          "前",
+          "qián",
+          "trước; phía trước",
+          "前 trong câu nói phía trước một mốc không gian; không phải luôn là thời gian trước đây.",
+          "椅子在桌子前。",
+          "Yǐ zi zài zhuō zi qián.",
+          "Ghế ở phía trước bàn."
+        ],
+        [
+          "后",
+          "hòu",
+          "sau; phía sau",
+          "后 trong ví dụ nói phía sau ghế; cần mốc là ghế, không hiểu là phía sau người đọc mặc định.",
+          "狗在椅子后。",
+          "Gǒu zài yǐ zi hòu.",
+          "Chó ở phía sau ghế."
+        ]
+      ],
+      "passage": [
+        "A：猫在哪儿？\nB：在桌子下。\nA：狗呢？\nB：狗在椅子后。",
+        "A: Māo zài nǎr? B: Zài zhuō zi xia. A: Gǒu ne? B: Gǒu zài yǐ zi hòu.",
+        "Mèo dưới bàn; chó phía sau ghế. Các vị trí được nói rõ bằng chữ; không có sơ đồ để tự đo thêm hướng hoặc khoảng cách."
+      ],
+      "comprehension": [
+        "Mèo ở vị trí nào?",
+        [
+          "桌子下",
+          "桌子上",
+          "椅子后"
+        ],
+        "桌子下",
+        "Theo đoạn: 桌子下. Mèo dưới bàn; chó phía sau ghế. Các vị trí được nói rõ bằng chữ; không có sơ đồ để tự đo thêm hướng hoặc khoảng cách."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "猫",
+          "在",
+          "桌子下。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “trên; phía trên” trong câu: 书在桌子□。",
+          "choices": [
+            "上",
+            "下",
+            "前",
+            "后"
+          ],
+          "accepted": [
+            "上"
+          ],
+          "feedback": "上: trên; phía trên. 上 đứng sau tên vật để nói vị trí ở trên; câu không tự cho biết vật có chạm bề mặt hay không ở mọi trường hợp. Sách ở trên bàn."
+        },
+        {
+          "concept": 1,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "下",
+            "上",
+            "卜",
+            "不"
+          ],
+          "accepted": [
+            "下"
+          ],
+          "feedback": "Chữ 下 tạo từ 下. 下 trong 桌子下 nói dưới bàn, khác từ 下课 chỉ kết thúc tiết đã học. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “trước; phía trước”: 椅子在桌子□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "前"
+          ],
+          "feedback": "前: trước; phía trước. 前 trong câu nói phía trước một mốc không gian; không phải luôn là thời gian trước đây. Ghế ở phía trước bàn."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “sau; phía sau” trong câu: 狗在椅子□。",
+          "choices": [
+            "上",
+            "下",
+            "前",
+            "后"
+          ],
+          "accepted": [
+            "后"
+          ],
+          "feedback": "后: sau; phía sau. 后 trong ví dụ nói phía sau ghế; cần mốc là ghế, không hiểu là phía sau người đọc mặc định. Chó ở phía sau ghế."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “椅子在桌子前。”, 前 mang nghĩa nào theo bài?",
+          "choices": [
+            "trên; phía trên",
+            "dưới; phía dưới",
+            "trước; phía trước",
+            "sau; phía sau"
+          ],
+          "accepted": [
+            "trước; phía trước"
+          ],
+          "feedback": "前 trong câu nói phía trước một mốc không gian; không phải luôn là thời gian trước đây. Ghế ở phía trước bàn."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “狗在椅子后。”, 后 mang nghĩa nào theo bài?",
+          "choices": [
+            "trên; phía trên",
+            "dưới; phía dưới",
+            "trước; phía trước",
+            "sau; phía sau"
+          ],
+          "accepted": [
+            "sau; phía sau"
+          ],
+          "feedback": "后 trong ví dụ nói phía sau ghế; cần mốc là ghế, không hiểu là phía sau người đọc mặc định. Chó ở phía sau ghế."
+        }
+      ],
+      "characterTargets": [
+        "下"
+      ]
+    }
+  ]
+}

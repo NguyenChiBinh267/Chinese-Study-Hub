@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "dd22c543df97b7a1063386053fea39354d7a7cbfedbcb51274cf8baed91cb381",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-dates-relative",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L356",
+    "version": 2,
+    "versionId": "l356-draft-v2",
+    "title": "Mốc ngày, năm và trước sau",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc các mốc tương đối theo ngày/năm nói hiện tại.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "以前/以后"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "一"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T08:20:32.693Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-person",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "一"
+        },
+        "written": "介绍个人情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-person-info",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "个人信息"
+        },
+        "written": "个人信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l356-v-672",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 672"
+        },
+        "written": "后年",
+        "pinyin": "hòunián",
+        "senseId": "l356-v-672-sense",
+        "ordinal": 672,
+        "note": "3 hòunián 名; 后年 là năm sau nữa tính từ năm đang nói; không phải năm ngay sau 去年. Không gắn năm dương lịch thật khi đoạn không cho. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l356-v-673",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 673"
+        },
+        "written": "后天",
+        "pinyin": "hòutiān",
+        "senseId": "l356-v-673-sense",
+        "ordinal": 673,
+        "note": "3 hòutiān 名; 后天 là sau ngày mai một ngày, tính từ hôm nay. Không dùng cho mọi tương lai xa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l356-v-805",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 805"
+        },
+        "written": "前年",
+        "pinyin": "qiánnián",
+        "senseId": "l356-v-805-sense",
+        "ordinal": 805,
+        "note": "3 qiánnián 名; 前年 là năm trước nữa, cách năm nay hai năm. 不同 去年 (năm ngoái). Original teaching sense unreviewed."
+      },
+      {
+        "id": "l356-v-806",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 806"
+        },
+        "written": "前天",
+        "pinyin": "qiántiān",
+        "senseId": "l356-v-806-sense",
+        "ordinal": 806,
+        "note": "3 qiántiān 名; 前天 là ngày trước hôm qua, lấy ngày nói làm mốc. Không thể biết ngày trong tuần nếu chưa biết hôm nay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l356-v-926",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 926"
+        },
+        "written": "以后",
+        "pinyin": "yǐhòu",
+        "senseId": "l356-v-926-sense",
+        "ordinal": 926,
+        "note": "3 yǐhòu 名; 以后 nêu sau mốc hoặc tương lai trong ngữ cảnh; 上课以后 là sau giờ bắt đầu học/việc học tùy câu, nên dùng 下课以后 khi muốn rõ sau tan lớp. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l356-v-927",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 927"
+        },
+        "written": "以前",
+        "pinyin": "yǐqián",
+        "senseId": "l356-v-927-sense",
+        "ordinal": 927,
+        "note": "3 yǐqián 名; 以前 nêu trước một mốc hoặc trước đây; 搬家以前 không phải đã hoàn thành chuyển nhà. Đề đọc quan hệ trước sau, không chấm ngày thật. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-6",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "6"
+        },
+        "written": "搬",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 6,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-time-around",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定格式 / 以前以后"
+        },
+        "written": "以前/以后",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l356-c0",
+      "version": 1,
+      "senseId": "l356-v-672-sense",
+      "hanzi": "后年",
+      "dictionaryPinyin": "hòu nián",
+      "meaning": "năm kia phía tương lai",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l356-v-672"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l356-c1",
+      "version": 1,
+      "senseId": "l356-v-673-sense",
+      "hanzi": "后天",
+      "dictionaryPinyin": "hòu tiān",
+      "meaning": "ngày kia",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l356-v-673"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l356-c2",
+      "version": 1,
+      "senseId": "l356-v-805-sense",
+      "hanzi": "前年",
+      "dictionaryPinyin": "qián nián",
+      "meaning": "năm kia phía quá khứ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l356-v-805"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l356-c3",
+      "version": 1,
+      "senseId": "l356-v-806-sense",
+      "hanzi": "前天",
+      "dictionaryPinyin": "qián tiān",
+      "meaning": "hôm kia",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l356-v-806"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l356-c4",
+      "version": 1,
+      "senseId": "l356-v-926-sense",
+      "hanzi": "以后",
+      "dictionaryPinyin": "yǐ hòu",
+      "meaning": "sau/sau này",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l356-v-926"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l356-c5",
+      "version": 1,
+      "senseId": "l356-v-927-sense",
+      "hanzi": "以前",
+      "dictionaryPinyin": "yǐ qián",
+      "meaning": "trước/trước đây",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l356-v-927"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l356-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 留学 liúxué: du học; 算 suàn: tính; 下课 xià kè: tan tiết. 以 hôm/năm nay làm mốc, không giả định ngày tháng thật trong đoạn.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l356-t0",
+      "type": "teaching",
+      "title": "后年 · năm kia phía tương lai",
+      "text": "后年 là năm sau nữa tính từ năm đang nói; không phải năm ngay sau 去年. Không gắn năm dương lịch thật khi đoạn không cho.",
+      "hanzi": "我打算后年去留学。",
+      "pinyin": "Wǒ dǎsuàn hòunián qù liúxué.",
+      "meaning": "Tôi định năm sau nữa đi du học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l356-t1",
+      "type": "teaching",
+      "title": "后天 · ngày kia",
+      "text": "后天 là sau ngày mai một ngày, tính từ hôm nay. Không dùng cho mọi tương lai xa.",
+      "hanzi": "我们后天见面。",
+      "pinyin": "Wǒmen hòutiān jiàn miàn.",
+      "meaning": "Chúng ta gặp ngày kia.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l356-t2",
+      "type": "teaching",
+      "title": "前年 · năm kia phía quá khứ",
+      "text": "前年 là năm trước nữa, cách năm nay hai năm. 不同 去年 (năm ngoái).",
+      "hanzi": "他前年搬到这里。",
+      "pinyin": "Tā qiánnián bān dào zhèlǐ.",
+      "meaning": "Anh ấy chuyển đến đây năm trước nữa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l356-t3",
+      "type": "teaching",
+      "title": "前天 · hôm kia",
+      "text": "前天 là ngày trước hôm qua, lấy ngày nói làm mốc. Không thể biết ngày trong tuần nếu chưa biết hôm nay.",
+      "hanzi": "我前天给她写了信。",
+      "pinyin": "Wǒ qiántiān gěi tā xiě le xìn.",
+      "meaning": "Hôm kia tôi viết thư cho cô ấy.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l356-t4",
+      "type": "teaching",
+      "title": "以后 · sau/sau này",
+      "text": "以后 nêu sau mốc hoặc tương lai trong ngữ cảnh; 上课以后 là sau giờ bắt đầu học/việc học tùy câu, nên dùng 下课以后 khi muốn rõ sau tan lớp.",
+      "hanzi": "下课以后我去图书馆。",
+      "pinyin": "Xià kè yǐhòu wǒ qù túshūguǎn.",
+      "meaning": "Sau tan lớp tôi đến thư viện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l356-t5",
+      "type": "teaching",
+      "title": "以前 · trước/trước đây",
+      "text": "以前 nêu trước một mốc hoặc trước đây; 搬家以前 không phải đã hoàn thành chuyển nhà. Đề đọc quan hệ trước sau, không chấm ngày thật.",
+      "hanzi": "搬家以前，我住在南方。",
+      "pinyin": "Bān jiā yǐqián, wǒ zhù zài nánfāng.",
+      "meaning": "Trước khi chuyển nhà tôi sống ở miền nam.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l356-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "前天/后天 lấy hôm nay làm mốc, 前年/后年 lấy năm nay. 以前/以后 cần một mốc từ ngữ hoặc ngữ cảnh. Chuyển ngày kể phải tính lại mốc, không giữ nguyên lịch cũ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l356-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林前年搬家，以前住在南方。他前天写信，后天要跟朋友见面。下课以后他先去图书馆，他打算后年才去留学。这些时间都按他说话的今天和今年来算。",
+      "pinyin": "Xiǎo Lín qiánnián bān jiā, yǐqián zhù zài nánfāng. Tā qiántiān xiě xìn, hòutiān yào gēn péngyou jiàn miàn. Xià kè yǐhòu tā xiān qù túshūguǎn, tā dǎsuàn hòunián cái qù liúxué. Zhèxiē shíjiān dōu àn tā shuōhuà de jīntiān hé jīnnián lái suàn.",
+      "meaning": "Lâm chuyển nhà năm trước nữa, trước đây ở miền nam; viết thư hôm kia, gặp bạn ngày kia, sau tan lớp đến thư viện, định năm sau nữa du học. Các mốc tính từ ngày/năm đang nói.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l356-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l356-v2-e0"
+    },
+    {
+      "id": "l356-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l356-v2-e1"
+    },
+    {
+      "id": "l356-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l356-v2-e2"
+    },
+    {
+      "id": "l356-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l356-v2-e3"
+    },
+    {
+      "id": "l356-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l356-v2-e4"
+    },
+    {
+      "id": "l356-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l356-v2-e5"
+    },
+    {
+      "id": "l356-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l356-v2-e6"
+    },
+    {
+      "id": "l356-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l356-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l356-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l356-c0",
+      "senseId": "l356-v-672-sense",
+      "keyRef": "l356-v2-k0",
+      "prompt": "Sau năm sau một năm: □去留学。",
+      "choices": [
+        "后天",
+        "前年",
+        "前天",
+        "以后",
+        "以前",
+        "后年"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l356-v2-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l356-c1",
+      "senseId": "l356-v-673-sense",
+      "keyRef": "l356-v2-k1",
+      "prompt": "Sau ngày mai một ngày: □见面。",
+      "choices": [
+        "前年",
+        "前天",
+        "以后",
+        "以前",
+        "后年",
+        "后天"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l356-v2-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l356-c2",
+      "senseId": "l356-v-805-sense",
+      "keyRef": "l356-v2-k2",
+      "prompt": "Trước năm ngoái một năm: □搬到这里。",
+      "choices": [
+        "前天",
+        "以后",
+        "以前",
+        "后年",
+        "后天",
+        "前年"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l356-v2-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l356-c3",
+      "senseId": "l356-v-806-sense",
+      "keyRef": "l356-v2-k3",
+      "prompt": "Viết pinyin của 前天 trong câu “我前天给她写了信。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l356-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l356-c4",
+      "senseId": "l356-v-926-sense",
+      "keyRef": "l356-v2-k4",
+      "prompt": "Mốc sau tan lớp: 下课□。",
+      "choices": [
+        "以前",
+        "后年",
+        "后天",
+        "前年",
+        "前天",
+        "以后"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l356-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l356-c5",
+      "senseId": "l356-v-927-sense",
+      "keyRef": "l356-v2-k5",
+      "prompt": "Mốc trước chuyển nhà: 搬家□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l356-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l356-c0",
+      "senseId": "l356-v-672-sense",
+      "keyRef": "l356-v2-k6",
+      "prompt": "后天 là mốc nào?",
+      "choices": [
+        "昨天的前一天",
+        "后年的第一天",
+        "明天的下一天"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l356-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l356-c3",
+      "senseId": "l356-v-806-sense",
+      "keyRef": "l356-v2-k7",
+      "prompt": "Xếp mốc sau tan lớp, bắt đầu bằng 下课以后.",
+      "choices": [
+        "我去图书馆",
+        "下课以后"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l356-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l356-v2-e0",
+      "senseId": "l356-v-672-sense",
+      "accepted": [
+        "后年"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "后年: năm kia phía tương lai. 后年 là năm sau nữa tính từ năm đang nói; không phải năm ngay sau 去年. Không gắn năm dương lịch thật khi đoạn không cho. Tôi định năm sau nữa đi du học."
+    },
+    {
+      "id": "l356-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l356-v2-e1",
+      "senseId": "l356-v-673-sense",
+      "accepted": [
+        "后天"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "后天: ngày kia. 后天 là sau ngày mai một ngày, tính từ hôm nay. Không dùng cho mọi tương lai xa. Chúng ta gặp ngày kia."
+    },
+    {
+      "id": "l356-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l356-v2-e2",
+      "senseId": "l356-v-805-sense",
+      "accepted": [
+        "前年"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "前年: năm kia phía quá khứ. 前年 là năm trước nữa, cách năm nay hai năm. 不同 去年 (năm ngoái). Anh ấy chuyển đến đây năm trước nữa."
+    },
+    {
+      "id": "l356-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l356-v2-e3",
+      "senseId": "l356-v-806-sense",
+      "accepted": [
+        "qián tiān"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "前天: hôm kia. 前天 là ngày trước hôm qua, lấy ngày nói làm mốc. Không thể biết ngày trong tuần nếu chưa biết hôm nay. Hôm kia tôi viết thư cho cô ấy."
+    },
+    {
+      "id": "l356-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l356-v2-e4",
+      "senseId": "l356-v-926-sense",
+      "accepted": [
+        "以后"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "以后: sau/sau này. 以后 nêu sau mốc hoặc tương lai trong ngữ cảnh; 上课以后 là sau giờ bắt đầu học/việc học tùy câu, nên dùng 下课以后 khi muốn rõ sau tan lớp. Sau tan lớp tôi đến thư viện."
+    },
+    {
+      "id": "l356-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l356-v2-e5",
+      "senseId": "l356-v-927-sense",
+      "accepted": [
+        "以前"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "以前: trước/trước đây. 以前 nêu trước một mốc hoặc trước đây; 搬家以前 không phải đã hoàn thành chuyển nhà. Đề đọc quan hệ trước sau, không chấm ngày thật. Trước khi chuyển nhà tôi sống ở miền nam."
+    },
+    {
+      "id": "l356-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l356-v2-e6",
+      "senseId": "l356-v-672-sense",
+      "accepted": [
+        "明天的下一天"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 前天/后天 lấy hôm nay làm mốc, 前年/后年 lấy năm nay. 以前/以后 cần một mốc từ ngữ hoặc ngữ cảnh. Chuyển ngày kể phải tính lại mốc, không giữ nguyên lịch cũ."
+    },
+    {
+      "id": "l356-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l356-v2-e7",
+      "senseId": "l356-v-806-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 前天/后天 lấy hôm nay làm mốc, 前年/后年 lấy năm nay. 以前/以后 cần một mốc từ ngữ hoặc ngữ cảnh. Chuyển ngày kể phải tính lại mốc, không giữ nguyên lịch cũ."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

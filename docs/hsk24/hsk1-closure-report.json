@@ -1,0 +1,1150 @@
+{
+  "kind": "LOCAL_DRAFT_HSK1_CURRICULUM_PARTIAL_CHECKPOINT",
+  "evidenceByteScope": "Exact local working-tree file bytes at checkpoint, not assumed Git-blob bytes. Windows CRLF source-requirements is75328 bytes locally; normalized LF Git blob is71930 bytes, SHA2566557d4fe065040ecfa332bd6d380e0e79e2ee417543cdef006b9b807c1fa9599. Educational content is identical; newline normalization is explicit.",
+  "checkedAtUTC": "2026-10-31T05:05:51.495204+00:00",
+  "baselineCommit": "bb3a0064969e993185586cb2b8349db58b2f52e7",
+  "coreReviewedCommit": "e8e03c4a14e02ec90344971eddecc079b295c492",
+  "branch": "feat/hsk24-curriculum",
+  "verifiedOriginMain": "ad7f4c59442b89701e5e41cd6a120284532c1650",
+  "finalCommitReceipt": ".local-postgres/hsk24/hsk1-closure-handoff-receipt.json (written after final documentation commit and independent read-only audit)",
+  "worktreeBoundary": "Pre-existing owner AGENTS.md edit stays unstaged. graphify-out is locally excluded. No canonical status/specification/cloud writes, push, merge or deploy.",
+  "graph": {
+    "scan_root": "D:\\Chinese-Study-Hub\\src",
+    "source_commit": "e8e03c4a14e02ec90344971eddecc079b295c492",
+    "checkedAtUTC": "2026-10-31T04:51:37.548371+00:00",
+    "files_detected": 152,
+    "graphNodes": 842,
+    "graphEdges": 2628,
+    "communities": 85,
+    "backend": "none",
+    "providerInputTokens": 0,
+    "providerOutputTokens": 0,
+    "hostChatTokens": "not measured here",
+    "scope": "Static src AST only. Scripts/tests/docs/content bodies are outside the indexed scope. Graph links are navigation aids, not runtime or linguistic/specification/acceptance authority. External import references are not evidence of analyzed dependency implementations.",
+    "history": "Original graph bundle preserved in .local-postgres/hsk24/hsk1-closure-graph-before.zip. Initial finite API rebuild fell back to sequential after Windows multiprocessing error; its delayed stat cache in src was relocated without editing source. Final supported CLI update uses absolute GRAPHIFY_OUT and left no generated source-tree artifacts."
+  },
+  "source": {
+    "path": ".local-postgres/source-research/hsk-2025-11.pdf",
+    "sha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "pageIndicesZeroBased": {
+      "vocabulary": [
+        79,
+        86
+      ],
+      "grammar": [
+        385,
+        386,
+        387
+      ],
+      "recognition": [
+        355,
+        356
+      ],
+      "sharedHsk1Hsk2Writing": [
+        376
+      ],
+      "topics": [
+        58,
+        59
+      ],
+      "taskHeadsAndBullets": [
+        4,
+        7
+      ]
+    },
+    "identified": {
+      "vocabulary": 300,
+      "grammarPhysicalRows": 70,
+      "recognitionGlyphs": 246,
+      "sharedWritingGlyphs": 100,
+      "topicLeaves": 30,
+      "taskHeads": 15,
+      "taskPhysicalBullets": 59
+    },
+    "inventory": "docs/hsk24/hsk1-closure-source-requirements.json",
+    "rightsOrHumanAcceptance": false
+  },
+  "coverageDelta": "docs/hsk24/hsk1-closure-coverage-delta.json",
+  "delivery": {
+    "newActivities": 39,
+    "newCurrentExercises": 312,
+    "currentHsk1Activities": 129,
+    "currentHsk1Exercises": 1028,
+    "additiveRepairVersions": [
+      "l114-draft-v2",
+      "l115-draft-v2",
+      "l183-draft-v2",
+      "l196-draft-v2"
+    ],
+    "newUnits": 5,
+    "newGrammarCommunicationActivities": 11,
+    "newCharacterActivities": 28,
+    "newImmutableVersionsIncludingRepairs": 43,
+    "exerciseDefinitionsInThoseVersions": 344,
+    "currentHsk1IntroductionLessons": 72,
+    "currentHsk1UnitReviews": 25,
+    "currentHsk1CharacterActivities": 32,
+    "currentAllCoursesActivities": 518,
+    "currentAllCoursesExercises": 4138,
+    "foundationActivitiesUnchanged": 5,
+    "foundationExercisesUnchanged": 38,
+    "newVocabularyEntries": 0,
+    "regeneratedVocabularyIntroductions": 0
+  },
+  "grammar": {
+    "identifiedPhysicalRows": 70,
+    "metadataReferencedBefore": 45,
+    "metadataReferencedAfter": 55,
+    "auditedPartialRows": 23,
+    "reusedTeachingRowLinks": 13,
+    "newPhysicalRowTargets": 10,
+    "unionCandidateAndAuditedRowLinks": 68,
+    "fullyAcceptedPhysicalRows": 0,
+    "unresolvedStructuralDistinctions": [
+      "g-386-4 subject-predicate phrase vs sentence",
+      "g-386-19 declarative category"
+    ],
+    "unresolvedLegacyMetadataLocators": 3,
+    "limitation": "Physical rows combine alternatives. Existing45 primary binding rows remain candidates; metadata/partial audit is not comprehensive atom-level teaching or human acceptance."
+  },
+  "hanzi": {
+    "promptedRecognitionBefore": 83,
+    "promptedRecognitionAfter": 246,
+    "newExerciseInstances": 168,
+    "newPreviouslyUnpracticedGlyphs": 163,
+    "repeatedGlyphs": 5,
+    "newExplicitPositionContrastGlyphInstruction": 168,
+    "questionsOmittingFrontPinyinCue": 84,
+    "questionsWithoutLiteralDictionaryPinyinString": 76,
+    "otherGlyphInstructionQualityAuditRemaining": 78,
+    "sharedWritingTargets": 100,
+    "handwritingAssessed": 0,
+    "limitation": "Meaning/context/recent-instruction support remains; string absence does not prove unaided recognition, transfer or long-term retention."
+  },
+  "topicsTasks": {
+    "topicMetadataReferencesBefore": 27,
+    "topicMetadataReferencesAfter": 30,
+    "newPartialSceneEvidence": [
+      "L1101 after-class activity",
+      "L1102 work evaluation",
+      "L1103 tea menu"
+    ],
+    "reusedTeaInstruction": "L002",
+    "identifiedTaskHeads": 15,
+    "identifiedTaskBullets": 59,
+    "newAuditedBulletPartialWrittenEvidence": {
+      "bullet": "h1-task-15-b3",
+      "lesson": "L1103",
+      "exercise": "l1103-e4"
+    },
+    "fullyAcceptedBullets": 0,
+    "limitation": "Written dialogue proxies do not establish listening/speaking; all other bullet-level modality/teaching audits remain open."
+  },
+  "confirmedRepairs": {
+    "incorrectOldItems": [
+      "L114.v1 e3",
+      "L114.v1 e5",
+      "L115.v1 e0"
+    ],
+    "defect": "Swapped male/mixed and female plural pronoun prompt/key meanings.",
+    "additiveVersions": [
+      "l114-draft-v2",
+      "l115-draft-v2",
+      "l183-draft-v2",
+      "l196-draft-v2"
+    ],
+    "oldVersionsAndAttempts": "Retained unchanged; no regrading.",
+    "runtime": "Only pinned L001/L002 starter aliases added with exact filename/version/hash/level and identical concept checks. Existing expansion checks retained."
+  },
+  "verification": {
+    "unit": {
+      "pass": 137,
+      "fail": 0,
+      "skipped": 0
+    },
+    "sqlBatches": [
+      {
+        "path": ".local-postgres/hsk24/hsk1-closure-plural-sql.log",
+        "pass": 8,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-closure-grammar-sql.log",
+        "pass": 15,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-closure-chars1-sql.log",
+        "pass": 11,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-closure-chars2-sql.log",
+        "pass": 11,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-closure-chars3-sql.log",
+        "pass": 11,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-closure-chars4-sql.log",
+        "pass": 11,
+        "fail": 0,
+        "skipped": 0
+      }
+    ],
+    "sqlFinalFocusedRegressions": [
+      {
+        "path": ".local-postgres/hsk24/hsk1-closure-final-level0-sql.log",
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-closure-final-level1-sql.log",
+        "pass": 13,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-closure-final-level2-sql.log",
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-closure-final-level3-sql.log",
+        "pass": 5,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-closure-final-level4-sql.log",
+        "pass": 5,
+        "fail": 0,
+        "skipped": 0
+      }
+    ],
+    "sqlLimits": "Separate runs, all new39 activities and4 repairs covered per batch; final35 are selected regressions, not a rerun of all129 HSK1 activities.",
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "supplementalScriptsLint": "PASS",
+    "productionBuild": "PASS",
+    "browserRuns": [
+      {
+        "file": ".local-postgres/hsk24/hsk1-closure-browser-desktop.json",
+        "stats": {
+          "startTime": "2026-10-31T04:48:36.580Z",
+          "duration": 134700.88999999998,
+          "expected": 2,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "tests": [
+          {
+            "title": "L1103: actual content, resume, grading, completion, progress and accessibility",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 59760,
+                "errors": []
+              }
+            ]
+          },
+          {
+            "title": "L1152: actual content, resume, grading, completion, progress and accessibility",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 46761,
+                "errors": []
+              }
+            ]
+          }
+        ],
+        "retries": 0
+      },
+      {
+        "file": ".local-postgres/hsk24/hsk1-closure-browser-mobile.json",
+        "stats": {
+          "startTime": "2026-10-31T04:51:28.787Z",
+          "duration": 135378.286,
+          "expected": 2,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "tests": [
+          {
+            "title": "L1152: actual content, resume, grading, completion, progress and accessibility",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 62247,
+                "errors": []
+              }
+            ]
+          },
+          {
+            "title": "L1178: actual content, resume, grading, completion, progress and accessibility",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 47543,
+                "errors": []
+              }
+            ]
+          }
+        ],
+        "retries": 0
+      },
+      {
+        "file": ".local-postgres/hsk24/hsk1-closure-browser-navigation-today.json",
+        "stats": {
+          "startTime": "2026-10-31T04:56:11.560Z",
+          "duration": 125832.961,
+          "expected": 6,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "tests": [
+          {
+            "title": "L1103: course and unit links open the exact current immutable lesson",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 45119,
+                "errors": []
+              }
+            ]
+          },
+          {
+            "title": "L1178: course and unit links open the exact current immutable lesson",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 10790,
+                "errors": []
+              }
+            ]
+          },
+          {
+            "title": "L1103: course and unit links open the exact current immutable lesson",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 10533,
+                "errors": []
+              }
+            ]
+          },
+          {
+            "title": "L1178: course and unit links open the exact current immutable lesson",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 10043,
+                "errors": []
+              }
+            ]
+          },
+          {
+            "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 19678,
+                "errors": []
+              }
+            ]
+          },
+          {
+            "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 14129,
+                "errors": []
+              }
+            ]
+          }
+        ],
+        "retries": 0
+      },
+      {
+        "file": ".local-postgres/hsk24/hsk1-closure-browser-char-unit.json",
+        "stats": {
+          "startTime": "2026-10-31T05:01:56.072Z",
+          "duration": 191939.774,
+          "expected": 0,
+          "skipped": 0,
+          "unexpected": 1,
+          "flaky": 0
+        },
+        "tests": [
+          {
+            "title": "L1152: course and unit links open the exact current immutable lesson",
+            "project": "desktop",
+            "status": "unexpected",
+            "attempts": [
+              {
+                "status": "timedOut",
+                "durationMs": 180165,
+                "errors": [
+                  {
+                    "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                  },
+                  {
+                    "location": {
+                      "file": "D:\\Chinese-Study-Hub\\tests\\hsk24-browser\\navigation.spec.ts",
+                      "column": 8,
+                      "line": 52
+                    },
+                    "message": "Error: locator.click: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByTestId('course-HSK1').getByRole('link', { name: 'Xem khóa HSK1', exact: true })\u001b[22m\n\n\n  50 |       .getByTestId(`course-${course.code}`)\n  51 |       .getByRole(\"link\", { name: `Xem khóa ${course.code}`, exact: true })\n> 52 |       .click();\n     |        ^\n  53 |     await expect(\n  54 |       page.getByRole(\"heading\", { name: course.title, exact: true }),\n  55 |     ).toBeVisible();\n    at D:\\Chinese-Study-Hub\\tests\\hsk24-browser\\navigation.spec.ts:52:8"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "retries": 0
+      }
+    ],
+    "historicalResults": "Prior HSK4 and HSK1 failed/unrun cases remain in baseline reports and are not overwritten or closed by these runs."
+  },
+  "preservation": {
+    "database": "csh_hsk24_bf294b6506c1",
+    "privateTables": 19,
+    "baselineRowsAndBindingsVerifiedUnchanged": 76293,
+    "baselineCounts": {
+      "packages": 624,
+      "activity_leases": 32,
+      "api_idempotency": 29003,
+      "attempts": 6730,
+      "cards": 4512,
+      "content_attempt_bindings": 6730,
+      "content_session_state": 2486,
+      "duration_events": 2399,
+      "learning_events": 7529,
+      "lesson_progress": 792,
+      "lesson_sessions": 2487,
+      "mastery_evidence": 6004,
+      "owner_profiles": 0,
+      "planned_blocks": 779,
+      "review_logs": 115,
+      "skill_mastery": 5065,
+      "study_day_overrides": 0,
+      "study_settings": 247,
+      "time_preferences": 248,
+      "weekly_plans": 511
+    },
+    "afterCounts": {
+      "packages": 667,
+      "activity_leases": 35,
+      "api_idempotency": 31016,
+      "attempts": 7259,
+      "cards": 4862,
+      "content_attempt_bindings": 7259,
+      "content_session_state": 2605,
+      "duration_events": 2542,
+      "learning_events": 8120,
+      "lesson_progress": 854,
+      "lesson_sessions": 2606,
+      "mastery_evidence": 6385,
+      "owner_profiles": 0,
+      "planned_blocks": 853,
+      "review_logs": 126,
+      "skill_mastery": 5434,
+      "study_day_overrides": 0,
+      "study_settings": 271,
+      "time_preferences": 272,
+      "weekly_plans": 560
+    },
+    "allBaselineHashesUnchanged": true,
+    "historicalPackageGitBlobsUnchangedByIndependentReview": 628,
+    "historicalAliasRowsUnchangedByIndependentReview": 130,
+    "testOwners": "New synthetic owners only; baseline measurement owner not reused."
+  },
+  "runtimeProfile": {
+    "checkedAt": "2026-10-31T04:46:59.728Z",
+    "sourceCommit": "e8e03c4a14e02ec90344971eddecc079b295c492",
+    "database": "csh_hsk24_bf294b6506c1",
+    "node": "v26.5.0",
+    "platform": "win32",
+    "nativeRepositoryBoundary": true,
+    "freshProcess": true,
+    "explicitCatalogCache": false,
+    "firstConnectionMs": 48.99000000000001,
+    "physicalConnections": 1,
+    "poolAfterEnd": {
+      "total": 0,
+      "idle": 0,
+      "waiting": 0
+    },
+    "samples": [
+      {
+        "phase": "FIRST_TODAY_IN_FRESH_NODE_PROCESS",
+        "wallMs": 111.6096,
+        "sql": 23,
+        "sqlMs": 59.31959999999992,
+        "maxSqlMs": 11.997299999999996,
+        "fullDatabaseManifests": 0,
+        "sqlResultBytes": 8234,
+        "transactions": [
+          111.01979999999998
+        ],
+        "fullSourcePackages": 0,
+        "fsOps": 14,
+        "responseBytes": 1931,
+        "pool": {
+          "total": 1,
+          "idle": 1,
+          "waiting": 0
+        }
+      },
+      {
+        "phase": "WARM_SAME_PROCESS_POOL",
+        "wallMs": 47.44479999999999,
+        "sql": 23,
+        "sqlMs": 10.608899999999835,
+        "maxSqlMs": 2.1988999999999805,
+        "fullDatabaseManifests": 0,
+        "sqlResultBytes": 8234,
+        "transactions": [
+          47.30400000000003
+        ],
+        "fullSourcePackages": 0,
+        "fsOps": 14,
+        "responseBytes": 1931,
+        "pool": {
+          "total": 1,
+          "idle": 1,
+          "waiting": 0
+        }
+      },
+      {
+        "phase": "WARM_SAME_PROCESS_POOL",
+        "wallMs": 45.29309999999998,
+        "sql": 23,
+        "sqlMs": 10.18629999999996,
+        "maxSqlMs": 1.9990999999999985,
+        "fullDatabaseManifests": 0,
+        "sqlResultBytes": 8234,
+        "transactions": [
+          45.18599999999992
+        ],
+        "fullSourcePackages": 0,
+        "fsOps": 14,
+        "responseBytes": 1931,
+        "pool": {
+          "total": 1,
+          "idle": 1,
+          "waiting": 0
+        }
+      },
+      {
+        "phase": "WARM_SAME_PROCESS_POOL",
+        "wallMs": 45.484699999999975,
+        "sql": 23,
+        "sqlMs": 10.09229999999991,
+        "maxSqlMs": 2.0732000000000426,
+        "fullDatabaseManifests": 0,
+        "sqlResultBytes": 8234,
+        "transactions": [
+          45.347099999999955
+        ],
+        "fullSourcePackages": 0,
+        "fsOps": 14,
+        "responseBytes": 1931,
+        "pool": {
+          "total": 1,
+          "idle": 1,
+          "waiting": 0
+        }
+      }
+    ],
+    "methodology": "Source package reads count readFileSync(package filename); full DB manifests count result.rows.manifest objects. These are IO-boundary body counts, not every allocation inside Zod. SQL timing is client wall time including decoding. First connection measured before first Today; all4requests share one bounded pool. No HTTP/GUI or cloud latency claim, no automatic retries. Old learner rows are not modified; dedicated synthetic owner only."
+  },
+  "coldHttpProbe": {
+    "checkedAtUTC": "2026-10-31T04:44:16.389Z",
+    "sourceCommit": "e8e03c4a14e02ec90344971eddecc079b295c492",
+    "scope": "Fresh development server process using existing webpack disk cache. Unique synthetic owner; no old owner writes. Explicit diagnostic samples, not automatic product retries. Startup health polling is separate.",
+    "startupMs": 5853.3088,
+    "rows": [
+      {
+        "label": "FIRST_MODE_POST_FRESH_PROCESS",
+        "path": "/api/local/mode",
+        "method": "POST",
+        "limitMs": 20000,
+        "elapsedMs": 299.46409999999923,
+        "httpStatus": 200,
+        "errorCode": null,
+        "acknowledged": true,
+        "sessionAcknowledged": false
+      },
+      {
+        "label": "FIRST_CURRICULUM_ROUTE",
+        "path": "/api/local/curriculum",
+        "method": "GET",
+        "limitMs": 15000,
+        "elapsedMs": 1023.4415000000008,
+        "httpStatus": 200,
+        "errorCode": null,
+        "acknowledged": true,
+        "sessionAcknowledged": false
+      },
+      {
+        "label": "SECOND_CURRICULUM_DIAGNOSTIC_SAMPLE",
+        "path": "/api/local/curriculum",
+        "method": "GET",
+        "limitMs": 15000,
+        "elapsedMs": 730.0825999999997,
+        "httpStatus": 200,
+        "errorCode": null,
+        "acknowledged": true,
+        "sessionAcknowledged": false
+      },
+      {
+        "label": "FIRST_NEW_LESSON_START",
+        "path": "/api/local/content/l1152-draft-v1/start",
+        "method": "POST",
+        "limitMs": 15000,
+        "elapsedMs": 2194.1324000000004,
+        "httpStatus": 200,
+        "errorCode": null,
+        "acknowledged": true,
+        "sessionAcknowledged": true
+      }
+    ],
+    "cold503Gate": "OPEN - bounded samples cannot prove the prior intermittent root cause repaired."
+  },
+  "failedNavigationTraceAnalysis": {
+    "scope": "Read-only extraction from the failed L1152 navigation trace. No rerun or timeout increase.",
+    "trace": ".local-postgres/hsk24/hsk1-closure-char-unit-traces/navigation-L1152-course-an-e42f7-ct-current-immutable-lesson-desktop/trace.zip",
+    "requests": [
+      {
+        "url": "http://127.0.0.1:3037/api/local/status",
+        "method": "GET",
+        "timeMs": 58.059,
+        "status": 200,
+        "failure": null,
+        "timings": {
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "send": 0,
+          "wait": 57.111,
+          "receive": 0.948
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/status",
+        "method": "GET",
+        "timeMs": 67.348,
+        "status": 200,
+        "failure": null,
+        "timings": {
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "send": 0,
+          "wait": 66.498,
+          "receive": 0.85
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/mode",
+        "method": "POST",
+        "timeMs": 42.794000000000004,
+        "status": 200,
+        "failure": null,
+        "timings": {
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "send": 0,
+          "wait": 41.408,
+          "receive": 1.386
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/snapshot",
+        "method": "GET",
+        "timeMs": 165.076,
+        "status": 200,
+        "failure": null,
+        "timings": {
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "send": 0,
+          "wait": 164.28,
+          "receive": 0.796
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/study/settings",
+        "method": "GET",
+        "timeMs": 1615.0439999999999,
+        "status": 200,
+        "failure": null,
+        "timings": {
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "send": 0,
+          "wait": 1612.829,
+          "receive": 2.215
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/study/settings",
+        "method": "GET",
+        "timeMs": 1624.447,
+        "status": 200,
+        "failure": null,
+        "timings": {
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "send": 0,
+          "wait": 1622.956,
+          "receive": 1.491
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/status",
+        "method": "GET",
+        "timeMs": 146.277,
+        "status": 200,
+        "failure": null,
+        "timings": {
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "send": 0,
+          "wait": 145.207,
+          "receive": 1.07
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/status",
+        "method": "GET",
+        "timeMs": 158.92000000000002,
+        "status": 200,
+        "failure": null,
+        "timings": {
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "send": 0,
+          "wait": 158.037,
+          "receive": 0.883
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/snapshot",
+        "method": "GET",
+        "timeMs": 76.31700000000001,
+        "status": 200,
+        "failure": null,
+        "timings": {
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "send": 0,
+          "wait": 75.649,
+          "receive": 0.668
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/content",
+        "method": "GET",
+        "timeMs": 1144.795,
+        "status": 200,
+        "failure": null,
+        "timings": {
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "send": 0,
+          "wait": 1142.712,
+          "receive": 2.083
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/content",
+        "method": "GET",
+        "timeMs": 1340.9,
+        "status": 200,
+        "failure": null,
+        "timings": {
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "send": 0,
+          "wait": 1339.612,
+          "receive": 1.288
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/curriculum",
+        "method": "GET",
+        "timeMs": 14997.213,
+        "status": -1,
+        "failure": null,
+        "timings": {
+          "send": -1,
+          "wait": -1,
+          "receive": -1
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/study/preview",
+        "method": "POST",
+        "timeMs": -1,
+        "status": -1,
+        "failure": null,
+        "timings": {
+          "send": -1,
+          "wait": -1,
+          "receive": -1
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/mode",
+        "method": "GET",
+        "timeMs": 740.023000000001,
+        "status": 405,
+        "failure": null,
+        "timings": {
+          "send": 0.8410000000003492,
+          "wait": 739.719000000001,
+          "receive": 0.3040000000000873,
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "blocked": 0.5460000000002765
+        }
+      },
+      {
+        "url": "http://127.0.0.1:3037/api/local/snapshot",
+        "method": "GET",
+        "timeMs": 339.02700000000004,
+        "status": 401,
+        "failure": null,
+        "timings": {
+          "send": 0.44399999999950523,
+          "wait": 338.6329999999998,
+          "receive": 0.39400000000023283,
+          "dns": -1,
+          "connect": -1,
+          "ssl": -1,
+          "blocked": 0.30600000000049477
+        }
+      }
+    ],
+    "result": "Course catalog request timed out before reaching the target unit; unit route correctness is not established by this failed case. Cold/transport gate remains OPEN."
+  },
+  "clientIsolation": {
+    "passed": true,
+    "scope": "Frozen actual Turbopack production build JS/maps after the HSK1 grammar/glyph additions; route/case coverage is reported separately.",
+    "files": 33,
+    "bytes": 968995,
+    "packageVersionsScanned": 667,
+    "privateKeyIdsChecked": 5318,
+    "markerHits": 0,
+    "archive": ".local-postgres/hsk24/hsk1-closure-production-dev-client.zip",
+    "archiveSha256": "9611801a8c0b27cca5edf8e9aa85e54d46545a28bcba024649a6c2378299e203",
+    "manifest": ".local-postgres/hsk24/hsk1-closure-production-dev-client.json",
+    "manifestSha256": "6ea3c9c4abce9719ece915cd9c90f237531d7bf549e8c8efca6c1373fa9bceaf",
+    "limits": "Exact private-key-ID scan and separate allowlist tests, not a formal leak proof or a claim about future preview assets."
+  },
+  "intermediateFailuresAndRecovery": [
+    "L1109 wording/key consistency fixed before first registration, guarded by DBcount0; no registered immutable content rewritten.",
+    "chars1 first import registered packages then rejected numeric catalogslug; alpha catalogslug repair and idempotent reimport reused exact hashes. Builder now validates curriculum before writing.",
+    "Initial finite graph API rebuild hit Windows multiprocessing error and fell back to sequential; misplaced delayed cache moved outside src; supported final CLI scope/output clean."
+  ],
+  "independentReview": {
+    "coreCommit": "e8e03c4a14e02ec90344971eddecc079b295c492",
+    "verdict": "TECHNICAL_CONTENT_CONSISTENCY_PASS",
+    "process": "Separate read-only hsk1_closure_final_review",
+    "notHumanLanguageApproval": true,
+    "finalDocumentationAudit": "Recorded separately in handoff receipt after report commit."
+  },
+  "gates": {
+    "curriculum": "PARTIAL",
+    "cold503": "OPEN",
+    "publication": "BLOCKED",
+    "newMaterial": "DRAFT",
+    "competentHumanReviewed": 0,
+    "published": 0,
+    "learnerMasteryGrantedByThisTask": 0
+  },
+  "remaining": [
+    "Atomic grammar alternatives and full-row acceptance, including subject-predicate phrase/category distinctions.",
+    "Quality audit of existing glyph instruction not given new position/contrast blocks; no unaided retention claim.",
+    "All100 shared handwriting glyphs; listening/speaking/recording and competent audio review.",
+    "Remaining physical task bullets and full topic scenarios; source references alone do not close these.",
+    "Competent human language/rights/publication evidence and unresolved cold/503 transport gate.",
+    "Reviewed audio, listening, speaking, handwriting, free writing and independent retention/transfer are not assessed here."
+  ],
+  "nextCheckpoint": "Decompose70 physical grammar rows into source-backed atomic alternatives; audit45 candidate bindings/3 legacylocators/2 structural distinctions; audit other78 glyph instructions; link59 taskbullets to teaching/practice permodality before adding only genuine gaps. Preserve human/rights/audio and cold503 gates.",
+  "preview": "http://127.0.0.1:3037/learn/courses/HSK1",
+  "evidence": [
+    {
+      "path": "docs/hsk24/hsk1-closure-source-requirements.json",
+      "bytes": 75328,
+      "sha256": "fa104dd98e751480e688ffc6800699e27864d2588ebe051d7c71eeb7dec78e9c"
+    },
+    {
+      "path": "docs/hsk24/hsk1-closure-coverage-delta.json",
+      "bytes": 293499,
+      "sha256": "0db56362f95835e9ecac7a828aae4c09e73f945cf86687e36eec62ddf7ccbbc4"
+    },
+    {
+      "path": ".local-postgres/source-research/hsk-2025-11.pdf",
+      "bytes": 4636209,
+      "sha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-20261031-before.json",
+      "bytes": 12500220,
+      "sha256": "a8fed8e10768f205d20938b4056f6783e194a056f94b66152ca3570b1bacc0dd"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-final-after-browser.json",
+      "bytes": 13387682,
+      "sha256": "b6bfc98e1b86e41a4a225e3c54ffcbae647af27da5f0db615f1209f965f1e2da"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-final-preserve-browser.log",
+      "bytes": 534,
+      "sha256": "785fe7f73da974b161292e6ca41568fa56b226057bdc85f4b7a5f6a24e8cbfaa"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-plural-sql.log",
+      "bytes": 969,
+      "sha256": "b552b0b360170190c6535f5912542abee2fed54a681a68913655e5f00b2d0c30"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-grammar-sql.log",
+      "bytes": 1722,
+      "sha256": "7e2d8616128d80383edad5ecb5c23fd173d0797d6d4c2871adedccd0c51080e3"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-chars1-sql.log",
+      "bytes": 1296,
+      "sha256": "c6187b5786ff2f2362d16fe632f3c87c6c2716c53a490c986984522c5b8e3aaa"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-chars2-sql.log",
+      "bytes": 1296,
+      "sha256": "8cbc5f6112b716f121ab03125ab6e679e2a695c3866257c500b2a5a0cf0a2e52"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-chars3-sql.log",
+      "bytes": 1296,
+      "sha256": "423c1ad7852e61cb418795032f802902b29c6191ad566e4f35c89c8bcf46b399"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-chars4-sql.log",
+      "bytes": 1295,
+      "sha256": "e7841e6f72126d356cea6e04fb0e0688a9e1efc53d03b6606d27ac4718152f6c"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-final-level0-sql.log",
+      "bytes": 758,
+      "sha256": "571e7d80f8564b2eb41ef04c4fdf4679e7e448a5dbf07f372f9cabfb951d265a"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-final-level1-sql.log",
+      "bytes": 1505,
+      "sha256": "c7c8c26339acbf35ed4ea1e225e8065d7c8e42fa22ea1bf0fe3e150a5a4c20d0"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-final-level2-sql.log",
+      "bytes": 755,
+      "sha256": "0e6cf8a6ac040976db63794a7b448736708048b6a08caf88c59035df36de1919"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-final-level3-sql.log",
+      "bytes": 652,
+      "sha256": "d8e48029a6398d5035f8071fc8cbd2ca55754a5f5f5d6489d362854c3492ec52"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-final-level4-sql.log",
+      "bytes": 651,
+      "sha256": "2a84e9313168ab681d88f3cbb562cf09c319b53344d4c58ce4e933e60aad75a9"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-browser-desktop.json",
+      "bytes": 7208,
+      "sha256": "2a68b41a40fe9cad570fd3a39dfaf73ebed6fcb031bacd862b052cafb22dfc9a"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-browser-mobile.json",
+      "bytes": 7213,
+      "sha256": "80cd25b0da6c54e0c451e0cf8df36bdbddf2552464218fc5f2600edeb7801845"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-browser-navigation-today.json",
+      "bytes": 14050,
+      "sha256": "9d7af0c9671f80a19ef935fddbd3cbcb48614cb7e38241bd2d8769e601418d96"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-browser-char-unit.json",
+      "bytes": 8167,
+      "sha256": "ad62aa1d274e25c97936c98d41c55a0be98912a6d242729fbdd6e8d208f04d8d"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-browser-desktop.log",
+      "bytes": 25022,
+      "sha256": "1c7f6d129cabf44f5d307d7644192c243825d0a5230f5c31ba867e76687fa23c"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-browser-mobile.log",
+      "bytes": 25413,
+      "sha256": "4dbc58e8cd2d62d1f09a11734a4e2703e40ea61543c04b23706808be1174d580"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-browser-navigation-today.log",
+      "bytes": 10614,
+      "sha256": "375cca12d5d32c6d11a2d7935c124372c664f7c805244e894706fe3728f2a757"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-browser-char-unit.log",
+      "bytes": 3182,
+      "sha256": "666bb26ba9d4fb246bd500ff8e0164b3a1601c2f92bab2b1f66ad9418b953224"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-final-unit.log",
+      "bytes": 16160,
+      "sha256": "7899fd5dc1448e5c8b1d61ce03ca20b170740abfd802af68b1f7a66819e8113e"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-final-typecheck.log",
+      "bytes": 57,
+      "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-final-lint.log",
+      "bytes": 595,
+      "sha256": "d2246b046ac72a5146dfff03bb52c140232287592ad9a829a65c8e5759484d55"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-final-scripts-lint.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-coverage-lint.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-final-build.log",
+      "bytes": 2266,
+      "sha256": "a4ffced0b799b9f2c6d185bf8408b3e75709b739e1462ce2cf3b52df8ed18c3c"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-cold-http.json",
+      "bytes": 1676,
+      "sha256": "12a6237d1d74517447600aee00625a32b1486a4d7fb507b5571d6190c6144d3e"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-cold-server.log",
+      "bytes": 685,
+      "sha256": "b52e260d7fa333778c924808b6060b1e1b3a3d991c077bc2969ea844884e96d5"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-graph-content-query.txt",
+      "bytes": 3854,
+      "sha256": "35ef2b6047ce762ef961605a7f80208d0d376cc3ce148460180f3198fc10661a"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-graph-learning-query.txt",
+      "bytes": 4232,
+      "sha256": "66435c95ed88b591c688f02374b279c995ddf1ee11660b8f12d5033620a38866"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-graph-final.json",
+      "bytes": 1026,
+      "sha256": "b27d4f5c01ec8479d47bbf7f3c01484ca711f25267cd764d709cd44bee9d723a"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-graph-final-update.log",
+      "bytes": 522,
+      "sha256": "176904cf5569441c96a653531c34d32c11b4bb7f1ddf134fdec42cb4f169b7c6"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-production-client-isolation.json",
+      "bytes": 766,
+      "sha256": "5164bd77fc4f934473d0366bf92147948c9987faf373f25a93505aff5ee235b4"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-production-dev-client.zip",
+      "bytes": 310874,
+      "sha256": "9611801a8c0b27cca5edf8e9aa85e54d46545a28bcba024649a6c2378299e203"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-production-dev-client.json",
+      "bytes": 8476,
+      "sha256": "6ea3c9c4abce9719ece915cd9c90f237531d7bf549e8c8efca6c1373fa9bceaf"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-chars1-import.log",
+      "bytes": 340,
+      "sha256": "efe013bb135bbf439c6839510a8e595c99a161b5d3dfbe92ac0a79029627526c"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-chars1-import-recovered.log",
+      "bytes": 569,
+      "sha256": "79c5dc9db0d85479e52bb10ff3884c2a8de0c30d6dc9dc46b4759a1b16ca7caf"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-runtime-closure-20261031.json",
+      "bytes": 2769,
+      "sha256": "813ed377f00d4c79975424527fe691fd93b09331e2fee04a9cb4b4c0ccd49774"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-char-unit-failure-analysis.json",
+      "bytes": 5545,
+      "sha256": "3ea0d0d9c55c10729578c3af4141ffb071ceb19bdff599551d2cd55152b717d0"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-char-unit-traces/navigation-L1152-course-an-e42f7-ct-current-immutable-lesson-desktop/trace.zip",
+      "bytes": 1471598,
+      "sha256": "830efdaed9e1f3060179c324de240823c8bffa5be53bd31f76c3b34d6281ce93"
+    }
+  ]
+}

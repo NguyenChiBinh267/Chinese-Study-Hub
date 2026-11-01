@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "3ec1f727d28efcd6cb04cd54b461a118db1333974e97a0be96c1af053267c8e3",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ecb",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L421",
+    "version": 1,
+    "versionId": "l421-draft-v1",
+    "title": "Phân biệt tình yêu, lòng nhân ái và cảm xúc",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân biệt tình yêu, lòng nhân ái và cảm xúc; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "不是……，而是……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 21,
+      "physicalPage": 22,
+      "printedPage": 19,
+      "section": "task",
+      "entry": "四"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T17:18:31.473810Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-feeling",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 21,
+          "physicalPage": 22,
+          "printedPage": 19,
+          "section": "task",
+          "entry": "四"
+        },
+        "written": "谈论情感话题",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-3e741dd4830a",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "情感"
+        },
+        "written": "情感",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l421-v-1002",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1002"
+        },
+        "written": "爱情",
+        "pinyin": "àiqíng",
+        "senseId": "l421-v-1002-sense",
+        "ordinal": 1002,
+        "note": "4 àiqíng 名; 爱情 nói quan hệ tình yêu, không dùng thay mọi sự quan tâm giữa người với người. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l421-v-1003",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1003"
+        },
+        "written": "爱心",
+        "pinyin": "àixīn",
+        "senseId": "l421-v-1003-sense",
+        "ordinal": 1003,
+        "note": "4 àixīn 名; 爱心 nhấn sự quan tâm, thương yêu dành cho người khác, không chỉ tình yêu đôi lứa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l421-v-1284",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 111,
+          "physicalPage": 112,
+          "printedPage": 109,
+          "section": "vocabulary",
+          "entry": "ordinal 1284"
+        },
+        "written": "害羞",
+        "pinyin": "hàixiū",
+        "senseId": "l421-v-1284-sense",
+        "ordinal": 1284,
+        "note": "4 hàixiū 形; 害羞 nói cảm giác ngại trước người khác trong hoàn cảnh cụ thể; không tự là thiếu năng lực nói hay không muốn tham gia. Nhận diện chữ 羞 trong 害羞; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l421-v-1225",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1225"
+        },
+        "written": "感动",
+        "pinyin": "gǎndòng",
+        "senseId": "l421-v-1225-sense",
+        "ordinal": 1225,
+        "note": "4 gǎndòng 形、动; 感动 ở 我很感动 nói trạng thái của người được tác động; khác 感人 mô tả điều gây cảm xúc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l421-v-1230",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1230"
+        },
+        "written": "感人",
+        "pinyin": "gǎnrén",
+        "senseId": "l421-v-1230-sense",
+        "ordinal": 1230,
+        "note": "4 gǎnrén 形; 感人 thường nói câu chuyện/hành động khiến người khác xúc động; không thay trực tiếp 我很感动 bằng 我很感人 với cùng nghĩa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l421-v-1233",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1233"
+        },
+        "written": "感谢",
+        "pinyin": "gǎnxiè",
+        "senseId": "l421-v-1233-sense",
+        "ordinal": 1233,
+        "note": "4 gǎnxiè 动; 感谢 nhận người hoặc sự giúp đỡ muốn cảm ơn; khác 感动 là trạng thái xúc động. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-360",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "360"
+        },
+        "written": "羞",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 360,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-421",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "并列复句：不是，而是"
+        },
+        "written": "不是……，而是……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l421-c0",
+      "version": 1,
+      "senseId": "l421-v-1002-sense",
+      "hanzi": "爱情",
+      "dictionaryPinyin": "ài qíng",
+      "meaning": "tình yêu đôi lứa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l421-v-1002"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l421-c1",
+      "version": 1,
+      "senseId": "l421-v-1003-sense",
+      "hanzi": "爱心",
+      "dictionaryPinyin": "ài xīn",
+      "meaning": "lòng nhân ái",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l421-v-1003"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l421-c2",
+      "version": 1,
+      "senseId": "l421-v-1284-sense",
+      "hanzi": "害羞",
+      "dictionaryPinyin": "hài xiū",
+      "meaning": "ngại ngùng, e thẹn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l421-v-1284"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l421-c3",
+      "version": 1,
+      "senseId": "l421-v-1225-sense",
+      "hanzi": "感动",
+      "dictionaryPinyin": "gǎn dòng",
+      "meaning": "cảm động",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l421-v-1225"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l421-c4",
+      "version": 1,
+      "senseId": "l421-v-1230-sense",
+      "hanzi": "感人",
+      "dictionaryPinyin": "gǎn rén",
+      "meaning": "gây xúc động",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l421-v-1230"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l421-c5",
+      "version": 1,
+      "senseId": "l421-v-1233-sense",
+      "hanzi": "感谢",
+      "dictionaryPinyin": "gǎn xiè",
+      "meaning": "cảm ơn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l421-v-1233"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l421-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 读书会 dúshūhuì: buổi đọc sách; 相处 xiāngchǔ: chung sống/giao tiếp; 形成 xíngchéng: hình thành; 长期 chángqī: dài hạn. Chữ 爱 ở bài là ôn chữ nền tảng, không tính thêm vào 441 chữ mới HSK4.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l421-t0",
+      "type": "teaching",
+      "title": "爱情 · tình yêu đôi lứa",
+      "text": "爱情 nói quan hệ tình yêu, không dùng thay mọi sự quan tâm giữa người với người.",
+      "hanzi": "这部小说写的是两个人的爱情。",
+      "pinyin": "Zhè bù xiǎoshuō xiě de shì liǎng ge rén de àiqíng.",
+      "meaning": "Tiểu thuyết này viết về tình yêu của hai người.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l421-t1",
+      "type": "teaching",
+      "title": "爱心 · lòng nhân ái",
+      "text": "爱心 nhấn sự quan tâm, thương yêu dành cho người khác, không chỉ tình yêu đôi lứa.",
+      "hanzi": "她用行动表达对孩子们的爱心。",
+      "pinyin": "Tā yòng xíngdòng biǎodá duì háizimen de àixīn.",
+      "meaning": "Cô ấy dùng hành động thể hiện lòng quan tâm tới trẻ em.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l421-t2",
+      "type": "teaching",
+      "title": "害羞 · ngại ngùng, e thẹn",
+      "text": "害羞 nói cảm giác ngại trước người khác trong hoàn cảnh cụ thể; không tự là thiếu năng lực nói hay không muốn tham gia. Nhận diện chữ 羞 trong 害羞; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "第一次分享故事，她有点儿害羞。",
+      "pinyin": "Dì yī cì fēnxiǎng gùshi, tā yǒudiǎnr hàixiū.",
+      "meaning": "Lần đầu chia sẻ chuyện, cô ấy hơi ngại.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l421-t3",
+      "type": "teaching",
+      "title": "感动 · cảm động",
+      "text": "感动 ở 我很感动 nói trạng thái của người được tác động; khác 感人 mô tả điều gây cảm xúc.",
+      "hanzi": "听完这个故事，我很感动。",
+      "pinyin": "Tīng wán zhège gùshi, wǒ hěn gǎndòng.",
+      "meaning": "Nghe xong câu chuyện, tôi rất cảm động.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l421-t4",
+      "type": "teaching",
+      "title": "感人 · gây xúc động",
+      "text": "感人 thường nói câu chuyện/hành động khiến người khác xúc động; không thay trực tiếp 我很感动 bằng 我很感人 với cùng nghĩa.",
+      "hanzi": "这个互相帮助的故事很感人。",
+      "pinyin": "Zhège hùxiāng bāngzhù de gùshi hěn gǎnrén.",
+      "meaning": "Câu chuyện giúp đỡ nhau này rất cảm động.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l421-t5",
+      "type": "teaching",
+      "title": "感谢 · cảm ơn",
+      "text": "感谢 nhận người hoặc sự giúp đỡ muốn cảm ơn; khác 感动 là trạng thái xúc động.",
+      "hanzi": "我想感谢所有帮助过我的人。",
+      "pinyin": "Wǒ xiǎng gǎnxiè suǒyǒu bāngzhù guo wǒ de rén.",
+      "meaning": "Tôi muốn cảm ơn tất cả những người từng giúp mình.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l421-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "不是A，而是B bác cách hiểu A rồi nêu cách hiểu B. Nó không chỉ là liệt kê hai lựa chọn. 在这篇故事里，不是爱情，而是互相帮助的爱心 nêu điều người kể muốn nói.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l421-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "读书会上，小梅起初有点儿害羞，后来说这篇故事很感人，让她很感动。故事写的不是爱情，而是邻居之间互相帮助的爱心。她感谢那位分享故事的同学，也谈到长期相处形成的感情。大家没有把所有感情都叫作爱情。",
+      "pinyin": "Dúshūhuì shàng, Xiǎo Méi qǐchū yǒudiǎnr hàixiū, hòulái shuō zhè piān gùshi hěn gǎnrén, ràng tā hěn gǎndòng. Gùshi xiě de bú shì àiqíng, ér shì línjū zhījiān hùxiāng bāngzhù de àixīn. Tā gǎnxiè nà wèi fēnxiǎng gùshi de tóngxué, yě tán dào chángqī xiāngchǔ xíngchéng de gǎnqíng. Dàjiā méiyǒu bǎ suǒyǒu gǎnqíng dōu jiào zuò àiqíng.",
+      "meaning": "Mai lúc đầu hơi ngại, sau xúc động vì câu chuyện hàng xóm giúp nhau. Người kể phân biệt lòng nhân ái với tình yêu đôi lứa, và nói tình cảm rộng hơn tình yêu.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l421-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l421-v1-e0"
+    },
+    {
+      "id": "l421-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l421-v1-e1"
+    },
+    {
+      "id": "l421-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l421-v1-e2"
+    },
+    {
+      "id": "l421-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l421-v1-e3"
+    },
+    {
+      "id": "l421-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l421-v1-e4"
+    },
+    {
+      "id": "l421-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l421-v1-e5"
+    },
+    {
+      "id": "l421-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l421-v1-e6"
+    },
+    {
+      "id": "l421-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l421-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l421-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l421-c0",
+      "senseId": "l421-v-1002-sense",
+      "keyRef": "l421-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “tình yêu đôi lứa” để điền câu: 这部小说写的是两个人的□。",
+      "choices": [
+        "爱心",
+        "害羞",
+        "感动",
+        "感人",
+        "感谢",
+        "爱情"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l421-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l421-c1",
+      "senseId": "l421-v-1003-sense",
+      "keyRef": "l421-v1-k1",
+      "prompt": "Ghi pinyin của 爱心 trong câu “她用行动表达对孩子们的爱心。”, theo nghĩa “lòng nhân ái”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l421-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l421-c2",
+      "senseId": "l421-v-1284-sense",
+      "keyRef": "l421-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “ngại ngùng, e thẹn”: 害□ (hài xiū). Ngữ cảnh: 第一次分享故事，她有点儿□。",
+      "choices": [
+        "姜",
+        "羞",
+        "差",
+        "着"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l421-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l421-c3",
+      "senseId": "l421-v-1225-sense",
+      "keyRef": "l421-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “cảm động” để điền câu: 听完这个故事，我很□。",
+      "choices": [
+        "感人",
+        "感谢",
+        "爱情",
+        "爱心",
+        "害羞",
+        "感动"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l421-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l421-c4",
+      "senseId": "l421-v-1230-sense",
+      "keyRef": "l421-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “gây xúc động” để điền câu: 这个互相帮助的故事很□。",
+      "choices": [
+        "感谢",
+        "爱情",
+        "爱心",
+        "害羞",
+        "感动",
+        "感人"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l421-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l421-c5",
+      "senseId": "l421-v-1233-sense",
+      "keyRef": "l421-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “cảm ơn”: 我想□所有帮助过我的人。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l421-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l421-c0",
+      "senseId": "l421-v-1002-sense",
+      "keyRef": "l421-v1-k6",
+      "prompt": "Chủ đề câu chuyện được giải thích là gì?",
+      "choices": [
+        "两个人的爱情",
+        "所有感情都不存在",
+        "邻居互相帮助的爱心"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l421-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l421-c3",
+      "senseId": "l421-v-1225-sense",
+      "keyRef": "l421-v1-k7",
+      "prompt": "Xếp lời bác cách hiểu sai trong đoạn, bắt đầu bằng 故事写的.",
+      "choices": [
+        "而是爱心",
+        "爱情",
+        "不是",
+        "故事写的"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l421-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l421-v1-e0",
+      "senseId": "l421-v-1002-sense",
+      "accepted": [
+        "爱情"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "爱情: tình yêu đôi lứa. 爱情 nói quan hệ tình yêu, không dùng thay mọi sự quan tâm giữa người với người. Tiểu thuyết này viết về tình yêu của hai người."
+    },
+    {
+      "id": "l421-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l421-v1-e1",
+      "senseId": "l421-v-1003-sense",
+      "accepted": [
+        "ài xīn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc ài xīn. 爱心 nhấn sự quan tâm, thương yêu dành cho người khác, không chỉ tình yêu đôi lứa."
+    },
+    {
+      "id": "l421-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l421-v1-e2",
+      "senseId": "l421-v-1284-sense",
+      "accepted": [
+        "羞"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 羞 tạo từ 害羞. 害羞 nói cảm giác ngại trước người khác trong hoàn cảnh cụ thể; không tự là thiếu năng lực nói hay không muốn tham gia. Nhận diện chữ 羞 trong 害羞; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l421-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l421-v1-e3",
+      "senseId": "l421-v-1225-sense",
+      "accepted": [
+        "感动"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "感动: cảm động. 感动 ở 我很感动 nói trạng thái của người được tác động; khác 感人 mô tả điều gây cảm xúc. Nghe xong câu chuyện, tôi rất cảm động."
+    },
+    {
+      "id": "l421-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l421-v1-e4",
+      "senseId": "l421-v-1230-sense",
+      "accepted": [
+        "感人"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "感人: gây xúc động. 感人 thường nói câu chuyện/hành động khiến người khác xúc động; không thay trực tiếp 我很感动 bằng 我很感人 với cùng nghĩa. Câu chuyện giúp đỡ nhau này rất cảm động."
+    },
+    {
+      "id": "l421-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l421-v1-e5",
+      "senseId": "l421-v-1233-sense",
+      "accepted": [
+        "感谢"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 感谢. 感谢 nhận người hoặc sự giúp đỡ muốn cảm ơn; khác 感动 là trạng thái xúc động. Tôi muốn cảm ơn tất cả những người từng giúp mình."
+    },
+    {
+      "id": "l421-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l421-v1-e6",
+      "senseId": "l421-v-1002-sense",
+      "accepted": [
+        "邻居互相帮助的爱心"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 邻居互相帮助的爱心. Mai lúc đầu hơi ngại, sau xúc động vì câu chuyện hàng xóm giúp nhau. Người kể phân biệt lòng nhân ái với tình yêu đôi lứa, và nói tình cảm rộng hơn tình yêu."
+    },
+    {
+      "id": "l421-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l421-v1-e7",
+      "senseId": "l421-v-1225-sense",
+      "accepted": [
+        "3,2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 不是A，而是B bác cách hiểu A rồi nêu cách hiểu B. Nó không chỉ là liệt kê hai lựa chọn. 在这篇故事里，不是爱情，而是互相帮助的爱心 nêu điều người kể muốn nói."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

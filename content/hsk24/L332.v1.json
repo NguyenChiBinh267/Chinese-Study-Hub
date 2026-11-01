@@ -1,0 +1,782 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "3f2cf1b3e90b21968212d386400f5c7decda360df8fc34794aace46bb14c8c17",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-directions-map",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L332",
+    "version": 1,
+    "versionId": "l332-draft-v1",
+    "title": "Đọc phương hướng trên sơ đồ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân biệt các hướng và cách dùng từ phương vị.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "方位名词"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 14,
+      "physicalPage": 15,
+      "printedPage": 12,
+      "section": "task",
+      "entry": "五"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 14,
+          "physicalPage": 15,
+          "printedPage": 12,
+          "section": "task",
+          "entry": "五"
+        },
+        "written": "谈论交通出行",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-travel-plan",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "出行安排"
+        },
+        "written": "出行安排",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l332-v-518",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 518"
+        },
+        "written": "北方",
+        "pinyin": "běifāng",
+        "senseId": "l332-v-518-sense",
+        "ordinal": 518,
+        "note": "3 běifāng 名; 北方 là phía bắc hoặc miền bắc theo mốc đang nói; cần biết mốc, không tự đồng nhất với một tỉnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l332-v-776",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 776"
+        },
+        "written": "南方",
+        "pinyin": "nánfāng",
+        "senseId": "l332-v-776-sense",
+        "ordinal": 776,
+        "note": "3 nánfāng 名; 南方 là phía nam/miền nam theo bối cảnh, không phải tên riêng của một nước. 从南方来 nói từ miền nam đến. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l332-v-598",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 598"
+        },
+        "written": "东北",
+        "pinyin": "dōngběi",
+        "senseId": "l332-v-598-sense",
+        "ordinal": 598,
+        "note": "3 dōngběi 名; 东北 nằm giữa đông và bắc trên sơ đồ; không đảo thành 西北 khi xác định góc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l332-v-600",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 600"
+        },
+        "written": "东南",
+        "pinyin": "dōngnán",
+        "senseId": "l332-v-600-sense",
+        "ordinal": 600,
+        "note": "3 dōngnán 名; 东南 nằm giữa đông và nam; chữ 南 quyết định nửa phía nam trong đối chiếu 东北. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l332-v-881",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 881"
+        },
+        "written": "西北",
+        "pinyin": "xīběi",
+        "senseId": "l332-v-881-sense",
+        "ordinal": 881,
+        "note": "3 xīběi 名; 西北 nằm giữa tây và bắc; 西 ở đầu ghép với 北, không phải một hướng nam. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l332-v-884",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 884"
+        },
+        "written": "西南",
+        "pinyin": "xīnán",
+        "senseId": "l332-v-884-sense",
+        "ordinal": 884,
+        "note": "3 xīnán 名; 西南 nằm giữa tây và nam; dùng 地点+的西南 nêu vị trí tương đối trên sơ đồ. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-11",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "11"
+        },
+        "written": "北",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 11,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "方",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-156",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "156"
+        },
+        "written": "南",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 156,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-orientation",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "名词 / 方位名词"
+        },
+        "written": "方位名词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l332-c0",
+      "version": 1,
+      "senseId": "l332-v-518-sense",
+      "hanzi": "北方",
+      "dictionaryPinyin": "běi fāng",
+      "meaning": "phía/vùng bắc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l332-v-518"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l332-c1",
+      "version": 1,
+      "senseId": "l332-v-776-sense",
+      "hanzi": "南方",
+      "dictionaryPinyin": "nán fāng",
+      "meaning": "phía/vùng nam",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l332-v-776"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l332-c2",
+      "version": 1,
+      "senseId": "l332-v-598-sense",
+      "hanzi": "东北",
+      "dictionaryPinyin": "dōng běi",
+      "meaning": "đông bắc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l332-v-598"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l332-c3",
+      "version": 1,
+      "senseId": "l332-v-600-sense",
+      "hanzi": "东南",
+      "dictionaryPinyin": "dōng nán",
+      "meaning": "đông nam",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l332-v-600"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l332-c4",
+      "version": 1,
+      "senseId": "l332-v-881-sense",
+      "hanzi": "西北",
+      "dictionaryPinyin": "xī běi",
+      "meaning": "tây bắc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l332-v-881"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l332-c5",
+      "version": 1,
+      "senseId": "l332-v-884-sense",
+      "hanzi": "西南",
+      "dictionaryPinyin": "xī nán",
+      "meaning": "tây nam",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l332-v-884"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l332-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 确认 quèrèn: xác nhận; 方向 fāngxiàng: phương hướng; 银行 yínháng: ngân hàng. Nội dung là sơ đồ chữ hư cấu, không chỉ đường ngoài đời.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l332-t0",
+      "type": "teaching",
+      "title": "北方 · phía/vùng bắc",
+      "text": "北方 là phía bắc hoặc miền bắc theo mốc đang nói; cần biết mốc, không tự đồng nhất với một tỉnh.",
+      "hanzi": "这个城市在北方。",
+      "pinyin": "Zhège chéngshì zài běifāng.",
+      "meaning": "Thành phố này ở miền bắc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l332-t1",
+      "type": "teaching",
+      "title": "南方 · phía/vùng nam",
+      "text": "南方 là phía nam/miền nam theo bối cảnh, không phải tên riêng của một nước. 从南方来 nói từ miền nam đến.",
+      "hanzi": "她从南方来。",
+      "pinyin": "Tā cóng nánfāng lái.",
+      "meaning": "Cô ấy đến từ miền nam.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l332-t2",
+      "type": "teaching",
+      "title": "东北 · đông bắc",
+      "text": "东北 nằm giữa đông và bắc trên sơ đồ; không đảo thành 西北 khi xác định góc.",
+      "hanzi": "学校在公园的东北。",
+      "pinyin": "Xuéxiào zài gōngyuán de dōngběi.",
+      "meaning": "Trường ở phía đông bắc công viên.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l332-t3",
+      "type": "teaching",
+      "title": "东南 · đông nam",
+      "text": "东南 nằm giữa đông và nam; chữ 南 quyết định nửa phía nam trong đối chiếu 东北.",
+      "hanzi": "银行在学校的东南。",
+      "pinyin": "Yínháng zài xuéxiào de dōngnán.",
+      "meaning": "Ngân hàng ở đông nam trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l332-t4",
+      "type": "teaching",
+      "title": "西北 · tây bắc",
+      "text": "西北 nằm giữa tây và bắc; 西 ở đầu ghép với 北, không phải một hướng nam.",
+      "hanzi": "图书馆在公园的西北。",
+      "pinyin": "Túshūguǎn zài gōngyuán de xīběi.",
+      "meaning": "Thư viện ở tây bắc công viên.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l332-t5",
+      "type": "teaching",
+      "title": "西南 · tây nam",
+      "text": "西南 nằm giữa tây và nam; dùng 地点+的西南 nêu vị trí tương đối trên sơ đồ.",
+      "hanzi": "我家在学校的西南。",
+      "pinyin": "Wǒ jiā zài xuéxiào de xīnán.",
+      "meaning": "Nhà tôi ở tây nam trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l332-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "北方/南方 chỉ phía/vùng bắc hoặc nam. 东北, 东南, 西北, 西南 ghép hai hướng. Sơ đồ bài lấy bắc ở trên; đời thực phải kiểm tra ký hiệu, không mặc định mọi bản đồ cùng hướng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l332-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "这张图上，北方在上面，南方在下面。公园东北是学校，西北是图书馆。银行在学校东南，小林家在学校西南。出门以前，他们先确认图上的方向。",
+      "pinyin": "Zhè zhāng tú shàng, běifāng zài shàngmian, nánfāng zài xiàmian. Gōngyuán dōngběi shì xuéxiào, xīběi shì túshūguǎn. Yínháng zài xuéxiào dōngnán, Xiǎo Lín jiā zài xuéxiào xīnán. Chū mén yǐqián, tāmen xiān quèrèn tú shàng de fāngxiàng.",
+      "meaning": "Sơ đồ này có bắc ở trên, nam ở dưới. Trường ở đông bắc công viên, thư viện ở tây bắc. Ngân hàng ở đông nam trường, nhà Lâm ở tây nam trường.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l332-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l332-v1-e0"
+    },
+    {
+      "id": "l332-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l332-v1-e1"
+    },
+    {
+      "id": "l332-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l332-v1-e2"
+    },
+    {
+      "id": "l332-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l332-v1-e3"
+    },
+    {
+      "id": "l332-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l332-v1-e4"
+    },
+    {
+      "id": "l332-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l332-v1-e5"
+    },
+    {
+      "id": "l332-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l332-v1-e6"
+    },
+    {
+      "id": "l332-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l332-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l332-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l332-c0",
+      "senseId": "l332-v-518-sense",
+      "keyRef": "l332-v1-k0",
+      "prompt": "Phía bắc đối chiếu 南方: 在□。",
+      "choices": [
+        "南方",
+        "东北",
+        "东南",
+        "西北",
+        "西南",
+        "北方"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l332-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l332-c1",
+      "senseId": "l332-v-776-sense",
+      "keyRef": "l332-v1-k1",
+      "prompt": "Đối chiếu 北方, nêu miền nam: 从□来。",
+      "choices": [
+        "东北",
+        "东南",
+        "西北",
+        "西南",
+        "北方",
+        "南方"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l332-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l332-c2",
+      "senseId": "l332-v-598-sense",
+      "keyRef": "l332-v1-k2",
+      "prompt": "Giữa đông và bắc là hướng □。",
+      "choices": [
+        "东南",
+        "西北",
+        "西南",
+        "北方",
+        "南方",
+        "东北"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l332-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l332-c3",
+      "senseId": "l332-v-600-sense",
+      "keyRef": "l332-v1-k3",
+      "prompt": "Viết pinyin của 东南 trong câu “银行在学校的东南。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l332-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l332-c4",
+      "senseId": "l332-v-881-sense",
+      "keyRef": "l332-v1-k4",
+      "prompt": "Giữa tây và bắc: 公园的□。",
+      "choices": [
+        "西南",
+        "北方",
+        "南方",
+        "东北",
+        "东南",
+        "西北"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l332-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l332-c5",
+      "senseId": "l332-v-884-sense",
+      "keyRef": "l332-v1-k5",
+      "prompt": "Giữa tây và nam là hướng □。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l332-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l332-c0",
+      "senseId": "l332-v-518-sense",
+      "keyRef": "l332-v1-k6",
+      "prompt": "Thư viện ở hướng nào so với công viên?",
+      "choices": [
+        "东北",
+        "东南",
+        "西北"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l332-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l332-c3",
+      "senseId": "l332-v-600-sense",
+      "keyRef": "l332-v1-k7",
+      "prompt": "Sắp xếp vị trí trường so với công viên.",
+      "choices": [
+        "的东北",
+        "学校在公园"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l332-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l332-v1-e0",
+      "senseId": "l332-v-518-sense",
+      "accepted": [
+        "北方"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "北方: phía/vùng bắc. 北方 là phía bắc hoặc miền bắc theo mốc đang nói; cần biết mốc, không tự đồng nhất với một tỉnh. Thành phố này ở miền bắc."
+    },
+    {
+      "id": "l332-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l332-v1-e1",
+      "senseId": "l332-v-776-sense",
+      "accepted": [
+        "南方"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "南方: phía/vùng nam. 南方 là phía nam/miền nam theo bối cảnh, không phải tên riêng của một nước. 从南方来 nói từ miền nam đến. Cô ấy đến từ miền nam."
+    },
+    {
+      "id": "l332-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l332-v1-e2",
+      "senseId": "l332-v-598-sense",
+      "accepted": [
+        "东北"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "东北: đông bắc. 东北 nằm giữa đông và bắc trên sơ đồ; không đảo thành 西北 khi xác định góc. Trường ở phía đông bắc công viên."
+    },
+    {
+      "id": "l332-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l332-v1-e3",
+      "senseId": "l332-v-600-sense",
+      "accepted": [
+        "dōng nán"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "东南: đông nam. 东南 nằm giữa đông và nam; chữ 南 quyết định nửa phía nam trong đối chiếu 东北. Ngân hàng ở đông nam trường."
+    },
+    {
+      "id": "l332-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l332-v1-e4",
+      "senseId": "l332-v-881-sense",
+      "accepted": [
+        "西北"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "西北: tây bắc. 西北 nằm giữa tây và bắc; 西 ở đầu ghép với 北, không phải một hướng nam. Thư viện ở tây bắc công viên."
+    },
+    {
+      "id": "l332-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l332-v1-e5",
+      "senseId": "l332-v-884-sense",
+      "accepted": [
+        "西南"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "西南: tây nam. 西南 nằm giữa tây và nam; dùng 地点+的西南 nêu vị trí tương đối trên sơ đồ. Nhà tôi ở tây nam trường."
+    },
+    {
+      "id": "l332-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l332-v1-e6",
+      "senseId": "l332-v-518-sense",
+      "accepted": [
+        "西北"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 北方/南方 chỉ phía/vùng bắc hoặc nam. 东北, 东南, 西北, 西南 ghép hai hướng. Sơ đồ bài lấy bắc ở trên; đời thực phải kiểm tra ký hiệu, không mặc định mọi bản đồ cùng hướng."
+    },
+    {
+      "id": "l332-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l332-v1-e7",
+      "senseId": "l332-v-600-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 北方/南方 chỉ phía/vùng bắc hoặc nam. 东北, 东南, 西北, 西南 ghép hai hướng. Sơ đồ bài lấy bắc ở trên; đời thực phải kiểm tra ký hiệu, không mặc định mọi bản đồ cùng hướng."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

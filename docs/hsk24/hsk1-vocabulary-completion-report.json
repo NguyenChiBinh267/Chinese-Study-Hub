@@ -1,0 +1,2036 @@
+{
+  "kind": "LOCAL_DRAFT_300_WORD_DELIVERY_CHECKPOINT",
+  "status": "HSK1_VOCABULARY_COMPLETE / HSK1_CURRICULUM_PARTIAL",
+  "checkedAtUTC": "2026-10-30T16:48:12.143804+00:00",
+  "branch": "feat/hsk24-curriculum",
+  "authorizedBaseline": "bbd8aa6b6a739e7f30bb3864e86e6b45b041d6d5",
+  "contentSourceCommit": "fc3d7ad6ca443c331bf755c948be6225511082a2",
+  "verificationCommit": "3c3a8089eb72e306537049951248ae8ac1ec47d1",
+  "reportCommit": "Commit containing this report; exact final HEAD is reported in the delivery response.",
+  "sourceSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+  "independentReview": {
+    "core": "PASS",
+    "coreCommit": "fc3d7ad6ca443c331bf755c948be6225511082a2",
+    "evidenceAndJourneyDeltaCommit": "8a23249a6fc16a0eeb358f147798c2334c5de2f8",
+    "todayDeltaCommit": "b1cb504a1427452c0d546030c0a6f819aa513b10",
+    "beginnerScreenshotDeltaCommit": "3d8b4fbc2f8dfeb195758c608e7b22f39289f7c5",
+    "reviewer": "fresh independent read-only AI reviewer",
+    "onboardingAcknowledgementRepairCommit": "3c3a8089eb72e306537049951248ae8ac1ec47d1",
+    "qualifiedHumanReview": false,
+    "historicalTrackedPackageFilesUnchanged": 526,
+    "appSourceUnchangedSinceProductionBuild": true,
+    "currentReviewOriginBindingsChecked": 108
+  },
+  "delivery": {
+    "vocabularyBatches": 14,
+    "newOfficialVocabulary": 292,
+    "existingOfficialVocabularyReused": 8,
+    "vocabularyTaughtAndTargetPracticed": 300,
+    "missingVocabularyOrdinals": [],
+    "newUnits": 17,
+    "newHsk1Units": 14,
+    "newFoundationUnits": 3,
+    "newIntroductionLessons": 70,
+    "newUnitReviews": 14,
+    "newSampledDiagnostics": 4,
+    "newFoundationLessons": 3,
+    "newActivities": 91,
+    "newCurrentExercises": 728,
+    "newImmutableVersionExerciseDefinitions": 816,
+    "historicalAdditionalDefinitionsRetained": 88,
+    "currentHsk1Introductions": 72,
+    "currentHsk1Activities": 90,
+    "currentHsk1Exercises": 716,
+    "currentFoundationActivities": 5,
+    "currentFoundationExercises": 38,
+    "combinedCurrentActivities": 95,
+    "combinedCurrentExercises": 754,
+    "allCoursesCurrentActivities": 479,
+    "allCoursesCurrentExercises": 3826,
+    "immutableDatabaseVersionBindings": 624
+  },
+  "dimensions": {
+    "vocabulary": {
+      "denominator": 300,
+      "actualTeachingAndTargetPractice": 300
+    },
+    "grammar": {
+      "denominatorPhysicalRows": 70,
+      "sourceMappedPhysicalRows": [
+        "g-385-10",
+        "g-385-11",
+        "g-385-12",
+        "g-385-13",
+        "g-385-14",
+        "g-385-15",
+        "g-385-19",
+        "g-385-21",
+        "g-385-23",
+        "g-385-24",
+        "g-385-26",
+        "g-385-27",
+        "g-385-3",
+        "g-385-4",
+        "g-385-5",
+        "g-385-7",
+        "g-385-8",
+        "g-385-9",
+        "g-386-13",
+        "g-386-14",
+        "g-386-15",
+        "g-386-16",
+        "g-386-17",
+        "g-386-18",
+        "g-386-21",
+        "g-386-22",
+        "g-386-23",
+        "g-386-24",
+        "g-386-25",
+        "g-386-26",
+        "g-386-27",
+        "g-386-28",
+        "g-386-29",
+        "g-386-3",
+        "g-386-30",
+        "g-386-5",
+        "g-386-7",
+        "g-386-8",
+        "g-387-10",
+        "g-387-11",
+        "g-387-12",
+        "g-387-4",
+        "g-387-5",
+        "g-387-6",
+        "g-387-9"
+      ],
+      "legacyUnresolvedRowLabels": [
+        "句子的类型 / 句型 / 主谓句1",
+        "短语 / 基本结构类型 (3)",
+        "词类 / 助词 / 语气助词"
+      ],
+      "fullRowCompletionClaimed": false,
+      "note": "Rows contain multiple subalternatives. A reference to one alternative is not completion of the row."
+    },
+    "recognition": {
+      "denominatorGlyphs": 246,
+      "sourceMappedGlyphs": [
+        "一",
+        "七",
+        "三",
+        "上",
+        "下",
+        "不",
+        "东",
+        "两",
+        "个",
+        "中",
+        "么",
+        "九",
+        "也",
+        "习",
+        "书",
+        "买",
+        "了",
+        "事",
+        "二",
+        "五",
+        "些",
+        "亮",
+        "人",
+        "什",
+        "今",
+        "他",
+        "以",
+        "们",
+        "件",
+        "休",
+        "会",
+        "住",
+        "作",
+        "你",
+        "便",
+        "候",
+        "做",
+        "儿",
+        "元",
+        "先",
+        "八",
+        "公",
+        "六",
+        "关",
+        "兴",
+        "再",
+        "写",
+        "冷",
+        "几",
+        "出",
+        "分",
+        "到",
+        "前",
+        "包",
+        "医",
+        "十",
+        "千",
+        "午",
+        "半",
+        "卖",
+        "去",
+        "友",
+        "口",
+        "只",
+        "叫",
+        "可",
+        "号",
+        "司",
+        "吃",
+        "同",
+        "名",
+        "后",
+        "吗",
+        "吧",
+        "听",
+        "呢",
+        "和",
+        "哥",
+        "哪",
+        "唱",
+        "商",
+        "喂",
+        "喜",
+        "喝",
+        "四",
+        "回",
+        "国",
+        "在",
+        "坐",
+        "块",
+        "士",
+        "外",
+        "多",
+        "大",
+        "天",
+        "太",
+        "女",
+        "奶",
+        "她",
+        "好",
+        "妈",
+        "妹",
+        "姐",
+        "子",
+        "字",
+        "学",
+        "孩",
+        "它",
+        "宜",
+        "客",
+        "家",
+        "对",
+        "小",
+        "少",
+        "岁",
+        "工",
+        "市",
+        "师",
+        "常",
+        "年",
+        "床",
+        "开",
+        "弟",
+        "影",
+        "很",
+        "得",
+        "忙",
+        "怎",
+        "息",
+        "您",
+        "想",
+        "我",
+        "房",
+        "手",
+        "打",
+        "找",
+        "文",
+        "新",
+        "日",
+        "早",
+        "时",
+        "明",
+        "星",
+        "昨",
+        "是",
+        "晚",
+        "月",
+        "有",
+        "朋",
+        "服",
+        "期",
+        "本",
+        "机",
+        "条",
+        "来",
+        "杯",
+        "果",
+        "校",
+        "样",
+        "桌",
+        "椅",
+        "欢",
+        "歌",
+        "正",
+        "气",
+        "水",
+        "汉",
+        "没",
+        "漂",
+        "火",
+        "点",
+        "热",
+        "爱",
+        "爸",
+        "牛",
+        "狗",
+        "猫",
+        "玩",
+        "现",
+        "班",
+        "生",
+        "电",
+        "男",
+        "病",
+        "白",
+        "百",
+        "的",
+        "看",
+        "真",
+        "睡",
+        "知",
+        "视",
+        "租",
+        "穿",
+        "第",
+        "米",
+        "系",
+        "给",
+        "老",
+        "能",
+        "脑",
+        "苹",
+        "茶",
+        "菜",
+        "蛋",
+        "衣",
+        "西",
+        "要",
+        "见",
+        "觉",
+        "认",
+        "识",
+        "话",
+        "语",
+        "说",
+        "请",
+        "读",
+        "课",
+        "谁",
+        "谢",
+        "贵",
+        "起",
+        "超",
+        "车",
+        "边",
+        "还",
+        "这",
+        "道",
+        "那",
+        "都",
+        "里",
+        "钟",
+        "钱",
+        "问",
+        "间",
+        "院",
+        "雨",
+        "雪",
+        "零",
+        "非",
+        "面",
+        "题",
+        "飞",
+        "饭",
+        "高",
+        "鸡"
+      ],
+      "practiceTargets": [
+        "一",
+        "下",
+        "书",
+        "买",
+        "些",
+        "今",
+        "们",
+        "住",
+        "做",
+        "六",
+        "再",
+        "写",
+        "冷",
+        "几",
+        "前",
+        "包",
+        "医",
+        "午",
+        "半",
+        "口",
+        "吃",
+        "名",
+        "后",
+        "吧",
+        "听",
+        "哪",
+        "唱",
+        "商",
+        "回",
+        "国",
+        "块",
+        "外",
+        "姐",
+        "字",
+        "学",
+        "家",
+        "工",
+        "年",
+        "床",
+        "开",
+        "影",
+        "忙",
+        "房",
+        "新",
+        "早",
+        "时",
+        "星",
+        "昨",
+        "是",
+        "月",
+        "来",
+        "果",
+        "气",
+        "没",
+        "点",
+        "爱",
+        "狗",
+        "猫",
+        "生",
+        "电",
+        "男",
+        "病",
+        "白",
+        "知",
+        "给",
+        "能",
+        "衣",
+        "觉",
+        "话",
+        "语",
+        "请",
+        "读",
+        "课",
+        "车",
+        "这",
+        "里",
+        "钱",
+        "问",
+        "间",
+        "雨",
+        "雪",
+        "零",
+        "饭"
+      ],
+      "note": "Mapped glyphs in words are not independent character teaching or writing evidence."
+    },
+    "writing": {
+      "denominatorGlyphsSharedHsk1And2": 100,
+      "assessedHandwriting": 0,
+      "note": "Shared official HSK1-2 list, not an exclusive HSK1 subset. Keyboard/choice work does not assess handwriting."
+    },
+    "topics": {
+      "denominatorLeaves": 30,
+      "exactLeavesMetadataReferenced": 27,
+      "leaves": [
+        {
+          "written": "姓名、国籍、年龄、性别、喜好、习惯等",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "身份、家庭成员、朋友、技能等",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "日期、时间、地点、方位、参加者、号码等",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "物品名称",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "物品特征",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "天气",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "环境特点",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "基本礼貌行为",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "简单互动行为",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "意愿感受",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "食物饮品",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "就餐",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "问路",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "出行方式",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "出行安排",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "商品名称",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "商品价格",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "商品选购",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "生病、看病、探病等",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "休闲活动",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "课程信息",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "学习内容",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "教育层次",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "学校情况",
+          "pdfIndex": 58,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "课后活动",
+          "pdfIndex": 58,
+          "metadataReferenced": false,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "工作信息",
+          "pdfIndex": 59,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "工作评价",
+          "pdfIndex": 59,
+          "metadataReferenced": false,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "职业种类",
+          "pdfIndex": 59,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "中餐",
+          "pdfIndex": 59,
+          "metadataReferenced": true,
+          "fullScenarioCoverageConfirmed": false
+        },
+        {
+          "written": "传统饮品",
+          "pdfIndex": 59,
+          "metadataReferenced": false,
+          "fullScenarioCoverageConfirmed": false
+        }
+      ],
+      "parentLabelsNotLeaves": [
+        "个人信息"
+      ]
+    },
+    "tasks": {
+      "denominatorHeads": 15,
+      "denominatorPhysicalBullets": 59,
+      "referencedHeads": [
+        "交流休闲活动",
+        "交流学校情况、课后活动",
+        "交流工作信息",
+        "介绍学习情况",
+        "告知生病、探病",
+        "日常言语交往",
+        "问答个人基本信息",
+        "问答中国传统饮食",
+        "问答事件信息",
+        "问答出行信息",
+        "问答商品信息",
+        "问答天气",
+        "问答物品信息",
+        "问答环境信息",
+        "问答饮食喜好"
+      ],
+      "fullModalityCoverageClaimed": false,
+      "note": "Written scenes do not prove listening/speaking or all bullets under a parent head.",
+      "physicalBulletAndModalityTeachingAudit": "OPEN - parent references are not all59bullet completions"
+    }
+  },
+  "unit": {
+    "tests": 134,
+    "pass": 134,
+    "fail": 0,
+    "skipped": 0
+  },
+  "sqlByLevel": {
+    "0": {
+      "tests": 9,
+      "pass": 9,
+      "fail": 0,
+      "skipped": 0
+    },
+    "1": {
+      "tests": 95,
+      "pass": 95,
+      "fail": 0,
+      "skipped": 0
+    },
+    "2": {
+      "tests": 6,
+      "pass": 6,
+      "fail": 0,
+      "skipped": 0
+    },
+    "3": {
+      "tests": 5,
+      "pass": 5,
+      "fail": 0,
+      "skipped": 0
+    },
+    "4": {
+      "tests": 5,
+      "pass": 5,
+      "fail": 0,
+      "skipped": 0
+    }
+  },
+  "sqlTotalPass": 120,
+  "browserFinalAttempts": [
+    {
+      "report": ".local-postgres/hsk24/hsk1-300-browser-matrix.json",
+      "stats": {
+        "startTime": "2026-10-30T16:20:19.629Z",
+        "duration": 494435.21300000005,
+        "expected": 5,
+        "skipped": 10,
+        "unexpected": 1,
+        "flaky": 0
+      },
+      "runnerErrors": [
+        "Testing stopped early after 1 maximum allowed failures."
+      ],
+      "cases": [
+        {
+          "project": "desktop",
+          "title": "L170: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 155417
+        },
+        {
+          "project": "desktop",
+          "title": "L194: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 94506
+        },
+        {
+          "project": "desktop",
+          "title": "L199: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 84543
+        },
+        {
+          "project": "desktop",
+          "title": "L4083: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 88048
+        },
+        {
+          "project": "mobile360",
+          "title": "L170: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "L194: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "L199: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "L4083: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "desktop",
+          "title": "L170: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 31203
+        },
+        {
+          "project": "desktop",
+          "title": "L199: course and unit links open the exact current immutable lesson",
+          "outcome": "unexpected",
+          "result": "failed",
+          "durationMs": 25625
+        },
+        {
+          "project": "mobile360",
+          "title": "L170: course and unit links open the exact current immutable lesson",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "L199: course and unit links open the exact current immutable lesson",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "desktop",
+          "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "desktop",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        }
+      ]
+    },
+    {
+      "report": ".local-postgres/hsk24/hsk1-300-browser-mobile-journeys.json",
+      "stats": {
+        "startTime": "2026-10-30T16:31:27.837Z",
+        "duration": 89789.051,
+        "expected": 0,
+        "skipped": 2,
+        "unexpected": 1,
+        "flaky": 0
+      },
+      "runnerErrors": [
+        "Testing stopped early after 1 maximum allowed failures."
+      ],
+      "cases": [
+        {
+          "project": "mobile360",
+          "title": "L170: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "unexpected",
+          "result": "failed",
+          "durationMs": 77127
+        },
+        {
+          "project": "mobile360",
+          "title": "L194: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "L199: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        }
+      ]
+    },
+    {
+      "report": ".local-postgres/hsk24/hsk1-300-browser-mobile-acknowledged.json",
+      "stats": {
+        "startTime": "2026-10-30T16:38:26.203Z",
+        "duration": 215641.304,
+        "expected": 3,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "runnerErrors": [],
+      "cases": [
+        {
+          "project": "mobile360",
+          "title": "L170: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 62595
+        },
+        {
+          "project": "mobile360",
+          "title": "L194: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 48180
+        },
+        {
+          "project": "mobile360",
+          "title": "L199: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 73778
+        }
+      ]
+    },
+    {
+      "report": ".local-postgres/hsk24/hsk1-300-browser-remaining.json",
+      "stats": {
+        "startTime": "2026-10-30T16:42:50.002Z",
+        "duration": 128445.75,
+        "expected": 8,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "runnerErrors": [],
+      "cases": [
+        {
+          "project": "desktop",
+          "title": "L170: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 26536
+        },
+        {
+          "project": "desktop",
+          "title": "L199: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 11779
+        },
+        {
+          "project": "mobile360",
+          "title": "L170: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 11543
+        },
+        {
+          "project": "mobile360",
+          "title": "L199: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 11272
+        },
+        {
+          "project": "desktop",
+          "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 6076
+        },
+        {
+          "project": "mobile360",
+          "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 4026
+        },
+        {
+          "project": "desktop",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 23401
+        },
+        {
+          "project": "mobile360",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 16462
+        }
+      ]
+    },
+    {
+      "report": ".local-postgres/hsk24/hsk1-300-browser-beginner.json",
+      "stats": {
+        "startTime": "2026-10-30T16:45:31.003Z",
+        "duration": 57057.463,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "runnerErrors": [],
+      "cases": [
+        {
+          "project": "desktop",
+          "title": "Beginner bridge resumes from the saved current version and readable shell works at either width",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 20008
+        },
+        {
+          "project": "mobile360",
+          "title": "Beginner bridge resumes from the saved current version and readable shell works at either width",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 15364
+        }
+      ]
+    },
+    {
+      "report": ".local-postgres/hsk24/hsk1-300-browser-hsk4-mobile.json",
+      "stats": {
+        "startTime": "2026-10-30T16:46:40.741Z",
+        "duration": 74866.148,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "runnerErrors": [],
+      "cases": [
+        {
+          "project": "mobile360",
+          "title": "L4083: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 64381
+        }
+      ]
+    }
+  ],
+  "historicalHsk4BrowserAggregate": {
+    "pass": 18,
+    "fail": 2,
+    "notRun": 9,
+    "closed": false,
+    "note": "Historical schedule-to-Today timeout and later DB-offline resume attempt are retained; see hsk1-continuation.md and original hsk4-vocabulary-browser files."
+  },
+  "historicalHsk1BrowserAttempts": [
+    {
+      "report": ".local-postgres/hsk24/hsk1-browser-beginner-contrast-fixed.json",
+      "stats": {
+        "startTime": "2026-10-30T09:52:43.691Z",
+        "duration": 73685.429,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "runnerErrors": [],
+      "cases": [
+        {
+          "project": "desktop",
+          "title": "Beginner bridge resumes from the saved current version and readable shell works at either width",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 19306
+        },
+        {
+          "project": "mobile360",
+          "title": "Beginner bridge resumes from the saved current version and readable shell works at either width",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 20631
+        }
+      ]
+    },
+    {
+      "report": ".local-postgres/hsk24/hsk1-browser-matrix.json",
+      "stats": {
+        "startTime": "2026-10-30T09:55:08.439Z",
+        "duration": 257295.726,
+        "expected": 4,
+        "skipped": 15,
+        "unexpected": 1,
+        "flaky": 0
+      },
+      "runnerErrors": [
+        "Testing stopped early after 1 maximum allowed failures."
+      ],
+      "cases": [
+        {
+          "project": "desktop",
+          "title": "L103: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 80438
+        },
+        {
+          "project": "desktop",
+          "title": "L184: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 39181
+        },
+        {
+          "project": "desktop",
+          "title": "L274: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 60339
+        },
+        {
+          "project": "desktop",
+          "title": "L375: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 40889
+        },
+        {
+          "project": "desktop",
+          "title": "L4083: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "unexpected",
+          "result": "failed",
+          "durationMs": 28045
+        },
+        {
+          "project": "mobile360",
+          "title": "L103: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "L184: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "L274: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "L375: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "L4083: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "desktop",
+          "title": "L120: course and unit links open the exact current immutable lesson",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "desktop",
+          "title": "L184: course and unit links open the exact current immutable lesson",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "desktop",
+          "title": "L4083: course and unit links open the exact current immutable lesson",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "L120: course and unit links open the exact current immutable lesson",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "L184: course and unit links open the exact current immutable lesson",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "L4083: course and unit links open the exact current immutable lesson",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "desktop",
+          "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "desktop",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "mobile360",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        }
+      ]
+    },
+    {
+      "report": ".local-postgres/hsk24/hsk1-browser-remaining.json",
+      "stats": {
+        "startTime": "2026-10-30T10:08:29.353Z",
+        "duration": 139744.715,
+        "expected": 7,
+        "skipped": 2,
+        "unexpected": 1,
+        "flaky": 0
+      },
+      "runnerErrors": [
+        "Testing stopped early after 1 maximum allowed failures."
+      ],
+      "cases": [
+        {
+          "project": "desktop",
+          "title": "L120: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 38704
+        },
+        {
+          "project": "desktop",
+          "title": "L184: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 9401
+        },
+        {
+          "project": "desktop",
+          "title": "L4083: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 9563
+        },
+        {
+          "project": "mobile360",
+          "title": "L120: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 9529
+        },
+        {
+          "project": "mobile360",
+          "title": "L184: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 9664
+        },
+        {
+          "project": "mobile360",
+          "title": "L4083: course and unit links open the exact current immutable lesson",
+          "outcome": "unexpected",
+          "result": "failed",
+          "durationMs": 23441
+        },
+        {
+          "project": "desktop",
+          "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 7013
+        },
+        {
+          "project": "mobile360",
+          "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        },
+        {
+          "project": "desktop",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 18083
+        },
+        {
+          "project": "mobile360",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "outcome": "skipped",
+          "result": "NOT_RUN",
+          "durationMs": 0
+        }
+      ]
+    },
+    {
+      "report": ".local-postgres/hsk24/hsk1-browser-remaining-session-aware.json",
+      "stats": {
+        "startTime": "2026-10-30T10:12:42.322Z",
+        "duration": 142941.049,
+        "expected": 10,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "runnerErrors": [],
+      "cases": [
+        {
+          "project": "desktop",
+          "title": "L120: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 39440
+        },
+        {
+          "project": "desktop",
+          "title": "L184: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 9745
+        },
+        {
+          "project": "desktop",
+          "title": "L4083: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 8289
+        },
+        {
+          "project": "mobile360",
+          "title": "L120: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 9407
+        },
+        {
+          "project": "mobile360",
+          "title": "L184: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 8611
+        },
+        {
+          "project": "mobile360",
+          "title": "L4083: course and unit links open the exact current immutable lesson",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 8967
+        },
+        {
+          "project": "desktop",
+          "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 7229
+        },
+        {
+          "project": "mobile360",
+          "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 3557
+        },
+        {
+          "project": "desktop",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 21586
+        },
+        {
+          "project": "mobile360",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 12076
+        }
+      ]
+    },
+    {
+      "report": ".local-postgres/hsk24/hsk1-browser-mobile-journeys.json",
+      "stats": {
+        "startTime": "2026-10-30T10:16:21.098Z",
+        "duration": 117144.925,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "runnerErrors": [],
+      "cases": [
+        {
+          "project": "mobile360",
+          "title": "L103: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 71250
+        },
+        {
+          "project": "mobile360",
+          "title": "L184: actual content, resume, grading, completion, progress and accessibility",
+          "outcome": "expected",
+          "result": "passed",
+          "durationMs": 38054
+        }
+      ]
+    }
+  ],
+  "transportGate": {
+    "status": "OPEN",
+    "observations": [
+      "Earlier cold POST aborted near14.99s.",
+      "Earlier mixed browser matrix observed HTTP503 LOCAL_DB_UNAVAILABLE on content and curriculum GETs while neighboring requests returned200.",
+      "At300words the mixed matrix passed5/failed1/not-run10: L199 navigation reached the correct module URL but two curriculum GETs aborted near14992ms after neighboring200responses. No503 was recorded in this particular trace.",
+      "An initial mobile run0PASS/1FAIL/2not-run navigated7.7ms after clicking onboarding before mode acknowledgement; its POSTmode aborted near20s and destination remained DEMO. Tests now await the actual schedule navigation after the acknowledged UI submit, with read-only development route initialization recorded separately.",
+      "Later functional passes do not prove cold/503 root cause repaired."
+    ],
+    "automaticRetries": 0,
+    "apiTimeoutRaised": false,
+    "hiddenDataReset": false
+  },
+  "checks": {
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "additionalScriptsLint": "PASS",
+    "productionBuild": "PASS",
+    "clientIsolation": {
+      "passed": true,
+      "scope": "Frozen actual Turbopack production build JS/maps at the 300-word source commit; route/case coverage is reported separately.",
+      "files": 33,
+      "bytes": 968995,
+      "packageVersionsScanned": 624,
+      "privateKeyIdsChecked": 4974,
+      "markerHits": 0,
+      "archive": ".local-postgres/hsk24/hsk1-300-production-dev-client.zip",
+      "archiveSha256": "90c992cb00da1c889beb6820b80c400eaec0c8481e9616548be20f9c3cc2e3a1",
+      "manifest": ".local-postgres/hsk24/hsk1-300-production-dev-client.json",
+      "manifestSha256": "be489a8027f4c5885efd78d612417de62b9547524ac51c2b76dd8cc0c2cb73d4",
+      "limits": "Exact private-key-ID scan and separate allowlist tests, not a formal leak proof or a claim about future preview assets."
+    },
+    "todayNativeRepositoryProfile": {
+      "checkedAt": "2026-10-30T16:20:08.047Z",
+      "sourceCommit": "b1cb504a1427452c0d546030c0a6f819aa513b10",
+      "database": "csh_hsk24_bf294b6506c1",
+      "node": "v26.5.0",
+      "platform": "win32",
+      "nativeRepositoryBoundary": true,
+      "freshProcess": true,
+      "explicitCatalogCache": false,
+      "firstConnectionMs": 103.98140000000001,
+      "physicalConnections": 1,
+      "poolAfterEnd": {
+        "total": 0,
+        "idle": 0,
+        "waiting": 0
+      },
+      "samples": [
+        {
+          "phase": "FIRST_TODAY_IN_FRESH_NODE_PROCESS",
+          "wallMs": 221.5308,
+          "sql": 23,
+          "sqlMs": 127.99149999999986,
+          "maxSqlMs": 25.2817,
+          "fullDatabaseManifests": 0,
+          "sqlResultBytes": 8234,
+          "transactions": [
+            220.51110000000006
+          ],
+          "fullSourcePackages": 0,
+          "fsOps": 14,
+          "responseBytes": 1931,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        },
+        {
+          "phase": "WARM_SAME_PROCESS_POOL",
+          "wallMs": 85.2627,
+          "sql": 23,
+          "sqlMs": 20.859100000000353,
+          "maxSqlMs": 3.9221000000000004,
+          "fullDatabaseManifests": 0,
+          "sqlResultBytes": 8234,
+          "transactions": [
+            84.98649999999998
+          ],
+          "fullSourcePackages": 0,
+          "fsOps": 14,
+          "responseBytes": 1931,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        },
+        {
+          "phase": "WARM_SAME_PROCESS_POOL",
+          "wallMs": 83.75330000000008,
+          "sql": 23,
+          "sqlMs": 20.483100000000604,
+          "maxSqlMs": 3.850200000000086,
+          "fullDatabaseManifests": 0,
+          "sqlResultBytes": 8234,
+          "transactions": [
+            83.42460000000005
+          ],
+          "fullSourcePackages": 0,
+          "fsOps": 14,
+          "responseBytes": 1931,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        },
+        {
+          "phase": "WARM_SAME_PROCESS_POOL",
+          "wallMs": 88.86069999999995,
+          "sql": 23,
+          "sqlMs": 22.068899999999758,
+          "maxSqlMs": 4.2374999999999545,
+          "fullDatabaseManifests": 0,
+          "sqlResultBytes": 8234,
+          "transactions": [
+            88.58120000000008
+          ],
+          "fullSourcePackages": 0,
+          "fsOps": 14,
+          "responseBytes": 1931,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        }
+      ],
+      "methodology": "Source package reads count readFileSync(package filename); full DB manifests count result.rows.manifest objects. These are IO-boundary body counts, not every allocation inside Zod. SQL timing is client wall time including decoding. First connection measured before first Today; all4requests share one bounded pool. No HTTP/GUI or cloud latency claim, no automatic retries. Old learner rows are not modified; dedicated synthetic owner only."
+    }
+  },
+  "preservation": {
+    "database": "csh_hsk24_bf294b6506c1",
+    "privateTables": 19,
+    "allBaselineRowsAndPackageBindingsUnchanged": true,
+    "baselineCounts": {
+      "packages": 522,
+      "activity_leases": 20,
+      "api_idempotency": 20790,
+      "attempts": 4540,
+      "cards": 3228,
+      "content_attempt_bindings": 4540,
+      "content_session_state": 1999,
+      "duration_events": 1831,
+      "learning_events": 5080,
+      "lesson_progress": 533,
+      "lesson_sessions": 1999,
+      "mastery_evidence": 4296,
+      "owner_profiles": 0,
+      "planned_blocks": 493,
+      "review_logs": 70,
+      "skill_mastery": 3659,
+      "study_day_overrides": 0,
+      "study_settings": 156,
+      "time_preferences": 157,
+      "weekly_plans": 321
+    },
+    "finalCounts": {
+      "packages": 624,
+      "activity_leases": 32,
+      "api_idempotency": 29003,
+      "attempts": 6730,
+      "cards": 4512,
+      "content_attempt_bindings": 6730,
+      "content_session_state": 2486,
+      "duration_events": 2399,
+      "learning_events": 7529,
+      "lesson_progress": 792,
+      "lesson_sessions": 2487,
+      "mastery_evidence": 6004,
+      "owner_profiles": 0,
+      "planned_blocks": 779,
+      "review_logs": 115,
+      "skill_mastery": 5065,
+      "study_day_overrides": 0,
+      "study_settings": 247,
+      "time_preferences": 248,
+      "weekly_plans": 511
+    },
+    "snapshotScope": "Original baseline rows only. New synthetic test owners/events/cards are additive, not personal learning achievements."
+  },
+  "ui": {
+    "functionalLabelPixels": 14,
+    "noticeBodyPixels": 16,
+    "noticeMeasure": "65ch",
+    "mobileWidth": 360,
+    "changes": [
+      "brand subtitle",
+      "sidebar caption",
+      "breadcrumb with visible current page",
+      "owner badge",
+      "sidebar note",
+      "auth/data prose line length",
+      "scrollable short desktop sidebar"
+    ],
+    "hostedOwnerPreviewDeployed": false
+  },
+  "remainingCheckpoint": {
+    "vocabularyOrdinals": [],
+    "unreferencedGrammarRows": [
+      "g-385-1",
+      "g-385-2",
+      "g-385-6",
+      "g-385-16",
+      "g-385-17",
+      "g-385-18",
+      "g-385-20",
+      "g-385-22",
+      "g-385-25",
+      "g-386-1",
+      "g-386-2",
+      "g-386-4",
+      "g-386-6",
+      "g-386-9",
+      "g-386-10",
+      "g-386-11",
+      "g-386-12",
+      "g-386-19",
+      "g-386-20",
+      "g-386-31",
+      "g-387-1",
+      "g-387-2",
+      "g-387-3",
+      "g-387-7",
+      "g-387-8"
+    ],
+    "grammarRowSubalternatives": "Incomplete teaching/practice audit even on45referenced rows.",
+    "legacyGrammarLabels": [
+      "句子的类型 / 句型 / 主谓句1",
+      "短语 / 基本结构类型 (3)",
+      "词类 / 助词 / 语气助词"
+    ],
+    "glyphsWithoutExplicitSingleGlyphTarget": [
+      "八",
+      "爸",
+      "百",
+      "班",
+      "杯",
+      "本",
+      "边",
+      "便",
+      "不",
+      "菜",
+      "茶",
+      "常",
+      "超",
+      "出",
+      "穿",
+      "打",
+      "大",
+      "蛋",
+      "到",
+      "道",
+      "得",
+      "的",
+      "弟",
+      "第",
+      "东",
+      "都",
+      "对",
+      "多",
+      "儿",
+      "二",
+      "飞",
+      "非",
+      "分",
+      "服",
+      "高",
+      "哥",
+      "歌",
+      "个",
+      "公",
+      "关",
+      "贵",
+      "还",
+      "孩",
+      "汉",
+      "好",
+      "号",
+      "喝",
+      "和",
+      "很",
+      "候",
+      "欢",
+      "会",
+      "火",
+      "机",
+      "鸡",
+      "见",
+      "件",
+      "叫",
+      "九",
+      "看",
+      "可",
+      "客",
+      "老",
+      "了",
+      "两",
+      "亮",
+      "妈",
+      "吗",
+      "卖",
+      "么",
+      "妹",
+      "米",
+      "面",
+      "明",
+      "那",
+      "奶",
+      "脑",
+      "呢",
+      "你",
+      "您",
+      "牛",
+      "女",
+      "朋",
+      "漂",
+      "苹",
+      "七",
+      "期",
+      "起",
+      "千",
+      "去",
+      "热",
+      "人",
+      "认",
+      "日",
+      "三",
+      "上",
+      "少",
+      "谁",
+      "什",
+      "师",
+      "十",
+      "识",
+      "士",
+      "市",
+      "事",
+      "视",
+      "手",
+      "水",
+      "睡",
+      "说",
+      "司",
+      "四",
+      "岁",
+      "他",
+      "它",
+      "她",
+      "太",
+      "题",
+      "天",
+      "条",
+      "同",
+      "玩",
+      "晚",
+      "喂",
+      "文",
+      "我",
+      "五",
+      "西",
+      "息",
+      "习",
+      "喜",
+      "系",
+      "先",
+      "现",
+      "想",
+      "小",
+      "校",
+      "谢",
+      "兴",
+      "休",
+      "样",
+      "要",
+      "也",
+      "宜",
+      "以",
+      "椅",
+      "友",
+      "有",
+      "元",
+      "院",
+      "在",
+      "怎",
+      "找",
+      "真",
+      "正",
+      "只",
+      "中",
+      "钟",
+      "桌",
+      "子",
+      "租",
+      "作",
+      "坐"
+    ],
+    "sharedHandwritingAssessed": 0,
+    "topicLeavesWithoutMetadataReference": [
+      "课后活动",
+      "工作评价",
+      "传统饮品"
+    ],
+    "communicationBulletsAndModalities": "Full59bullet listening/speaking audit OPEN",
+    "competentReviewAndPublication": "OPEN",
+    "coldTransport": "OPEN"
+  },
+  "localPreview": "http://127.0.0.1:3037/learn/courses/HSK1",
+  "publication": {
+    "newMaterial": "DRAFT",
+    "humanApproved": 0,
+    "published": 0,
+    "verifiedMasteryGranted": 0,
+    "syntheticTts": "optional/unreviewed"
+  },
+  "worktree": "All task-owned deliverables committed at delivery. Pre-existing untracked graphify-out/ preserved. No push/merge/deploy.",
+  "evidence": [
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-unit.log",
+      "sha256": "4f6f840222f466f6169fa229e1a8d1baa2259f5512040b3fc462f4efc57f4498",
+      "bytes": 15857
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-typecheck.log",
+      "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914",
+      "bytes": 57
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-lint.log",
+      "sha256": "d2246b046ac72a5146dfff03bb52c140232287592ad9a829a65c8e5759484d55",
+      "bytes": 595
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-scripts-lint.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-build.log",
+      "sha256": "b3063a362b9d7bc94ad1440f6cea3c86ea77f5f3518c103c4b48ab01e867d39c",
+      "bytes": 2266
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-browser-matrix.json",
+      "sha256": "ddf32885477440d1fb7dccf78123983555aca3e95c2b1556fea51d193d0e5239",
+      "bytes": 23229
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-browser-matrix.log",
+      "sha256": "02c658ea19640b8021dd1b729c07da17df883ec7062f08141326ef1bca3251be",
+      "bytes": 58243
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-browser-beginner.json",
+      "sha256": "e61b4dbb4b71388145a9f4bf1cc791e146be8b322e7c0607b783b903ed40abbd",
+      "bytes": 11560
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-browser-beginner.log",
+      "sha256": "e6fbf67c4675570773292f024beccd88518c162e343d20eb2708ba73015dde50",
+      "bytes": 7381
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-final-preserve.log",
+      "sha256": "a81ab5cf8de0617c32e6c1427617c2fa192601f46667d203b4d316910a978abc",
+      "bytes": 534
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-final-after.json",
+      "sha256": "77c6891ee71ce74c924776cd4890dff83b23a2ba26b4d9b858af98b5b2a3df29",
+      "bytes": 12500220
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-course-20261030-before.json",
+      "sha256": "41c58ac6dd3dbcbc7237a42c971360dda693b0a3770389b4a1a3488d5605f573",
+      "bytes": 8894922
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-runtime-300-measured-20261030.json",
+      "sha256": "13ef82ad80841d6d4aa0852961ee302b877a72457e8d3d33007c72f9b3af5bf9",
+      "bytes": 2749
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-production-client-isolation.json",
+      "sha256": "be668294a2d346d32e00564cf596bf97576b9c2ebcd33349d0b2cc2dcc57c158",
+      "bytes": 749
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-production-dev-client.json",
+      "sha256": "be489a8027f4c5885efd78d612417de62b9547524ac51c2b76dd8cc0c2cb73d4",
+      "bytes": 8467
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-production-dev-client.zip",
+      "sha256": "90c992cb00da1c889beb6820b80c400eaec0c8481e9616548be20f9c3cc2e3a1",
+      "bytes": 310874
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-level0-sql.log",
+      "sha256": "0cb76e27340ba83e143ed18f895fc8bcf3288a1a39b0d49de12803233a969be6",
+      "bytes": 1070
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-level1-sql.log",
+      "sha256": "5e8f27595f56ea44113cf5153cfc1cbad884f6f6f051aa10ce1ee2532823916e",
+      "bytes": 10184
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-level2-sql.log",
+      "sha256": "8be164e0703f1f27b42189b6651b53fed1c5887601c6d3c9c739ff260f3f41a3",
+      "bytes": 758
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-level3-sql.log",
+      "sha256": "c8b0fef9180a7869de63ca97bda2eebcf9d1239f2cf4403355ea35606f3d20eb",
+      "bytes": 650
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-level4-sql.log",
+      "sha256": "76ace8cbfcd333d4999896de71278942d1e21a50936ca52d7357754748e354c2",
+      "bytes": 653
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-browser-mobile-journeys.json",
+      "sha256": "7c1a4184ffd1d6df5c40c4bf16d89ca27be5fb587e5fb8c8cefaea2ed323f791",
+      "bytes": 11278
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-browser-mobile-journeys.log",
+      "sha256": "b4635691eb0024514facc5b173c34e38237165520742fd7721e2278d1df93092",
+      "bytes": 3902
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-browser-mobile-acknowledged.json",
+      "sha256": "82e36d6a3b4038393af6c9d520ecc01d8c8d0189c7d8384a6640b2827e9bea12",
+      "bytes": 8337
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-browser-mobile-acknowledged.log",
+      "sha256": "b65802bebb26edb05bf3563c165646c2284a8222a7ad0378c08d7156620dccc7",
+      "bytes": 42273
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-mobile-network.json",
+      "sha256": "c443cbcd9377ca6986e8d34d123735083888a1f126a7cbf76b0909619c554bd6",
+      "bytes": 1090
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-browser-hsk4-mobile.json",
+      "sha256": "d28bfbe1032a3735967d57ab2df97637aaa72eb333b2ba4d24ea08b8085cb472",
+      "bytes": 6131
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-browser-hsk4-mobile.log",
+      "sha256": "d170a870624a6fca509fe67667b87bafe7456b415d77124f11f3b2e65d0c605a",
+      "bytes": 13475
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-onboarding-final-lint.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-browser-remaining.json",
+      "sha256": "3e2d9f731897c6575b6c3ae78e484c108acf671a0fa3997fd32014f9d33f431a",
+      "bytes": 16383
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-browser-remaining.log",
+      "sha256": "cd92447e5b06590c980c7defbe1a97399c96428b72bfafe798269205a89271e0",
+      "bytes": 11933
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-navigation-network.json",
+      "sha256": "57c4f0074e4aed5375738f0eb5074f39f1f2c5467814fed124c69dfd83611a6a",
+      "bytes": 3406
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-final-typecheck.log",
+      "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914",
+      "bytes": 57
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-beginner-artifact-lint.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-beginner-traces/beginner-Beginner-bridge-r-d9483-shell-works-at-either-width-desktop/readable-shell.png",
+      "sha256": "e4da67b4b69b96fcb33f75448e950eeea5e413db8d1d729dde564769949ec992",
+      "bytes": 25097
+    },
+    {
+      "file": ".local-postgres/hsk24/hsk1-300-beginner-traces/beginner-Beginner-bridge-r-d9483-shell-works-at-either-width-mobile360/readable-shell.png",
+      "sha256": "b789ee506790bf0e777c1e3ab804cef7761fe8d2fb67e807b4eb55262e4c4497",
+      "bytes": 46136
+    },
+    {
+      "file": "docs/hsk24/hsk1-progress.json",
+      "sha256": "1abecc251b55e0234ecf9c93ca63b28ba08308e3796cfda29a8c994bc796e38a",
+      "bytes": 27341
+    },
+    {
+      "file": "docs/hsk24/hsk1-learning-evidence.json",
+      "sha256": "6c2a9ff2701887146de33e0d67391952aa3385a2dc61982e843f0eceee78acac",
+      "bytes": 314770
+    },
+    {
+      "file": "docs/hsk24/hsk1-source-audit.json",
+      "sha256": "7fd21202407f6d645f3be13fd31021075ad946244c9f611c66bcf13ebefe6384",
+      "bytes": 3649
+    }
+  ]
+}

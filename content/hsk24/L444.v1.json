@@ -1,0 +1,773 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "498202998663d4ff093ec04a4278759efaa08274557f97e41cff8d8e876035a0",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eee",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L444",
+    "version": 1,
+    "versionId": "l444-draft-v1",
+    "title": "Giải thích kinh nghiệm và tiếp nhận góp ý",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Giải thích kinh nghiệm và tiếp nhận góp ý; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "拿"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 25,
+      "physicalPage": 26,
+      "printedPage": 23,
+      "section": "task",
+      "entry": "十六"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-27T08:29:17.309401Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-visit",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 25,
+          "physicalPage": 26,
+          "printedPage": 23,
+          "section": "task",
+          "entry": "十六"
+        },
+        "written": "介绍职业经历与单位情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-12c2fb2f63a1",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "工作经历"
+        },
+        "written": "工作经历",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l444-v-1398",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 113,
+          "physicalPage": 114,
+          "printedPage": 111,
+          "section": "vocabulary",
+          "entry": "ordinal 1398"
+        },
+        "written": "经历",
+        "pinyin": "jīnglì",
+        "senseId": "l444-v-1398-sense",
+        "ordinal": 1398,
+        "note": "4 jīnglì 动、名; 经历 vừa là danh từ trải nghiệm vừa là động từ trải qua; bài hỏi danh từ 这次经历. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l444-v-1399",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 113,
+          "physicalPage": 114,
+          "printedPage": 111,
+          "section": "vocabulary",
+          "entry": "ordinal 1399"
+        },
+        "written": "经验",
+        "pinyin": "jīngyàn",
+        "senseId": "l444-v-1399-sense",
+        "ordinal": 1399,
+        "note": "4 jīngyàn 名; 经验 là hiểu biết rút ra từ thực hành, khác 经历 là sự việc đã trải qua. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l444-v-1380",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 113,
+          "physicalPage": 114,
+          "printedPage": 111,
+          "section": "vocabulary",
+          "entry": "ordinal 1380"
+        },
+        "written": "接受",
+        "pinyin": "jiēshòu",
+        "senseId": "l444-v-1380-sense",
+        "ordinal": 1380,
+        "note": "4 jiēshòu 动; 接受 đi với 建议、帮助、邀请; nghe thấy lời góp ý chưa chắc đã 接受. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l444-v-1386",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 113,
+          "physicalPage": 114,
+          "printedPage": 111,
+          "section": "vocabulary",
+          "entry": "ordinal 1386"
+        },
+        "written": "解释",
+        "pinyin": "jiěshì",
+        "senseId": "l444-v-1386-sense",
+        "ordinal": 1386,
+        "note": "4 jiěshì 动; 解释 làm rõ nguyên nhân/nội dung; dùng 向别人解释 một việc. Nhận diện chữ 释 trong 解释; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l444-v-1387",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 113,
+          "physicalPage": 114,
+          "printedPage": 111,
+          "section": "vocabulary",
+          "entry": "ordinal 1387"
+        },
+        "written": "今后",
+        "pinyin": "jīnhòu",
+        "senseId": "l444-v-1387-sense",
+        "ordinal": 1387,
+        "note": "4 jīnhòu 名; 今后 hướng tới tương lai tính từ hiện tại, không dùng cho một mốc quá khứ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l444-v-1325",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1325"
+        },
+        "written": "及时",
+        "pinyin": "jíshí",
+        "senseId": "l444-v-1325-sense",
+        "ordinal": 1325,
+        "note": "4 jíshí 形、副; 及时 nói làm đúng lúc trước khi quá muộn; khác 按时 là đúng giờ đã định. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-373",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "373"
+        },
+        "written": "验",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 373,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-289",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "289"
+        },
+        "written": "释",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 289,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-126",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "126"
+        },
+        "written": "及",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 126,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-444",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 395,
+          "physicalPage": 396,
+          "printedPage": 393,
+          "section": "grammar",
+          "entry": "拿……来说"
+        },
+        "written": "拿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l444-c0",
+      "version": 1,
+      "senseId": "l444-v-1398-sense",
+      "hanzi": "经历",
+      "dictionaryPinyin": "jīng lì",
+      "meaning": "trải nghiệm, từng trải",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l444-v-1398"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l444-c1",
+      "version": 1,
+      "senseId": "l444-v-1399-sense",
+      "hanzi": "经验",
+      "dictionaryPinyin": "jīng yàn",
+      "meaning": "kinh nghiệm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l444-v-1399"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l444-c2",
+      "version": 1,
+      "senseId": "l444-v-1380-sense",
+      "hanzi": "接受",
+      "dictionaryPinyin": "jiē shòu",
+      "meaning": "tiếp nhận, chấp nhận",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l444-v-1380"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l444-c3",
+      "version": 1,
+      "senseId": "l444-v-1386-sense",
+      "hanzi": "解释",
+      "dictionaryPinyin": "jiě shì",
+      "meaning": "giải thích",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l444-v-1386"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l444-c4",
+      "version": 1,
+      "senseId": "l444-v-1387-sense",
+      "hanzi": "今后",
+      "dictionaryPinyin": "jīn hòu",
+      "meaning": "từ nay về sau",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l444-v-1387"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l444-c5",
+      "version": 1,
+      "senseId": "l444-v-1325-sense",
+      "hanzi": "及时",
+      "dictionaryPinyin": "jí shí",
+      "meaning": "kịp thời",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l444-v-1325"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l444-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 类似 lèisì: tương tự; 沟通 gōutōng: trao đổi; 改正 gǎizhèng: sửa cho đúng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l444-t0",
+      "type": "teaching",
+      "title": "经历 · trải nghiệm, từng trải",
+      "text": "经历 vừa là danh từ trải nghiệm vừa là động từ trải qua; bài hỏi danh từ 这次经历.",
+      "hanzi": "这次经历让我学到了很多。",
+      "pinyin": "Zhè cì jīnglì ràng wǒ xué dào le hěn duō.",
+      "meaning": "Trải nghiệm này giúp tôi học nhiều điều.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l444-t1",
+      "type": "teaching",
+      "title": "经验 · kinh nghiệm",
+      "text": "经验 là hiểu biết rút ra từ thực hành, khác 经历 là sự việc đã trải qua.",
+      "hanzi": "他有丰富的工作经验。",
+      "pinyin": "Tā yǒu fēngfù de gōngzuò jīngyàn.",
+      "meaning": "Anh ấy có nhiều kinh nghiệm làm việc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l444-t2",
+      "type": "teaching",
+      "title": "接受 · tiếp nhận, chấp nhận",
+      "text": "接受 đi với 建议、帮助、邀请; nghe thấy lời góp ý chưa chắc đã 接受.",
+      "hanzi": "她接受了同事的建议。",
+      "pinyin": "Tā jiēshòu le tóngshì de jiànyì.",
+      "meaning": "Cô ấy tiếp nhận góp ý của đồng nghiệp.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l444-t3",
+      "type": "teaching",
+      "title": "解释 · giải thích",
+      "text": "解释 làm rõ nguyên nhân/nội dung; dùng 向别人解释 một việc. Nhận diện chữ 释 trong 解释; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "请解释一下原因。",
+      "pinyin": "Qǐng jiěshì yíxià yuányīn.",
+      "meaning": "Hãy giải thích nguyên nhân.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l444-t4",
+      "type": "teaching",
+      "title": "今后 · từ nay về sau",
+      "text": "今后 hướng tới tương lai tính từ hiện tại, không dùng cho một mốc quá khứ.",
+      "hanzi": "今后我会及时说明情况。",
+      "pinyin": "Jīnhòu wǒ huì jíshí shuōmíng qíngkuàng.",
+      "meaning": "Từ nay tôi sẽ báo rõ tình hình kịp thời.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l444-t5",
+      "type": "teaching",
+      "title": "及时 · kịp thời",
+      "text": "及时 nói làm đúng lúc trước khi quá muộn; khác 按时 là đúng giờ đã định.",
+      "hanzi": "发现错误要及时改正。",
+      "pinyin": "Fāxiàn cuòwù yào jíshí gǎizhèng.",
+      "meaning": "Phát hiện lỗi cần sửa kịp thời.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l444-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "拿 + đối tượng + 来说 nêu một ví dụ để bàn luận: 拿这次经历来说，我学会了及时解释. Không phải hành động cầm vật trong cách dùng này. Đối tượng ví dụ phải liên quan ý phía sau.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l444-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "同事问小李有什么工作经验。小李说：“拿这次经历来说，我开始没有及时解释材料的问题，大家等了很久。后来我接受了建议，先说明原因，再一起改正。今后遇到类似情况，我会早点儿沟通。”",
+      "pinyin": "Tóngshì wèn Xiǎo Lǐ yǒu shénme gōngzuò jīngyàn. Xiǎo Lǐ shuō: “Ná zhè cì jīnglì lái shuō, wǒ kāishǐ méiyǒu jíshí jiěshì cáiliào de wèntí, dàjiā děng le hěn jiǔ. Hòulái wǒ jiēshòu le jiànyì, xiān shuōmíng yuányīn, zài yìqǐ gǎizhèng. Jīnhòu yùdào lèisì qíngkuàng, wǒ huì zǎo diǎnr gōutōng.”",
+      "meaning": "Lý kể lần không giải thích vấn đề vật liệu kịp thời khiến cả nhóm chờ lâu. Sau góp ý, anh giải thích nguyên nhân và cùng sửa. Anh dự định trao đổi sớm hơn trong tương lai.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l444-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l444-v1-e0"
+    },
+    {
+      "id": "l444-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l444-v1-e1"
+    },
+    {
+      "id": "l444-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l444-v1-e2"
+    },
+    {
+      "id": "l444-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l444-v1-e3"
+    },
+    {
+      "id": "l444-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l444-v1-e4"
+    },
+    {
+      "id": "l444-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l444-v1-e5"
+    },
+    {
+      "id": "l444-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l444-v1-e6"
+    },
+    {
+      "id": "l444-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l444-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l444-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l444-c0",
+      "senseId": "l444-v-1398-sense",
+      "keyRef": "l444-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “trải nghiệm, từng trải” để điền câu: 这次□让我学到了很多。",
+      "choices": [
+        "经验",
+        "接受",
+        "解释",
+        "今后",
+        "及时",
+        "经历"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l444-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l444-c1",
+      "senseId": "l444-v-1399-sense",
+      "keyRef": "l444-v1-k1",
+      "prompt": "Ghi pinyin của 经验 trong câu “他有丰富的工作经验。”, theo nghĩa “kinh nghiệm”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l444-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l444-c2",
+      "senseId": "l444-v-1380-sense",
+      "keyRef": "l444-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “tiếp nhận, chấp nhận”: 她□了同事的建议。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l444-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l444-c3",
+      "senseId": "l444-v-1386-sense",
+      "keyRef": "l444-v1-k3",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “giải thích”: 解□ (jiě shì). Ngữ cảnh: 请□一下原因。",
+      "choices": [
+        "释",
+        "择",
+        "译",
+        "采"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l444-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l444-c4",
+      "senseId": "l444-v-1387-sense",
+      "keyRef": "l444-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “từ nay về sau” để điền câu: □我会及时说明情况。",
+      "choices": [
+        "及时",
+        "经历",
+        "经验",
+        "接受",
+        "解释",
+        "今后"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l444-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l444-c5",
+      "senseId": "l444-v-1325-sense",
+      "keyRef": "l444-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “kịp thời”: 发现错误要□改正。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l444-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l444-c0",
+      "senseId": "l444-v-1398-sense",
+      "keyRef": "l444-v1-k6",
+      "prompt": "小李今后打算怎么做？",
+      "choices": [
+        "不接受任何建议。",
+        "让大家一直等。",
+        "早点儿沟通问题。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l444-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l444-c3",
+      "senseId": "l444-v-1386-sense",
+      "keyRef": "l444-v1-k7",
+      "prompt": "Sắp xếp các cụm theo cấu trúc vừa học; giữ nguyên cụm, không thêm/bớt từ.",
+      "choices": [
+        "拿这次经历来说，",
+        "我学会了",
+        "及时解释。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l444-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l444-v1-e0",
+      "senseId": "l444-v-1398-sense",
+      "accepted": [
+        "经历"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "经历: trải nghiệm, từng trải. 经历 vừa là danh từ trải nghiệm vừa là động từ trải qua; bài hỏi danh từ 这次经历. Trải nghiệm này giúp tôi học nhiều điều."
+    },
+    {
+      "id": "l444-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l444-v1-e1",
+      "senseId": "l444-v-1399-sense",
+      "accepted": [
+        "jīng yàn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc jīng yàn. 经验 là hiểu biết rút ra từ thực hành, khác 经历 là sự việc đã trải qua."
+    },
+    {
+      "id": "l444-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l444-v1-e2",
+      "senseId": "l444-v-1380-sense",
+      "accepted": [
+        "接受"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 接受. 接受 đi với 建议、帮助、邀请; nghe thấy lời góp ý chưa chắc đã 接受. Cô ấy tiếp nhận góp ý của đồng nghiệp."
+    },
+    {
+      "id": "l444-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l444-v1-e3",
+      "senseId": "l444-v-1386-sense",
+      "accepted": [
+        "释"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 释 tạo từ 解释. 解释 làm rõ nguyên nhân/nội dung; dùng 向别人解释 một việc. Nhận diện chữ 释 trong 解释; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l444-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l444-v1-e4",
+      "senseId": "l444-v-1387-sense",
+      "accepted": [
+        "今后"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "今后: từ nay về sau. 今后 hướng tới tương lai tính từ hiện tại, không dùng cho một mốc quá khứ. Từ nay tôi sẽ báo rõ tình hình kịp thời."
+    },
+    {
+      "id": "l444-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l444-v1-e5",
+      "senseId": "l444-v-1325-sense",
+      "accepted": [
+        "及时"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 及时. 及时 nói làm đúng lúc trước khi quá muộn; khác 按时 là đúng giờ đã định. Phát hiện lỗi cần sửa kịp thời."
+    },
+    {
+      "id": "l444-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l444-v1-e6",
+      "senseId": "l444-v-1398-sense",
+      "accepted": [
+        "早点儿沟通问题。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 早点儿沟通问题。. Lý kể lần không giải thích vấn đề vật liệu kịp thời khiến cả nhóm chờ lâu. Sau góp ý, anh giải thích nguyên nhân và cùng sửa. Anh dự định trao đổi sớm hơn trong tương lai."
+    },
+    {
+      "id": "l444-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l444-v1-e7",
+      "senseId": "l444-v-1386-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 拿 + đối tượng + 来说 nêu một ví dụ để bàn luận: 拿这次经历来说，我学会了及时解释. Không phải hành động cầm vật trong cách dùng này. Đối tượng ví dụ phải liên quan ý phía sau."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

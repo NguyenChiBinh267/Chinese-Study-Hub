@@ -1,0 +1,758 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "327669a3dbff0c186a4057064e2dcd6bd6a9a77f51901e6c4416b53cd4a1f9bb",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "class-registration",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L259",
+    "version": 1,
+    "versionId": "l259-draft-v1",
+    "title": "Ôn tập · Lớp học và đăng ký",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học bằng dạng truy hồi khác; không tính thêm từ mới.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l219-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 11,
+      "physicalPage": 12,
+      "printedPage": 9,
+      "section": "task",
+      "entry": "十四"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-school",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 11,
+          "physicalPage": 12,
+          "printedPage": 9,
+          "section": "task",
+          "entry": "十四"
+        },
+        "written": "交流学校情况、课后活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-school",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 61,
+          "physicalPage": 62,
+          "printedPage": 59,
+          "section": "topic",
+          "entry": "教育情况 / 校园生活 / 学校情况"
+        },
+        "written": "学校情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l219-v-304",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 304"
+        },
+        "written": "班",
+        "pinyin": "bān",
+        "senseId": "l219-v-304-sense",
+        "ordinal": 304,
+        "note": "2（5） bān 名、（量）; Trong 我们班, 班 là danh từ lớp học. Không dạy nghĩa lượng từ cho chuyến xe thuộc cấp cao hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l219-v-342",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 342"
+        },
+        "written": "高中",
+        "pinyin": "gāozhōng",
+        "senseId": "l219-v-342-sense",
+        "ordinal": 342,
+        "note": "2 gāozhōng 名; 高中 là cấp trung học phổ thông; không phải mọi trường có tòa nhà cao. Không gán tuổi chính xác nếu câu không nêu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l219-v-379",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 379"
+        },
+        "written": "开学",
+        "pinyin": "kāixué",
+        "senseId": "l219-v-379-sense",
+        "ordinal": 379,
+        "note": "2 kāixué 动; 开学 nói trường bắt đầu kỳ học, khác 开始 một hoạt động bất kỳ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l219-v-380",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 380"
+        },
+        "written": "考",
+        "pinyin": "kǎo",
+        "senseId": "l219-v-380-sense",
+        "ordinal": 380,
+        "note": "2 kǎo 动; 考 trong câu này nói dự thi môn học. Không tự mở rộng sang nghĩa khảo cứu khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l219-v-404",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 404"
+        },
+        "written": "名",
+        "pinyin": "míng",
+        "senseId": "l219-v-404-sense",
+        "ordinal": 404,
+        "note": "2 míng 名、量; Bài luyện 名 trong 两名学生. Nghĩa danh từ tên cũng có trong mục từ nhưng chưa phải đáp án của ngữ cảnh này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l219-v-453",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 453"
+        },
+        "written": "位",
+        "pinyin": "wèi",
+        "senseId": "l219-v-453-sense",
+        "ordinal": 453,
+        "note": "2 wèi 量; 位 dùng cho người: 一位老师. Không nhầm vị trí ‘chỗ ngồi’ trong từ ghép khác. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-43",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "43"
+        },
+        "written": "考",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 43,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-95",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "95"
+        },
+        "written": "位",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 95,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-person-classifiers",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "量词 / 名量词 / 位、名"
+        },
+        "written": "（1）专用名量词：条、位、间、名",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l219-c0",
+      "version": 1,
+      "senseId": "l219-v-304-sense",
+      "hanzi": "班",
+      "dictionaryPinyin": "bān",
+      "meaning": "lớp, tập thể học sinh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l219-v-304"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l219-c1",
+      "version": 1,
+      "senseId": "l219-v-342-sense",
+      "hanzi": "高中",
+      "dictionaryPinyin": "gāo zhōng",
+      "meaning": "trung học phổ thông",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l219-v-342"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l219-c2",
+      "version": 1,
+      "senseId": "l219-v-379-sense",
+      "hanzi": "开学",
+      "dictionaryPinyin": "kāi xué",
+      "meaning": "bắt đầu kỳ học, khai giảng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l219-v-379"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l219-c3",
+      "version": 1,
+      "senseId": "l219-v-380-sense",
+      "hanzi": "考",
+      "dictionaryPinyin": "kǎo",
+      "meaning": "thi, kiểm tra trong việc học",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l219-v-380"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l219-c4",
+      "version": 1,
+      "senseId": "l219-v-404-sense",
+      "hanzi": "名",
+      "dictionaryPinyin": "míng",
+      "meaning": "lượng từ đếm người trong thông tin",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l219-v-404"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l219-c5",
+      "version": 1,
+      "senseId": "l219-v-453-sense",
+      "hanzi": "位",
+      "dictionaryPinyin": "wèi",
+      "meaning": "lượng từ lịch sự cho người",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l219-v-453"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l259-guide",
+      "type": "teaching",
+      "title": "Ôn tập sau bài",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l259-t0-l219-prereq",
+      "type": "teaching",
+      "title": "Nhắc lại · Kiến thức cần nhắc lại",
+      "text": "学生 là học sinh, 老师 là giáo viên. 一位/一名 đều đếm người trong ngữ cảnh phù hợp; không suy ra dùng được cho mọi đồ vật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l259-t0-l219-t0",
+      "type": "teaching",
+      "title": "Nhắc lại · 班 · lớp, tập thể học sinh",
+      "text": "Trong 我们班, 班 là danh từ lớp học. Không dạy nghĩa lượng từ cho chuyến xe thuộc cấp cao hơn.",
+      "hanzi": "我们班有二十名学生。",
+      "pinyin": "Wǒmen bān yǒu èrshí míng xuésheng.",
+      "meaning": "Lớp chúng tôi có hai mươi học sinh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l259-t0-l219-t1",
+      "type": "teaching",
+      "title": "Nhắc lại · 高中 · trung học phổ thông",
+      "text": "高中 là cấp trung học phổ thông; không phải mọi trường có tòa nhà cao. Không gán tuổi chính xác nếu câu không nêu.",
+      "hanzi": "我姐姐在高中学习。",
+      "pinyin": "Wǒ jiějie zài gāozhōng xuéxí.",
+      "meaning": "Chị tôi học trung học phổ thông.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l259-t0-l219-t2",
+      "type": "teaching",
+      "title": "Nhắc lại · 开学 · bắt đầu kỳ học, khai giảng",
+      "text": "开学 nói trường bắt đầu kỳ học, khác 开始 một hoạt động bất kỳ.",
+      "hanzi": "我们学校明天开学。",
+      "pinyin": "Wǒmen xuéxiào míngtiān kāixué.",
+      "meaning": "Trường chúng tôi bắt đầu kỳ học ngày mai.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l259-t0-l219-t3",
+      "type": "teaching",
+      "title": "Nhắc lại · 考 · thi, kiểm tra trong việc học",
+      "text": "考 trong câu này nói dự thi môn học. Không tự mở rộng sang nghĩa khảo cứu khác.",
+      "hanzi": "我们明天考中文。",
+      "pinyin": "Wǒmen míngtiān kǎo Zhōngwén.",
+      "meaning": "Ngày mai chúng tôi thi tiếng Trung.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l259-t0-l219-t4",
+      "type": "teaching",
+      "title": "Nhắc lại · 名 · lượng từ đếm người trong thông tin",
+      "text": "Bài luyện 名 trong 两名学生. Nghĩa danh từ tên cũng có trong mục từ nhưng chưa phải đáp án của ngữ cảnh này.",
+      "hanzi": "两名学生在教室里。",
+      "pinyin": "Liǎng míng xuésheng zài jiàoshì li.",
+      "meaning": "Hai học sinh đang ở trong lớp.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l259-t0-l219-t5",
+      "type": "teaching",
+      "title": "Nhắc lại · 位 · lượng từ lịch sự cho người",
+      "text": "位 dùng cho người: 一位老师. Không nhầm vị trí ‘chỗ ngồi’ trong từ ghép khác.",
+      "hanzi": "这位老师教我们中文。",
+      "pinyin": "Zhè wèi lǎoshī jiāo wǒmen Zhōngwén.",
+      "meaning": "Giáo viên này dạy chúng tôi tiếng Trung.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l259-t0-l219-grammar",
+      "type": "teaching",
+      "title": "Nhắc lại · Cách nói trong ngữ cảnh",
+      "text": "位 là lượng từ lịch sự cho người; 名 dùng trong thông tin số người: 一名学生、两位老师. Không dùng 位 để đếm lớp hoặc môn thi.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l259-t0-l219-reading",
+      "type": "teaching",
+      "title": "Nhắc lại · Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "我们高中明天开学。我们班有二十名学生，两位老师教我们中文。老师说：星期五考中文，今天一起看书吧。",
+      "pinyin": "Wǒmen gāozhōng míngtiān kāixué. Wǒmen bān yǒu èrshí míng xuésheng, liǎng wèi lǎoshī jiāo wǒmen Zhōngwén. Lǎoshī shuō: Xīngqīwǔ kǎo Zhōngwén, jīntiān yìqǐ kàn shū ba.",
+      "meaning": "Trường phổ thông của chúng tôi khai giảng ngày mai. Lớp có hai mươi học sinh, hai giáo viên dạy tiếng Trung. Giáo viên nói: Thứ sáu thi tiếng Trung, hôm nay cùng đọc sách nhé.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l259-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l259-e0"
+    },
+    {
+      "id": "l259-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l259-e1"
+    },
+    {
+      "id": "l259-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l259-e2"
+    },
+    {
+      "id": "l259-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l259-e3"
+    },
+    {
+      "id": "l259-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l259-e4"
+    },
+    {
+      "id": "l259-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l259-e5"
+    },
+    {
+      "id": "l259-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l259-e6"
+    },
+    {
+      "id": "l259-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l259-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l259-e0",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l219-c0",
+      "senseId": "l219-v-304-sense",
+      "keyRef": "l259-k0",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “lớp, tập thể học sinh” (bān).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l259-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l219-c1",
+      "senseId": "l219-v-342-sense",
+      "keyRef": "l259-k1",
+      "prompt": "Ôn nghĩa: 高中 (gāo zhōng) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "bắt đầu kỳ học, khai giảng",
+        "thi, kiểm tra trong việc học",
+        "lượng từ đếm người trong thông tin",
+        "lượng từ lịch sự cho người",
+        "lớp, tập thể học sinh",
+        "trung học phổ thông"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l259-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l219-c2",
+      "senseId": "l219-v-379-sense",
+      "keyRef": "l259-k2",
+      "prompt": "Ôn cách đọc của 开学 trong nghĩa “bắt đầu kỳ học, khai giảng”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l259-e3",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l219-c3",
+      "senseId": "l219-v-380-sense",
+      "keyRef": "l259-k3",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “thi, kiểm tra trong việc học” (kǎo).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l259-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l219-c4",
+      "senseId": "l219-v-404-sense",
+      "keyRef": "l259-k4",
+      "prompt": "Ôn nghĩa: 名 (míng) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "lượng từ lịch sự cho người",
+        "lớp, tập thể học sinh",
+        "trung học phổ thông",
+        "bắt đầu kỳ học, khai giảng",
+        "thi, kiểm tra trong việc học",
+        "lượng từ đếm người trong thông tin"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l259-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l219-c5",
+      "senseId": "l219-v-453-sense",
+      "keyRef": "l259-k5",
+      "prompt": "Ôn cách đọc của 位 trong nghĩa “lượng từ lịch sự cho người”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l259-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l219-c3",
+      "senseId": "l219-v-380-sense",
+      "keyRef": "l259-k6",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “thi, kiểm tra trong việc học” (kǎo) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "旅",
+        "考",
+        "楼",
+        "路"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l259-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l219-c3",
+      "senseId": "l219-v-380-sense",
+      "keyRef": "l259-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Xếp câu: hai học sinh đang ở trong lớp.",
+      "choices": [
+        "在教室里",
+        "两名",
+        "学生"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l259-k0",
+      "version": 1,
+      "exerciseVersionId": "l259-e0",
+      "senseId": "l219-v-304-sense",
+      "accepted": [
+        "班"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "班 · lớp, tập thể học sinh."
+    },
+    {
+      "id": "l259-k1",
+      "version": 1,
+      "exerciseVersionId": "l259-e1",
+      "senseId": "l219-v-342-sense",
+      "accepted": [
+        "trung học phổ thông"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "高中: trung học phổ thông."
+    },
+    {
+      "id": "l259-k2",
+      "version": 1,
+      "exerciseVersionId": "l259-e2",
+      "senseId": "l219-v-379-sense",
+      "accepted": [
+        "kāi xué"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "kāi xué · bắt đầu kỳ học, khai giảng"
+    },
+    {
+      "id": "l259-k3",
+      "version": 1,
+      "exerciseVersionId": "l259-e3",
+      "senseId": "l219-v-380-sense",
+      "accepted": [
+        "考"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "考 · thi, kiểm tra trong việc học."
+    },
+    {
+      "id": "l259-k4",
+      "version": 1,
+      "exerciseVersionId": "l259-e4",
+      "senseId": "l219-v-404-sense",
+      "accepted": [
+        "lượng từ đếm người trong thông tin"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "名: lượng từ đếm người trong thông tin."
+    },
+    {
+      "id": "l259-k5",
+      "version": 1,
+      "exerciseVersionId": "l259-e5",
+      "senseId": "l219-v-453-sense",
+      "accepted": [
+        "wèi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "wèi · lượng từ lịch sự cho người"
+    },
+    {
+      "id": "l259-k6",
+      "version": 1,
+      "exerciseVersionId": "l259-e6",
+      "senseId": "l219-v-380-sense",
+      "accepted": [
+        "考"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "考 · kǎo · thi, kiểm tra trong việc học. Chữ cần nhận diện là 考."
+    },
+    {
+      "id": "l259-k7",
+      "version": 1,
+      "exerciseVersionId": "l259-e7",
+      "senseId": "l219-v-380-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 位 là lượng từ lịch sự cho người; 名 dùng trong thông tin số người: 一名学生、两位老师. Không dùng 位 để đếm lớp hoặc môn thi."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

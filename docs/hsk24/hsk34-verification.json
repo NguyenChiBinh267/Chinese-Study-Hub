@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "status": "HSK3_VOCABULARY_COMPLETE / HSK3_CURRICULUM_PARTIAL / HSK24_EPIC_PARTIAL",
+  "baseline": "55870a2962390df07c68cd3476f38c87fc80f0dd",
+  "sourceCandidateCommit": "ceab4739be378ebe413a0b8b20d0620c5c09ac31",
+  "HSK3FullRuntimeSourceCommit": "d284063a0b01b7c105b1f2366499bcff03dc398c",
+  "postAdapterRegression": "The only later domain change adds bounded HSK4 page ranges; unchanged HSK1-3 paths covered by all-package unit validation and nine current SQL cases.",
+  "branch": "feat/hsk24-curriculum",
+  "sourceSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+  "HSK3": {
+    "completedBatches": 21,
+    "newBatchesThisRun": 17,
+    "newIntroductionLessons": 68,
+    "newIntroductionExercises": 544,
+    "currentIntroductionLessons": 84,
+    "currentIntroductionExercises": 672,
+    "vocabularyTaught": 500,
+    "vocabularyDenominator": 500,
+    "summary": {
+      "vocabularyTaught": 500,
+      "grammarRowsMappedCandidates": 55,
+      "topicLeavesMapped": 41,
+      "taskHeadsReferenced": 20,
+      "recognitionCharacterRefs": 283,
+      "qualifiedHumanReviews": 0,
+      "grammarRowsWithExplicitPartialPractice": 51,
+      "recognitionCharactersExplicitlyPracticed": 60,
+      "fullyAcceptedGrammarRows": 0,
+      "fullyAcceptedTaskBullets": 0
+    },
+    "reviewActivities": 15,
+    "reviewExercises": 120
+  },
+  "HSK4": {
+    "completedBatches": 1,
+    "lessons": 4,
+    "exercises": 32,
+    "vocabularyTaught": 24,
+    "vocabularyDenominator": 1000,
+    "summary": {
+      "grammarRowsMappedCandidates": 4,
+      "topicLeavesMapped": 4,
+      "taskHeadsReferenced": 4,
+      "recognitionCharacterRefs": 10
+    }
+  },
+  "expansion": {
+    "currentActivities": 194,
+    "currentExercises": 1552,
+    "manifestVersions": 231,
+    "historicalVersions": 37,
+    "serverVersionsIncludingSixBase": 237
+  },
+  "tests": {
+    "unit": {
+      "path": ".local-postgres/hsk24/hsk34-final-unit.log",
+      "sha256": "bd5143da54f448b9f3384cd1388c413b56d5f92ae7eff566d66806319d64f127",
+      "tests": 119,
+      "pass": 119,
+      "fail": 0,
+      "skipped": 0
+    },
+    "HSK3NewAndRefinedActivitiesSQL": {
+      "path": ".local-postgres/hsk24/hsk3-final-sql.log",
+      "sha256": "d3ff4c6e6888b12bb73346607c88a7e1e530483e436f775f79cf8b848b7a381e",
+      "tests": 87,
+      "pass": 87,
+      "fail": 0,
+      "skipped": 0
+    },
+    "HSK4SQL": {
+      "path": ".local-postgres/hsk24/hsk4-final-sql.log",
+      "sha256": "52a373137d49e7e0f8e582b2c27cab0347c2a5b92584e6467500ecdc3f756d2f",
+      "tests": 8,
+      "pass": 8,
+      "fail": 0,
+      "skipped": 0
+    },
+    "HSK3PostAdapterSQL": {
+      "path": ".local-postgres/hsk24/hsk34-post-adapter-hsk3-sql.log",
+      "sha256": "79d02e7a1d354e42513ff243360e08f42591fc9cd4c21ea0323c8d4e350558bd",
+      "tests": 9,
+      "pass": 9,
+      "fail": 0,
+      "skipped": 0
+    },
+    "HSK2RegressionSQL": {
+      "path": ".local-postgres/hsk24/hsk34-hsk2-regression-sql.log",
+      "sha256": "bb6ef19d5c597ff7cd0ed522bc1c2221e63ae6e45a1d35de9659c6f8cd9ee167",
+      "tests": 8,
+      "pass": 8,
+      "fail": 0,
+      "skipped": 0
+    },
+    "all194ManifestResumeSQL": {
+      "path": ".local-postgres/hsk24/hsk34-manifest-sql.log",
+      "sha256": "2dd3c7c6445126ac64aec5c456a8e406abce31aee9e46fb9e390db1fa27f0a2b",
+      "tests": 1,
+      "pass": 1,
+      "fail": 0,
+      "skipped": 0
+    },
+    "HSK3BrowserDesktopAnd360": {
+      "path": ".local-postgres/hsk24/hsk3-final-browser.json",
+      "sha256": "e2b42d61bc98b329d21408c269330c76941dafb0f13e4d8db6097f2cba1f220e",
+      "pass": 8,
+      "fail": 0,
+      "flaky": 0,
+      "skipped": 0
+    },
+    "HSK4BrowserDesktopAnd360": {
+      "path": ".local-postgres/hsk24/hsk4-final-browser.json",
+      "sha256": "a8ccdbb4016d805c290c09bb5586c451d3259b260a2ace9e823b080ed1270ce7",
+      "pass": 4,
+      "fail": 0,
+      "flaky": 0,
+      "skipped": 0
+    },
+    "HSK4TodayDesktopAnd360": {
+      "path": ".local-postgres/hsk24/hsk4-today-browser.json",
+      "sha256": "585e9c46fe4a58af368e03ff58fdafc6fa227a6f3ee01e97ab5051ef2fd3aa0e",
+      "pass": 2,
+      "fail": 0,
+      "flaky": 0,
+      "skipped": 0
+    }
+  },
+  "codeChecks": {
+    "sourceCommit": "ceab4739be378ebe413a0b8b20d0620c5c09ac31",
+    "lintExit": 0,
+    "checkedAt": "2026-10-26T09:07:35.0359777Z",
+    "typecheckExit": 0,
+    "buildExit": 0
+  },
+  "clientIsolation": {
+    "production": {
+      "passed": true,
+      "scope": "Production default with local expansion disabled",
+      "files": 32,
+      "bytes": 966566,
+      "privateKeyIdsChecked": 1848,
+      "markerHits": 0,
+      "artifactDigest": "1473711218a5f8e6e6c1ed90da48fb4f6a6e468910a6a3bdbff2c8b25468ec4b",
+      "limits": "Bounded marker scan plus per-package public projection tests; not a formal leak proof. Server-provided draft feedback after submission remains expected."
+    },
+    "development": {
+      "passed": true,
+      "scope": "Local opt-in development client artifacts",
+      "files": 114,
+      "bytes": 31904131,
+      "privateKeyIdsChecked": 1848,
+      "markerHits": 0,
+      "artifactDigest": "4d07dc048d25eeb4f07f3c2546411a71f41de2f8fdad9d23132ba437a91020e3",
+      "limits": "Bounded marker scan plus per-package public projection tests; not a formal leak proof. Server-provided draft feedback after submission remains expected."
+    }
+  },
+  "preservation": {
+    "baselinePackagesUnchanged": 123,
+    "baselineSourceReferencesUnchanged": 650,
+    "retainedDatabaseDigestsUnchanged": [
+      {
+        "database": "csh_hsk24_b886f8707776",
+        "tables": {
+          "packages": {
+            "rows": 141,
+            "sha256": "99807086f1adb42918009652c955090cf584c0ae9e128afb6a112d301058c712"
+          },
+          "attempts": {
+            "rows": 353,
+            "sha256": "a6fbe2d87a20647b48199acc1efe20845001f1b51568972f854c37371859c047"
+          },
+          "sessions": {
+            "rows": 167,
+            "sha256": "fa0eefbf0603d2798d588ca7947b3aa1ba92eafc2fca102652e6b0bc2e5cc570"
+          },
+          "cards": {
+            "rows": 204,
+            "sha256": "ce02cc46c37724457509c872e4f553acf5fa95bdf057ab537b22d18c16331d4b"
+          }
+        }
+      },
+      {
+        "database": "csh_hsk24_caa07f671ad4",
+        "tables": {
+          "packages": {
+            "rows": 209,
+            "sha256": "2477556cfb1452bf06e7d92493ff17f599e997cc90ac2eef92dd30b19f7d2bea"
+          },
+          "attempts": {
+            "rows": 562,
+            "sha256": "8b6fcbb03cfc4f080afc0d3cd4a2a9547f4def37838263c524b002e79d800107"
+          },
+          "sessions": {
+            "rows": 98,
+            "sha256": "845ee16ee1812f1863c97e90a9258d8d1f578c4db609cd23902a6a6d9174c913"
+          },
+          "cards": {
+            "rows": 416,
+            "sha256": "b862fdd4f1c154ac5066df2e790cf248a7b0dc75b508c9e3e98cd03d007c31f2"
+          }
+        }
+      }
+    ],
+    "beforePath": ".local-postgres/hsk24/history-before.json",
+    "beforeSha256": "f05b5f3a5884125ecc97347637f6935939d5add15452b508d70e96a57f9dab32",
+    "afterPath": ".local-postgres/hsk24/history-after.json",
+    "afterSha256": "a3cef1db8a5e188d72dda53143253df071440d959260897d9878fcd02a9de436",
+    "additiveImports": [
+      {
+        "path": ".local-postgres/hsk24/hsk3-batch5-6-import.log",
+        "sha256": "7f3121f3440124b4a0a26ae51c51c27ae6aafe213be2846a213c92242e31a3f7",
+        "preservation": {
+          "database": "csh_hsk24_b886f8707776",
+          "checkedAt": "2026-10-26T07:07:34.599Z",
+          "existingPackagesPreserved": 129,
+          "packagesAfter": 137,
+          "existingAttemptsPreserved": 251,
+          "existingSessionsPreserved": 145,
+          "existingCardsPreserved": 128
+        }
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk3-batch7-import.log",
+        "sha256": "d871c54d8de447e9d8b99ea45a693120fb346787452bc124d0b9f3a77b71fa98",
+        "preservation": {
+          "database": "csh_hsk24_b886f8707776",
+          "checkedAt": "2026-10-26T07:12:12.252Z",
+          "existingPackagesPreserved": 137,
+          "packagesAfter": 141,
+          "existingAttemptsPreserved": 318,
+          "existingSessionsPreserved": 158,
+          "existingCardsPreserved": 178
+        }
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk3-batch13-15-import.log",
+        "sha256": "e3fe5a59d7ebb0092629e1c88e66ed3d67439d433096df8841ecbf79d75268ca",
+        "preservation": {
+          "database": "csh_hsk24_caa07f671ad4",
+          "checkedAt": "2026-10-26T07:48:15.308Z",
+          "existingPackagesPreserved": 173,
+          "packagesAfter": 185,
+          "existingAttemptsPreserved": 259,
+          "existingSessionsPreserved": 37,
+          "existingCardsPreserved": 194
+        }
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk3-batch16-17-import.log",
+        "sha256": "babc649b35e68e20b2f82cedeaf8dc627b52e4dffb1259632484475d60ba5333",
+        "preservation": {
+          "database": "csh_hsk24_caa07f671ad4",
+          "checkedAt": "2026-10-26T07:57:13.422Z",
+          "existingPackagesPreserved": 185,
+          "packagesAfter": 193,
+          "existingAttemptsPreserved": 358,
+          "existingSessionsPreserved": 54,
+          "existingCardsPreserved": 268
+        }
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk3-batch18-import.log",
+        "sha256": "c07a3137424824ac65eb2530511064cbb5cd25a3b670d5c38ab7adbf452c5397",
+        "preservation": {
+          "database": "csh_hsk24_caa07f671ad4",
+          "checkedAt": "2026-10-26T08:00:54.520Z",
+          "existingPackagesPreserved": 193,
+          "packagesAfter": 197,
+          "existingAttemptsPreserved": 425,
+          "existingSessionsPreserved": 67,
+          "existingCardsPreserved": 318
+        }
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk3-batch19-import.log",
+        "sha256": "d37c50cf770757663fbd605a307cd17acf96df7826084f5348cb19ccca31adf6",
+        "preservation": {
+          "database": "csh_hsk24_caa07f671ad4",
+          "checkedAt": "2026-10-26T08:04:30.129Z",
+          "existingPackagesPreserved": 197,
+          "packagesAfter": 201,
+          "existingAttemptsPreserved": 460,
+          "existingSessionsPreserved": 76,
+          "existingCardsPreserved": 344
+        }
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk3-batch20-21-import.log",
+        "sha256": "0e778281a6ffaa57e236624952c9ccb1aa53f14d989d7352b948c5b1e8a6616c",
+        "preservation": {
+          "database": "csh_hsk24_caa07f671ad4",
+          "checkedAt": "2026-10-26T08:12:32.878Z",
+          "existingPackagesPreserved": 201,
+          "packagesAfter": 209,
+          "existingAttemptsPreserved": 495,
+          "existingSessionsPreserved": 85,
+          "existingCardsPreserved": 370
+        }
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-final-import.log",
+        "sha256": "872b5cae8d7cf1178af9c3857eb04e4a29fdc9023def85f3894a93580d33264b",
+        "preservation": {
+          "database": "csh_hsk24_bf294b6506c1",
+          "checkedAt": "2026-10-26T09:11:37.079Z",
+          "existingPackagesPreserved": 237,
+          "packagesAfter": 237,
+          "existingAttemptsPreserved": 78,
+          "existingSessionsPreserved": 213,
+          "existingCardsPreserved": 57
+        }
+      }
+    ],
+    "limit": "Semantic full-row digests/package hashes and retained databases; not a backup/restore proof."
+  },
+  "trackedReportHashes": [
+    {
+      "path": "docs/hsk24/coverage.json",
+      "sha256": "c16c809c7d77f5e795fa7029fb325aa2f24c46176b776d79ad18eb84b6589dd7",
+      "normalization": "UTF8 LF matching Git"
+    },
+    {
+      "path": "docs/hsk24/hsk3-coverage.json",
+      "sha256": "04ef129aee21f9fd9f90a4b616a075afbc2759d006850bc527a4c89349c876f3",
+      "normalization": "UTF8 LF matching Git"
+    },
+    {
+      "path": "docs/hsk24/hsk4-coverage.json",
+      "sha256": "68ffe9b5924c78e607562a4672a19fc1cc7bcec93dfc3dd4fb35c1736e349706",
+      "normalization": "UTF8 LF matching Git"
+    },
+    {
+      "path": "docs/hsk24/hsk3-instruction-evidence.json",
+      "sha256": "f77fd2f73f89fd7bde2884a82e6e1d407ace66674c48b2c681e39d17be578e4a",
+      "normalization": "UTF8 LF matching Git"
+    },
+    {
+      "path": "docs/hsk24/hsk34-performance.json",
+      "sha256": "5a5ba170db037bfad5290a2918ae082cc7a70de4566ba6176b537bc2a2e4f787",
+      "normalization": "UTF8 LF matching Git"
+    }
+  ],
+  "sourceNegative": {
+    "case": "Source separators preserve tones: chèng kè must not match official chéngkè",
+    "passed": true,
+    "expectedRejected": true,
+    "exitCode": 1,
+    "productionPinyinNormalizerChanged": false
+  },
+  "failedIntermediateRuns": [
+    {
+      "path": ".local-postgres/hsk24/hsk3-batch5-12-sql.log",
+      "sha256": "56a57a22f34ff09f2ebe5b88de8067d74cc3b6d215a8c2dd35b252ab2334b9e4",
+      "pass": 35,
+      "fail": 1,
+      "skipped": 0,
+      "reason": "Source advanced to56 HSK3 activities while installed snapshot had48. All32 lesson cases passed; aggregate catalog equality correctly failed. Later quiescent87-case selection accepted without weakening count assertion."
+    }
+  ],
+  "humanReview": null,
+  "publicationStatus": "BLOCKED",
+  "learnerMastered": null,
+  "onlinePrivatePreviewChanged": false,
+  "push": false,
+  "merge": false,
+  "deployment": false,
+  "liveSupabaseWrites": false,
+  "paidServices": false,
+  "previewURL": "http://127.0.0.1:3037/learn/courses/HSK4",
+  "independentTechnicalReview": "TECHNICAL_PASS",
+  "technicalReviewReceipt": "docs/hsk24/hsk34-technical-review.json",
+  "qualifiedLanguageReview": false,
+  "proofFinalizerSha256": "46461c0ba53ecad1e7e9026c32352635ec032051c1deba615584a9ed4ed5d2c4",
+  "proofFinalizerScope": "Post-test document generation may be committed after the frozen app/content candidate; no runtime or package mutation."
+}

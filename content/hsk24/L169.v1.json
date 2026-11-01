@@ -1,0 +1,758 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "a54adc6947c9e480a8ca967bdc1c17eaf942ddc94ad74d0d4073a75c677689ad",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-be",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L169",
+    "version": 1,
+    "versionId": "l169-draft-v1",
+    "title": "Đề nghị món ăn khi đi ăn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đề nghị món ăn khi đi ăn; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "吧"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 5,
+      "physicalPage": 6,
+      "printedPage": 3,
+      "section": "task",
+      "entry": "七"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:34:41.964702Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-food",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 5,
+          "physicalPage": 6,
+          "printedPage": 3,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "问答饮食喜好",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-515da74e1a50",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "就餐"
+        },
+        "written": "就餐",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l169-v-51",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 51"
+        },
+        "written": "饭店",
+        "pinyin": "fàndiàn",
+        "senseId": "l169-v-51-sense",
+        "ordinal": 51,
+        "note": "1 fàndiàn 名; 饭店 ở bài là nơi ăn uống; từ cũng có cách dùng chỉ khách sạn trong ngữ cảnh khác, không áp nghĩa đó vào mọi câu ở đây. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l169-v-72",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 72"
+        },
+        "written": "好吃",
+        "pinyin": "hǎochī",
+        "senseId": "l169-v-72-sense",
+        "ordinal": 72,
+        "note": "1 hǎochī 形; 好吃 là nhận xét món ăn của người nói; không dùng thay 好喝 cho mọi đồ uống. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l169-v-277",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 277"
+        },
+        "written": "怎么样",
+        "pinyin": "zěnmeyàng",
+        "senseId": "l169-v-277-sense",
+        "ordinal": 277,
+        "note": "1 zěnmeyàng 代; 怎么样 hỏi tình trạng/đánh giá trong câu mẫu, khác câu hỏi cách đi có 怎么. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l169-v-4",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 4"
+        },
+        "written": "吧",
+        "pinyin": "ba",
+        "senseId": "l169-v-4-sense",
+        "ordinal": 4,
+        "note": "1 ba 助; 吧 ở lời đề nghị cuối câu; bài chưa bao quát mọi công dụng suy đoán của trợ từ. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-44",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "44"
+        },
+        "written": "饭",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 44,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-65",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "65"
+        },
+        "written": "好",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 65,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-22",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "22"
+        },
+        "written": "吃",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 22,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-229",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "229"
+        },
+        "written": "怎",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 229,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-111",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "111"
+        },
+        "written": "么",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 111,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-209",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "209"
+        },
+        "written": "样",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 209,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-4",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "4"
+        },
+        "written": "吧",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 4,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-169",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-26"
+        },
+        "written": "吧",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l169-c0",
+      "version": 1,
+      "senseId": "l169-v-51-sense",
+      "hanzi": "饭店",
+      "dictionaryPinyin": "fàn diàn",
+      "meaning": "nhà hàng; quán ăn (trong cảnh này)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l169-v-51"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l169-c1",
+      "version": 1,
+      "senseId": "l169-v-72-sense",
+      "hanzi": "好吃",
+      "dictionaryPinyin": "hǎo chī",
+      "meaning": "ngon (đối với món ăn)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l169-v-72"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l169-c2",
+      "version": 1,
+      "senseId": "l169-v-277-sense",
+      "hanzi": "怎么样",
+      "dictionaryPinyin": "zěn me yàng",
+      "meaning": "thế nào; ra sao (dạng zěnmeyàng)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l169-v-277"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l169-c3",
+      "version": 1,
+      "senseId": "l169-v-4-sense",
+      "hanzi": "吧",
+      "dictionaryPinyin": "ba",
+      "meaning": "nhé; đi (trợ từ nhẹ ba)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l169-v-4"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l169-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l169-t0",
+      "type": "teaching",
+      "title": "饭店 · nhà hàng; quán ăn (trong cảnh này)",
+      "text": "饭店 ở bài là nơi ăn uống; từ cũng có cách dùng chỉ khách sạn trong ngữ cảnh khác, không áp nghĩa đó vào mọi câu ở đây.",
+      "hanzi": "我们去饭店吃饭吧。",
+      "pinyin": "Wǒ men qù fàn diàn chī fàn ba.",
+      "meaning": "Chúng ta đến quán ăn ăn cơm nhé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l169-t1",
+      "type": "teaching",
+      "title": "好吃 · ngon (đối với món ăn)",
+      "text": "好吃 là nhận xét món ăn của người nói; không dùng thay 好喝 cho mọi đồ uống.",
+      "hanzi": "这个饺子很好吃。",
+      "pinyin": "Zhè ge jiǎo zi hěn hǎo chī.",
+      "meaning": "Chiếc sủi cảo này ngon.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l169-t2",
+      "type": "teaching",
+      "title": "怎么样 · thế nào; ra sao (dạng zěnmeyàng)",
+      "text": "怎么样 hỏi tình trạng/đánh giá trong câu mẫu, khác câu hỏi cách đi có 怎么.",
+      "hanzi": "这个饭店怎么样？",
+      "pinyin": "Zhè ge fàn diàn zěn me yàng?",
+      "meaning": "Quán ăn này thế nào?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l169-t3",
+      "type": "teaching",
+      "title": "吧 · nhé; đi (trợ từ nhẹ ba)",
+      "text": "吧 ở lời đề nghị cuối câu; bài chưa bao quát mọi công dụng suy đoán của trợ từ.",
+      "hanzi": "我们去吧。",
+      "pinyin": "Wǒ men qù ba.",
+      "meaning": "Chúng ta đi nhé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l169-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "怎么样 hỏi tình trạng/đánh giá như 这个饭店怎么样; 怎么 ở bài trước thường hỏi cách làm trong 你怎么去学校. 吧 cuối 我们去饭店吧 làm lời đề nghị nhẹ hơn, chưa phải lời xác nhận người kia đồng ý. 好吃 nhận xét món ăn ngon theo người nói, không phải một phép đo khách quan.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l169-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：这个饭店怎么样？\nB：饺子很好吃。\nA：我们去饭店吃饭吧。\nB：好，我想吃饺子。",
+      "pinyin": "A: Zhè ge fàn diàn zěn me yàng? B: Jiǎo zi hěn hǎo chī. A: Wǒ men qù fàn diàn chī fàn ba. B: Hǎo, wǒ xiǎng chī jiǎo zi.",
+      "meaning": "B khen sủi cảo, rồi đồng ý lời đề nghị đi ăn. Tên quán, giá và chất lượng thực tế không được xác nhận bởi truyện.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l169-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l169-v1-e0"
+    },
+    {
+      "id": "l169-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l169-v1-e1"
+    },
+    {
+      "id": "l169-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l169-v1-e2"
+    },
+    {
+      "id": "l169-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l169-v1-e3"
+    },
+    {
+      "id": "l169-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l169-v1-e4"
+    },
+    {
+      "id": "l169-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l169-v1-e5"
+    },
+    {
+      "id": "l169-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l169-v1-e6"
+    },
+    {
+      "id": "l169-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l169-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l169-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l169-c0",
+      "senseId": "l169-v-51-sense",
+      "keyRef": "l169-v1-k0",
+      "prompt": "Chọn mục từ đọc fàn diàn, nghĩa “nhà hàng; quán ăn (trong cảnh này)”, trong câu: 我们去□吃饭吧。",
+      "choices": [
+        "好吃",
+        "怎么样",
+        "吧",
+        "饭店"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l169-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l169-c1",
+      "senseId": "l169-v-72-sense",
+      "keyRef": "l169-v1-k1",
+      "prompt": "Viết pinyin từ điển của 好吃 (ngon (đối với món ăn)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l169-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l169-c2",
+      "senseId": "l169-v-277-sense",
+      "keyRef": "l169-v1-k2",
+      "prompt": "Điền đúng mục từ đọc zěn me yàng, nghĩa “thế nào; ra sao (dạng zěnmeyàng)”: 这个饭店□？ Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l169-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l169-c3",
+      "senseId": "l169-v-4-sense",
+      "keyRef": "l169-v1-k3",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “nhé; đi (trợ từ nhẹ ba)”: □ (ba). Ngữ cảnh: 我们去□。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "吧",
+        "把",
+        "巴",
+        "吗"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l169-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l169-c2",
+      "senseId": "l169-v-277-sense",
+      "keyRef": "l169-v1-k4",
+      "prompt": "Trong câu “这个饭店怎么样？”, 怎么样 mang nghĩa nào theo bài?",
+      "choices": [
+        "ngon (đối với món ăn)",
+        "thế nào; ra sao (dạng zěnmeyàng)",
+        "nhé; đi (trợ từ nhẹ ba)",
+        "nhà hàng; quán ăn (trong cảnh này)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l169-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l169-c3",
+      "senseId": "l169-v-4-sense",
+      "keyRef": "l169-v1-k5",
+      "prompt": "Trong câu “我们去吧。”, 吧 mang nghĩa nào theo bài?",
+      "choices": [
+        "thế nào; ra sao (dạng zěnmeyàng)",
+        "nhé; đi (trợ từ nhẹ ba)",
+        "nhà hàng; quán ăn (trong cảnh này)",
+        "ngon (đối với món ăn)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l169-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l169-c0",
+      "senseId": "l169-v-51-sense",
+      "keyRef": "l169-v1-k6",
+      "prompt": "B muốn ăn gì?",
+      "choices": [
+        "面条儿",
+        "苹果",
+        "饺子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l169-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l169-c3",
+      "senseId": "l169-v-4-sense",
+      "keyRef": "l169-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我们",
+        "去饭店",
+        "吃饭吧。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l169-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l169-v1-e0",
+      "senseId": "l169-v-51-sense",
+      "accepted": [
+        "饭店"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc fàn diàn: 饭店. 饭店 ở bài là nơi ăn uống; từ cũng có cách dùng chỉ khách sạn trong ngữ cảnh khác, không áp nghĩa đó vào mọi câu ở đây. Chúng ta đến quán ăn ăn cơm nhé."
+    },
+    {
+      "id": "l169-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l169-v1-e1",
+      "senseId": "l169-v-72-sense",
+      "accepted": [
+        "hǎo chī"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "好吃 ghi hǎo chī. 好吃 là nhận xét món ăn của người nói; không dùng thay 好喝 cho mọi đồ uống."
+    },
+    {
+      "id": "l169-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l169-v1-e2",
+      "senseId": "l169-v-277-sense",
+      "accepted": [
+        "怎么样"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc zěn me yàng: 怎么样. 怎么样 hỏi tình trạng/đánh giá trong câu mẫu, khác câu hỏi cách đi có 怎么. Quán ăn này thế nào?"
+    },
+    {
+      "id": "l169-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l169-v1-e3",
+      "senseId": "l169-v-4-sense",
+      "accepted": [
+        "吧"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 吧 tạo từ 吧. 吧 ở lời đề nghị cuối câu; bài chưa bao quát mọi công dụng suy đoán của trợ từ. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l169-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l169-v1-e4",
+      "senseId": "l169-v-277-sense",
+      "accepted": [
+        "thế nào; ra sao (dạng zěnmeyàng)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "怎么样 hỏi tình trạng/đánh giá trong câu mẫu, khác câu hỏi cách đi có 怎么. Quán ăn này thế nào?"
+    },
+    {
+      "id": "l169-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l169-v1-e5",
+      "senseId": "l169-v-4-sense",
+      "accepted": [
+        "nhé; đi (trợ từ nhẹ ba)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "吧 ở lời đề nghị cuối câu; bài chưa bao quát mọi công dụng suy đoán của trợ từ. Chúng ta đi nhé."
+    },
+    {
+      "id": "l169-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l169-v1-e6",
+      "senseId": "l169-v-51-sense",
+      "accepted": [
+        "饺子"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 饺子. B khen sủi cảo, rồi đồng ý lời đề nghị đi ăn. Tên quán, giá và chất lượng thực tế không được xác nhận bởi truyện."
+    },
+    {
+      "id": "l169-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l169-v1-e7",
+      "senseId": "l169-v-4-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 怎么样 hỏi tình trạng/đánh giá như 这个饭店怎么样; 怎么 ở bài trước thường hỏi cách làm trong 你怎么去学校. 吧 cuối 我们去饭店吧 làm lời đề nghị nhẹ hơn, chưa phải lời xác nhận người kia đồng ý. 好吃 nhận xét món ăn ngon theo người nói, không phải một phép đo khách quan."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

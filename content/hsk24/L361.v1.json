@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "fd0a8c77fef4ea284ee49580304a541cbde30e5716d0ff40b3fca45635a09556",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-art-exhibition",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L361",
+    "version": 1,
+    "versionId": "l361-draft-v1",
+    "title": "Nghệ thuật và địa điểm triển lãm",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc thông tin họa sĩ và triển lãm; phân biệt nổi tiếng với đã được đánh giá chất lượng.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "—家"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 18,
+      "physicalPage": 19,
+      "printedPage": 16,
+      "section": "task",
+      "entry": "十九"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-art-task",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 18,
+          "physicalPage": 19,
+          "printedPage": 16,
+          "section": "task",
+          "entry": "十九"
+        },
+        "written": "交流文艺活动信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-art-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "文艺活动"
+        },
+        "written": "文艺活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l361-v-676",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 676"
+        },
+        "written": "画家",
+        "pinyin": "huàjiā",
+        "senseId": "l361-v-676-sense",
+        "ordinal": 676,
+        "note": "3 huàjiā 名; 画家 gọi người chuyên vẽ/người làm nghề hội họa, 家 ở đây là hậu tố chỉ người; không phải căn nhà chứa tranh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l361-v-773",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 773"
+        },
+        "written": "名人",
+        "pinyin": "míngrén",
+        "senseId": "l361-v-773-sense",
+        "ordinal": 773,
+        "note": "3 míngrén 名; 名人 là người được nhiều người biết; không đồng nghĩa người luôn đúng hay có chuyên môn mọi lĩnh vực. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l361-v-947",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 947"
+        },
+        "written": "有名",
+        "pinyin": "yǒumíng",
+        "senseId": "l361-v-947-sense",
+        "ordinal": 947,
+        "note": "3 yǒumíng 形; 有名 là được biết nhiều theo phạm vi/ngữ cảnh; 画家很有名 không tự chứng minh từng bức tranh đẹp. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l361-v-835",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 835"
+        },
+        "written": "世界",
+        "pinyin": "shìjiè",
+        "senseId": "l361-v-835-sense",
+        "ordinal": 835,
+        "note": "3 shìjiè 名; 世界 chỉ thế giới; 世界各地 là nhiều nơi trên thế giới, chưa nói mọi nơi không có ngoại lệ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l361-v-832",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 832"
+        },
+        "written": "市",
+        "pinyin": "shì",
+        "senseId": "l361-v-832-sense",
+        "ordinal": 832,
+        "note": "3 shì 名; 市 trong 本市 là thành phố này, thường sau tên địa danh ở Trung Quốc; không phải 市 trường trong mọi từ ghép. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l361-v-865",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 865"
+        },
+        "written": "外地",
+        "pinyin": "wàidì",
+        "senseId": "l361-v-865-sense",
+        "ordinal": 865,
+        "note": "3 wàidì 名; 外地 là nơi khác với địa phương đang nói, không nhất thiết là nước ngoài. 外地来的人 có thể cùng một quốc gia. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-196",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "196"
+        },
+        "written": "世",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 196,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-114",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "114"
+        },
+        "written": "界",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 114,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-suffix-artist",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "语素 / 后缀 / 家"
+        },
+        "written": "—家",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l361-c0",
+      "version": 1,
+      "senseId": "l361-v-676-sense",
+      "hanzi": "画家",
+      "dictionaryPinyin": "huà jiā",
+      "meaning": "họa sĩ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l361-v-676"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l361-c1",
+      "version": 1,
+      "senseId": "l361-v-773-sense",
+      "hanzi": "名人",
+      "dictionaryPinyin": "míng rén",
+      "meaning": "người nổi tiếng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l361-v-773"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l361-c2",
+      "version": 1,
+      "senseId": "l361-v-947-sense",
+      "hanzi": "有名",
+      "dictionaryPinyin": "yǒu míng",
+      "meaning": "nổi tiếng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l361-v-947"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l361-c3",
+      "version": 1,
+      "senseId": "l361-v-835-sense",
+      "hanzi": "世界",
+      "dictionaryPinyin": "shì jiè",
+      "meaning": "thế giới",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l361-v-835"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l361-c4",
+      "version": 1,
+      "senseId": "l361-v-832-sense",
+      "hanzi": "市",
+      "dictionaryPinyin": "shì",
+      "meaning": "thành phố (đơn vị địa danh)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l361-v-832"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l361-c5",
+      "version": 1,
+      "senseId": "l361-v-865-sense",
+      "hanzi": "外地",
+      "dictionaryPinyin": "wài dì",
+      "meaning": "địa phương khác/nơi khác",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l361-v-865"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l361-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 举行 jǔxíng: tổ chức; 画展 huàzhǎn: triển lãm tranh; 参观 cānguān: tham quan; 知名程度 zhīmíng chéngdù: mức độ được biết; 理由 lǐyóu: lý do.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l361-t0",
+      "type": "teaching",
+      "title": "画家 · họa sĩ",
+      "text": "画家 gọi người chuyên vẽ/người làm nghề hội họa, 家 ở đây là hậu tố chỉ người; không phải căn nhà chứa tranh.",
+      "hanzi": "这位画家住在这里。",
+      "pinyin": "Zhè wèi huàjiā zhù zài zhèlǐ.",
+      "meaning": "Họa sĩ này sống ở đây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l361-t1",
+      "type": "teaching",
+      "title": "名人 · người nổi tiếng",
+      "text": "名人 là người được nhiều người biết; không đồng nghĩa người luôn đúng hay có chuyên môn mọi lĩnh vực.",
+      "hanzi": "今天有一位名人来学校。",
+      "pinyin": "Jīntiān yǒu yí wèi míngrén lái xuéxiào.",
+      "meaning": "Hôm nay có một người nổi tiếng đến trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l361-t2",
+      "type": "teaching",
+      "title": "有名 · nổi tiếng",
+      "text": "有名 là được biết nhiều theo phạm vi/ngữ cảnh; 画家很有名 không tự chứng minh từng bức tranh đẹp.",
+      "hanzi": "这位画家很有名。",
+      "pinyin": "Zhè wèi huàjiā hěn yǒumíng.",
+      "meaning": "Họa sĩ này rất nổi tiếng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l361-t3",
+      "type": "teaching",
+      "title": "世界 · thế giới",
+      "text": "世界 chỉ thế giới; 世界各地 là nhiều nơi trên thế giới, chưa nói mọi nơi không có ngoại lệ.",
+      "hanzi": "她想看世界各地的画。",
+      "pinyin": "Tā xiǎng kàn shìjiè gè dì de huà.",
+      "meaning": "Cô ấy muốn xem tranh ở nhiều nơi trên thế giới.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l361-t4",
+      "type": "teaching",
+      "title": "市 · thành phố (đơn vị địa danh)",
+      "text": "市 trong 本市 là thành phố này, thường sau tên địa danh ở Trung Quốc; không phải 市 trường trong mọi từ ghép.",
+      "hanzi": "这次活动在本市举行。",
+      "pinyin": "Zhè cì huódòng zài běn shì jǔxíng.",
+      "meaning": "Hoạt động này tổ chức ở thành phố này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l361-t5",
+      "type": "teaching",
+      "title": "外地 · địa phương khác/nơi khác",
+      "text": "外地 là nơi khác với địa phương đang nói, không nhất thiết là nước ngoài. 外地来的人 có thể cùng một quốc gia.",
+      "hanzi": "他从外地来看画。",
+      "pinyin": "Tā cóng wàidì lái kàn huà.",
+      "meaning": "Anh ấy từ địa phương khác đến xem tranh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l361-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "—家 trong 画家 chỉ người có chuyên môn/nghề liên quan, khác 家 là nhà. 有名 không tự chứng minh giỏi ở mọi kỹ năng; 世界 nêu phạm vi thế giới trong bài.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l361-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "本市举行画展，一位有名的画家来了，也有外地的名人来参观。小林想看世界各地的画。他说：有名是知名程度，不是每一幅画都必须喜欢的理由。",
+      "pinyin": "Běn shì jǔxíng huàzhǎn, yí wèi yǒumíng de huàjiā lái le, yě yǒu wàidì de míngrén lái cānguān. Xiǎo Lín xiǎng kàn shìjiè gè dì de huà. Tā shuō: Yǒumíng shì zhīmíng chéngdù, bú shì měi yì fú huà dōu bìxū xǐhuan de lǐyóu.",
+      "meaning": "Thành phố mở triển lãm, có họa sĩ và người nổi tiếng từ nơi khác đến. Lâm muốn xem tranh nhiều nơi nhưng không coi nổi tiếng là buộc phải thích mọi tranh.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l361-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l361-v1-e0"
+    },
+    {
+      "id": "l361-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l361-v1-e1"
+    },
+    {
+      "id": "l361-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l361-v1-e2"
+    },
+    {
+      "id": "l361-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l361-v1-e3"
+    },
+    {
+      "id": "l361-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l361-v1-e4"
+    },
+    {
+      "id": "l361-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l361-v1-e5"
+    },
+    {
+      "id": "l361-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l361-v1-e6"
+    },
+    {
+      "id": "l361-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l361-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l361-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l361-c0",
+      "senseId": "l361-v-676-sense",
+      "keyRef": "l361-v1-k0",
+      "prompt": "Tên người làm nghề vẽ: 一位□。",
+      "choices": [
+        "名人",
+        "有名",
+        "世界",
+        "市",
+        "外地",
+        "画家"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l361-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l361-c1",
+      "senseId": "l361-v-773-sense",
+      "keyRef": "l361-v1-k1",
+      "prompt": "Danh từ người nổi tiếng: 一位□。",
+      "choices": [
+        "有名",
+        "世界",
+        "市",
+        "外地",
+        "画家",
+        "名人"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l361-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l361-c2",
+      "senseId": "l361-v-947-sense",
+      "keyRef": "l361-v1-k2",
+      "prompt": "Tính chất nổi tiếng: 画家很□。",
+      "choices": [
+        "世界",
+        "市",
+        "外地",
+        "画家",
+        "名人",
+        "有名"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l361-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l361-c3",
+      "senseId": "l361-v-835-sense",
+      "keyRef": "l361-v1-k3",
+      "prompt": "Viết pinyin của 世界 trong câu “她想看世界各地的画。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l361-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l361-c4",
+      "senseId": "l361-v-832-sense",
+      "keyRef": "l361-v1-k4",
+      "prompt": "Đơn vị thành phố sau tên hoặc 本: 本□。",
+      "choices": [
+        "外地",
+        "画家",
+        "名人",
+        "有名",
+        "世界",
+        "市"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l361-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l361-c5",
+      "senseId": "l361-v-865-sense",
+      "keyRef": "l361-v1-k5",
+      "prompt": "Nơi khác trong nước hoặc ngoài vùng, chưa phải ngoại quốc: 从□来。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l361-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l361-c0",
+      "senseId": "l361-v-676-sense",
+      "keyRef": "l361-v1-k6",
+      "prompt": "外地 có nhất thiết nghĩa nước ngoài không?",
+      "choices": [
+        "一定是外国",
+        "就是本市",
+        "不一定"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l361-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l361-c3",
+      "senseId": "l361-v-835-sense",
+      "keyRef": "l361-v1-k7",
+      "prompt": "Xếp tên nghề từ hậu tố, bắt đầu bằng 他是.",
+      "choices": [
+        "一位画家",
+        "他是"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l361-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l361-v1-e0",
+      "senseId": "l361-v-676-sense",
+      "accepted": [
+        "画家"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "画家: họa sĩ. 画家 gọi người chuyên vẽ/người làm nghề hội họa, 家 ở đây là hậu tố chỉ người; không phải căn nhà chứa tranh. Họa sĩ này sống ở đây."
+    },
+    {
+      "id": "l361-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l361-v1-e1",
+      "senseId": "l361-v-773-sense",
+      "accepted": [
+        "名人"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "名人: người nổi tiếng. 名人 là người được nhiều người biết; không đồng nghĩa người luôn đúng hay có chuyên môn mọi lĩnh vực. Hôm nay có một người nổi tiếng đến trường."
+    },
+    {
+      "id": "l361-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l361-v1-e2",
+      "senseId": "l361-v-947-sense",
+      "accepted": [
+        "有名"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "有名: nổi tiếng. 有名 là được biết nhiều theo phạm vi/ngữ cảnh; 画家很有名 không tự chứng minh từng bức tranh đẹp. Họa sĩ này rất nổi tiếng."
+    },
+    {
+      "id": "l361-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l361-v1-e3",
+      "senseId": "l361-v-835-sense",
+      "accepted": [
+        "shì jiè"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "世界: thế giới. 世界 chỉ thế giới; 世界各地 là nhiều nơi trên thế giới, chưa nói mọi nơi không có ngoại lệ. Cô ấy muốn xem tranh ở nhiều nơi trên thế giới."
+    },
+    {
+      "id": "l361-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l361-v1-e4",
+      "senseId": "l361-v-832-sense",
+      "accepted": [
+        "市"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "市: thành phố (đơn vị địa danh). 市 trong 本市 là thành phố này, thường sau tên địa danh ở Trung Quốc; không phải 市 trường trong mọi từ ghép. Hoạt động này tổ chức ở thành phố này."
+    },
+    {
+      "id": "l361-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l361-v1-e5",
+      "senseId": "l361-v-865-sense",
+      "accepted": [
+        "外地"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "外地: địa phương khác/nơi khác. 外地 là nơi khác với địa phương đang nói, không nhất thiết là nước ngoài. 外地来的人 có thể cùng một quốc gia. Anh ấy từ địa phương khác đến xem tranh."
+    },
+    {
+      "id": "l361-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l361-v1-e6",
+      "senseId": "l361-v-676-sense",
+      "accepted": [
+        "不一定"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. —家 trong 画家 chỉ người có chuyên môn/nghề liên quan, khác 家 là nhà. 有名 không tự chứng minh giỏi ở mọi kỹ năng; 世界 nêu phạm vi thế giới trong bài."
+    },
+    {
+      "id": "l361-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l361-v1-e7",
+      "senseId": "l361-v-835-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. —家 trong 画家 chỉ người có chuyên môn/nghề liên quan, khác 家 là nhà. 有名 không tự chứng minh giỏi ở mọi kỹ năng; 世界 nêu phạm vi thế giới trong bài."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

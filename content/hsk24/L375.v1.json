@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "ac15de49f1364c4b009254a8ceebbd59d0f239e9fbbcb07f1b5701ec21c24243",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-conditions-necessity",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L375",
+    "version": 1,
+    "versionId": "l375-draft-v1",
+    "title": "Chỉ cần và chỉ khi",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân biệt điều kiện đủ, điều kiện cần và giới hạn hành động.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "只要……，就……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-daily",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "交流、处理日常事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-daily-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "事务处理"
+        },
+        "written": "事务处理",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l375-v-819",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 819"
+        },
+        "written": "如果",
+        "pinyin": "rúguǒ",
+        "senseId": "l375-v-819-sense",
+        "ordinal": 819,
+        "note": "3 rúguǒ 连; 如果 đặt trước giả thiết như 如果下雨; chưa xác nhận có mưa. Vế sau có thể dùng 就 theo quan hệ ngữ cảnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l375-v-586",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 586"
+        },
+        "written": "的话",
+        "pinyin": "dehuà",
+        "senseId": "l375-v-586-sense",
+        "ordinal": 586,
+        "note": "3 dehuà 助; 的话 đặt sau cụm/câu điều kiện: 下雨的话. Không nhầm với 的话 chỉ lời nói của ai ở ngữ cảnh khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l375-v-979",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 979"
+        },
+        "written": "只要",
+        "pinyin": "zhǐyào",
+        "senseId": "l375-v-979-sense",
+        "ordinal": 979,
+        "note": "3 zhǐyào 连; 只要 nhấn điều kiện đủ trong quy tắc được kể; 不 tự áp sang mọi hoàn cảnh. 只要交表就能登记是这次规定. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l375-v-980",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 980"
+        },
+        "written": "只有",
+        "pinyin": "zhǐyǒu",
+        "senseId": "l375-v-980-sense",
+        "ordinal": 980,
+        "note": "3 zhǐyǒu 连; 只有…才… nêu điều kiện cần; 只有老师同意才去 không bảo đảm đã đồng ý hay sẽ chắc đi. 只有一本书 là nghĩa chỉ có một quyển khác kết cấu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l375-v-975",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 975"
+        },
+        "written": "只",
+        "pinyin": "zhǐ",
+        "senseId": "l375-v-975-sense",
+        "ordinal": 975,
+        "note": "3 zhǐ 副; 只 giới hạn phạm vi như 只看 là chỉ xem, không tự có nghĩa chỉ có thể. 只和只能 khác ý tự nguyện/khả năng bị giới hạn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l375-v-977",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 977"
+        },
+        "written": "只能",
+        "pinyin": "zhǐ néng",
+        "senseId": "l375-v-977-sense",
+        "ordinal": 977,
+        "note": "3 zhǐ néng; 只能 nêu giới hạn khả năng/lựa chọn; 只能坐车 vì xa, khác 只坐车 chỉ nêu lựa chọn. Không tự là mệnh lệnh pháp lý. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-184",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "184"
+        },
+        "written": "如",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 184,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-sufficient",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "复句 / 条件复句"
+        },
+        "written": "只要……，就……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l375-c0",
+      "version": 1,
+      "senseId": "l375-v-819-sense",
+      "hanzi": "如果",
+      "dictionaryPinyin": "rú guǒ",
+      "meaning": "nếu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l375-v-819"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l375-c1",
+      "version": 1,
+      "senseId": "l375-v-586-sense",
+      "hanzi": "的话",
+      "dictionaryPinyin": "de huà",
+      "meaning": "nếu… (dấu sau giả thiết)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l375-v-586"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l375-c2",
+      "version": 1,
+      "senseId": "l375-v-979-sense",
+      "hanzi": "只要",
+      "dictionaryPinyin": "zhǐ yào",
+      "meaning": "chỉ cần",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l375-v-979"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l375-c3",
+      "version": 1,
+      "senseId": "l375-v-980-sense",
+      "hanzi": "只有",
+      "dictionaryPinyin": "zhǐ yǒu",
+      "meaning": "chỉ khi/chỉ có",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l375-v-980"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l375-c4",
+      "version": 1,
+      "senseId": "l375-v-975-sense",
+      "hanzi": "只",
+      "dictionaryPinyin": "zhǐ",
+      "meaning": "chỉ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l375-v-975"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l375-c5",
+      "version": 1,
+      "senseId": "l375-v-977-sense",
+      "hanzi": "只能",
+      "dictionaryPinyin": "zhǐ néng",
+      "meaning": "chỉ có thể/đành phải",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l375-v-977"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l375-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 登记 dēngjì: đăng ký; 表 biǎo: biểu mẫu; 报名处 bàomíng chù: nơi đăng ký; 外出 wàichū: ra ngoài. Quy tắc hư cấu trong đoạn, không tự đổi điều kiện mở khóa của ứng dụng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l375-t0",
+      "type": "teaching",
+      "title": "如果 · nếu",
+      "text": "如果 đặt trước giả thiết như 如果下雨; chưa xác nhận có mưa. Vế sau có thể dùng 就 theo quan hệ ngữ cảnh.",
+      "hanzi": "如果下雨，我们就坐车。",
+      "pinyin": "Rúguǒ xià yǔ, wǒmen jiù zuò chē.",
+      "meaning": "Nếu mưa, chúng ta đi xe.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l375-t1",
+      "type": "teaching",
+      "title": "的话 · nếu… (dấu sau giả thiết)",
+      "text": "的话 đặt sau cụm/câu điều kiện: 下雨的话. Không nhầm với 的话 chỉ lời nói của ai ở ngữ cảnh khác.",
+      "hanzi": "下雨的话，我们就坐车。",
+      "pinyin": "Xià yǔ dehuà, wǒmen jiù zuò chē.",
+      "meaning": "Nếu trời mưa, chúng ta đi xe.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l375-t2",
+      "type": "teaching",
+      "title": "只要 · chỉ cần",
+      "text": "只要 nhấn điều kiện đủ trong quy tắc được kể; 不 tự áp sang mọi hoàn cảnh. 只要交表就能登记是这次规定.",
+      "hanzi": "只要交表，就能登记。",
+      "pinyin": "Zhǐyào jiāo biǎo, jiù néng dēngjì.",
+      "meaning": "Chỉ cần nộp mẫu là có thể đăng ký.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l375-t3",
+      "type": "teaching",
+      "title": "只有 · chỉ khi/chỉ có",
+      "text": "只有…才… nêu điều kiện cần; 只有老师同意才去 không bảo đảm đã đồng ý hay sẽ chắc đi. 只有一本书 là nghĩa chỉ có một quyển khác kết cấu.",
+      "hanzi": "只有老师同意，我们才去。",
+      "pinyin": "Zhǐyǒu lǎoshī tóngyì, wǒmen cái qù.",
+      "meaning": "Chỉ khi thầy đồng ý chúng tôi mới đi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l375-t4",
+      "type": "teaching",
+      "title": "只 · chỉ",
+      "text": "只 giới hạn phạm vi như 只看 là chỉ xem, không tự có nghĩa chỉ có thể. 只和只能 khác ý tự nguyện/khả năng bị giới hạn.",
+      "hanzi": "我今天只看，不买。",
+      "pinyin": "Wǒ jīntiān zhǐ kàn, bù mǎi.",
+      "meaning": "Hôm nay tôi chỉ xem, không mua.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l375-t5",
+      "type": "teaching",
+      "title": "只能 · chỉ có thể/đành phải",
+      "text": "只能 nêu giới hạn khả năng/lựa chọn; 只能坐车 vì xa, khác 只坐车 chỉ nêu lựa chọn. Không tự là mệnh lệnh pháp lý.",
+      "hanzi": "太远了，我们只能坐车。",
+      "pinyin": "Tài yuǎn le, wǒmen zhǐ néng zuò chē.",
+      "meaning": "Xa quá, chúng ta chỉ có thể đi xe.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l375-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "只要P就Q nêu P đủ cho Q trong quy tắc/kế hoạch; 只有P才Q nêu P là điều kiện cần. Không suy ra 只有P才Q nghĩa có P thì chắc chắn Q. 如果/…的话 nêu giả thiết, không tự khẳng định đang xảy ra.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l375-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "如果下雨，或者说下雨的话，我们就坐车。报名处说这次只要交表就能登记，但外出活动只有老师同意才能去。小林今天只看活动介绍；地方太远，他知道到时只能坐车。",
+      "pinyin": "Rúguǒ xià yǔ, huòzhě shuō xià yǔ dehuà, wǒmen jiù zuò chē. Bàomíng chù shuō zhè cì zhǐyào jiāo biǎo jiù néng dēngjì, dàn wàichū huódòng zhǐyǒu lǎoshī tóngyì cái néng qù. Xiǎo Lín jīntiān zhǐ kàn huódòng jièshào; dìfang tài yuǎn, tā zhīdào dào shí zhǐ néng zuò chē.",
+      "meaning": "Nếu mưa thì đi xe. Lần đăng ký này chỉ cần nộp mẫu, nhưng đi ngoại khóa cần thầy đồng ý. Lâm hôm nay chỉ đọc; vì xa nên lúc đi chỉ có thể dùng xe.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l375-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l375-v1-e0"
+    },
+    {
+      "id": "l375-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l375-v1-e1"
+    },
+    {
+      "id": "l375-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l375-v1-e2"
+    },
+    {
+      "id": "l375-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l375-v1-e3"
+    },
+    {
+      "id": "l375-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l375-v1-e4"
+    },
+    {
+      "id": "l375-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l375-v1-e5"
+    },
+    {
+      "id": "l375-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l375-v1-e6"
+    },
+    {
+      "id": "l375-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l375-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l375-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l375-c0",
+      "senseId": "l375-v-819-sense",
+      "keyRef": "l375-v1-k0",
+      "prompt": "Từ nghĩa “nếu” đặt trước cả giả thiết: □下雨。",
+      "choices": [
+        "的话",
+        "只要",
+        "只有",
+        "只",
+        "只能",
+        "如果"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l375-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l375-c1",
+      "senseId": "l375-v-586-sense",
+      "keyRef": "l375-v1-k1",
+      "prompt": "Dấu điều kiện đứng sau 下雨, không phải từ ở đầu câu.",
+      "choices": [
+        "只要",
+        "只有",
+        "只",
+        "只能",
+        "如果",
+        "的话"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l375-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l375-c2",
+      "senseId": "l375-v-979-sense",
+      "keyRef": "l375-v1-k2",
+      "prompt": "Nghĩa “chỉ cần”, nhấn điều kiện đủ: □交表，就能登记。",
+      "choices": [
+        "只有",
+        "只",
+        "只能",
+        "如果",
+        "的话",
+        "只要"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l375-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l375-c3",
+      "senseId": "l375-v-980-sense",
+      "keyRef": "l375-v1-k3",
+      "prompt": "Viết pinyin của 只有 trong câu “只有老师同意，我们才去。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l375-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l375-c4",
+      "senseId": "l375-v-975-sense",
+      "keyRef": "l375-v1-k4",
+      "prompt": "Giới hạn việc chọn làm, không nói bắt buộc khả năng: 我□看，不买。",
+      "choices": [
+        "只能",
+        "如果",
+        "的话",
+        "只要",
+        "只有",
+        "只"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l375-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l375-c5",
+      "senseId": "l375-v-977-sense",
+      "keyRef": "l375-v1-k5",
+      "prompt": "Khả năng bị giới hạn, dùng cụm hai chữ: □坐车。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l375-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l375-c0",
+      "senseId": "l375-v-819-sense",
+      "keyRef": "l375-v1-k6",
+      "prompt": "只有老师同意才能去 cho biết điều gì?",
+      "choices": [
+        "Đã chắc chắn thầy đồng ý",
+        "Cứ đồng ý là chắc chắn chuyến đã đi",
+        "Đồng ý là điều kiện cần"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l375-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l375-c3",
+      "senseId": "l375-v-980-sense",
+      "keyRef": "l375-v1-k7",
+      "prompt": "Xếp điều kiện đủ, bắt đầu bằng 只要交表.",
+      "choices": [
+        "就能登记",
+        "只要交表"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l375-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l375-v1-e0",
+      "senseId": "l375-v-819-sense",
+      "accepted": [
+        "如果"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "如果: nếu. 如果 đặt trước giả thiết như 如果下雨; chưa xác nhận có mưa. Vế sau có thể dùng 就 theo quan hệ ngữ cảnh. Nếu mưa, chúng ta đi xe."
+    },
+    {
+      "id": "l375-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l375-v1-e1",
+      "senseId": "l375-v-586-sense",
+      "accepted": [
+        "的话"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "的话: nếu… (dấu sau giả thiết). 的话 đặt sau cụm/câu điều kiện: 下雨的话. Không nhầm với 的话 chỉ lời nói của ai ở ngữ cảnh khác. Nếu trời mưa, chúng ta đi xe."
+    },
+    {
+      "id": "l375-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l375-v1-e2",
+      "senseId": "l375-v-979-sense",
+      "accepted": [
+        "只要"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "只要: chỉ cần. 只要 nhấn điều kiện đủ trong quy tắc được kể; 不 tự áp sang mọi hoàn cảnh. 只要交表就能登记是这次规定. Chỉ cần nộp mẫu là có thể đăng ký."
+    },
+    {
+      "id": "l375-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l375-v1-e3",
+      "senseId": "l375-v-980-sense",
+      "accepted": [
+        "zhǐ yǒu"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "只有: chỉ khi/chỉ có. 只有…才… nêu điều kiện cần; 只有老师同意才去 không bảo đảm đã đồng ý hay sẽ chắc đi. 只有一本书 là nghĩa chỉ có một quyển khác kết cấu. Chỉ khi thầy đồng ý chúng tôi mới đi."
+    },
+    {
+      "id": "l375-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l375-v1-e4",
+      "senseId": "l375-v-975-sense",
+      "accepted": [
+        "只"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "只: chỉ. 只 giới hạn phạm vi như 只看 là chỉ xem, không tự có nghĩa chỉ có thể. 只和只能 khác ý tự nguyện/khả năng bị giới hạn. Hôm nay tôi chỉ xem, không mua."
+    },
+    {
+      "id": "l375-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l375-v1-e5",
+      "senseId": "l375-v-977-sense",
+      "accepted": [
+        "只能"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "只能: chỉ có thể/đành phải. 只能 nêu giới hạn khả năng/lựa chọn; 只能坐车 vì xa, khác 只坐车 chỉ nêu lựa chọn. Không tự là mệnh lệnh pháp lý. Xa quá, chúng ta chỉ có thể đi xe."
+    },
+    {
+      "id": "l375-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l375-v1-e6",
+      "senseId": "l375-v-819-sense",
+      "accepted": [
+        "Đồng ý là điều kiện cần"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 只要P就Q nêu P đủ cho Q trong quy tắc/kế hoạch; 只有P才Q nêu P là điều kiện cần. Không suy ra 只有P才Q nghĩa có P thì chắc chắn Q. 如果/…的话 nêu giả thiết, không tự khẳng định đang xảy ra."
+    },
+    {
+      "id": "l375-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l375-v1-e7",
+      "senseId": "l375-v-980-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 只要P就Q nêu P đủ cho Q trong quy tắc/kế hoạch; 只有P才Q nêu P là điều kiện cần. Không suy ra 只有P才Q nghĩa có P thì chắc chắn Q. 如果/…的话 nêu giả thiết, không tự khẳng định đang xảy ra."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

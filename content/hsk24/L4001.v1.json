@@ -1,0 +1,738 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "1816c9b78a9f1eaa452b7c58c0dfbda156447944de1c62762e5bfef221622f2f",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eaab",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L4001",
+    "version": 1,
+    "versionId": "l4001-draft-v1",
+    "title": "Mốc học kỳ và báo cáo",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Mốc học kỳ và báo cáo; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "然而"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 23,
+      "physicalPage": 24,
+      "printedPage": 21,
+      "section": "task",
+      "entry": "十二"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-29T07:43:58.061928Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 23,
+          "physicalPage": 24,
+          "printedPage": 21,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "谈论教学、学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-2f205b73e044",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "课程情况"
+        },
+        "written": "课程情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l4001-v-1554",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 117,
+          "physicalPage": 118,
+          "printedPage": 115,
+          "section": "vocabulary",
+          "entry": "ordinal 1554"
+        },
+        "written": "篇",
+        "pinyin": "piān",
+        "senseId": "l4001-v-1554-sense",
+        "ordinal": 1554,
+        "note": "4 piān 名、量; 篇 đếm bài văn/báo cáo, không đếm trang giấy. Nhận diện chữ 篇 trong 篇; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4001-v-1564",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 118,
+          "physicalPage": 119,
+          "printedPage": 116,
+          "section": "vocabulary",
+          "entry": "ordinal 1564"
+        },
+        "written": "期",
+        "pinyin": "qī",
+        "senseId": "l4001-v-1564-sense",
+        "ordinal": 1564,
+        "note": "4 qī 量; 一期 là một kỳ hoặc một số tạp chí; khác 篇 đếm từng bài viết. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4001-v-1565",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 118,
+          "physicalPage": 119,
+          "printedPage": 116,
+          "section": "vocabulary",
+          "entry": "ordinal 1565"
+        },
+        "written": "期末",
+        "pinyin": "qīmò",
+        "senseId": "l4001-v-1565-sense",
+        "ordinal": 1565,
+        "note": "4 qīmò 名; 期末 là giai đoạn cuối kỳ, không phải số cuối của tạp chí. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4001-v-1566",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 118,
+          "physicalPage": 119,
+          "printedPage": 116,
+          "section": "vocabulary",
+          "entry": "ordinal 1566"
+        },
+        "written": "期中",
+        "pinyin": "qīzhōng",
+        "senseId": "l4001-v-1566-sense",
+        "ordinal": 1566,
+        "note": "4 qīzhōng 名; 期中 chỉ thời điểm giữa kỳ; 中 ở đây không mang nghĩa Trung Quốc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4001-v-1567",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 118,
+          "physicalPage": 119,
+          "printedPage": 116,
+          "section": "vocabulary",
+          "entry": "ordinal 1567"
+        },
+        "written": "其次",
+        "pinyin": "qícì",
+        "senseId": "l4001-v-1567-sense",
+        "ordinal": 1567,
+        "note": "4 qícì 代; 其次 sắp xếp luận điểm sau 首先; không chỉ phần nằm bên trong một tập hợp. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4001-v-1568",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 118,
+          "physicalPage": 119,
+          "printedPage": 116,
+          "section": "vocabulary",
+          "entry": "ordinal 1568"
+        },
+        "written": "其中",
+        "pinyin": "qízhōng",
+        "senseId": "l4001-v-1568-sense",
+        "ordinal": 1568,
+        "note": "4 qízhōng 名; 其中 chỉ một phần của tập hợp vừa nói; không phải thứ tự thứ hai. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-237",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "237"
+        },
+        "written": "篇",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 237,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-4001",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "……，然而……"
+        },
+        "written": "然而",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l4001-c0",
+      "version": 1,
+      "senseId": "l4001-v-1554-sense",
+      "hanzi": "篇",
+      "dictionaryPinyin": "piān",
+      "meaning": "lượng từ cho bài viết",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4001-v-1554"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4001-c1",
+      "version": 1,
+      "senseId": "l4001-v-1564-sense",
+      "hanzi": "期",
+      "dictionaryPinyin": "qī",
+      "meaning": "kỳ; số của ấn phẩm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4001-v-1564"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4001-c2",
+      "version": 1,
+      "senseId": "l4001-v-1565-sense",
+      "hanzi": "期末",
+      "dictionaryPinyin": "qī mò",
+      "meaning": "cuối học kỳ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4001-v-1565"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4001-c3",
+      "version": 1,
+      "senseId": "l4001-v-1566-sense",
+      "hanzi": "期中",
+      "dictionaryPinyin": "qī zhōng",
+      "meaning": "giữa học kỳ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4001-v-1566"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4001-c4",
+      "version": 1,
+      "senseId": "l4001-v-1567-sense",
+      "hanzi": "其次",
+      "dictionaryPinyin": "qí cì",
+      "meaning": "thứ hai; tiếp theo",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4001-v-1567"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4001-c5",
+      "version": 1,
+      "senseId": "l4001-v-1568-sense",
+      "hanzi": "其中",
+      "dictionaryPinyin": "qí zhōng",
+      "meaning": "trong số đó",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4001-v-1568"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l4001-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4001-t0",
+      "type": "teaching",
+      "title": "篇 · lượng từ cho bài viết",
+      "text": "篇 đếm bài văn/báo cáo, không đếm trang giấy. Nhận diện chữ 篇 trong 篇; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "我写了两篇报告。",
+      "pinyin": "Wǒ xiě le liǎng piān bào gào.",
+      "meaning": "Tôi đã viết hai bài báo cáo.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4001-t1",
+      "type": "teaching",
+      "title": "期 · kỳ; số của ấn phẩm",
+      "text": "一期 là một kỳ hoặc một số tạp chí; khác 篇 đếm từng bài viết.",
+      "hanzi": "这期杂志有三篇故事。",
+      "pinyin": "Zhè qī zá zhì yǒu sān piān gù shi.",
+      "meaning": "Số tạp chí này có ba truyện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4001-t2",
+      "type": "teaching",
+      "title": "期末 · cuối học kỳ",
+      "text": "期末 là giai đoạn cuối kỳ, không phải số cuối của tạp chí.",
+      "hanzi": "期末我们要交报告。",
+      "pinyin": "Qī mò wǒ men yào jiāo bào gào.",
+      "meaning": "Cuối kỳ chúng tôi phải nộp báo cáo.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4001-t3",
+      "type": "teaching",
+      "title": "期中 · giữa học kỳ",
+      "text": "期中 chỉ thời điểm giữa kỳ; 中 ở đây không mang nghĩa Trung Quốc.",
+      "hanzi": "期中考试在下周。",
+      "pinyin": "Qī zhōng kǎo shì zài xià zhōu.",
+      "meaning": "Thi giữa kỳ vào tuần sau.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4001-t4",
+      "type": "teaching",
+      "title": "其次 · thứ hai; tiếp theo",
+      "text": "其次 sắp xếp luận điểm sau 首先; không chỉ phần nằm bên trong một tập hợp.",
+      "hanzi": "首先检查日期，其次修改内容。",
+      "pinyin": "Shǒu xiān jiǎn chá rì qī, qí cì xiū gǎi nèi róng.",
+      "meaning": "Trước tiên kiểm tra ngày, tiếp theo sửa nội dung.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4001-t5",
+      "type": "teaching",
+      "title": "其中 · trong số đó",
+      "text": "其中 chỉ một phần của tập hợp vừa nói; không phải thứ tự thứ hai.",
+      "hanzi": "三篇报告中，其中一篇还没写完。",
+      "pinyin": "Sān piān bào gào zhōng, qí zhōng yì piān hái méi xiě wán.",
+      "meaning": "Trong ba báo cáo, một bài vẫn chưa viết xong.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4001-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "然而 nối hai mệnh đề tương phản, thường dùng trong văn viết: đã làm được một phần, tuy nhiên phần khác còn thiếu. Không đồng nghĩa với 其次 (thứ hai).",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4001-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "期中考试以后，小林准备期末报告。他先读这期杂志的三篇文章，其中一篇介绍学习方法。他说：“首先整理材料，其次写总结。我写了两篇报告，然而还没完成期末总结。”",
+      "pinyin": "Qī zhōng kǎo shì yǐ hòu, Xiǎo Lín zhǔn bèi qī mò bào gào. Tā xiān dú zhè qī zá zhì de sān piān wén zhāng, qí zhōng yì piān jiè shào xué xí fāng fǎ. Tā shuō: “Shǒu xiān zhěng lǐ cái liào, qí cì xiě zǒng jié. Wǒ xiě le liǎng piān bào gào, rán ér hái méi wán chéng qī mò zǒng jié.”",
+      "meaning": "Tiểu Lâm đọc ba bài để chuẩn bị cuối kỳ; đã viết hai báo cáo nhưng chưa hoàn thành tổng kết.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4001-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l4001-v1-e0"
+    },
+    {
+      "id": "l4001-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l4001-v1-e1"
+    },
+    {
+      "id": "l4001-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l4001-v1-e2"
+    },
+    {
+      "id": "l4001-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l4001-v1-e3"
+    },
+    {
+      "id": "l4001-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l4001-v1-e4"
+    },
+    {
+      "id": "l4001-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l4001-v1-e5"
+    },
+    {
+      "id": "l4001-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l4001-v1-e6"
+    },
+    {
+      "id": "l4001-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l4001-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l4001-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l4001-c0",
+      "senseId": "l4001-v-1554-sense",
+      "keyRef": "l4001-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “lượng từ cho bài viết”: □ (piān). Ngữ cảnh: 我写了两□报告。",
+      "choices": [
+        "遍",
+        "偏",
+        "编",
+        "篇"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4001-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4001-c1",
+      "senseId": "l4001-v-1564-sense",
+      "keyRef": "l4001-v1-k1",
+      "prompt": "Ghi pinyin của 期 trong câu “这期杂志有三篇故事。”, theo nghĩa “kỳ; số của ấn phẩm”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4001-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4001-c2",
+      "senseId": "l4001-v-1565-sense",
+      "keyRef": "l4001-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “cuối học kỳ”: □我们要交报告。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4001-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4001-c3",
+      "senseId": "l4001-v-1566-sense",
+      "keyRef": "l4001-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “giữa học kỳ” để điền câu: □考试在下周。",
+      "choices": [
+        "其次",
+        "其中",
+        "篇",
+        "期",
+        "期末",
+        "期中"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4001-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4001-c4",
+      "senseId": "l4001-v-1567-sense",
+      "keyRef": "l4001-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “thứ hai; tiếp theo” để điền câu: 首先检查日期，□修改内容。",
+      "choices": [
+        "其中",
+        "篇",
+        "期",
+        "期末",
+        "期中",
+        "其次"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4001-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4001-c5",
+      "senseId": "l4001-v-1568-sense",
+      "keyRef": "l4001-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “trong số đó”: 三篇报告中，□一篇还没写完。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4001-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4001-c0",
+      "senseId": "l4001-v-1554-sense",
+      "keyRef": "l4001-v1-k6",
+      "prompt": "Theo đoạn, việc gì còn chưa hoàn thành?",
+      "choices": [
+        "期中考试",
+        "阅读三篇文章",
+        "期末总结"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4001-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l4001-c3",
+      "senseId": "l4001-v-1566-sense",
+      "keyRef": "l4001-v1-k7",
+      "prompt": "Sắp xếp nguyên các cụm thành câu theo mẫu đang học; không thêm/bớt từ.",
+      "choices": [
+        "我写了两篇报告，",
+        "然而",
+        "还没完成",
+        "期末总结。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l4001-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l4001-v1-e0",
+      "senseId": "l4001-v-1554-sense",
+      "accepted": [
+        "篇"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 篇 tạo từ 篇. 篇 đếm bài văn/báo cáo, không đếm trang giấy. Nhận diện chữ 篇 trong 篇; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l4001-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l4001-v1-e1",
+      "senseId": "l4001-v-1564-sense",
+      "accepted": [
+        "qī"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc qī. 一期 là một kỳ hoặc một số tạp chí; khác 篇 đếm từng bài viết."
+    },
+    {
+      "id": "l4001-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l4001-v1-e2",
+      "senseId": "l4001-v-1565-sense",
+      "accepted": [
+        "期末"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 期末. 期末 là giai đoạn cuối kỳ, không phải số cuối của tạp chí. Cuối kỳ chúng tôi phải nộp báo cáo."
+    },
+    {
+      "id": "l4001-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l4001-v1-e3",
+      "senseId": "l4001-v-1566-sense",
+      "accepted": [
+        "期中"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "期中: giữa học kỳ. 期中 chỉ thời điểm giữa kỳ; 中 ở đây không mang nghĩa Trung Quốc. Thi giữa kỳ vào tuần sau."
+    },
+    {
+      "id": "l4001-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l4001-v1-e4",
+      "senseId": "l4001-v-1567-sense",
+      "accepted": [
+        "其次"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "其次: thứ hai; tiếp theo. 其次 sắp xếp luận điểm sau 首先; không chỉ phần nằm bên trong một tập hợp. Trước tiên kiểm tra ngày, tiếp theo sửa nội dung."
+    },
+    {
+      "id": "l4001-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l4001-v1-e5",
+      "senseId": "l4001-v-1568-sense",
+      "accepted": [
+        "其中"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 其中. 其中 chỉ một phần của tập hợp vừa nói; không phải thứ tự thứ hai. Trong ba báo cáo, một bài vẫn chưa viết xong."
+    },
+    {
+      "id": "l4001-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l4001-v1-e6",
+      "senseId": "l4001-v-1554-sense",
+      "accepted": [
+        "期末总结"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 期末总结. Tiểu Lâm đọc ba bài để chuẩn bị cuối kỳ; đã viết hai báo cáo nhưng chưa hoàn thành tổng kết."
+    },
+    {
+      "id": "l4001-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l4001-v1-e7",
+      "senseId": "l4001-v-1566-sense",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 然而 nối hai mệnh đề tương phản, thường dùng trong văn viết: đã làm được một phần, tuy nhiên phần khác còn thiếu. Không đồng nghĩa với 其次 (thứ hai)."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

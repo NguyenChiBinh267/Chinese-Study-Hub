@@ -1,0 +1,1001 @@
+{
+  "kind": "LOCAL_HSK1_STABILITY_PARTIAL_TECHNICAL_CLOSURE",
+  "checkedAtUTC": "2026-10-31T14:20:50.534Z",
+  "baselineCommit": "9c10241001d47013662c3556c62021be1076f123",
+  "branch": "fix/hsk1-catalog-stability",
+  "coreReviewedCommit": "57aa693410ac4da4ba17a8f753e1515522a95a02",
+  "finalHeadReceipt": ".local-postgres/hsk24/hsk1-stability-handoff-receipt.json",
+  "pinnedMain": "ad7f4c59442b89701e5e41cd6a120284532c1650",
+  "sourceHashes": {
+    "master-plan-v1.1.md": "0984cfc38e4b91c5ed214c8e6003434536d9904072164f28f4e0ffd48c8bf47e",
+    "task-status.json": "9b86effd184577ed7f99fd3efa7c3a6a0c1e0232ec641709622d9465bfbadca6",
+    "source-manifest.json": "09164bc3939f45f47386401ebc7fe97e39029e95dc7c4c21a195ee105be02b72"
+  },
+  "baselineDivergence": "17\t154",
+  "mergeBase": "3813bda55be7b77108344de6e5cc6bd74c51f034",
+  "baselineMainThreeDotDiff": "1380 files changed, 1192446 insertions(+)",
+  "scope": {
+    "newLearningActivities": 0,
+    "newExercises": 0,
+    "contentChanges": 0,
+    "authRlsChanges": 0,
+    "ssotStatusChanges": 0,
+    "controllerChanges": 0,
+    "remotePush": false,
+    "githubPrCreated": false,
+    "merge": false,
+    "deploy": false,
+    "cloudWrites": false,
+    "paidServicesInvoked": false,
+    "ownerAgentsPreserved": true,
+    "ownerAgentsSha256": "7db5356f7d0f291c2e95831aa616c3fe41bd70c5d90d9350dca3a6eae748d85e"
+  },
+  "causeAssessment": {
+    "historicalCatalog": {
+      "observed": "GET canceled14997.213ms, no503 response observed, before unitnavigation",
+      "rootCause": "UNRESOLVED",
+      "gate": "OPEN"
+    },
+    "currentFirstProbe": {
+      "observed": "Onboarding assertion15s elapsed; initial telemetry omitted pending requests, so it cannot identify the exact server wait.",
+      "status": "FAIL retained, different stopping point"
+    },
+    "nextDevCompilation": {
+      "observed": "One modePOST10.0s:9.9sNextcompile,102mshandler; empty-cache onboardingGET15.4s:14.9sNextcompile.",
+      "inference": "Compilation materially explains these sampled route delays.",
+      "notEstablished": "Cause of the historical catalog cancellation or prior503."
+    },
+    "confirmedClientDefects": [
+      "HTTPstatus/code discarded when errors thrown.",
+      "Retry retained priorerror instead of displaying pending request.",
+      "Known503 lost on truncated/timed-out body, repaired after independentREWORK."
+    ],
+    "boundaries": "Browser UI fault injection, native Postgres failure and actual HTTP503 negative controls are separate evidence. No hosted/production-authenticated wrapper acceptance or universal outage-root-cause closure is claimed."
+  },
+  "verification": {
+    "unit": {
+      "pass": 141,
+      "fail": 0,
+      "skipped": 0,
+      "path": ".local-postgres/hsk24/hsk1-stability-unit-after-repair.log"
+    },
+    "targetedRequestAfterRepair": {
+      "pass": 4,
+      "fail": 0,
+      "path": ".local-postgres/hsk24/hsk1-stability-repair1-green.log"
+    },
+    "sqlRuns": [
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-native-sql.log",
+        "pass": 2,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-hsk1-sql.log",
+        "pass": 11,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-level0-sql.log",
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-level2-sql.log",
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-level3-sql.log",
+        "pass": 5,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-level4-sql.log",
+        "pass": 5,
+        "fail": 0,
+        "skipped": 0
+      }
+    ],
+    "sqlTotal": 35,
+    "sqlLimits": "Selected real regression cases, not a rerun of all518activities. Runtimesynthetic owners only.",
+    "browserRuns": [
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-repro-before.json",
+        "stats": {
+          "startTime": "2026-10-31T13:48:34.832Z",
+          "duration": 33731.009000000005,
+          "expected": 0,
+          "skipped": 0,
+          "unexpected": 1,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "title": "HSK1 catalog: first process request and warm navigation acknowledge real responses",
+            "project": "desktop",
+            "status": "unexpected",
+            "attempts": [
+              {
+                "status": "failed",
+                "durationMs": 20366
+              }
+            ]
+          }
+        ],
+        "retries": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-repro-minimal-before.json",
+        "stats": {
+          "startTime": "2026-10-31T13:50:23.430Z",
+          "duration": 33708.431,
+          "expected": 1,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "title": "HSK1 catalog: first process request and warm navigation acknowledge real responses",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 25299
+              }
+            ]
+          }
+        ],
+        "retries": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-repro-ui-before.json",
+        "stats": {
+          "startTime": "2026-10-31T13:51:53.566Z",
+          "duration": 46333.031,
+          "expected": 1,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "title": "HSK1 catalog: first process request and warm navigation acknowledge real responses",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 37989
+              }
+            ]
+          }
+        ],
+        "retries": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-cold-cache-before.json",
+        "stats": {
+          "startTime": "2026-10-31T13:53:37.708Z",
+          "duration": 51682.126000000004,
+          "expected": 1,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "title": "HSK1 catalog: first process request and warm navigation acknowledge real responses",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 39787
+              }
+            ]
+          }
+        ],
+        "retries": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-error-red.json",
+        "stats": {
+          "startTime": "2026-10-31T13:55:51.621Z",
+          "duration": 53158.372,
+          "expected": 0,
+          "skipped": 0,
+          "unexpected": 1,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "title": "Catalog HTTP503 remains an error; manual retry shows loading then real server content",
+            "project": "desktop",
+            "status": "unexpected",
+            "attempts": [
+              {
+                "status": "failed",
+                "durationMs": 44986
+              }
+            ]
+          }
+        ],
+        "retries": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-browser-desktop.json",
+        "stats": {
+          "startTime": "2026-10-31T13:58:38.522Z",
+          "duration": 72799.147,
+          "expected": 4,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "title": "HSK1 catalog: first process request and warm navigation acknowledge real responses",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 35947
+              }
+            ]
+          },
+          {
+            "title": "Catalog network: explicit failure without automatic retry or false cards",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 2170
+              }
+            ]
+          },
+          {
+            "title": "Catalog timeout: explicit failure without automatic retry or false cards",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 17090
+              }
+            ]
+          },
+          {
+            "title": "Catalog HTTP503 remains an error; manual retry shows loading then real server content",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 9616
+              }
+            ]
+          }
+        ],
+        "retries": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-browser-final.json",
+        "stats": {
+          "startTime": "2026-10-31T14:04:38.937Z",
+          "duration": 114362.308,
+          "expected": 8,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "title": "HSK1 catalog: first process request and warm navigation acknowledge real responses",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 38887
+              }
+            ]
+          },
+          {
+            "title": "Catalog network: explicit failure without automatic retry or false cards",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 2294
+              }
+            ]
+          },
+          {
+            "title": "Catalog timeout: explicit failure without automatic retry or false cards",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 17527
+              }
+            ]
+          },
+          {
+            "title": "Catalog HTTP503 remains an error; manual retry shows loading then real server content",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 4362
+              }
+            ]
+          },
+          {
+            "title": "HSK1 catalog: first process request and warm navigation acknowledge real responses",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 10864
+              }
+            ]
+          },
+          {
+            "title": "Catalog network: explicit failure without automatic retry or false cards",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 2431
+              }
+            ]
+          },
+          {
+            "title": "Catalog timeout: explicit failure without automatic retry or false cards",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 17346
+              }
+            ]
+          },
+          {
+            "title": "Catalog HTTP503 remains an error; manual retry shows loading then real server content",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 10959
+              }
+            ]
+          }
+        ],
+        "retries": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk1-stability-acceptance-after-repair.json",
+        "stats": {
+          "startTime": "2026-10-31T14:09:27.517Z",
+          "duration": 359639.71499999997,
+          "expected": 14,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "title": "HSK1 catalog: first process request and warm navigation acknowledge real responses",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 41771
+              }
+            ]
+          },
+          {
+            "title": "Catalog network: explicit failure without automatic retry or false cards",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 2117
+              }
+            ]
+          },
+          {
+            "title": "Catalog timeout: explicit failure without automatic retry or false cards",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 17595
+              }
+            ]
+          },
+          {
+            "title": "Catalog HTTP503 remains an error; manual retry shows loading then real server content",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 3316
+              }
+            ]
+          },
+          {
+            "title": "HSK1 catalog: first process request and warm navigation acknowledge real responses",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 7462
+              }
+            ]
+          },
+          {
+            "title": "Catalog network: explicit failure without automatic retry or false cards",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 2031
+              }
+            ]
+          },
+          {
+            "title": "Catalog timeout: explicit failure without automatic retry or false cards",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 17595
+              }
+            ]
+          },
+          {
+            "title": "Catalog HTTP503 remains an error; manual retry shows loading then real server content",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 3219
+              }
+            ]
+          },
+          {
+            "title": "L1152: actual content, resume, grading, completion, progress and accessibility",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 107318
+              }
+            ]
+          },
+          {
+            "title": "L1152: actual content, resume, grading, completion, progress and accessibility",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 61746
+              }
+            ]
+          },
+          {
+            "title": "L1152: course and unit links open the exact current immutable lesson",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 20097
+              }
+            ]
+          },
+          {
+            "title": "L1152: course and unit links open the exact current immutable lesson",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 10926
+              }
+            ]
+          },
+          {
+            "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+            "project": "desktop",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 23857
+              }
+            ]
+          },
+          {
+            "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+            "project": "mobile360",
+            "status": "expected",
+            "attempts": [
+              {
+                "status": "passed",
+                "durationMs": 19687
+              }
+            ]
+          }
+        ],
+        "retries": 0
+      }
+    ],
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "supplementalScriptLint": "PASS",
+    "productionBuild": "PASS"
+  },
+  "httpControls": {
+    "valid": {
+      "mode": "valid",
+      "sourceCommit": "b09cf3501f23400594790e968e0f96fcedac6377",
+      "scope": "Fresh development server process; existing disk compilation cache. New synthetic owner. Absent mode targets a random nonexistent database on the same local server, without creating it or stopping the populated cluster. Startup health polling and two labeled samples are diagnostics, not automatic product retries.",
+      "observations": [
+        {
+          "phase": "MODE",
+          "ms": 658.2769999999991,
+          "status": 200,
+          "serverTiming": null,
+          "errorCode": null,
+          "hsk1Lessons": null
+        },
+        {
+          "phase": "FIRST_AUTHORIZED_CATALOG",
+          "ms": 2092.7784999999994,
+          "status": 200,
+          "serverTiming": "app;dur=1464.4",
+          "errorCode": null,
+          "hsk1Lessons": 129
+        },
+        {
+          "phase": "WARM_CATALOG",
+          "ms": 765.5797000000002,
+          "status": 200,
+          "serverTiming": "app;dur=687.3",
+          "errorCode": null,
+          "hsk1Lessons": 129
+        }
+      ],
+      "failure": null,
+      "passed": true,
+      "historicalCold503RootCauseClosed": false
+    },
+    "absentDatabase": {
+      "mode": "absent",
+      "sourceCommit": "b09cf3501f23400594790e968e0f96fcedac6377",
+      "scope": "Fresh development server process; existing disk compilation cache. New synthetic owner. Absent mode targets a random nonexistent database on the same local server, without creating it or stopping the populated cluster. Startup health polling and two labeled samples are diagnostics, not automatic product retries.",
+      "observations": [
+        {
+          "phase": "MODE",
+          "ms": 654.4114,
+          "status": 200,
+          "serverTiming": null,
+          "errorCode": null,
+          "hsk1Lessons": null
+        },
+        {
+          "phase": "FIRST_AUTHORIZED_CATALOG",
+          "ms": 766.009,
+          "status": 503,
+          "serverTiming": "app;dur=83.3",
+          "errorCode": "LOCAL_DB_UNAVAILABLE",
+          "hsk1Lessons": null
+        },
+        {
+          "phase": "WARM_CATALOG",
+          "ms": 97.10790000000088,
+          "status": 503,
+          "serverTiming": "app;dur=67.0",
+          "errorCode": "LOCAL_DB_UNAVAILABLE",
+          "hsk1Lessons": null
+        }
+      ],
+      "failure": null,
+      "passed": true,
+      "historicalCold503RootCauseClosed": false
+    }
+  },
+  "preservation": {
+    "database": "csh_hsk24_bf294b6506c1",
+    "originalRowsAndBindingsUnchanged": 76293,
+    "preTaskRowsAndBindingsUnchanged": 81726,
+    "privateTables": 19,
+    "originalCounts": {
+      "packages": 624,
+      "activity_leases": 32,
+      "api_idempotency": 29003,
+      "attempts": 6730,
+      "cards": 4512,
+      "content_attempt_bindings": 6730,
+      "content_session_state": 2486,
+      "duration_events": 2399,
+      "learning_events": 7529,
+      "lesson_progress": 792,
+      "lesson_sessions": 2487,
+      "mastery_evidence": 6004,
+      "owner_profiles": 0,
+      "planned_blocks": 779,
+      "review_logs": 115,
+      "skill_mastery": 5065,
+      "study_day_overrides": 0,
+      "study_settings": 247,
+      "time_preferences": 248,
+      "weekly_plans": 511
+    },
+    "preTaskCounts": {
+      "packages": 667,
+      "activity_leases": 35,
+      "api_idempotency": 31016,
+      "attempts": 7259,
+      "cards": 4862,
+      "content_attempt_bindings": 7259,
+      "content_session_state": 2605,
+      "duration_events": 2542,
+      "learning_events": 8120,
+      "lesson_progress": 854,
+      "lesson_sessions": 2606,
+      "mastery_evidence": 6385,
+      "owner_profiles": 0,
+      "planned_blocks": 853,
+      "review_logs": 126,
+      "skill_mastery": 5434,
+      "study_day_overrides": 0,
+      "study_settings": 271,
+      "time_preferences": 272,
+      "weekly_plans": 560
+    },
+    "afterCounts": {
+      "packages": 667,
+      "activity_leases": 36,
+      "api_idempotency": 31594,
+      "attempts": 7394,
+      "cards": 4946,
+      "content_attempt_bindings": 7394,
+      "content_session_state": 2646,
+      "duration_events": 2648,
+      "learning_events": 8270,
+      "lesson_progress": 868,
+      "lesson_sessions": 2647,
+      "mastery_evidence": 6494,
+      "owner_profiles": 0,
+      "planned_blocks": 895,
+      "review_logs": 131,
+      "skill_mastery": 5528,
+      "study_day_overrides": 0,
+      "study_settings": 282,
+      "time_preferences": 283,
+      "weekly_plans": 585
+    },
+    "immutableBindings": 667,
+    "noResetOrRegrading": true
+  },
+  "graph": {
+    "scope": "D:\\Chinese-Study-Hub\\src staticAST only; CSS/external implementations/content/scripts/tests/docs excluded.",
+    "sourceCommit": "57aa693410ac4da4ba17a8f753e1515522a95a02",
+    "sourceFiles": 152,
+    "nodes": 844,
+    "edges": 2631,
+    "communities": 90,
+    "backend": "none",
+    "providerInputTokens": 0,
+    "providerOutputTokens": 0,
+    "all152SourceHashesMatch": true,
+    "generatedArtifactsInSrc": false,
+    "hookOrWatchDaemonEnabled": false
+  },
+  "loopProposal": "docs/hsk24/hsk1-stability-loop-proposal.json",
+  "manualReview": {
+    "firstCommit": "b09cf3501f23400594790e968e0f96fcedac6377",
+    "firstVerdict": "REWORK",
+    "repairCount": 1,
+    "reviewedCommit": "57aa693410ac4da4ba17a8f753e1515522a95a02",
+    "verdict": "PASS - manual read-only technical review only",
+    "reviewer": "stability_code_review"
+  },
+  "loopState": "INACTIVE_NOT_RUN",
+  "prDraft": "docs/hsk24/hsk1-stability-pr-draft.md",
+  "integrationBlockers": [
+    "Reconcile unintegrated application baseline with main without replacing newer Loop modules.",
+    "Owner-approved bounded task instance/acceptance policy and explicit permitted task grant; T052policy absent.",
+    "Dependency and applicable owner/human gates; source/policy/base hashes and allowed files pinned.",
+    "Fresh exact-SHA independent controller review; no autoMerge/status write or fabricated run."
+  ],
+  "remaining": [
+    "Historical intermittent catalog timeout/503 rootcauseOPEN.",
+    "Main lacks app; unpublished baseline154commits/1380files must be reconciled before a small main-targeted PR can exist.",
+    "T052dependencies pending, acceptance policy/grant missing; Loopstopped.",
+    "DRAFT/publication/competent-language and rights/mastery gates remain unchanged; no HSK1curriculum completion claim."
+  ],
+  "evidenceByteScope": "Exact local workingtree bytes at checkpoint, not assumed normalized Gitblob bytes. Private raw traces/snapshots remain local and are not uploaded publicly.",
+  "evidence": [
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-repro-before.json",
+      "bytes": 10908,
+      "sha256": "40d4527d466a0bf38e243a7f6e3473797e6b5cb37f589c6d4e1d226abf3d17b5"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-repro-before.log",
+      "bytes": 3246,
+      "sha256": "85b619a45cacfc03cc847ea4c51e297619c16553acb5630065c764cb1f30d62e"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-repro-minimal-before.json",
+      "bytes": 7079,
+      "sha256": "d893254cce7a1af48272ca6c2fb9c8f06bf306d8fb66eba17d2e82030d5a7ee7"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-repro-minimal-before.log",
+      "bytes": 770,
+      "sha256": "b03096696dc16d3c8e5a8e06bbea9f38ad7561bab31b1f52877470b5c93b401d"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-repro-ui-before.json",
+      "bytes": 7678,
+      "sha256": "b3a61e08f06cb9274892f9ce91252a1cb1522d49ee6be782caf974687f8548be"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-repro-ui-before.log",
+      "bytes": 4122,
+      "sha256": "1068a2aa45c54464171c33d7b51f591d1264e5222f8b3fda9547ab207731073c"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-cold-cache-before.json",
+      "bytes": 7689,
+      "sha256": "2ca0642a0db8be25dafdbb2c77731c129e0541c8b0f3e950fb0df3f52eab7af9"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-cold-cache-before.log",
+      "bytes": 4170,
+      "sha256": "fdfc5736b94028d921da129a887f010ca0c8c0e06cb38d5dc37f285ed4b49af7"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-error-red.json",
+      "bytes": 10265,
+      "sha256": "6784a15afb1fa9409eac0a3327a6b10617a5f317d3c06a48fa21a11554bda874"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-error-red.log",
+      "bytes": 4600,
+      "sha256": "95e72a970c88d3031b069fe6c87068911c4a1454a658768ac66b2446ea5717c6"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-browser-desktop.json",
+      "bytes": 12104,
+      "sha256": "ce1a0b6ffbf82f2444b904c715ba649c6df8525ba7b3e622e90f5edca2ea2975"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-browser-desktop.log",
+      "bytes": 6953,
+      "sha256": "eb6fca3416efd4130a058067bfbb3708b6cfed8719f85d0ef3874e54ef0728fa"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-browser-final.json",
+      "bytes": 20829,
+      "sha256": "62d3c0783e2816d2f675b20ba1d8db0f0b661b61c5d1fad98a94e1d9252042ed"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-browser-final.log",
+      "bytes": 12386,
+      "sha256": "231309ee85a8fa87d99e141d1b2c5a2f55cc13eca8d6a3484a51bb3fdacc01e3"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-acceptance-after-repair.json",
+      "bytes": 30285,
+      "sha256": "6f837be0154e6ed738c003a9f669143df2da586e510107064e8631dd555b7d26"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-acceptance-after-repair.log",
+      "bytes": 122579,
+      "sha256": "af1d8b5bb0139cec89772fb0defbfe534fe1c26bbc6de00be073d8574f8b3604"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-native-sql.log",
+      "bytes": 633,
+      "sha256": "6041e82a486046e0a9f94ba442ce1288f60ed0e306b157d05c6eb89e00864486"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-hsk1-sql.log",
+      "bytes": 1292,
+      "sha256": "33529c2bc500a71debc9a66b52db30de2ebe96a82889f31abbfe81a5112966cb"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-level0-sql.log",
+      "bytes": 756,
+      "sha256": "157b7fc3652e1d67e0fd5fe7abc17b896e4009514c75e9e2fdb33304d0c340e0"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-level2-sql.log",
+      "bytes": 758,
+      "sha256": "0b7eaf8b8d59721bc28556c8c52b371efcd3cde0493b65f670fc5cbd6aff7dc7"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-level3-sql.log",
+      "bytes": 651,
+      "sha256": "29545817a7b13da69c4a489510bbdebbe21ec470a4a68701a68ba68dfacefe41"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-level4-sql.log",
+      "bytes": 653,
+      "sha256": "e4b1222395725f09cb7adc8f0ebb4e5fd9e1857f078531d70ccd84f76f8b5b46"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-unit-after-repair.log",
+      "bytes": 16502,
+      "sha256": "997467028744b6033a0ad980aa16bd18aca4a7e2bcd3cd125d3c8c20bc13a552"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-request-red.log",
+      "bytes": 2166,
+      "sha256": "de77a523d03b26fbff146c7677a7ad78b7458c99ec0e1430721a93853be08fe5"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-repair1-red.log",
+      "bytes": 1394,
+      "sha256": "12dd095f4b7f9b9a2a58ba0216ab5a1354b1f8643f2b63fd13d6bc9f81a7e8fc"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-repair1-green.log",
+      "bytes": 493,
+      "sha256": "0092354809670b2c02b1bc7cb74e73eda3f5ac539e1ed0e8cd5b924a752257b1"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-typecheck.log",
+      "bytes": 473,
+      "sha256": "74f3ae02096148d0dbfe82c8d37eaaaf27423ebd5c0d174eb11493494616013c"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-typecheck-after-repair.log",
+      "bytes": 57,
+      "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-lint.log",
+      "bytes": 1804,
+      "sha256": "8036ab4d534da305d741b216a3d1c8b83f49c2382dc1c9d652084a1920a92e60"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-lint-after-repair.log",
+      "bytes": 595,
+      "sha256": "d2246b046ac72a5146dfff03bb52c140232287592ad9a829a65c8e5759484d55"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-script-lint-after-repair.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-build.log",
+      "bytes": 2267,
+      "sha256": "c5826dafc96e801ae18987f667780b2c149a02f707c47388600d31fe40984fa1"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-http-valid.json",
+      "bytes": 1069,
+      "sha256": "87c3ef943cd2e593caa4017f47de60aaeadb0618d25380dfe77e223b95a0b6a5"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-http-valid-server.log",
+      "bytes": 574,
+      "sha256": "3a98bc5f0ea0b728442e427572ee4e16388d1531182fec06135f0e1cdd524c43"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-http-absent.json",
+      "bytes": 1085,
+      "sha256": "d9a18269d4bce64e64acdbfad1bf19324c180448eb84b95d6203ffea6cd04ca5"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-http-absent-server.log",
+      "bytes": 570,
+      "sha256": "18bff2df6fd61a8571d7cda418cf3d2c91a5a9af13ba1c1c5c4d01414414df06"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-final-preserve.log",
+      "bytes": 534,
+      "sha256": "1a6dd4fe6a11140e795bc48da100dabf92ee03c0443c7287f031e968d9c75b33"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-final-after.json",
+      "bytes": 13646853,
+      "sha256": "69e2ace5b4b7842b018263a645b6ed775f44c47f20eaad525be43c7b73a39f66"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-20261031-before.json",
+      "bytes": 13387682,
+      "sha256": "f46b97393cc44018ef5720fa60621b859fcab259f126c53ba2429ecf98591b0d"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-20261031-before.json",
+      "bytes": 12500220,
+      "sha256": "a8fed8e10768f205d20938b4056f6783e194a056f94b66152ca3570b1bacc0dd"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-20261031/preflight.json",
+      "bytes": 1068,
+      "sha256": "984419b59803ad3b8cba3a0270d9e92f5e75562b0fdf07539e8983bfd304ad84"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-20261031/pinned-master-plan-v1.1.md",
+      "bytes": 192393,
+      "sha256": "0984cfc38e4b91c5ed214c8e6003434536d9904072164f28f4e0ffd48c8bf47e"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-20261031/pinned-task-status.json",
+      "bytes": 6457,
+      "sha256": "9b86effd184577ed7f99fd3efa7c3a6a0c1e0232ec641709622d9465bfbadca6"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-20261031/pinned-source-manifest.json",
+      "bytes": 1745,
+      "sha256": "09164bc3939f45f47386401ebc7fe97e39029e95dc7c4c21a195ee105be02b72"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-ssot-status.log",
+      "bytes": 245,
+      "sha256": "e6af3531fe61c518b050c6264c0a6637fb452814df0556a9b4f9aa194cf8020d"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-graph-query.log",
+      "bytes": 6137,
+      "sha256": "f614128bcaee154221b1342dd86b1fa4e15f2a729151690cc08b2d268cac6801"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-graph-update.log",
+      "bytes": 708,
+      "sha256": "6371ffedc34abf84ebf73748a527b040cb512f162321ca2f6cde3e6564325e78"
+    },
+    {
+      "path": "graphify-out/source-audit.json",
+      "bytes": 18352,
+      "sha256": "6c0d7d6be3faed8cda056d798844e4ee5c7754a2ea66910faa5429c3c6b30d04"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-char-unit-failure-analysis.json",
+      "bytes": 5545,
+      "sha256": "3ea0d0d9c55c10729578c3af4141ffb071ceb19bdff599551d2cd55152b717d0"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-closure-char-unit-traces/navigation-L1152-course-an-e42f7-ct-current-immutable-lesson-desktop/trace.zip",
+      "bytes": 1471598,
+      "sha256": "830efdaed9e1f3060179c324de240823c8bffa5be53bd31f76c3b34d6281ce93"
+    }
+  ]
+}

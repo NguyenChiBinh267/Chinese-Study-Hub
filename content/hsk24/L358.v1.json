@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "1b018c97e7890aa7f7c51ec9967a795dcf5ced756a634740d6f6cdebe1f0ef3b",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-dialogue-sentences",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L358",
+    "version": 1,
+    "versionId": "l358-draft-v1",
+    "title": "Kể và trả lời bằng câu ngắn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đếm câu, đoạn, lần luyện; giữ khác nhau giữa 回答 và 讲.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "遍"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 16,
+      "physicalPage": 17,
+      "printedPage": 14,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 16,
+          "physicalPage": 17,
+          "printedPage": 14,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "沟通学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-study-activities",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "学习活动"
+        },
+        "written": "学习活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l358-v-703",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 703"
+        },
+        "written": "讲",
+        "pinyin": "jiǎng",
+        "senseId": "l358-v-703-sense",
+        "ordinal": 703,
+        "note": "3 jiǎng 动; 讲 có thể kể chuyện hoặc giảng nội dung; 讲故事 nêu kể chuyện, không dùng 讲一个字 như mọi động tác viết chữ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l358-v-682",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 682"
+        },
+        "written": "回答",
+        "pinyin": "huídá",
+        "senseId": "l358-v-682-sense",
+        "ordinal": 682,
+        "note": "3 huídá 动; 回答 thường nhận 问题; 回答老师的问题 là trả lời câu hỏi của thầy. 不 phải mọi nói chuyện đều là trả lời. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l358-v-722",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 722"
+        },
+        "written": "句",
+        "pinyin": "jù",
+        "senseId": "l358-v-722-sense",
+        "ordinal": 722,
+        "note": "3 jù 量; 句 đếm câu/lời như 一句话, 三句中文. Không dùng như 页 đếm trang hay 遍 đếm lượt hoàn chỉnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l358-v-607",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 607"
+        },
+        "written": "段",
+        "pinyin": "duàn",
+        "senseId": "l358-v-607-sense",
+        "ordinal": 607,
+        "note": "3 duàn 量; 段 đếm đoạn nội dung/khoảng theo cảnh; 一段课文 là một đoạn bài đọc, có thể nhiều câu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l358-v-527",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 527"
+        },
+        "written": "遍",
+        "pinyin": "biàn",
+        "senseId": "l358-v-527-sense",
+        "ordinal": 527,
+        "note": "3 biàn 量; 遍 đếm một lượt làm từ đầu đến cuối, 一遍课文 thường theo động từ đọc/nghe. Không tự nói số lần thạo hay hiểu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l358-v-609",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 609"
+        },
+        "written": "对话",
+        "pinyin": "duìhuà",
+        "senseId": "l358-v-609-sense",
+        "ordinal": 609,
+        "note": "3 duìhuà 动; 对话 trong bài là trao đổi qua lại giữa người; 跟老师对话 không phải tự độc thoại. Chưa có chấm nói hay audio. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-103",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "103"
+        },
+        "written": "讲",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 103,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-37",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "37"
+        },
+        "written": "答",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 37,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-123",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "123"
+        },
+        "written": "句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 123,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-49",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "49"
+        },
+        "written": "段",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 49,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-15",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "15"
+        },
+        "written": "遍",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 15,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-action-times",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "量词 / 动量词 / 遍"
+        },
+        "written": "遍",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l358-c0",
+      "version": 1,
+      "senseId": "l358-v-703-sense",
+      "hanzi": "讲",
+      "dictionaryPinyin": "jiǎng",
+      "meaning": "nói/kể/giảng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l358-v-703"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l358-c1",
+      "version": 1,
+      "senseId": "l358-v-682-sense",
+      "hanzi": "回答",
+      "dictionaryPinyin": "huí dá",
+      "meaning": "trả lời",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l358-v-682"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l358-c2",
+      "version": 1,
+      "senseId": "l358-v-722-sense",
+      "hanzi": "句",
+      "dictionaryPinyin": "jù",
+      "meaning": "lượng từ câu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l358-v-722"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l358-c3",
+      "version": 1,
+      "senseId": "l358-v-607-sense",
+      "hanzi": "段",
+      "dictionaryPinyin": "duàn",
+      "meaning": "đoạn; lượng từ đoạn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l358-v-607"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l358-c4",
+      "version": 1,
+      "senseId": "l358-v-527-sense",
+      "hanzi": "遍",
+      "dictionaryPinyin": "biàn",
+      "meaning": "lượt (làm trọn một lần)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l358-v-527"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l358-c5",
+      "version": 1,
+      "senseId": "l358-v-609-sense",
+      "hanzi": "对话",
+      "dictionaryPinyin": "duì huà",
+      "meaning": "đối thoại/trò chuyện qua lại",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l358-v-609"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l358-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 完整 wánzhěng: hoàn chỉnh; 次数 cìshù: số lần; 相加 xiāngjiā: cộng vào nhau. Đối thoại chỉ được đọc dưới dạng văn bản ở đây.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l358-t0",
+      "type": "teaching",
+      "title": "讲 · nói/kể/giảng",
+      "text": "讲 có thể kể chuyện hoặc giảng nội dung; 讲故事 nêu kể chuyện, không dùng 讲一个字 như mọi động tác viết chữ.",
+      "hanzi": "老师讲了一个故事。",
+      "pinyin": "Lǎoshī jiǎng le yí ge gùshi.",
+      "meaning": "Thầy kể một câu chuyện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l358-t1",
+      "type": "teaching",
+      "title": "回答 · trả lời",
+      "text": "回答 thường nhận 问题; 回答老师的问题 là trả lời câu hỏi của thầy. 不 phải mọi nói chuyện đều là trả lời.",
+      "hanzi": "请用中文回答问题。",
+      "pinyin": "Qǐng yòng Zhōngwén huídá wèntí.",
+      "meaning": "Hãy trả lời câu hỏi bằng tiếng Trung.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l358-t2",
+      "type": "teaching",
+      "title": "句 · lượng từ câu",
+      "text": "句 đếm câu/lời như 一句话, 三句中文. Không dùng như 页 đếm trang hay 遍 đếm lượt hoàn chỉnh.",
+      "hanzi": "请读这三句话。",
+      "pinyin": "Qǐng dú zhè sān jù huà.",
+      "meaning": "Hãy đọc ba câu này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l358-t3",
+      "type": "teaching",
+      "title": "段 · đoạn; lượng từ đoạn",
+      "text": "段 đếm đoạn nội dung/khoảng theo cảnh; 一段课文 là một đoạn bài đọc, có thể nhiều câu.",
+      "hanzi": "我们先读第一段。",
+      "pinyin": "Wǒmen xiān dú dì yī duàn.",
+      "meaning": "Chúng tôi đọc đoạn đầu trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l358-t4",
+      "type": "teaching",
+      "title": "遍 · lượt (làm trọn một lần)",
+      "text": "遍 đếm một lượt làm từ đầu đến cuối, 一遍课文 thường theo động từ đọc/nghe. Không tự nói số lần thạo hay hiểu.",
+      "hanzi": "我把课文读了一遍。",
+      "pinyin": "Wǒ bǎ kèwén dú le yí biàn.",
+      "meaning": "Tôi đọc bài một lượt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l358-t5",
+      "type": "teaching",
+      "title": "对话 · đối thoại/trò chuyện qua lại",
+      "text": "对话 trong bài là trao đổi qua lại giữa người; 跟老师对话 không phải tự độc thoại. Chưa có chấm nói hay audio.",
+      "hanzi": "学生跟老师对话。",
+      "pinyin": "Xuésheng gēn lǎoshī duìhuà.",
+      "meaning": "Học sinh đối thoại với thầy.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l358-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "遍 đếm việc làm trọn từ đầu tới cuối: 读一遍课文. 次 đếm lần nói chung. 一句/一段 đếm đơn vị nội dung; không biến ba câu thành ba lượt đọc.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l358-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "老师先讲故事，再请学生跟他对话。小林读了第一段，一共三句话。他只读了一遍，然后回答两个问题。这里的句、段和遍分别数句子、内容段和完整次数，不能相加成同一个数字。",
+      "pinyin": "Lǎoshī xiān jiǎng gùshi, zài qǐng xuésheng gēn tā duìhuà. Xiǎo Lín dú le dì yī duàn, yígòng sān jù huà. Tā zhǐ dú le yí biàn, ránhòu huídá liǎng ge wèntí. Zhèlǐ de jù, duàn hé biàn fēnbié shǔ jùzi, nèiróng duàn hé wánzhěng cìshù, bù néng xiāngjiā chéng tóng yí ge shùzì.",
+      "meaning": "Thầy kể chuyện rồi đối thoại với học sinh. Lâm đọc đoạn đầu gồm ba câu một lượt, sau đó trả lời hai câu hỏi. Câu, đoạn và lượt là các đơn vị khác nhau.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l358-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l358-v1-e0"
+    },
+    {
+      "id": "l358-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l358-v1-e1"
+    },
+    {
+      "id": "l358-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l358-v1-e2"
+    },
+    {
+      "id": "l358-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l358-v1-e3"
+    },
+    {
+      "id": "l358-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l358-v1-e4"
+    },
+    {
+      "id": "l358-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l358-v1-e5"
+    },
+    {
+      "id": "l358-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l358-v1-e6"
+    },
+    {
+      "id": "l358-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l358-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l358-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l358-c0",
+      "senseId": "l358-v-703-sense",
+      "keyRef": "l358-v1-k0",
+      "prompt": "Động từ kể trong □故事。",
+      "choices": [
+        "回答",
+        "句",
+        "段",
+        "遍",
+        "对话",
+        "讲"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l358-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l358-c1",
+      "senseId": "l358-v-682-sense",
+      "keyRef": "l358-v1-k1",
+      "prompt": "Động từ trả lời câu hỏi: □问题。",
+      "choices": [
+        "句",
+        "段",
+        "遍",
+        "对话",
+        "讲",
+        "回答"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l358-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l358-c2",
+      "senseId": "l358-v-722-sense",
+      "keyRef": "l358-v1-k2",
+      "prompt": "Đếm câu: 三□话。",
+      "choices": [
+        "段",
+        "遍",
+        "对话",
+        "讲",
+        "回答",
+        "句"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l358-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l358-c3",
+      "senseId": "l358-v-607-sense",
+      "keyRef": "l358-v1-k3",
+      "prompt": "Viết pinyin của 段 trong câu “我们先读第一段。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l358-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l358-c4",
+      "senseId": "l358-v-527-sense",
+      "keyRef": "l358-v1-k4",
+      "prompt": "Đọc từ đầu tới cuối một lượt: 读了一□。",
+      "choices": [
+        "对话",
+        "讲",
+        "回答",
+        "句",
+        "段",
+        "遍"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l358-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l358-c5",
+      "senseId": "l358-v-609-sense",
+      "keyRef": "l358-v1-k5",
+      "prompt": "Hoạt động đối thoại với thầy: 跟老师□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l358-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l358-c0",
+      "senseId": "l358-v-703-sense",
+      "keyRef": "l358-v1-k6",
+      "prompt": "Lâm đọc mấy lượt?",
+      "choices": [
+        "三遍",
+        "两遍",
+        "一遍"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l358-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l358-c3",
+      "senseId": "l358-v-607-sense",
+      "keyRef": "l358-v1-k7",
+      "prompt": "Xếp một lượt đọc trọn, bắt đầu bằng 我.",
+      "choices": [
+        "读了一遍",
+        "把课文",
+        "我"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l358-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l358-v1-e0",
+      "senseId": "l358-v-703-sense",
+      "accepted": [
+        "讲"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "讲: nói/kể/giảng. 讲 có thể kể chuyện hoặc giảng nội dung; 讲故事 nêu kể chuyện, không dùng 讲一个字 như mọi động tác viết chữ. Thầy kể một câu chuyện."
+    },
+    {
+      "id": "l358-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l358-v1-e1",
+      "senseId": "l358-v-682-sense",
+      "accepted": [
+        "回答"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "回答: trả lời. 回答 thường nhận 问题; 回答老师的问题 là trả lời câu hỏi của thầy. 不 phải mọi nói chuyện đều là trả lời. Hãy trả lời câu hỏi bằng tiếng Trung."
+    },
+    {
+      "id": "l358-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l358-v1-e2",
+      "senseId": "l358-v-722-sense",
+      "accepted": [
+        "句"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "句: lượng từ câu. 句 đếm câu/lời như 一句话, 三句中文. Không dùng như 页 đếm trang hay 遍 đếm lượt hoàn chỉnh. Hãy đọc ba câu này."
+    },
+    {
+      "id": "l358-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l358-v1-e3",
+      "senseId": "l358-v-607-sense",
+      "accepted": [
+        "duàn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "段: đoạn; lượng từ đoạn. 段 đếm đoạn nội dung/khoảng theo cảnh; 一段课文 là một đoạn bài đọc, có thể nhiều câu. Chúng tôi đọc đoạn đầu trước."
+    },
+    {
+      "id": "l358-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l358-v1-e4",
+      "senseId": "l358-v-527-sense",
+      "accepted": [
+        "遍"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "遍: lượt (làm trọn một lần). 遍 đếm một lượt làm từ đầu đến cuối, 一遍课文 thường theo động từ đọc/nghe. Không tự nói số lần thạo hay hiểu. Tôi đọc bài một lượt."
+    },
+    {
+      "id": "l358-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l358-v1-e5",
+      "senseId": "l358-v-609-sense",
+      "accepted": [
+        "对话"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "对话: đối thoại/trò chuyện qua lại. 对话 trong bài là trao đổi qua lại giữa người; 跟老师对话 không phải tự độc thoại. Chưa có chấm nói hay audio. Học sinh đối thoại với thầy."
+    },
+    {
+      "id": "l358-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l358-v1-e6",
+      "senseId": "l358-v-703-sense",
+      "accepted": [
+        "一遍"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 遍 đếm việc làm trọn từ đầu tới cuối: 读一遍课文. 次 đếm lần nói chung. 一句/一段 đếm đơn vị nội dung; không biến ba câu thành ba lượt đọc."
+    },
+    {
+      "id": "l358-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l358-v1-e7",
+      "senseId": "l358-v-607-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 遍 đếm việc làm trọn từ đầu tới cuối: 读一遍课文. 次 đếm lần nói chung. 一句/一段 đếm đơn vị nội dung; không biến ba câu thành ba lượt đọc."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

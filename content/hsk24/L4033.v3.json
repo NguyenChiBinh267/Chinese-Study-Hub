@@ -1,0 +1,794 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "2ca411ad4dd884b60df8f47abd533931c72e3b9a5fc66a285a462de3608d7ac0",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eadd",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L4033",
+    "version": 3,
+    "versionId": "l4033-draft-v3",
+    "title": "Quê hương và khí hậu",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Quê hương và khí hậu; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "不仅"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 26,
+      "physicalPage": 27,
+      "printedPage": 24,
+      "section": "task",
+      "entry": "二十"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-29T11:06:20.544313Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-geography",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 26,
+          "physicalPage": 27,
+          "printedPage": 24,
+          "section": "task",
+          "entry": "二十"
+        },
+        "written": "介绍中国的主要省市、民族",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-b9b861e211f0",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "地理"
+        },
+        "written": "地理",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l4033-v-1650",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 120,
+          "physicalPage": 121,
+          "printedPage": 118,
+          "section": "vocabulary",
+          "entry": "ordinal 1650"
+        },
+        "written": "省1",
+        "pinyin": "shěng",
+        "senseId": "l4033-v-1650-sense",
+        "ordinal": 1650,
+        "note": "4 shěng 名; 省1 trong nguồn là danh từ đơn vị hành chính, không phải tiết kiệm. Nhận diện chữ 省 trong 省; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4033-v-1341",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1341"
+        },
+        "written": "家乡",
+        "pinyin": "jiāxiāng",
+        "senseId": "l4033-v-1341-sense",
+        "ordinal": 1341,
+        "note": "4 jiāxiāng 名; 家乡 chỉ nơi quê nhà, khác nhà đang ở. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4033-v-1601",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 119,
+          "physicalPage": 120,
+          "printedPage": 117,
+          "section": "vocabulary",
+          "entry": "ordinal 1601"
+        },
+        "written": "全球",
+        "pinyin": "quánqiú",
+        "senseId": "l4033-v-1601-sense",
+        "ordinal": 1601,
+        "note": "4 quánqiú 名; 全球 chỉ phạm vi cả thế giới, không riêng một nước. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4033-v-1571",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 118,
+          "physicalPage": 119,
+          "printedPage": 116,
+          "section": "vocabulary",
+          "entry": "ordinal 1571"
+        },
+        "written": "气候",
+        "pinyin": "qìhòu",
+        "senseId": "l4033-v-1571-sense",
+        "ordinal": 1571,
+        "note": "4 qìhòu 名; 气候 là đặc điểm thời tiết lâu dài, khác thời tiết một ngày. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4033-v-1573",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 118,
+          "physicalPage": 119,
+          "printedPage": 116,
+          "section": "vocabulary",
+          "entry": "ordinal 1573"
+        },
+        "written": "气温",
+        "pinyin": "qìwēn",
+        "senseId": "l4033-v-1573-sense",
+        "ordinal": 1573,
+        "note": "4 qìwēn 名; 气温 nói nhiệt độ không khí, khác thân nhiệt. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4033-v-1911",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 126,
+          "physicalPage": 127,
+          "printedPage": 124,
+          "section": "vocabulary",
+          "entry": "ordinal 1911"
+        },
+        "written": "云",
+        "pinyin": "yún",
+        "senseId": "l4033-v-1911-sense",
+        "ordinal": 1911,
+        "note": "4 yún 名; 云 là mây trên trời trong câu, không phải lưu trữ đám mây. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-279",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "279"
+        },
+        "written": "省",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 279,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-348",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "348"
+        },
+        "written": "乡",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 348,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-336",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "336"
+        },
+        "written": "温",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 336,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-401",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "401"
+        },
+        "written": "云",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 401,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-4033",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "不仅……，还……"
+        },
+        "written": "不仅",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l4033-c0",
+      "version": 1,
+      "senseId": "l4033-v-1650-sense",
+      "hanzi": "省",
+      "dictionaryPinyin": "shěng",
+      "meaning": "tỉnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4033-v-1650"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4033-c1",
+      "version": 1,
+      "senseId": "l4033-v-1341-sense",
+      "hanzi": "家乡",
+      "dictionaryPinyin": "jiā xiāng",
+      "meaning": "quê hương",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4033-v-1341"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4033-c2",
+      "version": 1,
+      "senseId": "l4033-v-1601-sense",
+      "hanzi": "全球",
+      "dictionaryPinyin": "quán qiú",
+      "meaning": "toàn cầu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4033-v-1601"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4033-c3",
+      "version": 1,
+      "senseId": "l4033-v-1571-sense",
+      "hanzi": "气候",
+      "dictionaryPinyin": "qì hòu",
+      "meaning": "khí hậu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4033-v-1571"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4033-c4",
+      "version": 1,
+      "senseId": "l4033-v-1573-sense",
+      "hanzi": "气温",
+      "dictionaryPinyin": "qì wēn",
+      "meaning": "nhiệt độ không khí",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4033-v-1573"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4033-c5",
+      "version": 1,
+      "senseId": "l4033-v-1911-sense",
+      "hanzi": "云",
+      "dictionaryPinyin": "yún",
+      "meaning": "mây",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4033-v-1911"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l4033-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4033-t0",
+      "type": "teaching",
+      "title": "省 · tỉnh",
+      "text": "省1 trong nguồn là danh từ đơn vị hành chính, không phải tiết kiệm. Nhận diện chữ 省 trong 省; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "四川是中国的一个省。",
+      "pinyin": "Sì chuān shì Zhōng guó de yí ge shěng.",
+      "meaning": "Tứ Xuyên là một tỉnh của Trung Quốc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4033-t1",
+      "type": "teaching",
+      "title": "家乡 · quê hương",
+      "text": "家乡 chỉ nơi quê nhà, khác nhà đang ở.",
+      "hanzi": "我的家乡在山里。",
+      "pinyin": "Wǒ de jiā xiāng zài shān lǐ.",
+      "meaning": "Quê tôi ở miền núi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4033-t2",
+      "type": "teaching",
+      "title": "全球 · toàn cầu",
+      "text": "全球 chỉ phạm vi cả thế giới, không riêng một nước.",
+      "hanzi": "这张图介绍全球气候。",
+      "pinyin": "Zhè zhāng tú jiè shào quán qiú qì hòu.",
+      "meaning": "Hình này giới thiệu khí hậu toàn cầu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4033-t3",
+      "type": "teaching",
+      "title": "气候 · khí hậu",
+      "text": "气候 là đặc điểm thời tiết lâu dài, khác thời tiết một ngày.",
+      "hanzi": "家乡的气候比较干燥。",
+      "pinyin": "Jiā xiāng de qì hòu bǐ jiào gān zào.",
+      "meaning": "Khí hậu quê tôi khá khô.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4033-t4",
+      "type": "teaching",
+      "title": "气温 · nhiệt độ không khí",
+      "text": "气温 nói nhiệt độ không khí, khác thân nhiệt.",
+      "hanzi": "今天气温有点儿低。",
+      "pinyin": "Jīn tiān qì wēn yǒu diǎnr dī.",
+      "meaning": "Hôm nay nhiệt độ không khí hơi thấp.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4033-t5",
+      "type": "teaching",
+      "title": "云 · mây",
+      "text": "云 là mây trên trời trong câu, không phải lưu trữ đám mây.",
+      "hanzi": "山上的云很多。",
+      "pinyin": "Shān shàng de yún hěn duō.",
+      "meaning": "Trên núi có nhiều mây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4033-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "不仅…还… bổ sung đặc điểm; không suy ra văn hóa hay con người chỉ từ khí hậu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4033-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小田介绍家乡所在的省，又展示全球气候图。他说：“介绍一个地方，不仅要看今天的气温，还要了解长期的气候。”照片里的山上有云，但一张照片不能说明全年的天气。",
+      "pinyin": "Xiǎo Tián jiè shào jiā xiāng suǒ zài de shěng, yòu zhǎn shì quán qiú qì hòu tú. Tā shuō: “Jiè shào yí ge dì fang, bù jǐn yào kàn jīn tiān de qì wēn, hái yào liǎo jiě cháng qī de qì hòu.” Zhào piàn lǐ de shān shàng yǒu yún, dàn yì zhāng zhào piàn bù néng shuō míng quán nián de tiān qì.",
+      "meaning": "Tiểu Điền phân biệt nhiệt độ một ngày với khí hậu dài hạn.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4033-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l4033-v3-e0"
+    },
+    {
+      "id": "l4033-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l4033-v3-e1"
+    },
+    {
+      "id": "l4033-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l4033-v3-e2"
+    },
+    {
+      "id": "l4033-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l4033-v3-e3"
+    },
+    {
+      "id": "l4033-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l4033-v3-e4"
+    },
+    {
+      "id": "l4033-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l4033-v3-e5"
+    },
+    {
+      "id": "l4033-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l4033-v3-e6"
+    },
+    {
+      "id": "l4033-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l4033-v3-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l4033-v3-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l4033-c0",
+      "senseId": "l4033-v-1650-sense",
+      "keyRef": "l4033-v3-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “tỉnh”: □ (shěng). Ngữ cảnh: 四川是中国的一个□。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "眚",
+        "雀",
+        "看",
+        "省"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4033-v3-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4033-c1",
+      "senseId": "l4033-v-1341-sense",
+      "keyRef": "l4033-v3-k1",
+      "prompt": "Ghi pinyin của 家乡 trong câu “我的家乡在山里。”, theo nghĩa “quê hương”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4033-v3-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4033-c2",
+      "senseId": "l4033-v-1601-sense",
+      "keyRef": "l4033-v3-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “toàn cầu”: 这张图介绍□气候。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4033-v3-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4033-c3",
+      "senseId": "l4033-v-1571-sense",
+      "keyRef": "l4033-v3-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “khí hậu” để điền câu: 家乡的□比较干燥。",
+      "choices": [
+        "气温",
+        "云",
+        "省",
+        "家乡",
+        "全球",
+        "气候"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4033-v3-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4033-c4",
+      "senseId": "l4033-v-1573-sense",
+      "keyRef": "l4033-v3-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “nhiệt độ không khí” để điền câu: 今天□有点儿低。",
+      "choices": [
+        "云",
+        "省",
+        "家乡",
+        "全球",
+        "气候",
+        "气温"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4033-v3-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4033-c5",
+      "senseId": "l4033-v-1911-sense",
+      "keyRef": "l4033-v3-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “mây”: 山上的□很多。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4033-v3-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4033-c0",
+      "senseId": "l4033-v-1650-sense",
+      "keyRef": "l4033-v3-k6",
+      "prompt": "Một ảnh có nói lên thời tiết cả năm không?",
+      "choices": [
+        "一定能",
+        "只有下雨才行",
+        "不能"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l4033-v3-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l4033-c3",
+      "senseId": "l4033-v-1571-sense",
+      "keyRef": "l4033-v3-k7",
+      "prompt": "Ghép các cụm thành câu theo cấu trúc đang học; giữ nguyên cụm.",
+      "choices": [
+        "不仅要看今天的气温，",
+        "还要",
+        "了解",
+        "长期的气候。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l4033-v3-k0",
+      "version": 1,
+      "exerciseVersionId": "l4033-v3-e0",
+      "senseId": "l4033-v-1650-sense",
+      "accepted": [
+        "省"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 省 tạo từ 省. 省1 trong nguồn là danh từ đơn vị hành chính, không phải tiết kiệm. Nhận diện chữ 省 trong 省; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l4033-v3-k1",
+      "version": 1,
+      "exerciseVersionId": "l4033-v3-e1",
+      "senseId": "l4033-v-1341-sense",
+      "accepted": [
+        "jiā xiāng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc jiā xiāng. 家乡 chỉ nơi quê nhà, khác nhà đang ở."
+    },
+    {
+      "id": "l4033-v3-k2",
+      "version": 1,
+      "exerciseVersionId": "l4033-v3-e2",
+      "senseId": "l4033-v-1601-sense",
+      "accepted": [
+        "全球"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 全球. 全球 chỉ phạm vi cả thế giới, không riêng một nước. Hình này giới thiệu khí hậu toàn cầu."
+    },
+    {
+      "id": "l4033-v3-k3",
+      "version": 1,
+      "exerciseVersionId": "l4033-v3-e3",
+      "senseId": "l4033-v-1571-sense",
+      "accepted": [
+        "气候"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "气候: khí hậu. 气候 là đặc điểm thời tiết lâu dài, khác thời tiết một ngày. Khí hậu quê tôi khá khô."
+    },
+    {
+      "id": "l4033-v3-k4",
+      "version": 1,
+      "exerciseVersionId": "l4033-v3-e4",
+      "senseId": "l4033-v-1573-sense",
+      "accepted": [
+        "气温"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "气温: nhiệt độ không khí. 气温 nói nhiệt độ không khí, khác thân nhiệt. Hôm nay nhiệt độ không khí hơi thấp."
+    },
+    {
+      "id": "l4033-v3-k5",
+      "version": 1,
+      "exerciseVersionId": "l4033-v3-e5",
+      "senseId": "l4033-v-1911-sense",
+      "accepted": [
+        "云"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 云. 云 là mây trên trời trong câu, không phải lưu trữ đám mây. Trên núi có nhiều mây."
+    },
+    {
+      "id": "l4033-v3-k6",
+      "version": 1,
+      "exerciseVersionId": "l4033-v3-e6",
+      "senseId": "l4033-v-1650-sense",
+      "accepted": [
+        "不能"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 不能. Tiểu Điền phân biệt nhiệt độ một ngày với khí hậu dài hạn."
+    },
+    {
+      "id": "l4033-v3-k7",
+      "version": 1,
+      "exerciseVersionId": "l4033-v3-e7",
+      "senseId": "l4033-v-1571-sense",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 不仅…还… bổ sung đặc điểm; không suy ra văn hóa hay con người chỉ từ khí hậu."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

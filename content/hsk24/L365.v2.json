@@ -1,0 +1,783 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "10793aaa0ad5f10ad672df72218371f3dcba49f79fe0abd04287543525b5a835",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-hospital-visit",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L365",
+    "version": 2,
+    "versionId": "l365-draft-v2",
+    "title": "Hỏi thăm người đang nằm viện",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc thời gian nhập/xuất viện và lời chăm sóc; không suy ra đã khỏi chỉ vì về nhà.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "被动句"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 14,
+      "physicalPage": 15,
+      "printedPage": 12,
+      "section": "task",
+      "entry": "七"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T08:20:32.694Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-health-task",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 14,
+          "physicalPage": 15,
+          "printedPage": 12,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "谈论就医探病、健康观念",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-health-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "就医"
+        },
+        "written": "就医",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l365-v-563",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 563"
+        },
+        "written": "出生",
+        "pinyin": "chūshēng",
+        "senseId": "l365-v-563-sense",
+        "ordinal": 563,
+        "note": "3 chūshēng 动; 出生 nói sự kiện sinh ra; 出生在… nêu địa điểm, 出生于… thường văn viết. Không suy ra tuổi nếu thiếu năm hiện tại. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l365-v-564",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 564"
+        },
+        "written": "出院",
+        "pinyin": "chūyuàn",
+        "senseId": "l365-v-564-sense",
+        "ordinal": 564,
+        "note": "3 chūyuàn 动; 出院 là rời bệnh viện sau điều trị/lưu viện theo cảnh; không tự chứng minh khỏi hoàn toàn hay không cần chăm sóc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l365-v-989",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 989"
+        },
+        "written": "住院",
+        "pinyin": "zhùyuàn",
+        "senseId": "l365-v-989-sense",
+        "ordinal": 989,
+        "note": "3 zhùyuàn 动; 住院 nói nhập/nằm viện điều trị; không phải sống cạnh viện. 住院三天 là nằm viện ba ngày. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l365-v-971",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 971"
+        },
+        "written": "照顾",
+        "pinyin": "zhàogù",
+        "senseId": "l365-v-971-sense",
+        "ordinal": 971,
+        "note": "3 zhàogù 动; 照顾 là chăm sóc người/việc theo cảnh; 照顾病人 nói trông nom, không tự xác nhận có chuyên môn y khoa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l365-v-838",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 838"
+        },
+        "written": "受",
+        "pinyin": "shòu",
+        "senseId": "l365-v-838-sense",
+        "ordinal": 838,
+        "note": "3 shòu 动; 受 trong 受伤 là chịu thương tích; 受了伤 tách trợ từ giữa 受 và 伤. Không suy ra loại hay mức độ chấn thương. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l365-v-840",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 840"
+        },
+        "written": "受到",
+        "pinyin": "shòudào",
+        "senseId": "l365-v-840-sense",
+        "ordinal": 840,
+        "note": "3 shòudào 动; 受到 + tác động như 欢迎/影响 nêu đã nhận/chịu; thường khác nhận vật hữu hình bằng 收到. 受到欢迎不等于所有人都喜欢. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-273",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "273"
+        },
+        "written": "照",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 273,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-73",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "73"
+        },
+        "written": "顾",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 73,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-199",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "199"
+        },
+        "written": "受",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 199,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-passive",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "特殊句型 / 被动句1"
+        },
+        "written": "被动句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l365-c0",
+      "version": 1,
+      "senseId": "l365-v-563-sense",
+      "hanzi": "出生",
+      "dictionaryPinyin": "chū shēng",
+      "meaning": "sinh ra/chào đời",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l365-v-563"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l365-c1",
+      "version": 1,
+      "senseId": "l365-v-564-sense",
+      "hanzi": "出院",
+      "dictionaryPinyin": "chū yuàn",
+      "meaning": "xuất viện",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l365-v-564"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l365-c2",
+      "version": 1,
+      "senseId": "l365-v-989-sense",
+      "hanzi": "住院",
+      "dictionaryPinyin": "zhù yuàn",
+      "meaning": "nằm viện",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l365-v-989"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l365-c3",
+      "version": 1,
+      "senseId": "l365-v-971-sense",
+      "hanzi": "照顾",
+      "dictionaryPinyin": "zhào gù",
+      "meaning": "chăm sóc/trông nom",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l365-v-971"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l365-c4",
+      "version": 1,
+      "senseId": "l365-v-838-sense",
+      "hanzi": "受",
+      "dictionaryPinyin": "shòu",
+      "meaning": "chịu/nhận (tác động)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l365-v-838"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l365-c5",
+      "version": 1,
+      "senseId": "l365-v-840-sense",
+      "hanzi": "受到",
+      "dictionaryPinyin": "shòu dào",
+      "meaning": "nhận/chịu được tác động",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l365-v-840"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l365-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 被 bèi: bị/được trong câu bị động; 伤 shāng: thương tích; 来访 láifǎng: đến thăm; 病人 bìngrén: người bệnh. Bài đọc không hướng dẫn điều trị hay đánh giá bệnh. 得 de + 很好 hěn hǎo: bổ ngữ cách thức/mức độ trong 被家人照顾得很好, không phải chứng nhận y khoa.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l365-t0",
+      "type": "teaching",
+      "title": "出生 · sinh ra/chào đời",
+      "text": "出生 nói sự kiện sinh ra; 出生在… nêu địa điểm, 出生于… thường văn viết. Không suy ra tuổi nếu thiếu năm hiện tại.",
+      "hanzi": "她的妹妹在这家医院出生。",
+      "pinyin": "Tā de mèimei zài zhè jiā yīyuàn chūshēng.",
+      "meaning": "Em gái cô ấy sinh ở bệnh viện này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l365-t1",
+      "type": "teaching",
+      "title": "出院 · xuất viện",
+      "text": "出院 là rời bệnh viện sau điều trị/lưu viện theo cảnh; không tự chứng minh khỏi hoàn toàn hay không cần chăm sóc.",
+      "hanzi": "他昨天出院了。",
+      "pinyin": "Tā zuótiān chū yuàn le.",
+      "meaning": "Hôm qua anh ấy xuất viện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l365-t2",
+      "type": "teaching",
+      "title": "住院 · nằm viện",
+      "text": "住院 nói nhập/nằm viện điều trị; không phải sống cạnh viện. 住院三天 là nằm viện ba ngày.",
+      "hanzi": "她住院三天了。",
+      "pinyin": "Tā zhù yuàn sān tiān le.",
+      "meaning": "Cô ấy đã nằm viện ba ngày.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l365-t3",
+      "type": "teaching",
+      "title": "照顾 · chăm sóc/trông nom",
+      "text": "照顾 là chăm sóc người/việc theo cảnh; 照顾病人 nói trông nom, không tự xác nhận có chuyên môn y khoa.",
+      "hanzi": "家人照顾住院的爷爷。",
+      "pinyin": "Jiārén zhàogù zhùyuàn de yéye.",
+      "meaning": "Người nhà chăm ông đang nằm viện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l365-t4",
+      "type": "teaching",
+      "title": "受 · chịu/nhận (tác động)",
+      "text": "受 trong 受伤 là chịu thương tích; 受了伤 tách trợ từ giữa 受 và 伤. Không suy ra loại hay mức độ chấn thương.",
+      "hanzi": "他受了伤，正在休息。",
+      "pinyin": "Tā shòu le shāng, zhèngzài xiūxi.",
+      "meaning": "Anh ấy bị thương và đang nghỉ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l365-t5",
+      "type": "teaching",
+      "title": "受到 · nhận/chịu được tác động",
+      "text": "受到 + tác động như 欢迎/影响 nêu đã nhận/chịu; thường khác nhận vật hữu hình bằng 收到. 受到欢迎不等于所有人都喜欢.",
+      "hanzi": "来访的同学受到了欢迎。",
+      "pinyin": "Láifǎng de tóngxué shòudào le huānyíng.",
+      "meaning": "Bạn học đến thăm được chào đón.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l365-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "他被家人照顾得很好 nêu người nhận tác động trước, tác nhân sau 被. Chỉ luyện câu bị động có tác nhân và hành động rõ; không dùng 被 cho mọi cảm xúc hoặc đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l365-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "爷爷受了伤，住院三天，昨天出院了。他被家人照顾得很好，还要按医生的安排休息。来访的同学受到了欢迎。妹妹在这家医院出生，但不是这次住院的病人。",
+      "pinyin": "Yéye shòu le shāng, zhù yuàn sān tiān, zuótiān chū yuàn le. Tā bèi jiārén zhàogù de hěn hǎo, hái yào àn yīshēng de ānpái xiūxi. Láifǎng de tóngxué shòudào le huānyíng. Mèimei zài zhè jiā yīyuàn chūshēng, dàn bú shì zhè cì zhùyuàn de bìngrén.",
+      "meaning": "Ông bị thương, nằm viện ba ngày rồi xuất viện hôm qua; gia đình chăm và ông vẫn nghỉ theo sắp xếp của bác sĩ. Bạn đến thăm được chào đón. Em gái sinh ở viện này nhưng không phải bệnh nhân lần này.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l365-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l365-v2-e0"
+    },
+    {
+      "id": "l365-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l365-v2-e1"
+    },
+    {
+      "id": "l365-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l365-v2-e2"
+    },
+    {
+      "id": "l365-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l365-v2-e3"
+    },
+    {
+      "id": "l365-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l365-v2-e4"
+    },
+    {
+      "id": "l365-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l365-v2-e5"
+    },
+    {
+      "id": "l365-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l365-v2-e6"
+    },
+    {
+      "id": "l365-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l365-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l365-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l365-c0",
+      "senseId": "l365-v-563-sense",
+      "keyRef": "l365-v2-k0",
+      "prompt": "Sự kiện chào đời: 在医院□。",
+      "choices": [
+        "出院",
+        "住院",
+        "照顾",
+        "受",
+        "受到",
+        "出生"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l365-v2-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l365-c1",
+      "senseId": "l365-v-564-sense",
+      "keyRef": "l365-v2-k1",
+      "prompt": "Rời viện sau thời gian lưu viện: 昨天□了。",
+      "choices": [
+        "住院",
+        "照顾",
+        "受",
+        "受到",
+        "出生",
+        "出院"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l365-v2-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l365-c2",
+      "senseId": "l365-v-989-sense",
+      "keyRef": "l365-v2-k2",
+      "prompt": "Ở viện điều trị: □三天。",
+      "choices": [
+        "照顾",
+        "受",
+        "受到",
+        "出生",
+        "出院",
+        "住院"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l365-v2-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l365-c3",
+      "senseId": "l365-v-971-sense",
+      "keyRef": "l365-v2-k3",
+      "prompt": "Viết pinyin của 照顾 trong câu “家人照顾住院的爷爷。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l365-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l365-c4",
+      "senseId": "l365-v-838-sense",
+      "keyRef": "l365-v2-k4",
+      "prompt": "Chịu thương tích, điền chữ nhận tác động: □了伤。",
+      "choices": [
+        "受到",
+        "出生",
+        "出院",
+        "住院",
+        "照顾",
+        "受"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l365-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l365-c5",
+      "senseId": "l365-v-840-sense",
+      "keyRef": "l365-v2-k5",
+      "prompt": "Nhận sự chào đón: □了欢迎。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l365-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l365-c0",
+      "senseId": "l365-v-563-sense",
+      "keyRef": "l365-v2-k6",
+      "prompt": "Ai nằm viện lần này?",
+      "choices": [
+        "妹妹",
+        "同学",
+        "爷爷"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l365-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l365-c3",
+      "senseId": "l365-v-971-sense",
+      "keyRef": "l365-v2-k7",
+      "prompt": "Xếp bị động có tác nhân, bắt đầu bằng 他.",
+      "choices": [
+        "照顾得很好",
+        "被家人",
+        "他"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l365-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l365-v2-e0",
+      "senseId": "l365-v-563-sense",
+      "accepted": [
+        "出生"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "出生: sinh ra/chào đời. 出生 nói sự kiện sinh ra; 出生在… nêu địa điểm, 出生于… thường văn viết. Không suy ra tuổi nếu thiếu năm hiện tại. Em gái cô ấy sinh ở bệnh viện này."
+    },
+    {
+      "id": "l365-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l365-v2-e1",
+      "senseId": "l365-v-564-sense",
+      "accepted": [
+        "出院"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "出院: xuất viện. 出院 là rời bệnh viện sau điều trị/lưu viện theo cảnh; không tự chứng minh khỏi hoàn toàn hay không cần chăm sóc. Hôm qua anh ấy xuất viện."
+    },
+    {
+      "id": "l365-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l365-v2-e2",
+      "senseId": "l365-v-989-sense",
+      "accepted": [
+        "住院"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "住院: nằm viện. 住院 nói nhập/nằm viện điều trị; không phải sống cạnh viện. 住院三天 là nằm viện ba ngày. Cô ấy đã nằm viện ba ngày."
+    },
+    {
+      "id": "l365-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l365-v2-e3",
+      "senseId": "l365-v-971-sense",
+      "accepted": [
+        "zhào gù"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "照顾: chăm sóc/trông nom. 照顾 là chăm sóc người/việc theo cảnh; 照顾病人 nói trông nom, không tự xác nhận có chuyên môn y khoa. Người nhà chăm ông đang nằm viện."
+    },
+    {
+      "id": "l365-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l365-v2-e4",
+      "senseId": "l365-v-838-sense",
+      "accepted": [
+        "受"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "受: chịu/nhận (tác động). 受 trong 受伤 là chịu thương tích; 受了伤 tách trợ từ giữa 受 và 伤. Không suy ra loại hay mức độ chấn thương. Anh ấy bị thương và đang nghỉ."
+    },
+    {
+      "id": "l365-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l365-v2-e5",
+      "senseId": "l365-v-840-sense",
+      "accepted": [
+        "受到"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "受到: nhận/chịu được tác động. 受到 + tác động như 欢迎/影响 nêu đã nhận/chịu; thường khác nhận vật hữu hình bằng 收到. 受到欢迎不等于所有人都喜欢. Bạn học đến thăm được chào đón."
+    },
+    {
+      "id": "l365-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l365-v2-e6",
+      "senseId": "l365-v-563-sense",
+      "accepted": [
+        "爷爷"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 他被家人照顾得很好 nêu người nhận tác động trước, tác nhân sau 被. Chỉ luyện câu bị động có tác nhân và hành động rõ; không dùng 被 cho mọi cảm xúc hoặc đánh giá."
+    },
+    {
+      "id": "l365-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l365-v2-e7",
+      "senseId": "l365-v-971-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 他被家人照顾得很好 nêu người nhận tác động trước, tác nhân sau 被. Chỉ luyện câu bị động có tác nhân và hành động rõ; không dùng 被 cho mọi cảm xúc hoặc đánh giá."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

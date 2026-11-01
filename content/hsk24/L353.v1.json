@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "9a10a3eabf54fd59c4969cc398c86516c48f49075a8acc326253636940eabffc",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-change-discovery",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L353",
+    "version": 1,
+    "versionId": "l353-draft-v1",
+    "title": "Thay đổi, xảy ra và phát hiện",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc sự thay đổi; phân biệt sự kiện xảy ra với người phát hiện.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "动补短语2"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 18,
+      "physicalPage": 19,
+      "printedPage": 16,
+      "section": "task",
+      "entry": "十八"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-society",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 18,
+          "physicalPage": 19,
+          "printedPage": 16,
+          "section": "task",
+          "entry": "十八"
+        },
+        "written": "交流社会生活的某个方面",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-development",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "城市发展"
+        },
+        "written": "城市发展",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l353-v-526",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 526"
+        },
+        "written": "变",
+        "pinyin": "biàn",
+        "senseId": "l353-v-526-sense",
+        "ordinal": 526,
+        "note": "3 biàn 动; 变 là đổi/trở nên; 变冷 là trở lạnh, khác 变成+vật/kết quả. Không phải mọi sự đổi đều là tốt lên. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l353-v-528",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 528"
+        },
+        "written": "变成",
+        "pinyin": "biànchéng",
+        "senseId": "l353-v-528-sense",
+        "ordinal": 528,
+        "note": "3 biànchéng 动; 变成 cần nêu kết quả như 变成公园; khác chỉ 变 là thay đổi không nhất thiết nói thành gì. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l353-v-529",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 529"
+        },
+        "written": "变化",
+        "pinyin": "biànhuà",
+        "senseId": "l353-v-529-sense",
+        "ordinal": 529,
+        "note": "3 biànhuà 动、名; 变化 là danh từ hoặc động từ; 有变化 nêu có thay đổi, 变化很大 nêu mức độ. Không tự nói nguyên nhân. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l353-v-616",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 616"
+        },
+        "written": "发生",
+        "pinyin": "fāshēng",
+        "senseId": "l353-v-616-sense",
+        "ordinal": 616,
+        "note": "3 fāshēng 动; 发生 đi với sự việc xảy ra; 发生了变化 nêu thay đổi đã xảy ra, không phải ai phát hiện ra nó. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l353-v-617",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 617"
+        },
+        "written": "发现",
+        "pinyin": "fāxiàn",
+        "senseId": "l353-v-617-sense",
+        "ordinal": 617,
+        "note": "3 fāxiàn 动; 发现 có chủ thể nhận ra điều trước chưa biết; 我发现不等于我造成. Không dùng 发现 thay 发生 cho sự kiện tự xảy ra. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l353-v-618",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 618"
+        },
+        "written": "发展",
+        "pinyin": "fāzhǎn",
+        "senseId": "l353-v-618-sense",
+        "ordinal": 618,
+        "note": "3 fāzhǎn 动; 发展 nói phát triển theo thời gian; 快 chưa tự chứng minh mọi mặt đều tốt. 城市发展是话题，不是成绩认定. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-14",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "14"
+        },
+        "written": "变",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 14,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-26",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "26"
+        },
+        "written": "成",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 26,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-84",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "84"
+        },
+        "written": "化",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 84,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-55",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "55"
+        },
+        "written": "发",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 55,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-271",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "271"
+        },
+        "written": "展",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 271,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-transform",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "短语 / 动补短语2"
+        },
+        "written": "动补短语2",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l353-c0",
+      "version": 1,
+      "senseId": "l353-v-526-sense",
+      "hanzi": "变",
+      "dictionaryPinyin": "biàn",
+      "meaning": "thay đổi/trở nên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l353-v-526"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l353-c1",
+      "version": 1,
+      "senseId": "l353-v-528-sense",
+      "hanzi": "变成",
+      "dictionaryPinyin": "biàn chéng",
+      "meaning": "biến thành/trở thành",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l353-v-528"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l353-c2",
+      "version": 1,
+      "senseId": "l353-v-529-sense",
+      "hanzi": "变化",
+      "dictionaryPinyin": "biàn huà",
+      "meaning": "sự thay đổi/thay đổi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l353-v-529"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l353-c3",
+      "version": 1,
+      "senseId": "l353-v-616-sense",
+      "hanzi": "发生",
+      "dictionaryPinyin": "fā shēng",
+      "meaning": "xảy ra",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l353-v-616"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l353-c4",
+      "version": 1,
+      "senseId": "l353-v-617-sense",
+      "hanzi": "发现",
+      "dictionaryPinyin": "fā xiàn",
+      "meaning": "phát hiện/nhận ra",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l353-v-617"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l353-c5",
+      "version": 1,
+      "senseId": "l353-v-618-sense",
+      "hanzi": "发展",
+      "dictionaryPinyin": "fā zhǎn",
+      "meaning": "phát triển/sự phát triển",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l353-v-618"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l353-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 空地 kòngdì: bãi đất trống; 凭 píng: dựa vào; 造成 zàochéng: gây ra. Biến đổi vật lý không tự chứng minh quan hệ nhân quả hay chất lượng cuộc sống.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l353-t0",
+      "type": "teaching",
+      "title": "变 · thay đổi/trở nên",
+      "text": "变 là đổi/trở nên; 变冷 là trở lạnh, khác 变成+vật/kết quả. Không phải mọi sự đổi đều là tốt lên.",
+      "hanzi": "天气变冷了。",
+      "pinyin": "Tiānqì biàn lěng le.",
+      "meaning": "Thời tiết trở lạnh rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l353-t1",
+      "type": "teaching",
+      "title": "变成 · biến thành/trở thành",
+      "text": "变成 cần nêu kết quả như 变成公园; khác chỉ 变 là thay đổi không nhất thiết nói thành gì.",
+      "hanzi": "这里变成了一个公园。",
+      "pinyin": "Zhèlǐ biànchéng le yí ge gōngyuán.",
+      "meaning": "Chỗ này đã trở thành một công viên.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l353-t2",
+      "type": "teaching",
+      "title": "变化 · sự thay đổi/thay đổi",
+      "text": "变化 là danh từ hoặc động từ; 有变化 nêu có thay đổi, 变化很大 nêu mức độ. Không tự nói nguyên nhân.",
+      "hanzi": "这个城市的变化很大。",
+      "pinyin": "Zhège chéngshì de biànhuà hěn dà.",
+      "meaning": "Thành phố này thay đổi rất nhiều.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l353-t3",
+      "type": "teaching",
+      "title": "发生 · xảy ra",
+      "text": "发生 đi với sự việc xảy ra; 发生了变化 nêu thay đổi đã xảy ra, không phải ai phát hiện ra nó.",
+      "hanzi": "这里发生了很大的变化。",
+      "pinyin": "Zhèlǐ fāshēng le hěn dà de biànhuà.",
+      "meaning": "Ở đây đã xảy ra thay đổi lớn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l353-t4",
+      "type": "teaching",
+      "title": "发现 · phát hiện/nhận ra",
+      "text": "发现 có chủ thể nhận ra điều trước chưa biết; 我发现不等于我造成. Không dùng 发现 thay 发生 cho sự kiện tự xảy ra.",
+      "hanzi": "我发现这里多了一个公园。",
+      "pinyin": "Wǒ fāxiàn zhèlǐ duō le yí ge gōngyuán.",
+      "meaning": "Tôi nhận ra nơi đây có thêm công viên.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l353-t5",
+      "type": "teaching",
+      "title": "发展 · phát triển/sự phát triển",
+      "text": "发展 nói phát triển theo thời gian; 快 chưa tự chứng minh mọi mặt đều tốt. 城市发展是话题，不是成绩认定.",
+      "hanzi": "这个城市发展得很快。",
+      "pinyin": "Zhège chéngshì fāzhǎn de hěn kuài.",
+      "meaning": "Thành phố này phát triển nhanh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l353-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "变成 + kết quả nêu biến thành: 小树变成了大树. 发生 nêu sự kiện xảy ra, 发现 nêu ai nhận ra; không đổi hai động từ chỉ vì cùng có 发.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l353-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林回到过去住的地方，发现空地变成了公园。这里发生了很大的变化，城市发展得很快。天也变冷了。他记录看到的变化，没有只凭一个公园就说所有人的生活都变好了。",
+      "pinyin": "Xiǎo Lín huí dào guòqù zhù de dìfang, fāxiàn kòngdì biànchéng le gōngyuán. Zhèlǐ fāshēng le hěn dà de biànhuà, chéngshì fāzhǎn de hěn kuài. Tiān yě biàn lěng le. Tā jìlù kàndào de biànhuà, méiyǒu zhǐ píng yí ge gōngyuán jiù shuō suǒyǒu rén de shēnghuó dōu biàn hǎo le.",
+      "meaning": "Lâm trở lại nơi ở cũ, nhận ra bãi đất thành công viên. Thành phố đổi nhiều, trời trở lạnh. Cậu không suy ra đời sống mọi người đều tốt hơn chỉ từ một công viên.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l353-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l353-v1-e0"
+    },
+    {
+      "id": "l353-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l353-v1-e1"
+    },
+    {
+      "id": "l353-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l353-v1-e2"
+    },
+    {
+      "id": "l353-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l353-v1-e3"
+    },
+    {
+      "id": "l353-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l353-v1-e4"
+    },
+    {
+      "id": "l353-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l353-v1-e5"
+    },
+    {
+      "id": "l353-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l353-v1-e6"
+    },
+    {
+      "id": "l353-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l353-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l353-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l353-c0",
+      "senseId": "l353-v-526-sense",
+      "keyRef": "l353-v1-k0",
+      "prompt": "Động từ trở nên trong 天气□冷了。",
+      "choices": [
+        "变成",
+        "变化",
+        "发生",
+        "发现",
+        "发展",
+        "变"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l353-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l353-c1",
+      "senseId": "l353-v-528-sense",
+      "keyRef": "l353-v1-k1",
+      "prompt": "Biến thành công viên, không chỉ thay đổi chung: □了公园。",
+      "choices": [
+        "变化",
+        "发生",
+        "发现",
+        "发展",
+        "变",
+        "变成"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l353-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l353-c2",
+      "senseId": "l353-v-529-sense",
+      "keyRef": "l353-v1-k2",
+      "prompt": "Danh từ sự thay đổi: 城市的□很大。",
+      "choices": [
+        "发生",
+        "发现",
+        "发展",
+        "变",
+        "变成",
+        "变化"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l353-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l353-c3",
+      "senseId": "l353-v-616-sense",
+      "keyRef": "l353-v1-k3",
+      "prompt": "Viết pinyin của 发生 trong câu “这里发生了很大的变化。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l353-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l353-c4",
+      "senseId": "l353-v-617-sense",
+      "keyRef": "l353-v1-k4",
+      "prompt": "Người nhận ra điều mới: 我□这里多了公园。",
+      "choices": [
+        "发展",
+        "变",
+        "变成",
+        "变化",
+        "发生",
+        "发现"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l353-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l353-c5",
+      "senseId": "l353-v-618-sense",
+      "keyRef": "l353-v1-k5",
+      "prompt": "Phát triển theo thời gian: 城市□得很快。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l353-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l353-c0",
+      "senseId": "l353-v-526-sense",
+      "keyRef": "l353-v1-k6",
+      "prompt": "Bãi đất đã trở thành gì?",
+      "choices": [
+        "银行",
+        "学校",
+        "公园"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l353-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l353-c3",
+      "senseId": "l353-v-616-sense",
+      "keyRef": "l353-v1-k7",
+      "prompt": "Xếp kết quả biến đổi, bắt đầu bằng 这里.",
+      "choices": [
+        "变成了公园",
+        "这里"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l353-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l353-v1-e0",
+      "senseId": "l353-v-526-sense",
+      "accepted": [
+        "变"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "变: thay đổi/trở nên. 变 là đổi/trở nên; 变冷 là trở lạnh, khác 变成+vật/kết quả. Không phải mọi sự đổi đều là tốt lên. Thời tiết trở lạnh rồi."
+    },
+    {
+      "id": "l353-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l353-v1-e1",
+      "senseId": "l353-v-528-sense",
+      "accepted": [
+        "变成"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "变成: biến thành/trở thành. 变成 cần nêu kết quả như 变成公园; khác chỉ 变 là thay đổi không nhất thiết nói thành gì. Chỗ này đã trở thành một công viên."
+    },
+    {
+      "id": "l353-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l353-v1-e2",
+      "senseId": "l353-v-529-sense",
+      "accepted": [
+        "变化"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "变化: sự thay đổi/thay đổi. 变化 là danh từ hoặc động từ; 有变化 nêu có thay đổi, 变化很大 nêu mức độ. Không tự nói nguyên nhân. Thành phố này thay đổi rất nhiều."
+    },
+    {
+      "id": "l353-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l353-v1-e3",
+      "senseId": "l353-v-616-sense",
+      "accepted": [
+        "fā shēng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "发生: xảy ra. 发生 đi với sự việc xảy ra; 发生了变化 nêu thay đổi đã xảy ra, không phải ai phát hiện ra nó. Ở đây đã xảy ra thay đổi lớn."
+    },
+    {
+      "id": "l353-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l353-v1-e4",
+      "senseId": "l353-v-617-sense",
+      "accepted": [
+        "发现"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "发现: phát hiện/nhận ra. 发现 có chủ thể nhận ra điều trước chưa biết; 我发现不等于我造成. Không dùng 发现 thay 发生 cho sự kiện tự xảy ra. Tôi nhận ra nơi đây có thêm công viên."
+    },
+    {
+      "id": "l353-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l353-v1-e5",
+      "senseId": "l353-v-618-sense",
+      "accepted": [
+        "发展"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "发展: phát triển/sự phát triển. 发展 nói phát triển theo thời gian; 快 chưa tự chứng minh mọi mặt đều tốt. 城市发展是话题，不是成绩认定. Thành phố này phát triển nhanh."
+    },
+    {
+      "id": "l353-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l353-v1-e6",
+      "senseId": "l353-v-526-sense",
+      "accepted": [
+        "公园"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 变成 + kết quả nêu biến thành: 小树变成了大树. 发生 nêu sự kiện xảy ra, 发现 nêu ai nhận ra; không đổi hai động từ chỉ vì cùng có 发."
+    },
+    {
+      "id": "l353-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l353-v1-e7",
+      "senseId": "l353-v-616-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 变成 + kết quả nêu biến thành: 小树变成了大树. 发生 nêu sự kiện xảy ra, 发现 nêu ai nhận ra; không đổi hai động từ chỉ vì cùng có 发."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

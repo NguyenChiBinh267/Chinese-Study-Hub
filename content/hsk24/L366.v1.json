@@ -1,0 +1,854 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "60a775ee42d0b88abd15899b654044176535dc778359f5a46f42ad38f90e7d78",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-room-conditions",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L366",
+    "version": 1,
+    "versionId": "l366-draft-v1",
+    "title": "Hỏi điều kiện căn phòng",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc phòng yên tĩnh, điện và điều hòa; tách yên tĩnh khỏi an toàn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "挺"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 15,
+      "physicalPage": 16,
+      "printedPage": 13,
+      "section": "task",
+      "entry": "九"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-residence",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 15,
+          "physicalPage": 16,
+          "printedPage": 13,
+          "section": "task",
+          "entry": "九"
+        },
+        "written": "谈论居住情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-home-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "居家生活"
+        },
+        "written": "居家生活",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l366-v-504",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 504"
+        },
+        "written": "安静",
+        "pinyin": "ānjìng",
+        "senseId": "l366-v-504-sense",
+        "ordinal": 504,
+        "note": "3 ānjìng 形; 安静 mô tả ít ồn hoặc giữ yên lặng, khác 安全 là an toàn. 房间安静不等于所有设施安全. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l366-v-505",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 505"
+        },
+        "written": "安全",
+        "pinyin": "ānquán",
+        "senseId": "l366-v-505-sense",
+        "ordinal": 505,
+        "note": "3 ānquán 形; 安全 nói không có/ít nguy hiểm theo tiêu chí và bối cảnh; 一句安全不是专业检查凭证. Cần hỏi đúng điều kiện đang nói. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l366-v-739",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 739"
+        },
+        "written": "空调",
+        "pinyin": "kōngtiáo",
+        "senseId": "l366-v-739-sense",
+        "ordinal": 739,
+        "note": "3 kōngtiáo 名; 空调 là thiết bị điều hòa; 开空调 dùng bật thiết bị, không phải mở cửa. Không tự chỉ chế độ nóng/lạnh nếu chưa có ngữ cảnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l366-v-753",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 753"
+        },
+        "written": "凉快",
+        "pinyin": "liángkuai",
+        "senseId": "l366-v-753-sense",
+        "ordinal": 753,
+        "note": "3 liángkuai 形; 凉快 nói cảm giác mát, 快 đọc nhẹ; không phải nhanh hơn. 比较凉快 là tương đối mát, không phải quá lạnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l366-v-593",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 593"
+        },
+        "written": "电",
+        "pinyin": "diàn",
+        "senseId": "l366-v-593-sense",
+        "ordinal": 593,
+        "note": "3（5） diàn 名、（动）; 电 trong 没电了 là hết/mất điện theo đối tượng; 手机没电 là hết pin, 屋里没电 có thể mất nguồn. Bài chọn điện phòng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l366-v-877",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 877"
+        },
+        "written": "卫生间",
+        "pinyin": "wèishēngjiān",
+        "senseId": "l366-v-877-sense",
+        "ordinal": 877,
+        "note": "3 wèishēngjiān 名; 卫生间 là phòng vệ sinh, có thể có thiết bị tắm tùy nơi; không tự bảo đảm nơi nào cũng có vòi tắm. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-3",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "3"
+        },
+        "written": "安",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 3,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-118",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "118"
+        },
+        "written": "静",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 118,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-180",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "180"
+        },
+        "written": "全",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 180,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-130",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "130"
+        },
+        "written": "空",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 130,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-44",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "44"
+        },
+        "written": "调",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 44,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-143",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "143"
+        },
+        "written": "凉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 143,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-218",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "218"
+        },
+        "written": "卫",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 218,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-state-degree",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "副词 / 程度副词 / 挺"
+        },
+        "written": "挺",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l366-c0",
+      "version": 1,
+      "senseId": "l366-v-504-sense",
+      "hanzi": "安静",
+      "dictionaryPinyin": "ān jìng",
+      "meaning": "yên tĩnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l366-v-504"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l366-c1",
+      "version": 1,
+      "senseId": "l366-v-505-sense",
+      "hanzi": "安全",
+      "dictionaryPinyin": "ān quán",
+      "meaning": "an toàn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l366-v-505"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l366-c2",
+      "version": 1,
+      "senseId": "l366-v-739-sense",
+      "hanzi": "空调",
+      "dictionaryPinyin": "kōng tiáo",
+      "meaning": "điều hòa không khí",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l366-v-739"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l366-c3",
+      "version": 1,
+      "senseId": "l366-v-753-sense",
+      "hanzi": "凉快",
+      "dictionaryPinyin": "liáng kuai",
+      "meaning": "mát mẻ/dễ chịu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l366-v-753"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l366-c4",
+      "version": 1,
+      "senseId": "l366-v-593-sense",
+      "hanzi": "电",
+      "dictionaryPinyin": "diàn",
+      "meaning": "điện",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l366-v-593"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l366-c5",
+      "version": 1,
+      "senseId": "l366-v-877-sense",
+      "hanzi": "卫生间",
+      "dictionaryPinyin": "wèi shēng jiān",
+      "meaning": "nhà vệ sinh/phòng vệ sinh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l366-v-877"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l366-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 管理员 guǎnlǐyuán: quản lý; 走廊 zǒuláng: hành lang; 窗 chuāng: cửa sổ. Không thao tác điện hay thiết bị thật trong ứng dụng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l366-t0",
+      "type": "teaching",
+      "title": "安静 · yên tĩnh",
+      "text": "安静 mô tả ít ồn hoặc giữ yên lặng, khác 安全 là an toàn. 房间安静不等于所有设施安全.",
+      "hanzi": "这个房间很安静。",
+      "pinyin": "Zhège fángjiān hěn ānjìng.",
+      "meaning": "Phòng này rất yên tĩnh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l366-t1",
+      "type": "teaching",
+      "title": "安全 · an toàn",
+      "text": "安全 nói không có/ít nguy hiểm theo tiêu chí và bối cảnh; 一句安全不是专业检查凭证. Cần hỏi đúng điều kiện đang nói.",
+      "hanzi": "管理员说先检查是否安全。",
+      "pinyin": "Guǎnlǐyuán shuō xiān jiǎnchá shìfǒu ānquán.",
+      "meaning": "Người quản lý nói cần kiểm tra an toàn trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l366-t2",
+      "type": "teaching",
+      "title": "空调 · điều hòa không khí",
+      "text": "空调 là thiết bị điều hòa; 开空调 dùng bật thiết bị, không phải mở cửa. Không tự chỉ chế độ nóng/lạnh nếu chưa có ngữ cảnh.",
+      "hanzi": "屋子里有空调。",
+      "pinyin": "Wūzi lǐ yǒu kōngtiáo.",
+      "meaning": "Trong phòng có điều hòa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l366-t3",
+      "type": "teaching",
+      "title": "凉快 · mát mẻ/dễ chịu",
+      "text": "凉快 nói cảm giác mát, 快 đọc nhẹ; không phải nhanh hơn. 比较凉快 là tương đối mát, không phải quá lạnh.",
+      "hanzi": "开窗以后很凉快。",
+      "pinyin": "Kāi chuāng yǐhòu hěn liángkuai.",
+      "meaning": "Sau mở cửa sổ thì rất mát.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l366-t4",
+      "type": "teaching",
+      "title": "电 · điện",
+      "text": "电 trong 没电了 là hết/mất điện theo đối tượng; 手机没电 là hết pin, 屋里没电 có thể mất nguồn. Bài chọn điện phòng.",
+      "hanzi": "今天屋子里没有电。",
+      "pinyin": "Jīntiān wūzi lǐ méiyǒu diàn.",
+      "meaning": "Hôm nay trong phòng không có điện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l366-t5",
+      "type": "teaching",
+      "title": "卫生间 · nhà vệ sinh/phòng vệ sinh",
+      "text": "卫生间 là phòng vệ sinh, có thể có thiết bị tắm tùy nơi; không tự bảo đảm nơi nào cũng có vòi tắm.",
+      "hanzi": "卫生间在走廊右边。",
+      "pinyin": "Wèishēngjiān zài zǒuláng yòubian.",
+      "meaning": "Nhà vệ sinh ở bên phải hành lang.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l366-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "挺安静 là khá yên tĩnh theo cảm nhận. 安静 không đồng nghĩa 安全; không kết luận an toàn điện chỉ vì phòng mát. Ở đây đọc nhận xét và việc hỏi lại người quản lý.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l366-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林看房间，说这里挺安静，也很凉快。管理员说今天没有电，空调不能用，凉快是因为开着窗。卫生间在右边。小林没有把安静当成安全，先问清楚检查情况。",
+      "pinyin": "Xiǎo Lín kàn fángjiān, shuō zhèlǐ tǐng ānjìng, yě hěn liángkuai. Guǎnlǐyuán shuō jīntiān méiyǒu diàn, kōngtiáo bù néng yòng, liángkuai shì yīnwèi kāi zhe chuāng. Wèishēngjiān zài yòubian. Xiǎo Lín méiyǒu bǎ ānjìng dàngchéng ānquán, xiān wèn qīngchu jiǎnchá qíngkuàng.",
+      "meaning": "Lâm thấy phòng khá yên và mát. Quản lý nói mất điện nên điều hòa không chạy, mát nhờ cửa mở. Cậu hỏi tình trạng kiểm tra thay vì coi yên tĩnh là an toàn.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l366-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l366-v1-e0"
+    },
+    {
+      "id": "l366-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l366-v1-e1"
+    },
+    {
+      "id": "l366-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l366-v1-e2"
+    },
+    {
+      "id": "l366-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l366-v1-e3"
+    },
+    {
+      "id": "l366-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l366-v1-e4"
+    },
+    {
+      "id": "l366-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l366-v1-e5"
+    },
+    {
+      "id": "l366-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l366-v1-e6"
+    },
+    {
+      "id": "l366-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l366-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l366-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l366-c0",
+      "senseId": "l366-v-504-sense",
+      "keyRef": "l366-v1-k0",
+      "prompt": "Ít tiếng ồn, không phải đánh giá nguy hiểm: 房间很□。",
+      "choices": [
+        "安全",
+        "空调",
+        "凉快",
+        "电",
+        "卫生间",
+        "安静"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l366-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l366-c1",
+      "senseId": "l366-v-505-sense",
+      "keyRef": "l366-v1-k1",
+      "prompt": "Tính chất liên quan nguy hiểm: 检查是否□。",
+      "choices": [
+        "空调",
+        "凉快",
+        "电",
+        "卫生间",
+        "安静",
+        "安全"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l366-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l366-c2",
+      "senseId": "l366-v-739-sense",
+      "keyRef": "l366-v1-k2",
+      "prompt": "Thiết bị điều chỉnh không khí phòng: 开□。",
+      "choices": [
+        "凉快",
+        "电",
+        "卫生间",
+        "安静",
+        "安全",
+        "空调"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l366-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l366-c3",
+      "senseId": "l366-v-753-sense",
+      "keyRef": "l366-v1-k3",
+      "prompt": "Viết pinyin của 凉快 trong câu “开窗以后很凉快。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l366-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l366-c4",
+      "senseId": "l366-v-593-sense",
+      "keyRef": "l366-v1-k4",
+      "prompt": "Điện để chạy thiết bị: 屋里没有□。",
+      "choices": [
+        "卫生间",
+        "安静",
+        "安全",
+        "空调",
+        "凉快",
+        "电"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l366-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l366-c5",
+      "senseId": "l366-v-877-sense",
+      "keyRef": "l366-v1-k5",
+      "prompt": "Tên phòng vệ sinh: □在右边。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l366-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l366-c0",
+      "senseId": "l366-v-504-sense",
+      "keyRef": "l366-v1-k6",
+      "prompt": "Vì sao phòng mát theo quản lý?",
+      "choices": [
+        "空调正在工作",
+        "卫生间很大",
+        "开着窗"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l366-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l366-c3",
+      "senseId": "l366-v-753-sense",
+      "keyRef": "l366-v1-k7",
+      "prompt": "Xếp nhận xét mức độ, bắt đầu bằng 这里.",
+      "choices": [
+        "挺安静",
+        "这里"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l366-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l366-v1-e0",
+      "senseId": "l366-v-504-sense",
+      "accepted": [
+        "安静"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "安静: yên tĩnh. 安静 mô tả ít ồn hoặc giữ yên lặng, khác 安全 là an toàn. 房间安静不等于所有设施安全. Phòng này rất yên tĩnh."
+    },
+    {
+      "id": "l366-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l366-v1-e1",
+      "senseId": "l366-v-505-sense",
+      "accepted": [
+        "安全"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "安全: an toàn. 安全 nói không có/ít nguy hiểm theo tiêu chí và bối cảnh; 一句安全不是专业检查凭证. Cần hỏi đúng điều kiện đang nói. Người quản lý nói cần kiểm tra an toàn trước."
+    },
+    {
+      "id": "l366-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l366-v1-e2",
+      "senseId": "l366-v-739-sense",
+      "accepted": [
+        "空调"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "空调: điều hòa không khí. 空调 là thiết bị điều hòa; 开空调 dùng bật thiết bị, không phải mở cửa. Không tự chỉ chế độ nóng/lạnh nếu chưa có ngữ cảnh. Trong phòng có điều hòa."
+    },
+    {
+      "id": "l366-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l366-v1-e3",
+      "senseId": "l366-v-753-sense",
+      "accepted": [
+        "liáng kuai"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "凉快: mát mẻ/dễ chịu. 凉快 nói cảm giác mát, 快 đọc nhẹ; không phải nhanh hơn. 比较凉快 là tương đối mát, không phải quá lạnh. Sau mở cửa sổ thì rất mát."
+    },
+    {
+      "id": "l366-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l366-v1-e4",
+      "senseId": "l366-v-593-sense",
+      "accepted": [
+        "电"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "电: điện. 电 trong 没电了 là hết/mất điện theo đối tượng; 手机没电 là hết pin, 屋里没电 có thể mất nguồn. Bài chọn điện phòng. Hôm nay trong phòng không có điện."
+    },
+    {
+      "id": "l366-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l366-v1-e5",
+      "senseId": "l366-v-877-sense",
+      "accepted": [
+        "卫生间"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "卫生间: nhà vệ sinh/phòng vệ sinh. 卫生间 là phòng vệ sinh, có thể có thiết bị tắm tùy nơi; không tự bảo đảm nơi nào cũng có vòi tắm. Nhà vệ sinh ở bên phải hành lang."
+    },
+    {
+      "id": "l366-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l366-v1-e6",
+      "senseId": "l366-v-504-sense",
+      "accepted": [
+        "开着窗"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 挺安静 là khá yên tĩnh theo cảm nhận. 安静 không đồng nghĩa 安全; không kết luận an toàn điện chỉ vì phòng mát. Ở đây đọc nhận xét và việc hỏi lại người quản lý."
+    },
+    {
+      "id": "l366-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l366-v1-e7",
+      "senseId": "l366-v-753-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 挺安静 là khá yên tĩnh theo cảm nhận. 安静 không đồng nghĩa 安全; không kết luận an toàn điện chỉ vì phòng mát. Ở đây đọc nhận xét và việc hỏi lại người quản lý."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

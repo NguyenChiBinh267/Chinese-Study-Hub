@@ -1,0 +1,858 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "3c728115b1d7cddb3532c427f8ebdc2b91fc06c4d218f867b04063b14809cb32",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "travel-preparation",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L207",
+    "version": 1,
+    "versionId": "l207-draft-v1",
+    "title": "Chuẩn bị chuyến đi",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc kế hoạch đi máy bay, kiểm tra vé và chỗ ở.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "还2、已经、有时（候）、快、快要、正"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 10,
+      "physicalPage": 11,
+      "printedPage": 8,
+      "section": "task",
+      "entry": "八"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "八"
+        },
+        "written": "问答出行情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-arrangements",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 出行安排"
+        },
+        "written": "出行安排",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l207-v-363",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 363"
+        },
+        "written": "机场",
+        "pinyin": "jīchǎng",
+        "senseId": "l207-v-363-sense",
+        "ordinal": 363,
+        "note": "2 jīchǎng 名; 机场 là nơi máy bay đến và đi, khác 车站. Không dùng 机场 để chỉ riêng một chuyến bay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l207-v-364",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 364"
+        },
+        "written": "机票",
+        "pinyin": "jīpiào",
+        "senseId": "l207-v-364-sense",
+        "ordinal": 364,
+        "note": "2 jīpiào 名; 机票 là vé cho chuyến bay; 买了机票 chưa nói đã đến sân bay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l207-v-416",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 416"
+        },
+        "written": "票",
+        "pinyin": "piào",
+        "senseId": "l207-v-416-sense",
+        "ordinal": 416,
+        "note": "2 piào 名; 票 là tên chung cho vé; ngữ cảnh mới cho biết vé xe, vé máy bay hay loại khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l207-v-375",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 375"
+        },
+        "written": "酒店",
+        "pinyin": "jiǔdiàn",
+        "senseId": "l207-v-375-sense",
+        "ordinal": 375,
+        "note": "2 jiǔdiàn 名; 酒店 ở đây là nơi ở khi đi xa; không nhầm với 饭馆 là nơi ăn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l207-v-394",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 394"
+        },
+        "written": "旅游",
+        "pinyin": "lǚyóu",
+        "senseId": "l207-v-394-sense",
+        "ordinal": 394,
+        "note": "2 lǚyóu 动; 旅游 là đi để tham quan, nghỉ hoặc trải nghiệm, không dùng cho mọi lần đi làm xa. Giữ âm ü trong lǚ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l207-v-493",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 493"
+        },
+        "written": "准备",
+        "pinyin": "zhǔnbèi",
+        "senseId": "l207-v-493-sense",
+        "ordinal": 493,
+        "note": "2 zhǔnbèi 动; 准备 có thể nói chuẩn bị đồ/việc hoặc dự định làm gì; bài tập nghĩa ở đây là chuẩn bị cho chuyến đi. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-9",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "9"
+        },
+        "written": "场",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 9,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-62",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "62"
+        },
+        "written": "票",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 62,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-40",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "40"
+        },
+        "written": "酒",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 40,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-17",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "17"
+        },
+        "written": "店",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 17,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-53",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "53"
+        },
+        "written": "旅",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 53,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-110",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "110"
+        },
+        "written": "游",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 110,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-120",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "120"
+        },
+        "written": "准",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 120,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-3",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "3"
+        },
+        "written": "备",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 3,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-already",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "副词 / 时间副词 / 已经"
+        },
+        "written": "还2、已经、有时（候）、快、快要、正",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l207-c0",
+      "version": 1,
+      "senseId": "l207-v-363-sense",
+      "hanzi": "机场",
+      "dictionaryPinyin": "jī chǎng",
+      "meaning": "sân bay",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l207-v-363"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l207-c1",
+      "version": 1,
+      "senseId": "l207-v-364-sense",
+      "hanzi": "机票",
+      "dictionaryPinyin": "jī piào",
+      "meaning": "vé máy bay",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l207-v-364"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l207-c2",
+      "version": 1,
+      "senseId": "l207-v-416-sense",
+      "hanzi": "票",
+      "dictionaryPinyin": "piào",
+      "meaning": "vé",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l207-v-416"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l207-c3",
+      "version": 1,
+      "senseId": "l207-v-375-sense",
+      "hanzi": "酒店",
+      "dictionaryPinyin": "jiǔ diàn",
+      "meaning": "khách sạn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l207-v-375"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l207-c4",
+      "version": 1,
+      "senseId": "l207-v-394-sense",
+      "hanzi": "旅游",
+      "dictionaryPinyin": "lǚ yóu",
+      "meaning": "đi du lịch",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l207-v-394"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l207-c5",
+      "version": 1,
+      "senseId": "l207-v-493-sense",
+      "hanzi": "准备",
+      "dictionaryPinyin": "zhǔn bèi",
+      "meaning": "chuẩn bị",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l207-v-493"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l207-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "去 là đi đến; 买 là mua; 要 có thể diễn đạt dự định. 张 đếm vé, 家 đếm cơ sở như khách sạn; chỉ nhắc nghĩa hỗ trợ, không xác nhận mastery.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l207-t0",
+      "type": "teaching",
+      "title": "机场 · sân bay",
+      "text": "机场 là nơi máy bay đến và đi, khác 车站. Không dùng 机场 để chỉ riêng một chuyến bay.",
+      "hanzi": "我们早上去机场。",
+      "pinyin": "Wǒmen zǎoshang qù jīchǎng.",
+      "meaning": "Sáng chúng tôi đến sân bay.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l207-t1",
+      "type": "teaching",
+      "title": "机票 · vé máy bay",
+      "text": "机票 là vé cho chuyến bay; 买了机票 chưa nói đã đến sân bay.",
+      "hanzi": "我已经买了机票。",
+      "pinyin": "Wǒ yǐjīng mǎi le jīpiào.",
+      "meaning": "Tôi đã mua vé máy bay.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l207-t2",
+      "type": "teaching",
+      "title": "票 · vé",
+      "text": "票 là tên chung cho vé; ngữ cảnh mới cho biết vé xe, vé máy bay hay loại khác.",
+      "hanzi": "你的票在这里。",
+      "pinyin": "Nǐ de piào zài zhèlǐ.",
+      "meaning": "Vé của bạn ở đây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l207-t3",
+      "type": "teaching",
+      "title": "酒店 · khách sạn",
+      "text": "酒店 ở đây là nơi ở khi đi xa; không nhầm với 饭馆 là nơi ăn.",
+      "hanzi": "这家酒店离机场很近。",
+      "pinyin": "Zhè jiā jiǔdiàn lí jīchǎng hěn jìn.",
+      "meaning": "Khách sạn này rất gần sân bay.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l207-t4",
+      "type": "teaching",
+      "title": "旅游 · đi du lịch",
+      "text": "旅游 là đi để tham quan, nghỉ hoặc trải nghiệm, không dùng cho mọi lần đi làm xa. Giữ âm ü trong lǚ.",
+      "hanzi": "我们想去中国旅游。",
+      "pinyin": "Wǒmen xiǎng qù Zhōngguó lǚyóu.",
+      "meaning": "Chúng tôi muốn đi du lịch Trung Quốc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l207-t5",
+      "type": "teaching",
+      "title": "准备 · chuẩn bị",
+      "text": "准备 có thể nói chuẩn bị đồ/việc hoặc dự định làm gì; bài tập nghĩa ở đây là chuẩn bị cho chuyến đi.",
+      "hanzi": "我在准备明天的东西。",
+      "pinyin": "Wǒ zài zhǔnbèi míngtiān de dōngxi.",
+      "meaning": "Tôi đang chuẩn bị đồ cho ngày mai.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l207-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "已经 đặt trước động từ để báo việc đã xảy ra. 我已经买了机票 nói đã mua vé; không tự cho biết giờ bay hay nơi ở.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l207-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：明天去旅游，你准备好了吗？乙：机票已经买了。我们早上去机场。甲：住哪里？乙：住机场旁边的酒店。",
+      "pinyin": "Jiǎ: Míngtiān qù lǚyóu, nǐ zhǔnbèi hǎo le ma? Yǐ: Jīpiào yǐjīng mǎi le. Wǒmen zǎoshang qù jīchǎng. Jiǎ: Zhù nǎlǐ? Yǐ: Zhù jīchǎng pángbiān de jiǔdiàn.",
+      "meaning": "A: Mai đi du lịch, bạn chuẩn bị xong chưa? B: Vé máy bay đã mua rồi. Sáng chúng ta đến sân bay. A: Ở đâu? B: Ở khách sạn bên cạnh sân bay.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l207-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l207-v1-e0"
+    },
+    {
+      "id": "l207-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l207-v1-e1"
+    },
+    {
+      "id": "l207-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l207-v1-e2"
+    },
+    {
+      "id": "l207-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l207-v1-e3"
+    },
+    {
+      "id": "l207-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l207-v1-e4"
+    },
+    {
+      "id": "l207-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l207-v1-e5"
+    },
+    {
+      "id": "l207-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l207-v1-e6"
+    },
+    {
+      "id": "l207-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l207-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l207-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l207-c0",
+      "senseId": "l207-v-363-sense",
+      "keyRef": "l207-v1-k0",
+      "prompt": "Trong câu “我们早上去机场。”, 机场 mang nghĩa nào?",
+      "choices": [
+        "vé máy bay",
+        "vé",
+        "khách sạn",
+        "đi du lịch",
+        "chuẩn bị",
+        "sân bay"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l207-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l207-c1",
+      "senseId": "l207-v-364-sense",
+      "keyRef": "l207-v1-k1",
+      "prompt": "Viết pinyin của 机票 trong nghĩa “vé máy bay”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l207-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l207-c2",
+      "senseId": "l207-v-416-sense",
+      "keyRef": "l207-v1-k2",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “vé”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l207-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l207-c3",
+      "senseId": "l207-v-375-sense",
+      "keyRef": "l207-v1-k3",
+      "prompt": "Trong câu “这家酒店离机场很近。”, 酒店 mang nghĩa nào?",
+      "choices": [
+        "đi du lịch",
+        "chuẩn bị",
+        "sân bay",
+        "vé máy bay",
+        "vé",
+        "khách sạn"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l207-v1-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l207-c4",
+      "senseId": "l207-v-394-sense",
+      "keyRef": "l207-v1-k4",
+      "prompt": "Viết pinyin của 旅游 trong nghĩa “đi du lịch”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l207-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l207-c5",
+      "senseId": "l207-v-493-sense",
+      "keyRef": "l207-v1-k5",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “chuẩn bị”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l207-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l207-c0",
+      "senseId": "l207-v-363-sense",
+      "keyRef": "l207-v1-k6",
+      "prompt": "Việc nào đã làm xong?",
+      "choices": [
+        "Đến khách sạn",
+        "Bay đến Trung Quốc",
+        "Mua vé máy bay"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l207-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l207-c3",
+      "senseId": "l207-v-375-sense",
+      "keyRef": "l207-v1-k7",
+      "prompt": "Xếp câu: tôi đã mua vé máy bay.",
+      "choices": [
+        "买了",
+        "我",
+        "机票",
+        "已经"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l207-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l207-v1-e0",
+      "senseId": "l207-v-363-sense",
+      "accepted": [
+        "sân bay"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "机场: sân bay. 机场 là nơi máy bay đến và đi, khác 车站. Không dùng 机场 để chỉ riêng một chuyến bay. Sáng chúng tôi đến sân bay."
+    },
+    {
+      "id": "l207-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l207-v1-e1",
+      "senseId": "l207-v-364-sense",
+      "accepted": [
+        "jī piào"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc jī piào. 机票 là vé cho chuyến bay; 买了机票 chưa nói đã đến sân bay."
+    },
+    {
+      "id": "l207-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l207-v1-e2",
+      "senseId": "l207-v-416-sense",
+      "accepted": [
+        "票"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 票. 票 là tên chung cho vé; ngữ cảnh mới cho biết vé xe, vé máy bay hay loại khác."
+    },
+    {
+      "id": "l207-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l207-v1-e3",
+      "senseId": "l207-v-375-sense",
+      "accepted": [
+        "khách sạn"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "酒店: khách sạn. 酒店 ở đây là nơi ở khi đi xa; không nhầm với 饭馆 là nơi ăn. Khách sạn này rất gần sân bay."
+    },
+    {
+      "id": "l207-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l207-v1-e4",
+      "senseId": "l207-v-394-sense",
+      "accepted": [
+        "lǚ yóu"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc lǚ yóu. 旅游 là đi để tham quan, nghỉ hoặc trải nghiệm, không dùng cho mọi lần đi làm xa. Giữ âm ü trong lǚ."
+    },
+    {
+      "id": "l207-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l207-v1-e5",
+      "senseId": "l207-v-493-sense",
+      "accepted": [
+        "准备"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 准备. 准备 có thể nói chuẩn bị đồ/việc hoặc dự định làm gì; bài tập nghĩa ở đây là chuẩn bị cho chuyến đi."
+    },
+    {
+      "id": "l207-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l207-v1-e6",
+      "senseId": "l207-v-363-sense",
+      "accepted": [
+        "Mua vé máy bay"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "机票已经买了 xác nhận đã mua vé; không có thông tin đã bay hay đã đến khách sạn."
+    },
+    {
+      "id": "l207-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l207-v1-e7",
+      "senseId": "l207-v-375-sense",
+      "accepted": [
+        "1,3,0,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 已经 đặt trước động từ để báo việc đã xảy ra. 我已经买了机票 nói đã mua vé; không tự cho biết giờ bay hay nơi ở."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

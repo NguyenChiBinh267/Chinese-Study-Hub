@@ -1,0 +1,782 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "53764f1be56b78dd6a019838ea48e7eab7e3a271d181b3b16d868ca90d816516",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-c",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L107",
+    "version": 1,
+    "versionId": "l107-draft-v1",
+    "title": "Gia đình của mình",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Gia đình của mình; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "的"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "一"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T09:27:43.950465Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-person",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "一"
+        },
+        "written": "问答个人基本信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-ef12595fc2f1",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "身份、家庭成员、朋友、技能等"
+        },
+        "written": "身份、家庭成员、朋友、技能等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l107-v-3",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 3"
+        },
+        "written": "爸爸",
+        "pinyin": "bàba",
+        "senseId": "l107-v-3-sense",
+        "ordinal": 3,
+        "note": "1 bàba 名; 爸爸 là cách gọi bố thân mật; âm sau thường nhẹ trong dạng từ điển ở bài. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l107-v-114",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 114"
+        },
+        "written": "妈妈",
+        "pinyin": "māma",
+        "senseId": "l107-v-114-sense",
+        "ordinal": 114,
+        "note": "1 māma 名; 妈妈 gọi mẹ; 我的妈妈 và 我妈妈 đều có thể chỉ mẹ của tôi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l107-v-68",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 68"
+        },
+        "written": "孩子",
+        "pinyin": "háizi",
+        "senseId": "l107-v-68-sense",
+        "ordinal": 68,
+        "note": "1 háizi 名; 孩子 có thể chỉ trẻ em hoặc con của ai theo ngữ cảnh, không chỉ con trai. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l107-v-87",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 87"
+        },
+        "written": "家人",
+        "pinyin": "jiārén",
+        "senseId": "l107-v-87-sense",
+        "ordinal": 87,
+        "note": "1 jiārén 名; 家人 là người trong gia đình; 这是我的家人 giới thiệu người nhà theo tình huống. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l107-v-86",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 86"
+        },
+        "written": "家",
+        "pinyin": "jiā",
+        "senseId": "l107-v-86-sense",
+        "ordinal": 86,
+        "note": "1（3） jiā 名、量、（后缀）; 家 trong 我家 nói nhà/gia đình tôi; không đồng nghĩa một người thân riêng lẻ. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-3",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "3"
+        },
+        "written": "爸",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 3,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-105",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "105"
+        },
+        "written": "妈",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 105,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-63",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "63"
+        },
+        "written": "孩",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 63,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-240",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "240"
+        },
+        "written": "子",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 240,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-80",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "80"
+        },
+        "written": "家",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 80,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-144",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "144"
+        },
+        "written": "人",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 144,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-107",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-24"
+        },
+        "written": "的",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l107-c0",
+      "version": 1,
+      "senseId": "l107-v-3-sense",
+      "hanzi": "爸爸",
+      "dictionaryPinyin": "bà ba",
+      "meaning": "bố; ba",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l107-v-3"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l107-c1",
+      "version": 1,
+      "senseId": "l107-v-114-sense",
+      "hanzi": "妈妈",
+      "dictionaryPinyin": "mā ma",
+      "meaning": "mẹ; má",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l107-v-114"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l107-c2",
+      "version": 1,
+      "senseId": "l107-v-68-sense",
+      "hanzi": "孩子",
+      "dictionaryPinyin": "hái zi",
+      "meaning": "trẻ em; con",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l107-v-68"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l107-c3",
+      "version": 1,
+      "senseId": "l107-v-87-sense",
+      "hanzi": "家人",
+      "dictionaryPinyin": "jiā rén",
+      "meaning": "người nhà; thành viên gia đình",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l107-v-87"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l107-c4",
+      "version": 1,
+      "senseId": "l107-v-86-sense",
+      "hanzi": "家",
+      "dictionaryPinyin": "jiā",
+      "meaning": "nhà; gia đình",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l107-v-86"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l107-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l107-t0",
+      "type": "teaching",
+      "title": "爸爸 · bố; ba",
+      "text": "爸爸 là cách gọi bố thân mật; âm sau thường nhẹ trong dạng từ điển ở bài.",
+      "hanzi": "这是我爸爸。",
+      "pinyin": "Zhè shì wǒ bà ba.",
+      "meaning": "Đây là bố tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l107-t1",
+      "type": "teaching",
+      "title": "妈妈 · mẹ; má",
+      "text": "妈妈 gọi mẹ; 我的妈妈 và 我妈妈 đều có thể chỉ mẹ của tôi.",
+      "hanzi": "我妈妈喜欢茶。",
+      "pinyin": "Wǒ mā ma xǐ huan chá.",
+      "meaning": "Mẹ tôi thích trà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l107-t2",
+      "type": "teaching",
+      "title": "孩子 · trẻ em; con",
+      "text": "孩子 có thể chỉ trẻ em hoặc con của ai theo ngữ cảnh, không chỉ con trai.",
+      "hanzi": "那个孩子叫文。",
+      "pinyin": "Nà ge hái zi jiào Wén.",
+      "meaning": "Đứa trẻ kia tên Văn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l107-t3",
+      "type": "teaching",
+      "title": "家人 · người nhà; thành viên gia đình",
+      "text": "家人 là người trong gia đình; 这是我的家人 giới thiệu người nhà theo tình huống.",
+      "hanzi": "这是我的家人。",
+      "pinyin": "Zhè shì wǒ de jiā rén.",
+      "meaning": "Đây là người nhà của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l107-t4",
+      "type": "teaching",
+      "title": "家 · nhà; gia đình",
+      "text": "家 trong 我家 nói nhà/gia đình tôi; không đồng nghĩa một người thân riêng lẻ.",
+      "hanzi": "这是我家。",
+      "pinyin": "Zhè shì wǒ jiā.",
+      "meaning": "Đây là nhà tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l107-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "我的爸爸/我的妈妈 chỉ quan hệ người thân; với quan hệ thân thiết thường có thể bỏ 的: 我爸爸. 家人 là người trong gia đình, 家 có thể là nhà/gia đình theo câu. Không dùng 家 thay tất cả các cách gọi một người thân.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l107-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：这是我爸爸，这是我妈妈。\nB：那个孩子是谁？\nA：他叫文。他是我的家人。\nB：你好，文！",
+      "pinyin": "A: Zhè shì wǒ bà ba, zhè shì wǒ mā ma. B: Nà ge hái zi shì shéi? A: Tā jiào Wén. Tā shì wǒ de jiā rén. B: Nǐ hǎo, Wén!",
+      "meaning": "A giới thiệu bố mẹ và nói Văn là người nhà. Đoạn không nói quan hệ cụ thể giữa A và Văn.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l107-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l107-v1-e0"
+    },
+    {
+      "id": "l107-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l107-v1-e1"
+    },
+    {
+      "id": "l107-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l107-v1-e2"
+    },
+    {
+      "id": "l107-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l107-v1-e3"
+    },
+    {
+      "id": "l107-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l107-v1-e4"
+    },
+    {
+      "id": "l107-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l107-v1-e5"
+    },
+    {
+      "id": "l107-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l107-v1-e6"
+    },
+    {
+      "id": "l107-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l107-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l107-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l107-c0",
+      "senseId": "l107-v-3-sense",
+      "keyRef": "l107-v1-k0",
+      "prompt": "Chọn mục từ có nghĩa “bố; ba” trong câu: 这是我□。",
+      "choices": [
+        "妈妈",
+        "孩子",
+        "家人",
+        "家",
+        "爸爸"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l107-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l107-c1",
+      "senseId": "l107-v-114-sense",
+      "keyRef": "l107-v1-k1",
+      "prompt": "Viết pinyin từ điển của 妈妈 (mẹ; má).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l107-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l107-c2",
+      "senseId": "l107-v-68-sense",
+      "keyRef": "l107-v1-k2",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “trẻ em; con”: 那个□叫文。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l107-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l107-c3",
+      "senseId": "l107-v-87-sense",
+      "keyRef": "l107-v1-k3",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “người nhà; thành viên gia đình”: □人 (jiā rén). Ngữ cảnh: 这是我的□人。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "家",
+        "字",
+        "安",
+        "室"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l107-v1-e4",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l107-c4",
+      "senseId": "l107-v-86-sense",
+      "keyRef": "l107-v1-k4",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “nhà; gia đình”: 这是我□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l107-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l107-c2",
+      "senseId": "l107-v-68-sense",
+      "keyRef": "l107-v1-k5",
+      "prompt": "Trong câu “那个孩子叫文。”, 孩子 mang nghĩa nào theo bài?",
+      "choices": [
+        "mẹ; má",
+        "trẻ em; con",
+        "người nhà; thành viên gia đình",
+        "nhà; gia đình",
+        "bố; ba"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l107-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l107-c0",
+      "senseId": "l107-v-3-sense",
+      "keyRef": "l107-v1-k6",
+      "prompt": "Đoạn xác nhận điều gì về 文?",
+      "choices": [
+        "Là bố của A",
+        "Là mẹ của B",
+        "Là người nhà của A"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l107-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l107-c3",
+      "senseId": "l107-v-87-sense",
+      "keyRef": "l107-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "这",
+        "是",
+        "我爸爸。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l107-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l107-v1-e0",
+      "senseId": "l107-v-3-sense",
+      "accepted": [
+        "爸爸"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "爸爸: bố; ba. 爸爸 là cách gọi bố thân mật; âm sau thường nhẹ trong dạng từ điển ở bài. Đây là bố tôi."
+    },
+    {
+      "id": "l107-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l107-v1-e1",
+      "senseId": "l107-v-114-sense",
+      "accepted": [
+        "mā ma"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "妈妈 ghi mā ma. 妈妈 gọi mẹ; 我的妈妈 và 我妈妈 đều có thể chỉ mẹ của tôi."
+    },
+    {
+      "id": "l107-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l107-v1-e2",
+      "senseId": "l107-v-68-sense",
+      "accepted": [
+        "孩子"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "孩子: trẻ em; con. 孩子 có thể chỉ trẻ em hoặc con của ai theo ngữ cảnh, không chỉ con trai. Đứa trẻ kia tên Văn."
+    },
+    {
+      "id": "l107-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l107-v1-e3",
+      "senseId": "l107-v-87-sense",
+      "accepted": [
+        "家"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 家 tạo từ 家人. 家人 là người trong gia đình; 这是我的家人 giới thiệu người nhà theo tình huống. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l107-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l107-v1-e4",
+      "senseId": "l107-v-86-sense",
+      "accepted": [
+        "家"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "家: nhà; gia đình. 家 trong 我家 nói nhà/gia đình tôi; không đồng nghĩa một người thân riêng lẻ. Đây là nhà tôi."
+    },
+    {
+      "id": "l107-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l107-v1-e5",
+      "senseId": "l107-v-68-sense",
+      "accepted": [
+        "trẻ em; con"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "孩子 có thể chỉ trẻ em hoặc con của ai theo ngữ cảnh, không chỉ con trai. Đứa trẻ kia tên Văn."
+    },
+    {
+      "id": "l107-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l107-v1-e6",
+      "senseId": "l107-v-3-sense",
+      "accepted": [
+        "Là người nhà của A"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: Là người nhà của A. A giới thiệu bố mẹ và nói Văn là người nhà. Đoạn không nói quan hệ cụ thể giữa A và Văn."
+    },
+    {
+      "id": "l107-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l107-v1-e7",
+      "senseId": "l107-v-87-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 我的爸爸/我的妈妈 chỉ quan hệ người thân; với quan hệ thân thiết thường có thể bỏ 的: 我爸爸. 家人 là người trong gia đình, 家 có thể là nhà/gia đình theo câu. Không dùng 家 thay tất cả các cách gọi một người thân."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

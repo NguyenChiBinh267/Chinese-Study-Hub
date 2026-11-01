@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "0acce43761e90bd0d31a21c0cb050711e858e61a401ef28b4b012ba351990ffd",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-finish-sequence",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L355",
+    "version": 2,
+    "versionId": "l355-draft-v2",
+    "title": "Làm xong từng bước",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc kế hoạch đến hạn và phân biệt hoàn thành với chỉ kết thúc thời gian.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "从……起"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 17,
+      "physicalPage": 18,
+      "printedPage": 15,
+      "section": "task",
+      "entry": "十四"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T08:20:32.692Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-office",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 17,
+          "physicalPage": 18,
+          "printedPage": 15,
+          "section": "task",
+          "entry": "十四"
+        },
+        "written": "交流日常办公情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-office",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "职场生活 / 日常办公 / 办公事务"
+        },
+        "written": "办公事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l355-v-868",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 868"
+        },
+        "written": "完成",
+        "pinyin": "wánchéng",
+        "senseId": "l355-v-868-sense",
+        "ordinal": 868,
+        "note": "3 wánchéng 动; 完成 nêu đạt xong nhiệm vụ; 结束 chỉ chấm dứt, có thể chưa hoàn thành mục tiêu. 完成作业 có tân ngữ bài tập. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l355-v-712",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 712"
+        },
+        "written": "结束",
+        "pinyin": "jiéshù",
+        "senseId": "l355-v-712-sense",
+        "ordinal": 712,
+        "note": "3 jiéshù 动; 结束 nói hoạt động/khoảng thời gian chấm dứt; 会议结束 chưa bảo đảm mọi việc đã giải quyết. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l355-v-974",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 974"
+        },
+        "written": "直到",
+        "pinyin": "zhídào",
+        "senseId": "l355-v-974-sense",
+        "ordinal": 974,
+        "note": "3 zhídào 动; 直到 nêu mốc kéo dài hoặc điểm tới, 常 đi với 才 để nói mãi tới mốc mới xảy ra. Không phải mọi 直到 đều có phủ định. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l355-v-890",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 890"
+        },
+        "written": "先",
+        "pinyin": "xiān",
+        "senseId": "l355-v-890-sense",
+        "ordinal": 890,
+        "note": "3 xiān 副; 先 đánh dấu việc làm trước trong chuỗi, thường trước động từ. 先看再写 chưa nói việc nào đã làm xong. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l355-v-813",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 813"
+        },
+        "written": "然后",
+        "pinyin": "ránhòu",
+        "senseId": "l355-v-813-sense",
+        "ordinal": 813,
+        "note": "3 ránhòu 连; 然后 nối bước tiếp trong câu kể/kế hoạch; khác 以后 là mốc sau một khoảng/thời điểm trong nhiều cấu trúc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l355-v-997",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 997"
+        },
+        "written": "最后",
+        "pinyin": "zuìhòu",
+        "senseId": "l355-v-997-sense",
+        "ordinal": 997,
+        "note": "3 zuìhòu 名; 最后 nêu bước hay vị trí cuối trong chuỗi; 不 đồng nghĩa “cuối cùng thành công” nếu không nói kết quả. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-26",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "26"
+        },
+        "written": "成",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 26,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-112",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "112"
+        },
+        "written": "结",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 112,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-202",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "202"
+        },
+        "written": "束",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 202,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-275",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "275"
+        },
+        "written": "直",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 275,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-until",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定格式 / 从……起"
+        },
+        "written": "从……起",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l355-c0",
+      "version": 1,
+      "senseId": "l355-v-868-sense",
+      "hanzi": "完成",
+      "dictionaryPinyin": "wán chéng",
+      "meaning": "hoàn thành",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l355-v-868"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l355-c1",
+      "version": 1,
+      "senseId": "l355-v-712-sense",
+      "hanzi": "结束",
+      "dictionaryPinyin": "jié shù",
+      "meaning": "kết thúc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l355-v-712"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l355-c2",
+      "version": 1,
+      "senseId": "l355-v-974-sense",
+      "hanzi": "直到",
+      "dictionaryPinyin": "zhí dào",
+      "meaning": "cho đến/tới tận",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l355-v-974"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l355-c3",
+      "version": 1,
+      "senseId": "l355-v-890-sense",
+      "hanzi": "先",
+      "dictionaryPinyin": "xiān",
+      "meaning": "trước/trước tiên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l355-v-890"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l355-c4",
+      "version": 1,
+      "senseId": "l355-v-813-sense",
+      "hanzi": "然后",
+      "dictionaryPinyin": "rán hòu",
+      "meaning": "sau đó/rồi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l355-v-813"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l355-c5",
+      "version": 1,
+      "senseId": "l355-v-997-sense",
+      "hanzi": "最后",
+      "dictionaryPinyin": "zuì hòu",
+      "meaning": "cuối cùng/sau cùng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l355-v-997"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l355-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 要求 yāoqiú: yêu cầu; 答案 dá’àn: đáp án; 会议 huìyì: cuộc họp. 不同 bù tóng: khác nhau; phân biệt hết giờ với xong việc.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l355-t0",
+      "type": "teaching",
+      "title": "完成 · hoàn thành",
+      "text": "完成 nêu đạt xong nhiệm vụ; 结束 chỉ chấm dứt, có thể chưa hoàn thành mục tiêu. 完成作业 có tân ngữ bài tập.",
+      "hanzi": "我已经完成作业了。",
+      "pinyin": "Wǒ yǐjīng wánchéng zuòyè le.",
+      "meaning": "Tôi đã hoàn thành bài tập.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l355-t1",
+      "type": "teaching",
+      "title": "结束 · kết thúc",
+      "text": "结束 nói hoạt động/khoảng thời gian chấm dứt; 会议结束 chưa bảo đảm mọi việc đã giải quyết.",
+      "hanzi": "会议四点结束。",
+      "pinyin": "Huìyì sì diǎn jiéshù.",
+      "meaning": "Cuộc họp kết thúc lúc bốn giờ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l355-t2",
+      "type": "teaching",
+      "title": "直到 · cho đến/tới tận",
+      "text": "直到 nêu mốc kéo dài hoặc điểm tới, 常 đi với 才 để nói mãi tới mốc mới xảy ra. Không phải mọi 直到 đều có phủ định.",
+      "hanzi": "我直到十点才完成。",
+      "pinyin": "Wǒ zhídào shí diǎn cái wánchéng.",
+      "meaning": "Mãi đến mười giờ tôi mới hoàn thành.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l355-t3",
+      "type": "teaching",
+      "title": "先 · trước/trước tiên",
+      "text": "先 đánh dấu việc làm trước trong chuỗi, thường trước động từ. 先看再写 chưa nói việc nào đã làm xong.",
+      "hanzi": "我们先看要求。",
+      "pinyin": "Wǒmen xiān kàn yāoqiú.",
+      "meaning": "Chúng tôi xem yêu cầu trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l355-t4",
+      "type": "teaching",
+      "title": "然后 · sau đó/rồi",
+      "text": "然后 nối bước tiếp trong câu kể/kế hoạch; khác 以后 là mốc sau một khoảng/thời điểm trong nhiều cấu trúc.",
+      "hanzi": "先读课文，然后回答。",
+      "pinyin": "Xiān dú kèwén, ránhòu huídá.",
+      "meaning": "Đọc bài trước rồi trả lời.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l355-t5",
+      "type": "teaching",
+      "title": "最后 · cuối cùng/sau cùng",
+      "text": "最后 nêu bước hay vị trí cuối trong chuỗi; 不 đồng nghĩa “cuối cùng thành công” nếu không nói kết quả.",
+      "hanzi": "最后我们检查答案。",
+      "pinyin": "Zuìhòu wǒmen jiǎnchá dá'àn.",
+      "meaning": "Cuối cùng chúng tôi kiểm tra đáp án.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l355-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "从九点起 bắt đầu từ chín giờ; 直到十点才完成 kéo dài đến mười giờ mới hoàn thành. 先/然后/最后 xác định trình tự, không tự làm điều sau xảy ra.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l355-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "从九点起，小林先看要求，然后做题，最后检查。他直到十点才完成作业。课十点半结束，所以完成作业的时间和课结束的时间不同。",
+      "pinyin": "Cóng jiǔ diǎn qǐ, Xiǎo Lín xiān kàn yāoqiú, ránhòu zuò tí, zuìhòu jiǎnchá. Tā zhídào shí diǎn cái wánchéng zuòyè. Kè shí diǎn bàn jiéshù, suǒyǐ wánchéng zuòyè de shíjiān hé kè jiéshù de shíjiān bù tóng.",
+      "meaning": "Lâm bắt đầu chín giờ, xem yêu cầu, làm rồi kiểm tra. Mười giờ mới hoàn thành, còn tiết học mười giờ rưỡi kết thúc: hai mốc khác nhau.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l355-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l355-v2-e0"
+    },
+    {
+      "id": "l355-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l355-v2-e1"
+    },
+    {
+      "id": "l355-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l355-v2-e2"
+    },
+    {
+      "id": "l355-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l355-v2-e3"
+    },
+    {
+      "id": "l355-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l355-v2-e4"
+    },
+    {
+      "id": "l355-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l355-v2-e5"
+    },
+    {
+      "id": "l355-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l355-v2-e6"
+    },
+    {
+      "id": "l355-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l355-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l355-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l355-c0",
+      "senseId": "l355-v-868-sense",
+      "keyRef": "l355-v2-k0",
+      "prompt": "Làm xong nhiệm vụ, không chỉ hết giờ: □作业。",
+      "choices": [
+        "结束",
+        "直到",
+        "先",
+        "然后",
+        "最后",
+        "完成"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l355-v2-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l355-c1",
+      "senseId": "l355-v-712-sense",
+      "keyRef": "l355-v2-k1",
+      "prompt": "Cuộc họp chấm dứt lúc bốn giờ: 四点□。",
+      "choices": [
+        "直到",
+        "先",
+        "然后",
+        "最后",
+        "完成",
+        "结束"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l355-v2-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l355-c2",
+      "senseId": "l355-v-974-sense",
+      "keyRef": "l355-v2-k2",
+      "prompt": "Mãi tới mười giờ mới xong: □十点才完成。",
+      "choices": [
+        "先",
+        "然后",
+        "最后",
+        "完成",
+        "结束",
+        "直到"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l355-v2-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l355-c3",
+      "senseId": "l355-v-890-sense",
+      "keyRef": "l355-v2-k3",
+      "prompt": "Viết pinyin của 先 trong câu “我们先看要求。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l355-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l355-c4",
+      "senseId": "l355-v-813-sense",
+      "keyRef": "l355-v2-k4",
+      "prompt": "Từ nối bước tiếp: 先读，□回答。",
+      "choices": [
+        "最后",
+        "完成",
+        "结束",
+        "直到",
+        "先",
+        "然后"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l355-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l355-c5",
+      "senseId": "l355-v-997-sense",
+      "keyRef": "l355-v2-k5",
+      "prompt": "Bước sau cùng: □检查答案。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l355-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l355-c0",
+      "senseId": "l355-v-868-sense",
+      "keyRef": "l355-v2-k6",
+      "prompt": "Lâm hoàn thành bài lúc nào?",
+      "choices": [
+        "九点",
+        "十点半",
+        "十点"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l355-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l355-c3",
+      "senseId": "l355-v-890-sense",
+      "keyRef": "l355-v2-k7",
+      "prompt": "Sắp xếp mốc bắt đầu từ chín giờ, bắt đầu bằng 从九点起.",
+      "choices": [
+        "我先看要求",
+        "从九点起"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l355-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l355-v2-e0",
+      "senseId": "l355-v-868-sense",
+      "accepted": [
+        "完成"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "完成: hoàn thành. 完成 nêu đạt xong nhiệm vụ; 结束 chỉ chấm dứt, có thể chưa hoàn thành mục tiêu. 完成作业 có tân ngữ bài tập. Tôi đã hoàn thành bài tập."
+    },
+    {
+      "id": "l355-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l355-v2-e1",
+      "senseId": "l355-v-712-sense",
+      "accepted": [
+        "结束"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "结束: kết thúc. 结束 nói hoạt động/khoảng thời gian chấm dứt; 会议结束 chưa bảo đảm mọi việc đã giải quyết. Cuộc họp kết thúc lúc bốn giờ."
+    },
+    {
+      "id": "l355-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l355-v2-e2",
+      "senseId": "l355-v-974-sense",
+      "accepted": [
+        "直到"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "直到: cho đến/tới tận. 直到 nêu mốc kéo dài hoặc điểm tới, 常 đi với 才 để nói mãi tới mốc mới xảy ra. Không phải mọi 直到 đều có phủ định. Mãi đến mười giờ tôi mới hoàn thành."
+    },
+    {
+      "id": "l355-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l355-v2-e3",
+      "senseId": "l355-v-890-sense",
+      "accepted": [
+        "xiān"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "先: trước/trước tiên. 先 đánh dấu việc làm trước trong chuỗi, thường trước động từ. 先看再写 chưa nói việc nào đã làm xong. Chúng tôi xem yêu cầu trước."
+    },
+    {
+      "id": "l355-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l355-v2-e4",
+      "senseId": "l355-v-813-sense",
+      "accepted": [
+        "然后"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "然后: sau đó/rồi. 然后 nối bước tiếp trong câu kể/kế hoạch; khác 以后 là mốc sau một khoảng/thời điểm trong nhiều cấu trúc. Đọc bài trước rồi trả lời."
+    },
+    {
+      "id": "l355-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l355-v2-e5",
+      "senseId": "l355-v-997-sense",
+      "accepted": [
+        "最后"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "最后: cuối cùng/sau cùng. 最后 nêu bước hay vị trí cuối trong chuỗi; 不 đồng nghĩa “cuối cùng thành công” nếu không nói kết quả. Cuối cùng chúng tôi kiểm tra đáp án."
+    },
+    {
+      "id": "l355-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l355-v2-e6",
+      "senseId": "l355-v-868-sense",
+      "accepted": [
+        "十点"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 从九点起 bắt đầu từ chín giờ; 直到十点才完成 kéo dài đến mười giờ mới hoàn thành. 先/然后/最后 xác định trình tự, không tự làm điều sau xảy ra."
+    },
+    {
+      "id": "l355-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l355-v2-e7",
+      "senseId": "l355-v-890-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "从九点起 nêu mốc bắt đầu; 我先看要求 là hành động sau mốc. Chưa cho biết giờ hoàn thành."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

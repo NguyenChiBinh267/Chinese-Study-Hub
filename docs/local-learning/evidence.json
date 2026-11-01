@@ -1,0 +1,375 @@
+{
+  "status": "LOCAL_LEARNING_SLICE_VERIFIED",
+  "checkedAt": "2026-10-17T12:56:00.340Z",
+  "source": {
+    "baseCommit": "1efa4088cb81510d3bca67f0d02894a98c2b73ee",
+    "branch": "feat/local-grading-fsrs-mastery",
+    "candidate": "Commit containing this report; not independently reviewed",
+    "sourceSha256": {
+      "playwright.learning.config.ts": "a1c34d2e158310c933a0ceccc49e657bff37a1a419c227d6b2c25f49e78924cc",
+      "src/app/api/local/cards/[cardId]/rating/route.ts": "6f4572c425143ffd3a80c25ec02813ef447beaa73ede6ad4fdffb3b5f8ee34d2",
+      "src/app/api/local/cards/[cardId]/reveal/route.ts": "9ba70444ace6ed9ae933e7491cefcf3741e147c1b21ffba12f19201e6414a1f0",
+      "src/modules/learning/domain/mastery.ts": "d7d34aa5946f08543778be354b1085bc2ab37928df03a76e77cc4c5a29d00fe7",
+      "src/modules/learning/infrastructure/postgres-learning.ts": "49ee041ad5b649efc6fa318dafc63f4d2142ac63df811b592ffb1af42998781d",
+      "src/modules/review/domain/fsrs-adapter.ts": "02a815f9e524a34032a3bfd6c73ad9139468b7630fd9f15bcc0e8c817a74bbc6",
+      "src/modules/review/domain/local-review.ts": "d0f2fd1fb6c17e585fa1c5f97578f2e5f3f81082d815bea107c81a53501f179a",
+      "src/modules/review/infrastructure/postgres-review-repository.ts": "e20aa50b3a7a66eaf455e34b6d3640899a71e7bbd87134dedd8ff41f8f58a6db",
+      "src/modules/review/ui/local-review.tsx": "bd4789c276e329e44c46725cbf9bdeaabe8fff84f4b62e557d99eea535e3b823",
+      "supabase/migrations/202610170002_local_learning.sql": "3b10d7029860070c5759532e22c0cc8cc9e16c68f121b11ae760d2528c532546",
+      "supabase/rollbacks/202610170002_local_learning.sql": "80f128b2ac2584ecfa1758c7d79653e359027f08045e0f29ce9080e7cbb5a15c",
+      "tests/database/learning.test.ts": "3404eab238c67966aa4e13afbcfc799c1f746adefefa41ef8ec997c9787272c8",
+      "tests/fixtures/fsrs-5.4.2.json": "db8398a0cb647092ef5a8a48e8f72eb4473e49164a8cc2c1e6c94d5c8aa537a7",
+      "tests/learning-browser/learning.spec.ts": "be32ae23f7034f3ebb1ff6b60e1d9f08d4bd1c8a2084ec45742558d92323b545",
+      "tests/unit/learning.test.ts": "842286949bf445d2773eeb990bc0ff1ac7629f905b7b7d43e2f9318298d5d39f",
+      "package-lock.json": "7204bc007649a049d2fcb714db614e7a34e444aac59e6212795e6f0ad58de47c",
+      "package.json": "6093573a2e07aab24b740f9ded40bd18b5f9e7959fc0136efc539fd48843ce25",
+      "playwright.local.config.ts": "01b24bbaa9d5acdf737996fad3403931cf5e80a3278068e09cef491e9489d4a6",
+      "scripts/local-db.mjs": "4e0a51796e36a7cf0aa8c5ec5ba38095dbc8b0bf1af2794f471c68d9f6bea582",
+      "scripts/test-local-db.mjs": "a20805d4768ef34d8033d2e6856c352daa2fba33e626ae700aa93d76ad8c3344",
+      "src/app/progress/page.tsx": "51e5178720276e27053456cb492399e995c3b7d10626b98561b1c5a9f7e467b3",
+      "src/app/review/page.tsx": "7183c5ef08d19d89bb1eec6c77bf8443b7a7ef55066da52dc66d6359250cb1e1",
+      "src/modules/learning/domain/local-foundation.ts": "325deb8b123757436db2bfbd3a6a57f629d019d7d4a98489a8a2e3584b555f5d",
+      "src/modules/learning/infrastructure/postgres-local-repository.ts": "8c3fc6c4c3dcb9dda39179f521909370d548ae81b6628ab0c88991b4da7cfd82",
+      "src/modules/learning/server/local-fixture.ts": "8b579efbc12264b24fa64290fce2a614b22510fc80bd47d25a98e0e0d08b9715",
+      "src/modules/learning/server/local-service.ts": "bbd94699a9ae3c31e2143c2692ba38c78ab55dfb7fa177a628ecdd6ff94e7d36",
+      "src/modules/learning/ui/local-slice.tsx": "6030de84028591cd0bfc1dfb987a69bf56ffdf8795350a869a12a705d97e2508",
+      "src/shared/db/transaction.ts": "c51dbfc146d7f74e7604a341f7e3c654bd3c5bd4984429580695f8d1ff85bdd3",
+      "tests/database/foundation.test.ts": "5f55c1b5406c56eb3fccfa372458548b13a0c1ca8733cb26caee0bba86272dc7",
+      "tests/local/persistence.spec.ts": "98c8659de2790d40905f4ebcc914e1a5974fe41a5960ad308031ccca106a99d3"
+    }
+  },
+  "features": {
+    "grading": "Deterministic internal fixture choice grading, server keys, feedback after submit",
+    "fsrs": {
+      "library": "ts-fsrs@5.4.2",
+      "algorithm": "FSRS-6",
+      "retention": 0.9,
+      "fuzz": false,
+      "fullCardAndConfigPersisted": true
+    },
+    "mastery": {
+      "engine": "mastery-v1-local-1",
+      "rulesUnitVerified": true,
+      "runtimeIndependentEvidence": false,
+      "reason": "Fixture lacks competent answer-key review and approved duration eligibility contract; self-ratings excluded"
+    },
+    "content": "Original internal tokens, not official/reviewed HSK",
+    "productionAuth": false
+  },
+  "verification": {
+    "unit": {
+      "groups": 5,
+      "status": "PASS"
+    },
+    "database": {
+      "cases": 18,
+      "status": "PASS",
+      "securityCasesBeforeLearningWrites": 6
+    },
+    "browsers": {
+      "new": {
+        "passed": 4,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 0
+      },
+      "legacy": {
+        "passed": 6,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 0
+      },
+      "production": {
+        "passed": 20,
+        "failed": 0,
+        "flaky": 0,
+        "skipped": 0
+      }
+    },
+    "lint": "PASS",
+    "strictTypecheck": "PASS",
+    "productionBuild": "PASS",
+    "buildId": "ZaLkqMjKWDNMCaC5jhbXD",
+    "actualPostgresRestart": {
+      "status": "PASS",
+      "server": {
+        "version": "18.4",
+        "started": "2026-10-17T12:52:23.957Z"
+      },
+      "allTenOwnerTablesAndProofUnchanged": true
+    },
+    "migrationPreservation": {
+      "time_preferences": {
+        "count": 11,
+        "unchanged": true
+      },
+      "lesson_sessions": {
+        "count": 24,
+        "unchanged": true
+      },
+      "attempts": {
+        "count": 33,
+        "unchanged": true
+      },
+      "learning_events": {
+        "count": 47,
+        "unchanged": true
+      },
+      "lesson_progress": {
+        "count": 6,
+        "unchanged": true
+      },
+      "api_idempotency": {
+        "count": 81,
+        "unchanged": true
+      }
+    },
+    "historicalRowsAfterAcknowledgedTestWrites": {
+      "time_preferences": {
+        "before": 11,
+        "after": 19,
+        "byteIdentical": 10,
+        "acknowledgedProjectionUpdates": 1
+      },
+      "lesson_sessions": {
+        "before": 24,
+        "after": 52,
+        "byteIdentical": 24,
+        "acknowledgedProjectionUpdates": 0
+      },
+      "attempts": {
+        "before": 33,
+        "after": 73,
+        "byteIdentical": 33,
+        "acknowledgedProjectionUpdates": 0
+      },
+      "learning_events": {
+        "before": 47,
+        "after": 99,
+        "byteIdentical": 47,
+        "acknowledgedProjectionUpdates": 0
+      },
+      "lesson_progress": {
+        "before": 6,
+        "after": 13,
+        "byteIdentical": 5,
+        "acknowledgedProjectionUpdates": 1
+      },
+      "api_idempotency": {
+        "before": 81,
+        "after": 193,
+        "byteIdentical": 81,
+        "acknowledgedProjectionUpdates": 0
+      }
+    }
+  },
+  "safety": {
+    "runtime": {
+      "rolname": "csh_runtime",
+      "rolsuper": false,
+      "rolbypassrls": false,
+      "rolcreaterole": false,
+      "rolcreatedb": false
+    },
+    "tables": [
+      {
+        "relname": "api_idempotency",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "attempts",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "cards",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "learning_events",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "lesson_progress",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "lesson_sessions",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "mastery_evidence",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "review_logs",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "skill_mastery",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "time_preferences",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      }
+    ],
+    "migrationDigest": "61dd1db8524578155c3b4c83ead67d6e27e52aa2a269cafde0799c8e0f68ef8b",
+    "protectedFiles": [
+      {
+        "path": "AGENTS.md",
+        "baseBlob": "bebc41eb43bb42ea6dc9011b612358c089fff0ca",
+        "currentBlob": "bebc41eb43bb42ea6dc9011b612358c089fff0ca"
+      },
+      {
+        "path": "docs/master-plan/master-plan-v1.1.md",
+        "baseBlob": "6281d91594588c4d775a577d45fe6d21a335698f",
+        "currentBlob": "6281d91594588c4d775a577d45fe6d21a335698f"
+      },
+      {
+        "path": "docs/master-plan/task-status.json",
+        "baseBlob": "c1d797d3bb388f371631177fa388394d973b5993",
+        "currentBlob": "c1d797d3bb388f371631177fa388394d973b5993"
+      },
+      {
+        "path": "docs/master-plan/source-manifest.json",
+        "baseBlob": "554d607389f7b6e2ddc4a73a6b8f29f582714913",
+        "currentBlob": "554d607389f7b6e2ddc4a73a6b8f29f582714913"
+      }
+    ],
+    "engineeringLoopUnchanged": true,
+    "cloud": false,
+    "deployed": false,
+    "paidApi": false,
+    "modelInference": false,
+    "subagents": false,
+    "push": false,
+    "merge": false,
+    "canonicalDoneWrites": false
+  },
+  "dependencies": {
+    "allAudit": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 5,
+      "critical": 0,
+      "total": 5
+    },
+    "productionAudit": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "rootAdvisory": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+    "compatibleRootFixVerified": false,
+    "forcedMajorChanges": false
+  },
+  "limits": [
+    "Local development only, no production auth/hosting/T068/T009-cloud/T069 proof",
+    "No reviewed Chinese learning material or eligible live mastery/secure/unlock claims",
+    "UTC scheduling only; no profile timezone daily grouping, optimizer or full overload planner",
+    "Chromium emulation, no real Android/TalkBack or delayed real-time pedagogy pilot",
+    "Native graceful restart only, not disaster/power-loss recovery",
+    "Five high dev lint-chain audit entries remain; production npm audit reports0 at this timestamp"
+  ],
+  "artifacts": {
+    "unit": {
+      "path": ".local-postgres/phase3-unit.log",
+      "sha256": "19105745cb0080838c39cb4b090a6370c4b14c845f72c5566cb83e267fd16c47"
+    },
+    "database": {
+      "path": ".local-postgres/db-tests.xml",
+      "sha256": "12a4f90a5936c3f4577c30b7165cec60f04a038c6d3aaa325217865fb62d42dc"
+    },
+    "newBrowser": {
+      "path": ".local-postgres/phase3-browser.json",
+      "sha256": "fe1ab9e617b180cd62ada8bf3814a59d40d7fece780e09f950fe05ac19abdd8a"
+    },
+    "legacyBrowser": {
+      "path": ".local-postgres/browser-results.json",
+      "sha256": "aba036a919fa461dd216f80669bea21598fa8922aed26816d509df96c90db37d"
+    },
+    "productionBrowser": {
+      "path": ".local-postgres/demo-regression-results.json",
+      "sha256": "5af2fa9159ca281049ccd7e7752b89e0b2bde93a4e44304d83fee9bea10f4a19"
+    },
+    "lint": {
+      "path": ".local-postgres/phase3-lint.log",
+      "sha256": "84f02fa14cbb504114d26fd85e9160016d50fecc3c933cb9d2ea8cb200600d76"
+    },
+    "typecheck": {
+      "path": ".local-postgres/phase3-typecheck.log",
+      "sha256": "b76b179820aa04bb6581cd66010191f3d02a460243f0d234922d0567d8bfe498"
+    },
+    "build": {
+      "path": ".local-postgres/phase3-build.log",
+      "sha256": "80b29cbeab314dedf0a66f4519970d6c6e360721591cc9b6f8c0d33830e23797"
+    },
+    "restart": {
+      "path": ".local-postgres/phase3-restart.json",
+      "sha256": "02af5a65eed0168bbf7e0ee3418b821bbb3e2fcf131a35097c89d8578b5739ea"
+    },
+    "preservation": {
+      "path": ".local-postgres/phase3-preservation-final.json",
+      "sha256": "901fd5af2eea3483e02dea050f1db35264142849d4d04b8ef5f94db36baf2b5e"
+    },
+    "migrationPreservation": {
+      "path": ".local-postgres/phase3-preservation-after-migration.json",
+      "sha256": "dac130cabca46cd93859c83ba5508b8804cf4f9dd63d6c3b8b7e75cb08187e9b"
+    },
+    "audit": {
+      "path": ".local-postgres/phase3-audit-before.json",
+      "sha256": "1beb2429491a6c0822f167b9e7ad3e4adc1d259077518f4e6505e176c87608f1"
+    },
+    "productionAudit": {
+      "path": ".local-postgres/phase3-audit-production.json",
+      "sha256": "b8d8dea070e82a3f758f9a270f9bf982755b9a51b3c47b52f1f45b56f5f692cb"
+    }
+  },
+  "screenshots": [
+    {
+      "path": "docs/local-learning/evidence/desktop-progress.png",
+      "sha256": "ced8ea3653c1ab80373e69ba53593de114d8d7f1682ee16b1b5e9141d1038d7c"
+    },
+    {
+      "path": "docs/local-learning/evidence/desktop-review.png",
+      "sha256": "00003ef4f3cdf8a70a79acde6560b19bbd013dd489dd6f0eb2624d5097a2a2b2"
+    },
+    {
+      "path": "docs/local-learning/evidence/mobile-progress.png",
+      "sha256": "8187c74db1e055e9a738550541a2eec6c09134f0b8d33e7f408158c5dcee963c"
+    },
+    {
+      "path": "docs/local-learning/evidence/mobile-review.png",
+      "sha256": "7a1ffe86c0129ab984ac2cd690a41e31334e4b1507360e2ccf991ca72a293f4d"
+    }
+  ],
+  "observedEarlierFailures": [
+    "Optional undefined last_review serializer fixed to match JSONB roundtrip",
+    "Two mutable development projections changed by two acknowledged legacy test saves/completions; original rows preserved at migration checkpoint, immutable history still identical",
+    "One later parallel test run timed out navigating to the fixture route; retained report, final independent run outcome required above. Cause not established from the DOM snapshot."
+  ]
+}

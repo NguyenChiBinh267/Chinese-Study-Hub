@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "8245fd68dd1c873061dc9bdd5f623fae338101046564449dcedce768655f52e8",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-mountain-path",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L340",
+    "version": 1,
+    "versionId": "l340-draft-v1",
+    "title": "Đi bộ trên núi an toàn theo tình huống",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc ý định leo núi, cảm giác sợ và lời nhắc cẩn thận.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "向2"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 15,
+      "physicalPage": 16,
+      "printedPage": 13,
+      "section": "task",
+      "entry": "八"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-leisure",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 15,
+          "physicalPage": 16,
+          "printedPage": 13,
+          "section": "task",
+          "entry": "八"
+        },
+        "written": "谈论休闲生活",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-leisure-experience",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "活动体验"
+        },
+        "written": "活动体验",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l340-v-589",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 589"
+        },
+        "written": "地",
+        "pinyin": "dì",
+        "senseId": "l340-v-589-sense",
+        "ordinal": 589,
+        "note": "3 dì 名; 地 dì là đất trong 地上, không phải trợ từ de đứng trước động từ. 土地 và 地面 hỗ trợ nghĩa, chưa đếm mục mới. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l340-v-823",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 823"
+        },
+        "written": "山",
+        "pinyin": "shān",
+        "senseId": "l340-v-823-sense",
+        "ordinal": 823,
+        "note": "3 shān 名; 山 là núi; 山上 có thể là trên núi, không nhất thiết đúng đỉnh. 上山 là lên núi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l340-v-789",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 789"
+        },
+        "written": "爬",
+        "pinyin": "pá",
+        "senseId": "l340-v-789-sense",
+        "ordinal": 789,
+        "note": "3 pá 动; 爬 trong 爬山 là leo núi, có thể là đi bộ lên đường núi; không nhất thiết bò bằng bốn chân. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l340-v-662",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 662"
+        },
+        "written": "害怕",
+        "pinyin": "hàipà",
+        "senseId": "l340-v-662-sense",
+        "ordinal": 662,
+        "note": "3 hàipà 动; 害怕 diễn tả cảm giác sợ, có thể nhận tân ngữ; 害怕走夜路 là sợ đi đường ban đêm. Không tự chứng minh nguy hiểm đã xảy ra. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l340-v-790",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 790"
+        },
+        "written": "怕",
+        "pinyin": "pà",
+        "senseId": "l340-v-790-sense",
+        "ordinal": 790,
+        "note": "3（4） pà 动、（副）; 怕 có thể gần nghĩa 害怕; câu luyện đặt trong ngữ cảnh sợ lạnh. Đề không dùng hai từ này làm hai lựa chọn loại trừ khi đều đúng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l340-v-898",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 898"
+        },
+        "written": "小心",
+        "pinyin": "xiǎoxīn",
+        "senseId": "l340-v-898-sense",
+        "ordinal": 898,
+        "note": "3 xiǎoxīn 动、形; 小心 là chú ý tránh sơ suất/nguy hiểm; 小心脚下提醒 nhìn chỗ chân. Không phải phép bảo đảm an toàn chỉ vì đã nghe nhắc. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-189",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "189"
+        },
+        "written": "山",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 189,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-159",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "159"
+        },
+        "written": "爬",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 159,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-79",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "79"
+        },
+        "written": "害",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 79,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-160",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "160"
+        },
+        "written": "怕",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 160,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-233",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "233"
+        },
+        "written": "心",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 233,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-direction-purpose",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "介词 / 引出方向路径 / 向2"
+        },
+        "written": "向2",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l340-c0",
+      "version": 1,
+      "senseId": "l340-v-589-sense",
+      "hanzi": "地",
+      "dictionaryPinyin": "dì",
+      "meaning": "đất/mặt đất",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l340-v-589"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l340-c1",
+      "version": 1,
+      "senseId": "l340-v-823-sense",
+      "hanzi": "山",
+      "dictionaryPinyin": "shān",
+      "meaning": "núi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l340-v-823"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l340-c2",
+      "version": 1,
+      "senseId": "l340-v-789-sense",
+      "hanzi": "爬",
+      "dictionaryPinyin": "pá",
+      "meaning": "leo/trèo",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l340-v-789"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l340-c3",
+      "version": 1,
+      "senseId": "l340-v-662-sense",
+      "hanzi": "害怕",
+      "dictionaryPinyin": "hài pà",
+      "meaning": "sợ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l340-v-662"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l340-c4",
+      "version": 1,
+      "senseId": "l340-v-790-sense",
+      "hanzi": "怕",
+      "dictionaryPinyin": "pà",
+      "meaning": "sợ/ngại",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l340-v-790"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l340-c5",
+      "version": 1,
+      "senseId": "l340-v-898-sense",
+      "hanzi": "小心",
+      "dictionaryPinyin": "xiǎo xīn",
+      "meaning": "cẩn thận/coi chừng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l340-v-898"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l340-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 座 zuò: lượng từ núi; 互相 hùxiāng: lẫn nhau; 提醒 tíxǐng: nhắc; 脚下 jiǎo xià: dưới chân. Đây là bài đọc từ vựng, không chứng nhận kỹ năng leo núi.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l340-t0",
+      "type": "teaching",
+      "title": "地 · đất/mặt đất",
+      "text": "地 dì là đất trong 地上, không phải trợ từ de đứng trước động từ. 土地 và 地面 hỗ trợ nghĩa, chưa đếm mục mới.",
+      "hanzi": "地上有水。",
+      "pinyin": "Dì shàng yǒu shuǐ.",
+      "meaning": "Trên đất có nước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l340-t1",
+      "type": "teaching",
+      "title": "山 · núi",
+      "text": "山 là núi; 山上 có thể là trên núi, không nhất thiết đúng đỉnh. 上山 là lên núi.",
+      "hanzi": "那座山很高。",
+      "pinyin": "Nà zuò shān hěn gāo.",
+      "meaning": "Ngọn núi đó cao.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l340-t2",
+      "type": "teaching",
+      "title": "爬 · leo/trèo",
+      "text": "爬 trong 爬山 là leo núi, có thể là đi bộ lên đường núi; không nhất thiết bò bằng bốn chân.",
+      "hanzi": "我们明天去爬山。",
+      "pinyin": "Wǒmen míngtiān qù pá shān.",
+      "meaning": "Ngày mai chúng tôi đi leo núi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l340-t3",
+      "type": "teaching",
+      "title": "害怕 · sợ",
+      "text": "害怕 diễn tả cảm giác sợ, có thể nhận tân ngữ; 害怕走夜路 là sợ đi đường ban đêm. Không tự chứng minh nguy hiểm đã xảy ra.",
+      "hanzi": "她害怕一个人上山。",
+      "pinyin": "Tā hàipà yí ge rén shàng shān.",
+      "meaning": "Cô ấy sợ lên núi một mình.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l340-t4",
+      "type": "teaching",
+      "title": "怕 · sợ/ngại",
+      "text": "怕 có thể gần nghĩa 害怕; câu luyện đặt trong ngữ cảnh sợ lạnh. Đề không dùng hai từ này làm hai lựa chọn loại trừ khi đều đúng.",
+      "hanzi": "我怕冷，多带了一件衣服。",
+      "pinyin": "Wǒ pà lěng, duō dài le yí jiàn yīfu.",
+      "meaning": "Tôi sợ lạnh nên mang thêm một áo.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l340-t5",
+      "type": "teaching",
+      "title": "小心 · cẩn thận/coi chừng",
+      "text": "小心 là chú ý tránh sơ suất/nguy hiểm; 小心脚下提醒 nhìn chỗ chân. Không phải phép bảo đảm an toàn chỉ vì đã nghe nhắc.",
+      "hanzi": "下山时要小心。",
+      "pinyin": "Xià shān shí yào xiǎoxīn.",
+      "meaning": "Khi xuống núi cần cẩn thận.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l340-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "向山上走 nêu hướng đi, khác 在山上走 nêu nơi đi. 向 ở đây là giới từ trước hướng, không phải động từ sở thích.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l340-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林向山上走，看见地上有水就停下来。朋友说自己怕冷，也害怕一个人爬山，所以今天跟大家一起走。下山时，他们互相提醒小心，没有为了快就走不认识的小路。",
+      "pinyin": "Xiǎo Lín xiàng shān shàng zǒu, kànjiàn dì shàng yǒu shuǐ jiù tíng xiàlái. Péngyou shuō zìjǐ pà lěng, yě hàipà yí ge rén pá shān, suǒyǐ jīntiān gēn dàjiā yìqǐ zǒu. Xià shān shí, tāmen hùxiāng tíxǐng xiǎoxīn, méiyǒu wèile kuài jiù zǒu bú rènshi de xiǎo lù.",
+      "meaning": "Lâm dừng khi thấy nước trên đất. Bạn sợ lạnh và ngại leo một mình nên đi cùng nhóm. Họ nhắc nhau cẩn thận, không chọn đường lạ chỉ để đi nhanh.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l340-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l340-v1-e0"
+    },
+    {
+      "id": "l340-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l340-v1-e1"
+    },
+    {
+      "id": "l340-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l340-v1-e2"
+    },
+    {
+      "id": "l340-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l340-v1-e3"
+    },
+    {
+      "id": "l340-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l340-v1-e4"
+    },
+    {
+      "id": "l340-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l340-v1-e5"
+    },
+    {
+      "id": "l340-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l340-v1-e6"
+    },
+    {
+      "id": "l340-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l340-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l340-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l340-c0",
+      "senseId": "l340-v-589-sense",
+      "keyRef": "l340-v1-k0",
+      "prompt": "Mặt đất, đọc dì: □上有水。",
+      "choices": [
+        "山",
+        "爬",
+        "害怕",
+        "怕",
+        "小心",
+        "地"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l340-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l340-c1",
+      "senseId": "l340-v-823-sense",
+      "keyRef": "l340-v1-k1",
+      "prompt": "Địa hình núi cao, dùng 一座□。",
+      "choices": [
+        "爬",
+        "害怕",
+        "怕",
+        "小心",
+        "地",
+        "山"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l340-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l340-c2",
+      "senseId": "l340-v-789-sense",
+      "keyRef": "l340-v1-k2",
+      "prompt": "Động từ leo trong □山。",
+      "choices": [
+        "害怕",
+        "怕",
+        "小心",
+        "地",
+        "山",
+        "爬"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l340-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l340-c3",
+      "senseId": "l340-v-662-sense",
+      "keyRef": "l340-v1-k3",
+      "prompt": "Viết pinyin của 害怕 trong câu “她害怕一个人上山。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l340-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l340-c4",
+      "senseId": "l340-v-790-sense",
+      "keyRef": "l340-v1-k4",
+      "prompt": "Sợ lạnh, điền từ ngắn một chữ của bài: □冷。",
+      "choices": [
+        "小心",
+        "地",
+        "山",
+        "爬",
+        "害怕",
+        "怕"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l340-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l340-c5",
+      "senseId": "l340-v-898-sense",
+      "keyRef": "l340-v1-k5",
+      "prompt": "Lời nhắc cẩn thận khi xuống núi: 下山要□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l340-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l340-c0",
+      "senseId": "l340-v-589-sense",
+      "keyRef": "l340-v1-k6",
+      "prompt": "Lâm làm gì khi thấy nước trên đất?",
+      "choices": [
+        "跑下山",
+        "一个人走小路",
+        "停下来"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l340-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l340-c3",
+      "senseId": "l340-v-662-sense",
+      "keyRef": "l340-v1-k7",
+      "prompt": "Xếp câu nêu hướng đi; bắt đầu bằng 小林.",
+      "choices": [
+        "向山上走",
+        "小林"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l340-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l340-v1-e0",
+      "senseId": "l340-v-589-sense",
+      "accepted": [
+        "地"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "地: đất/mặt đất. 地 dì là đất trong 地上, không phải trợ từ de đứng trước động từ. 土地 và 地面 hỗ trợ nghĩa, chưa đếm mục mới. Trên đất có nước."
+    },
+    {
+      "id": "l340-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l340-v1-e1",
+      "senseId": "l340-v-823-sense",
+      "accepted": [
+        "山"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "山: núi. 山 là núi; 山上 có thể là trên núi, không nhất thiết đúng đỉnh. 上山 là lên núi. Ngọn núi đó cao."
+    },
+    {
+      "id": "l340-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l340-v1-e2",
+      "senseId": "l340-v-789-sense",
+      "accepted": [
+        "爬"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "爬: leo/trèo. 爬 trong 爬山 là leo núi, có thể là đi bộ lên đường núi; không nhất thiết bò bằng bốn chân. Ngày mai chúng tôi đi leo núi."
+    },
+    {
+      "id": "l340-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l340-v1-e3",
+      "senseId": "l340-v-662-sense",
+      "accepted": [
+        "hài pà"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "害怕: sợ. 害怕 diễn tả cảm giác sợ, có thể nhận tân ngữ; 害怕走夜路 là sợ đi đường ban đêm. Không tự chứng minh nguy hiểm đã xảy ra. Cô ấy sợ lên núi một mình."
+    },
+    {
+      "id": "l340-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l340-v1-e4",
+      "senseId": "l340-v-790-sense",
+      "accepted": [
+        "怕"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "怕: sợ/ngại. 怕 có thể gần nghĩa 害怕; câu luyện đặt trong ngữ cảnh sợ lạnh. Đề không dùng hai từ này làm hai lựa chọn loại trừ khi đều đúng. Tôi sợ lạnh nên mang thêm một áo."
+    },
+    {
+      "id": "l340-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l340-v1-e5",
+      "senseId": "l340-v-898-sense",
+      "accepted": [
+        "小心"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "小心: cẩn thận/coi chừng. 小心 là chú ý tránh sơ suất/nguy hiểm; 小心脚下提醒 nhìn chỗ chân. Không phải phép bảo đảm an toàn chỉ vì đã nghe nhắc. Khi xuống núi cần cẩn thận."
+    },
+    {
+      "id": "l340-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l340-v1-e6",
+      "senseId": "l340-v-589-sense",
+      "accepted": [
+        "停下来"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 向山上走 nêu hướng đi, khác 在山上走 nêu nơi đi. 向 ở đây là giới từ trước hướng, không phải động từ sở thích."
+    },
+    {
+      "id": "l340-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l340-v1-e7",
+      "senseId": "l340-v-662-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 向山上走 nêu hướng đi, khác 在山上走 nêu nơi đi. 向 ở đây là giới từ trước hướng, không phải động từ sở thích."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

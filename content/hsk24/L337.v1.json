@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "aea2f8713d71e908a8e2c6bbf840abd5d562635e691fc2361b4cf1b2f598c80a",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-building-streets",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L337",
+    "version": 1,
+    "versionId": "l337-draft-v1",
+    "title": "Tìm đường trong tòa nhà và ngoài phố",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc hướng dẫn tầng, cầu thang và giao lộ.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "层"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 14,
+      "physicalPage": 15,
+      "printedPage": 12,
+      "section": "task",
+      "entry": "五"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 14,
+          "physicalPage": 15,
+          "printedPage": 12,
+          "section": "task",
+          "entry": "五"
+        },
+        "written": "谈论交通出行",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-transport-rules",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "交通规则"
+        },
+        "written": "交通规则",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l337-v-549",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 549"
+        },
+        "written": "层",
+        "pinyin": "céng",
+        "senseId": "l337-v-549-sense",
+        "ordinal": 549,
+        "note": "3 céng 量; 层 đếm tầng hoặc lớp; 三层楼 là tòa ba tầng, 第三层 là tầng thứ ba. Không nhầm số lượng với vị trí. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l337-v-594",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 594"
+        },
+        "written": "电梯",
+        "pinyin": "diàntī",
+        "senseId": "l337-v-594-sense",
+        "ordinal": 594,
+        "note": "3 diàntī 名; 电梯 là thang máy; 坐电梯 là đi thang máy, khác 走楼梯 dùng cầu thang bộ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l337-v-761",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 761"
+        },
+        "written": "楼梯",
+        "pinyin": "lóutī",
+        "senseId": "l337-v-761-sense",
+        "ordinal": 761,
+        "note": "3 lóutī 名; 楼梯 là cầu thang bộ; 走楼梯 là đi bằng bậc thang, không phải đứng chờ trong thang máy. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l337-v-765",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 765"
+        },
+        "written": "马路",
+        "pinyin": "mǎlù",
+        "senseId": "l337-v-765-sense",
+        "ordinal": 765,
+        "note": "3 mǎlù 名; 马路 thường nói đường cho xe trong đô thị; 过马路 là qua đường. Không phải nơi nào cũng có cùng quy tắc qua đường. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l337-v-707",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 707"
+        },
+        "written": "街",
+        "pinyin": "jiē",
+        "senseId": "l337-v-707-sense",
+        "ordinal": 707,
+        "note": "3 jiē 名; 街 là phố/đường phố, có thể đi với tên riêng. 这条街 chỉ con phố, 街上 chỉ trên phố. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l337-v-763",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 763"
+        },
+        "written": "路口",
+        "pinyin": "lùkǒu",
+        "senseId": "l337-v-763-sense",
+        "ordinal": 763,
+        "note": "3 lùkǒu 名; 路口 là nơi các đường giao hoặc lối ra/vào theo cảnh. 在路口等 là chờ ở giao lộ, không đứng giữa lòng đường. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-21",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "21"
+        },
+        "written": "层",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 21,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-210",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "210"
+        },
+        "written": "梯",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 210,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-149",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "149"
+        },
+        "written": "马",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 149,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-110",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "110"
+        },
+        "written": "街",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 110,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-floor",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "量词 / 专用名量词 / 层"
+        },
+        "written": "层",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l337-c0",
+      "version": 1,
+      "senseId": "l337-v-549-sense",
+      "hanzi": "层",
+      "dictionaryPinyin": "céng",
+      "meaning": "tầng/lớp; lượng từ tầng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l337-v-549"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l337-c1",
+      "version": 1,
+      "senseId": "l337-v-594-sense",
+      "hanzi": "电梯",
+      "dictionaryPinyin": "diàn tī",
+      "meaning": "thang máy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l337-v-594"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l337-c2",
+      "version": 1,
+      "senseId": "l337-v-761-sense",
+      "hanzi": "楼梯",
+      "dictionaryPinyin": "lóu tī",
+      "meaning": "cầu thang bộ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l337-v-761"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l337-c3",
+      "version": 1,
+      "senseId": "l337-v-765-sense",
+      "hanzi": "马路",
+      "dictionaryPinyin": "mǎ lù",
+      "meaning": "đường phố/đường xe chạy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l337-v-765"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l337-c4",
+      "version": 1,
+      "senseId": "l337-v-707-sense",
+      "hanzi": "街",
+      "dictionaryPinyin": "jiē",
+      "meaning": "phố",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l337-v-707"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l337-c5",
+      "version": 1,
+      "senseId": "l337-v-763-sense",
+      "hanzi": "路口",
+      "dictionaryPinyin": "lù kǒu",
+      "meaning": "ngã giao đường",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l337-v-763"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l337-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 商店 shāngdiàn: cửa hàng; 车道 chēdào: làn xe; 沿着 yánzhe: dọc theo. Đây là đọc tình huống, không đánh giá kỹ năng tham gia giao thông thực tế.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l337-t0",
+      "type": "teaching",
+      "title": "层 · tầng/lớp; lượng từ tầng",
+      "text": "层 đếm tầng hoặc lớp; 三层楼 là tòa ba tầng, 第三层 là tầng thứ ba. Không nhầm số lượng với vị trí.",
+      "hanzi": "图书馆在第三层。",
+      "pinyin": "Túshūguǎn zài dì sān céng.",
+      "meaning": "Thư viện ở tầng ba.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l337-t1",
+      "type": "teaching",
+      "title": "电梯 · thang máy",
+      "text": "电梯 là thang máy; 坐电梯 là đi thang máy, khác 走楼梯 dùng cầu thang bộ.",
+      "hanzi": "我们坐电梯上楼。",
+      "pinyin": "Wǒmen zuò diàntī shàng lóu.",
+      "meaning": "Chúng tôi đi thang máy lên tầng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l337-t2",
+      "type": "teaching",
+      "title": "楼梯 · cầu thang bộ",
+      "text": "楼梯 là cầu thang bộ; 走楼梯 là đi bằng bậc thang, không phải đứng chờ trong thang máy.",
+      "hanzi": "他从楼梯下来了。",
+      "pinyin": "Tā cóng lóutī xiàlái le.",
+      "meaning": "Anh ấy đi xuống từ cầu thang bộ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l337-t3",
+      "type": "teaching",
+      "title": "马路 · đường phố/đường xe chạy",
+      "text": "马路 thường nói đường cho xe trong đô thị; 过马路 là qua đường. Không phải nơi nào cũng có cùng quy tắc qua đường.",
+      "hanzi": "过马路以前先看清楚。",
+      "pinyin": "Guò mǎlù yǐqián xiān kàn qīngchu.",
+      "meaning": "Trước khi qua đường hãy nhìn rõ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l337-t4",
+      "type": "teaching",
+      "title": "街 · phố",
+      "text": "街 là phố/đường phố, có thể đi với tên riêng. 这条街 chỉ con phố, 街上 chỉ trên phố.",
+      "hanzi": "这条街有很多商店。",
+      "pinyin": "Zhè tiáo jiē yǒu hěn duō shāngdiàn.",
+      "meaning": "Phố này có nhiều cửa hàng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l337-t5",
+      "type": "teaching",
+      "title": "路口 · ngã giao đường",
+      "text": "路口 là nơi các đường giao hoặc lối ra/vào theo cảnh. 在路口等 là chờ ở giao lộ, không đứng giữa lòng đường.",
+      "hanzi": "我们在路口旁边等你。",
+      "pinyin": "Wǒmen zài lùkǒu pángbiān děng nǐ.",
+      "meaning": "Chúng tôi chờ bạn cạnh giao lộ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l337-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "三层 có thể chỉ ba tầng, 第三层 là tầng thứ ba. Tầng trong lời hướng dẫn 三层 thường là tầng ba theo ngữ cảnh. 在三层下电梯 nêu nơi ra thang máy.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l337-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "图书馆在第三层。电梯今天不能用，小林走楼梯下来。出门后，他沿着这条街走，在路口旁边等朋友；他们先看清楚，再过马路，没有在车道中间等。",
+      "pinyin": "Túshūguǎn zài dì sān céng. Diàntī jīntiān bù néng yòng, Xiǎo Lín zǒu lóutī xiàlái. Chū mén hòu, tā yánzhe zhè tiáo jiē zǒu, zài lùkǒu pángbiān děng péngyou; tāmen xiān kàn qīngchu, zài guò mǎlù, méiyǒu zài chēdào zhōngjiān děng.",
+      "meaning": "Thư viện ở tầng ba. Thang máy không dùng được nên Lâm xuống bằng cầu thang bộ, đi dọc phố và chờ bạn cạnh giao lộ rồi cùng qua đường.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l337-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l337-v1-e0"
+    },
+    {
+      "id": "l337-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l337-v1-e1"
+    },
+    {
+      "id": "l337-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l337-v1-e2"
+    },
+    {
+      "id": "l337-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l337-v1-e3"
+    },
+    {
+      "id": "l337-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l337-v1-e4"
+    },
+    {
+      "id": "l337-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l337-v1-e5"
+    },
+    {
+      "id": "l337-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l337-v1-e6"
+    },
+    {
+      "id": "l337-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l337-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l337-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l337-c0",
+      "senseId": "l337-v-549-sense",
+      "keyRef": "l337-v1-k0",
+      "prompt": "Điền lượng từ tầng trong 第三□。",
+      "choices": [
+        "电梯",
+        "楼梯",
+        "马路",
+        "街",
+        "路口",
+        "层"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l337-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l337-c1",
+      "senseId": "l337-v-594-sense",
+      "keyRef": "l337-v1-k1",
+      "prompt": "Thiết bị đưa người lên tầng tự động: 坐□上楼。",
+      "choices": [
+        "楼梯",
+        "马路",
+        "街",
+        "路口",
+        "层",
+        "电梯"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l337-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l337-c2",
+      "senseId": "l337-v-761-sense",
+      "keyRef": "l337-v1-k2",
+      "prompt": "Đi xuống bằng bậc thang: 从□下来。",
+      "choices": [
+        "马路",
+        "街",
+        "路口",
+        "层",
+        "电梯",
+        "楼梯"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l337-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l337-c3",
+      "senseId": "l337-v-765-sense",
+      "keyRef": "l337-v1-k3",
+      "prompt": "Viết pinyin của 马路 trong câu “过马路以前先看清楚。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l337-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l337-c4",
+      "senseId": "l337-v-707-sense",
+      "keyRef": "l337-v1-k4",
+      "prompt": "Con phố có các cửa hàng: 这条□有很多商店。",
+      "choices": [
+        "路口",
+        "层",
+        "电梯",
+        "楼梯",
+        "马路",
+        "街"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l337-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l337-c5",
+      "senseId": "l337-v-763-sense",
+      "keyRef": "l337-v1-k5",
+      "prompt": "Nơi hai đường gặp nhau trong tình huống: □旁边。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l337-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l337-c0",
+      "senseId": "l337-v-549-sense",
+      "keyRef": "l337-v1-k6",
+      "prompt": "Vì sao Lâm dùng cầu thang bộ?",
+      "choices": [
+        "图书馆在一层",
+        "他在马路中间",
+        "电梯不能用"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l337-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l337-c3",
+      "senseId": "l337-v-765-sense",
+      "keyRef": "l337-v1-k7",
+      "prompt": "Xếp nơi thư viện ở; bắt đầu bằng 图书馆在.",
+      "choices": [
+        "第三层",
+        "图书馆在"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l337-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l337-v1-e0",
+      "senseId": "l337-v-549-sense",
+      "accepted": [
+        "层"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "层: tầng/lớp; lượng từ tầng. 层 đếm tầng hoặc lớp; 三层楼 là tòa ba tầng, 第三层 là tầng thứ ba. Không nhầm số lượng với vị trí. Thư viện ở tầng ba."
+    },
+    {
+      "id": "l337-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l337-v1-e1",
+      "senseId": "l337-v-594-sense",
+      "accepted": [
+        "电梯"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "电梯: thang máy. 电梯 là thang máy; 坐电梯 là đi thang máy, khác 走楼梯 dùng cầu thang bộ. Chúng tôi đi thang máy lên tầng."
+    },
+    {
+      "id": "l337-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l337-v1-e2",
+      "senseId": "l337-v-761-sense",
+      "accepted": [
+        "楼梯"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "楼梯: cầu thang bộ. 楼梯 là cầu thang bộ; 走楼梯 là đi bằng bậc thang, không phải đứng chờ trong thang máy. Anh ấy đi xuống từ cầu thang bộ."
+    },
+    {
+      "id": "l337-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l337-v1-e3",
+      "senseId": "l337-v-765-sense",
+      "accepted": [
+        "mǎ lù"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "马路: đường phố/đường xe chạy. 马路 thường nói đường cho xe trong đô thị; 过马路 là qua đường. Không phải nơi nào cũng có cùng quy tắc qua đường. Trước khi qua đường hãy nhìn rõ."
+    },
+    {
+      "id": "l337-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l337-v1-e4",
+      "senseId": "l337-v-707-sense",
+      "accepted": [
+        "街"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "街: phố. 街 là phố/đường phố, có thể đi với tên riêng. 这条街 chỉ con phố, 街上 chỉ trên phố. Phố này có nhiều cửa hàng."
+    },
+    {
+      "id": "l337-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l337-v1-e5",
+      "senseId": "l337-v-763-sense",
+      "accepted": [
+        "路口"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "路口: ngã giao đường. 路口 là nơi các đường giao hoặc lối ra/vào theo cảnh. 在路口等 là chờ ở giao lộ, không đứng giữa lòng đường. Chúng tôi chờ bạn cạnh giao lộ."
+    },
+    {
+      "id": "l337-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l337-v1-e6",
+      "senseId": "l337-v-549-sense",
+      "accepted": [
+        "电梯不能用"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 三层 có thể chỉ ba tầng, 第三层 là tầng thứ ba. Tầng trong lời hướng dẫn 三层 thường là tầng ba theo ngữ cảnh. 在三层下电梯 nêu nơi ra thang máy."
+    },
+    {
+      "id": "l337-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l337-v1-e7",
+      "senseId": "l337-v-765-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 三层 có thể chỉ ba tầng, 第三层 là tầng thứ ba. Tầng trong lời hướng dẫn 三层 thường là tầng ba theo ngữ cảnh. 在三层下电梯 nêu nơi ra thang máy."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

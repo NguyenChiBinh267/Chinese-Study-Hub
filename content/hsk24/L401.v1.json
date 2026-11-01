@@ -1,0 +1,783 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "9637c88bd32e6a3c63fbd412947b491115d90caa22279833d82be173cf429e63",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-registration-forms",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L401",
+    "version": 1,
+    "versionId": "l401-draft-v1",
+    "title": "Đăng ký theo biểu mẫu và đúng giờ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc cách sắp xếp, giờ hẹn và hướng dẫn biểu mẫu; không coi đăng ký là đã được chấp nhận.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l357-draft-v1",
+      "l375-draft-v1",
+      "l384-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "按照"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 20,
+      "physicalPage": 21,
+      "printedPage": 18,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T08:31:46.731437Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-task-business",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 20,
+          "physicalPage": 21,
+          "printedPage": 18,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "交流、处理日常事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-topic-business",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "业务办理"
+        },
+        "written": "业务办理",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l401-v-1005",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1005"
+        },
+        "written": "安排",
+        "pinyin": "ānpái",
+        "senseId": "l401-v-1005-sense",
+        "ordinal": 1005,
+        "note": "4 ānpái 动; 安排 là bố trí công việc/thời gian, có thể nhận tân ngữ như 时间、活动. 已安排 không tự là đã diễn ra. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l401-v-1007",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1007"
+        },
+        "written": "按时",
+        "pinyin": "ànshí",
+        "senseId": "l401-v-1007-sense",
+        "ordinal": 1007,
+        "note": "4 ànshí 副; 按时 đứng trước động từ chỉ đúng thời gian đã hẹn/quy định, khác 及时 là kịp lúc ở ngữ cảnh khác. Cần biết mốc được nêu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l401-v-1008",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1008"
+        },
+        "written": "按照",
+        "pinyin": "ànzhào",
+        "senseId": "l401-v-1008-sense",
+        "ordinal": 1008,
+        "note": "4 ànzhào 介; 按照 dẫn quy tắc/hướng dẫn làm căn cứ; không có nghĩa theo giờ như 按时. 这里按照说明是依照说明做. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l401-v-1018",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1018"
+        },
+        "written": "报名",
+        "pinyin": "bàomíng",
+        "senseId": "l401-v-1018-sense",
+        "ordinal": 1018,
+        "note": "4 bàomíng 动; 报名 là ghi danh hoạt động/khóa/thi, chưa chứng minh được nhận hay đã đạt. 报名参加 đi với hoạt động. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l401-v-1033",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1033"
+        },
+        "written": "表",
+        "pinyin": "biǎo",
+        "senseId": "l401-v-1033-sense",
+        "ordinal": 1033,
+        "note": "4（7-9） biǎo 名、（动）; 表 ở 填表 là biểu mẫu để điền, khác 手表 là đồng hồ. Bài không dạy mọi nghĩa động từ của 表. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l401-v-1034",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1034"
+        },
+        "written": "表格",
+        "pinyin": "biǎogé",
+        "senseId": "l401-v-1034-sense",
+        "ordinal": 1034,
+        "note": "4 biǎogé 名; 表格 nhấn cách chia ô/hàng/cột để ghi thông tin; có thể gần 表 trong một số câu. Đề yêu cầu đúng dạng hai chữ khi truy hồi. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-229",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "229"
+        },
+        "written": "排",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 229,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-1",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "1"
+        },
+        "written": "按",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 1,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-87",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "87"
+        },
+        "written": "格",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 87,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-g-following",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 394,
+          "physicalPage": 395,
+          "printedPage": 392,
+          "section": "grammar",
+          "entry": "介词 / 引出凭借依据 / 按照"
+        },
+        "written": "按照",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l401-c0",
+      "version": 1,
+      "senseId": "l401-v-1005-sense",
+      "hanzi": "安排",
+      "dictionaryPinyin": "ān pái",
+      "meaning": "sắp xếp/bố trí",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l401-v-1005"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l401-c1",
+      "version": 1,
+      "senseId": "l401-v-1007-sense",
+      "hanzi": "按时",
+      "dictionaryPinyin": "àn shí",
+      "meaning": "đúng giờ/đúng hạn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l401-v-1007"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l401-c2",
+      "version": 1,
+      "senseId": "l401-v-1008-sense",
+      "hanzi": "按照",
+      "dictionaryPinyin": "àn zhào",
+      "meaning": "theo/chiếu theo",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l401-v-1008"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l401-c3",
+      "version": 1,
+      "senseId": "l401-v-1018-sense",
+      "hanzi": "报名",
+      "dictionaryPinyin": "bào míng",
+      "meaning": "đăng ký tham gia",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l401-v-1018"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l401-c4",
+      "version": 1,
+      "senseId": "l401-v-1033-sense",
+      "hanzi": "表",
+      "dictionaryPinyin": "biǎo",
+      "meaning": "bảng/biểu mẫu (danh từ ở bài)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l401-v-1033"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l401-c5",
+      "version": 1,
+      "senseId": "l401-v-1034-sense",
+      "hanzi": "表格",
+      "dictionaryPinyin": "biǎo gé",
+      "meaning": "bảng biểu/biểu mẫu có ô",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l401-v-1034"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l401-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 说明 shuōmíng: hướng dẫn; 填 tián: điền; 姓名 xìngmíng: họ tên; 栏 lán: cột/mục; 录取 lùqǔ: được nhận; 规则 guīzé: quy tắc. Ví dụ hư cấu, không nhập dữ liệu thật hay gửi đơn. HSK3 đã có dạy từ vựng nháp, các kỹ năng khác và duyệt ngôn ngữ vẫn thiếu. Có thể đọc lại L375 về điều kiện, L384 về lời khuyên, L357 về kế hoạch học; không tự cấp mastery.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l401-t0",
+      "type": "teaching",
+      "title": "安排 · sắp xếp/bố trí",
+      "text": "安排 là bố trí công việc/thời gian, có thể nhận tân ngữ như 时间、活动. 已安排 không tự là đã diễn ra.",
+      "hanzi": "我们先安排报名时间。",
+      "pinyin": "Wǒmen xiān ānpái bàomíng shíjiān.",
+      "meaning": "Chúng tôi sắp xếp thời gian đăng ký trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l401-t1",
+      "type": "teaching",
+      "title": "按时 · đúng giờ/đúng hạn",
+      "text": "按时 đứng trước động từ chỉ đúng thời gian đã hẹn/quy định, khác 及时 là kịp lúc ở ngữ cảnh khác. Cần biết mốc được nêu.",
+      "hanzi": "请按时来，不要迟到。",
+      "pinyin": "Qǐng ànshí lái, bú yào chídào.",
+      "meaning": "Hãy đến đúng giờ, đừng đến muộn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l401-t2",
+      "type": "teaching",
+      "title": "按照 · theo/chiếu theo",
+      "text": "按照 dẫn quy tắc/hướng dẫn làm căn cứ; không có nghĩa theo giờ như 按时. 这里按照说明是依照说明做.",
+      "hanzi": "请按照说明填表。",
+      "pinyin": "Qǐng ànzhào shuōmíng tián biǎo.",
+      "meaning": "Hãy điền mẫu theo hướng dẫn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l401-t3",
+      "type": "teaching",
+      "title": "报名 · đăng ký tham gia",
+      "text": "报名 là ghi danh hoạt động/khóa/thi, chưa chứng minh được nhận hay đã đạt. 报名参加 đi với hoạt động.",
+      "hanzi": "我想报名参加阅读活动。",
+      "pinyin": "Wǒ xiǎng bàomíng cānjiā yuèdú huódòng.",
+      "meaning": "Tôi muốn đăng ký hoạt động đọc sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l401-t4",
+      "type": "teaching",
+      "title": "表 · bảng/biểu mẫu (danh từ ở bài)",
+      "text": "表 ở 填表 là biểu mẫu để điền, khác 手表 là đồng hồ. Bài không dạy mọi nghĩa động từ của 表.",
+      "hanzi": "这张表要填姓名和日期。",
+      "pinyin": "Zhè zhāng biǎo yào tián xìngmíng hé rìqī.",
+      "meaning": "Mẫu này cần điền họ tên và ngày.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l401-t5",
+      "type": "teaching",
+      "title": "表格 · bảng biểu/biểu mẫu có ô",
+      "text": "表格 nhấn cách chia ô/hàng/cột để ghi thông tin; có thể gần 表 trong một số câu. Đề yêu cầu đúng dạng hai chữ khi truy hồi.",
+      "hanzi": "请把日期写在表格里。",
+      "pinyin": "Qǐng bǎ rìqī xiě zài biǎogé lǐ.",
+      "meaning": "Hãy viết ngày vào biểu mẫu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l401-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "按照+quy định/hướng dẫn nêu căn cứ thực hiện: 按照说明填表. Khác 按时 là đúng thời gian. 按照做了 chưa tự chứng minh thông tin đúng hay đã được duyệt.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l401-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林想报名参加阅读活动。工作人员先安排时间，请他按时来，并按照说明填表。表格里有姓名和日期两栏。小林填完后问是不是已经被录取，对方解释：现在只是收到这张表，还要按本次规则确认。",
+      "pinyin": "Xiǎo Lín xiǎng bàomíng cānjiā yuèdú huódòng. Gōngzuò rényuán xiān ānpái shíjiān, qǐng tā ànshí lái, bìng ànzhào shuōmíng tián biǎo. Biǎogé lǐ yǒu xìngmíng hé rìqī liǎng lán. Xiǎo Lín tián wán hòu wèn shì bu shì yǐjīng bèi lùqǔ, duìfāng jiěshì: Xiànzài zhǐshì shōudào zhè zhāng biǎo, hái yào àn běn cì guīzé quèrèn.",
+      "meaning": "Lâm đăng ký hoạt động đọc. Nhân viên hẹn giờ và yêu cầu điền theo hướng dẫn; mẫu có tên và ngày. Nộp xong mới là nhận mẫu, còn phải xác nhận theo quy tắc của hoạt động.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l401-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l401-v1-e0"
+    },
+    {
+      "id": "l401-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l401-v1-e1"
+    },
+    {
+      "id": "l401-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l401-v1-e2"
+    },
+    {
+      "id": "l401-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l401-v1-e3"
+    },
+    {
+      "id": "l401-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l401-v1-e4"
+    },
+    {
+      "id": "l401-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l401-v1-e5"
+    },
+    {
+      "id": "l401-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l401-v1-e6"
+    },
+    {
+      "id": "l401-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l401-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l401-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l401-c0",
+      "senseId": "l401-v-1005-sense",
+      "keyRef": "l401-v1-k0",
+      "prompt": "Động từ bố trí thời gian: 先□报名时间。",
+      "choices": [
+        "按时",
+        "按照",
+        "报名",
+        "表",
+        "表格",
+        "安排"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l401-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l401-c1",
+      "senseId": "l401-v-1007-sense",
+      "keyRef": "l401-v1-k1",
+      "prompt": "Theo đúng giờ hẹn, không trễ: 请□来。",
+      "choices": [
+        "按照",
+        "报名",
+        "表",
+        "表格",
+        "安排",
+        "按时"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l401-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l401-c2",
+      "senseId": "l401-v-1008-sense",
+      "keyRef": "l401-v1-k2",
+      "prompt": "Giới từ theo hướng dẫn: □说明填表。",
+      "choices": [
+        "报名",
+        "表",
+        "表格",
+        "安排",
+        "按时",
+        "按照"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l401-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l401-c3",
+      "senseId": "l401-v-1018-sense",
+      "keyRef": "l401-v1-k3",
+      "prompt": "Viết pinyin của 报名 trong câu “我想报名参加阅读活动。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l401-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l401-c4",
+      "senseId": "l401-v-1033-sense",
+      "keyRef": "l401-v1-k4",
+      "prompt": "Mẫu để điền thông tin, dùng mục từ một chữ của bài: 填这张□。",
+      "choices": [
+        "表格",
+        "安排",
+        "按时",
+        "按照",
+        "报名",
+        "表"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l401-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l401-c5",
+      "senseId": "l401-v-1034-sense",
+      "keyRef": "l401-v1-k5",
+      "prompt": "Đúng mục từ hai chữ chỉ bảng có ô: 写在□里。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l401-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l401-c0",
+      "senseId": "l401-v-1005-sense",
+      "keyRef": "l401-v1-k6",
+      "prompt": "Nộp biểu mẫu đã đồng nghĩa được nhận chưa?",
+      "choices": [
+        "已经自动录取",
+        "不用看规则",
+        "还要确认"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l401-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l401-c3",
+      "senseId": "l401-v-1018-sense",
+      "keyRef": "l401-v1-k7",
+      "prompt": "Xếp căn cứ làm theo, bắt đầu bằng 请.",
+      "choices": [
+        "填表",
+        "按照说明",
+        "请"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l401-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l401-v1-e0",
+      "senseId": "l401-v-1005-sense",
+      "accepted": [
+        "安排"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "安排: sắp xếp/bố trí. 安排 là bố trí công việc/thời gian, có thể nhận tân ngữ như 时间、活动. 已安排 không tự là đã diễn ra. Chúng tôi sắp xếp thời gian đăng ký trước."
+    },
+    {
+      "id": "l401-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l401-v1-e1",
+      "senseId": "l401-v-1007-sense",
+      "accepted": [
+        "按时"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "按时: đúng giờ/đúng hạn. 按时 đứng trước động từ chỉ đúng thời gian đã hẹn/quy định, khác 及时 là kịp lúc ở ngữ cảnh khác. Cần biết mốc được nêu. Hãy đến đúng giờ, đừng đến muộn."
+    },
+    {
+      "id": "l401-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l401-v1-e2",
+      "senseId": "l401-v-1008-sense",
+      "accepted": [
+        "按照"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "按照: theo/chiếu theo. 按照 dẫn quy tắc/hướng dẫn làm căn cứ; không có nghĩa theo giờ như 按时. 这里按照说明是依照说明做. Hãy điền mẫu theo hướng dẫn."
+    },
+    {
+      "id": "l401-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l401-v1-e3",
+      "senseId": "l401-v-1018-sense",
+      "accepted": [
+        "bào míng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "报名: đăng ký tham gia. 报名 là ghi danh hoạt động/khóa/thi, chưa chứng minh được nhận hay đã đạt. 报名参加 đi với hoạt động. Tôi muốn đăng ký hoạt động đọc sách."
+    },
+    {
+      "id": "l401-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l401-v1-e4",
+      "senseId": "l401-v-1033-sense",
+      "accepted": [
+        "表"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "表: bảng/biểu mẫu (danh từ ở bài). 表 ở 填表 là biểu mẫu để điền, khác 手表 là đồng hồ. Bài không dạy mọi nghĩa động từ của 表. Mẫu này cần điền họ tên và ngày."
+    },
+    {
+      "id": "l401-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l401-v1-e5",
+      "senseId": "l401-v-1034-sense",
+      "accepted": [
+        "表格"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "表格: bảng biểu/biểu mẫu có ô. 表格 nhấn cách chia ô/hàng/cột để ghi thông tin; có thể gần 表 trong một số câu. Đề yêu cầu đúng dạng hai chữ khi truy hồi. Hãy viết ngày vào biểu mẫu."
+    },
+    {
+      "id": "l401-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l401-v1-e6",
+      "senseId": "l401-v-1005-sense",
+      "accepted": [
+        "还要确认"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 按照+quy định/hướng dẫn nêu căn cứ thực hiện: 按照说明填表. Khác 按时 là đúng thời gian. 按照做了 chưa tự chứng minh thông tin đúng hay đã được duyệt."
+    },
+    {
+      "id": "l401-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l401-v1-e7",
+      "senseId": "l401-v-1018-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 按照+quy định/hướng dẫn nêu căn cứ thực hiện: 按照说明填表. Khác 按时 là đúng thời gian. 按照做了 chưa tự chứng minh thông tin đúng hay đã được duyệt."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

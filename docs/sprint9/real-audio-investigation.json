@@ -1,0 +1,367 @@
+{
+  "schema": "csh-consented-local-audio-investigation-v1",
+  "createdAt": "2026-10-19T06:50:10.368Z",
+  "sourceBase": "e0d007b31020eeca3bd6c2a42c2b1e0b45606f78",
+  "branch": "feat/v1-pronunciation-pilot",
+  "originMain": "0dc42253180ef38d1c43f1f87c9f0f675a851341",
+  "status": "PARTIAL_REAL_AUDIO_TRACKING_LIMITATION_REPRODUCED",
+  "consent": {
+    "date": "2026-10-19",
+    "scope": "Explicit owner permission to save and analyze a short voice sample locally; later supplied the original/processed pair",
+    "voiceUploaded": false,
+    "voiceInGit": false,
+    "additionalVoiceRequested": false
+  },
+  "inputSummary": {
+    "originalSeconds": 2.76,
+    "selectedSeconds": 1.3,
+    "olderUnpairedExcerptSeconds": 0.71,
+    "decodedSampleRate": 24000,
+    "clippedSampleFraction": 0,
+    "peak": 0.29008546471595764,
+    "rms": 0.02962644590691241,
+    "hardwareIdentityConfirmed": false,
+    "captureNSIndependentlyVerified": false
+  },
+  "originalFixedPolicy": [
+    {
+      "name": "CURRENT_GAUSSIAN_LOCAL_FILTER_OFF",
+      "status": "INSUFFICIENT_SIGNAL",
+      "reason": "INSUFFICIENT_PERIODIC_FRAMES",
+      "policy": "csh-pitch-observation-v3",
+      "noise": {
+        "status": "OFF",
+        "referenceMs": 0
+      },
+      "accepted": 18,
+      "total": 268,
+      "periodicHopMs": 180,
+      "energeticCoverage": 0.1651376146788991,
+      "longestConsecutiveHopMs": 140,
+      "excluded": {
+        "NOISE_REFERENCE": 0,
+        "QUIET": 159,
+        "LOW_PERIODICITY": 89,
+        "OUT_OF_RANGE": 2,
+        "OCTAVE_JUMP": 0,
+        "INVALID": 0
+      },
+      "warnings": ["INSUFFICIENT_PERIODIC_FRAMES"]
+    },
+    {
+      "name": "CURRENT_GAUSSIAN_LOCAL_FILTER_ON",
+      "status": "INSUFFICIENT_SIGNAL",
+      "reason": "INSUFFICIENT_PERIODIC_FRAMES",
+      "policy": "csh-pitch-observation-v3",
+      "noise": {
+        "status": "APPLIED",
+        "referenceMs": 300
+      },
+      "accepted": 21,
+      "total": 268,
+      "periodicHopMs": 210,
+      "energeticCoverage": 0.20192307692307693,
+      "longestConsecutiveHopMs": 140,
+      "excluded": {
+        "NOISE_REFERENCE": 26,
+        "QUIET": 138,
+        "LOW_PERIODICITY": 80,
+        "OUT_OF_RANGE": 3,
+        "OCTAVE_JUMP": 0,
+        "INVALID": 0
+      },
+      "warnings": ["INSUFFICIENT_PERIODIC_FRAMES", "AMBIGUOUS_SEGMENTATION"]
+    }
+  ],
+  "pair": {
+    "matches": {
+      "againstRaw": {
+        "normalizedCorrelation": 0.9993732607849322,
+        "offsetSeconds": 0.2,
+        "offsetSamples": 4800
+      },
+      "againstCurrentFiltered": {
+        "normalizedCorrelation": 0.9999999975606627,
+        "offsetSeconds": 0.2,
+        "offsetSamples": 4800
+      }
+    },
+    "levels": {
+      "referenceRms": 0.004809627342065709,
+      "selectedRawRms": 0.04312525832837673,
+      "selectedFilteredRms": 0.04267769925650987,
+      "differenceRms": 0.0016143261681289297,
+      "differenceRmsRelativeToSelected": 0.03743342604087525,
+      "note": "Signal-change metrics, not noise attenuation or speech SNR"
+    },
+    "originalUncropped": {
+      "status": "INSUFFICIENT_SIGNAL",
+      "accepted": 18,
+      "total": 268,
+      "energeticCoverage": 0.1651376146788991,
+      "voicedMs": 180,
+      "baselineHz": 105.1590312627287,
+      "excluded": {
+        "NOISE_REFERENCE": 0,
+        "QUIET": 159,
+        "LOW_PERIODICITY": 89,
+        "OUT_OF_RANGE": 2,
+        "OCTAVE_JUMP": 0,
+        "INVALID": 0
+      },
+      "warnings": ["INSUFFICIENT_PERIODIC_FRAMES"]
+    },
+    "sameBoundsRaw": {
+      "status": "INSUFFICIENT_SIGNAL",
+      "accepted": 18,
+      "total": 122,
+      "energeticCoverage": 0.16981132075471697,
+      "voicedMs": 180,
+      "baselineHz": 105.1590312627287,
+      "excluded": {
+        "NOISE_REFERENCE": 0,
+        "QUIET": 16,
+        "LOW_PERIODICITY": 86,
+        "OUT_OF_RANGE": 2,
+        "OCTAVE_JUMP": 0,
+        "INVALID": 0
+      },
+      "warnings": ["INSUFFICIENT_PERIODIC_FRAMES"]
+    },
+    "sameBoundsFiltered": {
+      "status": "INSUFFICIENT_SIGNAL",
+      "accepted": 20,
+      "total": 122,
+      "energeticCoverage": 0.19607843137254902,
+      "voicedMs": 200,
+      "baselineHz": 104.51936907828579,
+      "excluded": {
+        "NOISE_REFERENCE": 0,
+        "QUIET": 20,
+        "LOW_PERIODICITY": 79,
+        "OUT_OF_RANGE": 3,
+        "OCTAVE_JUMP": 0,
+        "INVALID": 0
+      },
+      "warnings": ["INSUFFICIENT_PERIODIC_FRAMES"]
+    },
+    "providedClip": {
+      "status": "INSUFFICIENT_SIGNAL",
+      "accepted": 20,
+      "total": 122,
+      "energeticCoverage": 0.19607843137254902,
+      "voicedMs": 200,
+      "baselineHz": 104.51942627387884,
+      "excluded": {
+        "NOISE_REFERENCE": 0,
+        "QUIET": 20,
+        "LOW_PERIODICITY": 79,
+        "OUT_OF_RANGE": 3,
+        "OCTAVE_JUMP": 0,
+        "INVALID": 0
+      },
+      "warnings": ["INSUFFICIENT_PERIODIC_FRAMES"]
+    }
+  },
+  "diagnosticProbes": [
+    {
+      "frameSize": 2048,
+      "windowMs": 85.33333333333333,
+      "gaussianTopHz": 1000,
+      "thresholdUnchanged": 0.9,
+      "total": 122,
+      "active": 102,
+      "kept": 20,
+      "energeticCoverage": 0.19607843137254902,
+      "longestHopMs": 140,
+      "productionChange": false
+    },
+    {
+      "frameSize": 1024,
+      "windowMs": 42.666666666666664,
+      "gaussianTopHz": 1000,
+      "thresholdUnchanged": 0.9,
+      "total": 126,
+      "active": 102,
+      "kept": 32,
+      "energeticCoverage": 0.3137254901960784,
+      "longestHopMs": 140,
+      "productionChange": false
+    },
+    {
+      "frameSize": 4096,
+      "windowMs": 170.66666666666666,
+      "gaussianTopHz": 1000,
+      "thresholdUnchanged": 0.9,
+      "total": 113,
+      "active": 100,
+      "kept": 17,
+      "energeticCoverage": 0.17,
+      "longestHopMs": 170,
+      "productionChange": false
+    },
+    {
+      "frameSize": 2048,
+      "windowMs": 85.33333333333333,
+      "gaussianTopHz": 700,
+      "thresholdUnchanged": 0.9,
+      "total": 122,
+      "active": 102,
+      "kept": 36,
+      "energeticCoverage": 0.35294117647058826,
+      "longestHopMs": 180,
+      "productionChange": false
+    },
+    {
+      "frameSize": 2048,
+      "windowMs": 85.33333333333333,
+      "gaussianTopHz": 1400,
+      "thresholdUnchanged": 0.9,
+      "total": 122,
+      "active": 102,
+      "kept": 13,
+      "energeticCoverage": 0.12745098039215685,
+      "longestHopMs": 90,
+      "productionChange": false
+    }
+  ],
+  "interpretation": {
+    "noiseSoleCauseEstablished": false,
+    "noiseAttenuationOrSNRMeasured": false,
+    "pronunciationValidated": false,
+    "hardwarePass": false,
+    "dspOrThresholdChanged": false,
+    "knownFailureResolved": false
+  },
+  "freshChecks": {
+    "unit": {
+      "tests": 81,
+      "failed": 0,
+      "path": ".local-postgres/sprint9/real-audio-investigation/unit.xml",
+      "sha256": "8d451cdff72d7899475251ee2d767cc074ad5f7b1ec628b51ccb18d0c17375bc"
+    },
+    "browser": {
+      "distinctCases": 52,
+      "retries": 0,
+      "suites": [
+        {
+          "path": ".local-postgres/sprint9/real-audio-investigation/pilot-browser.xml",
+          "sha256": "705d830153c0bda401929f86058e60e4b61a266bbc471abb70233dbca6c48a68",
+          "tests": 8,
+          "failed": 0,
+          "skipped": 0
+        },
+        {
+          "path": ".local-postgres/sprint9/real-audio-investigation/acoustic-browser.xml",
+          "sha256": "0499f28cf11c820367ad800c86dd836f96aad3d14f3e699ce7634ad93f128fba",
+          "tests": 18,
+          "failed": 0,
+          "skipped": 0
+        },
+        {
+          "path": ".local-postgres/sprint9/real-audio-investigation/recorder-desktop.xml",
+          "sha256": "c46a648a7b48a05092dda162bfb1ccf30740b603e6e94bb3df0b71fb82d6838f",
+          "tests": 2,
+          "failed": 0,
+          "skipped": 0
+        },
+        {
+          "path": ".local-postgres/sprint9/real-audio-investigation/recorder-mobile.xml",
+          "sha256": "e17aa62440af21a48ef39936e9a589275329e43e551de86d987a77b9be983502",
+          "tests": 2,
+          "failed": 0,
+          "skipped": 0
+        },
+        {
+          "path": ".local-postgres/sprint9/real-audio-investigation/production-browser.xml",
+          "sha256": "29b63de648e40ad47b4386a8d41f40a313c4db83f2b8d6accf915902217ce7b0",
+          "tests": 22,
+          "failed": 0,
+          "skipped": 0
+        }
+      ]
+    },
+    "static": [
+      {
+        "name": "lint",
+        "result": "PASS",
+        "log": ".local-postgres/sprint9/real-audio-investigation/lint.log",
+        "sha256": "d2246b046ac72a5146dfff03bb52c140232287592ad9a829a65c8e5759484d55"
+      },
+      {
+        "name": "typecheck",
+        "result": "PASS",
+        "log": ".local-postgres/sprint9/real-audio-investigation/typecheck.log",
+        "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914"
+      },
+      {
+        "name": "format",
+        "result": "PASS",
+        "log": ".local-postgres/sprint9/real-audio-investigation/format.log",
+        "sha256": "3443897b7d89155994e838066b1553e02a1cdc22ecfb4ebbc740e4b2b38c3555"
+      },
+      {
+        "name": "build",
+        "result": "PASS",
+        "log": ".local-postgres/sprint9/real-audio-investigation/build.log",
+        "sha256": "9e8db9bc9a661cc645358caae7c71ec710cee725044a464628e993b6ca39177d"
+      }
+    ],
+    "preservation": {
+      "result": "PASS_ORIGINAL_26_TABLE_ROWS_RETAINED_8_CONTENT_TABLES_IDENTICAL",
+      "path": ".local-postgres/sprint9/real-audio-investigation/preservation.log",
+      "sha256": "03bba912f54b4f5183c6cdf9f4a5cb0d70a8158a3eface1a7b7f0b9ef3567e5c"
+    },
+    "databaseIntegration": "41 checks are historical baseline; not rerun for this UI-only change"
+  },
+  "privateNumericReportHashes": {
+    "originalAnalysis": "7302261ea56aa875221b228fd42ea962981e27559bdad8a9a60747b56557dcbf",
+    "pairComparison": "c9d4d15bbe177c121212b967e2ffc15ea321eb2e0c00f46546073371b4309a8d",
+    "diagnosticProbe": "e59958c60c416531f4ad5a429079b18800f572792ec253d54fc6ffda73a698ea"
+  },
+  "sourceFiles": [
+    {
+      "path": "src/modules/pronunciation/ui/practice-recorder.tsx",
+      "sha256": "efc1fe3f40fed749817bd573a5e4fce36eccd13269d09c8aea4dd16bf13b0c3f"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/feedback.ts",
+      "sha256": "124b0e22001363917aca574bccffe7ef0ed761e0bb64bff1e19dce353ea68ae9"
+    },
+    {
+      "path": "tests/sprint9-browser/pilot.spec.ts",
+      "sha256": "0f743ee12886bd39f557706a1bb764dddcc41bc7d768625f9bc760b3048a86fd"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/acoustic-engine.ts",
+      "sha256": "4396114cf2a5c87c340789e60f2c7d4d70afed850119ad042044e40e95db4efd"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/acoustic-types.ts",
+      "sha256": "cbbabdf871e83f499646e37703b4a3a445e646b9bd4d1f0fc57a244c0a832c9b"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/pitch-conditioning.ts",
+      "sha256": "1a5bf31a3007cc4b5bb3824b59d1f691a60f04feb09a761c35e5ff6207609809"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/noise-reduction.ts",
+      "sha256": "3d2c811ec8c0a1648a0b461b354caf276fc52bcc8af68b41f67559cca80f846a"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/utterance-playback.ts",
+      "sha256": "6ba33962896ba405d957e6e256bfae0d281ee5785b1ab8a2d77d20ab7488b1f2"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/tone-feedback.ts",
+      "sha256": "3f4cd29b8b3c83741f5a0fee90729208ac5b982b62c1b7970d8a98034471a9c9"
+    }
+  ],
+  "hashScope": "SHA-256 of current on-disk bytes, not Git blob hashes. Source base plus listed changes; no self-referential final commit hash.",
+  "automatedLimits": [
+    "Generated audio through actual MediaRecorder/decoder/worker is not physical microphone evidence",
+    "360px emulation is not an Android hardware trial",
+    "No real-voice fixture in the automated suites",
+    "One consented input does not validate general phonetic accuracy"
+  ]
+}

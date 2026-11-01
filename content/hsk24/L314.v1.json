@@ -1,0 +1,849 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "3018c6e1ede5f04ba52c16f78cd29d6a0739c3775a015754aea02f0fb8965177",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-time-sequence",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L314",
+    "version": 1,
+    "versionId": "l314-draft-v1",
+    "title": "Kể tiến trình chờ một cuộc gọi",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân biệt thời điểm vừa qua, khoảng kéo dài, việc sắp làm và kết thúc mong đợi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "从……起"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-errands",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "交流、处理日常事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-errands",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "日常生活 / 日常事务 / 事务处理"
+        },
+        "written": "事务处理",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l314-v-641",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 641"
+        },
+        "written": "刚",
+        "pinyin": "gāng",
+        "senseId": "l314-v-641-sense",
+        "ordinal": 641,
+        "note": "3 gāng 副; 刚 đứng trước động từ như 刚到. Không thay trực tiếp mọi vị trí danh từ thời gian của 刚才; 刚以后 không dùng trong mẫu đang học. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l314-v-642",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 642"
+        },
+        "written": "刚才",
+        "pinyin": "gāngcái",
+        "senseId": "l314-v-642-sense",
+        "ordinal": 642,
+        "note": "3 gāngcái 名; 刚才 chỉ thời gian vừa qua; có thể ở đầu câu. 刚才有人找你 kể có người tìm lúc nãy, không phải sắp tìm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l314-v-934",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 934"
+        },
+        "written": "一直",
+        "pinyin": "yìzhí",
+        "senseId": "l314-v-934-sense",
+        "ordinal": 934,
+        "note": "3 yìzhí 副; 一直 nêu sự kéo dài hoặc không gián đoạn theo khoảng đang nói. 一直等 nêu chờ suốt; không tự đưa số phút chính xác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l314-v-766",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 766"
+        },
+        "written": "马上",
+        "pinyin": "mǎshàng",
+        "senseId": "l314-v-766-sense",
+        "ordinal": 766,
+        "note": "3 mǎshàng 副; 马上 diễn tả hành động sắp làm rất gần theo lời nói. Không dùng để chứng minh việc đã hoàn tất hoặc hứa độ trễ chính xác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l314-v-671",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 671"
+        },
+        "written": "后来",
+        "pinyin": "hòulái",
+        "senseId": "l314-v-671-sense",
+        "ordinal": 671,
+        "note": "3 hòulái 名; 后来 dùng kể diễn biến sau một mốc đã qua. Không dùng như lời hẹn tương lai theo mẫu 明天后来. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l314-v-983",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 983"
+        },
+        "written": "终于",
+        "pinyin": "zhōngyú",
+        "senseId": "l314-v-983-sense",
+        "ordinal": 983,
+        "note": "3 zhōngyú 副; 终于 nêu kết thúc sau chờ đợi hoặc cố gắng theo ngữ cảnh, thường có sắc thái mong đợi. 不只是排列最后一项; không chỉ liệt kê mục cuối. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l314-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "hỗ trợ trong ngữ cảnh",
+        "pinyin": "",
+        "senseId": "l314-extra0-sense",
+        "ordinal": null,
+        "note": "接到 jiē dào: nhận được; 见面 jiànmiàn: gặp mặt; 从…起: từ lúc…trở đi. Các mốc của chuyện là hư cấu, không phải lịch hẹn thật."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-67",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "67"
+        },
+        "written": "刚",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 67,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-18",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "18"
+        },
+        "written": "才",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 18,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-275",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "275"
+        },
+        "written": "直",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 275,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-149",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "149"
+        },
+        "written": "马",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 149,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-277",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "277"
+        },
+        "written": "终",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 277,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-259",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "259"
+        },
+        "written": "于",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 259,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-g-from-time",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定格式 / 从……起"
+        },
+        "written": "从……起",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l314-c0",
+      "version": 1,
+      "senseId": "l314-v-641-sense",
+      "hanzi": "刚",
+      "dictionaryPinyin": "gāng",
+      "meaning": "vừa mới",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l314-v-641"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l314-c1",
+      "version": 1,
+      "senseId": "l314-v-642-sense",
+      "hanzi": "刚才",
+      "dictionaryPinyin": "gāng cái",
+      "meaning": "lúc nãy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l314-v-642"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l314-c2",
+      "version": 1,
+      "senseId": "l314-v-934-sense",
+      "hanzi": "一直",
+      "dictionaryPinyin": "yì zhí",
+      "meaning": "suốt/liên tục",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l314-v-934"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l314-c3",
+      "version": 1,
+      "senseId": "l314-v-766-sense",
+      "hanzi": "马上",
+      "dictionaryPinyin": "mǎ shàng",
+      "meaning": "ngay/sắp ngay",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l314-v-766"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l314-c4",
+      "version": 1,
+      "senseId": "l314-v-671-sense",
+      "hanzi": "后来",
+      "dictionaryPinyin": "hòu lái",
+      "meaning": "sau đó/về sau",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l314-v-671"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l314-c5",
+      "version": 1,
+      "senseId": "l314-v-983-sense",
+      "hanzi": "终于",
+      "dictionaryPinyin": "zhōng yú",
+      "meaning": "cuối cùng cũng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l314-v-983"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l314-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Nhắc thời gian, chủ ngữ–động từ–tân ngữ, 的 và câu hỏi cơ bản. HSK1/2 prerequisite vẫn chưa được xác nhận. 接到 jiē dào: nhận được; 见面 jiànmiàn: gặp mặt; 从…起: từ lúc…trở đi. Các mốc của chuyện là hư cấu, không phải lịch hẹn thật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l314-t0",
+      "type": "teaching",
+      "title": "刚 · vừa mới",
+      "text": "刚 đứng trước động từ như 刚到. Không thay trực tiếp mọi vị trí danh từ thời gian của 刚才; 刚以后 không dùng trong mẫu đang học.",
+      "hanzi": "我刚到家。",
+      "pinyin": "Wǒ gāng dào jiā.",
+      "meaning": "Tôi vừa về tới nhà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l314-t1",
+      "type": "teaching",
+      "title": "刚才 · lúc nãy",
+      "text": "刚才 chỉ thời gian vừa qua; có thể ở đầu câu. 刚才有人找你 kể có người tìm lúc nãy, không phải sắp tìm.",
+      "hanzi": "刚才有人给你打电话。",
+      "pinyin": "Gāngcái yǒu rén gěi nǐ dǎ diànhuà.",
+      "meaning": "Lúc nãy có người gọi bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l314-t2",
+      "type": "teaching",
+      "title": "一直 · suốt/liên tục",
+      "text": "一直 nêu sự kéo dài hoặc không gián đoạn theo khoảng đang nói. 一直等 nêu chờ suốt; không tự đưa số phút chính xác.",
+      "hanzi": "从早上起，我一直在等电话。",
+      "pinyin": "Cóng zǎoshang qǐ, wǒ yìzhí zài děng diànhuà.",
+      "meaning": "Từ sáng tôi chờ điện thoại suốt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l314-t3",
+      "type": "teaching",
+      "title": "马上 · ngay/sắp ngay",
+      "text": "马上 diễn tả hành động sắp làm rất gần theo lời nói. Không dùng để chứng minh việc đã hoàn tất hoặc hứa độ trễ chính xác.",
+      "hanzi": "我马上给他打电话。",
+      "pinyin": "Wǒ mǎshàng gěi tā dǎ diànhuà.",
+      "meaning": "Tôi sẽ gọi anh ấy ngay.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l314-t4",
+      "type": "teaching",
+      "title": "后来 · sau đó/về sau",
+      "text": "后来 dùng kể diễn biến sau một mốc đã qua. Không dùng như lời hẹn tương lai theo mẫu 明天后来.",
+      "hanzi": "我先去车站，后来又回家了。",
+      "pinyin": "Wǒ xiān qù chēzhàn, hòulái yòu huí jiā le.",
+      "meaning": "Tôi đi ga trước, sau đó lại về nhà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l314-t5",
+      "type": "teaching",
+      "title": "终于 · cuối cùng cũng",
+      "text": "终于 nêu kết thúc sau chờ đợi hoặc cố gắng theo ngữ cảnh, thường có sắc thái mong đợi. 不只是排列最后一项; không chỉ liệt kê mục cuối.",
+      "hanzi": "等了很久，我终于接到电话了。",
+      "pinyin": "Děng le hěn jiǔ, wǒ zhōngyú jiē dào diànhuà le.",
+      "meaning": "Chờ lâu rồi cuối cùng tôi cũng nhận được cuộc gọi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l314-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "从早上起 xác định mốc bắt đầu. 一直 nêu khoảng liên tục từ mốc đó. 刚 là phó từ trước động từ; 刚才 là danh từ thời gian có thể làm chủ đề. 马上 hướng tới việc sắp làm; 后来 kể tiếp chuyện đã qua; 终于 nhấn kết thúc sau chờ đợi.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l314-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小安：从早上起，我一直在等电话。小李：刚才有人找你，你不在。小安：我刚回来，马上给他打电话。后来，小安终于接到了朋友的电话，知道明天在哪儿见面。",
+      "pinyin": "Xiǎo Ān: Cóng zǎoshang qǐ, wǒ yìzhí zài děng diànhuà. Xiǎo Lǐ: Gāngcái yǒu rén zhǎo nǐ, nǐ bú zài. Xiǎo Ān: Wǒ gāng huílái, mǎshàng gěi tā dǎ diànhuà. Hòulái, Xiǎo Ān zhōngyú jiē dào le péngyou de diànhuà, zhīdào míngtiān zài nǎr jiànmiàn.",
+      "meaning": "An chờ điện thoại từ sáng. Lý nói lúc nãy có người tìm khi An vắng. An vừa về và sẽ gọi ngay. Về sau An cuối cùng nhận cuộc gọi của bạn và biết chỗ gặp ngày mai.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l314-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l314-v1-e0"
+    },
+    {
+      "id": "l314-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l314-v1-e1"
+    },
+    {
+      "id": "l314-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l314-v1-e2"
+    },
+    {
+      "id": "l314-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l314-v1-e3"
+    },
+    {
+      "id": "l314-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l314-v1-e4"
+    },
+    {
+      "id": "l314-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l314-v1-e5"
+    },
+    {
+      "id": "l314-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l314-v1-e6"
+    },
+    {
+      "id": "l314-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l314-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l314-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l314-c0",
+      "senseId": "l314-v-641-sense",
+      "keyRef": "l314-v1-k0",
+      "prompt": "Bạn vừa tới, cần phó từ trực tiếp trước 到，不 phải danh ngữ thời gian: 我□到.",
+      "choices": [
+        "刚才",
+        "一直",
+        "马上",
+        "后来",
+        "终于",
+        "刚"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l314-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l314-c1",
+      "senseId": "l314-v-642-sense",
+      "keyRef": "l314-v1-k1",
+      "prompt": "Đặt danh từ thời gian lúc nãy ở đầu câu: □有人找你.",
+      "choices": [
+        "一直",
+        "马上",
+        "后来",
+        "终于",
+        "刚",
+        "刚才"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l314-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l314-c2",
+      "senseId": "l314-v-934-sense",
+      "keyRef": "l314-v1-k2",
+      "prompt": "Chờ liên tục từ sáng: 从早上起，我□在等.",
+      "choices": [
+        "马上",
+        "后来",
+        "终于",
+        "刚",
+        "刚才",
+        "一直"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l314-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l314-c3",
+      "senseId": "l314-v-766-sense",
+      "keyRef": "l314-v1-k3",
+      "prompt": "Viết pinyin của 马上 trong nghĩa “ngay/sắp ngay”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l314-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l314-c4",
+      "senseId": "l314-v-671-sense",
+      "keyRef": "l314-v1-k4",
+      "prompt": "Bạn kể phần tiếp theo của một câu chuyện đã qua, không phải hẹn giờ mai. Chọn từ sau đó.",
+      "choices": [
+        "终于",
+        "刚",
+        "刚才",
+        "一直",
+        "马上",
+        "后来"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l314-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l314-c5",
+      "senseId": "l314-v-983-sense",
+      "keyRef": "l314-v1-k5",
+      "prompt": "Viết “Cuối cùng tôi cũng về tới nhà” theo mẫu 我 + từ cuối cùng-cũng + 到家了.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l314-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l314-c0",
+      "senseId": "l314-v-641-sense",
+      "keyRef": "l314-v1-k6",
+      "prompt": "刚才 trong lời Lý nói chỉ gì?",
+      "choices": [
+        "Việc An hứa sẽ gọi sắp tới",
+        "Ngày mai hai người gặp nhau",
+        "Thời gian người khác tìm An khi An vắng"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l314-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l314-c3",
+      "senseId": "l314-v-766-sense",
+      "keyRef": "l314-v1-k7",
+      "prompt": "Sắp xếp mốc và sự kéo dài.",
+      "choices": [
+        "一直在等电话",
+        "我",
+        "从早上起"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l314-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l314-v1-e0",
+      "senseId": "l314-v-641-sense",
+      "accepted": [
+        "刚"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "刚 đứng trước động từ như 刚到. Không thay trực tiếp mọi vị trí danh từ thời gian của 刚才; 刚以后 không dùng trong mẫu đang học."
+    },
+    {
+      "id": "l314-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l314-v1-e1",
+      "senseId": "l314-v-642-sense",
+      "accepted": [
+        "刚才"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "刚才 chỉ thời gian vừa qua; có thể ở đầu câu. 刚才有人找你 kể có người tìm lúc nãy, không phải sắp tìm."
+    },
+    {
+      "id": "l314-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l314-v1-e2",
+      "senseId": "l314-v-934-sense",
+      "accepted": [
+        "一直"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一直 nêu sự kéo dài hoặc không gián đoạn theo khoảng đang nói. 一直等 nêu chờ suốt; không tự đưa số phút chính xác."
+    },
+    {
+      "id": "l314-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l314-v1-e3",
+      "senseId": "l314-v-766-sense",
+      "accepted": [
+        "mǎ shàng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "马上 diễn tả hành động sắp làm rất gần theo lời nói. Không dùng để chứng minh việc đã hoàn tất hoặc hứa độ trễ chính xác."
+    },
+    {
+      "id": "l314-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l314-v1-e4",
+      "senseId": "l314-v-671-sense",
+      "accepted": [
+        "后来"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "后来 dùng kể diễn biến sau một mốc đã qua. Không dùng như lời hẹn tương lai theo mẫu 明天后来."
+    },
+    {
+      "id": "l314-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l314-v1-e5",
+      "senseId": "l314-v-983-sense",
+      "accepted": [
+        "我终于到家了"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "终于 diễn đạt kết thúc sau chờ/cố gắng theo ngữ cảnh, không cam kết thời gian."
+    },
+    {
+      "id": "l314-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l314-v1-e6",
+      "senseId": "l314-v-641-sense",
+      "accepted": [
+        "Thời gian người khác tìm An khi An vắng"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "刚才 nói lúc nãy; 马上 mới chỉ việc sắp làm."
+    },
+    {
+      "id": "l314-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l314-v1-e7",
+      "senseId": "l314-v-766-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 从早上起 xác định mốc bắt đầu. 一直 nêu khoảng liên tục từ mốc đó. 刚 là phó từ trước động từ; 刚才 là danh từ thời gian có thể làm chủ đề. 马上 hướng tới việc sắp làm; 后来 kể tiếp chuyện đã qua; 终于 nhấn kết thúc sau chờ đợi."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

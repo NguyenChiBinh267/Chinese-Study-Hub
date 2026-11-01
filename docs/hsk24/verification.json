@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "status": "HSK24_EPIC_PARTIAL",
+  "scope": "LOCAL_DEVELOPMENT_IDENTITY_AND_ISOLATED_POSTGRESQL_ONLY",
+  "checkedAt": "2026-10-23T11:17:54.956Z",
+  "sourcePdf": {
+    "sha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "pages": 406,
+    "checkedBatchReferences": 18,
+    "vocabularyLocatorRows": 2000
+  },
+  "packages": [
+    {
+      "file": "L201.v1.json",
+      "versionId": "l201-draft-v1",
+      "sha256": "73f559e0227ba706b64987dff1feda1da82c870deac33caf4699b1d7eac75a8a"
+    },
+    {
+      "file": "L202.v1.json",
+      "versionId": "l202-draft-v1",
+      "sha256": "bab55e0f3875eea6231717816ae49041a1fc5954044751aebd67bd39e8694d24"
+    }
+  ],
+  "tests": {
+    "unit": {
+      "passed": 117,
+      "failed": 0,
+      "command": "node node_modules/tsx/dist/cli.mjs --test tests/unit/*.test.ts",
+      "log": ".local-postgres/hsk24/unit.log"
+    },
+    "sql": {
+      "passed": 3,
+      "failed": 0,
+      "command": "node node_modules/tsx/dist/cli.mjs --test tests/database/hsk24.test.ts",
+      "log": ".local-postgres/hsk24/sql.log"
+    },
+    "securityChecks": [
+      "runtime-role-and-19-force-rls",
+      "learning-denied-before-proof",
+      "private-manifest-proof-and-ddl-denied",
+      "cross-owner-rls-isolation",
+      "migration-bound-proof-accepted"
+    ],
+    "browser": {
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "projects": [
+        "desktop",
+        "mobile360"
+      ],
+      "durationMs": 109510,
+      "command": "node node_modules/@playwright/test/cli.js test --config playwright.hsk24.config.ts",
+      "report": ".local-postgres/hsk24/browser.json",
+      "includes": [
+        "both real lessons",
+        "saved resume",
+        "choice/pinyin/sequence/short",
+        "keyboard sequence controls",
+        "completion",
+        "course progress",
+        "zero independent mastery",
+        "WCAG axe checks",
+        "360px width"
+      ]
+    },
+    "productionBuild": {
+      "passed": true,
+      "command": "CSH_CLOUD_GATE_VERIFY_BUILD=1 npm run build",
+      "log": ".local-postgres/hsk24/build.log"
+    },
+    "clientMarkerScan": {
+      "files": 31,
+      "failures": 0,
+      "report": ".local-postgres/hsk24/client-scan.json",
+      "scope": "Bounded forbidden key-field and server-role marker scan; not a formal security proof"
+    }
+  },
+  "failedAttempts": [
+    "PDF parser initially missed repeated POS level parentheses; corrected and all four entry counts asserted",
+    "Regression initially omitted SOURCE_LEVEL on relabeled HSK1 reference; repaired",
+    "First mobile run expected start despite persisted desktop completion; corrected test to exercise replay on same sandbox owner"
+  ],
+  "database": {
+    "migrationChanges": 0,
+    "existingOwnerHistoryModified": false,
+    "cloudDataModified": false,
+    "sandboxDatabase": "csh_hsk24_4ff68c3fb92b",
+    "retainedEarlierSandboxes": true
+  },
+  "review": {
+    "qualifiedHumanLanguageReview": false,
+    "publicationApproval": false,
+    "exactShaTechnicalReview": "SEPARATE_READ_ONLY_REVIEWER_IN_CHAT"
+  },
+  "pending": [
+    "qualified human language/key review",
+    "rights/publication decision",
+    "reference listening audio",
+    "complete five-dimensional denominators",
+    "comprehensive HSK1 foundations",
+    "new-content authenticated GoTrue journey",
+    "new-content Today-to-player end-to-end",
+    "large-corpus performance/backup-restore testing"
+  ],
+  "previewUrl": "http://127.0.0.1:3024/learn/courses/HSK2",
+  "deployment": {
+    "pushed": false,
+    "merged": false,
+    "deployed": false,
+    "onlineAllowlistChanged": false
+  }
+}

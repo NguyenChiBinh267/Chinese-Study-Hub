@@ -1,0 +1,782 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "6217ec3c4ed40592ffa3d6f0ee030572cc4c7ac2125914d9a935ad42d8e26be1",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-duration-small-money",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L348",
+    "version": 1,
+    "versionId": "l348-draft-v1",
+    "title": "Thời lượng và tiền lẻ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc nửa ngày, một lúc lâu và đơn vị tiền trong giá niêm yết.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "刻"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-daily",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "交流、处理日常事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-daily-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "事务处理"
+        },
+        "written": "事务处理",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l348-v-513",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 513"
+        },
+        "written": "半天",
+        "pinyin": "bàntiān",
+        "senseId": "l348-v-513-sense",
+        "ordinal": 513,
+        "note": "3 bàntiān 数量; 半天 có thể là nửa ngày hoặc “mãi/lâu” theo khẩu ngữ; phải dựa câu. 学了半天 ở lịch buổi sáng là học nửa ngày trong bài. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l348-v-719",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 719"
+        },
+        "written": "久",
+        "pinyin": "jiǔ",
+        "senseId": "l348-v-719-sense",
+        "ordinal": 719,
+        "note": "3 jiǔ 形; 久 nói thời gian dài, không đo độ dài đồ vật. 等了很久 là đã chờ lâu, chưa có số phút chính xác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l348-v-663",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 663"
+        },
+        "written": "好多",
+        "pinyin": "hǎoduō",
+        "senseId": "l348-v-663-sense",
+        "ordinal": 663,
+        "note": "3 hǎoduō 数; 好多 là nhiều trong khẩu ngữ, không nêu số chính xác. 好多人 nêu nhiều người, không phải “người tốt”. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l348-v-664",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 664"
+        },
+        "written": "好久",
+        "pinyin": "hǎojiǔ",
+        "senseId": "l348-v-664-sense",
+        "ordinal": 664,
+        "note": "3 hǎojiǔ 形; 好久 nhấn mạnh lâu, 常 dùng 好久不见 là lâu không gặp. Đây không phải thời gian tốt theo nghĩa từng chữ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l348-v-735",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 735"
+        },
+        "written": "刻",
+        "pinyin": "kè",
+        "senseId": "l348-v-735-sense",
+        "ordinal": 735,
+        "note": "3（5） kè 量、（动）; 刻 trong 一刻钟 là mười lăm phút; chưa dạy nghĩa khắc/chạm. 三点一刻 không phải ba giờ một phút. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l348-v-704",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 704"
+        },
+        "written": "角",
+        "pinyin": "jiǎo",
+        "senseId": "l348-v-704-sense",
+        "ordinal": 704,
+        "note": "3 jiǎo 量; 角 trong giá tiền là một phần mười 元, cùng giá trị đơn vị 毛 khẩu ngữ; khác 角 ở hình học hay vai diễn, chưa học ở đây. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-120",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "120"
+        },
+        "written": "久",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 120,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-129",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "129"
+        },
+        "written": "刻",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 129,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-105",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "105"
+        },
+        "written": "角",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 105,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-time-measure",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "量词 / 公斤斤角毛刻米"
+        },
+        "written": "刻",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l348-c0",
+      "version": 1,
+      "senseId": "l348-v-513-sense",
+      "hanzi": "半天",
+      "dictionaryPinyin": "bàn tiān",
+      "meaning": "nửa ngày; lâu theo khẩu ngữ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l348-v-513"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l348-c1",
+      "version": 1,
+      "senseId": "l348-v-719-sense",
+      "hanzi": "久",
+      "dictionaryPinyin": "jiǔ",
+      "meaning": "lâu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l348-v-719"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l348-c2",
+      "version": 1,
+      "senseId": "l348-v-663-sense",
+      "hanzi": "好多",
+      "dictionaryPinyin": "hǎo duō",
+      "meaning": "rất nhiều",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l348-v-663"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l348-c3",
+      "version": 1,
+      "senseId": "l348-v-664-sense",
+      "hanzi": "好久",
+      "dictionaryPinyin": "hǎo jiǔ",
+      "meaning": "rất lâu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l348-v-664"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l348-c4",
+      "version": 1,
+      "senseId": "l348-v-735-sense",
+      "hanzi": "刻",
+      "dictionaryPinyin": "kè",
+      "meaning": "một phần tư giờ; khắc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l348-v-735"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l348-c5",
+      "version": 1,
+      "senseId": "l348-v-704-sense",
+      "hanzi": "角",
+      "dictionaryPinyin": "jiǎo",
+      "meaning": "hào; 1/10 nhân dân tệ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l348-v-704"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l348-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 钟 zhōng: đồng hồ; 隔 gé: cách một khoảng; 才 cái: mãi/mới theo ngữ cảnh. Giá chỉ là dữ liệu hư cấu để đọc từ, không phải báo giá thị trường.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l348-t0",
+      "type": "teaching",
+      "title": "半天 · nửa ngày; lâu theo khẩu ngữ",
+      "text": "半天 có thể là nửa ngày hoặc “mãi/lâu” theo khẩu ngữ; phải dựa câu. 学了半天 ở lịch buổi sáng là học nửa ngày trong bài.",
+      "hanzi": "我们上午学了半天。",
+      "pinyin": "Wǒmen shàngwǔ xué le bàntiān.",
+      "meaning": "Chúng tôi học nửa ngày vào buổi sáng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l348-t1",
+      "type": "teaching",
+      "title": "久 · lâu",
+      "text": "久 nói thời gian dài, không đo độ dài đồ vật. 等了很久 là đã chờ lâu, chưa có số phút chính xác.",
+      "hanzi": "我在这里等了很久。",
+      "pinyin": "Wǒ zài zhèlǐ děng le hěn jiǔ.",
+      "meaning": "Tôi đã chờ ở đây lâu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l348-t2",
+      "type": "teaching",
+      "title": "好多 · rất nhiều",
+      "text": "好多 là nhiều trong khẩu ngữ, không nêu số chính xác. 好多人 nêu nhiều người, không phải “người tốt”.",
+      "hanzi": "今天来了好多人。",
+      "pinyin": "Jīntiān lái le hǎoduō rén.",
+      "meaning": "Hôm nay có rất nhiều người đến.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l348-t3",
+      "type": "teaching",
+      "title": "好久 · rất lâu",
+      "text": "好久 nhấn mạnh lâu, 常 dùng 好久不见 là lâu không gặp. Đây không phải thời gian tốt theo nghĩa từng chữ.",
+      "hanzi": "我们好久不见了。",
+      "pinyin": "Wǒmen hǎojiǔ bú jiàn le.",
+      "meaning": "Chúng ta lâu không gặp rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l348-t4",
+      "type": "teaching",
+      "title": "刻 · một phần tư giờ; khắc",
+      "text": "刻 trong 一刻钟 là mười lăm phút; chưa dạy nghĩa khắc/chạm. 三点一刻 không phải ba giờ một phút.",
+      "hanzi": "现在是三点一刻。",
+      "pinyin": "Xiànzài shì sān diǎn yí kè.",
+      "meaning": "Bây giờ là ba giờ mười lăm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l348-t5",
+      "type": "teaching",
+      "title": "角 · hào; 1/10 nhân dân tệ",
+      "text": "角 trong giá tiền là một phần mười 元, cùng giá trị đơn vị 毛 khẩu ngữ; khác 角 ở hình học hay vai diễn, chưa học ở đây.",
+      "hanzi": "这张纸两角钱。",
+      "pinyin": "Zhè zhāng zhǐ liǎng jiǎo qián.",
+      "meaning": "Tờ giấy này giá hai hào.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l348-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "一刻钟 là mười lăm phút; 三点一刻 là ba giờ mười lăm. 毛/角 là một phần mười 元 trong hệ tiền đang mô tả; 不 phải mọi “毛” đều chỉ tiền. Bài luyện đọc đơn vị, không giao dịch.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l348-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林学了半天，下午去买纸。店里有好多人，他觉得等了好久，看钟才知道只过了一刻钟。纸的价格写着每张两角。他跟朋友说好久不见，没有说他们只隔了十五分钟。",
+      "pinyin": "Xiǎo Lín xué le bàntiān, xiàwǔ qù mǎi zhǐ. Diàn lǐ yǒu hǎoduō rén, tā juéde děng le hǎojiǔ, kàn zhōng cái zhīdào zhǐ guò le yí kè zhōng. Zhǐ de jiàgé xiě zhe měi zhāng liǎng jiǎo. Tā gēn péngyou shuō hǎojiǔ bú jiàn, méiyǒu shuō tāmen zhǐ gé le shíwǔ fēnzhōng.",
+      "meaning": "Lâm học nửa ngày rồi mua giấy. Cửa hàng đông, cảm thấy chờ lâu nhưng mới mười lăm phút. Giấy ghi giá hai hào một tờ; lời “lâu không gặp” là chuyện khác.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l348-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l348-v1-e0"
+    },
+    {
+      "id": "l348-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l348-v1-e1"
+    },
+    {
+      "id": "l348-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l348-v1-e2"
+    },
+    {
+      "id": "l348-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l348-v1-e3"
+    },
+    {
+      "id": "l348-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l348-v1-e4"
+    },
+    {
+      "id": "l348-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l348-v1-e5"
+    },
+    {
+      "id": "l348-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l348-v1-e6"
+    },
+    {
+      "id": "l348-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l348-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l348-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l348-c0",
+      "senseId": "l348-v-513-sense",
+      "keyRef": "l348-v1-k0",
+      "prompt": "Theo lịch buổi sáng, thời lượng nửa ngày: 学了□。",
+      "choices": [
+        "久",
+        "好多",
+        "好久",
+        "刻",
+        "角",
+        "半天"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l348-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l348-c1",
+      "senseId": "l348-v-719-sense",
+      "keyRef": "l348-v1-k1",
+      "prompt": "Độ dài thời gian chờ: 等了很□。",
+      "choices": [
+        "好多",
+        "好久",
+        "刻",
+        "角",
+        "半天",
+        "久"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l348-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l348-c2",
+      "senseId": "l348-v-663-sense",
+      "keyRef": "l348-v1-k2",
+      "prompt": "Nêu số lượng đông chưa xác định: 来了□人。",
+      "choices": [
+        "好久",
+        "刻",
+        "角",
+        "半天",
+        "久",
+        "好多"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l348-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l348-c3",
+      "senseId": "l348-v-664-sense",
+      "keyRef": "l348-v1-k3",
+      "prompt": "Viết pinyin của 好久 trong câu “我们好久不见了。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l348-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l348-c4",
+      "senseId": "l348-v-735-sense",
+      "keyRef": "l348-v1-k4",
+      "prompt": "Đơn vị một phần tư giờ: 一□钟。",
+      "choices": [
+        "角",
+        "半天",
+        "久",
+        "好多",
+        "好久",
+        "刻"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l348-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l348-c5",
+      "senseId": "l348-v-704-sense",
+      "keyRef": "l348-v1-k5",
+      "prompt": "Đơn vị tiền bằng 1/10 元 theo nhãn, dùng chữ chính thức: 两□钱。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l348-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l348-c0",
+      "senseId": "l348-v-513-sense",
+      "keyRef": "l348-v1-k6",
+      "prompt": "Lâm đã chờ bao lâu theo đồng hồ?",
+      "choices": [
+        "半天",
+        "两角",
+        "一刻钟"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l348-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l348-c3",
+      "senseId": "l348-v-664-sense",
+      "keyRef": "l348-v1-k7",
+      "prompt": "Xếp thời gian đồng hồ, bắt đầu bằng 现在是.",
+      "choices": [
+        "三点一刻",
+        "现在是"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l348-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l348-v1-e0",
+      "senseId": "l348-v-513-sense",
+      "accepted": [
+        "半天"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "半天: nửa ngày; lâu theo khẩu ngữ. 半天 có thể là nửa ngày hoặc “mãi/lâu” theo khẩu ngữ; phải dựa câu. 学了半天 ở lịch buổi sáng là học nửa ngày trong bài. Chúng tôi học nửa ngày vào buổi sáng."
+    },
+    {
+      "id": "l348-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l348-v1-e1",
+      "senseId": "l348-v-719-sense",
+      "accepted": [
+        "久"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "久: lâu. 久 nói thời gian dài, không đo độ dài đồ vật. 等了很久 là đã chờ lâu, chưa có số phút chính xác. Tôi đã chờ ở đây lâu."
+    },
+    {
+      "id": "l348-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l348-v1-e2",
+      "senseId": "l348-v-663-sense",
+      "accepted": [
+        "好多"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "好多: rất nhiều. 好多 là nhiều trong khẩu ngữ, không nêu số chính xác. 好多人 nêu nhiều người, không phải “người tốt”. Hôm nay có rất nhiều người đến."
+    },
+    {
+      "id": "l348-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l348-v1-e3",
+      "senseId": "l348-v-664-sense",
+      "accepted": [
+        "hǎo jiǔ"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "好久: rất lâu. 好久 nhấn mạnh lâu, 常 dùng 好久不见 là lâu không gặp. Đây không phải thời gian tốt theo nghĩa từng chữ. Chúng ta lâu không gặp rồi."
+    },
+    {
+      "id": "l348-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l348-v1-e4",
+      "senseId": "l348-v-735-sense",
+      "accepted": [
+        "刻"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "刻: một phần tư giờ; khắc. 刻 trong 一刻钟 là mười lăm phút; chưa dạy nghĩa khắc/chạm. 三点一刻 không phải ba giờ một phút. Bây giờ là ba giờ mười lăm."
+    },
+    {
+      "id": "l348-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l348-v1-e5",
+      "senseId": "l348-v-704-sense",
+      "accepted": [
+        "角"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "角: hào; 1/10 nhân dân tệ. 角 trong giá tiền là một phần mười 元, cùng giá trị đơn vị 毛 khẩu ngữ; khác 角 ở hình học hay vai diễn, chưa học ở đây. Tờ giấy này giá hai hào."
+    },
+    {
+      "id": "l348-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l348-v1-e6",
+      "senseId": "l348-v-513-sense",
+      "accepted": [
+        "一刻钟"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 一刻钟 là mười lăm phút; 三点一刻 là ba giờ mười lăm. 毛/角 là một phần mười 元 trong hệ tiền đang mô tả; 不 phải mọi “毛” đều chỉ tiền. Bài luyện đọc đơn vị, không giao dịch."
+    },
+    {
+      "id": "l348-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l348-v1-e7",
+      "senseId": "l348-v-664-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 一刻钟 là mười lăm phút; 三点一刻 là ba giờ mười lăm. 毛/角 là một phần mười 元 trong hệ tiền đang mô tả; 不 phải mọi “毛” đều chỉ tiền. Bài luyện đọc đơn vị, không giao dịch."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

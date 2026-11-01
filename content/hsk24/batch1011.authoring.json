@@ -1,0 +1,902 @@
+{
+  "batch": "HSK1-batch11",
+  "targetLevel": 1,
+  "sourceCheckedAt": "2026-10-30T15:10:35.430380Z",
+  "lessons": [
+    {
+      "id": "L151",
+      "unit": "hsk-one-bb",
+      "unitTitle": "Sinh hoạt và các bữa ăn",
+      "title": "Giờ ngủ và thay đổi",
+      "objective": "Giờ ngủ và thay đổi; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-151",
+        "了",
+        387,
+        "g-387-5",
+        "起床 là ra khỏi giường/thức dậy để bắt đầu sinh hoạt; không đồng nghĩa chỉ tỉnh giấc mà vẫn nằm. 睡 và 睡觉 đều có thể nói ngủ, nên đề yêu cầu rõ từ một chữ hoặc cả cụm. 了 ở 我起床了 báo tình trạng mới; không biến mọi 了 thành dấu quá khứ."
+      ],
+      "task": [
+        "h1-task-event",
+        "问答事件信息",
+        4,
+        "二"
+      ],
+      "topic": [
+        "h1-topic-f80c6b43ef6a",
+        "日期、时间、地点、方位、参加者、号码等",
+        58,
+        "日期、时间、地点、方位、参加者、号码等"
+      ],
+      "words": [
+        [
+          "起床",
+          "qǐ chuáng",
+          "dậy; ra khỏi giường",
+          "起床 nói việc dậy khỏi giường; câu không tự cho biết giờ cụ thể.",
+          "我早上起床。",
+          "Wǒ zǎo shang qǐ chuáng.",
+          "Tôi dậy vào buổi sáng."
+        ],
+        [
+          "睡",
+          "shuì",
+          "ngủ (dạng một chữ)",
+          "睡 là mục một chữ; 睡觉 cũng có thể dùng ở nhiều câu nhưng là mục khác.",
+          "我想睡。",
+          "Wǒ xiǎng shuì.",
+          "Tôi muốn ngủ."
+        ],
+        [
+          "睡觉",
+          "shuì jiào",
+          "ngủ (dạng hai chữ)",
+          "睡觉 là cụm hai chữ chỉ ngủ; giữ đúng dạng được hỏi, không suy khác biệt nghĩa tuyệt đối với 睡.",
+          "我晚上睡觉。",
+          "Wǒ wǎn shang shuì jiào.",
+          "Tôi ngủ buổi tối."
+        ],
+        [
+          "了",
+          "le",
+          "rồi; trợ từ le",
+          "了 nhẹ trong mục này; ở 起床了 báo đã dậy/chuyển trạng thái, khác cách đọc liǎo ở mục/ngữ cảnh khác.",
+          "我起床了。",
+          "Wǒ qǐ chuáng le.",
+          "Tôi dậy rồi."
+        ]
+      ],
+      "passage": [
+        "A：你起床了吗？\nB：起床了。\nA：你昨天晚上睡觉了吗？\nB：睡觉了。",
+        "A: Nǐ qǐ chuáng le ma? B: Qǐ chuáng le. A: Nǐ zuó tiān wǎn shang shuì jiào le ma? B: Shuì jiào le.",
+        "B xác nhận đã dậy và đã ngủ tối hôm qua. Không có dữ kiện về thời lượng hoặc chất lượng giấc ngủ để đánh giá sức khỏe."
+      ],
+      "comprehension": [
+        "B xác nhận điều gì ở câu trả lời đầu?",
+        [
+          "Đã dậy",
+          "Chưa dậy",
+          "Không muốn ngủ"
+        ],
+        "Đã dậy",
+        "Theo đoạn: Đã dậy. B xác nhận đã dậy và đã ngủ tối hôm qua. Không có dữ kiện về thời lượng hoặc chất lượng giấc ngủ để đánh giá sức khỏe."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "起床",
+          "了。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "床",
+            "木",
+            "麻",
+            "庆"
+          ],
+          "accepted": [
+            "床"
+          ],
+          "feedback": "Chữ 床 tạo từ 起床. 起床 nói việc dậy khỏi giường; câu không tự cho biết giờ cụ thể. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 睡 (ngủ (dạng một chữ)).",
+          "choices": [],
+          "accepted": [
+            "shuì"
+          ],
+          "feedback": "睡 ghi shuì. 睡 là mục một chữ; 睡觉 cũng có thể dùng ở nhiều câu nhưng là mục khác."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc shuì jiào, nghĩa “ngủ (dạng hai chữ)”: 我晚上□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "睡觉"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc shuì jiào: 睡觉. 睡觉 là cụm hai chữ chỉ ngủ; giữ đúng dạng được hỏi, không suy khác biệt nghĩa tuyệt đối với 睡. Tôi ngủ buổi tối."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc le, nghĩa “rồi; trợ từ le”, trong câu: 我起床□。",
+          "choices": [
+            "起床",
+            "睡",
+            "睡觉",
+            "了"
+          ],
+          "accepted": [
+            "了"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc le: 了. 了 nhẹ trong mục này; ở 起床了 báo đã dậy/chuyển trạng thái, khác cách đọc liǎo ở mục/ngữ cảnh khác. Tôi dậy rồi."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我晚上睡觉。”, 睡觉 mang nghĩa nào theo bài?",
+          "choices": [
+            "dậy; ra khỏi giường",
+            "ngủ (dạng một chữ)",
+            "ngủ (dạng hai chữ)",
+            "rồi; trợ từ le"
+          ],
+          "accepted": [
+            "ngủ (dạng hai chữ)"
+          ],
+          "feedback": "睡觉 là cụm hai chữ chỉ ngủ; giữ đúng dạng được hỏi, không suy khác biệt nghĩa tuyệt đối với 睡. Tôi ngủ buổi tối."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我起床了。”, 了 mang nghĩa nào theo bài?",
+          "choices": [
+            "dậy; ra khỏi giường",
+            "ngủ (dạng một chữ)",
+            "ngủ (dạng hai chữ)",
+            "rồi; trợ từ le"
+          ],
+          "accepted": [
+            "rồi; trợ từ le"
+          ],
+          "feedback": "了 nhẹ trong mục này; ở 起床了 báo đã dậy/chuyển trạng thái, khác cách đọc liǎo ở mục/ngữ cảnh khác. Tôi dậy rồi."
+        }
+      ],
+      "characterTargets": [
+        "床"
+      ]
+    },
+    {
+      "id": "L152",
+      "unit": "hsk-one-bb",
+      "unitTitle": "Sinh hoạt và các bữa ăn",
+      "title": "Hỏi giờ và khoảng thời gian",
+      "objective": "Hỏi giờ và khoảng thời gian; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-152",
+        "钟点表示法",
+        387,
+        "g-387-12",
+        "Giờ trên đồng hồ dùng số + 点; phút dùng số + 分: 三点十分 là3giờ10phút. 分钟/小时 thường nói khoảng thời gian như 五分钟/一小时; không trộn 三点十分 với một khoảng ba giờ. Đoạn là giờ trong truyện, không phải số giờ đã học được hệ thống đo."
+      ],
+      "task": [
+        "h1-task-event",
+        "问答事件信息",
+        4,
+        "二"
+      ],
+      "topic": [
+        "h1-topic-f80c6b43ef6a",
+        "日期、时间、地点、方位、参加者、号码等",
+        58,
+        "日期、时间、地点、方位、参加者、号码等"
+      ],
+      "words": [
+        [
+          "点1",
+          "diǎn",
+          "giờ; điểm giờ (lượng từ đồng hồ)",
+          "点 trong 三点 là giờ đồng hồ; không dạy nghĩa gọi món/chấm điểm ở đây.",
+          "现在三点。",
+          "Xiàn zài sān diǎn.",
+          "Bây giờ3giờ trong truyện."
+        ],
+        [
+          "分",
+          "fēn",
+          "phút (mục fēn)",
+          "分 trong 三点十分 là phần phút của giờ; câu hỏi âm fēn phân biệt với 分钟.",
+          "现在三点十分。",
+          "Xiàn zài sān diǎn shí fēn.",
+          "Bây giờ3giờ10phút trong truyện."
+        ],
+        [
+          "分钟",
+          "fēn zhōng",
+          "phút (khoảng thời gian, dạng fēnzhōng)",
+          "分钟 trong 五分钟 là khoảng năm phút, không tự nói phút thứ5 của một giờ.",
+          "我休息五分钟。",
+          "Wǒ xiū xi wǔ fēn zhōng.",
+          "Tôi nghỉ năm phút."
+        ],
+        [
+          "小时",
+          "xiǎo shí",
+          "giờ; tiếng (khoảng thời gian)",
+          "小时 đếm thời lượng; 一小时 và 一个小时 đều có thể dùng, khác thời điểm 一点.",
+          "我上课一小时。",
+          "Wǒ shàng kè yì xiǎo shí.",
+          "Tôi học trên lớp một giờ."
+        ]
+      ],
+      "passage": [
+        "A：现在几点？\nB：三点十分。\nA：你什么时候上课？\nB：三点上课，我上课一小时。",
+        "A: Xiàn zài jǐ diǎn? B: Sān diǎn shí fēn. A: Nǐ shén me shí hou shàng kè? B: Sān diǎn shàng kè, wǒ shàng kè yì xiǎo shí.",
+        "Câu chuyện nói giờ hiện tại3:10, giờ bắt đầu học3:00 và thời lượng một giờ. Không phải dữ liệu đồng hồ hoặc telemetry thật."
+      ],
+      "comprehension": [
+        "B nói giờ bắt đầu học là lúc nào?",
+        [
+          "三点",
+          "三点十分",
+          "五点"
+        ],
+        "三点",
+        "Theo đoạn: 三点. Câu chuyện nói giờ hiện tại3:10, giờ bắt đầu học3:00 và thời lượng một giờ. Không phải dữ liệu đồng hồ hoặc telemetry thật."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "现在",
+          "三点",
+          "十分。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "点",
+            "占",
+            "站",
+            "店"
+          ],
+          "accepted": [
+            "点"
+          ],
+          "feedback": "Chữ 点 tạo từ 点. 点 trong 三点 là giờ đồng hồ; không dạy nghĩa gọi món/chấm điểm ở đây. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 分 (phút (mục fēn)).",
+          "choices": [],
+          "accepted": [
+            "fēn"
+          ],
+          "feedback": "分 ghi fēn. 分 trong 三点十分 là phần phút của giờ; câu hỏi âm fēn phân biệt với 分钟."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc fēn zhōng, nghĩa “phút (khoảng thời gian, dạng fēnzhōng)”: 我休息五□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "分钟"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc fēn zhōng: 分钟. 分钟 trong 五分钟 là khoảng năm phút, không tự nói phút thứ5 của một giờ. Tôi nghỉ năm phút."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc xiǎo shí, nghĩa “giờ; tiếng (khoảng thời gian)”, trong câu: 我上课一□。",
+          "choices": [
+            "点",
+            "分",
+            "分钟",
+            "小时"
+          ],
+          "accepted": [
+            "小时"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc xiǎo shí: 小时. 小时 đếm thời lượng; 一小时 và 一个小时 đều có thể dùng, khác thời điểm 一点. Tôi học trên lớp một giờ."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我休息五分钟。”, 分钟 mang nghĩa nào theo bài?",
+          "choices": [
+            "giờ; điểm giờ (lượng từ đồng hồ)",
+            "phút (mục fēn)",
+            "phút (khoảng thời gian, dạng fēnzhōng)",
+            "giờ; tiếng (khoảng thời gian)"
+          ],
+          "accepted": [
+            "phút (khoảng thời gian, dạng fēnzhōng)"
+          ],
+          "feedback": "分钟 trong 五分钟 là khoảng năm phút, không tự nói phút thứ5 của một giờ. Tôi nghỉ năm phút."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我上课一小时。”, 小时 mang nghĩa nào theo bài?",
+          "choices": [
+            "giờ; điểm giờ (lượng từ đồng hồ)",
+            "phút (mục fēn)",
+            "phút (khoảng thời gian, dạng fēnzhōng)",
+            "giờ; tiếng (khoảng thời gian)"
+          ],
+          "accepted": [
+            "giờ; tiếng (khoảng thời gian)"
+          ],
+          "feedback": "小时 đếm thời lượng; 一小时 và 一个小时 đều có thể dùng, khác thời điểm 一点. Tôi học trên lớp một giờ."
+        }
+      ],
+      "characterTargets": [
+        "点"
+      ]
+    },
+    {
+      "id": "L153",
+      "unit": "hsk-one-bb",
+      "unitTitle": "Sinh hoạt và các bữa ăn",
+      "title": "Ba bữa trong ngày",
+      "objective": "Ba bữa trong ngày; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-153",
+        "动宾短语",
+        386,
+        "g-386-3",
+        "吃饭 là ăn cơm/ăn bữa, không buộc món ăn luôn là 米饭. 早饭/午饭/晚饭 gọi bữa sáng/trưa/tối; dùng trước/sau 吃 theo câu đã cho, không suy mọi bữa đều ở một giờ giống nhau. 吃 được chú giải và sẽ học riêng ở bài kế tiếp."
+      ],
+      "task": [
+        "h1-task-food",
+        "问答饮食喜好",
+        5,
+        "七"
+      ],
+      "topic": [
+        "h1-topic-515da74e1a50",
+        "就餐",
+        58,
+        "就餐"
+      ],
+      "words": [
+        [
+          "早饭",
+          "zǎo fàn",
+          "bữa sáng",
+          "早饭 gọi bữa sáng, khác từ thời gian 早上 dù hai từ thường cùng xuất hiện.",
+          "我吃早饭。",
+          "Wǒ chī zǎo fàn.",
+          "Tôi ăn sáng."
+        ],
+        [
+          "午饭",
+          "wǔ fàn",
+          "bữa trưa",
+          "午饭 là bữa trưa, không phải cả khoảng thời gian 中午.",
+          "我中午吃午饭。",
+          "Wǒ zhōng wǔ chī wǔ fàn.",
+          "Tôi ăn trưa vào buổi trưa."
+        ],
+        [
+          "晚饭",
+          "wǎn fàn",
+          "bữa tối",
+          "晚饭 là bữa tối; không dùng nó thay mọi câu nói muộn/trễ của 晚.",
+          "我晚上吃晚饭。",
+          "Wǒ wǎn shang chī wǎn fàn.",
+          "Tôi ăn tối vào buổi tối."
+        ],
+        [
+          "饭",
+          "fàn",
+          "cơm; bữa ăn (theo ngữ cảnh)",
+          "饭 trong 吃饭 có thể nói ăn một bữa, không luôn chỉ riêng cơm trắng.",
+          "我吃饭。",
+          "Wǒ chī fàn.",
+          "Tôi ăn cơm/ăn bữa."
+        ]
+      ],
+      "passage": [
+        "A：你吃早饭了吗？\nB：吃了。\nA：你什么时候吃午饭？\nB：我中午吃午饭。",
+        "A: Nǐ chī zǎo fàn le ma? B: Chī le. A: Nǐ shén me shí hou chī wǔ fàn? B: Wǒ zhōng wǔ chī wǔ fàn.",
+        "吃 chī = ăn; 吃了 ở đây trả lời đã ăn. B đã ăn sáng và nói ăn trưa vào buổi trưa, không nêu giờ cụ thể."
+      ],
+      "comprehension": [
+        "B nói ăn trưa vào buổi nào?",
+        [
+          "中午",
+          "早上",
+          "晚上"
+        ],
+        "中午",
+        "Theo đoạn: 中午. 吃 chī = ăn; 吃了 ở đây trả lời đã ăn. B đã ăn sáng và nói ăn trưa vào buổi trưa, không nêu giờ cụ thể."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我中午",
+          "吃",
+          "午饭。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "饭",
+            "反",
+            "板",
+            "版"
+          ],
+          "accepted": [
+            "饭"
+          ],
+          "feedback": "Chữ 饭 tạo từ 早饭. 早饭 gọi bữa sáng, khác từ thời gian 早上 dù hai từ thường cùng xuất hiện. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 午饭 (bữa trưa).",
+          "choices": [],
+          "accepted": [
+            "wǔ fàn"
+          ],
+          "feedback": "午饭 ghi wǔ fàn. 午饭 là bữa trưa, không phải cả khoảng thời gian 中午."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc wǎn fàn, nghĩa “bữa tối”: 我晚上吃□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "晚饭"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc wǎn fàn: 晚饭. 晚饭 là bữa tối; không dùng nó thay mọi câu nói muộn/trễ của 晚. Tôi ăn tối vào buổi tối."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc fàn, nghĩa “cơm; bữa ăn (theo ngữ cảnh)”, trong câu: 我吃□。",
+          "choices": [
+            "早饭",
+            "午饭",
+            "晚饭",
+            "饭"
+          ],
+          "accepted": [
+            "饭"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc fàn: 饭. 饭 trong 吃饭 có thể nói ăn một bữa, không luôn chỉ riêng cơm trắng. Tôi ăn cơm/ăn bữa."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我晚上吃晚饭。”, 晚饭 mang nghĩa nào theo bài?",
+          "choices": [
+            "bữa sáng",
+            "bữa trưa",
+            "bữa tối",
+            "cơm; bữa ăn (theo ngữ cảnh)"
+          ],
+          "accepted": [
+            "bữa tối"
+          ],
+          "feedback": "晚饭 là bữa tối; không dùng nó thay mọi câu nói muộn/trễ của 晚. Tôi ăn tối vào buổi tối."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我吃饭。”, 饭 mang nghĩa nào theo bài?",
+          "choices": [
+            "bữa sáng",
+            "bữa trưa",
+            "bữa tối",
+            "cơm; bữa ăn (theo ngữ cảnh)"
+          ],
+          "accepted": [
+            "cơm; bữa ăn (theo ngữ cảnh)"
+          ],
+          "feedback": "饭 trong 吃饭 có thể nói ăn một bữa, không luôn chỉ riêng cơm trắng. Tôi ăn cơm/ăn bữa."
+        }
+      ],
+      "characterTargets": [
+        "饭"
+      ]
+    },
+    {
+      "id": "L154",
+      "unit": "hsk-one-bb",
+      "unitTitle": "Sinh hoạt và các bữa ăn",
+      "title": "Một bữa ăn đơn giản",
+      "objective": "Một bữa ăn đơn giản; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-154",
+        "了",
+        387,
+        "g-387-4",
+        "Trong 我吃了米饭, 了 sau động từ nói hành động đã hoàn thành trong ngữ cảnh. Không phải cứ có thời gian quá khứ là mọi câu đều thêm 了. 吃 dùng với đồ ăn, 喝 đã học với đồ uống; 菜/米饭/水 là những đối tượng khác nhau trong các câu."
+      ],
+      "task": [
+        "h1-task-food",
+        "问答饮食喜好",
+        5,
+        "七"
+      ],
+      "topic": [
+        "h1-topic-b044c64322e4",
+        "食物饮品",
+        58,
+        "食物饮品"
+      ],
+      "words": [
+        [
+          "吃",
+          "chī",
+          "ăn",
+          "吃 nói ăn, khác 喝 uống trong các mẫu đồ ăn/đồ uống này.",
+          "我吃了米饭。",
+          "Wǒ chī le mǐ fàn.",
+          "Tôi đã ăn cơm."
+        ],
+        [
+          "菜",
+          "cài",
+          "rau; món ăn (theo ngữ cảnh)",
+          "菜 trong 我吃菜 có thể nói rau/món rau; trong câu khác có thể là một món ăn, không tự kết luận mọi 菜 đều chay.",
+          "我吃菜。",
+          "Wǒ chī cài.",
+          "Tôi ăn rau/món rau."
+        ],
+        [
+          "米饭",
+          "mǐ fàn",
+          "cơm (gạo đã nấu)",
+          "米饭 chỉ cơm nấu từ gạo, hẹp hơn 饭 dùng cho bữa ăn nói chung.",
+          "我喜欢吃米饭。",
+          "Wǒ xǐ huan chī mǐ fàn.",
+          "Tôi thích ăn cơm."
+        ],
+        [
+          "水",
+          "shuǐ",
+          "nước",
+          "水 trong câu là nước để uống; không tự đưa lời khuyên lượng nước hay sức khỏe.",
+          "我喝水。",
+          "Wǒ hē shuǐ.",
+          "Tôi uống nước."
+        ]
+      ],
+      "passage": [
+        "A：你想喝茶吗？\nB：不想，我想喝水。\nA：好。你吃饭了吗？\nB：吃了，我吃了米饭和菜。",
+        "A: Nǐ xiǎng hē chá ma? B: Bù xiǎng, wǒ xiǎng hē shuǐ. A: Hǎo. Nǐ chī fàn le ma? B: Chī le, wǒ chī le mǐ fàn hé cài.",
+        "B muốn uống nước, không muốn trà ở tình huống này; B nói đã ăn cơm và rau/món ăn. Không suy chế độ ăn thường xuyên."
+      ],
+      "comprehension": [
+        "B muốn uống gì?",
+        [
+          "水",
+          "茶",
+          "牛奶"
+        ],
+        "水",
+        "Theo đoạn: 水. B muốn uống nước, không muốn trà ở tình huống này; B nói đã ăn cơm và rau/món ăn. Không suy chế độ ăn thường xuyên."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "吃了",
+          "米饭。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "吃",
+            "叫",
+            "听",
+            "喝"
+          ],
+          "accepted": [
+            "吃"
+          ],
+          "feedback": "Chữ 吃 tạo từ 吃. 吃 nói ăn, khác 喝 uống trong các mẫu đồ ăn/đồ uống này. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 菜 (rau; món ăn (theo ngữ cảnh)).",
+          "choices": [],
+          "accepted": [
+            "cài"
+          ],
+          "feedback": "菜 ghi cài. 菜 trong 我吃菜 có thể nói rau/món rau; trong câu khác có thể là một món ăn, không tự kết luận mọi 菜 đều chay."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc mǐ fàn, nghĩa “cơm (gạo đã nấu)”: 我喜欢吃□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "米饭"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc mǐ fàn: 米饭. 米饭 chỉ cơm nấu từ gạo, hẹp hơn 饭 dùng cho bữa ăn nói chung. Tôi thích ăn cơm."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc shuǐ, nghĩa “nước”, trong câu: 我喝□。",
+          "choices": [
+            "吃",
+            "菜",
+            "米饭",
+            "水"
+          ],
+          "accepted": [
+            "水"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc shuǐ: 水. 水 trong câu là nước để uống; không tự đưa lời khuyên lượng nước hay sức khỏe. Tôi uống nước."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我喜欢吃米饭。”, 米饭 mang nghĩa nào theo bài?",
+          "choices": [
+            "ăn",
+            "rau; món ăn (theo ngữ cảnh)",
+            "cơm (gạo đã nấu)",
+            "nước"
+          ],
+          "accepted": [
+            "cơm (gạo đã nấu)"
+          ],
+          "feedback": "米饭 chỉ cơm nấu từ gạo, hẹp hơn 饭 dùng cho bữa ăn nói chung. Tôi thích ăn cơm."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我喝水。”, 水 mang nghĩa nào theo bài?",
+          "choices": [
+            "ăn",
+            "rau; món ăn (theo ngữ cảnh)",
+            "cơm (gạo đã nấu)",
+            "nước"
+          ],
+          "accepted": [
+            "nước"
+          ],
+          "feedback": "水 trong câu là nước để uống; không tự đưa lời khuyên lượng nước hay sức khỏe. Tôi uống nước."
+        }
+      ],
+      "characterTargets": [
+        "吃"
+      ]
+    },
+    {
+      "id": "L155",
+      "unit": "hsk-one-bb",
+      "unitTitle": "Sinh hoạt và các bữa ăn",
+      "title": "Chọn món ăn và đồ uống",
+      "objective": "Chọn món ăn và đồ uống; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-155",
+        "和",
+        385,
+        "g-385-23",
+        "和 nối danh từ/cụm danh từ như 包子和饺子, không dùng để nối mọi hai câu theo chữ và của tiếng Việt. 包子/饺子 là tên các món ăn Trung Quốc thường gặp; không khẳng định chúng chỉ tồn tại ở một quốc gia. 面条儿 ở nguồn có hóa r; bài hỏi đúng dạng nguồn này."
+      ],
+      "task": [
+        "h1-task-culture",
+        "问答中国传统饮食",
+        7,
+        "十五"
+      ],
+      "topic": [
+        "h1-topic-7b2f8fa33246",
+        "中餐",
+        59,
+        "中餐"
+      ],
+      "words": [
+        [
+          "包子",
+          "bāo zi",
+          "bánh bao",
+          "包子 là tên món; âm 子 nhẹ theo từ điển trong bài.",
+          "我吃包子。",
+          "Wǒ chī bāo zi.",
+          "Tôi ăn bánh bao."
+        ],
+        [
+          "饺子",
+          "jiǎo zi",
+          "sủi cảo; bánh chẻo",
+          "饺子 là tên món khác 包子; không chấm người học tự nhận món từ ảnh không có.",
+          "我喜欢饺子。",
+          "Wǒ xǐ huan jiǎo zi.",
+          "Tôi thích sủi cảo."
+        ],
+        [
+          "面条儿",
+          "miàn tiáor",
+          "mì sợi (dạng hóa r)",
+          "Nguồn ghi 面条儿; 面条 cũng được dùng ngoài đề, nhưng mục đang hỏi yêu cầu dạng có 儿 hóa r.",
+          "我吃面条儿。",
+          "Wǒ chī miàn tiáor.",
+          "Tôi ăn mì sợi."
+        ],
+        [
+          "牛奶",
+          "niú nǎi",
+          "sữa bò",
+          "牛奶 chỉ sữa bò trong câu, không phải mọi loại thức uống gọi là sữa.",
+          "我喜欢喝牛奶。",
+          "Wǒ xǐ huan hē niú nǎi.",
+          "Tôi thích uống sữa bò."
+        ]
+      ],
+      "passage": [
+        "A：你吃包子吗？\nB：我不吃包子，我吃饺子和面条儿。\nA：你喝什么？\nB：我喝牛奶。",
+        "A: Nǐ chī bāo zi ma? B: Wǒ bù chī bāo zi, wǒ chī jiǎo zi hé miàn tiáor. A: Nǐ hē shén me? B: Wǒ hē niú nǎi.",
+        "B chọn sủi cảo và mì, uống sữa bò; đây là lựa chọn của nhân vật ở tình huống đã cho, không khuyên dinh dưỡng hoặc suy sở thích của người học."
+      ],
+      "comprehension": [
+        "B nói uống gì?",
+        [
+          "牛奶",
+          "茶",
+          "水"
+        ],
+        "牛奶",
+        "Theo đoạn: 牛奶. B chọn sủi cảo và mì, uống sữa bò; đây là lựa chọn của nhân vật ở tình huống đã cho, không khuyên dinh dưỡng hoặc suy sở thích của người học."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "吃",
+          "包子和饺子。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "包",
+            "句",
+            "勺",
+            "旬"
+          ],
+          "accepted": [
+            "包"
+          ],
+          "feedback": "Chữ 包 tạo từ 包子. 包子 là tên món; âm 子 nhẹ theo từ điển trong bài. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 饺子 (sủi cảo; bánh chẻo).",
+          "choices": [],
+          "accepted": [
+            "jiǎo zi"
+          ],
+          "feedback": "饺子 ghi jiǎo zi. 饺子 là tên món khác 包子; không chấm người học tự nhận món từ ảnh không có."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc miàn tiáor, nghĩa “mì sợi (dạng hóa r)”: 我吃□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "面条儿"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc miàn tiáor: 面条儿. Nguồn ghi 面条儿; 面条 cũng được dùng ngoài đề, nhưng mục đang hỏi yêu cầu dạng có 儿 hóa r. Tôi ăn mì sợi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc niú nǎi, nghĩa “sữa bò”, trong câu: 我喜欢喝□。",
+          "choices": [
+            "包子",
+            "饺子",
+            "面条儿",
+            "牛奶"
+          ],
+          "accepted": [
+            "牛奶"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc niú nǎi: 牛奶. 牛奶 chỉ sữa bò trong câu, không phải mọi loại thức uống gọi là sữa. Tôi thích uống sữa bò."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我吃面条儿。”, 面条儿 mang nghĩa nào theo bài?",
+          "choices": [
+            "bánh bao",
+            "sủi cảo; bánh chẻo",
+            "mì sợi (dạng hóa r)",
+            "sữa bò"
+          ],
+          "accepted": [
+            "mì sợi (dạng hóa r)"
+          ],
+          "feedback": "Nguồn ghi 面条儿; 面条 cũng được dùng ngoài đề, nhưng mục đang hỏi yêu cầu dạng có 儿 hóa r. Tôi ăn mì sợi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我喜欢喝牛奶。”, 牛奶 mang nghĩa nào theo bài?",
+          "choices": [
+            "bánh bao",
+            "sủi cảo; bánh chẻo",
+            "mì sợi (dạng hóa r)",
+            "sữa bò"
+          ],
+          "accepted": [
+            "sữa bò"
+          ],
+          "feedback": "牛奶 chỉ sữa bò trong câu, không phải mọi loại thức uống gọi là sữa. Tôi thích uống sữa bò."
+        }
+      ],
+      "characterTargets": [
+        "包"
+      ]
+    }
+  ]
+}

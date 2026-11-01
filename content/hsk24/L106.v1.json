@@ -1,0 +1,788 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "f26d62dd7ec84957271fc95898c2445469e9906df955b115afd7920447d8a227",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-c",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L106",
+    "version": 1,
+    "versionId": "l106-draft-v1",
+    "title": "Hỏi người và gọi cả nhóm",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Hỏi người và gọi cả nhóm; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "人称代词"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "一"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T09:27:43.950465Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-person",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "一"
+        },
+        "written": "问答个人基本信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-ef12595fc2f1",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "身份、家庭成员、朋友、技能等"
+        },
+        "written": "身份、家庭成员、朋友、技能等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l106-v-181",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 181"
+        },
+        "written": "谁",
+        "pinyin": "shéi",
+        "senseId": "l106-v-181-sense",
+        "ordinal": 181,
+        "note": "1 shéi/shuí 代; 谁 hỏi người chưa rõ; bài chọn cách đọc shéi, nguồn cũng ghi shuí. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l106-v-124",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 124"
+        },
+        "written": "们",
+        "pinyin": "men",
+        "senseId": "l106-v-124-sense",
+        "ordinal": 124,
+        "note": "1 men 后缀; 们 trong 我们 tạo dạng chúng tôi/chúng ta; không tự đứng thành chủ thể. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l106-v-222",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 222"
+        },
+        "written": "我们",
+        "pinyin": "wǒmen",
+        "senseId": "l106-v-222-sense",
+        "ordinal": 222,
+        "note": "1 wǒmen 代; 我们 bao gồm người nói; có bao gồm người nghe hay không phải xem tình huống. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l106-v-148",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 148"
+        },
+        "written": "你们",
+        "pinyin": "nǐmen",
+        "senseId": "l106-v-148-sense",
+        "ordinal": 148,
+        "note": "1 nǐmen 代; 你们 chỉ nhiều người đang nghe; 你 chỉ một người trong tình huống đơn giản này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l106-v-26",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 26"
+        },
+        "written": "大家",
+        "pinyin": "dàjiā",
+        "senseId": "l106-v-26-sense",
+        "ordinal": 26,
+        "note": "1 dàjiā 代; 大家 là cả nhóm đang được gọi, không phải cách nói một ngôi nhà lớn. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-151",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "151"
+        },
+        "written": "谁",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 151,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-114",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "114"
+        },
+        "written": "们",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 114,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-186",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "186"
+        },
+        "written": "我",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 186,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-126",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "126"
+        },
+        "written": "你",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 126,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-27",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "27"
+        },
+        "written": "大",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 27,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-80",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "80"
+        },
+        "written": "家",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 80,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-106",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-9"
+        },
+        "written": "人称代词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l106-c0",
+      "version": 1,
+      "senseId": "l106-v-181-sense",
+      "hanzi": "谁",
+      "dictionaryPinyin": "shéi",
+      "meaning": "ai",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l106-v-181"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l106-c1",
+      "version": 1,
+      "senseId": "l106-v-124-sense",
+      "hanzi": "们",
+      "dictionaryPinyin": "men",
+      "meaning": "hậu tố số nhiều cho người",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l106-v-124"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l106-c2",
+      "version": 1,
+      "senseId": "l106-v-222-sense",
+      "hanzi": "我们",
+      "dictionaryPinyin": "wǒ men",
+      "meaning": "chúng tôi; chúng ta",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l106-v-222"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l106-c3",
+      "version": 1,
+      "senseId": "l106-v-148-sense",
+      "hanzi": "你们",
+      "dictionaryPinyin": "nǐ men",
+      "meaning": "các bạn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l106-v-148"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l106-c4",
+      "version": 1,
+      "senseId": "l106-v-26-sense",
+      "hanzi": "大家",
+      "dictionaryPinyin": "dà jiā",
+      "meaning": "mọi người; cả nhóm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l106-v-26"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l106-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l106-t0",
+      "type": "teaching",
+      "title": "谁 · ai",
+      "text": "谁 hỏi người chưa rõ; bài chọn cách đọc shéi, nguồn cũng ghi shuí.",
+      "hanzi": "他是谁？",
+      "pinyin": "Tā shì shéi?",
+      "meaning": "Anh ấy là ai?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l106-t1",
+      "type": "teaching",
+      "title": "们 · hậu tố số nhiều cho người",
+      "text": "们 trong 我们 tạo dạng chúng tôi/chúng ta; không tự đứng thành chủ thể.",
+      "hanzi": "我们喜欢茶。",
+      "pinyin": "Wǒ men xǐ huan chá.",
+      "meaning": "Chúng tôi thích trà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l106-t2",
+      "type": "teaching",
+      "title": "我们 · chúng tôi; chúng ta",
+      "text": "我们 bao gồm người nói; có bao gồm người nghe hay không phải xem tình huống.",
+      "hanzi": "我们是朋友。",
+      "pinyin": "Wǒ men shì péng you.",
+      "meaning": "Chúng ta là bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l106-t3",
+      "type": "teaching",
+      "title": "你们 · các bạn",
+      "text": "你们 chỉ nhiều người đang nghe; 你 chỉ một người trong tình huống đơn giản này.",
+      "hanzi": "你们叫什么名字？",
+      "pinyin": "Nǐ men jiào shén me míng zi?",
+      "meaning": "Các bạn tên là gì?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l106-t4",
+      "type": "teaching",
+      "title": "大家 · mọi người; cả nhóm",
+      "text": "大家 là cả nhóm đang được gọi, không phải cách nói một ngôi nhà lớn.",
+      "hanzi": "大家好！",
+      "pinyin": "Dà jiā hǎo!",
+      "meaning": "Chào mọi người!",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l106-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "我/你 thêm 们 thành 我们/你们 để chỉ nhiều người. 们 gắn với đại từ/người trong phạm vi bài, không gắn sau động từ hoặc mọi danh từ. 大家 gọi cả nhóm trong ngữ cảnh; 谁 hỏi danh tính. 谁 có cách đọc shéi và shuí trong nguồn, bài dùng shéi.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l106-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：大家好！我叫安。你们叫什么名字？\nB：我叫林。他叫文。我们是朋友。\nA：你们好！",
+      "pinyin": "A: Dà jiā hǎo! Wǒ jiào Ān. Nǐ men jiào shén me míng zi? B: Wǒ jiào Lín. Tā jiào Wén. Wǒ men shì péng you. A: Nǐ men hǎo!",
+      "meaning": "安、林、文 là tên minh họa. B giới thiệu mình và 文; 我们 trong lời B chỉ B và 文.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l106-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l106-v1-e0"
+    },
+    {
+      "id": "l106-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l106-v1-e1"
+    },
+    {
+      "id": "l106-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l106-v1-e2"
+    },
+    {
+      "id": "l106-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l106-v1-e3"
+    },
+    {
+      "id": "l106-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l106-v1-e4"
+    },
+    {
+      "id": "l106-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l106-v1-e5"
+    },
+    {
+      "id": "l106-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l106-v1-e6"
+    },
+    {
+      "id": "l106-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l106-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l106-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l106-c0",
+      "senseId": "l106-v-181-sense",
+      "keyRef": "l106-v1-k0",
+      "prompt": "Chọn mục từ có nghĩa “ai” trong câu: 他是□？",
+      "choices": [
+        "们",
+        "我们",
+        "你们",
+        "大家",
+        "谁"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l106-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l106-c1",
+      "senseId": "l106-v-124-sense",
+      "keyRef": "l106-v1-k1",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “hậu tố số nhiều cho người”: □ (men). Ngữ cảnh: 我□喜欢茶。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "问",
+        "间",
+        "们",
+        "门"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l106-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l106-c2",
+      "senseId": "l106-v-222-sense",
+      "keyRef": "l106-v1-k2",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “chúng tôi; chúng ta”: □是朋友。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l106-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l106-c3",
+      "senseId": "l106-v-148-sense",
+      "keyRef": "l106-v1-k3",
+      "prompt": "Chọn mục từ có nghĩa “các bạn” trong câu: □叫什么名字？",
+      "choices": [
+        "大家",
+        "谁",
+        "们",
+        "我们",
+        "你们"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l106-v1-e4",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l106-c4",
+      "senseId": "l106-v-26-sense",
+      "keyRef": "l106-v1-k4",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “mọi người; cả nhóm”: □好！ Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l106-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l106-c2",
+      "senseId": "l106-v-222-sense",
+      "keyRef": "l106-v1-k5",
+      "prompt": "Trong câu “我们是朋友。”, 我们 mang nghĩa nào theo bài?",
+      "choices": [
+        "hậu tố số nhiều cho người",
+        "chúng tôi; chúng ta",
+        "các bạn",
+        "mọi người; cả nhóm",
+        "ai"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l106-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l106-c0",
+      "senseId": "l106-v-181-sense",
+      "keyRef": "l106-v1-k6",
+      "prompt": "Trong lời B, ai là bạn của B?",
+      "choices": [
+        "茶",
+        "Đoạn nói B không có bạn",
+        "文"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l106-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l106-c3",
+      "senseId": "l106-v-148-sense",
+      "keyRef": "l106-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我们",
+        "是",
+        "朋友。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l106-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l106-v1-e0",
+      "senseId": "l106-v-181-sense",
+      "accepted": [
+        "谁"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "谁: ai. 谁 hỏi người chưa rõ; bài chọn cách đọc shéi, nguồn cũng ghi shuí. Anh ấy là ai?"
+    },
+    {
+      "id": "l106-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l106-v1-e1",
+      "senseId": "l106-v-124-sense",
+      "accepted": [
+        "们"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 们 tạo từ 们. 们 trong 我们 tạo dạng chúng tôi/chúng ta; không tự đứng thành chủ thể. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l106-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l106-v1-e2",
+      "senseId": "l106-v-222-sense",
+      "accepted": [
+        "我们"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "我们: chúng tôi; chúng ta. 我们 bao gồm người nói; có bao gồm người nghe hay không phải xem tình huống. Chúng ta là bạn."
+    },
+    {
+      "id": "l106-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l106-v1-e3",
+      "senseId": "l106-v-148-sense",
+      "accepted": [
+        "你们"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "你们: các bạn. 你们 chỉ nhiều người đang nghe; 你 chỉ một người trong tình huống đơn giản này. Các bạn tên là gì?"
+    },
+    {
+      "id": "l106-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l106-v1-e4",
+      "senseId": "l106-v-26-sense",
+      "accepted": [
+        "大家"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "大家: mọi người; cả nhóm. 大家 là cả nhóm đang được gọi, không phải cách nói một ngôi nhà lớn. Chào mọi người!"
+    },
+    {
+      "id": "l106-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l106-v1-e5",
+      "senseId": "l106-v-222-sense",
+      "accepted": [
+        "chúng tôi; chúng ta"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "我们 bao gồm người nói; có bao gồm người nghe hay không phải xem tình huống. Chúng ta là bạn."
+    },
+    {
+      "id": "l106-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l106-v1-e6",
+      "senseId": "l106-v-181-sense",
+      "accepted": [
+        "文"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 文. 安、林、文 là tên minh họa. B giới thiệu mình và 文; 我们 trong lời B chỉ B và 文."
+    },
+    {
+      "id": "l106-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l106-v1-e7",
+      "senseId": "l106-v-148-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 我/你 thêm 们 thành 我们/你们 để chỉ nhiều người. 们 gắn với đại từ/người trong phạm vi bài, không gắn sau động từ hoặc mọi danh từ. 大家 gọi cả nhóm trong ngữ cảnh; 谁 hỏi danh tính. 谁 có cách đọc shéi và shuí trong nguồn, bài dùng shéi."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

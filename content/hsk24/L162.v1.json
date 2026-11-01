@@ -1,0 +1,704 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "9dbdb3897b7b94eb44125af89809ae41a4b5d0c653db704e2235da8822d88134",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-bd",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L162",
+    "version": 1,
+    "versionId": "l162-draft-v1",
+    "title": "Từ số không đến nghìn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Từ số không đến nghìn; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "数词"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:27:25.806090Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-event",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "问答事件信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-f80c6b43ef6a",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "日期、时间、地点、方位、参加者、号码等"
+        },
+        "written": "日期、时间、地点、方位、参加者、号码等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l162-v-112",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 112"
+        },
+        "written": "零",
+        "pinyin": "líng",
+        "senseId": "l162-v-112-sense",
+        "ordinal": 112,
+        "note": "1 líng 数; 零 là số0 khi đếm/đọc số; không dùng nó thay phủ định 不 trong mọi câu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l162-v-6",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 6"
+        },
+        "written": "百",
+        "pinyin": "bǎi",
+        "senseId": "l162-v-6-sense",
+        "ordinal": 6,
+        "note": "1 bǎi 数; 百 là trăm; 一百 là100, khác 十 là10. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l162-v-162",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 162"
+        },
+        "written": "千",
+        "pinyin": "qiān",
+        "senseId": "l162-v-162-sense",
+        "ordinal": 162,
+        "note": "1 qiān 数; 千 là nghìn; 一千 là1000, không thêm 万 chưa học ở bài này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l162-v-7",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 7"
+        },
+        "written": "半",
+        "pinyin": "bàn",
+        "senseId": "l162-v-7-sense",
+        "ordinal": 7,
+        "note": "1（4） bàn 数、（副）; 半 đứng trước đơn vị ở 半小时; không thay mọi danh từ một nửa bằng cùng một cấu trúc này. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-103",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "103"
+        },
+        "written": "零",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 103,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-6",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "6"
+        },
+        "written": "百",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 6,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-138",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "138"
+        },
+        "written": "千",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 138,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-8",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "8"
+        },
+        "written": "半",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 8,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-162",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-11"
+        },
+        "written": "数词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l162-c0",
+      "version": 1,
+      "senseId": "l162-v-112-sense",
+      "hanzi": "零",
+      "dictionaryPinyin": "líng",
+      "meaning": "không; số0",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l162-v-112"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l162-c1",
+      "version": 1,
+      "senseId": "l162-v-6-sense",
+      "hanzi": "百",
+      "dictionaryPinyin": "bǎi",
+      "meaning": "trăm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l162-v-6"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l162-c2",
+      "version": 1,
+      "senseId": "l162-v-162-sense",
+      "hanzi": "千",
+      "dictionaryPinyin": "qiān",
+      "meaning": "nghìn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l162-v-162"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l162-c3",
+      "version": 1,
+      "senseId": "l162-v-7-sense",
+      "hanzi": "半",
+      "dictionaryPinyin": "bàn",
+      "meaning": "nửa (dạng một chữ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l162-v-7"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l162-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l162-t0",
+      "type": "teaching",
+      "title": "零 · không; số0",
+      "text": "零 là số0 khi đếm/đọc số; không dùng nó thay phủ định 不 trong mọi câu.",
+      "hanzi": "零、一、二。",
+      "pinyin": "Líng, yī, èr.",
+      "meaning": "Không, một, hai.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l162-t1",
+      "type": "teaching",
+      "title": "百 · trăm",
+      "text": "百 là trăm; 一百 là100, khác 十 là10.",
+      "hanzi": "一百元。",
+      "pinyin": "Yì bǎi yuán.",
+      "meaning": "Một trăm nguyên trong ví dụ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l162-t2",
+      "type": "teaching",
+      "title": "千 · nghìn",
+      "text": "千 là nghìn; 一千 là1000, không thêm 万 chưa học ở bài này.",
+      "hanzi": "一千元。",
+      "pinyin": "Yì qiān yuán.",
+      "meaning": "Một nghìn nguyên trong ví dụ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l162-t3",
+      "type": "teaching",
+      "title": "半 · nửa (dạng một chữ)",
+      "text": "半 đứng trước đơn vị ở 半小时; không thay mọi danh từ một nửa bằng cùng một cấu trúc này.",
+      "hanzi": "半小时。",
+      "pinyin": "Bàn xiǎo shí.",
+      "meaning": "Nửa giờ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l162-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "零=0, 百=100, 千=1000; 一百/一千 là một trăm/một nghìn, không phải lần lượt101/1001. 半 là nửa: 半小时 là nửa giờ, còn 三点半 là3giờ30 trong cách nói đồng hồ. Bài chỉ giới thiệu số/cụm, không suy số tiền thật của người học.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l162-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：这本书一百元吗？\nB：不是，是十元。\nA：好，我有十元。",
+      "pinyin": "A: Zhè běn shū yì bǎi yuán ma? B: Bú shì, shì shí yuán. A: Hǎo, wǒ yǒu shí yuán.",
+      "meaning": "Giá hư cấu được B sửa từ100 xuống10nguyên. Đọc phủ định để không giữ con số trong câu hỏi làm sự thật.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l162-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l162-v1-e0"
+    },
+    {
+      "id": "l162-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l162-v1-e1"
+    },
+    {
+      "id": "l162-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l162-v1-e2"
+    },
+    {
+      "id": "l162-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l162-v1-e3"
+    },
+    {
+      "id": "l162-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l162-v1-e4"
+    },
+    {
+      "id": "l162-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l162-v1-e5"
+    },
+    {
+      "id": "l162-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l162-v1-e6"
+    },
+    {
+      "id": "l162-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l162-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l162-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l162-c0",
+      "senseId": "l162-v-112-sense",
+      "keyRef": "l162-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “không; số0”: □ (líng). Ngữ cảnh: □、一、二。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "雪",
+        "雷",
+        "霜",
+        "零"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l162-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l162-c1",
+      "senseId": "l162-v-6-sense",
+      "keyRef": "l162-v1-k1",
+      "prompt": "Viết pinyin từ điển của 百 (trăm).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l162-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l162-c2",
+      "senseId": "l162-v-162-sense",
+      "keyRef": "l162-v1-k2",
+      "prompt": "Điền đúng mục từ đọc qiān, nghĩa “nghìn”: 一□元。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l162-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l162-c3",
+      "senseId": "l162-v-7-sense",
+      "keyRef": "l162-v1-k3",
+      "prompt": "Chọn mục từ đọc bàn, nghĩa “nửa (dạng một chữ)”, trong câu: □小时。",
+      "choices": [
+        "零",
+        "百",
+        "千",
+        "半"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l162-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l162-c2",
+      "senseId": "l162-v-162-sense",
+      "keyRef": "l162-v1-k4",
+      "prompt": "Trong câu “一千元。”, 千 mang nghĩa nào theo bài?",
+      "choices": [
+        "trăm",
+        "nghìn",
+        "nửa (dạng một chữ)",
+        "không; số0"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l162-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l162-c3",
+      "senseId": "l162-v-7-sense",
+      "keyRef": "l162-v1-k5",
+      "prompt": "Trong câu “半小时。”, 半 mang nghĩa nào theo bài?",
+      "choices": [
+        "nghìn",
+        "nửa (dạng một chữ)",
+        "không; số0",
+        "trăm"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l162-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l162-c0",
+      "senseId": "l162-v-112-sense",
+      "keyRef": "l162-v1-k6",
+      "prompt": "B xác nhận giá bao nhiêu?",
+      "choices": [
+        "一百元",
+        "一千元",
+        "十元"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l162-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l162-c3",
+      "senseId": "l162-v-7-sense",
+      "keyRef": "l162-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我",
+        "有",
+        "一百元。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l162-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l162-v1-e0",
+      "senseId": "l162-v-112-sense",
+      "accepted": [
+        "零"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 零 tạo từ 零. 零 là số0 khi đếm/đọc số; không dùng nó thay phủ định 不 trong mọi câu. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l162-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l162-v1-e1",
+      "senseId": "l162-v-6-sense",
+      "accepted": [
+        "bǎi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "百 ghi bǎi. 百 là trăm; 一百 là100, khác 十 là10."
+    },
+    {
+      "id": "l162-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l162-v1-e2",
+      "senseId": "l162-v-162-sense",
+      "accepted": [
+        "千"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc qiān: 千. 千 là nghìn; 一千 là1000, không thêm 万 chưa học ở bài này. Một nghìn nguyên trong ví dụ."
+    },
+    {
+      "id": "l162-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l162-v1-e3",
+      "senseId": "l162-v-7-sense",
+      "accepted": [
+        "半"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc bàn: 半. 半 đứng trước đơn vị ở 半小时; không thay mọi danh từ một nửa bằng cùng một cấu trúc này. Nửa giờ."
+    },
+    {
+      "id": "l162-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l162-v1-e4",
+      "senseId": "l162-v-162-sense",
+      "accepted": [
+        "nghìn"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "千 là nghìn; 一千 là1000, không thêm 万 chưa học ở bài này. Một nghìn nguyên trong ví dụ."
+    },
+    {
+      "id": "l162-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l162-v1-e5",
+      "senseId": "l162-v-7-sense",
+      "accepted": [
+        "nửa (dạng một chữ)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "半 đứng trước đơn vị ở 半小时; không thay mọi danh từ một nửa bằng cùng một cấu trúc này. Nửa giờ."
+    },
+    {
+      "id": "l162-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l162-v1-e6",
+      "senseId": "l162-v-112-sense",
+      "accepted": [
+        "十元"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 十元. Giá hư cấu được B sửa từ100 xuống10nguyên. Đọc phủ định để không giữ con số trong câu hỏi làm sự thật."
+    },
+    {
+      "id": "l162-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l162-v1-e7",
+      "senseId": "l162-v-7-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 零=0, 百=100, 千=1000; 一百/一千 là một trăm/một nghìn, không phải lần lượt101/1001. 半 là nửa: 半小时 là nửa giờ, còn 三点半 là3giờ30 trong cách nói đồng hồ. Bài chỉ giới thiệu số/cụm, không suy số tiền thật của người học."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

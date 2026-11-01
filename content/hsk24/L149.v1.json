@@ -1,0 +1,704 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "13856e01e19afa21552d739457dd085eb0789028b9f09174f7a46f9a63128ffa",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-ba",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L149",
+    "version": 1,
+    "versionId": "l149-draft-v1",
+    "title": "Buổi sáng và buổi trưa",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Buổi sáng và buổi trưa; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "状语"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:01:24.391777Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-event",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "问答事件信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-f80c6b43ef6a",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "日期、时间、地点、方位、参加者、号码等"
+        },
+        "written": "日期、时间、地点、方位、参加者、号码等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l149-v-273",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 273"
+        },
+        "written": "早",
+        "pinyin": "zǎo",
+        "senseId": "l149-v-273-sense",
+        "ordinal": 273,
+        "note": "1 zǎo 形; 早 là sớm theo mốc đang nói, không tự là danh từ cả buổi sáng trong mọi câu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l149-v-275",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 275"
+        },
+        "written": "早上",
+        "pinyin": "zǎoshang",
+        "senseId": "l149-v-275-sense",
+        "ordinal": 275,
+        "note": "1 zǎoshang 名; 早上 chỉ buổi sáng, thường đầu ngày; 上 nhẹ theo pinyin mục từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l149-v-178",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 178"
+        },
+        "written": "上午",
+        "pinyin": "shàngwǔ",
+        "senseId": "l149-v-178-sense",
+        "ordinal": 178,
+        "note": "1 shàngwǔ 名; 上午 chỉ phần trước trưa, có thể chồng lấn với 早上; đề nêu rõ âm để chọn mục. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l149-v-291",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 291"
+        },
+        "written": "中午",
+        "pinyin": "zhōngwǔ",
+        "senseId": "l149-v-291-sense",
+        "ordinal": 291,
+        "note": "1 zhōngwǔ 名; 中午 là buổi trưa theo sinh hoạt, không tự là đúng một phút trên đồng hồ. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-228",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "228"
+        },
+        "written": "早",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 228,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-149",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "149"
+        },
+        "written": "上",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 149,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-188",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "188"
+        },
+        "written": "午",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 188,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-236",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "236"
+        },
+        "written": "中",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 236,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-149",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "g-386-13"
+        },
+        "written": "状语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l149-c0",
+      "version": 1,
+      "senseId": "l149-v-273-sense",
+      "hanzi": "早",
+      "dictionaryPinyin": "zǎo",
+      "meaning": "sớm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l149-v-273"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l149-c1",
+      "version": 1,
+      "senseId": "l149-v-275-sense",
+      "hanzi": "早上",
+      "dictionaryPinyin": "zǎo shang",
+      "meaning": "buổi sáng (dạng zǎoshang)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l149-v-275"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l149-c2",
+      "version": 1,
+      "senseId": "l149-v-178-sense",
+      "hanzi": "上午",
+      "dictionaryPinyin": "shàng wǔ",
+      "meaning": "buổi sáng trước trưa (dạng shàngwǔ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l149-v-178"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l149-c3",
+      "version": 1,
+      "senseId": "l149-v-291-sense",
+      "hanzi": "中午",
+      "dictionaryPinyin": "zhōng wǔ",
+      "meaning": "buổi trưa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l149-v-291"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l149-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l149-t0",
+      "type": "teaching",
+      "title": "早 · sớm",
+      "text": "早 là sớm theo mốc đang nói, không tự là danh từ cả buổi sáng trong mọi câu.",
+      "hanzi": "太早了！",
+      "pinyin": "Tài zǎo le!",
+      "meaning": "Sớm quá!",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l149-t1",
+      "type": "teaching",
+      "title": "早上 · buổi sáng (dạng zǎoshang)",
+      "text": "早上 chỉ buổi sáng, thường đầu ngày; 上 nhẹ theo pinyin mục từ.",
+      "hanzi": "早上好！",
+      "pinyin": "Zǎo shang hǎo!",
+      "meaning": "Chào buổi sáng!",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l149-t2",
+      "type": "teaching",
+      "title": "上午 · buổi sáng trước trưa (dạng shàngwǔ)",
+      "text": "上午 chỉ phần trước trưa, có thể chồng lấn với 早上; đề nêu rõ âm để chọn mục.",
+      "hanzi": "我上午上课。",
+      "pinyin": "Wǒ shàng wǔ shàng kè.",
+      "meaning": "Tôi học trên lớp vào buổi sáng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l149-t3",
+      "type": "teaching",
+      "title": "中午 · buổi trưa",
+      "text": "中午 là buổi trưa theo sinh hoạt, không tự là đúng một phút trên đồng hồ.",
+      "hanzi": "我中午休息。",
+      "pinyin": "Wǒ zhōng wǔ xiū xi.",
+      "meaning": "Tôi nghỉ vào buổi trưa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l149-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "早 tả sớm; 早上 là buổi sáng thường nói ở đầu ngày, 上午 là phần trước buổi trưa. Hai cách gọi buổi sáng có thể chồng lấn, không gán giờ tuyệt đối cho mọi tình huống. 中午 là buổi trưa; thời gian có thể đứng trước hành động như 我上午上课.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l149-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：早上好！你上午上课吗？\nB：上课。你呢？\nA：我也上课，中午我休息。",
+      "pinyin": "A: Zǎo shang hǎo! Nǐ shàng wǔ shàng kè ma? B: Shàng kè. Nǐ ne? A: Wǒ yě shàng kè, zhōng wǔ wǒ xiū xi.",
+      "meaning": "Hai người học vào buổi sáng; A nói nghỉ buổi trưa. Không có giờ bắt đầu/kết thúc chính xác trong đoạn.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l149-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l149-v1-e0"
+    },
+    {
+      "id": "l149-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l149-v1-e1"
+    },
+    {
+      "id": "l149-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l149-v1-e2"
+    },
+    {
+      "id": "l149-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l149-v1-e3"
+    },
+    {
+      "id": "l149-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l149-v1-e4"
+    },
+    {
+      "id": "l149-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l149-v1-e5"
+    },
+    {
+      "id": "l149-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l149-v1-e6"
+    },
+    {
+      "id": "l149-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l149-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l149-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l149-c0",
+      "senseId": "l149-v-273-sense",
+      "keyRef": "l149-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “sớm”: □ (zǎo). Ngữ cảnh: 太□了！ Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "旱",
+        "章",
+        "草",
+        "早"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l149-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l149-c1",
+      "senseId": "l149-v-275-sense",
+      "keyRef": "l149-v1-k1",
+      "prompt": "Viết pinyin từ điển của 早上 (buổi sáng (dạng zǎoshang)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l149-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l149-c2",
+      "senseId": "l149-v-178-sense",
+      "keyRef": "l149-v1-k2",
+      "prompt": "Điền đúng mục từ đọc shàng wǔ, nghĩa “buổi sáng trước trưa (dạng shàngwǔ)”: 我□上课。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l149-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l149-c3",
+      "senseId": "l149-v-291-sense",
+      "keyRef": "l149-v1-k3",
+      "prompt": "Chọn mục từ đọc zhōng wǔ, nghĩa “buổi trưa”, trong câu: 我□休息。",
+      "choices": [
+        "早",
+        "早上",
+        "上午",
+        "中午"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l149-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l149-c2",
+      "senseId": "l149-v-178-sense",
+      "keyRef": "l149-v1-k4",
+      "prompt": "Trong câu “我上午上课。”, 上午 mang nghĩa nào theo bài?",
+      "choices": [
+        "buổi sáng (dạng zǎoshang)",
+        "buổi sáng trước trưa (dạng shàngwǔ)",
+        "buổi trưa",
+        "sớm"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l149-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l149-c3",
+      "senseId": "l149-v-291-sense",
+      "keyRef": "l149-v1-k5",
+      "prompt": "Trong câu “我中午休息。”, 中午 mang nghĩa nào theo bài?",
+      "choices": [
+        "buổi sáng trước trưa (dạng shàngwǔ)",
+        "buổi trưa",
+        "sớm",
+        "buổi sáng (dạng zǎoshang)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l149-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l149-c0",
+      "senseId": "l149-v-273-sense",
+      "keyRef": "l149-v1-k6",
+      "prompt": "A nói nghỉ vào buổi nào?",
+      "choices": [
+        "晚上",
+        "下午",
+        "中午"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l149-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l149-c3",
+      "senseId": "l149-v-291-sense",
+      "keyRef": "l149-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我上午",
+        "上",
+        "课。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l149-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l149-v1-e0",
+      "senseId": "l149-v-273-sense",
+      "accepted": [
+        "早"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 早 tạo từ 早. 早 là sớm theo mốc đang nói, không tự là danh từ cả buổi sáng trong mọi câu. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l149-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l149-v1-e1",
+      "senseId": "l149-v-275-sense",
+      "accepted": [
+        "zǎo shang"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "早上 ghi zǎo shang. 早上 chỉ buổi sáng, thường đầu ngày; 上 nhẹ theo pinyin mục từ."
+    },
+    {
+      "id": "l149-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l149-v1-e2",
+      "senseId": "l149-v-178-sense",
+      "accepted": [
+        "上午"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc shàng wǔ: 上午. 上午 chỉ phần trước trưa, có thể chồng lấn với 早上; đề nêu rõ âm để chọn mục. Tôi học trên lớp vào buổi sáng."
+    },
+    {
+      "id": "l149-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l149-v1-e3",
+      "senseId": "l149-v-291-sense",
+      "accepted": [
+        "中午"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc zhōng wǔ: 中午. 中午 là buổi trưa theo sinh hoạt, không tự là đúng một phút trên đồng hồ. Tôi nghỉ vào buổi trưa."
+    },
+    {
+      "id": "l149-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l149-v1-e4",
+      "senseId": "l149-v-178-sense",
+      "accepted": [
+        "buổi sáng trước trưa (dạng shàngwǔ)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "上午 chỉ phần trước trưa, có thể chồng lấn với 早上; đề nêu rõ âm để chọn mục. Tôi học trên lớp vào buổi sáng."
+    },
+    {
+      "id": "l149-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l149-v1-e5",
+      "senseId": "l149-v-291-sense",
+      "accepted": [
+        "buổi trưa"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "中午 là buổi trưa theo sinh hoạt, không tự là đúng một phút trên đồng hồ. Tôi nghỉ vào buổi trưa."
+    },
+    {
+      "id": "l149-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l149-v1-e6",
+      "senseId": "l149-v-273-sense",
+      "accepted": [
+        "中午"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 中午. Hai người học vào buổi sáng; A nói nghỉ buổi trưa. Không có giờ bắt đầu/kết thúc chính xác trong đoạn."
+    },
+    {
+      "id": "l149-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l149-v1-e7",
+      "senseId": "l149-v-291-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 早 tả sớm; 早上 là buổi sáng thường nói ở đầu ngày, 上午 là phần trước buổi trưa. Hai cách gọi buổi sáng có thể chồng lấn, không gán giờ tuyệt đối cho mọi tình huống. 中午 là buổi trưa; thời gian có thể đứng trước hành động như 我上午上课."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

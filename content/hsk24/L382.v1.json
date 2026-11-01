@@ -1,0 +1,733 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "529da3c9624ec74c4b0a3ce8d83d8192039bf80aa7ac71c9f73ce835079604d8",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-recognition-problem",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L382",
+    "version": 1,
+    "versionId": "l382-draft-v1",
+    "title": "Gặp lại người quen và tìm đồ cũ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc nhận ra người quen, gặp tình cờ và hỏi cách xử lý.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "只是"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-social",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "日常交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-etiquette",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "礼貌行为"
+        },
+        "written": "礼貌行为",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l382-v-721",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 721"
+        },
+        "written": "旧",
+        "pinyin": "jiù",
+        "senseId": "l382-v-721-sense",
+        "ordinal": 721,
+        "note": "3 jiù 形; 旧 nói đã dùng/cũ, khác 老 về tuổi người hoặc quan hệ lâu năm. 旧书未必无用，也未必很久以前出版. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l382-v-815",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 815"
+        },
+        "written": "认得",
+        "pinyin": "rènde",
+        "senseId": "l382-v-815-sense",
+        "ordinal": 815,
+        "note": "3 rènde 动; 认得 nói nhận ra/biết mặt, 不认得不等于从未见过; 认得他 chưa biết tên. 得 ở đây đọc nhẹ de, không phải dé/děi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l382-v-954",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 954"
+        },
+        "written": "遇见",
+        "pinyin": "yùjiàn",
+        "senseId": "l382-v-954-sense",
+        "ordinal": 954,
+        "note": "3 yùjiàn 动; 遇见 thường gặp người/đối tượng trong cảnh, có thể gần 遇到 khi nói gặp người. Bài không dùng hai từ làm lựa chọn loại trừ nếu cùng đúng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l382-v-978",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 978"
+        },
+        "written": "只是",
+        "pinyin": "zhǐshì",
+        "senseId": "l382-v-978-sense",
+        "ordinal": 978,
+        "note": "3 zhǐshì 副、连; 只是 có thể giới hạn hoặc chuyển nhẹ: 想去，只是没空. 不必将它解释成每次都“là” sau 只. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l382-v-964",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 964"
+        },
+        "written": "怎么办",
+        "pinyin": "zěnme bàn",
+        "senseId": "l382-v-964-sense",
+        "ordinal": 964,
+        "note": "3 zěnme bàn; 怎么办 hỏi cách giải quyết trước vấn đề, không phải tên một hành động. 钥匙丢了怎么办 không tự có đáp án duy nhất ngoài bài. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-121",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "121"
+        },
+        "written": "旧",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 121,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-262",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "262"
+        },
+        "written": "遇",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 262,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-8",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "8"
+        },
+        "written": "办",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 8,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-restrictive",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "副词 / 范围副词 / 只是"
+        },
+        "written": "只是",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l382-c0",
+      "version": 1,
+      "senseId": "l382-v-721-sense",
+      "hanzi": "旧",
+      "dictionaryPinyin": "jiù",
+      "meaning": "cũ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l382-v-721"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l382-c1",
+      "version": 1,
+      "senseId": "l382-v-815-sense",
+      "hanzi": "认得",
+      "dictionaryPinyin": "rèn de",
+      "meaning": "nhận ra/biết mặt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l382-v-815"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l382-c2",
+      "version": 1,
+      "senseId": "l382-v-954-sense",
+      "hanzi": "遇见",
+      "dictionaryPinyin": "yù jiàn",
+      "meaning": "gặp tình cờ/gặp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l382-v-954"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l382-c3",
+      "version": 1,
+      "senseId": "l382-v-978-sense",
+      "hanzi": "只是",
+      "dictionaryPinyin": "zhǐ shì",
+      "meaning": "chỉ là/chỉ có điều",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l382-v-978"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l382-c4",
+      "version": 1,
+      "senseId": "l382-v-964-sense",
+      "hanzi": "怎么办",
+      "dictionaryPinyin": "zěn me bàn",
+      "meaning": "làm sao bây giờ/xử lý thế nào",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l382-v-964"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l382-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 对方 duìfāng: phía/người kia; 认定 rèndìng: khẳng định/cho chắc; 钥匙 yàoshi: chìa khóa chỉ ví dụ nghĩa; 丢 diū: mất.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l382-t0",
+      "type": "teaching",
+      "title": "旧 · cũ",
+      "text": "旧 nói đã dùng/cũ, khác 老 về tuổi người hoặc quan hệ lâu năm. 旧书未必无用，也未必很久以前出版.",
+      "hanzi": "这本旧书是爷爷的。",
+      "pinyin": "Zhè běn jiù shū shì yéye de.",
+      "meaning": "Sách cũ này là của ông.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l382-t1",
+      "type": "teaching",
+      "title": "认得 · nhận ra/biết mặt",
+      "text": "认得 nói nhận ra/biết mặt, 不认得不等于从未见过; 认得他 chưa biết tên. 得 ở đây đọc nhẹ de, không phải dé/děi.",
+      "hanzi": "我认得他，可不知道名字。",
+      "pinyin": "Wǒ rènde tā, kě bù zhīdào míngzi.",
+      "meaning": "Tôi nhận ra anh ấy nhưng không biết tên.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l382-t2",
+      "type": "teaching",
+      "title": "遇见 · gặp tình cờ/gặp",
+      "text": "遇见 thường gặp người/đối tượng trong cảnh, có thể gần 遇到 khi nói gặp người. Bài không dùng hai từ làm lựa chọn loại trừ nếu cùng đúng.",
+      "hanzi": "我在图书馆遇见了老同学。",
+      "pinyin": "Wǒ zài túshūguǎn yùjiàn le lǎo tóngxué.",
+      "meaning": "Tôi gặp bạn học cũ ở thư viện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l382-t3",
+      "type": "teaching",
+      "title": "只是 · chỉ là/chỉ có điều",
+      "text": "只是 có thể giới hạn hoặc chuyển nhẹ: 想去，只是没空. 不必将它解释成每次都“là” sau 只.",
+      "hanzi": "我想帮忙，只是现在没时间。",
+      "pinyin": "Wǒ xiǎng bāng máng, zhǐshì xiànzài méi shíjiān.",
+      "meaning": "Tôi muốn giúp, chỉ có điều giờ không có thời gian.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l382-t4",
+      "type": "teaching",
+      "title": "怎么办 · làm sao bây giờ/xử lý thế nào",
+      "text": "怎么办 hỏi cách giải quyết trước vấn đề, không phải tên một hành động. 钥匙丢了怎么办 không tự có đáp án duy nhất ngoài bài.",
+      "hanzi": "找不到旧书，怎么办？",
+      "pinyin": "Zhǎo bu dào jiù shū, zěnme bàn?",
+      "meaning": "Không tìm thấy sách cũ, phải làm sao?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l382-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "只是 trong 我认得他，只是不知道名字 đưa giới hạn/điều bổ sung trái kỳ vọng. Không phủ định việc nhận ra; 怎么办 hỏi nên xử lý ra sao, khác 怎么做 tập trung cách làm.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l382-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林找不到爷爷的旧书，问怎么办。他在图书馆遇见老同学，认得对方，只是不记得名字。两人先核对借书记录，没有因为认得对方就认定书在对方那里。",
+      "pinyin": "Xiǎo Lín zhǎo bu dào yéye de jiù shū, wèn zěnme bàn. Tā zài túshūguǎn yùjiàn lǎo tóngxué, rènde duìfāng, zhǐshì bú jìde míngzi. Liǎng rén xiān héduì jiè shū jìlù, méiyǒu yīnwèi rènde duìfāng jiù rèndìng shū zài duìfāng nàli.",
+      "meaning": "Lâm không thấy sách cũ của ông, gặp bạn học cũ ở thư viện nhưng không nhớ tên. Họ tra lượt mượn, không kết luận người quen đang giữ sách chỉ vì nhận ra nhau.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l382-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l382-v1-e0"
+    },
+    {
+      "id": "l382-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l382-v1-e1"
+    },
+    {
+      "id": "l382-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l382-v1-e2"
+    },
+    {
+      "id": "l382-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l382-v1-e3"
+    },
+    {
+      "id": "l382-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l382-v1-e4"
+    },
+    {
+      "id": "l382-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l382-v1-e5"
+    },
+    {
+      "id": "l382-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l382-v1-e6"
+    },
+    {
+      "id": "l382-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l382-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l382-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l382-c0",
+      "senseId": "l382-v-721-sense",
+      "keyRef": "l382-v1-k0",
+      "prompt": "Đồ sách cũ, không nói tuổi người: 一本□书。",
+      "choices": [
+        "认得",
+        "遇见",
+        "只是",
+        "怎么办",
+        "旧"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l382-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l382-c1",
+      "senseId": "l382-v-815-sense",
+      "keyRef": "l382-v1-k1",
+      "prompt": "Biết mặt/nhận ra người, chưa nhớ tên: 我□他。",
+      "choices": [
+        "遇见",
+        "只是",
+        "怎么办",
+        "旧",
+        "认得"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l382-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l382-c2",
+      "senseId": "l382-v-954-sense",
+      "keyRef": "l382-v1-k2",
+      "prompt": "Gặp người bạn cũ tình cờ: 在图书馆□了老同学。",
+      "choices": [
+        "只是",
+        "怎么办",
+        "旧",
+        "认得",
+        "遇见"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l382-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l382-c3",
+      "senseId": "l382-v-978-sense",
+      "keyRef": "l382-v1-k3",
+      "prompt": "Viết pinyin của 只是 trong câu “我想帮忙，只是现在没时间。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l382-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l382-c4",
+      "senseId": "l382-v-964-sense",
+      "keyRef": "l382-v1-k4",
+      "prompt": "Cụm hỏi xử lý ra sao: 找不到书，□？",
+      "choices": [
+        "旧",
+        "认得",
+        "遇见",
+        "只是",
+        "怎么办"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l382-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l382-c1",
+      "senseId": "l382-v-815-sense",
+      "keyRef": "l382-v1-k5",
+      "prompt": "Viết “Tôi nhận ra anh ấy”, dùng 我 + đúng động từ 认得 + 他; không thêm phần không nhớ tên.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l382-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l382-c0",
+      "senseId": "l382-v-721-sense",
+      "keyRef": "l382-v1-k6",
+      "prompt": "Lâm có biết tên người kia không?",
+      "choices": [
+        "已经确认名字",
+        "根本没见过",
+        "不记得名字"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l382-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l382-c3",
+      "senseId": "l382-v-978-sense",
+      "keyRef": "l382-v1-k7",
+      "prompt": "Xếp điều giới hạn, bắt đầu bằng 我认得他.",
+      "choices": [
+        "只是不记得名字",
+        "我认得他"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l382-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l382-v1-e0",
+      "senseId": "l382-v-721-sense",
+      "accepted": [
+        "旧"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "旧: cũ. 旧 nói đã dùng/cũ, khác 老 về tuổi người hoặc quan hệ lâu năm. 旧书未必无用，也未必很久以前出版. Sách cũ này là của ông."
+    },
+    {
+      "id": "l382-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l382-v1-e1",
+      "senseId": "l382-v-815-sense",
+      "accepted": [
+        "认得"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "认得: nhận ra/biết mặt. 认得 nói nhận ra/biết mặt, 不认得不等于从未见过; 认得他 chưa biết tên. 得 ở đây đọc nhẹ de, không phải dé/děi. Tôi nhận ra anh ấy nhưng không biết tên."
+    },
+    {
+      "id": "l382-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l382-v1-e2",
+      "senseId": "l382-v-954-sense",
+      "accepted": [
+        "遇见"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "遇见: gặp tình cờ/gặp. 遇见 thường gặp người/đối tượng trong cảnh, có thể gần 遇到 khi nói gặp người. Bài không dùng hai từ làm lựa chọn loại trừ nếu cùng đúng. Tôi gặp bạn học cũ ở thư viện."
+    },
+    {
+      "id": "l382-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l382-v1-e3",
+      "senseId": "l382-v-978-sense",
+      "accepted": [
+        "zhǐ shì"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "只是: chỉ là/chỉ có điều. 只是 có thể giới hạn hoặc chuyển nhẹ: 想去，只是没空. 不必将它解释成每次都“là” sau 只. Tôi muốn giúp, chỉ có điều giờ không có thời gian."
+    },
+    {
+      "id": "l382-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l382-v1-e4",
+      "senseId": "l382-v-964-sense",
+      "accepted": [
+        "怎么办"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "怎么办: làm sao bây giờ/xử lý thế nào. 怎么办 hỏi cách giải quyết trước vấn đề, không phải tên một hành động. 钥匙丢了怎么办 không tự có đáp án duy nhất ngoài bài. Không tìm thấy sách cũ, phải làm sao?"
+    },
+    {
+      "id": "l382-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l382-v1-e5",
+      "senseId": "l382-v-815-sense",
+      "accepted": [
+        "我认得他"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "认得 đọc rèn de, nhận ra/biết mặt. Câu giới hạn không thêm suy luận biết tên."
+    },
+    {
+      "id": "l382-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l382-v1-e6",
+      "senseId": "l382-v-721-sense",
+      "accepted": [
+        "不记得名字"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 只是 trong 我认得他，只是不知道名字 đưa giới hạn/điều bổ sung trái kỳ vọng. Không phủ định việc nhận ra; 怎么办 hỏi nên xử lý ra sao, khác 怎么做 tập trung cách làm."
+    },
+    {
+      "id": "l382-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l382-v1-e7",
+      "senseId": "l382-v-978-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 只是 trong 我认得他，只是不知道名字 đưa giới hạn/điều bổ sung trái kỳ vọng. Không phủ định việc nhận ra; 怎么办 hỏi nên xử lý ra sao, khác 怎么做 tập trung cách làm."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

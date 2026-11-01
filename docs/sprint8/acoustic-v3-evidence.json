@@ -1,0 +1,369 @@
+{
+  "checkedAt": "2026-10-18T11:13:59.189Z",
+  "base": "554be9cf16248d81fa18b45a44b2382db3f327f4",
+  "sourceMain": "0dc42253180ef38d1c43f1f87c9f0f675a851341",
+  "status": "SPRINT8_PARTIAL",
+  "ownerEvidence": {
+    "v2Graph": "OWNER_REPORTED",
+    "message": "INSUFFICIENT_SIGNAL_MESSAGE_OWNER_REPORTED",
+    "subsequentlyCopiedPanel": {
+      "status": "NOT_ANALYZED",
+      "reason": "NO_ANALYSIS",
+      "duration": 0,
+      "frames": 0
+    },
+    "actualRejectionReason": "UNKNOWN",
+    "noiseCause": "UNCONFIRMED",
+    "browserDevice": "UNCONFIRMED",
+    "v3Retest": "PENDING",
+    "audioCollected": false
+  },
+  "policy": {
+    "version": "csh-pitch-observation-v3",
+    "algorithm": "Gaussian low-pass + McLeod Pitch Method / pitchy@4.1.0",
+    "conditioningTopHz": 1000,
+    "conditioningAttenuationAtTop": 0.03,
+    "sampleRate": 24000,
+    "frameSize": 2048,
+    "hopMs": 10,
+    "minHz": 50,
+    "maxHz": 1000,
+    "minRms": 0.008,
+    "minClarity": 0.9,
+    "maxClipFraction": 0.01,
+    "minVoicedMs": 300,
+    "minCoverage": 0.65,
+    "maxNucleusMs": 2500,
+    "maxInternalGapMs": 140,
+    "octaveJumpSemitones": 9,
+    "maxMeanStepSemitones": 1.2,
+    "movementSemitones": 2,
+    "maxAudioSeconds": 12.5,
+    "maxEncodedBytes": 2097152,
+    "timeoutMs": 8000
+  },
+  "noisePolicy": {
+    "referenceMs": 300,
+    "frameSize": 1024,
+    "hopSize": 256,
+    "minGain": 0.25,
+    "subtraction": 1.5,
+    "maxReferenceToPeak": 0.45
+  },
+  "sourceHashConvention": "UTF8 normalized LF, no evidence self hash",
+  "sourceFiles": [
+    {
+      "file": "README.md",
+      "sha256": "0d9448bfbca880157ce4c021be24f10b2549c0cf5e4848b6ed5e67631201d476"
+    },
+    {
+      "file": "docs/sprint8/manual-microphone-protocol.md",
+      "sha256": "43a05defe79cf7106d643d27f24cc9a0125d5ae7b855101a4e5821a9d278b19a"
+    },
+    {
+      "file": "docs/sprint8/verification.md",
+      "sha256": "3f48bfdf23cd9a913c6f2dee21daf61a6e96998dcd68dc23c5160a3775499053"
+    },
+    {
+      "file": "next-env.d.ts",
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "35424acc5dca91fecb9101b8f62974142bc2ecd2502c33759cb940582ffc4520"
+    },
+    {
+      "file": "package.json",
+      "sha256": "70f7bbbd0618a4d14a7755d0d538fe5690ab3dd193f438d6ffa3d646a1565484"
+    },
+    {
+      "file": "src/modules/pronunciation/application/acoustic-session.ts",
+      "sha256": "96a7233ffe5593435bb60e69c09f269cad524607f33d7b61a1bbd92802f3686c"
+    },
+    {
+      "file": "src/modules/pronunciation/application/acoustic-worker.ts",
+      "sha256": "dff5a6485780c9ed142915fa1d93a4167efe6ade1e7a55772f5496fcd9b5ebb6"
+    },
+    {
+      "file": "src/modules/pronunciation/application/analyze-recording.ts",
+      "sha256": "c3e80f0d65d38badfd4dee1e62386930ac41242e39a465fc46be0be99467672e"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/acoustic-engine.ts",
+      "sha256": "4396114cf2a5c87c340789e60f2c7d4d70afed850119ad042044e40e95db4efd"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/acoustic-types.ts",
+      "sha256": "cbbabdf871e83f499646e37703b4a3a445e646b9bd4d1f0fc57a244c0a832c9b"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/tone-feedback.ts",
+      "sha256": "2a8aa0ceaa5476010fb92f14b9bc6082c831e708ea5adeabe8de7e60290ef63e"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/acoustic-practice.tsx",
+      "sha256": "bd10c9c31309251688527b4dc50d642ae6ef1e53f57cc030c98204ce91f88609"
+    },
+    {
+      "file": "tests/sprint8-browser/acoustic.spec.ts",
+      "sha256": "4edc91c2b985f3b92f9033e9e7b9c7040fd631ba18bf5fcd46f9033e21d8b30c"
+    },
+    {
+      "file": "tests/unit/acoustic-conditioning.test.ts",
+      "sha256": "0f84dd511777d04d9be6d22ed2400a981f51a4d5f310f2b68f76dc29f00c8ee4"
+    },
+    {
+      "file": "tests/unit/acoustic.test.ts",
+      "sha256": "192fa9222a8a3db9a7422cdd2ff5f3b9cdd2b914435411f8565fd246dff7981d"
+    },
+    {
+      "file": "docs/sprint8/acoustic-policy-v3.md",
+      "sha256": "072e639eaf6a224b80a7d79a14ae5fc19bdddb583f1a682c19d692547debb416"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/noise-reduction.ts",
+      "sha256": "3d2c811ec8c0a1648a0b461b354caf276fc52bcc8af68b41f67559cca80f846a"
+    },
+    {
+      "file": "tests/fixtures/noisy-vowel.ts",
+      "sha256": "d4fefbfe03c457c9cfc9f6a3abca73cd57af1b6da16c5eb51281624a50c7d2b9"
+    },
+    {
+      "file": "tests/unit/acoustic-noise.test.ts",
+      "sha256": "1e7e0ca3cc064d1fa5a0f350f942fab8da3b089a3769be1ada85fda8f0436d18"
+    }
+  ],
+  "checks": {
+    "unit": {
+      "passed": 69,
+      "failed": 0,
+      "report": {
+        "file": ".local-postgres/acoustic-v3/unit.xml",
+        "sha256": "0a0106da37379c17419faf0d364452c5924a9ad2e936458bd41a88c5eed6e665"
+      }
+    },
+    "browser": {
+      "distinctPassed": 12,
+      "failed": 0,
+      "retries": 0,
+      "report": {
+        "file": ".local-postgres/acoustic-v3/browser.xml",
+        "sha256": "df7a90506693084c7e1e51c453fae079a7ed5bfcf70422b20f3fa19985fbb70e"
+      },
+      "log": {
+        "file": ".local-postgres/acoustic-v3/browser.log",
+        "sha256": "fbf3f953f012a0d07e1fa9b0f5d4e2b759cd6d03956687d0c4ee89b71ebc606a"
+      }
+    },
+    "finalTextRegression": {
+      "passed": 2,
+      "failed": 0,
+      "subsetOfBrowserCases": true,
+      "report": {
+        "file": ".local-postgres/acoustic-v3/browser-final.xml",
+        "sha256": "39e99e1a5f18f57c2bb6c588475b2a6906fa9dcfe1a478ffa964fcb6b1e72698"
+      }
+    },
+    "lint": {
+      "status": "PASS",
+      "warnings": 0,
+      "log": {
+        "file": ".local-postgres/acoustic-v3/lint.log",
+        "sha256": "d2246b046ac72a5146dfff03bb52c140232287592ad9a829a65c8e5759484d55"
+      }
+    },
+    "typecheck": {
+      "status": "PASS",
+      "log": {
+        "file": ".local-postgres/acoustic-v3/typecheck.log",
+        "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914"
+      }
+    },
+    "format": {
+      "status": "PASS",
+      "log": {
+        "file": ".local-postgres/acoustic-v3/format.log",
+        "sha256": "3443897b7d89155994e838066b1553e02a1cdc22ecfb4ebbc740e4b2b38c3555"
+      }
+    },
+    "build": {
+      "status": "PASS",
+      "log": {
+        "file": ".local-postgres/acoustic-v3/build.log",
+        "sha256": "4f54a82f884809d76255af7ca4c372106ebe816d81f02fc1c08c1acfd15d0e2c"
+      }
+    }
+  },
+  "syntheticComparisons": [
+    {
+      "noise": 0.12,
+      "hum": 0.015,
+      "seed": 91,
+      "syntheticOnly": true,
+      "knownCleanNoisePlusDistortionReductionDb": 6.374567102461235,
+      "off": {
+        "status": "INSUFFICIENT_SIGNAL",
+        "reason": "INSUFFICIENT_PERIODIC_FRAMES",
+        "observation": null,
+        "warnings": ["INSUFFICIENT_PERIODIC_FRAMES", "AMBIGUOUS_SEGMENTATION"],
+        "acceptedFrames": 19,
+        "totalFrames": 152,
+        "activeCoverage": 0.125,
+        "nominalMeanAbsoluteCents": 1000.2022948889293,
+        "pronunciationVerified": false,
+        "masteryEligible": false
+      },
+      "on": {
+        "status": "ANALYZED",
+        "reason": "EXPERIMENTAL_PITCH_ONLY",
+        "observation": "RISING",
+        "warnings": [],
+        "acceptedFrames": 102,
+        "totalFrames": 152,
+        "activeCoverage": 0.8095238095238095,
+        "nominalMeanAbsoluteCents": 2.90199997932201,
+        "pronunciationVerified": false,
+        "masteryEligible": false
+      }
+    },
+    {
+      "noise": 0.12,
+      "hum": 0.015,
+      "seed": 92,
+      "syntheticOnly": true,
+      "knownCleanNoisePlusDistortionReductionDb": 6.47077410363174,
+      "off": {
+        "status": "INSUFFICIENT_SIGNAL",
+        "reason": "OCTAVE_AMBIGUITY",
+        "observation": null,
+        "warnings": [
+          "OCTAVE_AMBIGUITY",
+          "INSUFFICIENT_PERIODIC_FRAMES",
+          "AMBIGUOUS_SEGMENTATION"
+        ],
+        "acceptedFrames": 9,
+        "totalFrames": 152,
+        "activeCoverage": 0.05921052631578947,
+        "nominalMeanAbsoluteCents": 598.6789547018052,
+        "pronunciationVerified": false,
+        "masteryEligible": false
+      },
+      "on": {
+        "status": "ANALYZED",
+        "reason": "EXPERIMENTAL_PITCH_ONLY",
+        "observation": "RISING",
+        "warnings": [],
+        "acceptedFrames": 99,
+        "totalFrames": 152,
+        "activeCoverage": 0.7857142857142857,
+        "nominalMeanAbsoluteCents": 2.8641850180649175,
+        "pronunciationVerified": false,
+        "masteryEligible": false
+      }
+    },
+    {
+      "noise": 0.12,
+      "hum": 0.015,
+      "seed": 93,
+      "syntheticOnly": true,
+      "knownCleanNoisePlusDistortionReductionDb": 6.334524617226642,
+      "off": {
+        "status": "INSUFFICIENT_SIGNAL",
+        "reason": "INSUFFICIENT_PERIODIC_FRAMES",
+        "observation": null,
+        "warnings": ["INSUFFICIENT_PERIODIC_FRAMES", "AMBIGUOUS_SEGMENTATION"],
+        "acceptedFrames": 16,
+        "totalFrames": 152,
+        "activeCoverage": 0.10526315789473684,
+        "nominalMeanAbsoluteCents": 1078.4371454364386,
+        "pronunciationVerified": false,
+        "masteryEligible": false
+      },
+      "on": {
+        "status": "ANALYZED",
+        "reason": "EXPERIMENTAL_PITCH_ONLY",
+        "observation": "RISING",
+        "warnings": [],
+        "acceptedFrames": 99,
+        "totalFrames": 152,
+        "activeCoverage": 0.7857142857142857,
+        "nominalMeanAbsoluteCents": 2.9428164975663806,
+        "pronunciationVerified": false,
+        "masteryEligible": false
+      }
+    },
+    {
+      "noise": 0.04,
+      "hum": 0.04,
+      "seed": 91,
+      "syntheticOnly": true,
+      "knownCleanNoisePlusDistortionReductionDb": 10.104321809906043,
+      "off": {
+        "status": "INSUFFICIENT_SIGNAL",
+        "reason": "OCTAVE_AMBIGUITY",
+        "observation": null,
+        "warnings": [
+          "OCTAVE_AMBIGUITY",
+          "INSUFFICIENT_PERIODIC_FRAMES",
+          "AMBIGUOUS_SEGMENTATION"
+        ],
+        "acceptedFrames": 80,
+        "totalFrames": 152,
+        "activeCoverage": 0.5263157894736842,
+        "nominalMeanAbsoluteCents": 1198.1736507561648,
+        "pronunciationVerified": false,
+        "masteryEligible": false
+      },
+      "on": {
+        "status": "INSUFFICIENT_SIGNAL",
+        "reason": "OCTAVE_AMBIGUITY",
+        "observation": null,
+        "warnings": ["OCTAVE_AMBIGUITY"],
+        "acceptedFrames": 112,
+        "totalFrames": 152,
+        "activeCoverage": 0.8888888888888888,
+        "nominalMeanAbsoluteCents": 2.985002483593826,
+        "pronunciationVerified": false,
+        "masteryEligible": false
+      }
+    },
+    {
+      "noise": 0.2,
+      "hum": 0.04,
+      "seed": 91,
+      "syntheticOnly": true,
+      "knownCleanNoisePlusDistortionReductionDb": 7.021162369357588,
+      "off": {
+        "status": "INSUFFICIENT_SIGNAL",
+        "reason": "INSUFFICIENT_PERIODIC_FRAMES",
+        "observation": null,
+        "warnings": ["INSUFFICIENT_PERIODIC_FRAMES", "AMBIGUOUS_SEGMENTATION"],
+        "acceptedFrames": 32,
+        "totalFrames": 152,
+        "activeCoverage": 0.21052631578947367,
+        "nominalMeanAbsoluteCents": 1196.969838323103,
+        "pronunciationVerified": false,
+        "masteryEligible": false
+      },
+      "on": {
+        "status": "INSUFFICIENT_SIGNAL",
+        "reason": "INSUFFICIENT_PERIODIC_FRAMES",
+        "observation": null,
+        "warnings": ["INSUFFICIENT_PERIODIC_FRAMES"],
+        "acceptedFrames": 73,
+        "totalFrames": 152,
+        "activeCoverage": 0.5793650793650794,
+        "nominalMeanAbsoluteCents": 3.2683151013416234,
+        "pronunciationVerified": false,
+        "masteryEligible": false
+      }
+    }
+  ],
+  "dependencyChange": "fft.js 4.0.4 previously transitive now direct; package-lock resolved packages unchanged",
+  "limits": [
+    "Generated math signals only; no human F0 accuracy/noise reduction claim",
+    "Original 64-browser / 41-PostgreSQL baseline not rerun",
+    "Owner v3 and formal Windows/Android/phonetic evaluation pending",
+    "No upload/storage/learning write/schema/content/SSOT/loop changes"
+  ]
+}

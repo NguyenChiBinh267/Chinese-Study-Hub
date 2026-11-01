@@ -1,0 +1,791 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "40c2fd243c265e0c834f2f09debc37dda4aeedd49de08023622852e3788690dd",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-egd",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L463",
+    "version": 1,
+    "versionId": "l463-draft-v1",
+    "title": "Kiểm tra cách hiểu bằng ví dụ cụ thể",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Kiểm tra cách hiểu bằng ví dụ cụ thể; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "就是说"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 23,
+      "physicalPage": 24,
+      "printedPage": 21,
+      "section": "task",
+      "entry": "十二"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-27T08:43:12.696407Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 23,
+          "physicalPage": 24,
+          "printedPage": 21,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "谈论教学、学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-0dc14da9e224",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "教学情况"
+        },
+        "written": "教学情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l463-v-1435",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 114,
+          "physicalPage": 115,
+          "printedPage": 112,
+          "section": "vocabulary",
+          "entry": "ordinal 1435"
+        },
+        "written": "肯定",
+        "pinyin": "kěndìng",
+        "senseId": "l463-v-1435-sense",
+        "ordinal": 1435,
+        "note": "4 kěndìng 动、形、副; 肯定 trong 我不肯定 biểu thị mức chắc của người nói, chưa phải sự thật được xác nhận. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l463-v-1461",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 115,
+          "physicalPage": 116,
+          "printedPage": 113,
+          "section": "vocabulary",
+          "entry": "ordinal 1461"
+        },
+        "written": "理解",
+        "pinyin": "lǐjiě",
+        "senseId": "l463-v-1461-sense",
+        "ordinal": 1461,
+        "note": "4 lǐjiě 动; 理解 là nắm ý/nguyên lý, khác chỉ nghe thấy hoặc nhớ âm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l463-v-1466",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 115,
+          "physicalPage": 116,
+          "printedPage": 113,
+          "section": "vocabulary",
+          "entry": "ordinal 1466"
+        },
+        "written": "例如",
+        "pinyin": "lìrú",
+        "senseId": "l463-v-1466-sense",
+        "ordinal": 1466,
+        "note": "4 lìrú 动; 例如 mở ví dụ cụ thể, thường đứng trước phần liệt kê/giải thích. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l463-v-1467",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 115,
+          "physicalPage": 116,
+          "printedPage": 113,
+          "section": "vocabulary",
+          "entry": "ordinal 1467"
+        },
+        "written": "例子",
+        "pinyin": "lìzi",
+        "senseId": "l463-v-1467-sense",
+        "ordinal": 1467,
+        "note": "4 lìzi 名; 例子 là danh từ, dùng 举一个例子; không dùng như liên từ 例如. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l463-v-1407",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 114,
+          "physicalPage": 115,
+          "printedPage": 112,
+          "section": "vocabulary",
+          "entry": "ordinal 1407"
+        },
+        "written": "究竟",
+        "pinyin": "jiūjìng",
+        "senseId": "l463-v-1407-sense",
+        "ordinal": 1407,
+        "note": "4（5） jiūjìng 副、（名）; 究竟 đánh dấu câu hỏi truy tìm rõ, như 究竟是什么意思; không mặc định giọng gây hấn. Nhận diện chữ 竟 trong 究竟; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l463-v-1404",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 114,
+          "physicalPage": 115,
+          "printedPage": 112,
+          "section": "vocabulary",
+          "entry": "ordinal 1404"
+        },
+        "written": "竟然",
+        "pinyin": "jìngrán",
+        "senseId": "l463-v-1404-sense",
+        "ordinal": 1404,
+        "note": "4 jìngrán 副; 竟然 nêu điều trái dự kiến đã được nhận thấy; khác 也许 là chưa chắc. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-173",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "173"
+        },
+        "written": "肯",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 173,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-187",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "187"
+        },
+        "written": "例",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 187,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-161",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "161"
+        },
+        "written": "究",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 161,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-159",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "159"
+        },
+        "written": "竟",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 159,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-463",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 394,
+          "physicalPage": 395,
+          "printedPage": 392,
+          "section": "grammar",
+          "entry": "就是说/这就是说"
+        },
+        "written": "就是说",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l463-c0",
+      "version": 1,
+      "senseId": "l463-v-1435-sense",
+      "hanzi": "肯定",
+      "dictionaryPinyin": "kěn dìng",
+      "meaning": "chắc chắn; khẳng định",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l463-v-1435"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l463-c1",
+      "version": 1,
+      "senseId": "l463-v-1461-sense",
+      "hanzi": "理解",
+      "dictionaryPinyin": "lǐ jiě",
+      "meaning": "hiểu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l463-v-1461"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l463-c2",
+      "version": 1,
+      "senseId": "l463-v-1466-sense",
+      "hanzi": "例如",
+      "dictionaryPinyin": "lì rú",
+      "meaning": "ví dụ như",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l463-v-1466"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l463-c3",
+      "version": 1,
+      "senseId": "l463-v-1467-sense",
+      "hanzi": "例子",
+      "dictionaryPinyin": "lì zi",
+      "meaning": "ví dụ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l463-v-1467"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l463-c4",
+      "version": 1,
+      "senseId": "l463-v-1407-sense",
+      "hanzi": "究竟",
+      "dictionaryPinyin": "jiū jìng",
+      "meaning": "rốt cuộc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l463-v-1407"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l463-c5",
+      "version": 1,
+      "senseId": "l463-v-1404-sense",
+      "hanzi": "竟然",
+      "dictionaryPinyin": "jìng rán",
+      "meaning": "không ngờ lại",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l463-v-1404"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l463-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 结论 jiélùn: kết luận; 词义 cíyì: nghĩa từ. Bài chỉ chấm câu trả lời có giới hạn, chưa chấm giải thích tự do.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l463-t0",
+      "type": "teaching",
+      "title": "肯定 · chắc chắn; khẳng định",
+      "text": "肯定 trong 我不肯定 biểu thị mức chắc của người nói, chưa phải sự thật được xác nhận.",
+      "hanzi": "我不肯定自己理解得对不对。",
+      "pinyin": "Wǒ bù kěndìng zìjǐ lǐjiě de duì bu duì.",
+      "meaning": "Tôi chưa chắc mình hiểu đúng không.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l463-t1",
+      "type": "teaching",
+      "title": "理解 · hiểu",
+      "text": "理解 là nắm ý/nguyên lý, khác chỉ nghe thấy hoặc nhớ âm.",
+      "hanzi": "请先理解这句话。",
+      "pinyin": "Qǐng xiān lǐjiě zhè jù huà.",
+      "meaning": "Hãy hiểu câu này trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l463-t2",
+      "type": "teaching",
+      "title": "例如 · ví dụ như",
+      "text": "例如 mở ví dụ cụ thể, thường đứng trước phần liệt kê/giải thích.",
+      "hanzi": "有些方法很简单，例如每天读一页。",
+      "pinyin": "Yǒuxiē fāngfǎ hěn jiǎndān, lìrú měi tiān dú yí yè.",
+      "meaning": "Có cách rất đơn giản, như mỗi ngày đọc một trang.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l463-t3",
+      "type": "teaching",
+      "title": "例子 · ví dụ",
+      "text": "例子 là danh từ, dùng 举一个例子; không dùng như liên từ 例如.",
+      "hanzi": "请举一个生活中的例子。",
+      "pinyin": "Qǐng jǔ yí ge shēnghuó zhōng de lìzi.",
+      "meaning": "Hãy nêu ví dụ trong đời sống.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l463-t4",
+      "type": "teaching",
+      "title": "究竟 · rốt cuộc",
+      "text": "究竟 đánh dấu câu hỏi truy tìm rõ, như 究竟是什么意思; không mặc định giọng gây hấn. Nhận diện chữ 竟 trong 究竟; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "这个词究竟是什么意思？",
+      "pinyin": "Zhè ge cí jiūjìng shì shénme yìsi?",
+      "meaning": "Từ này rốt cuộc nghĩa là gì?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l463-t5",
+      "type": "teaching",
+      "title": "竟然 · không ngờ lại",
+      "text": "竟然 nêu điều trái dự kiến đã được nhận thấy; khác 也许 là chưa chắc.",
+      "hanzi": "他竟然把两个例子看成同一个。",
+      "pinyin": "Tā jìngrán bǎ liǎng ge lìzi kàn chéng tóng yí ge.",
+      "meaning": "Không ngờ anh ấy coi hai ví dụ là một.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l463-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "就是说 diễn giải lại ý trước bằng cách khác: 答案要有例子，就是说，不能只写结论. Vế sau cần giữ nghĩa, không đổi thành một điều kiện mới. Bài dùng để làm rõ yêu cầu học tập.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l463-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小钟不肯定自己理解了要求，问老师：“答案究竟要写什么？”老师说：“要有例子，就是说，不能只写结论。例如，谈节约时，可以说自己怎样减少浪费。”小钟才发现，自己竟然把“解释词义”和“举例”看成同一件事。",
+      "pinyin": "Xiǎo Zhōng bù kěndìng zìjǐ lǐjiě le yāoqiú, wèn lǎoshī: “Dáàn jiūjìng yào xiě shénme?” Lǎoshī shuō: “Yào yǒu lìzi, jiùshìshuō, bù néng zhǐ xiě jiélùn. Lìrú, tán jiéyuē shí, kěyǐ shuō zìjǐ zěnyàng jiǎnshǎo làngfèi.” Xiǎo Zhōng cái fāxiàn, zìjǐ jìngrán bǎ “jiěshì cíyì” hé “jǔlì” kàn chéng tóng yí jiàn shì.",
+      "meaning": "Chung hỏi yêu cầu câu trả lời. Thầy giải thích cần ví dụ, không chỉ kết luận. Chung nhận ra đã nhầm giải nghĩa với nêu ví dụ.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l463-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l463-v1-e0"
+    },
+    {
+      "id": "l463-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l463-v1-e1"
+    },
+    {
+      "id": "l463-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l463-v1-e2"
+    },
+    {
+      "id": "l463-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l463-v1-e3"
+    },
+    {
+      "id": "l463-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l463-v1-e4"
+    },
+    {
+      "id": "l463-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l463-v1-e5"
+    },
+    {
+      "id": "l463-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l463-v1-e6"
+    },
+    {
+      "id": "l463-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l463-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l463-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l463-c0",
+      "senseId": "l463-v-1435-sense",
+      "keyRef": "l463-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “chắc chắn; khẳng định” để điền câu: 我不□自己理解得对不对。",
+      "choices": [
+        "理解",
+        "例如",
+        "例子",
+        "究竟",
+        "竟然",
+        "肯定"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l463-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l463-c1",
+      "senseId": "l463-v-1461-sense",
+      "keyRef": "l463-v1-k1",
+      "prompt": "Ghi pinyin của 理解 trong câu “请先理解这句话。”, theo nghĩa “hiểu”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l463-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l463-c2",
+      "senseId": "l463-v-1466-sense",
+      "keyRef": "l463-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “ví dụ như”: 有些方法很简单，□每天读一页。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l463-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l463-c3",
+      "senseId": "l463-v-1467-sense",
+      "keyRef": "l463-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “ví dụ” để điền câu: 请举一个生活中的□。",
+      "choices": [
+        "究竟",
+        "竟然",
+        "肯定",
+        "理解",
+        "例如",
+        "例子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l463-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l463-c4",
+      "senseId": "l463-v-1407-sense",
+      "keyRef": "l463-v1-k4",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “rốt cuộc”: 究□ (jiū jìng). Ngữ cảnh: 这个词□是什么意思？",
+      "choices": [
+        "竞",
+        "境",
+        "镜",
+        "竟"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l463-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l463-c5",
+      "senseId": "l463-v-1404-sense",
+      "keyRef": "l463-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “không ngờ lại”: 他□把两个例子看成同一个。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l463-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l463-c0",
+      "senseId": "l463-v-1435-sense",
+      "keyRef": "l463-v1-k6",
+      "prompt": "老师要求答案中有什么？",
+      "choices": [
+        "只有结论。",
+        "不相关的故事。",
+        "具体例子。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l463-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l463-c3",
+      "senseId": "l463-v-1467-sense",
+      "keyRef": "l463-v1-k7",
+      "prompt": "Sắp xếp các cụm theo cấu trúc vừa học; giữ nguyên cụm, không thêm/bớt từ.",
+      "choices": [
+        "答案要有例子，",
+        "就是说，",
+        "不能只写结论。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l463-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l463-v1-e0",
+      "senseId": "l463-v-1435-sense",
+      "accepted": [
+        "肯定"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "肯定: chắc chắn; khẳng định. 肯定 trong 我不肯定 biểu thị mức chắc của người nói, chưa phải sự thật được xác nhận. Tôi chưa chắc mình hiểu đúng không."
+    },
+    {
+      "id": "l463-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l463-v1-e1",
+      "senseId": "l463-v-1461-sense",
+      "accepted": [
+        "lǐ jiě"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc lǐ jiě. 理解 là nắm ý/nguyên lý, khác chỉ nghe thấy hoặc nhớ âm."
+    },
+    {
+      "id": "l463-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l463-v1-e2",
+      "senseId": "l463-v-1466-sense",
+      "accepted": [
+        "例如"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 例如. 例如 mở ví dụ cụ thể, thường đứng trước phần liệt kê/giải thích. Có cách rất đơn giản, như mỗi ngày đọc một trang."
+    },
+    {
+      "id": "l463-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l463-v1-e3",
+      "senseId": "l463-v-1467-sense",
+      "accepted": [
+        "例子"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "例子: ví dụ. 例子 là danh từ, dùng 举一个例子; không dùng như liên từ 例如. Hãy nêu ví dụ trong đời sống."
+    },
+    {
+      "id": "l463-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l463-v1-e4",
+      "senseId": "l463-v-1407-sense",
+      "accepted": [
+        "竟"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 竟 tạo từ 究竟. 究竟 đánh dấu câu hỏi truy tìm rõ, như 究竟是什么意思; không mặc định giọng gây hấn. Nhận diện chữ 竟 trong 究竟; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l463-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l463-v1-e5",
+      "senseId": "l463-v-1404-sense",
+      "accepted": [
+        "竟然"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 竟然. 竟然 nêu điều trái dự kiến đã được nhận thấy; khác 也许 là chưa chắc. Không ngờ anh ấy coi hai ví dụ là một."
+    },
+    {
+      "id": "l463-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l463-v1-e6",
+      "senseId": "l463-v-1435-sense",
+      "accepted": [
+        "具体例子。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 具体例子。. Chung hỏi yêu cầu câu trả lời. Thầy giải thích cần ví dụ, không chỉ kết luận. Chung nhận ra đã nhầm giải nghĩa với nêu ví dụ."
+    },
+    {
+      "id": "l463-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l463-v1-e7",
+      "senseId": "l463-v-1467-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 就是说 diễn giải lại ý trước bằng cách khác: 答案要有例子，就是说，不能只写结论. Vế sau cần giữ nghĩa, không đổi thành một điều kiện mới. Bài dùng để làm rõ yêu cầu học tập."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

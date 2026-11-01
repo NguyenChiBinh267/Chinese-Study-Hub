@@ -1,0 +1,782 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "054df9ad6d952a1fa5bde6feac761e0aea001bcb698cf62f658c64b1a5ccaa7f",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-d",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L111",
+    "version": 1,
+    "versionId": "l111-draft-v1",
+    "title": "Sách và đồ dùng đầu tiên",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Sách và đồ dùng đầu tiên; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "名量词"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T09:30:41.58926Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-thing",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "问答物品信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-b411fd04a9b3",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "物品名称"
+        },
+        "written": "物品名称",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l111-v-190",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 190"
+        },
+        "written": "书",
+        "pinyin": "shū",
+        "senseId": "l111-v-190-sense",
+        "ordinal": 190,
+        "note": "1 shū 名; 书 chỉ sách; 一本书 là một quyển sách, không phải 一书. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-10",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 10"
+        },
+        "written": "本1",
+        "pinyin": "běn",
+        "senseId": "l111-v-10-sense",
+        "ordinal": 10,
+        "note": "1 běn 量; 本 trong 一本书 là lượng từ cho sách, không dịch là gốc trong câu này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-60",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 60"
+        },
+        "written": "个",
+        "pinyin": "gè",
+        "senseId": "l111-v-60-sense",
+        "ordinal": 60,
+        "note": "1 gè 量; 个 đếm người/vật ở các trường hợp được học; không dùng 一个人 để chỉ số quyển sách. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-295",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 295"
+        },
+        "written": "桌子",
+        "pinyin": "zhuōzi",
+        "senseId": "l111-v-295-sense",
+        "ordinal": 295,
+        "note": "1 zhuōzi 名; 桌子 là bàn; âm 子 nhẹ trong mục từ này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-260",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 260"
+        },
+        "written": "椅子",
+        "pinyin": "yǐzi",
+        "senseId": "l111-v-260-sense",
+        "ordinal": 260,
+        "note": "1 yǐzi 名; 椅子 là ghế, không đồng nghĩa bàn; so sánh chữ đầu để tránh lẫn hai đồ dùng. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-164",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "164"
+        },
+        "written": "书",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 164,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-11",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "11"
+        },
+        "written": "本",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 11,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-53",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "53"
+        },
+        "written": "个",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 53,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-239",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "239"
+        },
+        "written": "桌",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 239,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-240",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "240"
+        },
+        "written": "子",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 240,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-217",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "217"
+        },
+        "written": "椅",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 217,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-111",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-12"
+        },
+        "written": "名量词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l111-c0",
+      "version": 1,
+      "senseId": "l111-v-190-sense",
+      "hanzi": "书",
+      "dictionaryPinyin": "shū",
+      "meaning": "sách",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l111-v-190"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l111-c1",
+      "version": 1,
+      "senseId": "l111-v-10-sense",
+      "hanzi": "本",
+      "dictionaryPinyin": "běn",
+      "meaning": "quyển; cuốn (lượng từ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l111-v-10"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l111-c2",
+      "version": 1,
+      "senseId": "l111-v-60-sense",
+      "hanzi": "个",
+      "dictionaryPinyin": "gè",
+      "meaning": "cái; người (lượng từ phổ biến)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l111-v-60"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l111-c3",
+      "version": 1,
+      "senseId": "l111-v-295-sense",
+      "hanzi": "桌子",
+      "dictionaryPinyin": "zhuō zi",
+      "meaning": "bàn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l111-v-295"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l111-c4",
+      "version": 1,
+      "senseId": "l111-v-260-sense",
+      "hanzi": "椅子",
+      "dictionaryPinyin": "yǐ zi",
+      "meaning": "ghế",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l111-v-260"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l111-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l111-t0",
+      "type": "teaching",
+      "title": "书 · sách",
+      "text": "书 chỉ sách; 一本书 là một quyển sách, không phải 一书.",
+      "hanzi": "这是我的书。",
+      "pinyin": "Zhè shì wǒ de shū.",
+      "meaning": "Đây là sách của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l111-t1",
+      "type": "teaching",
+      "title": "本 · quyển; cuốn (lượng từ)",
+      "text": "本 trong 一本书 là lượng từ cho sách, không dịch là gốc trong câu này.",
+      "hanzi": "我有一本书。",
+      "pinyin": "Wǒ yǒu yì běn shū.",
+      "meaning": "Tôi có một quyển sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l111-t2",
+      "type": "teaching",
+      "title": "个 · cái; người (lượng từ phổ biến)",
+      "text": "个 đếm người/vật ở các trường hợp được học; không dùng 一个人 để chỉ số quyển sách.",
+      "hanzi": "一个朋友。",
+      "pinyin": "Yí ge péng you.",
+      "meaning": "Một người bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l111-t3",
+      "type": "teaching",
+      "title": "桌子 · bàn",
+      "text": "桌子 là bàn; âm 子 nhẹ trong mục từ này.",
+      "hanzi": "这是桌子。",
+      "pinyin": "Zhè shì zhuō zi.",
+      "meaning": "Đây là bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l111-t4",
+      "type": "teaching",
+      "title": "椅子 · ghế",
+      "text": "椅子 là ghế, không đồng nghĩa bàn; so sánh chữ đầu để tránh lẫn hai đồ dùng.",
+      "hanzi": "那是椅子。",
+      "pinyin": "Nà shì yǐ zi.",
+      "meaning": "Kia là ghế.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l111-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "Số + lượng từ + danh từ: 一本书, 一个朋友. 本 thường đếm sách, 个 là lượng từ phổ biến nhưng không thay đúng mọi lượng từ. 桌子/椅子 là bàn/ghế; ví dụ giới thiệu đối tượng không cần thêm lượng từ sau 是 nếu chỉ gọi loại. 有 được chú giải là có, sẽ thành mục từ ở bài gia đình.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l111-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：这是你的书吗？\nB：是，我有一本书。\nA：那是桌子吗？\nB：不是，那是椅子。",
+      "pinyin": "A: Zhè shì nǐ de shū ma? B: Shì, wǒ yǒu yì běn shū. A: Nà shì zhuō zi ma? B: Bú shì, nà shì yǐ zi.",
+      "meaning": "有 yǒu là có. B nói có một quyển sách và sửa đối tượng ở xa là ghế, không phải bàn. 一 đứng trước 本 đọc yì trong câu; pinyin mục 一 vẫn yī.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l111-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l111-v1-e0"
+    },
+    {
+      "id": "l111-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l111-v1-e1"
+    },
+    {
+      "id": "l111-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l111-v1-e2"
+    },
+    {
+      "id": "l111-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l111-v1-e3"
+    },
+    {
+      "id": "l111-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l111-v1-e4"
+    },
+    {
+      "id": "l111-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l111-v1-e5"
+    },
+    {
+      "id": "l111-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l111-v1-e6"
+    },
+    {
+      "id": "l111-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l111-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l111-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l111-c0",
+      "senseId": "l111-v-190-sense",
+      "keyRef": "l111-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “sách”: □ (shū). Ngữ cảnh: 这是我的□。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "车",
+        "东",
+        "乐",
+        "书"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l111-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l111-c1",
+      "senseId": "l111-v-10-sense",
+      "keyRef": "l111-v1-k1",
+      "prompt": "Viết pinyin từ điển của 本 (quyển; cuốn (lượng từ)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l111-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l111-c2",
+      "senseId": "l111-v-60-sense",
+      "keyRef": "l111-v1-k2",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “cái; người (lượng từ phổ biến)”: 一□朋友。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l111-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l111-c3",
+      "senseId": "l111-v-295-sense",
+      "keyRef": "l111-v1-k3",
+      "prompt": "Chọn mục từ có nghĩa “bàn” trong câu: 这是□。",
+      "choices": [
+        "椅子",
+        "书",
+        "本",
+        "个",
+        "桌子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l111-v1-e4",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l111-c4",
+      "senseId": "l111-v-260-sense",
+      "keyRef": "l111-v1-k4",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “ghế”: 那是□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l111-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l111-c2",
+      "senseId": "l111-v-60-sense",
+      "keyRef": "l111-v1-k5",
+      "prompt": "Trong câu “一个朋友。”, 个 mang nghĩa nào theo bài?",
+      "choices": [
+        "quyển; cuốn (lượng từ)",
+        "cái; người (lượng từ phổ biến)",
+        "bàn",
+        "ghế",
+        "sách"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l111-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l111-c0",
+      "senseId": "l111-v-190-sense",
+      "keyRef": "l111-v1-k6",
+      "prompt": "B sửa tên đồ vật ở xa thành gì?",
+      "choices": [
+        "桌子",
+        "书",
+        "椅子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l111-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l111-c3",
+      "senseId": "l111-v-295-sense",
+      "keyRef": "l111-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "一",
+        "本",
+        "书。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l111-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l111-v1-e0",
+      "senseId": "l111-v-190-sense",
+      "accepted": [
+        "书"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 书 tạo từ 书. 书 chỉ sách; 一本书 là một quyển sách, không phải 一书. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l111-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l111-v1-e1",
+      "senseId": "l111-v-10-sense",
+      "accepted": [
+        "běn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "本 ghi běn. 本 trong 一本书 là lượng từ cho sách, không dịch là gốc trong câu này."
+    },
+    {
+      "id": "l111-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l111-v1-e2",
+      "senseId": "l111-v-60-sense",
+      "accepted": [
+        "个"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "个: cái; người (lượng từ phổ biến). 个 đếm người/vật ở các trường hợp được học; không dùng 一个人 để chỉ số quyển sách. Một người bạn."
+    },
+    {
+      "id": "l111-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l111-v1-e3",
+      "senseId": "l111-v-295-sense",
+      "accepted": [
+        "桌子"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "桌子: bàn. 桌子 là bàn; âm 子 nhẹ trong mục từ này. Đây là bàn."
+    },
+    {
+      "id": "l111-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l111-v1-e4",
+      "senseId": "l111-v-260-sense",
+      "accepted": [
+        "椅子"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "椅子: ghế. 椅子 là ghế, không đồng nghĩa bàn; so sánh chữ đầu để tránh lẫn hai đồ dùng. Kia là ghế."
+    },
+    {
+      "id": "l111-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l111-v1-e5",
+      "senseId": "l111-v-60-sense",
+      "accepted": [
+        "cái; người (lượng từ phổ biến)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "个 đếm người/vật ở các trường hợp được học; không dùng 一个人 để chỉ số quyển sách. Một người bạn."
+    },
+    {
+      "id": "l111-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l111-v1-e6",
+      "senseId": "l111-v-190-sense",
+      "accepted": [
+        "椅子"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 椅子. 有 yǒu là có. B nói có một quyển sách và sửa đối tượng ở xa là ghế, không phải bàn. 一 đứng trước 本 đọc yì trong câu; pinyin mục 一 vẫn yī."
+    },
+    {
+      "id": "l111-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l111-v1-e7",
+      "senseId": "l111-v-295-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. Số + lượng từ + danh từ: 一本书, 一个朋友. 本 thường đếm sách, 个 là lượng từ phổ biến nhưng không thay đúng mọi lượng từ. 桌子/椅子 là bàn/ghế; ví dụ giới thiệu đối tượng không cần thêm lượng từ sau 是 nếu chỉ gọi loại. 有 được chú giải là có, sẽ thành mục từ ở bài gia đình."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

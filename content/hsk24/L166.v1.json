@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "cc1f1b2acd68f0a8518b28a021a3658b325107fdd66d2db1c17838dfb9eb5331",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-be",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L166",
+    "version": 1,
+    "versionId": "l166-draft-v1",
+    "title": "Đi xe và nhìn thấy nơi đến",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đi xe và nhìn thấy nơi đến; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "连动句"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 5,
+      "physicalPage": 6,
+      "printedPage": 3,
+      "section": "task",
+      "entry": "八"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:34:41.964702Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 5,
+          "physicalPage": 6,
+          "printedPage": 3,
+          "section": "task",
+          "entry": "八"
+        },
+        "written": "问答出行信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-e9b0e57eec5b",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "出行方式"
+        },
+        "written": "出行方式",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l166-v-98",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 98"
+        },
+        "written": "开车",
+        "pinyin": "kāichē",
+        "senseId": "l166-v-98-sense",
+        "ordinal": 98,
+        "note": "1 kāichē 动; 开车 là tự lái xe trong ví dụ; 坐车 không xác nhận người đó là tài xế. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l166-v-97",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 97"
+        },
+        "written": "开",
+        "pinyin": "kāi",
+        "senseId": "l166-v-97-sense",
+        "ordinal": 97,
+        "note": "1 kāi 动; 开 trong 开门 là mở cửa; bài chưa khái quát mọi nghĩa của 开. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l166-v-298",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 298"
+        },
+        "written": "坐",
+        "pinyin": "zuò",
+        "senseId": "l166-v-298-sense",
+        "ordinal": 298,
+        "note": "1 zuò 动; 坐 trong 坐火车 nói đi bằng tàu, không tự nói người đó lái tàu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l166-v-101",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 101"
+        },
+        "written": "看见",
+        "pinyin": "kànjiàn",
+        "senseId": "l166-v-101-sense",
+        "ordinal": 101,
+        "note": "1 kànjiàn 动; 看见 nói nhìn thấy; 看 có thể chỉ hành động nhìn/xem mà không khẳng định thấy đối tượng. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-89",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "89"
+        },
+        "written": "开",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 89,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-21",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "21"
+        },
+        "written": "车",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 21,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-245",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "245"
+        },
+        "written": "坐",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 245,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-90",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "90"
+        },
+        "written": "看",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 90,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-82",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "82"
+        },
+        "written": "见",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 82,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-166",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "g-386-30"
+        },
+        "written": "连动句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l166-c0",
+      "version": 1,
+      "senseId": "l166-v-98-sense",
+      "hanzi": "开车",
+      "dictionaryPinyin": "kāi chē",
+      "meaning": "lái xe (dạng kāichē)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l166-v-98"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l166-c1",
+      "version": 1,
+      "senseId": "l166-v-97-sense",
+      "hanzi": "开",
+      "dictionaryPinyin": "kāi",
+      "meaning": "mở (dạng kāi trong mẫu mở cửa)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l166-v-97"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l166-c2",
+      "version": 1,
+      "senseId": "l166-v-298-sense",
+      "hanzi": "坐",
+      "dictionaryPinyin": "zuò",
+      "meaning": "ngồi; đi bằng phương tiện (dạng zuò)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l166-v-298"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l166-c3",
+      "version": 1,
+      "senseId": "l166-v-101-sense",
+      "hanzi": "看见",
+      "dictionaryPinyin": "kàn jiàn",
+      "meaning": "nhìn thấy (dạng kànjiàn)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l166-v-101"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l166-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l166-t0",
+      "type": "teaching",
+      "title": "开车 · lái xe (dạng kāichē)",
+      "text": "开车 là tự lái xe trong ví dụ; 坐车 không xác nhận người đó là tài xế.",
+      "hanzi": "我爸爸开车去学校。",
+      "pinyin": "Wǒ bà ba kāi chē qù xué xiào.",
+      "meaning": "Bố tôi lái xe đến trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l166-t1",
+      "type": "teaching",
+      "title": "开 · mở (dạng kāi trong mẫu mở cửa)",
+      "text": "开 trong 开门 là mở cửa; bài chưa khái quát mọi nghĩa của 开.",
+      "hanzi": "请开门。",
+      "pinyin": "Qǐng kāi mén.",
+      "meaning": "Xin mở cửa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l166-t2",
+      "type": "teaching",
+      "title": "坐 · ngồi; đi bằng phương tiện (dạng zuò)",
+      "text": "坐 trong 坐火车 nói đi bằng tàu, không tự nói người đó lái tàu.",
+      "hanzi": "我坐火车去学校。",
+      "pinyin": "Wǒ zuò huǒ chē qù xué xiào.",
+      "meaning": "Tôi đi tàu hỏa đến trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l166-t3",
+      "type": "teaching",
+      "title": "看见 · nhìn thấy (dạng kànjiàn)",
+      "text": "看见 nói nhìn thấy; 看 có thể chỉ hành động nhìn/xem mà không khẳng định thấy đối tượng.",
+      "hanzi": "我看见老师了。",
+      "pinyin": "Wǒ kàn jiàn lǎo shī le.",
+      "meaning": "Tôi đã nhìn thấy thầy/cô rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l166-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "我坐火车去学校 dùng 坐火车 nêu phương tiện đi học. 开车 là lái xe, khác 坐车 là đi/ngồi trên xe; không suy ai cũng có bằng lái. 开 trong 开门 là mở; 开车 là tổ hợp lái xe. 看见 nhấn đã nhìn thấy trong câu, khác 看 là hành động nhìn/xem. Câu hỏi nêu dạng và âm để không chấm sai từ đồng nghĩa ngoài phạm vi.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l166-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：你爸爸怎么去学校？\nB：他开车去学校。\nA：你呢？\nB：我坐火车去学校。",
+      "pinyin": "A: Nǐ bà ba zěn me qù xué xiào? B: Tā kāi chē qù xué xiào. A: Nǐ ne? B: Wǒ zuò huǒ chē qù xué xiào.",
+      "meaning": "Bố của B lái xe; B đi tàu. Phân biệt người lái với người ngồi/đi bằng phương tiện trong dữ kiện hư cấu.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l166-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l166-v1-e0"
+    },
+    {
+      "id": "l166-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l166-v1-e1"
+    },
+    {
+      "id": "l166-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l166-v1-e2"
+    },
+    {
+      "id": "l166-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l166-v1-e3"
+    },
+    {
+      "id": "l166-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l166-v1-e4"
+    },
+    {
+      "id": "l166-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l166-v1-e5"
+    },
+    {
+      "id": "l166-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l166-v1-e6"
+    },
+    {
+      "id": "l166-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l166-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l166-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l166-c0",
+      "senseId": "l166-v-98-sense",
+      "keyRef": "l166-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “lái xe (dạng kāichē)”: □车 (kāi chē). Ngữ cảnh: 我爸爸□车去学校。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "井",
+        "并",
+        "天",
+        "开"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l166-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l166-c1",
+      "senseId": "l166-v-97-sense",
+      "keyRef": "l166-v1-k1",
+      "prompt": "Viết pinyin từ điển của 开 (mở (dạng kāi trong mẫu mở cửa)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l166-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l166-c2",
+      "senseId": "l166-v-298-sense",
+      "keyRef": "l166-v1-k2",
+      "prompt": "Điền đúng mục từ đọc zuò, nghĩa “ngồi; đi bằng phương tiện (dạng zuò)”: 我□火车去学校。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l166-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l166-c3",
+      "senseId": "l166-v-101-sense",
+      "keyRef": "l166-v1-k3",
+      "prompt": "Chọn mục từ đọc kàn jiàn, nghĩa “nhìn thấy (dạng kànjiàn)”, trong câu: 我□老师了。",
+      "choices": [
+        "开车",
+        "开",
+        "坐",
+        "看见"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l166-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l166-c2",
+      "senseId": "l166-v-298-sense",
+      "keyRef": "l166-v1-k4",
+      "prompt": "Trong câu “我坐火车去学校。”, 坐 mang nghĩa nào theo bài?",
+      "choices": [
+        "mở (dạng kāi trong mẫu mở cửa)",
+        "ngồi; đi bằng phương tiện (dạng zuò)",
+        "nhìn thấy (dạng kànjiàn)",
+        "lái xe (dạng kāichē)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l166-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l166-c3",
+      "senseId": "l166-v-101-sense",
+      "keyRef": "l166-v1-k5",
+      "prompt": "Trong câu “我看见老师了。”, 看见 mang nghĩa nào theo bài?",
+      "choices": [
+        "ngồi; đi bằng phương tiện (dạng zuò)",
+        "nhìn thấy (dạng kànjiàn)",
+        "lái xe (dạng kāichē)",
+        "mở (dạng kāi trong mẫu mở cửa)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l166-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l166-c0",
+      "senseId": "l166-v-98-sense",
+      "keyRef": "l166-v1-k6",
+      "prompt": "Ai được nói là lái xe?",
+      "choices": [
+        "B",
+        "老师",
+        "爸爸"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l166-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l166-c3",
+      "senseId": "l166-v-101-sense",
+      "keyRef": "l166-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我",
+        "坐火车",
+        "去学校。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l166-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l166-v1-e0",
+      "senseId": "l166-v-98-sense",
+      "accepted": [
+        "开"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 开 tạo từ 开车. 开车 là tự lái xe trong ví dụ; 坐车 không xác nhận người đó là tài xế. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l166-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l166-v1-e1",
+      "senseId": "l166-v-97-sense",
+      "accepted": [
+        "kāi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "开 ghi kāi. 开 trong 开门 là mở cửa; bài chưa khái quát mọi nghĩa của 开."
+    },
+    {
+      "id": "l166-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l166-v1-e2",
+      "senseId": "l166-v-298-sense",
+      "accepted": [
+        "坐"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc zuò: 坐. 坐 trong 坐火车 nói đi bằng tàu, không tự nói người đó lái tàu. Tôi đi tàu hỏa đến trường."
+    },
+    {
+      "id": "l166-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l166-v1-e3",
+      "senseId": "l166-v-101-sense",
+      "accepted": [
+        "看见"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc kàn jiàn: 看见. 看见 nói nhìn thấy; 看 có thể chỉ hành động nhìn/xem mà không khẳng định thấy đối tượng. Tôi đã nhìn thấy thầy/cô rồi."
+    },
+    {
+      "id": "l166-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l166-v1-e4",
+      "senseId": "l166-v-298-sense",
+      "accepted": [
+        "ngồi; đi bằng phương tiện (dạng zuò)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "坐 trong 坐火车 nói đi bằng tàu, không tự nói người đó lái tàu. Tôi đi tàu hỏa đến trường."
+    },
+    {
+      "id": "l166-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l166-v1-e5",
+      "senseId": "l166-v-101-sense",
+      "accepted": [
+        "nhìn thấy (dạng kànjiàn)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "看见 nói nhìn thấy; 看 có thể chỉ hành động nhìn/xem mà không khẳng định thấy đối tượng. Tôi đã nhìn thấy thầy/cô rồi."
+    },
+    {
+      "id": "l166-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l166-v1-e6",
+      "senseId": "l166-v-98-sense",
+      "accepted": [
+        "爸爸"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 爸爸. Bố của B lái xe; B đi tàu. Phân biệt người lái với người ngồi/đi bằng phương tiện trong dữ kiện hư cấu."
+    },
+    {
+      "id": "l166-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l166-v1-e7",
+      "senseId": "l166-v-101-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 我坐火车去学校 dùng 坐火车 nêu phương tiện đi học. 开车 là lái xe, khác 坐车 là đi/ngồi trên xe; không suy ai cũng có bằng lái. 开 trong 开门 là mở; 开车 là tổ hợp lái xe. 看见 nhấn đã nhìn thấy trong câu, khác 看 là hành động nhìn/xem. Câu hỏi nêu dạng và âm để không chấm sai từ đồng nghĩa ngoài phạm vi."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

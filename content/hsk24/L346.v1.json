@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "0697a4a2363c143b7b344d44cf13c7483ea8ce38732b6343a1bb58cab6074a14",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-approximation",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L346",
+    "version": 1,
+    "versionId": "l346-draft-v1",
+    "title": "Nói gần đúng và phỏng đoán",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân biệt gần bằng, ước lượng, gần như và cảm giác có vẻ.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "情态副词"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "一"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-person",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "一"
+        },
+        "written": "介绍个人情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-traits",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "个人特征"
+        },
+        "written": "个人特征",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l346-v-551",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 551"
+        },
+        "written": "差",
+        "pinyin": "chà",
+        "senseId": "l346-v-551-sense",
+        "ordinal": 551,
+        "note": "3 chà 形、动; 差 trong 还差两个人 là còn thiếu hai người, 很差 là kém. Bài không dạy chā/chāi/chài; không dùng một nghĩa cho mọi cách đọc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l346-v-552",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 552"
+        },
+        "written": "差不多",
+        "pinyin": "chàbuduō",
+        "senseId": "l346-v-552-sense",
+        "ordinal": 552,
+        "note": "3 chàbuduō 形、副; 差不多 chỉ gần bằng/xấp xỉ; không bảo đảm bằng nhau. 差不多三十人 là gần ba mươi người. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l346-v-573",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 573"
+        },
+        "written": "大概",
+        "pinyin": "dàgài",
+        "senseId": "l346-v-573-sense",
+        "ordinal": 573,
+        "note": "3（6） dàgài 形、副、（名）; 大概 trước số là khoảng; trước sự việc là có lẽ. Cần giữ độ không chắc, không dịch thành xác nhận đã xảy ra. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l346-v-688",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 688"
+        },
+        "written": "几乎",
+        "pinyin": "jīhū",
+        "senseId": "l346-v-688-sense",
+        "ordinal": 688,
+        "note": "3 jīhū 副; 几乎 + 都 nói gần toàn bộ, có thể còn ngoại lệ. 几乎都到了 không đủ chứng minh mọi người đã đến. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l346-v-665",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 665"
+        },
+        "written": "好像",
+        "pinyin": "hǎoxiàng",
+        "senseId": "l346-v-665-sense",
+        "ordinal": 665,
+        "note": "3 hǎoxiàng 动、副; 好像 đánh dấu suy đoán hoặc tương tự; 好像忘了 chưa là chắc đã quên. Đây khác 像 trong so sánh ngoại hình. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l346-v-932",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 932"
+        },
+        "written": "一般",
+        "pinyin": "yìbān",
+        "senseId": "l346-v-932-sense",
+        "ordinal": 932,
+        "note": "3 yìbān 形; 一般 có thể là bình thường về chất lượng hoặc thông thường; 一般来说 là nói chung, không khẳng định không có ngoại lệ. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-23",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "23"
+        },
+        "written": "差",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 23,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-64",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "64"
+        },
+        "written": "概",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 64,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-82",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "82"
+        },
+        "written": "乎",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 82,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-231",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "231"
+        },
+        "written": "像",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 231,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-5",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "5"
+        },
+        "written": "般",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 5,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-modal-adverb",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "副词 / 情态副词"
+        },
+        "written": "情态副词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l346-c0",
+      "version": 1,
+      "senseId": "l346-v-551-sense",
+      "hanzi": "差",
+      "dictionaryPinyin": "chà",
+      "meaning": "kém/chênh lệch/thiếu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l346-v-551"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l346-c1",
+      "version": 1,
+      "senseId": "l346-v-552-sense",
+      "hanzi": "差不多",
+      "dictionaryPinyin": "chà bu duō",
+      "meaning": "gần như/xấp xỉ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l346-v-552"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l346-c2",
+      "version": 1,
+      "senseId": "l346-v-573-sense",
+      "hanzi": "大概",
+      "dictionaryPinyin": "dà gài",
+      "meaning": "khoảng/có lẽ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l346-v-573"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l346-c3",
+      "version": 1,
+      "senseId": "l346-v-688-sense",
+      "hanzi": "几乎",
+      "dictionaryPinyin": "jī hū",
+      "meaning": "hầu như/gần như",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l346-v-688"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l346-c4",
+      "version": 1,
+      "senseId": "l346-v-665-sense",
+      "hanzi": "好像",
+      "dictionaryPinyin": "hǎo xiàng",
+      "meaning": "hình như/có vẻ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l346-v-665"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l346-c5",
+      "version": 1,
+      "senseId": "l346-v-932-sense",
+      "hanzi": "一般",
+      "dictionaryPinyin": "yì bān",
+      "meaning": "bình thường; thông thường",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l346-v-932"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l346-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 其中 qízhōng: trong đó; 核对 héduì: đối chiếu; 确定 quèdìng: xác nhận/chắc chắn; 当成 dàngchéng: coi thành.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l346-t0",
+      "type": "teaching",
+      "title": "差 · kém/chênh lệch/thiếu",
+      "text": "差 trong 还差两个人 là còn thiếu hai người, 很差 là kém. Bài không dạy chā/chāi/chài; không dùng một nghĩa cho mọi cách đọc.",
+      "hanzi": "名单还差两个人。",
+      "pinyin": "Míngdān hái chà liǎng ge rén.",
+      "meaning": "Danh sách còn thiếu hai người.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l346-t1",
+      "type": "teaching",
+      "title": "差不多 · gần như/xấp xỉ",
+      "text": "差不多 chỉ gần bằng/xấp xỉ; không bảo đảm bằng nhau. 差不多三十人 là gần ba mươi người.",
+      "hanzi": "两个人的身高差不多。",
+      "pinyin": "Liǎng ge rén de shēngāo chàbuduō.",
+      "meaning": "Chiều cao hai người gần bằng nhau.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l346-t2",
+      "type": "teaching",
+      "title": "大概 · khoảng/có lẽ",
+      "text": "大概 trước số là khoảng; trước sự việc là có lẽ. Cần giữ độ không chắc, không dịch thành xác nhận đã xảy ra.",
+      "hanzi": "今天大概有三十人来。",
+      "pinyin": "Jīntiān dàgài yǒu sānshí rén lái.",
+      "meaning": "Hôm nay có khoảng ba mươi người đến.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l346-t3",
+      "type": "teaching",
+      "title": "几乎 · hầu như/gần như",
+      "text": "几乎 + 都 nói gần toàn bộ, có thể còn ngoại lệ. 几乎都到了 không đủ chứng minh mọi người đã đến.",
+      "hanzi": "同学们几乎都到了。",
+      "pinyin": "Tóngxuémen jīhū dōu dào le.",
+      "meaning": "Các bạn học hầu như đều đến rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l346-t4",
+      "type": "teaching",
+      "title": "好像 · hình như/có vẻ",
+      "text": "好像 đánh dấu suy đoán hoặc tương tự; 好像忘了 chưa là chắc đã quên. Đây khác 像 trong so sánh ngoại hình.",
+      "hanzi": "他好像忘了带书。",
+      "pinyin": "Tā hǎoxiàng wàng le dài shū.",
+      "meaning": "Hình như cậu ấy quên mang sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l346-t5",
+      "type": "teaching",
+      "title": "一般 · bình thường; thông thường",
+      "text": "一般 có thể là bình thường về chất lượng hoặc thông thường; 一般来说 là nói chung, không khẳng định không có ngoại lệ.",
+      "hanzi": "这个房间的大小很一般。",
+      "pinyin": "Zhège fángjiān de dàxiǎo hěn yìbān.",
+      "meaning": "Kích cỡ phòng này khá bình thường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l346-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "大概 nói ước lượng, 好像 nói cảm giác/phỏng đoán, 几乎 nói gần đạt mức toàn bộ. Không biến 大概三十人 thành đúng ba mươi; 差不多一样 không phải chính xác giống.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l346-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "名单上大概有三十个人。现在几乎都到了，还差两个人。小林说两位新同学的身高差不多，其中一个好像忘了带书。老师说：先问清楚，不要把好像当成确定。一般来说，我们先核对名单。",
+      "pinyin": "Míngdān shàng dàgài yǒu sānshí ge rén. Xiànzài jīhū dōu dào le, hái chà liǎng ge rén. Xiǎo Lín shuō liǎng wèi xīn tóngxué de shēngāo chàbuduō, qízhōng yí ge hǎoxiàng wàng le dài shū. Lǎoshī shuō: Xiān wèn qīngchu, bú yào bǎ hǎoxiàng dàngchéng quèdìng. Yìbān lái shuō, wǒmen xiān héduì míngdān.",
+      "meaning": "Danh sách khoảng ba mươi người, còn thiếu hai. Lâm nói hai bạn mới cao gần bằng và một người có vẻ quên sách; thầy yêu cầu hỏi rõ và đối chiếu danh sách.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l346-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l346-v1-e0"
+    },
+    {
+      "id": "l346-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l346-v1-e1"
+    },
+    {
+      "id": "l346-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l346-v1-e2"
+    },
+    {
+      "id": "l346-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l346-v1-e3"
+    },
+    {
+      "id": "l346-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l346-v1-e4"
+    },
+    {
+      "id": "l346-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l346-v1-e5"
+    },
+    {
+      "id": "l346-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l346-v1-e6"
+    },
+    {
+      "id": "l346-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l346-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l346-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l346-c0",
+      "senseId": "l346-v-551-sense",
+      "keyRef": "l346-v1-k0",
+      "prompt": "Chỉ phần còn thiếu: 还□两个人。",
+      "choices": [
+        "差不多",
+        "大概",
+        "几乎",
+        "好像",
+        "一般",
+        "差"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l346-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l346-c1",
+      "senseId": "l346-v-552-sense",
+      "keyRef": "l346-v1-k1",
+      "prompt": "Gần bằng nhưng chưa khẳng định chính xác: 身高□。",
+      "choices": [
+        "大概",
+        "几乎",
+        "好像",
+        "一般",
+        "差",
+        "差不多"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l346-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l346-c2",
+      "senseId": "l346-v-573-sense",
+      "keyRef": "l346-v1-k2",
+      "prompt": "Nêu ước lượng khoảng ba mươi người: □有三十人。",
+      "choices": [
+        "几乎",
+        "好像",
+        "一般",
+        "差",
+        "差不多",
+        "大概"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l346-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l346-c3",
+      "senseId": "l346-v-688-sense",
+      "keyRef": "l346-v1-k3",
+      "prompt": "Viết pinyin của 几乎 trong câu “同学们几乎都到了。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l346-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l346-c4",
+      "senseId": "l346-v-665-sense",
+      "keyRef": "l346-v1-k4",
+      "prompt": "Suy đoán chưa xác nhận: 他□忘了带书。",
+      "choices": [
+        "一般",
+        "差",
+        "差不多",
+        "大概",
+        "几乎",
+        "好像"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l346-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l346-c5",
+      "senseId": "l346-v-932-sense",
+      "keyRef": "l346-v1-k5",
+      "prompt": "Điền từ chỉ thông thường trong □来说。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l346-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l346-c0",
+      "senseId": "l346-v-551-sense",
+      "keyRef": "l346-v1-k6",
+      "prompt": "几乎都到了 có nghĩa tất cả chắc chắn đã đến không?",
+      "choices": [
+        "一定全到了",
+        "没有一个人到",
+        "不一定，还有两个人没到"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l346-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l346-c3",
+      "senseId": "l346-v-688-sense",
+      "keyRef": "l346-v1-k7",
+      "prompt": "Xếp phỏng đoán, bắt đầu bằng 他.",
+      "choices": [
+        "好像忘了带书",
+        "他"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l346-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l346-v1-e0",
+      "senseId": "l346-v-551-sense",
+      "accepted": [
+        "差"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "差: kém/chênh lệch/thiếu. 差 trong 还差两个人 là còn thiếu hai người, 很差 là kém. Bài không dạy chā/chāi/chài; không dùng một nghĩa cho mọi cách đọc. Danh sách còn thiếu hai người."
+    },
+    {
+      "id": "l346-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l346-v1-e1",
+      "senseId": "l346-v-552-sense",
+      "accepted": [
+        "差不多"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "差不多: gần như/xấp xỉ. 差不多 chỉ gần bằng/xấp xỉ; không bảo đảm bằng nhau. 差不多三十人 là gần ba mươi người. Chiều cao hai người gần bằng nhau."
+    },
+    {
+      "id": "l346-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l346-v1-e2",
+      "senseId": "l346-v-573-sense",
+      "accepted": [
+        "大概"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "大概: khoảng/có lẽ. 大概 trước số là khoảng; trước sự việc là có lẽ. Cần giữ độ không chắc, không dịch thành xác nhận đã xảy ra. Hôm nay có khoảng ba mươi người đến."
+    },
+    {
+      "id": "l346-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l346-v1-e3",
+      "senseId": "l346-v-688-sense",
+      "accepted": [
+        "jī hū"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "几乎: hầu như/gần như. 几乎 + 都 nói gần toàn bộ, có thể còn ngoại lệ. 几乎都到了 không đủ chứng minh mọi người đã đến. Các bạn học hầu như đều đến rồi."
+    },
+    {
+      "id": "l346-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l346-v1-e4",
+      "senseId": "l346-v-665-sense",
+      "accepted": [
+        "好像"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "好像: hình như/có vẻ. 好像 đánh dấu suy đoán hoặc tương tự; 好像忘了 chưa là chắc đã quên. Đây khác 像 trong so sánh ngoại hình. Hình như cậu ấy quên mang sách."
+    },
+    {
+      "id": "l346-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l346-v1-e5",
+      "senseId": "l346-v-932-sense",
+      "accepted": [
+        "一般"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一般: bình thường; thông thường. 一般 có thể là bình thường về chất lượng hoặc thông thường; 一般来说 là nói chung, không khẳng định không có ngoại lệ. Kích cỡ phòng này khá bình thường."
+    },
+    {
+      "id": "l346-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l346-v1-e6",
+      "senseId": "l346-v-551-sense",
+      "accepted": [
+        "不一定，还有两个人没到"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 大概 nói ước lượng, 好像 nói cảm giác/phỏng đoán, 几乎 nói gần đạt mức toàn bộ. Không biến 大概三十人 thành đúng ba mươi; 差不多一样 không phải chính xác giống."
+    },
+    {
+      "id": "l346-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l346-v1-e7",
+      "senseId": "l346-v-688-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 大概 nói ước lượng, 好像 nói cảm giác/phỏng đoán, 几乎 nói gần đạt mức toàn bộ. Không biến 大概三十人 thành đúng ba mươi; 差不多一样 không phải chính xác giống."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

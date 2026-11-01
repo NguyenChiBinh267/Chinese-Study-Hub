@@ -1,0 +1,739 @@
+{
+  "schema": "csh-sprint12-local-release-acceptance-v1",
+  "at": "2026-10-21T16:23:47.757Z",
+  "status": "PRECOMMIT_LOCAL_CHECKS_PASSED",
+  "productionReady": false,
+  "branch": "feat/v1-content-release",
+  "base": "ab6654dea66bf6879c3b6f30d27c91ba0be0198f",
+  "pinnedMain": "0dc42253180ef38d1c43f1f87c9f0f675a851341",
+  "sourceFingerprint": "c75e780375a816faa581e3a934d01994e51b4e705530726a082ccf15602b0d69",
+  "sourceFiles": 264,
+  "checks": {
+    "native": [
+      {
+        "name": "production-browser.xml",
+        "tests": 22,
+        "expected": 22,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "pass": true
+      },
+      {
+        "name": "local-browser.xml",
+        "tests": 6,
+        "expected": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "pass": true
+      },
+      {
+        "name": "learning-browser.xml",
+        "tests": 4,
+        "expected": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "pass": true
+      },
+      {
+        "name": "content-browser.xml",
+        "tests": 6,
+        "expected": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "pass": true
+      },
+      {
+        "name": "sprint5-desktop-browser.xml",
+        "tests": 2,
+        "expected": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "pass": true
+      },
+      {
+        "name": "sprint5-mobile-browser.xml",
+        "tests": 2,
+        "expected": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "pass": true
+      },
+      {
+        "name": "sprint6-desktop-browser.xml",
+        "tests": 2,
+        "expected": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "pass": true
+      },
+      {
+        "name": "sprint6-mobile-browser.xml",
+        "tests": 2,
+        "expected": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "pass": true
+      },
+      {
+        "name": "sprint7-desktop-browser.xml",
+        "tests": 5,
+        "expected": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "pass": true
+      },
+      {
+        "name": "sprint7-mobile-browser.xml",
+        "tests": 5,
+        "expected": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "pass": true
+      },
+      {
+        "name": "sprint8-browser.xml",
+        "tests": 18,
+        "expected": 18,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "pass": true
+      },
+      {
+        "name": "sprint9-browser.xml",
+        "tests": 8,
+        "expected": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "pass": true
+      }
+    ],
+    "unit": {
+      "name": "unit.xml",
+      "tests": 102,
+      "expected": 102,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "pass": true
+    },
+    "publicationSql": {
+      "name": "release-database.xml",
+      "tests": 8,
+      "expected": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "pass": true
+    },
+    "reflow": {
+      "name": "reflow-browser.xml",
+      "tests": 2,
+      "expected": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "pass": true
+    },
+    "startup": {
+      "kind": "REAL_NEXT_PRODUCTION_ARTIFACT_NEGATIVE_CONFIGURATION_TESTS",
+      "at": "2026-10-21T16:23:14.938Z",
+      "passed": 14,
+      "failed": 0,
+      "results": [
+        {
+          "name": "content-test-in-production",
+          "expectedCode": "CONTENT_TEST_FORBIDDEN",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "runtime-node-env-content-test",
+          "expectedCode": "CONTENT_TEST_FORBIDDEN",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "untrusted-content-release",
+          "expectedCode": "RELEASE_UNAVAILABLE",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "default-missing-owner",
+          "expectedCode": "OWNER_USER_ID_REQUIRED",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "local-mode",
+          "expectedCode": "DEVELOPMENT_MODE_IN_PRODUCTION",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "runtime-node-env-cannot-enable-local",
+          "expectedCode": "DEVELOPMENT_MODE_IN_PRODUCTION",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "http-origin",
+          "expectedCode": "HTTPS_REQUIRED",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "http-auth-provider",
+          "expectedCode": "HTTPS_REQUIRED",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "development-flags",
+          "expectedCode": "DEVELOPMENT_FLAGS_PRESENT",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "service-role",
+          "expectedCode": "UNEXPECTED_PROVIDER_CREDENTIAL",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "public-server-value",
+          "expectedCode": "SERVER_VALUE_MARKED_PUBLIC",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "admin-db-role",
+          "expectedCode": "LEAST_PRIVILEGE_DATABASE_ROLE_REQUIRED",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "unverified-db-tls",
+          "expectedCode": "VERIFIED_DATABASE_TLS_REQUIRED",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "technical-fixture-in-production",
+          "expectedCode": "TECHNICAL_FIXTURE_FORBIDDEN",
+          "result": "PASS_REFUSED_STARTUP"
+        }
+      ],
+      "cloudContact": false
+    },
+    "scan": {
+      "kind": "REAL_BROWSER_ARTIFACT_SCAN",
+      "at": "2026-10-21T16:23:15.038Z",
+      "files": 32,
+      "privateValuesChecked": 11,
+      "privateValuesPrinted": false,
+      "forbiddenServerFieldMarkers": [
+        "answerKey",
+        "acceptedNormalized",
+        "CSH_LOCAL_SESSION_SECRET",
+        "CSH_AUTH_PUBLISHABLE_KEY",
+        "SUPABASE_SERVICE_ROLE_KEY",
+        "csh_runtime"
+      ],
+      "failures": []
+    },
+    "audit": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "developmentAudit": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 5,
+      "critical": 0,
+      "total": 5
+    },
+    "restart": {
+      "at": "2026-10-21T16:23:41.470Z",
+      "kind": "ACTUAL_NATIVE_POSTGRESQL_RESTART_READBACK",
+      "passed": true,
+      "cloudVerified": false,
+      "results": [
+        {
+          "database": "csh_local",
+          "role": "csh_runtime",
+          "superuser": false,
+          "bypass": false,
+          "forceRlsGate": true,
+          "migrationBoundProof": true
+        },
+        {
+          "database": "csh_release_verify_ab5211a060a9",
+          "role": "csh_runtime",
+          "superuser": false,
+          "bypass": false,
+          "forceRlsGate": true,
+          "migrationBoundProof": true
+        }
+      ]
+    }
+  },
+  "actualContent": [
+    {
+      "lesson": "F01",
+      "version": "f01-draft-v1",
+      "sourceState": "REVIEW_PENDING",
+      "databaseState": "REVIEW_PENDING",
+      "review": "DRAFT_UNREVIEWED",
+      "publication": "BLOCKED",
+      "rights": "ORIGINAL_REVIEW_PENDING",
+      "audioAssets": 0
+    },
+    {
+      "lesson": "F02",
+      "version": "f02-draft-v1",
+      "sourceState": "REVIEW_PENDING",
+      "databaseState": "REVIEW_PENDING",
+      "review": "DRAFT_UNREVIEWED",
+      "publication": "BLOCKED",
+      "rights": "ORIGINAL_REVIEW_PENDING",
+      "audioAssets": 0
+    },
+    {
+      "lesson": "L001",
+      "version": "l001-draft-v2",
+      "sourceState": "REVIEW_PENDING",
+      "databaseState": "REVIEW_PENDING",
+      "review": "DRAFT_UNREVIEWED",
+      "publication": "BLOCKED",
+      "rights": "ORIGINAL_REVIEW_PENDING",
+      "audioAssets": 0
+    },
+    {
+      "lesson": "L002",
+      "version": "l002-draft-v2",
+      "sourceState": "REVIEW_PENDING",
+      "databaseState": "REVIEW_PENDING",
+      "review": "DRAFT_UNREVIEWED",
+      "publication": "BLOCKED",
+      "rights": "ORIGINAL_REVIEW_PENDING",
+      "audioAssets": 0
+    }
+  ],
+  "artifacts": [
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/audio-template-format.log",
+      "sha256": "0068345490dbe806ed68a06f532c0bbce8a14f7818bb969442491b14100002f0"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/audio-worksheet-cli-1792599779668.json",
+      "sha256": "c2fe07ee08d04bc7a7d3c31f9d75cd01470b24d2105fe1cfa57e61dc2b87af13"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/audit-all.log",
+      "sha256": "8ebb46c5290163783202cda0741eebab6efad58dfe65c5aba1889c093180e77a"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/audit-production.log",
+      "sha256": "3485c24018101fcf36e7ec39b4b26ccf15881d36b75d9a82e3458ada30da7a68"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/auth-error-format.log",
+      "sha256": "13e171b78114401a94bddbc0f18d374e2c8b7c60b81165119a84cd56383f7304"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/backup-meta.json",
+      "sha256": "6f869b0d7bad99d2f25a937ad9bf4d2410d5abbebf6b6b9a7c8c68d223ae0943"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/backup.log",
+      "sha256": "3db4240f3143f9931c0835f1f74ca09f87f136d7ffc812f2e76e8ffd1a47841e"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/build.log",
+      "sha256": "b8e6106ce87a65061eb2fc3342ba16a0726adb57876e065f7ce049bdde3dcbba"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/client-isolation.json",
+      "sha256": "b42ca7ba009d621a8967ec4cf2469ccbdf4acd2f6197b410eb205f6d251b3342"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/client-isolation.log",
+      "sha256": "137070c85a39845c81347ce4663990789cfa409763e75db5ebe3657aa3dd5d85"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/content-browser.log",
+      "sha256": "b0e317b2294e36fc77543e5597beaa1c9ca85af20951a520111b68bd3789654f"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/content-browser.xml",
+      "sha256": "e96b2c5d76e264f0d3155d0f7d3803e3d1ae6c9e25f99a9f5969de3711a9e228"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/content-state.json",
+      "sha256": "d8bed35fb7c341b5084091aa04c85a4848787a9c8be08cf482e6e61cb17c74fb"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/database.log",
+      "sha256": "a581911274ad77728bd20b362d243b2abe311e1a59209d1e94367e638e6bf6c9"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/db-start.log",
+      "sha256": "58a16a46a23302ffd46abc0fbbff6fca04281ccd1a6b0937c4b78581c6a832bb"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/db-stop.log",
+      "sha256": "1bb375d720037fbbd3025f9b6c7d883e28a5f83bedc6ccd66d02aff6f79f21c5"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/diff-warnings.log",
+      "sha256": "7deb804ea11add2e3e87df3468b9738a1c52a619bd1561eacf25694a2ca1472b"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/final-verifier-format.log",
+      "sha256": "f20510a9da4717c51c4cffee6d0dd88d6c9a723d0a83711d01216f5b48961283"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/final-verifier-lint.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/format-check.log",
+      "sha256": "222faefa8c6df853b9ec7b81de84c68366ef2e055a5f10bab31ad92fef063cce"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/format-write.log",
+      "sha256": "ea31d277cd48966c11854321a8a2c5b853a5ee1b82be24335e9229a40fa69086"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/learning-browser.log",
+      "sha256": "3d0892aabf8c005ef7cc8b524b257b63d8ffbb8ef0ebd2909fbecab81101aee6"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/learning-browser.xml",
+      "sha256": "113fc42b8d890b36a57901220e077ecc1a8447cf1684e2253d6915423d167163"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/lint-security.log",
+      "sha256": "832a15aa76482fc3404834b63256e31930cc5ea2025a33a3b062b2cf352cd921"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/lint-sprint12.log",
+      "sha256": "74c7f5989798c66c912c5f81eebc315826c25b3d45700d188508e1e595121ab1"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/lint.log",
+      "sha256": "ea08a86218a809317944f97fc607c15d658355f639c1297b04b665f86ca41e4a"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/local-browser.log",
+      "sha256": "e60f7d3782f402e15a290ffabee26b933eac9e81408395f3a3cf910b05e794e0"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/local-browser.xml",
+      "sha256": "8c63b9c590eef40ed9876070a1dcb379316aa9db8548287e67e7d48acc49ffc0"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/migration-restart.log",
+      "sha256": "109a5dba50917617db6fd62fdacdf8b5a761f55266928ee75e687d09a795982c"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/migration-upgrade.log",
+      "sha256": "3cdc9056b491f7416b36914f700b2ab9e0b323cc7fa6b97ce49e080e060659f4"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/native-database.json",
+      "sha256": "bfafedf1a8265ee2e9acee89c1dc092a163203d64e298a0423b0a88ee1e209af"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/pinned-source-manifest.json",
+      "sha256": "09164bc3939f45f47386401ebc7fe97e39029e95dc7c4c21a195ee105be02b72"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/pinned-task-status.json",
+      "sha256": "9b86effd184577ed7f99fd3efa7c3a6a0c1e0232ec641709622d9465bfbadca6"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/post-checks-progress.json",
+      "sha256": "fbc1bb9701ba8bff3099ef4088d5109b6052fac518332e28fed916b96f90e1cf"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/post-checks.log",
+      "sha256": "1e4a73cc92153b8327dfa1b2c23ce0c9e81405bec31d764d1d2bc0e3c5b542b5"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/pre-auth-rows.json",
+      "sha256": "55792807b3c821bedfcbcc01e1771a1bbdb3ce3afa6ee0c678343655f72ef7b4"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/preservation.log",
+      "sha256": "a7ffdf61d11744099ef5be67a00ea8763c0ea33c84823b50b7ad7c374e19ad3d"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/private-content-artifacts.json",
+      "sha256": "26c4bd40ca6ccd2298ea4a3fd98da20130bfc2a67bce2a1ec990deffae5d53de"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/private-content-scan.log",
+      "sha256": "ac54c00749d044b1406a5f60583e56b68df1ec4c011cc4fa968ef198659bad4a"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/production-browser.log",
+      "sha256": "38a0e0625ce2fc48505900a5cb83affdd97f2242551beb21a6e7cf8d184ebdaf"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/production-browser.xml",
+      "sha256": "528e6d8402b75566ee429c1bb0644d3f3153f6354e7adc217774ddc64ff69ca2"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/production-startup.json",
+      "sha256": "b5a6dfce8a8cb0d0d23e181d493137fba685d5c98a0b1b78ebaa299978a182e3"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/production-startup.log",
+      "sha256": "6344cfac4ca3d1abff9b5b3031c12153c344955a7d63aa7acb4c923665980f92"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/reflow-browser.log",
+      "sha256": "3947b5063b6cc7099a6e772f6064e9c10160e13ebf64ea58484b58a58a94b08a"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/reflow-browser.xml",
+      "sha256": "d1e29e4526033b6f3d7915f208bb4bece090d80e4611b460c1390ecb6d4243a9"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/reflow-format.log",
+      "sha256": "511d4e43f28b71e7ebc2f882a7b56877885a043b37c6e9f8ae6d626ef5810f65"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/registered-release-format.log",
+      "sha256": "166624f12e7da11a99d16c87f2674964510b7ce68aa543fd5907c63187c54e9c"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/regression-before-mobile-config-repair.json",
+      "sha256": "084b05a80e9c41f7a364bce0d31c5bf6d2b07ecfe2e00c4cc7cd137720e231ed"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/regression-progress.json",
+      "sha256": "6fe9319b8c7b0f1dc78e738a93ea45d1b908730ecf177af4a988a3fa45502cc8"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/regression-screenshots.json",
+      "sha256": "5bcaac97c84fe1e8637264085bbe1b35e813915953be24580f5879293e56548b"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/regressions.log",
+      "sha256": "f41e045db96475af7bce2850f96da580739803ff44566f84778428d94bafa39b"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/release-browser-before-completion-ack.log",
+      "sha256": "a217a24702b929ae8f0c8d6fa67ae232adfd7a04fbe8bd4fc8d6f81ac4be753a"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/release-browser-before-completion-ack.xml",
+      "sha256": "bb4f29bc48e8e58f22e2a5c2cb468bb343aefcd6ef4028e78efc0659147311ac"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/release-browser-before-feedback-selector.log",
+      "sha256": "b909b76f529a012ca8acf3eff366e526f067c32a71f24f93f114c29b8a41bbaa"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/release-browser-before-step-selector.log",
+      "sha256": "a86ac5775eaa5805ea27341c4d229d355292bc0cc012be04881cc731f01ab206"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/release-browser.log",
+      "sha256": "aecf76997c3329ff0aa15d6f63d969eddf440bfa9ded8c5e0039d5772b5f7d7f"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/release-browser.xml",
+      "sha256": "d1e29e4526033b6f3d7915f208bb4bece090d80e4611b460c1390ecb6d4243a9"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/release-database-before-rating-contract.xml",
+      "sha256": "232aa9d11af710c5fc1c232b605a3dfe5a15c897828827a1523161dd099e57db"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/release-database-before-rollback-guard-repair.xml",
+      "sha256": "4dd91b1fd822d2a8bb4f968c278e303f6a16882e87adef1cbbed4e2177bb5b08"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/release-database.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/release-database.xml",
+      "sha256": "bc492af681bb49ec9754deedd5adaae3c787fa7c2c62ee834e5bf8cf8a7b75b9"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/release-unit.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/release-unit.xml",
+      "sha256": "d688b317e55380571b737b83b1f97091554a9fe854729344963959136f685ad8"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/restart-readback.log",
+      "sha256": "29486aa5bcf854a796b4dce5c6ba1bdb1d377b35e9da52c6e0b52e3f3cea5714"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/restart.json",
+      "sha256": "9ae5c1d5f84eee2cab1952752385d68c1ad9d4e23fb42a324061ceda31db4556"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/restore.log",
+      "sha256": "d9fb5f377110e8a8939c472fddbb5ad345cb6dab9b3c81191a7f1d2bb074901d"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/review-export.log",
+      "sha256": "5380c6d4b850b6d11d3ea3647142f89ec6d20f1a7cfca0a2a5cd93ace536e2ab"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/review-index.log",
+      "sha256": "39efde992dcbe2a221ea30f3cd538702d97bd4ccf4e44a1bec7ad47eada090f6"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/review-workflow-format.log",
+      "sha256": "f7d1bfb01a7674ab1948327e008e4f9aeafc18ea5d0d6e24f176176826c741b8"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/runtime-inspection.log",
+      "sha256": "3909caddef9f0d3e810f0a81ec7bddaeeef2118eda0d96ee06ddf8a91af781a0"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/setup.log",
+      "sha256": "cba4e8e67ef8c871374ee60675fef6e5e4a3155a405c3a49e557e828bafd88b6"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint5-desktop-browser.log",
+      "sha256": "4f9008bbe27109c7ca77f4de17345040402e7b1c58b8c8308eba616b586c1f98"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint5-desktop-browser.xml",
+      "sha256": "99ec38de5d7e1880dabd6be61271d5cc57ce38b8d3a9cc91e23ce5078f8e6572"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint5-mobile-before-config-repair.log",
+      "sha256": "4c79f0254ea49444c1eb75d7595b9ba09c04387e13eab0a3069b35253b23baa2"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint5-mobile-browser.log",
+      "sha256": "6b1373b0be518a8d8f31f7a731ed5707cb96424e3c0c1aeb144df6e258e04fe1"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint5-mobile-browser.xml",
+      "sha256": "34690322c69b3f6defb026902e678948b8ba31a10c9d7c4c00f60ecea118cdf8"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint6-desktop-browser.log",
+      "sha256": "65297683645684673fbd18d237cc8bc836c671d817daa86c401c67020c3c9fbc"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint6-desktop-browser.xml",
+      "sha256": "7d80c8d034874796eedf242e54a9c91e9fcf51dae12322c95604a579372579b8"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint6-mobile-browser.log",
+      "sha256": "1d1e59389a9e36f0a7efe3136cb561e7782ccab9e9acff485cfd855109788d5b"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint6-mobile-browser.xml",
+      "sha256": "d6ceb3ac90b48fd3d98e3f63cab982648e9f8f486b9d28adff0549aec1a83509"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint7-desktop-browser.log",
+      "sha256": "36c253917928882f3a6dd26e8194b57c04246f44326e6a5bffa0982c57660d12"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint7-desktop-browser.xml",
+      "sha256": "fe0b6b045b8970ba982eca7532f8c397741f192a31521c9256ac8eb6e0c0dd18"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint7-mobile-browser.log",
+      "sha256": "c7505c7770aad19b09f525ad7bbe850a0eabd17f786582324fea6d537bb0138b"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint7-mobile-browser.xml",
+      "sha256": "b198f5f0bc3b582edeb82fb44fec2ce2aa9cfe8141fced194d5dddfc72106c78"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint8-browser.log",
+      "sha256": "649dc09a8f72e3bb99e19f7099fc0674187db18f16696fb4cc9f747e311a4f7c"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint8-browser.xml",
+      "sha256": "c9b87139f27626f06524bcf8e7111ea817fb9a6fdfd8392a1538f8a21ccc243b"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint9-browser.log",
+      "sha256": "b645fc1e26ac36fcd935f5fd097c25fa6f1a803a317ae05e12e0d47404eba0f5"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/sprint9-browser.xml",
+      "sha256": "e9e53ef5945417c47848a5e176d70bba3504d03d6d6094a961795ef9e0380480"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/typecheck-first.log",
+      "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/typecheck-workflow.log",
+      "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/typecheck.log",
+      "sha256": "b76b179820aa04bb6581cd66010191f3d02a460243f0d234922d0567d8bfe498"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/unit.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".local-postgres/sprint12/evidence-before-commit/unit.xml",
+      "sha256": "f2943f5eb52354b7c31458e9572367352980f8ba3ca1856446193c802fa52b88"
+    }
+  ],
+  "finalCommitProof": {
+    "path": ".local-postgres/sprint12/exact-commit-auth.json",
+    "command": "npm.cmd run test:release:auth -- --require-clean",
+    "require": "completed=true, sourceUnchanged=true, cleanAtStart=true, cleanAtEnd=true, commit=delivered HEAD",
+    "expected": {
+      "provider": 8,
+      "authBrowser": 8,
+      "tokenBrowserDesktop": 2,
+      "tokenBrowserMobile": 2,
+      "publicationBrowser": 8,
+      "authSqlPerDatabase": 6,
+      "authSqlDatabases": 3,
+      "publicationSql": 8
+    },
+    "note": "Generated after commit outside Git; authoritative final source proof. Conditional status prevents circular commit hash evidence."
+  },
+  "limits": {
+    "realLessonsApproved": false,
+    "humanReferenceAudio": 0,
+    "actualAccountVerified": false,
+    "cloudRlsVerified": false,
+    "hostingBenchmarked": false,
+    "deployed": false,
+    "pushed": false,
+    "merged": false,
+    "physicalAndroidVerified": false,
+    "independentReviewerRun": false,
+    "canonicalStatusChanged": false,
+    "rawVoiceReadOrUploaded": false
+  },
+  "chronology": [
+    "Fixture teaching/feedback selectors corrected; original logs/traces retained privately",
+    "Completion test now waits for server ACK and persisted completed state before navigation; earlier mobile failure retained",
+    "Original zoom assertion used inflated innerWidth; corrected to full-page PNG CSS width equals configured viewport, then fixed long-label/button wrapping",
+    "Initial native Sprint5 mobile invocation selected a nonexistent project; zero-case failure retained; runner now sets existing viewport environment flags",
+    "Rollback guard originally could not see FORCE-RLS rows as schema owner; final constraint validation still rejected rollback, now guard uses full-table constraint validation without weakening RLS; failure retained",
+    "Final native matrix and all source checks rerun; final Auth and publication tests must run on clean delivered SHA without truncating old fixture histories"
+  ]
+}

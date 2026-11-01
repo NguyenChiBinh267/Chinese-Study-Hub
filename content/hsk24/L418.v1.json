@@ -1,0 +1,763 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "39e3175e199eccc2fee0b8045b8129f9127b5a6f76338fd582bfaff845c46458",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ebi",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L418",
+    "version": 1,
+    "versionId": "l418-draft-v1",
+    "title": "Kể kết quả trận đấu và vai trò trong đội",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Kể kết quả trận đấu và vai trò trong đội; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "既……，又/也……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 28,
+      "physicalPage": 29,
+      "printedPage": 26,
+      "section": "task",
+      "entry": "二十四"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T17:08:32.907385Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-sport",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 28,
+          "physicalPage": 29,
+          "printedPage": 26,
+          "section": "task",
+          "entry": "二十四"
+        },
+        "written": "谈论体育项目及比赛",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-6725f87d28c6",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 67,
+          "physicalPage": 68,
+          "printedPage": 65,
+          "section": "topic",
+          "entry": "体育比赛"
+        },
+        "written": "体育比赛",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l418-v-1063",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1063"
+        },
+        "written": "参赛",
+        "pinyin": "cānsài",
+        "senseId": "l418-v-1063-sense",
+        "ordinal": 1063,
+        "note": "4 cānsài 动; 参赛 chỉ tham gia cuộc thi/trận đấu, chưa hàm ý chiến thắng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l418-v-1073",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1073"
+        },
+        "written": "场",
+        "pinyin": "chǎng",
+        "senseId": "l418-v-1073-sense",
+        "ordinal": 1073,
+        "note": "4 chǎng 量; 场 đọc chǎng khi đếm trận đấu; bài giới hạn lượng từ, không dạy cách đọc cháng của từ đồng hình cấp khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l418-v-1116",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1116"
+        },
+        "written": "打败",
+        "pinyin": "dǎbài",
+        "senseId": "l418-v-1116-sense",
+        "ordinal": 1116,
+        "note": "4 dǎbài 动; 打败 nhận đối thủ bị thắng; hướng tác động không giống 输给 là thua trước ai. Nhận diện chữ 败 trong 打败; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l418-v-1173",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1173"
+        },
+        "written": "队",
+        "pinyin": "duì",
+        "senseId": "l418-v-1173-sense",
+        "ordinal": 1173,
+        "note": "4（5） duì 名、（量）; 队 ở đây là danh từ tập thể; không nhận là lượng từ của cấp sau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l418-v-1177",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1177"
+        },
+        "written": "队员",
+        "pinyin": "duìyuán",
+        "senseId": "l418-v-1177-sense",
+        "ordinal": 1177,
+        "note": "4 duìyuán 名; 队员 là người thuộc đội, không phải ai cũng là người chỉ huy. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l418-v-1178",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1178"
+        },
+        "written": "队长",
+        "pinyin": "duìzhǎng",
+        "senseId": "l418-v-1178-sense",
+        "ordinal": 1178,
+        "note": "4 duìzhǎng 名; 队长 là người đứng đầu đội trong bối cảnh này; không suy ra mọi người khác đều ít kinh nghiệm. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-5",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "5"
+        },
+        "written": "败",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 5,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-61",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "61"
+        },
+        "written": "队",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 61,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-418",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "并列复句：既，又"
+        },
+        "written": "既……，又/也……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l418-c0",
+      "version": 1,
+      "senseId": "l418-v-1063-sense",
+      "hanzi": "参赛",
+      "dictionaryPinyin": "cān sài",
+      "meaning": "tham gia thi đấu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l418-v-1063"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l418-c1",
+      "version": 1,
+      "senseId": "l418-v-1073-sense",
+      "hanzi": "场",
+      "dictionaryPinyin": "chǎng",
+      "meaning": "trận, buổi (lượng từ chǎng)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l418-v-1073"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l418-c2",
+      "version": 1,
+      "senseId": "l418-v-1116-sense",
+      "hanzi": "打败",
+      "dictionaryPinyin": "dǎ bài",
+      "meaning": "đánh bại",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l418-v-1116"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l418-c3",
+      "version": 1,
+      "senseId": "l418-v-1173-sense",
+      "hanzi": "队",
+      "dictionaryPinyin": "duì",
+      "meaning": "đội, nhóm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l418-v-1173"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l418-c4",
+      "version": 1,
+      "senseId": "l418-v-1177-sense",
+      "hanzi": "队员",
+      "dictionaryPinyin": "duì yuán",
+      "meaning": "thành viên đội",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l418-v-1177"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l418-c5",
+      "version": 1,
+      "senseId": "l418-v-1178-sense",
+      "hanzi": "队长",
+      "dictionaryPinyin": "duì zhǎng",
+      "meaning": "đội trưởng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l418-v-1178"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l418-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 组队 zǔ duì: lập đội; 互相 hùxiāng: lẫn nhau; 却 què: nhưng lại; 整个 zhěng ge: toàn bộ. Đội và kết quả đều hư cấu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l418-t0",
+      "type": "teaching",
+      "title": "参赛 · tham gia thi đấu",
+      "text": "参赛 chỉ tham gia cuộc thi/trận đấu, chưa hàm ý chiến thắng.",
+      "hanzi": "我们第一次组队参赛。",
+      "pinyin": "Wǒmen dì yī cì zǔ duì cānsài.",
+      "meaning": "Chúng tôi lần đầu lập đội dự thi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l418-t1",
+      "type": "teaching",
+      "title": "场 · trận, buổi (lượng từ chǎng)",
+      "text": "场 đọc chǎng khi đếm trận đấu; bài giới hạn lượng từ, không dạy cách đọc cháng của từ đồng hình cấp khác.",
+      "hanzi": "下午有两场比赛。",
+      "pinyin": "Xiàwǔ yǒu liǎng chǎng bǐsài.",
+      "meaning": "Chiều có hai trận đấu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l418-t2",
+      "type": "teaching",
+      "title": "打败 · đánh bại",
+      "text": "打败 nhận đối thủ bị thắng; hướng tác động không giống 输给 là thua trước ai. Nhận diện chữ 败 trong 打败; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "蓝队打败了红队。",
+      "pinyin": "Lán duì dǎbài le Hóng duì.",
+      "meaning": "Đội Xanh đánh bại đội Đỏ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l418-t3",
+      "type": "teaching",
+      "title": "队 · đội, nhóm",
+      "text": "队 ở đây là danh từ tập thể; không nhận là lượng từ của cấp sau.",
+      "hanzi": "我们队今天穿蓝色上衣。",
+      "pinyin": "Wǒmen duì jīntiān chuān lánsè shàngyī.",
+      "meaning": "Hôm nay đội chúng tôi mặc áo xanh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l418-t4",
+      "type": "teaching",
+      "title": "队员 · thành viên đội",
+      "text": "队员 là người thuộc đội, không phải ai cũng là người chỉ huy.",
+      "hanzi": "每位队员都有自己的任务。",
+      "pinyin": "Měi wèi duìyuán dōu yǒu zìjǐ de rènwu.",
+      "meaning": "Mỗi thành viên đội có nhiệm vụ riêng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l418-t5",
+      "type": "teaching",
+      "title": "队长 · đội trưởng",
+      "text": "队长 là người đứng đầu đội trong bối cảnh này; không suy ra mọi người khác đều ít kinh nghiệm.",
+      "hanzi": "队长先说明比赛安排。",
+      "pinyin": "Duìzhǎng xiān shuōmíng bǐsài ānpái.",
+      "meaning": "Đội trưởng giải thích lịch thi đấu trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l418-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "既…又… đặt hai tính chất/công việc song song, không tự nêu nhân quả. 主语+既+V1+又+V2 dùng cùng một chủ thể trong câu mẫu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l418-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "蓝队第一次参赛。队长既说明安排，又提醒队员互相帮助。下午有两场比赛：第一场蓝队打败了红队，第二场却输了。队员说，赢一场不等于赢了整个比赛。",
+      "pinyin": "Lán duì dì yī cì cānsài. Duìzhǎng jì shuōmíng ānpái, yòu tíxǐng duìyuán hùxiāng bāngzhù. Xiàwǔ yǒu liǎng chǎng bǐsài: Dì yī chǎng Lán duì dǎbài le Hóng duì, dì èr chǎng què shū le. Duìyuán shuō, yíng yì chǎng bù děngyú yíng le zhěng ge bǐsài.",
+      "meaning": "Đội Xanh thắng trận đầu nhưng thua trận thứ hai. Đội trưởng vừa phổ biến lịch vừa nhắc thành viên giúp nhau; thắng một trận không có nghĩa thắng cả giải.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l418-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l418-v1-e0"
+    },
+    {
+      "id": "l418-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l418-v1-e1"
+    },
+    {
+      "id": "l418-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l418-v1-e2"
+    },
+    {
+      "id": "l418-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l418-v1-e3"
+    },
+    {
+      "id": "l418-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l418-v1-e4"
+    },
+    {
+      "id": "l418-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l418-v1-e5"
+    },
+    {
+      "id": "l418-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l418-v1-e6"
+    },
+    {
+      "id": "l418-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l418-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l418-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l418-c0",
+      "senseId": "l418-v-1063-sense",
+      "keyRef": "l418-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “tham gia thi đấu” để điền câu: 我们第一次组队□。",
+      "choices": [
+        "场",
+        "打败",
+        "队",
+        "队员",
+        "队长",
+        "参赛"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l418-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l418-c1",
+      "senseId": "l418-v-1073-sense",
+      "keyRef": "l418-v1-k1",
+      "prompt": "Ghi pinyin của 场 trong câu “下午有两场比赛。”, theo nghĩa “trận, buổi (lượng từ chǎng)”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l418-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l418-c2",
+      "senseId": "l418-v-1116-sense",
+      "keyRef": "l418-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “đánh bại”: 打□ (dǎ bài). Ngữ cảnh: 蓝队□了红队。",
+      "choices": [
+        "故",
+        "败",
+        "财",
+        "改"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l418-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l418-c3",
+      "senseId": "l418-v-1173-sense",
+      "keyRef": "l418-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “đội, nhóm” để điền câu: 我们□今天穿蓝色上衣。",
+      "choices": [
+        "队员",
+        "队长",
+        "参赛",
+        "场",
+        "打败",
+        "队"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l418-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l418-c4",
+      "senseId": "l418-v-1177-sense",
+      "keyRef": "l418-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “thành viên đội” để điền câu: 每位□都有自己的任务。",
+      "choices": [
+        "队长",
+        "参赛",
+        "场",
+        "打败",
+        "队",
+        "队员"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l418-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l418-c5",
+      "senseId": "l418-v-1178-sense",
+      "keyRef": "l418-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “đội trưởng”: □先说明比赛安排。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l418-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l418-c0",
+      "senseId": "l418-v-1063-sense",
+      "keyRef": "l418-v1-k6",
+      "prompt": "Đội Xanh đạt kết quả nào?",
+      "choices": [
+        "两场都赢",
+        "没有参赛",
+        "第一场赢，第二场输"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l418-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l418-c3",
+      "senseId": "l418-v-1173-sense",
+      "keyRef": "l418-v1-k7",
+      "prompt": "Xếp hai hành động song song, bắt đầu bằng 队长.",
+      "choices": [
+        "又提醒队员",
+        "说明安排",
+        "队长",
+        "既"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l418-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l418-v1-e0",
+      "senseId": "l418-v-1063-sense",
+      "accepted": [
+        "参赛"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "参赛: tham gia thi đấu. 参赛 chỉ tham gia cuộc thi/trận đấu, chưa hàm ý chiến thắng. Chúng tôi lần đầu lập đội dự thi."
+    },
+    {
+      "id": "l418-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l418-v1-e1",
+      "senseId": "l418-v-1073-sense",
+      "accepted": [
+        "chǎng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc chǎng. 场 đọc chǎng khi đếm trận đấu; bài giới hạn lượng từ, không dạy cách đọc cháng của từ đồng hình cấp khác."
+    },
+    {
+      "id": "l418-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l418-v1-e2",
+      "senseId": "l418-v-1116-sense",
+      "accepted": [
+        "败"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 败 tạo từ 打败. 打败 nhận đối thủ bị thắng; hướng tác động không giống 输给 là thua trước ai. Nhận diện chữ 败 trong 打败; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l418-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l418-v1-e3",
+      "senseId": "l418-v-1173-sense",
+      "accepted": [
+        "队"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "队: đội, nhóm. 队 ở đây là danh từ tập thể; không nhận là lượng từ của cấp sau. Hôm nay đội chúng tôi mặc áo xanh."
+    },
+    {
+      "id": "l418-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l418-v1-e4",
+      "senseId": "l418-v-1177-sense",
+      "accepted": [
+        "队员"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "队员: thành viên đội. 队员 là người thuộc đội, không phải ai cũng là người chỉ huy. Mỗi thành viên đội có nhiệm vụ riêng."
+    },
+    {
+      "id": "l418-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l418-v1-e5",
+      "senseId": "l418-v-1178-sense",
+      "accepted": [
+        "队长"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 队长. 队长 là người đứng đầu đội trong bối cảnh này; không suy ra mọi người khác đều ít kinh nghiệm. Đội trưởng giải thích lịch thi đấu trước."
+    },
+    {
+      "id": "l418-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l418-v1-e6",
+      "senseId": "l418-v-1063-sense",
+      "accepted": [
+        "第一场赢，第二场输"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 第一场赢，第二场输. Đội Xanh thắng trận đầu nhưng thua trận thứ hai. Đội trưởng vừa phổ biến lịch vừa nhắc thành viên giúp nhau; thắng một trận không có nghĩa thắng cả giải."
+    },
+    {
+      "id": "l418-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l418-v1-e7",
+      "senseId": "l418-v-1173-sense",
+      "accepted": [
+        "2,3,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 既…又… đặt hai tính chất/công việc song song, không tự nêu nhân quả. 主语+既+V1+又+V2 dùng cùng một chủ thể trong câu mẫu."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

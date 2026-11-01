@@ -1,0 +1,704 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "cb1b54c69ed5bd32740f316234c464af7dbd55f05fc5aa74c2698a716892c0d4",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-bb",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L153",
+    "version": 1,
+    "versionId": "l153-draft-v1",
+    "title": "Ba bữa trong ngày",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ba bữa trong ngày; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "动宾短语"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 5,
+      "physicalPage": 6,
+      "printedPage": 3,
+      "section": "task",
+      "entry": "七"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:10:35.430380Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-food",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 5,
+          "physicalPage": 6,
+          "printedPage": 3,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "问答饮食喜好",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-515da74e1a50",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "就餐"
+        },
+        "written": "就餐",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l153-v-274",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 274"
+        },
+        "written": "早饭",
+        "pinyin": "zǎofàn",
+        "senseId": "l153-v-274-sense",
+        "ordinal": 274,
+        "note": "1 zǎofàn 名; 早饭 gọi bữa sáng, khác từ thời gian 早上 dù hai từ thường cùng xuất hiện. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l153-v-224",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 224"
+        },
+        "written": "午饭",
+        "pinyin": "wǔfàn",
+        "senseId": "l153-v-224-sense",
+        "ordinal": 224,
+        "note": "1 wǔfàn 名; 午饭 là bữa trưa, không phải cả khoảng thời gian 中午. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l153-v-216",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 216"
+        },
+        "written": "晚饭",
+        "pinyin": "wǎnfàn",
+        "senseId": "l153-v-216-sense",
+        "ordinal": 216,
+        "note": "1 wǎnfàn 名; 晚饭 là bữa tối; không dùng nó thay mọi câu nói muộn/trễ của 晚. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l153-v-50",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 50"
+        },
+        "written": "饭",
+        "pinyin": "fàn",
+        "senseId": "l153-v-50-sense",
+        "ordinal": 50,
+        "note": "1 fàn 名; 饭 trong 吃饭 có thể nói ăn một bữa, không luôn chỉ riêng cơm trắng. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-228",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "228"
+        },
+        "written": "早",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 228,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-44",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "44"
+        },
+        "written": "饭",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 44,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-188",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "188"
+        },
+        "written": "午",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 188,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-182",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "182"
+        },
+        "written": "晚",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 182,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-153",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "g-386-3"
+        },
+        "written": "动宾短语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l153-c0",
+      "version": 1,
+      "senseId": "l153-v-274-sense",
+      "hanzi": "早饭",
+      "dictionaryPinyin": "zǎo fàn",
+      "meaning": "bữa sáng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l153-v-274"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l153-c1",
+      "version": 1,
+      "senseId": "l153-v-224-sense",
+      "hanzi": "午饭",
+      "dictionaryPinyin": "wǔ fàn",
+      "meaning": "bữa trưa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l153-v-224"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l153-c2",
+      "version": 1,
+      "senseId": "l153-v-216-sense",
+      "hanzi": "晚饭",
+      "dictionaryPinyin": "wǎn fàn",
+      "meaning": "bữa tối",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l153-v-216"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l153-c3",
+      "version": 1,
+      "senseId": "l153-v-50-sense",
+      "hanzi": "饭",
+      "dictionaryPinyin": "fàn",
+      "meaning": "cơm; bữa ăn (theo ngữ cảnh)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l153-v-50"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l153-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l153-t0",
+      "type": "teaching",
+      "title": "早饭 · bữa sáng",
+      "text": "早饭 gọi bữa sáng, khác từ thời gian 早上 dù hai từ thường cùng xuất hiện.",
+      "hanzi": "我吃早饭。",
+      "pinyin": "Wǒ chī zǎo fàn.",
+      "meaning": "Tôi ăn sáng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l153-t1",
+      "type": "teaching",
+      "title": "午饭 · bữa trưa",
+      "text": "午饭 là bữa trưa, không phải cả khoảng thời gian 中午.",
+      "hanzi": "我中午吃午饭。",
+      "pinyin": "Wǒ zhōng wǔ chī wǔ fàn.",
+      "meaning": "Tôi ăn trưa vào buổi trưa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l153-t2",
+      "type": "teaching",
+      "title": "晚饭 · bữa tối",
+      "text": "晚饭 là bữa tối; không dùng nó thay mọi câu nói muộn/trễ của 晚.",
+      "hanzi": "我晚上吃晚饭。",
+      "pinyin": "Wǒ wǎn shang chī wǎn fàn.",
+      "meaning": "Tôi ăn tối vào buổi tối.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l153-t3",
+      "type": "teaching",
+      "title": "饭 · cơm; bữa ăn (theo ngữ cảnh)",
+      "text": "饭 trong 吃饭 có thể nói ăn một bữa, không luôn chỉ riêng cơm trắng.",
+      "hanzi": "我吃饭。",
+      "pinyin": "Wǒ chī fàn.",
+      "meaning": "Tôi ăn cơm/ăn bữa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l153-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "吃饭 là ăn cơm/ăn bữa, không buộc món ăn luôn là 米饭. 早饭/午饭/晚饭 gọi bữa sáng/trưa/tối; dùng trước/sau 吃 theo câu đã cho, không suy mọi bữa đều ở một giờ giống nhau. 吃 được chú giải và sẽ học riêng ở bài kế tiếp.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l153-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：你吃早饭了吗？\nB：吃了。\nA：你什么时候吃午饭？\nB：我中午吃午饭。",
+      "pinyin": "A: Nǐ chī zǎo fàn le ma? B: Chī le. A: Nǐ shén me shí hou chī wǔ fàn? B: Wǒ zhōng wǔ chī wǔ fàn.",
+      "meaning": "吃 chī = ăn; 吃了 ở đây trả lời đã ăn. B đã ăn sáng và nói ăn trưa vào buổi trưa, không nêu giờ cụ thể.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l153-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l153-v1-e0"
+    },
+    {
+      "id": "l153-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l153-v1-e1"
+    },
+    {
+      "id": "l153-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l153-v1-e2"
+    },
+    {
+      "id": "l153-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l153-v1-e3"
+    },
+    {
+      "id": "l153-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l153-v1-e4"
+    },
+    {
+      "id": "l153-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l153-v1-e5"
+    },
+    {
+      "id": "l153-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l153-v1-e6"
+    },
+    {
+      "id": "l153-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l153-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l153-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l153-c0",
+      "senseId": "l153-v-274-sense",
+      "keyRef": "l153-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “bữa sáng”: 早□ (zǎo fàn). Ngữ cảnh: 我吃早□。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "反",
+        "板",
+        "版",
+        "饭"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l153-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l153-c1",
+      "senseId": "l153-v-224-sense",
+      "keyRef": "l153-v1-k1",
+      "prompt": "Viết pinyin từ điển của 午饭 (bữa trưa).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l153-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l153-c2",
+      "senseId": "l153-v-216-sense",
+      "keyRef": "l153-v1-k2",
+      "prompt": "Điền đúng mục từ đọc wǎn fàn, nghĩa “bữa tối”: 我晚上吃□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l153-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l153-c3",
+      "senseId": "l153-v-50-sense",
+      "keyRef": "l153-v1-k3",
+      "prompt": "Chọn mục từ đọc fàn, nghĩa “cơm; bữa ăn (theo ngữ cảnh)”, trong câu: 我吃□。",
+      "choices": [
+        "早饭",
+        "午饭",
+        "晚饭",
+        "饭"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l153-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l153-c2",
+      "senseId": "l153-v-216-sense",
+      "keyRef": "l153-v1-k4",
+      "prompt": "Trong câu “我晚上吃晚饭。”, 晚饭 mang nghĩa nào theo bài?",
+      "choices": [
+        "bữa trưa",
+        "bữa tối",
+        "cơm; bữa ăn (theo ngữ cảnh)",
+        "bữa sáng"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l153-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l153-c3",
+      "senseId": "l153-v-50-sense",
+      "keyRef": "l153-v1-k5",
+      "prompt": "Trong câu “我吃饭。”, 饭 mang nghĩa nào theo bài?",
+      "choices": [
+        "bữa tối",
+        "cơm; bữa ăn (theo ngữ cảnh)",
+        "bữa sáng",
+        "bữa trưa"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l153-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l153-c0",
+      "senseId": "l153-v-274-sense",
+      "keyRef": "l153-v1-k6",
+      "prompt": "B nói ăn trưa vào buổi nào?",
+      "choices": [
+        "早上",
+        "晚上",
+        "中午"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l153-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l153-c3",
+      "senseId": "l153-v-50-sense",
+      "keyRef": "l153-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我中午",
+        "吃",
+        "午饭。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l153-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l153-v1-e0",
+      "senseId": "l153-v-274-sense",
+      "accepted": [
+        "饭"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 饭 tạo từ 早饭. 早饭 gọi bữa sáng, khác từ thời gian 早上 dù hai từ thường cùng xuất hiện. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l153-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l153-v1-e1",
+      "senseId": "l153-v-224-sense",
+      "accepted": [
+        "wǔ fàn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "午饭 ghi wǔ fàn. 午饭 là bữa trưa, không phải cả khoảng thời gian 中午."
+    },
+    {
+      "id": "l153-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l153-v1-e2",
+      "senseId": "l153-v-216-sense",
+      "accepted": [
+        "晚饭"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc wǎn fàn: 晚饭. 晚饭 là bữa tối; không dùng nó thay mọi câu nói muộn/trễ của 晚. Tôi ăn tối vào buổi tối."
+    },
+    {
+      "id": "l153-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l153-v1-e3",
+      "senseId": "l153-v-50-sense",
+      "accepted": [
+        "饭"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc fàn: 饭. 饭 trong 吃饭 có thể nói ăn một bữa, không luôn chỉ riêng cơm trắng. Tôi ăn cơm/ăn bữa."
+    },
+    {
+      "id": "l153-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l153-v1-e4",
+      "senseId": "l153-v-216-sense",
+      "accepted": [
+        "bữa tối"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "晚饭 là bữa tối; không dùng nó thay mọi câu nói muộn/trễ của 晚. Tôi ăn tối vào buổi tối."
+    },
+    {
+      "id": "l153-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l153-v1-e5",
+      "senseId": "l153-v-50-sense",
+      "accepted": [
+        "cơm; bữa ăn (theo ngữ cảnh)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "饭 trong 吃饭 có thể nói ăn một bữa, không luôn chỉ riêng cơm trắng. Tôi ăn cơm/ăn bữa."
+    },
+    {
+      "id": "l153-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l153-v1-e6",
+      "senseId": "l153-v-274-sense",
+      "accepted": [
+        "中午"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 中午. 吃 chī = ăn; 吃了 ở đây trả lời đã ăn. B đã ăn sáng và nói ăn trưa vào buổi trưa, không nêu giờ cụ thể."
+    },
+    {
+      "id": "l153-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l153-v1-e7",
+      "senseId": "l153-v-50-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 吃饭 là ăn cơm/ăn bữa, không buộc món ăn luôn là 米饭. 早饭/午饭/晚饭 gọi bữa sáng/trưa/tối; dùng trước/sau 吃 theo câu đã cho, không suy mọi bữa đều ở một giờ giống nhau. 吃 được chú giải và sẽ học riêng ở bài kế tiếp."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

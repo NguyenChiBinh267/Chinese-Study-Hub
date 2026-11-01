@@ -1,0 +1,782 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "c696703def8a50997ae841194d695bd93003201742f666e17da469fc7dbe3898",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-relationships-talk",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L351",
+    "version": 1,
+    "versionId": "l351-draft-v1",
+    "title": "Trò chuyện và quan tâm nhau",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân biệt quan hệ, quan tâm và theo dõi thông tin.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "咱们"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-social",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "日常交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-feelings",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "意愿感受"
+        },
+        "written": "意愿感受",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l351-v-755",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 755"
+        },
+        "written": "聊",
+        "pinyin": "liáo",
+        "senseId": "l351-v-755-sense",
+        "ordinal": 755,
+        "note": "3 liáo 动; 聊 là nói chuyện thoải mái; 聊工作 nói trò chuyện về việc, không tự là cuộc họp chính thức. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l351-v-756",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 756"
+        },
+        "written": "聊天儿",
+        "pinyin": "liáotiānr",
+        "senseId": "l351-v-756-sense",
+        "ordinal": 756,
+        "note": "3 liáotiānr 动; 聊天儿 là nói chuyện phiếm, 儿 hóa nằm trong tiānr. 跟朋友聊天儿 nêu người trò chuyện; không dùng 聊天儿朋友. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l351-v-654",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 654"
+        },
+        "written": "关系",
+        "pinyin": "guānxì",
+        "senseId": "l351-v-654-sense",
+        "ordinal": 654,
+        "note": "3（4） guānxì 名、（动）; 关系 là quan hệ giữa người/việc; 没关系 còn là lời đáp “không sao”, không dùng một bản dịch cho mọi chỗ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l351-v-655",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 655"
+        },
+        "written": "关心",
+        "pinyin": "guānxīn",
+        "senseId": "l351-v-655-sense",
+        "ordinal": 655,
+        "note": "3 guānxīn 动; 关心 chú ý vì lo và muốn điều tốt cho ai/việc; 关心你 khác chỉ 关注 một bản tin. Không biết cảm xúc người khác chỉ từ một hành động. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l351-v-657",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 657"
+        },
+        "written": "关注",
+        "pinyin": "guānzhù",
+        "senseId": "l351-v-657-sense",
+        "ordinal": 657,
+        "note": "3 guānzhù 动; 关注 thường là chú ý/theo dõi người hoặc thông tin, như 关注新闻; không tự là hành động chăm sóc cụ thể. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l351-v-826",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 826"
+        },
+        "written": "身边",
+        "pinyin": "shēnbiān",
+        "senseId": "l351-v-826-sense",
+        "ordinal": 826,
+        "note": "3 shēnbiān 名; 身边 là bên cạnh hoặc những người gần gũi theo cảnh, khác 身上 trên người. 身边的人 chỉ người quanh mình. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-145",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "145"
+        },
+        "written": "聊",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 145,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-233",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "233"
+        },
+        "written": "心",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 233,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-282",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "282"
+        },
+        "written": "注",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 282,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-mutual-human",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "代词 / 人称代词 / 咱们"
+        },
+        "written": "咱们",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l351-c0",
+      "version": 1,
+      "senseId": "l351-v-755-sense",
+      "hanzi": "聊",
+      "dictionaryPinyin": "liáo",
+      "meaning": "nói chuyện/tán gẫu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l351-v-755"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l351-c1",
+      "version": 1,
+      "senseId": "l351-v-756-sense",
+      "hanzi": "聊天儿",
+      "dictionaryPinyin": "liáo tiānr",
+      "meaning": "tán gẫu/trò chuyện",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l351-v-756"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l351-c2",
+      "version": 1,
+      "senseId": "l351-v-654-sense",
+      "hanzi": "关系",
+      "dictionaryPinyin": "guān xì",
+      "meaning": "quan hệ/mối liên hệ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l351-v-654"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l351-c3",
+      "version": 1,
+      "senseId": "l351-v-655-sense",
+      "hanzi": "关心",
+      "dictionaryPinyin": "guān xīn",
+      "meaning": "quan tâm/chăm lo",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l351-v-655"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l351-c4",
+      "version": 1,
+      "senseId": "l351-v-657-sense",
+      "hanzi": "关注",
+      "dictionaryPinyin": "guān zhù",
+      "meaning": "chú ý/theo dõi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l351-v-657"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l351-c5",
+      "version": 1,
+      "senseId": "l351-v-826-sense",
+      "hanzi": "身边",
+      "dictionaryPinyin": "shēn biān",
+      "meaning": "bên cạnh/quanh mình",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l351-v-826"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l351-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 家人 jiārén: người nhà; 感谢 gǎnxiè: cảm ơn; 经历 jīnglì: trải nghiệm; 网上 wǎng shàng: trên mạng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l351-t0",
+      "type": "teaching",
+      "title": "聊 · nói chuyện/tán gẫu",
+      "text": "聊 là nói chuyện thoải mái; 聊工作 nói trò chuyện về việc, không tự là cuộc họp chính thức.",
+      "hanzi": "我们聊一会儿吧。",
+      "pinyin": "Wǒmen liáo yíhuìr ba.",
+      "meaning": "Chúng ta nói chuyện một lúc nhé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l351-t1",
+      "type": "teaching",
+      "title": "聊天儿 · tán gẫu/trò chuyện",
+      "text": "聊天儿 là nói chuyện phiếm, 儿 hóa nằm trong tiānr. 跟朋友聊天儿 nêu người trò chuyện; không dùng 聊天儿朋友.",
+      "hanzi": "她喜欢跟朋友聊天儿。",
+      "pinyin": "Tā xǐhuan gēn péngyou liáo tiānr.",
+      "meaning": "Cô ấy thích tán gẫu với bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l351-t2",
+      "type": "teaching",
+      "title": "关系 · quan hệ/mối liên hệ",
+      "text": "关系 là quan hệ giữa người/việc; 没关系 còn là lời đáp “không sao”, không dùng một bản dịch cho mọi chỗ.",
+      "hanzi": "他跟邻居的关系很好。",
+      "pinyin": "Tā gēn línjū de guānxì hěn hǎo.",
+      "meaning": "Quan hệ của anh ấy với hàng xóm rất tốt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l351-t3",
+      "type": "teaching",
+      "title": "关心 · quan tâm/chăm lo",
+      "text": "关心 chú ý vì lo và muốn điều tốt cho ai/việc; 关心你 khác chỉ 关注 một bản tin. Không biết cảm xúc người khác chỉ từ một hành động.",
+      "hanzi": "家人很关心我。",
+      "pinyin": "Jiārén hěn guānxīn wǒ.",
+      "meaning": "Người nhà rất quan tâm tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l351-t4",
+      "type": "teaching",
+      "title": "关注 · chú ý/theo dõi",
+      "text": "关注 thường là chú ý/theo dõi người hoặc thông tin, như 关注新闻; không tự là hành động chăm sóc cụ thể.",
+      "hanzi": "我关注学校的新消息。",
+      "pinyin": "Wǒ guānzhù xuéxiào de xīn xiāoxi.",
+      "meaning": "Tôi theo dõi tin mới của trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l351-t5",
+      "type": "teaching",
+      "title": "身边 · bên cạnh/quanh mình",
+      "text": "身边 là bên cạnh hoặc những người gần gũi theo cảnh, khác 身上 trên người. 身边的人 chỉ người quanh mình.",
+      "hanzi": "我很感谢身边的朋友。",
+      "pinyin": "Wǒ hěn gǎnxiè shēnbiān de péngyou.",
+      "meaning": "Tôi cảm ơn những người bạn bên mình.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l351-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "咱们 bao gồm cả người nghe trong lời rủ: 咱们聊一会儿吧. 我们 có thể gồm hoặc không gồm người nghe tùy ngữ cảnh. Bài không khẳng định luôn thay thế được.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l351-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "朋友坐在小林身边，说：咱们聊一会儿吧。两人聊天儿，谈到跟邻居的关系。朋友关心他的生活，也关注学校的消息，但不会把网上看到的每条消息当成他个人的经历。",
+      "pinyin": "Péngyou zuò zài Xiǎo Lín shēnbiān, shuō: Zánmen liáo yíhuìr ba. Liǎng rén liáo tiānr, tándào gēn línjū de guānxì. Péngyou guānxīn tā de shēnghuó, yě guānzhù xuéxiào de xiāoxi, dàn bú huì bǎ wǎng shàng kàndào de měi tiáo xiāoxi dàngchéng tā gè rén de jīnglì.",
+      "meaning": "Bạn ngồi cạnh Lâm rủ cùng nói chuyện về hàng xóm và cuộc sống. Bạn quan tâm Lâm, theo dõi tin trường nhưng không coi mọi tin mạng là trải nghiệm của Lâm.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l351-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l351-v1-e0"
+    },
+    {
+      "id": "l351-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l351-v1-e1"
+    },
+    {
+      "id": "l351-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l351-v1-e2"
+    },
+    {
+      "id": "l351-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l351-v1-e3"
+    },
+    {
+      "id": "l351-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l351-v1-e4"
+    },
+    {
+      "id": "l351-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l351-v1-e5"
+    },
+    {
+      "id": "l351-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l351-v1-e6"
+    },
+    {
+      "id": "l351-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l351-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l351-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l351-c0",
+      "senseId": "l351-v-755-sense",
+      "keyRef": "l351-v1-k0",
+      "prompt": "Động từ một chữ tán gẫu: 我们□一会儿。",
+      "choices": [
+        "聊天儿",
+        "关系",
+        "关心",
+        "关注",
+        "身边",
+        "聊"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l351-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l351-c1",
+      "senseId": "l351-v-756-sense",
+      "keyRef": "l351-v1-k1",
+      "prompt": "Đúng mục từ có 儿 của hoạt động tán gẫu: 跟朋友□。",
+      "choices": [
+        "关系",
+        "关心",
+        "关注",
+        "身边",
+        "聊",
+        "聊天儿"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l351-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l351-c2",
+      "senseId": "l351-v-654-sense",
+      "keyRef": "l351-v1-k2",
+      "prompt": "Danh từ mối quan hệ: 跟邻居的□很好。",
+      "choices": [
+        "关心",
+        "关注",
+        "身边",
+        "聊",
+        "聊天儿",
+        "关系"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l351-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l351-c3",
+      "senseId": "l351-v-655-sense",
+      "keyRef": "l351-v1-k3",
+      "prompt": "Viết pinyin của 关心 trong câu “家人很关心我。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l351-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l351-c4",
+      "senseId": "l351-v-657-sense",
+      "keyRef": "l351-v1-k4",
+      "prompt": "Theo dõi thông tin trường: □学校的新消息。",
+      "choices": [
+        "身边",
+        "聊",
+        "聊天儿",
+        "关系",
+        "关心",
+        "关注"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l351-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l351-c5",
+      "senseId": "l351-v-826-sense",
+      "keyRef": "l351-v1-k5",
+      "prompt": "Những bạn quanh mình: 我□的朋友。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l351-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l351-c0",
+      "senseId": "l351-v-755-sense",
+      "keyRef": "l351-v1-k6",
+      "prompt": "咱们 trong lời rủ gồm những ai?",
+      "choices": [
+        "只有说话人",
+        "只有网上的人",
+        "说话人和听话人"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l351-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l351-c3",
+      "senseId": "l351-v-655-sense",
+      "keyRef": "l351-v1-k7",
+      "prompt": "Xếp lời rủ gồm cả người nghe, bắt đầu bằng 咱们.",
+      "choices": [
+        "聊一会儿吧",
+        "咱们"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l351-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l351-v1-e0",
+      "senseId": "l351-v-755-sense",
+      "accepted": [
+        "聊"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "聊: nói chuyện/tán gẫu. 聊 là nói chuyện thoải mái; 聊工作 nói trò chuyện về việc, không tự là cuộc họp chính thức. Chúng ta nói chuyện một lúc nhé."
+    },
+    {
+      "id": "l351-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l351-v1-e1",
+      "senseId": "l351-v-756-sense",
+      "accepted": [
+        "聊天儿"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "聊天儿: tán gẫu/trò chuyện. 聊天儿 là nói chuyện phiếm, 儿 hóa nằm trong tiānr. 跟朋友聊天儿 nêu người trò chuyện; không dùng 聊天儿朋友. Cô ấy thích tán gẫu với bạn."
+    },
+    {
+      "id": "l351-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l351-v1-e2",
+      "senseId": "l351-v-654-sense",
+      "accepted": [
+        "关系"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "关系: quan hệ/mối liên hệ. 关系 là quan hệ giữa người/việc; 没关系 còn là lời đáp “không sao”, không dùng một bản dịch cho mọi chỗ. Quan hệ của anh ấy với hàng xóm rất tốt."
+    },
+    {
+      "id": "l351-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l351-v1-e3",
+      "senseId": "l351-v-655-sense",
+      "accepted": [
+        "guān xīn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "关心: quan tâm/chăm lo. 关心 chú ý vì lo và muốn điều tốt cho ai/việc; 关心你 khác chỉ 关注 một bản tin. Không biết cảm xúc người khác chỉ từ một hành động. Người nhà rất quan tâm tôi."
+    },
+    {
+      "id": "l351-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l351-v1-e4",
+      "senseId": "l351-v-657-sense",
+      "accepted": [
+        "关注"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "关注: chú ý/theo dõi. 关注 thường là chú ý/theo dõi người hoặc thông tin, như 关注新闻; không tự là hành động chăm sóc cụ thể. Tôi theo dõi tin mới của trường."
+    },
+    {
+      "id": "l351-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l351-v1-e5",
+      "senseId": "l351-v-826-sense",
+      "accepted": [
+        "身边"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "身边: bên cạnh/quanh mình. 身边 là bên cạnh hoặc những người gần gũi theo cảnh, khác 身上 trên người. 身边的人 chỉ người quanh mình. Tôi cảm ơn những người bạn bên mình."
+    },
+    {
+      "id": "l351-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l351-v1-e6",
+      "senseId": "l351-v-755-sense",
+      "accepted": [
+        "说话人和听话人"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 咱们 bao gồm cả người nghe trong lời rủ: 咱们聊一会儿吧. 我们 có thể gồm hoặc không gồm người nghe tùy ngữ cảnh. Bài không khẳng định luôn thay thế được."
+    },
+    {
+      "id": "l351-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l351-v1-e7",
+      "senseId": "l351-v-655-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 咱们 bao gồm cả người nghe trong lời rủ: 咱们聊一会儿吧. 我们 có thể gồm hoặc không gồm người nghe tùy ngữ cảnh. Bài không khẳng định luôn thay thế được."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

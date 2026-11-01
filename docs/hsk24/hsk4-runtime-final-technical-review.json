@@ -1,0 +1,97 @@
+{
+  "kind": "INDEPENDENT_READ_ONLY_FINAL_PACKET_REVIEW",
+  "conclusion": "SCOPED_PASS / NO_UNRESOLVED_FINDINGS_IN_REVIEW_SCOPE",
+  "assembledByRootFromReturnedReviewerMessage": true,
+  "reviewer": "runtime_648_final_packet_review",
+  "reviewedPacketCommit": "c62b56c511d7d1e941d4db74281f4b78dffb56e6",
+  "runtimeAndContentSource": "f9607b2e9587ffeb16efdae061171b1e1c31fa8a",
+  "generatedAtUTC": "2026-10-29T08:48:11.679847+00:00",
+  "verified": {
+    "evidenceFilesHashMatches": 45,
+    "scopedTrackedFilesCompared": 680,
+    "expansionVersions": 377,
+    "currentExpansion": 314,
+    "historicalExpansion": 63,
+    "allServerVersions": 383,
+    "indexCurrentLessons": 318,
+    "HSK4Vocabulary": 648,
+    "HSK4Introductions": 108,
+    "HSK4Reviews": 16,
+    "HSK4Activities": 124,
+    "HSK4Exercises": 992,
+    "oldExpansionFilesPreserved": 345,
+    "oldSourceReferencesPreserved": 2288,
+    "unitPass": 29,
+    "sqlNativePassExecutions": 116,
+    "browserPassExecutions": 17,
+    "distinctBrowserProjectCases": 16,
+    "browserRetries": 0,
+    "developmentClientFiles": 123,
+    "productionClientFiles": 32,
+    "privateKeyIdMarkersScanned": 3046,
+    "privateKeyIdMarkerHits": 0,
+    "typecheckLintHelperLintBuildExit": 0,
+    "supplementalFinalFixtureLintExit": 0,
+    "oldDatabaseRowsExact": {
+      "packages": 351,
+      "attempts": 2337,
+      "sessions": 1180,
+      "cards": 1650
+    },
+    "afterRecordedRows": {
+      "packages": 383,
+      "attempts": 2978,
+      "sessions": 1315,
+      "cards": 2100
+    },
+    "savedDatabaseCanonicalReceipt": {
+      "manifestsMatched": 383,
+      "migrations": 7,
+      "forceRlsTables": 19
+    }
+  },
+  "checks": [
+    "Reconstructed all index metadata projections,pins,manifest hash,ordinal order,roots/prerequisite adjacency from exact Git bytes",
+    "Matched all actual coverage vocabulary and155recognition evidence links to source packages/exercises/keys",
+    "Checked exact saved batch22ordinal order and nextbatch28selected24remain missing",
+    "Read raw unit/SQL/browser/build/code-check receipts; matched actual Today priority branch annotations and retry0",
+    "Checked ZIP exact member sets,member lengths/hashes and all3046literal private-key ID markers",
+    "Checked preservation snapshots all old row hashes; read canonical database receipt without database access",
+    "Compared native/cold raw reports with packet copies and exact source commit",
+    "Reviewed final causal-wording correction and verified no runtime/content/test delta"
+  ],
+  "minorPrecisionCorrection": {
+    "commit": "c62b56c511d7d1e941d4db74281f4b78dffb56e6",
+    "finding": "One remaining-limit sentence implied development cache causation beyond evidence",
+    "resolution": "Changed to observed failure under reused-cache condition; exact cause remains open"
+  },
+  "unresolvedFindings": [],
+  "reviewerWrites": false,
+  "reviewerTestExecution": false,
+  "reviewerBuildsExportsGitMutation": false,
+  "reviewerDatabaseAccess": false,
+  "limits": [
+    "Scoped evidence consistency and technical acceptance; not complete runtime or epic closure",
+    "Metadata index parsing remains corpus-sized; rejected candidate pages can increase work",
+    "Development-cache and transport stability remain OPEN; retained raw failed runs are not converted to passes",
+    "Recorded row/hash families are not full backup/restore proof",
+    "Client literal-ID scan is bounded evidence,not formal confidentiality proof",
+    "No competent human language/rights,publication,mastery or general SLA attestation"
+  ],
+  "humanReview": false,
+  "publicationStatus": "BLOCKED",
+  "learnerMastered": null,
+  "evidenceBindings": {
+    "docs/hsk24/hsk4-runtime-verification.json": "afbd40dacb994110b750f3af72731202498ff0299db3775d249559b077daa42c",
+    "docs/hsk24/hsk4-runtime-delivery.md": "8dde17388351362a50663568e991939e9c5039bb6c00d32de81d0aac1cd8fccd",
+    "docs/hsk24/hsk4-runtime-browser-evidence.json": "1d2faf38335c74b9605fb41d7327c3956b7c90f9442fcc51998582772d4cb408",
+    "docs/hsk24/hsk4-runtime-source-review.json": "8dcac9b62e284af52c4437b049d70a4e547340c011728556dd23472f5771943e",
+    "docs/hsk24/hsk4-runtime-content-review.json": "65e282cdd961c121bd25e37d45769519b43c7faba3b4434610008f2b6697aacb",
+    "docs/hsk24/checkpoint.json": "60d738951b92ec97db41a9910633be80532b73f4ed967a59099ce41b0301f7e8",
+    "docs/hsk24/hsk4-production-next-checkpoint.json": "f68ab497858965653d2c3f80a019946886591252ce4ecf3d625cf61ed6425bf0",
+    ".local-postgres/hsk24/hsk4-runtime-final-fixture-lint-exit.json": "9e86797c1419e2e481b186ba87ce7277ff4daf6cf01cb5738900a894273ac227",
+    ".local-postgres/hsk24/hsk4-runtime-final-fixture-lint.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    ".local-postgres/hsk24/hsk4-runtime-delivery-preview.json": "ab491f34373247a553b2720d241610103664c34473efa0801e5a54acbce5e9de"
+  },
+  "receiptCommitResolution": "git log -1 --format=%H -- docs/hsk24/hsk4-runtime-final-technical-review.json"
+}

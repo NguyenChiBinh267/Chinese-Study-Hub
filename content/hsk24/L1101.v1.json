@@ -1,0 +1,1242 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "e7075ef311b09129d978f0b56dacdab7b8a54ad324eec3a99aa199b05537e4a9",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-closure-grammar",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L1101",
+    "version": 1,
+    "versionId": "l1101-draft-v1",
+    "title": "Sau giờ học: 和 nêu người cùng làm",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học trong tình huống viết mới; không thêm từ mục tiêu.",
+      "Bài nháp có hỗ trợ, không phải đề thi, không đo nghe/nói/viết tay hay cấp mastery."
+    ],
+    "prerequisites": [
+      "l103-draft-v2",
+      "l125-draft-v2",
+      "l121-draft-v2",
+      "l118-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "h1-closure-1101-grammar"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "一"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed.",
+      "Original supplementary HSK1 grammar/character practice. Reused word identities; zero new vocabulary; technical mapping is not human approval."
+    ],
+    "alignmentCheckedAt": "2026-10-31T04:12:51.851Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-campus",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 7,
+          "physicalPage": 8,
+          "printedPage": 5,
+          "section": "task",
+          "entry": "十三"
+        },
+        "written": "交流学校情况、课后活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-closure-1101-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "课后活动"
+        },
+        "written": "课后活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact official HSK1 leaf observed in pinned PDF. Written scenario only, not full modality coverage."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l103-v-200",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 200"
+        },
+        "written": "他",
+        "pinyin": "tā",
+        "senseId": "l103-v-200-sense",
+        "ordinal": 200,
+        "note": "1 tā 代; 他 dùng thay người nam trong tình huống đã biết; không đoán giới tính chỉ từ tên. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l103-v-202",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 202"
+        },
+        "written": "她",
+        "pinyin": "tā",
+        "senseId": "l103-v-202-sense",
+        "ordinal": 202,
+        "note": "1 tā 代; 她 cùng âm tā với 他, khác chữ viết và đối tượng đang được nhắc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l103-v-142",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 142"
+        },
+        "written": "男",
+        "pinyin": "nán",
+        "senseId": "l103-v-142-sense",
+        "ordinal": 142,
+        "note": "1 nán 形; 男 có thể xuất hiện như nhãn giới tính trên phiếu; 性别 được chú giải là “giới tính”, không tính mục từ mới. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l103-v-152",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 152"
+        },
+        "written": "女",
+        "pinyin": "nǚ",
+        "senseId": "l103-v-152-sense",
+        "ordinal": 152,
+        "note": "1 nǚ 形; 女 ở phiếu dưới đây là nhãn nữ, không phải toàn bộ nghĩa “con gái của ai”. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l103-v-156",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 156"
+        },
+        "written": "朋友",
+        "pinyin": "péngyou",
+        "senseId": "l103-v-156-sense",
+        "ordinal": 156,
+        "note": "1 péngyou 名; 朋友 gọi người bạn; không tự hiểu là 男朋友/女朋友. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l125-v-233",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 233"
+        },
+        "written": "想",
+        "pinyin": "xiǎng",
+        "senseId": "l125-v-233-sense",
+        "ordinal": 233,
+        "note": "1 xiǎng 动; 想 trong 想喝茶 là muốn uống trà; bài chưa khái quát mọi nghĩa nghĩ/nhớ của 想. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l125-v-252",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 252"
+        },
+        "written": "要",
+        "pinyin": "yào",
+        "senseId": "l125-v-252-sense",
+        "ordinal": 252,
+        "note": "1 yào 动; 要 trong lời chọn đồ uống là muốn lấy, không phải lúc nào cũng là dấu tương lai. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l125-v-15",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 15"
+        },
+        "written": "不要",
+        "pinyin": "búyào",
+        "senseId": "l125-v-15-sense",
+        "ordinal": 15,
+        "note": "1 búyào 副; 不要 trong 请不要说话 là lời nhắc đừng nói; trong trả lời chọn đồ uống có thể là không muốn lấy. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l125-v-122",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 122"
+        },
+        "written": "没有",
+        "pinyin": "méiyǒu",
+        "senseId": "l125-v-122-sense",
+        "ordinal": 122,
+        "note": "1 méiyǒu 动、副; 没有 là phủ định có/sở hữu ở ví dụ; không thay nó bằng 不有. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l121-v-247",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 247"
+        },
+        "written": "学",
+        "pinyin": "xué",
+        "senseId": "l121-v-247-sense",
+        "ordinal": 247,
+        "note": "1 xué 动; 学 trong 学汉语 nói học tiếng Trung; cách dùng cụ thể cần xem đối tượng theo sau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l121-v-249",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 249"
+        },
+        "written": "学习",
+        "pinyin": "xuéxí",
+        "senseId": "l121-v-249-sense",
+        "ordinal": 249,
+        "note": "1 xuéxí 动; 学习 có thể có đối tượng như 汉语; không phải câu nào cũng phải thêm một danh từ sau nó. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l121-v-240",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 240"
+        },
+        "written": "写",
+        "pinyin": "xiě",
+        "senseId": "l121-v-240-sense",
+        "ordinal": 240,
+        "note": "1 xiě 动; 写 + tên/chữ là viết nội dung đó; biết chọn đáp án không chứng minh đã viết tay được. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l121-v-43",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 43"
+        },
+        "written": "读书",
+        "pinyin": "dúshū",
+        "senseId": "l121-v-43-sense",
+        "ordinal": 43,
+        "note": "1 dúshū 动; 读书 trong câu này là đọc sách; không gán nghĩa đi học cho mọi lần xuất hiện. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l118-v-248",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 248"
+        },
+        "written": "学生",
+        "pinyin": "xuéshēng",
+        "senseId": "l118-v-248-sense",
+        "ordinal": 248,
+        "note": "1 xuéshēng 名; 学生 là người học; không suy cấp học cụ thể nếu câu chưa nói. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l118-v-107",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 107"
+        },
+        "written": "老师",
+        "pinyin": "lǎoshī",
+        "senseId": "l118-v-107-sense",
+        "ordinal": 107,
+        "note": "1 lǎoshī 名; 老师 dùng cho giáo viên, không phân biệt giới tính trong chữ này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l118-v-211",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 211"
+        },
+        "written": "同学",
+        "pinyin": "tóngxué",
+        "senseId": "l118-v-211-sense",
+        "ordinal": 211,
+        "note": "1 tóngxué 名; 同学 nói quan hệ học cùng; không tự có nghĩa người yêu hay anh chị em. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l118-v-250",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 250"
+        },
+        "written": "学校",
+        "pinyin": "xuéxiào",
+        "senseId": "l118-v-250-sense",
+        "ordinal": 250,
+        "note": "1 xuéxiào 名; 学校 là trường, không phải từ chỉ riêng giáo viên hoặc môn học. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-171",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "171"
+        },
+        "written": "他",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 171,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-173",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "173"
+        },
+        "written": "她",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 173,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-122",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "122"
+        },
+        "written": "男",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 122,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-130",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "130"
+        },
+        "written": "女",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 130,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-131",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "131"
+        },
+        "written": "朋",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 131,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-219",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "219"
+        },
+        "written": "友",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 219,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-197",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "197"
+        },
+        "written": "想",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 197,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-210",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "210"
+        },
+        "written": "要",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 210,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-15",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "15"
+        },
+        "written": "不",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 15,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-112",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "112"
+        },
+        "written": "没",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 112,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-220",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "220"
+        },
+        "written": "有",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 220,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-207",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "207"
+        },
+        "written": "学",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 207,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-191",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "191"
+        },
+        "written": "习",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 191,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-201",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "201"
+        },
+        "written": "写",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 201,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-39",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "39"
+        },
+        "written": "读",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 39,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-164",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "164"
+        },
+        "written": "书",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 164,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-153",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "153"
+        },
+        "written": "生",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 153,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-97",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "97"
+        },
+        "written": "老",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 97,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-154",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "154"
+        },
+        "written": "师",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 154,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-179",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "179"
+        },
+        "written": "同",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 179,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-199",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "199"
+        },
+        "written": "校",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 199,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-closure-1101-grammar",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-22"
+        },
+        "written": "和1（引出对象）",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Pinned PDF physical body row22; only the explicitly taught subalternative is claimed. Vietnamese instruction is original unreviewed DRAFT."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l103-c4",
+      "version": 1,
+      "senseId": "l103-v-156-sense",
+      "hanzi": "朋友",
+      "dictionaryPinyin": "péng you",
+      "meaning": "bạn; bạn bè",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l103-v-156"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l125-c0",
+      "version": 1,
+      "senseId": "l125-v-233-sense",
+      "hanzi": "想",
+      "dictionaryPinyin": "xiǎng",
+      "meaning": "muốn; nghĩ (theo ngữ cảnh)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l125-v-233"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l121-c3",
+      "version": 1,
+      "senseId": "l121-v-43-sense",
+      "hanzi": "读书",
+      "dictionaryPinyin": "dú shū",
+      "meaning": "đọc sách; đi học (tùy ngữ cảnh)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l121-v-43"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l118-c3",
+      "version": 1,
+      "senseId": "l118-v-250-sense",
+      "hanzi": "学校",
+      "dictionaryPinyin": "xué xiào",
+      "meaning": "trường học",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l118-v-250"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l1101-guide",
+      "type": "teaching",
+      "title": "Ôn có hỗ trợ",
+      "text": "Thử nhớ rồi đọc lại phần nhắc. Đây là ngữ cảnh mới của các nghĩa đã học; hoàn tất luyện không xác nhận mastery. Nhận diện chữ có lựa chọn khác với viết tay. Các từ hỗ trợ đều đã gặp trong nhóm trước.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1101-grammar",
+      "type": "teaching",
+      "title": "Cách nói và lỗi thường gặp",
+      "text": "和 + người có thể nêu người cùng tham gia hành động: 我想和朋友读书. Trong mẫu này, 我 là người bày tỏ mong muốn, 和朋友 nêu người cùng đọc. So sánh 书和笔: 和 nối hai tên đồ vật; không dùng nghĩa “và” để dịch máy mọi câu. 下课以后 được chú giải “sau giờ học”; 以后 là từ hỗ trợ ở đây, không cộng thêm mục từ HSK1. Các câu luyện sau phần nhắc chỉ chấm mẫu đã nêu, không chấm hội thoại tự do.",
+      "hanzi": "我想和朋友读书。",
+      "pinyin": "Wǒ xiǎng hé péng you dú shū.",
+      "meaning": "Tôi muốn đọc sách cùng bạn.",
+      "readingMinutes": 3
+    },
+    {
+      "id": "l1101-reminder0",
+      "type": "teaching",
+      "title": "朋友 · bạn; bạn bè",
+      "text": "Nhắc nghĩa đã học: bạn; bạn bè. Đọc ví dụ trong phạm vi nghĩa đã học; không đổi thẻ ôn.",
+      "hanzi": "你好，朋友！",
+      "pinyin": "Nǐ hǎo, péng you!",
+      "meaning": "Chào bạn!",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1101-reminder1",
+      "type": "teaching",
+      "title": "想 · muốn; nghĩ (theo ngữ cảnh)",
+      "text": "Nhắc nghĩa đã học: muốn; nghĩ (theo ngữ cảnh). Đọc ví dụ trong phạm vi nghĩa đã học; không đổi thẻ ôn.",
+      "hanzi": "我想喝茶。",
+      "pinyin": "Wǒ xiǎng hē chá.",
+      "meaning": "Tôi muốn uống trà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1101-reminder2",
+      "type": "teaching",
+      "title": "读书 · đọc sách; đi học (tùy ngữ cảnh)",
+      "text": "Nhắc nghĩa đã học: đọc sách; đi học (tùy ngữ cảnh). Đọc ví dụ trong phạm vi nghĩa đã học; không đổi thẻ ôn.",
+      "hanzi": "我喜欢读书。",
+      "pinyin": "Wǒ xǐ huan dú shū.",
+      "meaning": "Tôi thích đọc sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1101-reminder3",
+      "type": "teaching",
+      "title": "学校 · trường học",
+      "text": "Nhắc nghĩa đã học: trường học. Đọc ví dụ trong phạm vi nghĩa đã học; không đổi thẻ ôn.",
+      "hanzi": "这是我们的学校。",
+      "pinyin": "Zhè shì wǒ men de xué xiào.",
+      "meaning": "Đây là trường của chúng tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1101-reading",
+      "type": "teaching",
+      "title": "Tình huống ôn mới",
+      "text": "Đọc toàn bộ lời đáp, kể cả phần phủ định. Đây là đọc chữ, chưa có audio tham chiếu được duyệt.",
+      "hanzi": "A：下课以后，你想做什么？\nB：我想和朋友读书。\nA：在哪儿？\nB：在学校。",
+      "pinyin": "A: Xià kè yǐ hòu, nǐ xiǎng zuò shén me? B: Wǒ xiǎng hé péng you dú shū. A: Zài nǎr? B: Zài xué xiào.",
+      "meaning": "以后 yǐ hòu = sau đó; ở đây 下课以后 là sau giờ học. B muốn đọc sách cùng bạn tại trường; chưa khẳng định kế hoạch đã diễn ra.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l1101-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l1101-e0"
+    },
+    {
+      "id": "l1101-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l1101-e1"
+    },
+    {
+      "id": "l1101-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l1101-e2"
+    },
+    {
+      "id": "l1101-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l1101-e3"
+    },
+    {
+      "id": "l1101-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l1101-e4"
+    },
+    {
+      "id": "l1101-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l1101-e5"
+    },
+    {
+      "id": "l1101-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l1101-e6"
+    },
+    {
+      "id": "l1101-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l1101-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l1101-e0",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l103-c4",
+      "senseId": "l103-v-156-sense",
+      "keyRef": "l1101-k0",
+      "prompt": "Ghi pinyin từ điển của 朋友 theo nghĩa “bạn; bạn bè”. Ví dụ mới: 你好，朋友！",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l1101-e1",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l125-c0",
+      "senseId": "l125-v-233-sense",
+      "keyRef": "l1101-k1",
+      "prompt": "Điền đúng mục từ đọc xiǎng, nghĩa “muốn; nghĩ (theo ngữ cảnh)”: 我□喝茶。 Chỉ nhập mục từ được hỏi, không chấm mọi cách diễn đạt ngoài đề.",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l1101-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l121-c3",
+      "senseId": "l121-v-43-sense",
+      "keyRef": "l1101-k2",
+      "prompt": "Trong câu mới “我喜欢读书。”, 读书 mang nghĩa nào theo bài?",
+      "choices": [
+        "trường học",
+        "bạn; bạn bè",
+        "muốn; nghĩ (theo ngữ cảnh)",
+        "đọc sách; đi học (tùy ngữ cảnh)"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l1101-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l118-c3",
+      "senseId": "l118-v-250-sense",
+      "keyRef": "l1101-k3",
+      "prompt": "Ghi pinyin từ điển của 学校 theo nghĩa “trường học”. Ví dụ mới: 这是我们的学校。",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l1101-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l103-c4",
+      "senseId": "l103-v-156-sense",
+      "keyRef": "l1101-k4",
+      "prompt": "B muốn làm gì sau giờ học?",
+      "choices": [
+        "坐飞机",
+        "和朋友读书",
+        "买衣服"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l1101-e5",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l103-c4",
+      "senseId": "l103-v-156-sense",
+      "keyRef": "l1101-k5",
+      "prompt": "Xếp các cụm thành câu mẫu đã nhắc, bắt đầu bằng “我想”; không tách cụm hoặc thêm từ.",
+      "choices": [
+        "我想",
+        "和朋友",
+        "读书。"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l1101-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l103-c4",
+      "senseId": "l103-v-156-sense",
+      "keyRef": "l1101-k6",
+      "prompt": "Trong 我想和朋友读书, 和朋友 cho biết điều gì?",
+      "choices": [
+        "Tên một quyển sách",
+        "Một việc đã hoàn thành",
+        "Người cùng đọc với tôi"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l1101-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l103-c4",
+      "senseId": "l103-v-156-sense",
+      "keyRef": "l1101-k7",
+      "prompt": "Chọn câu khớp “Tôi muốn học cùng em trai” trong mẫu đã giải thích.",
+      "choices": [
+        "我想弟弟和学习。",
+        "我想和弟弟学习。",
+        "我想学习和弟弟。"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l1101-k0",
+      "version": 1,
+      "exerciseVersionId": "l1101-e0",
+      "senseId": "l103-v-156-sense",
+      "accepted": [
+        "péng you"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Mục từ ghi péng you; cách đọc trong câu có thể có biến điệu."
+    },
+    {
+      "id": "l1101-k1",
+      "version": 1,
+      "exerciseVersionId": "l1101-e1",
+      "senseId": "l125-v-233-sense",
+      "accepted": [
+        "想"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Điền 想. Tôi muốn uống trà."
+    },
+    {
+      "id": "l1101-k2",
+      "version": 1,
+      "exerciseVersionId": "l1101-e2",
+      "senseId": "l121-v-43-sense",
+      "accepted": [
+        "đọc sách; đi học (tùy ngữ cảnh)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "读书: đọc sách; đi học (tùy ngữ cảnh). Tôi thích đọc sách."
+    },
+    {
+      "id": "l1101-k3",
+      "version": 1,
+      "exerciseVersionId": "l1101-e3",
+      "senseId": "l118-v-250-sense",
+      "accepted": [
+        "xué xiào"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Mục từ ghi xué xiào; cách đọc trong câu có thể có biến điệu."
+    },
+    {
+      "id": "l1101-k4",
+      "version": 1,
+      "exerciseVersionId": "l1101-e4",
+      "senseId": "l103-v-156-sense",
+      "accepted": [
+        "和朋友读书"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "以后 yǐ hòu = sau đó; ở đây 下课以后 là sau giờ học. B muốn đọc sách cùng bạn tại trường; chưa khẳng định kế hoạch đã diễn ra."
+    },
+    {
+      "id": "l1101-k5",
+      "version": 1,
+      "exerciseVersionId": "l1101-e5",
+      "senseId": "l103-v-156-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Câu: 我想和朋友读书。"
+    },
+    {
+      "id": "l1101-k6",
+      "version": 1,
+      "exerciseVersionId": "l1101-e6",
+      "senseId": "l103-v-156-sense",
+      "accepted": [
+        "Người cùng đọc với tôi"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "和朋友 nêu người cùng tham gia; 朋友 không phải vật được đọc."
+    },
+    {
+      "id": "l1101-k7",
+      "version": 1,
+      "exerciseVersionId": "l1101-e7",
+      "senseId": "l103-v-156-sense",
+      "accepted": [
+        "我想和弟弟学习。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "和弟弟 đứng trước hành động 学习 trong mẫu này; không kết luận đây là mọi vị trí có thể có của 和."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

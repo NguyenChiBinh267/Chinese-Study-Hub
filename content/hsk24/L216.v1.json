@@ -1,0 +1,839 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "f1b685f7820d74fef3b9270216f63367333621cfa0d1c1282230f2e2c5b12e34",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "prepare-study-day",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L216",
+    "version": 1,
+    "versionId": "l216-draft-v1",
+    "title": "Việc đã làm và việc sắp bắt đầu",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân biệt đã, sắp và làm xong trong kế hoạch học.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "要/快要/就要……了"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 8,
+      "physicalPage": 9,
+      "printedPage": 6,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-events",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 8,
+          "physicalPage": 9,
+          "printedPage": 6,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "问答事件情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-events",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "基本信息 / 事件信息"
+        },
+        "written": "事件信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l216-v-472",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 472"
+        },
+        "written": "已经",
+        "pinyin": "yǐjīng",
+        "senseId": "l216-v-472-sense",
+        "ordinal": 472,
+        "note": "2 yǐjīng 副; 已经 đặt trước động từ, nhấn mạnh việc đã xảy ra trước mốc đang nói. Không dùng thay 快要 cho việc chưa bắt đầu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l216-v-378",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 378"
+        },
+        "written": "开始",
+        "pinyin": "kāishǐ",
+        "senseId": "l216-v-378-sense",
+        "ordinal": 378,
+        "note": "2 kāishǐ 动、名; 开始 có thể là động từ hoặc danh từ; ở đây nói hoạt động bắt đầu, không phải làm xong. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l216-v-386",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 386"
+        },
+        "written": "快要",
+        "pinyin": "kuàiyào",
+        "senseId": "l216-v-386-sense",
+        "ordinal": 386,
+        "note": "2 kuàiyào 副; 快要 cho biết rất gần thời điểm xảy ra; chưa xác nhận đã bắt đầu. Mẫu thường đi với 了 cuối câu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l216-v-448",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 448"
+        },
+        "written": "完",
+        "pinyin": "wán",
+        "senseId": "l216-v-448-sense",
+        "ordinal": 448,
+        "note": "2 wán 动; 完 sau động từ nói đạt kết quả xong: 看完. 看了 chỉ đã đọc, chưa tự bảo đảm đọc hết. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l216-v-365",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 365"
+        },
+        "written": "记得",
+        "pinyin": "jìde",
+        "senseId": "l216-v-365-sense",
+        "ordinal": 365,
+        "note": "2 jìde 动; 记得 thường chỉ giữ được thông tin trong trí nhớ; không phải mọi cách học thuộc. 得 trong từ này đọc nhẹ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l216-v-452",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 452"
+        },
+        "written": "忘",
+        "pinyin": "wàng",
+        "senseId": "l216-v-452-sense",
+        "ordinal": 452,
+        "note": "2 wàng 动; 忘 đối lập với 记得. 别忘了 là lời nhắc đừng quên, không khẳng định người kia đã quên. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-105",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "105"
+        },
+        "written": "已",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 105,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-38",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "38"
+        },
+        "written": "经",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 38,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-73",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "73"
+        },
+        "written": "始",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 73,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-45",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "45"
+        },
+        "written": "快",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 45,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-88",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "88"
+        },
+        "written": "完",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 88,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-32",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "32"
+        },
+        "written": "记",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 32,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-92",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "92"
+        },
+        "written": "忘",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 92,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-imminent",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "固定格式 / 要/快要/就要……了"
+        },
+        "written": "要/快要/就要……了",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l216-c0",
+      "version": 1,
+      "senseId": "l216-v-472-sense",
+      "hanzi": "已经",
+      "dictionaryPinyin": "yǐ jīng",
+      "meaning": "đã",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l216-v-472"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l216-c1",
+      "version": 1,
+      "senseId": "l216-v-378-sense",
+      "hanzi": "开始",
+      "dictionaryPinyin": "kāi shǐ",
+      "meaning": "bắt đầu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l216-v-378"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l216-c2",
+      "version": 1,
+      "senseId": "l216-v-386-sense",
+      "hanzi": "快要",
+      "dictionaryPinyin": "kuài yào",
+      "meaning": "sắp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l216-v-386"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l216-c3",
+      "version": 1,
+      "senseId": "l216-v-448-sense",
+      "hanzi": "完",
+      "dictionaryPinyin": "wán",
+      "meaning": "xong, hoàn tất",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l216-v-448"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l216-c4",
+      "version": 1,
+      "senseId": "l216-v-365-sense",
+      "hanzi": "记得",
+      "dictionaryPinyin": "jì de",
+      "meaning": "nhớ, còn nhớ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l216-v-365"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l216-c5",
+      "version": 1,
+      "senseId": "l216-v-452-sense",
+      "hanzi": "忘",
+      "dictionaryPinyin": "wàng",
+      "meaning": "quên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l216-v-452"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l216-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "看 là đọc/xem; 书 là sách. 别 nghĩa là đừng trong lời nhắc, không được tính là mục từ mới của bài này.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l216-t0",
+      "type": "teaching",
+      "title": "已经 · đã",
+      "text": "已经 đặt trước động từ, nhấn mạnh việc đã xảy ra trước mốc đang nói. Không dùng thay 快要 cho việc chưa bắt đầu.",
+      "hanzi": "我已经看了这本书。",
+      "pinyin": "Wǒ yǐjīng kàn le zhè běn shū.",
+      "meaning": "Tôi đã đọc quyển sách này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l216-t1",
+      "type": "teaching",
+      "title": "开始 · bắt đầu",
+      "text": "开始 có thể là động từ hoặc danh từ; ở đây nói hoạt động bắt đầu, không phải làm xong.",
+      "hanzi": "考试九点开始。",
+      "pinyin": "Kǎoshì jiǔ diǎn kāishǐ.",
+      "meaning": "Bài kiểm tra bắt đầu lúc chín giờ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l216-t2",
+      "type": "teaching",
+      "title": "快要 · sắp",
+      "text": "快要 cho biết rất gần thời điểm xảy ra; chưa xác nhận đã bắt đầu. Mẫu thường đi với 了 cuối câu.",
+      "hanzi": "电影快要开始了。",
+      "pinyin": "Diànyǐng kuàiyào kāishǐ le.",
+      "meaning": "Phim sắp bắt đầu rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l216-t3",
+      "type": "teaching",
+      "title": "完 · xong, hoàn tất",
+      "text": "完 sau động từ nói đạt kết quả xong: 看完. 看了 chỉ đã đọc, chưa tự bảo đảm đọc hết.",
+      "hanzi": "我看完这本书了。",
+      "pinyin": "Wǒ kàn wán zhè běn shū le.",
+      "meaning": "Tôi đọc xong quyển sách này rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l216-t4",
+      "type": "teaching",
+      "title": "记得 · nhớ, còn nhớ",
+      "text": "记得 thường chỉ giữ được thông tin trong trí nhớ; không phải mọi cách học thuộc. 得 trong từ này đọc nhẹ.",
+      "hanzi": "我记得明天有考试。",
+      "pinyin": "Wǒ jìde míngtiān yǒu kǎoshì.",
+      "meaning": "Tôi nhớ ngày mai có bài kiểm tra.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l216-t5",
+      "type": "teaching",
+      "title": "忘 · quên",
+      "text": "忘 đối lập với 记得. 别忘了 là lời nhắc đừng quên, không khẳng định người kia đã quên.",
+      "hanzi": "别忘了拿书。",
+      "pinyin": "Bié wàng le ná shū.",
+      "meaning": "Đừng quên lấy sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l216-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "快要 + hoạt động + 了 báo việc sắp xảy ra. Phân biệt với 已经 là đã xảy ra và 完 chỉ kết quả làm xong.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l216-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：考试快要开始了，你记得拿书吗？乙：记得，我已经拿来了。甲：这本书你看完了吗？乙：还没有，今天我想看完。",
+      "pinyin": "Jiǎ: Kǎoshì kuàiyào kāishǐ le, nǐ jìde ná shū ma? Yǐ: Jìde, wǒ yǐjīng ná lái le. Jiǎ: Zhè běn shū nǐ kàn wán le ma? Yǐ: Hái méiyǒu, jīntiān wǒ xiǎng kàn wán.",
+      "meaning": "A: Bài kiểm tra sắp bắt đầu, bạn nhớ lấy sách không? B: Nhớ, tôi lấy đến rồi. A: Bạn đọc xong quyển sách này chưa? B: Chưa, hôm nay tôi muốn đọc xong.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l216-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l216-v1-e0"
+    },
+    {
+      "id": "l216-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l216-v1-e1"
+    },
+    {
+      "id": "l216-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l216-v1-e2"
+    },
+    {
+      "id": "l216-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l216-v1-e3"
+    },
+    {
+      "id": "l216-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l216-v1-e4"
+    },
+    {
+      "id": "l216-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l216-v1-e5"
+    },
+    {
+      "id": "l216-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l216-v1-e6"
+    },
+    {
+      "id": "l216-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l216-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l216-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l216-c0",
+      "senseId": "l216-v-472-sense",
+      "keyRef": "l216-v1-k0",
+      "prompt": "Trong câu “我已经看了这本书。”, 已经 mang nghĩa nào?",
+      "choices": [
+        "bắt đầu",
+        "sắp",
+        "xong, hoàn tất",
+        "nhớ, còn nhớ",
+        "quên",
+        "đã"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l216-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l216-c1",
+      "senseId": "l216-v-378-sense",
+      "keyRef": "l216-v1-k1",
+      "prompt": "Viết pinyin của 开始 trong nghĩa “bắt đầu”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l216-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l216-c2",
+      "senseId": "l216-v-386-sense",
+      "keyRef": "l216-v1-k2",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “sắp”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l216-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l216-c3",
+      "senseId": "l216-v-448-sense",
+      "keyRef": "l216-v1-k3",
+      "prompt": "Trong câu “我看完这本书了。”, 完 mang nghĩa nào?",
+      "choices": [
+        "nhớ, còn nhớ",
+        "quên",
+        "đã",
+        "bắt đầu",
+        "sắp",
+        "xong, hoàn tất"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l216-v1-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l216-c4",
+      "senseId": "l216-v-365-sense",
+      "keyRef": "l216-v1-k4",
+      "prompt": "Viết pinyin của 记得 trong nghĩa “nhớ, còn nhớ”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l216-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l216-c5",
+      "senseId": "l216-v-452-sense",
+      "keyRef": "l216-v1-k5",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “quên”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l216-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l216-c0",
+      "senseId": "l216-v-472-sense",
+      "keyRef": "l216-v1-k6",
+      "prompt": "Việc nào người B đã làm?",
+      "choices": [
+        "Đọc xong sách",
+        "Làm xong bài kiểm tra",
+        "Lấy sách đến"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l216-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l216-c3",
+      "senseId": "l216-v-448-sense",
+      "keyRef": "l216-v1-k7",
+      "prompt": "Xếp câu: phim sắp bắt đầu rồi.",
+      "choices": [
+        "开始了",
+        "电影",
+        "快要"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l216-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l216-v1-e0",
+      "senseId": "l216-v-472-sense",
+      "accepted": [
+        "đã"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "已经: đã. 已经 đặt trước động từ, nhấn mạnh việc đã xảy ra trước mốc đang nói. Không dùng thay 快要 cho việc chưa bắt đầu. Tôi đã đọc quyển sách này."
+    },
+    {
+      "id": "l216-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l216-v1-e1",
+      "senseId": "l216-v-378-sense",
+      "accepted": [
+        "kāi shǐ"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc kāi shǐ. 开始 có thể là động từ hoặc danh từ; ở đây nói hoạt động bắt đầu, không phải làm xong."
+    },
+    {
+      "id": "l216-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l216-v1-e2",
+      "senseId": "l216-v-386-sense",
+      "accepted": [
+        "快要"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 快要. 快要 cho biết rất gần thời điểm xảy ra; chưa xác nhận đã bắt đầu. Mẫu thường đi với 了 cuối câu."
+    },
+    {
+      "id": "l216-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l216-v1-e3",
+      "senseId": "l216-v-448-sense",
+      "accepted": [
+        "xong, hoàn tất"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "完: xong, hoàn tất. 完 sau động từ nói đạt kết quả xong: 看完. 看了 chỉ đã đọc, chưa tự bảo đảm đọc hết. Tôi đọc xong quyển sách này rồi."
+    },
+    {
+      "id": "l216-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l216-v1-e4",
+      "senseId": "l216-v-365-sense",
+      "accepted": [
+        "jì de"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc jì de. 记得 thường chỉ giữ được thông tin trong trí nhớ; không phải mọi cách học thuộc. 得 trong từ này đọc nhẹ."
+    },
+    {
+      "id": "l216-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l216-v1-e5",
+      "senseId": "l216-v-452-sense",
+      "accepted": [
+        "忘"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 忘. 忘 đối lập với 记得. 别忘了 là lời nhắc đừng quên, không khẳng định người kia đã quên."
+    },
+    {
+      "id": "l216-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l216-v1-e6",
+      "senseId": "l216-v-472-sense",
+      "accepted": [
+        "Lấy sách đến"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "已经拿来了 xác nhận lấy sách đến; 还没有 trả lời việc đọc xong là chưa."
+    },
+    {
+      "id": "l216-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l216-v1-e7",
+      "senseId": "l216-v-448-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 快要 + hoạt động + 了 báo việc sắp xảy ra. Phân biệt với 已经 là đã xảy ra và 完 chỉ kết quả làm xong."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

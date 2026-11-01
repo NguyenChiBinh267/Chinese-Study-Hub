@@ -1,0 +1,997 @@
+[
+  {
+    "id": 185,
+    "kind": "UNIT_REVIEW",
+    "title": "Ôn học tập: điều muốn làm và điều được phép làm",
+    "items": [
+      [
+        "L121",
+        "学",
+        "我和我的同学学汉语。",
+        "Wǒ hé wǒ de tóng xué xué Hàn yǔ.",
+        "Tôi và bạn học của tôi học tiếng Trung."
+      ],
+      [
+        "L122",
+        "上课",
+        "我们上课，也读书。",
+        "Wǒ men shàng kè, yě dú shū.",
+        "Chúng tôi học trên lớp, cũng đọc sách."
+      ],
+      [
+        "L123",
+        "听见",
+        "我没有听见，请再说。",
+        "Wǒ méi yǒu tīng jiàn, qǐng zài shuō.",
+        "Tôi chưa nghe thấy, xin nói lại."
+      ],
+      [
+        "L124",
+        "可以",
+        "你可以读我的书。",
+        "Nǐ kě yǐ dú wǒ de shū.",
+        "Bạn có thể đọc sách của tôi."
+      ],
+      [
+        "L125",
+        "想",
+        "我也想学汉语。",
+        "Wǒ yě xiǎng xué Hàn yǔ.",
+        "Tôi cũng muốn học tiếng Trung."
+      ],
+      [
+        "L125",
+        "没有",
+        "我没有新书。",
+        "Wǒ méi yǒu xīn shū.",
+        "Tôi không có sách mới."
+      ]
+    ],
+    "passage": [
+      "A：你可以读这本书。\nB：谢谢，我想学汉语。\nA：你会写名字吗？\nB：会，我也会读汉字。",
+      "A: Nǐ kě yǐ dú zhè běn shū. B: Xiè xie, wǒ xiǎng xué Hàn yǔ. A: Nǐ huì xiě míng zi ma? B: Huì, wǒ yě huì dú Hàn zì.",
+      "A cho B đọc sách. B nói muốn học tiếng Trung, biết viết tên và đọc chữ Hán. Đây là lời nhân vật, không phải xác nhận kỹ năng người học."
+    ],
+    "question": "B nói muốn học gì?",
+    "answers": [
+      "汉语",
+      "名字",
+      "狗"
+    ],
+    "chunks": [
+      "我",
+      "也想学",
+      "汉语。"
+    ]
+  },
+  {
+    "id": 186,
+    "kind": "UNIT_REVIEW",
+    "title": "Ôn nơi chốn: chọn đúng đối tượng và vị trí được nói",
+    "items": [
+      [
+        "L126",
+        "哪里",
+        "你妹妹的学校在哪里？",
+        "Nǐ mèi mei de xué xiào zài nǎ lǐ?",
+        "Trường em gái bạn ở đâu?"
+      ],
+      [
+        "L127",
+        "这里",
+        "我的书在这里。",
+        "Wǒ de shū zài zhè lǐ.",
+        "Sách của tôi ở đây."
+      ],
+      [
+        "L128",
+        "哪些",
+        "哪些是你姐姐的书？",
+        "Nǎ xiē shì nǐ jiě jie de shū?",
+        "Những cuốn nào là sách của chị gái bạn?"
+      ],
+      [
+        "L129",
+        "住",
+        "我的老师住在那儿。",
+        "Wǒ de lǎo shī zhù zài nàr.",
+        "Giáo viên của tôi sống ở kia."
+      ],
+      [
+        "L130",
+        "前",
+        "狗在桌子前。",
+        "Gǒu zài zhuō zi qián.",
+        "Chó ở phía trước bàn."
+      ],
+      [
+        "L130",
+        "后",
+        "猫在桌子后。",
+        "Māo zài zhuō zi hòu.",
+        "Mèo ở phía sau bàn."
+      ]
+    ],
+    "passage": [
+      "A：这些是你的书吗？\nB：不是，这些是我老师的书。\nA：你的书在哪里？\nB：在房间里，在桌子上。",
+      "A: Zhè xiē shì nǐ de shū ma? B: Bú shì, zhè xiē shì wǒ lǎo shī de shū. A: Nǐ de shū zài nǎ lǐ? B: Zài fáng jiān lǐ, zài zhuō zi shang.",
+      "Nhóm sách được chỉ ban đầu là của giáo viên. Sách của B ở trong phòng, trên bàn; đọc lời phủ định để không trộn hai nhóm."
+    ],
+    "question": "Nhóm được chỉ bằng 这些 thuộc ai?",
+    "answers": [
+      "Giáo viên của B",
+      "B",
+      "Chị gái của A"
+    ],
+    "chunks": [
+      "我的书",
+      "在",
+      "桌子上。"
+    ]
+  },
+  {
+    "id": 197,
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Chẩn đoán sáu chữ trong học tập và nơi chốn: có gợi ý",
+    "items": [
+      [
+        "L121",
+        "读书",
+        "我姐姐喜欢读书。",
+        "Wǒ jiě jie xǐ huan dú shū.",
+        "Chị gái tôi thích đọc sách."
+      ],
+      [
+        "L123",
+        "听",
+        "请听我说汉语。",
+        "Qǐng tīng wǒ shuō Hàn yǔ.",
+        "Xin nghe tôi nói tiếng Trung."
+      ],
+      [
+        "L124",
+        "知道",
+        "他知道我住在哪儿。",
+        "Tā zhī dào wǒ zhù zài nǎr.",
+        "Anh ấy biết tôi sống ở đâu."
+      ],
+      [
+        "L129",
+        "房间",
+        "我的房间在这里。",
+        "Wǒ de fáng jiān zài zhè lǐ.",
+        "Phòng của tôi ở đây."
+      ],
+      [
+        "L130",
+        "前",
+        "猫在椅子前。",
+        "Māo zài yǐ zi qián.",
+        "Mèo ở phía trước ghế."
+      ],
+      [
+        "L130",
+        "后",
+        "我的书在桌子后。",
+        "Wǒ de shū zài zhuō zi hòu.",
+        "Sách của tôi ở phía sau bàn."
+      ]
+    ],
+    "glyphs": [
+      [
+        "读",
+        [
+          "话",
+          "语",
+          "说"
+        ]
+      ],
+      [
+        "听",
+        [
+          "吃",
+          "叫",
+          "叶"
+        ]
+      ],
+      [
+        "知",
+        [
+          "和",
+          "如",
+          "扣"
+        ]
+      ],
+      [
+        "房",
+        [
+          "旁",
+          "方",
+          "户"
+        ]
+      ],
+      [
+        "前",
+        [
+          "剪",
+          "箭",
+          "首"
+        ]
+      ],
+      [
+        "后",
+        [
+          "右",
+          "石",
+          "名"
+        ]
+      ]
+    ],
+    "passage": [
+      "A：你知道老师在哪儿吗？\nB：在房间里。\nA：我能听见老师说话。\nB：我也能。",
+      "A: Nǐ zhī dào lǎo shī zài nǎr ma? B: Zài fáng jiān lǐ. A: Wǒ néng tīng jiàn lǎo shī shuō huà. B: Wǒ yě néng.",
+      "B nói giáo viên ở trong phòng. Câu nghe được chỉ là lời nhân vật trong đoạn viết, không đánh giá nghe thật."
+    ],
+    "question": "Giáo viên ở đâu theo lời B?",
+    "answers": [
+      "房间里",
+      "桌子下",
+      "学校前"
+    ],
+    "chunks": [
+      "老师",
+      "在",
+      "房间里。"
+    ]
+  },
+  {
+    "id": 187,
+    "kind": "UNIT_REVIEW",
+    "title": "Ôn đi lại và công việc: đích đến khác với nghề nghiệp",
+    "items": [
+      [
+        "L131",
+        "外",
+        "我在学校外。",
+        "Wǒ zài xué xiào wài.",
+        "Tôi ở ngoài trường."
+      ],
+      [
+        "L132",
+        "去",
+        "我们去公司。",
+        "Wǒ men qù gōng sī.",
+        "Chúng tôi đến công ty."
+      ],
+      [
+        "L133",
+        "找",
+        "林先生找安女士。",
+        "Lín xiān sheng zhǎo Ān nǚ shì.",
+        "Ông Lâm tìm bà/chị An."
+      ],
+      [
+        "L134",
+        "工作",
+        "我爸爸在医院工作。",
+        "Wǒ bà ba zài yī yuàn gōng zuò.",
+        "Bố tôi làm việc ở bệnh viện."
+      ],
+      [
+        "L135",
+        "医生",
+        "林先生是医生。",
+        "Lín xiān sheng shì yī shēng.",
+        "Ông Lâm là bác sĩ."
+      ],
+      [
+        "L135",
+        "医院",
+        "她回医院了。",
+        "Tā huí yī yuàn le.",
+        "Cô ấy trở lại bệnh viện rồi."
+      ]
+    ],
+    "passage": [
+      "A：你去哪儿？\nB：我去医院见安医生。\nA：安医生是女士吗？\nB：是，她是医生，在医院工作。",
+      "A: Nǐ qù nǎr? B: Wǒ qù yī yuàn jiàn Ān yī shēng. A: Ān yī shēng shì nǚ shì ma? B: Shì, tā shì yī shēng, zài yī yuàn gōng zuò.",
+      "B đến bệnh viện để gặp bác sĩ An. Lời đáp nói rõ người được nhắc là nữ; không suy nghề hoặc giới tính chỉ từ tên."
+    ],
+    "question": "B nói sẽ đến nơi nào?",
+    "answers": [
+      "医院",
+      "公司",
+      "学校"
+    ],
+    "chunks": [
+      "我",
+      "去医院",
+      "见医生。"
+    ]
+  },
+  {
+    "id": 188,
+    "kind": "UNIT_REVIEW",
+    "title": "Ôn thăm hỏi và liên lạc: hiểu lời xác nhận, không đoán thêm",
+    "items": [
+      [
+        "L136",
+        "病",
+        "她没有病，也想休息。",
+        "Tā méi yǒu bìng, yě xiǎng xiū xi.",
+        "Cô ấy không có bệnh, cũng muốn nghỉ ngơi."
+      ],
+      [
+        "L137",
+        "忙",
+        "我的老师不忙。",
+        "Wǒ de lǎo shī bù máng.",
+        "Giáo viên của tôi không bận."
+      ],
+      [
+        "L138",
+        "请问",
+        "请问，你认识安女士吗？",
+        "Qǐng wèn, nǐ rèn shi Ān nǚ shì ma?",
+        "Xin hỏi, bạn biết bà/chị An không?"
+      ],
+      [
+        "L139",
+        "手机",
+        "她的手机在房间里。",
+        "Tā de shǒu jī zài fáng jiān lǐ.",
+        "Điện thoại của cô ấy ở trong phòng."
+      ],
+      [
+        "L140",
+        "电脑",
+        "这是我同学的电脑。",
+        "Zhè shì wǒ tóng xué de diàn nǎo.",
+        "Đây là máy tính của bạn học tôi."
+      ],
+      [
+        "L140",
+        "电影院",
+        "我姐姐也去电影院。",
+        "Wǒ jiě jie yě qù diàn yǐng yuàn.",
+        "Chị gái tôi cũng đến rạp chiếu phim."
+      ]
+    ],
+    "passage": [
+      "A：喂，安女士，您好！\nB：您好！\nA：请问，您忙吗？\nB：不忙。我想去电影院。\nA：我也想去。",
+      "A: Wèi, Ān nǚ shì, nín hǎo! B: Nín hǎo! A: Qǐng wèn, nín máng ma? B: Bù máng. Wǒ xiǎng qù diàn yǐng yuàn. A: Wǒ yě xiǎng qù.",
+      "Cuộc gọi hư cấu: B không bận và muốn đến rạp; A cũng muốn đi. Không có bằng chứng họ đã tới hay đã xem phim."
+    ],
+    "question": "B muốn đến đâu?",
+    "answers": [
+      "电影院",
+      "医院",
+      "公司"
+    ],
+    "chunks": [
+      "我姐姐",
+      "也去",
+      "电影院。"
+    ]
+  },
+  {
+    "id": 189,
+    "kind": "UNIT_REVIEW",
+    "title": "Ôn thời tiết và ngày: đọc đúng điều hôm nay, ngày mai",
+    "items": [
+      [
+        "L141",
+        "唱",
+        "我姐姐唱歌很好听。",
+        "Wǒ jiě jie chàng gē hěn hǎo tīng.",
+        "Chị gái tôi hát hay."
+      ],
+      [
+        "L142",
+        "觉得",
+        "我觉得你唱歌很好听。",
+        "Wǒ jué de nǐ chàng gē hěn hǎo tīng.",
+        "Tôi thấy bạn hát hay."
+      ],
+      [
+        "L143",
+        "天气",
+        "明天天气怎么样？",
+        "Míng tiān tiān qì zěn me yàng?",
+        "Ngày mai thời tiết thế nào?"
+      ],
+      [
+        "L144",
+        "雪",
+        "今天没有雪。",
+        "Jīn tiān méi yǒu xuě.",
+        "Hôm nay không có tuyết."
+      ],
+      [
+        "L145",
+        "今天",
+        "我今天在家休息。",
+        "Wǒ jīn tiān zài jiā xiū xi.",
+        "Hôm nay tôi nghỉ ở nhà."
+      ],
+      [
+        "L145",
+        "明天",
+        "我明天去学校唱歌。",
+        "Wǒ míng tiān qù xué xiào chàng gē.",
+        "Ngày mai tôi đến trường hát."
+      ]
+    ],
+    "passage": [
+      "A：你今天去学校吗？\nB：不去，今天下雨。我在家休息。\nA：明天呢？\nB：明天我去学校唱歌。\nA：我也去。",
+      "A: Nǐ jīn tiān qù xué xiào ma? B: Bú qù, jīn tiān xià yǔ. Wǒ zài jiā xiū xi. A: Míng tiān ne? B: Míng tiān wǒ qù xué xiào chàng gē. A: Wǒ yě qù.",
+      "Trong truyện, B nghỉ ở nhà hôm nay và sẽ đến trường hát ngày mai. Đây không phải dự báo thời tiết thực."
+    ],
+    "question": "Hôm nay B nói làm gì?",
+    "answers": [
+      "Nghỉ ở nhà",
+      "Đến trường hát",
+      "Đến rạp xem phim"
+    ],
+    "chunks": [
+      "我今天",
+      "在家",
+      "休息。"
+    ]
+  },
+  {
+    "id": 190,
+    "kind": "UNIT_REVIEW",
+    "title": "Ôn lịch và buổi trong ngày: thời gian được nói trong truyện",
+    "items": [
+      [
+        "L146",
+        "年",
+        "我学汉语一年了。",
+        "Wǒ xué Hàn yǔ yì nián le.",
+        "Tôi học tiếng Trung được một năm rồi."
+      ],
+      [
+        "L147",
+        "月",
+        "我五月去学校。",
+        "Wǒ wǔ yuè qù xué xiào.",
+        "Tôi đến trường vào tháng5."
+      ],
+      [
+        "L148",
+        "时间",
+        "我今天没有时间。",
+        "Wǒ jīn tiān méi yǒu shí jiān.",
+        "Hôm nay tôi không có thời gian."
+      ],
+      [
+        "L149",
+        "上午",
+        "我妹妹上午上学。",
+        "Wǒ mèi mei shàng wǔ shàng xué.",
+        "Em gái tôi đi học buổi sáng."
+      ],
+      [
+        "L150",
+        "晚上",
+        "我晚上想读书。",
+        "Wǒ wǎn shang xiǎng dú shū.",
+        "Buổi tối tôi muốn đọc sách."
+      ],
+      [
+        "L150",
+        "白天",
+        "白天我在公司工作。",
+        "Bái tiān wǒ zài gōng sī gōng zuò.",
+        "Ban ngày tôi làm việc ở công ty."
+      ]
+    ],
+    "passage": [
+      "A：你星期日有时间吗？\nB：有。我上午读书，下午去学校。\nA：晚上呢？\nB：晚上我在家。",
+      "A: Nǐ xīng qī rì yǒu shí jiān ma? B: Yǒu. Wǒ shàng wǔ dú shū, xià wǔ qù xué xiào. A: Wǎn shang ne? B: Wǎn shang wǒ zài jiā.",
+      "B có thời gian vào Chủ nhật: sáng đọc sách, chiều đến trường, tối ở nhà. Đây là lịch nhân vật, không phải lịch được lưu của người học."
+    ],
+    "question": "B nói buổi chiều sẽ đến đâu?",
+    "answers": [
+      "学校",
+      "公司",
+      "电影院"
+    ],
+    "chunks": [
+      "我上午",
+      "在家",
+      "读书。"
+    ]
+  },
+  {
+    "id": 198,
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Chẩn đoán sáu chữ trong thời tiết và thời gian: có gợi ý",
+    "items": [
+      [
+        "L143",
+        "天气",
+        "我觉得这里的天气很好。",
+        "Wǒ jué de zhè lǐ de tiān qì hěn hǎo.",
+        "Tôi thấy thời tiết ở đây tốt."
+      ],
+      [
+        "L144",
+        "雨",
+        "明天有雨吗？",
+        "Míng tiān yǒu yǔ ma?",
+        "Ngày mai có mưa không?"
+      ],
+      [
+        "L145",
+        "昨天",
+        "我昨天在学校上课。",
+        "Wǒ zuó tiān zài xué xiào shàng kè.",
+        "Hôm qua tôi học trên lớp ở trường."
+      ],
+      [
+        "L147",
+        "星期",
+        "我星期一读书。",
+        "Wǒ xīng qī yī dú shū.",
+        "Tôi đọc sách vào thứ Hai."
+      ],
+      [
+        "L148",
+        "时间",
+        "我没有时间去电影院。",
+        "Wǒ méi yǒu shí jiān qù diàn yǐng yuàn.",
+        "Tôi không có thời gian đến rạp chiếu phim."
+      ],
+      [
+        "L150",
+        "白天",
+        "我白天在学校。",
+        "Wǒ bái tiān zài xué xiào.",
+        "Ban ngày tôi ở trường."
+      ]
+    ],
+    "glyphs": [
+      [
+        "气",
+        [
+          "汽",
+          "乞",
+          "飞"
+        ]
+      ],
+      [
+        "雨",
+        [
+          "雪",
+          "云",
+          "雷"
+        ]
+      ],
+      [
+        "昨",
+        [
+          "作",
+          "咋",
+          "炸"
+        ]
+      ],
+      [
+        "星",
+        [
+          "早",
+          "生",
+          "是"
+        ]
+      ],
+      [
+        "间",
+        [
+          "问",
+          "闻",
+          "闪"
+        ]
+      ],
+      [
+        "白",
+        [
+          "百",
+          "自",
+          "日"
+        ]
+      ]
+    ],
+    "passage": [
+      "A：你昨天去哪儿了？\nB：我昨天去学校了。\nA：今天呢？\nB：今天下雨，我在家。",
+      "A: Nǐ zuó tiān qù nǎr le? B: Wǒ zuó tiān qù xué xiào le. A: Jīn tiān ne? B: Jīn tiān xià yǔ, wǒ zài jiā.",
+      "Trong truyện B đến trường hôm qua, còn hôm nay ở nhà khi có mưa. Bài chữ không phải dự báo hoặc kiểm tra nghe."
+    ],
+    "question": "B nói hôm qua đến đâu?",
+    "answers": [
+      "学校",
+      "医院",
+      "公司"
+    ],
+    "chunks": [
+      "我昨天",
+      "去学校",
+      "了。"
+    ]
+  },
+  {
+    "id": 191,
+    "kind": "UNIT_REVIEW",
+    "title": "Ôn sinh hoạt và bữa ăn: giờ hẹn khác với thời lượng",
+    "items": [
+      [
+        "L151",
+        "起床",
+        "我六点起床。",
+        "Wǒ liù diǎn qǐ chuáng.",
+        "Tôi dậy lúc6giờ."
+      ],
+      [
+        "L152",
+        "分钟",
+        "我休息三分钟。",
+        "Wǒ xiū xi sān fēn zhōng.",
+        "Tôi nghỉ ba phút."
+      ],
+      [
+        "L153",
+        "早饭",
+        "我想吃早饭。",
+        "Wǒ xiǎng chī zǎo fàn.",
+        "Tôi muốn ăn sáng."
+      ],
+      [
+        "L154",
+        "吃",
+        "我不想吃面条儿。",
+        "Wǒ bù xiǎng chī miàn tiáor.",
+        "Tôi không muốn ăn mì sợi."
+      ],
+      [
+        "L155",
+        "饺子",
+        "我和我的朋友吃饺子。",
+        "Wǒ hé wǒ de péng you chī jiǎo zi.",
+        "Tôi và bạn của tôi ăn sủi cảo."
+      ],
+      [
+        "L155",
+        "牛奶",
+        "我有牛奶，也有水。",
+        "Wǒ yǒu niú nǎi, yě yǒu shuǐ.",
+        "Tôi có sữa bò, cũng có nước."
+      ]
+    ],
+    "passage": [
+      "A：你几点起床？\nB：我六点起床，七点吃早饭。\nA：你吃什么？\nB：我吃饺子，喝牛奶。\nA：好。",
+      "A: Nǐ jǐ diǎn qǐ chuáng? B: Wǒ liù diǎn qǐ chuáng, qī diǎn chī zǎo fàn. A: Nǐ chī shén me? B: Wǒ chī jiǎo zi, hē niú nǎi. A: Hǎo.",
+      "B nêu lịch hư cấu: dậy6giờ, ăn sáng7giờ; món là sủi cảo và sữa bò. Không phải lịch lưu hoặc khuyến nghị chế độ sinh hoạt cho người học."
+    ],
+    "question": "B nói dậy lúc mấy giờ?",
+    "answers": [
+      "六点",
+      "七点",
+      "三点"
+    ],
+    "chunks": [
+      "我",
+      "六点",
+      "起床。"
+    ]
+  },
+  {
+    "id": 192,
+    "kind": "UNIT_REVIEW",
+    "title": "Ôn mua sắm: đồ vật, lựa chọn và giá trong truyện",
+    "items": [
+      [
+        "L156",
+        "水果",
+        "我去超市买水果。",
+        "Wǒ qù chāo shì mǎi shuǐ guǒ.",
+        "Tôi đến siêu thị mua trái cây."
+      ],
+      [
+        "L157",
+        "书店",
+        "我的书店在学校前。",
+        "Wǒ de shū diàn zài xué xiào qián.",
+        "Hiệu sách của tôi ở phía trước trường."
+      ],
+      [
+        "L158",
+        "买",
+        "我明天买衣服。",
+        "Wǒ míng tiān mǎi yī fu.",
+        "Ngày mai tôi mua quần áo."
+      ],
+      [
+        "L158",
+        "钱",
+        "我有十块钱。",
+        "Wǒ yǒu shí kuài qián.",
+        "Tôi có10đồng trong ví dụ."
+      ],
+      [
+        "L159",
+        "元",
+        "这个杯子三元。",
+        "Zhè ge bēi zi sān yuán.",
+        "Chiếc cốc này3nguyên trong ví dụ."
+      ],
+      [
+        "L160",
+        "杯子",
+        "我不买那个杯子。",
+        "Wǒ bù mǎi nà ge bēi zi.",
+        "Tôi không mua chiếc cốc kia."
+      ]
+    ],
+    "passage": [
+      "A：你去哪儿？\nB：我去超市买水果。\nA：这个杯子多少钱？\nB：三元。我不买杯子，我买苹果。",
+      "A: Nǐ qù nǎr? B: Wǒ qù chāo shì mǎi shuǐ guǒ. A: Zhè ge bēi zi duō shao qián? B: Sān yuán. Wǒ bù mǎi bēi zi, wǒ mǎi píng guǒ.",
+      "B đến siêu thị mua trái cây, chọn táo và không mua cốc. Giá3nguyên là dữ kiện hư cấu trong bài, không phải giá thật hoặc giao dịch."
+    ],
+    "question": "B chọn mua gì?",
+    "answers": [
+      "苹果",
+      "杯子",
+      "衣服"
+    ],
+    "chunks": [
+      "我明天",
+      "去超市",
+      "买水果。"
+    ]
+  },
+  {
+    "id": 193,
+    "kind": "UNIT_REVIEW",
+    "title": "Ôn lượng và phương tiện: số rõ khác lượng không xác định",
+    "items": [
+      [
+        "L161",
+        "多",
+        "我有很多朋友。",
+        "Wǒ yǒu hěn duō péng you.",
+        "Tôi có nhiều bạn."
+      ],
+      [
+        "L162",
+        "零",
+        "零、三、五。",
+        "Líng, sān, wǔ.",
+        "Không, ba, năm."
+      ],
+      [
+        "L163",
+        "一点儿",
+        "请喝一点儿牛奶。",
+        "Qǐng hē yì diǎnr niú nǎi.",
+        "Mời uống một chút sữa bò."
+      ],
+      [
+        "L164",
+        "有点儿",
+        "我今天有点儿忙。",
+        "Wǒ jīn tiān yǒu diǎnr máng.",
+        "Hôm nay tôi hơi bận."
+      ],
+      [
+        "L164",
+        "再",
+        "我想再读一下这个字。",
+        "Wǒ xiǎng zài dú yí xià zhè ge zì.",
+        "Tôi muốn đọc lại chữ này một lượt."
+      ],
+      [
+        "L165",
+        "火车",
+        "我们明天坐火车去学校。",
+        "Wǒ men míng tiān zuò huǒ chē qù xué xiào.",
+        "Ngày mai chúng tôi đi tàu hỏa đến trường."
+      ]
+    ],
+    "passage": [
+      "A：我们明天坐火车去学校，好吗？\nB：好，我想在火车上读书。\nA：你有几本书？\nB：我有两本书。",
+      "A: Wǒ men míng tiān zuò huǒ chē qù xué xiào, hǎo ma? B: Hǎo, wǒ xiǎng zài huǒ chē shang dú shū. A: Nǐ yǒu jǐ běn shū? B: Wǒ yǒu liǎng běn shū.",
+      "Hai nhân vật đồng ý đi tàu trong truyện; B muốn đọc trên tàu và có hai quyển sách. Không đặt vé hoặc lưu hành trình thật."
+    ],
+    "question": "B nói có mấy quyển sách?",
+    "answers": [
+      "两本",
+      "一本",
+      "三本"
+    ],
+    "chunks": [
+      "我明天",
+      "坐火车",
+      "去学校。"
+    ]
+  },
+  {
+    "id": 194,
+    "kind": "UNIT_REVIEW",
+    "title": "Ôn tổng kết: hỏi hành động, tuổi và lời đề nghị",
+    "items": [
+      [
+        "L166",
+        "开车",
+        "我们明天开车去饭店。",
+        "Wǒ men míng tiān kāi chē qù fàn diàn.",
+        "Ngày mai chúng tôi lái xe đến quán ăn."
+      ],
+      [
+        "L167",
+        "正在",
+        "姐姐正在看书。",
+        "Jiě jie zhèng zài kàn shū.",
+        "Chị gái đang đọc sách."
+      ],
+      [
+        "L168",
+        "岁",
+        "我朋友的孩子六岁。",
+        "Wǒ péng you de hái zi liù suì.",
+        "Con của bạn tôi sáu tuổi."
+      ],
+      [
+        "L169",
+        "怎么样",
+        "这个星期天去看电影，怎么样？",
+        "Zhè ge xīng qī tiān qù kàn diàn yǐng, zěn me yàng?",
+        "Chủ nhật này đi xem phim, thế nào?"
+      ],
+      [
+        "L170",
+        "给",
+        "我给你一支笔。",
+        "Wǒ gěi nǐ yì zhī bǐ.",
+        "Tôi cho bạn một cây bút."
+      ],
+      [
+        "L170",
+        "还",
+        "我有一个哥哥，还有一个姐姐。",
+        "Wǒ yǒu yí ge gē ge, hái yǒu yí ge jiě jie.",
+        "Tôi có một anh trai, còn có một chị gái."
+      ]
+    ],
+    "passage": [
+      "A：姐姐正在做什么？\nB：她正在看书。\nA：我们去饭店吃饺子吧。\nB：好，我给姐姐打电话。",
+      "A: Jiě jie zhèng zài zuò shén me? B: Tā zhèng zài kàn shū. A: Wǒ men qù fàn diàn chī jiǎo zi ba. B: Hǎo, wǒ gěi jiě jie dǎ diàn huà.",
+      "Chị gái đang đọc sách; B đồng ý đi ăn sủi cảo và nói sẽ gọi chị. Đây là đọc hiểu lời trao đổi, không thực hiện gọi điện hoặc chấm nói."
+    ],
+    "question": "Lúc được hỏi, chị gái đang làm gì?",
+    "answers": [
+      "看书",
+      "做饭",
+      "开车"
+    ],
+    "chunks": [
+      "我",
+      "给你",
+      "一支笔。"
+    ]
+  },
+  {
+    "id": 199,
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Chẩn đoán chọn mẫu HSK1: chữ trong từ và hội thoại tổng kết",
+    "items": [
+      [
+        "L101",
+        "是",
+        "他不是我的老师。",
+        "Tā bú shì wǒ de lǎo shī.",
+        "Anh ấy không phải thầy của tôi."
+      ],
+      [
+        "L121",
+        "学习",
+        "今天我们学习汉语。",
+        "Jīn tiān wǒ men xué xí Hàn yǔ.",
+        "Hôm nay chúng tôi học tiếng Hán."
+      ],
+      [
+        "L144",
+        "雨",
+        "今天没有雨。",
+        "Jīn tiān méi yǒu yǔ.",
+        "Hôm nay không có mưa trong truyện."
+      ],
+      [
+        "L158",
+        "钱",
+        "我的钱在家里。",
+        "Wǒ de qián zài jiā li.",
+        "Tiền của tôi ở nhà."
+      ],
+      [
+        "L168",
+        "中国",
+        "我姐姐现在在中国。",
+        "Wǒ jiě jie xiàn zài zài Zhōng guó.",
+        "Chị gái tôi hiện ở Trung Quốc."
+      ],
+      [
+        "L170",
+        "给",
+        "老师给他一本书。",
+        "Lǎo shī gěi tā yì běn shū.",
+        "Thầy/cô cho anh ấy một quyển sách."
+      ]
+    ],
+    "glyphs": [
+      [
+        "是",
+        [
+          "足",
+          "走",
+          "定"
+        ]
+      ],
+      [
+        "学",
+        [
+          "字",
+          "觉",
+          "党"
+        ]
+      ],
+      [
+        "雨",
+        [
+          "两",
+          "西",
+          "面"
+        ]
+      ],
+      [
+        "钱",
+        [
+          "线",
+          "浅",
+          "铁"
+        ]
+      ],
+      [
+        "国",
+        [
+          "回",
+          "因",
+          "园"
+        ]
+      ],
+      [
+        "给",
+        [
+          "结",
+          "红",
+          "纱"
+        ]
+      ]
+    ],
+    "passage": [
+      "A：你姐姐现在在哪儿？\nB：她在中国，正在学习汉语。\nA：她有书吗？\nB：有，老师给她一本书。",
+      "A: Nǐ jiě jie xiàn zài zài nǎr? B: Tā zài Zhōng guó, zhèng zài xué xí Hàn yǔ. A: Tā yǒu shū ma? B: Yǒu, lǎo shī gěi tā yì běn shū.",
+      "Chị gái đang ở Trung Quốc và học tiếng Hán, có sách do thầy/cô cho. Sáu chữ được chọn mẫu có gợi ý từ/pinyin; không đại diện toàn bộ246chữ,100chữ viết hoặc một kỳ thi chính thức."
+    ],
+    "question": "Ai cho chị gái một quyển sách?",
+    "answers": [
+      "老师",
+      "爸爸",
+      "朋友"
+    ],
+    "chunks": [
+      "老师",
+      "给她",
+      "一本书。"
+    ]
+  }
+]

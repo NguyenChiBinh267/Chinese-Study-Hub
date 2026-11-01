@@ -1,0 +1,773 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "1aa4142dfc326a61be783d18cd044af5bb1957749eb42a7e4b0477b96e95588c",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk4-continuation-408",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L408",
+    "version": 2,
+    "versionId": "l408-draft-v2",
+    "title": "Sửa bản in sau khi đối chiếu đáp án",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Sửa bản in sau khi đối chiếu đáp án; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "重新"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 23,
+      "physicalPage": 24,
+      "printedPage": 21,
+      "section": "task",
+      "entry": "十二"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T17:36:53.064Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 23,
+          "physicalPage": 24,
+          "printedPage": 21,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "谈论教学、学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-6fcb9680e8d1",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "学习心得"
+        },
+        "written": "学习心得",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l408-v-1119",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1119"
+        },
+        "written": "打印",
+        "pinyin": "dǎyìn",
+        "senseId": "l408-v-1119-sense",
+        "ordinal": 1119,
+        "note": "4 dǎyìn 动; 打印 biến nội dung trên máy thành bản in; phân biệt 复印 là sao chụp bản giấy. Nhận diện chữ 印 trong 打印; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l408-v-1120",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1120"
+        },
+        "written": "打印机",
+        "pinyin": "dǎyìnjī",
+        "senseId": "l408-v-1120-sense",
+        "ordinal": 1120,
+        "note": "4 dǎyìnjī 名; 打印机 là thiết bị; đặt sau dùng máy 用, không dùng như động từ 打印. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l408-v-1113",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1113"
+        },
+        "written": "答案",
+        "pinyin": "dá’àn",
+        "senseId": "l408-v-1113-sense",
+        "ordinal": 1113,
+        "note": "4 dá’àn 名; 答案 có hai âm a liền nhau nhưng nguồn tách bằng dấu nháy dá’àn; pinyin luyện nhận dá àn, không đổi thanh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l408-v-1098",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1098"
+        },
+        "written": "词语",
+        "pinyin": "cíyǔ",
+        "senseId": "l408-v-1098-sense",
+        "ordinal": 1098,
+        "note": "4 cíyǔ 名; 词语 là đơn vị từ/ngữ trong câu; không đồng nghĩa chỉ chữ viết đơn lẻ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l408-v-1060",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1060"
+        },
+        "written": "猜",
+        "pinyin": "cāi",
+        "senseId": "l408-v-1060-sense",
+        "ordinal": 1060,
+        "note": "4 cāi 动; 猜 là suy ra khi chưa biết chắc; cần đối chiếu, không gọi dự đoán là đáp án đã xác nhận. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l408-v-1087",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1087"
+        },
+        "written": "重新",
+        "pinyin": "chóngxīn",
+        "senseId": "l408-v-1087-sense",
+        "ordinal": 1087,
+        "note": "4 chóngxīn 副; 重新 đặt trước động từ chỉ làm lại sau điều chỉnh; bài không coi mọi 再 đều thay được. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-386",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "386"
+        },
+        "written": "印",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 386,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-2",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "2"
+        },
+        "written": "案",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 2,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-22",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "22"
+        },
+        "written": "猜",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 22,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-408",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 394,
+          "physicalPage": 395,
+          "printedPage": 392,
+          "section": "grammar",
+          "entry": "频率副词：重新"
+        },
+        "written": "重新",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l408-c0",
+      "version": 1,
+      "senseId": "l408-v-1119-sense",
+      "hanzi": "打印",
+      "dictionaryPinyin": "dǎ yìn",
+      "meaning": "in",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l408-v-1119"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l408-c1",
+      "version": 1,
+      "senseId": "l408-v-1120-sense",
+      "hanzi": "打印机",
+      "dictionaryPinyin": "dǎ yìn jī",
+      "meaning": "máy in",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l408-v-1120"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l408-c2",
+      "version": 1,
+      "senseId": "l408-v-1113-sense",
+      "hanzi": "答案",
+      "dictionaryPinyin": "dá àn",
+      "meaning": "đáp án",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l408-v-1113"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l408-c3",
+      "version": 1,
+      "senseId": "l408-v-1098-sense",
+      "hanzi": "词语",
+      "dictionaryPinyin": "cí yǔ",
+      "meaning": "từ ngữ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l408-v-1098"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l408-c4",
+      "version": 1,
+      "senseId": "l408-v-1060-sense",
+      "hanzi": "猜",
+      "dictionaryPinyin": "cāi",
+      "meaning": "đoán",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l408-v-1060"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l408-c5",
+      "version": 1,
+      "senseId": "l408-v-1087-sense",
+      "hanzi": "重新",
+      "dictionaryPinyin": "chóng xīn",
+      "meaning": "làm lại, lại từ đầu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l408-v-1087"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l408-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 对照 duìzhào: đối chiếu; 修改 xiūgǎi: sửa; 原稿 yuángǎo: bản gốc; 版本 bǎnběn: phiên bản. Ví dụ 答案 ghi dá àn để thấy ranh giới âm tiết.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l408-t0",
+      "type": "teaching",
+      "title": "打印 · in",
+      "text": "打印 biến nội dung trên máy thành bản in; phân biệt 复印 là sao chụp bản giấy. Nhận diện chữ 印 trong 打印; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "请把改好的文章打印出来。",
+      "pinyin": "Qǐng bǎ gǎi hǎo de wénzhāng dǎyìn chūlái.",
+      "meaning": "Hãy in bài viết đã sửa ra.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l408-t1",
+      "type": "teaching",
+      "title": "打印机 · máy in",
+      "text": "打印机 là thiết bị; đặt sau dùng máy 用, không dùng như động từ 打印.",
+      "hanzi": "这台打印机没有纸了。",
+      "pinyin": "Zhè tái dǎyìnjī méiyǒu zhǐ le.",
+      "meaning": "Máy in này hết giấy rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l408-t2",
+      "type": "teaching",
+      "title": "答案 · đáp án",
+      "text": "答案 có hai âm a liền nhau nhưng nguồn tách bằng dấu nháy dá’àn; pinyin luyện nhận dá àn, không đổi thanh.",
+      "hanzi": "请先做题，再看答案。",
+      "pinyin": "Qǐng xiān zuò tí, zài kàn dá àn.",
+      "meaning": "Hãy làm bài trước rồi mới xem đáp án.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l408-t3",
+      "type": "teaching",
+      "title": "词语 · từ ngữ",
+      "text": "词语 là đơn vị từ/ngữ trong câu; không đồng nghĩa chỉ chữ viết đơn lẻ.",
+      "hanzi": "我把不懂的词语写在本子上。",
+      "pinyin": "Wǒ bǎ bù dǒng de cíyǔ xiě zài běnzi shàng.",
+      "meaning": "Tôi ghi từ ngữ chưa hiểu vào vở.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l408-t4",
+      "type": "teaching",
+      "title": "猜 · đoán",
+      "text": "猜 là suy ra khi chưa biết chắc; cần đối chiếu, không gọi dự đoán là đáp án đã xác nhận.",
+      "hanzi": "你先猜一下这个词的意思。",
+      "pinyin": "Nǐ xiān cāi yíxià zhège cí de yìsi.",
+      "meaning": "Bạn thử đoán nghĩa từ này trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l408-t5",
+      "type": "teaching",
+      "title": "重新 · làm lại, lại từ đầu",
+      "text": "重新 đặt trước động từ chỉ làm lại sau điều chỉnh; bài không coi mọi 再 đều thay được.",
+      "hanzi": "我改了两处，准备重新打印。",
+      "pinyin": "Wǒ gǎi le liǎng chù, zhǔnbèi chóngxīn dǎyìn.",
+      "meaning": "Tôi sửa hai chỗ, định in lại.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l408-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "重新+động từ chỉ làm lại, thường sau khi thay đổi/sửa. Không nhất thiết chỉ lặp đúng bản cũ. 重新打印 bản đã sửa khác 再看一遍 chỉ đọc lại.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l408-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "阿兰先猜生词的意思，再查词典，最后对照答案。她发现两个词语用错了，便修改文章。给打印机加好纸以后，她重新打印了一份。这次重印的是改好的文章，不是原来的错误版本。",
+      "pinyin": "Ā Lán xiān cāi shēngcí de yìsi, zài chá cídiǎn, zuìhòu duìzhào dá àn. Tā fāxiàn liǎng ge cíyǔ yòng cuò le, biàn xiūgǎi wénzhāng. Gěi dǎyìnjī jiā hǎo zhǐ yǐhòu, tā chóngxīn dǎyìn le yí fèn. Zhè cì chóngyìn de shì gǎi hǎo de wénzhāng, bú shì yuánlái de cuòwù bǎnběn.",
+      "meaning": "Lan đoán, tra từ điển rồi đối chiếu đáp án. Cô sửa hai từ dùng sai và in lại bản đã sửa sau khi thêm giấy.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l408-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l408-v2-e0"
+    },
+    {
+      "id": "l408-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l408-v2-e1"
+    },
+    {
+      "id": "l408-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l408-v2-e2"
+    },
+    {
+      "id": "l408-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l408-v2-e3"
+    },
+    {
+      "id": "l408-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l408-v2-e4"
+    },
+    {
+      "id": "l408-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l408-v2-e5"
+    },
+    {
+      "id": "l408-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l408-v2-e6"
+    },
+    {
+      "id": "l408-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l408-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l408-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l408-c0",
+      "senseId": "l408-v-1119-sense",
+      "keyRef": "l408-v2-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “in”: 打□ (dǎ yìn). Ngữ cảnh: 请把改好的文章□出来。",
+      "choices": [
+        "即",
+        "卵",
+        "卸",
+        "印"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l408-v2-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l408-c1",
+      "senseId": "l408-v-1120-sense",
+      "keyRef": "l408-v2-k1",
+      "prompt": "Ghi pinyin của 打印机 trong câu “这台打印机没有纸了。”, theo nghĩa “máy in”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l408-v2-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l408-c2",
+      "senseId": "l408-v-1113-sense",
+      "keyRef": "l408-v2-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “đáp án”: 请先做题，再看□。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l408-v2-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l408-c3",
+      "senseId": "l408-v-1098-sense",
+      "keyRef": "l408-v2-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “từ ngữ” để điền câu: 我把不懂的□写在本子上。",
+      "choices": [
+        "猜",
+        "重新",
+        "打印",
+        "打印机",
+        "答案",
+        "词语"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l408-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l408-c4",
+      "senseId": "l408-v-1060-sense",
+      "keyRef": "l408-v2-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “đoán” để điền câu: 你先□一下这个词的意思。",
+      "choices": [
+        "重新",
+        "打印",
+        "打印机",
+        "答案",
+        "词语",
+        "猜"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l408-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l408-c5",
+      "senseId": "l408-v-1087-sense",
+      "keyRef": "l408-v2-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “làm lại, lại từ đầu”: 我改了两处，准备□打印。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l408-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l408-c0",
+      "senseId": "l408-v-1119-sense",
+      "keyRef": "l408-v2-k6",
+      "prompt": "Bản được in lại là bản nào?",
+      "choices": [
+        "完全没改的原稿",
+        "只有答案没有文章",
+        "修改后的文章"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l408-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l408-c3",
+      "senseId": "l408-v-1098-sense",
+      "keyRef": "l408-v2-k7",
+      "prompt": "Xếp câu bắt đầu bằng 她, chỉ việc làm lại.",
+      "choices": [
+        "打印了文章",
+        "重新",
+        "她"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l408-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l408-v2-e0",
+      "senseId": "l408-v-1119-sense",
+      "accepted": [
+        "印"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 印 tạo từ 打印. 打印 biến nội dung trên máy thành bản in; phân biệt 复印 là sao chụp bản giấy. Nhận diện chữ 印 trong 打印; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l408-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l408-v2-e1",
+      "senseId": "l408-v-1120-sense",
+      "accepted": [
+        "dǎ yìn jī"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc dǎ yìn jī. 打印机 là thiết bị; đặt sau dùng máy 用, không dùng như động từ 打印."
+    },
+    {
+      "id": "l408-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l408-v2-e2",
+      "senseId": "l408-v-1113-sense",
+      "accepted": [
+        "答案"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 答案. 答案 có hai âm a liền nhau nhưng nguồn tách bằng dấu nháy dá’àn; pinyin luyện nhận dá àn, không đổi thanh. Hãy làm bài trước rồi mới xem đáp án."
+    },
+    {
+      "id": "l408-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l408-v2-e3",
+      "senseId": "l408-v-1098-sense",
+      "accepted": [
+        "词语"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "词语: từ ngữ. 词语 là đơn vị từ/ngữ trong câu; không đồng nghĩa chỉ chữ viết đơn lẻ. Tôi ghi từ ngữ chưa hiểu vào vở."
+    },
+    {
+      "id": "l408-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l408-v2-e4",
+      "senseId": "l408-v-1060-sense",
+      "accepted": [
+        "猜"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "猜: đoán. 猜 là suy ra khi chưa biết chắc; cần đối chiếu, không gọi dự đoán là đáp án đã xác nhận. Bạn thử đoán nghĩa từ này trước."
+    },
+    {
+      "id": "l408-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l408-v2-e5",
+      "senseId": "l408-v-1087-sense",
+      "accepted": [
+        "重新"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 重新. 重新 đặt trước động từ chỉ làm lại sau điều chỉnh; bài không coi mọi 再 đều thay được. Tôi sửa hai chỗ, định in lại."
+    },
+    {
+      "id": "l408-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l408-v2-e6",
+      "senseId": "l408-v-1119-sense",
+      "accepted": [
+        "修改后的文章"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 修改后的文章. Lan đoán, tra từ điển rồi đối chiếu đáp án. Cô sửa hai từ dùng sai và in lại bản đã sửa sau khi thêm giấy."
+    },
+    {
+      "id": "l408-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l408-v2-e7",
+      "senseId": "l408-v-1098-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 重新+động từ chỉ làm lại, thường sau khi thay đổi/sửa. Không nhất thiết chỉ lặp đúng bản cũ. 重新打印 bản đã sửa khác 再看一遍 chỉ đọc lại."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

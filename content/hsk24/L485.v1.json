@@ -1,0 +1,771 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "4b6fddbd4e79e1b0c29a5815f11e9d705ba32dac2aebe9fa05d273b30f2ab103",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ecf",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L485",
+    "version": 1,
+    "versionId": "l485-draft-v1",
+    "title": "Ôn HSK4 sau batch 8 · Đọc mức, số lần và sức chứa",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Ôn từ/cấu trúc đã học trong ngữ cảnh quen; không thêm từ vựng.",
+      "Có hỗ trợ, không phải đề HSK, không cấp mastery hay đánh giá viết tay."
+    ],
+    "prerequisites": [
+      "l425-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "倍数的表示法"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 22,
+      "physicalPage": 23,
+      "printedPage": 20,
+      "section": "task",
+      "entry": "七"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T17:28:26.208Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-shop",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 22,
+          "physicalPage": 23,
+          "printedPage": 20,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "交流购物体验、商业活动内容",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-a17cba74cc13",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "商品选购"
+        },
+        "written": "商品选购",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l425-v-1023",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1023"
+        },
+        "written": "倍",
+        "pinyin": "bèi",
+        "senseId": "l425-v-1023-sense",
+        "ordinal": 1023,
+        "note": "4 bèi 量; 倍 đếm số lần của cùng một đại lượng; 两倍 có nghĩa nhân hai, không tự là cộng hai đơn vị. Nhận diện chữ 倍 trong 倍; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l425-v-1074",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1074"
+        },
+        "written": "超过",
+        "pinyin": "chāoguò",
+        "senseId": "l425-v-1074-sense",
+        "ordinal": 1074,
+        "note": "4 chāoguò 动; 超过 chỉ lớn hơn một mốc/giới hạn; chưa hàm ý vi phạm nếu không có quy tắc kèm theo. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l425-v-1149",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 107,
+          "physicalPage": 108,
+          "printedPage": 105,
+          "section": "vocabulary",
+          "entry": "ordinal 1149"
+        },
+        "written": "低",
+        "pinyin": "dī",
+        "senseId": "l425-v-1149-sense",
+        "ordinal": 1149,
+        "note": "4 dī 形、动; 低 ở 价格低 là mức thấp, không dùng thay 矮 để nói chiều cao người trong mọi câu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l425-v-1152",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 107,
+          "physicalPage": 108,
+          "printedPage": 105,
+          "section": "vocabulary",
+          "entry": "ordinal 1152"
+        },
+        "written": "低于",
+        "pinyin": "dīyú",
+        "senseId": "l425-v-1152-sense",
+        "ordinal": 1152,
+        "note": "4 dīyú 动; 低于 nhận mốc so sánh; cần cùng đơn vị, không so một giá tiền với một khối lượng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l425-v-1260",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 110,
+          "physicalPage": 111,
+          "printedPage": 108,
+          "section": "vocabulary",
+          "entry": "ordinal 1260"
+        },
+        "written": "够",
+        "pinyin": "gòu",
+        "senseId": "l425-v-1260-sense",
+        "ordinal": 1260,
+        "note": "4 gòu 动、副; 够 nói đạt lượng cần trong ngữ cảnh; không tự có nghĩa dư thừa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l425-v-1046",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1046"
+        },
+        "written": "不够",
+        "pinyin": "búgòu",
+        "senseId": "l425-v-1046-sense",
+        "ordinal": 1046,
+        "note": "4 búgòu 动、副; 不够 là chưa đạt mức cần; bài hỏi đúng dạng hai chữ, không chỉ một tiếng phủ định. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-10",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "10"
+        },
+        "written": "倍",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 10,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-52",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "52"
+        },
+        "written": "低",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 52,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-92",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "92"
+        },
+        "written": "够",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 92,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-425",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "数的表示法：A是B的两倍"
+        },
+        "written": "倍数的表示法",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l425-c0",
+      "version": 1,
+      "senseId": "l425-v-1023-sense",
+      "hanzi": "倍",
+      "dictionaryPinyin": "bèi",
+      "meaning": "lần (bội số)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l425-v-1023"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l425-c1",
+      "version": 1,
+      "senseId": "l425-v-1074-sense",
+      "hanzi": "超过",
+      "dictionaryPinyin": "chāo guò",
+      "meaning": "vượt quá",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l425-v-1074"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l425-c2",
+      "version": 1,
+      "senseId": "l425-v-1149-sense",
+      "hanzi": "低",
+      "dictionaryPinyin": "dī",
+      "meaning": "thấp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l425-v-1149"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l425-c3",
+      "version": 1,
+      "senseId": "l425-v-1152-sense",
+      "hanzi": "低于",
+      "dictionaryPinyin": "dī yú",
+      "meaning": "thấp hơn (mốc)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l425-v-1152"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l425-c4",
+      "version": 1,
+      "senseId": "l425-v-1260-sense",
+      "hanzi": "够",
+      "dictionaryPinyin": "gòu",
+      "meaning": "đủ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l425-v-1260"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l425-c5",
+      "version": 1,
+      "senseId": "l425-v-1046-sense",
+      "hanzi": "不够",
+      "dictionaryPinyin": "bú gòu",
+      "meaning": "không đủ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l425-v-1046"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l485-guide",
+      "type": "teaching",
+      "title": "Ôn có hỗ trợ · không phải bài thi",
+      "text": "Nên thử nhớ trước khi xem phần nhắc. Các ví dụ và ngữ cảnh được lặp có chủ đích để ôn; không tính thêm từ, không xác nhận năng lực độc lập.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l485-reminder0",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 容量 róngliàng: sức chứa; 公斤 gōngjīn: kilôgam; 预算 yùsuàn: ngân sách; 前者/后者 qiánzhě/hòuzhě: cái trước/cái sau; 装 zhuāng: chứa/đựng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l485-reminder1",
+      "type": "teaching",
+      "title": "倍 · lần (bội số)",
+      "text": "倍 đếm số lần của cùng một đại lượng; 两倍 có nghĩa nhân hai, không tự là cộng hai đơn vị. Nhận diện chữ 倍 trong 倍; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "大盒子的容量是小盒子的两倍。",
+      "pinyin": "Dà hézi de róngliàng shì xiǎo hézi de liǎng bèi.",
+      "meaning": "Sức chứa hộp lớn bằng hai lần hộp nhỏ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l485-reminder2",
+      "type": "teaching",
+      "title": "超过 · vượt quá",
+      "text": "超过 chỉ lớn hơn một mốc/giới hạn; chưa hàm ý vi phạm nếu không có quy tắc kèm theo.",
+      "hanzi": "总重量不能超过十公斤。",
+      "pinyin": "Zǒng zhòngliàng bù néng chāoguò shí gōngjīn.",
+      "meaning": "Tổng khối lượng không được vượt mười kilôgam.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l485-reminder3",
+      "type": "teaching",
+      "title": "低 · thấp",
+      "text": "低 ở 价格低 là mức thấp, không dùng thay 矮 để nói chiều cao người trong mọi câu.",
+      "hanzi": "小盒子的价格比较低。",
+      "pinyin": "Xiǎo hézi de jiàgé bǐjiào dī.",
+      "meaning": "Giá hộp nhỏ tương đối thấp.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l485-reminder4",
+      "type": "teaching",
+      "title": "低于 · thấp hơn (mốc)",
+      "text": "低于 nhận mốc so sánh; cần cùng đơn vị, không so một giá tiền với một khối lượng.",
+      "hanzi": "这个价格低于我的预算。",
+      "pinyin": "Zhège jiàgé dīyú wǒ de yùsuàn.",
+      "meaning": "Giá này thấp hơn ngân sách của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l485-reminder5",
+      "type": "teaching",
+      "title": "够 · đủ",
+      "text": "够 nói đạt lượng cần trong ngữ cảnh; không tự có nghĩa dư thừa.",
+      "hanzi": "两个小盒子就够了。",
+      "pinyin": "Liǎng ge xiǎo hézi jiù gòu le.",
+      "meaning": "Hai hộp nhỏ là đủ rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l485-reminder6",
+      "type": "teaching",
+      "title": "不够 · không đủ",
+      "text": "不够 là chưa đạt mức cần; bài hỏi đúng dạng hai chữ, không chỉ một tiếng phủ định.",
+      "hanzi": "一个小盒子不够装这些书。",
+      "pinyin": "Yí ge xiǎo hézi búgòu zhuāng zhèxiē shū.",
+      "meaning": "Một hộp nhỏ không đủ đựng số sách này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l485-reminder7",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "A是B的两倍 nói A bằng hai lần B. Không nhầm với 比B多两倍 là thêm hai lần B. Bài dùng số hư cấu, luôn nêu đơn vị và cùng đại lượng để so sánh.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l485-reminder8",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "店员说明：大盒子能装二十本同样的书，小盒子能装十本，所以前者容量是后者的两倍。小方有十五本书，一个小盒子不够，两个就够。她还确认总重量不超过规定，并选择低于预算的价格。",
+      "pinyin": "Diànyuán shuōmíng: Dà hézi néng zhuāng èrshí běn tóngyàng de shū, xiǎo hézi néng zhuāng shí běn, suǒyǐ qiánzhě róngliàng shì hòuzhě de liǎng bèi. Xiǎo Fāng yǒu shíwǔ běn shū, yí ge xiǎo hézi búgòu, liǎng ge jiù gòu. Tā hái quèrèn zǒng zhòngliàng bù chāoguò guīdìng, bìng xuǎnzé dīyú yùsuàn de jiàgé.",
+      "meaning": "Hộp lớn đựng 20 quyển cùng loại, hộp nhỏ 10; tỷ lệ sức chứa là hai lần. Phương có 15 quyển nên cần hai hộp nhỏ nếu chọn loại nhỏ.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l485-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l485-e0"
+    },
+    {
+      "id": "l485-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l485-e1"
+    },
+    {
+      "id": "l485-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l485-e2"
+    },
+    {
+      "id": "l485-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l485-e3"
+    },
+    {
+      "id": "l485-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l485-e4"
+    },
+    {
+      "id": "l485-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l485-e5"
+    },
+    {
+      "id": "l485-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l485-e6"
+    },
+    {
+      "id": "l485-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l485-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l485-e0",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l425-c0",
+      "senseId": "l425-v-1023-sense",
+      "keyRef": "l485-k0",
+      "prompt": "Ôn cách đọc 倍 trong nghĩa “lần (bội số)”.",
+      "choices": [],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l485-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l425-c1",
+      "senseId": "l425-v-1074-sense",
+      "keyRef": "l485-k1",
+      "prompt": "Ôn trong phạm vi nghĩa đã học · Ghi pinyin của 超过 trong câu “总重量不能超过十公斤。”, theo nghĩa “vượt quá”.",
+      "choices": [],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l485-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l425-c2",
+      "senseId": "l425-v-1149-sense",
+      "keyRef": "l485-k2",
+      "prompt": "Ôn cách đọc 低 trong nghĩa “thấp”.",
+      "choices": [],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l485-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l425-c3",
+      "senseId": "l425-v-1152-sense",
+      "keyRef": "l485-k3",
+      "prompt": "Ôn trong phạm vi nghĩa đã học · Chọn mục từ của bài có nghĩa “thấp hơn (mốc)” để điền câu: 这个价格□我的预算。",
+      "choices": [
+        "低",
+        "低于",
+        "够",
+        "不够",
+        "倍",
+        "超过"
+      ],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l485-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l425-c4",
+      "senseId": "l425-v-1260-sense",
+      "keyRef": "l485-k4",
+      "prompt": "Ôn cách đọc 够 trong nghĩa “đủ”.",
+      "choices": [],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l485-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l425-c5",
+      "senseId": "l425-v-1046-sense",
+      "keyRef": "l485-k5",
+      "prompt": "Ôn trong phạm vi nghĩa đã học · Điền đúng mục từ của bài vào □, nghĩa “không đủ”: 一个小盒子□装这些书。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l485-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l425-c0",
+      "senseId": "l425-v-1023-sense",
+      "keyRef": "l485-k6",
+      "prompt": "Đọc lại ngữ cảnh nhắc dưới đây · Nếu chọn hộp nhỏ, Phương cần tối thiểu bao nhiêu hộp?",
+      "choices": [
+        "三倍价格的盒子",
+        "两个",
+        "一个"
+      ],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l485-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l425-c0",
+      "senseId": "l425-v-1023-sense",
+      "keyRef": "l485-k7",
+      "prompt": "Đọc lại ngữ cảnh nhắc dưới đây · Xếp phép so sánh sức chứa đúng đoạn, bắt đầu bằng 大盒子的容量.",
+      "choices": [
+        "小盒子的",
+        "是",
+        "两倍",
+        "大盒子的容量"
+      ],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l485-k0",
+      "version": 1,
+      "exerciseVersionId": "l485-e0",
+      "senseId": "l425-v-1023-sense",
+      "accepted": [
+        "bèi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc bèi, đúng nghĩa đã học."
+    },
+    {
+      "id": "l485-k1",
+      "version": 1,
+      "exerciseVersionId": "l485-e1",
+      "senseId": "l425-v-1074-sense",
+      "accepted": [
+        "chāo guò"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc chāo guò. 超过 chỉ lớn hơn một mốc/giới hạn; chưa hàm ý vi phạm nếu không có quy tắc kèm theo."
+    },
+    {
+      "id": "l485-k2",
+      "version": 1,
+      "exerciseVersionId": "l485-e2",
+      "senseId": "l425-v-1149-sense",
+      "accepted": [
+        "dī"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc dī, đúng nghĩa đã học."
+    },
+    {
+      "id": "l485-k3",
+      "version": 1,
+      "exerciseVersionId": "l485-e3",
+      "senseId": "l425-v-1152-sense",
+      "accepted": [
+        "低于"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "低于: thấp hơn (mốc). 低于 nhận mốc so sánh; cần cùng đơn vị, không so một giá tiền với một khối lượng. Giá này thấp hơn ngân sách của tôi."
+    },
+    {
+      "id": "l485-k4",
+      "version": 1,
+      "exerciseVersionId": "l485-e4",
+      "senseId": "l425-v-1260-sense",
+      "accepted": [
+        "gòu"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc gòu, đúng nghĩa đã học."
+    },
+    {
+      "id": "l485-k5",
+      "version": 1,
+      "exerciseVersionId": "l485-e5",
+      "senseId": "l425-v-1046-sense",
+      "accepted": [
+        "不够"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 不够. 不够 là chưa đạt mức cần; bài hỏi đúng dạng hai chữ, không chỉ một tiếng phủ định. Một hộp nhỏ không đủ đựng số sách này."
+    },
+    {
+      "id": "l485-k6",
+      "version": 1,
+      "exerciseVersionId": "l485-e6",
+      "senseId": "l425-v-1023-sense",
+      "accepted": [
+        "两个"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 两个. Hộp lớn đựng 20 quyển cùng loại, hộp nhỏ 10; tỷ lệ sức chứa là hai lần. Phương có 15 quyển nên cần hai hộp nhỏ nếu chọn loại nhỏ."
+    },
+    {
+      "id": "l485-k7",
+      "version": 1,
+      "exerciseVersionId": "l485-e7",
+      "senseId": "l425-v-1023-sense",
+      "accepted": [
+        "3,1,0,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. A是B的两倍 nói A bằng hai lần B. Không nhầm với 比B多两倍 là thêm hai lần B. Bài dùng số hư cấu, luôn nêu đơn vị và cùng đại lượng để so sánh."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

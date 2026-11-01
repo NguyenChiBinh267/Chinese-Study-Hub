@@ -1,0 +1,817 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "2cd8a6418d9bff65fa4f0ac9f2c643ecd995036da259807c589b57c78f3c5a16",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ebf",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L415",
+    "version": 2,
+    "versionId": "l415-draft-v2",
+    "title": "Mô tả vị trí khó chịu trong hội thoại tiếp nhận",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Mô tả vị trí khó chịu trong hội thoại tiếp nhận; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "当"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 22,
+      "physicalPage": 23,
+      "printedPage": 20,
+      "section": "task",
+      "entry": "八"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T17:03:41.246Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-health",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 22,
+          "physicalPage": 23,
+          "printedPage": 20,
+          "section": "task",
+          "entry": "八"
+        },
+        "written": "谈论就医情况、健康生活",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-f72fa0407681",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "就医"
+        },
+        "written": "就医",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l415-v-1125",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 107,
+          "physicalPage": 108,
+          "printedPage": 105,
+          "section": "vocabulary",
+          "entry": "ordinal 1125"
+        },
+        "written": "大夫",
+        "pinyin": "dàifu",
+        "senseId": "l415-v-1125-sense",
+        "ordinal": 1125,
+        "note": "4 dàifu 名; 大夫 ở đây đọc dàifu với âm 夫 nhẹ; không dùng cách đọc chức quan cổ dàfū. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l415-v-1300",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 111,
+          "physicalPage": 112,
+          "printedPage": 109,
+          "section": "vocabulary",
+          "entry": "ordinal 1300"
+        },
+        "written": "护士",
+        "pinyin": "hùshi",
+        "senseId": "l415-v-1300-sense",
+        "ordinal": 1300,
+        "note": "4 hùshi 名; 护士 đọc hùshi trong từ điển nguồn; ở đây chỉ người tiếp nhận và hỏi thông tin. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l415-v-1122",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 107,
+          "physicalPage": 108,
+          "printedPage": 105,
+          "section": "vocabulary",
+          "entry": "ordinal 1122"
+        },
+        "written": "打针",
+        "pinyin": "dǎzhēn",
+        "senseId": "l415-v-1122-sense",
+        "ordinal": 1122,
+        "note": "4 dǎzhēn 动; 打针 là cụm động–tân chỉ việc tiêm; việc nhắc từ này trong bài không có nghĩa ai cũng cần tiêm. Nhận diện chữ 针 trong 打针; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l415-v-1171",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1171"
+        },
+        "written": "肚子",
+        "pinyin": "dùzi",
+        "senseId": "l415-v-1171-sense",
+        "ordinal": 1171,
+        "note": "4 dùzi 名; 肚子 là cách gọi vùng bụng trong hội thoại; diễn tả đau bụng không xác định nguyên nhân. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l415-v-1241",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 110,
+          "physicalPage": 111,
+          "printedPage": 108,
+          "section": "vocabulary",
+          "entry": "ordinal 1241"
+        },
+        "written": "胳膊",
+        "pinyin": "gēbo",
+        "senseId": "l415-v-1241-sense",
+        "ordinal": 1241,
+        "note": "4 gēbo 名; 胳膊 đọc gēbo, âm 膊 nhẹ; không nhầm với riêng bàn tay 手. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l415-v-1027",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1027"
+        },
+        "written": "鼻子",
+        "pinyin": "bízi",
+        "senseId": "l415-v-1027-sense",
+        "ordinal": 1027,
+        "note": "4 bízi 名; 鼻子 là bộ phận mũi; bài luyện nhận diện từ trong lời mô tả, không suy ra bệnh từ triệu chứng. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-413",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "413"
+        },
+        "written": "针",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 413,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-58",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "58"
+        },
+        "written": "肚",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 58,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-86",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "86"
+        },
+        "written": "胳",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 86,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-19",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "19"
+        },
+        "written": "膊",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 19,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-12",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "12"
+        },
+        "written": "鼻",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 12,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-415",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 394,
+          "physicalPage": 395,
+          "printedPage": 392,
+          "section": "grammar",
+          "entry": "介词：引出时间，当"
+        },
+        "written": "当",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l415-c0",
+      "version": 1,
+      "senseId": "l415-v-1125-sense",
+      "hanzi": "大夫",
+      "dictionaryPinyin": "dài fu",
+      "meaning": "bác sĩ (cách gọi dàifu)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l415-v-1125"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l415-c1",
+      "version": 1,
+      "senseId": "l415-v-1300-sense",
+      "hanzi": "护士",
+      "dictionaryPinyin": "hù shi",
+      "meaning": "điều dưỡng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l415-v-1300"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l415-c2",
+      "version": 1,
+      "senseId": "l415-v-1122-sense",
+      "hanzi": "打针",
+      "dictionaryPinyin": "dǎ zhēn",
+      "meaning": "tiêm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l415-v-1122"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l415-c3",
+      "version": 1,
+      "senseId": "l415-v-1171-sense",
+      "hanzi": "肚子",
+      "dictionaryPinyin": "dù zi",
+      "meaning": "bụng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l415-v-1171"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l415-c4",
+      "version": 1,
+      "senseId": "l415-v-1241-sense",
+      "hanzi": "胳膊",
+      "dictionaryPinyin": "gē bo",
+      "meaning": "cánh tay",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l415-v-1241"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l415-c5",
+      "version": 1,
+      "senseId": "l415-v-1027-sense",
+      "hanzi": "鼻子",
+      "dictionaryPinyin": "bí zi",
+      "meaning": "mũi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l415-v-1027"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l415-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 病人 bìngrén: người bệnh; 抬 tái: nâng; 陪 péi: đi cùng; 诊断 zhěnduàn: chẩn đoán; 是否 shìfǒu: có hay không. Không dùng câu hư cấu này để quyết định chăm sóc sức khỏe.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l415-t0",
+      "type": "teaching",
+      "title": "大夫 · bác sĩ (cách gọi dàifu)",
+      "text": "大夫 ở đây đọc dàifu với âm 夫 nhẹ; không dùng cách đọc chức quan cổ dàfū.",
+      "hanzi": "这位大夫正在听病人说明情况。",
+      "pinyin": "Zhè wèi dàifu zhèngzài tīng bìngrén shuōmíng qíngkuàng.",
+      "meaning": "Vị bác sĩ này đang nghe bệnh nhân trình bày.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l415-t1",
+      "type": "teaching",
+      "title": "护士 · điều dưỡng",
+      "text": "护士 đọc hùshi trong từ điển nguồn; ở đây chỉ người tiếp nhận và hỏi thông tin.",
+      "hanzi": "护士请他先坐下。",
+      "pinyin": "Hùshi qǐng tā xiān zuò xià.",
+      "meaning": "Điều dưỡng mời anh ấy ngồi xuống trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l415-t2",
+      "type": "teaching",
+      "title": "打针 · tiêm",
+      "text": "打针 là cụm động–tân chỉ việc tiêm; việc nhắc từ này trong bài không có nghĩa ai cũng cần tiêm. Nhận diện chữ 针 trong 打针; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "孩子问今天要不要打针。",
+      "pinyin": "Háizi wèn jīntiān yào bu yào dǎzhēn.",
+      "meaning": "Đứa trẻ hỏi hôm nay có phải tiêm không.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l415-t3",
+      "type": "teaching",
+      "title": "肚子 · bụng",
+      "text": "肚子 là cách gọi vùng bụng trong hội thoại; diễn tả đau bụng không xác định nguyên nhân.",
+      "hanzi": "他指着肚子说这里不舒服。",
+      "pinyin": "Tā zhǐ zhe dùzi shuō zhèlǐ bù shūfu.",
+      "meaning": "Anh ấy chỉ bụng nói chỗ này khó chịu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l415-t4",
+      "type": "teaching",
+      "title": "胳膊 · cánh tay",
+      "text": "胳膊 đọc gēbo, âm 膊 nhẹ; không nhầm với riêng bàn tay 手.",
+      "hanzi": "他把左边的胳膊抬起来。",
+      "pinyin": "Tā bǎ zuǒbian de gēbo tái qǐlái.",
+      "meaning": "Anh ấy giơ cánh tay trái lên.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l415-t5",
+      "type": "teaching",
+      "title": "鼻子 · mũi",
+      "text": "鼻子 là bộ phận mũi; bài luyện nhận diện từ trong lời mô tả, không suy ra bệnh từ triệu chứng.",
+      "hanzi": "她说鼻子有点儿不舒服。",
+      "pinyin": "Tā shuō bízi yǒudiǎnr bù shūfu.",
+      "meaning": "Cô ấy nói mũi hơi khó chịu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l415-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "当+người/sự việc+thời điểm diễn ra nêu bối cảnh thời gian: 当护士问他时，他指了指胳膊. Không phải nghĩa 担任 làm nghề của 当. Bài chỉ luyện mô tả, không chẩn đoán hay hướng dẫn điều trị.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l415-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小田陪孩子到医院。孩子问要不要打针，护士说先请大夫了解情况。当护士问哪里不舒服时，孩子指了指鼻子，又说胳膊没事、肚子也不疼。段落没有给出诊断，也没有说最后是否打针。",
+      "pinyin": "Xiǎo Tián péi háizi dào yīyuàn. Háizi wèn yào bu yào dǎzhēn, hùshi shuō xiān qǐng dàifu liǎojiě qíngkuàng. Dāng hùshi wèn nǎlǐ bù shūfu shí, háizi zhǐ le zhǐ bízi, yòu shuō gēbo méi shì, dùzi yě bù téng. Duànluò méiyǒu gěi chū zhěnduàn, yě méiyǒu shuō zuìhòu shìfǒu dǎzhēn.",
+      "meaning": "Điều dưỡng hỏi chỗ khó chịu. Trẻ chỉ mũi và nói tay, bụng không sao. Chưa có kết luận chẩn đoán hay quyết định tiêm.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l415-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l415-v2-e0"
+    },
+    {
+      "id": "l415-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l415-v2-e1"
+    },
+    {
+      "id": "l415-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l415-v2-e2"
+    },
+    {
+      "id": "l415-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l415-v2-e3"
+    },
+    {
+      "id": "l415-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l415-v2-e4"
+    },
+    {
+      "id": "l415-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l415-v2-e5"
+    },
+    {
+      "id": "l415-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l415-v2-e6"
+    },
+    {
+      "id": "l415-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l415-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l415-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l415-c0",
+      "senseId": "l415-v-1125-sense",
+      "keyRef": "l415-v2-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “bác sĩ (cách gọi dàifu)” để điền câu: 这位□正在听病人说明情况。",
+      "choices": [
+        "护士",
+        "打针",
+        "肚子",
+        "胳膊",
+        "鼻子",
+        "大夫"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l415-v2-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l415-c1",
+      "senseId": "l415-v-1300-sense",
+      "keyRef": "l415-v2-k1",
+      "prompt": "Ghi pinyin của 护士 trong câu “护士请他先坐下。”, theo nghĩa “điều dưỡng”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l415-v2-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l415-c2",
+      "senseId": "l415-v-1122-sense",
+      "keyRef": "l415-v2-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “tiêm”: 打□ (dǎ zhēn). Ngữ cảnh: 孩子问今天要不要□。",
+      "choices": [
+        "钎",
+        "针",
+        "钉",
+        "钟"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l415-v2-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l415-c3",
+      "senseId": "l415-v-1171-sense",
+      "keyRef": "l415-v2-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “bụng” để điền câu: 他指着□说这里不舒服。",
+      "choices": [
+        "胳膊",
+        "鼻子",
+        "大夫",
+        "护士",
+        "打针",
+        "肚子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l415-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l415-c4",
+      "senseId": "l415-v-1241-sense",
+      "keyRef": "l415-v2-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “cánh tay” để điền câu: 他把左边的□抬起来。",
+      "choices": [
+        "鼻子",
+        "大夫",
+        "护士",
+        "打针",
+        "肚子",
+        "胳膊"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l415-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l415-c5",
+      "senseId": "l415-v-1027-sense",
+      "keyRef": "l415-v2-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “mũi”: 她说□有点儿不舒服。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l415-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l415-c0",
+      "senseId": "l415-v-1125-sense",
+      "keyRef": "l415-v2-k6",
+      "prompt": "Đoạn cho biết chắc điều gì?",
+      "choices": [
+        "孩子已经打针",
+        "大夫已经作出诊断",
+        "孩子指了指鼻子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l415-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l415-c3",
+      "senseId": "l415-v-1171-sense",
+      "keyRef": "l415-v2-k7",
+      "prompt": "Xếp bối cảnh thời gian, bắt đầu bằng 当护士问他时.",
+      "choices": [
+        "鼻子",
+        "当护士问他时",
+        "他",
+        "指了指"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l415-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l415-v2-e0",
+      "senseId": "l415-v-1125-sense",
+      "accepted": [
+        "大夫"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "大夫: bác sĩ (cách gọi dàifu). 大夫 ở đây đọc dàifu với âm 夫 nhẹ; không dùng cách đọc chức quan cổ dàfū. Vị bác sĩ này đang nghe bệnh nhân trình bày."
+    },
+    {
+      "id": "l415-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l415-v2-e1",
+      "senseId": "l415-v-1300-sense",
+      "accepted": [
+        "hù shi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc hù shi. 护士 đọc hùshi trong từ điển nguồn; ở đây chỉ người tiếp nhận và hỏi thông tin."
+    },
+    {
+      "id": "l415-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l415-v2-e2",
+      "senseId": "l415-v-1122-sense",
+      "accepted": [
+        "针"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 针 tạo từ 打针. 打针 là cụm động–tân chỉ việc tiêm; việc nhắc từ này trong bài không có nghĩa ai cũng cần tiêm. Nhận diện chữ 针 trong 打针; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l415-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l415-v2-e3",
+      "senseId": "l415-v-1171-sense",
+      "accepted": [
+        "肚子"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "肚子: bụng. 肚子 là cách gọi vùng bụng trong hội thoại; diễn tả đau bụng không xác định nguyên nhân. Anh ấy chỉ bụng nói chỗ này khó chịu."
+    },
+    {
+      "id": "l415-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l415-v2-e4",
+      "senseId": "l415-v-1241-sense",
+      "accepted": [
+        "胳膊"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "胳膊: cánh tay. 胳膊 đọc gēbo, âm 膊 nhẹ; không nhầm với riêng bàn tay 手. Anh ấy giơ cánh tay trái lên."
+    },
+    {
+      "id": "l415-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l415-v2-e5",
+      "senseId": "l415-v-1027-sense",
+      "accepted": [
+        "鼻子"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 鼻子. 鼻子 là bộ phận mũi; bài luyện nhận diện từ trong lời mô tả, không suy ra bệnh từ triệu chứng. Cô ấy nói mũi hơi khó chịu."
+    },
+    {
+      "id": "l415-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l415-v2-e6",
+      "senseId": "l415-v-1125-sense",
+      "accepted": [
+        "孩子指了指鼻子"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 孩子指了指鼻子. Điều dưỡng hỏi chỗ khó chịu. Trẻ chỉ mũi và nói tay, bụng không sao. Chưa có kết luận chẩn đoán hay quyết định tiêm."
+    },
+    {
+      "id": "l415-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l415-v2-e7",
+      "senseId": "l415-v-1171-sense",
+      "accepted": [
+        "1,2,3,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 当+người/sự việc+thời điểm diễn ra nêu bối cảnh thời gian: 当护士问他时，他指了指胳膊. Không phải nghĩa 担任 làm nghề của 当. Bài chỉ luyện mô tả, không chẩn đoán hay hướng dẫn điều trị."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

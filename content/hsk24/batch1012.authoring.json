@@ -1,0 +1,907 @@
+{
+  "batch": "HSK1-batch12",
+  "targetLevel": 1,
+  "sourceCheckedAt": "2026-10-30T15:17:43.136427Z",
+  "lessons": [
+    {
+      "id": "L156",
+      "unit": "hsk-one-bc",
+      "unitTitle": "Mua sắm đơn giản",
+      "title": "Mua đồ ăn sáng",
+      "objective": "Mua đồ ăn sáng; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-156",
+        "数量短语",
+        386,
+        "g-386-5",
+        "Số + lượng từ + danh từ tạo cụm số lượng như 一个苹果/三个鸡蛋. 水果 là loại thực phẩm, 苹果 là một loại quả; 面包 và 鸡蛋 không tự thuộc nhóm trái cây. Ví dụ không yêu cầu suy dinh dưỡng hoặc nhận món từ ảnh không có."
+      ],
+      "task": [
+        "h1-task-food",
+        "问答饮食喜好",
+        5,
+        "七"
+      ],
+      "topic": [
+        "h1-topic-b044c64322e4",
+        "食物饮品",
+        58,
+        "食物饮品"
+      ],
+      "words": [
+        [
+          "水果",
+          "shuǐ guǒ",
+          "trái cây; hoa quả",
+          "水果 là tên nhóm, không phải tên riêng một quả nhất định.",
+          "我喜欢水果。",
+          "Wǒ xǐ huan shuǐ guǒ.",
+          "Tôi thích trái cây."
+        ],
+        [
+          "苹果",
+          "píng guǒ",
+          "táo",
+          "苹果 là một loại trái cây; lượng từ 个 được dùng trong ví dụ đếm này.",
+          "我有一个苹果。",
+          "Wǒ yǒu yí ge píng guǒ.",
+          "Tôi có một quả táo."
+        ],
+        [
+          "面包",
+          "miàn bāo",
+          "bánh mì",
+          "面包 là bánh mì, không phải 面条儿 mì sợi dù cùng có chữ 面.",
+          "我吃面包。",
+          "Wǒ chī miàn bāo.",
+          "Tôi ăn bánh mì."
+        ],
+        [
+          "鸡蛋",
+          "jī dàn",
+          "trứng gà",
+          "鸡蛋 nói trứng gà; câu này đếm quả trứng bằng 个.",
+          "我有三个鸡蛋。",
+          "Wǒ yǒu sān ge jī dàn.",
+          "Tôi có ba quả trứng gà."
+        ]
+      ],
+      "passage": [
+        "A：你喜欢水果吗？\nB：喜欢，我喜欢苹果。\nA：你有几个苹果？\nB：我有三个苹果。",
+        "A: Nǐ xǐ huan shuǐ guǒ ma? B: Xǐ huan, wǒ xǐ huan píng guǒ. A: Nǐ yǒu jǐ ge píng guǒ? B: Wǒ yǒu sān ge píng guǒ.",
+        "几个 jǐ ge = mấy cái/quả trong câu hỏi đếm. B có ba quả táo và thích táo; không suy số trứng hay bánh mì của B."
+      ],
+      "comprehension": [
+        "B nói có mấy quả táo?",
+        [
+          "三个",
+          "一个",
+          "五个"
+        ],
+        "三个",
+        "Theo đoạn: 三个. 几个 jǐ ge = mấy cái/quả trong câu hỏi đếm. B có ba quả táo và thích táo; không suy số trứng hay bánh mì của B."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "有",
+          "一个苹果。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "果",
+            "课",
+            "棵",
+            "颗"
+          ],
+          "accepted": [
+            "果"
+          ],
+          "feedback": "Chữ 果 tạo từ 水果. 水果 là tên nhóm, không phải tên riêng một quả nhất định. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 苹果 (táo).",
+          "choices": [],
+          "accepted": [
+            "píng guǒ"
+          ],
+          "feedback": "苹果 ghi píng guǒ. 苹果 là một loại trái cây; lượng từ 个 được dùng trong ví dụ đếm này."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc miàn bāo, nghĩa “bánh mì”: 我吃□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "面包"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc miàn bāo: 面包. 面包 là bánh mì, không phải 面条儿 mì sợi dù cùng có chữ 面. Tôi ăn bánh mì."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc jī dàn, nghĩa “trứng gà”, trong câu: 我有三个□。",
+          "choices": [
+            "水果",
+            "苹果",
+            "面包",
+            "鸡蛋"
+          ],
+          "accepted": [
+            "鸡蛋"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc jī dàn: 鸡蛋. 鸡蛋 nói trứng gà; câu này đếm quả trứng bằng 个. Tôi có ba quả trứng gà."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我吃面包。”, 面包 mang nghĩa nào theo bài?",
+          "choices": [
+            "trái cây; hoa quả",
+            "táo",
+            "bánh mì",
+            "trứng gà"
+          ],
+          "accepted": [
+            "bánh mì"
+          ],
+          "feedback": "面包 là bánh mì, không phải 面条儿 mì sợi dù cùng có chữ 面. Tôi ăn bánh mì."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我有三个鸡蛋。”, 鸡蛋 mang nghĩa nào theo bài?",
+          "choices": [
+            "trái cây; hoa quả",
+            "táo",
+            "bánh mì",
+            "trứng gà"
+          ],
+          "accepted": [
+            "trứng gà"
+          ],
+          "feedback": "鸡蛋 nói trứng gà; câu này đếm quả trứng bằng 个. Tôi có ba quả trứng gà."
+        }
+      ],
+      "characterTargets": [
+        "果"
+      ]
+    },
+    {
+      "id": "L157",
+      "unit": "hsk-one-bc",
+      "unitTitle": "Mua sắm đơn giản",
+      "title": "Tìm nơi mua hàng",
+      "objective": "Tìm nơi mua hàng; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-157",
+        "处所+有+数量短语+名词",
+        386,
+        "g-386-28",
+        "Chỗ + 有 + số lượng + danh từ nói ở đó có gì: 这里有一家书店. 家 trong 一家书店 là lượng từ cho cửa hàng, khác nghĩa nhà/gia đình trong 我家. 商店/店 là từ chung, 超市/书店 là loại địa điểm cụ thể; không suy cửa hàng thật chỉ bán duy nhất một mặt hàng."
+      ],
+      "task": [
+        "h1-task-shop",
+        "问答商品信息",
+        6,
+        "九"
+      ],
+      "topic": [
+        "h1-topic-1bb4e669b60c",
+        "商品名称",
+        58,
+        "商品名称"
+      ],
+      "words": [
+        [
+          "商店",
+          "shāng diàn",
+          "cửa hàng (dạng shāngdiàn)",
+          "商店 là tên chung của cửa hàng; đề nêu âm để phân biệt với mục một chữ 店.",
+          "我去商店。",
+          "Wǒ qù shāng diàn.",
+          "Tôi đến cửa hàng."
+        ],
+        [
+          "超市",
+          "chāo shì",
+          "siêu thị",
+          "超市 là siêu thị; tên không cho biết địa chỉ, quy mô hoặc mọi mặt hàng thực tế.",
+          "那是超市。",
+          "Nà shì chāo shì.",
+          "Kia là siêu thị."
+        ],
+        [
+          "店",
+          "diàn",
+          "tiệm; cửa hàng (dạng diàn)",
+          "店 là mục một chữ; trong 我的店 nói tiệm của tôi ở tình huống hư cấu.",
+          "这是我的店。",
+          "Zhè shì wǒ de diàn.",
+          "Đây là tiệm của tôi."
+        ],
+        [
+          "书店",
+          "shū diàn",
+          "hiệu sách; nhà sách",
+          "书店 là cửa hàng sách, khác bản thân một quyển sách.",
+          "这里有一家书店。",
+          "Zhè lǐ yǒu yì jiā shū diàn.",
+          "Ở đây có một hiệu sách."
+        ]
+      ],
+      "passage": [
+        "A：这里有书店吗？\nB：有，这里有一家书店。\nA：超市在哪儿？\nB：在那边。",
+        "A: Zhè lǐ yǒu shū diàn ma? B: Yǒu, zhè lǐ yǒu yì jiā shū diàn. A: Chāo shì zài nǎr? B: Zài nà biān.",
+        "B xác nhận ở đây có một hiệu sách, còn siêu thị ở bên kia; không có địa chỉ thật hay yêu cầu đi mua hàng."
+      ],
+      "comprehension": [
+        "B nói ở đây có gì?",
+        [
+          "一家书店",
+          "三家医院",
+          "一所学校"
+        ],
+        "一家书店",
+        "Theo đoạn: 一家书店. B xác nhận ở đây có một hiệu sách, còn siêu thị ở bên kia; không có địa chỉ thật hay yêu cầu đi mua hàng."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "这里",
+          "有",
+          "一家书店。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "商",
+            "高",
+            "亮",
+            "京"
+          ],
+          "accepted": [
+            "商"
+          ],
+          "feedback": "Chữ 商 tạo từ 商店. 商店 là tên chung của cửa hàng; đề nêu âm để phân biệt với mục một chữ 店. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 超市 (siêu thị).",
+          "choices": [],
+          "accepted": [
+            "chāo shì"
+          ],
+          "feedback": "超市 ghi chāo shì. 超市 là siêu thị; tên không cho biết địa chỉ, quy mô hoặc mọi mặt hàng thực tế."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc diàn, nghĩa “tiệm; cửa hàng (dạng diàn)”: 这是我的□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "店"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc diàn: 店. 店 là mục một chữ; trong 我的店 nói tiệm của tôi ở tình huống hư cấu. Đây là tiệm của tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc shū diàn, nghĩa “hiệu sách; nhà sách”, trong câu: 这里有一家□。",
+          "choices": [
+            "商店",
+            "超市",
+            "店",
+            "书店"
+          ],
+          "accepted": [
+            "书店"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc shū diàn: 书店. 书店 là cửa hàng sách, khác bản thân một quyển sách. Ở đây có một hiệu sách."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “这是我的店。”, 店 mang nghĩa nào theo bài?",
+          "choices": [
+            "cửa hàng (dạng shāngdiàn)",
+            "siêu thị",
+            "tiệm; cửa hàng (dạng diàn)",
+            "hiệu sách; nhà sách"
+          ],
+          "accepted": [
+            "tiệm; cửa hàng (dạng diàn)"
+          ],
+          "feedback": "店 là mục một chữ; trong 我的店 nói tiệm của tôi ở tình huống hư cấu. Đây là tiệm của tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “这里有一家书店。”, 书店 mang nghĩa nào theo bài?",
+          "choices": [
+            "cửa hàng (dạng shāngdiàn)",
+            "siêu thị",
+            "tiệm; cửa hàng (dạng diàn)",
+            "hiệu sách; nhà sách"
+          ],
+          "accepted": [
+            "hiệu sách; nhà sách"
+          ],
+          "feedback": "书店 là cửa hàng sách, khác bản thân một quyển sách. Ở đây có một hiệu sách."
+        }
+      ],
+      "characterTargets": [
+        "商"
+      ]
+    },
+    {
+      "id": "L158",
+      "unit": "hsk-one-bc",
+      "unitTitle": "Mua sắm đơn giản",
+      "title": "Mua bán và giá cao",
+      "objective": "Mua bán và giá cao; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-158",
+        "正反问句",
+        386,
+        "g-386-22",
+        "Động từ/tính từ + 不 + chính từ đó tạo câu hỏi chính-phản như 买不买/贵不贵. Với mẫu này không thêm 吗 như câu hỏi có-không thông thường. 买 mǎi là mua, 卖 mài là bán; giữ thanh và chữ khác nhau. 贵 chỉ giá cao theo nhận xét trong câu, không phải giá thị trường thật."
+      ],
+      "task": [
+        "h1-task-shop",
+        "问答商品信息",
+        6,
+        "九"
+      ],
+      "topic": [
+        "h1-topic-463d570c15bd",
+        "商品价格",
+        58,
+        "商品价格"
+      ],
+      "words": [
+        [
+          "买",
+          "mǎi",
+          "mua",
+          "买 là mua; khác 卖 bán cả chữ và thanh điệu.",
+          "我买书。",
+          "Wǒ mǎi shū.",
+          "Tôi mua sách."
+        ],
+        [
+          "卖",
+          "mài",
+          "bán",
+          "卖 là bán; không bỏ nét để biến thành 买 mua.",
+          "这家店卖书。",
+          "Zhè jiā diàn mài shū.",
+          "Tiệm này bán sách."
+        ],
+        [
+          "钱",
+          "qián",
+          "tiền",
+          "钱 là tiền trong câu; không tự có số tiền hoặc loại tiền nếu chưa nêu.",
+          "我没有钱。",
+          "Wǒ méi yǒu qián.",
+          "Tôi không có tiền."
+        ],
+        [
+          "贵",
+          "guì",
+          "đắt; giá cao",
+          "贵 là nhận xét giá trong tình huống, không phải báo giá đã kiểm chứng của một cuốn sách thật.",
+          "这本书很贵。",
+          "Zhè běn shū hěn guì.",
+          "Quyển sách này đắt."
+        ]
+      ],
+      "passage": [
+        "A：这本书贵不贵？\nB：很贵。\nA：你买不买？\nB：我不买这本，我买那本。",
+        "A: Zhè běn shū guì bu guì? B: Hěn guì. A: Nǐ mǎi bu mǎi? B: Wǒ bù mǎi zhè běn, wǒ mǎi nà běn.",
+        "B nhận xét quyển này đắt và chọn quyển kia. 不 trong câu hỏi chính-phản có thể nhẹ; pinyin mục 不 riêng vẫn bù."
+      ],
+      "comprehension": [
+        "B chọn mua quyển nào?",
+        [
+          "那本",
+          "这本",
+          "Không chọn quyển nào"
+        ],
+        "那本",
+        "Theo đoạn: 那本. B nhận xét quyển này đắt và chọn quyển kia. 不 trong câu hỏi chính-phản có thể nhẹ; pinyin mục 不 riêng vẫn bù."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "这本书",
+          "很",
+          "贵。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "买",
+            "卖",
+            "头",
+            "实"
+          ],
+          "accepted": [
+            "买"
+          ],
+          "feedback": "Chữ 买 tạo từ 买. 买 là mua; khác 卖 bán cả chữ và thanh điệu. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 卖 (bán).",
+          "choices": [],
+          "accepted": [
+            "mài"
+          ],
+          "feedback": "卖 ghi mài. 卖 là bán; không bỏ nét để biến thành 买 mua."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc qián, nghĩa “tiền”: 我没有□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "钱"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc qián: 钱. 钱 là tiền trong câu; không tự có số tiền hoặc loại tiền nếu chưa nêu. Tôi không có tiền."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc guì, nghĩa “đắt; giá cao”, trong câu: 这本书很□。",
+          "choices": [
+            "买",
+            "卖",
+            "钱",
+            "贵"
+          ],
+          "accepted": [
+            "贵"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc guì: 贵. 贵 là nhận xét giá trong tình huống, không phải báo giá đã kiểm chứng của một cuốn sách thật. Quyển sách này đắt."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我没有钱。”, 钱 mang nghĩa nào theo bài?",
+          "choices": [
+            "mua",
+            "bán",
+            "tiền",
+            "đắt; giá cao"
+          ],
+          "accepted": [
+            "tiền"
+          ],
+          "feedback": "钱 là tiền trong câu; không tự có số tiền hoặc loại tiền nếu chưa nêu. Tôi không có tiền."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “这本书很贵。”, 贵 mang nghĩa nào theo bài?",
+          "choices": [
+            "mua",
+            "bán",
+            "tiền",
+            "đắt; giá cao"
+          ],
+          "accepted": [
+            "đắt; giá cao"
+          ],
+          "feedback": "贵 là nhận xét giá trong tình huống, không phải báo giá đã kiểm chứng của một cuốn sách thật. Quyển sách này đắt."
+        }
+      ],
+      "characterTargets": [
+        "买"
+      ]
+    },
+    {
+      "id": "L159",
+      "unit": "hsk-one-bc",
+      "unitTitle": "Mua sắm đơn giản",
+      "title": "Hỏi giá và chọn món vừa túi",
+      "objective": "Hỏi giá và chọn món vừa túi; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-159",
+        "钱数表示法",
+        387,
+        "g-387-9",
+        "多少钱 hỏi giá bao nhiêu tiền. Trong ví dụ nhân dân tệ, 元 là tên đơn vị thường ghi viết, 块 là cách nói thường dùng cho cùng đơn vị; không đưa tỷ giá hoặc yêu cầu giao dịch. 便宜 là rẻ theo tình huống. Các đề từ vựng chỉ rõ âm để phân biệt từ gần nghĩa."
+      ],
+      "task": [
+        "h1-task-shop",
+        "问答商品信息",
+        6,
+        "九"
+      ],
+      "topic": [
+        "h1-topic-463d570c15bd",
+        "商品价格",
+        58,
+        "商品价格"
+      ],
+      "words": [
+        [
+          "便宜",
+          "pián yi",
+          "rẻ; không đắt",
+          "便宜 trong ví dụ đọc pián yi, không dùng biàn theo một nghĩa khác của chữ 便.",
+          "这本书很便宜。",
+          "Zhè běn shū hěn pián yi.",
+          "Quyển sách này rẻ."
+        ],
+        [
+          "元",
+          "yuán",
+          "đồng/nguyên (đơn vị yuán trong ví dụ)",
+          "元 trong 十元 là đơn vị tiền của ví dụ, không phải tỷ giá hay báo giá thật.",
+          "这本书十元。",
+          "Zhè běn shū shí yuán.",
+          "Quyển sách này10nguyên trong truyện."
+        ],
+        [
+          "块",
+          "kuài",
+          "đồng (cách nói kuài trong ví dụ)",
+          "块 ở đây là cách nói đơn vị tiền, khác mọi nghĩa khối/miếng ở ngữ cảnh khác.",
+          "这本书十块钱。",
+          "Zhè běn shū shí kuài qián.",
+          "Quyển sách này10đồng trong truyện."
+        ],
+        [
+          "多少",
+          "duō shao",
+          "bao nhiêu (dạng duōshao)",
+          "多少 hỏi số lượng/giá; trong 多少钱 là giá bao nhiêu tiền.",
+          "这本书多少钱？",
+          "Zhè běn shū duō shao qián?",
+          "Quyển sách này bao nhiêu tiền?"
+        ]
+      ],
+      "passage": [
+        "A：这本书多少钱？\nB：十块钱。\nA：贵吗？\nB：不贵，很便宜。",
+        "A: Zhè běn shū duō shao qián? B: Shí kuài qián. A: Guì ma? B: Bú guì, hěn pián yi.",
+        "Giá10đồng là giá hư cấu bằng đơn vị nhân dân tệ của bài; B nói không đắt. Không có tỷ giá, giá thật hay thao tác mua."
+      ],
+      "comprehension": [
+        "Giá được B nói là bao nhiêu?",
+        [
+          "十块钱",
+          "三块钱",
+          "五块钱"
+        ],
+        "十块钱",
+        "Theo đoạn: 十块钱. Giá10đồng là giá hư cấu bằng đơn vị nhân dân tệ của bài; B nói không đắt. Không có tỷ giá, giá thật hay thao tác mua."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "这本书",
+          "十块",
+          "钱。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc pián yi, nghĩa “rẻ; không đắt”, trong câu: 这本书很□。",
+          "choices": [
+            "便宜",
+            "元",
+            "块",
+            "多少"
+          ],
+          "accepted": [
+            "便宜"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc pián yi: 便宜. 便宜 trong ví dụ đọc pián yi, không dùng biàn theo một nghĩa khác của chữ 便. Quyển sách này rẻ."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 元 (đồng/nguyên (đơn vị yuán trong ví dụ)).",
+          "choices": [],
+          "accepted": [
+            "yuán"
+          ],
+          "feedback": "元 ghi yuán. 元 trong 十元 là đơn vị tiền của ví dụ, không phải tỷ giá hay báo giá thật."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "块",
+            "快",
+            "决",
+            "缺"
+          ],
+          "accepted": [
+            "块"
+          ],
+          "feedback": "Chữ 块 tạo từ 块. 块 ở đây là cách nói đơn vị tiền, khác mọi nghĩa khối/miếng ở ngữ cảnh khác. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc duō shao, nghĩa “bao nhiêu (dạng duōshao)”, trong câu: 这本书□钱？",
+          "choices": [
+            "便宜",
+            "元",
+            "块",
+            "多少"
+          ],
+          "accepted": [
+            "多少"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc duō shao: 多少. 多少 hỏi số lượng/giá; trong 多少钱 là giá bao nhiêu tiền. Quyển sách này bao nhiêu tiền?"
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “这本书十块钱。”, 块 mang nghĩa nào theo bài?",
+          "choices": [
+            "rẻ; không đắt",
+            "đồng/nguyên (đơn vị yuán trong ví dụ)",
+            "đồng (cách nói kuài trong ví dụ)",
+            "bao nhiêu (dạng duōshao)"
+          ],
+          "accepted": [
+            "đồng (cách nói kuài trong ví dụ)"
+          ],
+          "feedback": "块 ở đây là cách nói đơn vị tiền, khác mọi nghĩa khối/miếng ở ngữ cảnh khác. Quyển sách này10đồng trong truyện."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “这本书多少钱？”, 多少 mang nghĩa nào theo bài?",
+          "choices": [
+            "rẻ; không đắt",
+            "đồng/nguyên (đơn vị yuán trong ví dụ)",
+            "đồng (cách nói kuài trong ví dụ)",
+            "bao nhiêu (dạng duōshao)"
+          ],
+          "accepted": [
+            "bao nhiêu (dạng duōshao)"
+          ],
+          "feedback": "多少 hỏi số lượng/giá; trong 多少钱 là giá bao nhiêu tiền. Quyển sách này bao nhiêu tiền?"
+        }
+      ],
+      "characterTargets": [
+        "块"
+      ]
+    },
+    {
+      "id": "L160",
+      "unit": "hsk-one-bc",
+      "unitTitle": "Mua sắm đơn giản",
+      "title": "Quần áo và đồ dùng",
+      "objective": "Quần áo và đồ dùng; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-160",
+        "杯",
+        385,
+        "g-385-13",
+        "件 đếm một món quần áo trong 一件衣服. 杯 có thể là lượng từ mượn từ vật chứa: 一杯水 là một cốc nước; 杯子 là tên vật chiếc cốc. Đừng đồng nhất vật chứa với lượng nước hoặc coi mọi danh từ đều dùng 个."
+      ],
+      "task": [
+        "h1-task-shop",
+        "问答商品信息",
+        6,
+        "九"
+      ],
+      "topic": [
+        "h1-topic-a17cba74cc13",
+        "商品选购",
+        58,
+        "商品选购"
+      ],
+      "words": [
+        [
+          "衣服",
+          "yī fu",
+          "quần áo",
+          "衣服 gọi quần áo; 一件衣服 chỉ một món trong ví dụ, không phải toàn bộ tủ đồ.",
+          "我买衣服。",
+          "Wǒ mǎi yī fu.",
+          "Tôi mua quần áo."
+        ],
+        [
+          "穿",
+          "chuān",
+          "mặc; mang trên người",
+          "穿 trong 穿衣服 nói mặc quần áo; không thay bằng 吃/喝 trong mẫu này.",
+          "我穿衣服。",
+          "Wǒ chuān yī fu.",
+          "Tôi mặc quần áo."
+        ],
+        [
+          "件",
+          "jiàn",
+          "chiếc; món (lượng từ quần áo)",
+          "件 trong 一件衣服 là lượng từ đếm; không dịch thành một việc ở câu này.",
+          "我有一件衣服。",
+          "Wǒ yǒu yí jiàn yī fu.",
+          "Tôi có một món quần áo."
+        ],
+        [
+          "杯子",
+          "bēi zi",
+          "cốc; ly (vật chứa)",
+          "杯子 là chiếc cốc, không tự chỉ một lượng nước; 一杯水 là một cụm lượng khác.",
+          "我的杯子在桌子上。",
+          "Wǒ de bēi zi zài zhuō zi shang.",
+          "Cốc của tôi ở trên bàn."
+        ]
+      ],
+      "passage": [
+        "A：你买什么？\nB：我买一件衣服。\nA：这个杯子是你的吗？\nB：是，我想喝一杯水。",
+        "A: Nǐ mǎi shén me? B: Wǒ mǎi yí jiàn yī fu. A: Zhè ge bēi zi shì nǐ de ma? B: Shì, wǒ xiǎng hē yì bēi shuǐ.",
+        "B mua một món quần áo và nói chiếc cốc là của mình; B muốn một cốc nước. Đề không tự chấm việc viết tay hoặc lượng nước thực."
+      ],
+      "comprehension": [
+        "B nói mua gì?",
+        [
+          "一件衣服",
+          "一个杯子",
+          "一本书"
+        ],
+        "一件衣服",
+        "Theo đoạn: 一件衣服. B mua một món quần áo và nói chiếc cốc là của mình; B muốn một cốc nước. Đề không tự chấm việc viết tay hoặc lượng nước thực."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "这",
+          "是",
+          "我的杯子。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "衣",
+            "依",
+            "裳",
+            "袋"
+          ],
+          "accepted": [
+            "衣"
+          ],
+          "feedback": "Chữ 衣 tạo từ 衣服. 衣服 gọi quần áo; 一件衣服 chỉ một món trong ví dụ, không phải toàn bộ tủ đồ. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 穿 (mặc; mang trên người).",
+          "choices": [],
+          "accepted": [
+            "chuān"
+          ],
+          "feedback": "穿 ghi chuān. 穿 trong 穿衣服 nói mặc quần áo; không thay bằng 吃/喝 trong mẫu này."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc jiàn, nghĩa “chiếc; món (lượng từ quần áo)”: 我有一□衣服。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "件"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc jiàn: 件. 件 trong 一件衣服 là lượng từ đếm; không dịch thành một việc ở câu này. Tôi có một món quần áo."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc bēi zi, nghĩa “cốc; ly (vật chứa)”, trong câu: 我的□在桌子上。",
+          "choices": [
+            "衣服",
+            "穿",
+            "件",
+            "杯子"
+          ],
+          "accepted": [
+            "杯子"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc bēi zi: 杯子. 杯子 là chiếc cốc, không tự chỉ một lượng nước; 一杯水 là một cụm lượng khác. Cốc của tôi ở trên bàn."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我有一件衣服。”, 件 mang nghĩa nào theo bài?",
+          "choices": [
+            "quần áo",
+            "mặc; mang trên người",
+            "chiếc; món (lượng từ quần áo)",
+            "cốc; ly (vật chứa)"
+          ],
+          "accepted": [
+            "chiếc; món (lượng từ quần áo)"
+          ],
+          "feedback": "件 trong 一件衣服 là lượng từ đếm; không dịch thành một việc ở câu này. Tôi có một món quần áo."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我的杯子在桌子上。”, 杯子 mang nghĩa nào theo bài?",
+          "choices": [
+            "quần áo",
+            "mặc; mang trên người",
+            "chiếc; món (lượng từ quần áo)",
+            "cốc; ly (vật chứa)"
+          ],
+          "accepted": [
+            "cốc; ly (vật chứa)"
+          ],
+          "feedback": "杯子 là chiếc cốc, không tự chỉ một lượng nước; 一杯水 là một cụm lượng khác. Cốc của tôi ở trên bàn."
+        }
+      ],
+      "characterTargets": [
+        "衣"
+      ]
+    }
+  ]
+}

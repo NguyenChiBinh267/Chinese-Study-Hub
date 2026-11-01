@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "af27925c468b97ced5301c7ad9356d3b7881c96d08728d79342c3eabb3a8298d",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "foundation-slice",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "F01",
+    "version": 1,
+    "versionId": "f01-draft-v1",
+    "title": "Đọc bước đầu với pinyin",
+    "classification": "FOUNDATION_INTERNAL",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Hiểu pinyin ghi cách đọc, không phải bản dịch.",
+      "Nhận ra phần đầu và phần vần trong các âm tiết đã học.",
+      "Đọc đúng ký hiệu dấu thanh trong ví dụ viết; chưa đánh giá nghe/phát âm."
+    ],
+    "prerequisites": [],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "REVIEW_PENDING",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": null,
+    "targetLevel": null,
+    "alignmentStatus": "NOT_APPLICABLE",
+    "alignmentEvidence": [
+      "Internally authored foundation; no official HSK unit claim."
+    ],
+    "alignmentCheckedAt": "2026-10-17T14:28:19.608Z",
+    "sourceSnapshotSha256": null,
+    "taskReferences": [],
+    "topicReferences": [],
+    "vocabularyReferences": [],
+    "characterReferences": [],
+    "grammarReferences": []
+  },
+  "concepts": [
+    {
+      "id": "f01-ma",
+      "version": 1,
+      "senseId": "f01-sense-ma",
+      "hanzi": "妈",
+      "dictionaryPinyin": "mā",
+      "meaning": "mẹ",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f01-ni",
+      "version": 1,
+      "senseId": "f01-sense-ni",
+      "hanzi": "你",
+      "dictionaryPinyin": "nǐ",
+      "meaning": "bạn",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f01-nu",
+      "version": 1,
+      "senseId": "f01-sense-nu",
+      "hanzi": "女",
+      "dictionaryPinyin": "nǚ",
+      "meaning": "nữ",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "f01-draft-v1-b1",
+      "type": "teaching",
+      "title": "Pinyin là chiếc cầu để đọc chữ",
+      "text": "Chữ Hán biểu thị đơn vị ngôn ngữ; pinyin dùng chữ cái Latin và dấu thanh để ghi cách đọc tiếng Phổ thông. Nghĩa tiếng Việt là một phần riêng. Đọc mā không phải đọc theo quy tắc chữ Việt. Trong bài này mình quan sát ký hiệu, chưa kết luận bạn phát âm đúng.",
+      "hanzi": "妈",
+      "pinyin": "mā",
+      "meaning": "mẹ",
+      "readingMinutes": 2
+    },
+    {
+      "id": "f01-draft-v1-b2",
+      "type": "teaching",
+      "title": "Tách phần đầu và phần vần",
+      "text": "Trong mā, phần đầu viết là m và phần vần là a; dấu ngang đặt trên a. Trong nǐ, phần đầu viết là n và phần vần là i. Không phải âm tiết nào cũng có phụ âm đầu viết ra; ta bắt đầu bằng hai ví dụ đơn giản này.",
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "meaning": "bạn",
+      "readingMinutes": 2
+    },
+    {
+      "id": "f01-draft-v1-e1-block",
+      "type": "exercise",
+      "exerciseVersionId": "f01-draft-v1-e1"
+    },
+    {
+      "id": "f01-draft-v1-e2-block",
+      "type": "exercise",
+      "exerciseVersionId": "f01-draft-v1-e2"
+    },
+    {
+      "id": "f01-draft-v1-b5",
+      "type": "teaching",
+      "title": "Đọc cấu tạo thay vì đảo chữ",
+      "text": "nǐ có cấu tạo n + i, không phải i + n. Chỉ cần nhận ra thứ tự của ký hiệu trong ví dụ đã học. Chữ 你 có pinyin từ điển nǐ; dấu ǎ/ǐ là dấu thanh 3. Việc nghe và thực hiện thanh sẽ cần mẫu âm được duyệt.",
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "meaning": "bạn",
+      "readingMinutes": 2
+    },
+    {
+      "id": "f01-draft-v1-e3-block",
+      "type": "exercise",
+      "exerciseVersionId": "f01-draft-v1-e3"
+    },
+    {
+      "id": "f01-draft-v1-e4-block",
+      "type": "exercise",
+      "exerciseVersionId": "f01-draft-v1-e4"
+    },
+    {
+      "id": "f01-draft-v1-b8",
+      "type": "teaching",
+      "title": "Thử gõ ký hiệu",
+      "text": "Bạn có thể nhập nǐ hoặc ni3; server sẽ giữ thông tin thanh, không bỏ dấu để chấm. Chữ ü khác u. Trong ô nhập của ứng dụng, v được nhận như cách gõ thay ü: nv3 tương ứng nǚ. Đây chỉ là quy ước nhập liệu, không phải phát âm chữ v tiếng Việt.",
+      "hanzi": "女",
+      "pinyin": "nǚ",
+      "meaning": "nữ",
+      "readingMinutes": 2
+    },
+    {
+      "id": "f01-draft-v1-e5-block",
+      "type": "exercise",
+      "exerciseVersionId": "f01-draft-v1-e5"
+    },
+    {
+      "id": "f01-draft-v1-e6-block",
+      "type": "exercise",
+      "exerciseVersionId": "f01-draft-v1-e6"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "f01-draft-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "f01-ma",
+      "senseId": "f01-sense-ma",
+      "keyRef": "f01-draft-v1-e1-key-v1",
+      "prompt": "Trong mā, phần đầu được viết bằng chữ nào?",
+      "choices": [
+        "a",
+        "m",
+        "am"
+      ],
+      "inputHint": "Chọn một đáp án.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f01-draft-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "f01-ma",
+      "senseId": "f01-sense-ma",
+      "keyRef": "f01-draft-v1-e2-key-v1",
+      "prompt": "Trong mā, phần vần được viết như thế nào?",
+      "choices": [
+        "m",
+        "am",
+        "a"
+      ],
+      "inputHint": "Chọn một đáp án.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f01-draft-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "f01-ni",
+      "senseId": "f01-sense-ni",
+      "keyRef": "f01-draft-v1-e3-key-v1",
+      "prompt": "Chọn cách tách phần chữ của nǐ.",
+      "choices": [
+        "i + n",
+        "n + i",
+        "n + a"
+      ],
+      "inputHint": "Chọn một đáp án.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f01-draft-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "f01-ma",
+      "senseId": "f01-sense-ma",
+      "keyRef": "f01-draft-v1-e4-key-v1",
+      "prompt": "Dạng nào dùng dấu thanh pinyin đã học cho mā?",
+      "choices": [
+        "mă",
+        "mā",
+        "mã"
+      ],
+      "inputHint": "Chọn một đáp án.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f01-draft-v1-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f01-ni",
+      "senseId": "f01-sense-ni",
+      "keyRef": "f01-draft-v1-e5-key-v1",
+      "prompt": "Nhập pinyin của 你 theo ví dụ (dấu thanh hoặc số).",
+      "choices": [],
+      "inputHint": "Nhập dấu thanh hoặc số 1–4. Thanh nhẹ dùng 0/5 hoặc không dấu. v được nhận thay ü.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f01-draft-v1-e6",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f01-nu",
+      "senseId": "f01-sense-nu",
+      "keyRef": "f01-draft-v1-e6-key-v1",
+      "prompt": "Nhập nǚ (có thể dùng nv3).",
+      "choices": [],
+      "inputHint": "Nhập dấu thanh hoặc số 1–4. Thanh nhẹ dùng 0/5 hoặc không dấu. v được nhận thay ü.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "f01-draft-v1-e1-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f01-draft-v1-e1",
+      "senseId": "f01-sense-ma",
+      "accepted": [
+        "m"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "m là phần đầu; a là phần vần của ví dụ mā."
+    },
+    {
+      "id": "f01-draft-v1-e2-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f01-draft-v1-e2",
+      "senseId": "f01-sense-ma",
+      "accepted": [
+        "a"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Phần vần của mā là a. Dấu thanh nằm trên nguyên âm."
+    },
+    {
+      "id": "f01-draft-v1-e3-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f01-draft-v1-e3",
+      "senseId": "f01-sense-ni",
+      "accepted": [
+        "n + i"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Giữ đúng thứ tự n trước, i sau."
+    },
+    {
+      "id": "f01-draft-v1-e4-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f01-draft-v1-e4",
+      "senseId": "f01-sense-ma",
+      "accepted": [
+        "mā"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dấu ngang ā biểu thị thanh 1; ă và ã không phải hai dấu thanh này trong pinyin."
+    },
+    {
+      "id": "f01-draft-v1-e5-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f01-draft-v1-e5",
+      "senseId": "f01-sense-ni",
+      "accepted": [
+        "nǐ"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "nǐ / ni3 khớp thanh từ điển 3 của ví dụ."
+    },
+    {
+      "id": "f01-draft-v1-e6-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f01-draft-v1-e6",
+      "senseId": "f01-sense-nu",
+      "accepted": [
+        "nǚ"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "nǚ / nü3 / nv3 giữ cả ü và thanh 3. nu3 thiếu ü nên không khớp."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,836 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "897d420c6520e6aa79798b92d998bf77fea0ba10e8a7df1ce5519a6291732eb1",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-compare-size",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L345",
+    "version": 1,
+    "versionId": "l345-draft-v1",
+    "title": "So sánh và chọn kích cỡ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "So sánh lựa chọn theo tiêu chí, không gộp giá rẻ với phù hợp.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "程度副词"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 14,
+      "physicalPage": 15,
+      "printedPage": 12,
+      "section": "task",
+      "entry": "六"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-shopping",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 14,
+          "physicalPage": 15,
+          "printedPage": 12,
+          "section": "task",
+          "entry": "六"
+        },
+        "written": "交流购物信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-goods",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "商品选购"
+        },
+        "written": "商品选购",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l345-v-521",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 521"
+        },
+        "written": "比较",
+        "pinyin": "bǐjiào",
+        "senseId": "l345-v-521-sense",
+        "ordinal": 521,
+        "note": "3 bǐjiào 动、介、副; 比较 trong 比较两件衣服 là so sánh; 比较合适 là tương đối phù hợp. Cần nhìn vị trí để phân biệt chức năng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l345-v-646",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 646"
+        },
+        "written": "更",
+        "pinyin": "gèng",
+        "senseId": "l345-v-646-sense",
+        "ordinal": 646,
+        "note": "3 gèng 副; 更 đứng trước tính từ/động từ trạng thái để tăng mức so mốc có sẵn, không đặt sau tính từ như hậu tố. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l345-v-668",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 668"
+        },
+        "written": "合适",
+        "pinyin": "héshì",
+        "senseId": "l345-v-668-sense",
+        "ordinal": 668,
+        "note": "3 héshì 形; 合适 nói phù hợp người, mục đích hay kích cỡ. 很合适 không có nghĩa giống nhau hay đắt/rẻ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l345-v-767",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 767"
+        },
+        "written": "满意",
+        "pinyin": "mǎnyì",
+        "senseId": "l345-v-767-sense",
+        "ordinal": 767,
+        "note": "3 mǎnyì 动; 满意 thường đi với 对 để nêu đối tượng: 对…满意. Hài lòng là đánh giá của chủ thể, chưa là đánh giá độc lập. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l345-v-605",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 605"
+        },
+        "written": "短",
+        "pinyin": "duǎn",
+        "senseId": "l345-v-605-sense",
+        "ordinal": 605,
+        "note": "3 duǎn 形; 短 đối chiếu 长 về độ dài, cũng dùng thời lượng. 袖子短不等于整件衣服小; tiêu chí khác nhau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l345-v-575",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 575"
+        },
+        "written": "大小",
+        "pinyin": "dàxiǎo",
+        "senseId": "l345-v-575-sense",
+        "ordinal": 575,
+        "note": "3 dàxiǎo 名; 大小 là danh từ kích thước; 鞋的大小 nêu cỡ giày. Không hiểu thành “lớn nhỏ” luôn là hai lựa chọn tách rời. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-108",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "108"
+        },
+        "written": "较",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 108,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-70",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "70"
+        },
+        "written": "更",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 70,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-80",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "80"
+        },
+        "written": "合",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 80,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-197",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "197"
+        },
+        "written": "适",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 197,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-151",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "151"
+        },
+        "written": "满",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 151,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-48",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "48"
+        },
+        "written": "短",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 48,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-degree",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "副词 / 程度副词"
+        },
+        "written": "程度副词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l345-c0",
+      "version": 1,
+      "senseId": "l345-v-521-sense",
+      "hanzi": "比较",
+      "dictionaryPinyin": "bǐ jiào",
+      "meaning": "so sánh; tương đối",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l345-v-521"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l345-c1",
+      "version": 1,
+      "senseId": "l345-v-646-sense",
+      "hanzi": "更",
+      "dictionaryPinyin": "gèng",
+      "meaning": "hơn/càng (tăng mức độ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l345-v-646"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l345-c2",
+      "version": 1,
+      "senseId": "l345-v-668-sense",
+      "hanzi": "合适",
+      "dictionaryPinyin": "hé shì",
+      "meaning": "phù hợp/vừa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l345-v-668"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l345-c3",
+      "version": 1,
+      "senseId": "l345-v-767-sense",
+      "hanzi": "满意",
+      "dictionaryPinyin": "mǎn yì",
+      "meaning": "hài lòng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l345-v-767"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l345-c4",
+      "version": 1,
+      "senseId": "l345-v-605-sense",
+      "hanzi": "短",
+      "dictionaryPinyin": "duǎn",
+      "meaning": "ngắn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l345-v-605"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l345-c5",
+      "version": 1,
+      "senseId": "l345-v-575-sense",
+      "hanzi": "大小",
+      "dictionaryPinyin": "dà xiǎo",
+      "meaning": "kích cỡ/độ lớn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l345-v-575"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l345-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 袖子 xiùzi: tay áo; 价格 jiàgé: giá; 试 shì: thử. So kích cỡ khác so giá, không suy ra lựa chọn tối ưu từ một tiêu chí.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l345-t0",
+      "type": "teaching",
+      "title": "比较 · so sánh; tương đối",
+      "text": "比较 trong 比较两件衣服 là so sánh; 比较合适 là tương đối phù hợp. Cần nhìn vị trí để phân biệt chức năng.",
+      "hanzi": "我们先比较两件衣服。",
+      "pinyin": "Wǒmen xiān bǐjiào liǎng jiàn yīfu.",
+      "meaning": "Chúng tôi so sánh hai chiếc áo trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l345-t1",
+      "type": "teaching",
+      "title": "更 · hơn/càng (tăng mức độ)",
+      "text": "更 đứng trước tính từ/động từ trạng thái để tăng mức so mốc có sẵn, không đặt sau tính từ như hậu tố.",
+      "hanzi": "这件上衣更合适。",
+      "pinyin": "Zhè jiàn shàngyī gèng héshì.",
+      "meaning": "Chiếc áo này phù hợp hơn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l345-t2",
+      "type": "teaching",
+      "title": "合适 · phù hợp/vừa",
+      "text": "合适 nói phù hợp người, mục đích hay kích cỡ. 很合适 không có nghĩa giống nhau hay đắt/rẻ.",
+      "hanzi": "这双鞋大小很合适。",
+      "pinyin": "Zhè shuāng xié dàxiǎo hěn héshì.",
+      "meaning": "Đôi giày này có kích cỡ rất vừa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l345-t3",
+      "type": "teaching",
+      "title": "满意 · hài lòng",
+      "text": "满意 thường đi với 对 để nêu đối tượng: 对…满意. Hài lòng là đánh giá của chủ thể, chưa là đánh giá độc lập.",
+      "hanzi": "我对这件衣服很满意。",
+      "pinyin": "Wǒ duì zhè jiàn yīfu hěn mǎnyì.",
+      "meaning": "Tôi rất hài lòng với chiếc áo này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l345-t4",
+      "type": "teaching",
+      "title": "短 · ngắn",
+      "text": "短 đối chiếu 长 về độ dài, cũng dùng thời lượng. 袖子短不等于整件衣服小; tiêu chí khác nhau.",
+      "hanzi": "这条裤子有点儿短。",
+      "pinyin": "Zhè tiáo kùzi yǒudiǎnr duǎn.",
+      "meaning": "Chiếc quần này hơi ngắn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l345-t5",
+      "type": "teaching",
+      "title": "大小 · kích cỡ/độ lớn",
+      "text": "大小 là danh từ kích thước; 鞋的大小 nêu cỡ giày. Không hiểu thành “lớn nhỏ” luôn là hai lựa chọn tách rời.",
+      "hanzi": "请看看鞋的大小。",
+      "pinyin": "Qǐng kànkan xié de dàxiǎo.",
+      "meaning": "Hãy xem kích cỡ giày.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l345-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "比较 có thể là so sánh (động từ) hoặc tương đối (phó từ). 更 + tính từ tăng mức độ so với mốc: 这件更合适. Hợp cỡ chưa đồng nghĩa mọi tiêu chí đều tốt.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l345-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林先比较两双鞋的大小。第一双有点儿短，第二双更合适，他很满意。朋友问价格，他说：我只试了大小，还没比较价格，所以现在不能说哪双更便宜。",
+      "pinyin": "Xiǎo Lín xiān bǐjiào liǎng shuāng xié de dàxiǎo. Dì yī shuāng yǒudiǎnr duǎn, dì èr shuāng gèng héshì, tā hěn mǎnyì. Péngyou wèn jiàgé, tā shuō: Wǒ zhǐ shì le dàxiǎo, hái méi bǐjiào jiàgé, suǒyǐ xiànzài bù néng shuō nǎ shuāng gèng piányi.",
+      "meaning": "Lâm so hai đôi giày. Đôi đầu hơi ngắn, đôi thứ hai vừa hơn nên hài lòng; cậu chưa so giá nên chưa biết đôi nào rẻ hơn.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l345-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l345-v1-e0"
+    },
+    {
+      "id": "l345-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l345-v1-e1"
+    },
+    {
+      "id": "l345-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l345-v1-e2"
+    },
+    {
+      "id": "l345-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l345-v1-e3"
+    },
+    {
+      "id": "l345-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l345-v1-e4"
+    },
+    {
+      "id": "l345-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l345-v1-e5"
+    },
+    {
+      "id": "l345-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l345-v1-e6"
+    },
+    {
+      "id": "l345-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l345-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l345-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l345-c0",
+      "senseId": "l345-v-521-sense",
+      "keyRef": "l345-v1-k0",
+      "prompt": "Động từ đối chiếu hai áo: 先□两件衣服。",
+      "choices": [
+        "更",
+        "合适",
+        "满意",
+        "短",
+        "大小",
+        "比较"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l345-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l345-c1",
+      "senseId": "l345-v-646-sense",
+      "keyRef": "l345-v1-k1",
+      "prompt": "Phó từ tăng mức phù hợp: 这件□合适。",
+      "choices": [
+        "合适",
+        "满意",
+        "短",
+        "大小",
+        "比较",
+        "更"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l345-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l345-c2",
+      "senseId": "l345-v-668-sense",
+      "keyRef": "l345-v1-k2",
+      "prompt": "Vừa kích cỡ: 大小很□。",
+      "choices": [
+        "满意",
+        "短",
+        "大小",
+        "比较",
+        "更",
+        "合适"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l345-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l345-c3",
+      "senseId": "l345-v-767-sense",
+      "keyRef": "l345-v1-k3",
+      "prompt": "Viết pinyin của 满意 trong câu “我对这件衣服很满意。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l345-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l345-c4",
+      "senseId": "l345-v-605-sense",
+      "keyRef": "l345-v1-k4",
+      "prompt": "Chiều dài quần thiếu so với người mặc: 裤子有点儿□。",
+      "choices": [
+        "大小",
+        "比较",
+        "更",
+        "合适",
+        "满意",
+        "短"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l345-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l345-c5",
+      "senseId": "l345-v-575-sense",
+      "keyRef": "l345-v1-k5",
+      "prompt": "Tên thuộc tính kích cỡ: 鞋的□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l345-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l345-c0",
+      "senseId": "l345-v-521-sense",
+      "keyRef": "l345-v1-k6",
+      "prompt": "Điều gì chưa được Lâm so sánh?",
+      "choices": [
+        "大小",
+        "两双鞋",
+        "价格"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l345-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l345-c3",
+      "senseId": "l345-v-767-sense",
+      "keyRef": "l345-v1-k7",
+      "prompt": "Xếp mức phù hợp hơn; bắt đầu bằng 第二双.",
+      "choices": [
+        "更合适",
+        "第二双"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l345-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l345-v1-e0",
+      "senseId": "l345-v-521-sense",
+      "accepted": [
+        "比较"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "比较: so sánh; tương đối. 比较 trong 比较两件衣服 là so sánh; 比较合适 là tương đối phù hợp. Cần nhìn vị trí để phân biệt chức năng. Chúng tôi so sánh hai chiếc áo trước."
+    },
+    {
+      "id": "l345-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l345-v1-e1",
+      "senseId": "l345-v-646-sense",
+      "accepted": [
+        "更"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "更: hơn/càng (tăng mức độ). 更 đứng trước tính từ/động từ trạng thái để tăng mức so mốc có sẵn, không đặt sau tính từ như hậu tố. Chiếc áo này phù hợp hơn."
+    },
+    {
+      "id": "l345-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l345-v1-e2",
+      "senseId": "l345-v-668-sense",
+      "accepted": [
+        "合适"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "合适: phù hợp/vừa. 合适 nói phù hợp người, mục đích hay kích cỡ. 很合适 không có nghĩa giống nhau hay đắt/rẻ. Đôi giày này có kích cỡ rất vừa."
+    },
+    {
+      "id": "l345-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l345-v1-e3",
+      "senseId": "l345-v-767-sense",
+      "accepted": [
+        "mǎn yì"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "满意: hài lòng. 满意 thường đi với 对 để nêu đối tượng: 对…满意. Hài lòng là đánh giá của chủ thể, chưa là đánh giá độc lập. Tôi rất hài lòng với chiếc áo này."
+    },
+    {
+      "id": "l345-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l345-v1-e4",
+      "senseId": "l345-v-605-sense",
+      "accepted": [
+        "短"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "短: ngắn. 短 đối chiếu 长 về độ dài, cũng dùng thời lượng. 袖子短不等于整件衣服小; tiêu chí khác nhau. Chiếc quần này hơi ngắn."
+    },
+    {
+      "id": "l345-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l345-v1-e5",
+      "senseId": "l345-v-575-sense",
+      "accepted": [
+        "大小"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "大小: kích cỡ/độ lớn. 大小 là danh từ kích thước; 鞋的大小 nêu cỡ giày. Không hiểu thành “lớn nhỏ” luôn là hai lựa chọn tách rời. Hãy xem kích cỡ giày."
+    },
+    {
+      "id": "l345-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l345-v1-e6",
+      "senseId": "l345-v-521-sense",
+      "accepted": [
+        "价格"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 比较 có thể là so sánh (động từ) hoặc tương đối (phó từ). 更 + tính từ tăng mức độ so với mốc: 这件更合适. Hợp cỡ chưa đồng nghĩa mọi tiêu chí đều tốt."
+    },
+    {
+      "id": "l345-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l345-v1-e7",
+      "senseId": "l345-v-767-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 比较 có thể là so sánh (động từ) hoặc tương đối (phó từ). 更 + tính từ tăng mức độ so với mốc: 这件更合适. Hợp cỡ chưa đồng nghĩa mọi tiêu chí đều tốt."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}
