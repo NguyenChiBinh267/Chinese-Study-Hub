@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-10-18T11:03:40.832Z",
+  "base": "2be62a3b33df8531761189069e630751caa9b414",
+  "status": "SPRINT8_PARTIAL",
+  "ownerReport": {
+    "playback": "CLEAR_OWNER_REPORTED",
+    "decodedSeconds": 1.74,
+    "frames": 166,
+    "accepted": 0,
+    "rejected": {
+      "QUIET": 54,
+      "LOW_PERIODICITY": 108,
+      "OUT_OF_RANGE": 4
+    },
+    "audioCollected": false,
+    "browserDevice": "UNCONFIRMED",
+    "v2Retest": "PENDING"
+  },
+  "policy": {
+    "version": "csh-pitch-observation-v2",
+    "algorithm": "Gaussian low-pass + McLeod Pitch Method / pitchy@4.1.0",
+    "conditioningTopHz": 1000,
+    "conditioningAttenuationAtTop": 0.03,
+    "sampleRate": 24000,
+    "frameSize": 2048,
+    "hopMs": 10,
+    "minHz": 50,
+    "maxHz": 1000,
+    "minRms": 0.008,
+    "minClarity": 0.9,
+    "maxClipFraction": 0.01,
+    "minVoicedMs": 300,
+    "minCoverage": 0.65,
+    "maxNucleusMs": 2500,
+    "maxInternalGapMs": 140,
+    "octaveJumpSemitones": 9,
+    "maxMeanStepSemitones": 1.2,
+    "movementSemitones": 2,
+    "maxAudioSeconds": 12.5,
+    "maxEncodedBytes": 2097152,
+    "timeoutMs": 8000
+  },
+  "sourceFiles": [
+    {
+      "file": "src/modules/pronunciation/domain/acoustic-engine.ts",
+      "sha256": "d09e6398463829ec6a8caea206d5703c251e838e74933105cf5fd301ba261c45"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/acoustic-types.ts",
+      "sha256": "9213d76e1439ff4de4d3b56e18b2147e1ed3d8ce27c74334633267642e1319d7"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/pitch-conditioning.ts",
+      "sha256": "1a5bf31a3007cc4b5bb3824b59d1f691a60f04feb09a761c35e5ff6207609809"
+    },
+    {
+      "file": "tests/fixtures/synthetic-vowel.ts",
+      "sha256": "2abf4c2d14a5d24cc3b3d2169d3a95913a0ee28fdbd5f13826687ab2dde2ef72"
+    }
+  ],
+  "checks": {
+    "unit": {
+      "passed": 65,
+      "failed": 0,
+      "skipped": 0,
+      "sha256": "0d4efc41a3b2b5336b73d58644c442337861f5f0f666ab3a38a8635185c987b0"
+    },
+    "browser": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "sha256": "6dfc93b76d48a2718980f42b9c93943422af2c2f53cd8ba87545ba315dc60b0d"
+    },
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "format": "PASS",
+    "build": "PASS",
+    "buildLogSha256": "2ad002bba2212bf6bd3b2fd34cd66ad99bc611169707d406e98dc1ca278924e1"
+  },
+  "syntheticComparisons": [
+    {
+      "nominalSlopeOctavesPerSecond": 0.4,
+      "seededCycleJitterFraction": 0.03,
+      "unconditioned": {
+        "status": "INSUFFICIENT_SIGNAL",
+        "warnings": ["OCTAVE_AMBIGUITY"]
+      },
+      "conditioned": {
+        "status": "ANALYZED",
+        "acceptedHopMs": 920,
+        "meanAbsoluteCentsAgainstNominalTrajectory": 3.017
+      }
+    },
+    {
+      "nominalSlopeOctavesPerSecond": 0.9,
+      "seededCycleJitterFraction": 0.03,
+      "unconditioned": {
+        "status": "INSUFFICIENT_SIGNAL",
+        "warnings": ["OCTAVE_AMBIGUITY"]
+      },
+      "conditioned": {
+        "status": "ANALYZED",
+        "acceptedHopMs": 920,
+        "meanAbsoluteCentsAgainstNominalTrajectory": 3.768
+      }
+    },
+    {
+      "nominalSlopeOctavesPerSecond": 1.4,
+      "seededCycleJitterFraction": 0.03,
+      "unconditioned": {
+        "status": "INSUFFICIENT_SIGNAL",
+        "warnings": [
+          "OCTAVE_AMBIGUITY",
+          "INSUFFICIENT_PERIODIC_FRAMES",
+          "AMBIGUOUS_SEGMENTATION"
+        ]
+      },
+      "conditioned": {
+        "status": "ANALYZED",
+        "acceptedHopMs": 920,
+        "meanAbsoluteCentsAgainstNominalTrajectory": 9.224
+      }
+    }
+  ],
+  "limits": [
+    "Synthetic generated harmonics/jitter/noise are not human or Mandarin pronunciation validation",
+    "Comparison errors are against the nominal synthetic trajectory, not human annotation or clinical accuracy",
+    "Conditioned periodicity is not a calibrated probability and is not directly comparable to raw v1 periodicity",
+    "No owner-voice F0 success or hardware PASS before retest",
+    "Original full 64-browser/41-PostgreSQL baseline not rerun for this local DSP revision"
+  ]
+}

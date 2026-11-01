@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "058513165007e0598a40a87b0837e80a186306373f9227644230a9bbfb924629",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-lost-found-passive",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L373",
+    "version": 1,
+    "versionId": "l373-draft-v1",
+    "title": "Tìm đồ và kể chuyện bất ngờ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc ai làm gì với đồ vật; đối chiếu 把 và 被.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "被动句"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-daily",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "交流、处理日常事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-daily-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "事务处理"
+        },
+        "written": "事务处理",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l373-v-506",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 506"
+        },
+        "written": "把",
+        "pinyin": "bǎ",
+        "senseId": "l373-v-506-sense",
+        "ordinal": 506,
+        "note": "3 bǎ 量、介; 把 trong 我把书拿走了 là giới từ xử trí; 一把伞 là lượng từ. Cả hai được đối chiếu, không dùng 把+đồ+động từ trần khi mẫu cần kết quả. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l373-v-519",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 519"
+        },
+        "written": "被",
+        "pinyin": "bèi",
+        "senseId": "l373-v-519-sense",
+        "ordinal": 519,
+        "note": "3 bèi 介; 被 đưa tác nhân sau đối tượng nhận tác động; 书被同学拿走了 không nói sách tự mang đi. Chưa luyện mọi dạng bị động bỏ tác nhân. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l373-v-628",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 628"
+        },
+        "written": "分开",
+        "pinyin": "fēnkāi",
+        "senseId": "l373-v-628-sense",
+        "ordinal": 628,
+        "note": "3 fēnkāi 动; 分开 nêu tách người/vật, khác 分别 là lần lượt/tương ứng ở ngữ cảnh khác. 分开走 nói đi riêng, không tự là tuyệt giao. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l373-v-539",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 539"
+        },
+        "written": "不见",
+        "pinyin": "bújiàn",
+        "senseId": "l373-v-539-sense",
+        "ordinal": 539,
+        "note": "3 bújiàn 动; 不见 trong 书不见了 là không thấy/mất dấu; không tự chứng minh trộm cắp. Pinyin nguồn bú do biến điệu trước jiàn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l373-v-862",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 862"
+        },
+        "written": "突然",
+        "pinyin": "tūrán",
+        "senseId": "l373-v-862-sense",
+        "ordinal": 862,
+        "note": "3 tūrán 形; 突然 có thể trước động từ hoặc mô tả sự việc bất ngờ; 突然发现 nói chợt nhận ra, không phải việc mới bắt đầu tồn tại. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l373-v-953",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 953"
+        },
+        "written": "遇到",
+        "pinyin": "yùdào",
+        "senseId": "l373-v-953-sense",
+        "ordinal": 953,
+        "note": "3 yùdào 动; 遇到 có thể gặp người hoặc gặp vấn đề; khác 见面 thường là gặp mặt có chủ thể hai bên. 遇到问题不等于问题已解决. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-4",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "4"
+        },
+        "written": "把",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 4,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-12",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "12"
+        },
+        "written": "被",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 12,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-214",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "214"
+        },
+        "written": "突",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 214,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-262",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "262"
+        },
+        "written": "遇",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 262,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-ba-passive",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "特殊句型 / 被动句1"
+        },
+        "written": "被动句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l373-c0",
+      "version": 1,
+      "senseId": "l373-v-506-sense",
+      "hanzi": "把",
+      "dictionaryPinyin": "bǎ",
+      "meaning": "đem/đưa đối tượng ra trước động từ; lượng từ tùy câu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l373-v-506"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l373-c1",
+      "version": 1,
+      "senseId": "l373-v-519-sense",
+      "hanzi": "被",
+      "dictionaryPinyin": "bèi",
+      "meaning": "bị/được (dấu câu bị động)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l373-v-519"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l373-c2",
+      "version": 1,
+      "senseId": "l373-v-628-sense",
+      "hanzi": "分开",
+      "dictionaryPinyin": "fēn kāi",
+      "meaning": "tách ra/chia ra",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l373-v-628"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l373-c3",
+      "version": 1,
+      "senseId": "l373-v-539-sense",
+      "hanzi": "不见",
+      "dictionaryPinyin": "bú jiàn",
+      "meaning": "mất dấu/không thấy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l373-v-539"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l373-c4",
+      "version": 1,
+      "senseId": "l373-v-862-sense",
+      "hanzi": "突然",
+      "dictionaryPinyin": "tū rán",
+      "meaning": "đột nhiên/bất ngờ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l373-v-862"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l373-c5",
+      "version": 1,
+      "senseId": "l373-v-953-sense",
+      "hanzi": "遇到",
+      "dictionaryPinyin": "yù dào",
+      "meaning": "gặp (người/sự việc)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l373-v-953"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l373-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 偷 tōu: lấy trộm; 联系 liánxì: liên hệ; 确认 quèrèn: xác nhận; 想起 xiǎng qǐ: nhớ ra. Không suy ra ai làm sai chỉ từ mất dấu đồ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l373-t0",
+      "type": "teaching",
+      "title": "把 · đem/đưa đối tượng ra trước động từ; lượng từ tùy câu",
+      "text": "把 trong 我把书拿走了 là giới từ xử trí; 一把伞 là lượng từ. Cả hai được đối chiếu, không dùng 把+đồ+động từ trần khi mẫu cần kết quả.",
+      "hanzi": "我把书放在桌上。",
+      "pinyin": "Wǒ bǎ shū fàng zài zhuō shàng.",
+      "meaning": "Tôi đặt sách trên bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l373-t1",
+      "type": "teaching",
+      "title": "被 · bị/được (dấu câu bị động)",
+      "text": "被 đưa tác nhân sau đối tượng nhận tác động; 书被同学拿走了 không nói sách tự mang đi. Chưa luyện mọi dạng bị động bỏ tác nhân.",
+      "hanzi": "书被同学拿走了。",
+      "pinyin": "Shū bèi tóngxué ná zǒu le.",
+      "meaning": "Sách bị bạn học mang đi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l373-t2",
+      "type": "teaching",
+      "title": "分开 · tách ra/chia ra",
+      "text": "分开 nêu tách người/vật, khác 分别 là lần lượt/tương ứng ở ngữ cảnh khác. 分开走 nói đi riêng, không tự là tuyệt giao.",
+      "hanzi": "请把新旧书分开。",
+      "pinyin": "Qǐng bǎ xīn jiù shū fēnkāi.",
+      "meaning": "Hãy tách sách mới với sách cũ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l373-t3",
+      "type": "teaching",
+      "title": "不见 · mất dấu/không thấy",
+      "text": "不见 trong 书不见了 là không thấy/mất dấu; không tự chứng minh trộm cắp. Pinyin nguồn bú do biến điệu trước jiàn.",
+      "hanzi": "我的书不见了。",
+      "pinyin": "Wǒ de shū bú jiàn le.",
+      "meaning": "Tôi không thấy sách đâu nữa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l373-t4",
+      "type": "teaching",
+      "title": "突然 · đột nhiên/bất ngờ",
+      "text": "突然 có thể trước động từ hoặc mô tả sự việc bất ngờ; 突然发现 nói chợt nhận ra, không phải việc mới bắt đầu tồn tại.",
+      "hanzi": "他突然想起书在哪里。",
+      "pinyin": "Tā tūrán xiǎng qǐ shū zài nǎli.",
+      "meaning": "Cậu ấy chợt nhớ sách ở đâu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l373-t5",
+      "type": "teaching",
+      "title": "遇到 · gặp (người/sự việc)",
+      "text": "遇到 có thể gặp người hoặc gặp vấn đề; khác 见面 thường là gặp mặt có chủ thể hai bên. 遇到问题不等于问题已解决.",
+      "hanzi": "我遇到了一个问题。",
+      "pinyin": "Wǒ yùdào le yí ge wèntí.",
+      "meaning": "Tôi gặp một vấn đề.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l373-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "我把书拿走了 lấy người thực hiện làm chủ thể; 书被我拿走了 lấy sách nhận tác động làm chủ thể. Kết quả giống trong cảnh này nhưng trọng tâm khác; 不见了 chỉ mất dấu, chưa biết ai lấy.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l373-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林把新旧书分开，后来发现一本书不见了。他没有说一定被人偷了。遇到这个问题以后，他突然想起同学说过借书。原来书被同学借走了；他先联系同学确认。",
+      "pinyin": "Xiǎo Lín bǎ xīn jiù shū fēnkāi, hòulái fāxiàn yì běn shū bú jiàn le. Tā méiyǒu shuō yídìng bèi rén tōu le. Yùdào zhège wèntí yǐhòu, tā tūrán xiǎng qǐ tóngxué shuō guo jiè shū. Yuánlái shū bèi tóngxué jiè zǒu le; tā xiān liánxì tóngxué quèrèn.",
+      "meaning": "Lâm tách sách mới cũ, không thấy một cuốn nhưng chưa kết luận bị trộm. Cậu chợt nhớ bạn từng hỏi mượn và liên lạc xác nhận sách được bạn mượn.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l373-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l373-v1-e0"
+    },
+    {
+      "id": "l373-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l373-v1-e1"
+    },
+    {
+      "id": "l373-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l373-v1-e2"
+    },
+    {
+      "id": "l373-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l373-v1-e3"
+    },
+    {
+      "id": "l373-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l373-v1-e4"
+    },
+    {
+      "id": "l373-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l373-v1-e5"
+    },
+    {
+      "id": "l373-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l373-v1-e6"
+    },
+    {
+      "id": "l373-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l373-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l373-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l373-c0",
+      "senseId": "l373-v-506-sense",
+      "keyRef": "l373-v1-k0",
+      "prompt": "Cấu trúc chủ động xử trí, không bị động: 我□书放在桌上。",
+      "choices": [
+        "被",
+        "分开",
+        "不见",
+        "突然",
+        "遇到",
+        "把"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l373-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l373-c1",
+      "senseId": "l373-v-519-sense",
+      "keyRef": "l373-v1-k1",
+      "prompt": "Dấu bị động: 书□同学拿走了。",
+      "choices": [
+        "分开",
+        "不见",
+        "突然",
+        "遇到",
+        "把",
+        "被"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l373-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l373-c2",
+      "senseId": "l373-v-628-sense",
+      "keyRef": "l373-v1-k2",
+      "prompt": "Tách đồ mới/cũ ra: 把新旧书□。",
+      "choices": [
+        "不见",
+        "突然",
+        "遇到",
+        "把",
+        "被",
+        "分开"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l373-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l373-c3",
+      "senseId": "l373-v-539-sense",
+      "keyRef": "l373-v1-k3",
+      "prompt": "Viết pinyin của 不见 trong câu “我的书不见了。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l373-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l373-c4",
+      "senseId": "l373-v-862-sense",
+      "keyRef": "l373-v1-k4",
+      "prompt": "Chợt nhớ ra: □想起书在哪里。",
+      "choices": [
+        "遇到",
+        "把",
+        "被",
+        "分开",
+        "不见",
+        "突然"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l373-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l373-c5",
+      "senseId": "l373-v-953-sense",
+      "keyRef": "l373-v1-k5",
+      "prompt": "Gặp phải vấn đề: □了一个问题。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l373-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l373-c0",
+      "senseId": "l373-v-506-sense",
+      "keyRef": "l373-v1-k6",
+      "prompt": "Không thấy sách có đủ kết luận bị trộm không?",
+      "choices": [
+        "一定被偷",
+        "书不会被借走",
+        "没有，先确认"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l373-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l373-c3",
+      "senseId": "l373-v-539-sense",
+      "keyRef": "l373-v1-k7",
+      "prompt": "Xếp bị động, bắt đầu bằng 书.",
+      "choices": [
+        "借走了",
+        "被同学",
+        "书"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l373-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l373-v1-e0",
+      "senseId": "l373-v-506-sense",
+      "accepted": [
+        "把"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "把: đem/đưa đối tượng ra trước động từ; lượng từ tùy câu. 把 trong 我把书拿走了 là giới từ xử trí; 一把伞 là lượng từ. Cả hai được đối chiếu, không dùng 把+đồ+động từ trần khi mẫu cần kết quả. Tôi đặt sách trên bàn."
+    },
+    {
+      "id": "l373-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l373-v1-e1",
+      "senseId": "l373-v-519-sense",
+      "accepted": [
+        "被"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "被: bị/được (dấu câu bị động). 被 đưa tác nhân sau đối tượng nhận tác động; 书被同学拿走了 không nói sách tự mang đi. Chưa luyện mọi dạng bị động bỏ tác nhân. Sách bị bạn học mang đi."
+    },
+    {
+      "id": "l373-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l373-v1-e2",
+      "senseId": "l373-v-628-sense",
+      "accepted": [
+        "分开"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "分开: tách ra/chia ra. 分开 nêu tách người/vật, khác 分别 là lần lượt/tương ứng ở ngữ cảnh khác. 分开走 nói đi riêng, không tự là tuyệt giao. Hãy tách sách mới với sách cũ."
+    },
+    {
+      "id": "l373-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l373-v1-e3",
+      "senseId": "l373-v-539-sense",
+      "accepted": [
+        "bú jiàn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "不见: mất dấu/không thấy. 不见 trong 书不见了 là không thấy/mất dấu; không tự chứng minh trộm cắp. Pinyin nguồn bú do biến điệu trước jiàn. Tôi không thấy sách đâu nữa."
+    },
+    {
+      "id": "l373-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l373-v1-e4",
+      "senseId": "l373-v-862-sense",
+      "accepted": [
+        "突然"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "突然: đột nhiên/bất ngờ. 突然 có thể trước động từ hoặc mô tả sự việc bất ngờ; 突然发现 nói chợt nhận ra, không phải việc mới bắt đầu tồn tại. Cậu ấy chợt nhớ sách ở đâu."
+    },
+    {
+      "id": "l373-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l373-v1-e5",
+      "senseId": "l373-v-953-sense",
+      "accepted": [
+        "遇到"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "遇到: gặp (người/sự việc). 遇到 có thể gặp người hoặc gặp vấn đề; khác 见面 thường là gặp mặt có chủ thể hai bên. 遇到问题不等于问题已解决. Tôi gặp một vấn đề."
+    },
+    {
+      "id": "l373-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l373-v1-e6",
+      "senseId": "l373-v-506-sense",
+      "accepted": [
+        "没有，先确认"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 我把书拿走了 lấy người thực hiện làm chủ thể; 书被我拿走了 lấy sách nhận tác động làm chủ thể. Kết quả giống trong cảnh này nhưng trọng tâm khác; 不见了 chỉ mất dấu, chưa biết ai lấy."
+    },
+    {
+      "id": "l373-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l373-v1-e7",
+      "senseId": "l373-v-539-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 我把书拿走了 lấy người thực hiện làm chủ thể; 书被我拿走了 lấy sách nhận tác động làm chủ thể. Kết quả giống trong cảnh này nhưng trọng tâm khác; 不见了 chỉ mất dấu, chưa biết ai lấy."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

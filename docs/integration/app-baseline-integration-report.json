@@ -1,0 +1,1003 @@
+{
+  "kind": "LOCALLY_VERIFIED_APP_BASELINE_INTEGRATION_CANDIDATE",
+  "checkedAtUTC": "2026-11-01T06:33:36.426Z",
+  "clientDate": "2026-11-01",
+  "candidateBranch": "integration/app-baseline-main-20261101",
+  "coreTestedAndReviewedCommit": "872d03fc1ad14bb755345331208f704853f2347f",
+  "deliveredHeadReceipt": ".local-postgres/integration/handoff-receipt.json",
+  "source": {
+    "branch": "fix/hsk1-catalog-stability",
+    "commit": "6be987aac67617396f83836d5570c7b8fada6263",
+    "headUnchanged": true,
+    "ownerAgentsRawSha256": "7db5356f7d0f291c2e95831aa616c3fe41bd70c5d90d9350dca3a6eae748d85e",
+    "ownerAgentsUnchanged": true,
+    "currentSourceStatus": "M AGENTS.md"
+  },
+  "main": {
+    "pinnedCommit": "ad7f4c59442b89701e5e41cd6a120284532c1650",
+    "mergeBase": "3813bda55be7b77108344de6e5cc6bd74c51f034",
+    "sourceOnlyCommits": 157,
+    "olderMilestoneSourceOnlyCommits": 154,
+    "mainOnlyCommits": 17,
+    "candidateDirectParent": "ad7f4c59442b89701e5e41cd6a120284532c1650",
+    "protectedFiles": 88,
+    "exactBlobs": 86,
+    "appendOnly": [
+      ".gitignore",
+      ".gitattributes"
+    ],
+    "all86ProtectedWorkingBytesAlsoUnchanged": true,
+    "mainOnlyFilesRetained": 31
+  },
+  "import": {
+    "sourceFilesTotal": 1442,
+    "finalImportedSourceFiles": 1384,
+    "exactSourceBlobs": 1379,
+    "adjustedSourceFiles": [
+      {
+        "path": "next.config.ts",
+        "reason": "Documented agentRules:false preserves main AGENTS exactly.",
+        "sourceBlob": "a330fcd5323c18c0d30d6c411e4db4c9316dc98b",
+        "candidateBlobAtCore": "7589bcf5da94d8fab1c5468be8a74ecfc5485408",
+        "candidateWorkingSha256": "78171d2489df4e540e75e5ee38eaac2c7802eb966dd2abc5a79460c37bf9220c"
+      },
+      {
+        "path": "playwright.hsk24.config.ts",
+        "reason": "Validated optional local test port avoids touching source preview.",
+        "sourceBlob": "b446c05a8b73012429a6f4ce72f8081af61967ad",
+        "candidateBlobAtCore": "1f3da9f94e604772658e4d4a1379cbe32ed0fc8b",
+        "candidateWorkingSha256": "7ae8c3feacbcb05a126ec3ecdd079025d2d7e057ad6407a0a9a5ce13b4e018fe"
+      },
+      {
+        "path": "tests/hsk24-browser/catalog-stability.spec.ts",
+        "reason": "Use configured test origin for existing same-origin security checks.",
+        "sourceBlob": "9a820212e6a332dca2847053dabf092e56f2b7ab",
+        "candidateBlobAtCore": "199ba9243650d50fd6514faee2872c4e5fe73611",
+        "candidateWorkingSha256": "114ed513e0620831f18c754012649c9c21f59791b1aca578e76f62f1294acb45"
+      },
+      {
+        "path": "benchmarks/cloud-proof/prepare-shared.mjs",
+        "reason": "Fresh checkout exposed stale derived dependency graph. Allow only explicit public outline JSON in addition to bounded src TS imports; no lesson/private-config reads.",
+        "sourceBlob": "b1e5eca9d9629a7a039bb89672ec1610d99d65d3",
+        "candidateBlobAtCore": "f0b697008445d98861a857ecf89f8a71807e741c",
+        "candidateWorkingSha256": "7143ff3f2d663ea0068f4659a1bb30e072a5629682a48e68c4fdbb0386077ef6"
+      },
+      {
+        "path": "package.json",
+        "reason": "Reproducible prepare:local/pretypecheck/prebuild generate ignored dependencies/types; dependency versions and lockfile unchanged.",
+        "sourceBlob": "0769327ff5fb14543b0d90efe31141547929ae55",
+        "candidateBlobAtCore": "0737dfa22b30bc19a20a6fd0a4684b8e19e5c43e",
+        "candidateWorkingSha256": "d165361f1db61e646e28b479920dce5e005507f561aab3bf3d9e113911e6991e"
+      }
+    ],
+    "sharedSourcePathsKeptFromMain": 55,
+    "excludedGeneratedSourceFile": "next-env.d.ts",
+    "initialControlledCopyIncludedThenExcludedGeneratedTypeFile": true,
+    "manifest": "docs/integration/app-baseline-import-manifest.json",
+    "newCoreIntegrationFiles": [
+      "docs/integration/app-baseline-import-manifest.json",
+      "scripts/verify-existing-schema.mjs",
+      "scripts/verify-baseline-import.mjs",
+      "tests/unit/baseline-preparation.test.ts"
+    ],
+    "contentOrHsk1FeatureChanges": 0,
+    "migrationsApplied": 0
+  },
+  "dependencies": {
+    "freshInstall": "npm ci --ignore-scripts --offline --no-audit --no-fund",
+    "installedPackages": 396,
+    "directInstalledVersionsMatchLock": 25,
+    "packageLockSourceBlobUnchanged": true,
+    "packageJsonChanges": "Only local preparation/typegen lifecycle hooks; dependency specs unchanged.",
+    "generatedFilesTracked": false,
+    "preparationDependencies": {
+      "files": [
+        {
+          "path": "src/shared/db/transaction.ts",
+          "sha256": "8907b762c4ebcd7bdf0f0f932840b83929acc92a89257e2d9389789c1762d308"
+        },
+        {
+          "path": "src/modules/learning/domain/local-foundation.ts",
+          "sha256": "672730fd0a3c4ed4dba91bd017d15b1f0c2186fc8ed648d4d508bfc4dfc2cb4a"
+        },
+        {
+          "path": "src/modules/review/domain/local-review.ts",
+          "sha256": "d0f2fd1fb6c17e585fa1c5f97578f2e5f3f81082d815bea107c81a53501f179a"
+        },
+        {
+          "path": "src/modules/learning/domain/mastery.ts",
+          "sha256": "d7d34aa5946f08543778be354b1085bc2ab37928df03a76e77cc4c5a29d00fe7"
+        },
+        {
+          "path": "src/modules/planning/domain/preview-plan.ts",
+          "sha256": "fcde40942dd4eae508c79879de53001e5aea4c984874cb00169fdd3a46e07134"
+        },
+        {
+          "path": "src/modules/curriculum/application/local-expansion.ts",
+          "sha256": "668cb5c8045b3411446a6c08239bde2146cef1d45d915541e3e1fbfb766ac447"
+        },
+        {
+          "path": "content/curriculum/catalog.v1.json",
+          "sha256": "45a71f0444a4ca85405b34b48a365253448ffa207594f17dfc9a563dac3efb89"
+        },
+        {
+          "path": "src/shared/db/tls.ts",
+          "sha256": "21bf0544d6d9e50646e07d7e76ed08828067c8cb3b2995642f1bbd829c915cb5"
+        }
+      ]
+    },
+    "limits": "Lock/readback/install proof, not a full dependency security audit. Existing ESLint deprecation warning retained; no upgrades."
+  },
+  "initialIntegrationFinding": {
+    "typecheck": "FAIL on absent generated benchmark imports",
+    "prepare": "FAIL SHARED_SOURCE_ESCAPE on newly required public course-outline JSON",
+    "repair": "Explicit JSON allowlist plus generated local preparation hooks and fresh-source hash regression. No lesson/private-config inputs copied.",
+    "regression": "PASS, included in new142unit suite."
+  },
+  "verification": {
+    "freshCandidateOnly": true,
+    "sourceHistoricalPassCountsReused": false,
+    "unit": {
+      "pass": 142,
+      "fail": 0,
+      "skipped": 0
+    },
+    "sqlRuns": [
+      {
+        "path": "../candidate-native-sql.log",
+        "pass": 2,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": "../candidate-level0-sql.log",
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": "../candidate-level1-sql.log",
+        "pass": 11,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": "../candidate-level2-sql.log",
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": "../candidate-level3-sql.log",
+        "pass": 5,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": "../candidate-level4-sql.log",
+        "pass": 5,
+        "fail": 0,
+        "skipped": 0
+      }
+    ],
+    "sqlTotal": 35,
+    "browser": {
+      "path": ".local-postgres/hsk24/app-integration-candidate-browser.json",
+      "stats": {
+        "startTime": "2026-11-01T06:17:10.707Z",
+        "duration": 610164.1359999999,
+        "expected": 14,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "retries": 0,
+      "cases": [
+        {
+          "title": "HSK1 catalog: first process request and warm navigation acknowledge real responses",
+          "project": "desktop",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 60220
+            }
+          ]
+        },
+        {
+          "title": "Catalog network: explicit failure without automatic retry or false cards",
+          "project": "desktop",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 3418
+            }
+          ]
+        },
+        {
+          "title": "Catalog timeout: explicit failure without automatic retry or false cards",
+          "project": "desktop",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 18641
+            }
+          ]
+        },
+        {
+          "title": "Catalog HTTP503 remains an error; manual retry shows loading then real server content",
+          "project": "desktop",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 5642
+            }
+          ]
+        },
+        {
+          "title": "HSK1 catalog: first process request and warm navigation acknowledge real responses",
+          "project": "mobile360",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 13133
+            }
+          ]
+        },
+        {
+          "title": "Catalog network: explicit failure without automatic retry or false cards",
+          "project": "mobile360",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 3363
+            }
+          ]
+        },
+        {
+          "title": "Catalog timeout: explicit failure without automatic retry or false cards",
+          "project": "mobile360",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 18658
+            }
+          ]
+        },
+        {
+          "title": "Catalog HTTP503 remains an error; manual retry shows loading then real server content",
+          "project": "mobile360",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 5157
+            }
+          ]
+        },
+        {
+          "title": "L1152: actual content, resume, grading, completion, progress and accessibility",
+          "project": "desktop",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 147208
+            }
+          ]
+        },
+        {
+          "title": "L1152: actual content, resume, grading, completion, progress and accessibility",
+          "project": "mobile360",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 121078
+            }
+          ]
+        },
+        {
+          "title": "L1152: course and unit links open the exact current immutable lesson",
+          "project": "desktop",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 31677
+            }
+          ]
+        },
+        {
+          "title": "L1152: course and unit links open the exact current immutable lesson",
+          "project": "mobile360",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 32084
+            }
+          ]
+        },
+        {
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "project": "desktop",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 46941
+            }
+          ]
+        },
+        {
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "project": "mobile360",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 48091
+            }
+          ]
+        }
+      ],
+      "boundary": "Fresh candidate dependency checkout and first hsk3 development compilation directory on3041. Only firstdesktop is cold-first; later/mobile cases use warmed server, mobile360 is emulation not a physical Android test.",
+      "serverAbortErrorsObserved": true,
+      "limits": "Passing assertions do not mean clean server console or closure of historical cold503. Browser network/timeout/503 are explicit UI fault injection; real journey/navigation/Today use local backend."
+    },
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "supplementalLint": "PASS",
+    "productionBuild": "PASS",
+    "clientMarkerScan": {
+      "passed": true,
+      "scope": "Production default with local expansion disabled",
+      "files": 33,
+      "bytes": 970491,
+      "privateKeyIdsChecked": 5288,
+      "markerHits": 0,
+      "artifactDigest": "1929bb9087c294d14922eaffe75408fbcaf908a90ba3eaeaf07561b741daa872",
+      "limits": "Bounded marker scan plus per-package public projection tests; not a formal leak proof. Server-provided draft feedback after submission remains expected."
+    },
+    "httpPositive": {
+      "mode": "valid",
+      "sourceCommit": "872d03fc1ad14bb755345331208f704853f2347f",
+      "scope": "Fresh development server process; existing disk compilation cache. New synthetic owner. Absent mode targets a random nonexistent database on the same local server, without creating it or stopping the populated cluster. Startup health polling and two labeled samples are diagnostics, not automatic product retries.",
+      "observations": [
+        {
+          "phase": "MODE",
+          "ms": 3968.182200000001,
+          "status": 200,
+          "serverTiming": null,
+          "errorCode": null,
+          "hsk1Lessons": null
+        },
+        {
+          "phase": "FIRST_AUTHORIZED_CATALOG",
+          "ms": 2032.2443999999996,
+          "status": 200,
+          "serverTiming": "app;dur=1424.1",
+          "errorCode": null,
+          "hsk1Lessons": 129
+        },
+        {
+          "phase": "WARM_CATALOG",
+          "ms": 1193.1656000000003,
+          "status": 200,
+          "serverTiming": "app;dur=1099.5",
+          "errorCode": null,
+          "hsk1Lessons": 129
+        }
+      ],
+      "failure": null,
+      "passed": true,
+      "historicalCold503RootCauseClosed": false
+    },
+    "httpNegative": {
+      "mode": "absent",
+      "sourceCommit": "872d03fc1ad14bb755345331208f704853f2347f",
+      "scope": "Fresh development server process; existing disk compilation cache. New synthetic owner. Absent mode targets a random nonexistent database on the same local server, without creating it or stopping the populated cluster. Startup health polling and two labeled samples are diagnostics, not automatic product retries.",
+      "observations": [
+        {
+          "phase": "MODE",
+          "ms": 876.587300000001,
+          "status": 200,
+          "serverTiming": null,
+          "errorCode": null,
+          "hsk1Lessons": null
+        },
+        {
+          "phase": "FIRST_AUTHORIZED_CATALOG",
+          "ms": 636.4387000000006,
+          "status": 503,
+          "serverTiming": "app;dur=89.7",
+          "errorCode": "LOCAL_DB_UNAVAILABLE",
+          "hsk1Lessons": null
+        },
+        {
+          "phase": "WARM_CATALOG",
+          "ms": 111.39639999999963,
+          "status": 503,
+          "serverTiming": "app;dur=60.3",
+          "errorCode": "LOCAL_DB_UNAVAILABLE",
+          "hsk1Lessons": null
+        }
+      ],
+      "failure": null,
+      "passed": true,
+      "historicalCold503RootCauseClosed": false
+    }
+  },
+  "database": {
+    "database": "csh_hsk24_bf294b6506c1",
+    "existingClusterStartedOnly": true,
+    "resetOrInitOrMigrationRun": false,
+    "beforePrivateAndBindingRows": 83308,
+    "allBeforeKeysAndHashesUnchanged": true,
+    "original76293Preserved": 76293,
+    "privateTables": 19,
+    "packageBindingsBefore": 667,
+    "packageBindingsAfter": 667,
+    "beforeCounts": {
+      "packages": 667,
+      "activity_leases": 36,
+      "api_idempotency": 31594,
+      "attempts": 7394,
+      "cards": 4946,
+      "content_attempt_bindings": 7394,
+      "content_session_state": 2646,
+      "duration_events": 2648,
+      "learning_events": 8270,
+      "lesson_progress": 868,
+      "lesson_sessions": 2647,
+      "mastery_evidence": 6494,
+      "owner_profiles": 0,
+      "planned_blocks": 895,
+      "review_logs": 131,
+      "skill_mastery": 5528,
+      "study_day_overrides": 0,
+      "study_settings": 282,
+      "time_preferences": 283,
+      "weekly_plans": 585
+    },
+    "afterCounts": {
+      "packages": 667,
+      "activity_leases": 37,
+      "api_idempotency": 32172,
+      "attempts": 7529,
+      "cards": 5030,
+      "content_attempt_bindings": 7529,
+      "content_session_state": 2687,
+      "duration_events": 2758,
+      "learning_events": 8420,
+      "lesson_progress": 882,
+      "lesson_sessions": 2688,
+      "mastery_evidence": 6603,
+      "owner_profiles": 0,
+      "planned_blocks": 925,
+      "review_logs": 136,
+      "skill_mastery": 5622,
+      "study_day_overrides": 0,
+      "study_settings": 293,
+      "time_preferences": 294,
+      "weekly_plans": 610
+    },
+    "allFullContentAndMetaRowsUnchanged": true,
+    "contentMetaTables": 9,
+    "contentMetaRows": 11380,
+    "contentMethod": "SHA256 of sorted per-row SHA256 of complete canonical PostgreSQL JSONB row text; raw manifests/rows are not written into this receipt.",
+    "contentFingerprints": {
+      "app_content.courses": {
+        "count": 5,
+        "sha256": "bf3f831dbf71cb446c422b99da40c980398e289d5765c69e1144f23be8d4745a"
+      },
+      "app_content.exercise_versions": {
+        "count": 5318,
+        "sha256": "55ec8bc310b920fab4ddde285ce3e2ef9f4daab33d59d8016aa105635bf65234"
+      },
+      "app_content.lesson_skill_prerequisites": {
+        "count": 3567,
+        "sha256": "35a9182dd3e614daaac673752818f51489e552016ba74287425aaa132fcc5fea"
+      },
+      "app_content.lesson_versions": {
+        "count": 667,
+        "sha256": "7a1d44074ecacbd0b3b2376f59fde0e0a159ebcf437592d7dd706153e760b3fe"
+      },
+      "app_content.lessons": {
+        "count": 518,
+        "sha256": "bee55da27d4ca33f1f5e5ac6d0124718f357b12494fe77b2d7107fe5fbd951fe"
+      },
+      "app_content.packages": {
+        "count": 667,
+        "sha256": "674f4ca77c3af5c046ec09b5cff4f916631985b07e506a0f7e94c48f04de5f5e"
+      },
+      "app_content.unit_prerequisites": {
+        "count": 325,
+        "sha256": "a5a9df8505231b7a0023d7ef1d9fb5e8f8905c11219e45fd3d7508067c85afdd"
+      },
+      "app_content.units": {
+        "count": 312,
+        "sha256": "78f235d584288ef641db7dd1d294355462b1bdf682e7be3373c5a389ede87850"
+      },
+      "app_meta.runtime_proof": {
+        "count": 1,
+        "sha256": "7c62557cbc2060072975d3ec2194e86893358f36cda0fba37bf23f4d5201e618"
+      }
+    },
+    "scopeOverlap": "Package bindings in private preservation and full manifests in content preservation overlap; do not add these counts as a unique global row total.",
+    "schemaBefore": {
+      "checkedAtUTC": "2026-11-01T06:01:20.651Z",
+      "phase": "before",
+      "database": "csh_hsk24_bf294b6506c1",
+      "readOnly": true,
+      "migrationHistoryMatches": true,
+      "migrationCount": 7,
+      "aggregateMigrationDigest": "3b2de887cc598186603bff5de721ceeb16b9c0fac5ae7ef901f3cff750798c8f",
+      "migrations": [
+        {
+          "name": "202610170001_local_foundation.sql",
+          "version": "202610170001",
+          "digest": "0c2a5172e5277752578e50b5c1ecf0e4edab9c127b45c7365e8c93b2e22f0837"
+        },
+        {
+          "name": "202610170002_local_learning.sql",
+          "version": "202610170002",
+          "digest": "3b10d7029860070c5759532e22c0cc8cc9e16c68f121b11ae760d2528c532546"
+        },
+        {
+          "name": "202610170003_content_duration.sql",
+          "version": "202610170003",
+          "digest": "b826f67ab82c812705bf3e081a2e370177163b508b718d8fef9930b89bebddc2"
+        },
+        {
+          "name": "202610180004_weekly_experience.sql",
+          "version": "202610180004",
+          "digest": "1dbe64fa7085af567d68450d1b55d6295ac87d415ef5bc320aba17cefb067536"
+        },
+        {
+          "name": "202610180005_course_catalog.sql",
+          "version": "202610180005",
+          "digest": "558c100b31e8ba608879e2a9ecc31a2647c64816dc00395fc716be0b23c5535c"
+        },
+        {
+          "name": "202610190006_owner_profile.sql",
+          "version": "202610190006",
+          "digest": "1b0a67a10b02e3a84f734e27c22de282ecc15f51b079b134abf051613abfa8eb"
+        },
+        {
+          "name": "202610210007_content_release.sql",
+          "version": "202610210007",
+          "digest": "8622fadfbfab5a684c3b12192f69395e887aa8dad1c12949830dc5523bd7413e"
+        }
+      ],
+      "schemaSha256": "01a97cbd8c67cd4e8f71c06d97dc83ae4b3c94fe93d25cc5339c5dd7039128d8",
+      "objects": {
+        "relations": {
+          "count": 84,
+          "sha256": "a362d970de73d107e816c339c14ed9385b6f81003aaaa5432196994e15e24139"
+        },
+        "columns": {
+          "count": 208,
+          "sha256": "cd82f7140c21537e65a113f4c9f1b1e853a5fa61ef6207a4f21e4c69153c6089"
+        },
+        "constraints": {
+          "count": 339,
+          "sha256": "d11efcd48adfae7d3b76803d7ab7cefc81010d5c2542d9567bba4e9b397999db"
+        },
+        "policies": {
+          "count": 19,
+          "sha256": "34117c4d1f2a7624c02d186c9a66288326d3e0bd245482f19183261151a3804b"
+        },
+        "indexes": {
+          "count": 56,
+          "sha256": "e73ba154db143ce794149c55fb54232a75527851f31a6901e3e9f2210373d545"
+        },
+        "functions": {
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "grants": {
+          "count": 255,
+          "sha256": "903a2eae125764ab9068246190d8a206187bf60f99387eea1e1df53ed3968152"
+        },
+        "roles": {
+          "count": 2,
+          "sha256": "0e3fe5c91973fce266a3d6b69ff91efbcdc458b99bd9400d7fa6396868d66453"
+        }
+      },
+      "runtimeRoleSafe": true,
+      "runtimeProofMatches": true,
+      "schemaUnchanged": null,
+      "schemaOrMigrationsAppliedByThisCheck": false
+    },
+    "schemaAfter": {
+      "checkedAtUTC": "2026-11-01T06:28:58.172Z",
+      "phase": "after",
+      "database": "csh_hsk24_bf294b6506c1",
+      "readOnly": true,
+      "migrationHistoryMatches": true,
+      "migrationCount": 7,
+      "aggregateMigrationDigest": "3b2de887cc598186603bff5de721ceeb16b9c0fac5ae7ef901f3cff750798c8f",
+      "migrations": [
+        {
+          "name": "202610170001_local_foundation.sql",
+          "version": "202610170001",
+          "digest": "0c2a5172e5277752578e50b5c1ecf0e4edab9c127b45c7365e8c93b2e22f0837"
+        },
+        {
+          "name": "202610170002_local_learning.sql",
+          "version": "202610170002",
+          "digest": "3b10d7029860070c5759532e22c0cc8cc9e16c68f121b11ae760d2528c532546"
+        },
+        {
+          "name": "202610170003_content_duration.sql",
+          "version": "202610170003",
+          "digest": "b826f67ab82c812705bf3e081a2e370177163b508b718d8fef9930b89bebddc2"
+        },
+        {
+          "name": "202610180004_weekly_experience.sql",
+          "version": "202610180004",
+          "digest": "1dbe64fa7085af567d68450d1b55d6295ac87d415ef5bc320aba17cefb067536"
+        },
+        {
+          "name": "202610180005_course_catalog.sql",
+          "version": "202610180005",
+          "digest": "558c100b31e8ba608879e2a9ecc31a2647c64816dc00395fc716be0b23c5535c"
+        },
+        {
+          "name": "202610190006_owner_profile.sql",
+          "version": "202610190006",
+          "digest": "1b0a67a10b02e3a84f734e27c22de282ecc15f51b079b134abf051613abfa8eb"
+        },
+        {
+          "name": "202610210007_content_release.sql",
+          "version": "202610210007",
+          "digest": "8622fadfbfab5a684c3b12192f69395e887aa8dad1c12949830dc5523bd7413e"
+        }
+      ],
+      "schemaSha256": "01a97cbd8c67cd4e8f71c06d97dc83ae4b3c94fe93d25cc5339c5dd7039128d8",
+      "objects": {
+        "relations": {
+          "count": 84,
+          "sha256": "a362d970de73d107e816c339c14ed9385b6f81003aaaa5432196994e15e24139"
+        },
+        "columns": {
+          "count": 208,
+          "sha256": "cd82f7140c21537e65a113f4c9f1b1e853a5fa61ef6207a4f21e4c69153c6089"
+        },
+        "constraints": {
+          "count": 339,
+          "sha256": "d11efcd48adfae7d3b76803d7ab7cefc81010d5c2542d9567bba4e9b397999db"
+        },
+        "policies": {
+          "count": 19,
+          "sha256": "34117c4d1f2a7624c02d186c9a66288326d3e0bd245482f19183261151a3804b"
+        },
+        "indexes": {
+          "count": 56,
+          "sha256": "e73ba154db143ce794149c55fb54232a75527851f31a6901e3e9f2210373d545"
+        },
+        "functions": {
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "grants": {
+          "count": 255,
+          "sha256": "903a2eae125764ab9068246190d8a206187bf60f99387eea1e1df53ed3968152"
+        },
+        "roles": {
+          "count": 2,
+          "sha256": "0e3fe5c91973fce266a3d6b69ff91efbcdc458b99bd9400d7fa6396868d66453"
+        }
+      },
+      "runtimeRoleSafe": true,
+      "runtimeProofMatches": true,
+      "schemaUnchanged": true,
+      "schemaOrMigrationsAppliedByThisCheck": false
+    },
+    "schemaUnchanged": true,
+    "limits": "Application readback/hash evidence and existing-sandbox functional checks; not a physical DB backup, fresh-empty migration run, cloud/production or official T009 completion proof."
+  },
+  "loop": {
+    "configSource": ".engineering-loop/config.json",
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "privateRuntimeConfigPresent": true,
+    "privateControlPresent": false,
+    "sourcePrivateGrantsOrSyntheticStateCopied": false,
+    "actualCommand": "ssot-status (read-only VERIFIED_READ)",
+    "realTaskLifecycleRun": false,
+    "modelSmokeOrProviderCall": false,
+    "taskStatusChanges": 0,
+    "taskStatusCounts": {
+      "done": 2,
+      "pending": 64,
+      "deferred": 4
+    },
+    "T009": "pending",
+    "T026": "pending",
+    "T052": "pending",
+    "existingToolingReadiness": "Preserved main reports remain BLOCKED for their stated diagnostic/full-candidate-bootstrap evidence; this manual integration review does not repair or override that.",
+    "takeoverProposal": "docs/integration/engineering-loop-takeover.md"
+  },
+  "independentReview": {
+    "reviewer": "app_integration_review",
+    "coreCommit": "872d03fc1ad14bb755345331208f704853f2347f",
+    "staticVerdict": "PASS manual technical integration,0P1/0P2",
+    "finalEvidenceAndDocumentation": "Exact final verdict recorded separately in handoff receipt; no Loop PASS, pedagogical approval or merge authority inferred."
+  },
+  "remaining": [
+    "Baseline acceptance/authorized main merge is outside this local task.",
+    "Historical intermittent cold/503 cause remainsOPEN; aborted/ECONNRESET logs remain visible.",
+    "Official T009/T026/T052 and other source task/human/rights/account/hosting gates remain unchanged.",
+    "Real EngineeringLoop readiness/acceptance policy, explicit bounded initial grant and exact source/review bindings still required before autonomous takeover.",
+    "No deployed/production-authenticated or physical Android acceptance is claimed."
+  ],
+  "actions": {
+    "sourceBranchModified": false,
+    "remotePush": false,
+    "mergeOrRebase": false,
+    "deploy": false,
+    "cloudSetup": false,
+    "paidServiceAdded": false,
+    "autonomousBacklogEnabled": false
+  },
+  "draftPr": "docs/integration/app-baseline-local-pr-draft.md",
+  "evidenceByteScope": "Exact local file bytes at checkpoint. Paths relative to candidate worktree. They are not assumed equal to Git-normalized blob bytes. Private logs/traces/configuration/row-hash snapshots stay local and are not uploaded.",
+  "evidence": [
+    {
+      "path": "../inventory.json",
+      "bytes": 447306,
+      "sha256": "e985ab025ce6a7b156281db95a20960a8a4431623e9ee4cbe27d80df19a11cb5"
+    },
+    {
+      "path": "../inventory-summary.json",
+      "bytes": 1967,
+      "sha256": "fa53a567aea3cddfafd16a30a655334d9b6602b187247cbbb7fa1b8ee7be23ef"
+    },
+    {
+      "path": "../safety-scan-initial-reviewed-template.json",
+      "bytes": 271,
+      "sha256": "514217e428d52178ba8841e3fc4b367339aa9969a3a9f423c62791c4be96d98c"
+    },
+    {
+      "path": "../safety-scan.json",
+      "bytes": 170,
+      "sha256": "135d77da27c95b7ca1d3b567ad51e392515e1a487aad44ebcfddf1c9150cd19c"
+    },
+    {
+      "path": "../post-import-summary.json",
+      "bytes": 613,
+      "sha256": "295451f2f0033e0470c28efd876f25bfe1058508a0f89c23a7550bf0bf867b42"
+    },
+    {
+      "path": "../main-protected-working-before.json",
+      "bytes": 22143,
+      "sha256": "8e03641085b74e6d064f01cff9417d3786cf869eae3456bb59ad3705176b4205"
+    },
+    {
+      "path": "../npm-ci-offline.log",
+      "bytes": 166,
+      "sha256": "5b8df9e9d47bfc15de1469347b9e1c88689e560edc328fe20aa097e3a4a86cbc"
+    },
+    {
+      "path": "../typegen.log",
+      "bytes": 61,
+      "sha256": "8b0db89a1e25137a4cb79143a4ea63ae347e6f5f2247f026d984e133255d3084"
+    },
+    {
+      "path": "../typecheck-first.log",
+      "bytes": 490,
+      "sha256": "1b132356dbbccb5865ebb35b75437774261b9be54c03d6c7b49936cdd9e398d8"
+    },
+    {
+      "path": "../prepare-shared.log",
+      "bytes": 985,
+      "sha256": "fa9d252fda7f58bf34a5c3c52236f638ffdda20128a11877d0f60740433f6c59"
+    },
+    {
+      "path": "../typecheck-after-preparation-fix.log",
+      "bytes": 373,
+      "sha256": "b98e055afcab404e7dfa802ebab53662c926230e83f837648fe0496364a0fdfd"
+    },
+    {
+      "path": "../preparation-regression.log",
+      "bytes": 238,
+      "sha256": "c2ba86bfaba1a47ef8986cb4865788121b895488a8889a0b47fdd47700009b68"
+    },
+    {
+      "path": "../candidate-unit.log",
+      "bytes": 16748,
+      "sha256": "1282bdc6cd816dafad16724c549729ca0aa22bc26406e1139b758143d929103a"
+    },
+    {
+      "path": "../candidate-typecheck.log",
+      "bytes": 429,
+      "sha256": "5a4eb9c00c982fc106d769a5f1798c9b501f7bc845c82aae9733f3c4351978eb"
+    },
+    {
+      "path": "../candidate-lint.log",
+      "bytes": 595,
+      "sha256": "d2246b046ac72a5146dfff03bb52c140232287592ad9a829a65c8e5759484d55"
+    },
+    {
+      "path": "../candidate-supplemental-lint.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "../candidate-build.log",
+      "bytes": 2559,
+      "sha256": "26e6c12fd0d00e101754743c62e90cd8cecf3cffadfb2286574a08180a9c3354"
+    },
+    {
+      "path": "../candidate-browser.log",
+      "bytes": 126662,
+      "sha256": "483ab0c95e5ba436a5878e1201773b1e258e992e905d9e5782eec066abaed951"
+    },
+    {
+      "path": ".local-postgres/hsk24/app-integration-candidate-browser.json",
+      "bytes": 30872,
+      "sha256": "e579b3d85541dc5a801f43588d489ef9dddc6852605078a9868f39e15fdb32a8"
+    },
+    {
+      "path": "../candidate-native-sql.log",
+      "bytes": 635,
+      "sha256": "659ea2e90bd2b0ee69b05f994c1763b9c537907f23712671ab766cf1dadc9ca5"
+    },
+    {
+      "path": "../candidate-level0-sql.log",
+      "bytes": 759,
+      "sha256": "0f767467c7039247df91764ac7b6627d91bda317e18d74d0879cece121546e49"
+    },
+    {
+      "path": "../candidate-level1-sql.log",
+      "bytes": 1294,
+      "sha256": "bb0050777829b4c5480bf9f2695568fc34045482c4190264deb214d31721ef34"
+    },
+    {
+      "path": "../candidate-level2-sql.log",
+      "bytes": 758,
+      "sha256": "a2de6dc177ed59a4fb3f8852de9210e053244bf078225356988e61115818775a"
+    },
+    {
+      "path": "../candidate-level3-sql.log",
+      "bytes": 653,
+      "sha256": "189780d158e15a2431cc9688cda5f74ecfa5971ec1082b95a4b7ba55b3dc647c"
+    },
+    {
+      "path": "../candidate-level4-sql.log",
+      "bytes": 653,
+      "sha256": "7e411df23720354493fbd4322c2952e76875f1939a949434340905c918a89590"
+    },
+    {
+      "path": "../schema-before.log",
+      "bytes": 1013,
+      "sha256": "a912d18c3e2c94d61a84358b1e9c103c39fd36f4b938ae2606df430fb7c206af"
+    },
+    {
+      "path": "../schema-after.log",
+      "bytes": 1012,
+      "sha256": "e40851794a477d6cff0a25f263dca8fe05d0f321aba352776270835441e8377b"
+    },
+    {
+      "path": "../content-before.log",
+      "bytes": 90,
+      "sha256": "b2d046e915587e09a67b67579e6ba1692bbf273d12446d010b404e1e2c80ce93"
+    },
+    {
+      "path": "../content-after.log",
+      "bytes": 89,
+      "sha256": "e5eae459f278e101c426d9881a125a6194b32a0e3f0004c7bba6c2106bcc0375"
+    },
+    {
+      "path": "../data-before.log",
+      "bytes": 534,
+      "sha256": "0fcfdf1997676bd0b6566f476e6415a3b8fadb5437ed800fce46f7d0cfe017c3"
+    },
+    {
+      "path": "../data-after.log",
+      "bytes": 534,
+      "sha256": "935b44ace3358907abcd0eeda198052b8fc2bf0b5d27222d26b9a1fc7495c620"
+    },
+    {
+      "path": "../candidate-provenance-final.log",
+      "bytes": 513,
+      "sha256": "ea45000a6393d7a92b619d6c922f5fa516c5618313a8f7e48d3073476ec0326b"
+    },
+    {
+      "path": "../candidate-client-scan.log",
+      "bytes": 393,
+      "sha256": "ec6e838fa134e95dc8191ce7c0ac053384b6d201b73e02cf1af14d8e0b4918a5"
+    },
+    {
+      "path": "../candidate-http-valid.log",
+      "bytes": 866,
+      "sha256": "906d68c6d7104e5c75481be89915424dfc6ceb6339037af4de930e344cffc4e6"
+    },
+    {
+      "path": "../candidate-http-absent.log",
+      "bytes": 899,
+      "sha256": "8e3d3efb449b1ae1fff9306ae9f05cb728ed9e5f637dc6383f0d25132e5c2d06"
+    },
+    {
+      "path": "../candidate-ssot-read.log",
+      "bytes": 245,
+      "sha256": "e6af3531fe61c518b050c6264c0a6637fb452814df0556a9b4f9aa194cf8020d"
+    },
+    {
+      "path": "../existing-postgres-start.log",
+      "bytes": 49,
+      "sha256": "00aafd7dadbfba99b6a1ca06a715136d742707f6d528ddea5e422be68b204172"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-integration-valid.json",
+      "bytes": 1071,
+      "sha256": "cd10a4ae8bceb4a7b86f1e062238affbf573dd705dd3de4330001178f8d8cd64"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-integration-valid-server.log",
+      "bytes": 576,
+      "sha256": "f2d1b9cc3766d32e9ab44b90eaad056bd9b0be6b0c3aa76d0f18d6467279c3c8"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-integration-absent.json",
+      "bytes": 1104,
+      "sha256": "1c7ec36ca745435857fabd2d3546cb946f7c5ed7901f317c1532841955d6c0e0"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-stability-integration-absent-server.log",
+      "bytes": 574,
+      "sha256": "f753a28d4d68abc9857c6cbfe40e5e68381a3515a3177c20d02e37ab1e5b83d9"
+    },
+    {
+      "path": ".local-postgres/hsk24/app-integration-client-isolation.json",
+      "bytes": 425,
+      "sha256": "1d55dfc124cda43c0d4b3b870e0e63593161fcec3d27bc8f02126fda29d1e933"
+    },
+    {
+      "path": ".local-postgres/integration/schema-before.json",
+      "bytes": 2815,
+      "sha256": "7f070eeb508ccc08ca07512a08f56f91724715f72f4626880957d2ee82d7cd0e"
+    },
+    {
+      "path": ".local-postgres/integration/schema-after.json",
+      "bytes": 2814,
+      "sha256": "7551cc04f011384e68c2b1f3c8304644727b15419cf2b34c0072ad50c7915d73"
+    },
+    {
+      "path": ".local-postgres/integration/content-before.json",
+      "bytes": 1647,
+      "sha256": "4961ad84ba11ea6c968530cf35f0b71ad66174d4a5c03c85eb91fb1392e78c67"
+    },
+    {
+      "path": ".local-postgres/integration/content-after.json",
+      "bytes": 1646,
+      "sha256": "f7b9eee2474efe45d86af853787890693c77aef136ab76549d2b89ce4f3ea33a"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-app-baseline-20261101-before.json",
+      "bytes": 13646853,
+      "sha256": "46ebce4f06b56c3cd95ec211666c2118d0252caeba23a1e5c6b8770875ec4ed6"
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk1-app-baseline-20261101-after.json",
+      "bytes": 13905228,
+      "sha256": "a7268a2e70f3e2ddc750e993e8629b911a27befdc738d1b3a297af7c1347dfa1"
+    },
+    {
+      "path": "D:\\Chinese-Study-Hub\\.local-postgres\\hsk24\\hsk1-closure-20261031-before.json",
+      "bytes": 12500220,
+      "sha256": "a8fed8e10768f205d20938b4056f6783e194a056f94b66152ca3570b1bacc0dd"
+    }
+  ]
+}

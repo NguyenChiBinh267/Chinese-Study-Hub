@@ -1,0 +1,812 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "17ec54bf3ef112efdf819789d38bc477c271ea017d45faa068dc4bd29237041b",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-compass",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L307",
+    "version": 1,
+    "versionId": "l307-draft-v1",
+    "title": "Chỉ đường bằng phương hướng",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc chỉ dẫn phương hướng và phân biệt hướng với vị trí ở giữa.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l207-draft-v1",
+      "l225-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "东、南、西、北、北方、东方、南方、西方、"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 14,
+      "physicalPage": 15,
+      "printedPage": 12,
+      "section": "task",
+      "entry": "五"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 14,
+          "physicalPage": 15,
+          "printedPage": 12,
+          "section": "task",
+          "entry": "五"
+        },
+        "written": "谈论交通出行",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-travel-plan",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 出行安排"
+        },
+        "written": "出行安排",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l307-v-597",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 597"
+        },
+        "written": "东",
+        "pinyin": "dōng",
+        "senseId": "l307-v-597-sense",
+        "ordinal": 597,
+        "note": "3 dōng 名; 东 là hướng đông; 往东走 nói đi về đông. Không suy ra mọi nơi bên phải bản đồ đều là đông nếu bản đồ không xác định hướng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l307-v-774",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 774"
+        },
+        "written": "南",
+        "pinyin": "nán",
+        "senseId": "l307-v-774-sense",
+        "ordinal": 774,
+        "note": "3 nán 名; 南 là hướng nam, khác 男 chỉ nam giới dù cùng đọc nán. 在南边 mô tả vị trí, không chỉ đi xuống cầu thang. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l307-v-880",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 880"
+        },
+        "written": "西",
+        "pinyin": "xī",
+        "senseId": "l307-v-880-sense",
+        "ordinal": 880,
+        "note": "3 xī 名; 西 là hướng tây. 日落方向 chỉ là hỗ trợ giải nghĩa thông thường, bài không yêu cầu suy hướng ngoài trời. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l307-v-517",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 517"
+        },
+        "written": "北",
+        "pinyin": "běi",
+        "senseId": "l307-v-517-sense",
+        "ordinal": 517,
+        "note": "3 běi 名; 北 là hướng bắc. 北京 là tên riêng, không thay cho từ chỉ hướng trong câu 往北走. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l307-v-622",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 622"
+        },
+        "written": "方向",
+        "pinyin": "fāngxiàng",
+        "senseId": "l307-v-622-sense",
+        "ordinal": 622,
+        "note": "3 fāngxiàng 名; 方向 là hướng đi hoặc hướng chỉ; 你走错方向了 nói nhầm hướng, không nhất thiết nhầm địa điểm hẹn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l307-v-982",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 982"
+        },
+        "written": "中间",
+        "pinyin": "zhōngjiān",
+        "senseId": "l307-v-982-sense",
+        "ordinal": 982,
+        "note": "3 zhōngjiān 名; 中间 nói vị trí giữa hai hoặc nhiều đối tượng theo ngữ cảnh. Phân biệt 与 中/中午: bài chỉ dạy nghĩa vị trí giữa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l307-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "hỗ trợ trong tình huống",
+        "pinyin": "",
+        "senseId": "l307-extra0-sense",
+        "ordinal": null,
+        "note": "公园 gōngyuán: công viên; 东边/南边/西边/北边 là phương hướng + 边; các tổ hợp dùng để hiểu vị trí, không tính thêm mục từ. Chỉ dẫn là tình huống hư cấu."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-156",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "156"
+        },
+        "written": "南",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 156,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-11",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "11"
+        },
+        "written": "北",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 11,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "方",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-230",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "230"
+        },
+        "written": "向",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 230,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-g-direction",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "名词 / 方位名词"
+        },
+        "written": "东、南、西、北、北方、东方、南方、西方、",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l307-c0",
+      "version": 1,
+      "senseId": "l307-v-597-sense",
+      "hanzi": "东",
+      "dictionaryPinyin": "dōng",
+      "meaning": "đông",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l307-v-597"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l307-c1",
+      "version": 1,
+      "senseId": "l307-v-774-sense",
+      "hanzi": "南",
+      "dictionaryPinyin": "nán",
+      "meaning": "nam",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l307-v-774"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l307-c2",
+      "version": 1,
+      "senseId": "l307-v-880-sense",
+      "hanzi": "西",
+      "dictionaryPinyin": "xī",
+      "meaning": "tây",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l307-v-880"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l307-c3",
+      "version": 1,
+      "senseId": "l307-v-517-sense",
+      "hanzi": "北",
+      "dictionaryPinyin": "běi",
+      "meaning": "bắc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l307-v-517"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l307-c4",
+      "version": 1,
+      "senseId": "l307-v-622-sense",
+      "hanzi": "方向",
+      "dictionaryPinyin": "fāng xiàng",
+      "meaning": "phương hướng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l307-v-622"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l307-c5",
+      "version": 1,
+      "senseId": "l307-v-982-sense",
+      "hanzi": "中间",
+      "dictionaryPinyin": "zhōng jiān",
+      "meaning": "ở giữa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l307-v-982"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l307-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Nhắc 先/再, thời gian đứng trước động từ, 在 và lượng từ cơ bản. Prerequisite HSK1/2 vẫn chưa chứng nhận. 公园 gōngyuán: công viên; 东边/南边/西边/北边 là phương hướng + 边; các tổ hợp dùng để hiểu vị trí, không tính thêm mục từ. Chỉ dẫn là tình huống hư cấu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l307-t0",
+      "type": "teaching",
+      "title": "东 · đông",
+      "text": "东 là hướng đông; 往东走 nói đi về đông. Không suy ra mọi nơi bên phải bản đồ đều là đông nếu bản đồ không xác định hướng.",
+      "hanzi": "学校在车站的东边。",
+      "pinyin": "Xuéxiào zài chēzhàn de dōngbian.",
+      "meaning": "Trường ở phía đông ga.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l307-t1",
+      "type": "teaching",
+      "title": "南 · nam",
+      "text": "南 là hướng nam, khác 男 chỉ nam giới dù cùng đọc nán. 在南边 mô tả vị trí, không chỉ đi xuống cầu thang.",
+      "hanzi": "我们往南走。",
+      "pinyin": "Wǒmen wǎng nán zǒu.",
+      "meaning": "Chúng tôi đi về phía nam.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l307-t2",
+      "type": "teaching",
+      "title": "西 · tây",
+      "text": "西 là hướng tây. 日落方向 chỉ là hỗ trợ giải nghĩa thông thường, bài không yêu cầu suy hướng ngoài trời.",
+      "hanzi": "宾馆在公园西边。",
+      "pinyin": "Bīnguǎn zài gōngyuán xībian.",
+      "meaning": "Khách sạn ở phía tây công viên.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l307-t3",
+      "type": "teaching",
+      "title": "北 · bắc",
+      "text": "北 là hướng bắc. 北京 là tên riêng, không thay cho từ chỉ hướng trong câu 往北走.",
+      "hanzi": "请往北走，再往东走。",
+      "pinyin": "Qǐng wǎng běi zǒu, zài wǎng dōng zǒu.",
+      "meaning": "Hãy đi bắc rồi đi đông.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l307-t4",
+      "type": "teaching",
+      "title": "方向 · phương hướng",
+      "text": "方向 là hướng đi hoặc hướng chỉ; 你走错方向了 nói nhầm hướng, không nhất thiết nhầm địa điểm hẹn.",
+      "hanzi": "我不知道车站在哪个方向。",
+      "pinyin": "Wǒ bù zhīdào chēzhàn zài nǎ ge fāngxiàng.",
+      "meaning": "Tôi không biết ga ở hướng nào.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l307-t5",
+      "type": "teaching",
+      "title": "中间 · ở giữa",
+      "text": "中间 nói vị trí giữa hai hoặc nhiều đối tượng theo ngữ cảnh. Phân biệt 与 中/中午: bài chỉ dạy nghĩa vị trí giữa.",
+      "hanzi": "学校在车站和宾馆中间。",
+      "pinyin": "Xuéxiào zài chēzhàn hé bīnguǎn zhōngjiān.",
+      "meaning": "Trường ở giữa ga và khách sạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l307-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "东南西北 là phương hướng; 中间 là vị trí giữa các vật/người xác định. Phạm vi bài luyện bốn hướng đơn và 中间; các tên vùng 北方/东方… trong dòng nguồn chưa được luyện đầy đủ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l307-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小安：我想去车站，应该往哪个方向走？小李：先往北走，再往东走。学校在车站和宾馆中间。小安：公园呢？小李：在学校南边，宾馆在公园西边。",
+      "pinyin": "Xiǎo Ān: Wǒ xiǎng qù chēzhàn, yīnggāi wǎng nǎ ge fāngxiàng zǒu? Xiǎo Lǐ: Xiān wǎng běi zǒu, zài wǎng dōng zǒu. Xuéxiào zài chēzhàn hé bīnguǎn zhōngjiān. Xiǎo Ān: Gōngyuán ne? Xiǎo Lǐ: Zài xuéxiào nánbian, bīnguǎn zài gōngyuán xībian.",
+      "meaning": "An hỏi đường đến ga. Lý hướng dẫn đi bắc rồi đông; trường nằm giữa ga và khách sạn. Công viên ở nam trường; khách sạn ở tây công viên. Đây là mô tả ngôn ngữ, không có bản đồ tỉ lệ.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l307-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l307-v1-e0"
+    },
+    {
+      "id": "l307-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l307-v1-e1"
+    },
+    {
+      "id": "l307-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l307-v1-e2"
+    },
+    {
+      "id": "l307-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l307-v1-e3"
+    },
+    {
+      "id": "l307-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l307-v1-e4"
+    },
+    {
+      "id": "l307-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l307-v1-e5"
+    },
+    {
+      "id": "l307-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l307-v1-e6"
+    },
+    {
+      "id": "l307-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l307-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l307-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l307-c0",
+      "senseId": "l307-v-597-sense",
+      "keyRef": "l307-v1-k0",
+      "prompt": "Đọc chỉ dẫn 再往□走，bước sau hướng bắc trong hội thoại.",
+      "choices": [
+        "南",
+        "西",
+        "北",
+        "方向",
+        "中间",
+        "东"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l307-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l307-c1",
+      "senseId": "l307-v-774-sense",
+      "keyRef": "l307-v1-k1",
+      "prompt": "Bạn cần phân biệt hướng nam với từ 男 (nam giới). Chọn chữ chỉ hướng.",
+      "choices": [
+        "西",
+        "北",
+        "方向",
+        "中间",
+        "东",
+        "南"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l307-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l307-c2",
+      "senseId": "l307-v-880-sense",
+      "keyRef": "l307-v1-k2",
+      "prompt": "Khách sạn ở phía tây công viên. Chọn mục từ chỉ hướng tây.",
+      "choices": [
+        "北",
+        "方向",
+        "中间",
+        "东",
+        "南",
+        "西"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l307-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l307-c3",
+      "senseId": "l307-v-517-sense",
+      "keyRef": "l307-v1-k3",
+      "prompt": "Viết pinyin của 北 trong nghĩa “bắc”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l307-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l307-c4",
+      "senseId": "l307-v-622-sense",
+      "keyRef": "l307-v1-k4",
+      "prompt": "Bạn đi nhầm hướng và người khác nói 你走错□了. Điền danh từ.",
+      "choices": [
+        "中间",
+        "东",
+        "南",
+        "西",
+        "北",
+        "方向"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l307-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l307-c5",
+      "senseId": "l307-v-982-sense",
+      "keyRef": "l307-v1-k5",
+      "prompt": "Viết cụm “ở giữa ga và khách sạn” theo mẫu 在车站和宾馆 + mục từ.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l307-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l307-c0",
+      "senseId": "l307-v-597-sense",
+      "keyRef": "l307-v1-k6",
+      "prompt": "Theo lời chỉ dẫn tới ga, sau khi đi bắc thì đi hướng nào?",
+      "choices": [
+        "南",
+        "西",
+        "东"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l307-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l307-c3",
+      "senseId": "l307-v-517-sense",
+      "keyRef": "l307-v1-k7",
+      "prompt": "Sắp xếp hai bước đi.",
+      "choices": [
+        "再往东走",
+        "先往北走"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l307-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l307-v1-e0",
+      "senseId": "l307-v-597-sense",
+      "accepted": [
+        "东"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "东 là hướng đông; 往东走 nói đi về đông. Không suy ra mọi nơi bên phải bản đồ đều là đông nếu bản đồ không xác định hướng."
+    },
+    {
+      "id": "l307-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l307-v1-e1",
+      "senseId": "l307-v-774-sense",
+      "accepted": [
+        "南"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "南 là hướng nam, khác 男 chỉ nam giới dù cùng đọc nán. 在南边 mô tả vị trí, không chỉ đi xuống cầu thang."
+    },
+    {
+      "id": "l307-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l307-v1-e2",
+      "senseId": "l307-v-880-sense",
+      "accepted": [
+        "西"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "西 là hướng tây. 日落方向 chỉ là hỗ trợ giải nghĩa thông thường, bài không yêu cầu suy hướng ngoài trời."
+    },
+    {
+      "id": "l307-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l307-v1-e3",
+      "senseId": "l307-v-517-sense",
+      "accepted": [
+        "běi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "北 là hướng bắc. 北京 là tên riêng, không thay cho từ chỉ hướng trong câu 往北走."
+    },
+    {
+      "id": "l307-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l307-v1-e4",
+      "senseId": "l307-v-622-sense",
+      "accepted": [
+        "方向"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "方向 là hướng đi hoặc hướng chỉ; 你走错方向了 nói nhầm hướng, không nhất thiết nhầm địa điểm hẹn."
+    },
+    {
+      "id": "l307-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l307-v1-e5",
+      "senseId": "l307-v-982-sense",
+      "accepted": [
+        "在车站和宾馆中间"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "中间 cần đối tượng làm mốc; không tự tạo thêm khoảng cách."
+    },
+    {
+      "id": "l307-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l307-v1-e6",
+      "senseId": "l307-v-597-sense",
+      "accepted": [
+        "东"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trình tự 先往北，再往东 được nêu rõ."
+    },
+    {
+      "id": "l307-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l307-v1-e7",
+      "senseId": "l307-v-517-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 东南西北 là phương hướng; 中间 là vị trí giữa các vật/người xác định. Phạm vi bài luyện bốn hướng đơn và 中间; các tên vùng 北方/东方… trong dòng nguồn chưa được luyện đầy đủ."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

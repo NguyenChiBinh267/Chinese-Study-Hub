@@ -1,0 +1,774 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "c0c99c9d57a255e135db6d9a3159ff184296514b073d5a4e1aaddb8482daa3c9",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eabe",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L4014",
+    "version": 1,
+    "versionId": "l4014-draft-v1",
+    "title": "Đọc sổ bán hàng hư cấu",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc sổ bán hàng hư cấu; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "不过"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 27,
+      "physicalPage": 28,
+      "printedPage": 25,
+      "section": "task",
+      "entry": "二十一"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-29T07:52:35.559631Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-economy",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 27,
+          "physicalPage": 28,
+          "printedPage": 25,
+          "section": "task",
+          "entry": "二十一"
+        },
+        "written": "谈论经济现象",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-447e0a05fb95",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 67,
+          "physicalPage": 68,
+          "printedPage": 65,
+          "section": "topic",
+          "entry": "经济状况"
+        },
+        "written": "经济状况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l4014-v-1678",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 120,
+          "physicalPage": 121,
+          "printedPage": 118,
+          "section": "vocabulary",
+          "entry": "ordinal 1678"
+        },
+        "written": "收入",
+        "pinyin": "shōurù",
+        "senseId": "l4014-v-1678-sense",
+        "ordinal": 1678,
+        "note": "4 shōurù 动、名; 收入 chỉ khoản thu; trong sổ bán hàng này là tiền bán hàng trước chi phí, không đồng nghĩa lợi nhuận. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4014-v-1649",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 120,
+          "physicalPage": 121,
+          "printedPage": 118,
+          "section": "vocabulary",
+          "entry": "ordinal 1649"
+        },
+        "written": "生意",
+        "pinyin": "shēngyi",
+        "senseId": "l4014-v-1649-sense",
+        "ordinal": 1649,
+        "note": "4 shēngyi 名; 生意 nói công việc mua bán; 意 thường đọc nhẹ trong từ này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4014-v-1669",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 120,
+          "physicalPage": 121,
+          "printedPage": 118,
+          "section": "vocabulary",
+          "entry": "ordinal 1669"
+        },
+        "written": "市场",
+        "pinyin": "shìchǎng",
+        "senseId": "l4014-v-1669-sense",
+        "ordinal": 1669,
+        "note": "4 shìchǎng 名; 市场 ở đây là khu chợ cụ thể nơi mua bán; không phải dự báo thị trường tài chính. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4014-v-1630",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 119,
+          "physicalPage": 120,
+          "printedPage": 117,
+          "section": "vocabulary",
+          "entry": "ordinal 1630"
+        },
+        "written": "商品",
+        "pinyin": "shāngpǐn",
+        "senseId": "l4014-v-1630-sense",
+        "ordinal": 1630,
+        "note": "4 shāngpǐn 名; 商品 là đồ được đưa ra mua bán; không phải mọi đồ vật cá nhân đều là hàng hóa. Nhận diện chữ 品 trong 商品; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4014-v-1692",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 121,
+          "physicalPage": 122,
+          "printedPage": 119,
+          "section": "vocabulary",
+          "entry": "ordinal 1692"
+        },
+        "written": "数量",
+        "pinyin": "shùliàng",
+        "senseId": "l4014-v-1692-sense",
+        "ordinal": 1692,
+        "note": "4 shùliàng 名; 数量 biểu thị lượng đếm của vật, khác 数字 là ký hiệu/số cụ thể dùng để ghi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4014-v-1694",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 121,
+          "physicalPage": 122,
+          "printedPage": 119,
+          "section": "vocabulary",
+          "entry": "ordinal 1694"
+        },
+        "written": "数字",
+        "pinyin": "shùzì",
+        "senseId": "l4014-v-1694-sense",
+        "ordinal": 1694,
+        "note": "4 shùzì 名; 数字 là số/ký hiệu trong bảng; một con số cần đơn vị và bối cảnh để hiểu. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-269",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "269"
+        },
+        "written": "入",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 269,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-239",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "239"
+        },
+        "written": "品",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 239,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-192",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "192"
+        },
+        "written": "量",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 192,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-4014",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "……，不过……"
+        },
+        "written": "不过",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l4014-c0",
+      "version": 1,
+      "senseId": "l4014-v-1678-sense",
+      "hanzi": "收入",
+      "dictionaryPinyin": "shōu rù",
+      "meaning": "thu nhập; khoản thu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4014-v-1678"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4014-c1",
+      "version": 1,
+      "senseId": "l4014-v-1649-sense",
+      "hanzi": "生意",
+      "dictionaryPinyin": "shēng yi",
+      "meaning": "việc kinh doanh; buôn bán",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4014-v-1649"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4014-c2",
+      "version": 1,
+      "senseId": "l4014-v-1669-sense",
+      "hanzi": "市场",
+      "dictionaryPinyin": "shì chǎng",
+      "meaning": "thị trường; chợ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4014-v-1669"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4014-c3",
+      "version": 1,
+      "senseId": "l4014-v-1630-sense",
+      "hanzi": "商品",
+      "dictionaryPinyin": "shāng pǐn",
+      "meaning": "hàng hóa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4014-v-1630"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4014-c4",
+      "version": 1,
+      "senseId": "l4014-v-1692-sense",
+      "hanzi": "数量",
+      "dictionaryPinyin": "shù liàng",
+      "meaning": "số lượng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4014-v-1692"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4014-c5",
+      "version": 1,
+      "senseId": "l4014-v-1694-sense",
+      "hanzi": "数字",
+      "dictionaryPinyin": "shù zì",
+      "meaning": "con số; chữ số",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4014-v-1694"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l4014-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4014-t0",
+      "type": "teaching",
+      "title": "收入 · thu nhập; khoản thu",
+      "text": "收入 chỉ khoản thu; trong sổ bán hàng này là tiền bán hàng trước chi phí, không đồng nghĩa lợi nhuận.",
+      "hanzi": "本周的收入比上周高。",
+      "pinyin": "Běn zhōu de shōu rù bǐ shàng zhōu gāo.",
+      "meaning": "Khoản thu tuần này cao hơn tuần trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4014-t1",
+      "type": "teaching",
+      "title": "生意 · việc kinh doanh; buôn bán",
+      "text": "生意 nói công việc mua bán; 意 thường đọc nhẹ trong từ này.",
+      "hanzi": "这家小店的生意不错。",
+      "pinyin": "Zhè jiā xiǎo diàn de shēng yi bú cuò.",
+      "meaning": "Cửa hàng nhỏ này buôn bán khá tốt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4014-t2",
+      "type": "teaching",
+      "title": "市场 · thị trường; chợ",
+      "text": "市场 ở đây là khu chợ cụ thể nơi mua bán; không phải dự báo thị trường tài chính.",
+      "hanzi": "他在市场里开了一家小店。",
+      "pinyin": "Tā zài shì chǎng lǐ kāi le yì jiā xiǎo diàn.",
+      "meaning": "Anh ấy mở một cửa hàng nhỏ trong chợ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4014-t3",
+      "type": "teaching",
+      "title": "商品 · hàng hóa",
+      "text": "商品 là đồ được đưa ra mua bán; không phải mọi đồ vật cá nhân đều là hàng hóa. Nhận diện chữ 品 trong 商品; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "店里增加了两种商品。",
+      "pinyin": "Diàn lǐ zēng jiā le liǎng zhǒng shāng pǐn.",
+      "meaning": "Cửa hàng thêm hai loại hàng hóa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4014-t4",
+      "type": "teaching",
+      "title": "数量 · số lượng",
+      "text": "数量 biểu thị lượng đếm của vật, khác 数字 là ký hiệu/số cụ thể dùng để ghi.",
+      "hanzi": "卖出的商品数量没有变化。",
+      "pinyin": "Mài chū de shāng pǐn shù liàng méi yǒu biàn huà.",
+      "meaning": "Số lượng hàng bán ra không thay đổi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4014-t5",
+      "type": "teaching",
+      "title": "数字 · con số; chữ số",
+      "text": "数字 là số/ký hiệu trong bảng; một con số cần đơn vị và bối cảnh để hiểu.",
+      "hanzi": "请检查表格里的数字。",
+      "pinyin": "Qǐng jiǎn chá biǎo gé lǐ de shù zì.",
+      "meaning": "Hãy kiểm tra các con số trong bảng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4014-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "不过 nối mệnh đề tương phản nhẹ: doanh thu tăng, tuy nhiên số hàng bán không đổi. Không dùng sự đồng thời của hai số liệu để suy ra nguyên nhân. Sổ bán hàng ở đây hoàn toàn hư cấu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4014-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "在课堂故事里，小方在市场开店，记录自己的生意。他拿出两周的商品表格：“收入增加了，不过卖出的商品数量没有变。”同学问是不是利润增加了。老师说：“先看清数字的意思。收入没有扣除成本，不能直接当作利润；这些数字也不是真实市场数据。”",
+      "pinyin": "Zài kè táng gù shi lǐ, Xiǎo Fāng zài shì chǎng kāi diàn, jì lù zì jǐ de shēng yi. Tā ná chū liǎng zhōu de shāng pǐn biǎo gé: “Shōu rù zēng jiā le, bú guò mài chū de shāng pǐn shù liàng méi yǒu biàn.” Tóng xué wèn shì bu shì lì rùn zēng jiā le. Lǎo shī shuō: “Xiān kàn qīng shù zì de yì si. Shōu rù méi yǒu kòu chú chéng běn, bù néng zhí jiē dàng zuò lì rùn; zhè xiē shù zì yě bú shì zhēn shí shì chǎng shù jù.”",
+      "meaning": "Sổ bán hàng hư cấu phân biệt khoản thu với lợi nhuận và số lượng với con số; không phải dữ liệu hay lời khuyên tài chính.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4014-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l4014-v1-e0"
+    },
+    {
+      "id": "l4014-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l4014-v1-e1"
+    },
+    {
+      "id": "l4014-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l4014-v1-e2"
+    },
+    {
+      "id": "l4014-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l4014-v1-e3"
+    },
+    {
+      "id": "l4014-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l4014-v1-e4"
+    },
+    {
+      "id": "l4014-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l4014-v1-e5"
+    },
+    {
+      "id": "l4014-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l4014-v1-e6"
+    },
+    {
+      "id": "l4014-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l4014-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l4014-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4014-c0",
+      "senseId": "l4014-v-1678-sense",
+      "keyRef": "l4014-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “thu nhập; khoản thu” để điền câu: 本周的□比上周高。",
+      "choices": [
+        "生意",
+        "市场",
+        "商品",
+        "数量",
+        "数字",
+        "收入"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4014-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4014-c1",
+      "senseId": "l4014-v-1649-sense",
+      "keyRef": "l4014-v1-k1",
+      "prompt": "Ghi pinyin của 生意 trong câu “这家小店的生意不错。”, theo nghĩa “việc kinh doanh; buôn bán”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4014-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4014-c2",
+      "senseId": "l4014-v-1669-sense",
+      "keyRef": "l4014-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “thị trường; chợ”: 他在□里开了一家小店。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4014-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l4014-c3",
+      "senseId": "l4014-v-1630-sense",
+      "keyRef": "l4014-v1-k3",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “hàng hóa”: 商□ (shāng pǐn). Ngữ cảnh: 店里增加了两种□。",
+      "choices": [
+        "品",
+        "吕",
+        "晶",
+        "器"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4014-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4014-c4",
+      "senseId": "l4014-v-1692-sense",
+      "keyRef": "l4014-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “số lượng” để điền câu: 卖出的商品□没有变化。",
+      "choices": [
+        "数字",
+        "收入",
+        "生意",
+        "市场",
+        "商品",
+        "数量"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4014-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4014-c5",
+      "senseId": "l4014-v-1694-sense",
+      "keyRef": "l4014-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “con số; chữ số”: 请检查表格里的□。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4014-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4014-c0",
+      "senseId": "l4014-v-1678-sense",
+      "keyRef": "l4014-v1-k6",
+      "prompt": "Theo đoạn, khoản thu đã trừ chi phí chưa?",
+      "choices": [
+        "已经全部扣除",
+        "表格没有收入",
+        "没有"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4014-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l4014-c3",
+      "senseId": "l4014-v-1630-sense",
+      "keyRef": "l4014-v1-k7",
+      "prompt": "Sắp xếp nguyên các cụm thành câu theo mẫu đang học; không thêm/bớt từ.",
+      "choices": [
+        "收入增加了，",
+        "不过",
+        "商品数量",
+        "没有变。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l4014-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l4014-v1-e0",
+      "senseId": "l4014-v-1678-sense",
+      "accepted": [
+        "收入"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "收入: thu nhập; khoản thu. 收入 chỉ khoản thu; trong sổ bán hàng này là tiền bán hàng trước chi phí, không đồng nghĩa lợi nhuận. Khoản thu tuần này cao hơn tuần trước."
+    },
+    {
+      "id": "l4014-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l4014-v1-e1",
+      "senseId": "l4014-v-1649-sense",
+      "accepted": [
+        "shēng yi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc shēng yi. 生意 nói công việc mua bán; 意 thường đọc nhẹ trong từ này."
+    },
+    {
+      "id": "l4014-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l4014-v1-e2",
+      "senseId": "l4014-v-1669-sense",
+      "accepted": [
+        "市场"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 市场. 市场 ở đây là khu chợ cụ thể nơi mua bán; không phải dự báo thị trường tài chính. Anh ấy mở một cửa hàng nhỏ trong chợ."
+    },
+    {
+      "id": "l4014-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l4014-v1-e3",
+      "senseId": "l4014-v-1630-sense",
+      "accepted": [
+        "品"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 品 tạo từ 商品. 商品 là đồ được đưa ra mua bán; không phải mọi đồ vật cá nhân đều là hàng hóa. Nhận diện chữ 品 trong 商品; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l4014-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l4014-v1-e4",
+      "senseId": "l4014-v-1692-sense",
+      "accepted": [
+        "数量"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "数量: số lượng. 数量 biểu thị lượng đếm của vật, khác 数字 là ký hiệu/số cụ thể dùng để ghi. Số lượng hàng bán ra không thay đổi."
+    },
+    {
+      "id": "l4014-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l4014-v1-e5",
+      "senseId": "l4014-v-1694-sense",
+      "accepted": [
+        "数字"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 数字. 数字 là số/ký hiệu trong bảng; một con số cần đơn vị và bối cảnh để hiểu. Hãy kiểm tra các con số trong bảng."
+    },
+    {
+      "id": "l4014-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l4014-v1-e6",
+      "senseId": "l4014-v-1678-sense",
+      "accepted": [
+        "没有"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 没有. Sổ bán hàng hư cấu phân biệt khoản thu với lợi nhuận và số lượng với con số; không phải dữ liệu hay lời khuyên tài chính."
+    },
+    {
+      "id": "l4014-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l4014-v1-e7",
+      "senseId": "l4014-v-1630-sense",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 不过 nối mệnh đề tương phản nhẹ: doanh thu tăng, tuy nhiên số hàng bán không đổi. Không dùng sự đồng thời của hai số liệu để suy ra nguyên nhân. Sổ bán hàng ở đây hoàn toàn hư cấu."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,836 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "14822c08b6c77d7bcd17840b28214c2c8e609a614c34738addf0b98c28c6e8f5",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-fruit-units",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L336",
+    "version": 1,
+    "versionId": "l336-draft-v1",
+    "title": "Mua trái cây và đọc đơn vị",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc lượng và vật chứa, phân biệt đồ uống có cồn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "公斤"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 14,
+      "physicalPage": 15,
+      "printedPage": 12,
+      "section": "task",
+      "entry": "六"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-shopping",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 14,
+          "physicalPage": 15,
+          "printedPage": 12,
+          "section": "task",
+          "entry": "六"
+        },
+        "written": "交流购物信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-shopping-experience",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "购物经历"
+        },
+        "written": "购物经历",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l336-v-891",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 891"
+        },
+        "written": "香蕉",
+        "pinyin": "xiāngjiāo",
+        "senseId": "l336-v-891-sense",
+        "ordinal": 891,
+        "note": "3 xiāngjiāo 名; 香蕉 là chuối; 根 đếm quả trong ví dụ. Không lấy 香蕉 làm tên gọi mọi trái cây vàng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l336-v-905",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 905"
+        },
+        "written": "新鲜",
+        "pinyin": "xīnxiān",
+        "senseId": "l336-v-905-sense",
+        "ordinal": 905,
+        "note": "3 xīnxiān 形; 新鲜 khi nói thực phẩm là tươi, khác 新 là mới theo thời gian sử dụng. Nhãn mô tả không thay kiểm tra an toàn thực phẩm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l336-v-796",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 796"
+        },
+        "written": "瓶子",
+        "pinyin": "píngzi",
+        "senseId": "l336-v-796-sense",
+        "ordinal": 796,
+        "note": "3 píngzi 名; 瓶子 là vật chứa; 一瓶水 dùng 瓶 làm lượng từ. 瓶子空了 không có nghĩa nước là chai. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l336-v-720",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 720"
+        },
+        "written": "酒",
+        "pinyin": "jiǔ",
+        "senseId": "l336-v-720-sense",
+        "ordinal": 720,
+        "note": "3 jiǔ 名; 酒 là tên chung đồ uống có cồn; 不喝酒 nói không uống đồ có cồn, không chỉ riêng bia. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l336-v-794",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 794"
+        },
+        "written": "啤酒",
+        "pinyin": "píjiǔ",
+        "senseId": "l336-v-794-sense",
+        "ordinal": 794,
+        "note": "3 píjiǔ 名; 啤酒 là một loại 酒; hỏi bia cụ thể cần đúng từ, không suy ra mọi 酒 là bia. Bài không khuyến khích uống. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l336-v-647",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 647"
+        },
+        "written": "公斤",
+        "pinyin": "gōngjīn",
+        "senseId": "l336-v-647-sense",
+        "ordinal": 647,
+        "note": "3 gōngjīn 量; 公斤 là đơn vị khối lượng kg; 一公斤香蕉 chỉ lượng cân, không đếm số quả. Không nhầm với 公里 kilômét. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-227",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "227"
+        },
+        "written": "香",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 227,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-104",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "104"
+        },
+        "written": "蕉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 104,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-225",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "225"
+        },
+        "written": "鲜",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 225,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-167",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "167"
+        },
+        "written": "瓶",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 167,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-164",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "164"
+        },
+        "written": "啤",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 164,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-116",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "116"
+        },
+        "written": "斤",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 116,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-kilo",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "量词 / 公斤斤角毛刻米"
+        },
+        "written": "公斤",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l336-c0",
+      "version": 1,
+      "senseId": "l336-v-891-sense",
+      "hanzi": "香蕉",
+      "dictionaryPinyin": "xiāng jiāo",
+      "meaning": "chuối",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l336-v-891"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l336-c1",
+      "version": 1,
+      "senseId": "l336-v-905-sense",
+      "hanzi": "新鲜",
+      "dictionaryPinyin": "xīn xiān",
+      "meaning": "tươi/mới mẻ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l336-v-905"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l336-c2",
+      "version": 1,
+      "senseId": "l336-v-796-sense",
+      "hanzi": "瓶子",
+      "dictionaryPinyin": "píng zi",
+      "meaning": "chai/lọ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l336-v-796"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l336-c3",
+      "version": 1,
+      "senseId": "l336-v-720-sense",
+      "hanzi": "酒",
+      "dictionaryPinyin": "jiǔ",
+      "meaning": "rượu/đồ uống có cồn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l336-v-720"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l336-c4",
+      "version": 1,
+      "senseId": "l336-v-794-sense",
+      "hanzi": "啤酒",
+      "dictionaryPinyin": "pí jiǔ",
+      "meaning": "bia",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l336-v-794"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l336-c5",
+      "version": 1,
+      "senseId": "l336-v-647-sense",
+      "hanzi": "公斤",
+      "dictionaryPinyin": "gōng jīn",
+      "meaning": "kilôgam",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l336-v-647"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l336-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 称 chēng: cân; 根 gēn: lượng từ chuối; 店员 diànyuán: nhân viên bán hàng; 重量 zhòngliàng: khối lượng/cân nặng theo ngữ cảnh.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l336-t0",
+      "type": "teaching",
+      "title": "香蕉 · chuối",
+      "text": "香蕉 là chuối; 根 đếm quả trong ví dụ. Không lấy 香蕉 làm tên gọi mọi trái cây vàng.",
+      "hanzi": "我买了三根香蕉。",
+      "pinyin": "Wǒ mǎi le sān gēn xiāngjiāo.",
+      "meaning": "Tôi mua ba quả chuối.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l336-t1",
+      "type": "teaching",
+      "title": "新鲜 · tươi/mới mẻ",
+      "text": "新鲜 khi nói thực phẩm là tươi, khác 新 là mới theo thời gian sử dụng. Nhãn mô tả không thay kiểm tra an toàn thực phẩm.",
+      "hanzi": "今天的水果很新鲜。",
+      "pinyin": "Jīntiān de shuǐguǒ hěn xīnxiān.",
+      "meaning": "Trái cây hôm nay rất tươi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l336-t2",
+      "type": "teaching",
+      "title": "瓶子 · chai/lọ",
+      "text": "瓶子 là vật chứa; 一瓶水 dùng 瓶 làm lượng từ. 瓶子空了 không có nghĩa nước là chai.",
+      "hanzi": "这个瓶子里是水。",
+      "pinyin": "Zhège píngzi lǐ shì shuǐ.",
+      "meaning": "Trong chai này là nước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l336-t3",
+      "type": "teaching",
+      "title": "酒 · rượu/đồ uống có cồn",
+      "text": "酒 là tên chung đồ uống có cồn; 不喝酒 nói không uống đồ có cồn, không chỉ riêng bia.",
+      "hanzi": "我今天不喝酒。",
+      "pinyin": "Wǒ jīntiān bù hē jiǔ.",
+      "meaning": "Hôm nay tôi không uống rượu bia.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l336-t4",
+      "type": "teaching",
+      "title": "啤酒 · bia",
+      "text": "啤酒 là một loại 酒; hỏi bia cụ thể cần đúng từ, không suy ra mọi 酒 là bia. Bài không khuyến khích uống.",
+      "hanzi": "这不是水，是啤酒。",
+      "pinyin": "Zhè bú shì shuǐ, shì píjiǔ.",
+      "meaning": "Đây không phải nước, là bia.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l336-t5",
+      "type": "teaching",
+      "title": "公斤 · kilôgam",
+      "text": "公斤 là đơn vị khối lượng kg; 一公斤香蕉 chỉ lượng cân, không đếm số quả. Không nhầm với 公里 kilômét.",
+      "hanzi": "请称一公斤香蕉。",
+      "pinyin": "Qǐng chēng yì gōngjīn xiāngjiāo.",
+      "meaning": "Hãy cân một kilôgam chuối.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l336-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "公斤 là kilôgam; 一公斤等于两斤 trong đơn vị thị cân đại lục đang dùng, không suy ra mọi địa phương cùng chuẩn 斤. Bài chỉ chấm 公斤 theo nhãn.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l336-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林买了一公斤新鲜香蕉。小王拿起一个瓶子，问是不是水。店员说：那是啤酒，水在左边。小王不喝酒，换了一瓶水。小林说：一公斤是重量，不是香蕉的根数。",
+      "pinyin": "Xiǎo Lín mǎi le yì gōngjīn xīnxiān xiāngjiāo. Xiǎo Wáng ná qǐ yí ge píngzi, wèn shì bu shì shuǐ. Diànyuán shuō: Nà shì píjiǔ, shuǐ zài zuǒbian. Xiǎo Wáng bù hē jiǔ, huàn le yì píng shuǐ. Xiǎo Lín shuō: Yì gōngjīn shì zhòngliàng, bú shì xiāngjiāo de gēn shù.",
+      "meaning": "Lâm mua một kg chuối tươi. Vương hỏi chai có phải nước không, biết là bia nên đổi nước. Một kg là khối lượng, không phải số quả.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l336-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l336-v1-e0"
+    },
+    {
+      "id": "l336-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l336-v1-e1"
+    },
+    {
+      "id": "l336-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l336-v1-e2"
+    },
+    {
+      "id": "l336-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l336-v1-e3"
+    },
+    {
+      "id": "l336-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l336-v1-e4"
+    },
+    {
+      "id": "l336-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l336-v1-e5"
+    },
+    {
+      "id": "l336-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l336-v1-e6"
+    },
+    {
+      "id": "l336-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l336-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l336-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l336-c0",
+      "senseId": "l336-v-891-sense",
+      "keyRef": "l336-v1-k0",
+      "prompt": "Đúng tên chuối: 三根□。",
+      "choices": [
+        "新鲜",
+        "瓶子",
+        "酒",
+        "啤酒",
+        "公斤",
+        "香蕉"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l336-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l336-c1",
+      "senseId": "l336-v-905-sense",
+      "keyRef": "l336-v1-k1",
+      "prompt": "Tính từ chỉ độ tươi của trái cây: 水果很□。",
+      "choices": [
+        "瓶子",
+        "酒",
+        "啤酒",
+        "公斤",
+        "香蕉",
+        "新鲜"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l336-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l336-c2",
+      "senseId": "l336-v-796-sense",
+      "keyRef": "l336-v1-k2",
+      "prompt": "Tên vật chứa nước bằng chai: 这个□里是水。",
+      "choices": [
+        "酒",
+        "啤酒",
+        "公斤",
+        "香蕉",
+        "新鲜",
+        "瓶子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l336-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l336-c3",
+      "senseId": "l336-v-720-sense",
+      "keyRef": "l336-v1-k3",
+      "prompt": "Viết pinyin của 酒 trong câu “我今天不喝酒。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l336-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l336-c4",
+      "senseId": "l336-v-794-sense",
+      "keyRef": "l336-v1-k4",
+      "prompt": "Chọn tên riêng loại bia, không phải tên chung 酒.",
+      "choices": [
+        "公斤",
+        "香蕉",
+        "新鲜",
+        "瓶子",
+        "酒",
+        "啤酒"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l336-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l336-c5",
+      "senseId": "l336-v-647-sense",
+      "keyRef": "l336-v1-k5",
+      "prompt": "Điền đơn vị kg theo nhãn: 一□香蕉。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l336-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l336-c0",
+      "senseId": "l336-v-891-sense",
+      "keyRef": "l336-v1-k6",
+      "prompt": "Vương cuối cùng lấy gì?",
+      "choices": [
+        "一瓶啤酒",
+        "一公斤酒",
+        "一瓶水"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l336-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l336-c3",
+      "senseId": "l336-v-720-sense",
+      "keyRef": "l336-v1-k7",
+      "prompt": "Xếp lượng mua chuối; bắt đầu bằng 我买了.",
+      "choices": [
+        "一公斤香蕉",
+        "我买了"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l336-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l336-v1-e0",
+      "senseId": "l336-v-891-sense",
+      "accepted": [
+        "香蕉"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "香蕉: chuối. 香蕉 là chuối; 根 đếm quả trong ví dụ. Không lấy 香蕉 làm tên gọi mọi trái cây vàng. Tôi mua ba quả chuối."
+    },
+    {
+      "id": "l336-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l336-v1-e1",
+      "senseId": "l336-v-905-sense",
+      "accepted": [
+        "新鲜"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "新鲜: tươi/mới mẻ. 新鲜 khi nói thực phẩm là tươi, khác 新 là mới theo thời gian sử dụng. Nhãn mô tả không thay kiểm tra an toàn thực phẩm. Trái cây hôm nay rất tươi."
+    },
+    {
+      "id": "l336-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l336-v1-e2",
+      "senseId": "l336-v-796-sense",
+      "accepted": [
+        "瓶子"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "瓶子: chai/lọ. 瓶子 là vật chứa; 一瓶水 dùng 瓶 làm lượng từ. 瓶子空了 không có nghĩa nước là chai. Trong chai này là nước."
+    },
+    {
+      "id": "l336-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l336-v1-e3",
+      "senseId": "l336-v-720-sense",
+      "accepted": [
+        "jiǔ"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "酒: rượu/đồ uống có cồn. 酒 là tên chung đồ uống có cồn; 不喝酒 nói không uống đồ có cồn, không chỉ riêng bia. Hôm nay tôi không uống rượu bia."
+    },
+    {
+      "id": "l336-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l336-v1-e4",
+      "senseId": "l336-v-794-sense",
+      "accepted": [
+        "啤酒"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "啤酒: bia. 啤酒 là một loại 酒; hỏi bia cụ thể cần đúng từ, không suy ra mọi 酒 là bia. Bài không khuyến khích uống. Đây không phải nước, là bia."
+    },
+    {
+      "id": "l336-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l336-v1-e5",
+      "senseId": "l336-v-647-sense",
+      "accepted": [
+        "公斤"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "公斤: kilôgam. 公斤 là đơn vị khối lượng kg; 一公斤香蕉 chỉ lượng cân, không đếm số quả. Không nhầm với 公里 kilômét. Hãy cân một kilôgam chuối."
+    },
+    {
+      "id": "l336-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l336-v1-e6",
+      "senseId": "l336-v-891-sense",
+      "accepted": [
+        "一瓶水"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 公斤 là kilôgam; 一公斤等于两斤 trong đơn vị thị cân đại lục đang dùng, không suy ra mọi địa phương cùng chuẩn 斤. Bài chỉ chấm 公斤 theo nhãn."
+    },
+    {
+      "id": "l336-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l336-v1-e7",
+      "senseId": "l336-v-720-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 公斤 là kilôgam; 一公斤等于两斤 trong đơn vị thị cân đại lục đang dùng, không suy ra mọi địa phương cùng chuẩn 斤. Bài chỉ chấm 公斤 theo nhãn."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

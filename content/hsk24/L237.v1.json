@@ -1,0 +1,1481 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "c4444d8f2d745803723134f00ce9d7f9661ffc84085a7da444e8e152c0a6bcf4",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "food-drinks",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L237",
+    "version": 1,
+    "versionId": "l237-draft-v1",
+    "title": "Gọi món, khẩu vị và lượng ước chừng",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc hội thoại gọi món, phân biệt đồ uống, thói quen và cách nói lượng gần đúng.",
+      "Vận dụng trong tình huống mới; không cấp mastery hay chứng nhận nghe/nói."
+    ],
+    "prerequisites": [
+      "l205-draft-v1",
+      "l229-draft-v1",
+      "l234-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "Gọi món, khẩu vị và lượng ước chừng"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 9,
+      "physicalPage": 10,
+      "printedPage": 7,
+      "section": "task",
+      "entry": "七"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-food",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 9,
+          "physicalPage": 10,
+          "printedPage": 7,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "问答日常饮食",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-shopping",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "九"
+        },
+        "written": "问答商品情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-choice",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 9,
+          "physicalPage": 10,
+          "printedPage": 7,
+          "section": "task",
+          "entry": "六 / 做出选择"
+        },
+        "written": "日常言语交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-food",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 饮食 / 食物饮品"
+        },
+        "written": "食物饮品",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-product-description",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 购物 / 商品描述"
+        },
+        "written": "商品描述",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-politeness",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交往 / 基本礼貌行为"
+        },
+        "written": "基本礼貌行为",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-closure-topic-60-11",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 饮食 / 饮食习惯"
+        },
+        "written": "饮食习惯",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact tertiary source topic; written scenario only, not all communication modalities."
+      },
+      {
+        "id": "h2-closure-topic-60-12",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 饮食 / 就餐"
+        },
+        "written": "就餐",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact tertiary source topic; written scenario only, not all communication modalities."
+      },
+      {
+        "id": "h2-closure-topic-61-9",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 61,
+          "physicalPage": 62,
+          "printedPage": 59,
+          "section": "topic",
+          "entry": "文化与传统 / 饮食文化 / 中餐印象"
+        },
+        "written": "中餐印象",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact tertiary source topic; written scenario only, not all communication modalities."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l205-v-354",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 354"
+        },
+        "written": "红茶",
+        "pinyin": "hóngchá",
+        "senseId": "l205-v-354-sense",
+        "ordinal": 354,
+        "note": "2 hóngchá 名; 红茶 là tên loại trà, thường tương ứng black tea. Không dịch máy móc thành mọi nước trà màu đỏ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l205-v-395",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 395"
+        },
+        "written": "绿茶",
+        "pinyin": "lǜchá",
+        "senseId": "l205-v-395-sense",
+        "ordinal": 395,
+        "note": "2 lǜchá 名; 绿茶 là tên trà xanh; chữ 绿 có âm ü, không đọc lù. Giữ thanh bốn ở lǜ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l205-v-377",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 377"
+        },
+        "written": "咖啡",
+        "pinyin": "kāfēi",
+        "senseId": "l205-v-377-sense",
+        "ordinal": 377,
+        "note": "2 kāfēi 名; Hai âm tiết đều thanh một. 咖啡 là đồ uống; 一杯咖啡 là một cốc cà phê. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l205-v-408",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 408"
+        },
+        "written": "奶茶",
+        "pinyin": "nǎichá",
+        "senseId": "l205-v-408-sense",
+        "ordinal": 408,
+        "note": "2 nǎichá 名; 奶茶 là trà pha sữa; không mặc định có trân châu hay nhiều đường. Muốn biết thành phần phải hỏi thêm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l205-v-339",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 339"
+        },
+        "written": "饭馆",
+        "pinyin": "fànguǎn",
+        "senseId": "l205-v-339-sense",
+        "ordinal": 339,
+        "note": "2 fànguǎn 名; 饭馆 là nơi ăn uống; không phải 饭店 trong mọi ngữ cảnh và không phải ‘nhà cơm’ dịch từng chữ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l205-v-483",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 483"
+        },
+        "written": "鱼",
+        "pinyin": "yú",
+        "senseId": "l205-v-483-sense",
+        "ordinal": 483,
+        "note": "2 yú 名; 鱼 có âm ü, không đọc yǔ hoặc yù. Ở đây dùng danh từ món cá; việc nói 我不吃鱼 không tự cho biết lý do. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-307",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 307"
+        },
+        "written": "包",
+        "pinyin": "bāo",
+        "senseId": "l229-v-307-sense",
+        "ordinal": 307,
+        "note": "2 bāo 动、名、量; 包 ở đây là danh từ túi. Nguồn còn ghi động từ/lượng từ, nhưng bài chỉ chấm nghĩa danh từ trong 这个包. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-423",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 423"
+        },
+        "written": "肉",
+        "pinyin": "ròu",
+        "senseId": "l229-v-423-sense",
+        "ordinal": 423,
+        "note": "2 ròu 名; 肉 chỉ thịt nói chung; câu không nêu loại thì không tự kết luận thịt bò hay thịt lợn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-357",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 357"
+        },
+        "written": "花1",
+        "pinyin": "huā",
+        "senseId": "l229-v-357-sense",
+        "ordinal": 357,
+        "note": "2 huā 动; 花1 trong 花钱 là động từ chi tiêu. Không chọn nghĩa bông hoa ở ngữ cảnh này dù cùng đọc huā. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-449",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 449"
+        },
+        "written": "万",
+        "pinyin": "wàn",
+        "senseId": "l229-v-449-sense",
+        "ordinal": 449,
+        "note": "2 wàn 数; 万 là đơn vị số đếm 10.000. 一万 = mười nghìn, không phải một triệu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-402",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 402"
+        },
+        "written": "门票",
+        "pinyin": "ménpiào",
+        "senseId": "l229-v-402-sense",
+        "ordinal": 402,
+        "note": "2 ménpiào 名; 门票 là vé vào một địa điểm/sự kiện; khác 机票 là vé máy bay. Không suy ra được miễn phí nếu chỉ nói có vé. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-360",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 360"
+        },
+        "written": "坏",
+        "pinyin": "huài",
+        "senseId": "l229-v-360-sense",
+        "ordinal": 360,
+        "note": "2 huài 形; 坏 ở đây là hỏng đồ vật. Không dùng nghĩa đạo đức xấu của người để trả lời câu điện thoại hỏng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "千",
+        "pinyin": "qiān",
+        "senseId": "l229-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: nghìn; nhắc để đối chiếu 万, không tính vào mục từ HSK2 mới."
+      },
+      {
+        "id": "l234-v-311",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 311"
+        },
+        "written": "别1",
+        "pinyin": "bié",
+        "senseId": "l234-v-311-sense",
+        "ordinal": 311,
+        "note": "2 bié 副; 别1 là phó từ phủ định trong lời yêu cầu 别跑. Không nhầm với từ khác nghĩa chia lìa hay khác biệt. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l234-v-345",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 345"
+        },
+        "written": "跟",
+        "pinyin": "gēn",
+        "senseId": "l234-v-345-sense",
+        "ordinal": 345,
+        "note": "2（5） gēn 介、连、（名、动）; 跟 trong 跟奶奶一起 là giới từ chỉ người đi cùng. Nguồn còn ghi liên từ ở cấp này; nghĩa danh từ/động từ cấp cao hơn không được tính ở đây. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l234-v-336",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 336"
+        },
+        "written": "点2",
+        "pinyin": "diǎn",
+        "senseId": "l234-v-336-sense",
+        "ordinal": 336,
+        "note": "2（4） diǎn 动、（名、量）; 点2 là động từ trong 点菜 ở cấp2. Không dùng danh từ chấm/điểm hay lượng từ được chú thích cấp cao hơn để trả lời câu này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l234-v-347",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 347"
+        },
+        "written": "过",
+        "pinyin": "guò",
+        "senseId": "l234-v-347-sense",
+        "ordinal": 347,
+        "note": "2 guò 动; Mục347 là động từ guò có thanh bốn. Trong 过生日 nghĩa là đón sinh nhật, không phải trợ từ kinh nghiệm guo đọc nhẹ mục351. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l234-v-463",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 463"
+        },
+        "written": "笑",
+        "pinyin": "xiào",
+        "senseId": "l234-v-463-sense",
+        "ordinal": 463,
+        "note": "2 xiào 动; 笑 ở đây là cười; không tự suy ra đang chế nhạo ai khi câu không nêu đối tượng/ngữ cảnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l234-v-325",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 325"
+        },
+        "written": "从小",
+        "pinyin": "cóngxiǎo",
+        "senseId": "l234-v-325-sense",
+        "ordinal": 325,
+        "note": "2 cóngxiǎo 副; 从小 chỉ khoảng bắt đầu từ thời thơ ấu đến mốc được nói. Không đồng nghĩa mọi việc đều xảy ra đúng một ngày lúc nhỏ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l234-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "然后",
+        "pinyin": "rán hòu",
+        "senseId": "l234-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: sau đó; cấp chưa xác minh, chỉ nối sự việc."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-27",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "27"
+        },
+        "written": "红",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 27,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-54",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "54"
+        },
+        "written": "绿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 54,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-42",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "42"
+        },
+        "written": "咖",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 42,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-20",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "20"
+        },
+        "written": "啡",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 20,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-24",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "24"
+        },
+        "written": "馆",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 24,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-112",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "112"
+        },
+        "written": "鱼",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 112,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-69",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "69"
+        },
+        "written": "肉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 69,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-28",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "28"
+        },
+        "written": "花",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 28,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-89",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "89"
+        },
+        "written": "万",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 89,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "门",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-62",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "62"
+        },
+        "written": "票",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 62,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-30",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "30"
+        },
+        "written": "坏",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 30,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-7",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "7"
+        },
+        "written": "别",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 7,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-23",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "23"
+        },
+        "written": "跟",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 23,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-25",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "25"
+        },
+        "written": "过",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 25,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-99",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "99"
+        },
+        "written": "笑",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 99,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-12",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "12"
+        },
+        "written": "从",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 12,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-alternative",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "句类 / 疑问句"
+        },
+        "written": "用“还是”连接的选择问句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-g-ten-thousand",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "词类 / 数词 / 万"
+        },
+        "written": "万、好多、多",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-g-negative-command",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "句类 / 祈使句 / 别"
+        },
+        "written": "用“别”的祈使句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-closure-g-388-12",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "table-body-row-12"
+        },
+        "written": "（2）借用名量词：包",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact table row be49ecb5121ae344821907f9da5ad15910bc54f60c1289093e385d8a6f3f3f2a; this activity covers only the explicitly taught subalternative, not every alternative in a row."
+      },
+      {
+        "id": "h2-closure-g-390-12",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "table-body-row-12"
+        },
+        "written": "（2）数词+多+量词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact table row 0167cb00e9997a1ddb865c36c5f3cfb37bfcb82275c2d851860535eaf69e42c5; this activity covers only the explicitly taught subalternative, not every alternative in a row."
+      },
+      {
+        "id": "h2-closure-g-390-13",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "table-body-row-13"
+        },
+        "written": "（3）数词+量词+多",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact table row d9ab81ef5c761e0223973c97dc95b4836e59f97cb4769ee384261f17f53e0e72; this activity covers only the explicitly taught subalternative, not every alternative in a row."
+      },
+      {
+        "id": "h2-closure-g-389-8",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "table-body-row-8"
+        },
+        "written": "还是……吧",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact table row a5a66815ec473648c3ed105c3b29c383d2fa5d3b6e257c201e7e0b00066452d8; this activity covers only the explicitly taught subalternative, not every alternative in a row."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l205-c0",
+      "version": 1,
+      "senseId": "l205-v-354-sense",
+      "hanzi": "红茶",
+      "dictionaryPinyin": "hóng chá",
+      "meaning": "trà đen, thường gọi hồng trà",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l205-v-354"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l205-c1",
+      "version": 1,
+      "senseId": "l205-v-395-sense",
+      "hanzi": "绿茶",
+      "dictionaryPinyin": "lǜ chá",
+      "meaning": "trà xanh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l205-v-395"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l229-c1",
+      "version": 1,
+      "senseId": "l229-v-423-sense",
+      "hanzi": "肉",
+      "dictionaryPinyin": "ròu",
+      "meaning": "thịt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l229-v-423"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l234-c2",
+      "version": 1,
+      "senseId": "l234-v-336-sense",
+      "hanzi": "点",
+      "dictionaryPinyin": "diǎn",
+      "meaning": "gọi, chọn món",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l234-v-336"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l237-prereq",
+      "type": "teaching",
+      "title": "Kiến thức hỗ trợ",
+      "text": "Nhắc 我/你/他, 是/有/在, số và câu hỏi cơ bản; HSK1 chưa hoàn chỉnh. Từ hỗ trợ trong ngữ cảnh được giải thích tại mỗi mục; không cộng từ mới hay cấp mastery. 中餐馆 (Zhōngcānguǎn): quán món Trung, từ hỗ trợ ngoài mục tiêu được tính.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l237-reminder0",
+      "type": "teaching",
+      "title": "Nhắc từ đã học · 红茶",
+      "text": "红茶 là tên loại trà, thường tương ứng black tea. Không dịch máy móc thành mọi nước trà màu đỏ.",
+      "hanzi": "我想喝一杯红茶。",
+      "pinyin": "Wǒ xiǎng hē yì bēi hóngchá.",
+      "meaning": "Tôi muốn uống một cốc hồng trà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l237-reminder1",
+      "type": "teaching",
+      "title": "Nhắc từ đã học · 绿茶",
+      "text": "绿茶 là tên trà xanh; chữ 绿 có âm ü, không đọc lù. Giữ thanh bốn ở lǜ.",
+      "hanzi": "妈妈喜欢喝绿茶。",
+      "pinyin": "Māma xǐhuan hē lǜchá.",
+      "meaning": "Mẹ thích uống trà xanh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l237-reminder2",
+      "type": "teaching",
+      "title": "Nhắc từ đã học · 肉",
+      "text": "肉 chỉ thịt nói chung; câu không nêu loại thì không tự kết luận thịt bò hay thịt lợn.",
+      "hanzi": "我们买一些肉。",
+      "pinyin": "Wǒmen mǎi yìxiē ròu.",
+      "meaning": "Chúng tôi mua một ít thịt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l237-reminder3",
+      "type": "teaching",
+      "title": "Nhắc từ đã học · 点",
+      "text": "点2 là động từ trong 点菜 ở cấp2. Không dùng danh từ chấm/điểm hay lượng từ được chú thích cấp cao hơn để trả lời câu này.",
+      "hanzi": "我们点鱼和肉吧。",
+      "pinyin": "Wǒmen diǎn yú hé ròu ba.",
+      "meaning": "Chúng ta gọi cá và thịt nhé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l237-grammar0",
+      "type": "teaching",
+      "title": "Cách nói 1",
+      "text": "Trong 一包红茶, 包 là lượng từ một gói trà; khác 包 trong 我的包: danh từ chiếc túi. Không gộp hai chức năng thành cùng nghĩa từ vựng.",
+      "hanzi": "我买了一包红茶。",
+      "pinyin": "Wǒ mǎi le yì bāo hóngchá.",
+      "meaning": "Tôi mua một gói trà đen.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l237-grammar1",
+      "type": "teaching",
+      "title": "Cách nói 2",
+      "text": "十多个人 là hơn mười người, không xác định con số chính xác; 多 đứng sau số và trước lượng từ. Tránh dùng mẫu này để suy ra chính xác mười một.",
+      "hanzi": "饭馆里有十多个人。",
+      "pinyin": "Fànguǎn lǐ yǒu shí duō ge rén.",
+      "meaning": "Trong quán có hơn mười người.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l237-grammar2",
+      "type": "teaching",
+      "title": "Cách nói 3",
+      "text": "一个多小时 là hơn một giờ; 多 đứng sau lượng từ thời lượng. Khác 十多个人 là hơn mười người.",
+      "hanzi": "我们吃了一个多小时。",
+      "pinyin": "Wǒmen chī le yí ge duō xiǎoshí.",
+      "meaning": "Chúng tôi ăn hơn một giờ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l237-grammar3",
+      "type": "teaching",
+      "title": "Cách nói 4",
+      "text": "还是点鱼吧 là đề nghị sau cân nhắc; không phải câu hỏi lựa chọn với hai phương án. 平时: thường ngày; 试试: thử một chút, đều là hỗ trợ.",
+      "hanzi": "还是点鱼吧。",
+      "pinyin": "Háishi diǎn yú ba.",
+      "meaning": "Hay là gọi cá đi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l237-scene",
+      "type": "teaching",
+      "title": "Tình huống mới",
+      "text": "Đọc hội thoại gọi món, phân biệt đồ uống, thói quen và cách nói lượng gần đúng.",
+      "hanzi": "服务员：你们点什么？王：我平时喝绿茶，今天想试试红茶。李：我不吃肉，还是点鱼吧。王：我家里还有一包红茶，是妈妈买的。李：这家中餐馆的鱼不错，我上次来过。",
+      "pinyin": "Fúwùyuán: Nǐmen diǎn shénme? Wáng: Wǒ píngshí hē lǜchá, jīntiān xiǎng shìshi hóngchá. Lǐ: Wǒ bù chī ròu, háishi diǎn yú ba. Wáng: Wǒ jiā lǐ hái yǒu yì bāo hóngchá, shì māma mǎi de. Lǐ: Zhè jiā Zhōngcānguǎn de yú búcuò, wǒ shàng cì lái guo.",
+      "meaning": "Nhân viên hỏi gọi gì. Vương thường uống trà xanh, hôm nay muốn thử trà đen. Lý không ăn thịt và đề nghị gọi cá. Nhà Vương còn một gói trà đen mẹ mua. Lý nhận xét cá ở quán món Trung khá ngon và đã từng đến đây.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l237-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l237-e0"
+    },
+    {
+      "id": "l237-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l237-e1"
+    },
+    {
+      "id": "l237-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l237-e2"
+    },
+    {
+      "id": "l237-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l237-e3"
+    },
+    {
+      "id": "l237-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l237-e4"
+    },
+    {
+      "id": "l237-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l237-e5"
+    },
+    {
+      "id": "l237-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l237-e6"
+    },
+    {
+      "id": "l237-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l237-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l237-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l205-c0",
+      "senseId": "l205-v-354-sense",
+      "keyRef": "l237-k0",
+      "prompt": "包 trong 一包红茶 chỉ gì?",
+      "choices": [
+        "Đơn vị một gói",
+        "Chiếc túi xách làm chủ ngữ",
+        "Hành động đi bộ"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l237-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l234-c2",
+      "senseId": "l234-v-336-sense",
+      "keyRef": "l237-k1",
+      "prompt": "Chọn cách nói hơn mười người trong quán.",
+      "choices": [
+        "十个多人",
+        "十人多个",
+        "十多个人"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l237-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l229-c1",
+      "senseId": "l229-v-423-sense",
+      "keyRef": "l237-k2",
+      "prompt": "Muốn nói bữa ăn kéo dài hơn một giờ, chọn cụm đúng.",
+      "choices": [
+        "一个小时人",
+        "一个多小时",
+        "一多个人"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l237-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l234-c2",
+      "senseId": "l234-v-336-sense",
+      "keyRef": "l237-k3",
+      "prompt": "Lý không ăn thịt và đề nghị gọi cá. Chọn lời đáp phù hợp.",
+      "choices": [
+        "还是点鱼吧。",
+        "你点鱼还是点肉？",
+        "我昨天不认识你。"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l237-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l205-c1",
+      "senseId": "l205-v-395-sense",
+      "keyRef": "l237-k4",
+      "prompt": "Thói quen uống của Vương là gì?",
+      "choices": [
+        "只喝咖啡",
+        "从来不喝茶",
+        "平时喝绿茶"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l237-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l205-c0",
+      "senseId": "l205-v-354-sense",
+      "keyRef": "l237-k5",
+      "prompt": "Hôm nay Vương muốn thử gì?",
+      "choices": [
+        "咖啡",
+        "红茶",
+        "牛奶"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l237-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l229-c1",
+      "senseId": "l229-v-423-sense",
+      "keyRef": "l237-k6",
+      "prompt": "Vì sao Lý đề nghị cá?",
+      "choices": [
+        "不吃肉",
+        "不喝水",
+        "不喜欢饭馆"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l237-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l234-c2",
+      "senseId": "l234-v-336-sense",
+      "keyRef": "l237-k7",
+      "prompt": "Nhận xét về món cá dựa trên điều gì được kể?",
+      "choices": [
+        "还没去过",
+        "只看过照片",
+        "上次来过"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l237-k0",
+      "version": 1,
+      "exerciseVersionId": "l237-e0",
+      "senseId": "l205-v-354-sense",
+      "accepted": [
+        "Đơn vị một gói"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong 一包红茶, 包 là lượng từ một gói trà; khác 包 trong 我的包: danh từ chiếc túi. Không gộp hai chức năng thành cùng nghĩa từ vựng."
+    },
+    {
+      "id": "l237-k1",
+      "version": 1,
+      "exerciseVersionId": "l237-e1",
+      "senseId": "l234-v-336-sense",
+      "accepted": [
+        "十多个人"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "十多个人 là hơn mười người, không xác định con số chính xác; 多 đứng sau số và trước lượng từ. Tránh dùng mẫu này để suy ra chính xác mười một."
+    },
+    {
+      "id": "l237-k2",
+      "version": 1,
+      "exerciseVersionId": "l237-e2",
+      "senseId": "l229-v-423-sense",
+      "accepted": [
+        "一个多小时"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一个多小时 là hơn một giờ; 多 đứng sau lượng từ thời lượng. Khác 十多个人 là hơn mười người."
+    },
+    {
+      "id": "l237-k3",
+      "version": 1,
+      "exerciseVersionId": "l237-e3",
+      "senseId": "l234-v-336-sense",
+      "accepted": [
+        "还是点鱼吧。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "还是点鱼吧 là đề nghị sau cân nhắc; không phải câu hỏi lựa chọn với hai phương án. 平时: thường ngày; 试试: thử một chút, đều là hỗ trợ."
+    },
+    {
+      "id": "l237-k4",
+      "version": 1,
+      "exerciseVersionId": "l237-e4",
+      "senseId": "l205-v-395-sense",
+      "accepted": [
+        "平时喝绿茶"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Bình thường uống trà xanh; hôm nay mới muốn thử trà đen."
+    },
+    {
+      "id": "l237-k5",
+      "version": 1,
+      "exerciseVersionId": "l237-e5",
+      "senseId": "l205-v-354-sense",
+      "accepted": [
+        "红茶"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "今天想试试红茶 nêu ý định hôm nay."
+    },
+    {
+      "id": "l237-k6",
+      "version": 1,
+      "exerciseVersionId": "l237-e6",
+      "senseId": "l229-v-423-sense",
+      "accepted": [
+        "不吃肉"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Không ăn thịt là lý do Lý tự nêu; không suy ra lý do sức khỏe."
+    },
+    {
+      "id": "l237-k7",
+      "version": 1,
+      "exerciseVersionId": "l237-e7",
+      "senseId": "l234-v-336-sense",
+      "accepted": [
+        "上次来过"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Lý đã từng đến quán, không phải khẳng định mọi món đều ngon."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

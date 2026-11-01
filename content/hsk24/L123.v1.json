@@ -1,0 +1,709 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "7b8f1ea4bb69391d0413ebd2287aa38b09fbd0b79718ab4eb60796dc54235f00",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-f",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L123",
+    "version": 1,
+    "versionId": "l123-draft-v1",
+    "title": "Nghe và nói trong lớp",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Nghe và nói trong lớp; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "说话"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 6,
+      "physicalPage": 7,
+      "printedPage": 4,
+      "section": "task",
+      "entry": "十二"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T14:12:34.316389Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 6,
+          "physicalPage": 7,
+          "printedPage": 4,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "介绍学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-59dbaf6bf45d",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "学习内容"
+        },
+        "written": "学习内容",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l123-v-196",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 196"
+        },
+        "written": "说",
+        "pinyin": "shuō",
+        "senseId": "l123-v-196-sense",
+        "ordinal": 196,
+        "note": "1 shuō 动; 说 trong 说汉语 là nói tiếng Trung; không thay bằng 写 nếu đang nói bằng miệng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l123-v-197",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 197"
+        },
+        "written": "说话",
+        "pinyin": "shuōhuà",
+        "senseId": "l123-v-197-sense",
+        "ordinal": 197,
+        "note": "1 shuōhuà 动; 说话 gọi hoạt động nói; với lời nhắc trên lớp, cần chú ý lịch sự và ngữ cảnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l123-v-209",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 209"
+        },
+        "written": "听",
+        "pinyin": "tīng",
+        "senseId": "l123-v-209-sense",
+        "ordinal": 209,
+        "note": "1 tīng 动; 听 chỉ việc nghe/lắng nghe; không tự chứng minh đã nghe rõ mọi nội dung. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l123-v-210",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 210"
+        },
+        "written": "听见",
+        "pinyin": "tīngjiàn",
+        "senseId": "l123-v-210-sense",
+        "ordinal": 210,
+        "note": "1 tīngjiàn 动; 听见 nhấn đã nghe thấy trong tình huống, khác chỉ làm hành động lắng nghe. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-167",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "167"
+        },
+        "written": "说",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 167,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-72",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "72"
+        },
+        "written": "话",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 72,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-178",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "178"
+        },
+        "written": "听",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 178,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-82",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "82"
+        },
+        "written": "见",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 82,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-123",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-7"
+        },
+        "written": "说话",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l123-c0",
+      "version": 1,
+      "senseId": "l123-v-196-sense",
+      "hanzi": "说",
+      "dictionaryPinyin": "shuō",
+      "meaning": "nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l123-v-196"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l123-c1",
+      "version": 1,
+      "senseId": "l123-v-197-sense",
+      "hanzi": "说话",
+      "dictionaryPinyin": "shuō huà",
+      "meaning": "nói chuyện; nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l123-v-197"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l123-c2",
+      "version": 1,
+      "senseId": "l123-v-209-sense",
+      "hanzi": "听",
+      "dictionaryPinyin": "tīng",
+      "meaning": "nghe; lắng nghe",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l123-v-209"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l123-c3",
+      "version": 1,
+      "senseId": "l123-v-210-sense",
+      "hanzi": "听见",
+      "dictionaryPinyin": "tīng jiàn",
+      "meaning": "nghe thấy; nghe được",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l123-v-210"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l123-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l123-t0",
+      "type": "teaching",
+      "title": "说 · nói",
+      "text": "说 trong 说汉语 là nói tiếng Trung; không thay bằng 写 nếu đang nói bằng miệng.",
+      "hanzi": "我说汉语。",
+      "pinyin": "Wǒ shuō Hàn yǔ.",
+      "meaning": "Tôi nói tiếng Trung.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l123-t1",
+      "type": "teaching",
+      "title": "说话 · nói chuyện; nói",
+      "text": "说话 gọi hoạt động nói; với lời nhắc trên lớp, cần chú ý lịch sự và ngữ cảnh.",
+      "hanzi": "请不要说话。",
+      "pinyin": "Qǐng bú yào shuō huà.",
+      "meaning": "Xin đừng nói chuyện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l123-t2",
+      "type": "teaching",
+      "title": "听 · nghe; lắng nghe",
+      "text": "听 chỉ việc nghe/lắng nghe; không tự chứng minh đã nghe rõ mọi nội dung.",
+      "hanzi": "我听老师说话。",
+      "pinyin": "Wǒ tīng lǎo shī shuō huà.",
+      "meaning": "Tôi nghe giáo viên nói.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l123-t3",
+      "type": "teaching",
+      "title": "听见 · nghe thấy; nghe được",
+      "text": "听见 nhấn đã nghe thấy trong tình huống, khác chỉ làm hành động lắng nghe.",
+      "hanzi": "我听见了。",
+      "pinyin": "Wǒ tīng jiàn le.",
+      "meaning": "Tôi nghe thấy rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l123-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "说 thường đi với nội dung/ngôn ngữ, như 说汉语; 说话 nói hành động nói chuyện. 听 là nghe/lắng nghe, 听见 nhấn việc nghe được âm/thông tin trong câu. Một đoạn hội thoại có chữ 听 không biến bài đọc thành bài kiểm tra nghe; chưa có audio đã duyệt.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l123-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：你听见了吗？\nB：没听见，请再说。\nA：我叫安。\nB：我听见了，谢谢！",
+      "pinyin": "A: Nǐ tīng jiàn le ma? B: Méi tīng jiàn, qǐng zài shuō. A: Wǒ jiào Ān. B: Wǒ tīng jiàn le, xiè xie!",
+      "meaning": "没 méi = không/chưa trong việc đã xảy ra; 再 zài = lại; 了 le = rồi trong câu này. Đọc lời nhân vật hư cấu, không chấm khả năng nghe thật.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l123-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l123-v1-e0"
+    },
+    {
+      "id": "l123-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l123-v1-e1"
+    },
+    {
+      "id": "l123-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l123-v1-e2"
+    },
+    {
+      "id": "l123-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l123-v1-e3"
+    },
+    {
+      "id": "l123-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l123-v1-e4"
+    },
+    {
+      "id": "l123-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l123-v1-e5"
+    },
+    {
+      "id": "l123-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l123-v1-e6"
+    },
+    {
+      "id": "l123-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l123-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l123-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l123-c0",
+      "senseId": "l123-v-196-sense",
+      "keyRef": "l123-v1-k0",
+      "prompt": "Chọn mục từ có nghĩa “nói” trong câu: 我□汉语。",
+      "choices": [
+        "说话",
+        "听",
+        "听见",
+        "说"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l123-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l123-c1",
+      "senseId": "l123-v-197-sense",
+      "keyRef": "l123-v1-k1",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “nói chuyện; nói”: 说□ (shuō huà). Ngữ cảnh: 请不要说□。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "说",
+        "活",
+        "话",
+        "语"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l123-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l123-c2",
+      "senseId": "l123-v-209-sense",
+      "keyRef": "l123-v1-k2",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “nghe; lắng nghe”: 我□老师说话。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l123-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l123-c3",
+      "senseId": "l123-v-210-sense",
+      "keyRef": "l123-v1-k3",
+      "prompt": "Chọn mục từ có nghĩa “nghe thấy; nghe được” trong câu: 我□了。",
+      "choices": [
+        "说",
+        "说话",
+        "听",
+        "听见"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l123-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l123-c2",
+      "senseId": "l123-v-209-sense",
+      "keyRef": "l123-v1-k4",
+      "prompt": "Trong câu “我听老师说话。”, 听 mang nghĩa nào theo bài?",
+      "choices": [
+        "nói chuyện; nói",
+        "nghe; lắng nghe",
+        "nghe thấy; nghe được",
+        "nói"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l123-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l123-c3",
+      "senseId": "l123-v-210-sense",
+      "keyRef": "l123-v1-k5",
+      "prompt": "Trong câu “我听见了。”, 听见 mang nghĩa nào theo bài?",
+      "choices": [
+        "nghe; lắng nghe",
+        "nghe thấy; nghe được",
+        "nói",
+        "nói chuyện; nói"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l123-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l123-c0",
+      "senseId": "l123-v-196-sense",
+      "keyRef": "l123-v1-k6",
+      "prompt": "Sau khi A nói lại tên, B xác nhận gì?",
+      "choices": [
+        "Không muốn đọc sách",
+        "A không có tên",
+        "Nghe thấy rồi"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l123-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l123-c3",
+      "senseId": "l123-v-210-sense",
+      "keyRef": "l123-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我",
+        "听见",
+        "了。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l123-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l123-v1-e0",
+      "senseId": "l123-v-196-sense",
+      "accepted": [
+        "说"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "说: nói. 说 trong 说汉语 là nói tiếng Trung; không thay bằng 写 nếu đang nói bằng miệng. Tôi nói tiếng Trung."
+    },
+    {
+      "id": "l123-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l123-v1-e1",
+      "senseId": "l123-v-197-sense",
+      "accepted": [
+        "话"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 话 tạo từ 说话. 说话 gọi hoạt động nói; với lời nhắc trên lớp, cần chú ý lịch sự và ngữ cảnh. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l123-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l123-v1-e2",
+      "senseId": "l123-v-209-sense",
+      "accepted": [
+        "听"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "听: nghe; lắng nghe. 听 chỉ việc nghe/lắng nghe; không tự chứng minh đã nghe rõ mọi nội dung. Tôi nghe giáo viên nói."
+    },
+    {
+      "id": "l123-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l123-v1-e3",
+      "senseId": "l123-v-210-sense",
+      "accepted": [
+        "听见"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "听见: nghe thấy; nghe được. 听见 nhấn đã nghe thấy trong tình huống, khác chỉ làm hành động lắng nghe. Tôi nghe thấy rồi."
+    },
+    {
+      "id": "l123-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l123-v1-e4",
+      "senseId": "l123-v-209-sense",
+      "accepted": [
+        "nghe; lắng nghe"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "听 chỉ việc nghe/lắng nghe; không tự chứng minh đã nghe rõ mọi nội dung. Tôi nghe giáo viên nói."
+    },
+    {
+      "id": "l123-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l123-v1-e5",
+      "senseId": "l123-v-210-sense",
+      "accepted": [
+        "nghe thấy; nghe được"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "听见 nhấn đã nghe thấy trong tình huống, khác chỉ làm hành động lắng nghe. Tôi nghe thấy rồi."
+    },
+    {
+      "id": "l123-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l123-v1-e6",
+      "senseId": "l123-v-196-sense",
+      "accepted": [
+        "Nghe thấy rồi"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: Nghe thấy rồi. 没 méi = không/chưa trong việc đã xảy ra; 再 zài = lại; 了 le = rồi trong câu này. Đọc lời nhân vật hư cấu, không chấm khả năng nghe thật."
+    },
+    {
+      "id": "l123-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l123-v1-e7",
+      "senseId": "l123-v-210-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 说 thường đi với nội dung/ngôn ngữ, như 说汉语; 说话 nói hành động nói chuyện. 听 là nghe/lắng nghe, 听见 nhấn việc nghe được âm/thông tin trong câu. Một đoạn hội thoại có chữ 听 không biến bài đọc thành bài kiểm tra nghe; chưa có audio đã duyệt."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

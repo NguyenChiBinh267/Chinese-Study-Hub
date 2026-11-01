@@ -1,0 +1,255 @@
+{
+  "checkedAt": "2026-10-18T16:03:42.764Z",
+  "base": "69e1d8b065d2bfc1e3d8d53cc1b1b88b35d521aa",
+  "branch": "feat/v1-pronunciation-pilot",
+  "status": "SPRINT9_PARTIAL_HARDWARE_PENDING",
+  "ownerTrial": {
+    "outcome": "OWNER_REPORTED_FAIL",
+    "platform": "UNCONFIRMED",
+    "browser": "UNCONFIRMED",
+    "microphone": "UNCONFIRMED",
+    "originalAndSelectedPlayback": "HEAVY_NOISE",
+    "graph": "OWNER_REPORTED_MISMATCH",
+    "analysisFilterOption": "UNKNOWN",
+    "audioReceived": false
+  },
+  "postChangePhysicalTrial": "OWNER_REPORTED_NOISE_IMPROVEMENT_ANALYSIS_INSUFFICIENT",
+  "phoneticAccuracy": "UNVERIFIED",
+  "change": {
+    "pilotInitialNSRequest": true,
+    "normalPracticeInitialNSRequest": false,
+    "AGCRequest": false,
+    "AECRequest": false,
+    "sameCaptureForPlaybackAndAnalysis": true,
+    "reportedNSCanBeFalseOrUnknown": true,
+    "noHiddenFallback": true,
+    "modeChangeDiscardsAudioAndCurves": true
+  },
+  "checks": {
+    "unit": {
+      "tests": 81,
+      "status": "PASS",
+      "report": {
+        "file": ".local-postgres/sprint9/noise-followup/unit.xml",
+        "sha256": "6b0feb25ca73bbf8299dd1fde27c7733fa22543894af5e79bbbe3419ca0bebbd"
+      }
+    },
+    "browser": [
+      {
+        "name": "browser",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "report": {
+          "file": ".local-postgres/sprint9/noise-followup/browser.xml",
+          "sha256": "995cccc2bd1fb193b1e6388cd437be319844330a3a42406ebfebe61d61d64583"
+        }
+      },
+      {
+        "name": "sprint7-desktop",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "report": {
+          "file": ".local-postgres/sprint9/noise-followup/sprint7-desktop.xml",
+          "sha256": "c5e7b4945b2607b4aa245f71129c18db535a8d6aff2fffeb6f4b98afbc152b56"
+        }
+      },
+      {
+        "name": "sprint7-mobile",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "report": {
+          "file": ".local-postgres/sprint9/noise-followup/sprint7-mobile.xml",
+          "sha256": "83a9bb46547b8266886da8990a46809cd61acc9921a175852dfb5b12f263d069"
+        }
+      },
+      {
+        "name": "sprint8",
+        "tests": 18,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "report": {
+          "file": ".local-postgres/sprint9/noise-followup/sprint8.xml",
+          "sha256": "28755c9d17d2d1f4e387bcfb5fb5a05adcde1dd3c576989964db45072612af80"
+        }
+      },
+      {
+        "name": "production",
+        "tests": 22,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "report": {
+          "file": ".local-postgres/sprint9/noise-followup/production.xml",
+          "sha256": "d95ce4ebf970b7a29cea6c84a695a95a350d259901adcf220563f20d0b5f9810"
+        }
+      }
+    ],
+    "browserTotal": 56,
+    "scope": "81 unit groups and targeted recorder/pilot/acoustic/production browser regressions; the 78-case full app matrix and 41 PostgreSQL checks are historical at the base commit",
+    "lint": {
+      "file": ".local-postgres/sprint9/noise-followup/lint.log",
+      "sha256": "d2246b046ac72a5146dfff03bb52c140232287592ad9a829a65c8e5759484d55"
+    },
+    "format": {
+      "file": ".local-postgres/sprint9/noise-followup/format.log",
+      "sha256": "3443897b7d89155994e838066b1553e02a1cdc22ecfb4ebbc740e4b2b38c3555"
+    },
+    "typecheck": {
+      "file": ".local-postgres/sprint9/noise-followup/typecheck.log",
+      "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914"
+    },
+    "build": {
+      "file": ".local-postgres/sprint9/noise-followup/build.log",
+      "sha256": "190bd75b79f3c4e28fc5ba309bccd802523a59077851b9578f4892b18a7f7d51"
+    },
+    "preservation": {
+      "file": ".local-postgres/sprint9/noise-followup/preservation.log",
+      "sha256": "03bba912f54b4f5183c6cdf9f4a5cb0d70a8158a3eface1a7b7f0b9ef3567e5c"
+    }
+  },
+  "reproduction": {
+    "actualOwnerNoise": "NOT_REPRODUCED_WITHOUT_OWNER_AUDIO",
+    "configurationTest": {
+      "before": "FAIL: explicit NS-on still forwarded false",
+      "after": "PASS",
+      "red": {
+        "file": ".local-postgres/sprint9/noise-followup/capture-red.log",
+        "sha256": "104c520ffe31e6266c5f60e9a6b928aec37d2e0c0c0771b0c83013317b89be60"
+      },
+      "green": {
+        "file": ".local-postgres/sprint9/noise-followup/capture-green.log",
+        "sha256": "7f270da3a06eaf7df4609c4f4595aa252e45200133687eda2da484acf7ec9623"
+      }
+    },
+    "browserInput": "GENERATED_AUDIO; deliberately simulated NS reported off; no denoising effectiveness proof"
+  },
+  "preservedSources": [
+    {
+      "file": "content/pronunciation/release.v1.json",
+      "sha256NormalizedLF": "97dfe6caabb218e389595c36569c1f66ecd1c0dde5a9ab4989abe7241f5dfb5a"
+    },
+    {
+      "file": "content/pronunciation/release-pin.json",
+      "sha256NormalizedLF": "884d0406edf4e01d3c8d1de295f788b00398ebc4c1969dd1da3dea59dbd36af7"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/acoustic-engine.ts",
+      "sha256NormalizedLF": "4396114cf2a5c87c340789e60f2c7d4d70afed850119ad042044e40e95db4efd"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/acoustic-types.ts",
+      "sha256NormalizedLF": "cbbabdf871e83f499646e37703b4a3a445e646b9bd4d1f0fc57a244c0a832c9b"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/pitch-conditioning.ts",
+      "sha256NormalizedLF": "1a5bf31a3007cc4b5bb3824b59d1f691a60f04feb09a761c35e5ff6207609809"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/noise-reduction.ts",
+      "sha256NormalizedLF": "3d2c811ec8c0a1648a0b461b354caf276fc52bcc8af68b41f67559cca80f846a"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/utterance-playback.ts",
+      "sha256NormalizedLF": "6ba33962896ba405d957e6e256bfae0d281ee5785b1ab8a2d77d20ab7488b1f2"
+    },
+    {
+      "file": "src/modules/pronunciation/application/acoustic-worker.ts",
+      "sha256NormalizedLF": "dff5a6485780c9ed142915fa1d93a4167efe6ade1e7a55772f5496fcd9b5ebb6"
+    },
+    {
+      "file": "src/modules/pronunciation/application/analyze-recording.ts",
+      "sha256NormalizedLF": "c3e80f0d65d38badfd4dee1e62386930ac41242e39a465fc46be0be99467672e"
+    },
+    {
+      "file": "src/modules/pronunciation/application/acoustic-session.ts",
+      "sha256NormalizedLF": "96a7233ffe5593435bb60e69c09f269cad524607f33d7b61a1bbd92802f3686c"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/articulation-guide.tsx",
+      "sha256NormalizedLF": "33b1322a69c613e36bb4e250b5ab153b90c0b6940064461bd2fd7c502c1a9894"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/pitch-chart.tsx",
+      "sha256NormalizedLF": "1184fa0917dadcdae64389b8bb7425a249ac8cf015ba096433ee0aa6e2231d22"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256NormalizedLF": "35424acc5dca91fecb9101b8f62974142bc2ecd2502c33759cb940582ffc4520"
+    },
+    {
+      "file": "docs/master-plan/master-plan-v1.1.md",
+      "sha256NormalizedLF": "0984cfc38e4b91c5ed214c8e6003434536d9904072164f28f4e0ffd48c8bf47e"
+    },
+    {
+      "file": "docs/master-plan/task-status.json",
+      "sha256NormalizedLF": "9b86effd184577ed7f99fd3efa7c3a6a0c1e0232ec641709622d9465bfbadca6"
+    },
+    {
+      "file": "docs/master-plan/source-manifest.json",
+      "sha256NormalizedLF": "09164bc3939f45f47386401ebc7fe97e39029e95dc7c4c21a195ee105be02b72"
+    }
+  ],
+  "sourceHashConvention": "UTF8 normalized LF, self excluded",
+  "sourceFiles": [
+    {
+      "file": "README.md",
+      "sha256": "d86db402def7573afbba1043d755058bce0e72865332fd27ec92710e89ce2f89"
+    },
+    {
+      "file": "docs/sprint9/evidence.json",
+      "sha256": "cb11db4b52b5a8dd6631badc8e6a6a3e2683bc543ccd365da45934a471897985"
+    },
+    {
+      "file": "docs/sprint9/manual-pilot.md",
+      "sha256": "a39661388eb588f308238b983712c53a62c70ab7d78af83bbcc06b22e05a02ee"
+    },
+    {
+      "file": "docs/sprint9/reliability-audit.md",
+      "sha256": "a9fa7fad8e392e3a85e7f4412fff2aa51df1cc5d4f11d33df3321d5e9db5f406"
+    },
+    {
+      "file": "docs/sprint9/verification.md",
+      "sha256": "df5d0ea3354231147db74660cd8e5c5d1f0de1955227a59b7f5015c728643d5c"
+    },
+    {
+      "file": "src/modules/pronunciation/application/practice-recorder.ts",
+      "sha256": "b3e49adc2be130d2a8c5ead84635b67a92d213db895409e18e0b23d7bd61d897"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/pilot.ts",
+      "sha256": "935dba0efe6529a3adbceb80cad9bed1cd48bae7ad961db60165245a8c9978d7"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/practice-recorder.tsx",
+      "sha256": "a78bd6b7f158b75b148b05f2c007bf829d1341a1e95fbbab54f1c3c8f5f03e82"
+    },
+    {
+      "file": "tests/sprint9-browser/pilot.spec.ts",
+      "sha256": "68accddffeb031c3a8e3eeaf6c20e7826993ca255b87ae76a8ad7552e77a9cec"
+    },
+    {
+      "file": "tests/unit/practice-recorder.test.ts",
+      "sha256": "dc4719383fae6282927b33f5a649d3c596ddbbdf3cab53f337aab2e0f3beae46"
+    },
+    {
+      "file": "docs/sprint9/noise-followup.md",
+      "sha256": "e7875a20542023872b8662d0bd12671e2158402d23a056e0268758c0ddaae8df"
+    }
+  ],
+  "limits": [
+    "No claim owner noise is fixed or noise is the only cause",
+    "Browser NS can be ignored or alter speech",
+    "No pitch engine/threshold/dependency/backend changes",
+    "No audio upload or persistent voice storage",
+    "No hardware PASS or calibrated phonetic accuracy"
+  ],
+  "evidenceCutoffCommit": "a6d635a1d016476663877d72f31eb5eea3f9e080",
+  "latestOwnerObservation": "docs/sprint9/owner-pilot-observations.json"
+}

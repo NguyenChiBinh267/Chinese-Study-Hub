@@ -1,0 +1,828 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "aa381ef8600710e488cacd35e396a4b8e55f87d07b71d0baf71dc68cca7c03f1",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eaca",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L4020",
+    "version": 2,
+    "versionId": "l4020-draft-v2",
+    "title": "Trao đổi món ăn ở nhà ăn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Trao đổi món ăn ở nhà ăn; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "X是X"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 21,
+      "physicalPage": 22,
+      "printedPage": 19,
+      "section": "task",
+      "entry": "五"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-29T07:54:45.716669Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-food",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 21,
+          "physicalPage": 22,
+          "printedPage": 19,
+          "section": "task",
+          "entry": "五"
+        },
+        "written": "介绍饮食情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-515da74e1a50",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "就餐"
+        },
+        "written": "就餐",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l4020-v-1661",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 120,
+          "physicalPage": 121,
+          "printedPage": 118,
+          "section": "vocabulary",
+          "entry": "ordinal 1661"
+        },
+        "written": "食品",
+        "pinyin": "shípǐn",
+        "senseId": "l4020-v-1661-sense",
+        "ordinal": 1661,
+        "note": "4 shípǐn 名; 食品 nói thực phẩm như loại sản phẩm, hay thấy ở nhãn hàng/bao bì; khác 食堂 là nơi ăn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4020-v-1662",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 120,
+          "physicalPage": 121,
+          "printedPage": 118,
+          "section": "vocabulary",
+          "entry": "ordinal 1662"
+        },
+        "written": "食堂",
+        "pinyin": "shítáng",
+        "senseId": "l4020-v-1662-sense",
+        "ordinal": 1662,
+        "note": "4 shítáng 名; 食堂 là nơi phục vụ bữa ăn trong trường/cơ quan, không chỉ một món ăn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4020-v-1663",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 120,
+          "physicalPage": 121,
+          "printedPage": 118,
+          "section": "vocabulary",
+          "entry": "ordinal 1663"
+        },
+        "written": "食物",
+        "pinyin": "shíwù",
+        "senseId": "l4020-v-1663-sense",
+        "ordinal": 1663,
+        "note": "4 shíwù 名; 食物 nói đồ ăn nói chung; câu điền yêu cầu từ kết thúc bằng 物 để tách với 食品. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4020-v-1720",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 121,
+          "physicalPage": 122,
+          "printedPage": 119,
+          "section": "vocabulary",
+          "entry": "ordinal 1720"
+        },
+        "written": "汤",
+        "pinyin": "tāng",
+        "senseId": "l4020-v-1720-sense",
+        "ordinal": 1720,
+        "note": "4 tāng 名; 汤 là món nước/canh trong bữa ăn; không dùng thay mọi thức uống. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4020-v-1706",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 121,
+          "physicalPage": 122,
+          "printedPage": 119,
+          "section": "vocabulary",
+          "entry": "ordinal 1706"
+        },
+        "written": "酸",
+        "pinyin": "suān",
+        "senseId": "l4020-v-1706-sense",
+        "ordinal": 1706,
+        "note": "4 suān 形; 酸 tả vị chua trong bài này; không phải chua xót hay axit hóa học. Nhận diện chữ 酸 trong 酸; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4020-v-1796",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 123,
+          "physicalPage": 124,
+          "printedPage": 121,
+          "section": "vocabulary",
+          "entry": "ordinal 1796"
+        },
+        "written": "咸",
+        "pinyin": "xián",
+        "senseId": "l4020-v-1796-sense",
+        "ordinal": 1796,
+        "note": "4 xián 形; 咸 nói vị mặn của món ăn; không đồng nghĩa với 辣 là cay. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-283",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "283"
+        },
+        "written": "食",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 283,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-239",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "239"
+        },
+        "written": "品",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 239,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-319",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "319"
+        },
+        "written": "堂",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 319,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-313",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "313"
+        },
+        "written": "汤",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 313,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-306",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "306"
+        },
+        "written": "酸",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 306,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-344",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "344"
+        },
+        "written": "咸",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 344,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-4020",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 395,
+          "physicalPage": 396,
+          "printedPage": 393,
+          "section": "grammar",
+          "entry": "X是X：咸是咸，不过……"
+        },
+        "written": "X是X",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l4020-c0",
+      "version": 1,
+      "senseId": "l4020-v-1661-sense",
+      "hanzi": "食品",
+      "dictionaryPinyin": "shí pǐn",
+      "meaning": "thực phẩm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4020-v-1661"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4020-c1",
+      "version": 1,
+      "senseId": "l4020-v-1662-sense",
+      "hanzi": "食堂",
+      "dictionaryPinyin": "shí táng",
+      "meaning": "nhà ăn; căng tin",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4020-v-1662"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4020-c2",
+      "version": 1,
+      "senseId": "l4020-v-1663-sense",
+      "hanzi": "食物",
+      "dictionaryPinyin": "shí wù",
+      "meaning": "thức ăn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4020-v-1663"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4020-c3",
+      "version": 1,
+      "senseId": "l4020-v-1720-sense",
+      "hanzi": "汤",
+      "dictionaryPinyin": "tāng",
+      "meaning": "canh; súp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4020-v-1720"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4020-c4",
+      "version": 1,
+      "senseId": "l4020-v-1706-sense",
+      "hanzi": "酸",
+      "dictionaryPinyin": "suān",
+      "meaning": "chua",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4020-v-1706"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4020-c5",
+      "version": 1,
+      "senseId": "l4020-v-1796-sense",
+      "hanzi": "咸",
+      "dictionaryPinyin": "xián",
+      "meaning": "mặn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4020-v-1796"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l4020-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4020-t0",
+      "type": "teaching",
+      "title": "食品 · thực phẩm",
+      "text": "食品 nói thực phẩm như loại sản phẩm, hay thấy ở nhãn hàng/bao bì; khác 食堂 là nơi ăn.",
+      "hanzi": "请看清食品包装上的日期。",
+      "pinyin": "Qǐng kàn qīng shí pǐn bāo zhuāng shàng de rì qī.",
+      "meaning": "Hãy nhìn rõ ngày tháng trên bao bì thực phẩm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4020-t1",
+      "type": "teaching",
+      "title": "食堂 · nhà ăn; căng tin",
+      "text": "食堂 là nơi phục vụ bữa ăn trong trường/cơ quan, không chỉ một món ăn.",
+      "hanzi": "学校食堂今天有汤。",
+      "pinyin": "Xué xiào shí táng jīn tiān yǒu tāng.",
+      "meaning": "Nhà ăn trường hôm nay có canh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4020-t2",
+      "type": "teaching",
+      "title": "食物 · thức ăn",
+      "text": "食物 nói đồ ăn nói chung; câu điền yêu cầu từ kết thúc bằng 物 để tách với 食品.",
+      "hanzi": "桌上的食物不要浪费。",
+      "pinyin": "Zhuō shàng de shí wù bú yào làng fèi.",
+      "meaning": "Đừng lãng phí thức ăn trên bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4020-t3",
+      "type": "teaching",
+      "title": "汤 · canh; súp",
+      "text": "汤 là món nước/canh trong bữa ăn; không dùng thay mọi thức uống.",
+      "hanzi": "我想要一碗汤。",
+      "pinyin": "Wǒ xiǎng yào yì wǎn tāng.",
+      "meaning": "Tôi muốn một bát canh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4020-t4",
+      "type": "teaching",
+      "title": "酸 · chua",
+      "text": "酸 tả vị chua trong bài này; không phải chua xót hay axit hóa học. Nhận diện chữ 酸 trong 酸; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "这个西红柿有点儿酸。",
+      "pinyin": "Zhè ge xī hóng shì yǒu diǎnr suān.",
+      "meaning": "Quả cà chua này hơi chua.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4020-t5",
+      "type": "teaching",
+      "title": "咸 · mặn",
+      "text": "咸 nói vị mặn của món ăn; không đồng nghĩa với 辣 là cay.",
+      "hanzi": "这碗汤太咸了。",
+      "pinyin": "Zhè wǎn tāng tài xián le.",
+      "meaning": "Bát canh này mặn quá.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4020-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "咸是咸，不过… lặp tính từ để thừa nhận một điểm rồi nói ý ngược/giới hạn: mặn thì có mặn, nhưng tôi chỉ nếm một chút. Khác mẫu X是X，Y是Y phân biệt hai phạm trù.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4020-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "学校食堂让同学们谈谈食物的味道。小平说西红柿有点儿酸，小丽觉得汤有点儿咸。朋友问她喝了多少，她回答：“咸是咸，不过我只尝了一口。”工作人员记录意见，并提醒大家不要浪费食物，购买包装食品时看清日期。",
+      "pinyin": "Xué xiào shí táng ràng tóng xué men tán tan shí wù de wèi dào. Xiǎo Píng shuō xī hóng shì yǒu diǎnr suān, Xiǎo Lì jué de tāng yǒu diǎnr xián. Péng you wèn tā hē le duō shao, tā huí dá: “Xián shì xián, bú guò wǒ zhǐ cháng le yì kǒu.” Gōng zuò rén yuán jì lù yì jiàn, bìng tí xǐng dà jiā bú yào làng fèi shí wù, gòu mǎi bāo zhuāng shí pǐn shí kàn qīng rì qī.",
+      "meaning": "Học sinh góp ý vị chua, mặn; Tiểu Lệ chỉ nếm một ngụm canh. Nhân viên ghi ý kiến.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4020-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l4020-v2-e0"
+    },
+    {
+      "id": "l4020-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l4020-v2-e1"
+    },
+    {
+      "id": "l4020-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l4020-v2-e2"
+    },
+    {
+      "id": "l4020-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l4020-v2-e3"
+    },
+    {
+      "id": "l4020-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l4020-v2-e4"
+    },
+    {
+      "id": "l4020-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l4020-v2-e5"
+    },
+    {
+      "id": "l4020-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l4020-v2-e6"
+    },
+    {
+      "id": "l4020-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l4020-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l4020-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4020-c0",
+      "senseId": "l4020-v-1661-sense",
+      "keyRef": "l4020-v2-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “thực phẩm” để điền câu: 请看清□包装上的日期。 Yêu cầu từ hai chữ kết thúc bằng 品; 食物 cũng có thể hợp nghĩa nhưng không đúng dạng chữ được yêu cầu.",
+      "choices": [
+        "食堂",
+        "食物",
+        "汤",
+        "酸",
+        "咸",
+        "食品"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4020-v2-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4020-c1",
+      "senseId": "l4020-v-1662-sense",
+      "keyRef": "l4020-v2-k1",
+      "prompt": "Ghi pinyin của 食堂 trong câu “学校食堂今天有汤。”, theo nghĩa “nhà ăn; căng tin”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4020-v2-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4020-c2",
+      "senseId": "l4020-v-1663-sense",
+      "keyRef": "l4020-v2-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “thức ăn”: 桌上的□不要浪费。 Chỉ nhập từ, không nhập cả câu. Nhập đúng từ hai chữ kết thúc bằng 物.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4020-v2-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4020-c3",
+      "senseId": "l4020-v-1720-sense",
+      "keyRef": "l4020-v2-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “canh; súp” để điền câu: 我想要一碗□。",
+      "choices": [
+        "酸",
+        "咸",
+        "食品",
+        "食堂",
+        "食物",
+        "汤"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4020-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l4020-c4",
+      "senseId": "l4020-v-1706-sense",
+      "keyRef": "l4020-v2-k4",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “chua”: □ (suān). Ngữ cảnh: 这个西红柿有点儿□。",
+      "choices": [
+        "酥",
+        "醋",
+        "俊",
+        "酸"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4020-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4020-c5",
+      "senseId": "l4020-v-1796-sense",
+      "keyRef": "l4020-v2-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “mặn”: 这碗汤太□了。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4020-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4020-c0",
+      "senseId": "l4020-v-1661-sense",
+      "keyRef": "l4020-v2-k6",
+      "prompt": "Tiểu Lệ đã uống bao nhiêu canh?",
+      "choices": [
+        "喝了三碗",
+        "一口也没尝",
+        "只尝了一口"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4020-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l4020-c3",
+      "senseId": "l4020-v-1720-sense",
+      "keyRef": "l4020-v2-k7",
+      "prompt": "Sắp xếp nguyên các cụm thành câu theo mẫu đang học; không thêm/bớt từ.",
+      "choices": [
+        "咸",
+        "是咸，",
+        "不过",
+        "我只尝了一口。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l4020-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l4020-v2-e0",
+      "senseId": "l4020-v-1661-sense",
+      "accepted": [
+        "食品"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "食品: thực phẩm. 食品 nói thực phẩm như loại sản phẩm, hay thấy ở nhãn hàng/bao bì; khác 食堂 là nơi ăn. Hãy nhìn rõ ngày tháng trên bao bì thực phẩm. 食物 cũng có thể dùng về nghĩa trong câu này; đề đang phân biệt đúng dạng từ kết thúc bằng 品, không phủ nhận cách dùng 食物."
+    },
+    {
+      "id": "l4020-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l4020-v2-e1",
+      "senseId": "l4020-v-1662-sense",
+      "accepted": [
+        "shí táng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc shí táng. 食堂 là nơi phục vụ bữa ăn trong trường/cơ quan, không chỉ một món ăn."
+    },
+    {
+      "id": "l4020-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l4020-v2-e2",
+      "senseId": "l4020-v-1663-sense",
+      "accepted": [
+        "食物"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 食物. 食物 nói đồ ăn nói chung; câu điền yêu cầu từ kết thúc bằng 物 để tách với 食品. Đừng lãng phí thức ăn trên bàn."
+    },
+    {
+      "id": "l4020-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l4020-v2-e3",
+      "senseId": "l4020-v-1720-sense",
+      "accepted": [
+        "汤"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "汤: canh; súp. 汤 là món nước/canh trong bữa ăn; không dùng thay mọi thức uống. Tôi muốn một bát canh."
+    },
+    {
+      "id": "l4020-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l4020-v2-e4",
+      "senseId": "l4020-v-1706-sense",
+      "accepted": [
+        "酸"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 酸 tạo từ 酸. 酸 tả vị chua trong bài này; không phải chua xót hay axit hóa học. Nhận diện chữ 酸 trong 酸; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l4020-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l4020-v2-e5",
+      "senseId": "l4020-v-1796-sense",
+      "accepted": [
+        "咸"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 咸. 咸 nói vị mặn của món ăn; không đồng nghĩa với 辣 là cay. Bát canh này mặn quá."
+    },
+    {
+      "id": "l4020-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l4020-v2-e6",
+      "senseId": "l4020-v-1661-sense",
+      "accepted": [
+        "只尝了一口"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 只尝了一口. Học sinh góp ý vị chua, mặn; Tiểu Lệ chỉ nếm một ngụm canh. Nhân viên ghi ý kiến."
+    },
+    {
+      "id": "l4020-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l4020-v2-e7",
+      "senseId": "l4020-v-1720-sense",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 咸是咸，不过… lặp tính từ để thừa nhận một điểm rồi nói ý ngược/giới hạn: mặn thì có mặn, nhưng tôi chỉ nếm một chút. Khác mẫu X是X，Y是Y phân biệt hai phạm trù."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

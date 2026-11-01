@@ -1,0 +1,795 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "9da68d2cec8ff2996e9c28cd212085b375e8cc3b80612a81bbe6a5010d2b5163",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-study-materials",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L301",
+    "version": 1,
+    "versionId": "l301-draft-v1",
+    "title": "Chọn học liệu cho buổi học",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc yêu cầu học và phân biệt sách giáo khoa, bài khóa, từ điển và ghi chú.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l204-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "该……了"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 16,
+      "physicalPage": 17,
+      "printedPage": 14,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 16,
+          "physicalPage": 17,
+          "printedPage": 14,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "沟通学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-activities",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "教育情况 / 学习情况 / 学习活动"
+        },
+        "written": "学习活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l301-v-569",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 569"
+        },
+        "written": "词典",
+        "pinyin": "cídiǎn",
+        "senseId": "l301-v-569-sense",
+        "ordinal": 569,
+        "note": "3 cídiǎn 名; 词典 giải thích từ và cách dùng; khác 课本 dùng theo khóa học và 字典 thường tra chữ. Chọn theo mục đích tra từ, không coi mọi sách tham khảo giống nhau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l301-v-736",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 736"
+        },
+        "written": "课本",
+        "pinyin": "kèběn",
+        "senseId": "l301-v-736-sense",
+        "ordinal": 736,
+        "note": "3 kèběn 名; 课本 là sách dùng cho môn hoặc khóa học; không đồng nghĩa riêng một bài khóa. Có thể nói 一本课本. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l301-v-738",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 738"
+        },
+        "written": "课文",
+        "pinyin": "kèwén",
+        "senseId": "l301-v-738-sense",
+        "ordinal": 738,
+        "note": "3 kèwén 名; 课文 là phần văn bản để học/đọc trong giáo trình. 一本 thường đếm sách, 一篇 đếm bài văn; 篇 chỉ là hỗ trợ, chưa tính mục từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l301-v-522",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 522"
+        },
+        "written": "笔记本",
+        "pinyin": "bǐjìběn",
+        "senseId": "l301-v-522-sense",
+        "ordinal": 522,
+        "note": "3 bǐjìběn 名; 笔记本 ở đây là quyển sổ để viết ghi chú. Không dùng nghĩa máy tính xách tay; cách gọi thiết bị cần ngữ cảnh khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l301-v-669",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 669"
+        },
+        "written": "黑板",
+        "pinyin": "hēibǎn",
+        "senseId": "l301-v-669-sense",
+        "ordinal": 669,
+        "note": "3 hēibǎn 名; 黑板 gọi bảng dùng trong lớp; không bắt buộc mọi bảng thực tế có đúng màu đen. Phân biệt đồ dùng bảng với vở cá nhân. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l301-v-723",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 723"
+        },
+        "written": "句子",
+        "pinyin": "jùzi",
+        "senseId": "l301-v-723-sense",
+        "ordinal": 723,
+        "note": "3 jùzi 名; 句子 diễn đạt một ý theo cấu trúc; khác một mục từ đơn lẻ. 这个句子 nói câu cụ thể, không phải cả quyển sách. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l301-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "từ hỗ trợ",
+        "pinyin": "",
+        "senseId": "l301-extra0-sense",
+        "ordinal": null,
+        "note": "查 chá: tra; 用 yòng: dùng; 然后 ránhòu: sau đó; 把 trong lời nhắc là hỗ trợ được giải nghĩa, chưa đánh giá mẫu 把. 三个/一个 nhắc lại cách đếm. Nền cần: 书 shū sách, 写 xiě viết, 看 kàn đọc/xem."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-43",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "43"
+        },
+        "written": "典",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 43,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-7",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "7"
+        },
+        "written": "板",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 7,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-123",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "123"
+        },
+        "written": "句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 123,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-g-should-now",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定格式 / 该……了"
+        },
+        "written": "该……了",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l301-c0",
+      "version": 1,
+      "senseId": "l301-v-569-sense",
+      "hanzi": "词典",
+      "dictionaryPinyin": "cí diǎn",
+      "meaning": "từ điển từ/ngữ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l301-v-569"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l301-c1",
+      "version": 1,
+      "senseId": "l301-v-736-sense",
+      "hanzi": "课本",
+      "dictionaryPinyin": "kè běn",
+      "meaning": "sách giáo khoa/giáo trình",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l301-v-736"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l301-c2",
+      "version": 1,
+      "senseId": "l301-v-738-sense",
+      "hanzi": "课文",
+      "dictionaryPinyin": "kè wén",
+      "meaning": "bài khóa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l301-v-738"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l301-c3",
+      "version": 1,
+      "senseId": "l301-v-522-sense",
+      "hanzi": "笔记本",
+      "dictionaryPinyin": "bǐ jì běn",
+      "meaning": "sổ ghi chép",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l301-v-522"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l301-c4",
+      "version": 1,
+      "senseId": "l301-v-669-sense",
+      "hanzi": "黑板",
+      "dictionaryPinyin": "hēi bǎn",
+      "meaning": "bảng lớp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l301-v-669"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l301-c5",
+      "version": 1,
+      "senseId": "l301-v-723-sense",
+      "hanzi": "句子",
+      "dictionaryPinyin": "jù zi",
+      "meaning": "câu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l301-v-723"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l301-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Nhắc trật tự chủ ngữ–động từ–tân ngữ, 不/没 và 的; HSK1/HSK2 chưa được chứng nhận. Có thể khám phá bài nháp. 查 chá: tra; 用 yòng: dùng; 然后 ránhòu: sau đó; 把 trong lời nhắc là hỗ trợ được giải nghĩa, chưa đánh giá mẫu 把. 三个/一个 nhắc lại cách đếm. Nền cần: 书 shū sách, 写 xiě viết, 看 kàn đọc/xem.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l301-t0",
+      "type": "teaching",
+      "title": "词典 · từ điển từ/ngữ",
+      "text": "词典 giải thích từ và cách dùng; khác 课本 dùng theo khóa học và 字典 thường tra chữ. Chọn theo mục đích tra từ, không coi mọi sách tham khảo giống nhau.",
+      "hanzi": "这个词我不懂，想查一下词典。",
+      "pinyin": "Zhège cí wǒ bù dǒng, xiǎng chá yíxià cídiǎn.",
+      "meaning": "Tôi không hiểu từ này, muốn tra từ điển.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l301-t1",
+      "type": "teaching",
+      "title": "课本 · sách giáo khoa/giáo trình",
+      "text": "课本 là sách dùng cho môn hoặc khóa học; không đồng nghĩa riêng một bài khóa. Có thể nói 一本课本.",
+      "hanzi": "请把课本打开。",
+      "pinyin": "Qǐng bǎ kèběn dǎkāi.",
+      "meaning": "Hãy mở giáo trình ra.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l301-t2",
+      "type": "teaching",
+      "title": "课文 · bài khóa",
+      "text": "课文 là phần văn bản để học/đọc trong giáo trình. 一本 thường đếm sách, 一篇 đếm bài văn; 篇 chỉ là hỗ trợ, chưa tính mục từ.",
+      "hanzi": "今天的课文不长。",
+      "pinyin": "Jīntiān de kèwén bù cháng.",
+      "meaning": "Bài khóa hôm nay không dài.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l301-t3",
+      "type": "teaching",
+      "title": "笔记本 · sổ ghi chép",
+      "text": "笔记本 ở đây là quyển sổ để viết ghi chú. Không dùng nghĩa máy tính xách tay; cách gọi thiết bị cần ngữ cảnh khác.",
+      "hanzi": "我在笔记本上写新词。",
+      "pinyin": "Wǒ zài bǐjìběn shang xiě xīn cí.",
+      "meaning": "Tôi viết từ mới vào sổ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l301-t4",
+      "type": "teaching",
+      "title": "黑板 · bảng lớp",
+      "text": "黑板 gọi bảng dùng trong lớp; không bắt buộc mọi bảng thực tế có đúng màu đen. Phân biệt đồ dùng bảng với vở cá nhân.",
+      "hanzi": "老师在黑板上写了三个词。",
+      "pinyin": "Lǎoshī zài hēibǎn shang xiě le sān ge cí.",
+      "meaning": "Thầy viết ba từ lên bảng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l301-t5",
+      "type": "teaching",
+      "title": "句子 · câu",
+      "text": "句子 diễn đạt một ý theo cấu trúc; khác một mục từ đơn lẻ. 这个句子 nói câu cụ thể, không phải cả quyển sách.",
+      "hanzi": "请用这个词写一个句子。",
+      "pinyin": "Qǐng yòng zhège cí xiě yí ge jùzi.",
+      "meaning": "Hãy dùng từ này viết một câu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l301-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "该……了 báo đã đến lúc làm việc: 该看课文了. Khác 应该 diễn tả nên/cần theo phán đoán. Trong bài dùng quy trình học cụ thể, không tạo nghĩa bắt buộc pháp lý.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l301-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "老师：该看课文了，请打开课本。小安：这个词我不懂。老师：可以查词典，再把新词写在笔记本上。小安：黑板上的那个句子也要写吗？老师：要写，然后用新词写自己的句子。",
+      "pinyin": "Lǎoshī: Gāi kàn kèwén le, qǐng dǎkāi kèběn. Xiǎo Ān: Zhège cí wǒ bù dǒng. Lǎoshī: Kěyǐ chá cídiǎn, zài bǎ xīn cí xiě zài bǐjìběn shang. Xiǎo Ān: Hēibǎn shang de nà ge jùzi yě yào xiě ma? Lǎoshī: Yào xiě, ránhòu yòng xīn cí xiě zìjǐ de jùzi.",
+      "meaning": "Thầy yêu cầu mở giáo trình đọc bài khóa. An không hiểu một từ. Thầy hướng dẫn tra từ điển rồi ghi từ mới vào sổ. Câu trên bảng cũng cần ghi và sau đó tự viết câu với từ mới.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l301-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l301-v1-e0"
+    },
+    {
+      "id": "l301-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l301-v1-e1"
+    },
+    {
+      "id": "l301-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l301-v1-e2"
+    },
+    {
+      "id": "l301-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l301-v1-e3"
+    },
+    {
+      "id": "l301-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l301-v1-e4"
+    },
+    {
+      "id": "l301-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l301-v1-e5"
+    },
+    {
+      "id": "l301-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l301-v1-e6"
+    },
+    {
+      "id": "l301-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l301-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l301-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l301-c0",
+      "senseId": "l301-v-569-sense",
+      "keyRef": "l301-v1-k0",
+      "prompt": "Muốn tìm nghĩa và cách dùng của một từ, chọn học liệu nào?",
+      "choices": [
+        "课本",
+        "课文",
+        "笔记本",
+        "黑板",
+        "句子",
+        "词典"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l301-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l301-c1",
+      "senseId": "l301-v-736-sense",
+      "keyRef": "l301-v1-k1",
+      "prompt": "Cần mang toàn bộ sách của môn học, không chỉ riêng bài đọc. Chọn mục từ.",
+      "choices": [
+        "课文",
+        "笔记本",
+        "黑板",
+        "句子",
+        "词典",
+        "课本"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l301-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l301-c2",
+      "senseId": "l301-v-738-sense",
+      "keyRef": "l301-v1-k2",
+      "prompt": "Giáo viên yêu cầu đọc toàn bộ văn bản/bài khóa của bài 3, không chỉ một câu: 今天读第三课的□. Chọn từ đúng mục đích.",
+      "choices": [
+        "笔记本",
+        "黑板",
+        "句子",
+        "词典",
+        "课本",
+        "课文"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l301-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l301-c3",
+      "senseId": "l301-v-522-sense",
+      "keyRef": "l301-v1-k3",
+      "prompt": "Trong nghĩa “sổ ghi chép”, hãy viết pinyin của 笔记本.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l301-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l301-c4",
+      "senseId": "l301-v-669-sense",
+      "keyRef": "l301-v1-k4",
+      "prompt": "Cả lớp nhìn thứ giáo viên vừa viết ở phía trước phòng, không phải sổ cá nhân. Chọn đồ vật.",
+      "choices": [
+        "句子",
+        "词典",
+        "课本",
+        "课文",
+        "笔记本",
+        "黑板"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l301-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l301-c5",
+      "senseId": "l301-v-723-sense",
+      "keyRef": "l301-v1-k5",
+      "prompt": "Viết cụm “một câu” theo mẫu 一个 + mục từ vừa học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l301-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l301-c0",
+      "senseId": "l301-v-569-sense",
+      "keyRef": "l301-v1-k6",
+      "prompt": "Theo hội thoại, sau khi tra từ nên làm gì?",
+      "choices": [
+        "把课本送给别人",
+        "不用写句子",
+        "把新词写在笔记本上"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l301-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l301-c3",
+      "senseId": "l301-v-522-sense",
+      "keyRef": "l301-v1-k7",
+      "prompt": "Sắp xếp lời nhắc đã đến giờ đọc bài khóa.",
+      "choices": [
+        "了",
+        "该",
+        "课文",
+        "看"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l301-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l301-v1-e0",
+      "senseId": "l301-v-569-sense",
+      "accepted": [
+        "词典"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "词典 giải thích từ và cách dùng; khác 课本 dùng theo khóa học và 字典 thường tra chữ. Chọn theo mục đích tra từ, không coi mọi sách tham khảo giống nhau."
+    },
+    {
+      "id": "l301-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l301-v1-e1",
+      "senseId": "l301-v-736-sense",
+      "accepted": [
+        "课本"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "课本 là sách dùng cho môn hoặc khóa học; không đồng nghĩa riêng một bài khóa. Có thể nói 一本课本."
+    },
+    {
+      "id": "l301-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l301-v1-e2",
+      "senseId": "l301-v-738-sense",
+      "accepted": [
+        "课文"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "课文 là phần văn bản để học/đọc trong giáo trình. 一本 thường đếm sách, 一篇 đếm bài văn; 篇 chỉ là hỗ trợ, chưa tính mục từ."
+    },
+    {
+      "id": "l301-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l301-v1-e3",
+      "senseId": "l301-v-522-sense",
+      "accepted": [
+        "bǐ jì běn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "笔记本 đọc bǐ jì běn; giữ đúng thanh điệu và nghĩa."
+    },
+    {
+      "id": "l301-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l301-v1-e4",
+      "senseId": "l301-v-669-sense",
+      "accepted": [
+        "黑板"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "黑板 gọi bảng dùng trong lớp; không bắt buộc mọi bảng thực tế có đúng màu đen. Phân biệt đồ dùng bảng với vở cá nhân."
+    },
+    {
+      "id": "l301-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l301-v1-e5",
+      "senseId": "l301-v-723-sense",
+      "accepted": [
+        "一个句子"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一个句子 chỉ một câu; 一个词 chỉ một từ."
+    },
+    {
+      "id": "l301-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l301-v1-e6",
+      "senseId": "l301-v-569-sense",
+      "accepted": [
+        "把新词写在笔记本上"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Ghi từ vào sổ là bước tiếp theo được nêu; không suy ra bỏ phần đặt câu."
+    },
+    {
+      "id": "l301-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l301-v1-e7",
+      "senseId": "l301-v-522-sense",
+      "accepted": [
+        "1,3,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 该……了 báo đã đến lúc làm việc: 该看课文了. Khác 应该 diễn tả nên/cần theo phán đoán. Trong bài dùng quy trình học cụ thể, không tạo nghĩa bắt buộc pháp lý."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

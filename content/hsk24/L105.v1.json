@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "4352df5248d2ed968b3b8aa8bbb9d63556fa38d3536080bb5bcf4e514cf0363e",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-b",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L105",
+    "version": 1,
+    "versionId": "l105-draft-v1",
+    "title": "Chỉ và chọn một đối tượng",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Chỉ và chọn một đối tượng; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "这"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T08:16:46.313372Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-thing",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "问答物品信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-b411fd04a9b3",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "物品名称"
+        },
+        "written": "物品名称",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l105-v-279",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 279"
+        },
+        "written": "这",
+        "pinyin": "zhè",
+        "senseId": "l105-v-279-sense",
+        "ordinal": 279,
+        "note": "1 zhè 代; 这 là dạng một chữ chỉ phía gần/người nói; 这个 là tổ hợp dài hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l105-v-136",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 136"
+        },
+        "written": "那",
+        "pinyin": "nà",
+        "senseId": "l105-v-136-sense",
+        "ordinal": 136,
+        "note": "1（2） nà 代、（连）; 那 là dạng một chữ chỉ đối tượng phía kia trong ngữ cảnh, không chỉ mọi việc xa về thời gian. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l105-v-281",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 281"
+        },
+        "written": "这个",
+        "pinyin": "zhège",
+        "senseId": "l105-v-281-sense",
+        "ordinal": 281,
+        "note": "1 zhège 代; 这个 gồm 这 + 个, nói một đối tượng đã được chỉ; không tự thêm giới tính. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l105-v-138",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 138"
+        },
+        "written": "那个",
+        "pinyin": "nàge",
+        "senseId": "l105-v-138-sense",
+        "ordinal": 138,
+        "note": "1 nàge 代; 那个 là dạng hai chữ chỉ đối tượng kia; phân biệt vị trí được chỉ trong bài. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l105-v-30",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 30"
+        },
+        "written": "的",
+        "pinyin": "de",
+        "senseId": "l105-v-30-sense",
+        "ordinal": 30,
+        "note": "1 de 助; 的 ở 我的茶 nói trà của tôi; bài này chưa khái quát mọi cách dùng 的. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-231",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "231"
+        },
+        "written": "这",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 231,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-120",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "120"
+        },
+        "written": "那",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 120,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-53",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "53"
+        },
+        "written": "个",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 53,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-32",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "32"
+        },
+        "written": "的",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 32,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-105",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-10"
+        },
+        "written": "这",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l105-c0",
+      "version": 1,
+      "senseId": "l105-v-279-sense",
+      "hanzi": "这",
+      "dictionaryPinyin": "zhè",
+      "meaning": "này; đây (dạng một chữ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l105-v-279"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l105-c1",
+      "version": 1,
+      "senseId": "l105-v-136-sense",
+      "hanzi": "那",
+      "dictionaryPinyin": "nà",
+      "meaning": "kia; đó (dạng một chữ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l105-v-136"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l105-c2",
+      "version": 1,
+      "senseId": "l105-v-281-sense",
+      "hanzi": "这个",
+      "dictionaryPinyin": "zhè ge",
+      "meaning": "cái này; người này (hai chữ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l105-v-281"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l105-c3",
+      "version": 1,
+      "senseId": "l105-v-138-sense",
+      "hanzi": "那个",
+      "dictionaryPinyin": "nà ge",
+      "meaning": "cái kia; người kia (hai chữ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l105-v-138"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l105-c4",
+      "version": 1,
+      "senseId": "l105-v-30-sense",
+      "hanzi": "的",
+      "dictionaryPinyin": "de",
+      "meaning": "của; yếu tố nối bổ nghĩa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l105-v-30"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l105-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l105-t0",
+      "type": "teaching",
+      "title": "这 · này; đây (dạng một chữ)",
+      "text": "这 là dạng một chữ chỉ phía gần/người nói; 这个 là tổ hợp dài hơn.",
+      "hanzi": "这是茶。",
+      "pinyin": "Zhè shì chá.",
+      "meaning": "Đây là trà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l105-t1",
+      "type": "teaching",
+      "title": "那 · kia; đó (dạng một chữ)",
+      "text": "那 là dạng một chữ chỉ đối tượng phía kia trong ngữ cảnh, không chỉ mọi việc xa về thời gian.",
+      "hanzi": "那是茶吗？",
+      "pinyin": "Nà shì chá ma?",
+      "meaning": "Kia là trà phải không?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l105-t2",
+      "type": "teaching",
+      "title": "这个 · cái này; người này (hai chữ)",
+      "text": "这个 gồm 这 + 个, nói một đối tượng đã được chỉ; không tự thêm giới tính.",
+      "hanzi": "我喜欢这个。",
+      "pinyin": "Wǒ xǐ huan zhè ge.",
+      "meaning": "Tôi thích cái này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l105-t3",
+      "type": "teaching",
+      "title": "那个 · cái kia; người kia (hai chữ)",
+      "text": "那个 là dạng hai chữ chỉ đối tượng kia; phân biệt vị trí được chỉ trong bài.",
+      "hanzi": "我不喜欢那个。",
+      "pinyin": "Wǒ bù xǐ huan nà ge.",
+      "meaning": "Tôi không thích cái kia.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l105-t4",
+      "type": "teaching",
+      "title": "的 · của; yếu tố nối bổ nghĩa",
+      "text": "的 ở 我的茶 nói trà của tôi; bài này chưa khái quát mọi cách dùng 的.",
+      "hanzi": "这是我的茶。",
+      "pinyin": "Zhè shì wǒ de chá.",
+      "meaning": "Đây là trà của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l105-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "这/那 chỉ này/kia; 这个/那个 là dạng có 个 để chỉ một đối tượng đang được nói tới. 的 trong 我的茶 chỉ quan hệ “trà của tôi”. Khi bài yêu cầu dạng một chữ 这/那, không thay bằng dạng hai chữ; đây là giới hạn hình thức của câu hỏi, không kết luận dạng kia sai trong mọi câu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l105-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：这是我的茶。那是你的茶吗？\nB：是。我喜欢这个，不喜欢那个。\nA：好。",
+      "pinyin": "A: Zhè shì wǒ de chá. Nà shì nǐ de chá ma? B: Shì. Wǒ xǐ huan zhè ge, bù xǐ huan nà ge. A: Hǎo.",
+      "meaning": "Đoạn dùng vị trí được chỉ: 这/这个 “này”, 那/那个 “kia”. Không hỏi người học đoán từ hình ảnh không tồn tại.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l105-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l105-v1-e0"
+    },
+    {
+      "id": "l105-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l105-v1-e1"
+    },
+    {
+      "id": "l105-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l105-v1-e2"
+    },
+    {
+      "id": "l105-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l105-v1-e3"
+    },
+    {
+      "id": "l105-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l105-v1-e4"
+    },
+    {
+      "id": "l105-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l105-v1-e5"
+    },
+    {
+      "id": "l105-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l105-v1-e6"
+    },
+    {
+      "id": "l105-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l105-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l105-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l105-c0",
+      "senseId": "l105-v-279-sense",
+      "keyRef": "l105-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “này; đây (dạng một chữ)”: □ (zhè). Ngữ cảnh: □是茶。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "文",
+        "过",
+        "还",
+        "这"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l105-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l105-c1",
+      "senseId": "l105-v-136-sense",
+      "keyRef": "l105-v1-k1",
+      "prompt": "Viết pinyin từ điển của 那 (kia; đó (dạng một chữ)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l105-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l105-c2",
+      "senseId": "l105-v-281-sense",
+      "keyRef": "l105-v1-k2",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “cái này; người này (hai chữ)”: 我喜欢□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l105-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l105-c3",
+      "senseId": "l105-v-138-sense",
+      "keyRef": "l105-v1-k3",
+      "prompt": "Chọn mục từ có nghĩa “cái kia; người kia (hai chữ)” trong câu: 我不喜欢□。",
+      "choices": [
+        "的",
+        "这",
+        "那",
+        "这个",
+        "那个"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l105-v1-e4",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l105-c4",
+      "senseId": "l105-v-30-sense",
+      "keyRef": "l105-v1-k4",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “của; yếu tố nối bổ nghĩa”: 这是我□茶。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l105-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l105-c2",
+      "senseId": "l105-v-281-sense",
+      "keyRef": "l105-v1-k5",
+      "prompt": "Trong câu “我喜欢这个。”, 这个 mang nghĩa nào theo bài?",
+      "choices": [
+        "kia; đó (dạng một chữ)",
+        "cái này; người này (hai chữ)",
+        "cái kia; người kia (hai chữ)",
+        "của; yếu tố nối bổ nghĩa",
+        "này; đây (dạng một chữ)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l105-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l105-c0",
+      "senseId": "l105-v-279-sense",
+      "keyRef": "l105-v1-k6",
+      "prompt": "A nói vật nào là trà của mình?",
+      "choices": [
+        "那",
+        "Không có thông tin về A",
+        "这"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l105-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l105-c3",
+      "senseId": "l105-v-138-sense",
+      "keyRef": "l105-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "这",
+        "是",
+        "我的茶。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l105-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l105-v1-e0",
+      "senseId": "l105-v-279-sense",
+      "accepted": [
+        "这"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 这 tạo từ 这. 这 là dạng một chữ chỉ phía gần/người nói; 这个 là tổ hợp dài hơn. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l105-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l105-v1-e1",
+      "senseId": "l105-v-136-sense",
+      "accepted": [
+        "nà"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "那 ghi nà. 那 là dạng một chữ chỉ đối tượng phía kia trong ngữ cảnh, không chỉ mọi việc xa về thời gian."
+    },
+    {
+      "id": "l105-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l105-v1-e2",
+      "senseId": "l105-v-281-sense",
+      "accepted": [
+        "这个"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "这个: cái này; người này (hai chữ). 这个 gồm 这 + 个, nói một đối tượng đã được chỉ; không tự thêm giới tính. Tôi thích cái này."
+    },
+    {
+      "id": "l105-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l105-v1-e3",
+      "senseId": "l105-v-138-sense",
+      "accepted": [
+        "那个"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "那个: cái kia; người kia (hai chữ). 那个 là dạng hai chữ chỉ đối tượng kia; phân biệt vị trí được chỉ trong bài. Tôi không thích cái kia."
+    },
+    {
+      "id": "l105-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l105-v1-e4",
+      "senseId": "l105-v-30-sense",
+      "accepted": [
+        "的"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "的: của; yếu tố nối bổ nghĩa. 的 ở 我的茶 nói trà của tôi; bài này chưa khái quát mọi cách dùng 的. Đây là trà của tôi."
+    },
+    {
+      "id": "l105-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l105-v1-e5",
+      "senseId": "l105-v-281-sense",
+      "accepted": [
+        "cái này; người này (hai chữ)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "这个 gồm 这 + 个, nói một đối tượng đã được chỉ; không tự thêm giới tính. Tôi thích cái này."
+    },
+    {
+      "id": "l105-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l105-v1-e6",
+      "senseId": "l105-v-279-sense",
+      "accepted": [
+        "这"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 这. Đoạn dùng vị trí được chỉ: 这/这个 “này”, 那/那个 “kia”. Không hỏi người học đoán từ hình ảnh không tồn tại."
+    },
+    {
+      "id": "l105-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l105-v1-e7",
+      "senseId": "l105-v-138-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 这/那 chỉ này/kia; 这个/那个 là dạng có 个 để chỉ một đối tượng đang được nói tới. 的 trong 我的茶 chỉ quan hệ “trà của tôi”. Khi bài yêu cầu dạng một chữ 这/那, không thay bằng dạng hai chữ; đây là giới hạn hình thức của câu hỏi, không kết luận dạng kia sai trong mọi câu."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

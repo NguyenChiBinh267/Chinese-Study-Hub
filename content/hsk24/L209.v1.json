@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "8229176f9883cffb29797ad449637955d15988a48c28f2c6d30e6ecc9cbb3367",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "movement-viewpoint",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L209",
+    "version": 1,
+    "versionId": "l209-draft-v1",
+    "title": "Ra vào và trở lại",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Hiểu hướng di chuyển theo vị trí người nói.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "趋向补语1"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 10,
+      "physicalPage": 11,
+      "printedPage": 8,
+      "section": "task",
+      "entry": "八"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "八"
+        },
+        "written": "问答出行情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-directions",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 问路"
+        },
+        "written": "问路",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l209-v-320",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 320"
+        },
+        "written": "出去",
+        "pinyin": "chūqù",
+        "senseId": "l209-v-320-sense",
+        "ordinal": 320,
+        "note": "2 chūqù 动; Người nói đang trong phòng: 他出去了 là anh ấy đi ra ngoài xa mốc đang đứng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l209-v-318",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 318"
+        },
+        "written": "出来",
+        "pinyin": "chūlái",
+        "senseId": "l209-v-318-sense",
+        "ordinal": 318,
+        "note": "2 chūlái 动; Người nói đứng ngoài phòng có thể gọi 请出来. Không thay 来 bằng 去 mà giữ nguyên mốc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l209-v-372",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 372"
+        },
+        "written": "进来",
+        "pinyin": "jìnlái",
+        "senseId": "l209-v-372-sense",
+        "ordinal": 372,
+        "note": "2 jìnlái 动; Người trong phòng mời người ngoài vào dùng 请进来. 来 không tự mang nghĩa tương lai. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l209-v-373",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 373"
+        },
+        "written": "进去",
+        "pinyin": "jìnqù",
+        "senseId": "l209-v-373-sense",
+        "ordinal": 373,
+        "note": "2 jìnqù 动; Người đứng ngoài kể bạn đi vào phòng dùng 进去了; mốc vẫn ở ngoài. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l209-v-361",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 361"
+        },
+        "written": "回来",
+        "pinyin": "huílái",
+        "senseId": "l209-v-361-sense",
+        "ordinal": 361,
+        "note": "2 huílái 动; Người ở nhà hỏi 你什么时候回来 là hỏi lúc nào người kia quay về đây. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l209-v-362",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 362"
+        },
+        "written": "回去",
+        "pinyin": "huíqù",
+        "senseId": "l209-v-362-sense",
+        "ordinal": 362,
+        "note": "2 huíqù 动; Người ở khách sạn nói 明天回去 chỉ ngày mai trở về nơi khác, không về ngay phía người đang đứng. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-36",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "36"
+        },
+        "written": "进",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 36,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-direction",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "补语 / 趋向补语1 / 复合趋向"
+        },
+        "written": "趋向补语1",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l209-c0",
+      "version": 1,
+      "senseId": "l209-v-320-sense",
+      "hanzi": "出去",
+      "dictionaryPinyin": "chū qù",
+      "meaning": "đi ra xa mốc người nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l209-v-320"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l209-c1",
+      "version": 1,
+      "senseId": "l209-v-318-sense",
+      "hanzi": "出来",
+      "dictionaryPinyin": "chū lái",
+      "meaning": "ra về phía mốc người nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l209-v-318"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l209-c2",
+      "version": 1,
+      "senseId": "l209-v-372-sense",
+      "hanzi": "进来",
+      "dictionaryPinyin": "jìn lái",
+      "meaning": "vào về phía mốc người nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l209-v-372"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l209-c3",
+      "version": 1,
+      "senseId": "l209-v-373-sense",
+      "hanzi": "进去",
+      "dictionaryPinyin": "jìn qù",
+      "meaning": "đi vào xa mốc người nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l209-v-373"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l209-c4",
+      "version": 1,
+      "senseId": "l209-v-361-sense",
+      "hanzi": "回来",
+      "dictionaryPinyin": "huí lái",
+      "meaning": "trở về phía mốc người nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l209-v-361"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l209-c5",
+      "version": 1,
+      "senseId": "l209-v-362-sense",
+      "hanzi": "回去",
+      "dictionaryPinyin": "huí qù",
+      "meaning": "trở lại xa mốc người nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l209-v-362"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l209-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "出 là ra, 进 là vào, 回 là trở lại. 来 hướng về phía người nói/mốc nhìn; 去 hướng xa mốc đó. Phần giải thích này không chứng nhận đã nắm các từ HSK1.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l209-t0",
+      "type": "teaching",
+      "title": "出去 · đi ra xa mốc người nói",
+      "text": "Người nói đang trong phòng: 他出去了 là anh ấy đi ra ngoài xa mốc đang đứng.",
+      "hanzi": "他出去买东西了。",
+      "pinyin": "Tā chūqù mǎi dōngxi le.",
+      "meaning": "Anh ấy ra ngoài mua đồ rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l209-t1",
+      "type": "teaching",
+      "title": "出来 · ra về phía mốc người nói",
+      "text": "Người nói đứng ngoài phòng có thể gọi 请出来. Không thay 来 bằng 去 mà giữ nguyên mốc.",
+      "hanzi": "我在门口，你出来吧。",
+      "pinyin": "Wǒ zài ménkǒu, nǐ chūlái ba.",
+      "meaning": "Tôi ở cửa, bạn ra đây nhé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l209-t2",
+      "type": "teaching",
+      "title": "进来 · vào về phía mốc người nói",
+      "text": "Người trong phòng mời người ngoài vào dùng 请进来. 来 không tự mang nghĩa tương lai.",
+      "hanzi": "外面冷，快进来。",
+      "pinyin": "Wàimiàn lěng, kuài jìnlái.",
+      "meaning": "Ngoài lạnh, mau vào đây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l209-t3",
+      "type": "teaching",
+      "title": "进去 · đi vào xa mốc người nói",
+      "text": "Người đứng ngoài kể bạn đi vào phòng dùng 进去了; mốc vẫn ở ngoài.",
+      "hanzi": "他已经进去了。",
+      "pinyin": "Tā yǐjīng jìnqù le.",
+      "meaning": "Anh ấy đã đi vào trong rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l209-t4",
+      "type": "teaching",
+      "title": "回来 · trở về phía mốc người nói",
+      "text": "Người ở nhà hỏi 你什么时候回来 là hỏi lúc nào người kia quay về đây.",
+      "hanzi": "你什么时候回来？",
+      "pinyin": "Nǐ shénme shíhou huílái?",
+      "meaning": "Khi nào bạn trở về đây?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l209-t5",
+      "type": "teaching",
+      "title": "回去 · trở lại xa mốc người nói",
+      "text": "Người ở khách sạn nói 明天回去 chỉ ngày mai trở về nơi khác, không về ngay phía người đang đứng.",
+      "hanzi": "我明天回去。",
+      "pinyin": "Wǒ míngtiān huíqù.",
+      "meaning": "Mai tôi trở về.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l209-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "来 và 去 phụ thuộc mốc của người nói. Người đứng trong phòng gọi 进来; nói về người đi vào căn phòng ở chỗ khác có thể dùng 进去. Không chọn chỉ theo nghĩa vào/ra.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l209-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "我在教室里。小王在门口，我说：外面冷，快进来。他进来以后，我出去买水。小王问：你什么时候回来？我说：一会儿就回来。",
+      "pinyin": "Wǒ zài jiàoshì li. Xiǎo Wáng zài ménkǒu, wǒ shuō: Wàimiàn lěng, kuài jìnlái. Tā jìnlái yǐhòu, wǒ chūqù mǎi shuǐ. Xiǎo Wáng wèn: Nǐ shénme shíhou huílái? Wǒ shuō: Yíhuìr jiù huílái.",
+      "meaning": "Tôi ở trong lớp. Tiểu Vương ở cửa, tôi nói: Ngoài lạnh, mau vào đây. Sau khi anh ấy vào, tôi ra ngoài mua nước. Anh ấy hỏi: Khi nào bạn quay về đây? Tôi nói: Một lát nữa tôi quay về.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l209-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l209-v1-e0"
+    },
+    {
+      "id": "l209-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l209-v1-e1"
+    },
+    {
+      "id": "l209-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l209-v1-e2"
+    },
+    {
+      "id": "l209-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l209-v1-e3"
+    },
+    {
+      "id": "l209-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l209-v1-e4"
+    },
+    {
+      "id": "l209-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l209-v1-e5"
+    },
+    {
+      "id": "l209-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l209-v1-e6"
+    },
+    {
+      "id": "l209-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l209-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l209-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l209-c0",
+      "senseId": "l209-v-320-sense",
+      "keyRef": "l209-v1-k0",
+      "prompt": "Trong câu “他出去买东西了。”, 出去 mang nghĩa nào?",
+      "choices": [
+        "ra về phía mốc người nói",
+        "vào về phía mốc người nói",
+        "đi vào xa mốc người nói",
+        "trở về phía mốc người nói",
+        "trở lại xa mốc người nói",
+        "đi ra xa mốc người nói"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l209-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l209-c1",
+      "senseId": "l209-v-318-sense",
+      "keyRef": "l209-v1-k1",
+      "prompt": "Viết pinyin của 出来 trong nghĩa “ra về phía mốc người nói”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l209-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l209-c2",
+      "senseId": "l209-v-372-sense",
+      "keyRef": "l209-v1-k2",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “vào về phía mốc người nói”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l209-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l209-c3",
+      "senseId": "l209-v-373-sense",
+      "keyRef": "l209-v1-k3",
+      "prompt": "Trong câu “他已经进去了。”, 进去 mang nghĩa nào?",
+      "choices": [
+        "trở về phía mốc người nói",
+        "trở lại xa mốc người nói",
+        "đi ra xa mốc người nói",
+        "ra về phía mốc người nói",
+        "vào về phía mốc người nói",
+        "đi vào xa mốc người nói"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l209-v1-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l209-c4",
+      "senseId": "l209-v-361-sense",
+      "keyRef": "l209-v1-k4",
+      "prompt": "Viết pinyin của 回来 trong nghĩa “trở về phía mốc người nói”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l209-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l209-c5",
+      "senseId": "l209-v-362-sense",
+      "keyRef": "l209-v1-k5",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “trở lại xa mốc người nói”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l209-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l209-c0",
+      "senseId": "l209-v-320-sense",
+      "keyRef": "l209-v1-k6",
+      "prompt": "Vì sao người trong lớp nói 进来?",
+      "choices": [
+        "Yêu cầu đi ra ngoài",
+        "Yêu cầu về nhà ở chỗ khác",
+        "Mời vào phía mình đang đứng"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l209-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l209-c3",
+      "senseId": "l209-v-373-sense",
+      "keyRef": "l209-v1-k7",
+      "prompt": "Xếp câu: khi nào bạn trở về đây?",
+      "choices": [
+        "回来",
+        "你",
+        "什么时候"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l209-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l209-v1-e0",
+      "senseId": "l209-v-320-sense",
+      "accepted": [
+        "đi ra xa mốc người nói"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "出去: đi ra xa mốc người nói. Người nói đang trong phòng: 他出去了 là anh ấy đi ra ngoài xa mốc đang đứng. Anh ấy ra ngoài mua đồ rồi."
+    },
+    {
+      "id": "l209-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l209-v1-e1",
+      "senseId": "l209-v-318-sense",
+      "accepted": [
+        "chū lái"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc chū lái. Người nói đứng ngoài phòng có thể gọi 请出来. Không thay 来 bằng 去 mà giữ nguyên mốc."
+    },
+    {
+      "id": "l209-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l209-v1-e2",
+      "senseId": "l209-v-372-sense",
+      "accepted": [
+        "进来"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 进来. Người trong phòng mời người ngoài vào dùng 请进来. 来 không tự mang nghĩa tương lai."
+    },
+    {
+      "id": "l209-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l209-v1-e3",
+      "senseId": "l209-v-373-sense",
+      "accepted": [
+        "đi vào xa mốc người nói"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "进去: đi vào xa mốc người nói. Người đứng ngoài kể bạn đi vào phòng dùng 进去了; mốc vẫn ở ngoài. Anh ấy đã đi vào trong rồi."
+    },
+    {
+      "id": "l209-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l209-v1-e4",
+      "senseId": "l209-v-361-sense",
+      "accepted": [
+        "huí lái"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc huí lái. Người ở nhà hỏi 你什么时候回来 là hỏi lúc nào người kia quay về đây."
+    },
+    {
+      "id": "l209-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l209-v1-e5",
+      "senseId": "l209-v-362-sense",
+      "accepted": [
+        "回去"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 回去. Người ở khách sạn nói 明天回去 chỉ ngày mai trở về nơi khác, không về ngay phía người đang đứng."
+    },
+    {
+      "id": "l209-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l209-v1-e6",
+      "senseId": "l209-v-320-sense",
+      "accepted": [
+        "Mời vào phía mình đang đứng"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "来 gắn với mốc trong phòng của người nói. Chỉ biết nghĩa vào chưa đủ chọn 来/去."
+    },
+    {
+      "id": "l209-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l209-v1-e7",
+      "senseId": "l209-v-373-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 来 và 去 phụ thuộc mốc của người nói. Người đứng trong phòng gọi 进来; nói về người đi vào căn phòng ở chỗ khác có thể dùng 进去. Không chọn chỉ theo nghĩa vào/ra."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

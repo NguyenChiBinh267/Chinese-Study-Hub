@@ -1,0 +1,763 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "2da17d0ba8b0441128e05ce1d98041b8047004d151f9a4e418bdb7187c7a3e96",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eaba",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L4010",
+    "version": 1,
+    "versionId": "l4010-draft-v1",
+    "title": "Đọc hướng dẫn và quét mã",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc hướng dẫn và quét mã; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "就是了"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 26,
+      "physicalPage": 27,
+      "printedPage": 24,
+      "section": "task",
+      "entry": "十九"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-29T07:50:26.030694Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-technology",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 26,
+          "physicalPage": 27,
+          "printedPage": 24,
+          "section": "task",
+          "entry": "十九"
+        },
+        "written": "介绍新技术应用及科技成果",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-bfa5fa3e9da9",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "科普知识"
+        },
+        "written": "科普知识",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l4010-v-1627",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 119,
+          "physicalPage": 120,
+          "printedPage": 117,
+          "section": "vocabulary",
+          "entry": "ordinal 1627"
+        },
+        "written": "扫码",
+        "pinyin": "sǎomǎ",
+        "senseId": "l4010-v-1627-sense",
+        "ordinal": 1627,
+        "note": "4 sǎomǎ 动; 扫码 là dùng thiết bị đọc mã; bản thân thao tác không đảm bảo nội dung mã an toàn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4010-v-1668",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 120,
+          "physicalPage": 121,
+          "printedPage": 118,
+          "section": "vocabulary",
+          "entry": "ordinal 1668"
+        },
+        "written": "使用",
+        "pinyin": "shǐyòng",
+        "senseId": "l4010-v-1668-sense",
+        "ordinal": 1668,
+        "note": "4 shǐyòng 动; 使用 là động từ dùng thiết bị/phương pháp; khác 使用说明书 là tài liệu hướng dẫn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4010-v-1673",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 120,
+          "physicalPage": 121,
+          "printedPage": 118,
+          "section": "vocabulary",
+          "entry": "ordinal 1673"
+        },
+        "written": "视频",
+        "pinyin": "shìpín",
+        "senseId": "l4010-v-1673-sense",
+        "ordinal": 1673,
+        "note": "4 shìpín 名; 视频 là nội dung hình ảnh chuyển động; bài chỉ đọc chữ, không có video đi kèm. Nhận diện chữ 频 trong 视频; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4010-v-1701",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 121,
+          "physicalPage": 122,
+          "printedPage": 119,
+          "section": "vocabulary",
+          "entry": "ordinal 1701"
+        },
+        "written": "说明书",
+        "pinyin": "shuōmíngshū",
+        "senseId": "l4010-v-1701-sense",
+        "ordinal": 1701,
+        "note": "4 shuōmíngshū 名; 说明书 là văn bản hướng dẫn sử dụng, khác hành động 说明 là giải thích. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4010-v-1700",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 121,
+          "physicalPage": 122,
+          "printedPage": 119,
+          "section": "vocabulary",
+          "entry": "ordinal 1700"
+        },
+        "written": "说明",
+        "pinyin": "shuōmíng",
+        "senseId": "l4010-v-1700-sense",
+        "ordinal": 1700,
+        "note": "4 shuōmíng 动、名; 说明 trong câu là động từ nói rõ cách dùng; không thay cho danh từ 说明书. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4010-v-1822",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 124,
+          "physicalPage": 125,
+          "printedPage": 122,
+          "section": "vocabulary",
+          "entry": "ordinal 1822"
+        },
+        "written": "信号",
+        "pinyin": "xìnhào",
+        "senseId": "l4010-v-1822-sense",
+        "ordinal": 1822,
+        "note": "4 xìnhào 名; 信号 ở đây là tín hiệu mạng; khác 信息 là nội dung thông tin. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-284",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "284"
+        },
+        "written": "使",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 284,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-238",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "238"
+        },
+        "written": "频",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 238,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-4010",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 395,
+          "physicalPage": 396,
+          "printedPage": 393,
+          "section": "grammar",
+          "entry": "X就是了"
+        },
+        "written": "就是了",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l4010-c0",
+      "version": 1,
+      "senseId": "l4010-v-1627-sense",
+      "hanzi": "扫码",
+      "dictionaryPinyin": "sǎo mǎ",
+      "meaning": "quét mã",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4010-v-1627"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4010-c1",
+      "version": 1,
+      "senseId": "l4010-v-1668-sense",
+      "hanzi": "使用",
+      "dictionaryPinyin": "shǐ yòng",
+      "meaning": "sử dụng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4010-v-1668"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4010-c2",
+      "version": 1,
+      "senseId": "l4010-v-1673-sense",
+      "hanzi": "视频",
+      "dictionaryPinyin": "shì pín",
+      "meaning": "video",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4010-v-1673"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4010-c3",
+      "version": 1,
+      "senseId": "l4010-v-1701-sense",
+      "hanzi": "说明书",
+      "dictionaryPinyin": "shuō míng shū",
+      "meaning": "sách hướng dẫn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4010-v-1701"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4010-c4",
+      "version": 1,
+      "senseId": "l4010-v-1700-sense",
+      "hanzi": "说明",
+      "dictionaryPinyin": "shuō míng",
+      "meaning": "giải thích; trình bày",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4010-v-1700"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4010-c5",
+      "version": 1,
+      "senseId": "l4010-v-1822-sense",
+      "hanzi": "信号",
+      "dictionaryPinyin": "xìn hào",
+      "meaning": "tín hiệu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4010-v-1822"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l4010-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4010-t0",
+      "type": "teaching",
+      "title": "扫码 · quét mã",
+      "text": "扫码 là dùng thiết bị đọc mã; bản thân thao tác không đảm bảo nội dung mã an toàn.",
+      "hanzi": "老师用样品演示扫码。",
+      "pinyin": "Lǎo shī yòng yàng pǐn yǎn shì sǎo mǎ.",
+      "meaning": "Thầy cô dùng mẫu vật minh họa quét mã.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4010-t1",
+      "type": "teaching",
+      "title": "使用 · sử dụng",
+      "text": "使用 là động từ dùng thiết bị/phương pháp; khác 使用说明书 là tài liệu hướng dẫn.",
+      "hanzi": "请先学习怎样使用设备。",
+      "pinyin": "Qǐng xiān xué xí zěn yàng shǐ yòng shè bèi.",
+      "meaning": "Hãy học cách sử dụng thiết bị trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4010-t2",
+      "type": "teaching",
+      "title": "视频 · video",
+      "text": "视频 là nội dung hình ảnh chuyển động; bài chỉ đọc chữ, không có video đi kèm. Nhận diện chữ 频 trong 视频; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "说明书里提到了一段视频。",
+      "pinyin": "Shuō míng shū lǐ tí dào le yí duàn shì pín.",
+      "meaning": "Sách hướng dẫn có nhắc một video.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4010-t3",
+      "type": "teaching",
+      "title": "说明书 · sách hướng dẫn",
+      "text": "说明书 là văn bản hướng dẫn sử dụng, khác hành động 说明 là giải thích.",
+      "hanzi": "他把说明书放在桌上。",
+      "pinyin": "Tā bǎ shuō míng shū fàng zài zhuō shàng.",
+      "meaning": "Anh ấy đặt sách hướng dẫn lên bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4010-t4",
+      "type": "teaching",
+      "title": "说明 · giải thích; trình bày",
+      "text": "说明 trong câu là động từ nói rõ cách dùng; không thay cho danh từ 说明书.",
+      "hanzi": "老师说明了操作方法。",
+      "pinyin": "Lǎo shī shuō míng le cāo zuò fāng fǎ.",
+      "meaning": "Thầy cô giải thích cách thao tác.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4010-t5",
+      "type": "teaching",
+      "title": "信号 · tín hiệu",
+      "text": "信号 ở đây là tín hiệu mạng; khác 信息 là nội dung thông tin.",
+      "hanzi": "教室里的网络信号很好。",
+      "pinyin": "Jiào shì lǐ de wǎng luò xìn hào hěn hǎo.",
+      "meaning": "Tín hiệu mạng trong lớp rất tốt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4010-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "Động tác/cách làm + 就是了 nêu cách xử lý được người nói coi là đủ: 按说明操作就是了. Câu luyện về thiết bị mẫu đã xác định, không khuyến khích mở đường dẫn lạ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4010-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "老师拿来一份说明书，说明怎样使用样品。二维码可以记录信息，设备用摄像头读出这些信息。大家只扫老师准备的示例码。网络信号好时，可以打开配套视频。老师说：“这是指定的样品，按说明操作就是了；不认识的码先别扫。”",
+      "pinyin": "Lǎo shī ná lái yí fèn shuō míng shū, shuō míng zěn yàng shǐ yòng yàng pǐn. Èr wéi mǎ kě yǐ jì lù xìn xī, shè bèi yòng shè xiàng tóu dú chū zhè xiē xìn xī. Dà jiā zhǐ sǎo lǎo shī zhǔn bèi de shì lì mǎ. Wǎng luò xìn hào hǎo shí, kě yǐ dǎ kāi pèi tào shì pín. Lǎo shī shuō: “Zhè shì zhǐ dìng de yàng pǐn, àn shuō míng cāo zuò jiù shì le; bù rèn shi de mǎ xiān bié sǎo.”",
+      "meaning": "Đoạn chữ giải thích mã lưu thông tin và thiết bị đọc bằng camera; cả lớp chỉ dùng mã mẫu giáo viên chuẩn bị. Không có video/audio thật trong bài.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4010-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l4010-v1-e0"
+    },
+    {
+      "id": "l4010-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l4010-v1-e1"
+    },
+    {
+      "id": "l4010-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l4010-v1-e2"
+    },
+    {
+      "id": "l4010-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l4010-v1-e3"
+    },
+    {
+      "id": "l4010-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l4010-v1-e4"
+    },
+    {
+      "id": "l4010-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l4010-v1-e5"
+    },
+    {
+      "id": "l4010-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l4010-v1-e6"
+    },
+    {
+      "id": "l4010-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l4010-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l4010-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4010-c0",
+      "senseId": "l4010-v-1627-sense",
+      "keyRef": "l4010-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “quét mã” để điền câu: 老师用样品演示□。",
+      "choices": [
+        "使用",
+        "视频",
+        "说明书",
+        "说明",
+        "信号",
+        "扫码"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4010-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4010-c1",
+      "senseId": "l4010-v-1668-sense",
+      "keyRef": "l4010-v1-k1",
+      "prompt": "Ghi pinyin của 使用 trong câu “请先学习怎样使用设备。”, theo nghĩa “sử dụng”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4010-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l4010-c2",
+      "senseId": "l4010-v-1673-sense",
+      "keyRef": "l4010-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “video”: 视□ (shì pín). Ngữ cảnh: 说明书里提到了一段□。",
+      "choices": [
+        "颈",
+        "频",
+        "濒",
+        "颇"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4010-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4010-c3",
+      "senseId": "l4010-v-1701-sense",
+      "keyRef": "l4010-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “sách hướng dẫn” để điền câu: 他把□放在桌上。",
+      "choices": [
+        "说明",
+        "信号",
+        "扫码",
+        "使用",
+        "视频",
+        "说明书"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4010-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4010-c4",
+      "senseId": "l4010-v-1700-sense",
+      "keyRef": "l4010-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “giải thích; trình bày” để điền câu: 老师□了操作方法。",
+      "choices": [
+        "信号",
+        "扫码",
+        "使用",
+        "视频",
+        "说明书",
+        "说明"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4010-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4010-c5",
+      "senseId": "l4010-v-1822-sense",
+      "keyRef": "l4010-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “tín hiệu”: 教室里的网络□很好。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4010-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4010-c0",
+      "senseId": "l4010-v-1627-sense",
+      "keyRef": "l4010-v1-k6",
+      "prompt": "Cả lớp dùng mã nào?",
+      "choices": [
+        "路边所有的码",
+        "不认识的码",
+        "老师准备的示例码"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4010-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l4010-c3",
+      "senseId": "l4010-v-1701-sense",
+      "keyRef": "l4010-v1-k7",
+      "prompt": "Sắp xếp nguyên các cụm thành câu theo mẫu đang học; không thêm/bớt từ.",
+      "choices": [
+        "按说明",
+        "操作",
+        "就是了，",
+        "先用指定样品。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l4010-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l4010-v1-e0",
+      "senseId": "l4010-v-1627-sense",
+      "accepted": [
+        "扫码"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "扫码: quét mã. 扫码 là dùng thiết bị đọc mã; bản thân thao tác không đảm bảo nội dung mã an toàn. Thầy cô dùng mẫu vật minh họa quét mã."
+    },
+    {
+      "id": "l4010-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l4010-v1-e1",
+      "senseId": "l4010-v-1668-sense",
+      "accepted": [
+        "shǐ yòng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc shǐ yòng. 使用 là động từ dùng thiết bị/phương pháp; khác 使用说明书 là tài liệu hướng dẫn."
+    },
+    {
+      "id": "l4010-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l4010-v1-e2",
+      "senseId": "l4010-v-1673-sense",
+      "accepted": [
+        "频"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 频 tạo từ 视频. 视频 là nội dung hình ảnh chuyển động; bài chỉ đọc chữ, không có video đi kèm. Nhận diện chữ 频 trong 视频; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l4010-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l4010-v1-e3",
+      "senseId": "l4010-v-1701-sense",
+      "accepted": [
+        "说明书"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "说明书: sách hướng dẫn. 说明书 là văn bản hướng dẫn sử dụng, khác hành động 说明 là giải thích. Anh ấy đặt sách hướng dẫn lên bàn."
+    },
+    {
+      "id": "l4010-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l4010-v1-e4",
+      "senseId": "l4010-v-1700-sense",
+      "accepted": [
+        "说明"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "说明: giải thích; trình bày. 说明 trong câu là động từ nói rõ cách dùng; không thay cho danh từ 说明书. Thầy cô giải thích cách thao tác."
+    },
+    {
+      "id": "l4010-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l4010-v1-e5",
+      "senseId": "l4010-v-1822-sense",
+      "accepted": [
+        "信号"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 信号. 信号 ở đây là tín hiệu mạng; khác 信息 là nội dung thông tin. Tín hiệu mạng trong lớp rất tốt."
+    },
+    {
+      "id": "l4010-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l4010-v1-e6",
+      "senseId": "l4010-v-1627-sense",
+      "accepted": [
+        "老师准备的示例码"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 老师准备的示例码. Đoạn chữ giải thích mã lưu thông tin và thiết bị đọc bằng camera; cả lớp chỉ dùng mã mẫu giáo viên chuẩn bị. Không có video/audio thật trong bài."
+    },
+    {
+      "id": "l4010-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l4010-v1-e7",
+      "senseId": "l4010-v-1701-sense",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. Động tác/cách làm + 就是了 nêu cách xử lý được người nói coi là đủ: 按说明操作就是了. Câu luyện về thiết bị mẫu đã xác định, không khuyến khích mở đường dẫn lạ."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

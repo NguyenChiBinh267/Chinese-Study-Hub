@@ -1,0 +1,831 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "66d1082c98fb1bdce9d1eba300280190b8346c0c6a897a802be02395243a11c1",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-stay-location",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L306",
+    "version": 1,
+    "versionId": "l306-draft-v1",
+    "title": "Chọn nơi ở khi đi xa",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "So sánh địa điểm và sự thuận tiện theo nhu cầu được nêu.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l207-draft-v1",
+      "l225-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "对……来说"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 15,
+      "physicalPage": 16,
+      "printedPage": 13,
+      "section": "task",
+      "entry": "九"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-residence",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 15,
+          "physicalPage": 16,
+          "printedPage": 13,
+          "section": "task",
+          "entry": "九"
+        },
+        "written": "谈论居住情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-residence",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "日常生活 / 社区 / 居住情况"
+        },
+        "written": "居住情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l306-v-533",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 533"
+        },
+        "written": "宾馆",
+        "pinyin": "bīnguǎn",
+        "senseId": "l306-v-533-sense",
+        "ordinal": 533,
+        "note": "3 bīnguǎn 名; 宾馆 là cơ sở lưu trú; cùng trường nghĩa 酒店 nhưng không phân cấp chất lượng chỉ từ tên gọi. Không suy ra giá hay hạng sao. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l306-v-633",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 633"
+        },
+        "written": "附近",
+        "pinyin": "fùjìn",
+        "senseId": "l306-v-633-sense",
+        "ordinal": 633,
+        "note": "3 fùjìn 名; 附近 đứng sau địa điểm như 宾馆附近 hoặc chỉ khu vực gần nơi đang nói. Không cho khoảng cách chính xác nếu không có số đo. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l306-v-619",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 619"
+        },
+        "written": "方便",
+        "pinyin": "fāngbiàn",
+        "senseId": "l306-v-619-sense",
+        "ordinal": 619,
+        "note": "3 fāngbiàn 形; 方便 nói dễ/tiện cho việc gì theo hoàn cảnh. 这里坐车方便 nói thuận tiện đi xe, không khẳng định mọi dịch vụ đều tốt. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l306-v-590",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 590"
+        },
+        "written": "地点",
+        "pinyin": "dìdiǎn",
+        "senseId": "l306-v-590-sense",
+        "ordinal": 590,
+        "note": "3 dìdiǎn 名; 地点 thường là điểm được xác định cho sự kiện: 见面地点. Không dùng như mọi nghĩa của 地方 trong mọi câu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l306-v-591",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 591"
+        },
+        "written": "地方",
+        "pinyin": "dìfang",
+        "senseId": "l306-v-591-sense",
+        "ordinal": 591,
+        "note": "3 dìfang 名; 地方 chỉ nơi/chỗ nói chung. 这个地方 rộng hơn một điểm hẹn; khác 地点 thường gắn với điểm xác định của hoạt động. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l306-v-679",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 679"
+        },
+        "written": "环境",
+        "pinyin": "huánjìng",
+        "senseId": "l306-v-679-sense",
+        "ordinal": 679,
+        "note": "3 huánjìng 名; 环境 mô tả điều kiện xung quanh như yên tĩnh, sạch. Không coi đây chỉ là thời tiết hoặc một đồ vật riêng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l306-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "hỗ trợ trong tình huống",
+        "pinyin": "",
+        "senseId": "l306-extra0-sense",
+        "ordinal": null,
+        "note": "安静 ānjìng: yên tĩnh; 见面 jiànmiàn: gặp mặt; 不用 búyòng: không cần. 对我来说 nhấn góc nhìn cá nhân; 这里/附近 đều cần ngữ cảnh chỉ nơi."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-16",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "16"
+        },
+        "written": "宾",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 16,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-61",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "61"
+        },
+        "written": "附",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 61,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "方",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-85",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "85"
+        },
+        "written": "环",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 85,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-119",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "119"
+        },
+        "written": "境",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 119,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-g-for-me",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定格式 / 对……来说"
+        },
+        "written": "对……来说",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l306-c0",
+      "version": 1,
+      "senseId": "l306-v-533-sense",
+      "hanzi": "宾馆",
+      "dictionaryPinyin": "bīn guǎn",
+      "meaning": "khách sạn/nhà nghỉ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l306-v-533"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l306-c1",
+      "version": 1,
+      "senseId": "l306-v-633-sense",
+      "hanzi": "附近",
+      "dictionaryPinyin": "fù jìn",
+      "meaning": "gần đây/vùng lân cận",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l306-v-633"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l306-c2",
+      "version": 1,
+      "senseId": "l306-v-619-sense",
+      "hanzi": "方便",
+      "dictionaryPinyin": "fāng biàn",
+      "meaning": "thuận tiện",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l306-v-619"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l306-c3",
+      "version": 1,
+      "senseId": "l306-v-590-sense",
+      "hanzi": "地点",
+      "dictionaryPinyin": "dì diǎn",
+      "meaning": "địa điểm cụ thể",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l306-v-590"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l306-c4",
+      "version": 1,
+      "senseId": "l306-v-591-sense",
+      "hanzi": "地方",
+      "dictionaryPinyin": "dì fang",
+      "meaning": "nơi/chỗ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l306-v-591"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l306-c5",
+      "version": 1,
+      "senseId": "l306-v-679-sense",
+      "hanzi": "环境",
+      "dictionaryPinyin": "huán jìng",
+      "meaning": "môi trường/khung cảnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l306-v-679"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l306-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Nhắc 先/再, thời gian đứng trước động từ, 在 và lượng từ cơ bản. Prerequisite HSK1/2 vẫn chưa chứng nhận. 安静 ānjìng: yên tĩnh; 见面 jiànmiàn: gặp mặt; 不用 búyòng: không cần. 对我来说 nhấn góc nhìn cá nhân; 这里/附近 đều cần ngữ cảnh chỉ nơi.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l306-t0",
+      "type": "teaching",
+      "title": "宾馆 · khách sạn/nhà nghỉ",
+      "text": "宾馆 là cơ sở lưu trú; cùng trường nghĩa 酒店 nhưng không phân cấp chất lượng chỉ từ tên gọi. Không suy ra giá hay hạng sao.",
+      "hanzi": "我们在车站附近找了一家宾馆。",
+      "pinyin": "Wǒmen zài chēzhàn fùjìn zhǎo le yì jiā bīnguǎn.",
+      "meaning": "Chúng tôi tìm một khách sạn gần ga.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l306-t1",
+      "type": "teaching",
+      "title": "附近 · gần đây/vùng lân cận",
+      "text": "附近 đứng sau địa điểm như 宾馆附近 hoặc chỉ khu vực gần nơi đang nói. Không cho khoảng cách chính xác nếu không có số đo.",
+      "hanzi": "宾馆附近有一个地铁站。",
+      "pinyin": "Bīnguǎn fùjìn yǒu yí ge dìtiězhàn.",
+      "meaning": "Gần khách sạn có một ga tàu điện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l306-t2",
+      "type": "teaching",
+      "title": "方便 · thuận tiện",
+      "text": "方便 nói dễ/tiện cho việc gì theo hoàn cảnh. 这里坐车方便 nói thuận tiện đi xe, không khẳng định mọi dịch vụ đều tốt.",
+      "hanzi": "这里坐地铁很方便。",
+      "pinyin": "Zhèlǐ zuò dìtiě hěn fāngbiàn.",
+      "meaning": "Ở đây đi tàu điện rất tiện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l306-t3",
+      "type": "teaching",
+      "title": "地点 · địa điểm cụ thể",
+      "text": "地点 thường là điểm được xác định cho sự kiện: 见面地点. Không dùng như mọi nghĩa của 地方 trong mọi câu.",
+      "hanzi": "我们见面的地点在车站门口。",
+      "pinyin": "Wǒmen jiànmiàn de dìdiǎn zài chēzhàn ménkǒu.",
+      "meaning": "Điểm gặp nhau là cửa ga.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l306-t4",
+      "type": "teaching",
+      "title": "地方 · nơi/chỗ",
+      "text": "地方 chỉ nơi/chỗ nói chung. 这个地方 rộng hơn một điểm hẹn; khác 地点 thường gắn với điểm xác định của hoạt động.",
+      "hanzi": "这个地方离学校很近。",
+      "pinyin": "Zhège dìfang lí xuéxiào hěn jìn.",
+      "meaning": "Nơi này gần trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l306-t5",
+      "type": "teaching",
+      "title": "环境 · môi trường/khung cảnh",
+      "text": "环境 mô tả điều kiện xung quanh như yên tĩnh, sạch. Không coi đây chỉ là thời tiết hoặc một đồ vật riêng.",
+      "hanzi": "这里的环境很安静。",
+      "pinyin": "Zhèlǐ de huánjìng hěn ānjìng.",
+      "meaning": "Môi trường ở đây yên tĩnh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l306-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "对我来说 giới hạn nhận xét theo góc nhìn người nói. Một nơi thuận tiện cho người cần tàu điện không có nghĩa thuận tiện cho mọi người.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l306-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小安：这家宾馆怎么样？小李：对我来说，这个地方很方便，附近有地铁站。小安：环境呢？小李：晚上很安静。我们见面的地点就在宾馆门口，不用去车站。",
+      "pinyin": "Xiǎo Ān: Zhè jiā bīnguǎn zěnmeyàng? Xiǎo Lǐ: Duì wǒ lái shuō, zhège dìfang hěn fāngbiàn, fùjìn yǒu dìtiězhàn. Xiǎo Ān: Huánjìng ne? Xiǎo Lǐ: Wǎnshang hěn ānjìng. Wǒmen jiànmiàn de dìdiǎn jiù zài bīnguǎn ménkǒu, búyòng qù chēzhàn.",
+      "meaning": "An hỏi khách sạn. Lý thấy nơi này tiện vì gần ga tàu điện, buổi tối yên tĩnh. Hai người gặp ngay cửa khách sạn, không phải cửa ga.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l306-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l306-v1-e0"
+    },
+    {
+      "id": "l306-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l306-v1-e1"
+    },
+    {
+      "id": "l306-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l306-v1-e2"
+    },
+    {
+      "id": "l306-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l306-v1-e3"
+    },
+    {
+      "id": "l306-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l306-v1-e4"
+    },
+    {
+      "id": "l306-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l306-v1-e5"
+    },
+    {
+      "id": "l306-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l306-v1-e6"
+    },
+    {
+      "id": "l306-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l306-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l306-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l306-c0",
+      "senseId": "l306-v-533-sense",
+      "keyRef": "l306-v1-k0",
+      "prompt": "Cần đặt chỗ lưu trú qua đêm, không chỉ tìm điểm hẹn. Chọn cơ sở.",
+      "choices": [
+        "附近",
+        "方便",
+        "地点",
+        "地方",
+        "环境",
+        "宾馆"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l306-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l306-c1",
+      "senseId": "l306-v-633-sense",
+      "keyRef": "l306-v1-k1",
+      "prompt": "Không biết số mét nhưng biết ga ở vùng gần khách sạn: 宾馆□有地铁站.",
+      "choices": [
+        "方便",
+        "地点",
+        "地方",
+        "环境",
+        "宾馆",
+        "附近"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l306-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l306-c2",
+      "senseId": "l306-v-619-sense",
+      "keyRef": "l306-v1-k2",
+      "prompt": "Bạn chỉ đánh giá việc đi tàu ở đây dễ và tiện: 坐地铁很□.",
+      "choices": [
+        "地点",
+        "地方",
+        "环境",
+        "宾馆",
+        "附近",
+        "方便"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l306-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l306-c3",
+      "senseId": "l306-v-590-sense",
+      "keyRef": "l306-v1-k3",
+      "prompt": "Viết pinyin của 地点 trong nghĩa “địa điểm cụ thể”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l306-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l306-c4",
+      "senseId": "l306-v-591-sense",
+      "keyRef": "l306-v1-k4",
+      "prompt": "Chỉ một nơi nói chung, từ đọc dìfang: 这个□很安静. Chọn mục từ đúng cách đọc và nghĩa.",
+      "choices": [
+        "环境",
+        "宾馆",
+        "附近",
+        "方便",
+        "地点",
+        "地方"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l306-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l306-c5",
+      "senseId": "l306-v-679-sense",
+      "keyRef": "l306-v1-k5",
+      "prompt": "Viết “Môi trường ở đây yên tĩnh” theo mẫu 这里的 + mục từ + 很安静.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l306-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l306-c0",
+      "senseId": "l306-v-533-sense",
+      "keyRef": "l306-v1-k6",
+      "prompt": "Hai người hẹn gặp ở đâu?",
+      "choices": [
+        "车站门口",
+        "学校里面",
+        "宾馆门口"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l306-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l306-c3",
+      "senseId": "l306-v-590-sense",
+      "keyRef": "l306-v1-k7",
+      "prompt": "Sắp xếp nhận xét có giới hạn góc nhìn.",
+      "choices": [
+        "这里很方便",
+        "来说",
+        "对我"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l306-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l306-v1-e0",
+      "senseId": "l306-v-533-sense",
+      "accepted": [
+        "宾馆"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "宾馆 là cơ sở lưu trú; cùng trường nghĩa 酒店 nhưng không phân cấp chất lượng chỉ từ tên gọi. Không suy ra giá hay hạng sao."
+    },
+    {
+      "id": "l306-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l306-v1-e1",
+      "senseId": "l306-v-633-sense",
+      "accepted": [
+        "附近"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "附近 đứng sau địa điểm như 宾馆附近 hoặc chỉ khu vực gần nơi đang nói. Không cho khoảng cách chính xác nếu không có số đo."
+    },
+    {
+      "id": "l306-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l306-v1-e2",
+      "senseId": "l306-v-619-sense",
+      "accepted": [
+        "方便"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "方便 nói dễ/tiện cho việc gì theo hoàn cảnh. 这里坐车方便 nói thuận tiện đi xe, không khẳng định mọi dịch vụ đều tốt."
+    },
+    {
+      "id": "l306-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l306-v1-e3",
+      "senseId": "l306-v-590-sense",
+      "accepted": [
+        "dì diǎn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "地点 thường là điểm được xác định cho sự kiện: 见面地点. Không dùng như mọi nghĩa của 地方 trong mọi câu."
+    },
+    {
+      "id": "l306-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l306-v1-e4",
+      "senseId": "l306-v-591-sense",
+      "accepted": [
+        "地方"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "地方 chỉ nơi/chỗ nói chung. 这个地方 rộng hơn một điểm hẹn; khác 地点 thường gắn với điểm xác định của hoạt động."
+    },
+    {
+      "id": "l306-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l306-v1-e5",
+      "senseId": "l306-v-679-sense",
+      "accepted": [
+        "这里的环境很安静"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "环境 là điều kiện xung quanh, không phải tên điểm hẹn."
+    },
+    {
+      "id": "l306-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l306-v1-e6",
+      "senseId": "l306-v-533-sense",
+      "accepted": [
+        "宾馆门口"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Phải theo điểm hẹn được nói sau, không lấy điểm trong ví dụ dạy từ để thay hội thoại."
+    },
+    {
+      "id": "l306-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l306-v1-e7",
+      "senseId": "l306-v-590-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 对我来说 giới hạn nhận xét theo góc nhìn người nói. Một nơi thuận tiện cho người cần tàu điện không có nghĩa thuận tiện cho mọi người."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

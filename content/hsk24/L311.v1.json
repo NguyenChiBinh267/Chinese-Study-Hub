@@ -1,0 +1,903 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "0f7a8de684623fe282de16903e0244d0e1a6613cf399be250cfe3293c1e3e72a",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-food-drink",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L311",
+    "version": 1,
+    "versionId": "l311-draft-v1",
+    "title": "Gọi đồ uống theo nhu cầu",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc nhu cầu đói/khát, phân biệt vật chứa, đồ uống và cảm giác đã no.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l214-draft-v1",
+      "l222-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "不但……，而且……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "四"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-dining",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "四"
+        },
+        "written": "交流饮食情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-food",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "日常生活 / 饮食 / 食物饮品"
+        },
+        "written": "食物饮品",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l311-v-610",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 610"
+        },
+        "written": "饿",
+        "pinyin": "è",
+        "senseId": "l311-v-610-sense",
+        "ordinal": 610,
+        "note": "3 è 形; 饿 tả cảm giác đói; khác 渴 khát. 很饿 không nói chính xác cần ăn bao nhiêu hoặc suy ra nguyên nhân y tế. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l311-v-732",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 732"
+        },
+        "written": "渴",
+        "pinyin": "kě",
+        "senseId": "l311-v-732-sense",
+        "ordinal": 732,
+        "note": "3 kě 形; 渴 tả khát nước; khác 可 kě trong 可是 và khác 饱 no. 我渴了 là lời báo cảm giác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l311-v-515",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 515"
+        },
+        "written": "饱",
+        "pinyin": "bǎo",
+        "senseId": "l311-v-515-sense",
+        "ordinal": 515,
+        "note": "3 bǎo 形; 饱 trong 吃饱了 nói đã no sau ăn; không đồng nghĩa đồ ăn ngon hay món ăn đã hết. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l311-v-536",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 536"
+        },
+        "written": "冰箱",
+        "pinyin": "bīngxiāng",
+        "senseId": "l311-v-536-sense",
+        "ordinal": 536,
+        "note": "3 bīngxiāng 名; 冰箱 là thiết bị để giữ lạnh; khác 箱子 thùng/hộp nói chung. Trong bài chỉ hỏi nơi lấy đồ uống. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l311-v-938",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 938"
+        },
+        "written": "饮料",
+        "pinyin": "yǐnliào",
+        "senseId": "l311-v-938-sense",
+        "ordinal": 938,
+        "note": "3 yǐnliào 名; 饮料 nói chung về đồ uống; 矿泉水 là loại nước cụ thể. Chọn theo loại được hỏi, không gán mọi đồ uống là nước khoáng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l311-v-742",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 742"
+        },
+        "written": "矿泉水",
+        "pinyin": "kuàngquánshuǐ",
+        "senseId": "l311-v-742-sense",
+        "ordinal": 742,
+        "note": "3 kuàngquánshuǐ 名; 矿泉水 chỉ nước khoáng; không dùng cho mọi chai nước không nhãn. 这瓶矿泉水是我的 nói quyền sở hữu, không có tuyên bố sức khỏe. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l311-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "hỗ trợ trong ngữ cảnh",
+        "pinyin": "",
+        "senseId": "l311-extra0-sense",
+        "ordinal": null,
+        "note": "不但 búdàn: không chỉ; 而且 érqiě: mà còn; 一瓶 yì píng: một chai; 很久 hěn jiǔ: lâu. Bài chỉ hiểu nhu cầu và hội thoại, không chấm lựa chọn dinh dưỡng."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-52",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "52"
+        },
+        "written": "饿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 52,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-128",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "128"
+        },
+        "written": "渴",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 128,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-9",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "9"
+        },
+        "written": "饱",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 9,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-17",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "17"
+        },
+        "written": "冰",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 17,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-228",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "228"
+        },
+        "written": "箱",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 228,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-253",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "253"
+        },
+        "written": "饮",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 253,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-146",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "146"
+        },
+        "written": "料",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 146,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-133",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "133"
+        },
+        "written": "矿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 133,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-181",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "181"
+        },
+        "written": "泉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 181,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-g-not-only",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "复句 / 递进复句"
+        },
+        "written": "不但……，而且……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l311-c0",
+      "version": 1,
+      "senseId": "l311-v-610-sense",
+      "hanzi": "饿",
+      "dictionaryPinyin": "è",
+      "meaning": "đói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l311-v-610"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l311-c1",
+      "version": 1,
+      "senseId": "l311-v-732-sense",
+      "hanzi": "渴",
+      "dictionaryPinyin": "kě",
+      "meaning": "khát",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l311-v-732"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l311-c2",
+      "version": 1,
+      "senseId": "l311-v-515-sense",
+      "hanzi": "饱",
+      "dictionaryPinyin": "bǎo",
+      "meaning": "no",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l311-v-515"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l311-c3",
+      "version": 1,
+      "senseId": "l311-v-536-sense",
+      "hanzi": "冰箱",
+      "dictionaryPinyin": "bīng xiāng",
+      "meaning": "tủ lạnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l311-v-536"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l311-c4",
+      "version": 1,
+      "senseId": "l311-v-938-sense",
+      "hanzi": "饮料",
+      "dictionaryPinyin": "yǐn liào",
+      "meaning": "đồ uống",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l311-v-938"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l311-c5",
+      "version": 1,
+      "senseId": "l311-v-742-sense",
+      "hanzi": "矿泉水",
+      "dictionaryPinyin": "kuàng quán shuǐ",
+      "meaning": "nước khoáng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l311-v-742"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l311-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Nhắc 不/没, 很, số lượng và địa điểm. HSK1/2 chưa hoàn chỉnh; chỉ khám phá DRAFT. 不但 búdàn: không chỉ; 而且 érqiě: mà còn; 一瓶 yì píng: một chai; 很久 hěn jiǔ: lâu. Bài chỉ hiểu nhu cầu và hội thoại, không chấm lựa chọn dinh dưỡng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l311-t0",
+      "type": "teaching",
+      "title": "饿 · đói",
+      "text": "饿 tả cảm giác đói; khác 渴 khát. 很饿 không nói chính xác cần ăn bao nhiêu hoặc suy ra nguyên nhân y tế.",
+      "hanzi": "我有点儿饿，想吃饭。",
+      "pinyin": "Wǒ yǒudiǎnr è, xiǎng chī fàn.",
+      "meaning": "Tôi hơi đói, muốn ăn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l311-t1",
+      "type": "teaching",
+      "title": "渴 · khát",
+      "text": "渴 tả khát nước; khác 可 kě trong 可是 và khác 饱 no. 我渴了 là lời báo cảm giác.",
+      "hanzi": "走了很久，我有点儿渴。",
+      "pinyin": "Zǒu le hěn jiǔ, wǒ yǒudiǎnr kě.",
+      "meaning": "Đi lâu rồi, tôi hơi khát.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l311-t2",
+      "type": "teaching",
+      "title": "饱 · no",
+      "text": "饱 trong 吃饱了 nói đã no sau ăn; không đồng nghĩa đồ ăn ngon hay món ăn đã hết.",
+      "hanzi": "我吃饱了，不想再吃。",
+      "pinyin": "Wǒ chī bǎo le, bù xiǎng zài chī.",
+      "meaning": "Tôi no rồi, không muốn ăn thêm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l311-t3",
+      "type": "teaching",
+      "title": "冰箱 · tủ lạnh",
+      "text": "冰箱 là thiết bị để giữ lạnh; khác 箱子 thùng/hộp nói chung. Trong bài chỉ hỏi nơi lấy đồ uống.",
+      "hanzi": "饮料在冰箱里。",
+      "pinyin": "Yǐnliào zài bīngxiāng lǐ.",
+      "meaning": "Đồ uống ở trong tủ lạnh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l311-t4",
+      "type": "teaching",
+      "title": "饮料 · đồ uống",
+      "text": "饮料 nói chung về đồ uống; 矿泉水 là loại nước cụ thể. Chọn theo loại được hỏi, không gán mọi đồ uống là nước khoáng.",
+      "hanzi": "这里有水，也有别的饮料。",
+      "pinyin": "Zhèlǐ yǒu shuǐ, yě yǒu biéde yǐnliào.",
+      "meaning": "Ở đây có nước và các đồ uống khác.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l311-t5",
+      "type": "teaching",
+      "title": "矿泉水 · nước khoáng",
+      "text": "矿泉水 chỉ nước khoáng; không dùng cho mọi chai nước không nhãn. 这瓶矿泉水是我的 nói quyền sở hữu, không có tuyên bố sức khỏe.",
+      "hanzi": "我想买一瓶矿泉水。",
+      "pinyin": "Wǒ xiǎng mǎi yì píng kuàngquánshuǐ.",
+      "meaning": "Tôi muốn mua một chai nước khoáng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l311-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "不但……而且…… thêm thông tin cùng hướng: 我不但渴，而且饿. Không đồng nghĩa tuy…nhưng hoặc nếu…thì. Mẫu mô tả lời nói cá nhân trong tình huống.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l311-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小安：我不但渴，而且饿。小李：饮料在冰箱里，你想喝什么？小安：我想喝矿泉水。小李：饭也好了。小安：谢谢。过了一会儿，小安说：我吃饱了，不用再给我拿饭。",
+      "pinyin": "Xiǎo Ān: Wǒ búdàn kě, érqiě è. Xiǎo Lǐ: Yǐnliào zài bīngxiāng lǐ, nǐ xiǎng hē shénme? Xiǎo Ān: Wǒ xiǎng hē kuàngquánshuǐ. Xiǎo Lǐ: Fàn yě hǎo le. Xiǎo Ān: Xièxie. Guò le yíhuìr, Xiǎo Ān shuō: Wǒ chī bǎo le, búyòng zài gěi wǒ ná fàn.",
+      "meaning": "An vừa khát vừa đói, muốn uống nước khoáng. Lý nói đồ uống trong tủ lạnh và cơm đã xong. Sau một lúc An nói đã no, không cần lấy thêm cơm.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l311-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l311-v1-e0"
+    },
+    {
+      "id": "l311-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l311-v1-e1"
+    },
+    {
+      "id": "l311-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l311-v1-e2"
+    },
+    {
+      "id": "l311-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l311-v1-e3"
+    },
+    {
+      "id": "l311-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l311-v1-e4"
+    },
+    {
+      "id": "l311-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l311-v1-e5"
+    },
+    {
+      "id": "l311-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l311-v1-e6"
+    },
+    {
+      "id": "l311-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l311-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l311-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l311-c0",
+      "senseId": "l311-v-610-sense",
+      "keyRef": "l311-v1-k0",
+      "prompt": "Bạn muốn ăn, không hỏi đồ uống: 我有点儿□.",
+      "choices": [
+        "渴",
+        "饱",
+        "冰箱",
+        "饮料",
+        "矿泉水",
+        "饿"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l311-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l311-c1",
+      "senseId": "l311-v-732-sense",
+      "keyRef": "l311-v1-k1",
+      "prompt": "Bạn muốn uống nước sau khi đi lâu: 我有点儿□.",
+      "choices": [
+        "饱",
+        "冰箱",
+        "饮料",
+        "矿泉水",
+        "饿",
+        "渴"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l311-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l311-c2",
+      "senseId": "l311-v-515-sense",
+      "keyRef": "l311-v1-k2",
+      "prompt": "Bạn vừa ăn và không muốn thêm vì đã no: 我吃□了.",
+      "choices": [
+        "冰箱",
+        "饮料",
+        "矿泉水",
+        "饿",
+        "渴",
+        "饱"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l311-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l311-c3",
+      "senseId": "l311-v-536-sense",
+      "keyRef": "l311-v1-k3",
+      "prompt": "Viết pinyin của 冰箱 trong nghĩa “tủ lạnh”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l311-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l311-c4",
+      "senseId": "l311-v-938-sense",
+      "keyRef": "l311-v1-k4",
+      "prompt": "Nói chung về nhóm đồ để uống, không một loại nước cụ thể. Chọn danh từ.",
+      "choices": [
+        "矿泉水",
+        "饿",
+        "渴",
+        "饱",
+        "冰箱",
+        "饮料"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l311-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l311-c5",
+      "senseId": "l311-v-742-sense",
+      "keyRef": "l311-v1-k5",
+      "prompt": "Viết “Tôi muốn uống nước khoáng” theo mẫu 我想喝 + mục từ nước khoáng.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l311-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l311-c0",
+      "senseId": "l311-v-610-sense",
+      "keyRef": "l311-v1-k6",
+      "prompt": "Cuối đoạn, vì sao An không muốn lấy thêm cơm?",
+      "choices": [
+        "冰箱里没有水",
+        "他从来不吃饭",
+        "已经吃饱了"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l311-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l311-c3",
+      "senseId": "l311-v-536-sense",
+      "keyRef": "l311-v1-k7",
+      "prompt": "Sắp xếp câu thêm thông tin.",
+      "choices": [
+        "而且饿",
+        "不但渴",
+        "我"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l311-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l311-v1-e0",
+      "senseId": "l311-v-610-sense",
+      "accepted": [
+        "饿"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "饿 tả cảm giác đói; khác 渴 khát. 很饿 không nói chính xác cần ăn bao nhiêu hoặc suy ra nguyên nhân y tế."
+    },
+    {
+      "id": "l311-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l311-v1-e1",
+      "senseId": "l311-v-732-sense",
+      "accepted": [
+        "渴"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "渴 tả khát nước; khác 可 kě trong 可是 và khác 饱 no. 我渴了 là lời báo cảm giác."
+    },
+    {
+      "id": "l311-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l311-v1-e2",
+      "senseId": "l311-v-515-sense",
+      "accepted": [
+        "饱"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "饱 trong 吃饱了 nói đã no sau ăn; không đồng nghĩa đồ ăn ngon hay món ăn đã hết."
+    },
+    {
+      "id": "l311-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l311-v1-e3",
+      "senseId": "l311-v-536-sense",
+      "accepted": [
+        "bīng xiāng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "冰箱 là thiết bị để giữ lạnh; khác 箱子 thùng/hộp nói chung. Trong bài chỉ hỏi nơi lấy đồ uống."
+    },
+    {
+      "id": "l311-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l311-v1-e4",
+      "senseId": "l311-v-938-sense",
+      "accepted": [
+        "饮料"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "饮料 nói chung về đồ uống; 矿泉水 là loại nước cụ thể. Chọn theo loại được hỏi, không gán mọi đồ uống là nước khoáng."
+    },
+    {
+      "id": "l311-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l311-v1-e5",
+      "senseId": "l311-v-742-sense",
+      "accepted": [
+        "我想喝矿泉水"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chỉ tên loại nước được hỏi, không thêm lời khuyên về sức khỏe."
+    },
+    {
+      "id": "l311-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l311-v1-e6",
+      "senseId": "l311-v-610-sense",
+      "accepted": [
+        "已经吃饱了"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Tình trạng cuối đã thay đổi sau ăn; không lấy cảm giác đói ban đầu để trả lời."
+    },
+    {
+      "id": "l311-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l311-v1-e7",
+      "senseId": "l311-v-536-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 不但……而且…… thêm thông tin cùng hướng: 我不但渴，而且饿. Không đồng nghĩa tuy…nhưng hoặc nếu…thì. Mẫu mô tả lời nói cá nhân trong tình huống."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

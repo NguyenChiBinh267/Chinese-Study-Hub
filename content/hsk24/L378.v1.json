@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "0f19162fd9be9f1ff9630a3a4c39445fd665f8eb7fefa4e395f2ddbe34f06064",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-scope-boundaries",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L378",
+    "version": 1,
+    "versionId": "l378-draft-v1",
+    "title": "Phạm vi và ranh giới số lượng",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc trong/ngoài phạm vi và mốc bao gồm số ranh giới.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "范围副词"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-daily",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "交流、处理日常事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-daily-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "事务处理"
+        },
+        "written": "事务处理",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l378-v-582",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 582"
+        },
+        "written": "到处",
+        "pinyin": "dàochù",
+        "senseId": "l378-v-582-sense",
+        "ordinal": 582,
+        "note": "3 dàochù 副; 到处 nêu rộng trong phạm vi đang nói như 屋里到处; không tự là mọi điểm trên toàn thế giới. Không lấy nó làm số đếm chính xác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l378-v-770",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 770"
+        },
+        "written": "面前",
+        "pinyin": "miànqián",
+        "senseId": "l378-v-770-sense",
+        "ordinal": 770,
+        "note": "3 miànqián 名; 面前 thường trước người/vật hoặc đối mặt tình huống, 跟前 gần nghĩa nhưng chưa học. Không phải 面条 là mì. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l378-v-981",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 981"
+        },
+        "written": "中",
+        "pinyin": "zhōng",
+        "senseId": "l378-v-981-sense",
+        "ordinal": 981,
+        "note": "3 zhōng 名; 中 trong 书中、讨论中 là bên trong/quá trình; khác zhòng trúng. 单字的功能取决于它接的名词，不总是“trung tâm”. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l378-v-928",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 928"
+        },
+        "written": "以上",
+        "pinyin": "yǐshàng",
+        "senseId": "l378-v-928-sense",
+        "ordinal": 928,
+        "note": "3 yǐshàng 名; 以上 ở 三人以上 thường gồm ba, 四 và hơn; không nhầm 大于三 chỉ lớn hơn ba. Bài nêu rõ gồm ranh giới. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l378-v-931",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 931"
+        },
+        "written": "以下",
+        "pinyin": "yǐxià",
+        "senseId": "l378-v-931-sense",
+        "ordinal": 931,
+        "note": "3 yǐxià 名; 以下 ở 三人以下 trong quy ước bài gồm ba và ít hơn. Nếu quy định nói rõ loại mốc thì đọc theo quy định; không tự đổi phép so sánh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l378-v-929",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 929"
+        },
+        "written": "以外",
+        "pinyin": "yǐwài",
+        "senseId": "l378-v-929-sense",
+        "ordinal": 929,
+        "note": "3 yǐwài 名; 以外 nêu ngoài phạm vi, 除他以外是 loại người đó khỏi nhóm đang xét, không phải thấp hơn một số. Cần đọc cả cấu trúc câu. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-33",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "33"
+        },
+        "written": "处",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 33,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-scope",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "副词 / 范围副词"
+        },
+        "written": "范围副词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l378-c0",
+      "version": 1,
+      "senseId": "l378-v-582-sense",
+      "hanzi": "到处",
+      "dictionaryPinyin": "dào chù",
+      "meaning": "khắp nơi/đâu đâu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l378-v-582"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l378-c1",
+      "version": 1,
+      "senseId": "l378-v-770-sense",
+      "hanzi": "面前",
+      "dictionaryPinyin": "miàn qián",
+      "meaning": "trước mặt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l378-v-770"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l378-c2",
+      "version": 1,
+      "senseId": "l378-v-981-sense",
+      "hanzi": "中",
+      "dictionaryPinyin": "zhōng",
+      "meaning": "trong/giữa (phạm vi)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l378-v-981"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l378-c3",
+      "version": 1,
+      "senseId": "l378-v-928-sense",
+      "hanzi": "以上",
+      "dictionaryPinyin": "yǐ shàng",
+      "meaning": "trở lên/trên đây",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l378-v-928"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l378-c4",
+      "version": 1,
+      "senseId": "l378-v-931-sense",
+      "hanzi": "以下",
+      "dictionaryPinyin": "yǐ xià",
+      "meaning": "trở xuống/dưới đây",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l378-v-931"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l378-c5",
+      "version": 1,
+      "senseId": "l378-v-929-sense",
+      "hanzi": "以外",
+      "dictionaryPinyin": "yǐ wài",
+      "meaning": "ngoài/ngoại trừ phạm vi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l378-v-929"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l378-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 贴 tiē: dán; 组 zǔ: nhóm; 提醒 tíxǐng: lời nhắc; 报名 bàomíng: đăng ký. Các mốc được định nghĩa rõ trong bài, không áp quy tắc mơ hồ vào dữ liệu thật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l378-t0",
+      "type": "teaching",
+      "title": "到处 · khắp nơi/đâu đâu",
+      "text": "到处 nêu rộng trong phạm vi đang nói như 屋里到处; không tự là mọi điểm trên toàn thế giới. Không lấy nó làm số đếm chính xác.",
+      "hanzi": "屋子里到处都是书。",
+      "pinyin": "Wūzi lǐ dàochù dōu shì shū.",
+      "meaning": "Trong phòng đâu đâu cũng có sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l378-t1",
+      "type": "teaching",
+      "title": "面前 · trước mặt",
+      "text": "面前 thường trước người/vật hoặc đối mặt tình huống, 跟前 gần nghĩa nhưng chưa học. Không phải 面条 là mì.",
+      "hanzi": "他站在我面前。",
+      "pinyin": "Tā zhàn zài wǒ miànqián.",
+      "meaning": "Anh ấy đứng trước mặt tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l378-t2",
+      "type": "teaching",
+      "title": "中 · trong/giữa (phạm vi)",
+      "text": "中 trong 书中、讨论中 là bên trong/quá trình; khác zhòng trúng. 单字的功能取决于它接的名词，不总是“trung tâm”.",
+      "hanzi": "书中有这个故事。",
+      "pinyin": "Shū zhōng yǒu zhège gùshi.",
+      "meaning": "Trong sách có câu chuyện này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l378-t3",
+      "type": "teaching",
+      "title": "以上 · trở lên/trên đây",
+      "text": "以上 ở 三人以上 thường gồm ba, 四 và hơn; không nhầm 大于三 chỉ lớn hơn ba. Bài nêu rõ gồm ranh giới.",
+      "hanzi": "三人以上可以报名，这里包括三人。",
+      "pinyin": "Sān rén yǐshàng kěyǐ bàomíng, zhèlǐ bāokuò sān rén.",
+      "meaning": "Từ ba người trở lên được đăng ký, ở đây gồm ba người.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l378-t4",
+      "type": "teaching",
+      "title": "以下 · trở xuống/dưới đây",
+      "text": "以下 ở 三人以下 trong quy ước bài gồm ba và ít hơn. Nếu quy định nói rõ loại mốc thì đọc theo quy định; không tự đổi phép so sánh.",
+      "hanzi": "三人以下一组，这里包括三人。",
+      "pinyin": "Sān rén yǐxià yì zǔ, zhèlǐ bāokuò sān rén.",
+      "meaning": "Mỗi nhóm từ ba người trở xuống, ở đây gồm ba người.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l378-t5",
+      "type": "teaching",
+      "title": "以外 · ngoài/ngoại trừ phạm vi",
+      "text": "以外 nêu ngoài phạm vi, 除他以外是 loại người đó khỏi nhóm đang xét, không phải thấp hơn một số. Cần đọc cả cấu trúc câu.",
+      "hanzi": "除了他以外，其他人都来了。",
+      "pinyin": "Chúle tā yǐwài, qítā rén dōu lái le.",
+      "meaning": "Ngoài anh ấy ra, những người khác đều đến.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l378-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "到处 nói khắp nơi trong phạm vi ngữ cảnh, không phải mọi nơi trên thế giới. 以上/以下 thường gồm mốc trong yêu cầu số đang dạy; 以外 loại khỏi phạm vi được nêu. Luôn đọc quy định cụ thể khi mốc được định nghĩa riêng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l378-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "老师站在学生面前说：书中有活动要求，屋里到处贴着提醒。三人以上报名包括三人，三人以下一组也包括三人；这是两个不同要求。除了小林以外，其他人都来了，不能说小林已经来了。",
+      "pinyin": "Lǎoshī zhàn zài xuésheng miànqián shuō: Shū zhōng yǒu huódòng yāoqiú, wū lǐ dàochù tiē zhe tíxǐng. Sān rén yǐshàng bàomíng bāokuò sān rén, sān rén yǐxià yì zǔ yě bāokuò sān rén; zhè shì liǎng ge bù tóng yāoqiú. Chúle Xiǎo Lín yǐwài, qítā rén dōu lái le, bù néng shuō Xiǎo Lín yǐjīng lái le.",
+      "meaning": "Thầy chỉ yêu cầu trong sách và nhắc trên tường. “Ba trở lên” và “ba trở xuống” trong bài đều gồm ba nhưng là hai yêu cầu khác nhau. Ngoại trừ Lâm, các bạn đã đến; chưa nói Lâm đến.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l378-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l378-v1-e0"
+    },
+    {
+      "id": "l378-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l378-v1-e1"
+    },
+    {
+      "id": "l378-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l378-v1-e2"
+    },
+    {
+      "id": "l378-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l378-v1-e3"
+    },
+    {
+      "id": "l378-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l378-v1-e4"
+    },
+    {
+      "id": "l378-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l378-v1-e5"
+    },
+    {
+      "id": "l378-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l378-v1-e6"
+    },
+    {
+      "id": "l378-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l378-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l378-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l378-c0",
+      "senseId": "l378-v-582-sense",
+      "keyRef": "l378-v1-k0",
+      "prompt": "Khắp nơi trong phòng, dùng phó từ: 屋里□都是书。",
+      "choices": [
+        "面前",
+        "中",
+        "以上",
+        "以下",
+        "以外",
+        "到处"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l378-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l378-c1",
+      "senseId": "l378-v-770-sense",
+      "keyRef": "l378-v1-k1",
+      "prompt": "Vị trí trước mặt người nói: 站在我□。",
+      "choices": [
+        "中",
+        "以上",
+        "以下",
+        "以外",
+        "到处",
+        "面前"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l378-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l378-c2",
+      "senseId": "l378-v-981-sense",
+      "keyRef": "l378-v1-k2",
+      "prompt": "Trong phạm vi nội dung sách: 书□有故事。",
+      "choices": [
+        "以上",
+        "以下",
+        "以外",
+        "到处",
+        "面前",
+        "中"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l378-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l378-c3",
+      "senseId": "l378-v-928-sense",
+      "keyRef": "l378-v1-k3",
+      "prompt": "Viết pinyin của 以上 trong câu “三人以上可以报名，这里包括三人。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l378-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l378-c4",
+      "senseId": "l378-v-931-sense",
+      "keyRef": "l378-v1-k4",
+      "prompt": "Theo quy ước gồm ba và ít hơn: 三人□一组。",
+      "choices": [
+        "以外",
+        "到处",
+        "面前",
+        "中",
+        "以上",
+        "以下"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l378-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l378-c5",
+      "senseId": "l378-v-929-sense",
+      "keyRef": "l378-v1-k5",
+      "prompt": "Ngoài phạm vi người được nêu: 除了他□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l378-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l378-c0",
+      "senseId": "l378-v-582-sense",
+      "keyRef": "l378-v1-k6",
+      "prompt": "三人以上 trong quy ước bài có gồm ba người không?",
+      "choices": [
+        "不包括",
+        "只包括四人",
+        "包括"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l378-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l378-c3",
+      "senseId": "l378-v-928-sense",
+      "keyRef": "l378-v1-k7",
+      "prompt": "Xếp vị trí trước mặt, bắt đầu bằng 他.",
+      "choices": [
+        "站在我面前",
+        "他"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l378-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l378-v1-e0",
+      "senseId": "l378-v-582-sense",
+      "accepted": [
+        "到处"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "到处: khắp nơi/đâu đâu. 到处 nêu rộng trong phạm vi đang nói như 屋里到处; không tự là mọi điểm trên toàn thế giới. Không lấy nó làm số đếm chính xác. Trong phòng đâu đâu cũng có sách."
+    },
+    {
+      "id": "l378-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l378-v1-e1",
+      "senseId": "l378-v-770-sense",
+      "accepted": [
+        "面前"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "面前: trước mặt. 面前 thường trước người/vật hoặc đối mặt tình huống, 跟前 gần nghĩa nhưng chưa học. Không phải 面条 là mì. Anh ấy đứng trước mặt tôi."
+    },
+    {
+      "id": "l378-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l378-v1-e2",
+      "senseId": "l378-v-981-sense",
+      "accepted": [
+        "中"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "中: trong/giữa (phạm vi). 中 trong 书中、讨论中 là bên trong/quá trình; khác zhòng trúng. 单字的功能取决于它接的名词，不总是“trung tâm”. Trong sách có câu chuyện này."
+    },
+    {
+      "id": "l378-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l378-v1-e3",
+      "senseId": "l378-v-928-sense",
+      "accepted": [
+        "yǐ shàng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "以上: trở lên/trên đây. 以上 ở 三人以上 thường gồm ba, 四 và hơn; không nhầm 大于三 chỉ lớn hơn ba. Bài nêu rõ gồm ranh giới. Từ ba người trở lên được đăng ký, ở đây gồm ba người."
+    },
+    {
+      "id": "l378-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l378-v1-e4",
+      "senseId": "l378-v-931-sense",
+      "accepted": [
+        "以下"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "以下: trở xuống/dưới đây. 以下 ở 三人以下 trong quy ước bài gồm ba và ít hơn. Nếu quy định nói rõ loại mốc thì đọc theo quy định; không tự đổi phép so sánh. Mỗi nhóm từ ba người trở xuống, ở đây gồm ba người."
+    },
+    {
+      "id": "l378-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l378-v1-e5",
+      "senseId": "l378-v-929-sense",
+      "accepted": [
+        "以外"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "以外: ngoài/ngoại trừ phạm vi. 以外 nêu ngoài phạm vi, 除他以外是 loại người đó khỏi nhóm đang xét, không phải thấp hơn một số. Cần đọc cả cấu trúc câu. Ngoài anh ấy ra, những người khác đều đến."
+    },
+    {
+      "id": "l378-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l378-v1-e6",
+      "senseId": "l378-v-582-sense",
+      "accepted": [
+        "包括"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 到处 nói khắp nơi trong phạm vi ngữ cảnh, không phải mọi nơi trên thế giới. 以上/以下 thường gồm mốc trong yêu cầu số đang dạy; 以外 loại khỏi phạm vi được nêu. Luôn đọc quy định cụ thể khi mốc được định nghĩa riêng."
+    },
+    {
+      "id": "l378-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l378-v1-e7",
+      "senseId": "l378-v-928-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 到处 nói khắp nơi trong phạm vi ngữ cảnh, không phải mọi nơi trên thế giới. 以上/以下 thường gồm mốc trong yêu cầu số đang dạy; 以外 loại khỏi phạm vi được nêu. Luôn đọc quy định cụ thể khi mốc được định nghĩa riêng."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

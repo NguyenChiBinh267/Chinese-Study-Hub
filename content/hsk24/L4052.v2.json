@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "815efd8ebb7e83d8cee56fde6a2a439d1ac19c7ba2a5cc23eb5163c7c09748dc",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eafc",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L4052",
+    "version": 2,
+    "versionId": "l4052-draft-v2",
+    "title": "So sánh chất lượng thay vì nhìn bề ngoài",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "So sánh chất lượng thay vì nhìn bề ngoài; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "不过"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 22,
+      "physicalPage": 23,
+      "printedPage": 20,
+      "section": "task",
+      "entry": "七"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-29T13:18:31.568995Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-shop",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 22,
+          "physicalPage": 23,
+          "printedPage": 20,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "交流购物体验、商业活动内容",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-a17cba74cc13",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "商品选购"
+        },
+        "written": "商品选购",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l4052-v-1955",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 127,
+          "physicalPage": 128,
+          "printedPage": 125,
+          "section": "vocabulary",
+          "entry": "ordinal 1955"
+        },
+        "written": "质量",
+        "pinyin": "zhìliàng",
+        "senseId": "l4052-v-1955-sense",
+        "ordinal": 1955,
+        "note": "4 zhìliàng 名; 质量 chỉ mức độ đáp ứng của sản phẩm, khác số lượng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4052-v-1881",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 126,
+          "physicalPage": 127,
+          "printedPage": 124,
+          "section": "vocabulary",
+          "entry": "ordinal 1881"
+        },
+        "written": "优点",
+        "pinyin": "yōudiǎn",
+        "senseId": "l4052-v-1881-sense",
+        "ordinal": 1881,
+        "note": "4 yōudiǎn 名; 优点 là mặt tốt của người/vật, đối lập 缺点. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4052-v-1604",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 119,
+          "physicalPage": 120,
+          "printedPage": 117,
+          "section": "vocabulary",
+          "entry": "ordinal 1604"
+        },
+        "written": "缺点",
+        "pinyin": "quēdiǎn",
+        "senseId": "l4052-v-1604-sense",
+        "ordinal": 1604,
+        "note": "4 quēdiǎn 名; 缺点 là điểm yếu, không phải thiếu số lượng. Nhận diện chữ 缺 trong 缺点; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4052-v-1803",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 124,
+          "physicalPage": 125,
+          "printedPage": 122,
+          "section": "vocabulary",
+          "entry": "ordinal 1803"
+        },
+        "written": "相比",
+        "pinyin": "xiāngbǐ",
+        "senseId": "l4052-v-1803-sense",
+        "ordinal": 1803,
+        "note": "4 xiāngbǐ 动; 相比 thường đi với 跟/与 để nêu đối tượng so sánh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4052-v-1947",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 127,
+          "physicalPage": 128,
+          "printedPage": 125,
+          "section": "vocabulary",
+          "entry": "ordinal 1947"
+        },
+        "written": "值得",
+        "pinyin": "zhídé",
+        "senseId": "l4052-v-1947-sense",
+        "ordinal": 1947,
+        "note": "4 zhídé 动; 值得 đi với hành động/việc, khác 值这个价 chỉ giá trị tiền. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4052-v-1345",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1345"
+        },
+        "written": "假",
+        "pinyin": "jiǎ",
+        "senseId": "l4052-v-1345-sense",
+        "ordinal": 1345,
+        "note": "4 jiǎ 形; 假 đọc jiǎ trong đối lập 真; không đọc jià là nghỉ phép. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-428",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "428"
+        },
+        "written": "质",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 428,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-192",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "192"
+        },
+        "written": "量",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 192,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-390",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "390"
+        },
+        "written": "优",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 390,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-261",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "261"
+        },
+        "written": "缺",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 261,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-420",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "420"
+        },
+        "written": "值",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 420,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-4052",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "……，不过……"
+        },
+        "written": "不过",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l4052-c0",
+      "version": 1,
+      "senseId": "l4052-v-1955-sense",
+      "hanzi": "质量",
+      "dictionaryPinyin": "zhì liàng",
+      "meaning": "chất lượng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4052-v-1955"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4052-c1",
+      "version": 1,
+      "senseId": "l4052-v-1881-sense",
+      "hanzi": "优点",
+      "dictionaryPinyin": "yōu diǎn",
+      "meaning": "ưu điểm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4052-v-1881"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4052-c2",
+      "version": 1,
+      "senseId": "l4052-v-1604-sense",
+      "hanzi": "缺点",
+      "dictionaryPinyin": "quē diǎn",
+      "meaning": "khuyết điểm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4052-v-1604"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4052-c3",
+      "version": 1,
+      "senseId": "l4052-v-1803-sense",
+      "hanzi": "相比",
+      "dictionaryPinyin": "xiāng bǐ",
+      "meaning": "so với; đem so",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4052-v-1803"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4052-c4",
+      "version": 1,
+      "senseId": "l4052-v-1947-sense",
+      "hanzi": "值得",
+      "dictionaryPinyin": "zhí dé",
+      "meaning": "đáng để",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4052-v-1947"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4052-c5",
+      "version": 1,
+      "senseId": "l4052-v-1345-sense",
+      "hanzi": "假",
+      "dictionaryPinyin": "jiǎ",
+      "meaning": "giả; không thật",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4052-v-1345"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l4052-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4052-t0",
+      "type": "teaching",
+      "title": "质量 · chất lượng",
+      "text": "质量 chỉ mức độ đáp ứng của sản phẩm, khác số lượng.",
+      "hanzi": "我们先检查质量。",
+      "pinyin": "Wǒ men xiān jiǎn chá zhì liàng.",
+      "meaning": "Chúng tôi kiểm tra chất lượng trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4052-t1",
+      "type": "teaching",
+      "title": "优点 · ưu điểm",
+      "text": "优点 là mặt tốt của người/vật, đối lập 缺点.",
+      "hanzi": "这款包的优点是轻。",
+      "pinyin": "Zhè kuǎn bāo de yōu diǎn shì qīng.",
+      "meaning": "Ưu điểm chiếc túi này là nhẹ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4052-t2",
+      "type": "teaching",
+      "title": "缺点 · khuyết điểm",
+      "text": "缺点 là điểm yếu, không phải thiếu số lượng. Nhận diện chữ 缺 trong 缺点; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "它也有一个缺点。",
+      "pinyin": "Tā yě yǒu yí ge quē diǎn.",
+      "meaning": "Nó cũng có một khuyết điểm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4052-t3",
+      "type": "teaching",
+      "title": "相比 · so với; đem so",
+      "text": "相比 thường đi với 跟/与 để nêu đối tượng so sánh.",
+      "hanzi": "跟旧款相比，新款更轻。",
+      "pinyin": "Gēn jiù kuǎn xiāng bǐ, xīn kuǎn gèng qīng.",
+      "meaning": "So với mẫu cũ, mẫu mới nhẹ hơn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4052-t4",
+      "type": "teaching",
+      "title": "值得 · đáng để",
+      "text": "值得 đi với hành động/việc, khác 值这个价 chỉ giá trị tiền.",
+      "hanzi": "这个问题值得讨论。",
+      "pinyin": "Zhè ge wèn tí zhí dé tǎo lùn.",
+      "meaning": "Vấn đề này đáng thảo luận.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4052-t5",
+      "type": "teaching",
+      "title": "假 · giả; không thật",
+      "text": "假 đọc jiǎ trong đối lập 真; không đọc jià là nghỉ phép.",
+      "hanzi": "不能把假的当成真的。",
+      "pinyin": "Bù néng bǎ jiǎ de dàng chéng zhēn de.",
+      "meaning": "Không thể coi đồ giả là thật.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4052-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "不过 nối nhận xét giới hạn: món đồ có ưu điểm nhưng vẫn có khuyết điểm. Không hiểu đánh giá nhân vật là chứng nhận chất lượng thật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4052-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小李比较两个包的质量。跟旧款相比，新款更轻，这是优点，不过拉链不好拉，是一个缺点。朋友提醒他分清真和假，也想想这些特点是否值得自己多花钱。他们没有把外表当成质量证明。",
+      "pinyin": "Xiǎo Lǐ bǐ jiào liǎng ge bāo de zhì liàng. Gēn jiù kuǎn xiāng bǐ, xīn kuǎn gèng qīng, zhè shì yōu diǎn, bú guò lā liàn bù hǎo lā, shì yí ge quē diǎn. Péng you tí xǐng tā fēn qīng zhēn hé jiǎ, yě xiǎng xiang zhè xiē tè diǎn shì fǒu zhí dé zì jǐ duō huā qián. Tā men méi yǒu bǎ wài biǎo dàng chéng zhì liàng zhèng míng.",
+      "meaning": "Nhóm so sánh cả điểm tốt lẫn điểm yếu, không suy chất lượng chỉ từ bề ngoài.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4052-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l4052-v2-e0"
+    },
+    {
+      "id": "l4052-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l4052-v2-e1"
+    },
+    {
+      "id": "l4052-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l4052-v2-e2"
+    },
+    {
+      "id": "l4052-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l4052-v2-e3"
+    },
+    {
+      "id": "l4052-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l4052-v2-e4"
+    },
+    {
+      "id": "l4052-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l4052-v2-e5"
+    },
+    {
+      "id": "l4052-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l4052-v2-e6"
+    },
+    {
+      "id": "l4052-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l4052-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l4052-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4052-c0",
+      "senseId": "l4052-v-1955-sense",
+      "keyRef": "l4052-v2-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “chất lượng” để điền câu: 我们先检查□。",
+      "choices": [
+        "优点",
+        "缺点",
+        "相比",
+        "值得",
+        "假",
+        "质量"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4052-v2-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4052-c1",
+      "senseId": "l4052-v-1881-sense",
+      "keyRef": "l4052-v2-k1",
+      "prompt": "Ghi pinyin của 优点 trong câu “这款包的优点是轻。”, theo nghĩa “ưu điểm”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4052-v2-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l4052-c2",
+      "senseId": "l4052-v-1604-sense",
+      "keyRef": "l4052-v2-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “khuyết điểm”: □点 (quē diǎn). Ngữ cảnh: 它也有一个□点。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "快",
+        "缺",
+        "决",
+        "块"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4052-v2-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4052-c3",
+      "senseId": "l4052-v-1803-sense",
+      "keyRef": "l4052-v2-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “so với; đem so” để điền câu: 跟旧款□，新款更轻。",
+      "choices": [
+        "值得",
+        "假",
+        "质量",
+        "优点",
+        "缺点",
+        "相比"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4052-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4052-c4",
+      "senseId": "l4052-v-1947-sense",
+      "keyRef": "l4052-v2-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “đáng để” để điền câu: 这个问题□讨论。",
+      "choices": [
+        "假",
+        "质量",
+        "优点",
+        "缺点",
+        "相比",
+        "值得"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4052-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4052-c5",
+      "senseId": "l4052-v-1345-sense",
+      "keyRef": "l4052-v2-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “giả; không thật”: 不能把□的当成真的。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4052-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4052-c0",
+      "senseId": "l4052-v-1955-sense",
+      "keyRef": "l4052-v2-k6",
+      "prompt": "Khuyết điểm của túi mẫu mới là gì?",
+      "choices": [
+        "特别重",
+        "没有优点",
+        "拉链不好拉"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l4052-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l4052-c3",
+      "senseId": "l4052-v-1803-sense",
+      "keyRef": "l4052-v2-k7",
+      "prompt": "Ghép các cụm thành câu theo cấu trúc đang học; giữ nguyên cụm.",
+      "choices": [
+        "新款更轻，",
+        "不过",
+        "拉链",
+        "不好拉。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l4052-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l4052-v2-e0",
+      "senseId": "l4052-v-1955-sense",
+      "accepted": [
+        "质量"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "质量: chất lượng. 质量 chỉ mức độ đáp ứng của sản phẩm, khác số lượng. Chúng tôi kiểm tra chất lượng trước."
+    },
+    {
+      "id": "l4052-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l4052-v2-e1",
+      "senseId": "l4052-v-1881-sense",
+      "accepted": [
+        "yōu diǎn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc yōu diǎn. 优点 là mặt tốt của người/vật, đối lập 缺点."
+    },
+    {
+      "id": "l4052-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l4052-v2-e2",
+      "senseId": "l4052-v-1604-sense",
+      "accepted": [
+        "缺"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 缺 tạo từ 缺点. 缺点 là điểm yếu, không phải thiếu số lượng. Nhận diện chữ 缺 trong 缺点; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l4052-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l4052-v2-e3",
+      "senseId": "l4052-v-1803-sense",
+      "accepted": [
+        "相比"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "相比: so với; đem so. 相比 thường đi với 跟/与 để nêu đối tượng so sánh. So với mẫu cũ, mẫu mới nhẹ hơn."
+    },
+    {
+      "id": "l4052-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l4052-v2-e4",
+      "senseId": "l4052-v-1947-sense",
+      "accepted": [
+        "值得"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "值得: đáng để. 值得 đi với hành động/việc, khác 值这个价 chỉ giá trị tiền. Vấn đề này đáng thảo luận."
+    },
+    {
+      "id": "l4052-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l4052-v2-e5",
+      "senseId": "l4052-v-1345-sense",
+      "accepted": [
+        "假"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 假. 假 đọc jiǎ trong đối lập 真; không đọc jià là nghỉ phép. Không thể coi đồ giả là thật."
+    },
+    {
+      "id": "l4052-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l4052-v2-e6",
+      "senseId": "l4052-v-1955-sense",
+      "accepted": [
+        "拉链不好拉"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 拉链不好拉. Nhóm so sánh cả điểm tốt lẫn điểm yếu, không suy chất lượng chỉ từ bề ngoài."
+    },
+    {
+      "id": "l4052-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l4052-v2-e7",
+      "senseId": "l4052-v-1803-sense",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 不过 nối nhận xét giới hạn: món đồ có ưu điểm nhưng vẫn có khuyết điểm. Không hiểu đánh giá nhân vật là chứng nhận chất lượng thật."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

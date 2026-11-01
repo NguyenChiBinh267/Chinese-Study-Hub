@@ -1,0 +1,192 @@
+{
+  "checkedAt": "2026-10-18T06:26:04.140Z",
+  "scope": "Sprint7 local pronunciation teaching and ephemeral self-recording; not production release or canonical SSOT completion",
+  "branch": "feat/v1-pronunciation-coach",
+  "base": "bb10cb4c7048d3079d7048dff211354908ffe111",
+  "verifiedOriginMain": "0dc42253180ef38d1c43f1f87c9f0f675a851341",
+  "pronunciation": {
+    "notes": 31,
+    "illustrationConfigurations": 26,
+    "svgFrames": 55,
+    "release": {
+      "releaseId": "pronunciation-foundation-v1",
+      "sha256": "97dfe6caabb218e389595c36569c1f66ecd1c0dde5a9ab4989abe7241f5dfb5a"
+    },
+    "reviewerPacket": "D:/Chinese-Study-Hub/.local-postgres/review-packets/sprint7/final/pronunciation-foundation-v1.json",
+    "humanReviews": 0,
+    "approvedAudio": 0,
+    "acousticAnalysis": "NOT_ANALYZED_DISABLED",
+    "pronunciationScores": false,
+    "masteryEligible": false,
+    "recording": {
+      "maxSeconds": 12,
+      "maxBytes": 2097152,
+      "upload": false,
+      "persistentStorage": false,
+      "hardwareTest": "NOT_PERFORMED",
+      "browserTest": "Real Chromium MediaRecorder with synthetic device/permission flags; failures simulated"
+    }
+  },
+  "checks": {
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "format": "PASS",
+    "productionBuild": "PASS",
+    "unit": {
+      "passed": 49,
+      "failed": 0,
+      "skipped": 0,
+      "reportSha256": "471185ba842a0bce17006cef2cdad78bbe08ab680c9963c866bfd2a121016b2b"
+    },
+    "postgresql": {
+      "passed": 41,
+      "failed": 0,
+      "skipped": 0,
+      "checkedAt": "2026-10-18T05:59:19.035Z",
+      "migrationDigest": "9707af62fe7e24554a82b8304d15719bc1f5f5af0d411ee71dc469183ad3b7ba"
+    },
+    "browser": {
+      "passed": 56,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "suites": [
+        {
+          "suite": "pronunciation-desktop",
+          "passed": 5,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T06:20:37.288Z",
+          "reportSha256": "540922e428f93c301cda8bfa30cf35d7b0f566775c28e82f4f5d83cab501a1fc"
+        },
+        {
+          "suite": "pronunciation-mobile-360",
+          "passed": 5,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T06:22:13.804Z",
+          "reportSha256": "19807db2488a4b25a2f42d5302ef820b42094474a38c38d377eca2993a340222"
+        },
+        {
+          "suite": "sprint6-desktop",
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T06:07:09.941Z",
+          "reportSha256": "f2f76d2662b866318f7752c64e9793d0496bb341fdcf0676f7ee3b716994c3b1"
+        },
+        {
+          "suite": "sprint6-mobile-360",
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T06:09:29.121Z",
+          "reportSha256": "c369f06da611e6a8324f0540da3612393afe11bbc48cac83954aac34e6a90d79"
+        },
+        {
+          "suite": "sprint5-desktop",
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T06:11:36.523Z",
+          "reportSha256": "dd2bce8dd5152cd46e9a9ddadbc18f6627d074e98d9caa79b41a998994ff3192"
+        },
+        {
+          "suite": "sprint5-mobile-360",
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T06:13:46.556Z",
+          "reportSha256": "7c0c3430af15aab1a4f0747e315ea18d3148731ca59c5834ddebb51babb71da5"
+        },
+        {
+          "suite": "persistence",
+          "passed": 6,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T06:15:49.930Z",
+          "reportSha256": "d2a435a1b8dce3dab4f16a1864d4f9d9a37b6f33f9ab6dd72db6f43879bc75a3"
+        },
+        {
+          "suite": "learning",
+          "passed": 4,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T06:16:25.161Z",
+          "reportSha256": "2f8988612dfaf1c745e3699d01bbf440d4c78ca91e72dcad52013a186158d967"
+        },
+        {
+          "suite": "content",
+          "passed": 6,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T06:16:57.316Z",
+          "reportSha256": "286ad43ca93a2070d6c4db62c381b90ef04eb7df880ca83d6f7c21d6a648b34c"
+        },
+        {
+          "suite": "demo-production-lockout",
+          "passed": 22,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T06:19:57.987Z",
+          "reportSha256": "5c32ba9ff28224e1b88ce4612ad2a6f365d38a88aa7dd299aefae1f9857737e7"
+        }
+      ]
+    },
+    "backup": {
+      "source": "bb10cb4c7048d3079d7048dff211354908ffe111",
+      "at": "2026-10-18T05:54:54.862Z",
+      "bytes": 1617225,
+      "sha256": "b6ac6b15b8ee7392adda4bda22844d74047916b9178f84217de9fd59b184ba5a",
+      "restore": "PASS",
+      "ownerTables": 18,
+      "contentTables": 8
+    },
+    "restart": {
+      "status": "PASS",
+      "exactTables": 26,
+      "completedRepositoryViews": 4,
+      "isolatedActiveCursorReplay": "PASS"
+    },
+    "publicJavaScript": {
+      "files": 26,
+      "privateKeyAndDraftContentMarkers": 0
+    },
+    "audit": {
+      "production": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "full": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 5,
+        "critical": 0,
+        "total": 5
+      }
+    }
+  },
+  "limits": [
+    "All notes and diagrams unreviewed drafts",
+    "Anatomy drawings approximate; specialist verification pending",
+    "No reference-audio comparison, ASR, F0 tracking, numerical grading or AI assessment",
+    "Physical Windows/Android microphone and screen-reader UAT untested",
+    "Beginner comprehension not human-piloted",
+    "Five existing high development dependency advisories"
+  ]
+}

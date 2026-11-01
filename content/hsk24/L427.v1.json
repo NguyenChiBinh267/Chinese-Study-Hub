@@ -1,0 +1,781 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "1fab05ba5a256047bb4b20370fa8c063cc38912b01dfcfb4050e417207dc16ec",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ech",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L427",
+    "version": 1,
+    "versionId": "l427-draft-v1",
+    "title": "Đọc ý kiến khảo sát và quan hệ nhượng bộ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc ý kiến khảo sát và quan hệ nhượng bộ; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "尽管……，但是/可是……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 21,
+      "physicalPage": 22,
+      "printedPage": 19,
+      "section": "task",
+      "entry": "四"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T17:22:49.584916Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-feeling",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 21,
+          "physicalPage": 22,
+          "printedPage": 19,
+          "section": "task",
+          "entry": "四"
+        },
+        "written": "谈论情感话题",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-8a17653c4447",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 67,
+          "physicalPage": 68,
+          "printedPage": 65,
+          "section": "topic",
+          "entry": "生活观念"
+        },
+        "written": "生活观念",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l427-v-1162",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1162"
+        },
+        "written": "调查",
+        "pinyin": "diàochá",
+        "senseId": "l427-v-1162-sense",
+        "ordinal": 1162,
+        "note": "4 diàochá 动; 调查 là thu thập/tìm hiểu thông tin; kết quả từ một nhóm không tự đại diện mọi người. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l427-v-1181",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1181"
+        },
+        "written": "多数",
+        "pinyin": "duōshù",
+        "senseId": "l427-v-1181-sense",
+        "ordinal": 1181,
+        "note": "4 duōshù 名; 多数 nói phần lớn trong tập đang xét; không đồng nghĩa tất cả hoặc mọi nhóm ở nơi khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l427-v-1192",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1192"
+        },
+        "written": "反对",
+        "pinyin": "fǎnduì",
+        "senseId": "l427-v-1192-sense",
+        "ordinal": 1192,
+        "note": "4 fǎnduì 动; 反对 nhận đề xuất/hành động; không tự có nghĩa ghét người đưa ý kiến. Nhận diện chữ 反 trong 反对; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l427-v-1084",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1084"
+        },
+        "written": "吃惊",
+        "pinyin": "chījīng",
+        "senseId": "l427-v-1084-sense",
+        "ordinal": 1084,
+        "note": "4 chījīng 动; 吃惊 nói cảm giác bất ngờ trước thông tin; chưa cho biết thông tin đó đúng hay sai. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l427-v-1101",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1101"
+        },
+        "written": "此外",
+        "pinyin": "cǐwài",
+        "senseId": "l427-v-1101-sense",
+        "ordinal": 1101,
+        "note": "4 cǐwài 连; 此外 bổ sung ý, không biểu thị quan hệ trái ngược như 不过 trong nghĩa đang học. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l427-v-1047",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1047"
+        },
+        "written": "不过",
+        "pinyin": "búguò",
+        "senseId": "l427-v-1047-sense",
+        "ordinal": 1047,
+        "note": "4（5） búguò 连、（副）; 不过 ở đây là liên từ chuyển ý tương phản; chưa dạy nghĩa phó từ “chỉ” của cấp sau. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-66",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "66"
+        },
+        "written": "反",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 66,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-154",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "154"
+        },
+        "written": "惊",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 154,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-39",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "39"
+        },
+        "written": "此",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 39,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-427",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "转折复句：尽管，但是"
+        },
+        "written": "尽管……，但是/可是……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l427-c0",
+      "version": 1,
+      "senseId": "l427-v-1162-sense",
+      "hanzi": "调查",
+      "dictionaryPinyin": "diào chá",
+      "meaning": "điều tra, khảo sát",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l427-v-1162"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l427-c1",
+      "version": 1,
+      "senseId": "l427-v-1181-sense",
+      "hanzi": "多数",
+      "dictionaryPinyin": "duō shù",
+      "meaning": "đa số",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l427-v-1181"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l427-c2",
+      "version": 1,
+      "senseId": "l427-v-1192-sense",
+      "hanzi": "反对",
+      "dictionaryPinyin": "fǎn duì",
+      "meaning": "phản đối",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l427-v-1192"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l427-c3",
+      "version": 1,
+      "senseId": "l427-v-1084-sense",
+      "hanzi": "吃惊",
+      "dictionaryPinyin": "chī jīng",
+      "meaning": "ngạc nhiên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l427-v-1084"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l427-c4",
+      "version": 1,
+      "senseId": "l427-v-1101-sense",
+      "hanzi": "此外",
+      "dictionaryPinyin": "cǐ wài",
+      "meaning": "ngoài ra",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l427-v-1101"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l427-c5",
+      "version": 1,
+      "senseId": "l427-v-1047-sense",
+      "hanzi": "不过",
+      "dictionaryPinyin": "bú guò",
+      "meaning": "tuy nhiên, nhưng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l427-v-1047"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l427-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 加课 jiā kè: thêm buổi học; 仍 réng: vẫn; 理由 lǐyóu: lý do; 结论 jiélùn: kết luận; 全校 quán xiào: toàn trường. Số liệu hư cấu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l427-t0",
+      "type": "teaching",
+      "title": "调查 · điều tra, khảo sát",
+      "text": "调查 là thu thập/tìm hiểu thông tin; kết quả từ một nhóm không tự đại diện mọi người.",
+      "hanzi": "我们调查了十二位同学的意见。",
+      "pinyin": "Wǒmen diàochá le shí èr wèi tóngxué de yìjiàn.",
+      "meaning": "Chúng tôi khảo sát ý kiến mười hai bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l427-t1",
+      "type": "teaching",
+      "title": "多数 · đa số",
+      "text": "多数 nói phần lớn trong tập đang xét; không đồng nghĩa tất cả hoặc mọi nhóm ở nơi khác.",
+      "hanzi": "多数同学希望早点儿出发。",
+      "pinyin": "Duōshù tóngxué xīwàng zǎo diǎnr chūfā.",
+      "meaning": "Đa số bạn muốn đi sớm hơn một chút.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l427-t2",
+      "type": "teaching",
+      "title": "反对 · phản đối",
+      "text": "反对 nhận đề xuất/hành động; không tự có nghĩa ghét người đưa ý kiến. Nhận diện chữ 反 trong 反对; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "他们反对这个安排。",
+      "pinyin": "Tāmen fǎnduì zhège ānpái.",
+      "meaning": "Họ phản đối cách sắp xếp này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l427-t3",
+      "type": "teaching",
+      "title": "吃惊 · ngạc nhiên",
+      "text": "吃惊 nói cảm giác bất ngờ trước thông tin; chưa cho biết thông tin đó đúng hay sai.",
+      "hanzi": "听到这个结果，他很吃惊。",
+      "pinyin": "Tīngdào zhège jiéguǒ, tā hěn chījīng.",
+      "meaning": "Nghe kết quả này, anh ấy rất ngạc nhiên.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l427-t4",
+      "type": "teaching",
+      "title": "此外 · ngoài ra",
+      "text": "此外 bổ sung ý, không biểu thị quan hệ trái ngược như 不过 trong nghĩa đang học.",
+      "hanzi": "此外，我们还需要问老师。",
+      "pinyin": "Cǐwài, wǒmen hái xūyào wèn lǎoshī.",
+      "meaning": "Ngoài ra, chúng ta còn cần hỏi giáo viên.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l427-t5",
+      "type": "teaching",
+      "title": "不过 · tuy nhiên, nhưng",
+      "text": "不过 ở đây là liên từ chuyển ý tương phản; chưa dạy nghĩa phó từ “chỉ” của cấp sau.",
+      "hanzi": "这个计划不错，不过时间太紧。",
+      "pinyin": "Zhège jìhuà búcuò, búguò shíjiān tài jǐn.",
+      "meaning": "Kế hoạch này khá tốt, nhưng thời gian quá gấp.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l427-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "尽管+A，但是+B thừa nhận A nhưng B vẫn xảy ra. Đề giữ đúng hướng: đa số phản đối là điều được nhượng bộ; người đề xuất vẫn giải thích là kết quả. Không đảo hai vế chỉ vì cả hai trật tự có thể đúng cú pháp.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l427-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "调查只问了十二位同学，其中八位反对周末加课。小关有点儿吃惊，不过愿意继续解释。尽管多数人反对，但是他仍愿意说明理由。此外，大家还打算听老师的意见，不能把十二人的结果说成全校结论。",
+      "pinyin": "Diàochá zhǐ wèn le shí èr wèi tóngxué, qízhōng bā wèi fǎnduì zhōumò jiā kè. Xiǎo Guān yǒudiǎnr chījīng, búguò yuànyì jìxù jiěshì. Jǐnguǎn duōshù rén fǎnduì, dànshì tā réng yuànyì shuōmíng lǐyóu. Cǐwài, dàjiā hái dǎsuàn tīng lǎoshī de yìjiàn, bù néng bǎ shí èr rén de jiéguǒ shuō chéng quán xiào jiélùn.",
+      "meaning": "Trong 12 người được hỏi, 8 người phản đối học thêm cuối tuần. Quan ngạc nhiên nhưng vẫn giải thích; kết quả nhóm nhỏ chưa đại diện toàn trường.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l427-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l427-v1-e0"
+    },
+    {
+      "id": "l427-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l427-v1-e1"
+    },
+    {
+      "id": "l427-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l427-v1-e2"
+    },
+    {
+      "id": "l427-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l427-v1-e3"
+    },
+    {
+      "id": "l427-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l427-v1-e4"
+    },
+    {
+      "id": "l427-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l427-v1-e5"
+    },
+    {
+      "id": "l427-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l427-v1-e6"
+    },
+    {
+      "id": "l427-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l427-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l427-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l427-c0",
+      "senseId": "l427-v-1162-sense",
+      "keyRef": "l427-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “điều tra, khảo sát” để điền câu: 我们□了十二位同学的意见。",
+      "choices": [
+        "多数",
+        "反对",
+        "吃惊",
+        "此外",
+        "不过",
+        "调查"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l427-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l427-c1",
+      "senseId": "l427-v-1181-sense",
+      "keyRef": "l427-v1-k1",
+      "prompt": "Ghi pinyin của 多数 trong câu “多数同学希望早点儿出发。”, theo nghĩa “đa số”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l427-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l427-c2",
+      "senseId": "l427-v-1192-sense",
+      "keyRef": "l427-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “phản đối”: □对 (fǎn duì). Ngữ cảnh: 他们□这个安排。",
+      "choices": [
+        "饭",
+        "反",
+        "返",
+        "板"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l427-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l427-c3",
+      "senseId": "l427-v-1084-sense",
+      "keyRef": "l427-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “ngạc nhiên” để điền câu: 听到这个结果，他很□。",
+      "choices": [
+        "此外",
+        "不过",
+        "调查",
+        "多数",
+        "反对",
+        "吃惊"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l427-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l427-c4",
+      "senseId": "l427-v-1101-sense",
+      "keyRef": "l427-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “ngoài ra” để điền câu: □，我们还需要问老师。",
+      "choices": [
+        "不过",
+        "调查",
+        "多数",
+        "反对",
+        "吃惊",
+        "此外"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l427-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l427-c5",
+      "senseId": "l427-v-1047-sense",
+      "keyRef": "l427-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “tuy nhiên, nhưng”: 这个计划不错，□时间太紧。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l427-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l427-c0",
+      "senseId": "l427-v-1162-sense",
+      "keyRef": "l427-v1-k6",
+      "prompt": "Kết quả khảo sát áp dụng trực tiếp cho nhóm nào?",
+      "choices": [
+        "全校所有人",
+        "所有学校的老师",
+        "被问到的十二位同学"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l427-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l427-c3",
+      "senseId": "l427-v-1084-sense",
+      "keyRef": "l427-v1-k7",
+      "prompt": "Giữ đa số phản đối là vế nhượng bộ, vẫn giải thích là kết quả; bắt đầu bằng 尽管.",
+      "choices": [
+        "他仍愿意解释",
+        "但是",
+        "尽管",
+        "多数人反对"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l427-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l427-v1-e0",
+      "senseId": "l427-v-1162-sense",
+      "accepted": [
+        "调查"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "调查: điều tra, khảo sát. 调查 là thu thập/tìm hiểu thông tin; kết quả từ một nhóm không tự đại diện mọi người. Chúng tôi khảo sát ý kiến mười hai bạn."
+    },
+    {
+      "id": "l427-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l427-v1-e1",
+      "senseId": "l427-v-1181-sense",
+      "accepted": [
+        "duō shù"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc duō shù. 多数 nói phần lớn trong tập đang xét; không đồng nghĩa tất cả hoặc mọi nhóm ở nơi khác."
+    },
+    {
+      "id": "l427-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l427-v1-e2",
+      "senseId": "l427-v-1192-sense",
+      "accepted": [
+        "反"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 反 tạo từ 反对. 反对 nhận đề xuất/hành động; không tự có nghĩa ghét người đưa ý kiến. Nhận diện chữ 反 trong 反对; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l427-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l427-v1-e3",
+      "senseId": "l427-v-1084-sense",
+      "accepted": [
+        "吃惊"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "吃惊: ngạc nhiên. 吃惊 nói cảm giác bất ngờ trước thông tin; chưa cho biết thông tin đó đúng hay sai. Nghe kết quả này, anh ấy rất ngạc nhiên."
+    },
+    {
+      "id": "l427-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l427-v1-e4",
+      "senseId": "l427-v-1101-sense",
+      "accepted": [
+        "此外"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "此外: ngoài ra. 此外 bổ sung ý, không biểu thị quan hệ trái ngược như 不过 trong nghĩa đang học. Ngoài ra, chúng ta còn cần hỏi giáo viên."
+    },
+    {
+      "id": "l427-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l427-v1-e5",
+      "senseId": "l427-v-1047-sense",
+      "accepted": [
+        "不过"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 不过. 不过 ở đây là liên từ chuyển ý tương phản; chưa dạy nghĩa phó từ “chỉ” của cấp sau. Kế hoạch này khá tốt, nhưng thời gian quá gấp."
+    },
+    {
+      "id": "l427-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l427-v1-e6",
+      "senseId": "l427-v-1162-sense",
+      "accepted": [
+        "被问到的十二位同学"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 被问到的十二位同学. Trong 12 người được hỏi, 8 người phản đối học thêm cuối tuần. Quan ngạc nhiên nhưng vẫn giải thích; kết quả nhóm nhỏ chưa đại diện toàn trường."
+    },
+    {
+      "id": "l427-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l427-v1-e7",
+      "senseId": "l427-v-1084-sense",
+      "accepted": [
+        "2,3,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 尽管+A，但是+B thừa nhận A nhưng B vẫn xảy ra. Đề giữ đúng hướng: đa số phản đối là điều được nhượng bộ; người đề xuất vẫn giải thích là kết quả. Không đảo hai vế chỉ vì cả hai trật tự có thể đúng cú pháp."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

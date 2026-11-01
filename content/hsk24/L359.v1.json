@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "3c8124acfa525e9c5e05b0a7b8cfbb0eca0b94592a33c7c8b1a8dd32cc6e5119",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-language-study",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L359",
+    "version": 1,
+    "versionId": "l359-draft-v1",
+    "title": "Ngôn ngữ và trải nghiệm du học",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc nguồn gốc người học và chủ đề đang tìm hiểu.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "关于"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 16,
+      "physicalPage": 17,
+      "printedPage": 14,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 16,
+          "physicalPage": 17,
+          "printedPage": 14,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "沟通学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-study-experience",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "教育情况 / 学习情况 / 学习经历"
+        },
+        "written": "学习经历",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l359-v-867",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 867"
+        },
+        "written": "外语",
+        "pinyin": "wàiyǔ",
+        "senseId": "l359-v-867-sense",
+        "ordinal": 867,
+        "note": "3 wàiyǔ 名; 外语 là ngôn ngữ khác tiếng bản thân/theo bối cảnh, không phải tên riêng chỉ tiếng Anh. 中文也可能是某人的外语. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l359-v-951",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 951"
+        },
+        "written": "语言",
+        "pinyin": "yǔyán",
+        "senseId": "l359-v-951-sense",
+        "ordinal": 951,
+        "note": "3 yǔyán 名; 语言 là tên chung ngôn ngữ; 外语 là một cách phân loại theo người/bối cảnh, không phải hai nhóm không giao nhau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l359-v-759",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 759"
+        },
+        "written": "留学",
+        "pinyin": "liúxué",
+        "senseId": "l359-v-759-sense",
+        "ordinal": 759,
+        "note": "3 liúxué 动; 留学 là đi học ở nước ngoài; 留学生 là người, không đặt 留学 làm danh từ người sau 一名. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l359-v-743",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 743"
+        },
+        "written": "来自",
+        "pinyin": "láizì",
+        "senseId": "l359-v-743-sense",
+        "ordinal": 743,
+        "note": "3 láizì 动; 来自 nhận địa điểm/nguồn xuất xứ; 来自越南 là từ Việt Nam đến, không nói đích đang muốn đi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l359-v-946",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 946"
+        },
+        "written": "有关",
+        "pinyin": "yǒuguān",
+        "senseId": "l359-v-946-sense",
+        "ordinal": 946,
+        "note": "3 yǒuguān 动、介; 有关 trong 与…有关 nói có liên quan; không tự nói nguyên nhân. 与学习有关 là liên quan học, chưa khẳng định do học gây ra. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l359-v-656",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 656"
+        },
+        "written": "关于",
+        "pinyin": "guānyú",
+        "senseId": "l359-v-656-sense",
+        "ordinal": 656,
+        "note": "3 guānyú 介; 关于 dẫn chủ đề để nói/viết; 关于学习的文章 là bài viết về học, không có nghĩa bài viết luôn đáng tin. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-241",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "241"
+        },
+        "written": "言",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 241,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-259",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "259"
+        },
+        "written": "于",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 259,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-about",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "介词 / 引出对象 / 关于"
+        },
+        "written": "关于",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l359-c0",
+      "version": 1,
+      "senseId": "l359-v-867-sense",
+      "hanzi": "外语",
+      "dictionaryPinyin": "wài yǔ",
+      "meaning": "ngoại ngữ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l359-v-867"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l359-c1",
+      "version": 1,
+      "senseId": "l359-v-951-sense",
+      "hanzi": "语言",
+      "dictionaryPinyin": "yǔ yán",
+      "meaning": "ngôn ngữ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l359-v-951"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l359-c2",
+      "version": 1,
+      "senseId": "l359-v-759-sense",
+      "hanzi": "留学",
+      "dictionaryPinyin": "liú xué",
+      "meaning": "du học",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l359-v-759"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l359-c3",
+      "version": 1,
+      "senseId": "l359-v-743-sense",
+      "hanzi": "来自",
+      "dictionaryPinyin": "lái zì",
+      "meaning": "đến từ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l359-v-743"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l359-c4",
+      "version": 1,
+      "senseId": "l359-v-946-sense",
+      "hanzi": "有关",
+      "dictionaryPinyin": "yǒu guān",
+      "meaning": "liên quan/có liên quan",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l359-v-946"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l359-c5",
+      "version": 1,
+      "senseId": "l359-v-656-sense",
+      "hanzi": "关于",
+      "dictionaryPinyin": "guān yú",
+      "meaning": "về/liên quan chủ đề",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l359-v-656"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l359-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 门 mén: lượng từ môn/ngôn ngữ; 篇 piān: lượng từ bài viết; 作为 zuòwéi: với tư cách; 课程 kèchéng: khóa học; 规定 guīdìng: quy định.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l359-t0",
+      "type": "teaching",
+      "title": "外语 · ngoại ngữ",
+      "text": "外语 là ngôn ngữ khác tiếng bản thân/theo bối cảnh, không phải tên riêng chỉ tiếng Anh. 中文也可能是某人的外语.",
+      "hanzi": "她想学一门外语。",
+      "pinyin": "Tā xiǎng xué yì mén wàiyǔ.",
+      "meaning": "Cô ấy muốn học một ngoại ngữ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l359-t1",
+      "type": "teaching",
+      "title": "语言 · ngôn ngữ",
+      "text": "语言 là tên chung ngôn ngữ; 外语 là một cách phân loại theo người/bối cảnh, không phải hai nhóm không giao nhau.",
+      "hanzi": "这个学校教三种语言。",
+      "pinyin": "Zhège xuéxiào jiāo sān zhǒng yǔyán.",
+      "meaning": "Trường này dạy ba ngôn ngữ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l359-t2",
+      "type": "teaching",
+      "title": "留学 · du học",
+      "text": "留学 là đi học ở nước ngoài; 留学生 là người, không đặt 留学 làm danh từ người sau 一名.",
+      "hanzi": "他想去中国留学。",
+      "pinyin": "Tā xiǎng qù Zhōngguó liúxué.",
+      "meaning": "Cậu ấy muốn du học Trung Quốc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l359-t3",
+      "type": "teaching",
+      "title": "来自 · đến từ",
+      "text": "来自 nhận địa điểm/nguồn xuất xứ; 来自越南 là từ Việt Nam đến, không nói đích đang muốn đi.",
+      "hanzi": "我的同学来自越南。",
+      "pinyin": "Wǒ de tóngxué láizì Yuènán.",
+      "meaning": "Bạn học tôi đến từ Việt Nam.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l359-t4",
+      "type": "teaching",
+      "title": "有关 · liên quan/có liên quan",
+      "text": "有关 trong 与…有关 nói có liên quan; không tự nói nguyên nhân. 与学习有关 là liên quan học, chưa khẳng định do học gây ra.",
+      "hanzi": "这个问题与留学有关。",
+      "pinyin": "Zhège wèntí yǔ liúxué yǒuguān.",
+      "meaning": "Câu hỏi này liên quan đến du học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l359-t5",
+      "type": "teaching",
+      "title": "关于 · về/liên quan chủ đề",
+      "text": "关于 dẫn chủ đề để nói/viết; 关于学习的文章 là bài viết về học, không có nghĩa bài viết luôn đáng tin.",
+      "hanzi": "这是一篇关于语言的文章。",
+      "pinyin": "Zhè shì yì piān guānyú yǔyán de wénzhāng.",
+      "meaning": "Đây là bài viết về ngôn ngữ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l359-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "关于+chủ đề dẫn nội dung: 关于留学的文章. 有关 có thể là có liên quan hoặc về trong bối cảnh khác. 来自+địa điểm nêu xuất xứ, không thay cho 去+đích đến.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l359-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林的同学来自越南，想去中国留学。她学中文作为外语，也喜欢了解不同语言。今天她读一篇关于留学的文章，只记录与课程有关的信息，没有把个人经历当成所有学校的规定。",
+      "pinyin": "Xiǎo Lín de tóngxué láizì Yuènán, xiǎng qù Zhōngguó liúxué. Tā xué Zhōngwén zuòwéi wàiyǔ, yě xǐhuan liǎojiě bù tóng yǔyán. Jīntiān tā dú yì piān guānyú liúxué de wénzhāng, zhǐ jìlù yǔ kèchéng yǒuguān de xìnxī, méiyǒu bǎ gè rén jīnglì dàngchéng suǒyǒu xuéxiào de guīdìng.",
+      "meaning": "Bạn học Lâm từ Việt Nam, muốn du học Trung Quốc. Cô học tiếng Trung như ngoại ngữ và đọc bài về du học, chỉ ghi thông tin liên quan khóa học, không coi trải nghiệm cá nhân là quy định chung.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l359-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l359-v1-e0"
+    },
+    {
+      "id": "l359-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l359-v1-e1"
+    },
+    {
+      "id": "l359-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l359-v1-e2"
+    },
+    {
+      "id": "l359-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l359-v1-e3"
+    },
+    {
+      "id": "l359-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l359-v1-e4"
+    },
+    {
+      "id": "l359-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l359-v1-e5"
+    },
+    {
+      "id": "l359-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l359-v1-e6"
+    },
+    {
+      "id": "l359-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l359-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l359-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l359-c0",
+      "senseId": "l359-v-867-sense",
+      "keyRef": "l359-v1-k0",
+      "prompt": "Tên loại ngôn ngữ không phải tiếng mẹ đẻ trong bối cảnh: 学一门□。",
+      "choices": [
+        "语言",
+        "留学",
+        "来自",
+        "有关",
+        "关于",
+        "外语"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l359-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l359-c1",
+      "senseId": "l359-v-951-sense",
+      "keyRef": "l359-v1-k1",
+      "prompt": "Tên chung của tiếng Trung, tiếng Việt…: 三种□。",
+      "choices": [
+        "留学",
+        "来自",
+        "有关",
+        "关于",
+        "外语",
+        "语言"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l359-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l359-c2",
+      "senseId": "l359-v-759-sense",
+      "keyRef": "l359-v1-k2",
+      "prompt": "Hoạt động đi học ở nước ngoài: 去中国□。",
+      "choices": [
+        "来自",
+        "有关",
+        "关于",
+        "外语",
+        "语言",
+        "留学"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l359-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l359-c3",
+      "senseId": "l359-v-743-sense",
+      "keyRef": "l359-v1-k3",
+      "prompt": "Viết pinyin của 来自 trong câu “我的同学来自越南。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l359-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l359-c4",
+      "senseId": "l359-v-946-sense",
+      "keyRef": "l359-v1-k4",
+      "prompt": "Có liên quan việc du học: 与留学□。",
+      "choices": [
+        "关于",
+        "外语",
+        "语言",
+        "留学",
+        "来自",
+        "有关"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l359-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l359-c5",
+      "senseId": "l359-v-656-sense",
+      "keyRef": "l359-v1-k5",
+      "prompt": "Giới từ dẫn chủ đề: 一篇□语言的文章。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l359-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l359-c0",
+      "senseId": "l359-v-867-sense",
+      "keyRef": "l359-v1-k6",
+      "prompt": "Bạn học đến từ đâu?",
+      "choices": [
+        "中国的每个学校",
+        "文章里",
+        "越南"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l359-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l359-c3",
+      "senseId": "l359-v-743-sense",
+      "keyRef": "l359-v1-k7",
+      "prompt": "Xếp chủ đề bài viết, bắt đầu bằng 这是一篇.",
+      "choices": [
+        "关于留学的文章",
+        "这是一篇"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l359-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l359-v1-e0",
+      "senseId": "l359-v-867-sense",
+      "accepted": [
+        "外语"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "外语: ngoại ngữ. 外语 là ngôn ngữ khác tiếng bản thân/theo bối cảnh, không phải tên riêng chỉ tiếng Anh. 中文也可能是某人的外语. Cô ấy muốn học một ngoại ngữ."
+    },
+    {
+      "id": "l359-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l359-v1-e1",
+      "senseId": "l359-v-951-sense",
+      "accepted": [
+        "语言"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "语言: ngôn ngữ. 语言 là tên chung ngôn ngữ; 外语 là một cách phân loại theo người/bối cảnh, không phải hai nhóm không giao nhau. Trường này dạy ba ngôn ngữ."
+    },
+    {
+      "id": "l359-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l359-v1-e2",
+      "senseId": "l359-v-759-sense",
+      "accepted": [
+        "留学"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "留学: du học. 留学 là đi học ở nước ngoài; 留学生 là người, không đặt 留学 làm danh từ người sau 一名. Cậu ấy muốn du học Trung Quốc."
+    },
+    {
+      "id": "l359-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l359-v1-e3",
+      "senseId": "l359-v-743-sense",
+      "accepted": [
+        "lái zì"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "来自: đến từ. 来自 nhận địa điểm/nguồn xuất xứ; 来自越南 là từ Việt Nam đến, không nói đích đang muốn đi. Bạn học tôi đến từ Việt Nam."
+    },
+    {
+      "id": "l359-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l359-v1-e4",
+      "senseId": "l359-v-946-sense",
+      "accepted": [
+        "有关"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "有关: liên quan/có liên quan. 有关 trong 与…有关 nói có liên quan; không tự nói nguyên nhân. 与学习有关 là liên quan học, chưa khẳng định do học gây ra. Câu hỏi này liên quan đến du học."
+    },
+    {
+      "id": "l359-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l359-v1-e5",
+      "senseId": "l359-v-656-sense",
+      "accepted": [
+        "关于"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "关于: về/liên quan chủ đề. 关于 dẫn chủ đề để nói/viết; 关于学习的文章 là bài viết về học, không có nghĩa bài viết luôn đáng tin. Đây là bài viết về ngôn ngữ."
+    },
+    {
+      "id": "l359-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l359-v1-e6",
+      "senseId": "l359-v-867-sense",
+      "accepted": [
+        "越南"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 关于+chủ đề dẫn nội dung: 关于留学的文章. 有关 có thể là có liên quan hoặc về trong bối cảnh khác. 来自+địa điểm nêu xuất xứ, không thay cho 去+đích đến."
+    },
+    {
+      "id": "l359-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l359-v1-e7",
+      "senseId": "l359-v-743-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 关于+chủ đề dẫn nội dung: 关于留学的文章. 有关 có thể là có liên quan hoặc về trong bối cảnh khác. 来自+địa điểm nêu xuất xứ, không thay cho 去+đích đến."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

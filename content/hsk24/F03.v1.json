@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "bd142eb638e768e427fe1a02245e4e19364c52cb6676fd10e8ea8210a54ebd1a",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-initials",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "F03",
+    "version": 1,
+    "versionId": "f03-draft-v1",
+    "title": "Ghép âm đầu với vần: đọc pinyin từng bước",
+    "classification": "FOUNDATION_INTERNAL",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Mục tiêu là tiếng Phổ thông với chữ giản thể. Pinyin ghi âm, chữ Hán ghi đơn vị ngôn ngữ, nghĩa Việt giúp hiểu; ba phần không thay thế nhau. Quay lại các hình minh họa và hộp gợi ý của F01/F02 khi cần; không cần bật âm thanh để tiếp tục.",
+      "Giữ thứ tự âm đầu + vần và dấu thanh; chưa kết luận đã phát âm đúng."
+    ],
+    "prerequisites": [
+      "f02-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": null,
+    "targetLevel": null,
+    "alignmentStatus": "NOT_APPLICABLE",
+    "alignmentEvidence": [
+      "Original supplementary foundation; no official vocabulary/skill completion claim."
+    ],
+    "alignmentCheckedAt": "2026-10-30T08:06:43.667Z",
+    "sourceSnapshotSha256": null,
+    "taskReferences": [],
+    "topicReferences": [],
+    "vocabularyReferences": [],
+    "characterReferences": [],
+    "grammarReferences": []
+  },
+  "concepts": [
+    {
+      "id": "f03-c0",
+      "version": 1,
+      "senseId": "f03-sense0",
+      "hanzi": "八",
+      "dictionaryPinyin": "bā",
+      "meaning": "ví dụ âm b + a, thanh 1",
+      "skills": [
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f03-c1",
+      "version": 1,
+      "senseId": "f03-sense1",
+      "hanzi": "怕",
+      "dictionaryPinyin": "pà",
+      "meaning": "ví dụ âm p + a, thanh 4",
+      "skills": [
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f03-c2",
+      "version": 1,
+      "senseId": "f03-sense2",
+      "hanzi": "大",
+      "dictionaryPinyin": "dà",
+      "meaning": "ví dụ d + a, thanh 4",
+      "skills": [
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f03-c3",
+      "version": 1,
+      "senseId": "f03-sense3",
+      "hanzi": "他",
+      "dictionaryPinyin": "tā",
+      "meaning": "ví dụ t + a, thanh 1",
+      "skills": [
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f03-c4",
+      "version": 1,
+      "senseId": "f03-sense4",
+      "hanzi": "鸡",
+      "dictionaryPinyin": "jī",
+      "meaning": "ví dụ j + i, thanh 1",
+      "skills": [
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f03-c5",
+      "version": 1,
+      "senseId": "f03-sense5",
+      "hanzi": "七",
+      "dictionaryPinyin": "qī",
+      "meaning": "ví dụ q + i, thanh 1",
+      "skills": [
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "f03-intro",
+      "type": "teaching",
+      "title": "Cách học bài này",
+      "text": "Mục tiêu là tiếng Phổ thông với chữ giản thể. Pinyin ghi âm, chữ Hán ghi đơn vị ngôn ngữ, nghĩa Việt giúp hiểu; ba phần không thay thế nhau. Quay lại các hình minh họa và hộp gợi ý của F01/F02 khi cần; không cần bật âm thanh để tiếp tục.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f03-note0",
+      "type": "teaching",
+      "title": "Bước 1",
+      "text": "Bắt đầu từ m/n trong F01 rồi học theo nhóm: b p m f; d t n l; g k h; j q x; zh ch sh r; z c s. Đây là 21 phụ âm đầu thường được học. y/w còn tham gia cách viết âm tiết không có phụ âm đầu; đừng đọc chúng như chữ Việt rồi tự suy cả âm tiết.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f03-note1",
+      "type": "teaching",
+      "title": "Bước 2",
+      "text": "b/p, d/t, g/k, j/q, zh/ch, z/c khác nhau về cách bật hơi; không chỉ là b/p hay đ/t tiếng Việt. Đặt tờ giấy trước miệng có thể giúp quan sát hơi khi tự thử, nhưng ứng dụng không chấm tờ giấy hay xác nhận phát âm. Dùng diagram/gợi ý đã có trong F01 và coach pinyin để quan sát vị trí môi, lưỡi.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f03-note2",
+      "type": "teaching",
+      "title": "Bước 3",
+      "text": "j q x đi với nhóm vần i/ü; zh ch sh r và z c s cần quan sát vị trí lưỡi khác. Không thêm một nguyên âm Việt vào sau phụ âm khi ghép. Nhìn jī = j + i, qī = q + i; hãy giữ cả dấu thanh, không chỉ phần chữ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f03-note3",
+      "type": "teaching",
+      "title": "Bước 4",
+      "text": "Luyện bằng chữ dưới đây kiểm tra ký hiệu và cách ghép, không kiểm tra nghe hay phát âm. Nút TTS nếu có chỉ dùng giọng zh-CN cục bộ, tổng hợp/chưa duyệt; thiếu giọng thì bỏ qua. Không cần dịch vụ trả phí.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f03-word0",
+      "type": "teaching",
+      "title": "八 · bā",
+      "text": "ví dụ âm b + a, thanh 1",
+      "hanzi": "八",
+      "pinyin": "bā",
+      "meaning": "ví dụ âm b + a, thanh 1",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f03-word1",
+      "type": "teaching",
+      "title": "怕 · pà",
+      "text": "ví dụ âm p + a, thanh 4",
+      "hanzi": "怕",
+      "pinyin": "pà",
+      "meaning": "ví dụ âm p + a, thanh 4",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f03-word2",
+      "type": "teaching",
+      "title": "大 · dà",
+      "text": "ví dụ d + a, thanh 4",
+      "hanzi": "大",
+      "pinyin": "dà",
+      "meaning": "ví dụ d + a, thanh 4",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f03-word3",
+      "type": "teaching",
+      "title": "他 · tā",
+      "text": "ví dụ t + a, thanh 1",
+      "hanzi": "他",
+      "pinyin": "tā",
+      "meaning": "ví dụ t + a, thanh 1",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f03-word4",
+      "type": "teaching",
+      "title": "鸡 · jī",
+      "text": "ví dụ j + i, thanh 1",
+      "hanzi": "鸡",
+      "pinyin": "jī",
+      "meaning": "ví dụ j + i, thanh 1",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f03-word5",
+      "type": "teaching",
+      "title": "七 · qī",
+      "text": "ví dụ q + i, thanh 1",
+      "hanzi": "七",
+      "pinyin": "qī",
+      "meaning": "ví dụ q + i, thanh 1",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f03-b0",
+      "type": "exercise",
+      "exerciseVersionId": "f03-v1-e0"
+    },
+    {
+      "id": "f03-b1",
+      "type": "exercise",
+      "exerciseVersionId": "f03-v1-e1"
+    },
+    {
+      "id": "f03-b2",
+      "type": "exercise",
+      "exerciseVersionId": "f03-v1-e2"
+    },
+    {
+      "id": "f03-b3",
+      "type": "exercise",
+      "exerciseVersionId": "f03-v1-e3"
+    },
+    {
+      "id": "f03-b4",
+      "type": "exercise",
+      "exerciseVersionId": "f03-v1-e4"
+    },
+    {
+      "id": "f03-b5",
+      "type": "exercise",
+      "exerciseVersionId": "f03-v1-e5"
+    },
+    {
+      "id": "f03-b6",
+      "type": "exercise",
+      "exerciseVersionId": "f03-v1-e6"
+    },
+    {
+      "id": "f03-b7",
+      "type": "exercise",
+      "exerciseVersionId": "f03-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "f03-v1-e0",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f03-c0",
+      "senseId": "f03-sense0",
+      "keyRef": "f03-v1-k0",
+      "prompt": "Theo ví dụ 八 (ví dụ âm b + a, thanh 1), nhập pinyin được ghi trong bài. Đây là bài ký hiệu, không phải chấm phát âm.",
+      "choices": [],
+      "inputHint": "Dấu thanh hoặc số; không thu âm.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f03-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f03-c1",
+      "senseId": "f03-sense1",
+      "keyRef": "f03-v1-k1",
+      "prompt": "Theo ví dụ 怕 (ví dụ âm p + a, thanh 4), nhập pinyin được ghi trong bài. Đây là bài ký hiệu, không phải chấm phát âm.",
+      "choices": [],
+      "inputHint": "Dấu thanh hoặc số; không thu âm.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f03-v1-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f03-c2",
+      "senseId": "f03-sense2",
+      "keyRef": "f03-v1-k2",
+      "prompt": "Theo ví dụ 大 (ví dụ d + a, thanh 4), nhập pinyin được ghi trong bài. Đây là bài ký hiệu, không phải chấm phát âm.",
+      "choices": [],
+      "inputHint": "Dấu thanh hoặc số; không thu âm.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f03-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f03-c3",
+      "senseId": "f03-sense3",
+      "keyRef": "f03-v1-k3",
+      "prompt": "Theo ví dụ 他 (ví dụ t + a, thanh 1), nhập pinyin được ghi trong bài. Đây là bài ký hiệu, không phải chấm phát âm.",
+      "choices": [],
+      "inputHint": "Dấu thanh hoặc số; không thu âm.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f03-v1-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f03-c4",
+      "senseId": "f03-sense4",
+      "keyRef": "f03-v1-k4",
+      "prompt": "Theo ví dụ 鸡 (ví dụ j + i, thanh 1), nhập pinyin được ghi trong bài. Đây là bài ký hiệu, không phải chấm phát âm.",
+      "choices": [],
+      "inputHint": "Dấu thanh hoặc số; không thu âm.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f03-v1-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f03-c5",
+      "senseId": "f03-sense5",
+      "keyRef": "f03-v1-k5",
+      "prompt": "Theo ví dụ 七 (ví dụ q + i, thanh 1), nhập pinyin được ghi trong bài. Đây là bài ký hiệu, không phải chấm phát âm.",
+      "choices": [],
+      "inputHint": "Dấu thanh hoặc số; không thu âm.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f03-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "f03-c0",
+      "senseId": "f03-sense0",
+      "keyRef": "f03-v1-k6",
+      "prompt": "Trong qī, phần đầu viết bằng chữ nào?",
+      "choices": [
+        "q",
+        "i",
+        "k"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "f03-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "f03-c0",
+      "senseId": "f03-sense0",
+      "keyRef": "f03-v1-k7",
+      "prompt": "Ghép các cụm theo thứ tự đã giải thích, giữ nguyên cụm.",
+      "choices": [
+        "qī",
+        "=",
+        "q",
+        "+ i"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "f03-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "f03-v1-e0",
+      "senseId": "f03-sense0",
+      "accepted": [
+        "bā"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "八 ghi bā: ví dụ âm b + a, thanh 1. Chỉ xác nhận biểu diễn chữ, chưa xác nhận âm thực tế."
+    },
+    {
+      "id": "f03-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "f03-v1-e1",
+      "senseId": "f03-sense1",
+      "accepted": [
+        "pà"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "怕 ghi pà: ví dụ âm p + a, thanh 4. Chỉ xác nhận biểu diễn chữ, chưa xác nhận âm thực tế."
+    },
+    {
+      "id": "f03-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "f03-v1-e2",
+      "senseId": "f03-sense2",
+      "accepted": [
+        "dà"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "大 ghi dà: ví dụ d + a, thanh 4. Chỉ xác nhận biểu diễn chữ, chưa xác nhận âm thực tế."
+    },
+    {
+      "id": "f03-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "f03-v1-e3",
+      "senseId": "f03-sense3",
+      "accepted": [
+        "tā"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "他 ghi tā: ví dụ t + a, thanh 1. Chỉ xác nhận biểu diễn chữ, chưa xác nhận âm thực tế."
+    },
+    {
+      "id": "f03-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "f03-v1-e4",
+      "senseId": "f03-sense4",
+      "accepted": [
+        "jī"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "鸡 ghi jī: ví dụ j + i, thanh 1. Chỉ xác nhận biểu diễn chữ, chưa xác nhận âm thực tế."
+    },
+    {
+      "id": "f03-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "f03-v1-e5",
+      "senseId": "f03-sense5",
+      "accepted": [
+        "qī"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "七 ghi qī: ví dụ q + i, thanh 1. Chỉ xác nhận biểu diễn chữ, chưa xác nhận âm thực tế."
+    },
+    {
+      "id": "f03-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "f03-v1-e6",
+      "senseId": "f03-sense0",
+      "accepted": [
+        "q"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Giữ thứ tự âm đầu + vần và dấu thanh; chưa kết luận đã phát âm đúng."
+    },
+    {
+      "id": "f03-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "f03-v1-e7",
+      "senseId": "f03-sense0",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Giữ thứ tự âm đầu + vần và dấu thanh; chưa kết luận đã phát âm đúng."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

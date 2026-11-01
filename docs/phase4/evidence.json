@@ -1,0 +1,137 @@
+{
+  "contract": "Preserve the sage/paper Vietnamese study UI. One primary study action, original teaching before retrieval, distinct LOCAL DATABASE and DEMO, explicit unreviewed evidence and no false unlocks.",
+  "targetViewports": [
+    "1440x1000",
+    "360x800"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "F01 axe WCAG2A/AA/2.1AA/2.2AA, keyboard Pinyin toggle and focused step heading, visible errors and zh-Hans lesson language tags. Native screen-reader/device UAT remains untested."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Playwright desktop1440/mobile360 plus320/720 CSSpx no horizontal overflow. Body CSS zoom200% checked; native browser zoom menu is not UAT-tested."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "pass",
+      "evidence": "Browser delays catalog response and asserts reading status before releasing it."
+    },
+    "empty": {
+      "status": "pass",
+      "evidence": "Catalog empty response renders an explicit empty state and actionable reload."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Catalog503 and lost answer ACK render visible failure; retry uses actual server or original key."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "L001/L002 PARTIAL mapping and supplementary proper name remain visible."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Actual PostgreSQL graded F01/F02 answers, reload/resume/completion, FSRS reveal/rating and progress with zero independent evidence."
+    },
+    "permission": {
+      "status": "pass",
+      "evidence": "Unauthorized content PATCH405, forged owner/score422, runtime publisher/DDL denied, owner isolation and14 FORCE-RLS tables in real PostgreSQL tests. Production artifact22/22 suite confirms all old/new local APIs deny access even with local env flags."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x1000",
+      "artifact": "evidence/desktop-library.png",
+      "observation": "Four bounded local draft entries with honest source/state/prerequisite labels."
+    },
+    {
+      "viewport": "1440x1000",
+      "artifact": "evidence/desktop-F01.png",
+      "observation": "Original Vietnamese explanation, Hanzi/ruby Pinyin, keyboard toggle and one primary step action."
+    },
+    {
+      "viewport": "1440x1000",
+      "artifact": "evidence/desktop-F02.png",
+      "observation": "Written tones practice remains explicitly unreviewed and not listening competence."
+    },
+    {
+      "viewport": "1440x1000",
+      "artifact": "evidence/desktop-progress.png",
+      "observation": "Saved practice/FSRS and client-observed time are distinct from zero independent evidence; detailed mastery exclusions collapse."
+    },
+    {
+      "viewport": "360x800",
+      "artifact": "evidence/mobile-library.png",
+      "observation": "Four bounded local draft entries with honest source/state/prerequisite labels."
+    },
+    {
+      "viewport": "360x800",
+      "artifact": "evidence/mobile-F01.png",
+      "observation": "Original Vietnamese explanation, Hanzi/ruby Pinyin, keyboard toggle and one primary step action."
+    },
+    {
+      "viewport": "360x800",
+      "artifact": "evidence/mobile-F02.png",
+      "observation": "Written tones practice remains explicitly unreviewed and not listening competence."
+    },
+    {
+      "viewport": "360x800",
+      "artifact": "evidence/mobile-progress.png",
+      "observation": "Saved practice/FSRS and client-observed time are distinct from zero independent evidence; detailed mastery exclusions collapse."
+    }
+  ],
+  "source": {
+    "id": "hsk-exam-2025-11",
+    "physicalPages": 406,
+    "pdfSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "checkedDistinctReferences": 26,
+    "counts": {
+      "vocabulary": 8,
+      "character": 9,
+      "task": 3,
+      "topic": 3,
+      "grammar": 3
+    },
+    "unresolvedGrammarPatterns": 2,
+    "supplementaryProperNames": 1,
+    "languageReview": "DRAFT_UNREVIEWED",
+    "publication": "BLOCKED"
+  },
+  "untested": [
+    "Human Mandarin/answer-key approval",
+    "Approved listening/pronunciation assessments",
+    "Audio quality and reuse rights",
+    "Native Android/Windows screen reader UAT",
+    "Native browser zoom-menu UAT",
+    "Production auth/cloud T009/T068/T069",
+    "Pilot duration/mastery calibration"
+  ],
+  "testReport": "verification.md",
+  "verification": {
+    "unit": {
+      "passed": 15,
+      "failed": 0
+    },
+    "postgresCases": {
+      "passed": 25,
+      "failed": 0,
+      "skipped": 0
+    },
+    "browserCases": {
+      "passed": 38,
+      "failed": 0,
+      "suites": {
+        "legacyPersistence": 6,
+        "legacyLearning": 4,
+        "phase4Content": 6,
+        "productionDemoLockout": 22
+      }
+    },
+    "productionBuild": "PASS",
+    "realPostgresRestart": "PASS",
+    "historicalOriginalOwnerTablesUnchanged": 10,
+    "allRestartOwnerTablesMatched": 14,
+    "contentTablesMatched": 2,
+    "scope": "LOCAL DEVELOPMENT only; final passing runs do not erase earlier documented harness failures"
+  }
+}

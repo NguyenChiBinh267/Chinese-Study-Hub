@@ -1,0 +1,774 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "fa58bd61c733b4a3021d156dc00323cdef37821070f22e14751ea468b03a47f4",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eacd",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L4023",
+    "version": 1,
+    "versionId": "l4023-draft-v1",
+    "title": "Thảo luận ý kiến ở nơi làm việc",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Thảo luận ý kiến ở nơi làm việc; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "说什么"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 25,
+      "physicalPage": 26,
+      "printedPage": 23,
+      "section": "task",
+      "entry": "十五"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-29T07:56:43.688013Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-office",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 25,
+          "physicalPage": 26,
+          "printedPage": 23,
+          "section": "task",
+          "entry": "十五"
+        },
+        "written": "谈论工作情况与表现",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-e4ee82954356",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "职场交往"
+        },
+        "written": "职场交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l4023-v-1723",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 122,
+          "physicalPage": 123,
+          "printedPage": 120,
+          "section": "vocabulary",
+          "entry": "ordinal 1723"
+        },
+        "written": "讨论",
+        "pinyin": "tǎolùn",
+        "senseId": "l4023-v-1723-sense",
+        "ordinal": 1723,
+        "note": "4 tǎolùn 动; 讨论 là trao đổi để làm rõ vấn đề; không mặc định là tranh cãi hoặc đã ra quyết định. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4023-v-1727",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 122,
+          "physicalPage": 123,
+          "printedPage": 120,
+          "section": "vocabulary",
+          "entry": "ordinal 1727"
+        },
+        "written": "提出",
+        "pinyin": "tíchū",
+        "senseId": "l4023-v-1727-sense",
+        "ordinal": 1727,
+        "note": "4 tíchū 动; 提出 thường đi với 问题、建议, đưa vấn đề/ý kiến ra cho người khác xem xét. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4023-v-1728",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 122,
+          "physicalPage": 123,
+          "printedPage": 120,
+          "section": "vocabulary",
+          "entry": "ordinal 1728"
+        },
+        "written": "提到",
+        "pinyin": "tídào",
+        "senseId": "l4023-v-1728-sense",
+        "ordinal": 1728,
+        "note": "4 tídào 动; 提到 là nói tới, có thể chỉ nhắc qua; khác 提出 là chủ động nêu vấn đề/đề xuất. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4023-v-1729",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 122,
+          "physicalPage": 123,
+          "printedPage": 120,
+          "section": "vocabulary",
+          "entry": "ordinal 1729"
+        },
+        "written": "提供",
+        "pinyin": "tígōng",
+        "senseId": "l4023-v-1729-sense",
+        "ordinal": 1729,
+        "note": "4 tígōng 动; 提供 đưa thông tin/đồ dùng để người khác dùng, không phải đồng ý một ý kiến. Nhận diện chữ 供 trong 提供; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4023-v-1809",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 124,
+          "physicalPage": 125,
+          "printedPage": 122,
+          "section": "vocabulary",
+          "entry": "ordinal 1809"
+        },
+        "written": "想法",
+        "pinyin": "xiǎngfǎ",
+        "senseId": "l4023-v-1809-sense",
+        "ordinal": 1809,
+        "note": "4 xiǎngfǎ 名; 想法 chỉ điều một người nghĩ/định làm; chưa nhất thiết là kế hoạch được chấp thuận. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4023-v-1868",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 125,
+          "physicalPage": 126,
+          "printedPage": 123,
+          "section": "vocabulary",
+          "entry": "ordinal 1868"
+        },
+        "written": "意见",
+        "pinyin": "yìjiàn",
+        "senseId": "l4023-v-1868-sense",
+        "ordinal": 1868,
+        "note": "4 yìjiàn 名; 意见 có thể là đề nghị hoặc quan điểm, cũng có nghĩa bất mãn ở ngữ cảnh khác; ở đây là góp ý công việc. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-317",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "317"
+        },
+        "written": "讨",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 317,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-199",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "199"
+        },
+        "written": "论",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 199,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-90",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "90"
+        },
+        "written": "供",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 90,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-4023",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 395,
+          "physicalPage": 396,
+          "printedPage": 393,
+          "section": "grammar",
+          "entry": "说什么/怎么（着）也得X：说什么也得"
+        },
+        "written": "说什么",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l4023-c0",
+      "version": 1,
+      "senseId": "l4023-v-1723-sense",
+      "hanzi": "讨论",
+      "dictionaryPinyin": "tǎo lùn",
+      "meaning": "thảo luận",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4023-v-1723"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4023-c1",
+      "version": 1,
+      "senseId": "l4023-v-1727-sense",
+      "hanzi": "提出",
+      "dictionaryPinyin": "tí chū",
+      "meaning": "đề xuất; nêu ra",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4023-v-1727"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4023-c2",
+      "version": 1,
+      "senseId": "l4023-v-1728-sense",
+      "hanzi": "提到",
+      "dictionaryPinyin": "tí dào",
+      "meaning": "nhắc đến",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4023-v-1728"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4023-c3",
+      "version": 1,
+      "senseId": "l4023-v-1729-sense",
+      "hanzi": "提供",
+      "dictionaryPinyin": "tí gōng",
+      "meaning": "cung cấp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4023-v-1729"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4023-c4",
+      "version": 1,
+      "senseId": "l4023-v-1809-sense",
+      "hanzi": "想法",
+      "dictionaryPinyin": "xiǎng fǎ",
+      "meaning": "ý tưởng; suy nghĩ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4023-v-1809"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4023-c5",
+      "version": 1,
+      "senseId": "l4023-v-1868-sense",
+      "hanzi": "意见",
+      "dictionaryPinyin": "yì jiàn",
+      "meaning": "ý kiến",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4023-v-1868"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l4023-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4023-t0",
+      "type": "teaching",
+      "title": "讨论 · thảo luận",
+      "text": "讨论 là trao đổi để làm rõ vấn đề; không mặc định là tranh cãi hoặc đã ra quyết định.",
+      "hanzi": "我们下午讨论新的安排。",
+      "pinyin": "Wǒ men xià wǔ tǎo lùn xīn de ān pái.",
+      "meaning": "Chiều chúng tôi thảo luận sắp xếp mới.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4023-t1",
+      "type": "teaching",
+      "title": "提出 · đề xuất; nêu ra",
+      "text": "提出 thường đi với 问题、建议, đưa vấn đề/ý kiến ra cho người khác xem xét.",
+      "hanzi": "她提出了一个具体问题。",
+      "pinyin": "Tā tí chū le yí ge jù tǐ wèn tí.",
+      "meaning": "Cô ấy nêu một vấn đề cụ thể.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4023-t2",
+      "type": "teaching",
+      "title": "提到 · nhắc đến",
+      "text": "提到 là nói tới, có thể chỉ nhắc qua; khác 提出 là chủ động nêu vấn đề/đề xuất.",
+      "hanzi": "经理提到了上周的讨论。",
+      "pinyin": "Jīng lǐ tí dào le shàng zhōu de tǎo lùn.",
+      "meaning": "Quản lý nhắc cuộc thảo luận tuần trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4023-t3",
+      "type": "teaching",
+      "title": "提供 · cung cấp",
+      "text": "提供 đưa thông tin/đồ dùng để người khác dùng, không phải đồng ý một ý kiến. Nhận diện chữ 供 trong 提供; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "同事提供了新的资料。",
+      "pinyin": "Tóng shì tí gōng le xīn de zī liào.",
+      "meaning": "Đồng nghiệp cung cấp tư liệu mới.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4023-t4",
+      "type": "teaching",
+      "title": "想法 · ý tưởng; suy nghĩ",
+      "text": "想法 chỉ điều một người nghĩ/định làm; chưa nhất thiết là kế hoạch được chấp thuận.",
+      "hanzi": "我想听听你的想法。",
+      "pinyin": "Wǒ xiǎng tīng ting nǐ de xiǎng fǎ.",
+      "meaning": "Tôi muốn nghe suy nghĩ của bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4023-t5",
+      "type": "teaching",
+      "title": "意见 · ý kiến",
+      "text": "意见 có thể là đề nghị hoặc quan điểm, cũng có nghĩa bất mãn ở ngữ cảnh khác; ở đây là góp ý công việc.",
+      "hanzi": "大家都可以发表意见。",
+      "pinyin": "Dà jiā dōu kě yǐ fā biǎo yì jiàn.",
+      "meaning": "Mọi người đều có thể phát biểu ý kiến.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4023-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "说什么也得… nhấn mạnh quyết tâm phải làm cho được, như phải bàn rõ vấn đề. Chỉ luyện cụm 说什么也得, không diễn giải thành mệnh lệnh buộc người khác đồng ý hoặc thành mọi biến thể 怎么着.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4023-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "会议上，小田提出时间安排的问题，经理提到上周的讨论，请同事提供资料。大家的想法不同，但都可以发表意见。小田说：“这次说什么也得先把问题讨论清楚，不能因为着急就随便决定。”最后大家约好核对资料后再作决定。",
+      "pinyin": "Huì yì shàng, Xiǎo Tián tí chū shí jiān ān pái de wèn tí, jīng lǐ tí dào shàng zhōu de tǎo lùn, qǐng tóng shì tí gōng zī liào. Dà jiā de xiǎng fǎ bù tóng, dàn dōu kě yǐ fā biǎo yì jiàn. Xiǎo Tián shuō: “Zhè cì shuō shén me yě děi xiān bǎ wèn tí tǎo lùn qīng chu, bù néng yīn wèi zháo jí jiù suí biàn jué dìng.” Zuì hòu dà jiā yuē hǎo hé duì zī liào hòu zài zuò jué dìng.",
+      "meaning": "Nhóm có ý khác nhau và chấp nhận nghe góp ý; họ quyết kiểm tra tư liệu trước khi ra quyết định.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4023-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l4023-v1-e0"
+    },
+    {
+      "id": "l4023-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l4023-v1-e1"
+    },
+    {
+      "id": "l4023-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l4023-v1-e2"
+    },
+    {
+      "id": "l4023-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l4023-v1-e3"
+    },
+    {
+      "id": "l4023-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l4023-v1-e4"
+    },
+    {
+      "id": "l4023-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l4023-v1-e5"
+    },
+    {
+      "id": "l4023-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l4023-v1-e6"
+    },
+    {
+      "id": "l4023-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l4023-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l4023-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4023-c0",
+      "senseId": "l4023-v-1723-sense",
+      "keyRef": "l4023-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “thảo luận” để điền câu: 我们下午□新的安排。",
+      "choices": [
+        "提出",
+        "提到",
+        "提供",
+        "想法",
+        "意见",
+        "讨论"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4023-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4023-c1",
+      "senseId": "l4023-v-1727-sense",
+      "keyRef": "l4023-v1-k1",
+      "prompt": "Ghi pinyin của 提出 trong câu “她提出了一个具体问题。”, theo nghĩa “đề xuất; nêu ra”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4023-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4023-c2",
+      "senseId": "l4023-v-1728-sense",
+      "keyRef": "l4023-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “nhắc đến”: 经理□了上周的讨论。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4023-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l4023-c3",
+      "senseId": "l4023-v-1729-sense",
+      "keyRef": "l4023-v1-k3",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “cung cấp”: 提□ (tí gōng). Ngữ cảnh: 同事□了新的资料。",
+      "choices": [
+        "供",
+        "洪",
+        "拱",
+        "俱"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4023-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4023-c4",
+      "senseId": "l4023-v-1809-sense",
+      "keyRef": "l4023-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “ý tưởng; suy nghĩ” để điền câu: 我想听听你的□。",
+      "choices": [
+        "意见",
+        "讨论",
+        "提出",
+        "提到",
+        "提供",
+        "想法"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4023-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4023-c5",
+      "senseId": "l4023-v-1868-sense",
+      "keyRef": "l4023-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “ý kiến”: 大家都可以发表□。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4023-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4023-c0",
+      "senseId": "l4023-v-1723-sense",
+      "keyRef": "l4023-v1-k6",
+      "prompt": "Nhóm hẹn làm gì trước khi quyết định?",
+      "choices": [
+        "马上停止讨论",
+        "只听经理一个人的意见",
+        "核对资料"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4023-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l4023-c3",
+      "senseId": "l4023-v-1729-sense",
+      "keyRef": "l4023-v1-k7",
+      "prompt": "Sắp xếp nguyên các cụm thành câu theo mẫu đang học; không thêm/bớt từ.",
+      "choices": [
+        "这次",
+        "说什么也得",
+        "先把问题",
+        "讨论清楚。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l4023-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l4023-v1-e0",
+      "senseId": "l4023-v-1723-sense",
+      "accepted": [
+        "讨论"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "讨论: thảo luận. 讨论 là trao đổi để làm rõ vấn đề; không mặc định là tranh cãi hoặc đã ra quyết định. Chiều chúng tôi thảo luận sắp xếp mới."
+    },
+    {
+      "id": "l4023-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l4023-v1-e1",
+      "senseId": "l4023-v-1727-sense",
+      "accepted": [
+        "tí chū"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc tí chū. 提出 thường đi với 问题、建议, đưa vấn đề/ý kiến ra cho người khác xem xét."
+    },
+    {
+      "id": "l4023-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l4023-v1-e2",
+      "senseId": "l4023-v-1728-sense",
+      "accepted": [
+        "提到"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 提到. 提到 là nói tới, có thể chỉ nhắc qua; khác 提出 là chủ động nêu vấn đề/đề xuất. Quản lý nhắc cuộc thảo luận tuần trước."
+    },
+    {
+      "id": "l4023-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l4023-v1-e3",
+      "senseId": "l4023-v-1729-sense",
+      "accepted": [
+        "供"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 供 tạo từ 提供. 提供 đưa thông tin/đồ dùng để người khác dùng, không phải đồng ý một ý kiến. Nhận diện chữ 供 trong 提供; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l4023-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l4023-v1-e4",
+      "senseId": "l4023-v-1809-sense",
+      "accepted": [
+        "想法"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "想法: ý tưởng; suy nghĩ. 想法 chỉ điều một người nghĩ/định làm; chưa nhất thiết là kế hoạch được chấp thuận. Tôi muốn nghe suy nghĩ của bạn."
+    },
+    {
+      "id": "l4023-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l4023-v1-e5",
+      "senseId": "l4023-v-1868-sense",
+      "accepted": [
+        "意见"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 意见. 意见 có thể là đề nghị hoặc quan điểm, cũng có nghĩa bất mãn ở ngữ cảnh khác; ở đây là góp ý công việc. Mọi người đều có thể phát biểu ý kiến."
+    },
+    {
+      "id": "l4023-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l4023-v1-e6",
+      "senseId": "l4023-v-1723-sense",
+      "accepted": [
+        "核对资料"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 核对资料. Nhóm có ý khác nhau và chấp nhận nghe góp ý; họ quyết kiểm tra tư liệu trước khi ra quyết định."
+    },
+    {
+      "id": "l4023-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l4023-v1-e7",
+      "senseId": "l4023-v-1729-sense",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 说什么也得… nhấn mạnh quyết tâm phải làm cho được, như phải bàn rõ vấn đề. Chỉ luyện cụm 说什么也得, không diễn giải thành mệnh lệnh buộc người khác đồng ý hoặc thành mọi biến thể 怎么着."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

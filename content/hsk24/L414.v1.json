@@ -1,0 +1,772 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "5fcfe5ecbda10874bc13a76f93e7a0574d58ef530bac8906c7cf0b7796d4581c",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ebe",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L414",
+    "version": 1,
+    "versionId": "l414-draft-v1",
+    "title": "Hỏi rõ hồ sơ thuê nhà",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Hỏi rõ hồ sơ thuê nhà; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "要是……，就……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 23,
+      "physicalPage": 24,
+      "printedPage": 21,
+      "section": "task",
+      "entry": "十"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T16:59:34.156008Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-home",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 23,
+          "physicalPage": 24,
+          "printedPage": 21,
+          "section": "task",
+          "entry": "十"
+        },
+        "written": "交流居住情况、社区情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-5ea1bc95bd79",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "房屋租赁与买卖"
+        },
+        "written": "房屋租赁与买卖",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l414-v-1195",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1195"
+        },
+        "written": "房东",
+        "pinyin": "fángdōng",
+        "senseId": "l414-v-1195-sense",
+        "ordinal": 1195,
+        "note": "4 fángdōng 名; 房东 là bên cho thuê trong quan hệ thuê nhà; khác 房客 là người thuê. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l414-v-1196",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1196"
+        },
+        "written": "房租",
+        "pinyin": "fángzū",
+        "senseId": "l414-v-1196-sense",
+        "ordinal": 1196,
+        "note": "4 fángzū 名; 房租 là khoản tiền thuê theo kỳ đã thống nhất; không tự bao gồm điện nước. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l414-v-1092",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1092"
+        },
+        "written": "出租",
+        "pinyin": "chūzū",
+        "senseId": "l414-v-1092-sense",
+        "ordinal": 1092,
+        "note": "4 chūzū 动; 出租 nêu phía đưa tài sản cho người khác thuê; không nhầm với thuê dùng 租 khi vai trò không rõ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l414-v-1108",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1108"
+        },
+        "written": "存",
+        "pinyin": "cún",
+        "senseId": "l414-v-1108-sense",
+        "ordinal": 1108,
+        "note": "4 cún 动; 存 ở 存文件 là lưu giữ tệp; nghĩa gửi tiền không phải nghĩa đang luyện trong câu. Nhận diện chữ 存 trong 存; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l414-v-1213",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1213"
+        },
+        "written": "复印",
+        "pinyin": "fùyìn",
+        "senseId": "l414-v-1213-sense",
+        "ordinal": 1213,
+        "note": "4 fùyìn 动; 复印 thường sao bản giấy; phân biệt 打印 là in dữ liệu từ máy ra, dù thiết bị có thể làm cả hai. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l414-v-1214",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1214"
+        },
+        "written": "复杂",
+        "pinyin": "fùzá",
+        "senseId": "l414-v-1214-sense",
+        "ordinal": 1214,
+        "note": "4 fùzá 形; 复杂 nói có nhiều yếu tố/quy trình khó nắm; chưa khẳng định không thể giải quyết. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-42",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "42"
+        },
+        "written": "存",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 42,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-386",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "386"
+        },
+        "written": "印",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 386,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-403",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "403"
+        },
+        "written": "杂",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 403,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-414",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "假设复句：要是，就"
+        },
+        "written": "要是……，就……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l414-c0",
+      "version": 1,
+      "senseId": "l414-v-1195-sense",
+      "hanzi": "房东",
+      "dictionaryPinyin": "fáng dōng",
+      "meaning": "chủ nhà cho thuê",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l414-v-1195"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l414-c1",
+      "version": 1,
+      "senseId": "l414-v-1196-sense",
+      "hanzi": "房租",
+      "dictionaryPinyin": "fáng zū",
+      "meaning": "tiền thuê nhà",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l414-v-1196"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l414-c2",
+      "version": 1,
+      "senseId": "l414-v-1092-sense",
+      "hanzi": "出租",
+      "dictionaryPinyin": "chū zū",
+      "meaning": "cho thuê",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l414-v-1092"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l414-c3",
+      "version": 1,
+      "senseId": "l414-v-1108-sense",
+      "hanzi": "存",
+      "dictionaryPinyin": "cún",
+      "meaning": "lưu, cất; gửi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l414-v-1108"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l414-c4",
+      "version": 1,
+      "senseId": "l414-v-1213-sense",
+      "hanzi": "复印",
+      "dictionaryPinyin": "fù yìn",
+      "meaning": "photocopy, sao chụp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l414-v-1213"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l414-c5",
+      "version": 1,
+      "senseId": "l414-v-1214-sense",
+      "hanzi": "复杂",
+      "dictionaryPinyin": "fù zá",
+      "meaning": "phức tạp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l414-v-1214"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l414-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 清单 qīngdān: danh sách; 补齐 bǔ qí: bổ sung cho đủ; 原件 yuánjiàn: bản gốc; 电子文件 diànzǐ wénjiàn: tệp điện tử; 合同 hétong: hợp đồng. Tình huống ngôn ngữ hư cấu, chưa kiểm tra tính pháp lý hồ sơ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l414-t0",
+      "type": "teaching",
+      "title": "房东 · chủ nhà cho thuê",
+      "text": "房东 là bên cho thuê trong quan hệ thuê nhà; khác 房客 là người thuê.",
+      "hanzi": "房东同意明天带我们看房。",
+      "pinyin": "Fángdōng tóngyì míngtiān dài wǒmen kàn fáng.",
+      "meaning": "Chủ nhà đồng ý ngày mai đưa chúng tôi xem nhà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l414-t1",
+      "type": "teaching",
+      "title": "房租 · tiền thuê nhà",
+      "text": "房租 là khoản tiền thuê theo kỳ đã thống nhất; không tự bao gồm điện nước.",
+      "hanzi": "这里每个月的房租是多少？",
+      "pinyin": "Zhèlǐ měi ge yuè de fángzū shì duōshao?",
+      "meaning": "Tiền thuê mỗi tháng ở đây là bao nhiêu?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l414-t2",
+      "type": "teaching",
+      "title": "出租 · cho thuê",
+      "text": "出租 nêu phía đưa tài sản cho người khác thuê; không nhầm với thuê dùng 租 khi vai trò không rõ.",
+      "hanzi": "这套房子下个月开始出租。",
+      "pinyin": "Zhè tào fángzi xià ge yuè kāishǐ chūzū.",
+      "meaning": "Căn nhà này bắt đầu cho thuê từ tháng sau.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l414-t3",
+      "type": "teaching",
+      "title": "存 · lưu, cất; gửi",
+      "text": "存 ở 存文件 là lưu giữ tệp; nghĩa gửi tiền không phải nghĩa đang luyện trong câu. Nhận diện chữ 存 trong 存; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "请把这份文件存在电脑里。",
+      "pinyin": "Qǐng bǎ zhè fèn wénjiàn cún zài diànnǎo lǐ.",
+      "meaning": "Hãy lưu tài liệu này trong máy tính.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l414-t4",
+      "type": "teaching",
+      "title": "复印 · photocopy, sao chụp",
+      "text": "复印 thường sao bản giấy; phân biệt 打印 là in dữ liệu từ máy ra, dù thiết bị có thể làm cả hai.",
+      "hanzi": "我先复印这张表，再把原件收好。",
+      "pinyin": "Wǒ xiān fùyìn zhè zhāng biǎo, zài bǎ yuánjiàn shōu hǎo.",
+      "meaning": "Tôi photocopy mẫu này rồi cất bản gốc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l414-t5",
+      "type": "teaching",
+      "title": "复杂 · phức tạp",
+      "text": "复杂 nói có nhiều yếu tố/quy trình khó nắm; chưa khẳng định không thể giải quyết.",
+      "hanzi": "这份说明并不复杂。",
+      "pinyin": "Zhè fèn shuōmíng bìng bù fùzá.",
+      "meaning": "Hướng dẫn này không phức tạp.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l414-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "要是 dẫn giả thiết chưa được xác nhận; 就 đánh dấu hệ quả được người nói dự kiến. 要是材料不全，就先补材料 không tự chứng minh đã thiếu hồ sơ hay đã ký hợp đồng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l414-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "房东准备出租一套小房子。小郑先问房租包不包括水费，再看材料清单。房东说手续不复杂：要是材料不全，就先补齐。小郑复印表格，把电子文件存好，当天没有签合同。",
+      "pinyin": "Fángdōng zhǔnbèi chūzū yí tào xiǎo fángzi. Xiǎo Zhèng xiān wèn fángzū bāo bu bāokuò shuǐ fèi, zài kàn cáiliào qīngdān. Fángdōng shuō shǒuxù bù fùzá: Yàoshi cáiliào bù quán, jiù xiān bǔ qí. Xiǎo Zhèng fùyìn biǎogé, bǎ diànzǐ wénjiàn cún hǎo, dàngtiān méiyǒu qiān hétong.",
+      "meaning": "Trịnh hỏi tiền thuê có gồm tiền nước không, đọc danh sách hồ sơ, sao mẫu và lưu tệp. Đoạn nói rõ hôm đó chưa ký hợp đồng.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l414-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l414-v1-e0"
+    },
+    {
+      "id": "l414-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l414-v1-e1"
+    },
+    {
+      "id": "l414-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l414-v1-e2"
+    },
+    {
+      "id": "l414-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l414-v1-e3"
+    },
+    {
+      "id": "l414-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l414-v1-e4"
+    },
+    {
+      "id": "l414-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l414-v1-e5"
+    },
+    {
+      "id": "l414-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l414-v1-e6"
+    },
+    {
+      "id": "l414-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l414-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l414-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l414-c0",
+      "senseId": "l414-v-1195-sense",
+      "keyRef": "l414-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “chủ nhà cho thuê” để điền câu: □同意明天带我们看房。",
+      "choices": [
+        "房租",
+        "出租",
+        "存",
+        "复印",
+        "复杂",
+        "房东"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l414-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l414-c1",
+      "senseId": "l414-v-1196-sense",
+      "keyRef": "l414-v1-k1",
+      "prompt": "Ghi pinyin của 房租 trong câu “这里每个月的房租是多少？”, theo nghĩa “tiền thuê nhà”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l414-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l414-c2",
+      "senseId": "l414-v-1092-sense",
+      "keyRef": "l414-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “cho thuê”: 这套房子下个月开始□。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l414-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l414-c3",
+      "senseId": "l414-v-1108-sense",
+      "keyRef": "l414-v1-k3",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “lưu, cất; gửi”: □ (cún). Ngữ cảnh: 请把这份文件□在电脑里。",
+      "choices": [
+        "存",
+        "在",
+        "仔",
+        "孝"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l414-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l414-c4",
+      "senseId": "l414-v-1213-sense",
+      "keyRef": "l414-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “photocopy, sao chụp” để điền câu: 我先□这张表，再把原件收好。",
+      "choices": [
+        "复杂",
+        "房东",
+        "房租",
+        "出租",
+        "存",
+        "复印"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l414-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l414-c5",
+      "senseId": "l414-v-1214-sense",
+      "keyRef": "l414-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “phức tạp”: 这份说明并不□。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l414-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l414-c0",
+      "senseId": "l414-v-1195-sense",
+      "keyRef": "l414-v1-k6",
+      "prompt": "Ngày đó Trịnh đã ký hợp đồng chưa?",
+      "choices": [
+        "已经自动签好",
+        "房东替他签了",
+        "没有签"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l414-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l414-c3",
+      "senseId": "l414-v-1108-sense",
+      "keyRef": "l414-v1-k7",
+      "prompt": "Xếp giả thiết, bắt đầu bằng 要是材料不全.",
+      "choices": [
+        "就先补齐",
+        "要是材料不全"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l414-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l414-v1-e0",
+      "senseId": "l414-v-1195-sense",
+      "accepted": [
+        "房东"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "房东: chủ nhà cho thuê. 房东 là bên cho thuê trong quan hệ thuê nhà; khác 房客 là người thuê. Chủ nhà đồng ý ngày mai đưa chúng tôi xem nhà."
+    },
+    {
+      "id": "l414-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l414-v1-e1",
+      "senseId": "l414-v-1196-sense",
+      "accepted": [
+        "fáng zū"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc fáng zū. 房租 là khoản tiền thuê theo kỳ đã thống nhất; không tự bao gồm điện nước."
+    },
+    {
+      "id": "l414-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l414-v1-e2",
+      "senseId": "l414-v-1092-sense",
+      "accepted": [
+        "出租"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 出租. 出租 nêu phía đưa tài sản cho người khác thuê; không nhầm với thuê dùng 租 khi vai trò không rõ. Căn nhà này bắt đầu cho thuê từ tháng sau."
+    },
+    {
+      "id": "l414-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l414-v1-e3",
+      "senseId": "l414-v-1108-sense",
+      "accepted": [
+        "存"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 存 tạo từ 存. 存 ở 存文件 là lưu giữ tệp; nghĩa gửi tiền không phải nghĩa đang luyện trong câu. Nhận diện chữ 存 trong 存; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l414-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l414-v1-e4",
+      "senseId": "l414-v-1213-sense",
+      "accepted": [
+        "复印"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "复印: photocopy, sao chụp. 复印 thường sao bản giấy; phân biệt 打印 là in dữ liệu từ máy ra, dù thiết bị có thể làm cả hai. Tôi photocopy mẫu này rồi cất bản gốc."
+    },
+    {
+      "id": "l414-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l414-v1-e5",
+      "senseId": "l414-v-1214-sense",
+      "accepted": [
+        "复杂"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 复杂. 复杂 nói có nhiều yếu tố/quy trình khó nắm; chưa khẳng định không thể giải quyết. Hướng dẫn này không phức tạp."
+    },
+    {
+      "id": "l414-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l414-v1-e6",
+      "senseId": "l414-v-1195-sense",
+      "accepted": [
+        "没有签"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 没有签. Trịnh hỏi tiền thuê có gồm tiền nước không, đọc danh sách hồ sơ, sao mẫu và lưu tệp. Đoạn nói rõ hôm đó chưa ký hợp đồng."
+    },
+    {
+      "id": "l414-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l414-v1-e7",
+      "senseId": "l414-v-1108-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 要是 dẫn giả thiết chưa được xác nhận; 就 đánh dấu hệ quả được người nói dự kiến. 要是材料不全，就先补材料 không tự chứng minh đã thiếu hồ sơ hay đã ký hợp đồng."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

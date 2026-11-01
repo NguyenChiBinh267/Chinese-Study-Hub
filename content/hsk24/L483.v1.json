@@ -1,0 +1,794 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "ee12d97c58101864db65a90c58e956ad2f377894847a5d0c6c2c7af058e3ded1",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ebh",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L483",
+    "version": 1,
+    "versionId": "l483-draft-v1",
+    "title": "Ôn HSK4 sau batch 6 · Đọc điều kiện học và phân biệt các bậc học",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Ôn từ/cấu trúc đã học trong ngữ cảnh quen; không thêm từ vựng.",
+      "Có hỗ trợ, không phải đề HSK, không cấp mastery hay đánh giá viết tay."
+    ],
+    "prerequisites": [
+      "l417-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "不管……，都/也……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 23,
+      "physicalPage": 24,
+      "printedPage": 21,
+      "section": "task",
+      "entry": "十二"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T17:18:36.967Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 23,
+          "physicalPage": 24,
+          "printedPage": 21,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "谈论教学、学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-2f205b73e044",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "课程情况"
+        },
+        "written": "课程情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l417-v-1201",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1201"
+        },
+        "written": "分数",
+        "pinyin": "fēnshù",
+        "senseId": "l417-v-1201-sense",
+        "ordinal": 1201,
+        "note": "4 fēnshù 名; 分数 trong bài là điểm kết quả học; chưa luyện nghĩa phân số của cùng từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l417-v-1114",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1114"
+        },
+        "written": "达到",
+        "pinyin": "dádào",
+        "senseId": "l417-v-1114-sense",
+        "ordinal": 1114,
+        "note": "4 dádào 动; 达到 đi với mức/chỉ tiêu cụ thể, khác 到达 thường nói tới địa điểm. Nhận diện chữ 达 trong 达到; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l417-v-1208",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1208"
+        },
+        "written": "符合",
+        "pinyin": "fúhé",
+        "senseId": "l417-v-1208-sense",
+        "ordinal": 1208,
+        "note": "4 fúhé 动; 符合 nhận tiêu chuẩn/điều kiện, không đi với người theo mọi cách dùng của 合适. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l417-v-1237",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1237"
+        },
+        "written": "高考",
+        "pinyin": "gāokǎo",
+        "senseId": "l417-v-1237-sense",
+        "ordinal": 1237,
+        "note": "4 gāokǎo 名; 高考 là tên gọi kỳ thi tuyển sinh đại học ở Trung Quốc; bài không đưa quy định dự thi hay lịch thật. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l417-v-1042",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1042"
+        },
+        "written": "博士",
+        "pinyin": "bóshì",
+        "senseId": "l417-v-1042-sense",
+        "ordinal": 1042,
+        "note": "4 bóshì 名; 博士 là bậc học/học vị hoặc người có học vị tùy ngữ cảnh; không đồng nghĩa bác sĩ 大夫. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l417-v-1253",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 110,
+          "physicalPage": 111,
+          "printedPage": 108,
+          "section": "vocabulary",
+          "entry": "ordinal 1253"
+        },
+        "written": "功课",
+        "pinyin": "gōngkè",
+        "senseId": "l417-v-1253-sense",
+        "ordinal": 1253,
+        "note": "4 gōngkè 名; 功课 nói việc học/bài vở; 做功课 không chỉ một bài kiểm tra lấy điểm. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-43",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "43"
+        },
+        "written": "达",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 43,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-73",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "73"
+        },
+        "written": "符",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 73,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-18",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "18"
+        },
+        "written": "博",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 18,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-89",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "89"
+        },
+        "written": "功",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 89,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-417",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "条件复句：不管，都"
+        },
+        "written": "不管……，都/也……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l417-c0",
+      "version": 1,
+      "senseId": "l417-v-1201-sense",
+      "hanzi": "分数",
+      "dictionaryPinyin": "fēn shù",
+      "meaning": "điểm số",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l417-v-1201"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l417-c1",
+      "version": 1,
+      "senseId": "l417-v-1114-sense",
+      "hanzi": "达到",
+      "dictionaryPinyin": "dá dào",
+      "meaning": "đạt tới",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l417-v-1114"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l417-c2",
+      "version": 1,
+      "senseId": "l417-v-1208-sense",
+      "hanzi": "符合",
+      "dictionaryPinyin": "fú hé",
+      "meaning": "phù hợp với",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l417-v-1208"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l417-c3",
+      "version": 1,
+      "senseId": "l417-v-1237-sense",
+      "hanzi": "高考",
+      "dictionaryPinyin": "gāo kǎo",
+      "meaning": "kỳ thi tuyển sinh đại học Trung Quốc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l417-v-1237"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l417-c4",
+      "version": 1,
+      "senseId": "l417-v-1042-sense",
+      "hanzi": "博士",
+      "dictionaryPinyin": "bó shì",
+      "meaning": "tiến sĩ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l417-v-1042"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l417-c5",
+      "version": 1,
+      "senseId": "l417-v-1253-sense",
+      "hanzi": "功课",
+      "dictionaryPinyin": "gōng kè",
+      "meaning": "bài vở, môn học",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l417-v-1253"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l483-guide",
+      "type": "teaching",
+      "title": "Ôn có hỗ trợ · không phải bài thi",
+      "text": "Nên thử nhớ trước khi xem phần nhắc. Các ví dụ và ngữ cảnh được lặp có chủ đích để ôn; không tính thêm từ, không xác nhận năng lực độc lập.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l483-reminder0",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 公布 gōngbù: công bố; 申请 shēnqǐng: đơn xin; 说明会 shuōmínghuì: buổi giới thiệu; 入学 rùxué: nhập học; 阶段 jiēduàn: giai đoạn.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l483-reminder1",
+      "type": "teaching",
+      "title": "分数 · điểm số",
+      "text": "分数 trong bài là điểm kết quả học; chưa luyện nghĩa phân số của cùng từ.",
+      "hanzi": "这次考试的分数还没有公布。",
+      "pinyin": "Zhè cì kǎoshì de fēnshù hái méiyǒu gōngbù.",
+      "meaning": "Điểm kỳ thi lần này chưa được công bố.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l483-reminder2",
+      "type": "teaching",
+      "title": "达到 · đạt tới",
+      "text": "达到 đi với mức/chỉ tiêu cụ thể, khác 到达 thường nói tới địa điểm. Nhận diện chữ 达 trong 达到; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "他的成绩达到了课程要求。",
+      "pinyin": "Tā de chéngjì dádào le kèchéng yāoqiú.",
+      "meaning": "Kết quả của anh ấy đã đạt yêu cầu khóa học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l483-reminder3",
+      "type": "teaching",
+      "title": "符合 · phù hợp với",
+      "text": "符合 nhận tiêu chuẩn/điều kiện, không đi với người theo mọi cách dùng của 合适.",
+      "hanzi": "这份申请符合学校的要求。",
+      "pinyin": "Zhè fèn shēnqǐng fúhé xuéxiào de yāoqiú.",
+      "meaning": "Đơn này phù hợp yêu cầu của trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l483-reminder4",
+      "type": "teaching",
+      "title": "高考 · kỳ thi tuyển sinh đại học Trung Quốc",
+      "text": "高考 là tên gọi kỳ thi tuyển sinh đại học ở Trung Quốc; bài không đưa quy định dự thi hay lịch thật.",
+      "hanzi": "姐姐正在准备高考。",
+      "pinyin": "Jiějie zhèngzài zhǔnbèi gāokǎo.",
+      "meaning": "Chị gái đang chuẩn bị cho kỳ thi tuyển sinh đại học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l483-reminder5",
+      "type": "teaching",
+      "title": "博士 · tiến sĩ",
+      "text": "博士 là bậc học/học vị hoặc người có học vị tùy ngữ cảnh; không đồng nghĩa bác sĩ 大夫.",
+      "hanzi": "他完成本科后，计划继续读到博士。",
+      "pinyin": "Tā wánchéng běnkē hòu, jìhuà jìxù dú dào bóshì.",
+      "meaning": "Sau bậc cử nhân, anh ấy dự định học tiếp đến tiến sĩ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l483-reminder6",
+      "type": "teaching",
+      "title": "功课 · bài vở, môn học",
+      "text": "功课 nói việc học/bài vở; 做功课 không chỉ một bài kiểm tra lấy điểm.",
+      "hanzi": "她每天晚上先做功课。",
+      "pinyin": "Tā měi tiān wǎnshang xiān zuò gōngkè.",
+      "meaning": "Mỗi tối cô ấy làm bài vở trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l483-reminder7",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "不管+trường hợp lựa chọn nêu các khả năng, 都 nêu điểm không đổi trong quy tắc hư cấu: 不管选哪门课，都要完成作业. Không coi quy tắc của đoạn là yêu cầu tuyển sinh thật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l483-reminder8",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "在一次虚构的课程说明会上，老师说不管选哪门课，都要完成规定的功课。小安的分数达到本班要求，但材料是否符合报名条件还要另查。高考和博士学习只是大家谈到的不同学习阶段，不是这门课的入学证明。",
+      "pinyin": "Zài yí cì xūgòu de kèchéng shuōmínghuì shàng, lǎoshī shuō bùguǎn xuǎn nǎ mén kè, dōu yào wánchéng guīdìng de gōngkè. Xiǎo Ān de fēnshù dádào běn bān yāoqiú, dàn cáiliào shìfǒu fúhé bàomíng tiáojiàn hái yào lìng chá. Gāokǎo hé bóshì xuéxí zhǐshì dàjiā tán dào de bù tóng xuéxí jiēduàn, bú shì zhè mén kè de rùxué zhèngmíng.",
+      "meaning": "Trong buổi giới thiệu hư cấu, mọi môn đều cần hoàn thành bài vở. An đủ điểm nhưng điều kiện hồ sơ vẫn phải kiểm tra riêng; các bậc học được nhắc không phải bằng chứng nhập học.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l483-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l483-e0"
+    },
+    {
+      "id": "l483-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l483-e1"
+    },
+    {
+      "id": "l483-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l483-e2"
+    },
+    {
+      "id": "l483-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l483-e3"
+    },
+    {
+      "id": "l483-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l483-e4"
+    },
+    {
+      "id": "l483-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l483-e5"
+    },
+    {
+      "id": "l483-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l483-e6"
+    },
+    {
+      "id": "l483-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l483-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l483-e0",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l417-c0",
+      "senseId": "l417-v-1201-sense",
+      "keyRef": "l483-k0",
+      "prompt": "Ôn cách đọc 分数 trong nghĩa “điểm số”.",
+      "choices": [],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l483-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l417-c1",
+      "senseId": "l417-v-1114-sense",
+      "keyRef": "l483-k1",
+      "prompt": "Ôn trong phạm vi nghĩa đã học · Nhận diện chữ trong từ mang nghĩa “đạt tới”: □到 (dá dào). Ngữ cảnh: 他的成绩□了课程要求。",
+      "choices": [
+        "达",
+        "迭",
+        "迂",
+        "过"
+      ],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l483-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l417-c2",
+      "senseId": "l417-v-1208-sense",
+      "keyRef": "l483-k2",
+      "prompt": "Ôn cách đọc 符合 trong nghĩa “phù hợp với”.",
+      "choices": [],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l483-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l417-c3",
+      "senseId": "l417-v-1237-sense",
+      "keyRef": "l483-k3",
+      "prompt": "Ôn trong phạm vi nghĩa đã học · Chọn mục từ của bài có nghĩa “kỳ thi tuyển sinh đại học Trung Quốc” để điền câu: 姐姐正在准备□。",
+      "choices": [
+        "符合",
+        "高考",
+        "博士",
+        "功课",
+        "分数",
+        "达到"
+      ],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l483-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l417-c4",
+      "senseId": "l417-v-1042-sense",
+      "keyRef": "l483-k4",
+      "prompt": "Ôn cách đọc 博士 trong nghĩa “tiến sĩ”.",
+      "choices": [],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l483-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l417-c5",
+      "senseId": "l417-v-1253-sense",
+      "keyRef": "l483-k5",
+      "prompt": "Ôn trong phạm vi nghĩa đã học · Điền đúng mục từ của bài vào □, nghĩa “bài vở, môn học”: 她每天晚上先做□。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l483-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l417-c0",
+      "senseId": "l417-v-1201-sense",
+      "keyRef": "l483-k6",
+      "prompt": "Đọc lại ngữ cảnh nhắc dưới đây · Đủ điểm có tự chứng minh hồ sơ đã đủ điều kiện không?",
+      "choices": [
+        "可以不做功课",
+        "还要另查材料",
+        "已经证明所有条件"
+      ],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l483-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l417-c0",
+      "senseId": "l417-v-1201-sense",
+      "keyRef": "l483-k7",
+      "prompt": "Đọc lại ngữ cảnh nhắc dưới đây · Xếp quy tắc, bắt đầu bằng 不管选哪门课.",
+      "choices": [
+        "完成作业",
+        "都",
+        "不管选哪门课",
+        "要"
+      ],
+      "inputHint": "Phạm vi có giới hạn trong đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l483-k0",
+      "version": 1,
+      "exerciseVersionId": "l483-e0",
+      "senseId": "l417-v-1201-sense",
+      "accepted": [
+        "fēn shù"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc fēn shù, đúng nghĩa đã học."
+    },
+    {
+      "id": "l483-k1",
+      "version": 1,
+      "exerciseVersionId": "l483-e1",
+      "senseId": "l417-v-1114-sense",
+      "accepted": [
+        "达"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 达 tạo từ 达到. 达到 đi với mức/chỉ tiêu cụ thể, khác 到达 thường nói tới địa điểm. Nhận diện chữ 达 trong 达到; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l483-k2",
+      "version": 1,
+      "exerciseVersionId": "l483-e2",
+      "senseId": "l417-v-1208-sense",
+      "accepted": [
+        "fú hé"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc fú hé, đúng nghĩa đã học."
+    },
+    {
+      "id": "l483-k3",
+      "version": 1,
+      "exerciseVersionId": "l483-e3",
+      "senseId": "l417-v-1237-sense",
+      "accepted": [
+        "高考"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "高考: kỳ thi tuyển sinh đại học Trung Quốc. 高考 là tên gọi kỳ thi tuyển sinh đại học ở Trung Quốc; bài không đưa quy định dự thi hay lịch thật. Chị gái đang chuẩn bị cho kỳ thi tuyển sinh đại học."
+    },
+    {
+      "id": "l483-k4",
+      "version": 1,
+      "exerciseVersionId": "l483-e4",
+      "senseId": "l417-v-1042-sense",
+      "accepted": [
+        "bó shì"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc bó shì, đúng nghĩa đã học."
+    },
+    {
+      "id": "l483-k5",
+      "version": 1,
+      "exerciseVersionId": "l483-e5",
+      "senseId": "l417-v-1253-sense",
+      "accepted": [
+        "功课"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 功课. 功课 nói việc học/bài vở; 做功课 không chỉ một bài kiểm tra lấy điểm. Mỗi tối cô ấy làm bài vở trước."
+    },
+    {
+      "id": "l483-k6",
+      "version": 1,
+      "exerciseVersionId": "l483-e6",
+      "senseId": "l417-v-1201-sense",
+      "accepted": [
+        "还要另查材料"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 还要另查材料. Trong buổi giới thiệu hư cấu, mọi môn đều cần hoàn thành bài vở. An đủ điểm nhưng điều kiện hồ sơ vẫn phải kiểm tra riêng; các bậc học được nhắc không phải bằng chứng nhập học."
+    },
+    {
+      "id": "l483-k7",
+      "version": 1,
+      "exerciseVersionId": "l483-e7",
+      "senseId": "l417-v-1201-sense",
+      "accepted": [
+        "2,1,3,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 不管+trường hợp lựa chọn nêu các khả năng, 都 nêu điểm không đổi trong quy tắc hư cấu: 不管选哪门课，都要完成作业. Không coi quy tắc của đoạn là yêu cầu tuyển sinh thật."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

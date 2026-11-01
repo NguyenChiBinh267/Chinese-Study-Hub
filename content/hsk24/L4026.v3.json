@@ -1,0 +1,848 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "0a9e60ab022a0015de3833b96d2bda5512da296f161df57cad37854a8d44cff2",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eacg",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L4026",
+    "version": 3,
+    "versionId": "l4026-draft-v3",
+    "title": "Gửi và kiểm tra giấy tờ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Gửi và kiểm tra giấy tờ; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "把"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 20,
+      "physicalPage": 21,
+      "printedPage": 18,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-29T10:57:06.664547Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-affairs",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 20,
+          "physicalPage": 21,
+          "printedPage": 18,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "交流、处理日常事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-df09e3401170",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "业务办理"
+        },
+        "written": "业务办理",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l4026-v-1328",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1328"
+        },
+        "written": "寄",
+        "pinyin": "jì",
+        "senseId": "l4026-v-1328-sense",
+        "ordinal": 1328,
+        "note": "4 jì 动; 寄 nói gửi thư/đồ qua dịch vụ, khác tự mang tới. Nhận diện chữ 寄 trong 寄; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4026-v-1443",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 115,
+          "physicalPage": 116,
+          "printedPage": 113,
+          "section": "vocabulary",
+          "entry": "ordinal 1443"
+        },
+        "written": "快递",
+        "pinyin": "kuàidì",
+        "senseId": "l4026-v-1443-sense",
+        "ordinal": 1443,
+        "note": "4 kuàidì 名; 快递 có thể chỉ dịch vụ hoặc kiện hàng chuyển phát. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4026-v-1643",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 120,
+          "physicalPage": 121,
+          "printedPage": 118,
+          "section": "vocabulary",
+          "entry": "ordinal 1643"
+        },
+        "written": "身份证",
+        "pinyin": "shēnfènzhèng",
+        "senseId": "l4026-v-1643-sense",
+        "ordinal": 1643,
+        "note": "4 shēnfènzhèng 名; 身份证 là giấy tờ định danh, khác hộ chiếu 护照. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4026-v-1934",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 127,
+          "physicalPage": 128,
+          "printedPage": 125,
+          "section": "vocabulary",
+          "entry": "ordinal 1934"
+        },
+        "written": "证件",
+        "pinyin": "zhèngjiàn",
+        "senseId": "l4026-v-1934-sense",
+        "ordinal": 1934,
+        "note": "4 zhèngjiàn 名; 证件 là tên chung, có thể gồm nhiều loại giấy tờ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4026-v-1392",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 113,
+          "physicalPage": 114,
+          "printedPage": 111,
+          "section": "vocabulary",
+          "entry": "ordinal 1392"
+        },
+        "written": "进入",
+        "pinyin": "jìnrù",
+        "senseId": "l4026-v-1392-sense",
+        "ordinal": 1392,
+        "note": "4 jìnrù 动; 进入 là vào một nơi hoặc một giai đoạn; ở đây chỉ nơi chốn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4026-v-1545",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 117,
+          "physicalPage": 118,
+          "printedPage": 115,
+          "section": "vocabulary",
+          "entry": "ordinal 1545"
+        },
+        "written": "排队",
+        "pinyin": "páiduì",
+        "senseId": "l4026-v-1545-sense",
+        "ordinal": 1545,
+        "note": "4 páiduì 动; 排队 là đứng/chờ theo thứ tự, không chỉ một hàng ghế. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-136",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "136"
+        },
+        "written": "寄",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 136,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-54",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "54"
+        },
+        "written": "递",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 54,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-68",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "68"
+        },
+        "written": "份",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 68,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-416",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "416"
+        },
+        "written": "证",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 416,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-269",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "269"
+        },
+        "written": "入",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 269,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-229",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "229"
+        },
+        "written": "排",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 229,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-61",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "61"
+        },
+        "written": "队",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 61,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-4026",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 395,
+          "physicalPage": 396,
+          "printedPage": 393,
+          "section": "grammar",
+          "entry": "主语+把+宾语+动词+一+动词"
+        },
+        "written": "把",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l4026-c0",
+      "version": 1,
+      "senseId": "l4026-v-1328-sense",
+      "hanzi": "寄",
+      "dictionaryPinyin": "jì",
+      "meaning": "gửi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4026-v-1328"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4026-c1",
+      "version": 1,
+      "senseId": "l4026-v-1443-sense",
+      "hanzi": "快递",
+      "dictionaryPinyin": "kuài dì",
+      "meaning": "chuyển phát nhanh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4026-v-1443"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4026-c2",
+      "version": 1,
+      "senseId": "l4026-v-1643-sense",
+      "hanzi": "身份证",
+      "dictionaryPinyin": "shēn fèn zhèng",
+      "meaning": "căn cước; thẻ định danh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4026-v-1643"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4026-c3",
+      "version": 1,
+      "senseId": "l4026-v-1934-sense",
+      "hanzi": "证件",
+      "dictionaryPinyin": "zhèng jiàn",
+      "meaning": "giấy tờ chứng nhận",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4026-v-1934"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4026-c4",
+      "version": 1,
+      "senseId": "l4026-v-1392-sense",
+      "hanzi": "进入",
+      "dictionaryPinyin": "jìn rù",
+      "meaning": "đi vào",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4026-v-1392"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4026-c5",
+      "version": 1,
+      "senseId": "l4026-v-1545-sense",
+      "hanzi": "排队",
+      "dictionaryPinyin": "pái duì",
+      "meaning": "xếp hàng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4026-v-1545"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l4026-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4026-t0",
+      "type": "teaching",
+      "title": "寄 · gửi",
+      "text": "寄 nói gửi thư/đồ qua dịch vụ, khác tự mang tới. Nhận diện chữ 寄 trong 寄; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "我想寄一个包裹。",
+      "pinyin": "Wǒ xiǎng jì yí ge bāo guǒ.",
+      "meaning": "Tôi muốn gửi một bưu kiện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4026-t1",
+      "type": "teaching",
+      "title": "快递 · chuyển phát nhanh",
+      "text": "快递 có thể chỉ dịch vụ hoặc kiện hàng chuyển phát.",
+      "hanzi": "快递下午送到。",
+      "pinyin": "Kuài dì xià wǔ sòng dào.",
+      "meaning": "Kiện chuyển phát đến vào buổi chiều.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4026-t2",
+      "type": "teaching",
+      "title": "身份证 · căn cước; thẻ định danh",
+      "text": "身份证 là giấy tờ định danh, khác hộ chiếu 护照.",
+      "hanzi": "请保管好身份证。",
+      "pinyin": "Qǐng bǎo guǎn hǎo shēn fèn zhèng.",
+      "meaning": "Xin giữ cẩn thận thẻ định danh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4026-t3",
+      "type": "teaching",
+      "title": "证件 · giấy tờ chứng nhận",
+      "text": "证件 là tên chung, có thể gồm nhiều loại giấy tờ.",
+      "hanzi": "出门前检查证件。",
+      "pinyin": "Chū mén qián jiǎn chá zhèng jiàn.",
+      "meaning": "Trước khi ra ngoài hãy kiểm tra giấy tờ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4026-t4",
+      "type": "teaching",
+      "title": "进入 · đi vào",
+      "text": "进入 là vào một nơi hoặc một giai đoạn; ở đây chỉ nơi chốn.",
+      "hanzi": "请从左边进入大厅。",
+      "pinyin": "Qǐng cóng zuǒ bian jìn rù dà tīng.",
+      "meaning": "Xin vào sảnh từ phía trái.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4026-t5",
+      "type": "teaching",
+      "title": "排队 · xếp hàng",
+      "text": "排队 là đứng/chờ theo thứ tự, không chỉ một hàng ghế.",
+      "hanzi": "大家正在门口排队。",
+      "pinyin": "Dà jiā zhèng zài mén kǒu pái duì.",
+      "meaning": "Mọi người đang xếp hàng ở cửa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4026-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "把证件看一看 đặt đối tượng trước 看一看, nghĩa xem qua giấy tờ. Câu chuyện là bài luyện hư cấu, không nêu thủ tục hành chính có thật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4026-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小安去寄包裹，进入大厅后先排队。工作人员请他把证件看一看，确认姓名。小安把身份证收好，选择了快递。他寄的是书，不是证件。这里的办理安排仅属于故事。",
+      "pinyin": "Xiǎo Ān qù jì bāo guǒ, jìn rù dà tīng hòu xiān pái duì. Gōng zuò rén yuán qǐng tā bǎ zhèng jiàn kàn yi kàn, què rèn xìng míng. Xiǎo Ān bǎ shēn fèn zhèng shōu hǎo, xuǎn zé le kuài dì. Tā jì de shì shū, bú shì zhèng jiàn. Zhè lǐ de bàn lǐ ān pái jǐn shǔ yú gù shi.",
+      "meaning": "Tiểu An xếp hàng gửi sách bằng chuyển phát, kiểm tra rồi cất thẻ định danh.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4026-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l4026-v3-e0"
+    },
+    {
+      "id": "l4026-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l4026-v3-e1"
+    },
+    {
+      "id": "l4026-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l4026-v3-e2"
+    },
+    {
+      "id": "l4026-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l4026-v3-e3"
+    },
+    {
+      "id": "l4026-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l4026-v3-e4"
+    },
+    {
+      "id": "l4026-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l4026-v3-e5"
+    },
+    {
+      "id": "l4026-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l4026-v3-e6"
+    },
+    {
+      "id": "l4026-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l4026-v3-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l4026-v3-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l4026-c0",
+      "senseId": "l4026-v-1328-sense",
+      "keyRef": "l4026-v3-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “gửi”: □ (jì). Ngữ cảnh: 我想□一个包裹。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "奇",
+        "宿",
+        "客",
+        "寄"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4026-v3-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4026-c1",
+      "senseId": "l4026-v-1443-sense",
+      "keyRef": "l4026-v3-k1",
+      "prompt": "Ghi pinyin của 快递 trong câu “快递下午送到。”, theo nghĩa “chuyển phát nhanh”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4026-v3-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4026-c2",
+      "senseId": "l4026-v-1643-sense",
+      "keyRef": "l4026-v3-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “căn cước; thẻ định danh”: 请保管好□。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4026-v3-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4026-c3",
+      "senseId": "l4026-v-1934-sense",
+      "keyRef": "l4026-v3-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “giấy tờ chứng nhận” để điền câu: 出门前检查□。",
+      "choices": [
+        "进入",
+        "排队",
+        "寄",
+        "快递",
+        "身份证",
+        "证件"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4026-v3-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4026-c4",
+      "senseId": "l4026-v-1392-sense",
+      "keyRef": "l4026-v3-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “đi vào” để điền câu: 请从左边□大厅。",
+      "choices": [
+        "排队",
+        "寄",
+        "快递",
+        "身份证",
+        "证件",
+        "进入"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4026-v3-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4026-c5",
+      "senseId": "l4026-v-1545-sense",
+      "keyRef": "l4026-v3-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “xếp hàng”: 大家正在门口□。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4026-v3-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4026-c0",
+      "senseId": "l4026-v-1328-sense",
+      "keyRef": "l4026-v3-k6",
+      "prompt": "Tiểu An gửi gì?",
+      "choices": [
+        "身份证",
+        "全部证件",
+        "书"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l4026-v3-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l4026-c3",
+      "senseId": "l4026-v-1934-sense",
+      "keyRef": "l4026-v3-k7",
+      "prompt": "Ghép các cụm thành câu theo cấu trúc đang học; giữ nguyên cụm.",
+      "choices": [
+        "请",
+        "把证件",
+        "看一看，",
+        "确认姓名。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l4026-v3-k0",
+      "version": 1,
+      "exerciseVersionId": "l4026-v3-e0",
+      "senseId": "l4026-v-1328-sense",
+      "accepted": [
+        "寄"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 寄 tạo từ 寄. 寄 nói gửi thư/đồ qua dịch vụ, khác tự mang tới. Nhận diện chữ 寄 trong 寄; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l4026-v3-k1",
+      "version": 1,
+      "exerciseVersionId": "l4026-v3-e1",
+      "senseId": "l4026-v-1443-sense",
+      "accepted": [
+        "kuài dì"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc kuài dì. 快递 có thể chỉ dịch vụ hoặc kiện hàng chuyển phát."
+    },
+    {
+      "id": "l4026-v3-k2",
+      "version": 1,
+      "exerciseVersionId": "l4026-v3-e2",
+      "senseId": "l4026-v-1643-sense",
+      "accepted": [
+        "身份证"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 身份证. 身份证 là giấy tờ định danh, khác hộ chiếu 护照. Xin giữ cẩn thận thẻ định danh."
+    },
+    {
+      "id": "l4026-v3-k3",
+      "version": 1,
+      "exerciseVersionId": "l4026-v3-e3",
+      "senseId": "l4026-v-1934-sense",
+      "accepted": [
+        "证件"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "证件: giấy tờ chứng nhận. 证件 là tên chung, có thể gồm nhiều loại giấy tờ. Trước khi ra ngoài hãy kiểm tra giấy tờ."
+    },
+    {
+      "id": "l4026-v3-k4",
+      "version": 1,
+      "exerciseVersionId": "l4026-v3-e4",
+      "senseId": "l4026-v-1392-sense",
+      "accepted": [
+        "进入"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "进入: đi vào. 进入 là vào một nơi hoặc một giai đoạn; ở đây chỉ nơi chốn. Xin vào sảnh từ phía trái."
+    },
+    {
+      "id": "l4026-v3-k5",
+      "version": 1,
+      "exerciseVersionId": "l4026-v3-e5",
+      "senseId": "l4026-v-1545-sense",
+      "accepted": [
+        "排队"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 排队. 排队 là đứng/chờ theo thứ tự, không chỉ một hàng ghế. Mọi người đang xếp hàng ở cửa."
+    },
+    {
+      "id": "l4026-v3-k6",
+      "version": 1,
+      "exerciseVersionId": "l4026-v3-e6",
+      "senseId": "l4026-v-1328-sense",
+      "accepted": [
+        "书"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 书. Tiểu An xếp hàng gửi sách bằng chuyển phát, kiểm tra rồi cất thẻ định danh."
+    },
+    {
+      "id": "l4026-v3-k7",
+      "version": 1,
+      "exerciseVersionId": "l4026-v3-e7",
+      "senseId": "l4026-v-1934-sense",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 把证件看一看 đặt đối tượng trước 看一看, nghĩa xem qua giấy tờ. Câu chuyện là bài luyện hư cấu, không nêu thủ tục hành chính có thật."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

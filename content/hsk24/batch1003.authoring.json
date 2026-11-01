@@ -1,0 +1,920 @@
+{
+  "batch": "HSK1-batch3",
+  "targetLevel": 1,
+  "sourceCheckedAt": "2026-10-30T09:30:41.58926Z",
+  "lessons": [
+    {
+      "id": "L111",
+      "unit": "hsk-one-d",
+      "unitTitle": "Đồ vật và quan hệ quen thuộc",
+      "title": "Sách và đồ dùng đầu tiên",
+      "objective": "Sách và đồ dùng đầu tiên; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-111",
+        "名量词",
+        385,
+        "g-385-12",
+        "Số + lượng từ + danh từ: 一本书, 一个朋友. 本 thường đếm sách, 个 là lượng từ phổ biến nhưng không thay đúng mọi lượng từ. 桌子/椅子 là bàn/ghế; ví dụ giới thiệu đối tượng không cần thêm lượng từ sau 是 nếu chỉ gọi loại. 有 được chú giải là có, sẽ thành mục từ ở bài gia đình."
+      ],
+      "task": [
+        "h1-task-thing",
+        "问答物品信息",
+        4,
+        "三"
+      ],
+      "topic": [
+        "h1-topic-b411fd04a9b3",
+        "物品名称",
+        58,
+        "物品名称"
+      ],
+      "words": [
+        [
+          "书",
+          "shū",
+          "sách",
+          "书 chỉ sách; 一本书 là một quyển sách, không phải 一书.",
+          "这是我的书。",
+          "Zhè shì wǒ de shū.",
+          "Đây là sách của tôi."
+        ],
+        [
+          "本1",
+          "běn",
+          "quyển; cuốn (lượng từ)",
+          "本 trong 一本书 là lượng từ cho sách, không dịch là gốc trong câu này.",
+          "我有一本书。",
+          "Wǒ yǒu yì běn shū.",
+          "Tôi có một quyển sách."
+        ],
+        [
+          "个",
+          "gè",
+          "cái; người (lượng từ phổ biến)",
+          "个 đếm người/vật ở các trường hợp được học; không dùng 一个人 để chỉ số quyển sách.",
+          "一个朋友。",
+          "Yí ge péng you.",
+          "Một người bạn."
+        ],
+        [
+          "桌子",
+          "zhuō zi",
+          "bàn",
+          "桌子 là bàn; âm 子 nhẹ trong mục từ này.",
+          "这是桌子。",
+          "Zhè shì zhuō zi.",
+          "Đây là bàn."
+        ],
+        [
+          "椅子",
+          "yǐ zi",
+          "ghế",
+          "椅子 là ghế, không đồng nghĩa bàn; so sánh chữ đầu để tránh lẫn hai đồ dùng.",
+          "那是椅子。",
+          "Nà shì yǐ zi.",
+          "Kia là ghế."
+        ]
+      ],
+      "passage": [
+        "A：这是你的书吗？\nB：是，我有一本书。\nA：那是桌子吗？\nB：不是，那是椅子。",
+        "A: Zhè shì nǐ de shū ma? B: Shì, wǒ yǒu yì běn shū. A: Nà shì zhuō zi ma? B: Bú shì, nà shì yǐ zi.",
+        "有 yǒu là có. B nói có một quyển sách và sửa đối tượng ở xa là ghế, không phải bàn. 一 đứng trước 本 đọc yì trong câu; pinyin mục 一 vẫn yī."
+      ],
+      "comprehension": [
+        "B sửa tên đồ vật ở xa thành gì?",
+        [
+          "椅子",
+          "桌子",
+          "书"
+        ],
+        "椅子",
+        "Theo đoạn: 椅子. 有 yǒu là có. B nói có một quyển sách và sửa đối tượng ở xa là ghế, không phải bàn. 一 đứng trước 本 đọc yì trong câu; pinyin mục 一 vẫn yī."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "一",
+          "本",
+          "书。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "书",
+            "车",
+            "东",
+            "乐"
+          ],
+          "accepted": [
+            "书"
+          ],
+          "feedback": "Chữ 书 tạo từ 书. 书 chỉ sách; 一本书 là một quyển sách, không phải 一书. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 本 (quyển; cuốn (lượng từ)).",
+          "choices": [],
+          "accepted": [
+            "běn"
+          ],
+          "feedback": "本 ghi běn. 本 trong 一本书 là lượng từ cho sách, không dịch là gốc trong câu này."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “cái; người (lượng từ phổ biến)”: 一□朋友。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "个"
+          ],
+          "feedback": "个: cái; người (lượng từ phổ biến). 个 đếm người/vật ở các trường hợp được học; không dùng 一个人 để chỉ số quyển sách. Một người bạn."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “bàn” trong câu: 这是□。",
+          "choices": [
+            "书",
+            "本",
+            "个",
+            "桌子",
+            "椅子"
+          ],
+          "accepted": [
+            "桌子"
+          ],
+          "feedback": "桌子: bàn. 桌子 là bàn; âm 子 nhẹ trong mục từ này. Đây là bàn."
+        },
+        {
+          "concept": 4,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “ghế”: 那是□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "椅子"
+          ],
+          "feedback": "椅子: ghế. 椅子 là ghế, không đồng nghĩa bàn; so sánh chữ đầu để tránh lẫn hai đồ dùng. Kia là ghế."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “一个朋友。”, 个 mang nghĩa nào theo bài?",
+          "choices": [
+            "sách",
+            "quyển; cuốn (lượng từ)",
+            "cái; người (lượng từ phổ biến)",
+            "bàn",
+            "ghế"
+          ],
+          "accepted": [
+            "cái; người (lượng từ phổ biến)"
+          ],
+          "feedback": "个 đếm người/vật ở các trường hợp được học; không dùng 一个人 để chỉ số quyển sách. Một người bạn."
+        }
+      ],
+      "characterTargets": [
+        "书"
+      ]
+    },
+    {
+      "id": "L112",
+      "unit": "hsk-one-d",
+      "unitTitle": "Đồ vật và quan hệ quen thuộc",
+      "title": "Hỏi chữ và đọc tên đồ vật",
+      "objective": "Hỏi chữ và đọc tên đồ vật; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-112",
+        "哪",
+        385,
+        "g-385-8",
+        "哪 hỏi lựa chọn trong một tập hợp: 你读哪本书？哪 + lượng từ + danh từ vẫn ở vị trí đối tượng cần hỏi. 字 là một chữ; 汉字 là chữ Hán, còn 东西 nói đồ/vật trong tình huống này. 读 có thể đọc thành tiếng hoặc đọc nội dung theo câu; bài chữ không đánh giá phát âm."
+      ],
+      "task": [
+        "h1-task-study",
+        "介绍学习情况",
+        6,
+        "十二"
+      ],
+      "topic": [
+        "h1-topic-59dbaf6bf45d",
+        "学习内容",
+        58,
+        "学习内容"
+      ],
+      "words": [
+        [
+          "哪",
+          "nǎ",
+          "nào",
+          "哪 chọn trong các khả năng; 你读哪本书 hỏi quyển nào, không hỏi số lượng.",
+          "你读哪本书？",
+          "Nǐ dú nǎ běn shū?",
+          "Bạn đọc quyển sách nào?"
+        ],
+        [
+          "东西",
+          "dōng xi",
+          "đồ; vật",
+          "东西 trong câu đồ vật đọc dōng xi; không dùng nghĩa hướng đông/tây để dịch máy móc.",
+          "这是什么东西？",
+          "Zhè shì shén me dōng xi?",
+          "Đây là đồ gì?"
+        ],
+        [
+          "字",
+          "zì",
+          "chữ; ký tự",
+          "字 nói một chữ; một từ có thể có nhiều chữ như 你好.",
+          "这个字怎么读？",
+          "Zhè ge zì zěn me dú?",
+          "Chữ này đọc thế nào?"
+        ],
+        [
+          "汉字",
+          "Hàn zì",
+          "chữ Hán",
+          "汉字 là hệ chữ đang học; pinyin viết bằng chữ Latin không tự là 汉字.",
+          "我喜欢汉字。",
+          "Wǒ xǐ huan Hàn zì.",
+          "Tôi thích chữ Hán."
+        ],
+        [
+          "读",
+          "dú",
+          "đọc",
+          "读 là hành động đọc; 读书 còn là tổ hợp/mục từ riêng sẽ học sau.",
+          "我读这本书。",
+          "Wǒ dú zhè běn shū.",
+          "Tôi đọc quyển sách này."
+        ]
+      ],
+      "passage": [
+        "A：你读哪本书？\nB：我读这本书。\nA：这是什么字？\nB：这是“人”字。\nA：好，我喜欢汉字。",
+        "A: Nǐ dú nǎ běn shū? B: Wǒ dú zhè běn shū. A: Zhè shì shén me zì? B: Zhè shì “rén” zì. A: Hǎo, wǒ xǐ huan Hàn zì.",
+        "怎么 zěn me = thế nào trong ví dụ. Đoạn chỉ rõ chữ đang được hỏi là 人; không yêu cầu đoán nội dung một cuốn sách không hiển thị."
+      ],
+      "comprehension": [
+        "B gọi chữ nào?",
+        [
+          "人",
+          "书",
+          "女"
+        ],
+        "人",
+        "Theo đoạn: 人. 怎么 zěn me = thế nào trong ví dụ. Đoạn chỉ rõ chữ đang được hỏi là 人; không yêu cầu đoán nội dung một cuốn sách không hiển thị."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "你",
+          "读",
+          "哪本书？"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “nào” trong câu: 你读□本书？",
+          "choices": [
+            "哪",
+            "东西",
+            "字",
+            "汉字",
+            "读"
+          ],
+          "accepted": [
+            "哪"
+          ],
+          "feedback": "哪: nào. 哪 chọn trong các khả năng; 你读哪本书 hỏi quyển nào, không hỏi số lượng. Bạn đọc quyển sách nào?"
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 东西 (đồ; vật).",
+          "choices": [],
+          "accepted": [
+            "dōng xi"
+          ],
+          "feedback": "东西 ghi dōng xi. 东西 trong câu đồ vật đọc dōng xi; không dùng nghĩa hướng đông/tây để dịch máy móc."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "字",
+            "学",
+            "子",
+            "好"
+          ],
+          "accepted": [
+            "字"
+          ],
+          "feedback": "Chữ 字 tạo từ 字. 字 nói một chữ; một từ có thể có nhiều chữ như 你好. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “chữ Hán” trong câu: 我喜欢□。",
+          "choices": [
+            "哪",
+            "东西",
+            "字",
+            "汉字",
+            "读"
+          ],
+          "accepted": [
+            "汉字"
+          ],
+          "feedback": "汉字: chữ Hán. 汉字 là hệ chữ đang học; pinyin viết bằng chữ Latin không tự là 汉字. Tôi thích chữ Hán."
+        },
+        {
+          "concept": 4,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “đọc”: 我□这本书。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "读"
+          ],
+          "feedback": "读: đọc. 读 là hành động đọc; 读书 còn là tổ hợp/mục từ riêng sẽ học sau. Tôi đọc quyển sách này."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “这个字怎么读？”, 字 mang nghĩa nào theo bài?",
+          "choices": [
+            "nào",
+            "đồ; vật",
+            "chữ; ký tự",
+            "chữ Hán",
+            "đọc"
+          ],
+          "accepted": [
+            "chữ; ký tự"
+          ],
+          "feedback": "字 nói một chữ; một từ có thể có nhiều chữ như 你好. Chữ này đọc thế nào?"
+        }
+      ],
+      "characterTargets": [
+        "字"
+      ]
+    },
+    {
+      "id": "L113",
+      "unit": "hsk-one-d",
+      "unitTitle": "Đồ vật và quan hệ quen thuộc",
+      "title": "Gia đình có những ai",
+      "objective": "Gia đình có những ai; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-113",
+        "有",
+        386,
+        "g-386-26",
+        "有 biểu thị có/sở hữu: 我有一个女儿。Phủ định là 没有, không dùng 不有 trong mẫu này; 没有 được chú giải và sẽ học riêng. 家 có thể đi với 口 để đếm người: 我家有三口人. 和 nối các danh từ được liệt kê, không dùng nó để nối tùy ý mọi hai câu."
+      ],
+      "task": [
+        "h1-task-person",
+        "问答个人基本信息",
+        4,
+        "一"
+      ],
+      "topic": [
+        "h1-topic-ef12595fc2f1",
+        "身份、家庭成员、朋友、技能等",
+        58,
+        "身份、家庭成员、朋友、技能等"
+      ],
+      "words": [
+        [
+          "口",
+          "kǒu",
+          "người (lượng từ đếm thành viên gia đình)",
+          "口 trong 三口人 là lượng từ, không dịch là ba cái miệng; ở ngữ cảnh khác 口 có thể chỉ miệng.",
+          "我家有三口人。",
+          "Wǒ jiā yǒu sān kǒu rén.",
+          "Gia đình tôi có ba người."
+        ],
+        [
+          "有",
+          "yǒu",
+          "có",
+          "有 nói có/sở hữu trong mẫu chủ thể + 有 + đối tượng, không dùng 是 thay cho 有.",
+          "我有一个朋友。",
+          "Wǒ yǒu yí ge péng you.",
+          "Tôi có một người bạn."
+        ],
+        [
+          "和1",
+          "hé",
+          "và",
+          "和 nối các danh từ như bố và mẹ; không nhất thiết dịch mọi chữ “và” bằng 和.",
+          "我爸爸和我妈妈喜欢茶。",
+          "Wǒ bà ba hé wǒ mā ma xǐ huan chá.",
+          "Bố và mẹ tôi thích trà."
+        ],
+        [
+          "女儿",
+          "nǚ ér",
+          "con gái",
+          "女儿 là con gái của ai, khác 妹妹 em gái; 儿 ở đây là âm ér riêng, không đọc kiểu hóa r.",
+          "她是我女儿。",
+          "Tā shì wǒ nǚ ér.",
+          "Cô bé là con gái tôi."
+        ]
+      ],
+      "passage": [
+        "A：你家有几口人？\nB：我家有三口人。\nA：谁？\nB：我爸爸、我妈妈和我。",
+        "A: Nǐ jiā yǒu jǐ kǒu rén? B: Wǒ jiā yǒu sān kǒu rén. A: Shéi? B: Wǒ bà ba, wǒ mā ma hé wǒ.",
+        "几 jǐ = mấy, được chú giải để hỏi số người. B liệt kê bố, mẹ và mình, tổng cộng ba người."
+      ],
+      "comprehension": [
+        "Gia đình B có mấy người theo đoạn?",
+        [
+          "三口人",
+          "两口人",
+          "五口人"
+        ],
+        "三口人",
+        "Theo đoạn: 三口人. 几 jǐ = mấy, được chú giải để hỏi số người. B liệt kê bố, mẹ và mình, tổng cộng ba người."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我家",
+          "有",
+          "三口人。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "口",
+            "日",
+            "目",
+            "回"
+          ],
+          "accepted": [
+            "口"
+          ],
+          "feedback": "Chữ 口 tạo từ 口. 口 trong 三口人 là lượng từ, không dịch là ba cái miệng; ở ngữ cảnh khác 口 có thể chỉ miệng. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 有 (có).",
+          "choices": [],
+          "accepted": [
+            "yǒu"
+          ],
+          "feedback": "有 ghi yǒu. 有 nói có/sở hữu trong mẫu chủ thể + 有 + đối tượng, không dùng 是 thay cho 有."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “và”: 我爸爸□我妈妈喜欢茶。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "和"
+          ],
+          "feedback": "和: và. 和 nối các danh từ như bố và mẹ; không nhất thiết dịch mọi chữ “và” bằng 和. Bố và mẹ tôi thích trà."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “con gái” trong câu: 她是我□。",
+          "choices": [
+            "口",
+            "有",
+            "和",
+            "女儿"
+          ],
+          "accepted": [
+            "女儿"
+          ],
+          "feedback": "女儿: con gái. 女儿 là con gái của ai, khác 妹妹 em gái; 儿 ở đây là âm ér riêng, không đọc kiểu hóa r. Cô bé là con gái tôi."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我爸爸和我妈妈喜欢茶。”, 和 mang nghĩa nào theo bài?",
+          "choices": [
+            "người (lượng từ đếm thành viên gia đình)",
+            "có",
+            "và",
+            "con gái"
+          ],
+          "accepted": [
+            "và"
+          ],
+          "feedback": "和 nối các danh từ như bố và mẹ; không nhất thiết dịch mọi chữ “và” bằng 和. Bố và mẹ tôi thích trà."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “她是我女儿。”, 女儿 mang nghĩa nào theo bài?",
+          "choices": [
+            "người (lượng từ đếm thành viên gia đình)",
+            "có",
+            "và",
+            "con gái"
+          ],
+          "accepted": [
+            "con gái"
+          ],
+          "feedback": "女儿 là con gái của ai, khác 妹妹 em gái; 儿 ở đây là âm ér riêng, không đọc kiểu hóa r. Cô bé là con gái tôi."
+        }
+      ],
+      "characterTargets": [
+        "口"
+      ]
+    },
+    {
+      "id": "L114",
+      "unit": "hsk-one-d",
+      "unitTitle": "Đồ vật và quan hệ quen thuộc",
+      "title": "Bạn bè và tình cảm",
+      "objective": "Bạn bè và tình cảm; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-114",
+        "人称代词",
+        385,
+        "g-385-9",
+        "她们 chỉ nhóm nữ theo thông tin đã biết. 男朋友/女朋友 thường chỉ bạn trai/bạn gái trong quan hệ tình cảm, khác 朋友. Đừng suy quan hệ từ việc hai người cùng có mặt. 爱 trong ví dụ nói tình cảm với gia đình; không tự gán nghĩa sở thích nhẹ của 喜欢 cho mọi câu."
+      ],
+      "task": [
+        "h1-task-person",
+        "问答个人基本信息",
+        4,
+        "一"
+      ],
+      "topic": [
+        "h1-topic-ef12595fc2f1",
+        "身份、家庭成员、朋友、技能等",
+        58,
+        "身份、家庭成员、朋友、技能等"
+      ],
+      "words": [
+        [
+          "爱",
+          "ài",
+          "yêu; yêu thương",
+          "爱 trong 我爱我的家人 diễn tả tình yêu thương; bản dịch cần theo đối tượng.",
+          "我爱我的家人。",
+          "Wǒ ài wǒ de jiā rén.",
+          "Tôi yêu thương gia đình tôi."
+        ],
+        [
+          "男朋友",
+          "nán péng you",
+          "bạn trai (quan hệ tình cảm)",
+          "男朋友 ở bài này là người yêu nam; muốn nói người bạn nam thông thường cần diễn đạt phù hợp khác.",
+          "他是我男朋友。",
+          "Tā shì wǒ nán péng you.",
+          "Anh ấy là bạn trai tôi."
+        ],
+        [
+          "女朋友",
+          "nǚ péng you",
+          "bạn gái (quan hệ tình cảm)",
+          "女朋友 trong câu là người yêu nữ, không tự hiểu mọi 朋友 nữ là 女朋友.",
+          "她是我女朋友。",
+          "Tā shì wǒ nǚ péng you.",
+          "Cô ấy là bạn gái tôi."
+        ],
+        [
+          "他们",
+          "tā men",
+          "họ (nhóm nam hoặc gồm nam nữ)",
+          "他们 chỉ nhóm người đã rõ trong ngữ cảnh; không dùng chữ này để khẳng định nhóm toàn nữ.",
+          "他们是我的朋友。",
+          "Tā men shì wǒ de péng you.",
+          "Họ là bạn của tôi."
+        ]
+      ],
+      "passage": [
+        "A：她是你女朋友吗？\nB：不是，她是我姐姐。\nA：她叫什么名字？\nB：她叫林。",
+        "A: Tā shì nǐ nǚ péng you ma? B: Bú shì, tā shì wǒ jiě jie. A: Tā jiào shén me míng zi? B: Tā jiào Lín.",
+        "B bác bỏ quan hệ bạn gái và xác nhận đó là chị gái. Không lấy lời hỏi của A làm sự thật."
+      ],
+      "comprehension": [
+        "B nói 林 là ai của mình?",
+        [
+          "姐姐",
+          "女朋友",
+          "妈妈"
+        ],
+        "姐姐",
+        "Theo đoạn: 姐姐. B bác bỏ quan hệ bạn gái và xác nhận đó là chị gái. Không lấy lời hỏi của A làm sự thật."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "她们",
+          "是",
+          "我的朋友。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "爱",
+            "受",
+            "友",
+            "父"
+          ],
+          "accepted": [
+            "爱"
+          ],
+          "feedback": "Chữ 爱 tạo từ 爱. 爱 trong 我爱我的家人 diễn tả tình yêu thương; bản dịch cần theo đối tượng. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 男朋友 (bạn trai (quan hệ tình cảm)).",
+          "choices": [],
+          "accepted": [
+            "nán péng you"
+          ],
+          "feedback": "男朋友 ghi nán péng you. 男朋友 ở bài này là người yêu nam; muốn nói người bạn nam thông thường cần diễn đạt phù hợp khác."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “bạn gái (quan hệ tình cảm)”: 她是我□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "女朋友"
+          ],
+          "feedback": "女朋友: bạn gái (quan hệ tình cảm). 女朋友 trong câu là người yêu nữ, không tự hiểu mọi 朋友 nữ là 女朋友. Cô ấy là bạn gái tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “họ (nhóm nữ)” trong câu: 她们是我的朋友。",
+          "choices": [
+            "爱",
+            "男朋友",
+            "女朋友",
+            "他们"
+          ],
+          "accepted": [
+            "他们"
+          ],
+          "feedback": "他们: họ (nhóm nữ). 她们 dùng khi nhóm được nêu là nữ; âm đọc giống 他们 nhưng chữ khác. Họ là bạn của tôi."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “她是我女朋友。”, 女朋友 mang nghĩa nào theo bài?",
+          "choices": [
+            "yêu; yêu thương",
+            "bạn trai (quan hệ tình cảm)",
+            "bạn gái (quan hệ tình cảm)",
+            "họ (nhóm nữ)"
+          ],
+          "accepted": [
+            "bạn gái (quan hệ tình cảm)"
+          ],
+          "feedback": "女朋友 trong câu là người yêu nữ, không tự hiểu mọi 朋友 nữ là 女朋友. Cô ấy là bạn gái tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “她们是我的朋友。”, 他们 mang nghĩa nào theo bài?",
+          "choices": [
+            "yêu; yêu thương",
+            "bạn trai (quan hệ tình cảm)",
+            "bạn gái (quan hệ tình cảm)",
+            "họ (nhóm nữ)"
+          ],
+          "accepted": [
+            "họ (nhóm nữ)"
+          ],
+          "feedback": "她们 dùng khi nhóm được nêu là nữ; âm đọc giống 他们 nhưng chữ khác. Họ là bạn của tôi."
+        }
+      ],
+      "characterTargets": [
+        "爱"
+      ]
+    },
+    {
+      "id": "L115",
+      "unit": "hsk-one-d",
+      "unitTitle": "Đồ vật và quan hệ quen thuộc",
+      "title": "Nhắc nhóm người và con vật",
+      "objective": "Nhắc nhóm người và con vật; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-115",
+        "人称代词",
+        385,
+        "g-385-9",
+        "它 chỉ vật/con vật đã rõ trong tình huống; 它们 là số nhiều tương ứng. 他们 thường dùng nhóm nam hoặc nhóm gồm nam nữ; 她们 chỉ nhóm nữ khi biết rõ. Chỉ âm tā/tāmen không đủ phân biệt các chữ. 狗 là chó; không dùng đại từ để đoán một vật chưa được nêu."
+      ],
+      "task": [
+        "h1-task-thing",
+        "问答物品信息",
+        4,
+        "三"
+      ],
+      "topic": [
+        "h1-topic-b411fd04a9b3",
+        "物品名称",
+        58,
+        "物品名称"
+      ],
+      "words": [
+        [
+          "她们",
+          "tā men",
+          "họ (nhóm nữ)",
+          "她们 chỉ nhóm nữ đã biết trong ngữ cảnh; không thay nhóm vật bằng 她们.",
+          "她们是我的家人。",
+          "Tā men shì wǒ de jiā rén.",
+          "Họ là người nhà của tôi."
+        ],
+        [
+          "它",
+          "tā",
+          "nó (vật hoặc con vật)",
+          "它 trong câu thay con chó đang được nhắc, không thay người bạn theo mẫu của bài.",
+          "它是我的狗。",
+          "Tā shì wǒ de gǒu.",
+          "Nó là chó của tôi."
+        ],
+        [
+          "它们",
+          "tā men",
+          "chúng nó (vật hoặc con vật)",
+          "它们 thay nhóm vật/con vật đã xác định, âm giống 他们/她们 nhưng chữ viết khác.",
+          "它们是我的狗。",
+          "Tā men shì wǒ de gǒu.",
+          "Chúng là những con chó của tôi."
+        ],
+        [
+          "狗",
+          "gǒu",
+          "chó",
+          "狗 chỉ loài chó; câu giới thiệu bằng 是 không tự cho biết số lượng.",
+          "我喜欢狗。",
+          "Wǒ xǐ huan gǒu.",
+          "Tôi thích chó."
+        ]
+      ],
+      "passage": [
+        "A：这是什么？\nB：狗。它是我的狗。\nA：你喜欢它吗？\nB：喜欢。",
+        "A: Zhè shì shén me? B: Gǒu. Tā shì wǒ de gǒu. A: Nǐ xǐ huan tā ma? B: Xǐ huan.",
+        "Đối tượng đã được B gọi là chó nên 它 có đối tượng rõ; đây là một con trong cuộc hội thoại, không suy số nhiều."
+      ],
+      "comprehension": [
+        "它 trong lời B thay cho gì?",
+        [
+          "狗",
+          "家人",
+          "朋友"
+        ],
+        "狗",
+        "Theo đoạn: 狗. Đối tượng đã được B gọi là chó nên 它 có đối tượng rõ; đây là một con trong cuộc hội thoại, không suy số nhiều."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "它",
+          "是",
+          "我的狗。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “họ (nhóm nam hoặc nhóm gồm nam nữ)” trong câu: 他们是我的家人。",
+          "choices": [
+            "她们",
+            "它",
+            "它们",
+            "狗"
+          ],
+          "accepted": [
+            "她们"
+          ],
+          "feedback": "她们: họ (nhóm nam hoặc nhóm gồm nam nữ). 他们 trong bài chỉ nhóm người đã được giới thiệu; không thay nhóm vật bằng 他们. Họ là người nhà của tôi."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 它 (nó (vật hoặc con vật)).",
+          "choices": [],
+          "accepted": [
+            "tā"
+          ],
+          "feedback": "它 ghi tā. 它 trong câu thay con chó đang được nhắc, không thay người bạn theo mẫu của bài."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “chúng nó (vật hoặc con vật)”: □是我的狗。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "它们"
+          ],
+          "feedback": "它们: chúng nó (vật hoặc con vật). 它们 thay nhóm vật/con vật đã xác định, âm giống 他们/她们 nhưng chữ viết khác. Chúng là những con chó của tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "狗",
+            "猫",
+            "狼",
+            "猪"
+          ],
+          "accepted": [
+            "狗"
+          ],
+          "feedback": "Chữ 狗 tạo từ 狗. 狗 chỉ loài chó; câu giới thiệu bằng 是 không tự cho biết số lượng. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “它们是我的狗。”, 它们 mang nghĩa nào theo bài?",
+          "choices": [
+            "họ (nhóm nam hoặc nhóm gồm nam nữ)",
+            "nó (vật hoặc con vật)",
+            "chúng nó (vật hoặc con vật)",
+            "chó"
+          ],
+          "accepted": [
+            "chúng nó (vật hoặc con vật)"
+          ],
+          "feedback": "它们 thay nhóm vật/con vật đã xác định, âm giống 他们/她们 nhưng chữ viết khác. Chúng là những con chó của tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我喜欢狗。”, 狗 mang nghĩa nào theo bài?",
+          "choices": [
+            "họ (nhóm nam hoặc nhóm gồm nam nữ)",
+            "nó (vật hoặc con vật)",
+            "chúng nó (vật hoặc con vật)",
+            "chó"
+          ],
+          "accepted": [
+            "chó"
+          ],
+          "feedback": "狗 chỉ loài chó; câu giới thiệu bằng 是 không tự cho biết số lượng. Tôi thích chó."
+        }
+      ],
+      "characterTargets": [
+        "狗"
+      ]
+    }
+  ]
+}

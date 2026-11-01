@@ -1,0 +1,907 @@
+{
+  "batch": "HSK1-batch10",
+  "targetLevel": 1,
+  "sourceCheckedAt": "2026-10-30T15:01:24.391777Z",
+  "lessons": [
+    {
+      "id": "L146",
+      "unit": "hsk-one-ba",
+      "unitTitle": "Lịch và các buổi trong ngày",
+      "title": "Các mốc năm",
+      "objective": "Các mốc năm; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-146",
+        "年",
+        385,
+        "g-385-14",
+        "年 là năm/đơn vị đếm năm; 三年 là ba năm. 今年/明年/去年 là năm nay/năm sau/năm trước theo thời điểm người nói. Đặt thời gian trước hành động trong các ví dụ; không tự suy một năm dương lịch cố định hoặc đổi đuôi động từ."
+      ],
+      "task": [
+        "h1-task-event",
+        "问答事件信息",
+        4,
+        "二"
+      ],
+      "topic": [
+        "h1-topic-f80c6b43ef6a",
+        "日期、时间、地点、方位、参加者、号码等",
+        58,
+        "日期、时间、地点、方位、参加者、号码等"
+      ],
+      "words": [
+        [
+          "年",
+          "nián",
+          "năm (đơn vị thời gian)",
+          "年 trong 一年/三年 là đơn vị năm; khác 今天 chỉ một ngày.",
+          "一年、三年。",
+          "Yì nián, sān nián.",
+          "Một năm, ba năm."
+        ],
+        [
+          "今年",
+          "jīn nián",
+          "năm nay",
+          "今年 theo thời điểm người nói trong truyện, không phải một nhãn năm cố định.",
+          "今年我上学。",
+          "Jīn nián wǒ shàng xué.",
+          "Năm nay tôi đi học."
+        ],
+        [
+          "明年",
+          "míng nián",
+          "năm sau; năm tới",
+          "明年 là năm tiếp sau năm nay, không đồng nghĩa 明天 ngày mai.",
+          "明年我工作。",
+          "Míng nián wǒ gōng zuò.",
+          "Năm sau tôi làm việc."
+        ],
+        [
+          "去年",
+          "qù nián",
+          "năm trước; năm ngoái",
+          "去年 là năm trước năm nay trong ngữ cảnh, không chỉ bất kỳ năm xa nào.",
+          "去年我在学校。",
+          "Qù nián wǒ zài xué xiào.",
+          "Năm ngoái tôi ở trường."
+        ]
+      ],
+      "passage": [
+        "A：你今年上学吗？\nB：今年不上学，我今年工作。\nA：去年呢？\nB：去年我上学。明年我也工作。",
+        "A: Nǐ jīn nián shàng xué ma? B: Jīn nián bù shàng xué, wǒ jīn nián gōng zuò. A: Qù nián ne? B: Qù nián wǒ shàng xué. Míng nián wǒ yě gōng zuò.",
+        "B đi học năm trước, làm việc năm nay và nói năm sau cũng làm việc. Không nêu năm dương lịch hoặc nghề cụ thể."
+      ],
+      "comprehension": [
+        "B nói đã đi học vào năm nào tương đối?",
+        [
+          "去年",
+          "今年",
+          "明年"
+        ],
+        "去年",
+        "Theo đoạn: 去年. B đi học năm trước, làm việc năm nay và nói năm sau cũng làm việc. Không nêu năm dương lịch hoặc nghề cụ thể."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我今年",
+          "在公司",
+          "工作。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "年",
+            "午",
+            "牛",
+            "生"
+          ],
+          "accepted": [
+            "年"
+          ],
+          "feedback": "Chữ 年 tạo từ 年. 年 trong 一年/三年 là đơn vị năm; khác 今天 chỉ một ngày. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 今年 (năm nay).",
+          "choices": [],
+          "accepted": [
+            "jīn nián"
+          ],
+          "feedback": "今年 ghi jīn nián. 今年 theo thời điểm người nói trong truyện, không phải một nhãn năm cố định."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc míng nián, nghĩa “năm sau; năm tới”: □我工作。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "明年"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc míng nián: 明年. 明年 là năm tiếp sau năm nay, không đồng nghĩa 明天 ngày mai. Năm sau tôi làm việc."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc qù nián, nghĩa “năm trước; năm ngoái”, trong câu: □我在学校。",
+          "choices": [
+            "年",
+            "今年",
+            "明年",
+            "去年"
+          ],
+          "accepted": [
+            "去年"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc qù nián: 去年. 去年 là năm trước năm nay trong ngữ cảnh, không chỉ bất kỳ năm xa nào. Năm ngoái tôi ở trường."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “明年我工作。”, 明年 mang nghĩa nào theo bài?",
+          "choices": [
+            "năm (đơn vị thời gian)",
+            "năm nay",
+            "năm sau; năm tới",
+            "năm trước; năm ngoái"
+          ],
+          "accepted": [
+            "năm sau; năm tới"
+          ],
+          "feedback": "明年 là năm tiếp sau năm nay, không đồng nghĩa 明天 ngày mai. Năm sau tôi làm việc."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “去年我在学校。”, 去年 mang nghĩa nào theo bài?",
+          "choices": [
+            "năm (đơn vị thời gian)",
+            "năm nay",
+            "năm sau; năm tới",
+            "năm trước; năm ngoái"
+          ],
+          "accepted": [
+            "năm trước; năm ngoái"
+          ],
+          "feedback": "去年 là năm trước năm nay trong ngữ cảnh, không chỉ bất kỳ năm xa nào. Năm ngoái tôi ở trường."
+        }
+      ],
+      "characterTargets": [
+        "年"
+      ]
+    },
+    {
+      "id": "L147",
+      "unit": "hsk-one-ba",
+      "unitTitle": "Lịch và các buổi trong ngày",
+      "title": "Đọc một ngày trên lịch",
+      "objective": "Đọc một ngày trên lịch; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-147",
+        "时间表示法",
+        387,
+        "g-387-11",
+        "Tháng gọi bằng số + 月; tháng11/12 là 十一月/十二月, với 十一=10+1 và 十二=10+2. Ngày trong tháng dùng 日 trang trọng hoặc 号 thường gặp trong nói. 星期一 đến 星期六 là các thứ; Chủ nhật có hai tên ở bài sau. Ngày/星期 trong đoạn là lịch hư cấu, không đọc đồng hồ máy người học."
+      ],
+      "task": [
+        "h1-task-event",
+        "问答事件信息",
+        4,
+        "二"
+      ],
+      "topic": [
+        "h1-topic-f80c6b43ef6a",
+        "日期、时间、地点、方位、参加者、号码等",
+        58,
+        "日期、时间、地点、方位、参加者、号码等"
+      ],
+      "words": [
+        [
+          "月",
+          "yuè",
+          "tháng (lịch hoặc đơn vị)",
+          "月 trong 五月 là tháng5; nói một khoảng năm tháng thường cần mẫu khác như 五个月.",
+          "五月三号。",
+          "Wǔ yuè sān hào.",
+          "Ngày3 tháng5."
+        ],
+        [
+          "日",
+          "rì",
+          "ngày trong tháng (dạng rì)",
+          "日 là cách ghi ngày trang trọng trong mẫu lịch; không nhầm âm rì với hào.",
+          "五月三日。",
+          "Wǔ yuè sān rì.",
+          "Ngày3 tháng5."
+        ],
+        [
+          "号",
+          "hào",
+          "ngày trong tháng (dạng hào)",
+          "号 dùng trong cách nói ngày của tháng ở đây; không dạy mọi nghĩa số hiệu của 号.",
+          "今天五月三号。",
+          "Jīn tiān wǔ yuè sān hào.",
+          "Hôm nay là ngày3 tháng5 trong truyện."
+        ],
+        [
+          "星期",
+          "xīng qī",
+          "tuần; yếu tố gọi thứ",
+          "星期 + số1–6 gọi thứ trong tuần; 星期一 là thứ Hai, không phải ngày1 của tháng.",
+          "今天星期一。",
+          "Jīn tiān xīng qī yī.",
+          "Hôm nay là thứ Hai trong truyện."
+        ]
+      ],
+      "passage": [
+        "A：今天几月几号？\nB：今天五月三号。\nA：星期几？\nB：星期一。",
+        "A: Jīn tiān jǐ yuè jǐ hào? B: Jīn tiān wǔ yuè sān hào. A: Xīng qī jǐ? B: Xīng qī yī.",
+        "几 jǐ = mấy. Lịch trong truyện là ngày3 tháng5, thứ Hai, không nêu năm; không phải ngày thực của máy hoặc người học."
+      ],
+      "comprehension": [
+        "B nói ngày tháng nào?",
+        [
+          "五月三号",
+          "五月四号",
+          "六月三号"
+        ],
+        "五月三号",
+        "Theo đoạn: 五月三号. 几 jǐ = mấy. Lịch trong truyện là ngày3 tháng5, thứ Hai, không nêu năm; không phải ngày thực của máy hoặc người học."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "今天",
+          "五月",
+          "三号。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "月",
+            "目",
+            "用",
+            "日"
+          ],
+          "accepted": [
+            "月"
+          ],
+          "feedback": "Chữ 月 tạo từ 月. 月 trong 五月 là tháng5; nói một khoảng năm tháng thường cần mẫu khác như 五个月. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 日 (ngày trong tháng (dạng rì)).",
+          "choices": [],
+          "accepted": [
+            "rì"
+          ],
+          "feedback": "日 ghi rì. 日 là cách ghi ngày trang trọng trong mẫu lịch; không nhầm âm rì với hào."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc hào, nghĩa “ngày trong tháng (dạng hào)”: 今天五月三□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "号"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc hào: 号. 号 dùng trong cách nói ngày của tháng ở đây; không dạy mọi nghĩa số hiệu của 号. Hôm nay là ngày3 tháng5 trong truyện."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc xīng qī, nghĩa “tuần; yếu tố gọi thứ”, trong câu: 今天□一。",
+          "choices": [
+            "月",
+            "日",
+            "号",
+            "星期"
+          ],
+          "accepted": [
+            "星期"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc xīng qī: 星期. 星期 + số1–6 gọi thứ trong tuần; 星期一 là thứ Hai, không phải ngày1 của tháng. Hôm nay là thứ Hai trong truyện."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “今天五月三号。”, 号 mang nghĩa nào theo bài?",
+          "choices": [
+            "tháng (lịch hoặc đơn vị)",
+            "ngày trong tháng (dạng rì)",
+            "ngày trong tháng (dạng hào)",
+            "tuần; yếu tố gọi thứ"
+          ],
+          "accepted": [
+            "ngày trong tháng (dạng hào)"
+          ],
+          "feedback": "号 dùng trong cách nói ngày của tháng ở đây; không dạy mọi nghĩa số hiệu của 号. Hôm nay là ngày3 tháng5 trong truyện."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “今天星期一。”, 星期 mang nghĩa nào theo bài?",
+          "choices": [
+            "tháng (lịch hoặc đơn vị)",
+            "ngày trong tháng (dạng rì)",
+            "ngày trong tháng (dạng hào)",
+            "tuần; yếu tố gọi thứ"
+          ],
+          "accepted": [
+            "tuần; yếu tố gọi thứ"
+          ],
+          "feedback": "星期 + số1–6 gọi thứ trong tuần; 星期一 là thứ Hai, không phải ngày1 của tháng. Hôm nay là thứ Hai trong truyện."
+        }
+      ],
+      "characterTargets": [
+        "月"
+      ]
+    },
+    {
+      "id": "L148",
+      "unit": "hsk-one-ba",
+      "unitTitle": "Lịch và các buổi trong ngày",
+      "title": "Hẹn lúc nào trong tuần",
+      "objective": "Hẹn lúc nào trong tuần; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-148",
+        "什么",
+        385,
+        "g-385-8",
+        "星期日/星期天 cùng chỉ Chủ nhật; bài phân biệt cách đọc/chữ cuối khi yêu cầu hình thức. 什么 + 时候 tạo câu hỏi khi nào: 你什么时候上课？时间 trong 有时间 nói có thời gian. Hai danh từ thời gian có chỗ giao nhau, nên đề từ vựng luôn chỉ rõ mục/âm đang hỏi."
+      ],
+      "task": [
+        "h1-task-event",
+        "问答事件信息",
+        4,
+        "二"
+      ],
+      "topic": [
+        "h1-topic-f80c6b43ef6a",
+        "日期、时间、地点、方位、参加者、号码等",
+        58,
+        "日期、时间、地点、方位、参加者、号码等"
+      ],
+      "words": [
+        [
+          "星期日",
+          "xīng qī rì",
+          "Chủ nhật (dạng kết thúc bằng rì)",
+          "星期日 cùng ngày với 星期天; đừng gán hai tên này thành hai ngày khác nhau.",
+          "星期日我休息。",
+          "Xīng qī rì wǒ xiū xi.",
+          "Chủ nhật tôi nghỉ."
+        ],
+        [
+          "星期天",
+          "xīng qī tiān",
+          "Chủ nhật (dạng kết thúc bằng tiān)",
+          "星期天 là tên khác của Chủ nhật; đề âm đọc này giữ chữ 天 ở cuối.",
+          "我星期天不上班。",
+          "Wǒ xīng qī tiān bù shàng bān.",
+          "Tôi không đi làm vào Chủ nhật."
+        ],
+        [
+          "时候",
+          "shí hou",
+          "lúc; khi (dạng shíhou)",
+          "时候 trong 什么时候 hỏi lúc nào; âm sau nhẹ theo mục từ.",
+          "你什么时候上课？",
+          "Nǐ shén me shí hou shàng kè?",
+          "Bạn lên lớp khi nào?"
+        ],
+        [
+          "时间",
+          "shí jiān",
+          "thời gian (dạng shíjiān)",
+          "时间 trong 有时间 nói có thời gian rảnh cho việc đang nêu; không có giờ cụ thể nếu chưa nói.",
+          "我有时间。",
+          "Wǒ yǒu shí jiān.",
+          "Tôi có thời gian."
+        ]
+      ],
+      "passage": [
+        "A：你星期天上班吗？\nB：不上班，我有时间。\nA：你什么时候读书？\nB：星期日我读书。",
+        "A: Nǐ xīng qī tiān shàng bān ma? B: Bù shàng bān, wǒ yǒu shí jiān. A: Nǐ shén me shí hou dú shū? B: Xīng qī rì wǒ dú shū.",
+        "星期天 và 星期日 cùng Chủ nhật. B không đi làm và đọc sách vào ngày ấy; đoạn không nêu giờ."
+      ],
+      "comprehension": [
+        "B có đi làm vào Chủ nhật không?",
+        [
+          "Không, B nói 不上班",
+          "Có, B nói 上班",
+          "B không được hỏi"
+        ],
+        "Không, B nói 不上班",
+        "Theo đoạn: Không, B nói 不上班. 星期天 và 星期日 cùng Chủ nhật. B không đi làm và đọc sách vào ngày ấy; đoạn không nêu giờ."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我星期天",
+          "不",
+          "上班。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc xīng qī rì, nghĩa “Chủ nhật (dạng kết thúc bằng rì)”, trong câu: □我休息。",
+          "choices": [
+            "星期日",
+            "星期天",
+            "时候",
+            "时间"
+          ],
+          "accepted": [
+            "星期日"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc xīng qī rì: 星期日. 星期日 cùng ngày với 星期天; đừng gán hai tên này thành hai ngày khác nhau. Chủ nhật tôi nghỉ."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 星期天 (Chủ nhật (dạng kết thúc bằng tiān)).",
+          "choices": [],
+          "accepted": [
+            "xīng qī tiān"
+          ],
+          "feedback": "星期天 ghi xīng qī tiān. 星期天 là tên khác của Chủ nhật; đề âm đọc này giữ chữ 天 ở cuối."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "时",
+            "日",
+            "诗",
+            "寺"
+          ],
+          "accepted": [
+            "时"
+          ],
+          "feedback": "Chữ 时 tạo từ 时候. 时候 trong 什么时候 hỏi lúc nào; âm sau nhẹ theo mục từ. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc shí jiān, nghĩa “thời gian (dạng shíjiān)”, trong câu: 我有□。",
+          "choices": [
+            "星期日",
+            "星期天",
+            "时候",
+            "时间"
+          ],
+          "accepted": [
+            "时间"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc shí jiān: 时间. 时间 trong 有时间 nói có thời gian rảnh cho việc đang nêu; không có giờ cụ thể nếu chưa nói. Tôi có thời gian."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “你什么时候上课？”, 时候 mang nghĩa nào theo bài?",
+          "choices": [
+            "Chủ nhật (dạng kết thúc bằng rì)",
+            "Chủ nhật (dạng kết thúc bằng tiān)",
+            "lúc; khi (dạng shíhou)",
+            "thời gian (dạng shíjiān)"
+          ],
+          "accepted": [
+            "lúc; khi (dạng shíhou)"
+          ],
+          "feedback": "时候 trong 什么时候 hỏi lúc nào; âm sau nhẹ theo mục từ. Bạn lên lớp khi nào?"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我有时间。”, 时间 mang nghĩa nào theo bài?",
+          "choices": [
+            "Chủ nhật (dạng kết thúc bằng rì)",
+            "Chủ nhật (dạng kết thúc bằng tiān)",
+            "lúc; khi (dạng shíhou)",
+            "thời gian (dạng shíjiān)"
+          ],
+          "accepted": [
+            "thời gian (dạng shíjiān)"
+          ],
+          "feedback": "时间 trong 有时间 nói có thời gian rảnh cho việc đang nêu; không có giờ cụ thể nếu chưa nói. Tôi có thời gian."
+        }
+      ],
+      "characterTargets": [
+        "时"
+      ]
+    },
+    {
+      "id": "L149",
+      "unit": "hsk-one-ba",
+      "unitTitle": "Lịch và các buổi trong ngày",
+      "title": "Buổi sáng và buổi trưa",
+      "objective": "Buổi sáng và buổi trưa; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-149",
+        "状语",
+        386,
+        "g-386-13",
+        "早 tả sớm; 早上 là buổi sáng thường nói ở đầu ngày, 上午 là phần trước buổi trưa. Hai cách gọi buổi sáng có thể chồng lấn, không gán giờ tuyệt đối cho mọi tình huống. 中午 là buổi trưa; thời gian có thể đứng trước hành động như 我上午上课."
+      ],
+      "task": [
+        "h1-task-event",
+        "问答事件信息",
+        4,
+        "二"
+      ],
+      "topic": [
+        "h1-topic-f80c6b43ef6a",
+        "日期、时间、地点、方位、参加者、号码等",
+        58,
+        "日期、时间、地点、方位、参加者、号码等"
+      ],
+      "words": [
+        [
+          "早",
+          "zǎo",
+          "sớm",
+          "早 là sớm theo mốc đang nói, không tự là danh từ cả buổi sáng trong mọi câu.",
+          "太早了！",
+          "Tài zǎo le!",
+          "Sớm quá!"
+        ],
+        [
+          "早上",
+          "zǎo shang",
+          "buổi sáng (dạng zǎoshang)",
+          "早上 chỉ buổi sáng, thường đầu ngày; 上 nhẹ theo pinyin mục từ.",
+          "早上好！",
+          "Zǎo shang hǎo!",
+          "Chào buổi sáng!"
+        ],
+        [
+          "上午",
+          "shàng wǔ",
+          "buổi sáng trước trưa (dạng shàngwǔ)",
+          "上午 chỉ phần trước trưa, có thể chồng lấn với 早上; đề nêu rõ âm để chọn mục.",
+          "我上午上课。",
+          "Wǒ shàng wǔ shàng kè.",
+          "Tôi học trên lớp vào buổi sáng."
+        ],
+        [
+          "中午",
+          "zhōng wǔ",
+          "buổi trưa",
+          "中午 là buổi trưa theo sinh hoạt, không tự là đúng một phút trên đồng hồ.",
+          "我中午休息。",
+          "Wǒ zhōng wǔ xiū xi.",
+          "Tôi nghỉ vào buổi trưa."
+        ]
+      ],
+      "passage": [
+        "A：早上好！你上午上课吗？\nB：上课。你呢？\nA：我也上课，中午我休息。",
+        "A: Zǎo shang hǎo! Nǐ shàng wǔ shàng kè ma? B: Shàng kè. Nǐ ne? A: Wǒ yě shàng kè, zhōng wǔ wǒ xiū xi.",
+        "Hai người học vào buổi sáng; A nói nghỉ buổi trưa. Không có giờ bắt đầu/kết thúc chính xác trong đoạn."
+      ],
+      "comprehension": [
+        "A nói nghỉ vào buổi nào?",
+        [
+          "中午",
+          "晚上",
+          "下午"
+        ],
+        "中午",
+        "Theo đoạn: 中午. Hai người học vào buổi sáng; A nói nghỉ buổi trưa. Không có giờ bắt đầu/kết thúc chính xác trong đoạn."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我上午",
+          "上",
+          "课。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "早",
+            "旱",
+            "章",
+            "草"
+          ],
+          "accepted": [
+            "早"
+          ],
+          "feedback": "Chữ 早 tạo từ 早. 早 là sớm theo mốc đang nói, không tự là danh từ cả buổi sáng trong mọi câu. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 早上 (buổi sáng (dạng zǎoshang)).",
+          "choices": [],
+          "accepted": [
+            "zǎo shang"
+          ],
+          "feedback": "早上 ghi zǎo shang. 早上 chỉ buổi sáng, thường đầu ngày; 上 nhẹ theo pinyin mục từ."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc shàng wǔ, nghĩa “buổi sáng trước trưa (dạng shàngwǔ)”: 我□上课。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "上午"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc shàng wǔ: 上午. 上午 chỉ phần trước trưa, có thể chồng lấn với 早上; đề nêu rõ âm để chọn mục. Tôi học trên lớp vào buổi sáng."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc zhōng wǔ, nghĩa “buổi trưa”, trong câu: 我□休息。",
+          "choices": [
+            "早",
+            "早上",
+            "上午",
+            "中午"
+          ],
+          "accepted": [
+            "中午"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc zhōng wǔ: 中午. 中午 là buổi trưa theo sinh hoạt, không tự là đúng một phút trên đồng hồ. Tôi nghỉ vào buổi trưa."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我上午上课。”, 上午 mang nghĩa nào theo bài?",
+          "choices": [
+            "sớm",
+            "buổi sáng (dạng zǎoshang)",
+            "buổi sáng trước trưa (dạng shàngwǔ)",
+            "buổi trưa"
+          ],
+          "accepted": [
+            "buổi sáng trước trưa (dạng shàngwǔ)"
+          ],
+          "feedback": "上午 chỉ phần trước trưa, có thể chồng lấn với 早上; đề nêu rõ âm để chọn mục. Tôi học trên lớp vào buổi sáng."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我中午休息。”, 中午 mang nghĩa nào theo bài?",
+          "choices": [
+            "sớm",
+            "buổi sáng (dạng zǎoshang)",
+            "buổi sáng trước trưa (dạng shàngwǔ)",
+            "buổi trưa"
+          ],
+          "accepted": [
+            "buổi trưa"
+          ],
+          "feedback": "中午 là buổi trưa theo sinh hoạt, không tự là đúng một phút trên đồng hồ. Tôi nghỉ vào buổi trưa."
+        }
+      ],
+      "characterTargets": [
+        "早"
+      ]
+    },
+    {
+      "id": "L150",
+      "unit": "hsk-one-ba",
+      "unitTitle": "Lịch và các buổi trong ngày",
+      "title": "Các khoảng thời gian trong ngày",
+      "objective": "Các khoảng thời gian trong ngày; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-150",
+        "非主谓句",
+        386,
+        "g-386-18",
+        "太晚了！là câu cảm thán không cần gắn thêm một người làm chủ ngữ. 晚 nói muộn; 晚上 là buổi tối/đêm; 下午 là buổi chiều sau trưa. 白天 là phần ban ngày, không có một dải giờ cố định giống nhau ở mọi nơi/mùa."
+      ],
+      "task": [
+        "h1-task-event",
+        "问答事件信息",
+        4,
+        "二"
+      ],
+      "topic": [
+        "h1-topic-f80c6b43ef6a",
+        "日期、时间、地点、方位、参加者、号码等",
+        58,
+        "日期、时间、地点、方位、参加者、号码等"
+      ],
+      "words": [
+        [
+          "下午",
+          "xià wǔ",
+          "buổi chiều",
+          "下午 là phần sau trưa, không đồng nghĩa cả ban ngày.",
+          "我下午读书。",
+          "Wǒ xià wǔ dú shū.",
+          "Tôi đọc sách buổi chiều."
+        ],
+        [
+          "晚上",
+          "wǎn shang",
+          "buổi tối; buổi đêm",
+          "晚上 chỉ buổi tối/đêm trong lịch sinh hoạt; 上 nhẹ theo pinyin mục từ.",
+          "我晚上回家。",
+          "Wǒ wǎn shang huí jiā.",
+          "Tôi về nhà buổi tối."
+        ],
+        [
+          "晚",
+          "wǎn",
+          "muộn; trễ",
+          "晚 là muộn theo mốc so sánh trong tình huống, không tự là danh từ buổi tối.",
+          "太晚了！",
+          "Tài wǎn le!",
+          "Muộn quá!"
+        ],
+        [
+          "白天",
+          "bái tiān",
+          "ban ngày",
+          "白天 đối với buổi tối/đêm trong mẫu này; không dùng thay chính xác một ngày24giờ ở mọi câu.",
+          "我白天工作。",
+          "Wǒ bái tiān gōng zuò.",
+          "Tôi làm việc ban ngày."
+        ]
+      ],
+      "passage": [
+        "A：你下午做什么？\nB：我下午读书。\nA：晚上呢？\nB：我晚上回家。",
+        "A: Nǐ xià wǔ zuò shén me? B: Wǒ xià wǔ dú shū. A: Wǎn shang ne? B: Wǒ wǎn shang huí jiā.",
+        "做 zuò = làm, sẽ học thành mục từ ở nhóm cuối. B đọc sách chiều và về nhà tối; không tự suy giờ cụ thể."
+      ],
+      "comprehension": [
+        "B nói đọc sách khi nào?",
+        [
+          "下午",
+          "晚上",
+          "中午"
+        ],
+        "下午",
+        "Theo đoạn: 下午. 做 zuò = làm, sẽ học thành mục từ ở nhóm cuối. B đọc sách chiều và về nhà tối; không tự suy giờ cụ thể."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我下午",
+          "读",
+          "书。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "午",
+            "牛",
+            "生",
+            "年"
+          ],
+          "accepted": [
+            "午"
+          ],
+          "feedback": "Chữ 午 tạo từ 下午. 下午 là phần sau trưa, không đồng nghĩa cả ban ngày. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 晚上 (buổi tối; buổi đêm).",
+          "choices": [],
+          "accepted": [
+            "wǎn shang"
+          ],
+          "feedback": "晚上 ghi wǎn shang. 晚上 chỉ buổi tối/đêm trong lịch sinh hoạt; 上 nhẹ theo pinyin mục từ."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc wǎn, nghĩa “muộn; trễ”: 太□了！ Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "晚"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc wǎn: 晚. 晚 là muộn theo mốc so sánh trong tình huống, không tự là danh từ buổi tối. Muộn quá!"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc bái tiān, nghĩa “ban ngày”, trong câu: 我□工作。",
+          "choices": [
+            "下午",
+            "晚上",
+            "晚",
+            "白天"
+          ],
+          "accepted": [
+            "白天"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc bái tiān: 白天. 白天 đối với buổi tối/đêm trong mẫu này; không dùng thay chính xác một ngày24giờ ở mọi câu. Tôi làm việc ban ngày."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “太晚了！”, 晚 mang nghĩa nào theo bài?",
+          "choices": [
+            "buổi chiều",
+            "buổi tối; buổi đêm",
+            "muộn; trễ",
+            "ban ngày"
+          ],
+          "accepted": [
+            "muộn; trễ"
+          ],
+          "feedback": "晚 là muộn theo mốc so sánh trong tình huống, không tự là danh từ buổi tối. Muộn quá!"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我白天工作。”, 白天 mang nghĩa nào theo bài?",
+          "choices": [
+            "buổi chiều",
+            "buổi tối; buổi đêm",
+            "muộn; trễ",
+            "ban ngày"
+          ],
+          "accepted": [
+            "ban ngày"
+          ],
+          "feedback": "白天 đối với buổi tối/đêm trong mẫu này; không dùng thay chính xác một ngày24giờ ở mọi câu. Tôi làm việc ban ngày."
+        }
+      ],
+      "characterTargets": [
+        "午"
+      ]
+    }
+  ]
+}

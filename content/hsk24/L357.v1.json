@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "6f416814379c4fab1f4c00a2e9c21817efd967d7f8baa40c879dd416d89af24b",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-study-improvement",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L357",
+    "version": 1,
+    "versionId": "l357-draft-v1",
+    "title": "Luyện tập nghiêm túc theo yêu cầu",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc kế hoạch học toán và đánh giá tiến bộ theo tiêu chí cụ thể.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "对……来说"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 16,
+      "physicalPage": 17,
+      "printedPage": 14,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 16,
+          "physicalPage": 17,
+          "printedPage": 14,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "沟通学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-study-activities",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "学习活动"
+        },
+        "written": "学习活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l357-v-843",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 843"
+        },
+        "written": "数学",
+        "pinyin": "shùxué",
+        "senseId": "l357-v-843-sense",
+        "ordinal": 843,
+        "note": "3 shùxué 名; 数学 là môn toán, không đồng nghĩa mọi số liệu. 学数学说 học môn, 做数学题说 làm bài toán. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l357-v-846",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 846"
+        },
+        "written": "水平",
+        "pinyin": "shuǐpíng",
+        "senseId": "l357-v-846-sense",
+        "ordinal": 846,
+        "note": "3 shuǐpíng 名; 水平 là mức độ năng lực hoặc chất lượng theo tiêu chí; 很高 chỉ đánh giá, chưa có điểm đo nếu không đưa bằng chứng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l357-v-852",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 852"
+        },
+        "written": "提高",
+        "pinyin": "tígāo",
+        "senseId": "l357-v-852-sense",
+        "ordinal": 852,
+        "note": "3 tígāo 动; 提高 là nâng mức lên, có thể là động từ có tân ngữ 提高水平. 想提高 không tự chứng minh đã tăng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l357-v-817",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 817"
+        },
+        "written": "认真",
+        "pinyin": "rènzhēn",
+        "senseId": "l357-v-817-sense",
+        "ordinal": 817,
+        "note": "3 rènzhēn 形; 认真 mô tả thái độ/cách làm; 认真地练习 và 学得认真 khác vị trí 地/得. Làm chăm không tự là làm đúng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l357-v-751",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 751"
+        },
+        "written": "练",
+        "pinyin": "liàn",
+        "senseId": "l357-v-751-sense",
+        "ordinal": 751,
+        "note": "3 liàn 动; 练 là động từ tập kỹ năng như 练口语, khác 链 là mắt xích. 练了不等于独立掌握. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l357-v-920",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 920"
+        },
+        "written": "要求",
+        "pinyin": "yāoqiú",
+        "senseId": "l357-v-920-sense",
+        "ordinal": 920,
+        "note": "3 yāoqiú 动、名; 要求 có thể danh từ tiêu chí hoặc động từ yêu cầu. 看清要求 trước làm để biết nhiệm vụ, chưa là đã đáp ứng. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-204",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "204"
+        },
+        "written": "数",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 204,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-166",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "166"
+        },
+        "written": "平",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 166,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-211",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "211"
+        },
+        "written": "提",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 211,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-141",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "141"
+        },
+        "written": "练",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 141,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-177",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "177"
+        },
+        "written": "求",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 177,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-for-audience",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定格式 / 对……来说"
+        },
+        "written": "对……来说",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l357-c0",
+      "version": 1,
+      "senseId": "l357-v-843-sense",
+      "hanzi": "数学",
+      "dictionaryPinyin": "shù xué",
+      "meaning": "toán học",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l357-v-843"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l357-c1",
+      "version": 1,
+      "senseId": "l357-v-846-sense",
+      "hanzi": "水平",
+      "dictionaryPinyin": "shuǐ píng",
+      "meaning": "trình độ/mức độ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l357-v-846"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l357-c2",
+      "version": 1,
+      "senseId": "l357-v-852-sense",
+      "hanzi": "提高",
+      "dictionaryPinyin": "tí gāo",
+      "meaning": "nâng cao",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l357-v-852"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l357-c3",
+      "version": 1,
+      "senseId": "l357-v-817-sense",
+      "hanzi": "认真",
+      "dictionaryPinyin": "rèn zhēn",
+      "meaning": "nghiêm túc/cẩn thận",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l357-v-817"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l357-c4",
+      "version": 1,
+      "senseId": "l357-v-751-sense",
+      "hanzi": "练",
+      "dictionaryPinyin": "liàn",
+      "meaning": "luyện/tập",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l357-v-751"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l357-c5",
+      "version": 1,
+      "senseId": "l357-v-920-sense",
+      "hanzi": "要求",
+      "dictionaryPinyin": "yāo qiú",
+      "meaning": "yêu cầu/đòi hỏi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l357-v-920"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l357-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 阅读 yuèdú: đọc hiểu; 投入 tóurù: công sức投入; 是否 shìfǒu: có hay không; 进步 jìnbù: tiến bộ. Nội dung không cấp mastery từ số phút học.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l357-t0",
+      "type": "teaching",
+      "title": "数学 · toán học",
+      "text": "数学 là môn toán, không đồng nghĩa mọi số liệu. 学数学说 học môn, 做数学题说 làm bài toán.",
+      "hanzi": "我下午有数学课。",
+      "pinyin": "Wǒ xiàwǔ yǒu shùxué kè.",
+      "meaning": "Chiều tôi có giờ toán.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l357-t1",
+      "type": "teaching",
+      "title": "水平 · trình độ/mức độ",
+      "text": "水平 là mức độ năng lực hoặc chất lượng theo tiêu chí; 很高 chỉ đánh giá, chưa có điểm đo nếu không đưa bằng chứng.",
+      "hanzi": "我想了解自己的中文水平。",
+      "pinyin": "Wǒ xiǎng liǎojiě zìjǐ de Zhōngwén shuǐpíng.",
+      "meaning": "Tôi muốn tìm hiểu trình độ tiếng Trung của mình.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l357-t2",
+      "type": "teaching",
+      "title": "提高 · nâng cao",
+      "text": "提高 là nâng mức lên, có thể là động từ có tân ngữ 提高水平. 想提高 không tự chứng minh đã tăng.",
+      "hanzi": "我想提高阅读水平。",
+      "pinyin": "Wǒ xiǎng tígāo yuèdú shuǐpíng.",
+      "meaning": "Tôi muốn nâng trình độ đọc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l357-t3",
+      "type": "teaching",
+      "title": "认真 · nghiêm túc/cẩn thận",
+      "text": "认真 mô tả thái độ/cách làm; 认真地练习 và 学得认真 khác vị trí 地/得. Làm chăm không tự là làm đúng.",
+      "hanzi": "她做题很认真。",
+      "pinyin": "Tā zuò tí hěn rènzhēn.",
+      "meaning": "Cô ấy làm bài rất cẩn thận.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l357-t4",
+      "type": "teaching",
+      "title": "练 · luyện/tập",
+      "text": "练 là động từ tập kỹ năng như 练口语, khác 链 là mắt xích. 练了不等于独立掌握.",
+      "hanzi": "我每天练十分钟。",
+      "pinyin": "Wǒ měi tiān liàn shí fēnzhōng.",
+      "meaning": "Tôi tập mười phút mỗi ngày.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l357-t5",
+      "type": "teaching",
+      "title": "要求 · yêu cầu/đòi hỏi",
+      "text": "要求 có thể danh từ tiêu chí hoặc động từ yêu cầu. 看清要求 trước làm để biết nhiệm vụ, chưa là đã đáp ứng.",
+      "hanzi": "请先看清楚要求。",
+      "pinyin": "Qǐng xiān kàn qīngchu yāoqiú.",
+      "meaning": "Hãy đọc rõ yêu cầu trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l357-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "对我来说 nêu quan điểm/đối tượng đánh giá; 对我来说难 không phải mọi người đều thấy khó. 提高水平 cần bằng chứng trước/sau, không lấy câu nói muốn học làm thành tích.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l357-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "对小林来说，数学不太难，中文阅读却需要多练。他想提高水平，先认真看要求，再每天练十分钟。老师说：练习时间是投入，还要看新题做得怎样，才知道是否进步。",
+      "pinyin": "Duì Xiǎo Lín lái shuō, shùxué bú tài nán, Zhōngwén yuèdú què xūyào duō liàn. Tā xiǎng tígāo shuǐpíng, xiān rènzhēn kàn yāoqiú, zài měi tiān liàn shí fēnzhōng. Lǎoshī shuō: Liànxí shíjiān shì tóurù, hái yào kàn xīn tí zuò de zěnyàng, cái zhīdào shìfǒu jìnbù.",
+      "meaning": "Lâm thấy toán không khó lắm nhưng cần tập đọc tiếng Trung. Cậu dự định xem yêu cầu và luyện mười phút/ngày; thầy nhắc thời gian tập chưa tự chứng minh tiến bộ trên bài mới.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l357-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l357-v1-e0"
+    },
+    {
+      "id": "l357-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l357-v1-e1"
+    },
+    {
+      "id": "l357-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l357-v1-e2"
+    },
+    {
+      "id": "l357-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l357-v1-e3"
+    },
+    {
+      "id": "l357-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l357-v1-e4"
+    },
+    {
+      "id": "l357-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l357-v1-e5"
+    },
+    {
+      "id": "l357-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l357-v1-e6"
+    },
+    {
+      "id": "l357-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l357-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l357-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l357-c0",
+      "senseId": "l357-v-843-sense",
+      "keyRef": "l357-v1-k0",
+      "prompt": "Tên môn toán: □课。",
+      "choices": [
+        "水平",
+        "提高",
+        "认真",
+        "练",
+        "要求",
+        "数学"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l357-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l357-c1",
+      "senseId": "l357-v-846-sense",
+      "keyRef": "l357-v1-k1",
+      "prompt": "Danh từ trình độ: 中文□。",
+      "choices": [
+        "提高",
+        "认真",
+        "练",
+        "要求",
+        "数学",
+        "水平"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l357-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l357-c2",
+      "senseId": "l357-v-852-sense",
+      "keyRef": "l357-v1-k2",
+      "prompt": "Động từ nâng trình độ: □阅读水平。",
+      "choices": [
+        "认真",
+        "练",
+        "要求",
+        "数学",
+        "水平",
+        "提高"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l357-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l357-c3",
+      "senseId": "l357-v-817-sense",
+      "keyRef": "l357-v1-k3",
+      "prompt": "Viết pinyin của 认真 trong câu “她做题很认真。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l357-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l357-c4",
+      "senseId": "l357-v-751-sense",
+      "keyRef": "l357-v1-k4",
+      "prompt": "Động từ một chữ luyện: 每天□十分钟。",
+      "choices": [
+        "要求",
+        "数学",
+        "水平",
+        "提高",
+        "认真",
+        "练"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l357-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l357-c5",
+      "senseId": "l357-v-920-sense",
+      "keyRef": "l357-v1-k5",
+      "prompt": "Danh từ yêu cầu bài: 看清楚□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l357-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l357-c0",
+      "senseId": "l357-v-843-sense",
+      "keyRef": "l357-v1-k6",
+      "prompt": "Điều gì chưa đủ để chứng minh trình độ đã tăng?",
+      "choices": [
+        "看新题的表现",
+        "看任务要求",
+        "只看练习时间"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l357-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l357-c3",
+      "senseId": "l357-v-817-sense",
+      "keyRef": "l357-v1-k7",
+      "prompt": "Xếp góc nhìn người học, bắt đầu bằng 对我来说.",
+      "choices": [
+        "数学不太难",
+        "对我来说"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l357-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l357-v1-e0",
+      "senseId": "l357-v-843-sense",
+      "accepted": [
+        "数学"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "数学: toán học. 数学 là môn toán, không đồng nghĩa mọi số liệu. 学数学说 học môn, 做数学题说 làm bài toán. Chiều tôi có giờ toán."
+    },
+    {
+      "id": "l357-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l357-v1-e1",
+      "senseId": "l357-v-846-sense",
+      "accepted": [
+        "水平"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "水平: trình độ/mức độ. 水平 là mức độ năng lực hoặc chất lượng theo tiêu chí; 很高 chỉ đánh giá, chưa có điểm đo nếu không đưa bằng chứng. Tôi muốn tìm hiểu trình độ tiếng Trung của mình."
+    },
+    {
+      "id": "l357-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l357-v1-e2",
+      "senseId": "l357-v-852-sense",
+      "accepted": [
+        "提高"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "提高: nâng cao. 提高 là nâng mức lên, có thể là động từ có tân ngữ 提高水平. 想提高 không tự chứng minh đã tăng. Tôi muốn nâng trình độ đọc."
+    },
+    {
+      "id": "l357-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l357-v1-e3",
+      "senseId": "l357-v-817-sense",
+      "accepted": [
+        "rèn zhēn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "认真: nghiêm túc/cẩn thận. 认真 mô tả thái độ/cách làm; 认真地练习 và 学得认真 khác vị trí 地/得. Làm chăm không tự là làm đúng. Cô ấy làm bài rất cẩn thận."
+    },
+    {
+      "id": "l357-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l357-v1-e4",
+      "senseId": "l357-v-751-sense",
+      "accepted": [
+        "练"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "练: luyện/tập. 练 là động từ tập kỹ năng như 练口语, khác 链 là mắt xích. 练了不等于独立掌握. Tôi tập mười phút mỗi ngày."
+    },
+    {
+      "id": "l357-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l357-v1-e5",
+      "senseId": "l357-v-920-sense",
+      "accepted": [
+        "要求"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "要求: yêu cầu/đòi hỏi. 要求 có thể danh từ tiêu chí hoặc động từ yêu cầu. 看清要求 trước làm để biết nhiệm vụ, chưa là đã đáp ứng. Hãy đọc rõ yêu cầu trước."
+    },
+    {
+      "id": "l357-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l357-v1-e6",
+      "senseId": "l357-v-843-sense",
+      "accepted": [
+        "只看练习时间"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 对我来说 nêu quan điểm/đối tượng đánh giá; 对我来说难 không phải mọi người đều thấy khó. 提高水平 cần bằng chứng trước/sau, không lấy câu nói muốn học làm thành tích."
+    },
+    {
+      "id": "l357-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l357-v1-e7",
+      "senseId": "l357-v-817-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 对我来说 nêu quan điểm/đối tượng đánh giá; 对我来说难 không phải mọi người đều thấy khó. 提高水平 cần bằng chứng trước/sau, không lấy câu nói muốn học làm thành tích."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

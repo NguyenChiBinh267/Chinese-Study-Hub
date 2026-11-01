@@ -1,0 +1,810 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "28ff2991912b85a4c53a225b1359136b145ea9f365db1932a32323c8c22f351d",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eba",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L410",
+    "version": 2,
+    "versionId": "l410-draft-v2",
+    "title": "So sánh nhiệt độ và kiểm tra cửa sổ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "So sánh nhiệt độ và kiểm tra cửa sổ; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "跟……相比"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 25,
+      "physicalPage": 26,
+      "printedPage": 23,
+      "section": "task",
+      "entry": "十七"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T17:03:41.244Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-nature",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 25,
+          "physicalPage": 26,
+          "printedPage": 23,
+          "section": "task",
+          "entry": "十七"
+        },
+        "written": "谈论自然情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-b30795261d71",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "气候"
+        },
+        "written": "气候",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l410-v-1095",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1095"
+        },
+        "written": "窗",
+        "pinyin": "chuāng",
+        "senseId": "l410-v-1095-sense",
+        "ordinal": 1095,
+        "note": "4 chuāng 名; 窗 thường gặp trong 开窗、关窗; cùng chỉ cửa sổ như 窗户, nên bài yêu cầu phân biệt dạng một chữ và hai chữ khi truy hồi. Nhận diện chữ 窗 trong 窗; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l410-v-1096",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1096"
+        },
+        "written": "窗户",
+        "pinyin": "chuānghu",
+        "senseId": "l410-v-1096-sense",
+        "ordinal": 1096,
+        "note": "4 chuānghu 名; 窗户 đọc chuānghu, âm 户 nhẹ; có thể dùng làm danh từ độc lập, đồng nghĩa gần 窗 trong nhiều câu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l410-v-1097",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1097"
+        },
+        "written": "吹",
+        "pinyin": "chuī",
+        "senseId": "l410-v-1097-sense",
+        "ordinal": 1097,
+        "note": "4 chuī 动; 吹 có thể tả gió thổi hoặc thổi bằng miệng; ở đây là tác động của gió. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l410-v-1151",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 107,
+          "physicalPage": 108,
+          "printedPage": 105,
+          "section": "vocabulary",
+          "entry": "ordinal 1151"
+        },
+        "written": "低温",
+        "pinyin": "dīwēn",
+        "senseId": "l410-v-1151-sense",
+        "ordinal": 1151,
+        "note": "4 dīwēn 名; 低温 là danh từ chỉ tình trạng nhiệt độ thấp theo bối cảnh, không tự chỉ một con số chuẩn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l410-v-1239",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1239"
+        },
+        "written": "高温",
+        "pinyin": "gāowēn",
+        "senseId": "l410-v-1239-sense",
+        "ordinal": 1239,
+        "note": "4 gāowēn 名; 高温 nói mức nhiệt cao trong bối cảnh thời tiết hoặc kỹ thuật; không tự đồng nghĩa bị sốt. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l410-v-1240",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1240"
+        },
+        "written": "高于",
+        "pinyin": "gāoyú",
+        "senseId": "l410-v-1240-sense",
+        "ordinal": 1240,
+        "note": "4 gāoyú 动; 高于 nhận mốc so sánh như 去年同期; không thay cho mọi cách nói chiều cao của người. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-37",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "37"
+        },
+        "written": "窗",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 37,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-116",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "116"
+        },
+        "written": "户",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 116,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-38",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "38"
+        },
+        "written": "吹",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 38,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-52",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "52"
+        },
+        "written": "低",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 52,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-336",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "336"
+        },
+        "written": "温",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 336,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-410",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "比较句：跟……相比"
+        },
+        "written": "跟……相比",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l410-c0",
+      "version": 1,
+      "senseId": "l410-v-1095-sense",
+      "hanzi": "窗",
+      "dictionaryPinyin": "chuāng",
+      "meaning": "cửa sổ (dạng đơn âm)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l410-v-1095"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l410-c1",
+      "version": 1,
+      "senseId": "l410-v-1096-sense",
+      "hanzi": "窗户",
+      "dictionaryPinyin": "chuāng hu",
+      "meaning": "cửa sổ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l410-v-1096"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l410-c2",
+      "version": 1,
+      "senseId": "l410-v-1097-sense",
+      "hanzi": "吹",
+      "dictionaryPinyin": "chuī",
+      "meaning": "thổi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l410-v-1097"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l410-c3",
+      "version": 1,
+      "senseId": "l410-v-1151-sense",
+      "hanzi": "低温",
+      "dictionaryPinyin": "dī wēn",
+      "meaning": "nhiệt độ thấp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l410-v-1151"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l410-c4",
+      "version": 1,
+      "senseId": "l410-v-1239-sense",
+      "hanzi": "高温",
+      "dictionaryPinyin": "gāo wēn",
+      "meaning": "nhiệt độ cao",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l410-v-1239"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l410-c5",
+      "version": 1,
+      "senseId": "l410-v-1240-sense",
+      "hanzi": "高于",
+      "dictionaryPinyin": "gāo yú",
+      "meaning": "cao hơn (mốc)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l410-v-1240"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l410-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 预报 yùbào: dự báo; 连续 liánxù: liên tiếp; 朝南 cháo nán: hướng nam; 气温 qìwēn: nhiệt độ không khí. Câu hỏi dạng từ nếu hỏi 窗/窗户 phải chỉ rõ số chữ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l410-t0",
+      "type": "teaching",
+      "title": "窗 · cửa sổ (dạng đơn âm)",
+      "text": "窗 thường gặp trong 开窗、关窗; cùng chỉ cửa sổ như 窗户, nên bài yêu cầu phân biệt dạng một chữ và hai chữ khi truy hồi. Nhận diện chữ 窗 trong 窗; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "屋里太热了，请开窗。",
+      "pinyin": "Wū lǐ tài rè le, qǐng kāi chuāng.",
+      "meaning": "Trong phòng nóng quá, hãy mở cửa sổ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l410-t1",
+      "type": "teaching",
+      "title": "窗户 · cửa sổ",
+      "text": "窗户 đọc chuānghu, âm 户 nhẹ; có thể dùng làm danh từ độc lập, đồng nghĩa gần 窗 trong nhiều câu.",
+      "hanzi": "这扇窗户朝南。",
+      "pinyin": "Zhè shàn chuānghu cháo nán.",
+      "meaning": "Cửa sổ này hướng nam.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l410-t2",
+      "type": "teaching",
+      "title": "吹 · thổi",
+      "text": "吹 có thể tả gió thổi hoặc thổi bằng miệng; ở đây là tác động của gió.",
+      "hanzi": "风把桌上的纸吹走了。",
+      "pinyin": "Fēng bǎ zhuō shàng de zhǐ chuī zǒu le.",
+      "meaning": "Gió thổi bay giấy trên bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l410-t3",
+      "type": "teaching",
+      "title": "低温 · nhiệt độ thấp",
+      "text": "低温 là danh từ chỉ tình trạng nhiệt độ thấp theo bối cảnh, không tự chỉ một con số chuẩn.",
+      "hanzi": "预报说明天会有低温。",
+      "pinyin": "Yùbào shuō míngtiān huì yǒu dīwēn.",
+      "meaning": "Dự báo nói ngày mai có nhiệt độ thấp.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l410-t4",
+      "type": "teaching",
+      "title": "高温 · nhiệt độ cao",
+      "text": "高温 nói mức nhiệt cao trong bối cảnh thời tiết hoặc kỹ thuật; không tự đồng nghĩa bị sốt.",
+      "hanzi": "最近这里连续出现高温。",
+      "pinyin": "Zuìjìn zhèlǐ liánxù chūxiàn gāowēn.",
+      "meaning": "Gần đây nơi này liên tiếp có nhiệt độ cao.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l410-t5",
+      "type": "teaching",
+      "title": "高于 · cao hơn (mốc)",
+      "text": "高于 nhận mốc so sánh như 去年同期; không thay cho mọi cách nói chiều cao của người.",
+      "hanzi": "今天的气温高于昨天。",
+      "pinyin": "Jīntiān de qìwēn gāoyú zuótiān.",
+      "meaning": "Nhiệt độ hôm nay cao hơn hôm qua.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l410-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "跟+A+相比 đặt đối tượng làm mốc so sánh. Cao hơn mốc có thể nói 高于; 高温 và 低温 cần ngữ cảnh/mốc, không phải ngưỡng cố định do bài quy định.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l410-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "李老师看了一份旧天气记录：去年这个月有高温，后来又出现低温。跟去年相比，今年同一天的气温高于去年。她打开朝南的窗户，风把一张纸吹走了，于是马上关窗。",
+      "pinyin": "Lǐ lǎoshī kàn le yí fèn jiù tiānqì jìlù: Qùnián zhège yuè yǒu gāowēn, hòulái yòu chūxiàn dīwēn. Gēn qùnián xiāngbǐ, jīnnián tóng yì tiān de qìwēn gāoyú qùnián. Tā dǎkāi cháo nán de chuānghu, fēng bǎ yì zhāng zhǐ chuī zǒu le, yúshì mǎshàng guān chuāng.",
+      "meaning": "Cô Lý đọc ghi chép thời tiết cũ rồi so sánh cùng ngày giữa hai năm. Cô đóng cửa sổ sau khi gió thổi bay giấy. Đây là dữ liệu hư cấu.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l410-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l410-v2-e0"
+    },
+    {
+      "id": "l410-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l410-v2-e1"
+    },
+    {
+      "id": "l410-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l410-v2-e2"
+    },
+    {
+      "id": "l410-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l410-v2-e3"
+    },
+    {
+      "id": "l410-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l410-v2-e4"
+    },
+    {
+      "id": "l410-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l410-v2-e5"
+    },
+    {
+      "id": "l410-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l410-v2-e6"
+    },
+    {
+      "id": "l410-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l410-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l410-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l410-c0",
+      "senseId": "l410-v-1095-sense",
+      "keyRef": "l410-v2-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “cửa sổ (dạng đơn âm)”: □ (chuāng). Ngữ cảnh: 屋里太热了，请开□。",
+      "choices": [
+        "空",
+        "穿",
+        "穷",
+        "窗"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l410-v2-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l410-c1",
+      "senseId": "l410-v-1096-sense",
+      "keyRef": "l410-v2-k1",
+      "prompt": "Ghi pinyin của 窗户 trong câu “这扇窗户朝南。”, theo nghĩa “cửa sổ”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l410-v2-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l410-c2",
+      "senseId": "l410-v-1097-sense",
+      "keyRef": "l410-v2-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “thổi”: 风把桌上的纸□走了。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l410-v2-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l410-c3",
+      "senseId": "l410-v-1151-sense",
+      "keyRef": "l410-v2-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “nhiệt độ thấp” để điền câu: 预报说明天会有□。",
+      "choices": [
+        "高温",
+        "高于",
+        "窗",
+        "窗户",
+        "吹",
+        "低温"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l410-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l410-c4",
+      "senseId": "l410-v-1239-sense",
+      "keyRef": "l410-v2-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “nhiệt độ cao” để điền câu: 最近这里连续出现□。",
+      "choices": [
+        "高于",
+        "窗",
+        "窗户",
+        "吹",
+        "低温",
+        "高温"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l410-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l410-c5",
+      "senseId": "l410-v-1240-sense",
+      "keyRef": "l410-v2-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “cao hơn (mốc)”: 今天的气温□昨天。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l410-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l410-c0",
+      "senseId": "l410-v-1095-sense",
+      "keyRef": "l410-v2-k6",
+      "prompt": "Tại sao cô Lý đóng cửa sổ ngay?",
+      "choices": [
+        "窗户不能朝南",
+        "记录说每天都是低温",
+        "风把纸吹走了"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l410-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l410-c3",
+      "senseId": "l410-v-1151-sense",
+      "keyRef": "l410-v2-k7",
+      "prompt": "Xếp so sánh, bắt đầu bằng 跟去年相比.",
+      "choices": [
+        "更",
+        "今年的气温",
+        "跟去年相比",
+        "高"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l410-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l410-v2-e0",
+      "senseId": "l410-v-1095-sense",
+      "accepted": [
+        "窗"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 窗 tạo từ 窗. 窗 thường gặp trong 开窗、关窗; cùng chỉ cửa sổ như 窗户, nên bài yêu cầu phân biệt dạng một chữ và hai chữ khi truy hồi. Nhận diện chữ 窗 trong 窗; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l410-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l410-v2-e1",
+      "senseId": "l410-v-1096-sense",
+      "accepted": [
+        "chuāng hu"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc chuāng hu. 窗户 đọc chuānghu, âm 户 nhẹ; có thể dùng làm danh từ độc lập, đồng nghĩa gần 窗 trong nhiều câu."
+    },
+    {
+      "id": "l410-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l410-v2-e2",
+      "senseId": "l410-v-1097-sense",
+      "accepted": [
+        "吹"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 吹. 吹 có thể tả gió thổi hoặc thổi bằng miệng; ở đây là tác động của gió. Gió thổi bay giấy trên bàn."
+    },
+    {
+      "id": "l410-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l410-v2-e3",
+      "senseId": "l410-v-1151-sense",
+      "accepted": [
+        "低温"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "低温: nhiệt độ thấp. 低温 là danh từ chỉ tình trạng nhiệt độ thấp theo bối cảnh, không tự chỉ một con số chuẩn. Dự báo nói ngày mai có nhiệt độ thấp."
+    },
+    {
+      "id": "l410-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l410-v2-e4",
+      "senseId": "l410-v-1239-sense",
+      "accepted": [
+        "高温"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "高温: nhiệt độ cao. 高温 nói mức nhiệt cao trong bối cảnh thời tiết hoặc kỹ thuật; không tự đồng nghĩa bị sốt. Gần đây nơi này liên tiếp có nhiệt độ cao."
+    },
+    {
+      "id": "l410-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l410-v2-e5",
+      "senseId": "l410-v-1240-sense",
+      "accepted": [
+        "高于"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 高于. 高于 nhận mốc so sánh như 去年同期; không thay cho mọi cách nói chiều cao của người. Nhiệt độ hôm nay cao hơn hôm qua."
+    },
+    {
+      "id": "l410-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l410-v2-e6",
+      "senseId": "l410-v-1095-sense",
+      "accepted": [
+        "风把纸吹走了"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 风把纸吹走了. Cô Lý đọc ghi chép thời tiết cũ rồi so sánh cùng ngày giữa hai năm. Cô đóng cửa sổ sau khi gió thổi bay giấy. Đây là dữ liệu hư cấu."
+    },
+    {
+      "id": "l410-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l410-v2-e7",
+      "senseId": "l410-v-1151-sense",
+      "accepted": [
+        "2,1,0,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 跟+A+相比 đặt đối tượng làm mốc so sánh. Cao hơn mốc có thể nói 高于; 高温 và 低温 cần ngữ cảnh/mốc, không phải ngưỡng cố định do bài quy định."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "9f3af853f5ae583fdd9363fd1c7b68a494361b97833992047c1589af73a7a15d",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eabf",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L4015",
+    "version": 1,
+    "versionId": "l4015-draft-v1",
+    "title": "Tác giả và tác phẩm trong buổi đọc sách",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Tác giả và tác phẩm trong buổi đọc sách; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "有A有B"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 28,
+      "physicalPage": 29,
+      "printedPage": 26,
+      "section": "task",
+      "entry": "二十三"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-29T07:52:35.559631Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-art",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 28,
+          "physicalPage": 29,
+          "printedPage": 26,
+          "section": "task",
+          "entry": "二十三"
+        },
+        "written": "介绍文艺形式、活动、作品",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-7c7cacd8c8aa",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 67,
+          "physicalPage": 68,
+          "printedPage": 65,
+          "section": "topic",
+          "entry": "创作者及其作品"
+        },
+        "written": "创作者及其作品",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l4015-v-2000",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 128,
+          "physicalPage": 129,
+          "printedPage": 126,
+          "section": "vocabulary",
+          "entry": "ordinal 2000"
+        },
+        "written": "作者",
+        "pinyin": "zuòzhě",
+        "senseId": "l4015-v-2000-sense",
+        "ordinal": 2000,
+        "note": "4 zuòzhě 名; 作者 là người tạo văn bản/tác phẩm đang nói, không nhất thiết làm nghề viết. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4015-v-1995",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 128,
+          "physicalPage": 129,
+          "printedPage": 126,
+          "section": "vocabulary",
+          "entry": "ordinal 1995"
+        },
+        "written": "作品",
+        "pinyin": "zuòpǐn",
+        "senseId": "l4015-v-1995-sense",
+        "ordinal": 1995,
+        "note": "4 zuòpǐn 名; 作品 là sản phẩm sáng tác có nội dung/hình thức, không phải tác giả tạo ra nó. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4015-v-1993",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 128,
+          "physicalPage": 129,
+          "printedPage": 126,
+          "section": "vocabulary",
+          "entry": "ordinal 1993"
+        },
+        "written": "作家",
+        "pinyin": "zuòjiā",
+        "senseId": "l4015-v-1993-sense",
+        "ordinal": 1993,
+        "note": "4 zuòjiā 名; 作家 là người sáng tác văn học; hẹp hơn 作者 dùng cho bất kỳ văn bản phù hợp nào. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4015-v-1814",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 124,
+          "physicalPage": 125,
+          "printedPage": 122,
+          "section": "vocabulary",
+          "entry": "ordinal 1814"
+        },
+        "written": "小说",
+        "pinyin": "xiǎoshuō",
+        "senseId": "l4015-v-1814-sense",
+        "ordinal": 1814,
+        "note": "4 xiǎoshuō 名; 小说 là thể loại văn xuôi hư cấu, không có nghĩa câu nói nhỏ tiếng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4015-v-1778",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 123,
+          "physicalPage": 124,
+          "printedPage": 121,
+          "section": "vocabulary",
+          "entry": "ordinal 1778"
+        },
+        "written": "文章",
+        "pinyin": "wénzhāng",
+        "senseId": "l4015-v-1778-sense",
+        "ordinal": 1778,
+        "note": "4 wénzhāng 名; 文章 chỉ một bài văn/bài viết hoàn chỉnh; dùng lượng từ 篇. Nhận diện chữ 章 trong 文章; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4015-v-1779",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 123,
+          "physicalPage": 124,
+          "printedPage": 121,
+          "section": "vocabulary",
+          "entry": "ordinal 1779"
+        },
+        "written": "文字",
+        "pinyin": "wénzì",
+        "senseId": "l4015-v-1779-sense",
+        "ordinal": 1779,
+        "note": "4 wénzì 名; 文字 là hệ chữ hoặc lời văn ở dạng viết, không chỉ riêng một bài hoàn chỉnh. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-239",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "239"
+        },
+        "written": "品",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 239,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-409",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "409"
+        },
+        "written": "章",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 409,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-4015",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 394,
+          "physicalPage": 395,
+          "printedPage": 392,
+          "section": "grammar",
+          "entry": "有A有B：有声有色"
+        },
+        "written": "有A有B",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l4015-c0",
+      "version": 1,
+      "senseId": "l4015-v-2000-sense",
+      "hanzi": "作者",
+      "dictionaryPinyin": "zuò zhě",
+      "meaning": "tác giả",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4015-v-2000"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4015-c1",
+      "version": 1,
+      "senseId": "l4015-v-1995-sense",
+      "hanzi": "作品",
+      "dictionaryPinyin": "zuò pǐn",
+      "meaning": "tác phẩm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4015-v-1995"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4015-c2",
+      "version": 1,
+      "senseId": "l4015-v-1993-sense",
+      "hanzi": "作家",
+      "dictionaryPinyin": "zuò jiā",
+      "meaning": "nhà văn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4015-v-1993"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4015-c3",
+      "version": 1,
+      "senseId": "l4015-v-1814-sense",
+      "hanzi": "小说",
+      "dictionaryPinyin": "xiǎo shuō",
+      "meaning": "tiểu thuyết; truyện hư cấu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4015-v-1814"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4015-c4",
+      "version": 1,
+      "senseId": "l4015-v-1778-sense",
+      "hanzi": "文章",
+      "dictionaryPinyin": "wén zhāng",
+      "meaning": "bài viết",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4015-v-1778"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4015-c5",
+      "version": 1,
+      "senseId": "l4015-v-1779-sense",
+      "hanzi": "文字",
+      "dictionaryPinyin": "wén zì",
+      "meaning": "chữ viết; văn tự",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4015-v-1779"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l4015-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4015-t0",
+      "type": "teaching",
+      "title": "作者 · tác giả",
+      "text": "作者 là người tạo văn bản/tác phẩm đang nói, không nhất thiết làm nghề viết.",
+      "hanzi": "这篇文章的作者是一位老师。",
+      "pinyin": "Zhè piān wén zhāng de zuò zhě shì yí wèi lǎo shī.",
+      "meaning": "Tác giả bài viết này là một giáo viên.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4015-t1",
+      "type": "teaching",
+      "title": "作品 · tác phẩm",
+      "text": "作品 là sản phẩm sáng tác có nội dung/hình thức, không phải tác giả tạo ra nó.",
+      "hanzi": "读书会上介绍了三部作品。",
+      "pinyin": "Dú shū huì shàng jiè shào le sān bù zuò pǐn.",
+      "meaning": "Buổi đọc sách giới thiệu ba tác phẩm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4015-t2",
+      "type": "teaching",
+      "title": "作家 · nhà văn",
+      "text": "作家 là người sáng tác văn học; hẹp hơn 作者 dùng cho bất kỳ văn bản phù hợp nào.",
+      "hanzi": "这位作家常写乡村生活。",
+      "pinyin": "Zhè wèi zuò jiā cháng xiě xiāng cūn shēng huó.",
+      "meaning": "Nhà văn này thường viết về đời sống làng quê.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4015-t3",
+      "type": "teaching",
+      "title": "小说 · tiểu thuyết; truyện hư cấu",
+      "text": "小说 là thể loại văn xuôi hư cấu, không có nghĩa câu nói nhỏ tiếng.",
+      "hanzi": "我正在读一本小说。",
+      "pinyin": "Wǒ zhèng zài dú yì běn xiǎo shuō.",
+      "meaning": "Tôi đang đọc một tiểu thuyết.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4015-t4",
+      "type": "teaching",
+      "title": "文章 · bài viết",
+      "text": "文章 chỉ một bài văn/bài viết hoàn chỉnh; dùng lượng từ 篇. Nhận diện chữ 章 trong 文章; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "他写了一篇介绍作者的文章。",
+      "pinyin": "Tā xiě le yì piān jiè shào zuò zhě de wén zhāng.",
+      "meaning": "Anh ấy viết một bài giới thiệu tác giả.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4015-t5",
+      "type": "teaching",
+      "title": "文字 · chữ viết; văn tự",
+      "text": "文字 là hệ chữ hoặc lời văn ở dạng viết, không chỉ riêng một bài hoàn chỉnh.",
+      "hanzi": "这段文字很容易读懂。",
+      "pinyin": "Zhè duàn wén zì hěn róng yì dú dǒng.",
+      "meaning": "Đoạn chữ này rất dễ đọc hiểu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4015-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "有声有色 là thành ngữ tả lời kể/miêu tả sinh động, có hình ảnh, thuộc mẫu cố định 有A有B. Trong bài chỉ đọc và sắp câu, không có thu âm hoặc chấm nói.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4015-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "读书会上，小宁介绍一位虚构的作家和他的作品。她先读小说中的一段文字，再用自己的话介绍作者，没有复制整部作品。最后她读了一篇自己写的文章，把人物的故事讲得有声有色。这里的作家和作品都是为练习设计的。",
+      "pinyin": "Dú shū huì shàng, Xiǎo Níng jiè shào yí wèi xū gòu de zuò jiā hé tā de zuò pǐn. Tā xiān dú xiǎo shuō zhōng de yí duàn wén zì, zài yòng zì jǐ de huà jiè shào zuò zhě, méi yǒu fù zhì zhěng bù zuò pǐn. Zuì hòu tā dú le yì piān zì jǐ xiě de wén zhāng, bǎ rén wù de gù shi jiǎng de yǒu shēng yǒu sè. Zhè lǐ de zuò jiā hé zuò pǐn dōu shì wèi liàn xí shè jì de.",
+      "meaning": "Tiểu Ninh giới thiệu nhà văn và tác phẩm hư cấu, tự viết bài kể chuyện sinh động. Không trích tác phẩm có thật.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4015-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l4015-v1-e0"
+    },
+    {
+      "id": "l4015-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l4015-v1-e1"
+    },
+    {
+      "id": "l4015-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l4015-v1-e2"
+    },
+    {
+      "id": "l4015-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l4015-v1-e3"
+    },
+    {
+      "id": "l4015-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l4015-v1-e4"
+    },
+    {
+      "id": "l4015-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l4015-v1-e5"
+    },
+    {
+      "id": "l4015-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l4015-v1-e6"
+    },
+    {
+      "id": "l4015-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l4015-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l4015-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4015-c0",
+      "senseId": "l4015-v-2000-sense",
+      "keyRef": "l4015-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “tác giả” để điền câu: 这篇文章的□是一位老师。",
+      "choices": [
+        "作品",
+        "作家",
+        "小说",
+        "文章",
+        "文字",
+        "作者"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4015-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4015-c1",
+      "senseId": "l4015-v-1995-sense",
+      "keyRef": "l4015-v1-k1",
+      "prompt": "Ghi pinyin của 作品 trong câu “读书会上介绍了三部作品。”, theo nghĩa “tác phẩm”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4015-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4015-c2",
+      "senseId": "l4015-v-1993-sense",
+      "keyRef": "l4015-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “nhà văn”: 这位□常写乡村生活。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4015-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4015-c3",
+      "senseId": "l4015-v-1814-sense",
+      "keyRef": "l4015-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “tiểu thuyết; truyện hư cấu” để điền câu: 我正在读一本□。",
+      "choices": [
+        "文章",
+        "文字",
+        "作者",
+        "作品",
+        "作家",
+        "小说"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4015-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l4015-c4",
+      "senseId": "l4015-v-1778-sense",
+      "keyRef": "l4015-v1-k4",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “bài viết”: 文□ (wén zhāng). Ngữ cảnh: 他写了一篇介绍作者的□。",
+      "choices": [
+        "童",
+        "竟",
+        "音",
+        "章"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4015-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4015-c5",
+      "senseId": "l4015-v-1779-sense",
+      "keyRef": "l4015-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “chữ viết; văn tự”: 这段□很容易读懂。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4015-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4015-c0",
+      "senseId": "l4015-v-2000-sense",
+      "keyRef": "l4015-v1-k6",
+      "prompt": "Bài viết cuối buổi do ai viết?",
+      "choices": [
+        "小说中的人物",
+        "老师",
+        "小宁自己"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4015-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l4015-c3",
+      "senseId": "l4015-v-1814-sense",
+      "keyRef": "l4015-v1-k7",
+      "prompt": "Sắp xếp nguyên các cụm thành câu theo mẫu đang học; không thêm/bớt từ.",
+      "choices": [
+        "她把",
+        "人物的故事",
+        "讲得",
+        "有声有色。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l4015-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l4015-v1-e0",
+      "senseId": "l4015-v-2000-sense",
+      "accepted": [
+        "作者"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "作者: tác giả. 作者 là người tạo văn bản/tác phẩm đang nói, không nhất thiết làm nghề viết. Tác giả bài viết này là một giáo viên."
+    },
+    {
+      "id": "l4015-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l4015-v1-e1",
+      "senseId": "l4015-v-1995-sense",
+      "accepted": [
+        "zuò pǐn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc zuò pǐn. 作品 là sản phẩm sáng tác có nội dung/hình thức, không phải tác giả tạo ra nó."
+    },
+    {
+      "id": "l4015-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l4015-v1-e2",
+      "senseId": "l4015-v-1993-sense",
+      "accepted": [
+        "作家"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 作家. 作家 là người sáng tác văn học; hẹp hơn 作者 dùng cho bất kỳ văn bản phù hợp nào. Nhà văn này thường viết về đời sống làng quê."
+    },
+    {
+      "id": "l4015-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l4015-v1-e3",
+      "senseId": "l4015-v-1814-sense",
+      "accepted": [
+        "小说"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "小说: tiểu thuyết; truyện hư cấu. 小说 là thể loại văn xuôi hư cấu, không có nghĩa câu nói nhỏ tiếng. Tôi đang đọc một tiểu thuyết."
+    },
+    {
+      "id": "l4015-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l4015-v1-e4",
+      "senseId": "l4015-v-1778-sense",
+      "accepted": [
+        "章"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 章 tạo từ 文章. 文章 chỉ một bài văn/bài viết hoàn chỉnh; dùng lượng từ 篇. Nhận diện chữ 章 trong 文章; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l4015-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l4015-v1-e5",
+      "senseId": "l4015-v-1779-sense",
+      "accepted": [
+        "文字"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 文字. 文字 là hệ chữ hoặc lời văn ở dạng viết, không chỉ riêng một bài hoàn chỉnh. Đoạn chữ này rất dễ đọc hiểu."
+    },
+    {
+      "id": "l4015-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l4015-v1-e6",
+      "senseId": "l4015-v-2000-sense",
+      "accepted": [
+        "小宁自己"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 小宁自己. Tiểu Ninh giới thiệu nhà văn và tác phẩm hư cấu, tự viết bài kể chuyện sinh động. Không trích tác phẩm có thật."
+    },
+    {
+      "id": "l4015-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l4015-v1-e7",
+      "senseId": "l4015-v-1814-sense",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 有声有色 là thành ngữ tả lời kể/miêu tả sinh động, có hình ảnh, thuộc mẫu cố định 有A有B. Trong bài chỉ đọc và sắp câu, không có thu âm hoặc chấm nói."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

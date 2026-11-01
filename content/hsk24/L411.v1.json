@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "66f5872d5eb8a4438eacd2644d50aa2585a8690cfaf2234330eb5e64ce70f15f",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ebb",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L411",
+    "version": 1,
+    "versionId": "l411-draft-v1",
+    "title": "Ước lượng thời gian nối chuyến",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ước lượng thời gian nối chuyến; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "大约"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 21,
+      "physicalPage": 22,
+      "printedPage": 19,
+      "section": "task",
+      "entry": "六"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T16:55:39.989587Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 21,
+          "physicalPage": 22,
+          "printedPage": 19,
+          "section": "task",
+          "entry": "六"
+        },
+        "written": "谈论交通出行",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-fc96192196bc",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "出行经历"
+        },
+        "written": "出行经历",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l411-v-1123",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 107,
+          "physicalPage": 108,
+          "printedPage": 105,
+          "section": "vocabulary",
+          "entry": "ordinal 1123"
+        },
+        "written": "大巴",
+        "pinyin": "dàbā",
+        "senseId": "l411-v-1123-sense",
+        "ordinal": 1123,
+        "note": "4 dàbā 名; 大巴 là cách gọi xe khách/xe buýt đường dài cỡ lớn; chọn phương tiện dựa tuyến cụ thể, không mặc định chạy mọi nơi. Nhận diện chữ 巴 trong 大巴; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l411-v-1146",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 107,
+          "physicalPage": 108,
+          "printedPage": 105,
+          "section": "vocabulary",
+          "entry": "ordinal 1146"
+        },
+        "written": "登机",
+        "pinyin": "dēngjī",
+        "senseId": "l411-v-1146-sense",
+        "ordinal": 1146,
+        "note": "4 dēngjī 动; 登机 là bước lên máy bay sau các thủ tục; không có nghĩa đã hạ cánh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l411-v-1128",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 107,
+          "physicalPage": 108,
+          "printedPage": 105,
+          "section": "vocabulary",
+          "entry": "ordinal 1128"
+        },
+        "written": "大厅",
+        "pinyin": "dàtīng",
+        "senseId": "l411-v-1128-sense",
+        "ordinal": 1128,
+        "note": "4 dàtīng 名; 大厅 là khu sảnh rộng trong công trình, khác 房间 là phòng riêng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l411-v-1166",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1166"
+        },
+        "written": "动车",
+        "pinyin": "dòngchē",
+        "senseId": "l411-v-1166-sense",
+        "ordinal": 1166,
+        "note": "4 dòngchē 名; 动车 trong giao tiếp thường nói loại tàu động lực phân tán; bài không suy ra tốc độ cụ thể từ tên gọi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l411-v-1169",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1169"
+        },
+        "written": "堵车",
+        "pinyin": "dǔchē",
+        "senseId": "l411-v-1169-sense",
+        "ordinal": 1169,
+        "note": "4 dǔchē 动; 堵车 là tình trạng giao thông ùn tắc, có thể làm chậm xe đường bộ chứ không phải tên phương tiện. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l411-v-1129",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 107,
+          "physicalPage": 108,
+          "printedPage": 105,
+          "section": "vocabulary",
+          "entry": "ordinal 1129"
+        },
+        "written": "大约",
+        "pinyin": "dàyuē",
+        "senseId": "l411-v-1129-sense",
+        "ordinal": 1129,
+        "note": "4 dàyuē 副; 大约 biểu thị số ước lượng; không dùng làm cam kết thời gian chính xác. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-4",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "4"
+        },
+        "written": "巴",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 4,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-51",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "51"
+        },
+        "written": "登",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 51,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-321",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "321"
+        },
+        "written": "厅",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 321,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "堵",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-399",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "399"
+        },
+        "written": "约",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 399,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-411",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "概数表示：大约"
+        },
+        "written": "大约",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l411-c0",
+      "version": 1,
+      "senseId": "l411-v-1123-sense",
+      "hanzi": "大巴",
+      "dictionaryPinyin": "dà bā",
+      "meaning": "xe khách lớn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l411-v-1123"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l411-c1",
+      "version": 1,
+      "senseId": "l411-v-1146-sense",
+      "hanzi": "登机",
+      "dictionaryPinyin": "dēng jī",
+      "meaning": "lên máy bay",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l411-v-1146"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l411-c2",
+      "version": 1,
+      "senseId": "l411-v-1128-sense",
+      "hanzi": "大厅",
+      "dictionaryPinyin": "dà tīng",
+      "meaning": "sảnh lớn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l411-v-1128"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l411-c3",
+      "version": 1,
+      "senseId": "l411-v-1166-sense",
+      "hanzi": "动车",
+      "dictionaryPinyin": "dòng chē",
+      "meaning": "tàu động lực phân tán",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l411-v-1166"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l411-c4",
+      "version": 1,
+      "senseId": "l411-v-1169-sense",
+      "hanzi": "堵车",
+      "dictionaryPinyin": "dǔ chē",
+      "meaning": "tắc đường",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l411-v-1169"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l411-c5",
+      "version": 1,
+      "senseId": "l411-v-1129-sense",
+      "hanzi": "大约",
+      "dictionaryPinyin": "dà yuē",
+      "meaning": "khoảng, chừng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l411-v-1129"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l411-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 证件 zhèngjiàn: giấy tờ; 出发 chūfā: khởi hành; 通知 tōngzhī: thông báo; 估计 gūjì: ước lượng; 当成 dàngchéng: xem là.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l411-t0",
+      "type": "teaching",
+      "title": "大巴 · xe khách lớn",
+      "text": "大巴 là cách gọi xe khách/xe buýt đường dài cỡ lớn; chọn phương tiện dựa tuyến cụ thể, không mặc định chạy mọi nơi. Nhận diện chữ 巴 trong 大巴; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "我们坐大巴去机场。",
+      "pinyin": "Wǒmen zuò dàbā qù jīchǎng.",
+      "meaning": "Chúng tôi đi xe khách lớn đến sân bay.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l411-t1",
+      "type": "teaching",
+      "title": "登机 · lên máy bay",
+      "text": "登机 là bước lên máy bay sau các thủ tục; không có nghĩa đã hạ cánh.",
+      "hanzi": "请在登机前准备好证件。",
+      "pinyin": "Qǐng zài dēngjī qián zhǔnbèi hǎo zhèngjiàn.",
+      "meaning": "Hãy chuẩn bị giấy tờ trước khi lên máy bay.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l411-t2",
+      "type": "teaching",
+      "title": "大厅 · sảnh lớn",
+      "text": "大厅 là khu sảnh rộng trong công trình, khác 房间 là phòng riêng.",
+      "hanzi": "我们在出发大厅见面。",
+      "pinyin": "Wǒmen zài chūfā dàtīng jiànmiàn.",
+      "meaning": "Chúng ta gặp nhau ở sảnh khởi hành.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l411-t3",
+      "type": "teaching",
+      "title": "动车 · tàu động lực phân tán",
+      "text": "动车 trong giao tiếp thường nói loại tàu động lực phân tán; bài không suy ra tốc độ cụ thể từ tên gọi.",
+      "hanzi": "这趟动车下午两点出发。",
+      "pinyin": "Zhè tàng dòngchē xiàwǔ liǎng diǎn chūfā.",
+      "meaning": "Chuyến tàu này khởi hành lúc hai giờ chiều.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l411-t4",
+      "type": "teaching",
+      "title": "堵车 · tắc đường",
+      "text": "堵车 là tình trạng giao thông ùn tắc, có thể làm chậm xe đường bộ chứ không phải tên phương tiện.",
+      "hanzi": "路上堵车，我们晚到了十分钟。",
+      "pinyin": "Lù shàng dǔchē, wǒmen wǎn dào le shí fēnzhōng.",
+      "meaning": "Đường tắc nên chúng tôi đến muộn mười phút.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l411-t5",
+      "type": "teaching",
+      "title": "大约 · khoảng, chừng",
+      "text": "大约 biểu thị số ước lượng; không dùng làm cam kết thời gian chính xác.",
+      "hanzi": "从这里走过去大约要十分钟。",
+      "pinyin": "Cóng zhèlǐ zǒu guòqù dàyuē yào shí fēnzhōng.",
+      "meaning": "Đi bộ từ đây sang đó mất khoảng mười phút.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l411-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "大约 đứng trước số lượng/thời gian ước tính, không phải giờ bảo đảm. Cần phân biệt thời gian chờ 大约二十分钟 với giờ cố định 两点.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l411-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小何先坐动车到市里，再换大巴去机场。司机说大约四十分钟能到，但路上可能堵车。到了出发大厅，小何先看登机通知，没有把估计的到达时间当成保证。",
+      "pinyin": "Xiǎo Hé xiān zuò dòngchē dào shì lǐ, zài huàn dàbā qù jīchǎng. Sījī shuō dàyuē sìshí fēnzhōng néng dào, dàn lù shàng kěnéng dǔchē. Dào le chūfā dàtīng, Xiǎo Hé xiān kàn dēngjī tōngzhī, méiyǒu bǎ gūjì de dàodá shíjiān dàngchéng bǎozhèng.",
+      "meaning": "Hà đi tàu vào thành phố rồi chuyển xe khách đến sân bay. Bốn mươi phút là ước lượng có thể bị ảnh hưởng bởi tắc đường; Hà xem thông báo lên máy bay khi đến sảnh.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l411-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l411-v1-e0"
+    },
+    {
+      "id": "l411-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l411-v1-e1"
+    },
+    {
+      "id": "l411-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l411-v1-e2"
+    },
+    {
+      "id": "l411-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l411-v1-e3"
+    },
+    {
+      "id": "l411-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l411-v1-e4"
+    },
+    {
+      "id": "l411-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l411-v1-e5"
+    },
+    {
+      "id": "l411-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l411-v1-e6"
+    },
+    {
+      "id": "l411-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l411-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l411-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l411-c0",
+      "senseId": "l411-v-1123-sense",
+      "keyRef": "l411-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “xe khách lớn”: 大□ (dà bā). Ngữ cảnh: 我们坐□去机场。",
+      "choices": [
+        "已",
+        "己",
+        "巳",
+        "巴"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l411-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l411-c1",
+      "senseId": "l411-v-1146-sense",
+      "keyRef": "l411-v1-k1",
+      "prompt": "Ghi pinyin của 登机 trong câu “请在登机前准备好证件。”, theo nghĩa “lên máy bay”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l411-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l411-c2",
+      "senseId": "l411-v-1128-sense",
+      "keyRef": "l411-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “sảnh lớn”: 我们在出发□见面。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l411-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l411-c3",
+      "senseId": "l411-v-1166-sense",
+      "keyRef": "l411-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “tàu động lực phân tán” để điền câu: 这趟□下午两点出发。",
+      "choices": [
+        "堵车",
+        "大约",
+        "大巴",
+        "登机",
+        "大厅",
+        "动车"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l411-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l411-c4",
+      "senseId": "l411-v-1169-sense",
+      "keyRef": "l411-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “tắc đường” để điền câu: 路上□，我们晚到了十分钟。",
+      "choices": [
+        "大约",
+        "大巴",
+        "登机",
+        "大厅",
+        "动车",
+        "堵车"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l411-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l411-c5",
+      "senseId": "l411-v-1129-sense",
+      "keyRef": "l411-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “khoảng, chừng”: 从这里走过去□要十分钟。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l411-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l411-c0",
+      "senseId": "l411-v-1123-sense",
+      "keyRef": "l411-v1-k6",
+      "prompt": "Bốn mươi phút trong lời tài xế là gì?",
+      "choices": [
+        "保证不变的时间",
+        "动车的票价",
+        "估计的时间"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l411-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l411-c3",
+      "senseId": "l411-v-1166-sense",
+      "keyRef": "l411-v1-k7",
+      "prompt": "Xếp ước lượng bắt đầu bằng 大约.",
+      "choices": [
+        "四十分钟",
+        "大约",
+        "要"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l411-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l411-v1-e0",
+      "senseId": "l411-v-1123-sense",
+      "accepted": [
+        "巴"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 巴 tạo từ 大巴. 大巴 là cách gọi xe khách/xe buýt đường dài cỡ lớn; chọn phương tiện dựa tuyến cụ thể, không mặc định chạy mọi nơi. Nhận diện chữ 巴 trong 大巴; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l411-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l411-v1-e1",
+      "senseId": "l411-v-1146-sense",
+      "accepted": [
+        "dēng jī"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc dēng jī. 登机 là bước lên máy bay sau các thủ tục; không có nghĩa đã hạ cánh."
+    },
+    {
+      "id": "l411-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l411-v1-e2",
+      "senseId": "l411-v-1128-sense",
+      "accepted": [
+        "大厅"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 大厅. 大厅 là khu sảnh rộng trong công trình, khác 房间 là phòng riêng. Chúng ta gặp nhau ở sảnh khởi hành."
+    },
+    {
+      "id": "l411-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l411-v1-e3",
+      "senseId": "l411-v-1166-sense",
+      "accepted": [
+        "动车"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "动车: tàu động lực phân tán. 动车 trong giao tiếp thường nói loại tàu động lực phân tán; bài không suy ra tốc độ cụ thể từ tên gọi. Chuyến tàu này khởi hành lúc hai giờ chiều."
+    },
+    {
+      "id": "l411-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l411-v1-e4",
+      "senseId": "l411-v-1169-sense",
+      "accepted": [
+        "堵车"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "堵车: tắc đường. 堵车 là tình trạng giao thông ùn tắc, có thể làm chậm xe đường bộ chứ không phải tên phương tiện. Đường tắc nên chúng tôi đến muộn mười phút."
+    },
+    {
+      "id": "l411-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l411-v1-e5",
+      "senseId": "l411-v-1129-sense",
+      "accepted": [
+        "大约"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 大约. 大约 biểu thị số ước lượng; không dùng làm cam kết thời gian chính xác. Đi bộ từ đây sang đó mất khoảng mười phút."
+    },
+    {
+      "id": "l411-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l411-v1-e6",
+      "senseId": "l411-v-1123-sense",
+      "accepted": [
+        "估计的时间"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 估计的时间. Hà đi tàu vào thành phố rồi chuyển xe khách đến sân bay. Bốn mươi phút là ước lượng có thể bị ảnh hưởng bởi tắc đường; Hà xem thông báo lên máy bay khi đến sảnh."
+    },
+    {
+      "id": "l411-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l411-v1-e7",
+      "senseId": "l411-v-1166-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 大约 đứng trước số lượng/thời gian ước tính, không phải giờ bảo đảm. Cần phân biệt thời gian chờ 大约二十分钟 với giờ cố định 两点."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

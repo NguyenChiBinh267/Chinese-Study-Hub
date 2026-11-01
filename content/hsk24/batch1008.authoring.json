@@ -1,0 +1,912 @@
+{
+  "batch": "HSK1-batch8",
+  "targetLevel": 1,
+  "sourceCheckedAt": "2026-10-30T14:37:07.036876Z",
+  "lessons": [
+    {
+      "id": "L136",
+      "unit": "hsk-one-i",
+      "unitTitle": "Thăm hỏi và giải trí",
+      "title": "Báo mệt và thăm hỏi",
+      "objective": "Báo mệt và thăm hỏi; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-136",
+        "生病",
+        385,
+        "g-385-7",
+        "生病 nói bị ốm; 看病 nói đi khám/chữa bệnh theo tình huống, không phải chỉ nhìn một vật tên 病. 病 có thể là danh từ bệnh. 休息 là nghỉ ngơi; các câu chỉ luyện ngôn ngữ, không chẩn đoán hoặc hướng dẫn điều trị cho người học."
+      ],
+      "task": [
+        "h1-task-health",
+        "告知生病、探病",
+        6,
+        "十"
+      ],
+      "topic": [
+        "h1-topic-759eff154372",
+        "生病、看病、探病等",
+        58,
+        "生病、看病、探病等"
+      ],
+      "words": [
+        [
+          "病",
+          "bìng",
+          "bệnh; sự ốm đau",
+          "病 trong 没有病 là danh từ; không suy tình trạng sức khỏe người học từ câu mẫu.",
+          "我没有病。",
+          "Wǒ méi yǒu bìng.",
+          "Tôi không có bệnh."
+        ],
+        [
+          "生病",
+          "shēng bìng",
+          "bị ốm; bị bệnh",
+          "生病 là bị ốm; không hiểu thành việc sinh ra một vật tên bệnh.",
+          "她生病了。",
+          "Tā shēng bìng le.",
+          "Cô ấy bị ốm rồi."
+        ],
+        [
+          "看病",
+          "kàn bìng",
+          "đi khám; khám bệnh",
+          "看病 trong 我去医院看病 nói đi khám; câu không tự cho biết bệnh gì hay kết quả khám.",
+          "我去医院看病。",
+          "Wǒ qù yī yuàn kàn bìng.",
+          "Tôi đến bệnh viện khám bệnh."
+        ],
+        [
+          "休息",
+          "xiū xi",
+          "nghỉ ngơi",
+          "休息 dùng trong giờ nghỉ hoặc nghỉ việc đang làm; âm 息 nhẹ trong mục từ.",
+          "下课了，请休息。",
+          "Xià kè le, qǐng xiū xi.",
+          "Hết tiết rồi, xin nghỉ ngơi."
+        ]
+      ],
+      "passage": [
+        "A：你去哪儿？\nB：我去医院看病。\nA：你生病了吗？\nB：生病了，我想休息。",
+        "A: Nǐ qù nǎr? B: Wǒ qù yī yuàn kàn bìng. A: Nǐ shēng bìng le ma? B: Shēng bìng le, wǒ xiǎng xiū xi.",
+        "Nhân vật B nói mình bị ốm và muốn nghỉ. Đây là hội thoại viết hư cấu, không có dữ kiện để chẩn đoán bệnh cụ thể."
+      ],
+      "comprehension": [
+        "B nói đến bệnh viện để làm gì?",
+        [
+          "看病",
+          "上课",
+          "找书"
+        ],
+        "看病",
+        "Theo đoạn: 看病. Nhân vật B nói mình bị ốm và muốn nghỉ. Đây là hội thoại viết hư cấu, không có dữ kiện để chẩn đoán bệnh cụ thể."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "去医院",
+          "看病。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "病",
+            "疾",
+            "床",
+            "疼"
+          ],
+          "accepted": [
+            "病"
+          ],
+          "feedback": "Chữ 病 tạo từ 病. 病 trong 没有病 là danh từ; không suy tình trạng sức khỏe người học từ câu mẫu. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 生病 (bị ốm; bị bệnh).",
+          "choices": [],
+          "accepted": [
+            "shēng bìng"
+          ],
+          "feedback": "生病 ghi shēng bìng. 生病 là bị ốm; không hiểu thành việc sinh ra một vật tên bệnh."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “đi khám; khám bệnh”: 我去医院□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "看病"
+          ],
+          "feedback": "看病: đi khám; khám bệnh. 看病 trong 我去医院看病 nói đi khám; câu không tự cho biết bệnh gì hay kết quả khám. Tôi đến bệnh viện khám bệnh."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “nghỉ ngơi” trong câu: 下课了，请□。",
+          "choices": [
+            "病",
+            "生病",
+            "看病",
+            "休息"
+          ],
+          "accepted": [
+            "休息"
+          ],
+          "feedback": "休息: nghỉ ngơi. 休息 dùng trong giờ nghỉ hoặc nghỉ việc đang làm; âm 息 nhẹ trong mục từ. Hết tiết rồi, xin nghỉ ngơi."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我去医院看病。”, 看病 mang nghĩa nào theo bài?",
+          "choices": [
+            "bệnh; sự ốm đau",
+            "bị ốm; bị bệnh",
+            "đi khám; khám bệnh",
+            "nghỉ ngơi"
+          ],
+          "accepted": [
+            "đi khám; khám bệnh"
+          ],
+          "feedback": "看病 trong 我去医院看病 nói đi khám; câu không tự cho biết bệnh gì hay kết quả khám. Tôi đến bệnh viện khám bệnh."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “下课了，请休息。”, 休息 mang nghĩa nào theo bài?",
+          "choices": [
+            "bệnh; sự ốm đau",
+            "bị ốm; bị bệnh",
+            "đi khám; khám bệnh",
+            "nghỉ ngơi"
+          ],
+          "accepted": [
+            "nghỉ ngơi"
+          ],
+          "feedback": "休息 dùng trong giờ nghỉ hoặc nghỉ việc đang làm; âm 息 nhẹ trong mục từ. Hết tiết rồi, xin nghỉ ngơi."
+        }
+      ],
+      "characterTargets": [
+        "病"
+      ]
+    },
+    {
+      "id": "L137",
+      "unit": "hsk-one-i",
+      "unitTitle": "Thăm hỏi và giải trí",
+      "title": "Bận và có việc",
+      "objective": "Bận và có việc; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-137",
+        "形容词谓语句",
+        386,
+        "g-386-16",
+        "忙 là tính từ trong 我很忙, không thêm 是 trước 很忙. 有事 có việc; 没事 có thể là không có việc hoặc không sao theo tình huống. 没关系 là lời đáp không sao khi được xin lỗi, không phải khẳng định không có bất kỳ mối quan hệ nào trong mọi câu."
+      ],
+      "task": [
+        "h1-task-polite",
+        "日常言语交往",
+        5,
+        "六"
+      ],
+      "topic": [
+        "h1-topic-dea888c43e0e",
+        "基本礼貌行为",
+        58,
+        "基本礼貌行为"
+      ],
+      "words": [
+        [
+          "忙",
+          "máng",
+          "bận",
+          "忙 mô tả trạng thái bận; không tự đánh giá người bận là tốt hơn người khác.",
+          "我很忙。",
+          "Wǒ hěn máng.",
+          "Tôi bận."
+        ],
+        [
+          "事",
+          "shì",
+          "việc; chuyện",
+          "事 trong 我有事 là có việc cần làm; chưa nêu việc cụ thể.",
+          "我有事。",
+          "Wǒ yǒu shì.",
+          "Tôi có việc."
+        ],
+        [
+          "没事",
+          "méi shì",
+          "không có việc; không sao",
+          "没事 trong câu đi với 不忙 là không có việc/bận trong tình huống đó.",
+          "我没事，不忙。",
+          "Wǒ méi shì, bù máng.",
+          "Tôi không có việc, không bận."
+        ],
+        [
+          "没关系",
+          "méi guān xi",
+          "không sao (đáp lời xin lỗi)",
+          "没关系 ở lời đáp lịch sự không phải lời chẩn đoán rằng mọi chuyện đều an toàn.",
+          "没关系。",
+          "Méi guān xi.",
+          "Không sao."
+        ]
+      ],
+      "passage": [
+        "A：你忙吗？\nB：忙，我有事。\nA：对不起。\nB：没关系。",
+        "A: Nǐ máng ma? B: Máng, wǒ yǒu shì. A: Duì bu qǐ. B: Méi guān xi.",
+        "对不起 duì bu qǐ = xin lỗi, học riêng ở bài sau. B có việc và bận; cuối đoạn đáp lại lời xin lỗi một cách lịch sự."
+      ],
+      "comprehension": [
+        "B nói về mình thế nào?",
+        [
+          "Bận và có việc",
+          "Không có việc",
+          "Đang xem phim"
+        ],
+        "Bận và có việc",
+        "Theo đoạn: Bận và có việc. 对不起 duì bu qǐ = xin lỗi, học riêng ở bài sau. B có việc và bận; cuối đoạn đáp lại lời xin lỗi một cách lịch sự."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "很",
+          "忙。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "忙",
+            "忘",
+            "芒",
+            "亡"
+          ],
+          "accepted": [
+            "忙"
+          ],
+          "feedback": "Chữ 忙 tạo từ 忙. 忙 mô tả trạng thái bận; không tự đánh giá người bận là tốt hơn người khác. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 事 (việc; chuyện).",
+          "choices": [],
+          "accepted": [
+            "shì"
+          ],
+          "feedback": "事 ghi shì. 事 trong 我有事 là có việc cần làm; chưa nêu việc cụ thể."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “không có việc; không sao”: 我□，不忙。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "没事"
+          ],
+          "feedback": "没事: không có việc; không sao. 没事 trong câu đi với 不忙 là không có việc/bận trong tình huống đó. Tôi không có việc, không bận."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “không sao (đáp lời xin lỗi)” trong câu: □。",
+          "choices": [
+            "忙",
+            "事",
+            "没事",
+            "没关系"
+          ],
+          "accepted": [
+            "没关系"
+          ],
+          "feedback": "没关系: không sao (đáp lời xin lỗi). 没关系 ở lời đáp lịch sự không phải lời chẩn đoán rằng mọi chuyện đều an toàn. Không sao."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我没事，不忙。”, 没事 mang nghĩa nào theo bài?",
+          "choices": [
+            "bận",
+            "việc; chuyện",
+            "không có việc; không sao",
+            "không sao (đáp lời xin lỗi)"
+          ],
+          "accepted": [
+            "không có việc; không sao"
+          ],
+          "feedback": "没事 trong câu đi với 不忙 là không có việc/bận trong tình huống đó. Tôi không có việc, không bận."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “没关系。”, 没关系 mang nghĩa nào theo bài?",
+          "choices": [
+            "bận",
+            "việc; chuyện",
+            "không có việc; không sao",
+            "không sao (đáp lời xin lỗi)"
+          ],
+          "accepted": [
+            "không sao (đáp lời xin lỗi)"
+          ],
+          "feedback": "没关系 ở lời đáp lịch sự không phải lời chẩn đoán rằng mọi chuyện đều an toàn. Không sao."
+        }
+      ],
+      "characterTargets": [
+        "忙"
+      ]
+    },
+    {
+      "id": "L138",
+      "unit": "hsk-one-i",
+      "unitTitle": "Thăm hỏi và giải trí",
+      "title": "Xin lỗi và hỏi lại",
+      "objective": "Xin lỗi và hỏi lại; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-138",
+        "特指问句",
+        386,
+        "g-386-21",
+        "请问 mở đầu câu hỏi lịch sự; sau đó vẫn cần nội dung cần hỏi, như 医院在哪儿？对 là đúng trong câu xác nhận ở bài này, không dạy mọi nghĩa giới từ của 对. 对不起/没关系 tạo một cặp xin lỗi/đáp; 问题 là vấn đề/câu hỏi theo ngữ cảnh."
+      ],
+      "task": [
+        "h1-task-polite",
+        "日常言语交往",
+        5,
+        "六"
+      ],
+      "topic": [
+        "h1-topic-dea888c43e0e",
+        "基本礼貌行为",
+        58,
+        "基本礼貌行为"
+      ],
+      "words": [
+        [
+          "对不起",
+          "duì bu qǐ",
+          "xin lỗi",
+          "对不起 dùng khi xin lỗi trong tình huống, không thay lời cảm ơn 谢谢.",
+          "对不起，我有事。",
+          "Duì bu qǐ, wǒ yǒu shì.",
+          "Xin lỗi, tôi có việc."
+        ],
+        [
+          "对",
+          "duì",
+          "đúng; phải (xác nhận)",
+          "对 trong lời đáp xác nhận thông tin; bài không dùng nghĩa giới từ đối với.",
+          "对，我是老师。",
+          "Duì, wǒ shì lǎo shī.",
+          "Đúng, tôi là giáo viên."
+        ],
+        [
+          "问题",
+          "wèn tí",
+          "câu hỏi; vấn đề",
+          "问题 ở ví dụ là một câu hỏi, chưa gán một khó khăn cụ thể.",
+          "我有一个问题。",
+          "Wǒ yǒu yí ge wèn tí.",
+          "Tôi có một câu hỏi."
+        ],
+        [
+          "请问",
+          "qǐng wèn",
+          "xin hỏi",
+          "请问 là cách mở câu hỏi lịch sự; vẫn phải nói phần thông tin cần hỏi sau nó.",
+          "请问，医院在哪儿？",
+          "Qǐng wèn, yī yuàn zài nǎr?",
+          "Xin hỏi, bệnh viện ở đâu?"
+        ]
+      ],
+      "passage": [
+        "A：请问，你是老师吗？\nB：对，我是老师。\nA：我有一个问题。\nB：好，请问。",
+        "A: Qǐng wèn, nǐ shì lǎo shī ma? B: Duì, wǒ shì lǎo shī. A: Wǒ yǒu yí ge wèn tí. B: Hǎo, qǐng wèn.",
+        "B xác nhận là giáo viên rồi mời A hỏi. Đoạn chưa đưa nội dung câu hỏi của A, nên không tự đoán vấn đề."
+      ],
+      "comprehension": [
+        "B xác nhận nghề gì?",
+        [
+          "老师",
+          "医生",
+          "学生"
+        ],
+        "老师",
+        "Theo đoạn: 老师. B xác nhận là giáo viên rồi mời A hỏi. Đoạn chưa đưa nội dung câu hỏi của A, nên không tự đoán vấn đề."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "有",
+          "一个问题。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “xin lỗi” trong câu: □，我有事。",
+          "choices": [
+            "对不起",
+            "对",
+            "问题",
+            "请问"
+          ],
+          "accepted": [
+            "对不起"
+          ],
+          "feedback": "对不起: xin lỗi. 对不起 dùng khi xin lỗi trong tình huống, không thay lời cảm ơn 谢谢. Xin lỗi, tôi có việc."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 对 (đúng; phải (xác nhận)).",
+          "choices": [],
+          "accepted": [
+            "duì"
+          ],
+          "feedback": "对 ghi duì. 对 trong lời đáp xác nhận thông tin; bài không dùng nghĩa giới từ đối với."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "问",
+            "间",
+            "闻",
+            "闪"
+          ],
+          "accepted": [
+            "问"
+          ],
+          "feedback": "Chữ 问 tạo từ 问题. 问题 ở ví dụ là một câu hỏi, chưa gán một khó khăn cụ thể. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “xin hỏi” trong câu: □，医院在哪儿？",
+          "choices": [
+            "对不起",
+            "对",
+            "问题",
+            "请问"
+          ],
+          "accepted": [
+            "请问"
+          ],
+          "feedback": "请问: xin hỏi. 请问 là cách mở câu hỏi lịch sự; vẫn phải nói phần thông tin cần hỏi sau nó. Xin hỏi, bệnh viện ở đâu?"
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我有一个问题。”, 问题 mang nghĩa nào theo bài?",
+          "choices": [
+            "xin lỗi",
+            "đúng; phải (xác nhận)",
+            "câu hỏi; vấn đề",
+            "xin hỏi"
+          ],
+          "accepted": [
+            "câu hỏi; vấn đề"
+          ],
+          "feedback": "问题 ở ví dụ là một câu hỏi, chưa gán một khó khăn cụ thể. Tôi có một câu hỏi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “请问，医院在哪儿？”, 请问 mang nghĩa nào theo bài?",
+          "choices": [
+            "xin lỗi",
+            "đúng; phải (xác nhận)",
+            "câu hỏi; vấn đề",
+            "xin hỏi"
+          ],
+          "accepted": [
+            "xin hỏi"
+          ],
+          "feedback": "请问 là cách mở câu hỏi lịch sự; vẫn phải nói phần thông tin cần hỏi sau nó. Xin hỏi, bệnh viện ở đâu?"
+        }
+      ],
+      "characterTargets": [
+        "问"
+      ]
+    },
+    {
+      "id": "L139",
+      "unit": "hsk-one-i",
+      "unitTitle": "Thăm hỏi và giải trí",
+      "title": "Một cuộc điện thoại ngắn",
+      "objective": "Một cuộc điện thoại ngắn; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-139",
+        "喂",
+        385,
+        "g-385-27",
+        "喂 wèi là lời mở đầu điện thoại trong bài, khác động từ cho ăn ở ngữ cảnh khác. 电话 là điện thoại/liên lạc qua điện thoại, 手机 là điện thoại di động; 打电话 là gọi điện, không dịch 打 ở đây thành đánh. Bài chỉ đọc cuộc gọi mô phỏng, không tự gọi hoặc gửi tin nhắn."
+      ],
+      "task": [
+        "h1-task-polite",
+        "日常言语交往",
+        5,
+        "六"
+      ],
+      "topic": [
+        "h1-topic-543a2c7847b9",
+        "简单互动行为",
+        58,
+        "简单互动行为"
+      ],
+      "words": [
+        [
+          "电话",
+          "diàn huà",
+          "điện thoại",
+          "电话 ở ví dụ gọi tên thiết bị; chưa nói số điện thoại hoặc người sở hữu.",
+          "这是电话。",
+          "Zhè shì diàn huà.",
+          "Đây là điện thoại."
+        ],
+        [
+          "手机",
+          "shǒu jī",
+          "điện thoại di động",
+          "手机 là thiết bị di động, không đồng nghĩa mọi máy tính.",
+          "我的手机很新。",
+          "Wǒ de shǒu jī hěn xīn.",
+          "Điện thoại di động của tôi mới."
+        ],
+        [
+          "打电话",
+          "dǎ diàn huà",
+          "gọi điện thoại",
+          "打电话 là cụm gọi điện; không suy người nhận nếu câu chưa cho.",
+          "我打电话。",
+          "Wǒ dǎ diàn huà.",
+          "Tôi gọi điện thoại."
+        ],
+        [
+          "喂1",
+          "wèi",
+          "a lô (mở đầu điện thoại)",
+          "喂 trong mục từ này đọc wèi và mở cuộc gọi; số1 ở nguồn phân biệt mục, không phải chữ phải nhập.",
+          "喂，您好！",
+          "Wèi, nín hǎo!",
+          "A lô, xin chào!"
+        ]
+      ],
+      "passage": [
+        "A：喂，你好！\nB：你好，请问是林先生吗？\nA：是。你是安女士吗？\nB：是。",
+        "A: Wèi, nǐ hǎo! B: Nǐ hǎo, qǐng wèn shì Lín xiān sheng ma? A: Shì. Nǐ shì Ān nǚ shì ma? B: Shì.",
+        "Cuộc gọi viết mô phỏng xác nhận hai người: Lâm được gọi 先生, An được gọi 女士. Không có thao tác liên lạc thật."
+      ],
+      "comprehension": [
+        "B hỏi có phải ai đang nghe?",
+        [
+          "林先生",
+          "老师",
+          "安女士"
+        ],
+        "林先生",
+        "Theo đoạn: 林先生. Cuộc gọi viết mô phỏng xác nhận hai người: Lâm được gọi 先生, An được gọi 女士. Không có thao tác liên lạc thật."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "打",
+          "电话。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "电",
+            "田",
+            "申",
+            "由"
+          ],
+          "accepted": [
+            "电"
+          ],
+          "feedback": "Chữ 电 tạo từ 电话. 电话 ở ví dụ gọi tên thiết bị; chưa nói số điện thoại hoặc người sở hữu. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 手机 (điện thoại di động).",
+          "choices": [],
+          "accepted": [
+            "shǒu jī"
+          ],
+          "feedback": "手机 ghi shǒu jī. 手机 là thiết bị di động, không đồng nghĩa mọi máy tính."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “gọi điện thoại”: 我□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "打电话"
+          ],
+          "feedback": "打电话: gọi điện thoại. 打电话 là cụm gọi điện; không suy người nhận nếu câu chưa cho. Tôi gọi điện thoại."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “a lô (mở đầu điện thoại)” trong câu: □，您好！",
+          "choices": [
+            "电话",
+            "手机",
+            "打电话",
+            "喂"
+          ],
+          "accepted": [
+            "喂"
+          ],
+          "feedback": "喂: a lô (mở đầu điện thoại). 喂 trong mục từ này đọc wèi và mở cuộc gọi; số1 ở nguồn phân biệt mục, không phải chữ phải nhập. A lô, xin chào!"
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我打电话。”, 打电话 mang nghĩa nào theo bài?",
+          "choices": [
+            "điện thoại",
+            "điện thoại di động",
+            "gọi điện thoại",
+            "a lô (mở đầu điện thoại)"
+          ],
+          "accepted": [
+            "gọi điện thoại"
+          ],
+          "feedback": "打电话 là cụm gọi điện; không suy người nhận nếu câu chưa cho. Tôi gọi điện thoại."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “喂，您好！”, 喂 mang nghĩa nào theo bài?",
+          "choices": [
+            "điện thoại",
+            "điện thoại di động",
+            "gọi điện thoại",
+            "a lô (mở đầu điện thoại)"
+          ],
+          "accepted": [
+            "a lô (mở đầu điện thoại)"
+          ],
+          "feedback": "喂 trong mục từ này đọc wèi và mở cuộc gọi; số1 ở nguồn phân biệt mục, không phải chữ phải nhập. A lô, xin chào!"
+        }
+      ],
+      "characterTargets": [
+        "电"
+      ]
+    },
+    {
+      "id": "L140",
+      "unit": "hsk-one-i",
+      "unitTitle": "Thăm hỏi và giải trí",
+      "title": "Màn hình và buổi xem phim",
+      "objective": "Màn hình và buổi xem phim; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-140",
+        "也",
+        385,
+        "g-385-19",
+        "也 thêm một chủ thể cùng hành động/tình trạng: 我也喜欢电影. Đặt 也 sau chủ ngữ và trước động từ/cụm vị ngữ trong mẫu này. Phân biệt 电影 là phim và 电影院 là rạp; tên thiết bị/địa điểm không chứng minh đã xem hay nghe nội dung thật."
+      ],
+      "task": [
+        "h1-task-leisure",
+        "交流休闲活动",
+        6,
+        "十一"
+      ],
+      "topic": [
+        "h1-topic-968535cc2a54",
+        "休闲活动",
+        58,
+        "休闲活动"
+      ],
+      "words": [
+        [
+          "电脑",
+          "diàn nǎo",
+          "máy tính",
+          "电脑 là máy tính, không phải màn hình hay phim đang chiếu trong mọi câu.",
+          "我有电脑。",
+          "Wǒ yǒu diàn nǎo.",
+          "Tôi có máy tính."
+        ],
+        [
+          "电视",
+          "diàn shì",
+          "tivi; truyền hình",
+          "电视 trong 看电视 là xem tivi; 看 kàn được chú giải là xem, chưa tính từ mục tiêu mới của bài.",
+          "我喜欢看电视。",
+          "Wǒ xǐ huan kàn diàn shì.",
+          "Tôi thích xem tivi."
+        ],
+        [
+          "电影",
+          "diàn yǐng",
+          "phim; điện ảnh",
+          "电影 chỉ phim/điện ảnh, không tự là địa điểm rạp chiếu.",
+          "我喜欢电影。",
+          "Wǒ xǐ huan diàn yǐng.",
+          "Tôi thích phim."
+        ],
+        [
+          "电影院",
+          "diàn yǐng yuàn",
+          "rạp chiếu phim",
+          "电影院 là nơi xem phim; không bỏ 院 khi đề hỏi địa điểm này.",
+          "我们去电影院。",
+          "Wǒ men qù diàn yǐng yuàn.",
+          "Chúng tôi đến rạp chiếu phim."
+        ]
+      ],
+      "passage": [
+        "A：你喜欢电影吗？\nB：喜欢。你呢？\nA：我也喜欢电影。\nB：我们去电影院，好吗？\nA：好！",
+        "A: Nǐ xǐ huan diàn yǐng ma? B: Xǐ huan. Nǐ ne? A: Wǒ yě xǐ huan diàn yǐng. B: Wǒ men qù diàn yǐng yuàn, hǎo ma? A: Hǎo!",
+        "Hai người đều thích phim và đồng ý đến rạp. Đoạn chưa nói đã tới hoặc đã xem xong một bộ phim."
+      ],
+      "comprehension": [
+        "Hai người đồng ý đến đâu?",
+        [
+          "电影院",
+          "医院",
+          "学校"
+        ],
+        "电影院",
+        "Theo đoạn: 电影院. Hai người đều thích phim và đồng ý đến rạp. Đoạn chưa nói đã tới hoặc đã xem xong một bộ phim."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "也喜欢",
+          "电影。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “máy tính” trong câu: 我有□。",
+          "choices": [
+            "电脑",
+            "电视",
+            "电影",
+            "电影院"
+          ],
+          "accepted": [
+            "电脑"
+          ],
+          "feedback": "电脑: máy tính. 电脑 là máy tính, không phải màn hình hay phim đang chiếu trong mọi câu. Tôi có máy tính."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 电视 (tivi; truyền hình).",
+          "choices": [],
+          "accepted": [
+            "diàn shì"
+          ],
+          "feedback": "电视 ghi diàn shì. 电视 trong 看电视 là xem tivi; 看 kàn được chú giải là xem, chưa tính từ mục tiêu mới của bài."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "影",
+            "景",
+            "彡",
+            "京"
+          ],
+          "accepted": [
+            "影"
+          ],
+          "feedback": "Chữ 影 tạo từ 电影. 电影 chỉ phim/điện ảnh, không tự là địa điểm rạp chiếu. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “rạp chiếu phim” trong câu: 我们去□。",
+          "choices": [
+            "电脑",
+            "电视",
+            "电影",
+            "电影院"
+          ],
+          "accepted": [
+            "电影院"
+          ],
+          "feedback": "电影院: rạp chiếu phim. 电影院 là nơi xem phim; không bỏ 院 khi đề hỏi địa điểm này. Chúng tôi đến rạp chiếu phim."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我喜欢电影。”, 电影 mang nghĩa nào theo bài?",
+          "choices": [
+            "máy tính",
+            "tivi; truyền hình",
+            "phim; điện ảnh",
+            "rạp chiếu phim"
+          ],
+          "accepted": [
+            "phim; điện ảnh"
+          ],
+          "feedback": "电影 chỉ phim/điện ảnh, không tự là địa điểm rạp chiếu. Tôi thích phim."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我们去电影院。”, 电影院 mang nghĩa nào theo bài?",
+          "choices": [
+            "máy tính",
+            "tivi; truyền hình",
+            "phim; điện ảnh",
+            "rạp chiếu phim"
+          ],
+          "accepted": [
+            "rạp chiếu phim"
+          ],
+          "feedback": "电影院 là nơi xem phim; không bỏ 院 khi đề hỏi địa điểm này. Chúng tôi đến rạp chiếu phim."
+        }
+      ],
+      "characterTargets": [
+        "影"
+      ]
+    }
+  ]
+}

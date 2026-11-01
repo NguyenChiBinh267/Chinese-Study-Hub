@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "be41df522d5ee7cb87d40713ce6d280c60659fbf304ba33aa19ecc86d2da2673",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-bd",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L165",
+    "version": 1,
+    "versionId": "l165-draft-v1",
+    "title": "Phương tiện đi lại",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phương tiện đi lại; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "连动句"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 5,
+      "physicalPage": 6,
+      "printedPage": 3,
+      "section": "task",
+      "entry": "八"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:27:25.806090Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 5,
+          "physicalPage": 6,
+          "printedPage": 3,
+          "section": "task",
+          "entry": "八"
+        },
+        "written": "问答出行信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-e9b0e57eec5b",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "出行方式"
+        },
+        "written": "出行方式",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l165-v-20",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 20"
+        },
+        "written": "车",
+        "pinyin": "chē",
+        "senseId": "l165-v-20-sense",
+        "ordinal": 20,
+        "note": "1 chē 名; 车 là tên xe chung trong bài, không suy mọi phương tiện đều gọi là 车. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l165-v-22",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 22"
+        },
+        "written": "出租车",
+        "pinyin": "chūzūchē",
+        "senseId": "l165-v-22-sense",
+        "ordinal": 22,
+        "note": "1 chūzūchē 名; 出租车 là danh từ taxi, không phải động từ đặt/gọi xe. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l165-v-83",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 83"
+        },
+        "written": "火车",
+        "pinyin": "huǒchē",
+        "senseId": "l165-v-83-sense",
+        "ordinal": 83,
+        "note": "1 huǒchē 名; 火车 là tàu hỏa, không suy lịch chạy hoặc giá vé từ tên phương tiện. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l165-v-54",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 54"
+        },
+        "written": "飞机",
+        "pinyin": "fēijī",
+        "senseId": "l165-v-54-sense",
+        "ordinal": 54,
+        "note": "1 fēijī 名; 飞机 là máy bay; câu mẫu không xác nhận chuyến bay/điểm đến thực. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-21",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "21"
+        },
+        "written": "车",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 21,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-23",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "23"
+        },
+        "written": "出",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 23,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-242",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "242"
+        },
+        "written": "租",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 242,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-76",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "76"
+        },
+        "written": "火",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 76,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-46",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "46"
+        },
+        "written": "飞",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 46,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-77",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "77"
+        },
+        "written": "机",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 77,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-165",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "g-386-30"
+        },
+        "written": "连动句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l165-c0",
+      "version": 1,
+      "senseId": "l165-v-20-sense",
+      "hanzi": "车",
+      "dictionaryPinyin": "chē",
+      "meaning": "xe; phương tiện xe",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l165-v-20"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l165-c1",
+      "version": 1,
+      "senseId": "l165-v-22-sense",
+      "hanzi": "出租车",
+      "dictionaryPinyin": "chū zū chē",
+      "meaning": "taxi; xe cho thuê chở khách",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l165-v-22"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l165-c2",
+      "version": 1,
+      "senseId": "l165-v-83-sense",
+      "hanzi": "火车",
+      "dictionaryPinyin": "huǒ chē",
+      "meaning": "tàu hỏa; xe lửa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l165-v-83"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l165-c3",
+      "version": 1,
+      "senseId": "l165-v-54-sense",
+      "hanzi": "飞机",
+      "dictionaryPinyin": "fēi jī",
+      "meaning": "máy bay",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l165-v-54"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l165-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l165-t0",
+      "type": "teaching",
+      "title": "车 · xe; phương tiện xe",
+      "text": "车 là tên xe chung trong bài, không suy mọi phương tiện đều gọi là 车.",
+      "hanzi": "这是我的车。",
+      "pinyin": "Zhè shì wǒ de chē.",
+      "meaning": "Đây là xe của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l165-t1",
+      "type": "teaching",
+      "title": "出租车 · taxi; xe cho thuê chở khách",
+      "text": "出租车 là danh từ taxi, không phải động từ đặt/gọi xe.",
+      "hanzi": "我坐出租车。",
+      "pinyin": "Wǒ zuò chū zū chē.",
+      "meaning": "Tôi đi taxi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l165-t2",
+      "type": "teaching",
+      "title": "火车 · tàu hỏa; xe lửa",
+      "text": "火车 là tàu hỏa, không suy lịch chạy hoặc giá vé từ tên phương tiện.",
+      "hanzi": "我坐火车去学校。",
+      "pinyin": "Wǒ zuò huǒ chē qù xué xiào.",
+      "meaning": "Tôi đi tàu hỏa đến trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l165-t3",
+      "type": "teaching",
+      "title": "飞机 · máy bay",
+      "text": "飞机 là máy bay; câu mẫu không xác nhận chuyến bay/điểm đến thực.",
+      "hanzi": "我坐飞机。",
+      "pinyin": "Wǒ zuò fēi jī.",
+      "meaning": "Tôi đi máy bay.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l165-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "Trong 我坐火车去学校, đi tàu là phương thức để tới trường: cùng một chủ thể làm chuỗi hành động. 坐 zuò trong mẫu nói đi bằng/ngồi trên phương tiện, học mục từ riêng ở bài kế tiếp. 车 là tên xe chung, 出租车/火车/飞机 là các loại phương tiện khác nhau; không đặt vé hay xác nhận hành trình thật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l165-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：你怎么去学校？\nB：我坐火车去学校。\nA：你姐姐呢？\nB：她坐出租车去学校。",
+      "pinyin": "A: Nǐ zěn me qù xué xiào? B: Wǒ zuò huǒ chē qù xué xiào. A: Nǐ jiě jie ne? B: Tā zuò chū zū chē qù xué xiào.",
+      "meaning": "B đi tàu hỏa; chị gái đi taxi. Đây là thông tin trong truyện, không phải đề xuất tuyến đi hoặc dịch vụ thực.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l165-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l165-v1-e0"
+    },
+    {
+      "id": "l165-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l165-v1-e1"
+    },
+    {
+      "id": "l165-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l165-v1-e2"
+    },
+    {
+      "id": "l165-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l165-v1-e3"
+    },
+    {
+      "id": "l165-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l165-v1-e4"
+    },
+    {
+      "id": "l165-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l165-v1-e5"
+    },
+    {
+      "id": "l165-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l165-v1-e6"
+    },
+    {
+      "id": "l165-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l165-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l165-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l165-c0",
+      "senseId": "l165-v-20-sense",
+      "keyRef": "l165-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “xe; phương tiện xe”: □ (chē). Ngữ cảnh: 这是我的□。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "东",
+        "军",
+        "丰",
+        "车"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l165-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l165-c1",
+      "senseId": "l165-v-22-sense",
+      "keyRef": "l165-v1-k1",
+      "prompt": "Viết pinyin từ điển của 出租车 (taxi; xe cho thuê chở khách).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l165-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l165-c2",
+      "senseId": "l165-v-83-sense",
+      "keyRef": "l165-v1-k2",
+      "prompt": "Điền đúng mục từ đọc huǒ chē, nghĩa “tàu hỏa; xe lửa”: 我坐□去学校。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l165-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l165-c3",
+      "senseId": "l165-v-54-sense",
+      "keyRef": "l165-v1-k3",
+      "prompt": "Chọn mục từ đọc fēi jī, nghĩa “máy bay”, trong câu: 我坐□。",
+      "choices": [
+        "车",
+        "出租车",
+        "火车",
+        "飞机"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l165-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l165-c2",
+      "senseId": "l165-v-83-sense",
+      "keyRef": "l165-v1-k4",
+      "prompt": "Trong câu “我坐火车去学校。”, 火车 mang nghĩa nào theo bài?",
+      "choices": [
+        "taxi; xe cho thuê chở khách",
+        "tàu hỏa; xe lửa",
+        "máy bay",
+        "xe; phương tiện xe"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l165-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l165-c3",
+      "senseId": "l165-v-54-sense",
+      "keyRef": "l165-v1-k5",
+      "prompt": "Trong câu “我坐飞机。”, 飞机 mang nghĩa nào theo bài?",
+      "choices": [
+        "tàu hỏa; xe lửa",
+        "máy bay",
+        "xe; phương tiện xe",
+        "taxi; xe cho thuê chở khách"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l165-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l165-c0",
+      "senseId": "l165-v-20-sense",
+      "keyRef": "l165-v1-k6",
+      "prompt": "B nói đi bằng phương tiện nào?",
+      "choices": [
+        "出租车",
+        "飞机",
+        "火车"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l165-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l165-c3",
+      "senseId": "l165-v-54-sense",
+      "keyRef": "l165-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我",
+        "坐火车",
+        "去学校。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l165-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l165-v1-e0",
+      "senseId": "l165-v-20-sense",
+      "accepted": [
+        "车"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 车 tạo từ 车. 车 là tên xe chung trong bài, không suy mọi phương tiện đều gọi là 车. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l165-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l165-v1-e1",
+      "senseId": "l165-v-22-sense",
+      "accepted": [
+        "chū zū chē"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "出租车 ghi chū zū chē. 出租车 là danh từ taxi, không phải động từ đặt/gọi xe."
+    },
+    {
+      "id": "l165-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l165-v1-e2",
+      "senseId": "l165-v-83-sense",
+      "accepted": [
+        "火车"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc huǒ chē: 火车. 火车 là tàu hỏa, không suy lịch chạy hoặc giá vé từ tên phương tiện. Tôi đi tàu hỏa đến trường."
+    },
+    {
+      "id": "l165-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l165-v1-e3",
+      "senseId": "l165-v-54-sense",
+      "accepted": [
+        "飞机"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc fēi jī: 飞机. 飞机 là máy bay; câu mẫu không xác nhận chuyến bay/điểm đến thực. Tôi đi máy bay."
+    },
+    {
+      "id": "l165-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l165-v1-e4",
+      "senseId": "l165-v-83-sense",
+      "accepted": [
+        "tàu hỏa; xe lửa"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "火车 là tàu hỏa, không suy lịch chạy hoặc giá vé từ tên phương tiện. Tôi đi tàu hỏa đến trường."
+    },
+    {
+      "id": "l165-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l165-v1-e5",
+      "senseId": "l165-v-54-sense",
+      "accepted": [
+        "máy bay"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "飞机 là máy bay; câu mẫu không xác nhận chuyến bay/điểm đến thực. Tôi đi máy bay."
+    },
+    {
+      "id": "l165-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l165-v1-e6",
+      "senseId": "l165-v-20-sense",
+      "accepted": [
+        "火车"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 火车. B đi tàu hỏa; chị gái đi taxi. Đây là thông tin trong truyện, không phải đề xuất tuyến đi hoặc dịch vụ thực."
+    },
+    {
+      "id": "l165-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l165-v1-e7",
+      "senseId": "l165-v-54-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. Trong 我坐火车去学校, đi tàu là phương thức để tới trường: cùng một chủ thể làm chuỗi hành động. 坐 zuò trong mẫu nói đi bằng/ngồi trên phương tiện, học mục từ riêng ở bài kế tiếp. 车 là tên xe chung, 出租车/火车/飞机 là các loại phương tiện khác nhau; không đặt vé hay xác nhận hành trình thật."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

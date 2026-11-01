@@ -1,0 +1,1602 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "a07a8a384e23e4de17c56eb2c8420f04a1935640dbf9454cd60e0c39b7930ef9",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "travel-choice",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L238",
+    "version": 1,
+    "versionId": "l238-draft-v1",
+    "title": "Cảm nhận đi lại và hoạt động gia đình",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "So sánh quãng đi, trạng thái và cách thực hiện trong chuyến đi gia đình.",
+      "Vận dụng trong tình huống mới; không cấp mastery hay chứng nhận nghe/nói."
+    ],
+    "prerequisites": [
+      "l202-draft-v1",
+      "l210-draft-v2",
+      "l214-draft-v2",
+      "l211-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "Cảm nhận đi lại và hoạt động gia đình"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 9,
+      "physicalPage": 10,
+      "printedPage": 7,
+      "section": "task",
+      "entry": "六 / 做出选择"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Exact PDF locators checked; original teaching/sense interpretation remains unreviewed. Supporting HSK1 prerequisite gap remains open."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-choice",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 9,
+          "physicalPage": 10,
+          "printedPage": 7,
+          "section": "task",
+          "entry": "六 / 做出选择"
+        },
+        "written": "日常言语交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "八"
+        },
+        "written": "问答出行情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-health",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "十"
+        },
+        "written": "问答生病、探病",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-family",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 11,
+          "physicalPage": 12,
+          "printedPage": 9,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "介绍家庭日常生活",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-transport",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 出行方式"
+        },
+        "written": "出行方式",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-topic-directions",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 问路"
+        },
+        "written": "问路",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-health",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 医疗健康 / 生病"
+        },
+        "written": "生病",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-family",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 家庭生活 / 家庭关系"
+        },
+        "written": "家庭关系",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-closure-topic-60-16",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 出行感受"
+        },
+        "written": "出行感受",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact tertiary source topic; written scenario only, not all communication modalities."
+      },
+      {
+        "id": "h2-closure-topic-60-24",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 家庭生活 / 家庭活动"
+        },
+        "written": "家庭活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact tertiary source topic; written scenario only, not all communication modalities."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l202-v-315",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 315"
+        },
+        "written": "车站",
+        "pinyin": "chēzhàn",
+        "senseId": "l202-v-315-sense",
+        "ordinal": 315,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "l202-v-335",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 335"
+        },
+        "written": "地铁",
+        "pinyin": "dìtiě",
+        "senseId": "l202-v-335-sense",
+        "ordinal": 335,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "l202-v-346",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 346"
+        },
+        "written": "公交车",
+        "pinyin": "gōngjiāochē",
+        "senseId": "l202-v-346-sense",
+        "ordinal": 346,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "l202-v-328",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 328"
+        },
+        "written": "打车",
+        "pinyin": "dǎchē",
+        "senseId": "l202-v-328-sense",
+        "ordinal": 328,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "l210-v-484",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 484"
+        },
+        "written": "远",
+        "pinyin": "yuǎn",
+        "senseId": "l210-v-484-sense",
+        "ordinal": 484,
+        "note": "2 yuǎn 形; 远 mô tả khoảng cách lớn so với mốc; 没有说明距离 không cho biết chính xác bao nhiêu mét. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l210-v-371",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 371"
+        },
+        "written": "近",
+        "pinyin": "jìn",
+        "senseId": "l210-v-371-sense",
+        "ordinal": 371,
+        "note": "2 jìn 形; 近 đối lập với 远. Cùng âm jìn với 进 nhưng chữ và nghĩa khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l210-v-389",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 389"
+        },
+        "written": "离",
+        "pinyin": "lí",
+        "senseId": "l210-v-389-sense",
+        "ordinal": 389,
+        "note": "2 lí 动; Trong A离B很近, 离 nối nơi A với mốc B. Bài không dạy nghĩa rời khỏi trong từ ghép khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l210-v-392",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 392"
+        },
+        "written": "路",
+        "pinyin": "lù",
+        "senseId": "l210-v-392-sense",
+        "ordinal": 392,
+        "note": "2 lù 名; 路 là đường; 问路 là hỏi đường, không hỏi tên phương tiện. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l210-v-496",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 496"
+        },
+        "written": "走路",
+        "pinyin": "zǒulù",
+        "senseId": "l210-v-496-sense",
+        "ordinal": 496,
+        "note": "2 zǒulù 动; 走路 nói di chuyển bằng chân; không dùng cho đi tàu hoặc xe buýt. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l210-v-401",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 401"
+        },
+        "written": "门口",
+        "pinyin": "ménkǒu",
+        "senseId": "l210-v-401-sense",
+        "ordinal": 401,
+        "note": "2 ménkǒu 名; 门口 là khu vực cửa vào, không phải chỉ cánh cửa. 在门口等 là đứng đợi ở cửa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-429",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 429"
+        },
+        "written": "身体",
+        "pinyin": "shēntǐ",
+        "senseId": "l214-v-429-sense",
+        "ordinal": 429,
+        "note": "2 shēntǐ 名; 身体 có thể nói cơ thể hoặc thể trạng trong 身体很好. Không dùng mỗi từ này để chẩn đoán bộ phận bị bệnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-436",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 436"
+        },
+        "written": "舒服",
+        "pinyin": "shūfu",
+        "senseId": "l214-v-436-sense",
+        "ordinal": 436,
+        "note": "2 shūfu 形; 舒服 đọc âm sau nhẹ. 不舒服 nói không dễ chịu/không khỏe, không xác định một bệnh cụ thể. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-440",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 440"
+        },
+        "written": "疼",
+        "pinyin": "téng",
+        "senseId": "l214-v-440-sense",
+        "ordinal": 440,
+        "note": "2（6） téng 形、（动）; Trong bài dùng tính từ mô tả đau: 头疼. Không mở rộng sang nghĩa động từ thương yêu ở cấp khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-468",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 468"
+        },
+        "written": "药",
+        "pinyin": "yào",
+        "senseId": "l214-v-468-sense",
+        "ordinal": 468,
+        "note": "2 yào 名; 药 chỉ thuốc nói chung. Tên từ không cho biết loại thuốc, liều hay cách dùng; bài không hướng dẫn tự uống. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-469",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 469"
+        },
+        "written": "药店",
+        "pinyin": "yàodiàn",
+        "senseId": "l214-v-469-sense",
+        "ordinal": 469,
+        "note": "2 yàodiàn 名; 药店 là nơi bán thuốc, khác 医院 là bệnh viện. Có hiệu thuốc gần nhà không có nghĩa phải tự mua thuốc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-388",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 388"
+        },
+        "written": "累",
+        "pinyin": "lèi",
+        "senseId": "l214-v-388-sense",
+        "ordinal": 388,
+        "note": "2 lèi 形、动; 累 ở đây là tính từ mệt. Chưa phân tích nghĩa gây mệt hay kết quả làm ai mệt trong cấu trúc khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l211-v-417",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 417"
+        },
+        "written": "妻子",
+        "pinyin": "qīzi",
+        "senseId": "l211-v-417-sense",
+        "ordinal": 417,
+        "note": "2 qīzi 名; 妻子 chỉ người vợ, không phải mọi phụ nữ đã kết hôn trong câu. 子 đọc nhẹ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l211-v-487",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 487"
+        },
+        "written": "丈夫",
+        "pinyin": "zhàngfu",
+        "senseId": "l211-v-487-sense",
+        "ordinal": 487,
+        "note": "2 zhàngfu 名; 丈夫 trong quan hệ gia đình là chồng; 夫 đọc nhẹ. Không dịch theo từng chữ thành đàn ông nói chung. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l211-v-409",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 409"
+        },
+        "written": "奶奶",
+        "pinyin": "nǎinai",
+        "senseId": "l211-v-409-sense",
+        "ordinal": 409,
+        "note": "2 nǎinai 名; 奶奶 trong gia đình là mẹ của bố; không dùng thay cho mọi bà ngoại. Âm thứ hai đọc nhẹ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l211-v-470",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 470"
+        },
+        "written": "爷爷",
+        "pinyin": "yéye",
+        "senseId": "l211-v-470-sense",
+        "ordinal": 470,
+        "note": "2 yéye 名; 爷爷 là bố của bố khi nói quan hệ gia đình. Âm thứ hai đọc nhẹ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l211-v-430",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 430"
+        },
+        "written": "生日",
+        "pinyin": "shēngrì",
+        "senseId": "l211-v-430-sense",
+        "ordinal": 430,
+        "note": "2 shēngrì 名; Hỏi ngày sinh nhật dùng 你的生日是几月几号. 生日 là ngày sinh nhật, không phải số tuổi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l211-v-473",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 473"
+        },
+        "written": "一起",
+        "pinyin": "yìqǐ",
+        "senseId": "l211-v-473-sense",
+        "ordinal": 473,
+        "note": "2 yìqǐ 副; 一起 nói cùng tham gia hoạt động. 一 ở đây đọc yì trong mục từ nguồn; không đổi thành yī khi trả lời pinyin của từ này. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-zhan",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "115"
+        },
+        "written": "站",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 115,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-char-tie",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "86"
+        },
+        "written": "铁",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 86,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-char-113",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "113"
+        },
+        "written": "远",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 113,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-37",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "37"
+        },
+        "written": "近",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 37,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-49",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "49"
+        },
+        "written": "离",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 49,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-52",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "52"
+        },
+        "written": "路",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 52,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-122",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "122"
+        },
+        "written": "走",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 122,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "门",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-72",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "72"
+        },
+        "written": "身",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 72,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-84",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "84"
+        },
+        "written": "体",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 84,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-76",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "76"
+        },
+        "written": "舒",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 76,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-82",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "82"
+        },
+        "written": "疼",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 82,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-103",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "103"
+        },
+        "written": "药",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 103,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-17",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "17"
+        },
+        "written": "店",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 17,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-48",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "48"
+        },
+        "written": "累",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 48,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-63",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "63"
+        },
+        "written": "妻",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 63,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-117",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "117"
+        },
+        "written": "丈",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 117,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-21",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "21"
+        },
+        "written": "夫",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 21,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-104",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "104"
+        },
+        "written": "爷",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 104,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-alternative",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "句类 / 疑问句"
+        },
+        "written": "用“还是”连接的选择问句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-g-from",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "介词 / 引出时间、处所 / 从1"
+        },
+        "written": "从1",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-g-because",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "复句 / 因果复句"
+        },
+        "written": "因为……，所以……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-g-together",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "副词 / 范围副词 / 一起"
+        },
+        "written": "一起",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-closure-g-389-20",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "table-body-row-20"
+        },
+        "written": "（2）形容词+数量补语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact table row 7c557830468788d42c84794dd5f25eb2008d31622c4b7e9eec50246ab08acfd7; this activity covers only the explicitly taught subalternative, not every alternative in a row."
+      },
+      {
+        "id": "h2-closure-g-389-29",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "table-body-row-29"
+        },
+        "written": "（3）A有/没有B（+这么/那么）+形容词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact table row 6198c5eb2addf87df67a4691bbc8af02409cdc3921d8514696e4331a80141ced; this activity covers only the explicitly taught subalternative, not every alternative in a row."
+      },
+      {
+        "id": "h2-closure-g-389-30",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "table-body-row-30"
+        },
+        "written": "（4）A比B+动词+得+形容词/A+动词+得+比+B+形容词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact table row 352de919794b6b3ff62cafa53c2533113db8cab02b0fc33751d7535b3d7d5434; this activity covers only the explicitly taught subalternative, not every alternative in a row."
+      },
+      {
+        "id": "h2-closure-g-389-26",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "table-body-row-26"
+        },
+        "written": "处所+动词+着(+数量短语)+名词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact table row 798119cfd80785142724f4bb57ed35f34fb75d7145cf3fcfa0eb75e74d59abab; this activity covers only the explicitly taught subalternative, not every alternative in a row."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l202-c1",
+      "version": 1,
+      "senseId": "l202-v-335-sense",
+      "hanzi": "地铁",
+      "dictionaryPinyin": "dì tiě",
+      "meaning": "tàu điện ngầm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l202-v-335"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l210-c0",
+      "version": 1,
+      "senseId": "l210-v-484-sense",
+      "hanzi": "远",
+      "dictionaryPinyin": "yuǎn",
+      "meaning": "xa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l210-v-484"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l214-c5",
+      "version": 1,
+      "senseId": "l214-v-388-sense",
+      "hanzi": "累",
+      "dictionaryPinyin": "lèi",
+      "meaning": "mệt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l214-v-388"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l211-c5",
+      "version": 1,
+      "senseId": "l211-v-473-sense",
+      "hanzi": "一起",
+      "dictionaryPinyin": "yì qǐ",
+      "meaning": "cùng nhau",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l211-v-473"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l238-prereq",
+      "type": "teaching",
+      "title": "Kiến thức hỗ trợ",
+      "text": "Nhắc 我/你/他, 是/有/在, số và câu hỏi cơ bản; HSK1 chưa hoàn chỉnh. Từ hỗ trợ trong ngữ cảnh được giải thích tại mỗi mục; không cộng từ mới hay cấp mastery.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l238-reminder0",
+      "type": "teaching",
+      "title": "Nhắc từ đã học · 地铁",
+      "text": "车站 là ga/trạm xe, cần đọc ngữ cảnh để biết loại trạm. 地铁 là tàu điện ngầm; 公交车 là xe buýt công cộng. Nói 坐地铁, 坐公交车. 打车 tự mang nghĩa bắt taxi/gọi xe; không hiểu thành ‘đánh xe’.",
+      "hanzi": "我们坐地铁去车站。他打车去。",
+      "pinyin": "Wǒmen zuò dìtiě qù chēzhàn. Tā dǎchē qù.",
+      "meaning": "Chúng tôi đi tàu điện ngầm đến ga. Anh ấy đi bằng taxi/xe gọi.",
+      "readingMinutes": 3
+    },
+    {
+      "id": "l238-reminder1",
+      "type": "teaching",
+      "title": "Nhắc từ đã học · 远",
+      "text": "远 mô tả khoảng cách lớn so với mốc; nếu không có số đo thì chưa biết chính xác bao nhiêu mét.",
+      "hanzi": "车站离这里很远。",
+      "pinyin": "Chēzhàn lí zhèlǐ hěn yuǎn.",
+      "meaning": "Ga ở rất xa đây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l238-reminder2",
+      "type": "teaching",
+      "title": "Nhắc từ đã học · 累",
+      "text": "累 ở đây là tính từ mệt. Chưa phân tích nghĩa gây mệt hay kết quả làm ai mệt trong cấu trúc khác.",
+      "hanzi": "今天工作很多，我很累。",
+      "pinyin": "Jīntiān gōngzuò hěn duō, wǒ hěn lèi.",
+      "meaning": "Hôm nay nhiều việc, tôi rất mệt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l238-reminder3",
+      "type": "teaching",
+      "title": "Nhắc từ đã học · 一起",
+      "text": "一起 nói cùng tham gia hoạt động. 一 ở đây đọc yì trong mục từ nguồn; không đổi thành yī khi trả lời pinyin của từ này.",
+      "hanzi": "我们一起吃饭吧。",
+      "pinyin": "Wǒmen yìqǐ chī fàn ba.",
+      "meaning": "Chúng ta cùng ăn cơm nhé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l238-grammar0",
+      "type": "teaching",
+      "title": "Cách nói 1",
+      "text": "长一百米 nêu mức chênh hoặc số đo gắn với tính từ; 米 (mét) là từ hỗ trợ HSK3, không tính là từ HSK2 mới.",
+      "hanzi": "这条路长一百米。",
+      "pinyin": "Zhè tiáo lù cháng yì bǎi mǐ.",
+      "meaning": "Con đường này dài một trăm mét.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l238-grammar1",
+      "type": "teaching",
+      "title": "Cách nói 2",
+      "text": "A没有B那么累 nói A không mệt bằng B; không đồng nghĩa A hoàn toàn không mệt.",
+      "hanzi": "这次没有上次那么累。",
+      "pinyin": "Zhè cì méiyǒu shàng cì nàme lèi.",
+      "meaning": "Lần này không mệt bằng lần trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l238-grammar2",
+      "type": "teaching",
+      "title": "Cách nói 3",
+      "text": "爸爸走得比我快 đặt 得 sau động từ và 比我 trước tính từ. Mẫu bố cục này cần cả hành động và cách thực hiện.",
+      "hanzi": "爸爸走得比我快。",
+      "pinyin": "Bàba zǒu de bǐ wǒ kuài.",
+      "meaning": "Bố đi nhanh hơn tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l238-grammar3",
+      "type": "teaching",
+      "title": "Cách nói 4",
+      "text": "桌上放着一杯茶 giới thiệu vật đang ở vị trí đó. 放 (đặt) là từ hỗ trợ HSK3; câu không tự đánh giá năng lực nghe/nói.",
+      "hanzi": "桌上放着一杯茶。",
+      "pinyin": "Zhuō shang fàng zhe yì bēi chá.",
+      "meaning": "Trên bàn có đặt một cốc trà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l238-scene",
+      "type": "teaching",
+      "title": "Tình huống mới",
+      "text": "So sánh quãng đi, trạng thái và cách thực hiện trong chuyến đi gia đình.",
+      "hanzi": "星期天，我们一家人一起坐地铁去看奶奶。奶奶家离地铁站不远。这条路比上次走的路长一百米，但没有上次那么累。爸爸走得比我快。到了奶奶家，我看见桌上放着一杯茶。",
+      "pinyin": "Xīngqītiān, wǒmen yì jiā rén yìqǐ zuò dìtiě qù kàn nǎinai. Nǎinai jiā lí dìtiězhàn bù yuǎn. Zhè tiáo lù bǐ shàng cì zǒu de lù cháng yì bǎi mǐ, dàn méiyǒu shàng cì nàme lèi. Bàba zǒu de bǐ wǒ kuài. Dào le nǎinai jiā, wǒ kànjiàn zhuō shang fàng zhe yì bēi chá.",
+      "meaning": "Chủ nhật cả nhà cùng đi tàu điện thăm bà. Nhà bà không xa ga. Đường này dài hơn đường lần trước 100 mét, nhưng không mệt bằng lần trước. Bố đi nhanh hơn tôi. Tới nhà bà, tôi thấy trên bàn có một cốc trà.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l238-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l238-e0"
+    },
+    {
+      "id": "l238-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l238-e1"
+    },
+    {
+      "id": "l238-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l238-e2"
+    },
+    {
+      "id": "l238-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l238-e3"
+    },
+    {
+      "id": "l238-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l238-e4"
+    },
+    {
+      "id": "l238-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l238-e5"
+    },
+    {
+      "id": "l238-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l238-e6"
+    },
+    {
+      "id": "l238-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l238-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l238-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l210-c0",
+      "senseId": "l210-v-484-sense",
+      "keyRef": "l238-k0",
+      "prompt": "Chọn cụm mô tả độ dài thêm một trăm mét sau 比.",
+      "choices": [
+        "一百长米",
+        "长米一百",
+        "长一百米"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l238-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l214-c5",
+      "senseId": "l214-v-388-sense",
+      "keyRef": "l238-k1",
+      "prompt": "这次没有上次那么累 có cho biết lần này hoàn toàn không mệt không?",
+      "choices": [
+        "Có; lần trước cũng không mệt",
+        "Không; chỉ so sánh mức mệt",
+        "Có; chắc chắn không mệt"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l238-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l211-c5",
+      "senseId": "l211-v-473-sense",
+      "keyRef": "l238-k2",
+      "prompt": "Chọn câu nói bố đi nhanh hơn tôi.",
+      "choices": [
+        "爸爸走得比我快。",
+        "爸爸得走比我快。",
+        "爸爸走比得我快。"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l238-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l202-c1",
+      "senseId": "l202-v-335-sense",
+      "keyRef": "l238-k3",
+      "prompt": "Chọn câu giới thiệu một cốc trà trên bàn.",
+      "choices": [
+        "一杯桌上着茶。",
+        "桌上着一杯放茶。",
+        "桌上放着一杯茶。"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l238-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l202-c1",
+      "senseId": "l202-v-335-sense",
+      "keyRef": "l238-k4",
+      "prompt": "Gia đình đi bằng phương tiện nào?",
+      "choices": [
+        "船",
+        "地铁",
+        "飞机"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l238-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l210-c0",
+      "senseId": "l210-v-484-sense",
+      "keyRef": "l238-k5",
+      "prompt": "Nhà bà có xa ga không?",
+      "choices": [
+        "不远",
+        "很远",
+        "没有说明去哪里"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l238-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l214-c5",
+      "senseId": "l214-v-388-sense",
+      "keyRef": "l238-k6",
+      "prompt": "Lần đi này so với lần trước thế nào?",
+      "choices": [
+        "一定完全不累",
+        "比上次更累",
+        "没有上次那么累"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l238-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l211-c5",
+      "senseId": "l211-v-473-sense",
+      "keyRef": "l238-k7",
+      "prompt": "Hoạt động gia đình được nêu là gì?",
+      "choices": [
+        "一起去出国",
+        "一起看奶奶",
+        "一起去考试"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l238-k0",
+      "version": 1,
+      "exerciseVersionId": "l238-e0",
+      "senseId": "l210-v-484-sense",
+      "accepted": [
+        "长一百米"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "长一百米 nêu mức chênh hoặc số đo gắn với tính từ; 米 (mét) là từ hỗ trợ HSK3, không tính là từ HSK2 mới."
+    },
+    {
+      "id": "l238-k1",
+      "version": 1,
+      "exerciseVersionId": "l238-e1",
+      "senseId": "l214-v-388-sense",
+      "accepted": [
+        "Không; chỉ so sánh mức mệt"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "A没有B那么累 nói A không mệt bằng B; không đồng nghĩa A hoàn toàn không mệt."
+    },
+    {
+      "id": "l238-k2",
+      "version": 1,
+      "exerciseVersionId": "l238-e2",
+      "senseId": "l211-v-473-sense",
+      "accepted": [
+        "爸爸走得比我快。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "爸爸走得比我快 đặt 得 sau động từ và 比我 trước tính từ. Mẫu bố cục này cần cả hành động và cách thực hiện."
+    },
+    {
+      "id": "l238-k3",
+      "version": 1,
+      "exerciseVersionId": "l238-e3",
+      "senseId": "l202-v-335-sense",
+      "accepted": [
+        "桌上放着一杯茶。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "桌上放着一杯茶 giới thiệu vật đang ở vị trí đó. 放 (đặt) là từ hỗ trợ HSK3; câu không tự đánh giá năng lực nghe/nói."
+    },
+    {
+      "id": "l238-k4",
+      "version": 1,
+      "exerciseVersionId": "l238-e4",
+      "senseId": "l202-v-335-sense",
+      "accepted": [
+        "地铁"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đoạn nói 一起坐地铁."
+    },
+    {
+      "id": "l238-k5",
+      "version": 1,
+      "exerciseVersionId": "l238-e5",
+      "senseId": "l210-v-484-sense",
+      "accepted": [
+        "不远"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Không xa là thông tin trực tiếp; không có số mét từ ga đến nhà."
+    },
+    {
+      "id": "l238-k6",
+      "version": 1,
+      "exerciseVersionId": "l238-e6",
+      "senseId": "l214-v-388-sense",
+      "accepted": [
+        "没有上次那么累"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chỉ kết luận so sánh theo lời kể."
+    },
+    {
+      "id": "l238-k7",
+      "version": 1,
+      "exerciseVersionId": "l238-e7",
+      "senseId": "l211-v-473-sense",
+      "accepted": [
+        "一起看奶奶"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Cả nhà đi thăm bà vào chủ nhật."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,16 @@
+# Copy to an ignored, isolated supabase/config.toml; target only the new project.
+# The global signup switch blocks self-registration. The email switch keeps
+# password login enabled for Admin-API-created synthetic accounts.
+project_id = "chinese-study-hub-cloud-gates"
+[auth]
+enabled = true
+site_url = "https://cloud-gate.invalid"
+additional_redirect_urls = []
+jwt_expiry = 300
+enable_signup = false
+enable_anonymous_sign_ins = false
+enable_refresh_token_rotation = true
+refresh_token_reuse_interval = 10
+[auth.email]
+enable_signup = true
+enable_confirmations = true

@@ -1,0 +1,4391 @@
+[
+  {
+    "id": 1101,
+    "group": "grammar",
+    "kind": "UNIT_REVIEW",
+    "title": "Sau giờ học: 和 nêu người cùng làm",
+    "items": [
+      [
+        "L103",
+        "朋友",
+        "你好，朋友！",
+        "Nǐ hǎo, péng you!",
+        "Chào bạn!"
+      ],
+      [
+        "L125",
+        "想",
+        "我想喝茶。",
+        "Wǒ xiǎng hē chá.",
+        "Tôi muốn uống trà."
+      ],
+      [
+        "L121",
+        "读书",
+        "我喜欢读书。",
+        "Wǒ xǐ huan dú shū.",
+        "Tôi thích đọc sách."
+      ],
+      [
+        "L118",
+        "学校",
+        "这是我们的学校。",
+        "Zhè shì wǒ men de xué xiào.",
+        "Đây là trường của chúng tôi."
+      ]
+    ],
+    "grammar": {
+      "row": "g-385-22",
+      "form": "和1（引出对象）",
+      "text": "和 + người có thể nêu người cùng tham gia hành động: 我想和朋友读书. Trong mẫu này, 我 là người bày tỏ mong muốn, 和朋友 nêu người cùng đọc. So sánh 书和笔: 和 nối hai tên đồ vật; không dùng nghĩa “và” để dịch máy mọi câu. 下课以后 được chú giải “sau giờ học”; 以后 là từ hỗ trợ ở đây, không cộng thêm mục từ HSK1. Các câu luyện sau phần nhắc chỉ chấm mẫu đã nêu, không chấm hội thoại tự do.",
+      "example": [
+        "我想和朋友读书。",
+        "Wǒ xiǎng hé péng you dú shū.",
+        "Tôi muốn đọc sách cùng bạn."
+      ]
+    },
+    "passage": [
+      "A：下课以后，你想做什么？\nB：我想和朋友读书。\nA：在哪儿？\nB：在学校。",
+      "A: Xià kè yǐ hòu, nǐ xiǎng zuò shén me? B: Wǒ xiǎng hé péng you dú shū. A: Zài nǎr? B: Zài xué xiào.",
+      "以后 yǐ hòu = sau đó; ở đây 下课以后 là sau giờ học. B muốn đọc sách cùng bạn tại trường; chưa khẳng định kế hoạch đã diễn ra."
+    ],
+    "question": "B muốn làm gì sau giờ học?",
+    "answers": [
+      "和朋友读书",
+      "买衣服",
+      "坐飞机"
+    ],
+    "chunks": [
+      "我想",
+      "和朋友",
+      "读书。"
+    ],
+    "checks": [
+      {
+        "prompt": "Trong 我想和朋友读书, 和朋友 cho biết điều gì?",
+        "choices": [
+          "Người cùng đọc với tôi",
+          "Tên một quyển sách",
+          "Một việc đã hoàn thành"
+        ],
+        "feedback": "和朋友 nêu người cùng tham gia; 朋友 không phải vật được đọc."
+      },
+      {
+        "prompt": "Chọn câu khớp “Tôi muốn học cùng em trai” trong mẫu đã giải thích.",
+        "choices": [
+          "我想和弟弟学习。",
+          "我想学习和弟弟。",
+          "我想弟弟和学习。"
+        ],
+        "feedback": "和弟弟 đứng trước hành động 学习 trong mẫu này; không kết luận đây là mọi vị trí có thể có của 和."
+      }
+    ],
+    "topic": [
+      "课后活动",
+      58
+    ],
+    "task": "交流学校情况、课后活动"
+  },
+  {
+    "id": 1102,
+    "group": "grammar",
+    "kind": "UNIT_REVIEW",
+    "title": "Nhận xét công việc: 对 nêu đối tượng thái độ",
+    "items": [
+      [
+        "L134",
+        "工作",
+        "我在公司工作。",
+        "Wǒ zài gōng sī gōng zuò.",
+        "Tôi làm việc ở công ty."
+      ],
+      [
+        "L137",
+        "忙",
+        "我很忙。",
+        "Wǒ hěn máng.",
+        "Tôi bận."
+      ],
+      [
+        "L118",
+        "老师",
+        "她是我的老师。",
+        "Tā shì wǒ de lǎo shī.",
+        "Cô ấy là giáo viên của tôi."
+      ],
+      [
+        "L102",
+        "高兴",
+        "认识你，我很高兴。",
+        "Rèn shi nǐ, wǒ hěn gāo xìng.",
+        "Tôi vui được biết bạn."
+      ]
+    ],
+    "grammar": {
+      "row": "g-385-22",
+      "form": "对（引出对象）",
+      "text": "对 + người trong 老师对我很好 nêu đối tượng được đối xử/đánh giá: thầy cô đối với tôi rất tốt. Đây là chức năng giới từ, khác 对 mang nghĩa “đúng” ở bài từ vựng L138. Các câu ngữ pháp về nghĩa mới là CONTEXT_ONLY, không dùng thẻ 对 nghĩa “đúng” để ghi nhận nghĩa giới từ. Từ mức độ 很 đứng trước 好; không đưa 对我 ra sau 好 theo trật tự Việt.",
+      "example": [
+        "老师对我很好。",
+        "Lǎo shī duì wǒ hěn hǎo.",
+        "Thầy/cô đối xử rất tốt với tôi."
+      ]
+    },
+    "passage": [
+      "A：你在哪儿工作？\nB：我在学校工作。\nA：工作怎么样？\nB：工作不忙，我很高兴。老师对我很好。",
+      "A: Nǐ zài nǎr gōng zuò? B: Wǒ zài xué xiào gōng zuò. A: Gōng zuò zěn me yàng? B: Gōng zuò bù máng, wǒ hěn gāo xìng. Lǎo shī duì wǒ hěn hǎo.",
+      "Người B trong truyện làm việc tại trường, nhận xét công việc không bận và vui; thầy/cô đối xử tốt với B. Đây là đánh giá hư cấu, không phải đánh giá nghề thật."
+    ],
+    "question": "B nhận xét công việc thế nào?",
+    "answers": [
+      "不忙",
+      "很贵",
+      "不好吃"
+    ],
+    "chunks": [
+      "老师",
+      "对我",
+      "很好。"
+    ],
+    "checks": [
+      {
+        "prompt": "Trong 老师对我很好, 对我 nêu gì?",
+        "choices": [
+          "Người nhận cách đối xử của thầy/cô",
+          "Câu trả lời đúng của tôi",
+          "Nơi thầy/cô đang ở"
+        ],
+        "feedback": "Giới từ 对 dẫn đối tượng 我; không phải tính từ 对 = đúng."
+      },
+      {
+        "prompt": "Chọn câu khớp “Anh trai đối xử tốt với tôi” theo mẫu.",
+        "choices": [
+          "哥哥对我很好。",
+          "哥哥很好对我。",
+          "哥哥我对很好。"
+        ],
+        "feedback": "Mẫu ở đây là chủ thể + 对 + đối tượng + 很好; câu không kiểm tra mọi cách diễn đạt khác."
+      }
+    ],
+    "topic": [
+      "工作评价",
+      59
+    ],
+    "task": "交流工作信息"
+  },
+  {
+    "id": 1103,
+    "group": "grammar",
+    "kind": "UNIT_REVIEW",
+    "title": "Đọc thực đơn trà: ghép hai vế không dùng từ nối",
+    "items": [
+      [
+        "L154",
+        "水",
+        "我喝水。",
+        "Wǒ hē shuǐ.",
+        "Tôi uống nước."
+      ],
+      [
+        "L159",
+        "元",
+        "这本书十元。",
+        "Zhè běn shū shí yuán.",
+        "Quyển sách này10nguyên trong truyện."
+      ],
+      [
+        "L155",
+        "饺子",
+        "我喜欢饺子。",
+        "Wǒ xǐ huan jiǎo zi.",
+        "Tôi thích sủi cảo."
+      ],
+      [
+        "L154",
+        "米饭",
+        "我吃了米饭。",
+        "Wǒ chī le mǐ fàn.",
+        "Tôi đã ăn cơm."
+      ]
+    ],
+    "grammar": {
+      "row": "g-387-1",
+      "form": "不用关联词语的复句",
+      "text": "Hai vế có thể đặt cạnh nhau với dấu phẩy để cung cấp hai thông tin liên quan: 我喝茶，他喝水. Mỗi vế có người và hành động riêng. Không cần tự chèn “vì…nên…” nếu đoạn chỉ liệt kê hai lựa chọn; quan hệ nguyên nhân chưa được nêu. 茶/喝 đã học ở L002, không dạy lại như từ mới. Thực đơn dưới là văn bản gốc hư cấu, không mô tả tập quán của mọi người Trung Quốc.",
+      "example": [
+        "我喝茶，他喝水。",
+        "Wǒ hē chá, tā hē shuǐ.",
+        "Tôi uống trà, anh ấy uống nước."
+      ]
+    },
+    "passage": [
+      "茶：三元\n饺子：六元\n米饭：两元\nA：我喝茶，你吃什么？\nB：我吃饺子。",
+      "Chá: sān yuán. Jiǎo zi: liù yuán. Mǐ fàn: liǎng yuán. A: Wǒ hē chá, nǐ chī shén me? B: Wǒ chī jiǎo zi.",
+      "Thực đơn hư cấu: trà3nguyên, sủi cảo6nguyên, cơm2nguyên. A chọn trà; B chọn sủi cảo. Đọc tên món và con số, không suy giá thật hoặc mọi thói quen văn hóa."
+    ],
+    "question": "Món đồ uống trà trên thực đơn có giá bao nhiêu?",
+    "answers": [
+      "三元",
+      "六元",
+      "两元"
+    ],
+    "chunks": [
+      "我喝茶，",
+      "他",
+      "喝水。"
+    ],
+    "checks": [
+      {
+        "prompt": "Câu 我喝茶，他喝水 có bao nhiêu vế có người/hành động được nêu?",
+        "choices": [
+          "Hai vế",
+          "Một từ đơn",
+          "Không có hành động"
+        ],
+        "feedback": "我喝茶 và 他喝水 là hai vế; không có từ nối quan hệ nguyên nhân."
+      },
+      {
+        "prompt": "Chỉ theo câu Tôi uống trà, anh ấy uống nước, điều nào KHÔNG được khẳng định?",
+        "choices": [
+          "Anh ấy uống nước vì tôi uống trà",
+          "Tôi uống trà",
+          "Anh ấy uống nước"
+        ],
+        "feedback": "Hai thông tin cùng xuất hiện chưa đủ chứng minh quan hệ nguyên nhân."
+      }
+    ],
+    "topic": [
+      "传统饮品",
+      59
+    ],
+    "task": "问答中国传统饮食"
+  },
+  {
+    "id": 1104,
+    "group": "grammar",
+    "kind": "UNIT_REVIEW",
+    "title": "Ghép hai vế có 也: thêm thông tin tương ứng",
+    "items": [
+      [
+        "L101",
+        "也",
+        "我也喜欢茶。",
+        "Wǒ yě xǐ huan chá.",
+        "Tôi cũng thích trà."
+      ],
+      [
+        "L113",
+        "有",
+        "我家有三口人。",
+        "Wǒ jiā yǒu sān kǒu rén.",
+        "Gia đình tôi có ba người."
+      ],
+      [
+        "L111",
+        "书",
+        "这是我的书。",
+        "Zhè shì wǒ de shū.",
+        "Đây là sách của tôi."
+      ],
+      [
+        "L112",
+        "字",
+        "这个字怎么读？",
+        "Zhè ge zì zěn me dú?",
+        "Chữ này đọc thế nào?"
+      ]
+    ],
+    "grammar": {
+      "row": "g-387-2",
+      "form": "……，也……",
+      "text": "Ở 我有书，他也有书, vế sau thêm thông tin tương ứng về người thứ hai. 也 đứng trước phần vị ngữ của vế sau: 他也有书. Không đặt 也 sau tân ngữ chỉ vì tiếng Việt thường nói “cũng vậy” ở cuối. Chủ thể hai vế có thể khác nhau; cần đọc chủ thể chứ không tự gộp thành cùng một người.",
+      "example": [
+        "我有书，他也有书。",
+        "Wǒ yǒu shū, tā yě yǒu shū.",
+        "Tôi có sách, anh ấy cũng có sách."
+      ]
+    },
+    "passage": [
+      "A：我有书，你呢？\nB：我也有书。\nA：我有笔，她也有笔。",
+      "A: Wǒ yǒu shū, nǐ ne? B: Wǒ yě yǒu shū. A: Wǒ yǒu bǐ, tā yě yǒu bǐ.",
+      "A và B đều nói có sách. Ở câu cuối, A nói mình và một người nữ có bút; không suy người nữ đó chính là B."
+    ],
+    "question": "Theo câu cuối, ai được nói cũng có bút?",
+    "answers": [
+      "她",
+      "老师",
+      "爸爸"
+    ],
+    "chunks": [
+      "我有书，",
+      "他也",
+      "有书。"
+    ],
+    "checks": [
+      {
+        "prompt": "Chọn cách ghép đúng mẫu “Tôi học tiếng Hán, anh ấy cũng học tiếng Hán”.",
+        "choices": [
+          "我学习汉语，他也学习汉语。",
+          "我学习汉语，他学习汉语也。",
+          "我学习汉语，也他学习汉语。"
+        ],
+        "feedback": "也 đứng trước vị ngữ 学习汉语 của vế sau."
+      },
+      {
+        "prompt": "Trong 我有书，他也有书, điều gì được thêm ở vế sau?",
+        "choices": [
+          "Anh ấy cũng có sách",
+          "Tôi không có sách",
+          "Anh ấy cho tôi sách"
+        ],
+        "feedback": "也 thêm thông tin tương ứng, không mang nghĩa phủ định hoặc cho/tặng."
+      }
+    ]
+  },
+  {
+    "id": 1105,
+    "group": "grammar",
+    "kind": "UNIT_REVIEW",
+    "title": "Từ bổ nghĩa đứng trước danh từ",
+    "items": [
+      [
+        "L117",
+        "新",
+        "这本书很新。",
+        "Zhè běn shū hěn xīn.",
+        "Quyển sách này mới."
+      ],
+      [
+        "L111",
+        "书",
+        "这是我的书。",
+        "Zhè shì wǒ de shū.",
+        "Đây là sách của tôi."
+      ],
+      [
+        "L154",
+        "水",
+        "我喝水。",
+        "Wǒ hē shuǐ.",
+        "Tôi uống nước."
+      ],
+      [
+        "L160",
+        "杯子",
+        "我的杯子在桌子上。",
+        "Wǒ de bēi zi zài zhuō zi shang.",
+        "Cốc của tôi ở trên bàn."
+      ]
+    ],
+    "grammar": {
+      "row": "g-386-12",
+      "form": "定语：名词性词语、形容词性短语、数量短语",
+      "text": "Phần làm rõ danh từ thường đứng trước danh từ: 我的书 (sách của tôi), 新书 (sách mới), 一杯水 (một cốc nước). Không phải mọi tính từ trước danh từ đều bắt buộc có 的: 新书 và 热水 trong mẫu này không cần 的. Đây là các mẫu cụ thể, không phải quy tắc “bỏ 的 với mọi tính từ”. Lượng từ đi theo số trước danh từ; không đổi thành 水一杯 khi đề yêu cầu cụm mẫu này.",
+      "example": [
+        "我的新书。\n一杯热水。",
+        "Wǒ de xīn shū. Yì bēi rè shuǐ.",
+        "Sách mới của tôi. Một cốc nước nóng."
+      ]
+    },
+    "passage": [
+      "A：这是你的新书吗？\nB：是，这是我的新书。\nA：你想喝什么？\nB：我想喝一杯热水。",
+      "A: Zhè shì nǐ de xīn shū ma? B: Shì, zhè shì wǒ de xīn shū. A: Nǐ xiǎng hē shén me? B: Wǒ xiǎng hē yì bēi rè shuǐ.",
+      "B nhận sách mới là của mình và muốn uống một cốc nước nóng. Cụm 我的/新/一杯/热 bổ sung thông tin khác nhau cho danh từ."
+    ],
+    "question": "B muốn uống gì?",
+    "answers": [
+      "一杯热水",
+      "三杯牛奶",
+      "冷茶"
+    ],
+    "chunks": [
+      "我想喝",
+      "一杯",
+      "热水。"
+    ],
+    "checks": [
+      {
+        "prompt": "Cụm nào đúng mẫu “sách mới của tôi”?",
+        "choices": [
+          "我的新书",
+          "书我的新",
+          "我的书的新"
+        ],
+        "feedback": "我的 và 新 đứng trước 书 trong mẫu đã nêu; không có nghĩa mọi cụm tính từ đều phải thêm 的."
+      },
+      {
+        "prompt": "Trong 一杯水, 一杯 bổ sung loại thông tin nào?",
+        "choices": [
+          "Số lượng qua đơn vị cốc",
+          "Người sở hữu nước",
+          "Tình trạng đang diễn ra"
+        ],
+        "feedback": "一 là số, 杯 là lượng từ; 一杯 đứng trước 水."
+      }
+    ]
+  },
+  {
+    "id": 1106,
+    "group": "grammar",
+    "kind": "UNIT_REVIEW",
+    "title": "Hành động đang diễn ra: 在/正在…呢",
+    "items": [
+      [
+        "L167",
+        "正在",
+        "我正在看电视。",
+        "Wǒ zhèng zài kàn diàn shì.",
+        "Tôi đang xem tivi."
+      ],
+      [
+        "L167",
+        "做饭",
+        "妈妈正在做饭。",
+        "Mā ma zhèng zài zuò fàn.",
+        "Mẹ đang nấu ăn."
+      ],
+      [
+        "L167",
+        "看",
+        "我正在看电视。",
+        "Wǒ zhèng zài kàn diàn shì.",
+        "Tôi đang xem tivi."
+      ],
+      [
+        "L107",
+        "妈妈",
+        "我妈妈喜欢茶。",
+        "Wǒ mā ma xǐ huan chá.",
+        "Mẹ tôi thích trà."
+      ]
+    ],
+    "grammar": {
+      "row": "g-387-7",
+      "form": "……在/正在+动词……+呢",
+      "text": "Có thể nhấn hành động đang diễn ra bằng 在/正在 + động từ + 呢: 妈妈正在做饭呢. 呢 trong câu này không hỏi lại người khác như 你呢. Đặt 呢 cuối câu mô tả hành động; không đưa nó trước động từ. 在 ở đây đi với hành động, khác 在 + nơi chốn. Việc có 呢 không tự cho biết hành động kéo dài bao lâu.",
+      "example": [
+        "妈妈正在做饭呢。",
+        "Mā ma zhèng zài zuò fàn ne.",
+        "Mẹ đang nấu ăn đấy."
+      ]
+    },
+    "passage": [
+      "A：妈妈在做什么？\nB：她正在做饭呢。\nA：爸爸呢？\nB：他在看电视呢。",
+      "A: Mā ma zài zuò shén me? B: Tā zhèng zài zuò fàn ne. A: Bà ba ne? B: Tā zài kàn diàn shì ne.",
+      "B mô tả mẹ đang nấu ăn, bố đang xem tivi. Câu 爸爸呢 hỏi lại về bố, còn 呢 cuối hai câu trả lời diễn tả hành động đang xảy ra."
+    ],
+    "question": "B mô tả mẹ đang làm gì?",
+    "answers": [
+      "做饭",
+      "睡觉",
+      "开车"
+    ],
+    "chunks": [
+      "妈妈",
+      "正在做饭",
+      "呢。"
+    ],
+    "checks": [
+      {
+        "prompt": "Chọn câu đúng mẫu “Anh ấy đang đọc sách đấy”.",
+        "choices": [
+          "他正在读书呢。",
+          "他呢正在读书。",
+          "他正在呢读书。"
+        ],
+        "feedback": "呢 đứng cuối câu trong mẫu đang diễn ra."
+      },
+      {
+        "prompt": "Trong 她正在做饭呢, 呢 thực hiện chức năng nào của bài?",
+        "choices": [
+          "Kèm lời mô tả hành động đang diễn ra",
+          "Hỏi tên của cô ấy",
+          "Biến câu thành lời chào"
+        ],
+        "feedback": "Không đồng nhất chức năng này với hỏi lại 你呢 trong lời chào."
+      }
+    ]
+  },
+  {
+    "id": 1107,
+    "group": "grammar",
+    "kind": "UNIT_REVIEW",
+    "title": "Động từ…呢 khi ngữ cảnh đã rõ hiện tại",
+    "items": [
+      [
+        "L121",
+        "读书",
+        "我喜欢读书。",
+        "Wǒ xǐ huan dú shū.",
+        "Tôi thích đọc sách."
+      ],
+      [
+        "L145",
+        "现在",
+        "我现在在学校。",
+        "Wǒ xiàn zài zài xué xiào.",
+        "Bây giờ tôi ở trường."
+      ],
+      [
+        "L137",
+        "忙",
+        "我很忙。",
+        "Wǒ hěn máng.",
+        "Tôi bận."
+      ],
+      [
+        "L123",
+        "说",
+        "我说汉语。",
+        "Wǒ shuō Hàn yǔ.",
+        "Tôi nói tiếng Trung."
+      ]
+    ],
+    "grammar": {
+      "row": "g-387-8",
+      "form": "……呢（动作正在进行）",
+      "text": "Khi ngữ cảnh hiện tại rõ, động từ + 呢 cũng có thể mô tả việc đang làm: 我读书呢. Câu không bắt buộc lúc nào cũng phải hiện 正在; từ này có thể thêm để làm rõ. Không dùng mỗi chữ 呢 để tự suy mọi câu đều là hành động đang diễn ra: 你呢 là hỏi lại, 桌子上有什么呢 có thể là câu hỏi. Bài chỉ chấm mẫu với hành động được nêu rõ.",
+      "example": [
+        "我读书呢。",
+        "Wǒ dú shū ne.",
+        "Tôi đang đọc sách đây."
+      ]
+    },
+    "passage": [
+      "A：你现在忙吗？\nB：我读书呢。\nA：好，我明天再说。",
+      "A: Nǐ xiàn zài máng ma? B: Wǒ dú shū ne. A: Hǎo, wǒ míng tiān zài shuō.",
+      "B đang đọc sách trong thời điểm được hỏi. A nói sẽ nói thêm vào ngày mai; không suy cuộc trò chuyện đã diễn ra ngày mai."
+    ],
+    "question": "B đang làm gì?",
+    "answers": [
+      "读书",
+      "买水果",
+      "坐车"
+    ],
+    "chunks": [
+      "我",
+      "读书",
+      "呢。"
+    ],
+    "checks": [
+      {
+        "prompt": "Trong ngữ cảnh hỏi “bây giờ đang làm gì”, câu nào mô tả việc đang viết chữ?",
+        "choices": [
+          "我写字呢。",
+          "我呢写字。",
+          "我字写呢。"
+        ],
+        "feedback": "写字 là hành động, 呢 ở cuối; ở đây không phải hỏi lại người nghe."
+      },
+      {
+        "prompt": "Nhận định nào đúng trong phạm vi mẫu đã học?",
+        "choices": [
+          "Có thể nói 我读书呢 khi ngữ cảnh hiện tại rõ",
+          "Mọi chữ 呢 đều chứng minh đang làm việc",
+          "呢 phải đứng trước mọi động từ"
+        ],
+        "feedback": "Cần xét hành động và ngữ cảnh, không gán một chức năng duy nhất cho mọi 呢."
+      }
+    ]
+  },
+  {
+    "id": 1108,
+    "group": "grammar",
+    "kind": "UNIT_REVIEW",
+    "title": "Phủ định việc đã qua: 没 + hành động",
+    "items": [
+      [
+        "L145",
+        "昨天",
+        "我昨天休息。",
+        "Wǒ zuó tiān xiū xi.",
+        "Hôm qua tôi nghỉ."
+      ],
+      [
+        "L132",
+        "去",
+        "我去学校读书。",
+        "Wǒ qù xué xiào dú shū.",
+        "Tôi đến trường để đọc sách/học."
+      ],
+      [
+        "L118",
+        "学校",
+        "这是我们的学校。",
+        "Zhè shì wǒ men de xué xiào.",
+        "Đây là trường của chúng tôi."
+      ],
+      [
+        "L101",
+        "不",
+        "我不是安。",
+        "Wǒ bú shì Ān.",
+        "Tôi không phải An."
+      ]
+    ],
+    "grammar": {
+      "row": "g-385-20",
+      "form": "没（有）+动词",
+      "text": "Khi phủ định một việc đã không xảy ra, dùng 没/没有 + động từ: 我昨天没去学校; 我昨天没有去学校 cũng phù hợp. Không dùng 不 để thay mọi phủ định quá khứ của một hành động cụ thể. Trong mẫu phủ định này không giữ 了 hoàn thành sau hành động: 我昨天没去学校了 không phải câu mục tiêu của bài. 不 vẫn dùng phủ định là/nhận xét/thói quen theo các mẫu trước; không đặt quy tắc “cứ thấy 昨天 thì mọi 不 đều sai”.",
+      "example": [
+        "我昨天没去学校。",
+        "Wǒ zuó tiān méi qù xué xiào.",
+        "Hôm qua tôi đã không đến trường."
+      ]
+    },
+    "passage": [
+      "A：你昨天去学校了吗？\nB：没有，我昨天没去学校。\nA：你在家吗？\nB：对，我在家。",
+      "A: Nǐ zuó tiān qù xué xiào le ma? B: Méi yǒu, wǒ zuó tiān méi qù xué xiào. A: Nǐ zài jiā ma? B: Duì, wǒ zài jiā.",
+      "B phủ định việc đến trường hôm qua và xác nhận ở nhà. 对 trong lời đáp nghĩa “đúng”, khác giới từ 对 đã phân biệt ở bài bổ sung trước."
+    ],
+    "question": "B có đến trường hôm qua không?",
+    "answers": [
+      "Không, B nói 没去",
+      "Có, B nói 已经去",
+      "Không có câu trả lời"
+    ],
+    "chunks": [
+      "我昨天",
+      "没去",
+      "学校。"
+    ],
+    "checks": [
+      {
+        "prompt": "Chọn câu phủ định “Hôm qua tôi không đọc sách” trong mẫu đang học.",
+        "choices": [
+          "我昨天没读书。",
+          "我昨天没读书了。",
+          "我昨天读没书。"
+        ],
+        "feedback": "没 + 读书 phủ định hành động; mẫu phủ định hoàn thành này không giữ 了 sau động từ."
+      },
+      {
+        "prompt": "Câu nào là một cách nói tương đương được chấp nhận của 我昨天没去学校?",
+        "choices": [
+          "我昨天没有去学校。",
+          "我昨天很去学校。",
+          "我昨天去学校没。"
+        ],
+        "feedback": "没 và 没有 đều được chấp nhận trong mẫu này; bài không loại biến thể 没有."
+      }
+    ]
+  },
+  {
+    "id": 1109,
+    "group": "grammar",
+    "kind": "UNIT_REVIEW",
+    "title": "都: phạm vi là nhóm đã nêu",
+    "items": [
+      [
+        "L170",
+        "都",
+        "我们都学习汉语。",
+        "Wǒ men dōu xué xí Hàn yǔ.",
+        "Chúng tôi đều học tiếng Hán."
+      ],
+      [
+        "L106",
+        "我们",
+        "我们喜欢茶。",
+        "Wǒ men xǐ huan chá.",
+        "Chúng tôi thích trà."
+      ],
+      [
+        "L106",
+        "你们",
+        "你们叫什么名字？",
+        "Nǐ men jiào shén me míng zi?",
+        "Các bạn tên là gì?"
+      ],
+      [
+        "L118",
+        "学生",
+        "我是学生。",
+        "Wǒ shì xué shēng.",
+        "Tôi là học sinh/sinh viên."
+      ]
+    ],
+    "grammar": {
+      "row": "g-385-16",
+      "form": "都1（范围副词）",
+      "text": "都 đứng trước vị ngữ và nói toàn bộ thành viên trong phạm vi đang nhắc: 我们都学习汉语. Phải đọc rõ chủ thể; 我们 chỉ nhóm người nói, không tự bao gồm mọi người trên thế giới. 我们都不是学生 phủ định với cả nhóm, khác 我们不都是学生 là không phải tất cả đều là học sinh. Bài giới thiệu tương phản này bằng dịch nghĩa có dữ kiện, không chấm suy đoán tình trạng thực của người học.",
+      "example": [
+        "我们都学习汉语。",
+        "Wǒ men dōu xué xí Hàn yǔ.",
+        "Chúng tôi đều học tiếng Hán."
+      ]
+    },
+    "passage": [
+      "A：你们都是学生吗？\nB：不是，我们不都是学生。\nA：你们都学习汉语吗？\nB：对，我们都学习汉语。",
+      "A: Nǐ men dōu shì xué shēng ma? B: Bú shì, wǒ men bù dōu shì xué shēng. A: Nǐ men dōu xué xí Hàn yǔ ma? B: Duì, wǒ men dōu xué xí Hàn yǔ.",
+      "B nói không phải toàn bộ nhóm đều là học sinh; toàn nhóm đều học tiếng Hán. Không suy rằng không ai là học sinh."
+    ],
+    "question": "B xác nhận toàn bộ nhóm đều làm gì?",
+    "answers": [
+      "学习汉语",
+      "在学校工作",
+      "喝茶"
+    ],
+    "chunks": [
+      "我们",
+      "都",
+      "学习汉语。"
+    ],
+    "checks": [
+      {
+        "prompt": "我们不都是学生 nói điều gì trong phạm vi nhóm?",
+        "choices": [
+          "Không phải tất cả chúng tôi đều là học sinh",
+          "Tất cả chúng tôi đều không phải học sinh",
+          "Không ai trên thế giới là học sinh"
+        ],
+        "feedback": "不都 phủ định tính toàn bộ; không đồng nghĩa 都不."
+      },
+      {
+        "prompt": "Chọn câu đúng mẫu “Tất cả chúng tôi đều không phải học sinh”.",
+        "choices": [
+          "我们都不是学生。",
+          "我们不都是学生。",
+          "我们学生都不是。"
+        ],
+        "feedback": "都不 áp dụng phủ định với toàn nhóm trong mẫu này; thứ tự thay đổi nghĩa."
+      }
+    ]
+  },
+  {
+    "id": 1110,
+    "group": "grammar",
+    "kind": "UNIT_REVIEW",
+    "title": "再: làm thêm một lượt theo yêu cầu",
+    "items": [
+      [
+        "L164",
+        "再",
+        "请再说。",
+        "Qǐng zài shuō.",
+        "Xin nói lại."
+      ],
+      [
+        "L112",
+        "读",
+        "你读哪本书？",
+        "Nǐ dú nǎ běn shū?",
+        "Bạn đọc quyển sách nào?"
+      ],
+      [
+        "L123",
+        "说",
+        "我说汉语。",
+        "Wǒ shuō Hàn yǔ.",
+        "Tôi nói tiếng Trung."
+      ],
+      [
+        "L164",
+        "一下",
+        "请读一下这个字。",
+        "Qǐng dú yí xià zhè ge zì.",
+        "Xin đọc chữ này một chút/một lượt."
+      ]
+    ],
+    "grammar": {
+      "row": "g-385-18",
+      "form": "再1（频率副词）",
+      "text": "再 + động từ trong 请再读一下 yêu cầu đọc thêm một lượt. Đặt 再 trước cụm hành động trong mẫu; không đảo thành 读再. Chữ 在 cùng âm zài có chức năng khác, như 在学校 chỉ nơi chốn hoặc 在读书 chỉ đang đọc. Nếu chỉ nghe âm zài riêng lẻ thì chưa đủ chọn chữ; phải xét nghĩa và vị trí.",
+      "example": [
+        "请再读一下。",
+        "Qǐng zài dú yí xià.",
+        "Xin đọc lại một lượt."
+      ]
+    },
+    "passage": [
+      "A：我没有听见，请再说。\nB：好，我明天去学校。\nA：谢谢。",
+      "A: Wǒ méi yǒu tīng jiàn, qǐng zài shuō. B: Hǎo, wǒ míng tiān qù xué xiào. A: Xiè xie.",
+      "A chưa nghe thấy nên nhờ nói thêm một lượt; B nói lại kế hoạch đi học ngày mai. Đọc văn bản không chứng minh người học đã nghe được audio."
+    ],
+    "question": "A muốn B làm gì?",
+    "answers": [
+      "再说",
+      "不要说",
+      "睡觉"
+    ],
+    "chunks": [
+      "请",
+      "再读",
+      "一下。"
+    ],
+    "checks": [
+      {
+        "prompt": "Trong 请再说, 再 chỉ điều gì?",
+        "choices": [
+          "Nói thêm một lượt theo yêu cầu",
+          "Một địa điểm",
+          "Người nói đang đứng"
+        ],
+        "feedback": "再 không phải 在 chỉ nơi chốn dù cùng âm."
+      },
+      {
+        "prompt": "Chọn đúng mẫu “Xin đọc lại một lượt”.",
+        "choices": [
+          "请再读一下。",
+          "请读再一下。",
+          "请一下再读。"
+        ],
+        "feedback": "Đề yêu cầu mẫu đã dạy với 再 trước 读一下; câu khác có thể có nghĩa/thứ tự thông tin khác nhưng không phải mẫu được yêu cầu."
+      }
+    ]
+  },
+  {
+    "id": 1111,
+    "group": "grammar",
+    "kind": "UNIT_REVIEW",
+    "title": "还: thêm một thông tin nữa ở vế sau",
+    "items": [
+      [
+        "L170",
+        "还",
+        "我有书，还有笔。",
+        "Wǒ yǒu shū, hái yǒu bǐ.",
+        "Tôi có sách, còn có bút."
+      ],
+      [
+        "L113",
+        "有",
+        "我家有三口人。",
+        "Wǒ jiā yǒu sān kǒu rén.",
+        "Gia đình tôi có ba người."
+      ],
+      [
+        "L108",
+        "哥哥",
+        "我哥哥叫安。",
+        "Wǒ gē ge jiào Ān.",
+        "Anh trai tôi tên An."
+      ],
+      [
+        "L108",
+        "姐姐",
+        "她是我姐姐。",
+        "Tā shì wǒ jiě jie.",
+        "Cô ấy là chị gái tôi."
+      ]
+    ],
+    "grammar": {
+      "row": "g-387-3",
+      "form": "……，还……",
+      "text": "还 thêm một thông tin nữa: 我有哥哥，我还有姐姐. Có thể lược chủ thể lặp khi ngữ cảnh rõ: 我有哥哥，还有姐姐. Đọc 还 hái ở nghĩa “còn/thêm”, không áp vào huán “trả lại”. Bài không dạy rằng 还 và 也 thay nhau trong mọi ngữ cảnh; 也 ở bài trước nhấn thông tin tương ứng, 还 ở đây thêm một mục nữa.",
+      "example": [
+        "我有哥哥，我还有姐姐。",
+        "Wǒ yǒu gē ge, wǒ hái yǒu jiě jie.",
+        "Tôi có anh trai, tôi còn có chị gái."
+      ]
+    },
+    "passage": [
+      "A：你有哥哥吗？\nB：有，我还有姐姐。\nA：你有妹妹吗？\nB：没有。",
+      "A: Nǐ yǒu gē ge ma? B: Yǒu, wǒ hái yǒu jiě jie. A: Nǐ yǒu mèi mei ma? B: Méi yǒu.",
+      "B có anh trai và còn có chị gái, nhưng không có em gái. Đây là thông tin nhân vật, không phải dữ liệu gia đình người học."
+    ],
+    "question": "Ngoài anh trai, B còn có ai?",
+    "answers": [
+      "姐姐",
+      "妹妹",
+      "弟弟"
+    ],
+    "chunks": [
+      "我有哥哥，",
+      "我还",
+      "有姐姐。"
+    ],
+    "checks": [
+      {
+        "prompt": "Trong 我有哥哥，我还有姐姐, thông tin nào được thêm ở vế sau?",
+        "choices": [
+          "Tôi còn có chị gái",
+          "Tôi đã trả sách",
+          "Tôi không có anh trai"
+        ],
+        "feedback": "还 hái thêm thông tin về chị gái; không phải huán trả lại."
+      },
+      {
+        "prompt": "Chọn câu đúng mẫu “Tôi có sách, còn có bút”, cho phép lược chủ thể lặp.",
+        "choices": [
+          "我有书，还有笔。",
+          "我有书，有笔还。",
+          "我有书，笔还。"
+        ],
+        "feedback": "还有笔 là vế bổ sung theo mẫu; không cần lặp 我 khi đối tượng đã rõ."
+      }
+    ]
+  },
+  {
+    "id": 1151,
+    "group": "chars1",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 1: 你 · 叫 · 呢 · 我 · 好 · 喜",
+    "items": [
+      [
+        "L001",
+        "你",
+        "A：你好！我叫安。\nB：你好！",
+        "A: nǐ hǎo! wǒ jiào Ān.\nB: nǐ hǎo!",
+        "A: Xin chào! Tôi tên là An.\nB: Xin chào!"
+      ],
+      [
+        "L001",
+        "叫",
+        "A：你好！我叫安。\nB：你好！",
+        "A: nǐ hǎo! wǒ jiào Ān.\nB: nǐ hǎo!",
+        "A: Xin chào! Tôi tên là An.\nB: Xin chào!"
+      ],
+      [
+        "L001",
+        "呢",
+        "A：我叫安。你呢？",
+        "A: wǒ jiào Ān. nǐ ne?",
+        "A: Tôi tên là An. Còn bạn thì sao?"
+      ],
+      [
+        "L001",
+        "我",
+        "A：你好！我叫安。\nB：你好！",
+        "A: nǐ hǎo! wǒ jiào Ān.\nB: nǐ hǎo!",
+        "A: Xin chào! Tôi tên là An.\nB: Xin chào!"
+      ],
+      [
+        "L101",
+        "好",
+        "好，我喝茶。",
+        "Hǎo, wǒ hē chá.",
+        "Được, tôi uống trà."
+      ],
+      [
+        "L002",
+        "喜欢",
+        "A：我喜欢茶。你呢？\nB：我喜欢喝茶。",
+        "A: wǒ xǐ huan chá. nǐ ne?\nB: wǒ xǐ huan hē chá.",
+        "A: Tôi thích trà. Còn bạn?\nB: Tôi thích uống trà."
+      ]
+    ],
+    "glyphs": [
+      [
+        "你",
+        [
+          "他",
+          "休",
+          "们"
+        ]
+      ],
+      [
+        "叫",
+        [
+          "叩",
+          "叶",
+          "吓"
+        ]
+      ],
+      [
+        "呢",
+        [
+          "泥",
+          "尼",
+          "听"
+        ]
+      ],
+      [
+        "我",
+        [
+          "找",
+          "战",
+          "划"
+        ]
+      ],
+      [
+        "好",
+        [
+          "妈",
+          "她",
+          "如"
+        ]
+      ],
+      [
+        "喜",
+        [
+          "吉",
+          "善",
+          "嘉"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 你 có 1 chữ. Chữ 你 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 叫 có 1 chữ. Chữ 叫 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 呢 có 1 chữ. Chữ 呢 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 我 có 1 chữ. Chữ 我 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 好 có 1 chữ. Chữ 好 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 喜欢 có 2 chữ. Chữ 喜 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你叫什么名字？\nB：我叫林。你呢？\nA：我叫安。",
+      "A: Nǐ jiào shén me míng zi? B: Wǒ jiào Lín. Nǐ ne? A: Wǒ jiào Ān.",
+      "An và Linh giới thiệu tên. Không đoán giới tính từ tên."
+    ],
+    "question": "B tên gì?",
+    "answers": [
+      "林",
+      "安",
+      "老师"
+    ],
+    "chunks": [
+      "我",
+      "叫",
+      "林。"
+    ]
+  },
+  {
+    "id": 1152,
+    "group": "chars1",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 2: 喝 · 茶 · 欢 · 不 · 也 · 吗",
+    "items": [
+      [
+        "L002",
+        "喝",
+        "A：我喜欢茶。你呢？\nB：我喜欢喝茶。",
+        "A: wǒ xǐ huan chá. nǐ ne?\nB: wǒ xǐ huan hē chá.",
+        "A: Tôi thích trà. Còn bạn?\nB: Tôi thích uống trà."
+      ],
+      [
+        "L002",
+        "茶",
+        "A：我喜欢茶。你呢？\nB：我喜欢喝茶。",
+        "A: wǒ xǐ huan chá. nǐ ne?\nB: wǒ xǐ huan hē chá.",
+        "A: Tôi thích trà. Còn bạn?\nB: Tôi thích uống trà."
+      ],
+      [
+        "L002",
+        "喜欢",
+        "A：我喜欢茶。你呢？\nB：我喜欢喝茶。",
+        "A: wǒ xǐ huan chá. nǐ ne?\nB: wǒ xǐ huan hē chá.",
+        "A: Tôi thích trà. Còn bạn?\nB: Tôi thích uống trà."
+      ],
+      [
+        "L101",
+        "不",
+        "我不是安。",
+        "Wǒ bú shì Ān.",
+        "Tôi không phải An."
+      ],
+      [
+        "L101",
+        "也",
+        "我也喜欢茶。",
+        "Wǒ yě xǐ huan chá.",
+        "Tôi cũng thích trà."
+      ],
+      [
+        "L101",
+        "吗",
+        "你是安吗？",
+        "Nǐ shì Ān ma?",
+        "Bạn là An phải không?"
+      ]
+    ],
+    "glyphs": [
+      [
+        "喝",
+        [
+          "渴",
+          "唱",
+          "问"
+        ]
+      ],
+      [
+        "茶",
+        [
+          "菜",
+          "余",
+          "人"
+        ]
+      ],
+      [
+        "欢",
+        [
+          "欠",
+          "观",
+          "权"
+        ]
+      ],
+      [
+        "不",
+        [
+          "下",
+          "卜",
+          "木"
+        ]
+      ],
+      [
+        "也",
+        [
+          "池",
+          "地",
+          "他"
+        ]
+      ],
+      [
+        "吗",
+        [
+          "妈",
+          "蚂",
+          "码"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 喝 có 1 chữ. Chữ 喝 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 茶 có 1 chữ. Chữ 茶 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 喜欢 có 2 chữ. Chữ 欢 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 不 có 1 chữ. Chữ 不 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 也 có 1 chữ. Chữ 也 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 吗 có 1 chữ. Chữ 吗 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你想喝什么？\nB：我想喝茶。\nA：请喝茶。\nB：谢谢。",
+      "A: Nǐ xiǎng hē shén me? B: Wǒ xiǎng hē chá. A: Qǐng hē chá. B: Xiè xie.",
+      "B muốn uống trà và được A mời trà."
+    ],
+    "question": "B muốn uống gì?",
+    "answers": [
+      "茶",
+      "牛奶",
+      "水"
+    ],
+    "chunks": [
+      "请",
+      "喝",
+      "茶。"
+    ]
+  },
+  {
+    "id": 1153,
+    "group": "chars1",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 3: 人 · 什 · 认 · 高 · 么 · 他",
+    "items": [
+      [
+        "L102",
+        "人",
+        "这个人叫安。",
+        "Zhè ge rén jiào Ān.",
+        "Người này tên An."
+      ],
+      [
+        "L102",
+        "什么",
+        "你叫什么名字？",
+        "Nǐ jiào shén me míng zi?",
+        "Bạn tên là gì?"
+      ],
+      [
+        "L102",
+        "认识",
+        "我认识你。",
+        "Wǒ rèn shi nǐ.",
+        "Tôi biết bạn."
+      ],
+      [
+        "L102",
+        "高兴",
+        "认识你，我很高兴。",
+        "Rèn shi nǐ, wǒ hěn gāo xìng.",
+        "Tôi vui được biết bạn."
+      ],
+      [
+        "L133",
+        "怎么",
+        "你的名字怎么写？",
+        "Nǐ de míng zi zěn me xiě?",
+        "Tên bạn viết thế nào?"
+      ],
+      [
+        "L103",
+        "他",
+        "他叫安。",
+        "Tā jiào Ān.",
+        "Anh ấy tên An."
+      ]
+    ],
+    "glyphs": [
+      [
+        "人",
+        [
+          "八",
+          "入",
+          "大"
+        ]
+      ],
+      [
+        "什",
+        [
+          "仟",
+          "叶",
+          "计"
+        ]
+      ],
+      [
+        "认",
+        [
+          "让",
+          "议",
+          "讥"
+        ]
+      ],
+      [
+        "高",
+        [
+          "亮",
+          "商",
+          "亭"
+        ]
+      ],
+      [
+        "么",
+        [
+          "公",
+          "云",
+          "去"
+        ]
+      ],
+      [
+        "他",
+        [
+          "她",
+          "它",
+          "池"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 人 có 1 chữ. Chữ 人 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 什么 có 2 chữ. Chữ 什 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 认识 có 2 chữ. Chữ 认 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 高兴 có 2 chữ. Chữ 高 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 怎么 có 2 chữ. Chữ 么 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 他 có 1 chữ. Chữ 他 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：这是你哥哥吗？\nB：不是，这是我弟弟。\nA：他几岁？\nB：六岁。",
+      "A: Zhè shì nǐ gē ge ma? B: Bú shì, zhè shì wǒ dì di. A: Tā jǐ suì? B: Liù suì.",
+      "B sửa quan hệ: em trai, không phải anh trai; em6tuổi."
+    ],
+    "question": "Người được B giới thiệu là ai?",
+    "answers": [
+      "弟弟",
+      "哥哥",
+      "爸爸"
+    ],
+    "chunks": [
+      "我弟弟",
+      "六",
+      "岁。"
+    ]
+  },
+  {
+    "id": 1154,
+    "group": "chars1",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 4: 兴 · 识 · 女 · 她 · 朋 · 友",
+    "items": [
+      [
+        "L102",
+        "高兴",
+        "认识你，我很高兴。",
+        "Rèn shi nǐ, wǒ hěn gāo xìng.",
+        "Tôi vui được biết bạn."
+      ],
+      [
+        "L102",
+        "认识",
+        "我认识你。",
+        "Wǒ rèn shi nǐ.",
+        "Tôi biết bạn."
+      ],
+      [
+        "L103",
+        "女",
+        "性别：女。",
+        "Xìng bié: nǚ.",
+        "Giới tính: nữ."
+      ],
+      [
+        "L103",
+        "她",
+        "她叫林。",
+        "Tā jiào Lín.",
+        "Cô ấy tên Lâm."
+      ],
+      [
+        "L103",
+        "朋友",
+        "你好，朋友！",
+        "Nǐ hǎo, péng you!",
+        "Chào bạn!"
+      ],
+      [
+        "L114",
+        "男朋友",
+        "他是我男朋友。",
+        "Tā shì wǒ nán péng you.",
+        "Anh ấy là bạn trai tôi."
+      ]
+    ],
+    "glyphs": [
+      [
+        "兴",
+        [
+          "共",
+          "兵",
+          "其"
+        ]
+      ],
+      [
+        "识",
+        [
+          "织",
+          "职",
+          "只"
+        ]
+      ],
+      [
+        "女",
+        [
+          "如",
+          "好",
+          "母"
+        ]
+      ],
+      [
+        "她",
+        [
+          "他",
+          "妈",
+          "地"
+        ]
+      ],
+      [
+        "朋",
+        [
+          "明",
+          "月",
+          "用"
+        ]
+      ],
+      [
+        "友",
+        [
+          "反",
+          "又",
+          "及"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 高兴 có 2 chữ. Chữ 兴 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 认识 có 2 chữ. Chữ 识 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 女 có 1 chữ. Chữ 女 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 她 có 1 chữ. Chữ 她 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 朋友 có 2 chữ. Chữ 朋 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 男朋友 có 3 chữ. Chữ 友 ở vị trí 3 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你明天几点去学校？\nB：我八点去学校。\nA：今天呢？\nB：我今天在家。",
+      "A: Nǐ míng tiān jǐ diǎn qù xué xiào? B: Wǒ bā diǎn qù xué xiào. A: Jīn tiān ne? B: Wǒ jīn tiān zài jiā.",
+      "B đi học8giờ ngày mai, hôm nay ở nhà."
+    ],
+    "question": "Hôm nay B ở đâu?",
+    "answers": [
+      "家",
+      "学校",
+      "公司"
+    ],
+    "chunks": [
+      "我明天",
+      "八点",
+      "去学校。"
+    ]
+  },
+  {
+    "id": 1155,
+    "group": "chars1",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 5: 您 · 谢 · 客 · 见 · 的 · 那",
+    "items": [
+      [
+        "L104",
+        "您",
+        "您好！",
+        "Nín hǎo!",
+        "Xin chào bác/anh chị!"
+      ],
+      [
+        "L104",
+        "谢谢",
+        "谢谢您！",
+        "Xiè xie nín!",
+        "Cảm ơn bác/anh chị!"
+      ],
+      [
+        "L104",
+        "不客气",
+        "不客气。",
+        "Bú kè qi.",
+        "Không có gì."
+      ],
+      [
+        "L133",
+        "见",
+        "我想见老师。",
+        "Wǒ xiǎng jiàn lǎo shī.",
+        "Tôi muốn gặp giáo viên."
+      ],
+      [
+        "L105",
+        "的",
+        "这是我的茶。",
+        "Zhè shì wǒ de chá.",
+        "Đây là trà của tôi."
+      ],
+      [
+        "L105",
+        "那",
+        "那是茶吗？",
+        "Nà shì chá ma?",
+        "Kia là trà phải không?"
+      ]
+    ],
+    "glyphs": [
+      [
+        "您",
+        [
+          "你",
+          "悠",
+          "愁"
+        ]
+      ],
+      [
+        "谢",
+        [
+          "射",
+          "榭",
+          "讨"
+        ]
+      ],
+      [
+        "客",
+        [
+          "各",
+          "容",
+          "宫"
+        ]
+      ],
+      [
+        "见",
+        [
+          "贝",
+          "觉",
+          "现"
+        ]
+      ],
+      [
+        "的",
+        [
+          "白",
+          "约",
+          "钓"
+        ]
+      ],
+      [
+        "那",
+        [
+          "哪",
+          "邦",
+          "人"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 您 có 1 chữ. Chữ 您 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 谢谢 có 2 chữ. Chữ 谢 ở vị trí 1, 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 不客气 có 3 chữ. Chữ 客 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 见 có 1 chữ. Chữ 见 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 的 có 1 chữ. Chữ 的 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 那 có 1 chữ. Chữ 那 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你买什么？\nB：我买这个杯子。\nA：多少钱？\nB：五元。",
+      "A: Nǐ mǎi shén me? B: Wǒ mǎi zhè ge bēi zi. A: Duō shao qián? B: Wǔ yuán.",
+      "B chọn chiếc cốc này, giá hư cấu5nguyên."
+    ],
+    "question": "B mua gì?",
+    "answers": [
+      "杯子",
+      "书",
+      "衣服"
+    ],
+    "chunks": [
+      "我",
+      "买",
+      "这个杯子。"
+    ]
+  },
+  {
+    "id": 1156,
+    "group": "chars1",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 6: 个 · 大 · 谁 · 妈 · 孩 · 爸",
+    "items": [
+      [
+        "L111",
+        "个",
+        "一个朋友。",
+        "Yí ge péng you.",
+        "Một người bạn."
+      ],
+      [
+        "L116",
+        "大",
+        "那只狗很大。",
+        "Nà zhī gǒu hěn dà.",
+        "Con chó kia to."
+      ],
+      [
+        "L106",
+        "谁",
+        "他是谁？",
+        "Tā shì shéi?",
+        "Anh ấy là ai?"
+      ],
+      [
+        "L107",
+        "妈妈",
+        "我妈妈喜欢茶。",
+        "Wǒ mā ma xǐ huan chá.",
+        "Mẹ tôi thích trà."
+      ],
+      [
+        "L107",
+        "孩子",
+        "那个孩子叫文。",
+        "Nà ge hái zi jiào Wén.",
+        "Đứa trẻ kia tên Văn."
+      ],
+      [
+        "L107",
+        "爸爸",
+        "这是我爸爸。",
+        "Zhè shì wǒ bà ba.",
+        "Đây là bố tôi."
+      ]
+    ],
+    "glyphs": [
+      [
+        "个",
+        [
+          "伞",
+          "人",
+          "入"
+        ]
+      ],
+      [
+        "大",
+        [
+          "太",
+          "犬",
+          "天"
+        ]
+      ],
+      [
+        "谁",
+        [
+          "推",
+          "准",
+          "难"
+        ]
+      ],
+      [
+        "妈",
+        [
+          "马",
+          "吗",
+          "奶"
+        ]
+      ],
+      [
+        "孩",
+        [
+          "核",
+          "该",
+          "刻"
+        ]
+      ],
+      [
+        "爸",
+        [
+          "爷",
+          "父",
+          "色"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 个 có 1 chữ. Chữ 个 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 大 có 1 chữ. Chữ 大 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 谁 có 1 chữ. Chữ 谁 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 妈妈 có 2 chữ. Chữ 妈 ở vị trí 1, 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 孩子 có 2 chữ. Chữ 孩 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 爸爸 có 2 chữ. Chữ 爸 ở vị trí 1, 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：今天下雨吗？\nB：没有，今天天气很好。\nA：你想去哪儿？\nB：我想去学校。",
+      "A: Jīn tiān xià yǔ ma? B: Méi yǒu, jīn tiān tiān qì hěn hǎo. A: Nǐ xiǎng qù nǎr? B: Wǒ xiǎng qù xué xiào.",
+      "Thời tiết trong truyện tốt, không mưa; không phải dự báo thật."
+    ],
+    "question": "Theo B, hôm nay có mưa không?",
+    "answers": [
+      "没有",
+      "有很多雨",
+      "Đoạn không trả lời"
+    ],
+    "chunks": [
+      "今天",
+      "天气",
+      "很好。"
+    ]
+  },
+  {
+    "id": 1157,
+    "group": "chars1",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 7: 子 · 儿 · 哥 · 妹 · 弟 · 三",
+    "items": [
+      [
+        "L107",
+        "孩子",
+        "那个孩子叫文。",
+        "Nà ge hái zi jiào Wén.",
+        "Đứa trẻ kia tên Văn."
+      ],
+      [
+        "L108",
+        "儿子",
+        "他是我儿子。",
+        "Tā shì wǒ ér zi.",
+        "Cậu ấy là con trai tôi."
+      ],
+      [
+        "L108",
+        "哥哥",
+        "我哥哥叫安。",
+        "Wǒ gē ge jiào Ān.",
+        "Anh trai tôi tên An."
+      ],
+      [
+        "L108",
+        "妹妹",
+        "我妹妹喜欢茶。",
+        "Wǒ mèi mei xǐ huan chá.",
+        "Em gái tôi thích trà."
+      ],
+      [
+        "L108",
+        "弟弟",
+        "他是我弟弟。",
+        "Tā shì wǒ dì di.",
+        "Cậu ấy là em trai tôi."
+      ],
+      [
+        "L109",
+        "三",
+        "一、二、三。",
+        "Yī, èr, sān.",
+        "Một, hai, ba."
+      ]
+    ],
+    "glyphs": [
+      [
+        "子",
+        [
+          "了",
+          "孑",
+          "予"
+        ]
+      ],
+      [
+        "儿",
+        [
+          "几",
+          "九",
+          "允"
+        ]
+      ],
+      [
+        "哥",
+        [
+          "可",
+          "何",
+          "奇"
+        ]
+      ],
+      [
+        "妹",
+        [
+          "未",
+          "味",
+          "抹"
+        ]
+      ],
+      [
+        "弟",
+        [
+          "第",
+          "梯",
+          "递"
+        ]
+      ],
+      [
+        "三",
+        [
+          "王",
+          "玉",
+          "主"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 孩子 có 2 chữ. Chữ 子 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 儿子 có 2 chữ. Chữ 儿 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 哥哥 có 2 chữ. Chữ 哥 ở vị trí 1, 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 妹妹 có 2 chữ. Chữ 妹 ở vị trí 1, 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 弟弟 có 2 chữ. Chữ 弟 ở vị trí 1, 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 三 có 1 chữ. Chữ 三 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你怎么去学校？\nB：我坐出租车。\nA：你爸爸呢？\nB：他开车。",
+      "A: Nǐ zěn me qù xué xiào? B: Wǒ zuò chū zū chē. A: Nǐ bà ba ne? B: Tā kāi chē.",
+      "B đi taxi, bố của B lái xe; không suy B là tài xế."
+    ],
+    "question": "B đi bằng gì?",
+    "answers": [
+      "出租车",
+      "火车",
+      "飞机"
+    ],
+    "chunks": [
+      "我",
+      "坐",
+      "出租车。"
+    ]
+  },
+  {
+    "id": 1158,
+    "group": "chars2",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 8: 二 · 五 · 四 · 七 · 九 · 八",
+    "items": [
+      [
+        "L109",
+        "二",
+        "一、二、三。",
+        "Yī, èr, sān.",
+        "Một, hai, ba."
+      ],
+      [
+        "L109",
+        "五",
+        "三、四、五。",
+        "Sān, sì, wǔ.",
+        "Ba, bốn, năm."
+      ],
+      [
+        "L109",
+        "四",
+        "二、三、四。",
+        "Èr, sān, sì.",
+        "Hai, ba, bốn."
+      ],
+      [
+        "L110",
+        "七",
+        "六、七、八。",
+        "Liù, qī, bā.",
+        "Sáu, bảy, tám."
+      ],
+      [
+        "L110",
+        "九",
+        "八、九、十。",
+        "Bā, jiǔ, shí.",
+        "Tám, chín, mười."
+      ],
+      [
+        "L110",
+        "八",
+        "六、七、八。",
+        "Liù, qī, bā.",
+        "Sáu, bảy, tám."
+      ]
+    ],
+    "glyphs": [
+      [
+        "二",
+        [
+          "三",
+          "工",
+          "上"
+        ]
+      ],
+      [
+        "五",
+        [
+          "互",
+          "正",
+          "王"
+        ]
+      ],
+      [
+        "四",
+        [
+          "西",
+          "匹",
+          "回"
+        ]
+      ],
+      [
+        "七",
+        [
+          "匕",
+          "十",
+          "丁"
+        ]
+      ],
+      [
+        "九",
+        [
+          "丸",
+          "几",
+          "儿"
+        ]
+      ],
+      [
+        "八",
+        [
+          "人",
+          "入",
+          "大"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 二 có 1 chữ. Chữ 二 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 五 có 1 chữ. Chữ 五 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 四 có 1 chữ. Chữ 四 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 七 có 1 chữ. Chữ 七 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 九 có 1 chữ. Chữ 九 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 八 có 1 chữ. Chữ 八 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：喂，你在哪儿？\nB：我在学校。\nA：好，我明天去学校。",
+      "A: Wèi, nǐ zài nǎr? B: Wǒ zài xué xiào. A: Hǎo, wǒ míng tiān qù xué xiào.",
+      "Lời thoại viết mô phỏng cuộc gọi; không có bài nghe hay cuộc gọi thật."
+    ],
+    "question": "B nói đang ở đâu?",
+    "answers": [
+      "学校",
+      "家",
+      "医院"
+    ],
+    "chunks": [
+      "我明天",
+      "去",
+      "学校。"
+    ]
+  },
+  {
+    "id": 1159,
+    "group": "chars2",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 9: 十 · 本 · 桌 · 椅 · 东 · 汉",
+    "items": [
+      [
+        "L110",
+        "十",
+        "八、九、十。",
+        "Bā, jiǔ, shí.",
+        "Tám, chín, mười."
+      ],
+      [
+        "L111",
+        "本",
+        "我有一本书。",
+        "Wǒ yǒu yì běn shū.",
+        "Tôi có một quyển sách."
+      ],
+      [
+        "L111",
+        "桌子",
+        "这是桌子。",
+        "Zhè shì zhuō zi.",
+        "Đây là bàn."
+      ],
+      [
+        "L111",
+        "椅子",
+        "那是椅子。",
+        "Nà shì yǐ zi.",
+        "Kia là ghế."
+      ],
+      [
+        "L112",
+        "东西",
+        "这是什么东西？",
+        "Zhè shì shén me dōng xi?",
+        "Đây là đồ gì?"
+      ],
+      [
+        "L112",
+        "汉字",
+        "我喜欢汉字。",
+        "Wǒ xǐ huan Hàn zì.",
+        "Tôi thích chữ Hán."
+      ]
+    ],
+    "glyphs": [
+      [
+        "十",
+        [
+          "干",
+          "千",
+          "土"
+        ]
+      ],
+      [
+        "本",
+        [
+          "木",
+          "未",
+          "末"
+        ]
+      ],
+      [
+        "桌",
+        [
+          "卓",
+          "早",
+          "人"
+        ]
+      ],
+      [
+        "椅",
+        [
+          "倚",
+          "奇",
+          "骑"
+        ]
+      ],
+      [
+        "东",
+        [
+          "车",
+          "乐",
+          "陈"
+        ]
+      ],
+      [
+        "汉",
+        [
+          "汗",
+          "江",
+          "汊"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 十 có 1 chữ. Chữ 十 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 本 có 1 chữ. Chữ 本 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 桌子 có 2 chữ. Chữ 桌 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 椅子 có 2 chữ. Chữ 椅 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 东西 có 2 chữ. Chữ 东 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 汉字 có 2 chữ. Chữ 汉 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：现在几点？\nB：现在九点，上课了。\nA：好，我们读书。",
+      "A: Xiàn zài jǐ diǎn? B: Xiàn zài jiǔ diǎn, shàng kè le. A: Hǎo, wǒ men dú shū.",
+      "Trong truyện9giờ và vào giờ học; không phải giờ máy hiện tại."
+    ],
+    "question": "Giờ trong truyện là mấy giờ?",
+    "answers": [
+      "九点",
+      "六点",
+      "十点"
+    ],
+    "chunks": [
+      "我们",
+      "读",
+      "书。"
+    ]
+  },
+  {
+    "id": 1160,
+    "group": "chars2",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 10: 西 · 和 · 有 · 它 · 只 · 小",
+    "items": [
+      [
+        "L112",
+        "东西",
+        "这是什么东西？",
+        "Zhè shì shén me dōng xi?",
+        "Đây là đồ gì?"
+      ],
+      [
+        "L113",
+        "和",
+        "我爸爸和我妈妈喜欢茶。",
+        "Wǒ bà ba hé wǒ mā ma xǐ huan chá.",
+        "Bố và mẹ tôi thích trà."
+      ],
+      [
+        "L113",
+        "有",
+        "我家有三口人。",
+        "Wǒ jiā yǒu sān kǒu rén.",
+        "Gia đình tôi có ba người."
+      ],
+      [
+        "L115",
+        "它",
+        "它是我的狗。",
+        "Tā shì wǒ de gǒu.",
+        "Nó là chó của tôi."
+      ],
+      [
+        "L116",
+        "只",
+        "这只猫是我的。",
+        "Zhè zhī māo shì wǒ de.",
+        "Con mèo này là của tôi."
+      ],
+      [
+        "L116",
+        "小",
+        "这只猫很小。",
+        "Zhè zhī māo hěn xiǎo.",
+        "Con mèo này nhỏ."
+      ]
+    ],
+    "glyphs": [
+      [
+        "西",
+        [
+          "四",
+          "酉",
+          "画"
+        ]
+      ],
+      [
+        "和",
+        [
+          "知",
+          "扣",
+          "种"
+        ]
+      ],
+      [
+        "有",
+        [
+          "右",
+          "育",
+          "月"
+        ]
+      ],
+      [
+        "它",
+        [
+          "宝",
+          "宅",
+          "他"
+        ]
+      ],
+      [
+        "只",
+        [
+          "兄",
+          "员",
+          "号"
+        ]
+      ],
+      [
+        "小",
+        [
+          "少",
+          "水",
+          "木"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 东西 có 2 chữ. Chữ 西 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 和 có 1 chữ. Chữ 和 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 有 có 1 chữ. Chữ 有 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 它 có 1 chữ. Chữ 它 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 只 có 1 chữ. Chữ 只 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 小 có 1 chữ. Chữ 小 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：这个饭店怎么样？\nB：米饭很好吃。\nA：你吃饺子吗？\nB：不，我吃米饭。",
+      "A: Zhè ge fàn diàn zěn me yàng? B: Mǐ fàn hěn hǎo chī. A: Nǐ chī jiǎo zi ma? B: Bù, wǒ chī mǐ fàn.",
+      "B khen cơm và chọn cơm, không chọn sủi cảo."
+    ],
+    "question": "B chọn ăn gì?",
+    "answers": [
+      "米饭",
+      "饺子",
+      "面条儿"
+    ],
+    "chunks": [
+      "我",
+      "吃",
+      "米饭。"
+    ]
+  },
+  {
+    "id": 1161,
+    "group": "chars2",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 11: 很 · 漂 · 看 · 同 · 老 · 校",
+    "items": [
+      [
+        "L117",
+        "很",
+        "这本书很新。",
+        "Zhè běn shū hěn xīn.",
+        "Quyển sách này mới."
+      ],
+      [
+        "L117",
+        "漂亮",
+        "那只猫很漂亮。",
+        "Nà zhī māo hěn piào liang.",
+        "Con mèo kia đẹp."
+      ],
+      [
+        "L167",
+        "看",
+        "我正在看电视。",
+        "Wǒ zhèng zài kàn diàn shì.",
+        "Tôi đang xem tivi."
+      ],
+      [
+        "L118",
+        "同学",
+        "他是我的同学。",
+        "Tā shì wǒ de tóng xué.",
+        "Anh ấy là bạn học của tôi."
+      ],
+      [
+        "L118",
+        "老师",
+        "她是我的老师。",
+        "Tā shì wǒ de lǎo shī.",
+        "Cô ấy là giáo viên của tôi."
+      ],
+      [
+        "L118",
+        "学校",
+        "这是我们的学校。",
+        "Zhè shì wǒ men de xué xiào.",
+        "Đây là trường của chúng tôi."
+      ]
+    ],
+    "glyphs": [
+      [
+        "很",
+        [
+          "狠",
+          "根",
+          "恨"
+        ]
+      ],
+      [
+        "漂",
+        [
+          "飘",
+          "票",
+          "标"
+        ]
+      ],
+      [
+        "看",
+        [
+          "着",
+          "春",
+          "者"
+        ]
+      ],
+      [
+        "同",
+        [
+          "向",
+          "周",
+          "司"
+        ]
+      ],
+      [
+        "老",
+        [
+          "考",
+          "者",
+          "孝"
+        ]
+      ],
+      [
+        "校",
+        [
+          "较",
+          "效",
+          "郊"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 很 có 1 chữ. Chữ 很 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 漂亮 có 2 chữ. Chữ 漂 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 看 có 1 chữ. Chữ 看 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 同学 có 2 chữ. Chữ 同 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 老师 có 2 chữ. Chữ 老 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 学校 có 2 chữ. Chữ 校 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：这是什么书？\nB：这是我的汉语书。\nA：你每天读吗？\nB：对。",
+      "A: Zhè shì shén me shū? B: Zhè shì wǒ de Hàn yǔ shū. A: Nǐ měi tiān dú ma? B: Duì.",
+      "B giới thiệu sách tiếng Hán của mình và xác nhận đọc hằng ngày."
+    ],
+    "question": "Sách được B giới thiệu là sách gì?",
+    "answers": [
+      "汉语书",
+      "一个杯子",
+      "一件衣服"
+    ],
+    "chunks": [
+      "这",
+      "是",
+      "我的汉语书。"
+    ]
+  },
+  {
+    "id": 1162,
+    "group": "chars2",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 12: 亮 · 师 · 中 · 文 · 习 · 上",
+    "items": [
+      [
+        "L117",
+        "漂亮",
+        "那只猫很漂亮。",
+        "Nà zhī māo hěn piào liang.",
+        "Con mèo kia đẹp."
+      ],
+      [
+        "L118",
+        "老师",
+        "她是我的老师。",
+        "Tā shì wǒ de lǎo shī.",
+        "Cô ấy là giáo viên của tôi."
+      ],
+      [
+        "L119",
+        "中学",
+        "那是中学。",
+        "Nà shì zhōng xué.",
+        "Kia là trường trung học."
+      ],
+      [
+        "L120",
+        "中文",
+        "我们学习中文。",
+        "Wǒ men xué xí Zhōng wén.",
+        "Chúng tôi học tiếng Trung."
+      ],
+      [
+        "L121",
+        "学习",
+        "我们学习汉语。",
+        "Wǒ men xué xí Hàn yǔ.",
+        "Chúng tôi học tiếng Trung."
+      ],
+      [
+        "L130",
+        "上",
+        "书在桌子上。",
+        "Shū zài zhuō zi shang.",
+        "Sách ở trên bàn."
+      ]
+    ],
+    "glyphs": [
+      [
+        "亮",
+        [
+          "高",
+          "京",
+          "亭"
+        ]
+      ],
+      [
+        "师",
+        [
+          "帅",
+          "归",
+          "巾"
+        ]
+      ],
+      [
+        "中",
+        [
+          "申",
+          "甲",
+          "田"
+        ]
+      ],
+      [
+        "文",
+        [
+          "义",
+          "父",
+          "交"
+        ]
+      ],
+      [
+        "习",
+        [
+          "刁",
+          "羽",
+          "司"
+        ]
+      ],
+      [
+        "上",
+        [
+          "止",
+          "土",
+          "工"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 漂亮 có 2 chữ. Chữ 亮 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 老师 có 2 chữ. Chữ 师 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 中学 có 2 chữ. Chữ 中 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 中文 có 2 chữ. Chữ 文 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 学习 có 2 chữ. Chữ 习 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 上 có 1 chữ. Chữ 上 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你去哪儿？\nB：我去医院看医生。\nA：你妈妈呢？\nB：她在家。",
+      "A: Nǐ qù nǎr? B: Wǒ qù yī yuàn kàn yī shēng. A: Nǐ mā ma ne? B: Tā zài jiā.",
+      "B đến bệnh viện gặp bác sĩ; đây là đọc hiểu, không chẩn đoán hay tư vấn y tế."
+    ],
+    "question": "B đi đâu?",
+    "answers": [
+      "医院",
+      "学校",
+      "公司"
+    ],
+    "chunks": [
+      "我",
+      "去医院",
+      "看医生。"
+    ]
+  },
+  {
+    "id": 1163,
+    "group": "chars2",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 13: 说 · 会 · 可 · 道 · 想 · 要",
+    "items": [
+      [
+        "L123",
+        "说",
+        "我说汉语。",
+        "Wǒ shuō Hàn yǔ.",
+        "Tôi nói tiếng Trung."
+      ],
+      [
+        "L124",
+        "会",
+        "我会写汉字。",
+        "Wǒ huì xiě Hàn zì.",
+        "Tôi biết viết chữ Hán."
+      ],
+      [
+        "L124",
+        "可以",
+        "我可以读这本书吗？",
+        "Wǒ kě yǐ dú zhè běn shū ma?",
+        "Tôi có thể đọc quyển sách này không?"
+      ],
+      [
+        "L124",
+        "知道",
+        "我知道你的名字。",
+        "Wǒ zhī dào nǐ de míng zi.",
+        "Tôi biết tên bạn."
+      ],
+      [
+        "L125",
+        "想",
+        "我想喝茶。",
+        "Wǒ xiǎng hē chá.",
+        "Tôi muốn uống trà."
+      ],
+      [
+        "L125",
+        "要",
+        "我要茶。",
+        "Wǒ yào chá.",
+        "Tôi muốn trà."
+      ]
+    ],
+    "glyphs": [
+      [
+        "说",
+        [
+          "悦",
+          "税",
+          "脱"
+        ]
+      ],
+      [
+        "会",
+        [
+          "云",
+          "今",
+          "令"
+        ]
+      ],
+      [
+        "可",
+        [
+          "司",
+          "何",
+          "句"
+        ]
+      ],
+      [
+        "道",
+        [
+          "首",
+          "通",
+          "这"
+        ]
+      ],
+      [
+        "想",
+        [
+          "相",
+          "箱",
+          "念"
+        ]
+      ],
+      [
+        "要",
+        [
+          "耍",
+          "西",
+          "票"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 说 có 1 chữ. Chữ 说 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 会 có 1 chữ. Chữ 会 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 可以 có 2 chữ. Chữ 可 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 知道 có 2 chữ. Chữ 道 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 想 có 1 chữ. Chữ 想 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 要 có 1 chữ. Chữ 要 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你在哪儿工作？\nB：我在公司工作。\nA：今天忙吗？\nB：不忙。",
+      "A: Nǐ zài nǎr gōng zuò? B: Wǒ zài gōng sī gōng zuò. A: Jīn tiān máng ma? B: Bù máng.",
+      "B làm việc tại công ty, hôm nay không bận trong tình huống hư cấu."
+    ],
+    "question": "Hôm nay B có bận không?",
+    "answers": [
+      "不忙",
+      "很忙",
+      "没有回答"
+    ],
+    "chunks": [
+      "我",
+      "在公司",
+      "工作。"
+    ]
+  },
+  {
+    "id": 1164,
+    "group": "chars2",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 14: 以 · 在 · 边 · 到 · 去 · 怎",
+    "items": [
+      [
+        "L124",
+        "可以",
+        "我可以读这本书吗？",
+        "Wǒ kě yǐ dú zhè běn shū ma?",
+        "Tôi có thể đọc quyển sách này không?"
+      ],
+      [
+        "L129",
+        "在",
+        "我在学校。",
+        "Wǒ zài xué xiào.",
+        "Tôi ở trường."
+      ],
+      [
+        "L131",
+        "边",
+        "狗在外边。",
+        "Gǒu zài wài bian.",
+        "Chó ở bên ngoài."
+      ],
+      [
+        "L132",
+        "到",
+        "我到学校了。",
+        "Wǒ dào xué xiào le.",
+        "Tôi đến trường rồi."
+      ],
+      [
+        "L132",
+        "去",
+        "我去学校读书。",
+        "Wǒ qù xué xiào dú shū.",
+        "Tôi đến trường để đọc sách/học."
+      ],
+      [
+        "L133",
+        "怎么",
+        "你的名字怎么写？",
+        "Nǐ de míng zi zěn me xiě?",
+        "Tên bạn viết thế nào?"
+      ]
+    ],
+    "glyphs": [
+      [
+        "以",
+        [
+          "似",
+          "从",
+          "人"
+        ]
+      ],
+      [
+        "在",
+        [
+          "再",
+          "土",
+          "左"
+        ]
+      ],
+      [
+        "边",
+        [
+          "这",
+          "过",
+          "近"
+        ]
+      ],
+      [
+        "到",
+        [
+          "别",
+          "倒",
+          "刻"
+        ]
+      ],
+      [
+        "去",
+        [
+          "云",
+          "丢",
+          "法"
+        ]
+      ],
+      [
+        "怎",
+        [
+          "作",
+          "昨",
+          "人"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 可以 có 2 chữ. Chữ 以 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 在 có 1 chữ. Chữ 在 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 边 có 1 chữ. Chữ 边 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 到 có 1 chữ. Chữ 到 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 去 có 1 chữ. Chữ 去 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 怎么 có 2 chữ. Chữ 怎 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你今天想做什么？\nB：我想休息。\nA：你不看电影吗？\nB：对，我不看电影。",
+      "A: Nǐ jīn tiān xiǎng zuò shén me? B: Wǒ xiǎng xiū xi. A: Nǐ bù kàn diàn yǐng ma? B: Duì, wǒ bù kàn diàn yǐng.",
+      "B muốn nghỉ, không xem phim. Đọc cả câu xác nhận để tránh suy từ câu hỏi phủ định."
+    ],
+    "question": "B muốn làm gì?",
+    "answers": [
+      "休息",
+      "看电影",
+      "做饭"
+    ],
+    "chunks": [
+      "我想",
+      "休息",
+      "一下。"
+    ]
+  },
+  {
+    "id": 1165,
+    "group": "chars3",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 15: 找 · 公 · 作 · 班 · 先 · 士",
+    "items": [
+      [
+        "L133",
+        "找",
+        "我找我的书。",
+        "Wǒ zhǎo wǒ de shū.",
+        "Tôi tìm sách của tôi."
+      ],
+      [
+        "L134",
+        "公司",
+        "这是我姐姐的公司。",
+        "Zhè shì wǒ jiě jie de gōng sī.",
+        "Đây là công ty của chị gái tôi."
+      ],
+      [
+        "L134",
+        "工作",
+        "我在公司工作。",
+        "Wǒ zài gōng sī gōng zuò.",
+        "Tôi làm việc ở công ty."
+      ],
+      [
+        "L134",
+        "上班",
+        "我妈妈上班。",
+        "Wǒ mā ma shàng bān.",
+        "Mẹ tôi đi làm."
+      ],
+      [
+        "L135",
+        "先生",
+        "林先生，您好！",
+        "Lín xiān sheng, nín hǎo!",
+        "Chào ông/anh Lâm!"
+      ],
+      [
+        "L135",
+        "女士",
+        "安女士，您好！",
+        "Ān nǚ shì, nín hǎo!",
+        "Chào bà/chị An!"
+      ]
+    ],
+    "glyphs": [
+      [
+        "找",
+        [
+          "我",
+          "战",
+          "划"
+        ]
+      ],
+      [
+        "公",
+        [
+          "么",
+          "去",
+          "云"
+        ]
+      ],
+      [
+        "作",
+        [
+          "昨",
+          "做",
+          "休"
+        ]
+      ],
+      [
+        "班",
+        [
+          "斑",
+          "辨",
+          "辩"
+        ]
+      ],
+      [
+        "先",
+        [
+          "失",
+          "告",
+          "洗"
+        ]
+      ],
+      [
+        "士",
+        [
+          "土",
+          "干",
+          "王"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 找 có 1 chữ. Chữ 找 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 公司 có 2 chữ. Chữ 公 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 工作 có 2 chữ. Chữ 作 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 上班 có 2 chữ. Chữ 班 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 先生 có 2 chữ. Chữ 先 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 女士 có 2 chữ. Chữ 士 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：下课了，你去哪儿？\nB：我去书店买书。\nA：我也去。",
+      "A: Xià kè le, nǐ qù nǎr? B: Wǒ qù shū diàn mǎi shū. A: Wǒ yě qù.",
+      "Sau giờ học, B đi hiệu sách mua sách; A nói cũng đi."
+    ],
+    "question": "B đi đâu sau giờ học?",
+    "answers": [
+      "书店",
+      "医院",
+      "饭店"
+    ],
+    "chunks": [
+      "我",
+      "去书店",
+      "买书。"
+    ]
+  },
+  {
+    "id": 1166,
+    "group": "chars3",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 16: 司 · 院 · 休 · 事 · 关 · 对",
+    "items": [
+      [
+        "L134",
+        "公司",
+        "这是我姐姐的公司。",
+        "Zhè shì wǒ jiě jie de gōng sī.",
+        "Đây là công ty của chị gái tôi."
+      ],
+      [
+        "L135",
+        "医院",
+        "我去医院。",
+        "Wǒ qù yī yuàn.",
+        "Tôi đến bệnh viện."
+      ],
+      [
+        "L136",
+        "休息",
+        "下课了，请休息。",
+        "Xià kè le, qǐng xiū xi.",
+        "Hết tiết rồi, xin nghỉ ngơi."
+      ],
+      [
+        "L137",
+        "事",
+        "我有事。",
+        "Wǒ yǒu shì.",
+        "Tôi có việc."
+      ],
+      [
+        "L137",
+        "没关系",
+        "没关系。",
+        "Méi guān xi.",
+        "Không sao."
+      ],
+      [
+        "L138",
+        "对",
+        "对不起，我有事。",
+        "Duì bu qǐ, wǒ yǒu shì.",
+        "Xin lỗi, tôi có việc."
+      ]
+    ],
+    "glyphs": [
+      [
+        "司",
+        [
+          "同",
+          "可",
+          "句"
+        ]
+      ],
+      [
+        "院",
+        [
+          "完",
+          "宛",
+          "园"
+        ]
+      ],
+      [
+        "休",
+        [
+          "体",
+          "林",
+          "沐"
+        ]
+      ],
+      [
+        "事",
+        [
+          "吏",
+          "史",
+          "串"
+        ]
+      ],
+      [
+        "关",
+        [
+          "天",
+          "美",
+          "吴"
+        ]
+      ],
+      [
+        "对",
+        [
+          "双",
+          "寸",
+          "又"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 公司 có 2 chữ. Chữ 司 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 医院 có 2 chữ. Chữ 院 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 休息 có 2 chữ. Chữ 休 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 事 có 1 chữ. Chữ 事 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 没关系 có 3 chữ. Chữ 关 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 对 có 1 chữ. Chữ 对 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：今天是你生日吗？\nB：不是，明天是我生日。\nA：你明天在家吗？\nB：对。",
+      "A: Jīn tiān shì nǐ shēng rì ma? B: Bú shì, míng tiān shì wǒ shēng rì. A: Nǐ míng tiān zài jiā ma? B: Duì.",
+      "Sinh nhật của B là ngày mai trong truyện, không phải hôm nay."
+    ],
+    "question": "Sinh nhật B là khi nào?",
+    "answers": [
+      "明天",
+      "今天",
+      "昨天"
+    ],
+    "chunks": [
+      "明天",
+      "是",
+      "我生日。"
+    ]
+  },
+  {
+    "id": 1167,
+    "group": "chars3",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 17: 息 · 系 · 题 · 起 · 喂 · 手",
+    "items": [
+      [
+        "L136",
+        "休息",
+        "下课了，请休息。",
+        "Xià kè le, qǐng xiū xi.",
+        "Hết tiết rồi, xin nghỉ ngơi."
+      ],
+      [
+        "L137",
+        "没关系",
+        "没关系。",
+        "Méi guān xi.",
+        "Không sao."
+      ],
+      [
+        "L138",
+        "问题",
+        "我有一个问题。",
+        "Wǒ yǒu yí ge wèn tí.",
+        "Tôi có một câu hỏi."
+      ],
+      [
+        "L151",
+        "起床",
+        "我早上起床。",
+        "Wǒ zǎo shang qǐ chuáng.",
+        "Tôi dậy vào buổi sáng."
+      ],
+      [
+        "L139",
+        "喂",
+        "喂，您好！",
+        "Wèi, nín hǎo!",
+        "A lô, xin chào!"
+      ],
+      [
+        "L139",
+        "手机",
+        "我的手机很新。",
+        "Wǒ de shǒu jī hěn xīn.",
+        "Điện thoại di động của tôi mới."
+      ]
+    ],
+    "glyphs": [
+      [
+        "息",
+        [
+          "自",
+          "思",
+          "总"
+        ]
+      ],
+      [
+        "系",
+        [
+          "紧",
+          "紫",
+          "索"
+        ]
+      ],
+      [
+        "题",
+        [
+          "提",
+          "是",
+          "页"
+        ]
+      ],
+      [
+        "起",
+        [
+          "超",
+          "赶",
+          "越"
+        ]
+      ],
+      [
+        "喂",
+        [
+          "畏",
+          "偎",
+          "围"
+        ]
+      ],
+      [
+        "手",
+        [
+          "毛",
+          "于",
+          "牛"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 休息 có 2 chữ. Chữ 息 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 没关系 có 3 chữ. Chữ 系 ở vị trí 3 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 问题 có 2 chữ. Chữ 题 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 起床 có 2 chữ. Chữ 起 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 喂 có 1 chữ. Chữ 喂 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 手机 có 2 chữ. Chữ 手 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：这是你的狗吗？\nB：对，它叫小白。\nA：它在哪儿？\nB：它在桌子下。",
+      "A: Zhè shì nǐ de gǒu ma? B: Duì, tā jiào Xiǎo Bái. A: Tā zài nǎr? B: Tā zài zhuō zi xià.",
+      "小白 là tên hư cấu của chó; con chó ở dưới bàn."
+    ],
+    "question": "Con chó ở đâu?",
+    "answers": [
+      "桌子下",
+      "桌子上",
+      "学校前"
+    ],
+    "chunks": [
+      "它",
+      "在",
+      "桌子下。"
+    ]
+  },
+  {
+    "id": 1168,
+    "group": "chars3",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 18: 打 · 机 · 脑 · 视 · 歌 · 玩",
+    "items": [
+      [
+        "L139",
+        "打电话",
+        "我打电话。",
+        "Wǒ dǎ diàn huà.",
+        "Tôi gọi điện thoại."
+      ],
+      [
+        "L139",
+        "手机",
+        "我的手机很新。",
+        "Wǒ de shǒu jī hěn xīn.",
+        "Điện thoại di động của tôi mới."
+      ],
+      [
+        "L140",
+        "电脑",
+        "我有电脑。",
+        "Wǒ yǒu diàn nǎo.",
+        "Tôi có máy tính."
+      ],
+      [
+        "L140",
+        "电视",
+        "我喜欢看电视。",
+        "Wǒ xǐ huan kàn diàn shì.",
+        "Tôi thích xem tivi."
+      ],
+      [
+        "L141",
+        "歌",
+        "我唱歌。",
+        "Wǒ chàng gē.",
+        "Tôi hát."
+      ],
+      [
+        "L142",
+        "玩",
+        "我喜欢玩。",
+        "Wǒ xǐ huan wán.",
+        "Tôi thích chơi."
+      ]
+    ],
+    "glyphs": [
+      [
+        "打",
+        [
+          "订",
+          "叮",
+          "灯"
+        ]
+      ],
+      [
+        "机",
+        [
+          "枫",
+          "树",
+          "木"
+        ]
+      ],
+      [
+        "脑",
+        [
+          "恼",
+          "胸",
+          "胶"
+        ]
+      ],
+      [
+        "视",
+        [
+          "现",
+          "祝",
+          "规"
+        ]
+      ],
+      [
+        "歌",
+        [
+          "哥",
+          "欲",
+          "次"
+        ]
+      ],
+      [
+        "玩",
+        [
+          "现",
+          "环",
+          "元"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 打电话 có 3 chữ. Chữ 打 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 手机 có 2 chữ. Chữ 机 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 电脑 có 2 chữ. Chữ 脑 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 电视 có 2 chữ. Chữ 视 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 歌 có 1 chữ. Chữ 歌 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 玩 có 1 chữ. Chữ 玩 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：老师在办公室吗？\nB：不，他在教室。\nA：好，谢谢。",
+      "A: Lǎo shī zài bàn gōng shì ma? B: Bù, tā zài jiào shì. A: Hǎo, xiè xie.",
+      "B sửa địa điểm: thầy ở lớp học, không ở văn phòng."
+    ],
+    "question": "Thầy ở đâu theo B?",
+    "answers": [
+      "教室",
+      "办公室",
+      "家"
+    ],
+    "chunks": [
+      "老师",
+      "在",
+      "教室。"
+    ]
+  },
+  {
+    "id": 1169,
+    "group": "chars3",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 19: 真 · 非 · 得 · 天 · 太 · 热",
+    "items": [
+      [
+        "L142",
+        "真",
+        "这里真好！",
+        "Zhè lǐ zhēn hǎo!",
+        "Ở đây thật tốt!"
+      ],
+      [
+        "L142",
+        "非常",
+        "我非常喜欢这里。",
+        "Wǒ fēi cháng xǐ huan zhè lǐ.",
+        "Tôi rất thích nơi đây."
+      ],
+      [
+        "L142",
+        "觉得",
+        "我觉得这里很好玩儿。",
+        "Wǒ jué de zhè lǐ hěn hǎo wánr.",
+        "Tôi thấy ở đây vui."
+      ],
+      [
+        "L144",
+        "天",
+        "我休息三天。",
+        "Wǒ xiū xi sān tiān.",
+        "Tôi nghỉ ba ngày."
+      ],
+      [
+        "L143",
+        "太",
+        "太冷了！",
+        "Tài lěng le!",
+        "Lạnh quá!"
+      ],
+      [
+        "L143",
+        "热",
+        "这里很热。",
+        "Zhè lǐ hěn rè.",
+        "Ở đây nóng."
+      ]
+    ],
+    "glyphs": [
+      [
+        "真",
+        [
+          "具",
+          "直",
+          "且"
+        ]
+      ],
+      [
+        "非",
+        [
+          "韭",
+          "北",
+          "排"
+        ]
+      ],
+      [
+        "得",
+        [
+          "很",
+          "待",
+          "德"
+        ]
+      ],
+      [
+        "天",
+        [
+          "大",
+          "太",
+          "犬"
+        ]
+      ],
+      [
+        "太",
+        [
+          "大",
+          "犬",
+          "天"
+        ]
+      ],
+      [
+        "热",
+        [
+          "执",
+          "熟",
+          "势"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 真 có 1 chữ. Chữ 真 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 非常 có 2 chữ. Chữ 非 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 觉得 có 2 chữ. Chữ 得 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 天 có 1 chữ. Chữ 天 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 太 có 1 chữ. Chữ 太 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 热 có 1 chữ. Chữ 热 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：今天星期几？\nB：今天星期六。\nA：你明天上学吗？\nB：不，我在家。",
+      "A: Jīn tiān xīng qī jǐ? B: Jīn tiān xīng qī liù. A: Nǐ míng tiān shàng xué ma? B: Bù, wǒ zài jiā.",
+      "Ngày trong truyện là thứ bảy; B dự định ở nhà ngày mai."
+    ],
+    "question": "Ngày trong truyện là thứ mấy?",
+    "answers": [
+      "星期六",
+      "星期一",
+      "星期三"
+    ],
+    "chunks": [
+      "今天",
+      "是",
+      "星期六。"
+    ]
+  },
+  {
+    "id": 1170,
+    "group": "chars3",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 20: 常 · 明 · 现 · 号 · 日 · 期",
+    "items": [
+      [
+        "L142",
+        "非常",
+        "我非常喜欢这里。",
+        "Wǒ fēi cháng xǐ huan zhè lǐ.",
+        "Tôi rất thích nơi đây."
+      ],
+      [
+        "L145",
+        "明天",
+        "我明天上班。",
+        "Wǒ míng tiān shàng bān.",
+        "Ngày mai tôi đi làm."
+      ],
+      [
+        "L145",
+        "现在",
+        "我现在在学校。",
+        "Wǒ xiàn zài zài xué xiào.",
+        "Bây giờ tôi ở trường."
+      ],
+      [
+        "L147",
+        "号",
+        "五月三号。",
+        "Wǔ yuè sān hào.",
+        "Ngày3 tháng5."
+      ],
+      [
+        "L147",
+        "日",
+        "五月三日。",
+        "Wǔ yuè sān rì.",
+        "Ngày3 tháng5."
+      ],
+      [
+        "L147",
+        "星期",
+        "今天星期一。",
+        "Jīn tiān xīng qī yī.",
+        "Hôm nay là thứ Hai trong truyện."
+      ]
+    ],
+    "glyphs": [
+      [
+        "常",
+        [
+          "堂",
+          "带",
+          "掌"
+        ]
+      ],
+      [
+        "明",
+        [
+          "朋",
+          "阳",
+          "胡"
+        ]
+      ],
+      [
+        "现",
+        [
+          "见",
+          "玩",
+          "规"
+        ]
+      ],
+      [
+        "号",
+        [
+          "只",
+          "口",
+          "召"
+        ]
+      ],
+      [
+        "日",
+        [
+          "目",
+          "白",
+          "曰"
+        ]
+      ],
+      [
+        "期",
+        [
+          "旗",
+          "棋",
+          "其"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 非常 có 2 chữ. Chữ 常 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 明天 có 2 chữ. Chữ 明 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 现在 có 2 chữ. Chữ 现 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 号 có 1 chữ. Chữ 号 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 日 có 1 chữ. Chữ 日 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 星期 có 2 chữ. Chữ 期 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：我的书在哪儿？\nB：在椅子上。\nA：这是我的书吗？\nB：对。",
+      "A: Wǒ de shū zài nǎr? B: Zài yǐ zi shang. A: Zhè shì wǒ de shū ma? B: Duì.",
+      "Sách của A ở trên ghế."
+    ],
+    "question": "Sách ở đâu?",
+    "answers": [
+      "椅子上",
+      "桌子下",
+      "门外"
+    ],
+    "chunks": [
+      "我的书",
+      "在",
+      "椅子上。"
+    ]
+  },
+  {
+    "id": 1171,
+    "group": "chars3",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 21: 候 · 晚 · 了 · 睡 · 分 · 钟",
+    "items": [
+      [
+        "L148",
+        "时候",
+        "你什么时候上课？",
+        "Nǐ shén me shí hou shàng kè?",
+        "Bạn lên lớp khi nào?"
+      ],
+      [
+        "L150",
+        "晚",
+        "我晚上回家。",
+        "Wǒ wǎn shang huí jiā.",
+        "Tôi về nhà buổi tối."
+      ],
+      [
+        "L151",
+        "了",
+        "我起床了。",
+        "Wǒ qǐ chuáng le.",
+        "Tôi dậy rồi."
+      ],
+      [
+        "L151",
+        "睡",
+        "我想睡。",
+        "Wǒ xiǎng shuì.",
+        "Tôi muốn ngủ."
+      ],
+      [
+        "L152",
+        "分",
+        "现在三点十分。",
+        "Xiàn zài sān diǎn shí fēn.",
+        "Bây giờ3giờ10phút trong truyện."
+      ],
+      [
+        "L152",
+        "分钟",
+        "我休息五分钟。",
+        "Wǒ xiū xi wǔ fēn zhōng.",
+        "Tôi nghỉ năm phút."
+      ]
+    ],
+    "glyphs": [
+      [
+        "候",
+        [
+          "侯",
+          "修",
+          "人"
+        ]
+      ],
+      [
+        "晚",
+        [
+          "免",
+          "挽",
+          "兔"
+        ]
+      ],
+      [
+        "了",
+        [
+          "子",
+          "予",
+          "孑"
+        ]
+      ],
+      [
+        "睡",
+        [
+          "垂",
+          "眠",
+          "眼"
+        ]
+      ],
+      [
+        "分",
+        [
+          "公",
+          "六",
+          "八"
+        ]
+      ],
+      [
+        "钟",
+        [
+          "种",
+          "冲",
+          "仲"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 时候 có 2 chữ. Chữ 候 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 晚 có 1 chữ. Chữ 晚 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 了 có 1 chữ. Chữ 了 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 睡 có 1 chữ. Chữ 睡 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 分 có 1 chữ. Chữ 分 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 分钟 có 2 chữ. Chữ 钟 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你买哪个杯子？\nB：我买白色的。\nA：这个白色的怎么样？\nB：很好。",
+      "A: Nǐ mǎi nǎ ge bēi zi? B: Wǒ mǎi bái sè de. A: Zhè ge bái sè de zěn me yàng? B: Hěn hǎo.",
+      "B chọn cốc màu trắng. 白色 bái sè = màu trắng, từ hỗ trợ ở đây, không cộng thêm ordinal HSK1 mới."
+    ],
+    "question": "B chọn cốc màu gì?",
+    "answers": [
+      "白色",
+      "Màu không được nói",
+      "Màu đen"
+    ],
+    "chunks": [
+      "我",
+      "买",
+      "白色的杯子。"
+    ]
+  },
+  {
+    "id": 1172,
+    "group": "chars4",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 22: 水 · 米 · 菜 · 牛 · 面 · 条",
+    "items": [
+      [
+        "L154",
+        "水",
+        "我喝水。",
+        "Wǒ hē shuǐ.",
+        "Tôi uống nước."
+      ],
+      [
+        "L154",
+        "米饭",
+        "我吃了米饭。",
+        "Wǒ chī le mǐ fàn.",
+        "Tôi đã ăn cơm."
+      ],
+      [
+        "L154",
+        "菜",
+        "我吃菜。",
+        "Wǒ chī cài.",
+        "Tôi ăn rau/món rau."
+      ],
+      [
+        "L155",
+        "牛奶",
+        "我喜欢喝牛奶。",
+        "Wǒ xǐ huan hē niú nǎi.",
+        "Tôi thích uống sữa bò."
+      ],
+      [
+        "L156",
+        "面包",
+        "我吃面包。",
+        "Wǒ chī miàn bāo.",
+        "Tôi ăn bánh mì."
+      ],
+      [
+        "L155",
+        "面条儿",
+        "我吃面条儿。",
+        "Wǒ chī miàn tiáor.",
+        "Tôi ăn mì sợi."
+      ]
+    ],
+    "glyphs": [
+      [
+        "水",
+        [
+          "永",
+          "冰",
+          "木"
+        ]
+      ],
+      [
+        "米",
+        [
+          "来",
+          "木",
+          "未"
+        ]
+      ],
+      [
+        "菜",
+        [
+          "采",
+          "茶",
+          "莱"
+        ]
+      ],
+      [
+        "牛",
+        [
+          "午",
+          "生",
+          "年"
+        ]
+      ],
+      [
+        "面",
+        [
+          "而",
+          "回",
+          "百"
+        ]
+      ],
+      [
+        "条",
+        [
+          "各",
+          "余",
+          "亲"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 水 có 1 chữ. Chữ 水 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 米饭 có 2 chữ. Chữ 米 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 菜 có 1 chữ. Chữ 菜 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 牛奶 có 2 chữ. Chữ 牛 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 面包 có 2 chữ. Chữ 面 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 面条儿 có 3 chữ. Chữ 条 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你想吃什么水果？\nB：我想吃苹果。\nA：你有几个苹果？\nB：三个。",
+      "A: Nǐ xiǎng chī shén me shuǐ guǒ? B: Wǒ xiǎng chī píng guǒ. A: Nǐ yǒu jǐ ge píng guǒ? B: Sān ge.",
+      "B muốn ăn táo và nói có3quả."
+    ],
+    "question": "B có mấy quả táo?",
+    "answers": [
+      "三个",
+      "两个",
+      "五个"
+    ],
+    "chunks": [
+      "我",
+      "有",
+      "三个苹果。"
+    ]
+  },
+  {
+    "id": 1173,
+    "group": "chars4",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 23: 奶 · 苹 · 鸡 · 超 · 卖 · 贵",
+    "items": [
+      [
+        "L155",
+        "牛奶",
+        "我喜欢喝牛奶。",
+        "Wǒ xǐ huan hē niú nǎi.",
+        "Tôi thích uống sữa bò."
+      ],
+      [
+        "L156",
+        "苹果",
+        "我有一个苹果。",
+        "Wǒ yǒu yí ge píng guǒ.",
+        "Tôi có một quả táo."
+      ],
+      [
+        "L156",
+        "鸡蛋",
+        "我有三个鸡蛋。",
+        "Wǒ yǒu sān ge jī dàn.",
+        "Tôi có ba quả trứng gà."
+      ],
+      [
+        "L157",
+        "超市",
+        "那是超市。",
+        "Nà shì chāo shì.",
+        "Kia là siêu thị."
+      ],
+      [
+        "L158",
+        "卖",
+        "这家店卖书。",
+        "Zhè jiā diàn mài shū.",
+        "Tiệm này bán sách."
+      ],
+      [
+        "L158",
+        "贵",
+        "这本书很贵。",
+        "Zhè běn shū hěn guì.",
+        "Quyển sách này đắt."
+      ]
+    ],
+    "glyphs": [
+      [
+        "奶",
+        [
+          "妈",
+          "好",
+          "仍"
+        ]
+      ],
+      [
+        "苹",
+        [
+          "平",
+          "萍",
+          "草"
+        ]
+      ],
+      [
+        "鸡",
+        [
+          "鸣",
+          "鸭",
+          "鸟"
+        ]
+      ],
+      [
+        "超",
+        [
+          "起",
+          "走",
+          "赴"
+        ]
+      ],
+      [
+        "卖",
+        [
+          "买",
+          "读",
+          "实"
+        ]
+      ],
+      [
+        "贵",
+        [
+          "责",
+          "费",
+          "员"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 牛奶 có 2 chữ. Chữ 奶 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 苹果 có 2 chữ. Chữ 苹 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 鸡蛋 có 2 chữ. Chữ 鸡 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 超市 có 2 chữ. Chữ 超 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 卖 có 1 chữ. Chữ 卖 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 贵 có 1 chữ. Chữ 贵 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你买这件衣服吗？\nB：不，这件太贵了。\nA：那件呢？\nB：我想买那件。",
+      "A: Nǐ mǎi zhè jiàn yī fu ma? B: Bù, zhè jiàn tài guì le. A: Nà jiàn ne? B: Wǒ xiǎng mǎi nà jiàn.",
+      "B không mua chiếc này vì thấy quá đắt, muốn mua chiếc kia."
+    ],
+    "question": "B muốn mua chiếc nào?",
+    "answers": [
+      "那件",
+      "这件",
+      "Đoạn không nói lựa chọn"
+    ],
+    "chunks": [
+      "我想",
+      "买",
+      "那件衣服。"
+    ]
+  },
+  {
+    "id": 1174,
+    "group": "chars4",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 24: 蛋 · 市 · 便 · 元 · 多 · 少",
+    "items": [
+      [
+        "L156",
+        "鸡蛋",
+        "我有三个鸡蛋。",
+        "Wǒ yǒu sān ge jī dàn.",
+        "Tôi có ba quả trứng gà."
+      ],
+      [
+        "L157",
+        "超市",
+        "那是超市。",
+        "Nà shì chāo shì.",
+        "Kia là siêu thị."
+      ],
+      [
+        "L159",
+        "便宜",
+        "这本书很便宜。",
+        "Zhè běn shū hěn pián yi.",
+        "Quyển sách này rẻ."
+      ],
+      [
+        "L159",
+        "元",
+        "这本书十元。",
+        "Zhè běn shū shí yuán.",
+        "Quyển sách này10nguyên trong truyện."
+      ],
+      [
+        "L161",
+        "多",
+        "我的书很多。",
+        "Wǒ de shū hěn duō.",
+        "Sách của tôi nhiều."
+      ],
+      [
+        "L161",
+        "少",
+        "我的书很少。",
+        "Wǒ de shū hěn shǎo.",
+        "Sách của tôi ít."
+      ]
+    ],
+    "glyphs": [
+      [
+        "蛋",
+        [
+          "虫",
+          "贵",
+          "虽"
+        ]
+      ],
+      [
+        "市",
+        [
+          "巾",
+          "币",
+          "布"
+        ]
+      ],
+      [
+        "便",
+        [
+          "使",
+          "更",
+          "硬"
+        ]
+      ],
+      [
+        "元",
+        [
+          "无",
+          "天",
+          "园"
+        ]
+      ],
+      [
+        "多",
+        [
+          "少",
+          "夕",
+          "名"
+        ]
+      ],
+      [
+        "少",
+        [
+          "小",
+          "沙",
+          "步"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 鸡蛋 có 2 chữ. Chữ 蛋 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 超市 có 2 chữ. Chữ 市 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 便宜 có 2 chữ. Chữ 便 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 元 có 1 chữ. Chữ 元 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 多 có 1 chữ. Chữ 多 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 少 có 1 chữ. Chữ 少 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你房间里有什么？\nB：有桌子、椅子和书。\nA：你的书多吗？\nB：很多。",
+      "A: Nǐ fáng jiān li yǒu shén me? B: Yǒu zhuō zi, yǐ zi hé shū. A: Nǐ de shū duō ma? B: Hěn duō.",
+      "B kể bàn, ghế, sách và nói sách nhiều; không nêu con số cụ thể."
+    ],
+    "question": "B nói sách của mình thế nào?",
+    "answers": [
+      "很多",
+      "只有一本",
+      "没有书"
+    ],
+    "chunks": [
+      "我",
+      "有",
+      "很多书。"
+    ]
+  },
+  {
+    "id": 1175,
+    "group": "chars4",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 25: 宜 · 件 · 杯 · 穿 · 服 · 两",
+    "items": [
+      [
+        "L159",
+        "便宜",
+        "这本书很便宜。",
+        "Zhè běn shū hěn pián yi.",
+        "Quyển sách này rẻ."
+      ],
+      [
+        "L160",
+        "件",
+        "我有一件衣服。",
+        "Wǒ yǒu yí jiàn yī fu.",
+        "Tôi có một món quần áo."
+      ],
+      [
+        "L160",
+        "杯子",
+        "我的杯子在桌子上。",
+        "Wǒ de bēi zi zài zhuō zi shang.",
+        "Cốc của tôi ở trên bàn."
+      ],
+      [
+        "L160",
+        "穿",
+        "我穿衣服。",
+        "Wǒ chuān yī fu.",
+        "Tôi mặc quần áo."
+      ],
+      [
+        "L160",
+        "衣服",
+        "我买衣服。",
+        "Wǒ mǎi yī fu.",
+        "Tôi mua quần áo."
+      ],
+      [
+        "L161",
+        "两",
+        "我有两本书。",
+        "Wǒ yǒu liǎng běn shū.",
+        "Tôi có hai quyển sách."
+      ]
+    ],
+    "glyphs": [
+      [
+        "宜",
+        [
+          "宣",
+          "且",
+          "直"
+        ]
+      ],
+      [
+        "件",
+        [
+          "牛",
+          "伴",
+          "住"
+        ]
+      ],
+      [
+        "杯",
+        [
+          "怀",
+          "坏",
+          "环"
+        ]
+      ],
+      [
+        "穿",
+        [
+          "空",
+          "究",
+          "突"
+        ]
+      ],
+      [
+        "服",
+        [
+          "朋",
+          "月",
+          "报"
+        ]
+      ],
+      [
+        "两",
+        [
+          "雨",
+          "丙",
+          "面"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 便宜 có 2 chữ. Chữ 宜 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 件 có 1 chữ. Chữ 件 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 杯子 có 2 chữ. Chữ 杯 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 穿 có 1 chữ. Chữ 穿 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 衣服 có 2 chữ. Chữ 服 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 两 có 1 chữ. Chữ 两 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你朋友现在在哪儿？\nB：她在中国。\nA：她学习什么？\nB：汉语。",
+      "A: Nǐ péng you xiàn zài zài nǎr? B: Tā zài Zhōng guó. A: Tā xué xí shén me? B: Hàn yǔ.",
+      "Bạn của B ở Trung Quốc, học tiếng Hán; nơi ở không tự xác nhận quốc tịch."
+    ],
+    "question": "Bạn của B học gì?",
+    "answers": [
+      "汉语",
+      "工作",
+      "喝茶"
+    ],
+    "chunks": [
+      "她",
+      "学习",
+      "汉语。"
+    ]
+  },
+  {
+    "id": 1176,
+    "group": "chars4",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 26: 千 · 百 · 出 · 火 · 飞 · 坐",
+    "items": [
+      [
+        "L162",
+        "千",
+        "一千元。",
+        "Yì qiān yuán.",
+        "Một nghìn nguyên trong ví dụ."
+      ],
+      [
+        "L162",
+        "百",
+        "一百元。",
+        "Yì bǎi yuán.",
+        "Một trăm nguyên trong ví dụ."
+      ],
+      [
+        "L165",
+        "出租车",
+        "我坐出租车。",
+        "Wǒ zuò chū zū chē.",
+        "Tôi đi taxi."
+      ],
+      [
+        "L165",
+        "火车",
+        "我坐火车去学校。",
+        "Wǒ zuò huǒ chē qù xué xiào.",
+        "Tôi đi tàu hỏa đến trường."
+      ],
+      [
+        "L165",
+        "飞机",
+        "我坐飞机。",
+        "Wǒ zuò fēi jī.",
+        "Tôi đi máy bay."
+      ],
+      [
+        "L166",
+        "坐",
+        "我坐火车去学校。",
+        "Wǒ zuò huǒ chē qù xué xiào.",
+        "Tôi đi tàu hỏa đến trường."
+      ]
+    ],
+    "glyphs": [
+      [
+        "千",
+        [
+          "干",
+          "于",
+          "十"
+        ]
+      ],
+      [
+        "百",
+        [
+          "白",
+          "自",
+          "目"
+        ]
+      ],
+      [
+        "出",
+        [
+          "山",
+          "击",
+          "凹"
+        ]
+      ],
+      [
+        "火",
+        [
+          "人",
+          "灭",
+          "大"
+        ]
+      ],
+      [
+        "飞",
+        [
+          "风",
+          "凡",
+          "乙"
+        ]
+      ],
+      [
+        "坐",
+        [
+          "座",
+          "从",
+          "丛"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 千 có 1 chữ. Chữ 千 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 百 có 1 chữ. Chữ 百 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 出租车 có 3 chữ. Chữ 出 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 火车 có 2 chữ. Chữ 火 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 飞机 có 2 chữ. Chữ 飞 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 坐 có 1 chữ. Chữ 坐 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你坐飞机去吗？\nB：不，我坐火车去。\nA：你哥哥呢？\nB：他坐飞机去。",
+      "A: Nǐ zuò fēi jī qù ma? B: Bù, wǒ zuò huǒ chē qù. A: Nǐ gē ge ne? B: Tā zuò fēi jī qù.",
+      "B đi tàu hỏa, anh trai đi máy bay; đây là hành trình hư cấu."
+    ],
+    "question": "B đi bằng phương tiện gì?",
+    "answers": [
+      "火车",
+      "飞机",
+      "出租车"
+    ],
+    "chunks": [
+      "我",
+      "坐火车",
+      "去。"
+    ]
+  },
+  {
+    "id": 1177,
+    "group": "chars4",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 27: 租 · 正 · 岁 · 样 · 第 · 还",
+    "items": [
+      [
+        "L165",
+        "出租车",
+        "我坐出租车。",
+        "Wǒ zuò chū zū chē.",
+        "Tôi đi taxi."
+      ],
+      [
+        "L167",
+        "正在",
+        "我正在看电视。",
+        "Wǒ zhèng zài kàn diàn shì.",
+        "Tôi đang xem tivi."
+      ],
+      [
+        "L168",
+        "岁",
+        "我八岁。",
+        "Wǒ bā suì.",
+        "Tôi tám tuổi."
+      ],
+      [
+        "L169",
+        "怎么样",
+        "这个饭店怎么样？",
+        "Zhè ge fàn diàn zěn me yàng?",
+        "Quán ăn này thế nào?"
+      ],
+      [
+        "L170",
+        "第",
+        "这是第一课。",
+        "Zhè shì dì yī kè.",
+        "Đây là bài thứ nhất."
+      ],
+      [
+        "L170",
+        "还",
+        "我有书，还有笔。",
+        "Wǒ yǒu shū, hái yǒu bǐ.",
+        "Tôi có sách, còn có bút."
+      ]
+    ],
+    "glyphs": [
+      [
+        "租",
+        [
+          "组",
+          "祖",
+          "且"
+        ]
+      ],
+      [
+        "正",
+        [
+          "止",
+          "五",
+          "王"
+        ]
+      ],
+      [
+        "岁",
+        [
+          "山",
+          "夕",
+          "多"
+        ]
+      ],
+      [
+        "样",
+        [
+          "洋",
+          "祥",
+          "详"
+        ]
+      ],
+      [
+        "第",
+        [
+          "弟",
+          "梯",
+          "递"
+        ]
+      ],
+      [
+        "还",
+        [
+          "这",
+          "过",
+          "不"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 出租车 có 3 chữ. Chữ 租 ở vị trí 2 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 正在 có 2 chữ. Chữ 正 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 岁 có 1 chữ. Chữ 岁 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 怎么样 có 3 chữ. Chữ 样 ở vị trí 3 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 第 có 1 chữ. Chữ 第 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 还 có 1 chữ. Chữ 还 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：你会写这个字吗？\nB：会，我也会读。\nA：请读一下。",
+      "A: Nǐ huì xiě zhè ge zì ma? B: Huì, wǒ yě huì dú. A: Qǐng dú yí xià.",
+      "B nói biết viết và đọc chữ đang chỉ; người học đọc văn bản không được chứng nhận có kỹ năng viết tay."
+    ],
+    "question": "B tự nói mình có khả năng gì?",
+    "answers": [
+      "写和读这个字",
+      "只会开车",
+      "不会读"
+    ],
+    "chunks": [
+      "我",
+      "会写",
+      "这个字。"
+    ]
+  },
+  {
+    "id": 1178,
+    "group": "chars4",
+    "kind": "CHARACTER_DIAGNOSTIC",
+    "title": "Luyện chữ 28: 都 · 一 · 下 · 书 · 买 · 些",
+    "items": [
+      [
+        "L170",
+        "都",
+        "我们都学习汉语。",
+        "Wǒ men dōu xué xí Hàn yǔ.",
+        "Chúng tôi đều học tiếng Hán."
+      ],
+      [
+        "L109",
+        "一",
+        "一、二、三。",
+        "Yī, èr, sān.",
+        "Một, hai, ba."
+      ],
+      [
+        "L130",
+        "下",
+        "猫在桌子下。",
+        "Māo zài zhuō zi xia.",
+        "Mèo ở dưới bàn."
+      ],
+      [
+        "L111",
+        "书",
+        "这是我的书。",
+        "Zhè shì wǒ de shū.",
+        "Đây là sách của tôi."
+      ],
+      [
+        "L158",
+        "买",
+        "我买书。",
+        "Wǒ mǎi shū.",
+        "Tôi mua sách."
+      ],
+      [
+        "L128",
+        "些",
+        "这些是我的书。",
+        "Zhè xiē shì wǒ de shū.",
+        "Những cuốn này là sách của tôi."
+      ]
+    ],
+    "glyphs": [
+      [
+        "都",
+        [
+          "部",
+          "者",
+          "邮"
+        ]
+      ],
+      [
+        "一",
+        [
+          "人",
+          "木",
+          "口"
+        ]
+      ],
+      [
+        "下",
+        [
+          "不",
+          "卜",
+          "木"
+        ]
+      ],
+      [
+        "书",
+        [
+          "人",
+          "木",
+          "口"
+        ]
+      ],
+      [
+        "买",
+        [
+          "卖",
+          "读",
+          "实"
+        ]
+      ],
+      [
+        "些",
+        [
+          "人",
+          "木",
+          "口"
+        ]
+      ]
+    ],
+    "glyphNotes": [
+      "Từ đã học 都 có 1 chữ. Chữ 都 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 一 có 1 chữ. Chữ 一 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 下 có 1 chữ. Chữ 下 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 书 có 1 chữ. Chữ 书 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 买 có 1 chữ. Chữ 买 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này.",
+      "Từ đã học 些 có 1 chữ. Chữ 些 ở vị trí 1 tính từ trái sang phải; che tất cả vị trí cùng chữ khi tự thử. Giữ nguyên các phần còn lại để nhận đúng từ trong ngữ cảnh. Không suy cách viết tay hay mọi âm của chữ từ một từ này."
+    ],
+    "passage": [
+      "A：这些书都是你的吗？\nB：不是，一半是我的。\nA：另一半呢？\nB：是我姐姐的。",
+      "A: Zhè xiē shū dōu shì nǐ de ma? B: Bú shì, yí bàn shì wǒ de. A: Lìng yì bàn ne? B: Shì wǒ jiě jie de.",
+      "另一半 lìng yì bàn = nửa còn lại, được chú giải trong cảnh này. B sở hữu một nửa sách, chị gái sở hữu phần còn lại. Không nêu tổng số."
+    ],
+    "question": "B sở hữu phần sách nào?",
+    "answers": [
+      "一半",
+      "Tất cả",
+      "Không có quyển nào"
+    ],
+    "chunks": [
+      "这些书，",
+      "一半",
+      "是我的。"
+    ]
+  }
+]

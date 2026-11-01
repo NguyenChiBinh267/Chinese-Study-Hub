@@ -1,0 +1,836 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "daa17941ab5942eeb355aca9be33342954d6f77eca001eaf697f87f26a15b337",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-menu-utensils",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L333",
+    "version": 1,
+    "versionId": "l333-draft-v1",
+    "title": "Gọi món và dùng dụng cụ ăn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc thực đơn, thử vị và chọn dụng cụ ăn phù hợp.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "借用名量词"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "四"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-food",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "四"
+        },
+        "written": "交流饮食情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-tableware",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 64,
+          "physicalPage": 65,
+          "printedPage": 62,
+          "section": "topic",
+          "entry": "餐具"
+        },
+        "written": "餐具",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l333-v-545",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 545"
+        },
+        "written": "菜单",
+        "pinyin": "càidān",
+        "senseId": "l333-v-545-sense",
+        "ordinal": 545,
+        "note": "3 càidān 名; 菜单 liệt kê món của quán; 看菜单 là xem thực đơn, không phải món ăn mang ra. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l333-v-553",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 553"
+        },
+        "written": "尝",
+        "pinyin": "cháng",
+        "senseId": "l333-v-553-sense",
+        "ordinal": 553,
+        "note": "3 cháng 动; 尝 là nếm một ít để biết vị; 尝尝 là thử nếm, không đồng nghĩa ăn hết. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l333-v-741",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 741"
+        },
+        "written": "筷子",
+        "pinyin": "kuàizi",
+        "senseId": "l333-v-741-sense",
+        "ordinal": 741,
+        "note": "3 kuàizi 名; 筷子 là đũa, 一双筷子 là một đôi; 子 đọc nhẹ, khác 刀叉 là dao nĩa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l333-v-825",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 825"
+        },
+        "written": "勺子",
+        "pinyin": "sháozi",
+        "senseId": "l333-v-825-sense",
+        "ordinal": 825,
+        "note": "3 sháozi 名; 勺子 là thìa/muỗng; dùng để múc trong ví dụ, không phải vật chứa cả bát canh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l333-v-869",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 869"
+        },
+        "written": "碗",
+        "pinyin": "wǎn",
+        "senseId": "l333-v-869-sense",
+        "ordinal": 869,
+        "note": "3 wǎn 名; 碗 gọi bát hoặc đếm khẩu phần một bát; 一碗饭 không phải mọi loại đồ đựng phẳng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l333-v-792",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 792"
+        },
+        "written": "盘子",
+        "pinyin": "pánzi",
+        "senseId": "l333-v-792-sense",
+        "ordinal": 792,
+        "note": "3 pánzi 名; 盘子 gọi chiếc đĩa; 一盘菜 dùng 盘 làm lượng từ, không nói 一盘子 khi đề đã yêu cầu tên đồ đựng đơn thuần. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-40",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "40"
+        },
+        "written": "单",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 40,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-24",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "24"
+        },
+        "written": "尝",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 24,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-132",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "132"
+        },
+        "written": "筷",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 132,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-192",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "192"
+        },
+        "written": "勺",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 192,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-217",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "217"
+        },
+        "written": "碗",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 217,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-162",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "162"
+        },
+        "written": "盘",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 162,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-noun-measure",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "量词 / 借用名量词"
+        },
+        "written": "借用名量词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l333-c0",
+      "version": 1,
+      "senseId": "l333-v-545-sense",
+      "hanzi": "菜单",
+      "dictionaryPinyin": "cài dān",
+      "meaning": "thực đơn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l333-v-545"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l333-c1",
+      "version": 1,
+      "senseId": "l333-v-553-sense",
+      "hanzi": "尝",
+      "dictionaryPinyin": "cháng",
+      "meaning": "nếm/thử vị",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l333-v-553"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l333-c2",
+      "version": 1,
+      "senseId": "l333-v-741-sense",
+      "hanzi": "筷子",
+      "dictionaryPinyin": "kuài zi",
+      "meaning": "đũa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l333-v-741"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l333-c3",
+      "version": 1,
+      "senseId": "l333-v-825-sense",
+      "hanzi": "勺子",
+      "dictionaryPinyin": "sháo zi",
+      "meaning": "thìa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l333-v-825"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l333-c4",
+      "version": 1,
+      "senseId": "l333-v-869-sense",
+      "hanzi": "碗",
+      "dictionaryPinyin": "wǎn",
+      "meaning": "bát; lượng từ bát",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l333-v-869"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l333-c5",
+      "version": 1,
+      "senseId": "l333-v-792-sense",
+      "hanzi": "盘子",
+      "dictionaryPinyin": "pán zi",
+      "meaning": "đĩa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l333-v-792"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l333-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 服务员 fúwùyuán: nhân viên phục vụ; 点 diǎn: gọi món; 汤 tāng: canh; 口 kǒu: ngụm/miếng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l333-t0",
+      "type": "teaching",
+      "title": "菜单 · thực đơn",
+      "text": "菜单 liệt kê món của quán; 看菜单 là xem thực đơn, không phải món ăn mang ra.",
+      "hanzi": "我们先看菜单。",
+      "pinyin": "Wǒmen xiān kàn càidān.",
+      "meaning": "Chúng tôi xem thực đơn trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l333-t1",
+      "type": "teaching",
+      "title": "尝 · nếm/thử vị",
+      "text": "尝 là nếm một ít để biết vị; 尝尝 là thử nếm, không đồng nghĩa ăn hết.",
+      "hanzi": "你先尝一口汤。",
+      "pinyin": "Nǐ xiān cháng yì kǒu tāng.",
+      "meaning": "Bạn nếm một ngụm canh trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l333-t2",
+      "type": "teaching",
+      "title": "筷子 · đũa",
+      "text": "筷子 là đũa, 一双筷子 là một đôi; 子 đọc nhẹ, khác 刀叉 là dao nĩa.",
+      "hanzi": "请给我一双筷子。",
+      "pinyin": "Qǐng gěi wǒ yì shuāng kuàizi.",
+      "meaning": "Hãy cho tôi một đôi đũa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l333-t3",
+      "type": "teaching",
+      "title": "勺子 · thìa",
+      "text": "勺子 là thìa/muỗng; dùng để múc trong ví dụ, không phải vật chứa cả bát canh.",
+      "hanzi": "我用勺子喝汤。",
+      "pinyin": "Wǒ yòng sháozi hē tāng.",
+      "meaning": "Tôi dùng thìa uống canh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l333-t4",
+      "type": "teaching",
+      "title": "碗 · bát; lượng từ bát",
+      "text": "碗 gọi bát hoặc đếm khẩu phần một bát; 一碗饭 không phải mọi loại đồ đựng phẳng.",
+      "hanzi": "这只碗里有米饭。",
+      "pinyin": "Zhè zhī wǎn lǐ yǒu mǐfàn.",
+      "meaning": "Trong bát này có cơm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l333-t5",
+      "type": "teaching",
+      "title": "盘子 · đĩa",
+      "text": "盘子 gọi chiếc đĩa; 一盘菜 dùng 盘 làm lượng từ, không nói 一盘子 khi đề đã yêu cầu tên đồ đựng đơn thuần.",
+      "hanzi": "请把菜放在盘子里。",
+      "pinyin": "Qǐng bǎ cài fàng zài pánzi lǐ.",
+      "meaning": "Hãy đặt thức ăn vào đĩa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l333-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "一碗饭 đếm một bát cơm, 一盘菜 đếm một đĩa thức ăn; 碗/盘子 riêng lẻ gọi đồ đựng. Không lấy số bát làm số người nếu đoạn không nói.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l333-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "服务员拿来菜单、碗和盘子。小林点了一碗饭，用筷子吃；小王用勺子尝了一口汤，说先不加别的。盘子里是大家一起吃的菜，不是一个人的全部饭菜。",
+      "pinyin": "Fúwùyuán ná lái càidān, wǎn hé pánzi. Xiǎo Lín diǎn le yì wǎn fàn, yòng kuàizi chī; Xiǎo Wáng yòng sháozi cháng le yì kǒu tāng, shuō xiān bù jiā bié de. Pánzi lǐ shì dàjiā yìqǐ chī de cài, bú shì yí ge rén de quánbù fàncài.",
+      "meaning": "Nhân viên mang thực đơn và bát đĩa. Lâm gọi một bát cơm; Vương thử canh bằng thìa, chưa thêm gì. Thức ăn trên đĩa để cùng ăn.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l333-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l333-v1-e0"
+    },
+    {
+      "id": "l333-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l333-v1-e1"
+    },
+    {
+      "id": "l333-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l333-v1-e2"
+    },
+    {
+      "id": "l333-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l333-v1-e3"
+    },
+    {
+      "id": "l333-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l333-v1-e4"
+    },
+    {
+      "id": "l333-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l333-v1-e5"
+    },
+    {
+      "id": "l333-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l333-v1-e6"
+    },
+    {
+      "id": "l333-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l333-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l333-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l333-c0",
+      "senseId": "l333-v-545-sense",
+      "keyRef": "l333-v1-k0",
+      "prompt": "Trước gọi món xem danh sách món: 先看□。",
+      "choices": [
+        "尝",
+        "筷子",
+        "勺子",
+        "碗",
+        "盘子",
+        "菜单"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l333-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l333-c1",
+      "senseId": "l333-v-553-sense",
+      "keyRef": "l333-v1-k1",
+      "prompt": "Thử vị một ít: 先□一口汤。",
+      "choices": [
+        "筷子",
+        "勺子",
+        "碗",
+        "盘子",
+        "菜单",
+        "尝"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l333-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l333-c2",
+      "senseId": "l333-v-741-sense",
+      "keyRef": "l333-v1-k2",
+      "prompt": "Dụng cụ ăn gồm hai chiếc dùng thành đôi: 一双□。",
+      "choices": [
+        "勺子",
+        "碗",
+        "盘子",
+        "菜单",
+        "尝",
+        "筷子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l333-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l333-c3",
+      "senseId": "l333-v-825-sense",
+      "keyRef": "l333-v1-k3",
+      "prompt": "Viết pinyin của 勺子 trong câu “我用勺子喝汤。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l333-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l333-c4",
+      "senseId": "l333-v-869-sense",
+      "keyRef": "l333-v1-k4",
+      "prompt": "Đồ đựng sâu để ăn cơm trong ví dụ: 一□饭。",
+      "choices": [
+        "盘子",
+        "菜单",
+        "尝",
+        "筷子",
+        "勺子",
+        "碗"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l333-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l333-c5",
+      "senseId": "l333-v-792-sense",
+      "keyRef": "l333-v1-k5",
+      "prompt": "Tên chiếc đĩa, điền danh từ vào 放在□里。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l333-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l333-c0",
+      "senseId": "l333-v-545-sense",
+      "keyRef": "l333-v1-k6",
+      "prompt": "Vương nếm canh bằng gì?",
+      "choices": [
+        "筷子",
+        "菜单",
+        "勺子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l333-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l333-c3",
+      "senseId": "l333-v-825-sense",
+      "keyRef": "l333-v1-k7",
+      "prompt": "Xếp câu đếm phần cơm; bắt đầu bằng 我点了.",
+      "choices": [
+        "一碗饭",
+        "我点了"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l333-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l333-v1-e0",
+      "senseId": "l333-v-545-sense",
+      "accepted": [
+        "菜单"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "菜单: thực đơn. 菜单 liệt kê món của quán; 看菜单 là xem thực đơn, không phải món ăn mang ra. Chúng tôi xem thực đơn trước."
+    },
+    {
+      "id": "l333-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l333-v1-e1",
+      "senseId": "l333-v-553-sense",
+      "accepted": [
+        "尝"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "尝: nếm/thử vị. 尝 là nếm một ít để biết vị; 尝尝 là thử nếm, không đồng nghĩa ăn hết. Bạn nếm một ngụm canh trước."
+    },
+    {
+      "id": "l333-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l333-v1-e2",
+      "senseId": "l333-v-741-sense",
+      "accepted": [
+        "筷子"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "筷子: đũa. 筷子 là đũa, 一双筷子 là một đôi; 子 đọc nhẹ, khác 刀叉 là dao nĩa. Hãy cho tôi một đôi đũa."
+    },
+    {
+      "id": "l333-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l333-v1-e3",
+      "senseId": "l333-v-825-sense",
+      "accepted": [
+        "sháo zi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "勺子: thìa. 勺子 là thìa/muỗng; dùng để múc trong ví dụ, không phải vật chứa cả bát canh. Tôi dùng thìa uống canh."
+    },
+    {
+      "id": "l333-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l333-v1-e4",
+      "senseId": "l333-v-869-sense",
+      "accepted": [
+        "碗"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "碗: bát; lượng từ bát. 碗 gọi bát hoặc đếm khẩu phần một bát; 一碗饭 không phải mọi loại đồ đựng phẳng. Trong bát này có cơm."
+    },
+    {
+      "id": "l333-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l333-v1-e5",
+      "senseId": "l333-v-792-sense",
+      "accepted": [
+        "盘子"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "盘子: đĩa. 盘子 gọi chiếc đĩa; 一盘菜 dùng 盘 làm lượng từ, không nói 一盘子 khi đề đã yêu cầu tên đồ đựng đơn thuần. Hãy đặt thức ăn vào đĩa."
+    },
+    {
+      "id": "l333-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l333-v1-e6",
+      "senseId": "l333-v-545-sense",
+      "accepted": [
+        "勺子"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 一碗饭 đếm một bát cơm, 一盘菜 đếm một đĩa thức ăn; 碗/盘子 riêng lẻ gọi đồ đựng. Không lấy số bát làm số người nếu đoạn không nói."
+    },
+    {
+      "id": "l333-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l333-v1-e7",
+      "senseId": "l333-v-825-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 一碗饭 đếm một bát cơm, 一盘菜 đếm một đĩa thức ăn; 碗/盘子 riêng lẻ gọi đồ đựng. Không lấy số bát làm số người nếu đoạn không nói."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

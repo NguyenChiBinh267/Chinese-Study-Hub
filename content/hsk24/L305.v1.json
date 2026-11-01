@@ -1,0 +1,867 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "2be24a6fc8b55588471eef9bf7ad6e70d21e9afcac0a52c30c94115c48976df7",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-departure",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L305",
+    "version": 1,
+    "versionId": "l305-draft-v1",
+    "title": "Chuẩn bị lên tàu",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc lời nhắc trước khi khởi hành và xác định giấy tờ, hành lý, điểm kiểm vé.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l207-draft-v1",
+      "l225-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "（在）……以前/以后/前/后"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 14,
+      "physicalPage": 15,
+      "printedPage": 12,
+      "section": "task",
+      "entry": "五"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 14,
+          "physicalPage": 15,
+          "printedPage": 12,
+          "section": "task",
+          "entry": "五"
+        },
+        "written": "谈论交通出行",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-travel-plan",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 出行安排"
+        },
+        "written": "出行安排",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l305-v-562",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 562"
+        },
+        "written": "出发",
+        "pinyin": "chūfā",
+        "senseId": "l305-v-562-sense",
+        "ordinal": 562,
+        "note": "3 chūfā 动; 出发 nhấn bắt đầu chuyến đi; không phải đã đến nơi. 明天八点出发 là giờ khởi hành, không phải giờ tới. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l305-v-909",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 909"
+        },
+        "written": "行李",
+        "pinyin": "xíngli",
+        "senseId": "l305-v-909-sense",
+        "ordinal": 909,
+        "note": "3 xíngli 名; 行李 chỉ đồ mang theo chuyến đi; thường dùng 件 khi đếm từng kiện. Không gọi giấy thông hành là hành lý khi hỏi loại giấy tờ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l305-v-644",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 644"
+        },
+        "written": "高铁",
+        "pinyin": "gāotiě",
+        "senseId": "l305-v-644-sense",
+        "ordinal": 644,
+        "note": "3 gāotiě 名; 高铁 trong 坐高铁 là đi tàu cao tốc. Từ này chỉ loại phương tiện/hệ thống, không mặc nhiên nói giờ hoặc giá vé. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l305-v-674",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 674"
+        },
+        "written": "护照",
+        "pinyin": "hùzhào",
+        "senseId": "l305-v-674-sense",
+        "ordinal": 674,
+        "note": "3 hùzhào 名; 护照 là giấy tờ định danh đi quốc tế. Bài luyện nhận biết từ, không khẳng định yêu cầu nhập cảnh hay đi tàu thực tế ở bất kỳ nước nào. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l305-v-700",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 700"
+        },
+        "written": "检票",
+        "pinyin": "jiǎnpiào",
+        "senseId": "l305-v-700-sense",
+        "ordinal": 700,
+        "note": "3 jiǎnpiào 动; 检票 là kiểm tra vé; khác 买票 mua vé và 上车 lên xe/tàu. 检票口 là nơi kiểm vé, 口 là hỗ trợ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l305-v-592",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 592"
+        },
+        "written": "地图",
+        "pinyin": "dìtú",
+        "senseId": "l305-v-592-sense",
+        "ordinal": 592,
+        "note": "3 dìtú 名; 地图 giúp xem vị trí và đường đi. 电子地图 là bản đồ điện tử, không phải tự động là vé hay lịch tàu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l305-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "hỗ trợ trong tình huống",
+        "pinyin": "",
+        "senseId": "l305-extra0-sense",
+        "ordinal": null,
+        "note": "以前 yǐqián: trước; 以后 yǐhòu: sau; 带 dài: mang; 北京 Běijīng: Bắc Kinh; 上车 shàng chē: lên xe/tàu. Giấy tờ là nội dung hội thoại giả định, không phải hướng dẫn pháp lý."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-55",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "55"
+        },
+        "written": "发",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 55,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-235",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "235"
+        },
+        "written": "行",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 235,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-136",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "136"
+        },
+        "written": "李",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 136,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-83",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "83"
+        },
+        "written": "护",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 83,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-273",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "273"
+        },
+        "written": "照",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 273,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-100",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "100"
+        },
+        "written": "检",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 100,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-215",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "215"
+        },
+        "written": "图",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 215,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-g-before-after",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定格式 / thời điểm trước sau"
+        },
+        "written": "（在）……以前/以后/前/后",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l305-c0",
+      "version": 1,
+      "senseId": "l305-v-562-sense",
+      "hanzi": "出发",
+      "dictionaryPinyin": "chū fā",
+      "meaning": "khởi hành",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l305-v-562"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l305-c1",
+      "version": 1,
+      "senseId": "l305-v-909-sense",
+      "hanzi": "行李",
+      "dictionaryPinyin": "xíng li",
+      "meaning": "hành lý",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l305-v-909"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l305-c2",
+      "version": 1,
+      "senseId": "l305-v-644-sense",
+      "hanzi": "高铁",
+      "dictionaryPinyin": "gāo tiě",
+      "meaning": "tàu/đường sắt cao tốc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l305-v-644"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l305-c3",
+      "version": 1,
+      "senseId": "l305-v-674-sense",
+      "hanzi": "护照",
+      "dictionaryPinyin": "hù zhào",
+      "meaning": "hộ chiếu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l305-v-674"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l305-c4",
+      "version": 1,
+      "senseId": "l305-v-700-sense",
+      "hanzi": "检票",
+      "dictionaryPinyin": "jiǎn piào",
+      "meaning": "kiểm vé",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l305-v-700"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l305-c5",
+      "version": 1,
+      "senseId": "l305-v-592-sense",
+      "hanzi": "地图",
+      "dictionaryPinyin": "dì tú",
+      "meaning": "bản đồ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l305-v-592"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l305-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Nhắc 先/再, thời gian đứng trước động từ, 在 và lượng từ cơ bản. Prerequisite HSK1/2 vẫn chưa chứng nhận. 以前 yǐqián: trước; 以后 yǐhòu: sau; 带 dài: mang; 北京 Běijīng: Bắc Kinh; 上车 shàng chē: lên xe/tàu. Giấy tờ là nội dung hội thoại giả định, không phải hướng dẫn pháp lý.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l305-t0",
+      "type": "teaching",
+      "title": "出发 · khởi hành",
+      "text": "出发 nhấn bắt đầu chuyến đi; không phải đã đến nơi. 明天八点出发 là giờ khởi hành, không phải giờ tới.",
+      "hanzi": "我们明天早上八点出发。",
+      "pinyin": "Wǒmen míngtiān zǎoshang bā diǎn chūfā.",
+      "meaning": "Chúng tôi khởi hành lúc 8 giờ sáng mai.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l305-t1",
+      "type": "teaching",
+      "title": "行李 · hành lý",
+      "text": "行李 chỉ đồ mang theo chuyến đi; thường dùng 件 khi đếm từng kiện. Không gọi giấy thông hành là hành lý khi hỏi loại giấy tờ.",
+      "hanzi": "我的行李不多，只有一个包。",
+      "pinyin": "Wǒ de xíngli bù duō, zhǐ yǒu yí ge bāo.",
+      "meaning": "Hành lý tôi ít, chỉ có một túi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l305-t2",
+      "type": "teaching",
+      "title": "高铁 · tàu/đường sắt cao tốc",
+      "text": "高铁 trong 坐高铁 là đi tàu cao tốc. Từ này chỉ loại phương tiện/hệ thống, không mặc nhiên nói giờ hoặc giá vé.",
+      "hanzi": "这次我们坐高铁去北京。",
+      "pinyin": "Zhè cì wǒmen zuò gāotiě qù Běijīng.",
+      "meaning": "Lần này chúng tôi đi tàu cao tốc tới Bắc Kinh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l305-t3",
+      "type": "teaching",
+      "title": "护照 · hộ chiếu",
+      "text": "护照 là giấy tờ định danh đi quốc tế. Bài luyện nhận biết từ, không khẳng định yêu cầu nhập cảnh hay đi tàu thực tế ở bất kỳ nước nào.",
+      "hanzi": "请不要忘了带护照。",
+      "pinyin": "Qǐng bú yào wàng le dài hùzhào.",
+      "meaning": "Xin đừng quên mang hộ chiếu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l305-t4",
+      "type": "teaching",
+      "title": "检票 · kiểm vé",
+      "text": "检票 là kiểm tra vé; khác 买票 mua vé và 上车 lên xe/tàu. 检票口 là nơi kiểm vé, 口 là hỗ trợ.",
+      "hanzi": "检票以后，我们再上车。",
+      "pinyin": "Jiǎnpiào yǐhòu, wǒmen zài shàng chē.",
+      "meaning": "Sau khi kiểm vé chúng tôi mới lên tàu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l305-t5",
+      "type": "teaching",
+      "title": "地图 · bản đồ",
+      "text": "地图 giúp xem vị trí và đường đi. 电子地图 là bản đồ điện tử, không phải tự động là vé hay lịch tàu.",
+      "hanzi": "我在地图上找车站。",
+      "pinyin": "Wǒ zài dìtú shang zhǎo chēzhàn.",
+      "meaning": "Tôi tìm ga trên bản đồ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l305-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "出发以前 và 出发以后 đặt sự việc làm mốc. 出发以前检票 là kiểm vé trước khi khởi hành; không đảo thành sau khi đi. 以前/以后 là hỗ trợ được giải thích, chưa tính thêm từ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l305-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小安：我们几点出发？小李：八点。出发以前，先看看行李，别忘了护照和票。小安：我们坐高铁吗？小李：对。先检票，再上车。我在地图上找到了车站。",
+      "pinyin": "Xiǎo Ān: Wǒmen jǐ diǎn chūfā? Xiǎo Lǐ: Bā diǎn. Chūfā yǐqián, xiān kànkan xíngli, bié wàng le hùzhào hé piào. Xiǎo Ān: Wǒmen zuò gāotiě ma? Xiǎo Lǐ: Duì. Xiān jiǎnpiào, zài shàng chē. Wǒ zài dìtú shang zhǎodào le chēzhàn.",
+      "meaning": "An hỏi giờ khởi hành. Lý nói 8 giờ, nhắc kiểm hành lý, đừng quên hộ chiếu và vé trong chuyến đi của họ. Hai người đi tàu cao tốc, kiểm vé rồi lên tàu; Lý đã tìm ga trên bản đồ.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l305-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l305-v1-e0"
+    },
+    {
+      "id": "l305-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l305-v1-e1"
+    },
+    {
+      "id": "l305-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l305-v1-e2"
+    },
+    {
+      "id": "l305-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l305-v1-e3"
+    },
+    {
+      "id": "l305-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l305-v1-e4"
+    },
+    {
+      "id": "l305-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l305-v1-e5"
+    },
+    {
+      "id": "l305-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l305-v1-e6"
+    },
+    {
+      "id": "l305-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l305-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l305-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l305-c0",
+      "senseId": "l305-v-562-sense",
+      "keyRef": "l305-v1-k0",
+      "prompt": "Lịch nhóm ghi 八点□，不是八点到北京. Điền hành động bắt đầu chuyến đi.",
+      "choices": [
+        "行李",
+        "高铁",
+        "护照",
+        "检票",
+        "地图",
+        "出发"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l305-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l305-c1",
+      "senseId": "l305-v-909-sense",
+      "keyRef": "l305-v1-k1",
+      "prompt": "Một người hỏi đồ mang theo có nhiều không, không hỏi phương tiện. Chọn mục từ.",
+      "choices": [
+        "高铁",
+        "护照",
+        "检票",
+        "地图",
+        "出发",
+        "行李"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l305-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l305-c2",
+      "senseId": "l305-v-644-sense",
+      "keyRef": "l305-v1-k2",
+      "prompt": "Bạn muốn nói phương tiện trong câu 坐□去北京，不是坐飞机. Chọn từ.",
+      "choices": [
+        "护照",
+        "检票",
+        "地图",
+        "出发",
+        "行李",
+        "高铁"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l305-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l305-c3",
+      "senseId": "l305-v-674-sense",
+      "keyRef": "l305-v1-k3",
+      "prompt": "Viết pinyin của 护照 trong nghĩa “hộ chiếu”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l305-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l305-c4",
+      "senseId": "l305-v-700-sense",
+      "keyRef": "l305-v1-k4",
+      "prompt": "Nhân viên đang kiểm tra vé trước khi khách lên tàu. Chọn hành động.",
+      "choices": [
+        "地图",
+        "出发",
+        "行李",
+        "高铁",
+        "护照",
+        "检票"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l305-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l305-c5",
+      "senseId": "l305-v-592-sense",
+      "keyRef": "l305-v1-k5",
+      "prompt": "Viết “Tôi xem bản đồ” theo mẫu 我看 + mục từ bản đồ.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l305-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l305-c0",
+      "senseId": "l305-v-562-sense",
+      "keyRef": "l305-v1-k6",
+      "prompt": "Theo cuộc trao đổi, bước nào xảy ra trước khi lên tàu?",
+      "choices": [
+        "到北京以后再买票",
+        "把行李留在家里",
+        "检票"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l305-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l305-c3",
+      "senseId": "l305-v-674-sense",
+      "keyRef": "l305-v1-k7",
+      "prompt": "Sắp xếp mốc thời gian: kiểm hành lý trước khi khởi hành.",
+      "choices": [
+        "以前",
+        "先看看行李",
+        "出发"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l305-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l305-v1-e0",
+      "senseId": "l305-v-562-sense",
+      "accepted": [
+        "出发"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "出发 nhấn bắt đầu chuyến đi; không phải đã đến nơi. 明天八点出发 là giờ khởi hành, không phải giờ tới."
+    },
+    {
+      "id": "l305-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l305-v1-e1",
+      "senseId": "l305-v-909-sense",
+      "accepted": [
+        "行李"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "行李 chỉ đồ mang theo chuyến đi; thường dùng 件 khi đếm từng kiện. Không gọi giấy thông hành là hành lý khi hỏi loại giấy tờ."
+    },
+    {
+      "id": "l305-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l305-v1-e2",
+      "senseId": "l305-v-644-sense",
+      "accepted": [
+        "高铁"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "高铁 trong 坐高铁 là đi tàu cao tốc. Từ này chỉ loại phương tiện/hệ thống, không mặc nhiên nói giờ hoặc giá vé."
+    },
+    {
+      "id": "l305-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l305-v1-e3",
+      "senseId": "l305-v-674-sense",
+      "accepted": [
+        "hù zhào"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "护照 là giấy tờ định danh đi quốc tế. Bài luyện nhận biết từ, không khẳng định yêu cầu nhập cảnh hay đi tàu thực tế ở bất kỳ nước nào."
+    },
+    {
+      "id": "l305-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l305-v1-e4",
+      "senseId": "l305-v-700-sense",
+      "accepted": [
+        "检票"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "检票 là kiểm tra vé; khác 买票 mua vé và 上车 lên xe/tàu. 检票口 là nơi kiểm vé, 口 là hỗ trợ."
+    },
+    {
+      "id": "l305-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l305-v1-e5",
+      "senseId": "l305-v-592-sense",
+      "accepted": [
+        "我看地图"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "地图 là vật dùng để xem đường; không đồng nghĩa vé."
+    },
+    {
+      "id": "l305-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l305-v1-e6",
+      "senseId": "l305-v-562-sense",
+      "accepted": [
+        "检票"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trình tự nêu trong tình huống là kiểm vé rồi lên tàu; không phải tư vấn quy trình đi lại chung."
+    },
+    {
+      "id": "l305-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l305-v1-e7",
+      "senseId": "l305-v-674-sense",
+      "accepted": [
+        "2,0,1"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 出发以前 và 出发以后 đặt sự việc làm mốc. 出发以前检票 là kiểm vé trước khi khởi hành; không đảo thành sau khi đi. 以前/以后 là hỗ trợ được giải thích, chưa tính thêm từ."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,921 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "2310f302fbd0d37d771d266ea6b8ccd0056f6a4bc4f1213213566aa671f0fbc3",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-health-conversation",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L309",
+    "version": 1,
+    "versionId": "l309-draft-v1",
+    "title": "Kể triệu chứng trong hội thoại khám bệnh",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc câu hỏi và lời kể tình trạng; phân biệt từ mô tả với kết luận y khoa.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l214-draft-v1",
+      "l222-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "……的话，就……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 14,
+      "physicalPage": 15,
+      "printedPage": 12,
+      "section": "task",
+      "entry": "七"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-health",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 14,
+          "physicalPage": 15,
+          "printedPage": 12,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "谈论就医探病、健康观念",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-consultation",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "日常生活 / 医疗健康 / 就医"
+        },
+        "written": "就医",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l309-v-639",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 639"
+        },
+        "written": "感冒",
+        "pinyin": "gǎnmào",
+        "senseId": "l309-v-639-sense",
+        "ordinal": 639,
+        "note": "3 gǎnmào 名、动; 感冒 trong lời kể là tên một tình trạng bệnh thông thường; có thể dùng như danh từ hoặc động từ. Học liệu chỉ luyện ngôn ngữ, không hướng dẫn tự chẩn đoán. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l309-v-615",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 615"
+        },
+        "written": "发烧",
+        "pinyin": "fāshāo",
+        "senseId": "l309-v-615-sense",
+        "ordinal": 615,
+        "note": "3 fāshāo 动; 发烧 mô tả bị sốt theo lời kể. Bài không đặt ngưỡng nhiệt độ hoặc suy ra nguyên nhân bệnh từ từ này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l309-v-537",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 537"
+        },
+        "written": "病人",
+        "pinyin": "bìngrén",
+        "senseId": "l309-v-537-sense",
+        "ordinal": 537,
+        "note": "3 bìngrén 名; 病人 là người đang bệnh hoặc được nói như bệnh nhân trong bối cảnh khám. Không dùng từ này để tự xác định tình trạng của một người ngoài ngữ cảnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l309-v-698",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 698"
+        },
+        "written": "检查",
+        "pinyin": "jiǎnchá",
+        "senseId": "l309-v-698-sense",
+        "ordinal": 698,
+        "note": "3 jiǎnchá 动; 检查 chỉ việc xem xét kiểm tra; trong 医生检查身体 là khám/kiểm tra cơ thể. Kết quả chưa được nói nên không thể suy ra bệnh cụ thể. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l309-v-579",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 579"
+        },
+        "written": "担心",
+        "pinyin": "dānxīn",
+        "senseId": "l309-v-579-sense",
+        "ordinal": 579,
+        "note": "3 dānxīn 动; 担心 diễn tả lo về người/việc, như 担心朋友. Cảm xúc lo không phải bằng chứng xác nhận nguy hiểm hoặc chẩn đoán. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l309-v-701",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 701"
+        },
+        "written": "健康",
+        "pinyin": "jiànkāng",
+        "senseId": "l309-v-701-sense",
+        "ordinal": 701,
+        "note": "3 jiànkāng 形; 健康 trong 身体健康 miêu tả khỏe. Bài học không chứng nhận sức khỏe hoặc khẳng định hết sốt là đã khỏe hoàn toàn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l309-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "hỗ trợ trong ngữ cảnh",
+        "pinyin": "",
+        "senseId": "l309-extra0-sense",
+        "ordinal": null,
+        "note": "医生 yīshēng: bác sĩ; 情况 qíngkuàng: tình trạng (hỗ trợ); 早点儿 zǎo diǎnr: sớm một chút; 祝 zhù: chúc. Hội thoại không dùng để quyết định điều trị hoặc chấm nói."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-65",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "65"
+        },
+        "written": "感",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 65,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-153",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "153"
+        },
+        "written": "冒",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 153,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-55",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "55"
+        },
+        "written": "发",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 55,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-191",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "191"
+        },
+        "written": "烧",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 191,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-100",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "100"
+        },
+        "written": "检",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 100,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-22",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "22"
+        },
+        "written": "查",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 22,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-39",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "39"
+        },
+        "written": "担",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 39,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-233",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "233"
+        },
+        "written": "心",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 233,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-102",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "102"
+        },
+        "written": "健",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 102,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-127",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "127"
+        },
+        "written": "康",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 127,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-g-if-words",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "复句 / 假设复句"
+        },
+        "written": "……的话，就……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l309-c0",
+      "version": 1,
+      "senseId": "l309-v-639-sense",
+      "hanzi": "感冒",
+      "dictionaryPinyin": "gǎn mào",
+      "meaning": "cảm/cảm lạnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l309-v-639"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l309-c1",
+      "version": 1,
+      "senseId": "l309-v-615-sense",
+      "hanzi": "发烧",
+      "dictionaryPinyin": "fā shāo",
+      "meaning": "sốt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l309-v-615"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l309-c2",
+      "version": 1,
+      "senseId": "l309-v-537-sense",
+      "hanzi": "病人",
+      "dictionaryPinyin": "bìng rén",
+      "meaning": "người bệnh/bệnh nhân",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l309-v-537"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l309-c3",
+      "version": 1,
+      "senseId": "l309-v-698-sense",
+      "hanzi": "检查",
+      "dictionaryPinyin": "jiǎn chá",
+      "meaning": "kiểm tra/khám kiểm tra",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l309-v-698"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l309-c4",
+      "version": 1,
+      "senseId": "l309-v-579-sense",
+      "hanzi": "担心",
+      "dictionaryPinyin": "dān xīn",
+      "meaning": "lo lắng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l309-v-579"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l309-c5",
+      "version": 1,
+      "senseId": "l309-v-701-sense",
+      "hanzi": "健康",
+      "dictionaryPinyin": "jiàn kāng",
+      "meaning": "khỏe mạnh/sức khỏe tốt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l309-v-701"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l309-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Nhắc 不/没, 很, số lượng và địa điểm. HSK1/2 chưa hoàn chỉnh; chỉ khám phá DRAFT. 医生 yīshēng: bác sĩ; 情况 qíngkuàng: tình trạng (hỗ trợ); 早点儿 zǎo diǎnr: sớm một chút; 祝 zhù: chúc. Hội thoại không dùng để quyết định điều trị hoặc chấm nói.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l309-t0",
+      "type": "teaching",
+      "title": "感冒 · cảm/cảm lạnh",
+      "text": "感冒 trong lời kể là tên một tình trạng bệnh thông thường; có thể dùng như danh từ hoặc động từ. Học liệu chỉ luyện ngôn ngữ, không hướng dẫn tự chẩn đoán.",
+      "hanzi": "小安说他感冒了。",
+      "pinyin": "Xiǎo Ān shuō tā gǎnmào le.",
+      "meaning": "An nói bạn bị cảm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l309-t1",
+      "type": "teaching",
+      "title": "发烧 · sốt",
+      "text": "发烧 mô tả bị sốt theo lời kể. Bài không đặt ngưỡng nhiệt độ hoặc suy ra nguyên nhân bệnh từ từ này.",
+      "hanzi": "他昨天发烧了，今天来问医生。",
+      "pinyin": "Tā zuótiān fāshāo le, jīntiān lái wèn yīshēng.",
+      "meaning": "Bạn sốt hôm qua, hôm nay đến hỏi bác sĩ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l309-t2",
+      "type": "teaching",
+      "title": "病人 · người bệnh/bệnh nhân",
+      "text": "病人 là người đang bệnh hoặc được nói như bệnh nhân trong bối cảnh khám. Không dùng từ này để tự xác định tình trạng của một người ngoài ngữ cảnh.",
+      "hanzi": "医生正在和病人说话。",
+      "pinyin": "Yīshēng zhèngzài hé bìngrén shuō huà.",
+      "meaning": "Bác sĩ đang nói chuyện với bệnh nhân.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l309-t3",
+      "type": "teaching",
+      "title": "检查 · kiểm tra/khám kiểm tra",
+      "text": "检查 chỉ việc xem xét kiểm tra; trong 医生检查身体 là khám/kiểm tra cơ thể. Kết quả chưa được nói nên không thể suy ra bệnh cụ thể.",
+      "hanzi": "医生说要检查一下。",
+      "pinyin": "Yīshēng shuō yào jiǎnchá yíxià.",
+      "meaning": "Bác sĩ nói cần kiểm tra một chút.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l309-t4",
+      "type": "teaching",
+      "title": "担心 · lo lắng",
+      "text": "担心 diễn tả lo về người/việc, như 担心朋友. Cảm xúc lo không phải bằng chứng xác nhận nguy hiểm hoặc chẩn đoán.",
+      "hanzi": "妈妈很担心我。",
+      "pinyin": "Māma hěn dānxīn wǒ.",
+      "meaning": "Mẹ lo cho tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l309-t5",
+      "type": "teaching",
+      "title": "健康 · khỏe mạnh/sức khỏe tốt",
+      "text": "健康 trong 身体健康 miêu tả khỏe. Bài học không chứng nhận sức khỏe hoặc khẳng định hết sốt là đã khỏe hoàn toàn.",
+      "hanzi": "我们都希望家人身体健康。",
+      "pinyin": "Wǒmen dōu xīwàng jiārén shēntǐ jiànkāng.",
+      "meaning": "Chúng tôi đều mong người nhà khỏe mạnh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l309-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "……的话，就…… đặt giả định trước kết quả/hành động trong tình huống. 你不舒服的话，就告诉我 là lời đề nghị báo thông tin, không phải một chẩn đoán.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l309-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "医生：你哪里不舒服？小安：我昨天发烧，朋友说可能是感冒。妈妈很担心。医生：先说说你的情况，我再检查。小安：我想早点儿健康起来。医生：有什么不舒服的话，就告诉我。",
+      "pinyin": "Yīshēng: Nǐ nǎli bù shūfu? Xiǎo Ān: Wǒ zuótiān fāshāo, péngyou shuō kěnéng shì gǎnmào. Māma hěn dānxīn. Yīshēng: Xiān shuōshuo nǐ de qíngkuàng, wǒ zài jiǎnchá. Xiǎo Ān: Wǒ xiǎng zǎo diǎnr jiànkāng qǐlái. Yīshēng: Yǒu shénme bù shūfu dehuà, jiù gàosu wǒ.",
+      "meaning": "Bác sĩ hỏi An khó chịu ở đâu. An kể sốt hôm qua, bạn cho rằng có thể là cảm; mẹ lo lắng. Bác sĩ muốn nghe tình trạng rồi kiểm tra. Đây là hội thoại học ngôn ngữ, chưa có kết luận bệnh hay chỉ dẫn điều trị.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l309-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l309-v1-e0"
+    },
+    {
+      "id": "l309-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l309-v1-e1"
+    },
+    {
+      "id": "l309-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l309-v1-e2"
+    },
+    {
+      "id": "l309-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l309-v1-e3"
+    },
+    {
+      "id": "l309-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l309-v1-e4"
+    },
+    {
+      "id": "l309-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l309-v1-e5"
+    },
+    {
+      "id": "l309-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l309-v1-e6"
+    },
+    {
+      "id": "l309-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l309-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l309-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l309-c0",
+      "senseId": "l309-v-639-sense",
+      "keyRef": "l309-v1-k0",
+      "prompt": "Trong lời kể 朋友说可能是□，chọn tên cảm/cảm lạnh, không phải chỉ triệu chứng sốt hay cảm xúc lo.",
+      "choices": [
+        "发烧",
+        "病人",
+        "检查",
+        "担心",
+        "健康",
+        "感冒"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l309-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l309-c1",
+      "senseId": "l309-v-615-sense",
+      "keyRef": "l309-v1-k1",
+      "prompt": "Muốn kể rõ đã bị sốt hôm qua (không khẳng định nguyên nhân bệnh): 昨天□了. Chọn mục từ bị sốt.",
+      "choices": [
+        "病人",
+        "检查",
+        "担心",
+        "健康",
+        "感冒",
+        "发烧"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l309-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l309-c2",
+      "senseId": "l309-v-537-sense",
+      "keyRef": "l309-v1-k2",
+      "prompt": "Bác sĩ đang trao đổi với người đến khám: 医生和□说话.",
+      "choices": [
+        "检查",
+        "担心",
+        "健康",
+        "感冒",
+        "发烧",
+        "病人"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l309-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l309-c3",
+      "senseId": "l309-v-698-sense",
+      "keyRef": "l309-v1-k3",
+      "prompt": "Viết pinyin của 检查 trong nghĩa “kiểm tra/khám kiểm tra”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l309-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l309-c4",
+      "senseId": "l309-v-579-sense",
+      "keyRef": "l309-v1-k4",
+      "prompt": "Mẹ lo về con; chọn từ diễn tả cảm xúc lo lắng.",
+      "choices": [
+        "健康",
+        "感冒",
+        "发烧",
+        "病人",
+        "检查",
+        "担心"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l309-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l309-c5",
+      "senseId": "l309-v-701-sense",
+      "keyRef": "l309-v1-k5",
+      "prompt": "Viết lời chúc “Chúc bạn khỏe” theo mẫu 祝你 + mục từ khỏe mạnh.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l309-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l309-c0",
+      "senseId": "l309-v-639-sense",
+      "keyRef": "l309-v1-k6",
+      "prompt": "Điều gì chưa được bác sĩ xác nhận trong đoạn?",
+      "choices": [
+        "小安说昨天发烧",
+        "医生还要检查",
+        "一定是感冒"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l309-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l309-c3",
+      "senseId": "l309-v-698-sense",
+      "keyRef": "l309-v1-k7",
+      "prompt": "Sắp xếp lời đề nghị có điều kiện.",
+      "choices": [
+        "就告诉我",
+        "的话",
+        "有什么不舒服"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l309-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l309-v1-e0",
+      "senseId": "l309-v-639-sense",
+      "accepted": [
+        "感冒"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "感冒 trong lời kể là tên một tình trạng bệnh thông thường; có thể dùng như danh từ hoặc động từ. Học liệu chỉ luyện ngôn ngữ, không hướng dẫn tự chẩn đoán."
+    },
+    {
+      "id": "l309-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l309-v1-e1",
+      "senseId": "l309-v-615-sense",
+      "accepted": [
+        "发烧"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "发烧 mô tả bị sốt theo lời kể. Bài không đặt ngưỡng nhiệt độ hoặc suy ra nguyên nhân bệnh từ từ này."
+    },
+    {
+      "id": "l309-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l309-v1-e2",
+      "senseId": "l309-v-537-sense",
+      "accepted": [
+        "病人"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "病人 là người đang bệnh hoặc được nói như bệnh nhân trong bối cảnh khám. Không dùng từ này để tự xác định tình trạng của một người ngoài ngữ cảnh."
+    },
+    {
+      "id": "l309-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l309-v1-e3",
+      "senseId": "l309-v-698-sense",
+      "accepted": [
+        "jiǎn chá"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "检查 chỉ việc xem xét kiểm tra; trong 医生检查身体 là khám/kiểm tra cơ thể. Kết quả chưa được nói nên không thể suy ra bệnh cụ thể."
+    },
+    {
+      "id": "l309-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l309-v1-e4",
+      "senseId": "l309-v-579-sense",
+      "accepted": [
+        "担心"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "担心 diễn tả lo về người/việc, như 担心朋友. Cảm xúc lo không phải bằng chứng xác nhận nguy hiểm hoặc chẩn đoán."
+    },
+    {
+      "id": "l309-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l309-v1-e5",
+      "senseId": "l309-v-701-sense",
+      "accepted": [
+        "祝你健康"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Lời chúc không phải kết luận người nhận đang khỏe."
+    },
+    {
+      "id": "l309-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l309-v1-e6",
+      "senseId": "l309-v-639-sense",
+      "accepted": [
+        "一定是感冒"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chỉ người bạn đoán có thể cảm; không biến phỏng đoán thành chẩn đoán."
+    },
+    {
+      "id": "l309-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l309-v1-e7",
+      "senseId": "l309-v-698-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. ……的话，就…… đặt giả định trước kết quả/hành động trong tình huống. 你不舒服的话，就告诉我 là lời đề nghị báo thông tin, không phải một chẩn đoán."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

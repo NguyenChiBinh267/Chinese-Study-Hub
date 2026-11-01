@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "541119b10e13736a964d6d146d596a3a7864f3809911e3bf388c965514665136",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-culture-study",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L316",
+    "version": 2,
+    "versionId": "l316-draft-v2",
+    "title": "Tìm hiểu văn hóa khi du học",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc lời giới thiệu trải nghiệm học và phân biệt hiểu một phần với hiểu toàn bộ.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "除了"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 16,
+      "physicalPage": 17,
+      "printedPage": 14,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 16,
+          "physicalPage": 17,
+          "printedPage": 14,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "沟通学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-study-experience",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "教育情况 / 学习情况 / 学习经历"
+        },
+        "written": "学习经历",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l316-v-560",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 560"
+        },
+        "written": "城市",
+        "pinyin": "chéngshì",
+        "senseId": "l316-v-560-sense",
+        "ordinal": 560,
+        "note": "3 chéngshì 名; 城市 là đơn vị/khu đô thị theo ngữ cảnh, khác 国家 đất nước. 一个国家里可以有很多城市; không suy ra mọi thành phố giống nhau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l316-v-749",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 749"
+        },
+        "written": "历史",
+        "pinyin": "lìshǐ",
+        "senseId": "l316-v-749-sense",
+        "ordinal": 749,
+        "note": "3 lìshǐ 名; 历史 nói những việc đã diễn ra và sự nghiên cứu/ghi chép về chúng. 一段历史不等于一个虚构故事; bài chỉ phân biệt cách dùng từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l316-v-658",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 658"
+        },
+        "written": "国家",
+        "pinyin": "guójiā",
+        "senseId": "l316-v-658-sense",
+        "ordinal": 658,
+        "note": "3 guójiā 名; 国家 chỉ quốc gia; không thay mọi chỗ của 家 (gia đình/nhà). 来自不同国家 nói đến từ các đất nước khác nhau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l316-v-878",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 878"
+        },
+        "written": "文化",
+        "pinyin": "wénhuà",
+        "senseId": "l316-v-878-sense",
+        "ordinal": 878,
+        "note": "3 wénhuà 名; 文化 là văn hóa theo ngữ cảnh như 语言和饮食文化. Không lấy một cá nhân hoặc một hoạt động để kết luận mọi người của một nước đều như nhau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l316-v-757",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 757"
+        },
+        "written": "了解",
+        "pinyin": "liǎojiě",
+        "senseId": "l316-v-757-sense",
+        "ordinal": 757,
+        "note": "3 liǎojiě 动; 了解 dùng tìm hiểu hay có hiểu biết về người/việc. 想了解是意愿，不等于已经全面懂得; mong muốn hiểu không chứng minh đã biết đầy đủ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l316-v-760",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 760"
+        },
+        "written": "留学生",
+        "pinyin": "liúxuéshēng",
+        "senseId": "l316-v-760-sense",
+        "ordinal": 760,
+        "note": "3 liúxuéshēng 名; 留学生 là người đi học ở nước ngoài theo ngữ cảnh. Không dùng riêng chữ 留 để chứng minh mọi nghĩa hay cấp từ 留学 đã được hoàn tất. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l316-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "hỗ trợ trong ngữ cảnh",
+        "pinyin": "",
+        "senseId": "l316-extra0-sense",
+        "ordinal": null,
+        "note": "来自 láizì: đến từ; 不同 bù tóng: khác nhau; 当地 dāngdì: địa phương (hỗ trợ chưa xác minh cấp); 感兴趣 gǎn xìngqù: hứng thú. Nhánh 除了…还… là bổ sung, không đồng nghĩa loại trừ."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-27",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "27"
+        },
+        "written": "城",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 27,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-139",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "139"
+        },
+        "written": "历",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 139,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-195",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "195"
+        },
+        "written": "史",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 195,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-84",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "84"
+        },
+        "written": "化",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 84,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-113",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "113"
+        },
+        "written": "解",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 113,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-g-addition-except",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定格式 / 除了……还……"
+        },
+        "written": "除了",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l316-c0",
+      "version": 1,
+      "senseId": "l316-v-560-sense",
+      "hanzi": "城市",
+      "dictionaryPinyin": "chéng shì",
+      "meaning": "thành phố",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l316-v-560"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l316-c1",
+      "version": 1,
+      "senseId": "l316-v-749-sense",
+      "hanzi": "历史",
+      "dictionaryPinyin": "lì shǐ",
+      "meaning": "lịch sử",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l316-v-749"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l316-c2",
+      "version": 1,
+      "senseId": "l316-v-658-sense",
+      "hanzi": "国家",
+      "dictionaryPinyin": "guó jiā",
+      "meaning": "đất nước/quốc gia",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l316-v-658"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l316-c3",
+      "version": 1,
+      "senseId": "l316-v-878-sense",
+      "hanzi": "文化",
+      "dictionaryPinyin": "wén huà",
+      "meaning": "văn hóa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l316-v-878"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l316-c4",
+      "version": 1,
+      "senseId": "l316-v-757-sense",
+      "hanzi": "了解",
+      "dictionaryPinyin": "liǎo jiě",
+      "meaning": "tìm hiểu/biết về",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l316-v-757"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l316-c5",
+      "version": 1,
+      "senseId": "l316-v-760-sense",
+      "hanzi": "留学生",
+      "dictionaryPinyin": "liú xué shēng",
+      "meaning": "du học sinh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l316-v-760"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l316-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Nhắc thời gian, chủ ngữ–động từ–tân ngữ, 的 và câu hỏi cơ bản. HSK1/2 prerequisite vẫn chưa được xác nhận. 来自 láizì: đến từ; 不同 bù tóng: khác nhau; 当地 dāngdì: địa phương (hỗ trợ chưa xác minh cấp); 感兴趣 gǎn xìngqù: hứng thú. Nhánh 除了…还… là bổ sung, không đồng nghĩa loại trừ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l316-t0",
+      "type": "teaching",
+      "title": "城市 · thành phố",
+      "text": "城市 là đơn vị/khu đô thị theo ngữ cảnh, khác 国家 đất nước. 一个国家里可以有很多城市; không suy ra mọi thành phố giống nhau.",
+      "hanzi": "我想了解这个城市的历史。",
+      "pinyin": "Wǒ xiǎng liǎojiě zhège chéngshì de lìshǐ.",
+      "meaning": "Tôi muốn tìm hiểu lịch sử thành phố này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l316-t1",
+      "type": "teaching",
+      "title": "历史 · lịch sử",
+      "text": "历史 nói những việc đã diễn ra và sự nghiên cứu/ghi chép về chúng. 一段历史不等于一个虚构故事; bài chỉ phân biệt cách dùng từ.",
+      "hanzi": "老师介绍了学校的历史。",
+      "pinyin": "Lǎoshī jièshào le xuéxiào de lìshǐ.",
+      "meaning": "Thầy giới thiệu lịch sử trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l316-t2",
+      "type": "teaching",
+      "title": "国家 · đất nước/quốc gia",
+      "text": "国家 chỉ quốc gia; không thay mọi chỗ của 家 (gia đình/nhà). 来自不同国家 nói đến từ các đất nước khác nhau.",
+      "hanzi": "我们的同学来自不同的国家。",
+      "pinyin": "Wǒmen de tóngxué láizì bù tóng de guójiā.",
+      "meaning": "Bạn học chúng tôi đến từ các nước khác nhau.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l316-t3",
+      "type": "teaching",
+      "title": "文化 · văn hóa",
+      "text": "文化 là văn hóa theo ngữ cảnh như 语言和饮食文化. Không lấy một cá nhân hoặc một hoạt động để kết luận mọi người của một nước đều như nhau.",
+      "hanzi": "我对这里的文化很感兴趣。",
+      "pinyin": "Wǒ duì zhèlǐ de wénhuà hěn gǎn xìngqù.",
+      "meaning": "Tôi hứng thú với văn hóa ở đây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l316-t4",
+      "type": "teaching",
+      "title": "了解 · tìm hiểu/biết về",
+      "text": "了解 dùng tìm hiểu hay có hiểu biết về người/việc. 想了解是意愿，不等于已经全面懂得; mong muốn hiểu không chứng minh đã biết đầy đủ.",
+      "hanzi": "我们想多了解当地的生活。",
+      "pinyin": "Wǒmen xiǎng duō liǎojiě dāngdì de shēnghuó.",
+      "meaning": "Chúng tôi muốn tìm hiểu thêm cuộc sống địa phương.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l316-t5",
+      "type": "teaching",
+      "title": "留学生 · du học sinh",
+      "text": "留学生 là người đi học ở nước ngoài theo ngữ cảnh. Không dùng riêng chữ 留 để chứng minh mọi nghĩa hay cấp từ 留学 đã được hoàn tất.",
+      "hanzi": "她是一名留学生。",
+      "pinyin": "Tā shì yì míng liúxuéshēng.",
+      "meaning": "Cô ấy là một du học sinh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l316-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "除了读书，我们还问朋友 dùng 除了…还… để thêm cách làm: ngoài đọc sách còn hỏi bạn. Nhánh này không loại việc đầu ra; chưa luyện 除了…都… mang nghĩa loại trừ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l316-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小安：你是留学生吗？小李：是，我来这里学习中文。小安：你已经了解这个国家的文化了吗？小李：只了解一点儿。我想先了解学校和这个城市的历史。除了读书，我还会问来自不同国家的同学。",
+      "pinyin": "Xiǎo Ān: Nǐ shì liúxuéshēng ma? Xiǎo Lǐ: Shì, wǒ lái zhèlǐ xuéxí Zhōngwén. Xiǎo Ān: Nǐ yǐjīng liǎojiě zhège guójiā de wénhuà le ma? Xiǎo Lǐ: Zhǐ liǎojiě yìdiǎnr. Wǒ xiǎng xiān liǎojiě xuéxiào hé zhège chéngshì de lìshǐ. Chúle dú shū, wǒ hái huì wèn láizì bù tóng guójiā de tóngxué.",
+      "meaning": "Lý là du học sinh học tiếng Trung. Khi được hỏi đã hiểu văn hóa đất nước này chưa, Lý nói chỉ hiểu chút ít, muốn tìm hiểu lịch sử trường và thành phố; ngoài đọc còn hỏi các bạn đến từ nhiều nước.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l316-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l316-v2-e0"
+    },
+    {
+      "id": "l316-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l316-v2-e1"
+    },
+    {
+      "id": "l316-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l316-v2-e2"
+    },
+    {
+      "id": "l316-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l316-v2-e3"
+    },
+    {
+      "id": "l316-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l316-v2-e4"
+    },
+    {
+      "id": "l316-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l316-v2-e5"
+    },
+    {
+      "id": "l316-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l316-v2-e6"
+    },
+    {
+      "id": "l316-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l316-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l316-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l316-c0",
+      "senseId": "l316-v-560-sense",
+      "keyRef": "l316-v2-k0",
+      "prompt": "Bạn muốn phân biệt một đô thị với cả đất nước, trong 一个国家有很多□.",
+      "choices": [
+        "历史",
+        "国家",
+        "文化",
+        "了解",
+        "留学生",
+        "城市"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l316-v2-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l316-c1",
+      "senseId": "l316-v-749-sense",
+      "keyRef": "l316-v2-k1",
+      "prompt": "Thầy giới thiệu các giai đoạn đã qua của trường, không kể một truyện hư cấu. Chọn từ lịch sử.",
+      "choices": [
+        "国家",
+        "文化",
+        "了解",
+        "留学生",
+        "城市",
+        "历史"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l316-v2-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l316-c2",
+      "senseId": "l316-v-658-sense",
+      "keyRef": "l316-v2-k2",
+      "prompt": "Bạn hỏi bạn học đến từ đất nước nào: 来自哪个□？",
+      "choices": [
+        "文化",
+        "了解",
+        "留学生",
+        "城市",
+        "历史",
+        "国家"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l316-v2-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l316-c3",
+      "senseId": "l316-v-878-sense",
+      "keyRef": "l316-v2-k3",
+      "prompt": "Viết pinyin của 文化 trong nghĩa “văn hóa”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l316-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l316-c4",
+      "senseId": "l316-v-757-sense",
+      "keyRef": "l316-v2-k4",
+      "prompt": "Bạn chỉ có mong muốn biết thêm chứ chưa biết hết: 想多□这里的生活.",
+      "choices": [
+        "留学生",
+        "城市",
+        "历史",
+        "国家",
+        "文化",
+        "了解"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l316-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l316-c5",
+      "senseId": "l316-v-760-sense",
+      "keyRef": "l316-v2-k5",
+      "prompt": "Viết “Tôi là một du học sinh”, dùng lượng từ 名 trước danh từ du học sinh.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l316-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l316-c0",
+      "senseId": "l316-v-560-sense",
+      "keyRef": "l316-v2-k6",
+      "prompt": "Lý tự đánh giá hiểu biết văn hóa của mình ra sao?",
+      "choices": [
+        "已经了解全部",
+        "不想再学习",
+        "只了解一点儿"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l316-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l316-c3",
+      "senseId": "l316-v-878-sense",
+      "keyRef": "l316-v2-k7",
+      "prompt": "Sắp xếp câu bổ sung thêm cách tìm hiểu.",
+      "choices": [
+        "我还问同学",
+        "除了读书"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l316-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l316-v2-e0",
+      "senseId": "l316-v-560-sense",
+      "accepted": [
+        "城市"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "城市 là đơn vị/khu đô thị theo ngữ cảnh, khác 国家 đất nước. 一个国家里可以有很多城市; không suy ra mọi thành phố giống nhau."
+    },
+    {
+      "id": "l316-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l316-v2-e1",
+      "senseId": "l316-v-749-sense",
+      "accepted": [
+        "历史"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "历史 nói những việc đã diễn ra và sự nghiên cứu/ghi chép về chúng. 一段历史不等于一个虚构故事; bài chỉ phân biệt cách dùng từ."
+    },
+    {
+      "id": "l316-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l316-v2-e2",
+      "senseId": "l316-v-658-sense",
+      "accepted": [
+        "国家"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "国家 chỉ quốc gia; không thay mọi chỗ của 家 (gia đình/nhà). 来自不同国家 nói đến từ các đất nước khác nhau."
+    },
+    {
+      "id": "l316-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l316-v2-e3",
+      "senseId": "l316-v-878-sense",
+      "accepted": [
+        "wén huà"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "文化 là văn hóa theo ngữ cảnh như 语言和饮食文化. Không lấy một cá nhân hoặc một hoạt động để kết luận mọi người của một nước đều như nhau."
+    },
+    {
+      "id": "l316-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l316-v2-e4",
+      "senseId": "l316-v-757-sense",
+      "accepted": [
+        "了解"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "了解 dùng tìm hiểu hay có hiểu biết về người/việc. 想了解是意愿，不等于已经全面懂得; mong muốn hiểu không chứng minh đã biết đầy đủ."
+    },
+    {
+      "id": "l316-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l316-v2-e5",
+      "senseId": "l316-v-760-sense",
+      "accepted": [
+        "我是一名留学生"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Hai câu đều định danh người học; không công nhận prerequisite hay năng lực ngoại ngữ."
+    },
+    {
+      "id": "l316-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l316-v2-e6",
+      "senseId": "l316-v-560-sense",
+      "accepted": [
+        "只了解一点儿"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Không suy ra du học sinh đã hiểu hết văn hóa chỉ vì đang sống tại đó."
+    },
+    {
+      "id": "l316-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l316-v2-e7",
+      "senseId": "l316-v-878-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 除了读书，我们还问朋友 dùng 除了…还… để thêm cách làm: ngoài đọc sách còn hỏi bạn. Nhánh này không loại việc đầu ra; chưa luyện 除了…都… mang nghĩa loại trừ."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

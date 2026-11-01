@@ -1,0 +1,1426 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "c3c1f5e5984de460bb47cd60a1c14f4131bdd24e9160cb93cfbefb857b44ec49",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "sports-interests",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L283",
+    "version": 1,
+    "versionId": "l283-draft-v1",
+    "title": "Chẩn đoán mẫu chữ và ngữ cảnh · 9",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Chẩn đoán mẫu chữ và ngữ cảnh đã học; kết quả từng câu, không chứng nhận trình độ.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l213-draft-v2",
+      "l214-draft-v2",
+      "l215-draft-v2"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 10,
+      "physicalPage": 11,
+      "printedPage": 8,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-leisure",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "交流休闲活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-health",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "十"
+        },
+        "written": "问答生病、探病",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-weather",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 8,
+          "physicalPage": 9,
+          "printedPage": 6,
+          "section": "task",
+          "entry": "四"
+        },
+        "written": "介绍天气基本情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-leisure",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 休闲 / 休闲活动"
+        },
+        "written": "休闲活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-health",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 医疗健康 / 生病"
+        },
+        "written": "生病",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-weather",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "基本信息 / 环境信息 / 天气"
+        },
+        "written": "天气",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l213-v-302",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 302"
+        },
+        "written": "爱好",
+        "pinyin": "àihào",
+        "senseId": "l213-v-302-sense",
+        "ordinal": 302,
+        "note": "2 àihào 动、名; 爱好 ở đây là danh từ trong 我的爱好. Không nhầm với 喜欢 khi điền câu 是我的爱好. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l213-v-387",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 387"
+        },
+        "written": "篮球",
+        "pinyin": "lánqiú",
+        "senseId": "l213-v-387-sense",
+        "ordinal": 387,
+        "note": "2 lánqiú 名; 打篮球 là chơi bóng rổ; không dùng 踢篮球 trong nghĩa môn thể thao đang học. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l213-v-497",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 497"
+        },
+        "written": "足球",
+        "pinyin": "zúqiú",
+        "senseId": "l213-v-497-sense",
+        "ordinal": 497,
+        "note": "2 zúqiú 名; 足球 dùng với 踢 khi nói chơi bóng đá. Không chỉ dựa vào chữ 球 để chọn cách kết hợp. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l213-v-441",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 441"
+        },
+        "written": "踢",
+        "pinyin": "tī",
+        "senseId": "l213-v-441-sense",
+        "ordinal": 441,
+        "note": "2 tī 动; 踢 là hành động đá, ví dụ 踢球. Không phải mọi động tác chơi bóng đều dùng 踢. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l213-v-444",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 444"
+        },
+        "written": "跳舞",
+        "pinyin": "tiàowǔ",
+        "senseId": "l213-v-444-sense",
+        "ordinal": 444,
+        "note": "2 tiàowǔ 动; 跳舞 nói nhảy theo hoạt động múa/nhạc, không phải mọi cú nhảy lên. 舞 đọc thanh ba. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l213-v-385",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 385"
+        },
+        "written": "快乐",
+        "pinyin": "kuàilè",
+        "senseId": "l213-v-385-sense",
+        "ordinal": 385,
+        "note": "2 kuàilè 形; 快乐 dùng nói trạng thái vui hoặc lời chúc như 生日快乐. Không dùng 快乐 để nói tốc độ nhanh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-429",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 429"
+        },
+        "written": "身体",
+        "pinyin": "shēntǐ",
+        "senseId": "l214-v-429-sense",
+        "ordinal": 429,
+        "note": "2 shēntǐ 名; 身体 có thể nói cơ thể hoặc thể trạng trong 身体很好. Không dùng mỗi từ này để chẩn đoán bộ phận bị bệnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-436",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 436"
+        },
+        "written": "舒服",
+        "pinyin": "shūfu",
+        "senseId": "l214-v-436-sense",
+        "ordinal": 436,
+        "note": "2 shūfu 形; 舒服 đọc âm sau nhẹ. 不舒服 nói không dễ chịu/không khỏe, không xác định một bệnh cụ thể. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-440",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 440"
+        },
+        "written": "疼",
+        "pinyin": "téng",
+        "senseId": "l214-v-440-sense",
+        "ordinal": 440,
+        "note": "2（6） téng 形、（动）; Trong bài dùng tính từ mô tả đau: 头疼. Không mở rộng sang nghĩa động từ thương yêu ở cấp khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-468",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 468"
+        },
+        "written": "药",
+        "pinyin": "yào",
+        "senseId": "l214-v-468-sense",
+        "ordinal": 468,
+        "note": "2 yào 名; 药 chỉ thuốc nói chung. Tên từ không cho biết loại thuốc, liều hay cách dùng; bài không hướng dẫn tự uống. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-469",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 469"
+        },
+        "written": "药店",
+        "pinyin": "yàodiàn",
+        "senseId": "l214-v-469-sense",
+        "ordinal": 469,
+        "note": "2 yàodiàn 名; 药店 là nơi bán thuốc, khác 医院 là bệnh viện. Có hiệu thuốc gần nhà không có nghĩa phải tự mua thuốc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-388",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 388"
+        },
+        "written": "累",
+        "pinyin": "lèi",
+        "senseId": "l214-v-388-sense",
+        "ordinal": 388,
+        "note": "2 lèi 形、动; 累 ở đây là tính từ mệt. Chưa phân tích nghĩa gây mệt hay kết quả làm ai mệt trong cấu trúc khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-420",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 420"
+        },
+        "written": "晴",
+        "pinyin": "qíng",
+        "senseId": "l215-v-420-sense",
+        "ordinal": 420,
+        "note": "2 qíng 形; 晴 nói trạng thái trời quang; không có nghĩa chắc chắn nóng. Trời quang vẫn có thể lạnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-475",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 475"
+        },
+        "written": "阴",
+        "pinyin": "yīn",
+        "senseId": "l215-v-475-sense",
+        "ordinal": 475,
+        "note": "2 yīn 形; 阴 nói trời nhiều mây/âm u, chưa tự cho biết có mưa. Đừng tự thêm thông tin mưa vào đáp án. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-384",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 384"
+        },
+        "written": "快",
+        "pinyin": "kuài",
+        "senseId": "l215-v-384-sense",
+        "ordinal": 384,
+        "note": "2 kuài 形、副; 快 ở đây là tốc độ nhanh; khác 快要 chỉ sắp xảy ra. ‘Nhanh’ luôn cần hiểu hoạt động đang nói. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-397",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 397"
+        },
+        "written": "慢",
+        "pinyin": "màn",
+        "senseId": "l215-v-397-sense",
+        "ordinal": 397,
+        "note": "2 màn 形; 慢 nói tốc độ thấp; không tự đồng nghĩa với trễ giờ. 走得慢 là đi chậm, 得 dẫn phần mô tả mức độ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-476",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 476"
+        },
+        "written": "因为",
+        "pinyin": "yīnwèi",
+        "senseId": "l215-v-476-sense",
+        "ordinal": 476,
+        "note": "2 yīnwèi 介、连; 因为 giới thiệu nguyên nhân được nêu trong lời nói. Ở đây luyện liên từ nối mệnh đề, không phân tích mọi cách dùng giới từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-439",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 439"
+        },
+        "written": "所以",
+        "pinyin": "suǒyǐ",
+        "senseId": "l215-v-439-sense",
+        "ordinal": 439,
+        "note": "2 suǒyǐ 连; 所以 đưa phần kết quả, không đặt vào chỗ nêu nguyên nhân. Có thể đi với 因为 trong mẫu đã học. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-46",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "46"
+        },
+        "written": "篮",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 46,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-66",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "66"
+        },
+        "written": "球",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 66,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-123",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "123"
+        },
+        "written": "足",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 123,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-83",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "83"
+        },
+        "written": "踢",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 83,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-85",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "85"
+        },
+        "written": "跳",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 85,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-96",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "96"
+        },
+        "written": "舞",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 96,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-45",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "45"
+        },
+        "written": "快",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 45,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-47",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "47"
+        },
+        "written": "乐",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 47,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-72",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "72"
+        },
+        "written": "身",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 72,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-84",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "84"
+        },
+        "written": "体",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 84,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-76",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "76"
+        },
+        "written": "舒",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 76,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-82",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "82"
+        },
+        "written": "疼",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 82,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-103",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "103"
+        },
+        "written": "药",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 103,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-17",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "17"
+        },
+        "written": "店",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 17,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-48",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "48"
+        },
+        "written": "累",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 48,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-65",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "65"
+        },
+        "written": "晴",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 65,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-108",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "108"
+        },
+        "written": "阴",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 108,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-55",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "55"
+        },
+        "written": "慢",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 55,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-107",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "107"
+        },
+        "written": "因",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 107,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-94",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "94"
+        },
+        "written": "为",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 94,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-81",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "81"
+        },
+        "written": "所",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 81,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-separable",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "词类 / 动词 / 离合词"
+        },
+        "written": "帮忙、游泳、跳舞、跑步",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-g-because",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "复句 / 因果复句"
+        },
+        "written": "因为……，所以……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l213-c4",
+      "version": 1,
+      "senseId": "l213-v-444-sense",
+      "hanzi": "跳舞",
+      "dictionaryPinyin": "tiào wǔ",
+      "meaning": "nhảy múa, khiêu vũ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l213-v-444"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l213-c5",
+      "version": 1,
+      "senseId": "l213-v-385-sense",
+      "hanzi": "快乐",
+      "dictionaryPinyin": "kuài lè",
+      "meaning": "vui vẻ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l213-v-385"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l214-c2",
+      "version": 1,
+      "senseId": "l214-v-440-sense",
+      "hanzi": "疼",
+      "dictionaryPinyin": "téng",
+      "meaning": "đau",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l214-v-440"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l214-c3",
+      "version": 1,
+      "senseId": "l214-v-468-sense",
+      "hanzi": "药",
+      "dictionaryPinyin": "yào",
+      "meaning": "thuốc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l214-v-468"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l214-c5",
+      "version": 1,
+      "senseId": "l214-v-388-sense",
+      "hanzi": "累",
+      "dictionaryPinyin": "lèi",
+      "meaning": "mệt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l214-v-388"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l215-c1",
+      "version": 1,
+      "senseId": "l215-v-475-sense",
+      "hanzi": "阴",
+      "dictionaryPinyin": "yīn",
+      "meaning": "trời âm u",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l215-v-475"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l283-guide",
+      "type": "teaching",
+      "title": "Chẩn đoán mẫu · không phải đề HSK",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l283-reminder0",
+      "type": "teaching",
+      "title": "跳舞 · nhảy múa, khiêu vũ",
+      "text": "跳舞 nói nhảy theo hoạt động múa/nhạc, không phải mọi cú nhảy lên. 舞 đọc thanh ba.",
+      "hanzi": "妹妹喜欢跳舞。",
+      "pinyin": "Mèimei xǐhuan tiàowǔ.",
+      "meaning": "Em gái thích nhảy múa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l283-reminder1",
+      "type": "teaching",
+      "title": "快乐 · vui vẻ",
+      "text": "快乐 dùng nói trạng thái vui hoặc lời chúc như 生日快乐. Không dùng 快乐 để nói tốc độ nhanh.",
+      "hanzi": "生日快乐！",
+      "pinyin": "Shēngrì kuàilè!",
+      "meaning": "Chúc sinh nhật vui vẻ!",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l283-reminder2",
+      "type": "teaching",
+      "title": "疼 · đau",
+      "text": "Trong bài dùng tính từ mô tả đau: 头疼. Không mở rộng sang nghĩa động từ thương yêu ở cấp khác.",
+      "hanzi": "我的头很疼。",
+      "pinyin": "Wǒ de tóu hěn téng.",
+      "meaning": "Đầu tôi rất đau.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l283-reminder3",
+      "type": "teaching",
+      "title": "药 · thuốc",
+      "text": "药 chỉ thuốc nói chung. Tên từ không cho biết loại thuốc, liều hay cách dùng; bài không hướng dẫn tự uống.",
+      "hanzi": "桌子上有药。",
+      "pinyin": "Zhuōzi shang yǒu yào.",
+      "meaning": "Trên bàn có thuốc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l283-reminder4",
+      "type": "teaching",
+      "title": "累 · mệt",
+      "text": "累 ở đây là tính từ mệt. Chưa phân tích nghĩa gây mệt hay kết quả làm ai mệt trong cấu trúc khác.",
+      "hanzi": "今天工作很多，我很累。",
+      "pinyin": "Jīntiān gōngzuò hěn duō, wǒ hěn lèi.",
+      "meaning": "Hôm nay nhiều việc, tôi rất mệt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l283-reminder5",
+      "type": "teaching",
+      "title": "阴 · trời âm u",
+      "text": "阴 nói trời nhiều mây/âm u, chưa tự cho biết có mưa. Đừng tự thêm thông tin mưa vào đáp án.",
+      "hanzi": "今天是阴天，不太热。",
+      "pinyin": "Jīntiān shì yīntiān, bú tài rè.",
+      "meaning": "Hôm nay trời âm u, không nóng lắm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l283-context0",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：你的爱好是什么？乙：我喜欢踢足球，也喜欢跳舞。甲：星期天一起踢球吧。乙：好！我妹妹不踢球，她去跳舞。",
+      "pinyin": "Jiǎ: Nǐ de àihào shì shénme? Yǐ: Wǒ xǐhuan tī zúqiú, yě xǐhuan tiàowǔ. Jiǎ: Xīngqītiān yìqǐ tī qiú ba. Yǐ: Hǎo! Wǒ mèimei bù tī qiú, tā qù tiàowǔ.",
+      "meaning": "A: Sở thích của bạn là gì? B: Tôi thích đá bóng, cũng thích nhảy múa. A: Chủ nhật cùng đá bóng nhé. B: Được! Em gái tôi không đá bóng, em đi nhảy múa.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l283-context1",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：你怎么了？乙：我头疼，身体不太舒服。甲：你今天去上班吗？乙：因为不舒服，所以我去看医生。",
+      "pinyin": "Jiǎ: Nǐ zěnme le? Yǐ: Wǒ tóu téng, shēntǐ bú tài shūfu. Jiǎ: Nǐ jīntiān qù shàng bān ma? Yǐ: Yīnwèi bù shūfu, suǒyǐ wǒ qù kàn yīshēng.",
+      "meaning": "A: Bạn sao vậy? B: Tôi đau đầu, không khỏe lắm. A: Hôm nay bạn đi làm không? B: Vì không khỏe nên tôi đi khám.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l283-context2",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：今天是晴天，我们去游泳吧？乙：是晴天，但是很冷。甲：那我们去书店吧。乙：好，因为书店离这里远，所以我们坐地铁去。",
+      "pinyin": "Jiǎ: Jīntiān shì qíngtiān, wǒmen qù yóuyǒng ba? Yǐ: Shì qíngtiān, dànshì hěn lěng. Jiǎ: Nà wǒmen qù shūdiàn ba. Yǐ: Hǎo, yīnwèi shūdiàn lí zhèlǐ yuǎn, suǒyǐ wǒmen zuò dìtiě qù.",
+      "meaning": "A: Hôm nay trời quang, đi bơi nhé? B: Trời quang nhưng rất lạnh. A: Vậy đến hiệu sách nhé. B: Được, vì hiệu sách xa đây nên chúng ta đi tàu điện ngầm.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l283-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l283-e0"
+    },
+    {
+      "id": "l283-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l283-e1"
+    },
+    {
+      "id": "l283-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l283-e2"
+    },
+    {
+      "id": "l283-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l283-e3"
+    },
+    {
+      "id": "l283-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l283-e4"
+    },
+    {
+      "id": "l283-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l283-e5"
+    },
+    {
+      "id": "l283-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l283-e6"
+    },
+    {
+      "id": "l283-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l283-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l283-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l213-c4",
+      "senseId": "l213-v-444-sense",
+      "keyRef": "l283-k0",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “nhảy múa, khiêu vũ” (tiào wǔ) viết 跳□. Điền chữ nào vào □?",
+      "choices": [
+        "备",
+        "比",
+        "笔",
+        "舞"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l283-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l213-c5",
+      "senseId": "l213-v-385-sense",
+      "keyRef": "l283-k1",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “vui vẻ” (kuài lè) viết 快□. Điền chữ nào vào □?",
+      "choices": [
+        "每",
+        "门",
+        "乐",
+        "慢"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l283-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l214-c2",
+      "senseId": "l214-v-440-sense",
+      "keyRef": "l283-k2",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “đau” (téng) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "忘",
+        "疼",
+        "网",
+        "往"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l283-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l214-c3",
+      "senseId": "l214-v-468-sense",
+      "keyRef": "l283-k3",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “thuốc” (yào) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "药",
+        "词",
+        "次",
+        "从"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l283-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l214-c5",
+      "senseId": "l214-v-388-sense",
+      "keyRef": "l283-k4",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “mệt” (lèi) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "每",
+        "门",
+        "拿",
+        "累"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l283-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l215-c1",
+      "senseId": "l215-v-475-sense",
+      "keyRef": "l283-k5",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “trời âm u” (yīn) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "等",
+        "店",
+        "阴",
+        "地"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l283-e6",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l214-c3",
+      "senseId": "l214-v-468-sense",
+      "keyRef": "l283-k6",
+      "prompt": "Ôn ngữ cảnh đã học · 7: Xếp câu: hôm nay tôi không khỏe lắm.",
+      "choices": [
+        "不太舒服",
+        "我",
+        "今天"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l283-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l214-c3",
+      "senseId": "l214-v-468-sense",
+      "keyRef": "l283-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Trong câu “桌子上有药。”, 药 mang nghĩa nào?",
+      "choices": [
+        "cơ thể, thể trạng",
+        "dễ chịu",
+        "đau",
+        "thuốc",
+        "hiệu thuốc",
+        "mệt"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l283-k0",
+      "version": 1,
+      "exerciseVersionId": "l283-e0",
+      "senseId": "l213-v-444-sense",
+      "accepted": [
+        "舞"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "跳舞 · tiào wǔ · nhảy múa, khiêu vũ. Chữ cần nhận diện là 舞."
+    },
+    {
+      "id": "l283-k1",
+      "version": 1,
+      "exerciseVersionId": "l283-e1",
+      "senseId": "l213-v-385-sense",
+      "accepted": [
+        "乐"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "快乐 · kuài lè · vui vẻ. Chữ cần nhận diện là 乐."
+    },
+    {
+      "id": "l283-k2",
+      "version": 1,
+      "exerciseVersionId": "l283-e2",
+      "senseId": "l214-v-440-sense",
+      "accepted": [
+        "疼"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "疼 · téng · đau. Chữ cần nhận diện là 疼."
+    },
+    {
+      "id": "l283-k3",
+      "version": 1,
+      "exerciseVersionId": "l283-e3",
+      "senseId": "l214-v-468-sense",
+      "accepted": [
+        "药"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "药 · yào · thuốc. Chữ cần nhận diện là 药."
+    },
+    {
+      "id": "l283-k4",
+      "version": 1,
+      "exerciseVersionId": "l283-e4",
+      "senseId": "l214-v-388-sense",
+      "accepted": [
+        "累"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "累 · lèi · mệt. Chữ cần nhận diện là 累."
+    },
+    {
+      "id": "l283-k5",
+      "version": 1,
+      "exerciseVersionId": "l283-e5",
+      "senseId": "l215-v-475-sense",
+      "accepted": [
+        "阴"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "阴 · yīn · trời âm u. Chữ cần nhận diện là 阴."
+    },
+    {
+      "id": "l283-k6",
+      "version": 1,
+      "exerciseVersionId": "l283-e6",
+      "senseId": "l214-v-468-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 因为 nêu nguyên nhân, 所以 nêu kết quả trong lời kể. Câu mô tả cảm giác không đủ để xác định một bệnh; chỉ chấm hiểu thông tin đã nêu."
+    },
+    {
+      "id": "l283-k7",
+      "version": 1,
+      "exerciseVersionId": "l283-e7",
+      "senseId": "l214-v-468-sense",
+      "accepted": [
+        "thuốc"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "药: thuốc. 药 chỉ thuốc nói chung. Tên từ không cho biết loại thuốc, liều hay cách dùng; bài không hướng dẫn tự uống. Trên bàn có thuốc."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

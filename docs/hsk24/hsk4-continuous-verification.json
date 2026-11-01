@@ -1,0 +1,443 @@
+{
+  "status": "HSK4_504_DRAFT / DELIVERY_PARTIAL_MOBILE_TODAY_GATE_OPEN",
+  "branch": "feat/hsk24-curriculum",
+  "baseline": "ff2b46c9d7bdee9d29b29e0563c4c60be5e6d1dd",
+  "contentFrozenCommit": "7d4cd833eb9af8423db26c8bb93a43fefaa87f55",
+  "testHelpersCommit": "53f0c04ef1d5cd6f3c77c9a7040474344b6dc00c",
+  "browserHarnessCommit": "fb8a925",
+  "perEvidenceSources": {
+    "unitSqlAndBuild": "53f0c04ef1d5cd6f3c77c9a7040474344b6dc00c",
+    "fiveUnchangedDesktopJourneys": "362d838d156c3f2b4fde207b1c67909386841ccc",
+    "repairedDesktopNavigationToday": "16917bd0aab98f9e0bba700fade48d1ed415eee8",
+    "finalMobileWebpack": "fb8a925",
+    "mobileWholeCaseBudgetMs": 300000,
+    "appSourceUnchangedFrom": "ff2b46c9d7bdee9d29b29e0563c4c60be5e6d1dd",
+    "content": "7d4cd833eb9af8423db26c8bb93a43fefaa87f55"
+  },
+  "assemblyGitHeadBeforePacketCommit": "5e30de96d38cf2c1d47ab6718314b4c6ddbdf629",
+  "assemblerFileSha256": "534696cd90d6a60266879cf0adef1a5728890cfe7013a896684cfac6fa958375",
+  "generatedAtUTC": "2026-10-27T16:34:21.659069+00:00",
+  "HSK4": {
+    "newBatchRange": [
+      10,
+      21
+    ],
+    "newIntroductionLessons": 48,
+    "newReviews": 4,
+    "newExercises": 416,
+    "vocabularyTaught": 504,
+    "remaining": 496,
+    "currentIntroductions": 84,
+    "currentReviews": 12,
+    "currentActivities": 96,
+    "currentExercises": 768,
+    "fiveDimensions": {
+      "grammarRowsMappedCandidates": 67,
+      "topicLeavesMapped": 52,
+      "taskHeadsReferenced": 19,
+      "recognitionCharacterRefs": 248,
+      "grammarRowsWithExplicitPartialPractice": 64,
+      "recognitionCharactersExplicitlyPracticed": 103,
+      "recognitionPracticeExercises": 118,
+      "fullyAcceptedGrammarRows": 0,
+      "fullyAcceptedTaskBullets": 0,
+      "qualifiedHumanReviews": 0
+    },
+    "correctedBaseline": {
+      "vocabulary": 216,
+      "grammarMapped": 32,
+      "grammarPartialPractice": 29,
+      "recognitionReferenced": 108,
+      "recognitionPracticed": 47,
+      "topicLeaves": 31,
+      "taskHeads": 16
+    },
+    "fiveDimensionDelta": {
+      "vocabulary": 288,
+      "grammarMapped": 35,
+      "grammarPartialPractice": 35,
+      "recognitionReferenced": 140,
+      "recognitionPracticed": 56,
+      "topicLeaves": 21,
+      "taskHeads": 3
+    }
+  },
+  "tests": {
+    "unit": {
+      "path": ".local-postgres/hsk24/hsk4-continuous-unit.log",
+      "sha256": "ba8036c3669f12e6281a4a71fb3574fcda8943616a8a333984237e5bbb0addc4",
+      "tests": 121,
+      "pass": 121,
+      "fail": 0,
+      "skipped": 0
+    },
+    "sqlGroups": [
+      {
+        "path": ".local-postgres/hsk24/hsk4-batch10-11-final-sql.log",
+        "sha256": "cc6bfcb86855b1278da9213f386436865bf668b9794f784d0c36b9275d438269",
+        "tests": 12,
+        "pass": 12,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-batch12-sql.log",
+        "sha256": "677a1da9b65aea73623d856885bcab736acaebdb5e8a3185286b31adf040e45f",
+        "tests": 6,
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-batch13-sql.log",
+        "sha256": "97f1c5bdc0f3cf92c65fe71a78f298dd9be162ad67c0fe3a84273becc3a25596",
+        "tests": 6,
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-batch14-sql.log",
+        "sha256": "e8044d7afcaf4500a3367bd76ccd3440854613ef11a7447c89aefc9731914f30",
+        "tests": 6,
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-batch15-sql.log",
+        "sha256": "385a2fa4e2991a3479df4d65e3c374ac392e91e3abc0fbfd8a3e86439733a323",
+        "tests": 6,
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-batch16-sql.log",
+        "sha256": "bca3b4c99f806ee719b9982df6963f78c84df45ea35e91f566c3622a2903e283",
+        "tests": 6,
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-batch17-sql.log",
+        "sha256": "dc226383cebba458ec826d7c89da46c70f58360183d2367c2a92aef0b35c920f",
+        "tests": 6,
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-batch18-sql.log",
+        "sha256": "c267f84e8077b0b25fb18243fc530cead98a509868e5f1e0a25db8ce0822a6c1",
+        "tests": 8,
+        "pass": 8,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-batch19-sql.log",
+        "sha256": "312cc3aa67315b614b012bab35779044ce274ec9c98d8d7298622f2ab72f25f3",
+        "tests": 6,
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-batch20-sql.log",
+        "sha256": "e90ab79a94c9c754b1d7f0489fa59390f2630d03979034681534641b8e41f16e",
+        "tests": 6,
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-batch21-sql.log",
+        "sha256": "769299b97a4be742a51c0bbbdb9bed22de36e700b44b2c50b764a346cc9087fa",
+        "tests": 8,
+        "pass": 8,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-continuous-all-new-sql.log",
+        "sha256": "f0c482e38e6f5f7262eff66a21d5cdcd51738f0d0b56b22f96e410f35608a894",
+        "tests": 56,
+        "pass": 56,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-continuous-library-sql.log",
+        "sha256": "3ad031149f5a71d2173c3c5e88ef8fac299efb84ca8a49828a0c0a63eb6c46bf",
+        "tests": 3,
+        "pass": 3,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-continuous-hsk2-sql.log",
+        "sha256": "1219d9348ce1597bbe2b025978ecb43091d7a8b2806c296137ff1ea582ecd369",
+        "tests": 6,
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-continuous-hsk3-sql.log",
+        "sha256": "ea026474dd1d514668c4837c21d7996a3c0bb10ed6b132edd05806b4d5462e71",
+        "tests": 6,
+        "pass": 6,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-continuous-manifest-sql.log",
+        "sha256": "8378487a1d002547791b023fc751891677100534f20613cf41d582490020b317",
+        "tests": 1,
+        "pass": 1,
+        "fail": 0,
+        "skipped": 0
+      }
+    ],
+    "sqlAcceptedExecutions": 148,
+    "browser": {
+      "path": "docs/hsk24/hsk4-continuous-browser-evidence.json",
+      "sha256": "b257ab0df423cfbf01979a9f171a0b1619e7414a72bb653f725da19fd32c334e",
+      "pass": 11,
+      "fail": 1,
+      "skipped": 0,
+      "flaky": 0
+    }
+  },
+  "sourceAudit": {
+    "references": 2288,
+    "vocabularyLocators": 2000,
+    "sourcePdfSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "pages": 406
+  },
+  "database": "csh_hsk24_bf294b6506c1",
+  "databaseCanonicalManifests": {
+    "database": "csh_hsk24_bf294b6506c1",
+    "checkedAt": "2026-10-27T16:28:21.143Z",
+    "readOnly": true,
+    "allCanonicalDatabaseManifestsMatchLocalVersions": true,
+    "versions": 351,
+    "bindingsSha256": "6cdee522764cacf7910360439d35982d62b21f44129b8e3ad787c1c59de2da8f"
+  },
+  "preservedRunBaseline": {
+    "packages": 295,
+    "attempts": 1453,
+    "sessions": 706,
+    "cards": 1013
+  },
+  "preservedOriginalBaseline": {
+    "packages": 237,
+    "attempts": 110,
+    "sessions": 218,
+    "cards": 67
+  },
+  "finalRecordedRows": {
+    "packages": 351,
+    "attempts": 2337,
+    "sessions": 1179,
+    "cards": 1650
+  },
+  "immutableVersions": {
+    "oldExpansionVersionsUnchanged": 289,
+    "newVersions": 56,
+    "totalExpansion": 345,
+    "currentExpansion": 286,
+    "historicalExpansion": 59,
+    "totalServerIncludingBase": 351,
+    "baselineSourceReferencesUnchanged": 1784
+  },
+  "closureReady": false,
+  "mobileTodayStatus": "FAILED_15S_SCHEDULE_SAVE_NAVIGATION_ASSERTION",
+  "performanceStatus": "PARTIAL: foundationfourlookups and all96visible pass; corpus-independent curriculum/Today NOT IMPLEMENTED",
+  "performance": "docs/hsk24/hsk4-continuous-performance.json",
+  "contentReview": "docs/hsk24/hsk4-continuous-content-review.json",
+  "independentFinalTechnicalReview": "VERIFIED_PARTIAL_DELIVERY / MOBILE_TODAY_GATE_OPEN",
+  "technicalReviewReceipt": "docs/hsk24/hsk4-continuous-technical-review.json",
+  "intermediateFailures": {
+    "mobileTransport": {
+      "pass": 0,
+      "fail": 1,
+      "skipped": 3,
+      "cause": "Turbopackdev300s run failed on GET ECONNRESET atstep2; PGremainedavailable. Separate from180sdeadline/serviceoutage. Rootcauseunproven."
+    },
+    "mobileCaseBudget": {
+      "rawPass": 0,
+      "rawFail": 1,
+      "rawSkipped": 3,
+      "measured": "135HTTP200/no5xx, whole180scaseexhaustedatstep15/17",
+      "rerunWholeCaseBudgetMs": 300000,
+      "perAssertionBudgetMs": 15000,
+      "appLimitsChanged": false,
+      "meaning": "Functionaltestbudget only; performance remainsPARTIAL",
+      "rationale": ".local-postgres/hsk24/hsk4-continuous-mobile-budget-rationale.json"
+    },
+    "interruptedMobile": {
+      "observedPass": 1,
+      "aggregate": "No complete reporterJSON; not counted in finalacceptedcases",
+      "cause": "PGlog records backend exception0x40010004 duringCOMMIT following a user/tool interruption; process-lifecycle causation is an inference from timing, not proven by thecode alone. Existingcluster restored via separate hidden process; protectedrow hashes reverified.",
+      "log": ".local-postgres/hsk24/hsk4-continuous-mobile-interrupted.log"
+    },
+    "databaseService": {
+      "rawRunPass": 0,
+      "rawRunFail": 1,
+      "rawRunSkipped": 2,
+      "cause": "After a multi-hour host interruption, project port5447 had no listener; direct probe returned ECONNREFUSED. This was not evidence of a catalogloading503regression.",
+      "action": "Restarted the existing .local-postgres/data cluster only; exactbfDB identity and full protectedrow hashes verified after automaticWALrecovery. No init/reset/migration/database switch.",
+      "receipt": ".local-postgres/hsk24/hsk4-continuous-service-recovery.json"
+    },
+    "navigationBrowser": {
+      "pass": 5,
+      "fail": 1,
+      "skipped": 10,
+      "reason": "Test assumed initial Luyện label after journey completion; actual Luyện lại link and pinned URL were correct. State-aware navigation/replay locator corrected; app unchanged.",
+      "retainedArchive": ".local-postgres/hsk24/hsk4-continuous-navigation-failure.zip"
+    },
+    "cliDiscovery": {
+      "exit": 1,
+      "testsExecuted": 0,
+      "reason": "--project variadic consumed filenames; corrected --project=desktop"
+    },
+    "focusedLint": {
+      "initialExit": 1,
+      "finding": "New repair helper used let for an unreassigned object; corrected to const; focused lint rerun passes"
+    },
+    "initialUnit": {
+      "pass": 117,
+      "fail": 4,
+      "skipped": 0,
+      "cause": "Global expansion environment was inappropriate for base-only fixtures; identical tests pass after scoped environment correction."
+    },
+    "initialBrowser": {
+      "completedFailuresObserved": 1,
+      "aggregate": "ABORTED; no complete aggregate JSON retained",
+      "cause": "Observed repeated HMR/FastRefresh navigation at onboarding, before lesson grading; not the prior503library defect",
+      "repair": "Harness uses existing project devcommand --no-server-fast-refresh; maxFailures1; no timeout or auth relaxation",
+      "retention": "Firstcompletedtrace and originalrawlog were inspected but lost in an archive/rerun race. Partial interruptedsecondworker .trace/.network files and conversation diagnostics survive. Emptyinitiallog is not evidence."
+    }
+  },
+  "limits": [
+    "MobileToday schedule-save/navigation fails15sassertion; mobile resume gate remainsopen",
+    "No qualified human language/rights/publication/mastery approval",
+    "Exact assisted text is not open writing, speaking, listening, handwriting or official mock equivalence",
+    "Source grammar rows are explicit subalternatives; not fully accepted rows",
+    "L403/404 shallow ordering and L424 pronoun-slot gap remain",
+    "Database proof covers recorded package/attempt/session/card rows, not fullbackup/restore",
+    "New HSK4 vocabulary remains496 entries short; namespaceextension needed before batch22",
+    "Local timing observations are not cloudSLA; fullservercorpus validation remains"
+  ],
+  "policy": {
+    "localOnly": true,
+    "push": false,
+    "merge": false,
+    "deploy": false,
+    "paidResources": false,
+    "cloudWrites": false,
+    "authRlsChanged": false,
+    "canonicalTaskStatusChanged": false,
+    "humanReview": false,
+    "publication": "BLOCKED",
+    "mastery": null
+  },
+  "nextCheckpoint": "docs/hsk24/hsk4-production-next-checkpoint.json",
+  "preview": "http://127.0.0.1:3037/learn/courses/HSK4",
+  "previewBundler": "Webpack opt-in via CSH_HSK24_PREVIEW_WEBPACK=1; localdevelopmentidentity only",
+  "clientArtifactScans": {
+    "": {
+      "passed": true,
+      "scope": "Production default with local expansion disabled",
+      "files": 32,
+      "bytes": 966566,
+      "privateKeyIdsChecked": 2760,
+      "markerHits": 0,
+      "artifactDigest": "9a3804d3a3329145fc10148376b49ad3c70f4eb4aa1b09ef70acec19f0097902",
+      "limits": "Bounded marker scan plus per-package public projection tests; not a formal leak proof. Server-provided draft feedback after submission remains expected."
+    },
+    "dev-": {
+      "passed": true,
+      "scope": "Immutable actualWebpackdevelopment JS/maps after seven read-only HTML routes; active preview may generate later assets outside this snapshot.",
+      "files": 83,
+      "bytes": 30188601,
+      "privateKeyIdsChecked": 2760,
+      "markerHits": 0,
+      "artifactDigest": "92fa0ba5f13bb9b604e80a6db4b6e12810ddbd2a103c9e1c93ef9b64cd2d5e3c",
+      "archive": ".local-postgres/hsk24/hsk4-continuous-dev-client-artifacts.zip",
+      "archiveSha256": "b9fc525d5d1d92a8dcf3c4db727c8d06a92d7c1f40dd4f384f82b1e0b136610c",
+      "manifest": ".local-postgres/hsk24/hsk4-continuous-dev-client-artifacts.json",
+      "manifestSha256": "184a407ea25026bf9b7050df8f27603b6dfa6458f329a94fbb33bc683974f837",
+      "limits": "Bounded private-key-ID scan plus separate public projection tests; not a formal leak proof or claim about future livepreview assets."
+    }
+  },
+  "evidenceFiles": {
+    ".local-postgres/hsk24/hsk4-batch10-11-final-sql.log": "cc6bfcb86855b1278da9213f386436865bf668b9794f784d0c36b9275d438269",
+    ".local-postgres/hsk24/hsk4-batch12-sql.log": "677a1da9b65aea73623d856885bcab736acaebdb5e8a3185286b31adf040e45f",
+    ".local-postgres/hsk24/hsk4-batch13-sql.log": "97f1c5bdc0f3cf92c65fe71a78f298dd9be162ad67c0fe3a84273becc3a25596",
+    ".local-postgres/hsk24/hsk4-batch14-sql.log": "e8044d7afcaf4500a3367bd76ccd3440854613ef11a7447c89aefc9731914f30",
+    ".local-postgres/hsk24/hsk4-batch15-sql.log": "385a2fa4e2991a3479df4d65e3c374ac392e91e3abc0fbfd8a3e86439733a323",
+    ".local-postgres/hsk24/hsk4-batch16-sql.log": "bca3b4c99f806ee719b9982df6963f78c84df45ea35e91f566c3622a2903e283",
+    ".local-postgres/hsk24/hsk4-batch17-sql.log": "dc226383cebba458ec826d7c89da46c70f58360183d2367c2a92aef0b35c920f",
+    ".local-postgres/hsk24/hsk4-batch18-sql.log": "c267f84e8077b0b25fb18243fc530cead98a509868e5f1e0a25db8ce0822a6c1",
+    ".local-postgres/hsk24/hsk4-batch19-sql.log": "312cc3aa67315b614b012bab35779044ce274ec9c98d8d7298622f2ab72f25f3",
+    ".local-postgres/hsk24/hsk4-batch20-sql.log": "e90ab79a94c9c754b1d7f0489fa59390f2630d03979034681534641b8e41f16e",
+    ".local-postgres/hsk24/hsk4-batch21-sql.log": "769299b97a4be742a51c0bbbdb9bed22de36e700b44b2c50b764a346cc9087fa",
+    ".local-postgres/hsk24/hsk4-continuous-all-new-sql.log": "f0c482e38e6f5f7262eff66a21d5cdcd51738f0d0b56b22f96e410f35608a894",
+    ".local-postgres/hsk24/hsk4-continuous-library-sql.log": "3ad031149f5a71d2173c3c5e88ef8fac299efb84ca8a49828a0c0a63eb6c46bf",
+    ".local-postgres/hsk24/hsk4-continuous-hsk2-sql.log": "1219d9348ce1597bbe2b025978ecb43091d7a8b2806c296137ff1ea582ecd369",
+    ".local-postgres/hsk24/hsk4-continuous-hsk3-sql.log": "ea026474dd1d514668c4837c21d7996a3c0bb10ed6b132edd05806b4d5462e71",
+    ".local-postgres/hsk24/hsk4-continuous-manifest-sql.log": "8378487a1d002547791b023fc751891677100534f20613cf41d582490020b317",
+    ".local-postgres/hsk24/hsk4-continuous-unit.log": "ba8036c3669f12e6281a4a71fb3574fcda8943616a8a333984237e5bbb0addc4",
+    "docs/hsk24/hsk4-continuous-browser-evidence.json": "b257ab0df423cfbf01979a9f171a0b1619e7414a72bb653f725da19fd32c334e",
+    ".local-postgres/hsk24/hsk4-continuous-before.json": "80b9175d54d36ffaf412ebae82d5c40986b120fc795b16924f4097b87bc783a9",
+    ".local-postgres/hsk24/hsk4-continuous-after.json": "85347ecad7432b343f5fed86114e1987f0a10249af10663f39791207b2f00994",
+    ".local-postgres/hsk24/hsk4-continuous-schema.json": "613ef8dfe4b809c189f9b5a833221fdb870df9dfa3f678a6cdf091d86b5c65d6",
+    ".local-postgres/hsk24/hsk4-continuous-code-checks.json": "50198b00b0cabf23e2ca2ac2ea9fce72a867e7f2685da7e8aa67913db7b20d92",
+    ".local-postgres/hsk24/hsk4-continuous-client-isolation.json": "6cc505bac7d5069b86b0a1bfe57a2b600dffc68df3e6ec4bc43ec78e7b010942",
+    ".local-postgres/hsk24/hsk4-continuous-dev-client-isolation.json": "853de9c45c34248fdc2e6e0254e1933ab25db4ee72b5ef9f3e5a7f9426393292",
+    ".local-postgres/hsk24/hsk4-continuous-dev-client-artifacts.zip": "b9fc525d5d1d92a8dcf3c4db727c8d06a92d7c1f40dd4f384f82b1e0b136610c",
+    ".local-postgres/hsk24/hsk4-continuous-dev-client-artifacts.json": "184a407ea25026bf9b7050df8f27603b6dfa6458f329a94fbb33bc683974f837",
+    ".local-postgres/hsk24/hsk4-continuous-source-audit.log": "930cd0a73a4ac667607121901dbd85d569890dc6d5d652c731c0e65cf6686671",
+    ".local-postgres/hsk24/hsk4-continuous-initial-unit.log": "abee627e05f4883f5360456a7e61ad108c57eaa127c7de4145b04f698f5642d3",
+    ".local-postgres/hsk24/hsk4-continuous-library-bounds.json": "ccd66627fe39c96f3ac31d75e38f670b50fc6803bcd0f2bd2649c504faefb751",
+    ".local-postgres/hsk24/hsk4-continuous-database-content-check.json": "909020927c591efae146b663da75f4b71554ed20b783b860472cc0fca9f912a2",
+    ".local-postgres/hsk24/hsk4-continuous-final-typecheck.log": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914",
+    ".local-postgres/hsk24/hsk4-continuous-final-lint.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    ".local-postgres/hsk24/hsk4-continuous-initial-focused-lint.log": "294359ba196910ade8f177576740098b0455eb5bd79f1381dfefd1bcfb7eb1de",
+    "docs/hsk24/hsk4-grammar-row-bindings.json": "3909c4d4a4607796e6e60ba5e7852aa8e19f4e62fb963b03fe81e5b7519a82d9",
+    "docs/hsk24/hsk4-continuous-content-review.json": "0b633850fc66128f147feb5b568e605cb1c69af5f0dbc772cd6ad608ae8753b4",
+    "docs/hsk24/hsk4-continuous-performance.json": "63fee1efa40a462a3f0623a131c72986bdf7c84694500d49b23317c283eda966",
+    "docs/hsk24/hsk4-coverage.json": "67fbce372053a11d590d3d6c35cf1bd49af13f00a273b862213fdb5034594582",
+    "docs/hsk24/hsk4-instruction-evidence.json": "24dcce006f44189f57185e7e1e7d54965c7e4c9402df958a14024c785c8ef19d",
+    ".local-postgres/hsk24/hsk4-continuous-browser-attempt2.json": "e0b12746f19e9b55a75bcddab245ddb5d99d78e0ad28922df23840818214d3bb",
+    ".local-postgres/hsk24/hsk4-continuous-desktop-final.json": "bc968439abfa352092ed2d1098fa27a3a03330b89301d1fa8f066d4590e2e1a7",
+    ".local-postgres/hsk24/hsk4-continuous-mobile-final.json": "95a960790f461936d719993e3e205c03cbbcedf85adc8a1daf44bb55929831a3",
+    ".local-postgres/hsk24/hsk4-continuous-navigation-failure.zip": "72d161d2f7cbddec559d0a8ee1ce7690da7fe56e326a048f0b254f6c70e876d3",
+    ".local-postgres/hsk24/hsk4-continuous-initial-browser-diagnostics.json": "4760a5f853c0f81ff06b5e16300b46e9643882846c7986613000f9cf36b12687",
+    ".local-postgres/hsk24/hsk4-continuous-browser-cli-discovery-error.log": "dc8a2ba1dde7e023a05bc73073a52c89642190e5da36c3bc1ef3d648b3249a98",
+    ".local-postgres/hsk24/hsk4-continuous-db-unavailable-browser.json": "296e86943a4b1ac8dfefeab9d5996996ca1e109f9902d786d26a4f37bbad3e27",
+    ".local-postgres/hsk24/hsk4-continuous-db-unavailable-browser.log": "11cbb8b8d68c9a66ed5ac0a301371a639e1c4bcea441514df086608b8f8f6d28",
+    ".local-postgres/hsk24/hsk4-continuous-db-unavailable-browser.zip": "087b94df2e3d265fb8610ee8069a50acbe9b1953ea4e6800b4d815dba5e4ca56",
+    ".local-postgres/hsk24/hsk4-continuous-service-recovery.json": "6c75d4f8529604d9266d56025cc49c7dd3b9150726b27fe136dc05d194f0779b",
+    ".local-postgres/hsk24/hsk4-continuous-postgres-restart.log": "00aafd7dadbfba99b6a1ca06a715136d742707f6d528ddea5e422be68b204172",
+    ".local-postgres/hsk24/hsk4-continuous-mobile-interrupted.log": "1fc419d2fe55de66fa8ce333c1e9f957f0f876fe2cd384a89780caa56e3b5193",
+    ".local-postgres/hsk24/hsk4-continuous-mobile-budget-failure.json": "8b799f91c0efafd2784e1752d760a322c67669c45b276a53058d3405584b1e16",
+    ".local-postgres/hsk24/hsk4-continuous-mobile-budget-failure.log": "68814062f33bfb99dd33feb7d449def4b4d78953deb19bc6abc8948b918ddac7",
+    ".local-postgres/hsk24/hsk4-continuous-mobile-budget-failure.zip": "f0084fb9894bebff3f5597ff0112a62b4dcb6ce30b20da3eb9f48f10eb11ec86",
+    ".local-postgres/hsk24/hsk4-continuous-mobile-budget-rationale.json": "42cc60a4ef67d2ab85277372aa15972013e8a4cb859e2848d4d052a569810cfa",
+    ".local-postgres/hsk24/hsk4-continuous-mobile-transport-failure.json": "d9b05fb197554b89d66912011b578f2a0e00385c801513db3118ad122443b722",
+    ".local-postgres/hsk24/hsk4-continuous-mobile-transport-failure.log": "efba25b3adc5cd42c5c1e05bcb3d995f6d0aa0546b2ac807381072ec6562b56d",
+    ".local-postgres/hsk24/hsk4-continuous-mobile-transport-failure.zip": "232615e6f91f4701fb2fa5492adce1642d14d214fb7bbb4583b7ea53d73158b0",
+    ".local-postgres/hsk24/hsk4-continuous-mobile-today-failure.zip": "9f8b24c6dc8a0bec8412ee0c7477f14c020dfef24e8182580ec96fd5fbbb13e2",
+    ".local-postgres/hsk24/hsk4-continuous-preview-readback.json": "755a3d0d0ccf92775f4f81f29327f44ceb57614d3ab7f8e3fe8df190affb4bd9",
+    ".local-postgres/hsk24/hsk4-continuous-preview-pages.json": "74af9a3f0ef9802196f40aa1fdc2fc3f1932b0b2bad3a3302a036ff3b5280d56",
+    ".local-postgres/hsk24/hsk4-continuous-initial-browser-traces/.playwright-artifacts-1/traces/bf222bad70f76648f722-e5584f65a85590abd37e-recording1.network": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    ".local-postgres/hsk24/hsk4-continuous-initial-browser-traces/.playwright-artifacts-1/traces/bf222bad70f76648f722-e5584f65a85590abd37e-recording1.trace": "c8f844b84705c8554fdb5c7ccdc6304476466e0d5967a911ab58d362787c0af5",
+    ".local-postgres/hsk24/hsk4-continuous-initial-browser-traces/.playwright-artifacts-1/traces/bf222bad70f76648f722-e5584f65a85590abd37e.network": "7e1dca58f79eda30b08c6675143073e1f5e67e83317c931b925a24558cdc1f79",
+    ".local-postgres/hsk24/hsk4-continuous-initial-browser-traces/.playwright-artifacts-1/traces/bf222bad70f76648f722-e5584f65a85590abd37e.trace": "9beb03ecaa171d689a87a3b5d2883ab8970c02bd2055c5b914b0dfd874620b25"
+  }
+}

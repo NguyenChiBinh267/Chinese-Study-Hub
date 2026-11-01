@@ -1,0 +1,1439 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "552e76fb3eabade99a213ad820f8fac52be97b984346cef719d99043749b0642",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "ask-for-help",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L240",
+    "version": 1,
+    "versionId": "l240-draft-v1",
+    "title": "Giới thiệu công việc và nhờ giúp",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc trao đổi về vai trò công việc, đối tượng nhận đồ và lời nhờ.",
+      "Vận dụng trong tình huống mới; không cấp mastery hay chứng nhận nghe/nói."
+    ],
+    "prerequisites": [
+      "l217-draft-v1",
+      "l206-draft-v1",
+      "l231-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "Giới thiệu công việc và nhờ giúp"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 9,
+      "physicalPage": 10,
+      "printedPage": 7,
+      "section": "task",
+      "entry": "六 / 做出选择"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-choice",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 9,
+          "physicalPage": 10,
+          "printedPage": 7,
+          "section": "task",
+          "entry": "六 / 做出选择"
+        },
+        "written": "日常言语交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-task-shopping",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "九"
+        },
+        "written": "问答商品情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-work",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 12,
+          "physicalPage": 13,
+          "printedPage": 10,
+          "section": "task",
+          "entry": "十五"
+        },
+        "written": "交流工作情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-interaction",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交往 / 简单互动行为"
+        },
+        "written": "简单互动行为",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-shopping",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 购物 / 商品选购"
+        },
+        "written": "商品选购",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-work-feelings",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 61,
+          "physicalPage": 62,
+          "printedPage": 59,
+          "section": "topic",
+          "entry": "职场生活 / 工作情况 / 工作经历、工作感受"
+        },
+        "written": "工作经历、工作感受",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-closure-topic-61-7",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 61,
+          "physicalPage": 62,
+          "printedPage": 59,
+          "section": "topic",
+          "entry": "职场生活 / 职业 / 职业状况"
+        },
+        "written": "职业状况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact tertiary source topic; written scenario only, not all communication modalities."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l217-v-305",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 305"
+        },
+        "written": "帮",
+        "pinyin": "bāng",
+        "senseId": "l217-v-305-sense",
+        "ordinal": 305,
+        "note": "2 bāng 动; 帮 có thể đứng trước người và hoạt động: 帮我拿书. Cần rõ ai được giúp và làm việc gì. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l217-v-306",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 306"
+        },
+        "written": "帮忙",
+        "pinyin": "bāngmáng",
+        "senseId": "l217-v-306-sense",
+        "ordinal": 306,
+        "note": "2 bāngmáng 动; 帮忙 dùng như hoạt động giúp đỡ: 请来帮忙. Không đặt người ngay sau toàn từ theo kiểu 帮忙我. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l217-v-343",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 343"
+        },
+        "written": "告诉",
+        "pinyin": "gàosu",
+        "senseId": "l217-v-343-sense",
+        "ordinal": 343,
+        "note": "2 gàosu 动; 告诉 thường nêu người nhận thông tin: 告诉我. 诉 đọc nhẹ trong từ này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l217-v-369",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 369"
+        },
+        "written": "介绍",
+        "pinyin": "jièshào",
+        "senseId": "l217-v-369-sense",
+        "ordinal": 369,
+        "note": "2 jièshào 动; 介绍 là làm người nghe biết một người/sự việc. 给你介绍一位老师 là giới thiệu một giáo viên với bạn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l217-v-313",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 313"
+        },
+        "written": "不好意思",
+        "pinyin": "bù hǎoyìsi",
+        "senseId": "l217-v-313-sense",
+        "ordinal": 313,
+        "note": "2 bù hǎoyìsi; 不好意思 dùng khi làm phiền hoặc cảm thấy ngại, không chỉ là ‘ý nghĩa không tốt’. Tình huống nghiêm trọng cần cách xin lỗi phù hợp hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l217-v-422",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 422"
+        },
+        "written": "让",
+        "pinyin": "ràng",
+        "senseId": "l217-v-422-sense",
+        "ordinal": 422,
+        "note": "2（4） ràng 动、（介）; Trong 请让他进来, 让 là động từ cho phép người kia vào. Không dạy nghĩa giới từ cấp cao hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l206-v-424",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 424"
+        },
+        "written": "商场",
+        "pinyin": "shāngchǎng",
+        "senseId": "l206-v-424-sense",
+        "ordinal": 424,
+        "note": "2 shāngchǎng 名; 商场 là nơi có hoạt động bán hàng, không phải mọi cửa hàng nhỏ. 去商场 là đến khu mua sắm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l206-v-312",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 312"
+        },
+        "written": "不错",
+        "pinyin": "búcuò",
+        "senseId": "l206-v-312-sense",
+        "ordinal": 312,
+        "note": "2 búcuò 形; 不错 thường là lời nhận xét tích cực ‘khá tốt’, không đơn thuần là ‘không có lỗi’. Nói búcuò do 不 trước thanh bốn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l206-v-399",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 399"
+        },
+        "written": "每",
+        "pinyin": "měi",
+        "senseId": "l206-v-399-sense",
+        "ordinal": 399,
+        "note": "2（4） měi 代、（副）; Mỗi món dùng 每 + lượng từ + danh từ: 每条裤子. Bài chỉ dạy cách dùng đại từ này, không mở rộng nghĩa phó từ cấp cao hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l206-v-443",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 443"
+        },
+        "written": "条",
+        "pinyin": "tiáo",
+        "senseId": "l206-v-443-sense",
+        "ordinal": 443,
+        "note": "2（5） tiáo 量、（名）; Trong bài dùng 条 để đếm quần: 一条裤子. Đây là lượng từ, không dạy nghĩa danh từ ‘dải’ thuộc phạm vi cao hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l206-v-405",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 405"
+        },
+        "written": "拿",
+        "pinyin": "ná",
+        "senseId": "l206-v-405-sense",
+        "ordinal": 405,
+        "note": "2 ná 动; 拿 là cầm/lấy, không có nghĩa mua. Có thể cầm xem một món rồi không mua. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l206-v-437",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 437"
+        },
+        "written": "送",
+        "pinyin": "sòng",
+        "senseId": "l206-v-437-sense",
+        "ordinal": 437,
+        "note": "2 sòng 动; Bài này luyện nghĩa tặng quà: 送给妈妈. Không dùng câu này để suy ra nghĩa tiễn/đưa người trong ngữ cảnh khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l231-v-382",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 382"
+        },
+        "written": "可能",
+        "pinyin": "kěnéng",
+        "senseId": "l231-v-382-sense",
+        "ordinal": 382,
+        "note": "2 kěnéng 形、名、动; 可能 trong câu là tình thái có thể xảy ra; không đồng nghĩa chắc chắn hoặc được cho phép trong mọi câu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l231-v-455",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 455"
+        },
+        "written": "希望",
+        "pinyin": "xīwàng",
+        "senseId": "l231-v-455-sense",
+        "ordinal": 455,
+        "note": "2 xīwàng 动; 希望 nêu mong muốn, không bảo đảm kết quả. Tôi mong bạn đến không có nghĩa bạn đã đồng ý đến. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l231-v-352",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 352"
+        },
+        "written": "还是",
+        "pinyin": "háishi",
+        "senseId": "l231-v-352-sense",
+        "ordinal": 352,
+        "note": "2 háishi 副、连; Bài dạy 还是 nối lựa chọn, không dạy nghĩa vẫn/còn trong ngữ cảnh khác. Thường trả lời bằng phương án đã chọn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l231-v-330",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 330"
+        },
+        "written": "但",
+        "pinyin": "dàn",
+        "senseId": "l231-v-330-sense",
+        "ordinal": 330,
+        "note": "2（7-9） dàn 连、（副）; 但 là liên từ nối ý tương phản, nghĩa gần 但是 trong ví dụ này. Không mở rộng nghĩa phó từ cấp cao hơn theo chú thích nguồn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l231-v-334",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 334"
+        },
+        "written": "等1",
+        "pinyin": "děng",
+        "senseId": "l231-v-334-sense",
+        "ordinal": 334,
+        "note": "2（4） děng 动、（介）; 等1 ở đây là động từ đợi ai hoặc đợi một lúc. Không dùng nghĩa giới từ như đến khi thuộc cấp khác để trả lời. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l231-v-301",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 301"
+        },
+        "written": "啊",
+        "pinyin": "a",
+        "senseId": "l231-v-301-sense",
+        "ordinal": 301,
+        "note": "2 a 助; 啊 trong 你明天来啊 bổ sung sắc thái xác nhận/nhắc. Nó không phải mục từ mang nghĩa lịch cụ thể; bài dùng cách ghi a của từ điển, không chấm các biến âm nối lời. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-2",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "2"
+        },
+        "written": "帮",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 2,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-22",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "22"
+        },
+        "written": "告",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 22,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-79",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "79"
+        },
+        "written": "诉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 79,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-35",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "35"
+        },
+        "written": "介",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 35,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-71",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "71"
+        },
+        "written": "绍",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 71,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-106",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "106"
+        },
+        "written": "意",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 106,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-77",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "77"
+        },
+        "written": "思",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 77,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-68",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "68"
+        },
+        "written": "让",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 68,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-9",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "9"
+        },
+        "written": "场",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 9,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-13",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "13"
+        },
+        "written": "错",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 13,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-56",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "56"
+        },
+        "written": "每",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 56,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-58",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "58"
+        },
+        "written": "拿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 58,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-78",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "78"
+        },
+        "written": "送",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 78,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-97",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "97"
+        },
+        "written": "希",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 97,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-93",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "93"
+        },
+        "written": "望",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 93,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-14",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "14"
+        },
+        "written": "但",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 14,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-16",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "16"
+        },
+        "written": "等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 16,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-1",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "1"
+        },
+        "written": "啊",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 1,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-causative",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "特殊句式 / 兼语句1"
+        },
+        "written": "兼语句1",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-g-every",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "代词 / 指示代词 / 每"
+        },
+        "written": "那么、那样、这么、这样、每",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-g-possibility",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "动词 / 能愿动词 / 可能"
+        },
+        "written": "可能",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-closure-g-390-2",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "table-body-row-2"
+        },
+        "written": "主语+动词+给+宾语1+宾语2",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact table row 8ef21870258a2f220d24e376c438e51191da9e716b54cca5eec8973d2dca9e8c; this activity covers only the explicitly taught subalternative, not every alternative in a row."
+      },
+      {
+        "id": "h2-closure-g-388-24",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "table-body-row-24"
+        },
+        "written": "给",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact table row ce75bc877c9ba8b9437f5c5a167cfe9a1a1db9e88084cfea1a4edc1804e23b3f; this activity covers only the explicitly taught subalternative, not every alternative in a row."
+      },
+      {
+        "id": "h2-closure-g-389-24",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "table-body-row-24"
+        },
+        "written": "表示说明或特征",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact table row 4612e59e2edb72ea32be4447f6cf7862ecf171bcfe7b3b7f04ccca152e3f4848; this activity covers only the explicitly taught subalternative, not every alternative in a row."
+      },
+      {
+        "id": "h2-closure-g-388-20",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "table-body-row-20"
+        },
+        "written": "都2、就2、还是1",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact table row 7ea3275219ffbaab49b514e1ed0732b8be9755d1615d61dd0859aa2a3056d2a9; this activity covers only the explicitly taught subalternative, not every alternative in a row."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l217-c3",
+      "version": 1,
+      "senseId": "l217-v-369-sense",
+      "hanzi": "介绍",
+      "dictionaryPinyin": "jiè shào",
+      "meaning": "giới thiệu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l217-v-369"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l217-c1",
+      "version": 1,
+      "senseId": "l217-v-306-sense",
+      "hanzi": "帮忙",
+      "dictionaryPinyin": "bāng máng",
+      "meaning": "giúp một tay",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l217-v-306"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l206-c5",
+      "version": 1,
+      "senseId": "l206-v-437-sense",
+      "hanzi": "送",
+      "dictionaryPinyin": "sòng",
+      "meaning": "tặng hoặc trao cho người khác",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l206-v-437"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l231-c1",
+      "version": 1,
+      "senseId": "l231-v-455-sense",
+      "hanzi": "希望",
+      "dictionaryPinyin": "xī wàng",
+      "meaning": "hy vọng, mong muốn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l231-v-455"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l240-prereq",
+      "type": "teaching",
+      "title": "Kiến thức hỗ trợ",
+      "text": "Nhắc 我/你/他, 是/有/在, số và câu hỏi cơ bản; HSK1 chưa hoàn chỉnh. Từ hỗ trợ trong ngữ cảnh được giải thích tại mỗi mục; không cộng từ mới hay cấp mastery.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l240-reminder0",
+      "type": "teaching",
+      "title": "Nhắc từ đã học · 介绍",
+      "text": "介绍 là làm người nghe biết một người/sự việc. 给你介绍一位老师 là giới thiệu một giáo viên với bạn.",
+      "hanzi": "我给你介绍一位老师。",
+      "pinyin": "Wǒ gěi nǐ jièshào yí wèi lǎoshī.",
+      "meaning": "Tôi giới thiệu một giáo viên với bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l240-reminder1",
+      "type": "teaching",
+      "title": "Nhắc từ đã học · 帮忙",
+      "text": "帮忙 dùng như hoạt động giúp đỡ: 请来帮忙. Không đặt người ngay sau toàn từ theo kiểu 帮忙我.",
+      "hanzi": "你能来帮忙吗？",
+      "pinyin": "Nǐ néng lái bāngmáng ma?",
+      "meaning": "Bạn có thể đến giúp một tay không?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l240-reminder2",
+      "type": "teaching",
+      "title": "Nhắc từ đã học · 送",
+      "text": "Bài này luyện nghĩa tặng quà: 送给妈妈. Không dùng câu này để suy ra nghĩa tiễn/đưa người trong ngữ cảnh khác.",
+      "hanzi": "我想买一条裤子送给妈妈。",
+      "pinyin": "Wǒ xiǎng mǎi yì tiáo kùzi sòng gěi māma.",
+      "meaning": "Tôi muốn mua một chiếc quần tặng mẹ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l240-reminder3",
+      "type": "teaching",
+      "title": "Nhắc từ đã học · 希望",
+      "text": "希望 nêu mong muốn, không bảo đảm kết quả. Tôi mong bạn đến không có nghĩa bạn đã đồng ý đến.",
+      "hanzi": "我希望你明天来。",
+      "pinyin": "Wǒ xīwàng nǐ míngtiān lái.",
+      "meaning": "Tôi mong bạn đến ngày mai.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l240-grammar0",
+      "type": "teaching",
+      "title": "Cách nói 1",
+      "text": "送给李老师一杯红茶 nêu người nhận rồi vật được tặng. Phân biệt 给他送茶: 给 đứng trước động từ làm thành phần giới thiệu người nhận.",
+      "hanzi": "我送给李老师一杯红茶。",
+      "pinyin": "Wǒ sòng gěi Lǐ lǎoshī yì bēi hóngchá.",
+      "meaning": "Tôi tặng thầy Lý một cốc trà đen.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l240-grammar1",
+      "type": "teaching",
+      "title": "Cách nói 2",
+      "text": "我给他送饭 dùng 给他 để giới thiệu người nhận trước hành động 送饭. Không đồng nhất vị trí này với chuỗi 送给他.",
+      "hanzi": "我给他送饭。",
+      "pinyin": "Wǒ gěi tā sòng fàn.",
+      "meaning": "Tôi mang cơm cho anh ấy.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l240-grammar2",
+      "type": "teaching",
+      "title": "Cách nói 3",
+      "text": "工作是帮忙送饭 giải thích công việc là gì. 是 nối chủ thể với nội dung định danh/giải thích, không diễn tả hành động đang diễn ra.",
+      "hanzi": "我的工作是帮忙送饭。",
+      "pinyin": "Wǒ de gōngzuò shì bāngmáng sòng fàn.",
+      "meaning": "Công việc của tôi là giúp mang cơm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l240-grammar3",
+      "type": "teaching",
+      "title": "Cách nói 4",
+      "text": "还是先做好现在的工作吧 thể hiện lời khuyên sau cân nhắc. Không dùng ví dụ này để coi các nghĩa 都2/就2 trong cùng dòng nguồn đã được dạy đầy đủ. 先 và 把 trong đoạn là hỗ trợ HSK3, không kiểm tra cấu trúc 把 ở đây.",
+      "hanzi": "还是先做好现在的工作吧。",
+      "pinyin": "Háishi xiān zuò hǎo xiànzài de gōngzuò ba.",
+      "meaning": "Trước hết hãy làm tốt công việc hiện tại.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l240-scene",
+      "type": "teaching",
+      "title": "Tình huống mới",
+      "text": "Đọc trao đổi về vai trò công việc, đối tượng nhận đồ và lời nhờ.",
+      "hanzi": "小李：请介绍一下你的工作。小王：我在饭馆工作，常常帮忙送饭。今天我送给李老师一杯红茶。小李：你希望做什么？小王：我希望以后教中文。现在还是把工作做好吧。",
+      "pinyin": "Xiǎo Lǐ: Qǐng jièshào yíxià nǐ de gōngzuò. Xiǎo Wáng: Wǒ zài fànguǎn gōngzuò, chángcháng bāngmáng sòng fàn. Jīntiān wǒ sòng gěi Lǐ lǎoshī yì bēi hóngchá. Xiǎo Lǐ: Nǐ xīwàng zuò shénme? Xiǎo Wáng: Wǒ xīwàng yǐhòu jiāo Zhōngwén. Xiànzài háishi bǎ gōngzuò zuò hǎo ba.",
+      "meaning": "Lý nhờ giới thiệu công việc. Vương làm ở quán, hay giúp mang cơm. Hôm nay bạn tặng thầy Lý cốc trà đen. Khi được hỏi mong muốn, Vương nói muốn dạy tiếng Trung sau này, hiện tại nên làm tốt công việc.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l240-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l240-e0"
+    },
+    {
+      "id": "l240-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l240-e1"
+    },
+    {
+      "id": "l240-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l240-e2"
+    },
+    {
+      "id": "l240-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l240-e3"
+    },
+    {
+      "id": "l240-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l240-e4"
+    },
+    {
+      "id": "l240-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l240-e5"
+    },
+    {
+      "id": "l240-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l240-e6"
+    },
+    {
+      "id": "l240-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l240-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l240-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l206-c5",
+      "senseId": "l206-v-437-sense",
+      "keyRef": "l240-k0",
+      "prompt": "Ai nhận trà trong 我送给李老师一杯红茶?",
+      "choices": [
+        "李老师",
+        "我",
+        "饭馆"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l240-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l206-c5",
+      "senseId": "l206-v-437-sense",
+      "keyRef": "l240-k1",
+      "prompt": "Chọn câu có 给 giới thiệu người nhận trước động từ.",
+      "choices": [
+        "我送给他饭。",
+        "他给是饭。",
+        "我给他送饭。"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l240-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l217-c1",
+      "senseId": "l217-v-306-sense",
+      "keyRef": "l240-k2",
+      "prompt": "Câu nào giải thích công việc của người nói?",
+      "choices": [
+        "我的工作得送是饭。",
+        "我的工作是帮忙送饭。",
+        "我的工作在帮忙是。"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l240-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l231-c1",
+      "senseId": "l231-v-455-sense",
+      "keyRef": "l240-k3",
+      "prompt": "Người nói cân nhắc tương lai và hiện tại. Lời khuyên ở cuối là gì?",
+      "choices": [
+        "先做好现在的工作",
+        "马上停止工作",
+        "已经当了老师"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l240-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l217-c3",
+      "senseId": "l217-v-369-sense",
+      "keyRef": "l240-k4",
+      "prompt": "Người được hỏi đang làm ở đâu?",
+      "choices": [
+        "学校",
+        "机场",
+        "饭馆"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l240-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l217-c1",
+      "senseId": "l217-v-306-sense",
+      "keyRef": "l240-k5",
+      "prompt": "Việc thường giúp làm là gì?",
+      "choices": [
+        "考中文",
+        "送饭",
+        "开飞机"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l240-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l206-c5",
+      "senseId": "l206-v-437-sense",
+      "keyRef": "l240-k6",
+      "prompt": "Hôm nay người nói tặng gì?",
+      "choices": [
+        "一杯红茶",
+        "一本词典",
+        "一张机票"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l240-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l231-c1",
+      "senseId": "l231-v-455-sense",
+      "keyRef": "l240-k7",
+      "prompt": "Mong muốn công việc tương lai là gì?",
+      "choices": [
+        "不再工作",
+        "开药店",
+        "教中文"
+      ],
+      "inputHint": "Chọn theo tình huống được nêu; không suy ra điểm năng lực độc lập.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l240-k0",
+      "version": 1,
+      "exerciseVersionId": "l240-e0",
+      "senseId": "l206-v-437-sense",
+      "accepted": [
+        "李老师"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "送给李老师一杯红茶 nêu người nhận rồi vật được tặng. Phân biệt 给他送茶: 给 đứng trước động từ làm thành phần giới thiệu người nhận."
+    },
+    {
+      "id": "l240-k1",
+      "version": 1,
+      "exerciseVersionId": "l240-e1",
+      "senseId": "l206-v-437-sense",
+      "accepted": [
+        "我给他送饭。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "我给他送饭 dùng 给他 để giới thiệu người nhận trước hành động 送饭. Không đồng nhất vị trí này với chuỗi 送给他."
+    },
+    {
+      "id": "l240-k2",
+      "version": 1,
+      "exerciseVersionId": "l240-e2",
+      "senseId": "l217-v-306-sense",
+      "accepted": [
+        "我的工作是帮忙送饭。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "工作是帮忙送饭 giải thích công việc là gì. 是 nối chủ thể với nội dung định danh/giải thích, không diễn tả hành động đang diễn ra."
+    },
+    {
+      "id": "l240-k3",
+      "version": 1,
+      "exerciseVersionId": "l240-e3",
+      "senseId": "l231-v-455-sense",
+      "accepted": [
+        "先做好现在的工作"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "还是先做好现在的工作吧 thể hiện lời khuyên sau cân nhắc. Không dùng ví dụ này để coi các nghĩa 都2/就2 trong cùng dòng nguồn đã được dạy đầy đủ. 先 và 把 trong đoạn là hỗ trợ HSK3, không kiểm tra cấu trúc 把 ở đây."
+    },
+    {
+      "id": "l240-k4",
+      "version": 1,
+      "exerciseVersionId": "l240-e4",
+      "senseId": "l217-v-369-sense",
+      "accepted": [
+        "饭馆"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Nơi làm hiện tại là quán ăn, không phải nghề mong muốn sau này."
+    },
+    {
+      "id": "l240-k5",
+      "version": 1,
+      "exerciseVersionId": "l240-e5",
+      "senseId": "l217-v-306-sense",
+      "accepted": [
+        "送饭"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "常常帮忙送饭 nêu công việc cụ thể."
+    },
+    {
+      "id": "l240-k6",
+      "version": 1,
+      "exerciseVersionId": "l240-e6",
+      "senseId": "l206-v-437-sense",
+      "accepted": [
+        "一杯红茶"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Tặng trà cho thầy Lý."
+    },
+    {
+      "id": "l240-k7",
+      "version": 1,
+      "exerciseVersionId": "l240-e7",
+      "senseId": "l231-v-455-sense",
+      "accepted": [
+        "教中文"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "我希望以后教中文 nêu nguyện vọng; không chứng minh người đó đã là giáo viên."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

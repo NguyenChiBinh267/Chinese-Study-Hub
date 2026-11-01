@@ -1,0 +1,912 @@
+{
+  "batch": "HSK1-batch4",
+  "targetLevel": 1,
+  "sourceCheckedAt": "2026-10-30T09:37:15.064676Z",
+  "lessons": [
+    {
+      "id": "L116",
+      "unit": "hsk-one-e",
+      "unitTitle": "Từ vật nuôi đến nơi học",
+      "title": "Mô tả vật nuôi",
+      "objective": "Mô tả vật nuôi; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-116",
+        "形容词谓语句",
+        386,
+        "g-386-16",
+        "小/大 có thể trực tiếp làm vị ngữ miêu tả: 它很小. Không thêm 是 trước 很小 trong mẫu này. 只 zhī là lượng từ cho con vật ở ví dụ 一只猫; nguồn khác có thể có 只 zhǐ nhưng bài này không dạy nghĩa “chỉ”. 很 được chú giải là yếu tố mức độ, sẽ học riêng ở bài sau."
+      ],
+      "task": [
+        "h1-task-thing",
+        "问答物品信息",
+        4,
+        "三"
+      ],
+      "topic": [
+        "h1-topic-07c3a037a790",
+        "物品特征",
+        58,
+        "物品特征"
+      ],
+      "words": [
+        [
+          "猫",
+          "māo",
+          "mèo",
+          "猫 là mèo; không suy động vật từ đại từ 它 nếu chưa có lời giới thiệu.",
+          "这只猫是我的。",
+          "Zhè zhī māo shì wǒ de.",
+          "Con mèo này là của tôi."
+        ],
+        [
+          "只",
+          "zhī",
+          "con (lượng từ)",
+          "只 trong 一只猫 đọc zhī, đếm một con vật ở ví dụ, không đọc zhǐ theo nghĩa chỉ.",
+          "我有一只猫。",
+          "Wǒ yǒu yì zhī māo.",
+          "Tôi có một con mèo."
+        ],
+        [
+          "小",
+          "xiǎo",
+          "nhỏ; bé",
+          "小 trong 小猫 nói kích thước/đặc điểm nhỏ; không tự biến thành so sánh hơn.",
+          "这只猫很小。",
+          "Zhè zhī māo hěn xiǎo.",
+          "Con mèo này nhỏ."
+        ],
+        [
+          "大",
+          "dà",
+          "to; lớn",
+          "大 ở ví dụ tả kích thước, không phải tên cấp học 大学.",
+          "那只狗很大。",
+          "Nà zhī gǒu hěn dà.",
+          "Con chó kia to."
+        ]
+      ],
+      "passage": [
+        "A：你有猫吗？\nB：有，我有一只猫。\nA：它大吗？\nB：不大，它很小。",
+        "A: Nǐ yǒu māo ma? B: Yǒu, wǒ yǒu yì zhī māo. A: Tā dà ma? B: Bú dà, tā hěn xiǎo.",
+        "很 hěn hỗ trợ câu miêu tả. B nói có một con mèo và con mèo nhỏ, không lớn. 一 đứng trước 只 zhī được đọc yì trong câu."
+      ],
+      "comprehension": [
+        "B miêu tả mèo thế nào?",
+        [
+          "很小",
+          "很大",
+          "Không có mèo"
+        ],
+        "很小",
+        "Theo đoạn: 很小. 很 hěn hỗ trợ câu miêu tả. B nói có một con mèo và con mèo nhỏ, không lớn. 一 đứng trước 只 zhī được đọc yì trong câu."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "它",
+          "很",
+          "小。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "猫",
+            "狗",
+            "狼",
+            "猪"
+          ],
+          "accepted": [
+            "猫"
+          ],
+          "feedback": "Chữ 猫 tạo từ 猫. 猫 là mèo; không suy động vật từ đại từ 它 nếu chưa có lời giới thiệu. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 只 (con (lượng từ)).",
+          "choices": [],
+          "accepted": [
+            "zhī"
+          ],
+          "feedback": "只 ghi zhī. 只 trong 一只猫 đọc zhī, đếm một con vật ở ví dụ, không đọc zhǐ theo nghĩa chỉ."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “nhỏ; bé”: 这只猫很□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "小"
+          ],
+          "feedback": "小: nhỏ; bé. 小 trong 小猫 nói kích thước/đặc điểm nhỏ; không tự biến thành so sánh hơn. Con mèo này nhỏ."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “to; lớn” trong câu: 那只狗很□。",
+          "choices": [
+            "猫",
+            "只",
+            "小",
+            "大"
+          ],
+          "accepted": [
+            "大"
+          ],
+          "feedback": "大: to; lớn. 大 ở ví dụ tả kích thước, không phải tên cấp học 大学. Con chó kia to."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “这只猫很小。”, 小 mang nghĩa nào theo bài?",
+          "choices": [
+            "mèo",
+            "con (lượng từ)",
+            "nhỏ; bé",
+            "to; lớn"
+          ],
+          "accepted": [
+            "nhỏ; bé"
+          ],
+          "feedback": "小 trong 小猫 nói kích thước/đặc điểm nhỏ; không tự biến thành so sánh hơn. Con mèo này nhỏ."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “那只狗很大。”, 大 mang nghĩa nào theo bài?",
+          "choices": [
+            "mèo",
+            "con (lượng từ)",
+            "nhỏ; bé",
+            "to; lớn"
+          ],
+          "accepted": [
+            "to; lớn"
+          ],
+          "feedback": "大 ở ví dụ tả kích thước, không phải tên cấp học 大学. Con chó kia to."
+        }
+      ],
+      "characterTargets": [
+        "猫"
+      ]
+    },
+    {
+      "id": "L117",
+      "unit": "hsk-one-e",
+      "unitTitle": "Từ vật nuôi đến nơi học",
+      "title": "Nhận xét đồ vật",
+      "objective": "Nhận xét đồ vật; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-117",
+        "形容词谓语句",
+        386,
+        "g-386-16",
+        "Câu miêu tả có thể theo mẫu chủ thể + 很 + tính từ: 这本书很新. 很 không nhất thiết nhấn “rất” mạnh trong mọi câu, nhưng có thể mang mức độ theo ngữ cảnh. 好看/漂亮 đều tả đẹp trong các ví dụ; không coi chúng thay nhau đúng ở mọi kết hợp."
+      ],
+      "task": [
+        "h1-task-thing",
+        "问答物品信息",
+        4,
+        "三"
+      ],
+      "topic": [
+        "h1-topic-07c3a037a790",
+        "物品特征",
+        58,
+        "物品特征"
+      ],
+      "words": [
+        [
+          "新",
+          "xīn",
+          "mới",
+          "新 tả đồ vật mới; không có nghĩa chỉ một món chưa từng thuộc về ai trong mọi ngữ cảnh.",
+          "这本书很新。",
+          "Zhè běn shū hěn xīn.",
+          "Quyển sách này mới."
+        ],
+        [
+          "好看",
+          "hǎo kàn",
+          "đẹp; dễ nhìn",
+          "好看 trong câu khen hình thức con mèo đẹp; không lấy nghĩa này cho mọi động từ 看 đứng riêng.",
+          "那只猫很好看。",
+          "Nà zhī māo hěn hǎo kàn.",
+          "Con mèo kia đẹp/dễ nhìn."
+        ],
+        [
+          "漂亮",
+          "piào liang",
+          "đẹp; xinh",
+          "漂亮 tả vẻ đẹp ở ví dụ; đọc piào liang với âm sau nhẹ theo mục từ.",
+          "那只猫很漂亮。",
+          "Nà zhī māo hěn piào liang.",
+          "Con mèo kia đẹp."
+        ],
+        [
+          "很",
+          "hěn",
+          "rất; yếu tố mức độ",
+          "很 đứng trước tính từ trong câu này, không đặt sau tính từ theo trật tự tiếng Việt.",
+          "我的学校很大。",
+          "Wǒ de xué xiào hěn dà.",
+          "Trường tôi rộng/lớn."
+        ]
+      ],
+      "passage": [
+        "A：你的书很新。\nB：谢谢。\nA：那只猫很好看。\nB：是，很漂亮。",
+        "A: Nǐ de shū hěn xīn. B: Xiè xie. A: Nà zhī māo hěn hǎo kàn. B: Shì, hěn piào liang.",
+        "学校 xué xiào trong ví dụ là trường học, sẽ học thành mục từ ở bài sau. Trong đoạn, A khen sách mới rồi nói con mèo đẹp; không suy chủ của con mèo."
+      ],
+      "comprehension": [
+        "A nhận xét gì về sách?",
+        [
+          "很新",
+          "很小",
+          "Không phải của B"
+        ],
+        "很新",
+        "Theo đoạn: 很新. 学校 xué xiào trong ví dụ là trường học, sẽ học thành mục từ ở bài sau. Trong đoạn, A khen sách mới rồi nói con mèo đẹp; không suy chủ của con mèo."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "这本书",
+          "很",
+          "新。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "新",
+            "亲",
+            "听",
+            "近"
+          ],
+          "accepted": [
+            "新"
+          ],
+          "feedback": "Chữ 新 tạo từ 新. 新 tả đồ vật mới; không có nghĩa chỉ một món chưa từng thuộc về ai trong mọi ngữ cảnh. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 好看 (đẹp; dễ nhìn).",
+          "choices": [],
+          "accepted": [
+            "hǎo kàn"
+          ],
+          "feedback": "好看 ghi hǎo kàn. 好看 trong câu khen hình thức con mèo đẹp; không lấy nghĩa này cho mọi động từ 看 đứng riêng."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “đẹp; xinh”: 那只猫很□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "漂亮"
+          ],
+          "feedback": "漂亮: đẹp; xinh. 漂亮 tả vẻ đẹp ở ví dụ; đọc piào liang với âm sau nhẹ theo mục từ. Con mèo kia đẹp."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “rất; yếu tố mức độ” trong câu: 我的学校□大。",
+          "choices": [
+            "新",
+            "好看",
+            "漂亮",
+            "很"
+          ],
+          "accepted": [
+            "很"
+          ],
+          "feedback": "很: rất; yếu tố mức độ. 很 đứng trước tính từ trong câu này, không đặt sau tính từ theo trật tự tiếng Việt. Trường tôi rộng/lớn."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “那只猫很漂亮。”, 漂亮 mang nghĩa nào theo bài?",
+          "choices": [
+            "mới",
+            "đẹp; dễ nhìn",
+            "đẹp; xinh",
+            "rất; yếu tố mức độ"
+          ],
+          "accepted": [
+            "đẹp; xinh"
+          ],
+          "feedback": "漂亮 tả vẻ đẹp ở ví dụ; đọc piào liang với âm sau nhẹ theo mục từ. Con mèo kia đẹp."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我的学校很大。”, 很 mang nghĩa nào theo bài?",
+          "choices": [
+            "mới",
+            "đẹp; dễ nhìn",
+            "đẹp; xinh",
+            "rất; yếu tố mức độ"
+          ],
+          "accepted": [
+            "rất; yếu tố mức độ"
+          ],
+          "feedback": "很 đứng trước tính từ trong câu này, không đặt sau tính từ theo trật tự tiếng Việt. Trường tôi rộng/lớn."
+        }
+      ],
+      "characterTargets": [
+        "新"
+      ]
+    },
+    {
+      "id": "L118",
+      "unit": "hsk-one-e",
+      "unitTitle": "Từ vật nuôi đến nơi học",
+      "title": "Người và nơi học tập",
+      "objective": "Người và nơi học tập; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-118",
+        "是",
+        386,
+        "g-386-25",
+        "是 + danh từ giới thiệu vai trò: 我是学生。老师 và 学生 là giáo viên và người học; 同学 chỉ người học cùng trường/lớp theo tình huống, không tự đồng nghĩa bạn thân. 这/那 có thể làm chủ thể để giới thiệu trường: 这是我们的学校."
+      ],
+      "task": [
+        "h1-task-campus",
+        "交流学校情况、课后活动",
+        7,
+        "十三"
+      ],
+      "topic": [
+        "h1-topic-677c9e15ec84",
+        "学校情况",
+        58,
+        "学校情况"
+      ],
+      "words": [
+        [
+          "学生",
+          "xué shēng",
+          "học sinh; sinh viên",
+          "学生 là người học; không suy cấp học cụ thể nếu câu chưa nói.",
+          "我是学生。",
+          "Wǒ shì xué shēng.",
+          "Tôi là học sinh/sinh viên."
+        ],
+        [
+          "老师",
+          "lǎo shī",
+          "giáo viên; thầy/cô",
+          "老师 dùng cho giáo viên, không phân biệt giới tính trong chữ này.",
+          "她是我的老师。",
+          "Tā shì wǒ de lǎo shī.",
+          "Cô ấy là giáo viên của tôi."
+        ],
+        [
+          "同学",
+          "tóng xué",
+          "bạn học",
+          "同学 nói quan hệ học cùng; không tự có nghĩa người yêu hay anh chị em.",
+          "他是我的同学。",
+          "Tā shì wǒ de tóng xué.",
+          "Anh ấy là bạn học của tôi."
+        ],
+        [
+          "学校",
+          "xué xiào",
+          "trường học",
+          "学校 là trường, không phải từ chỉ riêng giáo viên hoặc môn học.",
+          "这是我们的学校。",
+          "Zhè shì wǒ men de xué xiào.",
+          "Đây là trường của chúng tôi."
+        ]
+      ],
+      "passage": [
+        "A：你是老师吗？\nB：不是，我是学生。\nA：他呢？\nB：他是我的同学。她是我们的老师。",
+        "A: Nǐ shì lǎo shī ma? B: Bú shì, wǒ shì xué shēng. A: Tā ne? B: Tā shì wǒ de tóng xué. Tā shì wǒ men de lǎo shī.",
+        "B là học sinh/sinh viên. Người nam là bạn học, người nữ là giáo viên của nhóm; không suy từ âm tā đơn lẻ."
+      ],
+      "comprehension": [
+        "B tự giới thiệu vai trò nào?",
+        [
+          "学生",
+          "老师",
+          "家人"
+        ],
+        "学生",
+        "Theo đoạn: 学生. B là học sinh/sinh viên. Người nam là bạn học, người nữ là giáo viên của nhóm; không suy từ âm tā đơn lẻ."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "是",
+          "学生。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "学",
+            "字",
+            "子",
+            "孙"
+          ],
+          "accepted": [
+            "学"
+          ],
+          "feedback": "Chữ 学 tạo từ 学生. 学生 là người học; không suy cấp học cụ thể nếu câu chưa nói. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 老师 (giáo viên; thầy/cô).",
+          "choices": [],
+          "accepted": [
+            "lǎo shī"
+          ],
+          "feedback": "老师 ghi lǎo shī. 老师 dùng cho giáo viên, không phân biệt giới tính trong chữ này."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “bạn học”: 他是我的□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "同学"
+          ],
+          "feedback": "同学: bạn học. 同学 nói quan hệ học cùng; không tự có nghĩa người yêu hay anh chị em. Anh ấy là bạn học của tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “trường học” trong câu: 这是我们的□。",
+          "choices": [
+            "学生",
+            "老师",
+            "同学",
+            "学校"
+          ],
+          "accepted": [
+            "学校"
+          ],
+          "feedback": "学校: trường học. 学校 là trường, không phải từ chỉ riêng giáo viên hoặc môn học. Đây là trường của chúng tôi."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “他是我的同学。”, 同学 mang nghĩa nào theo bài?",
+          "choices": [
+            "học sinh; sinh viên",
+            "giáo viên; thầy/cô",
+            "bạn học",
+            "trường học"
+          ],
+          "accepted": [
+            "bạn học"
+          ],
+          "feedback": "同学 nói quan hệ học cùng; không tự có nghĩa người yêu hay anh chị em. Anh ấy là bạn học của tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “这是我们的学校。”, 学校 mang nghĩa nào theo bài?",
+          "choices": [
+            "học sinh; sinh viên",
+            "giáo viên; thầy/cô",
+            "bạn học",
+            "trường học"
+          ],
+          "accepted": [
+            "trường học"
+          ],
+          "feedback": "学校 là trường, không phải từ chỉ riêng giáo viên hoặc môn học. Đây là trường của chúng tôi."
+        }
+      ],
+      "characterTargets": [
+        "学"
+      ]
+    },
+    {
+      "id": "L119",
+      "unit": "hsk-one-e",
+      "unitTitle": "Từ vật nuôi đến nơi học",
+      "title": "Các cấp trường phổ thông",
+      "objective": "Các cấp trường phổ thông; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-119",
+        "是",
+        386,
+        "g-386-25",
+        "小学 là trường/cấp tiểu học, 小学生 là học sinh tiểu học; 中学 và 中学生 có quan hệ tương tự cho bậc trung học. Phân biệt nơi/cấp học với người học: 她是小学生, không dùng 她是小学 để giới thiệu vai trò. Không gán tuổi cố định chỉ từ tên cấp học."
+      ],
+      "task": [
+        "h1-task-study",
+        "介绍学习情况",
+        6,
+        "十二"
+      ],
+      "topic": [
+        "h1-topic-2745ec02eb58",
+        "教育层次",
+        58,
+        "教育层次"
+      ],
+      "words": [
+        [
+          "小学",
+          "xiǎo xué",
+          "trường tiểu học; bậc tiểu học",
+          "小学 nói trường/cấp học, không phải bản thân một học sinh nhỏ.",
+          "这是小学。",
+          "Zhè shì xiǎo xué.",
+          "Đây là trường tiểu học."
+        ],
+        [
+          "小学生",
+          "xiǎo xué shēng",
+          "học sinh tiểu học",
+          "小学生 là người học tiểu học; không bỏ 生 nếu đang gọi vai trò người học.",
+          "她是小学生。",
+          "Tā shì xiǎo xué shēng.",
+          "Cô bé là học sinh tiểu học."
+        ],
+        [
+          "中学",
+          "zhōng xué",
+          "trường trung học; bậc trung học",
+          "中学 nói trường/cấp trung học; bản dịch cụ thể cần ngữ cảnh hệ giáo dục.",
+          "那是中学。",
+          "Nà shì zhōng xué.",
+          "Kia là trường trung học."
+        ],
+        [
+          "中学生",
+          "zhōng xué shēng",
+          "học sinh trung học",
+          "中学生 gọi người học ở bậc trung học, không tự cho biết lớp mấy.",
+          "我哥哥是中学生。",
+          "Wǒ gē ge shì zhōng xué shēng.",
+          "Anh trai tôi là học sinh trung học."
+        ]
+      ],
+      "passage": [
+        "A：你妹妹是中学生吗？\nB：不是，她是小学生。\nA：你哥哥呢？\nB：他是中学生。",
+        "A: Nǐ mèi mei shì zhōng xué shēng ma? B: Bú shì, tā shì xiǎo xué shēng. A: Nǐ gē ge ne? B: Tā shì zhōng xué shēng.",
+        "B sửa rằng em gái học tiểu học; anh trai học trung học. Không có dữ kiện về tuổi hoặc lớp cụ thể."
+      ],
+      "comprehension": [
+        "Em gái B thuộc nhóm nào?",
+        [
+          "小学生",
+          "中学生",
+          "老师"
+        ],
+        "小学生",
+        "Theo đoạn: 小学生. B sửa rằng em gái học tiểu học; anh trai học trung học. Không có dữ kiện về tuổi hoặc lớp cụ thể."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "她",
+          "是",
+          "小学生。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “trường tiểu học; bậc tiểu học” trong câu: 这是□。",
+          "choices": [
+            "小学",
+            "小学生",
+            "中学",
+            "中学生"
+          ],
+          "accepted": [
+            "小学"
+          ],
+          "feedback": "小学: trường tiểu học; bậc tiểu học. 小学 nói trường/cấp học, không phải bản thân một học sinh nhỏ. Đây là trường tiểu học."
+        },
+        {
+          "concept": 1,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "生",
+            "牛",
+            "午",
+            "王"
+          ],
+          "accepted": [
+            "生"
+          ],
+          "feedback": "Chữ 生 tạo từ 小学生. 小学生 là người học tiểu học; không bỏ 生 nếu đang gọi vai trò người học. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “trường trung học; bậc trung học”: 那是□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "中学"
+          ],
+          "feedback": "中学: trường trung học; bậc trung học. 中学 nói trường/cấp trung học; bản dịch cụ thể cần ngữ cảnh hệ giáo dục. Kia là trường trung học."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “học sinh trung học” trong câu: 我哥哥是□。",
+          "choices": [
+            "小学",
+            "小学生",
+            "中学",
+            "中学生"
+          ],
+          "accepted": [
+            "中学生"
+          ],
+          "feedback": "中学生: học sinh trung học. 中学生 gọi người học ở bậc trung học, không tự cho biết lớp mấy. Anh trai tôi là học sinh trung học."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “那是中学。”, 中学 mang nghĩa nào theo bài?",
+          "choices": [
+            "trường tiểu học; bậc tiểu học",
+            "học sinh tiểu học",
+            "trường trung học; bậc trung học",
+            "học sinh trung học"
+          ],
+          "accepted": [
+            "trường trung học; bậc trung học"
+          ],
+          "feedback": "中学 nói trường/cấp trung học; bản dịch cụ thể cần ngữ cảnh hệ giáo dục. Kia là trường trung học."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我哥哥是中学生。”, 中学生 mang nghĩa nào theo bài?",
+          "choices": [
+            "trường tiểu học; bậc tiểu học",
+            "học sinh tiểu học",
+            "trường trung học; bậc trung học",
+            "học sinh trung học"
+          ],
+          "accepted": [
+            "học sinh trung học"
+          ],
+          "feedback": "中学生 gọi người học ở bậc trung học, không tự cho biết lớp mấy. Anh trai tôi là học sinh trung học."
+        }
+      ],
+      "characterTargets": [
+        "生"
+      ]
+    },
+    {
+      "id": "L120",
+      "unit": "hsk-one-e",
+      "unitTitle": "Từ vật nuôi đến nơi học",
+      "title": "Đại học và ngôn ngữ",
+      "objective": "Đại học và ngôn ngữ; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-120",
+        "动词谓语句",
+        386,
+        "g-386-15",
+        "Danh từ chỉ ngôn ngữ có thể làm đối tượng của động từ: 我喜欢汉语. 汉语 và 中文 đều có thể chỉ tiếng Trung theo ngữ cảnh; không ép 汉语 luôn chỉ nói và 中文 luôn chỉ viết. 大学 là trường/cấp đại học, 大学生 là sinh viên. 学习 “học” được chú giải để chuyển sang nhóm học tập tiếp theo."
+      ],
+      "task": [
+        "h1-task-study",
+        "介绍学习情况",
+        6,
+        "十二"
+      ],
+      "topic": [
+        "h1-topic-59dbaf6bf45d",
+        "学习内容",
+        58,
+        "学习内容"
+      ],
+      "words": [
+        [
+          "大学",
+          "dà xué",
+          "trường đại học; bậc đại học",
+          "大学 là nơi/cấp học; muốn gọi người học dùng 大学生 trong ví dụ.",
+          "这是大学。",
+          "Zhè shì dà xué.",
+          "Đây là trường đại học."
+        ],
+        [
+          "大学生",
+          "dà xué shēng",
+          "sinh viên đại học",
+          "大学生 nói người học ở đại học; không tự kết luận ngành học hay bằng cấp đã đạt.",
+          "我姐姐是大学生。",
+          "Wǒ jiě jie shì dà xué shēng.",
+          "Chị gái tôi là sinh viên đại học."
+        ],
+        [
+          "汉语",
+          "Hàn yǔ",
+          "tiếng Hán; tiếng Trung",
+          "汉语 là tên ngôn ngữ; khóa này luyện tiếng phổ thông, không đồng nhất mọi biến thể với một giọng duy nhất.",
+          "我喜欢汉语。",
+          "Wǒ xǐ huan Hàn yǔ.",
+          "Tôi thích tiếng Trung."
+        ],
+        [
+          "中文",
+          "Zhōng wén",
+          "tiếng Trung; tiếng Hoa",
+          "中文 có thể chỉ ngôn ngữ hoặc văn bản tiếng Trung tùy câu; không chỉ riêng chữ Hán như 汉字.",
+          "我们学习中文。",
+          "Wǒ men xué xí Zhōng wén.",
+          "Chúng tôi học tiếng Trung."
+        ]
+      ],
+      "passage": [
+        "A：你是大学生吗？\nB：是。\nA：你喜欢汉语吗？\nB：喜欢。我姐姐也喜欢汉语。",
+        "A: Nǐ shì dà xué shēng ma? B: Shì. A: Nǐ xǐ huan Hàn yǔ ma? B: Xǐ huan. Wǒ jiě jie yě xǐ huan Hàn yǔ.",
+        "学习 xué xí = học, sẽ học riêng ở nhóm sau. B là sinh viên và nói cả mình lẫn chị gái đều thích tiếng Trung."
+      ],
+      "comprehension": [
+        "Ai được B nói là cũng thích 汉语?",
+        [
+          "姐姐",
+          "弟弟",
+          "老师"
+        ],
+        "姐姐",
+        "Theo đoạn: 姐姐. 学习 xué xí = học, sẽ học riêng ở nhóm sau. B là sinh viên và nói cả mình lẫn chị gái đều thích tiếng Trung."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "喜欢",
+          "汉语。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “trường đại học; bậc đại học” trong câu: 这是□。",
+          "choices": [
+            "大学",
+            "大学生",
+            "汉语",
+            "中文"
+          ],
+          "accepted": [
+            "大学"
+          ],
+          "feedback": "大学: trường đại học; bậc đại học. 大学 là nơi/cấp học; muốn gọi người học dùng 大学生 trong ví dụ. Đây là trường đại học."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 大学生 (sinh viên đại học).",
+          "choices": [],
+          "accepted": [
+            "dà xué shēng"
+          ],
+          "feedback": "大学生 ghi dà xué shēng. 大学生 nói người học ở đại học; không tự kết luận ngành học hay bằng cấp đã đạt."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "语",
+            "话",
+            "请",
+            "说"
+          ],
+          "accepted": [
+            "语"
+          ],
+          "feedback": "Chữ 语 tạo từ 汉语. 汉语 là tên ngôn ngữ; khóa này luyện tiếng phổ thông, không đồng nhất mọi biến thể với một giọng duy nhất. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “tiếng Trung; tiếng Hoa” trong câu: 我们学习□。",
+          "choices": [
+            "大学",
+            "大学生",
+            "汉语",
+            "中文"
+          ],
+          "accepted": [
+            "中文"
+          ],
+          "feedback": "中文: tiếng Trung; tiếng Hoa. 中文 có thể chỉ ngôn ngữ hoặc văn bản tiếng Trung tùy câu; không chỉ riêng chữ Hán như 汉字. Chúng tôi học tiếng Trung."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我喜欢汉语。”, 汉语 mang nghĩa nào theo bài?",
+          "choices": [
+            "trường đại học; bậc đại học",
+            "sinh viên đại học",
+            "tiếng Hán; tiếng Trung",
+            "tiếng Trung; tiếng Hoa"
+          ],
+          "accepted": [
+            "tiếng Hán; tiếng Trung"
+          ],
+          "feedback": "汉语 là tên ngôn ngữ; khóa này luyện tiếng phổ thông, không đồng nhất mọi biến thể với một giọng duy nhất. Tôi thích tiếng Trung."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我们学习中文。”, 中文 mang nghĩa nào theo bài?",
+          "choices": [
+            "trường đại học; bậc đại học",
+            "sinh viên đại học",
+            "tiếng Hán; tiếng Trung",
+            "tiếng Trung; tiếng Hoa"
+          ],
+          "accepted": [
+            "tiếng Trung; tiếng Hoa"
+          ],
+          "feedback": "中文 có thể chỉ ngôn ngữ hoặc văn bản tiếng Trung tùy câu; không chỉ riêng chữ Hán như 汉字. Chúng tôi học tiếng Trung."
+        }
+      ],
+      "characterTargets": [
+        "语"
+      ]
+    }
+  ]
+}

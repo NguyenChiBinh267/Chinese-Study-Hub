@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "fb5fc65e5964d14c1603df35976d54bc2cecc34f5c8539a068c618f1dec5e69b",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-festival-program",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L315",
+    "version": 1,
+    "versionId": "l315-draft-v1",
+    "title": "Một chương trình trong ngày lễ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc thông tin hoạt động, người biểu diễn và lời chào mừng.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "一边……，一边……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 18,
+      "physicalPage": 19,
+      "printedPage": 16,
+      "section": "task",
+      "entry": "十九"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-arts",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 18,
+          "physicalPage": 19,
+          "printedPage": 16,
+          "section": "task",
+          "entry": "十九"
+        },
+        "written": "交流文艺活动信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-arts",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "当代社会 / 文艺 / 文艺活动"
+        },
+        "written": "文艺活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l315-v-710",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 710"
+        },
+        "written": "节目",
+        "pinyin": "jiémù",
+        "senseId": "l315-v-710-sense",
+        "ordinal": 710,
+        "note": "3 jiémù 名; 节目 là tiết mục hoặc chương trình cụ thể; không phải toàn bộ tên một ngày lễ. 第一个节目指节目次序. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l315-v-530",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 530"
+        },
+        "written": "表演",
+        "pinyin": "biǎoyǎn",
+        "senseId": "l315-v-530-sense",
+        "ordinal": 530,
+        "note": "3 biǎoyǎn 动; 表演 là trình diễn cho người xem hoặc một màn trình diễn. 看表演 và 自己表演 khác vai trò người xem/người diễn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l315-v-711",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 711"
+        },
+        "written": "节日",
+        "pinyin": "jiérì",
+        "senseId": "l315-v-711-sense",
+        "ordinal": 711,
+        "note": "3 jiérì 名; 节日 là ngày dịp lễ; không đồng nghĩa tiết mục. Bài chỉ nói một hoạt động hư cấu, không khẳng định phong tục mọi nơi giống nhau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l315-v-659",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 659"
+        },
+        "written": "过节",
+        "pinyin": "guòjié",
+        "senseId": "l315-v-659-sense",
+        "ordinal": 659,
+        "note": "3 guòjié 动; 过节 nói trải qua/mừng dịp lễ theo ngữ cảnh. Không tự hàm ý cách tổ chức hoặc món ăn cụ thể ở mọi gia đình. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l315-v-650",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 650"
+        },
+        "written": "故事",
+        "pinyin": "gùshi",
+        "senseId": "l315-v-650-sense",
+        "ordinal": 650,
+        "note": "3 gùshi 名; 故事 là câu chuyện được kể; có thể hư cấu hoặc có thật, cần thêm thông tin để phân biệt. 一个故事不等于一条新闻. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l315-v-677",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 677"
+        },
+        "written": "欢迎",
+        "pinyin": "huānyíng",
+        "senseId": "l315-v-677-sense",
+        "ordinal": 677,
+        "note": "3 huānyíng 动; 欢迎常用于迎接和表示愿意对方来; bài dùng để chào mừng người đến. 欢迎你来 không phải báo cáo người đó đã đến. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l315-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "hỗ trợ trong ngữ cảnh",
+        "pinyin": "",
+        "senseId": "l315-extra0-sense",
+        "ordinal": null,
+        "note": "讲 jiǎng: kể/nói; 一边 yìbiān: vừa…vừa…; 新闻 xīnwén: tin tức chỉ dùng đối chiếu. “Nghe” trong câu chuyện là nội dung đọc; bài không có audio tham chiếu."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-111",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "111"
+        },
+        "written": "节",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 111,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-155",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "155"
+        },
+        "written": "目",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 155,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-242",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "242"
+        },
+        "written": "演",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 242,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-72",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "72"
+        },
+        "written": "故",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 72,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-255",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "255"
+        },
+        "written": "迎",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 255,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-g-simultaneous",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "复句 / 并列复句"
+        },
+        "written": "一边……，一边……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l315-c0",
+      "version": 1,
+      "senseId": "l315-v-710-sense",
+      "hanzi": "节目",
+      "dictionaryPinyin": "jié mù",
+      "meaning": "tiết mục/chương trình",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l315-v-710"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l315-c1",
+      "version": 1,
+      "senseId": "l315-v-530-sense",
+      "hanzi": "表演",
+      "dictionaryPinyin": "biǎo yǎn",
+      "meaning": "biểu diễn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l315-v-530"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l315-c2",
+      "version": 1,
+      "senseId": "l315-v-711-sense",
+      "hanzi": "节日",
+      "dictionaryPinyin": "jié rì",
+      "meaning": "ngày lễ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l315-v-711"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l315-c3",
+      "version": 1,
+      "senseId": "l315-v-659-sense",
+      "hanzi": "过节",
+      "dictionaryPinyin": "guò jié",
+      "meaning": "đón/mừng lễ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l315-v-659"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l315-c4",
+      "version": 1,
+      "senseId": "l315-v-650-sense",
+      "hanzi": "故事",
+      "dictionaryPinyin": "gù shi",
+      "meaning": "câu chuyện",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l315-v-650"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l315-c5",
+      "version": 1,
+      "senseId": "l315-v-677-sense",
+      "hanzi": "欢迎",
+      "dictionaryPinyin": "huān yíng",
+      "meaning": "hoan nghênh/chào mừng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l315-v-677"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l315-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Nhắc thời gian, chủ ngữ–động từ–tân ngữ, 的 và câu hỏi cơ bản. HSK1/2 prerequisite vẫn chưa được xác nhận. 讲 jiǎng: kể/nói; 一边 yìbiān: vừa…vừa…; 新闻 xīnwén: tin tức chỉ dùng đối chiếu. “Nghe” trong câu chuyện là nội dung đọc; bài không có audio tham chiếu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l315-t0",
+      "type": "teaching",
+      "title": "节目 · tiết mục/chương trình",
+      "text": "节目 là tiết mục hoặc chương trình cụ thể; không phải toàn bộ tên một ngày lễ. 第一个节目指节目次序.",
+      "hanzi": "今天的第一个节目是讲故事。",
+      "pinyin": "Jīntiān de dì yī ge jiémù shì jiǎng gùshi.",
+      "meaning": "Tiết mục đầu hôm nay là kể chuyện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l315-t1",
+      "type": "teaching",
+      "title": "表演 · biểu diễn",
+      "text": "表演 là trình diễn cho người xem hoặc một màn trình diễn. 看表演 và 自己表演 khác vai trò người xem/người diễn.",
+      "hanzi": "学生们正在表演。",
+      "pinyin": "Xuésheng men zhèngzài biǎoyǎn.",
+      "meaning": "Các học sinh đang biểu diễn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l315-t2",
+      "type": "teaching",
+      "title": "节日 · ngày lễ",
+      "text": "节日 là ngày dịp lễ; không đồng nghĩa tiết mục. Bài chỉ nói một hoạt động hư cấu, không khẳng định phong tục mọi nơi giống nhau.",
+      "hanzi": "这个节日，学校有活动。",
+      "pinyin": "Zhège jiérì, xuéxiào yǒu huódòng.",
+      "meaning": "Dịp lễ này trường có hoạt động.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l315-t3",
+      "type": "teaching",
+      "title": "过节 · đón/mừng lễ",
+      "text": "过节 nói trải qua/mừng dịp lễ theo ngữ cảnh. Không tự hàm ý cách tổ chức hoặc món ăn cụ thể ở mọi gia đình.",
+      "hanzi": "我们今年在学校过节。",
+      "pinyin": "Wǒmen jīnnián zài xuéxiào guòjié.",
+      "meaning": "Năm nay chúng tôi đón lễ ở trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l315-t4",
+      "type": "teaching",
+      "title": "故事 · câu chuyện",
+      "text": "故事 là câu chuyện được kể; có thể hư cấu hoặc có thật, cần thêm thông tin để phân biệt. 一个故事不等于一条新闻.",
+      "hanzi": "爷爷给我们讲了一个故事。",
+      "pinyin": "Yéye gěi wǒmen jiǎng le yí ge gùshi.",
+      "meaning": "Ông kể cho chúng tôi một chuyện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l315-t5",
+      "type": "teaching",
+      "title": "欢迎 · hoan nghênh/chào mừng",
+      "text": "欢迎常用于迎接和表示愿意对方来; bài dùng để chào mừng người đến. 欢迎你来 không phải báo cáo người đó đã đến.",
+      "hanzi": "欢迎你来我们学校。",
+      "pinyin": "Huānyíng nǐ lái wǒmen xuéxiào.",
+      "meaning": "Chào mừng bạn đến trường chúng tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l315-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "一边听，一边记 mô tả hai hành động cùng tiến hành. Khác 先听，再记: nghe trước rồi ghi sau. Không dùng mẫu đồng thời cho hai hành động không thể diễn ra cùng nhau trong tình huống.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l315-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小安：今天是节日，学校有什么节目？小李：先看学生表演，再听老师讲故事。小安：我想一边听，一边记新词。小李：好，欢迎你来和我们一起过节。",
+      "pinyin": "Xiǎo Ān: Jīntiān shì jiérì, xuéxiào yǒu shénme jiémù? Xiǎo Lǐ: Xiān kàn xuésheng biǎoyǎn, zài tīng lǎoshī jiǎng gùshi. Xiǎo Ān: Wǒ xiǎng yìbiān tīng, yìbiān jì xīn cí. Xiǎo Lǐ: Hǎo, huānyíng nǐ lái hé wǒmen yìqǐ guòjié.",
+      "meaning": "An hỏi chương trình dịp lễ của trường. Lý nói xem học sinh diễn trước rồi nghe thầy kể chuyện. An muốn vừa nghe vừa ghi từ mới. Lý chào mừng An cùng đón lễ.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l315-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l315-v1-e0"
+    },
+    {
+      "id": "l315-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l315-v1-e1"
+    },
+    {
+      "id": "l315-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l315-v1-e2"
+    },
+    {
+      "id": "l315-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l315-v1-e3"
+    },
+    {
+      "id": "l315-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l315-v1-e4"
+    },
+    {
+      "id": "l315-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l315-v1-e5"
+    },
+    {
+      "id": "l315-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l315-v1-e6"
+    },
+    {
+      "id": "l315-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l315-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l315-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l315-c0",
+      "senseId": "l315-v-710-sense",
+      "keyRef": "l315-v1-k0",
+      "prompt": "Hỏi danh mục các tiết mục trong hoạt động, không hỏi tên ngày lễ: 有什么□？",
+      "choices": [
+        "表演",
+        "节日",
+        "过节",
+        "故事",
+        "欢迎",
+        "节目"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l315-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l315-c1",
+      "senseId": "l315-v-530-sense",
+      "keyRef": "l315-v1-k1",
+      "prompt": "Nhìn người đang diễn trên sân khấu, không chỉ nghe về lịch: 学生正在□.",
+      "choices": [
+        "节日",
+        "过节",
+        "故事",
+        "欢迎",
+        "节目",
+        "表演"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l315-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l315-c2",
+      "senseId": "l315-v-711-sense",
+      "keyRef": "l315-v1-k2",
+      "prompt": "Chỉ chính ngày/dịp lễ, không phải một tiết mục. Chọn mục từ.",
+      "choices": [
+        "过节",
+        "故事",
+        "欢迎",
+        "节目",
+        "表演",
+        "节日"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l315-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l315-c3",
+      "senseId": "l315-v-659-sense",
+      "keyRef": "l315-v1-k3",
+      "prompt": "Viết pinyin của 过节 trong nghĩa “đón/mừng lễ”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l315-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l315-c4",
+      "senseId": "l315-v-650-sense",
+      "keyRef": "l315-v1-k4",
+      "prompt": "Thầy kể một câu chuyện cho học sinh, không phải gửi bản tin. Chọn danh từ.",
+      "choices": [
+        "欢迎",
+        "节目",
+        "表演",
+        "节日",
+        "过节",
+        "故事"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l315-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l315-c5",
+      "senseId": "l315-v-677-sense",
+      "keyRef": "l315-v1-k5",
+      "prompt": "Viết “Chào mừng bạn đến” theo đúng mẫu 欢迎 + 你 + 来.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l315-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l315-c0",
+      "senseId": "l315-v-710-sense",
+      "keyRef": "l315-v1-k6",
+      "prompt": "Điều gì diễn ra trước theo chương trình?",
+      "choices": [
+        "听老师讲故事",
+        "已经写完所有新词",
+        "看学生表演"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l315-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l315-c3",
+      "senseId": "l315-v-659-sense",
+      "keyRef": "l315-v1-k7",
+      "prompt": "Sắp xếp kế hoạch hai hành động đồng thời.",
+      "choices": [
+        "一边记新词",
+        "我一边听"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l315-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l315-v1-e0",
+      "senseId": "l315-v-710-sense",
+      "accepted": [
+        "节目"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "节目 là tiết mục hoặc chương trình cụ thể; không phải toàn bộ tên một ngày lễ. 第一个节目指节目次序."
+    },
+    {
+      "id": "l315-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l315-v1-e1",
+      "senseId": "l315-v-530-sense",
+      "accepted": [
+        "表演"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "表演 là trình diễn cho người xem hoặc một màn trình diễn. 看表演 và 自己表演 khác vai trò người xem/người diễn."
+    },
+    {
+      "id": "l315-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l315-v1-e2",
+      "senseId": "l315-v-711-sense",
+      "accepted": [
+        "节日"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "节日 là ngày dịp lễ; không đồng nghĩa tiết mục. Bài chỉ nói một hoạt động hư cấu, không khẳng định phong tục mọi nơi giống nhau."
+    },
+    {
+      "id": "l315-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l315-v1-e3",
+      "senseId": "l315-v-659-sense",
+      "accepted": [
+        "guò jié"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "过节 nói trải qua/mừng dịp lễ theo ngữ cảnh. Không tự hàm ý cách tổ chức hoặc món ăn cụ thể ở mọi gia đình."
+    },
+    {
+      "id": "l315-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l315-v1-e4",
+      "senseId": "l315-v-650-sense",
+      "accepted": [
+        "故事"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "故事 là câu chuyện được kể; có thể hư cấu hoặc có thật, cần thêm thông tin để phân biệt. 一个故事不等于一条新闻."
+    },
+    {
+      "id": "l315-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l315-v1-e5",
+      "senseId": "l315-v-677-sense",
+      "accepted": [
+        "欢迎你来"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Cả hai là lời chào/mời phù hợp phạm vi được nêu; không suy ra người nhận đã đến."
+    },
+    {
+      "id": "l315-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l315-v1-e6",
+      "senseId": "l315-v-710-sense",
+      "accepted": [
+        "看学生表演"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "先…再… chỉ trình tự chương trình; 一边…一边… chỉ kế hoạch nghe và ghi đồng thời của An."
+    },
+    {
+      "id": "l315-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l315-v1-e7",
+      "senseId": "l315-v-659-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 一边听，一边记 mô tả hai hành động cùng tiến hành. Khác 先听，再记: nghe trước rồi ghi sau. Không dùng mẫu đồng thời cho hai hành động không thể diễn ra cùng nhau trong tình huống."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

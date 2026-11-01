@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "eeefd52c3f54d9e6ab41515da8c8db4e971fcadd0909f861b7fa56370e9b2c46",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-egi",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L468",
+    "version": 1,
+    "versionId": "l468-draft-v1",
+    "title": "Trao đổi với người chưa quen trong nhóm",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Trao đổi với người chưa quen trong nhóm; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "相互"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 20,
+      "physicalPage": 21,
+      "printedPage": 18,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-27T08:45:56.786175Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-polite",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 20,
+          "physicalPage": 21,
+          "printedPage": 18,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "日常言语交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-a65f7777cfac",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "个人特征"
+        },
+        "written": "个人特征",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l468-v-1301",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 111,
+          "physicalPage": 112,
+          "printedPage": 109,
+          "section": "vocabulary",
+          "entry": "ordinal 1301"
+        },
+        "written": "互相",
+        "pinyin": "hùxiāng",
+        "senseId": "l468-v-1301-sense",
+        "ordinal": 1301,
+        "note": "4 hùxiāng 副; 互相 cần hành động giữa từ hai bên; khác 自己 tự làm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l468-v-1174",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1174"
+        },
+        "written": "对方",
+        "pinyin": "duìfāng",
+        "senseId": "l468-v-1174-sense",
+        "ordinal": 1174,
+        "note": "4 duìfāng 名; 对方 là người/nhóm phía bên kia trong giao tiếp, không nhất thiết đối thủ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l468-v-1158",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 107,
+          "physicalPage": 108,
+          "printedPage": 105,
+          "section": "vocabulary",
+          "entry": "ordinal 1158"
+        },
+        "written": "点头",
+        "pinyin": "diǎntóu",
+        "senseId": "l468-v-1158-sense",
+        "ordinal": 1158,
+        "note": "4 diǎntóu 动; 点头 có thể báo đã nghe, chưa chắc luôn là đồng ý; cần hỏi rõ ngữ cảnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l468-v-1287",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 111,
+          "physicalPage": 112,
+          "printedPage": 109,
+          "section": "vocabulary",
+          "entry": "ordinal 1287"
+        },
+        "written": "喊",
+        "pinyin": "hǎn",
+        "senseId": "l468-v-1287-sense",
+        "ordinal": 1287,
+        "note": "4 hǎn 动; 喊 nói âm lượng lớn, có thể do khoảng cách; không mặc định tức giận. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l468-v-1313",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 111,
+          "physicalPage": 112,
+          "printedPage": 109,
+          "section": "vocabulary",
+          "entry": "ordinal 1313"
+        },
+        "written": "活泼",
+        "pinyin": "huópō",
+        "senseId": "l468-v-1313-sense",
+        "ordinal": 1313,
+        "note": "4 huópō 形; 活泼 tả tính cách/sinh hoạt sinh động, không đồng nghĩa lịch sự hơn người trầm. Nhận diện chữ 泼 trong 活泼; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l468-v-1264",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 110,
+          "physicalPage": 111,
+          "printedPage": 108,
+          "section": "vocabulary",
+          "entry": "ordinal 1264"
+        },
+        "written": "姑娘",
+        "pinyin": "gūniang",
+        "senseId": "l468-v-1264-sense",
+        "ordinal": 1264,
+        "note": "4 gūniang 名; 姑娘 gū niang là cách gọi cô gái, sắc thái tùy vùng/ngữ cảnh; bài dùng kể chuyện, không áp làm xưng hô mọi nơi. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-115",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "115"
+        },
+        "written": "互",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 115,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-105",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "105"
+        },
+        "written": "喊",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 105,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-243",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "243"
+        },
+        "written": "泼",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 243,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-94",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "94"
+        },
+        "written": "姑",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 94,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-224",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "224"
+        },
+        "written": "娘",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 224,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-468",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 394,
+          "physicalPage": 395,
+          "printedPage": 392,
+          "section": "grammar",
+          "entry": "副词：故意、互相、相互"
+        },
+        "written": "相互",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l468-c0",
+      "version": 1,
+      "senseId": "l468-v-1301-sense",
+      "hanzi": "互相",
+      "dictionaryPinyin": "hù xiāng",
+      "meaning": "lẫn nhau",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l468-v-1301"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l468-c1",
+      "version": 1,
+      "senseId": "l468-v-1174-sense",
+      "hanzi": "对方",
+      "dictionaryPinyin": "duì fāng",
+      "meaning": "đối phương, bên kia",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l468-v-1174"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l468-c2",
+      "version": 1,
+      "senseId": "l468-v-1158-sense",
+      "hanzi": "点头",
+      "dictionaryPinyin": "diǎn tóu",
+      "meaning": "gật đầu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l468-v-1158"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l468-c3",
+      "version": 1,
+      "senseId": "l468-v-1287-sense",
+      "hanzi": "喊",
+      "dictionaryPinyin": "hǎn",
+      "meaning": "gọi to, hét",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l468-v-1287"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l468-c4",
+      "version": 1,
+      "senseId": "l468-v-1313-sense",
+      "hanzi": "活泼",
+      "dictionaryPinyin": "huó pō",
+      "meaning": "hoạt bát",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l468-v-1313"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l468-c5",
+      "version": 1,
+      "senseId": "l468-v-1264-sense",
+      "hanzi": "姑娘",
+      "dictionaryPinyin": "gū niang",
+      "meaning": "cô gái",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l468-v-1264"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l468-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 双方 shuāngfāng: hai bên; 发言 fāyán: phát biểu; 替 tì: thay cho.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l468-t0",
+      "type": "teaching",
+      "title": "互相 · lẫn nhau",
+      "text": "互相 cần hành động giữa từ hai bên; khác 自己 tự làm.",
+      "hanzi": "大家互相介绍。",
+      "pinyin": "Dàjiā hùxiāng jièshào.",
+      "meaning": "Mọi người giới thiệu với nhau.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l468-t1",
+      "type": "teaching",
+      "title": "对方 · đối phương, bên kia",
+      "text": "对方 là người/nhóm phía bên kia trong giao tiếp, không nhất thiết đối thủ.",
+      "hanzi": "先听听对方的想法。",
+      "pinyin": "Xiān tīngting duìfāng de xiǎngfǎ.",
+      "meaning": "Hãy nghe suy nghĩ bên kia trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l468-t2",
+      "type": "teaching",
+      "title": "点头 · gật đầu",
+      "text": "点头 có thể báo đã nghe, chưa chắc luôn là đồng ý; cần hỏi rõ ngữ cảnh.",
+      "hanzi": "她点头表示听见了。",
+      "pinyin": "Tā diǎntóu biǎoshì tīngjiàn le.",
+      "meaning": "Cô gật đầu cho biết đã nghe.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l468-t3",
+      "type": "teaching",
+      "title": "喊 · gọi to, hét",
+      "text": "喊 nói âm lượng lớn, có thể do khoảng cách; không mặc định tức giận.",
+      "hanzi": "他在门外喊我的名字。",
+      "pinyin": "Tā zài mén wài hǎn wǒ de míngzi.",
+      "meaning": "Anh gọi to tên tôi ngoài cửa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l468-t4",
+      "type": "teaching",
+      "title": "活泼 · hoạt bát",
+      "text": "活泼 tả tính cách/sinh hoạt sinh động, không đồng nghĩa lịch sự hơn người trầm. Nhận diện chữ 泼 trong 活泼; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "这个孩子很活泼。",
+      "pinyin": "Zhè ge háizi hěn huópō.",
+      "meaning": "Đứa trẻ hoạt bát.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l468-t5",
+      "type": "teaching",
+      "title": "姑娘 · cô gái",
+      "text": "姑娘 gū niang là cách gọi cô gái, sắc thái tùy vùng/ngữ cảnh; bài dùng kể chuyện, không áp làm xưng hô mọi nơi.",
+      "hanzi": "那位姑娘正在介绍自己。",
+      "pinyin": "Nà wèi gūniang zhèngzài jièshào zìjǐ.",
+      "meaning": "Cô gái ấy đang tự giới thiệu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l468-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "相互 tương tự 互相, nêu hành động qua lại giữa nhiều bên: 双方要相互理解. Không dùng để biến một người thành nhiều người. Câu sắp xếp giữ chủ ngữ 双方 trước 要 để tránh di chuyển trạng ngữ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l468-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "新小组里，一位活泼的姑娘主动介绍自己，大家互相认识。门外有人喊她的名字，她先向对方点头，表示听见了。回来后，她问安静的同学想不想发言，没有替他回答。老师说：“双方要相互理解，也要给别人时间。”",
+      "pinyin": "Xīn xiǎozǔ lǐ, yí wèi huópō de gūniang zhǔdòng jièshào zìjǐ, dàjiā hùxiāng rènshi. Mén wài yǒu rén hǎn tā de míngzi, tā xiān xiàng duìfāng diǎntóu, biǎoshì tīngjiàn le. Huí lái hòu, tā wèn ānjìng de tóngxué xiǎng bu xiǎng fāyán, méiyǒu tì tā huídá. Lǎoshī shuō: “Shuāngfāng yào xiānghù lǐjiě, yě yào gěi biérén shíjiān.”",
+      "meaning": "Cô gái hoạt bát giới thiệu mình, gật đầu để báo nghe người gọi, rồi hỏi bạn ít nói có muốn phát biểu thay vì trả lời hộ. Thầy nhắc hiểu nhau và cho người khác thời gian.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l468-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l468-v1-e0"
+    },
+    {
+      "id": "l468-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l468-v1-e1"
+    },
+    {
+      "id": "l468-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l468-v1-e2"
+    },
+    {
+      "id": "l468-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l468-v1-e3"
+    },
+    {
+      "id": "l468-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l468-v1-e4"
+    },
+    {
+      "id": "l468-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l468-v1-e5"
+    },
+    {
+      "id": "l468-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l468-v1-e6"
+    },
+    {
+      "id": "l468-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l468-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l468-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l468-c0",
+      "senseId": "l468-v-1301-sense",
+      "keyRef": "l468-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “lẫn nhau” để điền câu: 大家□介绍。",
+      "choices": [
+        "对方",
+        "点头",
+        "喊",
+        "活泼",
+        "姑娘",
+        "互相"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l468-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l468-c1",
+      "senseId": "l468-v-1174-sense",
+      "keyRef": "l468-v1-k1",
+      "prompt": "Ghi pinyin của 对方 trong câu “先听听对方的想法。”, theo nghĩa “đối phương, bên kia”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l468-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l468-c2",
+      "senseId": "l468-v-1158-sense",
+      "keyRef": "l468-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “gật đầu”: 她□表示听见了。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l468-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l468-c3",
+      "senseId": "l468-v-1287-sense",
+      "keyRef": "l468-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “gọi to, hét” để điền câu: 他在门外□我的名字。",
+      "choices": [
+        "活泼",
+        "姑娘",
+        "互相",
+        "对方",
+        "点头",
+        "喊"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l468-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l468-c4",
+      "senseId": "l468-v-1313-sense",
+      "keyRef": "l468-v1-k4",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “hoạt bát”: 活□ (huó pō). Ngữ cảnh: 这个孩子很□。",
+      "choices": [
+        "拨",
+        "发",
+        "波",
+        "泼"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l468-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l468-c5",
+      "senseId": "l468-v-1264-sense",
+      "keyRef": "l468-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “cô gái”: 那位□正在介绍自己。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l468-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l468-c0",
+      "senseId": "l468-v-1301-sense",
+      "keyRef": "l468-v1-k6",
+      "prompt": "姑娘点头在这里表示什么？",
+      "choices": [
+        "她同意所有建议。",
+        "她拒绝认识同学。",
+        "她听见有人叫她。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l468-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l468-c3",
+      "senseId": "l468-v-1287-sense",
+      "keyRef": "l468-v1-k7",
+      "prompt": "Sắp xếp các cụm theo cấu trúc vừa học; giữ nguyên cụm, không thêm/bớt từ.",
+      "choices": [
+        "双方",
+        "要相互",
+        "理解。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l468-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l468-v1-e0",
+      "senseId": "l468-v-1301-sense",
+      "accepted": [
+        "互相"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "互相: lẫn nhau. 互相 cần hành động giữa từ hai bên; khác 自己 tự làm. Mọi người giới thiệu với nhau."
+    },
+    {
+      "id": "l468-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l468-v1-e1",
+      "senseId": "l468-v-1174-sense",
+      "accepted": [
+        "duì fāng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc duì fāng. 对方 là người/nhóm phía bên kia trong giao tiếp, không nhất thiết đối thủ."
+    },
+    {
+      "id": "l468-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l468-v1-e2",
+      "senseId": "l468-v-1158-sense",
+      "accepted": [
+        "点头"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 点头. 点头 có thể báo đã nghe, chưa chắc luôn là đồng ý; cần hỏi rõ ngữ cảnh. Cô gật đầu cho biết đã nghe."
+    },
+    {
+      "id": "l468-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l468-v1-e3",
+      "senseId": "l468-v-1287-sense",
+      "accepted": [
+        "喊"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "喊: gọi to, hét. 喊 nói âm lượng lớn, có thể do khoảng cách; không mặc định tức giận. Anh gọi to tên tôi ngoài cửa."
+    },
+    {
+      "id": "l468-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l468-v1-e4",
+      "senseId": "l468-v-1313-sense",
+      "accepted": [
+        "泼"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 泼 tạo từ 活泼. 活泼 tả tính cách/sinh hoạt sinh động, không đồng nghĩa lịch sự hơn người trầm. Nhận diện chữ 泼 trong 活泼; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l468-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l468-v1-e5",
+      "senseId": "l468-v-1264-sense",
+      "accepted": [
+        "姑娘"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 姑娘. 姑娘 gū niang là cách gọi cô gái, sắc thái tùy vùng/ngữ cảnh; bài dùng kể chuyện, không áp làm xưng hô mọi nơi. Cô gái ấy đang tự giới thiệu."
+    },
+    {
+      "id": "l468-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l468-v1-e6",
+      "senseId": "l468-v-1301-sense",
+      "accepted": [
+        "她听见有人叫她。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 她听见有人叫她。. Cô gái hoạt bát giới thiệu mình, gật đầu để báo nghe người gọi, rồi hỏi bạn ít nói có muốn phát biểu thay vì trả lời hộ. Thầy nhắc hiểu nhau và cho người khác thời gian."
+    },
+    {
+      "id": "l468-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l468-v1-e7",
+      "senseId": "l468-v-1287-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 相互 tương tự 互相, nêu hành động qua lại giữa nhiều bên: 双方要相互理解. Không dùng để biến một người thành nhiều người. Câu sắp xếp giữ chủ ngữ 双方 trước 要 để tránh di chuyển trạng ngữ."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

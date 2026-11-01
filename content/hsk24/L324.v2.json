@@ -1,0 +1,782 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "7b4cbc2c4c265448537de17b1822c69f46fa1e8dd644f82e6bfad4ce11090ceb",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-work-holiday",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L324",
+    "version": 2,
+    "versionId": "l324-draft-v2",
+    "title": "Sắp xếp ngày nghỉ và xin phép",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đối chiếu ngày làm việc, cuối tuần, nghỉ học và nghỉ phép.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "以前/以后"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:16:38.145Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-daily",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "交流、处理日常事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-daily-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "事务处理"
+        },
+        "written": "事务处理",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l324-v-649",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 649"
+        },
+        "written": "工作日",
+        "pinyin": "gōngzuòrì",
+        "senseId": "l324-v-649-sense",
+        "ordinal": 649,
+        "note": "3 gōngzuòrì 名; 工作日 theo lịch làm việc cụ thể; không mặc định mọi thứ Hai–Sáu hay mọi người có cùng lịch. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l324-v-986",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 986"
+        },
+        "written": "周末",
+        "pinyin": "zhōumò",
+        "senseId": "l324-v-986-sense",
+        "ordinal": 986,
+        "note": "3 zhōumò 名; 周末 thường là cuối tuần; không tự bảo đảm ai cũng được nghỉ. 这个周末指 cuối tuần đang xét. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l324-v-625",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 625"
+        },
+        "written": "放假",
+        "pinyin": "fàngjià",
+        "senseId": "l324-v-625-sense",
+        "ordinal": 625,
+        "note": "3 fàngjià 动; 放假 là cơ quan/trường nghỉ theo lịch; khác 请假 là cá nhân xin phép nghỉ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l324-v-627",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 627"
+        },
+        "written": "放学",
+        "pinyin": "fàngxué",
+        "senseId": "l324-v-627-sense",
+        "ordinal": 627,
+        "note": "3 fàngxué 动; 放学 chỉ kết thúc buổi học, không đồng nghĩa nghỉ cả kỳ hay tốt nghiệp. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l324-v-808",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 808"
+        },
+        "written": "请假",
+        "pinyin": "qǐngjià",
+        "senseId": "l324-v-808-sense",
+        "ordinal": 808,
+        "note": "3 qǐngjià 动; 请假 là xin phép nghỉ; 请假了 chưa tự cho biết được chấp thuận nếu ngữ cảnh không nói. 跟老师请假 là xin thầy cho nghỉ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l324-v-911",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 911"
+        },
+        "written": "休假",
+        "pinyin": "xiūjià",
+        "senseId": "l324-v-911-sense",
+        "ordinal": 911,
+        "note": "3 xiūjià 动; 休假 nói đang/hưởng thời gian nghỉ, không chỉ hành vi nộp đơn; 休假三天 là nghỉ ba ngày. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-154",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "154"
+        },
+        "written": "末",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 154,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-58",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "58"
+        },
+        "written": "放",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 58,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-98",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "98"
+        },
+        "written": "假",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 98,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-before-after",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定格式 / 以前以后"
+        },
+        "written": "以前/以后",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l324-c0",
+      "version": 1,
+      "senseId": "l324-v-649-sense",
+      "hanzi": "工作日",
+      "dictionaryPinyin": "gōng zuò rì",
+      "meaning": "ngày làm việc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l324-v-649"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l324-c1",
+      "version": 1,
+      "senseId": "l324-v-986-sense",
+      "hanzi": "周末",
+      "dictionaryPinyin": "zhōu mò",
+      "meaning": "cuối tuần",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l324-v-986"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l324-c2",
+      "version": 1,
+      "senseId": "l324-v-625-sense",
+      "hanzi": "放假",
+      "dictionaryPinyin": "fàng jià",
+      "meaning": "được nghỉ/nghỉ lễ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l324-v-625"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l324-c3",
+      "version": 1,
+      "senseId": "l324-v-627-sense",
+      "hanzi": "放学",
+      "dictionaryPinyin": "fàng xué",
+      "meaning": "tan học",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l324-v-627"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l324-c4",
+      "version": 1,
+      "senseId": "l324-v-808-sense",
+      "hanzi": "请假",
+      "dictionaryPinyin": "qǐng jià",
+      "meaning": "xin nghỉ phép/xin nghỉ học",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l324-v-808"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l324-c5",
+      "version": 1,
+      "senseId": "l324-v-911-sense",
+      "hanzi": "休假",
+      "dictionaryPinyin": "xiū jià",
+      "meaning": "nghỉ phép",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l324-v-911"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l324-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 上班 shàng bān: đi làm; 当作 dàngzuò: coi như. Phân biệt nghỉ theo lịch trường với xin phép cá nhân, không dạy quy định lao động thực tế.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l324-t0",
+      "type": "teaching",
+      "title": "工作日 · ngày làm việc",
+      "text": "工作日 theo lịch làm việc cụ thể; không mặc định mọi thứ Hai–Sáu hay mọi người có cùng lịch.",
+      "hanzi": "工作日我七点出门。",
+      "pinyin": "Gōngzuòrì wǒ qī diǎn chū mén.",
+      "meaning": "Ngày làm việc tôi ra khỏi nhà lúc bảy giờ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l324-t1",
+      "type": "teaching",
+      "title": "周末 · cuối tuần",
+      "text": "周末 thường là cuối tuần; không tự bảo đảm ai cũng được nghỉ. 这个周末指 cuối tuần đang xét.",
+      "hanzi": "这个周末我不出门。",
+      "pinyin": "Zhège zhōumò wǒ bù chū mén.",
+      "meaning": "Cuối tuần này tôi không ra ngoài.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l324-t2",
+      "type": "teaching",
+      "title": "放假 · được nghỉ/nghỉ lễ",
+      "text": "放假 là cơ quan/trường nghỉ theo lịch; khác 请假 là cá nhân xin phép nghỉ.",
+      "hanzi": "学校明天放假。",
+      "pinyin": "Xuéxiào míngtiān fàng jià.",
+      "meaning": "Ngày mai trường nghỉ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l324-t3",
+      "type": "teaching",
+      "title": "放学 · tan học",
+      "text": "放学 chỉ kết thúc buổi học, không đồng nghĩa nghỉ cả kỳ hay tốt nghiệp.",
+      "hanzi": "我放学以后回家。",
+      "pinyin": "Wǒ fàng xué yǐhòu huí jiā.",
+      "meaning": "Sau tan học tôi về nhà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l324-t4",
+      "type": "teaching",
+      "title": "请假 · xin nghỉ phép/xin nghỉ học",
+      "text": "请假 là xin phép nghỉ; 请假了 chưa tự cho biết được chấp thuận nếu ngữ cảnh không nói. 跟老师请假 là xin thầy cho nghỉ.",
+      "hanzi": "他想跟老师请假。",
+      "pinyin": "Tā xiǎng gēn lǎoshī qǐng jià.",
+      "meaning": "Cậu ấy muốn xin thầy cho nghỉ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l324-t5",
+      "type": "teaching",
+      "title": "休假 · nghỉ phép",
+      "text": "休假 nói đang/hưởng thời gian nghỉ, không chỉ hành vi nộp đơn; 休假三天 là nghỉ ba ngày.",
+      "hanzi": "她下周休假三天。",
+      "pinyin": "Tā xià zhōu xiū jià sān tiān.",
+      "meaning": "Tuần sau cô ấy nghỉ phép ba ngày.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l324-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "请假以前先问老师 đặt mốc “trước khi xin nghỉ” ở đầu hoặc sau chủ ngữ, trước việc làm. 放学以后 là sau tan học; không đồng nghĩa đang nghỉ phép.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l324-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林：学校明天放假吗？小王：不放假，明天是工作日。我放学以后去看休假的姐姐。小林：那周末呢？小王：周末在家。请假以前，要先问老师，不能自己当作已经放假。",
+      "pinyin": "Xiǎo Lín: Xuéxiào míngtiān fàng jià ma? Xiǎo Wáng: Bú fàng jià, míngtiān shì gōngzuòrì. Wǒ fàng xué yǐhòu qù kàn xiūjià de jiějie. Xiǎo Lín: Nà zhōumò ne? Xiǎo Wáng: Zhōumò zài jiā. Qǐng jià yǐqián, yào xiān wèn lǎoshī, bù néng zìjǐ dàngzuò yǐjīng fàng jià.",
+      "meaning": "Ngày mai trường không nghỉ. Vương định thăm chị đang nghỉ phép sau tan học, cuối tuần ở nhà; muốn xin nghỉ phải hỏi thầy trước.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l324-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l324-v2-e0"
+    },
+    {
+      "id": "l324-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l324-v2-e1"
+    },
+    {
+      "id": "l324-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l324-v2-e2"
+    },
+    {
+      "id": "l324-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l324-v2-e3"
+    },
+    {
+      "id": "l324-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l324-v2-e4"
+    },
+    {
+      "id": "l324-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l324-v2-e5"
+    },
+    {
+      "id": "l324-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l324-v2-e6"
+    },
+    {
+      "id": "l324-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l324-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l324-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l324-c0",
+      "senseId": "l324-v-649-sense",
+      "keyRef": "l324-v2-k0",
+      "prompt": "Nêu ngày có lịch làm việc, đối chiếu ngày nghỉ: □我去上班。",
+      "choices": [
+        "周末",
+        "放假",
+        "放学",
+        "请假",
+        "休假",
+        "工作日"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l324-v2-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l324-c1",
+      "senseId": "l324-v-986-sense",
+      "keyRef": "l324-v2-k1",
+      "prompt": "Nêu cuối tuần này theo thời gian: 这个□。",
+      "choices": [
+        "放假",
+        "放学",
+        "请假",
+        "休假",
+        "工作日",
+        "周末"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l324-v2-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l324-c2",
+      "senseId": "l324-v-625-sense",
+      "keyRef": "l324-v2-k2",
+      "prompt": "Cả trường nghỉ theo thông báo: 学校明天□。",
+      "choices": [
+        "放学",
+        "请假",
+        "休假",
+        "工作日",
+        "周末",
+        "放假"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l324-v2-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l324-c3",
+      "senseId": "l324-v-627-sense",
+      "keyRef": "l324-v2-k3",
+      "prompt": "Viết pinyin của 放学 trong câu “我放学以后回家。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l324-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l324-c4",
+      "senseId": "l324-v-808-sense",
+      "keyRef": "l324-v2-k4",
+      "prompt": "Học sinh muốn nghỉ riêng một buổi và phải xin thầy: 跟老师□。",
+      "choices": [
+        "休假",
+        "工作日",
+        "周末",
+        "放假",
+        "放学",
+        "请假"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l324-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l324-c5",
+      "senseId": "l324-v-911-sense",
+      "keyRef": "l324-v2-k5",
+      "prompt": "Theo lịch đã duyệt, cô ấy nghỉ phép ba ngày: 下周□三天。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l324-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l324-c0",
+      "senseId": "l324-v-649-sense",
+      "keyRef": "l324-v2-k6",
+      "prompt": "Ngày mai trường có nghỉ theo lịch không?",
+      "choices": [
+        "全校放假",
+        "已经放学了",
+        "不放假"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l324-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l324-c3",
+      "senseId": "l324-v-627-sense",
+      "keyRef": "l324-v2-k7",
+      "prompt": "Sắp xếp việc làm trước khi xin nghỉ. Bắt đầu bằng “请假以前”.",
+      "choices": [
+        "要先问老师",
+        "请假以前"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l324-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l324-v2-e0",
+      "senseId": "l324-v-649-sense",
+      "accepted": [
+        "工作日"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "工作日: ngày làm việc. 工作日 theo lịch làm việc cụ thể; không mặc định mọi thứ Hai–Sáu hay mọi người có cùng lịch. Ngày làm việc tôi ra khỏi nhà lúc bảy giờ."
+    },
+    {
+      "id": "l324-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l324-v2-e1",
+      "senseId": "l324-v-986-sense",
+      "accepted": [
+        "周末"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "周末: cuối tuần. 周末 thường là cuối tuần; không tự bảo đảm ai cũng được nghỉ. 这个周末指 cuối tuần đang xét. Cuối tuần này tôi không ra ngoài."
+    },
+    {
+      "id": "l324-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l324-v2-e2",
+      "senseId": "l324-v-625-sense",
+      "accepted": [
+        "放假"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "放假: được nghỉ/nghỉ lễ. 放假 là cơ quan/trường nghỉ theo lịch; khác 请假 là cá nhân xin phép nghỉ. Ngày mai trường nghỉ."
+    },
+    {
+      "id": "l324-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l324-v2-e3",
+      "senseId": "l324-v-627-sense",
+      "accepted": [
+        "fàng xué"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "放学: tan học. 放学 chỉ kết thúc buổi học, không đồng nghĩa nghỉ cả kỳ hay tốt nghiệp. Sau tan học tôi về nhà."
+    },
+    {
+      "id": "l324-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l324-v2-e4",
+      "senseId": "l324-v-808-sense",
+      "accepted": [
+        "请假"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "请假: xin nghỉ phép/xin nghỉ học. 请假 là xin phép nghỉ; 请假了 chưa tự cho biết được chấp thuận nếu ngữ cảnh không nói. 跟老师请假 là xin thầy cho nghỉ. Cậu ấy muốn xin thầy cho nghỉ."
+    },
+    {
+      "id": "l324-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l324-v2-e5",
+      "senseId": "l324-v-911-sense",
+      "accepted": [
+        "休假"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "休假: nghỉ phép. 休假 nói đang/hưởng thời gian nghỉ, không chỉ hành vi nộp đơn; 休假三天 là nghỉ ba ngày. Tuần sau cô ấy nghỉ phép ba ngày."
+    },
+    {
+      "id": "l324-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l324-v2-e6",
+      "senseId": "l324-v-649-sense",
+      "accepted": [
+        "不放假"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 请假以前先问老师 đặt mốc “trước khi xin nghỉ” ở đầu hoặc sau chủ ngữ, trước việc làm. 放学以后 là sau tan học; không đồng nghĩa đang nghỉ phép."
+    },
+    {
+      "id": "l324-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l324-v2-e7",
+      "senseId": "l324-v-627-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 请假以前先问老师 đặt mốc “trước khi xin nghỉ” ở đầu hoặc sau chủ ngữ, trước việc làm. 放学以后 là sau tan học; không đồng nghĩa đang nghỉ phép."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

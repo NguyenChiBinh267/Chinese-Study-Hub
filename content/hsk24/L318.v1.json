@@ -1,0 +1,836 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "de37f5bb3440917c805e921947a7dfe152a1b5e22061f5b8eb5aa61e4cd070f6",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-seasons-trip",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L318",
+    "version": 1,
+    "versionId": "l318-draft-v1",
+    "title": "Chọn mùa để đi chơi",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đối chiếu bốn mùa và giải thích lựa chọn có điều kiện.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "如果"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 17,
+      "physicalPage": 18,
+      "printedPage": 15,
+      "section": "task",
+      "entry": "十六"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-nature",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 17,
+          "physicalPage": 18,
+          "printedPage": 15,
+          "section": "task",
+          "entry": "十六"
+        },
+        "written": "谈论自然情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-seasons",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "季节"
+        },
+        "written": "季节",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l318-v-568",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 568"
+        },
+        "written": "春天",
+        "pinyin": "chūntiān",
+        "senseId": "l318-v-568-sense",
+        "ordinal": 568,
+        "note": "3 chūntiān 名; 春天 chỉ mùa xuân; thời tiết cụ thể phụ thuộc địa điểm, không phải nơi nào mùa xuân cũng ấm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l318-v-601",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 601"
+        },
+        "written": "冬天",
+        "pinyin": "dōngtiān",
+        "senseId": "l318-v-601-sense",
+        "ordinal": 601,
+        "note": "3 dōngtiān 名; 冬天 là mùa đông; 冬天去 là đi vào mùa đông, không cần 在 trước mọi cụm thời gian. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l318-v-694",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 694"
+        },
+        "written": "季节",
+        "pinyin": "jìjié",
+        "senseId": "l318-v-694-sense",
+        "ordinal": 694,
+        "note": "3 jìjié 名; 季节 là tên loại khoảng thời gian theo mùa; hỏi 什么季节, không dùng nó thay tên riêng 春天. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l318-v-810",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 810"
+        },
+        "written": "秋天",
+        "pinyin": "qiūtiān",
+        "senseId": "l318-v-810-sense",
+        "ordinal": 810,
+        "note": "3 qiūtiān 名; 秋天 là mùa thu, theo thứ tự bốn mùa sau 夏天 và trước 冬天; không đồng nghĩa mỗi ngày mát. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l318-v-848",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 848"
+        },
+        "written": "四季",
+        "pinyin": "sìjì",
+        "senseId": "l318-v-848-sense",
+        "ordinal": 848,
+        "note": "3 sìjì 名; 四季 gộp xuân, hạ, thu, đông; không phải mùa thứ tư. 四季都… diễn tả phạm vi cả bốn mùa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l318-v-889",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 889"
+        },
+        "written": "夏天",
+        "pinyin": "xiàtiān",
+        "senseId": "l318-v-889-sense",
+        "ordinal": 889,
+        "note": "3 xiàtiān 名; 夏天 là mùa hè; 太热了 đánh giá nóng quá tại địa điểm đang nói, không phải định nghĩa khí hậu toàn cầu. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-35",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "35"
+        },
+        "written": "春",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 35,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-47",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "47"
+        },
+        "written": "冬",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 47,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-95",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "95"
+        },
+        "written": "季",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 95,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-111",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "111"
+        },
+        "written": "节",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 111,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-176",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "176"
+        },
+        "written": "秋",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 176,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-224",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "224"
+        },
+        "written": "夏",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 224,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-if",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "复句 / 假设复句"
+        },
+        "written": "如果",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l318-c0",
+      "version": 1,
+      "senseId": "l318-v-568-sense",
+      "hanzi": "春天",
+      "dictionaryPinyin": "chūn tiān",
+      "meaning": "mùa xuân",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l318-v-568"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l318-c1",
+      "version": 1,
+      "senseId": "l318-v-601-sense",
+      "hanzi": "冬天",
+      "dictionaryPinyin": "dōng tiān",
+      "meaning": "mùa đông",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l318-v-601"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l318-c2",
+      "version": 1,
+      "senseId": "l318-v-694-sense",
+      "hanzi": "季节",
+      "dictionaryPinyin": "jì jié",
+      "meaning": "mùa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l318-v-694"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l318-c3",
+      "version": 1,
+      "senseId": "l318-v-810-sense",
+      "hanzi": "秋天",
+      "dictionaryPinyin": "qiū tiān",
+      "meaning": "mùa thu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l318-v-810"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l318-c4",
+      "version": 1,
+      "senseId": "l318-v-848-sense",
+      "hanzi": "四季",
+      "dictionaryPinyin": "sì jì",
+      "meaning": "bốn mùa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l318-v-848"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l318-c5",
+      "version": 1,
+      "senseId": "l318-v-889-sense",
+      "hanzi": "夏天",
+      "dictionaryPinyin": "xià tiān",
+      "meaning": "mùa hè",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l318-v-889"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l318-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 比较 bǐjiào: tương đối; 舒服 shūfu: dễ chịu; 选 xuǎn: chọn. Đây là đọc tình huống một địa điểm, chưa học dự báo nghe.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l318-t0",
+      "type": "teaching",
+      "title": "春天 · mùa xuân",
+      "text": "春天 chỉ mùa xuân; thời tiết cụ thể phụ thuộc địa điểm, không phải nơi nào mùa xuân cũng ấm.",
+      "hanzi": "这里的春天不太冷。",
+      "pinyin": "Zhèlǐ de chūntiān bú tài lěng.",
+      "meaning": "Mùa xuân ở đây không lạnh lắm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l318-t1",
+      "type": "teaching",
+      "title": "冬天 · mùa đông",
+      "text": "冬天 là mùa đông; 冬天去 là đi vào mùa đông, không cần 在 trước mọi cụm thời gian.",
+      "hanzi": "我不想冬天去那里。",
+      "pinyin": "Wǒ bù xiǎng dōngtiān qù nàli.",
+      "meaning": "Tôi không muốn đến đó vào mùa đông.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l318-t2",
+      "type": "teaching",
+      "title": "季节 · mùa",
+      "text": "季节 là tên loại khoảng thời gian theo mùa; hỏi 什么季节, không dùng nó thay tên riêng 春天.",
+      "hanzi": "你最喜欢什么季节？",
+      "pinyin": "Nǐ zuì xǐhuan shénme jìjié?",
+      "meaning": "Bạn thích mùa nào nhất?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l318-t3",
+      "type": "teaching",
+      "title": "秋天 · mùa thu",
+      "text": "秋天 là mùa thu, theo thứ tự bốn mùa sau 夏天 và trước 冬天; không đồng nghĩa mỗi ngày mát.",
+      "hanzi": "我们打算秋天去看朋友。",
+      "pinyin": "Wǒmen dǎsuàn qiūtiān qù kàn péngyou.",
+      "meaning": "Chúng tôi định thăm bạn vào mùa thu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l318-t4",
+      "type": "teaching",
+      "title": "四季 · bốn mùa",
+      "text": "四季 gộp xuân, hạ, thu, đông; không phải mùa thứ tư. 四季都… diễn tả phạm vi cả bốn mùa.",
+      "hanzi": "这个城市四季都有人来。",
+      "pinyin": "Zhège chéngshì sìjì dōu yǒu rén lái.",
+      "meaning": "Thành phố này cả bốn mùa đều có người đến.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l318-t5",
+      "type": "teaching",
+      "title": "夏天 · mùa hè",
+      "text": "夏天 là mùa hè; 太热了 đánh giá nóng quá tại địa điểm đang nói, không phải định nghĩa khí hậu toàn cầu.",
+      "hanzi": "这里的夏天很热。",
+      "pinyin": "Zhèlǐ de xiàtiān hěn rè.",
+      "meaning": "Mùa hè ở đây rất nóng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l318-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "如果…就… nêu giả thiết và kết quả theo kế hoạch: 如果冬天太冷，我们就春天去. Chưa nói điều kiện đã xảy ra; 就 đứng trước động từ sau chủ ngữ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l318-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林：那里四季都冷吗？小王：不是。冬天很冷，夏天很热，春天和秋天比较舒服。小林：那我们选什么季节？小王：如果冬天太冷，我们就春天去。",
+      "pinyin": "Xiǎo Lín: Nàli sìjì dōu lěng ma? Xiǎo Wáng: Bú shì. Dōngtiān hěn lěng, xiàtiān hěn rè, chūntiān hé qiūtiān bǐjiào shūfu. Xiǎo Lín: Nà wǒmen xuǎn shénme jìjié? Xiǎo Wáng: Rúguǒ dōngtiān tài lěng, wǒmen jiù chūntiān qù.",
+      "meaning": "Hai bạn đối chiếu thời tiết tại nơi định đến và dự kiến đi mùa xuân nếu mùa đông quá lạnh.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l318-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l318-v1-e0"
+    },
+    {
+      "id": "l318-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l318-v1-e1"
+    },
+    {
+      "id": "l318-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l318-v1-e2"
+    },
+    {
+      "id": "l318-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l318-v1-e3"
+    },
+    {
+      "id": "l318-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l318-v1-e4"
+    },
+    {
+      "id": "l318-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l318-v1-e5"
+    },
+    {
+      "id": "l318-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l318-v1-e6"
+    },
+    {
+      "id": "l318-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l318-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l318-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l318-c0",
+      "senseId": "l318-v-568-sense",
+      "keyRef": "l318-v1-k0",
+      "prompt": "Ở nơi đang kể, sau mùa đông là mùa xuân: 冬天以后是□。",
+      "choices": [
+        "冬天",
+        "季节",
+        "秋天",
+        "四季",
+        "夏天",
+        "春天"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l318-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l318-c1",
+      "senseId": "l318-v-601-sense",
+      "keyRef": "l318-v1-k1",
+      "prompt": "Đi vào mùa lạnh nhất trong mô tả bốn mùa: 我们□去。",
+      "choices": [
+        "季节",
+        "秋天",
+        "四季",
+        "夏天",
+        "春天",
+        "冬天"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l318-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l318-c2",
+      "senseId": "l318-v-694-sense",
+      "keyRef": "l318-v1-k2",
+      "prompt": "Hỏi chung một loại thời gian, không nêu tên mùa: 什么□？",
+      "choices": [
+        "秋天",
+        "四季",
+        "夏天",
+        "春天",
+        "冬天",
+        "季节"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l318-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l318-c3",
+      "senseId": "l318-v-810-sense",
+      "keyRef": "l318-v1-k3",
+      "prompt": "Viết pinyin của 秋天 trong câu “我们打算秋天去看朋友。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l318-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l318-c4",
+      "senseId": "l318-v-848-sense",
+      "keyRef": "l318-v1-k4",
+      "prompt": "Gộp xuân hạ thu đông: 这个城市□都有人来。",
+      "choices": [
+        "夏天",
+        "春天",
+        "冬天",
+        "季节",
+        "秋天",
+        "四季"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l318-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l318-c5",
+      "senseId": "l318-v-889-sense",
+      "keyRef": "l318-v1-k5",
+      "prompt": "Trong thứ tự xuân–hạ–thu–đông: 春天以后、秋天以前是□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l318-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l318-c0",
+      "senseId": "l318-v-568-sense",
+      "keyRef": "l318-v1-k6",
+      "prompt": "Nếu mùa đông quá lạnh, họ dự định đi mùa nào?",
+      "choices": [
+        "冬天",
+        "夏天",
+        "春天"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l318-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l318-c3",
+      "senseId": "l318-v-810-sense",
+      "keyRef": "l318-v1-k7",
+      "prompt": "Sắp xếp kế hoạch có điều kiện.",
+      "choices": [
+        "我们就春天去",
+        "如果冬天太冷"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l318-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l318-v1-e0",
+      "senseId": "l318-v-568-sense",
+      "accepted": [
+        "春天"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "春天: mùa xuân. 春天 chỉ mùa xuân; thời tiết cụ thể phụ thuộc địa điểm, không phải nơi nào mùa xuân cũng ấm. Mùa xuân ở đây không lạnh lắm."
+    },
+    {
+      "id": "l318-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l318-v1-e1",
+      "senseId": "l318-v-601-sense",
+      "accepted": [
+        "冬天"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "冬天: mùa đông. 冬天 là mùa đông; 冬天去 là đi vào mùa đông, không cần 在 trước mọi cụm thời gian. Tôi không muốn đến đó vào mùa đông."
+    },
+    {
+      "id": "l318-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l318-v1-e2",
+      "senseId": "l318-v-694-sense",
+      "accepted": [
+        "季节"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "季节: mùa. 季节 là tên loại khoảng thời gian theo mùa; hỏi 什么季节, không dùng nó thay tên riêng 春天. Bạn thích mùa nào nhất?"
+    },
+    {
+      "id": "l318-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l318-v1-e3",
+      "senseId": "l318-v-810-sense",
+      "accepted": [
+        "qiū tiān"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "秋天: mùa thu. 秋天 là mùa thu, theo thứ tự bốn mùa sau 夏天 và trước 冬天; không đồng nghĩa mỗi ngày mát. Chúng tôi định thăm bạn vào mùa thu."
+    },
+    {
+      "id": "l318-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l318-v1-e4",
+      "senseId": "l318-v-848-sense",
+      "accepted": [
+        "四季"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "四季: bốn mùa. 四季 gộp xuân, hạ, thu, đông; không phải mùa thứ tư. 四季都… diễn tả phạm vi cả bốn mùa. Thành phố này cả bốn mùa đều có người đến."
+    },
+    {
+      "id": "l318-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l318-v1-e5",
+      "senseId": "l318-v-889-sense",
+      "accepted": [
+        "夏天"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "夏天: mùa hè. 夏天 là mùa hè; 太热了 đánh giá nóng quá tại địa điểm đang nói, không phải định nghĩa khí hậu toàn cầu. Mùa hè ở đây rất nóng."
+    },
+    {
+      "id": "l318-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l318-v1-e6",
+      "senseId": "l318-v-568-sense",
+      "accepted": [
+        "春天"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 如果…就… nêu giả thiết và kết quả theo kế hoạch: 如果冬天太冷，我们就春天去. Chưa nói điều kiện đã xảy ra; 就 đứng trước động từ sau chủ ngữ."
+    },
+    {
+      "id": "l318-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l318-v1-e7",
+      "senseId": "l318-v-810-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 如果…就… nêu giả thiết và kết quả theo kế hoạch: 如果冬天太冷，我们就春天去. Chưa nói điều kiện đã xảy ra; 就 đứng trước động từ sau chủ ngữ."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}
