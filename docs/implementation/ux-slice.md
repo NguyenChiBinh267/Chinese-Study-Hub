@@ -171,6 +171,8 @@ M0 chỉ xử lý online concurrency/version/request uncertainty; **không** tri
 
 Primary **“Đọc trạng thái mới”** là thao tác đọc, không ghi đè. Nếu response xác nhận request gốc đã lưu thì hiển thị kết quả đó đúng một lần. Nếu chưa apply và retry còn hợp lệ, cho xác nhận gửi nguyên request/key; payload/key conflict thì dừng, không đổi key để vượt409. Nếu phải chọn lại do stateVersion đổi, user đọc bản mới và xác nhận một thao tác mới rõ ràng; không replay rating cũ lên card mới. Lịch server khác bản draft: hiển thị thay đổi, yêu cầu xem preview lại trước apply; không silently overwrite.
 
+Tách xác nhận ghi khỏi lần đọc làm mới sau đó. Nếu đã nhận phản hồi hợp lệ xác nhận commit cho đúng thao tác, nhưng lần đọc lịch/tiến độ/card mới thất bại, hiển thị **“Đã lưu thao tác này. Chưa tải được trạng thái mới.”** và chỉ cho **“Đọc lại trạng thái”**. Giữ nhãn cũ cho số liệu đang hiển thị và chờ dữ liệu mới trước khi chọn bước học tiếp. Nếu phản hồi ghi bị mất hoặc chưa xác nhận commit, giữ **“Chưa xác nhận đã lưu”** và đối chiếu đúng thao tác gốc trước khi cho gửi lại cùng key. Khi phiên hết hạn, yêu cầu xác thực lại đúng owner trước khi đọc hoặc hiển thị dữ liệu.
+
 - loading: “Đang đối chiếu trạng thái…”, không có nút ghi cạnh tranh.
 - empty: server không tìm thấy request/checkpoint → “Chưa có xác nhận cho thao tác này”; retry có kiểm soát nếu xác minh hợp lệ, nếu không thì về màn nguồn giữ cảnh báo.
 - error: không đọc được → “Thử đọc lại”; 403 → dừng với thông báo quyền; không xóa bản nháp và không đánh resolved.
@@ -209,6 +211,7 @@ Phương pháp: tác giả đi từng bước trên wireframe chữ và các nh�
 1. Người mới dùng UI Việt ở360px, không chỉ điểm CTA; đưa mục tiêu “bắt đầu việc học tiếp theo”. Đo từ S05 interactive đến kích hoạt đúng CTA, đạt≤10s; ghi thêm cold-open riêng, thiết bị/browser/zoom/network, số lần chọn sai và thời gian quan sát thực. Không lấy thời gian tác giả tự đọc làm số liệu người mới. Lần đầu onboarding đo riêng vì nhập quỹ giờ không nằm trong thao tác next ở S05.
 2. Cho người dùng tự giải thích Quên/Khó/Nhớ đúng/Nhớ ngay sau reveal; đưa cả ca sai nhưng thấy khó. Ghi lựa chọn và lời giải thích, không gợi ý đáp án trước; hiểu sai cần sửa copy rồi thử lại, không tự đánh PASS.
 3. Chặn playback thực, xác minh fallback bản chữ/assistance/đường học tiếp và nhánh thiếu asset; keyboard-only Windows/NVDA, Android/TalkBack, zoom200% và bàn phím ảo không che submit. Ghi actual observed focus/overflow/audio, không dùng walkthrough thay UAT.
+4. Ca regression khi nối player, lịch và ôn vào server. Cho lệnh ghi trả xác nhận hợp lệ rồi buộc lần đọc làm mới thất bại. Kiểm UI vẫn xác nhận đúng thao tác, chỉ cho đọc lại, không gửi lệnh ghi lần hai và chưa chọn bước tiếp từ dữ liệu cũ. Lặp với phản hồi ghi bị mất. UI báo chưa xác nhận, đọc theo định danh thao tác gốc, chỉ cho gửi lại cùng key nếu còn hợp lệ.
 
 ## Acceptance readback và phần còn chờ review
 
