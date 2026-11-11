@@ -13,7 +13,9 @@ Nguồn đặc tả: [Master Plan v1.1](../master-plan/master-plan-v1.1.md), **m
 - M0 cần mạng để đọc trạng thái mới, lập lịch và ghi kết quả. Không có tải bài, outbox, lease, ghi âm, đồng bộ nền hay cam kết giữ bản nháp sau crash. Những phần đó thuộc v0.3. Tutor thuộc v0.2; không action học nào phụ thuộc AI.
 - T068 trước tạo dịch vụ; T009 trước ghi dữ liệu học; T069 trước chọn host/deploy; content/rights/competent-review gates vẫn giữ. T004 không xác nhận chúng đã đạt, không tạo cloud và không chọn hosting.
 
-## Cấu trúc, tokens và accessibility
+## Accessibility
+
+**Cấu trúc và tokens**
 
 Mobile: bốn mục **Hôm nay / Học / Ôn / Tiến độ**, Cài đặt ở phần đầu. Desktop giữ cùng taxonomy qua sidebar; nội dung đọc tối đa 720px, dashboard 1.120px. M0 không hiện tab Tutor/Tải xuống/Ghi âm dẫn vào tính năng chưa bật. T004 đặc tả màn S01–S09 bên dưới; các màn Học/Tiến độ đầy đủ thuộc backlog, không được coi đã thiết kế xong ở đây.
 
@@ -31,7 +33,9 @@ Mobile: bốn mục **Hôm nay / Học / Ôn / Tiến độ**, Cài đặt ở p
 
 Các quy tắc này là yêu cầu cho T012/T017/T025/T066 và device UAT, chưa phải kết quả test TalkBack/NVDA, trình duyệt hay đo contrast thực tế.
 
-## Quy tắc CTA, dữ liệu và trạng thái chung
+## States
+
+**Quy tắc CTA, dữ liệu và trạng thái chung**
 
 **Một CTA học tiếp**: Hôm nay chỉ hiển thị một primary tương ứng `nextAction` hợp lệ, không bắt người dùng so sánh nhiều bài. Due/relearning/overdue ưu tiên trước resume phù hợp, remediation và bài mới theo §6.4; UI không tự chọn khác planner, không sửa prerequisite. Chỉ đổi label theo action: “Ôn 10 phút”, “Tiếp tục · bước 3/5”, “Bắt đầu 15 phút”. Số phút phải lấy từ block thực đủ ngân sách, không hardcode 15 phút cho mọi người. Link “Xem lịch tuần” là phụ.
 
@@ -55,11 +59,13 @@ Thứ tự focus: tiêu đề → lựa chọn điểm xuất phát → link Quy
 - error: 401 → “Đăng nhập lại”; lỗi đọc/lưu → “Thử lại”, giữ form trong tab, không bỏ qua xác thực.
 - offline: thông báo cần kết nối để thiết lập; primary disabled; không tạo profile local làm nguồn chính.
 
-## S02 — Weekly budget: chọn thời gian học/tuần
+## Weekly budget
+
+**S02 — Chọn thời gian học/tuần**
 
 Header “Bạn muốn dành tối đa bao nhiêu thời gian mỗi tuần?”. Radio presets **3 / 6 / 9 / 12 giờ**, input tùy chỉnh **giờ và phút**, không preselect như đã đồng ý. Đổi sang số phút nguyên khi xác nhận: active 30..1260 phút/tuần; 0 chỉ khi chọn riêng “Tạm dừng lịch học”. Số âm, rỗng, lẻ phút hoặc ngoài khoảng có lỗi ngay cạnh trường; không tự clamp input. Chú thích “Đây là giới hạn dự định, không phải số phút buộc phải học đủ”.
 
-Primary **“Chọn ngày rảnh”** chỉ chuyển bước và giữ bản nháp; chưa áp dụng kế hoạch. Phụ: Quay lại. Đổi settings từ Hôm nay dùng cùng form với giá trị đang được server xác nhận; rời form khi có sửa chưa lưu phải cảnh báo.
+CTA chính **“Chọn ngày rảnh”** chỉ chuyển bước và giữ bản nháp; chưa áp dụng kế hoạch. Phụ: Quay lại. Đổi settings từ Hôm nay dùng cùng form với giá trị đang được server xác nhận; rời form khi có sửa chưa lưu phải cảnh báo.
 
 - loading: đọc preferences có sẵn, chưa biết thì không hiện preset đã lưu giả.
 - empty: chưa từng chọn → gợi ý presets, yêu cầu chọn trước tiếp tục.
@@ -96,7 +102,9 @@ Khi sửa giữa tuần xuống dưới thời gian đã học (đã học100 ph
 - error: 409 → S09; 422 → trường liên quan; timeout/response mất → “Chưa xác nhận lịch đã lưu”, đọc lại version trước retry cùng request; không áp dụng hai lần.
 - offline: không thay quỹ giờ, apply hay replan. Lịch trong tab chỉ đọc, gắn timestamp; nếu mất mạng lúc apply thì chưa xác nhận, không tự chuyển sang success.
 
-## S05 — Today / Hôm nay
+## Today
+
+**S05 — Hôm nay**
 
 Wireframe chữ ở viewport360, các dòng dưới là label ví dụ, dữ liệu thật phải từ server:
 
@@ -123,11 +131,13 @@ Hero và primary nằm trước chi tiết phụ; tên CTA nói rõ hành độn
 - error: không lấy được today → primary “Thử lại”; lỗi quyền → thông báo quyền; không hiển thị số phút/điểm mới bịa.
 - offline: “Cần kết nối để bắt đầu hoặc tiếp tục phiên”; CTA học disabled, đọc bản đã tải nếu còn trong tab, có timestamp. Không tạo attempts từ snapshot.
 
-## S06 — Lesson player
+## Player
+
+**S06 — Màn học**
 
 Header tên bài/phiên và “Bước3/5”; một mục tiêu/câu hỏi mỗi view, nội dung text wrap, chữ Hán/pinyin/nghĩa Việt theo tokens. Control phụ **Nghe mẫu / Nghe chậm / Nghe lại**, pinyin toggle có trạng thái accessible. Không autoplay; replay không tự đổi câu trả lời. Mọi text/audio/key phải đến từ package đã duyệt và lessonVersionId cố định, không sinh học liệu trong T004.
 
-Input và primary **“Gửi câu trả lời”** → chờ ack → feedback đúng/sai bằng icon+chữ, giải thích đã duyệt → **“Tiếp tục”** với item kế hợp lệ. Không dùng màu đơn lẻ; không gửi score từ UI. Submit lặp dùng cùng request, không tăng điểm/thời gian hai lần. Cuối bài: tóm tắt completion và evidence theo skill, primary từ nextAction đã xác nhận (ôn hoặc block tiếp theo); unknown skill vẫn “Chưa đủ bằng chứng”. Không chặn qua bài vì thiếu AI.
+Input và CTA chính **“Gửi câu trả lời”** → chờ ack → feedback đúng/sai bằng icon+chữ, giải thích đã duyệt → **“Tiếp tục”** với item kế hợp lệ. Không dùng màu đơn lẻ; không gửi score từ UI. Submit lặp dùng cùng request, không tăng điểm/thời gian hai lần. Cuối bài: tóm tắt completion và evidence theo skill, primary từ nextAction đã xác nhận (ôn hoặc block tiếp theo); unknown skill vẫn “Chưa đủ bằng chứng”. Không chặn qua bài vì thiếu AI.
 
 Denied audio / lỗi thiết bị: hiện “Chưa phát được âm thanh”; phụ “Thử phát lại” và “Xem bản chữ đã duyệt”. Với câu nghe, transcript chỉ mở sau khi nộp trả lời nếu nghe được. Khi không nghe được mà cần xem transcript trước answer, ghi **“Có hỗ trợ — không tính bằng chứng nghe độc lập”** và gửi assistance; không tính như đã nghe đúng. Nếu asset thực sự thiếu/không có transcript được duyệt, nêu bài lỗi và về Hôm nay để chọn hoạt động khác hợp lệ, không tự tạo transcript hoặc cho qua tiêu chí nghe. Không cần xin mic; không suy permission denied của autoplay thành quyền microphone.
 
@@ -138,9 +148,11 @@ Pause tại checkpoint đã ack; “Tạm dừng” là phụ. Không cắt atom
 - error: audio theo fallback trên; 409 phiên/version → S09; 401 → đăng nhập lại; response mất → chưa xác nhận, đọc lại attempt rồi retry nguyên key nếu cần; không tạo câu trả lời mới âm thầm.
 - offline: dừng gửi/qua bước chấm điểm, giữ draft trong tab nếu có; “Câu trả lời chưa được xác nhận đã lưu”; khi online đọc checkpoint rồi người dùng mới retry. Không có outbox hay lưu offline bền vững.
 
-## S07 — Review / Ôn
+## Review
 
-Trước reveal: chỉ prompt, control audio chủ động; primary **“Hiện đáp án”**. Sau reveal: đáp án đã duyệt, assistance nếu có; fieldset **“Bạn nhớ ở mức nào?”**, radio không preselect, kèm khoảng hẹn ôn *tạm tính do adapter cung cấp*; chưa có dữ liệu interval thì “Chưa có ước tính”, không tự đặt số ngày.
+**S07 — Ôn**
+
+Trước reveal: chỉ prompt, control audio chủ động; CTA chính **“Hiện đáp án”**. Sau reveal: đáp án đã duyệt, assistance nếu có; fieldset **“Bạn nhớ ở mức nào?”**, radio không preselect, kèm khoảng hẹn ôn *tạm tính do adapter cung cấp*; chưa có dữ liệu interval thì “Chưa có ước tính”, không tự đặt số ngày.
 
 | Giá trị | Label Việt | Cách chọn |
 | --- | --- | --- |
@@ -156,9 +168,11 @@ Trước reveal: chỉ prompt, control audio chủ động; primary **“Hiện 
 - error: 409 rating cũ → S09, không tự apply lên version mới; lỗi audio có bản chữ/assistance như S06; lỗi gửi giữ selection nhưng không gọi saved, cùng key cho retry chưa đổi payload.
 - offline: không reveal một queue mới hoặc gửi rating; prompt/đáp án đã mở trong tab chỉ xem, ghi chưa lưu. Nối lại đọc card/version/ack trước khi tiếp tục.
 
-## S08 — Resume / Tiếp tục phiên
+## Resume
 
-Entry từ Hôm nay hoặc mở lại lesson. Tóm tắt “Đã lưu đến bước2/5 lúc …; tiếp theo bước3”, có version và mục tiêu; primary **“Tiếp tục bước3”** sau kiểm tra online. Nếu lesson đang dở nhưng due review ưu tiên hơn, Hôm nay chỉ có primary Ôn; phiên dở vẫn truy cập qua Học, không tự xóa. Không bắt chọn lại bài hay làm lại bước đã ack.
+**S08 — Tiếp tục phiên**
+
+Entry từ Hôm nay hoặc mở lại lesson. Tóm tắt “Đã lưu đến bước2/5 lúc …; tiếp theo bước3”, có version và mục tiêu; CTA chính **“Tiếp tục bước3”** sau kiểm tra online. Nếu lesson đang dở nhưng due review ưu tiên hơn, Hôm nay chỉ có primary Ôn; phiên dở vẫn truy cập qua Học, không tự xóa. Không bắt chọn lại bài hay làm lại bước đã ack.
 
 - loading: “Đang kiểm tra điểm đã lưu…”, khóa resume đến khi server xác nhận session/version/prerequisite.
 - empty: không có checkpoint → nói rõ; nếu có lesson hợp lệ thì “Bắt đầu bài”, không giả “Tiếp tục bước3”. Draft trước crash không tồn tại thì không dựng lại câu trả lời.
@@ -178,7 +192,9 @@ Tách xác nhận ghi khỏi lần đọc làm mới sau đó. Nếu đã nhận
 - error: không đọc được → “Thử đọc lại”; 403 → dừng với thông báo quyền; không xóa bản nháp và không đánh resolved.
 - offline: “Kết nối lại để đối chiếu”; primary disabled. Không có nút “Đồng bộ thành công”, “Ghi đè server” hay cam kết kết quả đã bền vững trên máy.
 
-## Flow A–D và trace vào backlog
+## Flow A–D
+
+**Trace vào backlog**
 
 | Flow trong §8.3 | Chuỗi màn / điểm quan sát | Backlog thực hiện sau T004 |
 | --- | --- | --- |
