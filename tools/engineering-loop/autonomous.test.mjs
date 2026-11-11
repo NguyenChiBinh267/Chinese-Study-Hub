@@ -1,11 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
+import { readAssuranceDecision } from './model-assurance.mjs';
 import { test } from 'node:test';
 import { fileURLToPath } from 'node:url';
 import childProcess from 'node:child_process';
 import { syncBuiltinESMExports } from 'node:module';
-import { validateAuthorization, preflight, recoveryDecision, chooseTask, newLedger, summarize, autonomousRun, bindRunDeadline, checkpointRetry } from './autonomous.mjs';
+import { validateAuthorization, validateLiveBootstrap, preflight, recoveryDecision, chooseTask, newLedger, summarize, autonomousRun, bindRunDeadline, checkpointRetry } from './autonomous.mjs';
 import { makeMultiGitFixture } from './fixtures.mjs';
 import { GitSource, blob } from './git-ssot.mjs';
 import { git, validateFreeQuota, GitHub, remainingTime, deadlineTimer, command, writeJson, readJson } from './io.mjs';
@@ -24,6 +25,58 @@ test('No absent/expired/paid/mismatched grant can activate autonomous authority'
   assert.throws(() => validateAuthorization(real, cfg), /match/);
   assert.ok(validateAuthorization(real, { ...cfg, liveEnabled: true, autoMerge: true, ssotAllowStatusWrites: true, authorizedTasks: ['T004'] }));
 });
+test('Live bootstrap needs bound runtime and full review evidence on unchanged verified tooling', () => {
+  const checkout = fs.mkdtempSync(path.join(root, '.engineering-loop', 'b-'));
+  git(checkout, 'init', '-b', 'main');
+  const policyPath = 'tools/engineering-loop/model-assurance-policy.json';
+  fs.mkdirSync(path.join(checkout, 'tools/engineering-loop'), { recursive: true });
+  fs.copyFileSync(path.join(root, policyPath), path.join(checkout, policyPath));
+  const write = (name, text) => {
+    fs.mkdirSync(path.dirname(path.join(checkout, name)), { recursive: true });
+    fs.writeFileSync(path.join(checkout, name), text);
+  };
+  const commit = message => {
+    git(checkout, 'add', '.');
+    git(checkout, 'commit', '-m', message);
+    return git(checkout, 'rev-parse', 'HEAD');
+  };
+  const tool = 'tools/engineering-loop/driver.mjs';
+  write(tool, 'first version');
+  const baseSha = commit('base');
+  write(tool, 'reviewed version');
+  const head = commit('bootstrap candidate');
+  const repository = cfg.repository;
+  const revision = `git-bootstrap:${repository}#8:${baseSha}:${head}`;
+  const auth = { repository, bootstrapReviewedSha: head };
+  const state = {
+    bootstrapTarget: { repository, pr: 8, baseBranch: 'main', branch: 'loop/bootstrap', baseSha, initialHeadSha: head },
+    pr: 8, branch: 'loop/bootstrap', baseSha, phase: 'DONE', sourceRevision: revision, runId: 'review-run', nonce: 'nonce', commitSha: head,
+    review: { verdict: 'PASS', commitSha: head, sourceRevision: revision, runId: 'review-run', nonce: 'nonce', findings: [], sourceReadbackVerified: true },
+    checks: [{ name: 'tests', passed: true, commitSha: head }],
+    reviewerReceipt: {
+      role: 'reviewer', sandbox: 'read-only', newSession: true, processId: 42, threadId: 'review-thread',
+      costProof: { chatgptOnly: true, hasCredits: false, balance: '0' },
+      sourceBefore: revision, sourceAfter: revision, snapshotHashBefore: 'same', snapshotHashAfter: 'same',
+      reviewContext: { fullTaskCoverage: true, reviewedSha: head, sourceBase: baseSha },
+      runtimeVerification: { verified: true }, routingAssuranceVerified: true,
+      routingAssurance: { verified: true, commitSha: head, taskId: 'B001', decisionDigest: readAssuranceDecision(checkout, repository).digest }
+    }
+  };
+  validateLiveBootstrap(checkout, state, auth, head);
+  assert.throws(() => validateLiveBootstrap(checkout, { ...state, checks: [] }, auth, head), /exact-SHA PASS/);
+  assert.throws(() => validateLiveBootstrap(checkout, { ...state, checks: [{ ...state.checks[0], commitSha: baseSha }] }, auth, head), /exact-SHA PASS/);
+  assert.throws(() => validateLiveBootstrap(checkout, { ...state, reviewerReceipt: { ...state.reviewerReceipt, sourceAfter: 'drift' } }, auth, head), /full-candidate PASS/);
+  assert.throws(() => validateLiveBootstrap(checkout, { ...state, reviewerReceipt: { ...state.reviewerReceipt, routingAssuranceVerified: false } }, auth, head), /runtime routing assurance/);
+  assert.throws(() => validateLiveBootstrap(checkout, state, { ...auth, bootstrapReviewedSha: baseSha }, head), /full-candidate PASS/);
+  write('docs/master-plan/task-status.json', '{}');
+  write('docs/master-plan/owner-evidence/T004.json', '{}');
+  const newStatus = commit('task ledger and owner evidence');
+  validateLiveBootstrap(checkout, state, auth, newStatus);
+  write(tool, 'changed since review');
+  const drifted = commit('tooling drift');
+  assert.throws(() => validateLiveBootstrap(checkout, state, auth, drifted), /inputs changed/);
+});
+
 test('Grant binding changes when scope, expiry or budgets change across restart', () => {
   const g = grant(), h = validateAuthorization(g, cfg, true), l = newLedger(h, g);
   const restored = JSON.parse(JSON.stringify(l)); assert.equal(restored.grantHash, h);

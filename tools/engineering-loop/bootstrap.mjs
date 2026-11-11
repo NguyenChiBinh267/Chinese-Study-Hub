@@ -70,17 +70,22 @@ export function resumeBootstrapTarget(data, target) {
   requireThat(Number.isInteger(previous.repairs) && previous.repairs >= 0 && previous.repairs <= 2, 'Invalid persisted bootstrap repair budget');
   return { target: pinned, previous, repairs: previous.repairs };
 }
-export function validateBootstrapMergeGrant(grant, state) {
+export function validateBootstrapPass(state) {
   const target = validateBootstrapTarget(state.bootstrapTarget);
   requireThat(state.pr === target.pr && state.branch === target.branch && state.baseSha === target.baseSha &&
     state.sourceRevision === `git-bootstrap:${target.repository}#${target.pr}:${target.baseSha}:${state.commitSha}`, 'Bootstrap state/target mismatch');
-  requireThat(grant?.ownerApproved === true && grant.pr === target.pr && grant.repository === target.repository &&
-    grant.merge === true && grant.commitSha === state.commitSha && grant.baseSha === state.baseSha && Date.parse(grant.expiresAt) > Date.now(), 'Initial owner merge authorization missing/stale');
   requireThat(state.review?.verdict === 'PASS' && state.review.commitSha === state.commitSha && state.review.sourceRevision === state.sourceRevision &&
     state.review.runId === state.runId && state.review.nonce === state.nonce && state.review.findings.length === 0 &&
     !state.writerPid && !state.reviewerPid && state.reviewerReceipt?.role === 'reviewer' && state.reviewerReceipt?.sandbox === 'read-only' && state.reviewerReceipt?.newSession &&
     state.reviewerReceipt?.threadId && Number.isInteger(state.reviewerReceipt?.processId) && state.reviewerReceipt.costProof?.chatgptOnly === true && state.reviewerReceipt.costProof.hasCredits === false &&
     state.reviewerReceipt.costProof.balance === '0' && state.checks?.length && state.checks.every(c => c.passed && c.commitSha === state.commitSha), 'Bootstrap requires independent exact-SHA PASS and actual tests');
+  return target;
+}
+export function validateBootstrapMergeGrant(grant, state) {
+  const target = validateBootstrapTarget(state.bootstrapTarget);
+  requireThat(grant?.ownerApproved === true && grant.pr === target.pr && grant.repository === target.repository &&
+    grant.merge === true && grant.commitSha === state.commitSha && grant.baseSha === state.baseSha && Date.parse(grant.expiresAt) > Date.now(), 'Initial owner merge authorization missing/stale');
+  validateBootstrapPass(state);
 }
 function actualChecks(repo, directory, commitSha) {
   fs.mkdirSync(directory, { recursive: true });

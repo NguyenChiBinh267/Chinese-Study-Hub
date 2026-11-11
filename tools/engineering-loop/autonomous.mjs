@@ -5,6 +5,9 @@ import { spawnSync } from 'node:child_process';
 import { hash, now, requireThat, newExecution } from './core.mjs';
 import { git, readJson, writeJson, lock } from './io.mjs';
 import { GitSource, readyGitTasks } from './git-ssot.mjs';
+import { validateBootstrapPass } from './bootstrap.mjs';
+import { readAssuranceDecision } from './model-assurance.mjs';
+import { MANIFEST, PLAN } from './plan.mjs';
 
 const STABLE = ['QUEUED', 'SOURCE_WAIT', 'DEVELOP_READY', 'REPAIR_READY', 'REVIEW_WAIT', 'MERGE_WAIT', 'SSOT_WAIT', 'CACHE_SYNCING', 'PUBLISHING'];
 export function validateAuthorization(grant, cfg, synthetic = false, at = Date.now()) {
@@ -21,6 +24,35 @@ export function validateAuthorization(grant, cfg, synthetic = false, at = Date.n
     requireThat(cfg.liveEnabled && cfg.autoMerge && cfg.ssotAllowStatusWrites && JSON.stringify([...cfg.authorizedTasks].sort()) === JSON.stringify([...grant.tasks].sort()), 'Dormant/configured authority does not match the explicit grant');
   }
   return hash(JSON.stringify(grant));
+}
+
+// Status and owner receipts can advance through their separate pinned-source gates.
+const BOOTSTRAP_INPUTS = [
+  'tools/engineering-loop/', '.gitattributes', 'AGENTS.md', PLAN, MANIFEST,
+  'docs/master-plan/source-export-v1.1.md', 'docs/implementation/brief.md', 'docs/implementation/status.md'
+];
+
+export function validateLiveBootstrap(root, state, grant, main) {
+  const target = validateBootstrapPass(state);
+  const receipt = state.reviewerReceipt, context = receipt.reviewContext;
+  requireThat(target.repository === grant.repository && state.commitSha === grant.bootstrapReviewedSha &&
+    ['MERGE_WAIT', 'DONE'].includes(state.phase) && state.review.sourceReadbackVerified === true &&
+    context?.fullTaskCoverage === true && context.reviewedSha === state.commitSha && context.sourceBase === target.baseSha &&
+    receipt.sourceBefore === state.sourceRevision && receipt.sourceAfter === state.sourceRevision &&
+    receipt.snapshotHashBefore && receipt.snapshotHashBefore === receipt.snapshotHashAfter,
+  'Live bootstrap requires the exact independent full-candidate PASS with source and snapshot readback');
+  git(root, 'merge-base', '--is-ancestor', state.commitSha, main);
+  requireThat(git(root, 'diff', '--name-only', '--no-renames', state.commitSha, main, '--', ...BOOTSTRAP_INPUTS) === '',
+    'Reviewed bootstrap inputs changed on main; reconcile before live execution');
+  const decision = readAssuranceDecision(root, target.repository);
+  if (decision) {
+    requireThat(receipt.runtimeVerification?.verified === true && receipt.routingAssuranceVerified === true &&
+      receipt.routingAssurance?.verified === true && receipt.routingAssurance.commitSha === state.commitSha &&
+      receipt.routingAssurance.taskId === 'B001' && receipt.routingAssurance.decisionDigest === decision.digest,
+    'Missing exact-SHA bootstrap runtime routing assurance');
+  } else {
+    requireThat(receipt.actualModelVerified === true, 'Missing bootstrap actual-model validation');
+  }
 }
 
 // Missing contracts/attestations are task-local. Source/security/unknown errors always stop the run.
@@ -147,11 +179,11 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
     requireThat(Date.now() < runDeadline, 'Authorized deadline reached');
     src = sourceFactory({ root: synthetic ? fixture.controller : root, synthetic,
       expectedRemote: synthetic ? fixture.remote : `https://github.com/${cfg.repository}.git`, data: path.join(data, 'git-operations', ledger.cycleId.slice(0, 8)) });
+    const bootstrap = synthetic ? null : readJson(path.join(data, 'bootstrap-latest.json'));
+    let bootstrapValidatedHead;
     if (!synthetic) {
-      const bootstrap = readJson(path.join(data, 'bootstrap-latest.json'));
-      requireThat(bootstrap.review?.verdict === 'PASS' && bootstrap.review.commitSha === grant.bootstrapReviewedSha && bootstrap.review.findings.length === 0 &&
-        bootstrap.reviewerReceipt?.sandbox === 'read-only' && bootstrap.reviewerReceipt?.newSession && bootstrap.checks?.every(c => c.passed), 'Missing independent exact-SHA bootstrap PASS');
-      const main = src.fetchHead(); git(root, 'merge-base', '--is-ancestor', grant.bootstrapReviewedSha, main);
+      bootstrapValidatedHead = src.fetchHead();
+      validateLiveBootstrap(root, bootstrap, grant, bootstrapValidatedHead);
     }
     ledger.driverPids ??= []; ledger.driverPids.push(process.pid);
     persist();
@@ -181,6 +213,10 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
         persist(); continue;
       }
       if (Date.now() >= runDeadline) { reason = 'Authorized deadline reached'; break; }
+      if (!synthetic && snapshot.commit !== bootstrapValidatedHead) {
+        validateLiveBootstrap(root, bootstrap, grant, snapshot.commit);
+        bootstrapValidatedHead = snapshot.commit;
+      }
       let state = fs.existsSync(statePath) ? readJson(statePath) : null;
       if (!state || ['DONE', 'BLOCKED'].includes(state.phase)) {
         if (state && state.cycleId === ledger.cycleId && !ledger.outcomes.some(x => x.runId === state.runId)) {
