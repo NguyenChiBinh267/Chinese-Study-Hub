@@ -1,0 +1,854 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "48e55964dca4b9666f62375826ccf4de21f3afce80d0742dfeb6d73ae8dc9c32",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-news-basis",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L372",
+    "version": 1,
+    "versionId": "l372-draft-v1",
+    "title": "Đọc báo và kiểm tra căn cứ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc bản tin, tra nguồn và tách ảnh hưởng với nguyên nhân.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "根据"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 18,
+      "physicalPage": 19,
+      "printedPage": 16,
+      "section": "task",
+      "entry": "十八"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-society",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 18,
+          "physicalPage": 19,
+          "printedPage": 16,
+          "section": "task",
+          "entry": "十八"
+        },
+        "written": "交流社会生活的某个方面",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-modern-life",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "现代生活"
+        },
+        "written": "现代生活",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l372-v-516",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 516"
+        },
+        "written": "报纸",
+        "pinyin": "bàozhǐ",
+        "senseId": "l372-v-516-sense",
+        "ordinal": 516,
+        "note": "3 bàozhǐ 名; 报纸 là báo dạng giấy trong bài; 新闻 là nội dung tin, không đồng nhất vật mang với nội dung. 一份报纸 dùng 份. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l372-v-550",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 550"
+        },
+        "written": "查",
+        "pinyin": "chá",
+        "senseId": "l372-v-550-sense",
+        "ordinal": 550,
+        "note": "3 chá 动; 查 là tra cứu/kiểm tra thông tin như 查字典、查时间. Không phải mọi 看 đã là kiểm tra đúng nguồn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l372-v-645",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 645"
+        },
+        "written": "根据",
+        "pinyin": "gēnjù",
+        "senseId": "l372-v-645-sense",
+        "ordinal": 645,
+        "note": "3（5） gēnjù 动、介、（名）; 根据 trong 根据通知是 giới từ dẫn căn cứ; không phải kết luận không thể sai. Đọc ngày và phạm vi nguồn cùng lúc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l372-v-904",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 904"
+        },
+        "written": "新闻",
+        "pinyin": "xīnwén",
+        "senseId": "l372-v-904-sense",
+        "ordinal": 904,
+        "note": "3 xīnwén 名; 新闻 là tin tức, có thể trên báo/mạng. Tin được viết chưa tự là đã kiểm chứng; cần nguồn và ngày. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l372-v-940",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 940"
+        },
+        "written": "影响",
+        "pinyin": "yǐngxiǎng",
+        "senseId": "l372-v-940-sense",
+        "ordinal": 940,
+        "note": "3 yǐngxiǎng 动、名; 影响 có thể động từ hoặc danh từ; 天气影响出行 nêu tác động, chưa nói đây là nguyên nhân duy nhất của mọi thay đổi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l372-v-998",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 998"
+        },
+        "written": "最近",
+        "pinyin": "zuìjìn",
+        "senseId": "l372-v-998-sense",
+        "ordinal": 998,
+        "note": "3 zuìjìn 名; 最近 là khoảng gần thời điểm nói, không có độ dài ngày cố định. 最近的新闻 cần kiểm ngày thực tế khi dùng. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-10",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "10"
+        },
+        "written": "报",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 10,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-276",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "276"
+        },
+        "written": "纸",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 276,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-22",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "22"
+        },
+        "written": "查",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 22,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-69",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "69"
+        },
+        "written": "根",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 69,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-124",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "124"
+        },
+        "written": "据",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 124,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-219",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "219"
+        },
+        "written": "闻",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 219,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-229",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "229"
+        },
+        "written": "响",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 229,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-based-on",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "介词 / 引出凭借依据 / 根据"
+        },
+        "written": "根据",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l372-c0",
+      "version": 1,
+      "senseId": "l372-v-516-sense",
+      "hanzi": "报纸",
+      "dictionaryPinyin": "bào zhǐ",
+      "meaning": "báo giấy/tờ báo",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l372-v-516"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l372-c1",
+      "version": 1,
+      "senseId": "l372-v-550-sense",
+      "hanzi": "查",
+      "dictionaryPinyin": "chá",
+      "meaning": "tra/tìm kiểm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l372-v-550"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l372-c2",
+      "version": 1,
+      "senseId": "l372-v-645-sense",
+      "hanzi": "根据",
+      "dictionaryPinyin": "gēn jù",
+      "meaning": "dựa theo/căn cứ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l372-v-645"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l372-c3",
+      "version": 1,
+      "senseId": "l372-v-904-sense",
+      "hanzi": "新闻",
+      "dictionaryPinyin": "xīn wén",
+      "meaning": "tin tức",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l372-v-904"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l372-c4",
+      "version": 1,
+      "senseId": "l372-v-940-sense",
+      "hanzi": "影响",
+      "dictionaryPinyin": "yǐng xiǎng",
+      "meaning": "ảnh hưởng/tác động",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l372-v-940"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l372-c5",
+      "version": 1,
+      "senseId": "l372-v-998-sense",
+      "hanzi": "最近",
+      "dictionaryPinyin": "zuì jìn",
+      "meaning": "gần đây/dạo này",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l372-v-998"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l372-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 来源 láiyuán: nguồn; 日期 rìqī: ngày tháng; 照常 zhàocháng: như thường; 套 tào: áp rập khuôn; 标题 biāotí: tiêu đề.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l372-t0",
+      "type": "teaching",
+      "title": "报纸 · báo giấy/tờ báo",
+      "text": "报纸 là báo dạng giấy trong bài; 新闻 là nội dung tin, không đồng nhất vật mang với nội dung. 一份报纸 dùng 份.",
+      "hanzi": "爷爷每天看报纸。",
+      "pinyin": "Yéye měi tiān kàn bàozhǐ.",
+      "meaning": "Ông đọc báo mỗi ngày.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l372-t1",
+      "type": "teaching",
+      "title": "查 · tra/tìm kiểm",
+      "text": "查 là tra cứu/kiểm tra thông tin như 查字典、查时间. Không phải mọi 看 đã là kiểm tra đúng nguồn.",
+      "hanzi": "我先查消息的来源。",
+      "pinyin": "Wǒ xiān chá xiāoxi de láiyuán.",
+      "meaning": "Tôi tra nguồn tin trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l372-t2",
+      "type": "teaching",
+      "title": "根据 · dựa theo/căn cứ",
+      "text": "根据 trong 根据通知是 giới từ dẫn căn cứ; không phải kết luận không thể sai. Đọc ngày và phạm vi nguồn cùng lúc.",
+      "hanzi": "根据通知，明天照常上课。",
+      "pinyin": "Gēnjù tōngzhī, míngtiān zhàocháng shàng kè.",
+      "meaning": "Theo thông báo, ngày mai học bình thường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l372-t3",
+      "type": "teaching",
+      "title": "新闻 · tin tức",
+      "text": "新闻 là tin tức, có thể trên báo/mạng. Tin được viết chưa tự là đã kiểm chứng; cần nguồn và ngày.",
+      "hanzi": "这条新闻是昨天的。",
+      "pinyin": "Zhè tiáo xīnwén shì zuótiān de.",
+      "meaning": "Tin này là của hôm qua.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l372-t4",
+      "type": "teaching",
+      "title": "影响 · ảnh hưởng/tác động",
+      "text": "影响 có thể động từ hoặc danh từ; 天气影响出行 nêu tác động, chưa nói đây là nguyên nhân duy nhất của mọi thay đổi.",
+      "hanzi": "天气影响了出行安排。",
+      "pinyin": "Tiānqì yǐngxiǎng le chūxíng ānpái.",
+      "meaning": "Thời tiết ảnh hưởng kế hoạch đi lại.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l372-t5",
+      "type": "teaching",
+      "title": "最近 · gần đây/dạo này",
+      "text": "最近 là khoảng gần thời điểm nói, không có độ dài ngày cố định. 最近的新闻 cần kiểm ngày thực tế khi dùng.",
+      "hanzi": "最近我常看学校的新闻。",
+      "pinyin": "Zuìjìn wǒ cháng kàn xuéxiào de xīnwén.",
+      "meaning": "Gần đây tôi hay xem tin trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l372-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "根据通知 nêu căn cứ đang dùng cho kết luận; 不 chứng minh thông báo luôn đúng hoặc còn hiệu lực. 影响 là tác động, chưa là nguyên nhân duy nhất.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l372-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "最近，小林跟爷爷看报纸上的新闻。听说天气会影响出行，他先查来源和日期。根据今天的学校通知，明天照常上课；昨天那条新闻谈的是另一座城市，不能直接套到自己学校。",
+      "pinyin": "Zuìjìn, Xiǎo Lín gēn yéye kàn bàozhǐ shàng de xīnwén. Tīngshuō tiānqì huì yǐngxiǎng chūxíng, tā xiān chá láiyuán hé rìqī. Gēnjù jīntiān de xuéxiào tōngzhī, míngtiān zhàocháng shàng kè; zuótiān nà tiáo xīnwén tán de shì lìng yí zuò chéngshì, bù néng zhíjiē tào dào zìjǐ xuéxiào.",
+      "meaning": "Lâm cùng ông đọc báo, tra nguồn và ngày khi nghe tin thời tiết ảnh hưởng đi lại. Thông báo trường hôm nay vẫn học ngày mai; tin hôm qua thuộc thành phố khác nên không áp thẳng.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l372-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l372-v1-e0"
+    },
+    {
+      "id": "l372-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l372-v1-e1"
+    },
+    {
+      "id": "l372-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l372-v1-e2"
+    },
+    {
+      "id": "l372-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l372-v1-e3"
+    },
+    {
+      "id": "l372-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l372-v1-e4"
+    },
+    {
+      "id": "l372-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l372-v1-e5"
+    },
+    {
+      "id": "l372-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l372-v1-e6"
+    },
+    {
+      "id": "l372-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l372-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l372-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l372-c0",
+      "senseId": "l372-v-516-sense",
+      "keyRef": "l372-v1-k0",
+      "prompt": "Vật mang tin dạng báo giấy: 一份□。",
+      "choices": [
+        "查",
+        "根据",
+        "新闻",
+        "影响",
+        "最近",
+        "报纸"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l372-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l372-c1",
+      "senseId": "l372-v-550-sense",
+      "keyRef": "l372-v1-k1",
+      "prompt": "Động từ tra nguồn: □消息的来源。",
+      "choices": [
+        "根据",
+        "新闻",
+        "影响",
+        "最近",
+        "报纸",
+        "查"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l372-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l372-c2",
+      "senseId": "l372-v-645-sense",
+      "keyRef": "l372-v1-k2",
+      "prompt": "Dựa theo thông báo: □通知。",
+      "choices": [
+        "新闻",
+        "影响",
+        "最近",
+        "报纸",
+        "查",
+        "根据"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l372-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l372-c3",
+      "senseId": "l372-v-904-sense",
+      "keyRef": "l372-v1-k3",
+      "prompt": "Viết pinyin của 新闻 trong câu “这条新闻是昨天的。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l372-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l372-c4",
+      "senseId": "l372-v-940-sense",
+      "keyRef": "l372-v1-k4",
+      "prompt": "Động từ tác động đến kế hoạch: □了出行安排。",
+      "choices": [
+        "最近",
+        "报纸",
+        "查",
+        "根据",
+        "新闻",
+        "影响"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l372-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l372-c5",
+      "senseId": "l372-v-998-sense",
+      "keyRef": "l372-v1-k5",
+      "prompt": "Mốc gần thời điểm nói: □常看新闻。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l372-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l372-c0",
+      "senseId": "l372-v-516-sense",
+      "keyRef": "l372-v1-k6",
+      "prompt": "Căn cứ nào áp dụng cho lịch trường trong đoạn?",
+      "choices": [
+        "另一座城市的旧新闻",
+        "只看标题",
+        "今天的学校通知"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l372-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l372-c3",
+      "senseId": "l372-v-904-sense",
+      "keyRef": "l372-v1-k7",
+      "prompt": "Xếp căn cứ thông báo, bắt đầu bằng 根据通知.",
+      "choices": [
+        "明天照常上课",
+        "根据通知"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l372-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l372-v1-e0",
+      "senseId": "l372-v-516-sense",
+      "accepted": [
+        "报纸"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "报纸: báo giấy/tờ báo. 报纸 là báo dạng giấy trong bài; 新闻 là nội dung tin, không đồng nhất vật mang với nội dung. 一份报纸 dùng 份. Ông đọc báo mỗi ngày."
+    },
+    {
+      "id": "l372-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l372-v1-e1",
+      "senseId": "l372-v-550-sense",
+      "accepted": [
+        "查"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "查: tra/tìm kiểm. 查 là tra cứu/kiểm tra thông tin như 查字典、查时间. Không phải mọi 看 đã là kiểm tra đúng nguồn. Tôi tra nguồn tin trước."
+    },
+    {
+      "id": "l372-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l372-v1-e2",
+      "senseId": "l372-v-645-sense",
+      "accepted": [
+        "根据"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "根据: dựa theo/căn cứ. 根据 trong 根据通知是 giới từ dẫn căn cứ; không phải kết luận không thể sai. Đọc ngày và phạm vi nguồn cùng lúc. Theo thông báo, ngày mai học bình thường."
+    },
+    {
+      "id": "l372-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l372-v1-e3",
+      "senseId": "l372-v-904-sense",
+      "accepted": [
+        "xīn wén"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "新闻: tin tức. 新闻 là tin tức, có thể trên báo/mạng. Tin được viết chưa tự là đã kiểm chứng; cần nguồn và ngày. Tin này là của hôm qua."
+    },
+    {
+      "id": "l372-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l372-v1-e4",
+      "senseId": "l372-v-940-sense",
+      "accepted": [
+        "影响"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "影响: ảnh hưởng/tác động. 影响 có thể động từ hoặc danh từ; 天气影响出行 nêu tác động, chưa nói đây là nguyên nhân duy nhất của mọi thay đổi. Thời tiết ảnh hưởng kế hoạch đi lại."
+    },
+    {
+      "id": "l372-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l372-v1-e5",
+      "senseId": "l372-v-998-sense",
+      "accepted": [
+        "最近"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "最近: gần đây/dạo này. 最近 là khoảng gần thời điểm nói, không có độ dài ngày cố định. 最近的新闻 cần kiểm ngày thực tế khi dùng. Gần đây tôi hay xem tin trường."
+    },
+    {
+      "id": "l372-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l372-v1-e6",
+      "senseId": "l372-v-516-sense",
+      "accepted": [
+        "今天的学校通知"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 根据通知 nêu căn cứ đang dùng cho kết luận; 不 chứng minh thông báo luôn đúng hoặc còn hiệu lực. 影响 là tác động, chưa là nguyên nhân duy nhất."
+    },
+    {
+      "id": "l372-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l372-v1-e7",
+      "senseId": "l372-v-904-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 根据通知 nêu căn cứ đang dùng cho kết luận; 不 chứng minh thông báo luôn đúng hoặc còn hiệu lực. 影响 là tác động, chưa là nguyên nhân duy nhất."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "ec26c8bd19077529fe536d0b2cd162bd8807b03a85733018a1f31025387c088a",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-bb",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L151",
+    "version": 1,
+    "versionId": "l151-draft-v1",
+    "title": "Giờ ngủ và thay đổi",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Giờ ngủ và thay đổi; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "了"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:10:35.430380Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-event",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "问答事件信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-f80c6b43ef6a",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "日期、时间、地点、方位、参加者、号码等"
+        },
+        "written": "日期、时间、地点、方位、参加者、号码等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l151-v-161",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 161"
+        },
+        "written": "起床",
+        "pinyin": "qǐchuáng",
+        "senseId": "l151-v-161-sense",
+        "ordinal": 161,
+        "note": "1 qǐchuáng 动; 起床 nói việc dậy khỏi giường; câu không tự cho biết giờ cụ thể. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l151-v-194",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 194"
+        },
+        "written": "睡",
+        "pinyin": "shuì",
+        "senseId": "l151-v-194-sense",
+        "ordinal": 194,
+        "note": "1 shuì 动; 睡 là mục một chữ; 睡觉 cũng có thể dùng ở nhiều câu nhưng là mục khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l151-v-195",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 195"
+        },
+        "written": "睡觉",
+        "pinyin": "shuìjiào",
+        "senseId": "l151-v-195-sense",
+        "ordinal": 195,
+        "note": "1 shuìjiào 动; 睡觉 là cụm hai chữ chỉ ngủ; giữ đúng dạng được hỏi, không suy khác biệt nghĩa tuyệt đối với 睡. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l151-v-108",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 108"
+        },
+        "written": "了",
+        "pinyin": "le",
+        "senseId": "l151-v-108-sense",
+        "ordinal": 108,
+        "note": "1 le 助; 了 nhẹ trong mục này; ở 起床了 báo đã dậy/chuyển trạng thái, khác cách đọc liǎo ở mục/ngữ cảnh khác. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-136",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "136"
+        },
+        "written": "起",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 136,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-25",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "25"
+        },
+        "written": "床",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 25,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-166",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "166"
+        },
+        "written": "睡",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 166,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-88",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "88"
+        },
+        "written": "觉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 88,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-98",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "98"
+        },
+        "written": "了",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 98,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-151",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 387,
+          "physicalPage": 388,
+          "printedPage": 385,
+          "section": "grammar",
+          "entry": "g-387-5"
+        },
+        "written": "了",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l151-c0",
+      "version": 1,
+      "senseId": "l151-v-161-sense",
+      "hanzi": "起床",
+      "dictionaryPinyin": "qǐ chuáng",
+      "meaning": "dậy; ra khỏi giường",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l151-v-161"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l151-c1",
+      "version": 1,
+      "senseId": "l151-v-194-sense",
+      "hanzi": "睡",
+      "dictionaryPinyin": "shuì",
+      "meaning": "ngủ (dạng một chữ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l151-v-194"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l151-c2",
+      "version": 1,
+      "senseId": "l151-v-195-sense",
+      "hanzi": "睡觉",
+      "dictionaryPinyin": "shuì jiào",
+      "meaning": "ngủ (dạng hai chữ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l151-v-195"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l151-c3",
+      "version": 1,
+      "senseId": "l151-v-108-sense",
+      "hanzi": "了",
+      "dictionaryPinyin": "le",
+      "meaning": "rồi; trợ từ le",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l151-v-108"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l151-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l151-t0",
+      "type": "teaching",
+      "title": "起床 · dậy; ra khỏi giường",
+      "text": "起床 nói việc dậy khỏi giường; câu không tự cho biết giờ cụ thể.",
+      "hanzi": "我早上起床。",
+      "pinyin": "Wǒ zǎo shang qǐ chuáng.",
+      "meaning": "Tôi dậy vào buổi sáng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l151-t1",
+      "type": "teaching",
+      "title": "睡 · ngủ (dạng một chữ)",
+      "text": "睡 là mục một chữ; 睡觉 cũng có thể dùng ở nhiều câu nhưng là mục khác.",
+      "hanzi": "我想睡。",
+      "pinyin": "Wǒ xiǎng shuì.",
+      "meaning": "Tôi muốn ngủ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l151-t2",
+      "type": "teaching",
+      "title": "睡觉 · ngủ (dạng hai chữ)",
+      "text": "睡觉 là cụm hai chữ chỉ ngủ; giữ đúng dạng được hỏi, không suy khác biệt nghĩa tuyệt đối với 睡.",
+      "hanzi": "我晚上睡觉。",
+      "pinyin": "Wǒ wǎn shang shuì jiào.",
+      "meaning": "Tôi ngủ buổi tối.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l151-t3",
+      "type": "teaching",
+      "title": "了 · rồi; trợ từ le",
+      "text": "了 nhẹ trong mục này; ở 起床了 báo đã dậy/chuyển trạng thái, khác cách đọc liǎo ở mục/ngữ cảnh khác.",
+      "hanzi": "我起床了。",
+      "pinyin": "Wǒ qǐ chuáng le.",
+      "meaning": "Tôi dậy rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l151-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "起床 là ra khỏi giường/thức dậy để bắt đầu sinh hoạt; không đồng nghĩa chỉ tỉnh giấc mà vẫn nằm. 睡 và 睡觉 đều có thể nói ngủ, nên đề yêu cầu rõ từ một chữ hoặc cả cụm. 了 ở 我起床了 báo tình trạng mới; không biến mọi 了 thành dấu quá khứ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l151-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：你起床了吗？\nB：起床了。\nA：你昨天晚上睡觉了吗？\nB：睡觉了。",
+      "pinyin": "A: Nǐ qǐ chuáng le ma? B: Qǐ chuáng le. A: Nǐ zuó tiān wǎn shang shuì jiào le ma? B: Shuì jiào le.",
+      "meaning": "B xác nhận đã dậy và đã ngủ tối hôm qua. Không có dữ kiện về thời lượng hoặc chất lượng giấc ngủ để đánh giá sức khỏe.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l151-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l151-v1-e0"
+    },
+    {
+      "id": "l151-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l151-v1-e1"
+    },
+    {
+      "id": "l151-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l151-v1-e2"
+    },
+    {
+      "id": "l151-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l151-v1-e3"
+    },
+    {
+      "id": "l151-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l151-v1-e4"
+    },
+    {
+      "id": "l151-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l151-v1-e5"
+    },
+    {
+      "id": "l151-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l151-v1-e6"
+    },
+    {
+      "id": "l151-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l151-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l151-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l151-c0",
+      "senseId": "l151-v-161-sense",
+      "keyRef": "l151-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “dậy; ra khỏi giường”: 起□ (qǐ chuáng). Ngữ cảnh: 我早上起□。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "木",
+        "麻",
+        "庆",
+        "床"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l151-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l151-c1",
+      "senseId": "l151-v-194-sense",
+      "keyRef": "l151-v1-k1",
+      "prompt": "Viết pinyin từ điển của 睡 (ngủ (dạng một chữ)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l151-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l151-c2",
+      "senseId": "l151-v-195-sense",
+      "keyRef": "l151-v1-k2",
+      "prompt": "Điền đúng mục từ đọc shuì jiào, nghĩa “ngủ (dạng hai chữ)”: 我晚上□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l151-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l151-c3",
+      "senseId": "l151-v-108-sense",
+      "keyRef": "l151-v1-k3",
+      "prompt": "Chọn mục từ đọc le, nghĩa “rồi; trợ từ le”, trong câu: 我起床□。",
+      "choices": [
+        "起床",
+        "睡",
+        "睡觉",
+        "了"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l151-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l151-c2",
+      "senseId": "l151-v-195-sense",
+      "keyRef": "l151-v1-k4",
+      "prompt": "Trong câu “我晚上睡觉。”, 睡觉 mang nghĩa nào theo bài?",
+      "choices": [
+        "ngủ (dạng một chữ)",
+        "ngủ (dạng hai chữ)",
+        "rồi; trợ từ le",
+        "dậy; ra khỏi giường"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l151-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l151-c3",
+      "senseId": "l151-v-108-sense",
+      "keyRef": "l151-v1-k5",
+      "prompt": "Trong câu “我起床了。”, 了 mang nghĩa nào theo bài?",
+      "choices": [
+        "ngủ (dạng hai chữ)",
+        "rồi; trợ từ le",
+        "dậy; ra khỏi giường",
+        "ngủ (dạng một chữ)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l151-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l151-c0",
+      "senseId": "l151-v-161-sense",
+      "keyRef": "l151-v1-k6",
+      "prompt": "B xác nhận điều gì ở câu trả lời đầu?",
+      "choices": [
+        "Chưa dậy",
+        "Không muốn ngủ",
+        "Đã dậy"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l151-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l151-c3",
+      "senseId": "l151-v-108-sense",
+      "keyRef": "l151-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我",
+        "起床",
+        "了。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l151-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l151-v1-e0",
+      "senseId": "l151-v-161-sense",
+      "accepted": [
+        "床"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 床 tạo từ 起床. 起床 nói việc dậy khỏi giường; câu không tự cho biết giờ cụ thể. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l151-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l151-v1-e1",
+      "senseId": "l151-v-194-sense",
+      "accepted": [
+        "shuì"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "睡 ghi shuì. 睡 là mục một chữ; 睡觉 cũng có thể dùng ở nhiều câu nhưng là mục khác."
+    },
+    {
+      "id": "l151-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l151-v1-e2",
+      "senseId": "l151-v-195-sense",
+      "accepted": [
+        "睡觉"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc shuì jiào: 睡觉. 睡觉 là cụm hai chữ chỉ ngủ; giữ đúng dạng được hỏi, không suy khác biệt nghĩa tuyệt đối với 睡. Tôi ngủ buổi tối."
+    },
+    {
+      "id": "l151-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l151-v1-e3",
+      "senseId": "l151-v-108-sense",
+      "accepted": [
+        "了"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc le: 了. 了 nhẹ trong mục này; ở 起床了 báo đã dậy/chuyển trạng thái, khác cách đọc liǎo ở mục/ngữ cảnh khác. Tôi dậy rồi."
+    },
+    {
+      "id": "l151-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l151-v1-e4",
+      "senseId": "l151-v-195-sense",
+      "accepted": [
+        "ngủ (dạng hai chữ)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "睡觉 là cụm hai chữ chỉ ngủ; giữ đúng dạng được hỏi, không suy khác biệt nghĩa tuyệt đối với 睡. Tôi ngủ buổi tối."
+    },
+    {
+      "id": "l151-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l151-v1-e5",
+      "senseId": "l151-v-108-sense",
+      "accepted": [
+        "rồi; trợ từ le"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "了 nhẹ trong mục này; ở 起床了 báo đã dậy/chuyển trạng thái, khác cách đọc liǎo ở mục/ngữ cảnh khác. Tôi dậy rồi."
+    },
+    {
+      "id": "l151-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l151-v1-e6",
+      "senseId": "l151-v-161-sense",
+      "accepted": [
+        "Đã dậy"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: Đã dậy. B xác nhận đã dậy và đã ngủ tối hôm qua. Không có dữ kiện về thời lượng hoặc chất lượng giấc ngủ để đánh giá sức khỏe."
+    },
+    {
+      "id": "l151-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l151-v1-e7",
+      "senseId": "l151-v-108-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 起床 là ra khỏi giường/thức dậy để bắt đầu sinh hoạt; không đồng nghĩa chỉ tỉnh giấc mà vẫn nằm. 睡 và 睡觉 đều có thể nói ngủ, nên đề yêu cầu rõ từ một chữ hoặc cả cụm. 了 ở 我起床了 báo tình trạng mới; không biến mọi 了 thành dấu quá khứ."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

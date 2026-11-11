@@ -1,0 +1,792 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "27a63c117987501951ef9b986e5ab238701fa34773032b13dfb567fd1c193af7",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ecj",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L429",
+    "version": 1,
+    "versionId": "l429-draft-v1",
+    "title": "Trả lời độc giả và đối chiếu bản dịch",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Trả lời độc giả và đối chiếu bản dịch; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "而2"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 20,
+      "physicalPage": 21,
+      "printedPage": 18,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T17:28:19.447556Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-polite",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 20,
+          "physicalPage": 21,
+          "printedPage": 18,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "日常言语交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-bbd68d4f28a3",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 67,
+          "physicalPage": 68,
+          "printedPage": 65,
+          "section": "topic",
+          "entry": "网络生活"
+        },
+        "written": "网络生活",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l429-v-1299",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 111,
+          "physicalPage": 112,
+          "printedPage": 109,
+          "section": "vocabulary",
+          "entry": "ordinal 1299"
+        },
+        "written": "互联网",
+        "pinyin": "hùliánwǎng",
+        "senseId": "l429-v-1299-sense",
+        "ordinal": 1299,
+        "note": "4 hùliánwǎng 名; 互联网 là mạng Internet, không đồng nghĩa riêng một ứng dụng hay website. Nhận diện chữ 互 trong 互联网; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l429-v-1307",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 111,
+          "physicalPage": 112,
+          "printedPage": 109,
+          "section": "vocabulary",
+          "entry": "ordinal 1307"
+        },
+        "written": "回复",
+        "pinyin": "huífù",
+        "senseId": "l429-v-1307-sense",
+        "ordinal": 1307,
+        "note": "4 huífù 动; 回复 có thể trả lời tin nhắn/ý kiến; không tự nói hình thức là một lá thư. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l429-v-1308",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 111,
+          "physicalPage": 112,
+          "printedPage": 109,
+          "section": "vocabulary",
+          "entry": "ordinal 1308"
+        },
+        "written": "回信",
+        "pinyin": "huíxìn",
+        "senseId": "l429-v-1308-sense",
+        "ordinal": 1308,
+        "note": "4 huíxìn 动、名; 回信 nói đáp bằng thư hoặc lá thư đáp; bài luyện dạng chứa 信 để phân biệt với 回复 nghĩa rộng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l429-v-1189",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1189"
+        },
+        "written": "翻译",
+        "pinyin": "fānyì",
+        "senseId": "l429-v-1189-sense",
+        "ordinal": 1189,
+        "note": "4 fānyì 动、名; 翻译 ở câu này là chuyển nội dung sang ngôn ngữ khác; chưa tự khẳng định bản dịch chính xác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l429-v-1168",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1168"
+        },
+        "written": "读者",
+        "pinyin": "dúzhě",
+        "senseId": "l429-v-1168-sense",
+        "ordinal": 1168,
+        "note": "4 dúzhě 名; 读者 là người đọc tác phẩm/tài liệu, khác 作者 là người viết. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l429-v-1183",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1183"
+        },
+        "written": "而",
+        "pinyin": "ér",
+        "senseId": "l429-v-1183-sense",
+        "ordinal": 1183,
+        "note": "4 ér 连; 而 trong câu mẫu nối hai nhóm sở thích đối chiếu nhau; bài không gán nghĩa nhân quả. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-115",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "115"
+        },
+        "written": "互",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 115,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-190",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "190"
+        },
+        "written": "联",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 190,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-64",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "64"
+        },
+        "written": "翻",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 64,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-383",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "383"
+        },
+        "written": "译",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 383,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-429",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 394,
+          "physicalPage": 395,
+          "printedPage": 392,
+          "section": "grammar",
+          "entry": "连词：连接分句，而"
+        },
+        "written": "而2",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l429-c0",
+      "version": 1,
+      "senseId": "l429-v-1299-sense",
+      "hanzi": "互联网",
+      "dictionaryPinyin": "hù lián wǎng",
+      "meaning": "Internet",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l429-v-1299"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l429-c1",
+      "version": 1,
+      "senseId": "l429-v-1307-sense",
+      "hanzi": "回复",
+      "dictionaryPinyin": "huí fù",
+      "meaning": "trả lời, phản hồi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l429-v-1307"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l429-c2",
+      "version": 1,
+      "senseId": "l429-v-1308-sense",
+      "hanzi": "回信",
+      "dictionaryPinyin": "huí xìn",
+      "meaning": "thư hồi âm; viết thư đáp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l429-v-1308"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l429-c3",
+      "version": 1,
+      "senseId": "l429-v-1189-sense",
+      "hanzi": "翻译",
+      "dictionaryPinyin": "fān yì",
+      "meaning": "dịch; bản dịch/người dịch tùy ngữ cảnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l429-v-1189"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l429-c4",
+      "version": 1,
+      "senseId": "l429-v-1168-sense",
+      "hanzi": "读者",
+      "dictionaryPinyin": "dú zhě",
+      "meaning": "độc giả",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l429-v-1168"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l429-c5",
+      "version": 1,
+      "senseId": "l429-v-1183-sense",
+      "hanzi": "而",
+      "dictionaryPinyin": "ér",
+      "meaning": "còn, mà (nối đối chiếu)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l429-v-1183"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l429-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 编辑 biānjí: biên tập viên; 留言 liúyán: lời nhắn/bình luận; 译文 yìwén: bản dịch; 对照 duìzhào: đối chiếu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l429-t0",
+      "type": "teaching",
+      "title": "互联网 · Internet",
+      "text": "互联网 là mạng Internet, không đồng nghĩa riêng một ứng dụng hay website. Nhận diện chữ 互 trong 互联网; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "这篇文章可以在互联网上阅读。",
+      "pinyin": "Zhè piān wénzhāng kěyǐ zài hùliánwǎng shàng yuèdú.",
+      "meaning": "Có thể đọc bài này trên Internet.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l429-t1",
+      "type": "teaching",
+      "title": "回复 · trả lời, phản hồi",
+      "text": "回复 có thể trả lời tin nhắn/ý kiến; không tự nói hình thức là một lá thư.",
+      "hanzi": "我下午回复了读者的问题。",
+      "pinyin": "Wǒ xiàwǔ huífù le dúzhě de wèntí.",
+      "meaning": "Chiều tôi trả lời câu hỏi của độc giả.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l429-t2",
+      "type": "teaching",
+      "title": "回信 · thư hồi âm; viết thư đáp",
+      "text": "回信 nói đáp bằng thư hoặc lá thư đáp; bài luyện dạng chứa 信 để phân biệt với 回复 nghĩa rộng.",
+      "hanzi": "她给朋友写了一封回信。",
+      "pinyin": "Tā gěi péngyou xiě le yì fēng huíxìn.",
+      "meaning": "Cô ấy viết một thư hồi âm cho bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l429-t3",
+      "type": "teaching",
+      "title": "翻译 · dịch; bản dịch/người dịch tùy ngữ cảnh",
+      "text": "翻译 ở câu này là chuyển nội dung sang ngôn ngữ khác; chưa tự khẳng định bản dịch chính xác.",
+      "hanzi": "请先翻译这段文字。",
+      "pinyin": "Qǐng xiān fānyì zhè duàn wénzì.",
+      "meaning": "Hãy dịch đoạn văn này trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l429-t4",
+      "type": "teaching",
+      "title": "读者 · độc giả",
+      "text": "读者 là người đọc tác phẩm/tài liệu, khác 作者 là người viết.",
+      "hanzi": "读者提出了一个好问题。",
+      "pinyin": "Dúzhě tíchū le yí ge hǎo wèntí.",
+      "meaning": "Độc giả nêu một câu hỏi hay.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l429-t5",
+      "type": "teaching",
+      "title": "而 · còn, mà (nối đối chiếu)",
+      "text": "而 trong câu mẫu nối hai nhóm sở thích đối chiếu nhau; bài không gán nghĩa nhân quả.",
+      "hanzi": "有人喜欢看中文，而有人喜欢看译文。",
+      "pinyin": "Yǒu rén xǐhuan kàn Zhōngwén, ér yǒu rén xǐhuan kàn yìwén.",
+      "meaning": "Có người thích đọc tiếng Trung, còn có người thích đọc bản dịch.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l429-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "而 ở đây nối hai vế có điểm đối chiếu: 有些读者喜欢中文，而另一些喜欢译文. Không phải cứ có 而 là quan hệ nguyên nhân hay điều kiện; số 2 chỉ phân biệt mục nguồn.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l429-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "编辑把文章放到互联网上，收到了读者的留言。小林先回复一个关于翻译的问题，又给一位老读者写回信。他说：“有些人喜欢中文，而另一些人喜欢译文。我们可以把两种版本放在一起，方便大家对照。”",
+      "pinyin": "Biānjí bǎ wénzhāng fàng dào hùliánwǎng shàng, shōudào le dúzhě de liúyán. Xiǎo Lín xiān huífù yí ge guānyú fānyì de wèntí, yòu gěi yí wèi lǎo dúzhě xiě huíxìn. Tā shuō: “Yǒuxiē rén xǐhuan Zhōngwén, ér lìng yìxiē rén xǐhuan yìwén. Wǒmen kěyǐ bǎ liǎng zhǒng bǎnběn fàng zài yìqǐ, fāngbiàn dàjiā duìzhào.”",
+      "meaning": "Biên tập viên đăng bài và nhận bình luận. Lâm trả lời câu hỏi dịch thuật, viết thư cho độc giả cũ và đề xuất đặt hai bản cạnh nhau để đối chiếu.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l429-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l429-v1-e0"
+    },
+    {
+      "id": "l429-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l429-v1-e1"
+    },
+    {
+      "id": "l429-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l429-v1-e2"
+    },
+    {
+      "id": "l429-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l429-v1-e3"
+    },
+    {
+      "id": "l429-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l429-v1-e4"
+    },
+    {
+      "id": "l429-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l429-v1-e5"
+    },
+    {
+      "id": "l429-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l429-v1-e6"
+    },
+    {
+      "id": "l429-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l429-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l429-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l429-c0",
+      "senseId": "l429-v-1299-sense",
+      "keyRef": "l429-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “Internet”: □联网 (hù lián wǎng). Ngữ cảnh: 这篇文章可以在□上阅读。",
+      "choices": [
+        "亘",
+        "五",
+        "瓦",
+        "互"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l429-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l429-c1",
+      "senseId": "l429-v-1307-sense",
+      "keyRef": "l429-v1-k1",
+      "prompt": "Ghi pinyin của 回复 trong câu “我下午回复了读者的问题。”, theo nghĩa “trả lời, phản hồi”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l429-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l429-c2",
+      "senseId": "l429-v-1308-sense",
+      "keyRef": "l429-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “thư hồi âm; viết thư đáp”: 她给朋友写了一封□。 Chỉ nhập từ, không nhập cả câu. Hỏi dạng thư hồi âm có chữ 信.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l429-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l429-c3",
+      "senseId": "l429-v-1189-sense",
+      "keyRef": "l429-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “dịch; bản dịch/người dịch tùy ngữ cảnh” để điền câu: 请先□这段文字。",
+      "choices": [
+        "读者",
+        "而",
+        "互联网",
+        "回复",
+        "回信",
+        "翻译"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l429-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l429-c4",
+      "senseId": "l429-v-1168-sense",
+      "keyRef": "l429-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “độc giả” để điền câu: □提出了一个好问题。",
+      "choices": [
+        "而",
+        "互联网",
+        "回复",
+        "回信",
+        "翻译",
+        "读者"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l429-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l429-c5",
+      "senseId": "l429-v-1183-sense",
+      "keyRef": "l429-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “còn, mà (nối đối chiếu)”: 有人喜欢看中文，□有人喜欢看译文。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l429-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l429-c0",
+      "senseId": "l429-v-1299-sense",
+      "keyRef": "l429-v1-k6",
+      "prompt": "Tại sao đặt hai bản cạnh nhau?",
+      "choices": [
+        "证明所有人只喜欢中文",
+        "不再回复任何问题",
+        "方便读者对照"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l429-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l429-c3",
+      "senseId": "l429-v-1189-sense",
+      "keyRef": "l429-v1-k7",
+      "prompt": "Giữ hai nhóm sở thích đối chiếu, bắt đầu bằng 有些读者.",
+      "choices": [
+        "而",
+        "另一些喜欢译文",
+        "喜欢中文",
+        "有些读者"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l429-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l429-v1-e0",
+      "senseId": "l429-v-1299-sense",
+      "accepted": [
+        "互"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 互 tạo từ 互联网. 互联网 là mạng Internet, không đồng nghĩa riêng một ứng dụng hay website. Nhận diện chữ 互 trong 互联网; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l429-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l429-v1-e1",
+      "senseId": "l429-v-1307-sense",
+      "accepted": [
+        "huí fù"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc huí fù. 回复 có thể trả lời tin nhắn/ý kiến; không tự nói hình thức là một lá thư."
+    },
+    {
+      "id": "l429-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l429-v1-e2",
+      "senseId": "l429-v-1308-sense",
+      "accepted": [
+        "回信"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 回信. 回信 nói đáp bằng thư hoặc lá thư đáp; bài luyện dạng chứa 信 để phân biệt với 回复 nghĩa rộng. Cô ấy viết một thư hồi âm cho bạn."
+    },
+    {
+      "id": "l429-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l429-v1-e3",
+      "senseId": "l429-v-1189-sense",
+      "accepted": [
+        "翻译"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "翻译: dịch; bản dịch/người dịch tùy ngữ cảnh. 翻译 ở câu này là chuyển nội dung sang ngôn ngữ khác; chưa tự khẳng định bản dịch chính xác. Hãy dịch đoạn văn này trước."
+    },
+    {
+      "id": "l429-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l429-v1-e4",
+      "senseId": "l429-v-1168-sense",
+      "accepted": [
+        "读者"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "读者: độc giả. 读者 là người đọc tác phẩm/tài liệu, khác 作者 là người viết. Độc giả nêu một câu hỏi hay."
+    },
+    {
+      "id": "l429-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l429-v1-e5",
+      "senseId": "l429-v-1183-sense",
+      "accepted": [
+        "而"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 而. 而 trong câu mẫu nối hai nhóm sở thích đối chiếu nhau; bài không gán nghĩa nhân quả. Có người thích đọc tiếng Trung, còn có người thích đọc bản dịch."
+    },
+    {
+      "id": "l429-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l429-v1-e6",
+      "senseId": "l429-v-1299-sense",
+      "accepted": [
+        "方便读者对照"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 方便读者对照. Biên tập viên đăng bài và nhận bình luận. Lâm trả lời câu hỏi dịch thuật, viết thư cho độc giả cũ và đề xuất đặt hai bản cạnh nhau để đối chiếu."
+    },
+    {
+      "id": "l429-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l429-v1-e7",
+      "senseId": "l429-v-1189-sense",
+      "accepted": [
+        "3,2,0,1"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 而 ở đây nối hai vế có điểm đối chiếu: 有些读者喜欢中文，而另一些喜欢译文. Không phải cứ có 而 là quan hệ nguyên nhân hay điều kiện; số 2 chỉ phân biệt mục nguồn."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,950 @@
+{
+  "batch": "HSK1-batch1",
+  "targetLevel": 1,
+  "sourceCheckedAt": "2026-10-30T08:16:46.313372Z",
+  "lessons": [
+    {
+      "id": "L101",
+      "unit": "hsk-one-b",
+      "unitTitle": "Gặp gỡ và lời chào",
+      "title": "Câu giới thiệu và câu hỏi đơn giản",
+      "objective": "Câu giới thiệu và câu hỏi đơn giản; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-101",
+        "是",
+        386,
+        "g-386-25",
+        "是 nối người với tên hoặc loại: 我是安。不 đứng trước 是 để phủ định: 我不是安。吗 đặt cuối lời hỏi có/không; 也 đứng trước 是 để thêm một người cùng tình trạng. Không dùng 是 trước mọi tính từ. 好 ở lời chào/nhận xét; đây chỉ là các mẫu ngắn đầu tiên."
+      ],
+      "task": [
+        "h1-task-person",
+        "问答个人基本信息",
+        4,
+        "一"
+      ],
+      "topic": [
+        "h1-topic-00e3195e7830",
+        "姓名、国籍、年龄、性别、喜好、习惯等",
+        58,
+        "姓名、国籍、年龄、性别、喜好、习惯等"
+      ],
+      "words": [
+        [
+          "好",
+          "hǎo",
+          "tốt; được",
+          "好 trong 好！là lời đáp đồng ý theo ngữ cảnh; không có nghĩa câu nào cũng cần 是.",
+          "好，我喝茶。",
+          "Hǎo, wǒ hē chá.",
+          "Được, tôi uống trà."
+        ],
+        [
+          "是",
+          "shì",
+          "là",
+          "是 nối chủ thể với tên hay loại, như 我是安; tên 安 chỉ minh họa.",
+          "我是安。",
+          "Wǒ shì Ān.",
+          "Tôi là An."
+        ],
+        [
+          "吗",
+          "ma",
+          "không; à (cuối câu hỏi)",
+          "吗 đặt cuối một câu hỏi có/không, không mang thanh đầy đủ trong cách dùng này.",
+          "你是安吗？",
+          "Nǐ shì Ān ma?",
+          "Bạn là An phải không?"
+        ],
+        [
+          "不",
+          "bù",
+          "không",
+          "不 đứng trước động từ/cụm cần phủ định; trong 不是, lời nói thường đọc bú shì, nhưng mục từ đơn ghi bù.",
+          "我不是安。",
+          "Wǒ bú shì Ān.",
+          "Tôi không phải An."
+        ],
+        [
+          "也",
+          "yě",
+          "cũng",
+          "也 đứng trước phần vị ngữ; không đặt tùy ý ở cuối câu theo trật tự tiếng Việt.",
+          "我也喜欢茶。",
+          "Wǒ yě xǐ huan chá.",
+          "Tôi cũng thích trà."
+        ]
+      ],
+      "passage": [
+        "A：你好！你是安吗？\nB：是，我是安。你喜欢茶吗？\nA：我喜欢茶。\nB：我也喜欢茶。\nA：好！",
+        "A: Nǐ hǎo! Nǐ shì Ān ma? B: Shì, wǒ shì Ān. Nǐ xǐ huan chá ma? A: Wǒ xǐ huan chá. B: Wǒ yě xǐ huan chá. A: Hǎo!",
+        "A hỏi tên của B. Cả hai đều nói thích trà; không suy sở thích từ lời chào."
+      ],
+      "comprehension": [
+        "B có nói thích trà không?",
+        [
+          "Có, B nói 我也喜欢茶",
+          "Không, B phủ định",
+          "Đoạn không nói tên B"
+        ],
+        "Có, B nói 我也喜欢茶",
+        "Theo đoạn: Có, B nói 我也喜欢茶. A hỏi tên của B. Cả hai đều nói thích trà; không suy sở thích từ lời chào."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "是",
+          "安。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “tốt; được” trong câu: □，我喝茶。",
+          "choices": [
+            "好",
+            "是",
+            "吗",
+            "不",
+            "也"
+          ],
+          "accepted": [
+            "好"
+          ],
+          "feedback": "好: tốt; được. 好 trong 好！là lời đáp đồng ý theo ngữ cảnh; không có nghĩa câu nào cũng cần 是. Được, tôi uống trà."
+        },
+        {
+          "concept": 1,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "是",
+            "足",
+            "走",
+            "定"
+          ],
+          "accepted": [
+            "是"
+          ],
+          "feedback": "Chữ 是 tạo từ 是. 是 nối chủ thể với tên hay loại, như 我是安; tên 安 chỉ minh họa. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “không; à (cuối câu hỏi)”: 你是安□？ Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "吗"
+          ],
+          "feedback": "吗: không; à (cuối câu hỏi). 吗 đặt cuối một câu hỏi có/không, không mang thanh đầy đủ trong cách dùng này. Bạn là An phải không?"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “không” trong câu: 我□是安。",
+          "choices": [
+            "好",
+            "是",
+            "吗",
+            "不",
+            "也"
+          ],
+          "accepted": [
+            "不"
+          ],
+          "feedback": "不: không. 不 đứng trước động từ/cụm cần phủ định; trong 不是, lời nói thường đọc bú shì, nhưng mục từ đơn ghi bù. Tôi không phải An."
+        },
+        {
+          "concept": 4,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “cũng”: 我□喜欢茶。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "也"
+          ],
+          "feedback": "也: cũng. 也 đứng trước phần vị ngữ; không đặt tùy ý ở cuối câu theo trật tự tiếng Việt. Tôi cũng thích trà."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “你是安吗？”, 吗 mang nghĩa nào theo bài?",
+          "choices": [
+            "tốt; được",
+            "là",
+            "không; à (cuối câu hỏi)",
+            "không",
+            "cũng"
+          ],
+          "accepted": [
+            "không; à (cuối câu hỏi)"
+          ],
+          "feedback": "吗 đặt cuối một câu hỏi có/không, không mang thanh đầy đủ trong cách dùng này. Bạn là An phải không?"
+        }
+      ],
+      "characterTargets": [
+        "是"
+      ]
+    },
+    {
+      "id": "L102",
+      "unit": "hsk-one-b",
+      "unitTitle": "Gặp gỡ và lời chào",
+      "title": "Hỏi tên và làm quen",
+      "objective": "Hỏi tên và làm quen; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. 这/这个 trong ví dụ được giải thích là “này/người này”; sẽ học riêng ở bài chỉ đối tượng.",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-102",
+        "什么",
+        385,
+        "g-385-8",
+        "什么 hỏi thông tin chưa biết; giữ vị trí của phần cần hỏi: 我叫安 → 你叫什么名字？Không cần đưa 什么 lên đầu như một số câu hỏi tiếng Việt. 认识 là biết/quen một người; 名字 là tên. 很 trong ví dụ được chú giải là từ mức độ hỗ trợ, chưa phải mục từ mới của bài."
+      ],
+      "task": [
+        "h1-task-person",
+        "问答个人基本信息",
+        4,
+        "一"
+      ],
+      "topic": [
+        "h1-topic-00e3195e7830",
+        "姓名、国籍、年龄、性别、喜好、习惯等",
+        58,
+        "姓名、国籍、年龄、性别、喜好、习惯等"
+      ],
+      "words": [
+        [
+          "名字",
+          "míng zi",
+          "tên",
+          "名字 chỉ tên gọi; không lấy việc biết tên làm bằng chứng đã biết người đó.",
+          "你叫什么名字？",
+          "Nǐ jiào shén me míng zi?",
+          "Bạn tên là gì?"
+        ],
+        [
+          "什么",
+          "shén me",
+          "gì; cái gì",
+          "什么 hỏi điều chưa rõ; trong câu hỏi tên đứng trước 名字.",
+          "你喜欢什么？",
+          "Nǐ xǐ huan shén me?",
+          "Bạn thích gì?"
+        ],
+        [
+          "人",
+          "rén",
+          "người",
+          "人 là người nói chung, không riêng đàn ông.",
+          "这个人叫安。",
+          "Zhè ge rén jiào Ān.",
+          "Người này tên An."
+        ],
+        [
+          "认识",
+          "rèn shi",
+          "quen; biết một người",
+          "认识 thường nói biết người hoặc nhận biết; không thay mọi cách dùng 知道.",
+          "我认识你。",
+          "Wǒ rèn shi nǐ.",
+          "Tôi biết bạn."
+        ],
+        [
+          "高兴",
+          "gāo xìng",
+          "vui; vui mừng",
+          "高兴 nói cảm xúc vui; 很 trong câu là hỗ trợ mức độ, không dịch cứng từng chữ thành rất ở mọi câu.",
+          "认识你，我很高兴。",
+          "Rèn shi nǐ, wǒ hěn gāo xìng.",
+          "Tôi vui được biết bạn."
+        ]
+      ],
+      "passage": [
+        "A：你叫什么名字？\nB：我叫安。你呢？\nA：我叫林。\nB：认识你，我很高兴。\nA：我也很高兴。",
+        "A: Nǐ jiào shén me míng zi? B: Wǒ jiào Ān. Nǐ ne? A: Wǒ jiào Lín. B: Rèn shi nǐ, wǒ hěn gāo xìng. A: Wǒ yě hěn gāo xìng.",
+        "安 An và 林 Lâm là tên minh họa; 很 hěn là từ hỗ trợ trong câu cảm xúc. Đoạn không yêu cầu người học nhập tên tự do."
+      ],
+      "comprehension": [
+        "A giới thiệu tên gì?",
+        [
+          "林",
+          "安",
+          "茶"
+        ],
+        "林",
+        "Theo đoạn: 林. 安 An và 林 Lâm là tên minh họa; 很 hěn là từ hỗ trợ trong câu cảm xúc. Đoạn không yêu cầu người học nhập tên tự do."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "你",
+          "叫",
+          "什么名字？"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "名",
+            "各",
+            "右",
+            "石"
+          ],
+          "accepted": [
+            "名"
+          ],
+          "feedback": "Chữ 名 tạo từ 名字. 名字 chỉ tên gọi; không lấy việc biết tên làm bằng chứng đã biết người đó. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 什么 (gì; cái gì).",
+          "choices": [],
+          "accepted": [
+            "shén me"
+          ],
+          "feedback": "什么 ghi shén me. 什么 hỏi điều chưa rõ; trong câu hỏi tên đứng trước 名字."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “người”: 这个□叫安。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "人"
+          ],
+          "feedback": "人: người. 人 là người nói chung, không riêng đàn ông. Người này tên An."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “quen; biết một người” trong câu: 我□你。",
+          "choices": [
+            "名字",
+            "什么",
+            "人",
+            "认识",
+            "高兴"
+          ],
+          "accepted": [
+            "认识"
+          ],
+          "feedback": "认识: quen; biết một người. 认识 thường nói biết người hoặc nhận biết; không thay mọi cách dùng 知道. Tôi biết bạn."
+        },
+        {
+          "concept": 4,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “vui; vui mừng”: 认识你，我很□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "高兴"
+          ],
+          "feedback": "高兴: vui; vui mừng. 高兴 nói cảm xúc vui; 很 trong câu là hỗ trợ mức độ, không dịch cứng từng chữ thành rất ở mọi câu. Tôi vui được biết bạn."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “这个人叫安。”, 人 mang nghĩa nào theo bài?",
+          "choices": [
+            "tên",
+            "gì; cái gì",
+            "người",
+            "quen; biết một người",
+            "vui; vui mừng"
+          ],
+          "accepted": [
+            "người"
+          ],
+          "feedback": "人 là người nói chung, không riêng đàn ông. Người này tên An."
+        }
+      ],
+      "characterTargets": [
+        "名"
+      ]
+    },
+    {
+      "id": "L103",
+      "unit": "hsk-one-b",
+      "unitTitle": "Gặp gỡ và lời chào",
+      "title": "Nói về một người",
+      "objective": "Nói về một người; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-103",
+        "他",
+        385,
+        "g-385-9",
+        "他 và 她 đều đọc tā; trong bài chữ, 他 dùng cho người nam, 她 cho người nữ theo thông tin đã cho. Không thể phân biệt hai chữ chỉ từ âm tā. 男/女 trong phiếu là nhãn nam/nữ; 朋友 không tự có nghĩa người yêu."
+      ],
+      "task": [
+        "h1-task-person",
+        "问答个人基本信息",
+        4,
+        "一"
+      ],
+      "topic": [
+        "h1-topic-00e3195e7830",
+        "姓名、国籍、年龄、性别、喜好、习惯等",
+        58,
+        "姓名、国籍、年龄、性别、喜好、习惯等"
+      ],
+      "words": [
+        [
+          "他",
+          "tā",
+          "anh ấy; ông ấy",
+          "他 dùng thay người nam trong tình huống đã biết; không đoán giới tính chỉ từ tên.",
+          "他叫安。",
+          "Tā jiào Ān.",
+          "Anh ấy tên An."
+        ],
+        [
+          "她",
+          "tā",
+          "cô ấy; bà ấy",
+          "她 cùng âm tā với 他, khác chữ viết và đối tượng đang được nhắc.",
+          "她叫林。",
+          "Tā jiào Lín.",
+          "Cô ấy tên Lâm."
+        ],
+        [
+          "男",
+          "nán",
+          "nam",
+          "男 có thể xuất hiện như nhãn giới tính trên phiếu; 性别 được chú giải là “giới tính”, không tính mục từ mới.",
+          "性别：男。",
+          "Xìng bié: nán.",
+          "Giới tính: nam."
+        ],
+        [
+          "女",
+          "nǚ",
+          "nữ",
+          "女 ở phiếu dưới đây là nhãn nữ, không phải toàn bộ nghĩa “con gái của ai”.",
+          "性别：女。",
+          "Xìng bié: nǚ.",
+          "Giới tính: nữ."
+        ],
+        [
+          "朋友",
+          "péng you",
+          "bạn; bạn bè",
+          "朋友 gọi người bạn; không tự hiểu là 男朋友/女朋友.",
+          "你好，朋友！",
+          "Nǐ hǎo, péng you!",
+          "Chào bạn!"
+        ]
+      ],
+      "passage": [
+        "Phiếu trong truyện ghi：安，男；林，女。\nA：我认识他，他叫安。\nB：我认识她，她叫林。\nA：你好，朋友！",
+        "Phiếu: Ān, nán; Lín, nǚ. A: Wǒ rèn shi tā, tā jiào Ān. B: Wǒ rèn shi tā, tā jiào Lín. A: Nǐ hǎo, péng you!",
+        "Nam/nữ đã được ghi rõ trên phiếu hư cấu; không suy từ tên người hoặc từ âm tā."
+      ],
+      "comprehension": [
+        "Theo phiếu đã cho, ai được ghi 男?",
+        [
+          "安",
+          "林",
+          "Không được ghi ai"
+        ],
+        "安",
+        "Theo đoạn: 安. Nam/nữ đã được ghi rõ trên phiếu hư cấu; không suy từ tên người hoặc từ âm tā."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "他",
+          "叫",
+          "安。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “anh ấy; ông ấy” trong câu: □叫安。",
+          "choices": [
+            "他",
+            "她",
+            "男",
+            "女",
+            "朋友"
+          ],
+          "accepted": [
+            "他"
+          ],
+          "feedback": "他: anh ấy; ông ấy. 他 dùng thay người nam trong tình huống đã biết; không đoán giới tính chỉ từ tên. Anh ấy tên An."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 她 (cô ấy; bà ấy).",
+          "choices": [],
+          "accepted": [
+            "tā"
+          ],
+          "feedback": "她 ghi tā. 她 cùng âm tā với 他, khác chữ viết và đối tượng đang được nhắc."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "男",
+            "田",
+            "力",
+            "女"
+          ],
+          "accepted": [
+            "男"
+          ],
+          "feedback": "Chữ 男 tạo từ 男. 男 có thể xuất hiện như nhãn giới tính trên phiếu; 性别 được chú giải là “giới tính”, không tính mục từ mới. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “nữ” trong câu: 性别：□。",
+          "choices": [
+            "他",
+            "她",
+            "男",
+            "女",
+            "朋友"
+          ],
+          "accepted": [
+            "女"
+          ],
+          "feedback": "女: nữ. 女 ở phiếu dưới đây là nhãn nữ, không phải toàn bộ nghĩa “con gái của ai”. Giới tính: nữ."
+        },
+        {
+          "concept": 4,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “bạn; bạn bè”: 你好，□！ Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "朋友"
+          ],
+          "feedback": "朋友: bạn; bạn bè. 朋友 gọi người bạn; không tự hiểu là 男朋友/女朋友. Chào bạn!"
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “性别：男。”, 男 mang nghĩa nào theo bài?",
+          "choices": [
+            "anh ấy; ông ấy",
+            "cô ấy; bà ấy",
+            "nam",
+            "nữ",
+            "bạn; bạn bè"
+          ],
+          "accepted": [
+            "nam"
+          ],
+          "feedback": "男 có thể xuất hiện như nhãn giới tính trên phiếu; 性别 được chú giải là “giới tính”, không tính mục từ mới. Giới tính: nam."
+        }
+      ],
+      "characterTargets": [
+        "男"
+      ]
+    },
+    {
+      "id": "L104",
+      "unit": "hsk-one-b",
+      "unitTitle": "Gặp gỡ và lời chào",
+      "title": "Lịch sự khi gặp và tạm biệt",
+      "objective": "Lịch sự khi gặp và tạm biệt; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-104",
+        "祈使句",
+        386,
+        "g-386-23",
+        "请 + động từ có thể tạo lời mời/yêu cầu lịch sự trong ngữ cảnh. 请喝茶 là mời uống trà, không phải câu hỏi sở thích. 谢谢/不客气 là một cặp đáp lời thường gặp. 您 là cách xưng hô kính trọng; chọn theo quan hệ, không gán một tuổi cứng cho mọi tình huống."
+      ],
+      "task": [
+        "h1-task-polite",
+        "日常言语交往",
+        5,
+        "六"
+      ],
+      "topic": [
+        "h1-topic-dea888c43e0e",
+        "基本礼貌行为",
+        58,
+        "基本礼貌行为"
+      ],
+      "words": [
+        [
+          "您",
+          "nín",
+          "ngài; bác; anh/chị (kính trọng)",
+          "您 là dạng xưng hô tôn trọng của 你; bản dịch Việt tùy quan hệ.",
+          "您好！",
+          "Nín hǎo!",
+          "Xin chào bác/anh chị!"
+        ],
+        [
+          "请",
+          "qǐng",
+          "xin; mời",
+          "请 đứng trước hành động trong lời mời; không dùng nó như một lời cảm ơn.",
+          "请喝茶。",
+          "Qǐng hē chá.",
+          "Mời uống trà."
+        ],
+        [
+          "谢谢",
+          "xiè xie",
+          "cảm ơn",
+          "谢谢 đáp khi được giúp hoặc được mời theo tình huống; không cần dịch từng chữ hai lần.",
+          "谢谢您！",
+          "Xiè xie nín!",
+          "Cảm ơn bác/anh chị!"
+        ],
+        [
+          "不客气",
+          "bú kè qi",
+          "không có gì; đừng khách sáo",
+          "不客气 đáp lại lời cảm ơn; nguồn ghi bú kèqi cho cả cụm cố định này.",
+          "不客气。",
+          "Bú kè qi.",
+          "Không có gì."
+        ],
+        [
+          "再见",
+          "zài jiàn",
+          "tạm biệt; hẹn gặp lại",
+          "再见 dùng lúc chia tay; không suy rằng đã hẹn chính xác một ngày gặp.",
+          "再见，安！",
+          "Zài jiàn, Ān!",
+          "Tạm biệt An!"
+        ]
+      ],
+      "passage": [
+        "A：您好！请喝茶。\nB：谢谢您！\nA：不客气。\nB：再见！\nA：再见！",
+        "A: Nín hǎo! Qǐng hē chá. B: Xiè xie nín! A: Bú kè qi. B: Zài jiàn! A: Zài jiàn!",
+        "A mời trà, B cảm ơn, A đáp không có gì; cuối đoạn hai người chia tay."
+      ],
+      "comprehension": [
+        "Sau 谢谢您, A đáp gì?",
+        [
+          "不客气",
+          "你叫什么名字",
+          "我不是安"
+        ],
+        "不客气",
+        "Theo đoạn: 不客气. A mời trà, B cảm ơn, A đáp không có gì; cuối đoạn hai người chia tay."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "请",
+          "喝",
+          "茶。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “ngài; bác; anh/chị (kính trọng)” trong câu: □好！",
+          "choices": [
+            "您",
+            "请",
+            "谢谢",
+            "不客气",
+            "再见"
+          ],
+          "accepted": [
+            "您"
+          ],
+          "feedback": "您: ngài; bác; anh/chị (kính trọng). 您 là dạng xưng hô tôn trọng của 你; bản dịch Việt tùy quan hệ. Xin chào bác/anh chị!"
+        },
+        {
+          "concept": 1,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "请",
+            "清",
+            "情",
+            "晴"
+          ],
+          "accepted": [
+            "请"
+          ],
+          "feedback": "Chữ 请 tạo từ 请. 请 đứng trước hành động trong lời mời; không dùng nó như một lời cảm ơn. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “cảm ơn”: □您！ Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "谢谢"
+          ],
+          "feedback": "谢谢: cảm ơn. 谢谢 đáp khi được giúp hoặc được mời theo tình huống; không cần dịch từng chữ hai lần. Cảm ơn bác/anh chị!"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “không có gì; đừng khách sáo” trong câu: □。",
+          "choices": [
+            "您",
+            "请",
+            "谢谢",
+            "不客气",
+            "再见"
+          ],
+          "accepted": [
+            "不客气"
+          ],
+          "feedback": "不客气: không có gì; đừng khách sáo. 不客气 đáp lại lời cảm ơn; nguồn ghi bú kèqi cho cả cụm cố định này. Không có gì."
+        },
+        {
+          "concept": 4,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “tạm biệt; hẹn gặp lại”: □，安！ Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "再见"
+          ],
+          "feedback": "再见: tạm biệt; hẹn gặp lại. 再见 dùng lúc chia tay; không suy rằng đã hẹn chính xác một ngày gặp. Tạm biệt An!"
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “谢谢您！”, 谢谢 mang nghĩa nào theo bài?",
+          "choices": [
+            "ngài; bác; anh/chị (kính trọng)",
+            "xin; mời",
+            "cảm ơn",
+            "không có gì; đừng khách sáo",
+            "tạm biệt; hẹn gặp lại"
+          ],
+          "accepted": [
+            "cảm ơn"
+          ],
+          "feedback": "谢谢 đáp khi được giúp hoặc được mời theo tình huống; không cần dịch từng chữ hai lần. Cảm ơn bác/anh chị!"
+        }
+      ],
+      "characterTargets": [
+        "请"
+      ]
+    },
+    {
+      "id": "L105",
+      "unit": "hsk-one-b",
+      "unitTitle": "Gặp gỡ và lời chào",
+      "title": "Chỉ và chọn một đối tượng",
+      "objective": "Chỉ và chọn một đối tượng; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-105",
+        "这",
+        385,
+        "g-385-10",
+        "这/那 chỉ này/kia; 这个/那个 là dạng có 个 để chỉ một đối tượng đang được nói tới. 的 trong 我的茶 chỉ quan hệ “trà của tôi”. Khi bài yêu cầu dạng một chữ 这/那, không thay bằng dạng hai chữ; đây là giới hạn hình thức của câu hỏi, không kết luận dạng kia sai trong mọi câu."
+      ],
+      "task": [
+        "h1-task-thing",
+        "问答物品信息",
+        4,
+        "三"
+      ],
+      "topic": [
+        "h1-topic-b411fd04a9b3",
+        "物品名称",
+        58,
+        "物品名称"
+      ],
+      "words": [
+        [
+          "这",
+          "zhè",
+          "này; đây (dạng một chữ)",
+          "这 là dạng một chữ chỉ phía gần/người nói; 这个 là tổ hợp dài hơn.",
+          "这是茶。",
+          "Zhè shì chá.",
+          "Đây là trà."
+        ],
+        [
+          "那",
+          "nà",
+          "kia; đó (dạng một chữ)",
+          "那 là dạng một chữ chỉ đối tượng phía kia trong ngữ cảnh, không chỉ mọi việc xa về thời gian.",
+          "那是茶吗？",
+          "Nà shì chá ma?",
+          "Kia là trà phải không?"
+        ],
+        [
+          "这个",
+          "zhè ge",
+          "cái này; người này (hai chữ)",
+          "这个 gồm 这 + 个, nói một đối tượng đã được chỉ; không tự thêm giới tính.",
+          "我喜欢这个。",
+          "Wǒ xǐ huan zhè ge.",
+          "Tôi thích cái này."
+        ],
+        [
+          "那个",
+          "nà ge",
+          "cái kia; người kia (hai chữ)",
+          "那个 là dạng hai chữ chỉ đối tượng kia; phân biệt vị trí được chỉ trong bài.",
+          "我不喜欢那个。",
+          "Wǒ bù xǐ huan nà ge.",
+          "Tôi không thích cái kia."
+        ],
+        [
+          "的",
+          "de",
+          "của; yếu tố nối bổ nghĩa",
+          "的 ở 我的茶 nói trà của tôi; bài này chưa khái quát mọi cách dùng 的.",
+          "这是我的茶。",
+          "Zhè shì wǒ de chá.",
+          "Đây là trà của tôi."
+        ]
+      ],
+      "passage": [
+        "A：这是我的茶。那是你的茶吗？\nB：是。我喜欢这个，不喜欢那个。\nA：好。",
+        "A: Zhè shì wǒ de chá. Nà shì nǐ de chá ma? B: Shì. Wǒ xǐ huan zhè ge, bù xǐ huan nà ge. A: Hǎo.",
+        "Đoạn dùng vị trí được chỉ: 这/这个 “này”, 那/那个 “kia”. Không hỏi người học đoán từ hình ảnh không tồn tại."
+      ],
+      "comprehension": [
+        "A nói vật nào là trà của mình?",
+        [
+          "这",
+          "那",
+          "Không có thông tin về A"
+        ],
+        "这",
+        "Theo đoạn: 这. Đoạn dùng vị trí được chỉ: 这/这个 “này”, 那/那个 “kia”. Không hỏi người học đoán từ hình ảnh không tồn tại."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "这",
+          "是",
+          "我的茶。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "这",
+            "文",
+            "过",
+            "还"
+          ],
+          "accepted": [
+            "这"
+          ],
+          "feedback": "Chữ 这 tạo từ 这. 这 là dạng một chữ chỉ phía gần/người nói; 这个 là tổ hợp dài hơn. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 那 (kia; đó (dạng một chữ)).",
+          "choices": [],
+          "accepted": [
+            "nà"
+          ],
+          "feedback": "那 ghi nà. 那 là dạng một chữ chỉ đối tượng phía kia trong ngữ cảnh, không chỉ mọi việc xa về thời gian."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “cái này; người này (hai chữ)”: 我喜欢□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "这个"
+          ],
+          "feedback": "这个: cái này; người này (hai chữ). 这个 gồm 这 + 个, nói một đối tượng đã được chỉ; không tự thêm giới tính. Tôi thích cái này."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “cái kia; người kia (hai chữ)” trong câu: 我不喜欢□。",
+          "choices": [
+            "这",
+            "那",
+            "这个",
+            "那个",
+            "的"
+          ],
+          "accepted": [
+            "那个"
+          ],
+          "feedback": "那个: cái kia; người kia (hai chữ). 那个 là dạng hai chữ chỉ đối tượng kia; phân biệt vị trí được chỉ trong bài. Tôi không thích cái kia."
+        },
+        {
+          "concept": 4,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “của; yếu tố nối bổ nghĩa”: 这是我□茶。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "的"
+          ],
+          "feedback": "的: của; yếu tố nối bổ nghĩa. 的 ở 我的茶 nói trà của tôi; bài này chưa khái quát mọi cách dùng 的. Đây là trà của tôi."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我喜欢这个。”, 这个 mang nghĩa nào theo bài?",
+          "choices": [
+            "này; đây (dạng một chữ)",
+            "kia; đó (dạng một chữ)",
+            "cái này; người này (hai chữ)",
+            "cái kia; người kia (hai chữ)",
+            "của; yếu tố nối bổ nghĩa"
+          ],
+          "accepted": [
+            "cái này; người này (hai chữ)"
+          ],
+          "feedback": "这个 gồm 这 + 个, nói một đối tượng đã được chỉ; không tự thêm giới tính. Tôi thích cái này."
+        }
+      ],
+      "characterTargets": [
+        "这"
+      ]
+    }
+  ]
+}

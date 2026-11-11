@@ -1,0 +1,493 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "0a49f4ea76fd13e1fffb7c127d90b408e3dd151698dd8e23c5f30ac534068576",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "foundation-slice",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "F02",
+    "version": 2,
+    "versionId": "f02-private-v2",
+    "title": "Đọc dấu thanh, không đoán âm",
+    "classification": "FOUNDATION_INTERNAL",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Phân biệt ký hiệu thanh 1–4 và thanh nhẹ bằng chữ.",
+      "Đặt dấu trên nguyên âm theo ví dụ đã dạy.",
+      "Giữ nguyên thanh từ điển, không suy phát âm hay năng lực nghe từ bài chữ."
+    ],
+    "prerequisites": [
+      "f01-private-v2"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": null,
+    "targetLevel": null,
+    "alignmentStatus": "NOT_APPLICABLE",
+    "alignmentEvidence": [
+      "Internally authored foundation; no official HSK unit claim."
+    ],
+    "alignmentCheckedAt": "2026-10-17T14:28:19.608Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [],
+    "topicReferences": [],
+    "vocabularyReferences": [],
+    "characterReferences": [],
+    "grammarReferences": []
+  },
+  "concepts": [
+    {
+      "id": "f02-ma1",
+      "version": 1,
+      "senseId": "f02-sense-ma1",
+      "hanzi": "妈",
+      "dictionaryPinyin": "mā",
+      "meaning": "mẹ",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f02-ma2",
+      "version": 1,
+      "senseId": "f02-sense-ma2",
+      "hanzi": "麻",
+      "dictionaryPinyin": "má",
+      "meaning": "cây gai / vật liệu gai",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f02-ma3",
+      "version": 1,
+      "senseId": "f02-sense-ma3",
+      "hanzi": "马",
+      "dictionaryPinyin": "mǎ",
+      "meaning": "ngựa",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f02-ma4",
+      "version": 1,
+      "senseId": "f02-sense-ma4",
+      "hanzi": "骂",
+      "dictionaryPinyin": "mà",
+      "meaning": "mắng",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f02-ma0",
+      "version": 1,
+      "senseId": "f02-sense-ma0",
+      "hanzi": "吗",
+      "dictionaryPinyin": "ma",
+      "meaning": "trợ từ nghi vấn thanh nhẹ",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f02-nu3",
+      "version": 1,
+      "senseId": "f02-sense-nu3",
+      "hanzi": "女",
+      "dictionaryPinyin": "nǚ",
+      "meaning": "nữ",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "f02-private-v2-b1",
+      "type": "teaching",
+      "title": "Cùng chữ cái, khác thanh",
+      "text": "Pinyin không chỉ có phần chữ. mā, má, mǎ, mà có cùng m + a nhưng thanh khác nhau và có thể chỉ những từ khác nghĩa. Bài này kiểm tra ký hiệu viết; chưa có audio tham chiếu để kiểm tra nghe hoặc phát âm.",
+      "hanzi": "妈 麻 马 骂",
+      "pinyin": "mā má mǎ mà",
+      "meaning": "mẹ · cây gai · ngựa · mắng",
+      "readingMinutes": 2
+    },
+    {
+      "id": "f02-private-v2-b2",
+      "type": "teaching",
+      "title": "Bốn dấu thanh cơ bản",
+      "text": "Thanh 1 dùng dấu ngang ā; thanh 2 dùng dấu sắc á; thanh 3 dùng dấu ǎ; thanh 4 dùng dấu huyền à. Số tương ứng là 1, 2, 3, 4. Đây là ký hiệu pinyin, không bảo đảm phát âm giống các dấu tiếng Việt.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "f02-private-v2-e1-block",
+      "type": "exercise",
+      "exerciseVersionId": "f02-private-v2-e1"
+    },
+    {
+      "id": "f02-private-v2-e2-block",
+      "type": "exercise",
+      "exerciseVersionId": "f02-private-v2-e2"
+    },
+    {
+      "id": "f02-private-v2-e3-block",
+      "type": "exercise",
+      "exerciseVersionId": "f02-private-v2-e3"
+    },
+    {
+      "id": "f02-private-v2-e4-block",
+      "type": "exercise",
+      "exerciseVersionId": "f02-private-v2-e4"
+    },
+    {
+      "id": "f02-private-v2-b7",
+      "type": "teaching",
+      "title": "Thanh nhẹ không phải thanh đầy đủ thứ năm",
+      "text": "Trong ví dụ 吗 ma, âm tiết không mang dấu thanh từ điển và được đọc thanh nhẹ trong cách dùng này. Ô nhập nhận ma, ma0 hoặc ma5; 0/5 là quy ước ghi thanh nhẹ ở đây. Không gán một đường nét cố định thứ năm như bốn thanh đầy đủ.",
+      "hanzi": "吗",
+      "pinyin": "ma",
+      "meaning": "trợ từ nghi vấn",
+      "readingMinutes": 2
+    },
+    {
+      "id": "f02-private-v2-e5-block",
+      "type": "exercise",
+      "exerciseVersionId": "f02-private-v2-e5"
+    },
+    {
+      "id": "f02-private-v2-b9",
+      "type": "teaching",
+      "title": "Đặt dấu ở đâu?",
+      "text": "Ưu tiên đặt dấu trên a; nếu không có a thì trên o hoặc e. Với iu và ui, đặt trên nguyên âm viết sau: liú, guì; hǎo đặt trên a. Trong nü, ü khác u và giữ hai chấm khi thêm thanh: nǚ. Sau j, q, x và trong dạng yu, hai chấm của ü được lược theo quy tắc chính tả; không suy rằng âm đã đổi thành u. Các ví dụ chỉ minh họa ký hiệu, không thêm coverage HSK.",
+      "hanzi": "女",
+      "pinyin": "nǚ",
+      "meaning": "nữ",
+      "readingMinutes": 2
+    },
+    {
+      "id": "f02-private-v2-e6-block",
+      "type": "exercise",
+      "exerciseVersionId": "f02-private-v2-e6"
+    },
+    {
+      "id": "f02-private-v2-b11",
+      "type": "teaching",
+      "title": "Thanh từ điển và lời nói",
+      "text": "Pinyin trên thẻ ghi dạng từ điển. Trong câu, thanh có thể biến đổi theo ngữ cảnh; chẳng hạn chuỗi thanh 3 có quy tắc biến điệu. Ta chưa chấm biến điệu, độ chuẩn hay phát âm từ bài chữ. Khi chưa có audio được duyệt, nghe/phát âm vẫn là CHƯA ĐÁNH GIÁ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "f02-private-v2-e7-block",
+      "type": "exercise",
+      "exerciseVersionId": "f02-private-v2-e7"
+    },
+    {
+      "id": "f02-private-v2-e8-block",
+      "type": "exercise",
+      "exerciseVersionId": "f02-private-v2-e8"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "f02-private-v2-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "f02-ma1",
+      "senseId": "f02-sense-ma1",
+      "keyRef": "f02-private-v2-e1-key-v1",
+      "prompt": "mā trong ví dụ mang thanh mấy?",
+      "choices": [
+        "Thanh 1",
+        "Thanh 2",
+        "Thanh 3",
+        "Thanh 4"
+      ],
+      "inputHint": "Chọn một đáp án.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f02-private-v2-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "f02-ma2",
+      "senseId": "f02-sense-ma2",
+      "keyRef": "f02-private-v2-e2-key-v1",
+      "prompt": "má trong ví dụ mang thanh mấy?",
+      "choices": [
+        "Thanh 1",
+        "Thanh 2",
+        "Thanh 3",
+        "Thanh 4"
+      ],
+      "inputHint": "Chọn một đáp án.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f02-private-v2-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "f02-ma3",
+      "senseId": "f02-sense-ma3",
+      "keyRef": "f02-private-v2-e3-key-v1",
+      "prompt": "mǎ trong ví dụ mang thanh mấy?",
+      "choices": [
+        "Thanh 1",
+        "Thanh 2",
+        "Thanh 3",
+        "Thanh 4"
+      ],
+      "inputHint": "Chọn một đáp án.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f02-private-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "f02-ma4",
+      "senseId": "f02-sense-ma4",
+      "keyRef": "f02-private-v2-e4-key-v1",
+      "prompt": "mà trong ví dụ mang thanh mấy?",
+      "choices": [
+        "Thanh 1",
+        "Thanh 2",
+        "Thanh 3",
+        "Thanh 4"
+      ],
+      "inputHint": "Chọn một đáp án.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f02-private-v2-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "f02-ma0",
+      "senseId": "f02-sense-ma0",
+      "keyRef": "f02-private-v2-e5-key-v1",
+      "prompt": "Trong quy ước bài này, ma0 biểu thị gì?",
+      "choices": [
+        "Thanh 4",
+        "Thanh nhẹ",
+        "Thiếu dữ liệu: luôn đúng mọi thanh"
+      ],
+      "inputHint": "Chọn một đáp án.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f02-private-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "f02-nu3",
+      "senseId": "f02-sense-nu3",
+      "keyRef": "f02-private-v2-e6-key-v1",
+      "prompt": "Chọn cách viết có ü và thanh 3 đúng trong ví dụ.",
+      "choices": [
+        "nǔ",
+        "nǚ",
+        "nù"
+      ],
+      "inputHint": "Chọn một đáp án.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f02-private-v2-e7",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f02-nu3",
+      "senseId": "f02-sense-nu3",
+      "keyRef": "f02-private-v2-e7-key-v1",
+      "prompt": "Gõ nǚ bằng dấu thanh hoặc quy ước v.",
+      "choices": [],
+      "inputHint": "Nhập dấu thanh hoặc số 1–4. Thanh nhẹ dùng 0/5 hoặc không dấu. v được nhận thay ü.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f02-private-v2-e8",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f02-ma3",
+      "senseId": "f02-sense-ma3",
+      "keyRef": "f02-private-v2-e8-key-v1",
+      "prompt": "Gõ pinyin của 马 trong ví dụ: thanh 3.",
+      "choices": [],
+      "inputHint": "Nhập dấu thanh hoặc số 1–4. Thanh nhẹ dùng 0/5 hoặc không dấu. v được nhận thay ü.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "f02-private-v2-e1-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f02-private-v2-e1",
+      "senseId": "f02-sense-ma1",
+      "accepted": [
+        "Thanh 1"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "mā: ký hiệu thanh 1. Không tính thành năng lực nghe."
+    },
+    {
+      "id": "f02-private-v2-e2-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f02-private-v2-e2",
+      "senseId": "f02-sense-ma2",
+      "accepted": [
+        "Thanh 2"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "má: ký hiệu thanh 2. Không tính thành năng lực nghe."
+    },
+    {
+      "id": "f02-private-v2-e3-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f02-private-v2-e3",
+      "senseId": "f02-sense-ma3",
+      "accepted": [
+        "Thanh 3"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "mǎ: ký hiệu thanh 3. Không tính thành năng lực nghe."
+    },
+    {
+      "id": "f02-private-v2-e4-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f02-private-v2-e4",
+      "senseId": "f02-sense-ma4",
+      "accepted": [
+        "Thanh 4"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "mà: ký hiệu thanh 4. Không tính thành năng lực nghe."
+    },
+    {
+      "id": "f02-private-v2-e5-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f02-private-v2-e5",
+      "senseId": "f02-sense-ma0",
+      "accepted": [
+        "Thanh nhẹ"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "ma0/ma5/ma là thanh nhẹ theo quy ước nhập, không thay thế mā/má/mǎ/mà."
+    },
+    {
+      "id": "f02-private-v2-e6-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f02-private-v2-e6",
+      "senseId": "f02-sense-nu3",
+      "accepted": [
+        "nǚ"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "nǚ giữ nguyên ü; nǔ dùng u là một dạng khác."
+    },
+    {
+      "id": "f02-private-v2-e7-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f02-private-v2-e7",
+      "senseId": "f02-sense-nu3",
+      "accepted": [
+        "nǚ"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "nǚ / nü3 / nv3 khớp. ü và thanh đều được giữ."
+    },
+    {
+      "id": "f02-private-v2-e8-key-v1",
+      "version": 1,
+      "exerciseVersionId": "f02-private-v2-e8",
+      "senseId": "f02-sense-ma3",
+      "accepted": [
+        "mǎ"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "mǎ / ma3 khớp. ma, mā hoặc ma4 không được đổi thành thanh 3."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

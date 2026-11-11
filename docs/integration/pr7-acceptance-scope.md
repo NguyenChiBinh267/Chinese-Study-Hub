@@ -1,0 +1,31 @@
+# PR #7 acceptance scope — code adoption, not task or release approval
+
+Starting candidate: cd43da898390fa7f4136281c9b677599a4e98fc5. Source/main/import and all 49 retained artifact hashes were reverified before adding CI. Main was ad7f4c59442b89701e5e41cd6a120284532c1650. This follow-up adds minimal CI and documents acceptance boundaries; it does not add application features, learning material, migration execution or task status.
+
+## Zero-cost CI boundary
+
+Repository metadata on 2026-11-01 verifies NguyenChiBinh267/Chinese-Study-Hub is public, not archived, with Actions enabled. GitHub's current [billing documentation](https://docs.github.com/en/actions/concepts/billing-and-usage) states standard GitHub-hosted runner usage in public repositories is free. This proof is specific to public-repository standard runner execution, not general account/provider eligibility or T068 completion. No billing setting, card, upgrade, trial, credit, paid fallback or new service is configured.
+
+`baseline-ci.yml` uses only standard `ubuntu-24.04`, one job, a 20-minute timeout and one concurrent run per PR with cancellation of superseded runs. A public-repository guard prevents execution after a visibility change. Actions are pinned to verified full commit SHAs; permissions are contents:read only, checkout credentials are not persisted, and no repository secrets are referenced. Trigger is pull_request, never pull_request_target. It checks out the exact PR HEAD rather than implicitly testing the synthetic merge commit. The resulting check proves that head on the current event; main drift still requires reconciliation before merge.
+
+Dependency installation uses the unchanged lockfile with lifecycle scripts, funding and audit disabled for this install. Node.js22 satisfies the project's engine constraint. Unit tests use installed tsx directly, with no npx download. Typecheck and build use existing bounded preparation hooks. No SQL/browser, provider, cloud, deployment, model or paid action is invoked. npm registry/Node downloads are CI dependencies, not application external-service integrations. Dependency audit is separate review evidence; install success is not a vulnerability-free claim.
+
+Automatic setup-node caching is explicitly disabled. No upload-artifact, cache action, custom image, larger runner or service container exists. npm's cache stays in the ephemeral runner temp directory. No settings for Actions budgets, billing or other workflows are changed. GitHub may still refuse a run for account/platform policy; that is BLOCKED, never a reason to use a paid fallback. A skipped/cancelled/failed/missing check is not PASS.
+
+## Evidence and independent review
+
+The original 1,384-file import remains 1,379 exact source blobs and five declared integration adjustments, with main Engineering Loop/SSOT/AGENTS preserved. Original QA counts are 142 unit, 35 SQL and 14 browser PASS on core872d03f; cd43da8 only changed integration documentation. Full local QA is not rerun because of documentation. CI supplies a new clean hosted lockfile/typecheck/lint/build/unit result on its own exact HEAD; do not relabel the local SQL/browser receipts as hosted tests.
+
+SQL/browser remain local evidence with the prior limitations: existing PostgreSQL sandbox, no fresh-empty migration rehearsal or hosted database proof; browser includes 360px emulation, only the first desktop request cold-first, no physical Android acceptance, and observed server abort/ECONNRESET messages. The historical ~14,997ms GET catalog cancellation/root cause remains OPEN. Hash readback preserves the original 76,293 baseline and later checkpoint scopes as recorded, not a physical database backup or a new live readback this turn.
+
+Independent review must pin the final candidate/main, verify manifest/protected hashes and perform risk-based review of supply chain, migrations, data/auth/learning API boundaries, secrets and rights. It must report examined files, deterministic evidence and limitations; no reviewer claims manual reading of all ~1.2 million added lines. A fresh read-only technical review here is not a model smoke or an Engineering Loop/bootstrap PASS, and is not competent language/pedagogical approval. Its final exact-SHA verdict and CI run are recorded as separate acceptance evidence in the PR/local receipt, without amending the reviewed commit merely to insert its own hash.
+
+## Adoption versus release and Loop activation
+
+If hosted CI and independent review actually pass with no unresolved baseline-blocking findings, the code may be reported BASELINE_READY_FOR_OWNER_MERGE at the exact reviewed SHA. Only the owner can merge under this request. Readiness is code adoption only; T009/T026/T052 and every other canonical task retain their verified main status. No production learning API, HSK1 publication, release, deployment or verified mastery is enabled by adopting this code.
+
+Existing production/auth/runtime guards remain mandatory. Local owner DRAFT practice evidence does not satisfy least-privilege/RLS/account/competent-review release gates. Content rights/official mappings and human language review retain their own blockers. CI success cannot attest these facts.
+
+PR #6 is a separate T004 candidate: it alone adds docs/implementation/ux-slice.md, absent from the baseline. Its non-draft/old-base metadata cannot pass existing-PR takeover. Do not merge it into this PR, recreate T004 blindly, or infer DONE from implemented screens. Reconcile its exact metadata/source and owner ux-walkthrough evidence separately before any mapping is authorized.
+
+Loop readiness remains separate: main records unresolved runtime/independent-bootstrap gates; the normal existing-PR path rejects executable external QA without a reviewed adapter. Generic bootstrap identity support is not permission to dispatch a broad baseline as T004. Keep liveEnabled=false, authorizedTasks=[], autoMerge=false, ssotAllowStatusWrites=false, and do not install a grant. After owner baseline merge, rebind the actual main/spec/status/policy/independent review hashes, resolve real readiness gates and batch required owner evidence. One later bounded authorization may permit the existing driver to select only dependency-ready tasks; it is not issued by this document.

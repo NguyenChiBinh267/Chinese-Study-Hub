@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "f77160da40f6a6864c4ba694d39238fc48cd95e9f929aa7b5418bd1e0fc88d97",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-lost-bag",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L308",
+    "version": 1,
+    "versionId": "l308-draft-v1",
+    "title": "Tìm đồ thất lạc và đón bạn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc thông tin mất đồ và yêu cầu mang đồ tới đúng điểm, phân biệt rời đi với đi ngang.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l207-draft-v1",
+      "l225-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "主语+把+宾语+动词+在/到+处所"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-errands",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "交流、处理日常事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-errands",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "日常生活 / 日常事务 / 事务处理"
+        },
+        "written": "事务处理",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l308-v-680",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 680"
+        },
+        "written": "换",
+        "pinyin": "huàn",
+        "senseId": "l308-v-680-sense",
+        "ordinal": 680,
+        "note": "3 huàn 动; 换 nói đổi một vật hoặc thay thứ đang dùng. 换一个包 là đổi sang túi khác; khác 还 huán trả lại vật. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l308-v-596",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 596"
+        },
+        "written": "丢",
+        "pinyin": "diū",
+        "senseId": "l308-v-596-sense",
+        "ordinal": 596,
+        "note": "3 diū 动; 丢 trong 我的包丢了 nói túi thất lạc. Không dùng mặc nhiên nghĩa cố ý vứt; cần ngữ cảnh để phân biệt. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l308-v-578",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 578"
+        },
+        "written": "带",
+        "pinyin": "dài",
+        "senseId": "l308-v-578-sense",
+        "ordinal": 578,
+        "note": "3（5） dài 动、（名）; 带 ở đây là động từ mang người/vật cùng đi. 带到车站 chỉ điểm đến; không dùng nghĩa danh từ dây/đai. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l308-v-747",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 747"
+        },
+        "written": "离开",
+        "pinyin": "líkāi",
+        "senseId": "l308-v-747-sense",
+        "ordinal": 747,
+        "note": "3 líkāi 动; 离开 nêu tách khỏi nơi/người; 离开宾馆 là rời khách sạn, không phải làm mất khách sạn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l308-v-717",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 717"
+        },
+        "written": "经过",
+        "pinyin": "jīngguò",
+        "senseId": "l308-v-717-sense",
+        "ordinal": 717,
+        "note": "3 jīngguò 动、名; 经过 ở đây là động từ đi qua một nơi. 不要把“经过”与经验助词“过”混成同一用法; tên gọi quá trình là nghĩa khác chưa kiểm tra. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l308-v-706",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 706"
+        },
+        "written": "接",
+        "pinyin": "jiē",
+        "senseId": "l308-v-706-sense",
+        "ordinal": 706,
+        "note": "3 jiē 动; 接 trong 去车站接朋友 là tới đón bạn. Khác tiếp nhận cuộc gọi trong 接电话; bài chỉ chấm nghĩa đón người theo ngữ cảnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l308-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "hỗ trợ trong tình huống",
+        "pinyin": "",
+        "senseId": "l308-extra0-sense",
+        "ordinal": null,
+        "note": "着急 zháojí: lo/vội; 还没 hái méi: vẫn chưa; 把 bǎ được dạy theo nhánh vị trí. 还 huán trả lại chỉ để đối chiếu âm/ý với 换 huàn, chưa cộng từ. Ngữ cảnh mất đồ là hư cấu."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-86",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "86"
+        },
+        "written": "换",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 86,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-46",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "46"
+        },
+        "written": "丢",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 46,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-38",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "38"
+        },
+        "written": "带",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 38,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-109",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "109"
+        },
+        "written": "接",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 109,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-g-ba-place",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "特殊句型 / 把字句位置"
+        },
+        "written": "主语+把+宾语+动词+在/到+处所",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l308-c0",
+      "version": 1,
+      "senseId": "l308-v-680-sense",
+      "hanzi": "换",
+      "dictionaryPinyin": "huàn",
+      "meaning": "đổi/thay",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l308-v-680"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l308-c1",
+      "version": 1,
+      "senseId": "l308-v-596-sense",
+      "hanzi": "丢",
+      "dictionaryPinyin": "diū",
+      "meaning": "làm mất/thất lạc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l308-v-596"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l308-c2",
+      "version": 1,
+      "senseId": "l308-v-578-sense",
+      "hanzi": "带",
+      "dictionaryPinyin": "dài",
+      "meaning": "mang theo",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l308-v-578"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l308-c3",
+      "version": 1,
+      "senseId": "l308-v-747-sense",
+      "hanzi": "离开",
+      "dictionaryPinyin": "lí kāi",
+      "meaning": "rời khỏi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l308-v-747"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l308-c4",
+      "version": 1,
+      "senseId": "l308-v-717-sense",
+      "hanzi": "经过",
+      "dictionaryPinyin": "jīng guò",
+      "meaning": "đi qua",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l308-v-717"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l308-c5",
+      "version": 1,
+      "senseId": "l308-v-706-sense",
+      "hanzi": "接",
+      "dictionaryPinyin": "jiē",
+      "meaning": "đón",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l308-v-706"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l308-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Nhắc 先/再, thời gian đứng trước động từ, 在 và lượng từ cơ bản. Prerequisite HSK1/2 vẫn chưa chứng nhận. 着急 zháojí: lo/vội; 还没 hái méi: vẫn chưa; 把 bǎ được dạy theo nhánh vị trí. 还 huán trả lại chỉ để đối chiếu âm/ý với 换 huàn, chưa cộng từ. Ngữ cảnh mất đồ là hư cấu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l308-t0",
+      "type": "teaching",
+      "title": "换 · đổi/thay",
+      "text": "换 nói đổi một vật hoặc thay thứ đang dùng. 换一个包 là đổi sang túi khác; khác 还 huán trả lại vật.",
+      "hanzi": "这个包太小，我想换一个。",
+      "pinyin": "Zhège bāo tài xiǎo, wǒ xiǎng huàn yí ge.",
+      "meaning": "Túi này nhỏ quá, tôi muốn đổi một cái.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l308-t1",
+      "type": "teaching",
+      "title": "丢 · làm mất/thất lạc",
+      "text": "丢 trong 我的包丢了 nói túi thất lạc. Không dùng mặc nhiên nghĩa cố ý vứt; cần ngữ cảnh để phân biệt.",
+      "hanzi": "我的包丢了，里面有票。",
+      "pinyin": "Wǒ de bāo diū le, lǐmian yǒu piào.",
+      "meaning": "Túi tôi bị thất lạc, bên trong có vé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l308-t2",
+      "type": "teaching",
+      "title": "带 · mang theo",
+      "text": "带 ở đây là động từ mang người/vật cùng đi. 带到车站 chỉ điểm đến; không dùng nghĩa danh từ dây/đai.",
+      "hanzi": "请把包带到车站。",
+      "pinyin": "Qǐng bǎ bāo dài dào chēzhàn.",
+      "meaning": "Hãy mang túi đến ga.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l308-t3",
+      "type": "teaching",
+      "title": "离开 · rời khỏi",
+      "text": "离开 nêu tách khỏi nơi/người; 离开宾馆 là rời khách sạn, không phải làm mất khách sạn.",
+      "hanzi": "他还没离开宾馆。",
+      "pinyin": "Tā hái méi líkāi bīnguǎn.",
+      "meaning": "Anh ấy chưa rời khách sạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l308-t4",
+      "type": "teaching",
+      "title": "经过 · đi qua",
+      "text": "经过 ở đây là động từ đi qua một nơi. 不要把“经过”与经验助词“过”混成同一用法; tên gọi quá trình là nghĩa khác chưa kiểm tra.",
+      "hanzi": "我去车站的时候经过学校。",
+      "pinyin": "Wǒ qù chēzhàn de shíhou jīngguò xuéxiào.",
+      "meaning": "Tôi đi qua trường khi tới ga.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l308-t5",
+      "type": "teaching",
+      "title": "接 · đón",
+      "text": "接 trong 去车站接朋友 là tới đón bạn. Khác tiếp nhận cuộc gọi trong 接电话; bài chỉ chấm nghĩa đón người theo ngữ cảnh.",
+      "hanzi": "我今天去车站接朋友。",
+      "pinyin": "Wǒ jīntiān qù chēzhàn jiē péngyou.",
+      "meaning": "Hôm nay tôi đến ga đón bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l308-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "把 đưa vật đã xác định lên trước động từ. 把包带到车站 nêu mang túi tới ga; không nói người đã rời ga. Chỉ luyện nhánh động từ+到+địa điểm, chưa đủ mọi mẫu 把 trong dòng nguồn.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l308-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小安：我的包丢了，我想里面有票。小李：你先别着急。小王还没离开宾馆，我问问他。小王：包在这里。我会经过学校，可以把包带到车站。小安：谢谢！我在那里接朋友，先不换别的包了。",
+      "pinyin": "Xiǎo Ān: Wǒ de bāo diū le, wǒ xiǎng lǐmian yǒu piào. Xiǎo Lǐ: Nǐ xiān bié zháojí. Xiǎo Wáng hái méi líkāi bīnguǎn, wǒ wènwen tā. Xiǎo Wáng: Bāo zài zhèlǐ. Wǒ huì jīngguò xuéxiào, kěyǐ bǎ bāo dài dào chēzhàn. Xiǎo Ān: Xièxie! Wǒ zài nàli jiē péngyou, xiān bú huàn biéde bāo le.",
+      "meaning": "An nghĩ mất túi, có vé ở trong. Lý hỏi Vương vì Vương chưa rời khách sạn. Vương thấy túi, sẽ đi qua trường và mang túi tới ga. An đón bạn tại ga và chưa đổi túi khác nữa.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l308-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l308-v1-e0"
+    },
+    {
+      "id": "l308-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l308-v1-e1"
+    },
+    {
+      "id": "l308-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l308-v1-e2"
+    },
+    {
+      "id": "l308-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l308-v1-e3"
+    },
+    {
+      "id": "l308-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l308-v1-e4"
+    },
+    {
+      "id": "l308-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l308-v1-e5"
+    },
+    {
+      "id": "l308-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l308-v1-e6"
+    },
+    {
+      "id": "l308-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l308-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l308-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l308-c0",
+      "senseId": "l308-v-680-sense",
+      "keyRef": "l308-v1-k0",
+      "prompt": "Túi quá nhỏ, muốn thay bằng chiếc khác: 我想□一个包.",
+      "choices": [
+        "丢",
+        "带",
+        "离开",
+        "经过",
+        "接",
+        "换"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l308-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l308-c1",
+      "senseId": "l308-v-596-sense",
+      "keyRef": "l308-v1-k1",
+      "prompt": "Bạn không tìm thấy túi và cho rằng nó thất lạc: 我的包□了.",
+      "choices": [
+        "带",
+        "离开",
+        "经过",
+        "接",
+        "换",
+        "丢"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l308-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l308-c2",
+      "senseId": "l308-v-578-sense",
+      "keyRef": "l308-v1-k2",
+      "prompt": "Bạn nhờ người mang chiếc túi đã biết tới ga. Chọn động từ mang.",
+      "choices": [
+        "离开",
+        "经过",
+        "接",
+        "换",
+        "丢",
+        "带"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l308-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l308-c3",
+      "senseId": "l308-v-747-sense",
+      "keyRef": "l308-v1-k3",
+      "prompt": "Viết pinyin của 离开 trong nghĩa “rời khỏi”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l308-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l308-c4",
+      "senseId": "l308-v-717-sense",
+      "keyRef": "l308-v1-k4",
+      "prompt": "Đường tới ga đi ngang qua trường, không dừng giao túi ở đó. Chọn động từ đi qua.",
+      "choices": [
+        "接",
+        "换",
+        "丢",
+        "带",
+        "离开",
+        "经过"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l308-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l308-c5",
+      "senseId": "l308-v-706-sense",
+      "keyRef": "l308-v1-k5",
+      "prompt": "Viết câu “Tôi đến ga đón bạn” theo mẫu 我去车站 + động từ đón + 朋友.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l308-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l308-c0",
+      "senseId": "l308-v-680-sense",
+      "keyRef": "l308-v1-k6",
+      "prompt": "Vương đề nghị mang túi tới đâu?",
+      "choices": [
+        "学校里面",
+        "别的宾馆",
+        "车站"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l308-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l308-c3",
+      "senseId": "l308-v-747-sense",
+      "keyRef": "l308-v1-k7",
+      "prompt": "Sắp xếp yêu cầu mang vật tới nơi.",
+      "choices": [
+        "带到车站",
+        "请把",
+        "包"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l308-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l308-v1-e0",
+      "senseId": "l308-v-680-sense",
+      "accepted": [
+        "换"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "换 nói đổi một vật hoặc thay thứ đang dùng. 换一个包 là đổi sang túi khác; khác 还 huán trả lại vật."
+    },
+    {
+      "id": "l308-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l308-v1-e1",
+      "senseId": "l308-v-596-sense",
+      "accepted": [
+        "丢"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "丢 trong 我的包丢了 nói túi thất lạc. Không dùng mặc nhiên nghĩa cố ý vứt; cần ngữ cảnh để phân biệt."
+    },
+    {
+      "id": "l308-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l308-v1-e2",
+      "senseId": "l308-v-578-sense",
+      "accepted": [
+        "带"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "带 ở đây là động từ mang người/vật cùng đi. 带到车站 chỉ điểm đến; không dùng nghĩa danh từ dây/đai."
+    },
+    {
+      "id": "l308-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l308-v1-e3",
+      "senseId": "l308-v-747-sense",
+      "accepted": [
+        "lí kāi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "离开 nêu tách khỏi nơi/người; 离开宾馆 là rời khách sạn, không phải làm mất khách sạn."
+    },
+    {
+      "id": "l308-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l308-v1-e4",
+      "senseId": "l308-v-717-sense",
+      "accepted": [
+        "经过"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "经过 ở đây là động từ đi qua một nơi. 不要把“经过”与经验助词“过”混成同一用法; tên gọi quá trình là nghĩa khác chưa kiểm tra."
+    },
+    {
+      "id": "l308-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l308-v1-e5",
+      "senseId": "l308-v-706-sense",
+      "accepted": [
+        "我去车站接朋友"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "接朋友 chỉ đón bạn; 经过学校 là đi ngang trường."
+    },
+    {
+      "id": "l308-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l308-v1-e6",
+      "senseId": "l308-v-680-sense",
+      "accepted": [
+        "车站"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "经过学校 là đi ngang, không phải nơi giao túi."
+    },
+    {
+      "id": "l308-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l308-v1-e7",
+      "senseId": "l308-v-747-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 把 đưa vật đã xác định lên trước động từ. 把包带到车站 nêu mang túi tới ga; không nói người đã rời ga. Chỉ luyện nhánh động từ+到+địa điểm, chưa đủ mọi mẫu 把 trong dòng nguồn."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

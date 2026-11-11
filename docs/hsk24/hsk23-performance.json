@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-26T05:03:53.681Z",
+  "packagesIncludingHistory": 129,
+  "currentHsk2": 91,
+  "currentHsk3": 16,
+  "catalogLoadMs": {
+    "p50": 328.02300000000014,
+    "p90": 466.70199999999977,
+    "samples": [
+      297.72559999999976,
+      306.65769999999975,
+      312.91419999999925,
+      314.1097,
+      318.27190000000064,
+      328.02300000000014,
+      349.4373000000005,
+      352.4922999999999,
+      368.9825000000001,
+      466.70199999999977
+    ]
+  },
+  "fortyCardLookupsMs": {
+    "repeatedStandalone": 10377.567099999998,
+    "requestScoped": 286.08320000000094,
+    "meaning": "Same full corpus and process; 40 standalone catalog validations versus one request-local validated index, not cross-machine benchmark."
+  },
+  "readOnlyDatabaseViewMs": [
+    410.15639999999985,
+    256.3370000000032,
+    288.025999999998
+  ],
+  "databaseStatementsPerView": [
+    9,
+    9,
+    9
+  ],
+  "publicPackageBytes": {
+    "max": 43461
+  },
+  "corpusServerBytes": 2766964,
+  "duplicateCurrentVersions": 0,
+  "queryShape": "One version-pinned package/session per lesson view. No migration or owner writes. Catalog/learning summaries remain bounded by current course and existing runtime query predicates.",
+  "limits": "Local host timings under concurrent SQL/browser checks; not a cloud benchmark or an upper latency SLA."
+}

@@ -1,0 +1,55 @@
+{
+  "contract": "design-contract.md; local preview only, source origin/main 3813bda55be7b77108344de6e5cc6bd74c51f034",
+  "targetViewports": ["360x800", "1440x1000"],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Playwright keyboard skip-to-main and visible focus exercised; labeled native controls and ruby/lang Hanzi; axe selected A/AA tags reported no violations on seven initial routes at each target viewport. Real screen-reader/device UAT remains untested."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Seven routes have no document horizontal overflow at 360x800 and 1440x1000; schedule also checked at 320/720 CSS px. Mobile day selector wraps, bottom navigation and desktop sidebar inspected. Actual browser zoom not claimed."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "There is no asynchronous data fetch/save state in synchronous in-memory fixtures. Generic App Router loading fallback is implemented but not demonstrated by throttled navigation; this is explicitly unverified in verification.md, not a loading-behavior PASS."
+    },
+    "empty": {
+      "status": "pass",
+      "evidence": "Real progress empty state, new-tab demo empty state, exhausted review queue and restart exercised in browser tests."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Schedule invalid numeric input/day selection and limited-capacity consent errors, lesson answer-required feedback, and 404 lesson recovery exercised. Generic runtime exception boundary untested."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "Lesson screen renders text fixture with explicit missing review/audio/server grading notice; dashboard separates projected budget from unavailable actual remaining time. Representative desktop/mobile screenshots inspected."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Schedule applies to tab context, all four lessons complete with fixture-only feedback, four flashcard ratings exhaust the demo queue and activity appears only in demo progress. Reload resets activity."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "No account/auth, media capture, provider call or device permission request exists in this local preview. Production authorization gates remain unimplemented."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x1000",
+      "artifact": "evidence/desktop-today.png",
+      "observation": "Rendered desktop Today: sidebar, one main sample CTA, projected 270-minute capacity and explicit missing actual time, four lesson links and right-hand study note; no overlapping text observed."
+    },
+    {
+      "viewport": "360x800",
+      "artifact": "evidence/mobile-schedule.png",
+      "observation": "Rendered mobile schedule: single column, validation summary and capacity warning, 4+3 day controls, explicit reduced-capacity consent and active apply action; all content reachable by scrolling without horizontal overflow."
+    },
+    {
+      "viewport": "360x800",
+      "artifact": "evidence/mobile-lesson.png",
+      "observation": "Rendered mobile lesson: Hanzi, ruby pinyin, Vietnamese meaning, selected wrong answer and fixture feedback; primary next action is visible by scrolling."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "verdict": "VERIFIED_SCOPED_FUNCTIONAL_REPAIR / FULL_CORPUS_AND_COLD_INITIALIZATION_GATES_OPEN",
+  "recordedAtUTC": "2026-10-29T02:58:56.247783+00:00",
+  "runtimeSourceCommit": "9a38ca84d79ea28a483ab97c70ce2fa62234c024",
+  "reviewedPacketCommit": "69918a1ef4a4c2cd5b4c668012fc84b756a86ccb",
+  "reviewerProcess": "/root/today_strict_readonly_review_20261029",
+  "reviewerOperations": "Strictly read-only Git/file/JSON/archive/marker reads plus runtime-role SELECTs in BEGIN READ ONLY; no tests/build/export/format/file/DB writes.",
+  "reviewedHashes": {
+    "hsk4-today-runtime-verification.json": "3e4dbbc48c375939702c0b0f11f5d27f5c57015f5a2bd480531e7f9ed26aa459",
+    "hsk4-today-runtime-delivery.md": "50e73c576fdd0a2a63da7d5d3210849b6fd567886daa54a156f30882d1f0a825",
+    "hsk4-production-next-checkpoint.json": "51f1cdbceb426d1271671cf50594692a81759bd081802118f4c776bd103675db"
+  },
+  "finalVerificationSha256": "4b7c72519ab6b395b9a279143b6556ff081a35f51c44e47dccd8ea8f6a5dd005",
+  "finalDeliverySha256": "c26e82d472dbd74c25469a757ea38ad9290fac5db09a35f1155d94cf67780994",
+  "finalNextCheckpointSha256": "c6567e8e59f7f9ab907d591022c1e8d331adbab9f4d8e32acbe38c1f4afccc21",
+  "checks": {
+    "evidenceHashesAndSizes": 33,
+    "normalizedSourceHashes": 7,
+    "nativePass": 8,
+    "focusedUnitPass": 18,
+    "warmedMobile": {
+      "pass": 2,
+      "fail": 0,
+      "skip": 0,
+      "retries": 0
+    },
+    "productionArchiveFiles": 32,
+    "devArchiveFiles": 78,
+    "privateKeyMarkersChecked": 2760,
+    "markerHitsPerArchive": 0,
+    "canonicalDatabaseManifestsDeeplyEqualLocalSource": 351,
+    "protectedOldRowDigestsPreserved": true
+  },
+  "reviewRepair": {
+    "count": 1,
+    "kind": "Documentation only",
+    "detail": "Removed stale current MOBILE_TODAY FAILED entry from prioritized open gates; recorded warmed functional pass separately from cold initialization/transport."
+  },
+  "disqualifiedPriorReviewer": {
+    "process": "/root/today_runtime_review_20261029",
+    "reason": "Unit command wrote8ignored test packet artifacts; no source/DB writes. Findings advisory only; excluded as qualifying review."
+  },
+  "openGates": [
+    "Full corpus reads and owner-lock contention",
+    "Cold initialization/transport and latency validation",
+    "L4001-L4004 namespace/UUID support",
+    "Remaining HSK4 curriculum, qualified human review, rights/publication and mastery"
+  ],
+  "closureReady": false,
+  "humanReviewApproved": false,
+  "publicationApproved": false,
+  "masteryApproved": false,
+  "pushMergeDeployPerformed": false
+}

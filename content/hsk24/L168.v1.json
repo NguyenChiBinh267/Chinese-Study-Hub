@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "9d140055af5d6342f32e010dd1d25d5781ef23dd215b87f1457863867c995cc5",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-be",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L168",
+    "version": 1,
+    "versionId": "l168-draft-v1",
+    "title": "Quốc tịch và tuổi của bạn nhỏ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Quốc tịch và tuổi của bạn nhỏ; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "名词谓语句"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "一"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:34:41.964702Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-person",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "一"
+        },
+        "written": "问答个人基本信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-00e3195e7830",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "姓名、国籍、年龄、性别、喜好、习惯等"
+        },
+        "written": "姓名、国籍、年龄、性别、喜好、习惯等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l168-v-66",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 66"
+        },
+        "written": "国",
+        "pinyin": "guó",
+        "senseId": "l168-v-66-sense",
+        "ordinal": 66,
+        "note": "1 guó 名; 国 dùng trong 哪国人 hỏi người nước nào; không phải nghĩa nước uống của 水. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l168-v-289",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 289"
+        },
+        "written": "中国",
+        "pinyin": "Zhōngguó",
+        "senseId": "l168-v-289-sense",
+        "ordinal": 289,
+        "note": "1 Zhōngguó 名; 中国 là tên riêng Trung Quốc; pinyin tên riêng bắt đầu bằng chữ hoa theo mục từ nguồn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l168-v-199",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 199"
+        },
+        "written": "岁",
+        "pinyin": "suì",
+        "senseId": "l168-v-199-sense",
+        "ordinal": 199,
+        "note": "1 suì 量; 岁 đứng sau số tuổi; 八岁 là tám tuổi, không phải tám năm cho mọi thời lượng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l168-v-235",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 235"
+        },
+        "written": "小朋友",
+        "pinyin": "xiǎopéngyǒu",
+        "senseId": "l168-v-235-sense",
+        "ordinal": 235,
+        "note": "1 xiǎopéngyǒu 名; 小朋友 là cách gọi trẻ/bạn nhỏ; không suy tuổi chính xác nếu đoạn chưa nêu. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-60",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "60"
+        },
+        "written": "国",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 60,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-236",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "236"
+        },
+        "written": "中",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 236,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-170",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "170"
+        },
+        "written": "岁",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 170,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-198",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "198"
+        },
+        "written": "小",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 198,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-131",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "131"
+        },
+        "written": "朋",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 131,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-219",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "219"
+        },
+        "written": "友",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 219,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-168",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "g-386-17"
+        },
+        "written": "名词谓语句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l168-c0",
+      "version": 1,
+      "senseId": "l168-v-66-sense",
+      "hanzi": "国",
+      "dictionaryPinyin": "guó",
+      "meaning": "nước; quốc gia (dạng guó)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l168-v-66"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l168-c1",
+      "version": 1,
+      "senseId": "l168-v-289-sense",
+      "hanzi": "中国",
+      "dictionaryPinyin": "Zhōng guó",
+      "meaning": "Trung Quốc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l168-v-289"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l168-c2",
+      "version": 1,
+      "senseId": "l168-v-199-sense",
+      "hanzi": "岁",
+      "dictionaryPinyin": "suì",
+      "meaning": "tuổi (đơn vị suì)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l168-v-199"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l168-c3",
+      "version": 1,
+      "senseId": "l168-v-235-sense",
+      "hanzi": "小朋友",
+      "dictionaryPinyin": "xiǎo péng yǒu",
+      "meaning": "bạn nhỏ; trẻ nhỏ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l168-v-235"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l168-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l168-t0",
+      "type": "teaching",
+      "title": "国 · nước; quốc gia (dạng guó)",
+      "text": "国 dùng trong 哪国人 hỏi người nước nào; không phải nghĩa nước uống của 水.",
+      "hanzi": "你是哪国人？",
+      "pinyin": "Nǐ shì nǎ guó rén?",
+      "meaning": "Bạn là người nước nào?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l168-t1",
+      "type": "teaching",
+      "title": "中国 · Trung Quốc",
+      "text": "中国 là tên riêng Trung Quốc; pinyin tên riêng bắt đầu bằng chữ hoa theo mục từ nguồn.",
+      "hanzi": "我朋友在中国。",
+      "pinyin": "Wǒ péng you zài Zhōng guó.",
+      "meaning": "Bạn tôi ở Trung Quốc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l168-t2",
+      "type": "teaching",
+      "title": "岁 · tuổi (đơn vị suì)",
+      "text": "岁 đứng sau số tuổi; 八岁 là tám tuổi, không phải tám năm cho mọi thời lượng.",
+      "hanzi": "我八岁。",
+      "pinyin": "Wǒ bā suì.",
+      "meaning": "Tôi tám tuổi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l168-t3",
+      "type": "teaching",
+      "title": "小朋友 · bạn nhỏ; trẻ nhỏ",
+      "text": "小朋友 là cách gọi trẻ/bạn nhỏ; không suy tuổi chính xác nếu đoạn chưa nêu.",
+      "hanzi": "这个小朋友八岁。",
+      "pinyin": "Zhè ge xiǎo péng you bā suì.",
+      "meaning": "Bạn nhỏ này tám tuổi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l168-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "Trong 我八岁, 八岁 làm vị ngữ chỉ tuổi, không cần thêm 是 như khi nhận diện 我是学生. 岁 đo tuổi, không thay cho 年 ở mọi thời lượng. 国 là nước/quốc gia; 中国 là tên riêng Trung Quốc. Tên người và tuổi dưới đây chỉ là dữ kiện của truyện.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l168-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：这个小朋友叫什么名字？\nB：他叫安，八岁。\nA：他在哪儿？\nB：他在中国。",
+      "pinyin": "A: Zhè ge xiǎo péng you jiào shén me míng zi? B: Tā jiào Ān, bā suì. A: Tā zài nǎr? B: Tā zài Zhōng guó.",
+      "meaning": "Truyện nói An8tuổi và ở Trung Quốc; nơi đang ở không tự chứng minh quốc tịch.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l168-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l168-v1-e0"
+    },
+    {
+      "id": "l168-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l168-v1-e1"
+    },
+    {
+      "id": "l168-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l168-v1-e2"
+    },
+    {
+      "id": "l168-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l168-v1-e3"
+    },
+    {
+      "id": "l168-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l168-v1-e4"
+    },
+    {
+      "id": "l168-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l168-v1-e5"
+    },
+    {
+      "id": "l168-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l168-v1-e6"
+    },
+    {
+      "id": "l168-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l168-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l168-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l168-c0",
+      "senseId": "l168-v-66-sense",
+      "keyRef": "l168-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “nước; quốc gia (dạng guó)”: □ (guó). Ngữ cảnh: 你是哪□人？ Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "回",
+        "因",
+        "园",
+        "国"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l168-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l168-c1",
+      "senseId": "l168-v-289-sense",
+      "keyRef": "l168-v1-k1",
+      "prompt": "Viết pinyin từ điển của 中国 (Trung Quốc).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l168-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l168-c2",
+      "senseId": "l168-v-199-sense",
+      "keyRef": "l168-v1-k2",
+      "prompt": "Điền đúng mục từ đọc suì, nghĩa “tuổi (đơn vị suì)”: 我八□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l168-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l168-c3",
+      "senseId": "l168-v-235-sense",
+      "keyRef": "l168-v1-k3",
+      "prompt": "Chọn mục từ đọc xiǎo péng yǒu, nghĩa “bạn nhỏ; trẻ nhỏ”, trong câu: 这个□八岁。",
+      "choices": [
+        "国",
+        "中国",
+        "岁",
+        "小朋友"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l168-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l168-c2",
+      "senseId": "l168-v-199-sense",
+      "keyRef": "l168-v1-k4",
+      "prompt": "Trong câu “我八岁。”, 岁 mang nghĩa nào theo bài?",
+      "choices": [
+        "Trung Quốc",
+        "tuổi (đơn vị suì)",
+        "bạn nhỏ; trẻ nhỏ",
+        "nước; quốc gia (dạng guó)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l168-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l168-c3",
+      "senseId": "l168-v-235-sense",
+      "keyRef": "l168-v1-k5",
+      "prompt": "Trong câu “这个小朋友八岁。”, 小朋友 mang nghĩa nào theo bài?",
+      "choices": [
+        "tuổi (đơn vị suì)",
+        "bạn nhỏ; trẻ nhỏ",
+        "nước; quốc gia (dạng guó)",
+        "Trung Quốc"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l168-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l168-c0",
+      "senseId": "l168-v-66-sense",
+      "keyRef": "l168-v1-k6",
+      "prompt": "Truyện nêu tuổi của An là bao nhiêu?",
+      "choices": [
+        "十八岁",
+        "三岁",
+        "八岁"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l168-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l168-c3",
+      "senseId": "l168-v-235-sense",
+      "keyRef": "l168-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "这个小朋友",
+        "八",
+        "岁。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l168-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l168-v1-e0",
+      "senseId": "l168-v-66-sense",
+      "accepted": [
+        "国"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 国 tạo từ 国. 国 dùng trong 哪国人 hỏi người nước nào; không phải nghĩa nước uống của 水. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l168-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l168-v1-e1",
+      "senseId": "l168-v-289-sense",
+      "accepted": [
+        "Zhōng guó"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "中国 ghi Zhōng guó. 中国 là tên riêng Trung Quốc; pinyin tên riêng bắt đầu bằng chữ hoa theo mục từ nguồn."
+    },
+    {
+      "id": "l168-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l168-v1-e2",
+      "senseId": "l168-v-199-sense",
+      "accepted": [
+        "岁"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc suì: 岁. 岁 đứng sau số tuổi; 八岁 là tám tuổi, không phải tám năm cho mọi thời lượng. Tôi tám tuổi."
+    },
+    {
+      "id": "l168-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l168-v1-e3",
+      "senseId": "l168-v-235-sense",
+      "accepted": [
+        "小朋友"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc xiǎo péng yǒu: 小朋友. 小朋友 là cách gọi trẻ/bạn nhỏ; không suy tuổi chính xác nếu đoạn chưa nêu. Bạn nhỏ này tám tuổi."
+    },
+    {
+      "id": "l168-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l168-v1-e4",
+      "senseId": "l168-v-199-sense",
+      "accepted": [
+        "tuổi (đơn vị suì)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "岁 đứng sau số tuổi; 八岁 là tám tuổi, không phải tám năm cho mọi thời lượng. Tôi tám tuổi."
+    },
+    {
+      "id": "l168-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l168-v1-e5",
+      "senseId": "l168-v-235-sense",
+      "accepted": [
+        "bạn nhỏ; trẻ nhỏ"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "小朋友 là cách gọi trẻ/bạn nhỏ; không suy tuổi chính xác nếu đoạn chưa nêu. Bạn nhỏ này tám tuổi."
+    },
+    {
+      "id": "l168-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l168-v1-e6",
+      "senseId": "l168-v-66-sense",
+      "accepted": [
+        "八岁"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 八岁. Truyện nói An8tuổi và ở Trung Quốc; nơi đang ở không tự chứng minh quốc tịch."
+    },
+    {
+      "id": "l168-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l168-v1-e7",
+      "senseId": "l168-v-235-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. Trong 我八岁, 八岁 làm vị ngữ chỉ tuổi, không cần thêm 是 như khi nhận diện 我是学生. 岁 đo tuổi, không thay cho 年 ở mọi thời lượng. 国 là nước/quốc gia; 中国 là tên riêng Trung Quốc. Tên người và tuổi dưới đây chỉ là dữ kiện của truyện."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,858 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "b72c0c5fc62084f25770174833c1e5711ee767734aa7841bd6d4c4ebaf454131",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "ask-for-help",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L217",
+    "version": 1,
+    "versionId": "l217-draft-v1",
+    "title": "Nhờ giúp và giới thiệu người",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Nhờ trợ giúp lịch sự và hiểu lời giới thiệu ngắn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "兼语句1"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 9,
+      "physicalPage": 10,
+      "printedPage": 7,
+      "section": "task",
+      "entry": "六 / 做出选择"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-choice",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 9,
+          "physicalPage": 10,
+          "printedPage": 7,
+          "section": "task",
+          "entry": "六 / 做出选择"
+        },
+        "written": "日常言语交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-interaction",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交往 / 简单互动行为"
+        },
+        "written": "简单互动行为",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l217-v-305",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 305"
+        },
+        "written": "帮",
+        "pinyin": "bāng",
+        "senseId": "l217-v-305-sense",
+        "ordinal": 305,
+        "note": "2 bāng 动; 帮 có thể đứng trước người và hoạt động: 帮我拿书. Cần rõ ai được giúp và làm việc gì. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l217-v-306",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 306"
+        },
+        "written": "帮忙",
+        "pinyin": "bāngmáng",
+        "senseId": "l217-v-306-sense",
+        "ordinal": 306,
+        "note": "2 bāngmáng 动; 帮忙 dùng như hoạt động giúp đỡ: 请来帮忙. Không đặt người ngay sau toàn từ theo kiểu 帮忙我. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l217-v-343",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 343"
+        },
+        "written": "告诉",
+        "pinyin": "gàosu",
+        "senseId": "l217-v-343-sense",
+        "ordinal": 343,
+        "note": "2 gàosu 动; 告诉 thường nêu người nhận thông tin: 告诉我. 诉 đọc nhẹ trong từ này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l217-v-369",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 369"
+        },
+        "written": "介绍",
+        "pinyin": "jièshào",
+        "senseId": "l217-v-369-sense",
+        "ordinal": 369,
+        "note": "2 jièshào 动; 介绍 là làm người nghe biết một người/sự việc. 给你介绍一位老师 là giới thiệu một giáo viên với bạn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l217-v-313",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 313"
+        },
+        "written": "不好意思",
+        "pinyin": "bù hǎoyìsi",
+        "senseId": "l217-v-313-sense",
+        "ordinal": 313,
+        "note": "2 bù hǎoyìsi; 不好意思 dùng khi làm phiền hoặc cảm thấy ngại, không chỉ là ‘ý nghĩa không tốt’. Tình huống nghiêm trọng cần cách xin lỗi phù hợp hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l217-v-422",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 422"
+        },
+        "written": "让",
+        "pinyin": "ràng",
+        "senseId": "l217-v-422-sense",
+        "ordinal": 422,
+        "note": "2（4） ràng 动、（介）; Trong 请让他进来, 让 là động từ cho phép người kia vào. Không dạy nghĩa giới từ cấp cao hơn. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-2",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "2"
+        },
+        "written": "帮",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 2,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-22",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "22"
+        },
+        "written": "告",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 22,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-79",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "79"
+        },
+        "written": "诉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 79,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-35",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "35"
+        },
+        "written": "介",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 35,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-71",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "71"
+        },
+        "written": "绍",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 71,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-106",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "106"
+        },
+        "written": "意",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 106,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-77",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "77"
+        },
+        "written": "思",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 77,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-68",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "68"
+        },
+        "written": "让",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 68,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-causative",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "特殊句式 / 兼语句1"
+        },
+        "written": "兼语句1",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l217-c0",
+      "version": 1,
+      "senseId": "l217-v-305-sense",
+      "hanzi": "帮",
+      "dictionaryPinyin": "bāng",
+      "meaning": "giúp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l217-v-305"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l217-c1",
+      "version": 1,
+      "senseId": "l217-v-306-sense",
+      "hanzi": "帮忙",
+      "dictionaryPinyin": "bāng máng",
+      "meaning": "giúp một tay",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l217-v-306"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l217-c2",
+      "version": 1,
+      "senseId": "l217-v-343-sense",
+      "hanzi": "告诉",
+      "dictionaryPinyin": "gào su",
+      "meaning": "nói cho biết",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l217-v-343"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l217-c3",
+      "version": 1,
+      "senseId": "l217-v-369-sense",
+      "hanzi": "介绍",
+      "dictionaryPinyin": "jiè shào",
+      "meaning": "giới thiệu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l217-v-369"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l217-c4",
+      "version": 1,
+      "senseId": "l217-v-313-sense",
+      "hanzi": "不好意思",
+      "dictionaryPinyin": "bù hǎo yì si",
+      "meaning": "xin lỗi nhẹ hoặc thấy ngại",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l217-v-313"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l217-c5",
+      "version": 1,
+      "senseId": "l217-v-422-sense",
+      "hanzi": "让",
+      "dictionaryPinyin": "ràng",
+      "meaning": "cho phép hoặc yêu cầu ai làm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l217-v-422"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l217-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "请 làm lời nhờ lịch sự. 位 là lượng từ lịch sự cho người; chỉ nhắc ở đây, không tính thành mục từ mới. 人 là người.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l217-t0",
+      "type": "teaching",
+      "title": "帮 · giúp",
+      "text": "帮 có thể đứng trước người và hoạt động: 帮我拿书. Cần rõ ai được giúp và làm việc gì.",
+      "hanzi": "请帮我拿一下书。",
+      "pinyin": "Qǐng bāng wǒ ná yíxià shū.",
+      "meaning": "Làm ơn giúp tôi lấy sách một chút.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l217-t1",
+      "type": "teaching",
+      "title": "帮忙 · giúp một tay",
+      "text": "帮忙 dùng như hoạt động giúp đỡ: 请来帮忙. Không đặt người ngay sau toàn từ theo kiểu 帮忙我.",
+      "hanzi": "你能来帮忙吗？",
+      "pinyin": "Nǐ néng lái bāngmáng ma?",
+      "meaning": "Bạn có thể đến giúp một tay không?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l217-t2",
+      "type": "teaching",
+      "title": "告诉 · nói cho biết",
+      "text": "告诉 thường nêu người nhận thông tin: 告诉我. 诉 đọc nhẹ trong từ này.",
+      "hanzi": "请告诉我你的名字。",
+      "pinyin": "Qǐng gàosu wǒ nǐ de míngzi.",
+      "meaning": "Làm ơn cho tôi biết tên bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l217-t3",
+      "type": "teaching",
+      "title": "介绍 · giới thiệu",
+      "text": "介绍 là làm người nghe biết một người/sự việc. 给你介绍一位老师 là giới thiệu một giáo viên với bạn.",
+      "hanzi": "我给你介绍一位老师。",
+      "pinyin": "Wǒ gěi nǐ jièshào yí wèi lǎoshī.",
+      "meaning": "Tôi giới thiệu một giáo viên với bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l217-t4",
+      "type": "teaching",
+      "title": "不好意思 · xin lỗi nhẹ hoặc thấy ngại",
+      "text": "不好意思 dùng khi làm phiền hoặc cảm thấy ngại, không chỉ là ‘ý nghĩa không tốt’. Tình huống nghiêm trọng cần cách xin lỗi phù hợp hơn.",
+      "hanzi": "不好意思，我没听懂。",
+      "pinyin": "Bù hǎoyìsi, wǒ méi tīng dǒng.",
+      "meaning": "Xin lỗi, tôi nghe chưa hiểu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l217-t5",
+      "type": "teaching",
+      "title": "让 · cho phép hoặc yêu cầu ai làm",
+      "text": "Trong 请让他进来, 让 là động từ cho phép người kia vào. Không dạy nghĩa giới từ cấp cao hơn.",
+      "hanzi": "请让他进来。",
+      "pinyin": "Qǐng ràng tā jìnlái.",
+      "meaning": "Làm ơn cho anh ấy vào.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l217-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "让 + người + hoạt động có thể nói cho phép hoặc yêu cầu người đó làm. Mẫu 请让他进来 nghĩa là hãy cho anh ấy vào; không tự suy ra mọi 让 đều là bắt buộc.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l217-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：不好意思，你能来帮忙吗？乙：可以。甲：请帮我拿书。我给你介绍一位老师。乙：好，请告诉我老师的名字。",
+      "pinyin": "Jiǎ: Bù hǎoyìsi, nǐ néng lái bāngmáng ma? Yǐ: Kěyǐ. Jiǎ: Qǐng bāng wǒ ná shū. Wǒ gěi nǐ jièshào yí wèi lǎoshī. Yǐ: Hǎo, qǐng gàosu wǒ lǎoshī de míngzi.",
+      "meaning": "A: Xin lỗi làm phiền, bạn đến giúp được không? B: Được. A: Giúp tôi lấy sách nhé. Tôi giới thiệu một giáo viên với bạn. B: Được, hãy cho tôi biết tên thầy/cô.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l217-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l217-v1-e0"
+    },
+    {
+      "id": "l217-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l217-v1-e1"
+    },
+    {
+      "id": "l217-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l217-v1-e2"
+    },
+    {
+      "id": "l217-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l217-v1-e3"
+    },
+    {
+      "id": "l217-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l217-v1-e4"
+    },
+    {
+      "id": "l217-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l217-v1-e5"
+    },
+    {
+      "id": "l217-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l217-v1-e6"
+    },
+    {
+      "id": "l217-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l217-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l217-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l217-c0",
+      "senseId": "l217-v-305-sense",
+      "keyRef": "l217-v1-k0",
+      "prompt": "Trong câu “请帮我拿一下书。”, 帮 mang nghĩa nào?",
+      "choices": [
+        "giúp một tay",
+        "nói cho biết",
+        "giới thiệu",
+        "xin lỗi nhẹ hoặc thấy ngại",
+        "cho phép hoặc yêu cầu ai làm",
+        "giúp"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l217-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l217-c1",
+      "senseId": "l217-v-306-sense",
+      "keyRef": "l217-v1-k1",
+      "prompt": "Viết pinyin của 帮忙 trong nghĩa “giúp một tay”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l217-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l217-c2",
+      "senseId": "l217-v-343-sense",
+      "keyRef": "l217-v1-k2",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “nói cho biết”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l217-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l217-c3",
+      "senseId": "l217-v-369-sense",
+      "keyRef": "l217-v1-k3",
+      "prompt": "Trong câu “我给你介绍一位老师。”, 介绍 mang nghĩa nào?",
+      "choices": [
+        "xin lỗi nhẹ hoặc thấy ngại",
+        "cho phép hoặc yêu cầu ai làm",
+        "giúp",
+        "giúp một tay",
+        "nói cho biết",
+        "giới thiệu"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l217-v1-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l217-c4",
+      "senseId": "l217-v-313-sense",
+      "keyRef": "l217-v1-k4",
+      "prompt": "Viết pinyin của 不好意思 trong nghĩa “xin lỗi nhẹ hoặc thấy ngại”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l217-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l217-c5",
+      "senseId": "l217-v-422-sense",
+      "keyRef": "l217-v1-k5",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “cho phép hoặc yêu cầu ai làm”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l217-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l217-c0",
+      "senseId": "l217-v-305-sense",
+      "keyRef": "l217-v1-k6",
+      "prompt": "Việc được nhờ giúp là gì?",
+      "choices": [
+        "Mua vé",
+        "Dạy cả lớp",
+        "Lấy sách"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l217-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l217-c3",
+      "senseId": "l217-v-369-sense",
+      "keyRef": "l217-v1-k7",
+      "prompt": "Xếp câu: làm ơn cho anh ấy vào.",
+      "choices": [
+        "他",
+        "请",
+        "进来",
+        "让"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l217-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l217-v1-e0",
+      "senseId": "l217-v-305-sense",
+      "accepted": [
+        "giúp"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "帮: giúp. 帮 có thể đứng trước người và hoạt động: 帮我拿书. Cần rõ ai được giúp và làm việc gì. Làm ơn giúp tôi lấy sách một chút."
+    },
+    {
+      "id": "l217-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l217-v1-e1",
+      "senseId": "l217-v-306-sense",
+      "accepted": [
+        "bāng máng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc bāng máng. 帮忙 dùng như hoạt động giúp đỡ: 请来帮忙. Không đặt người ngay sau toàn từ theo kiểu 帮忙我."
+    },
+    {
+      "id": "l217-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l217-v1-e2",
+      "senseId": "l217-v-343-sense",
+      "accepted": [
+        "告诉"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 告诉. 告诉 thường nêu người nhận thông tin: 告诉我. 诉 đọc nhẹ trong từ này."
+    },
+    {
+      "id": "l217-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l217-v1-e3",
+      "senseId": "l217-v-369-sense",
+      "accepted": [
+        "giới thiệu"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "介绍: giới thiệu. 介绍 là làm người nghe biết một người/sự việc. 给你介绍一位老师 là giới thiệu một giáo viên với bạn. Tôi giới thiệu một giáo viên với bạn."
+    },
+    {
+      "id": "l217-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l217-v1-e4",
+      "senseId": "l217-v-313-sense",
+      "accepted": [
+        "bù hǎo yì si"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc bù hǎo yì si. 不好意思 dùng khi làm phiền hoặc cảm thấy ngại, không chỉ là ‘ý nghĩa không tốt’. Tình huống nghiêm trọng cần cách xin lỗi phù hợp hơn."
+    },
+    {
+      "id": "l217-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l217-v1-e5",
+      "senseId": "l217-v-422-sense",
+      "accepted": [
+        "让"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 让. Trong 请让他进来, 让 là động từ cho phép người kia vào. Không dạy nghĩa giới từ cấp cao hơn."
+    },
+    {
+      "id": "l217-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l217-v1-e6",
+      "senseId": "l217-v-305-sense",
+      "accepted": [
+        "Lấy sách"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "帮我拿书 nêu yêu cầu cụ thể. 介绍老师 là việc người A định làm tiếp trong hội thoại."
+    },
+    {
+      "id": "l217-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l217-v1-e7",
+      "senseId": "l217-v-369-sense",
+      "accepted": [
+        "1,3,0,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 让 + người + hoạt động có thể nói cho phép hoặc yêu cầu người đó làm. Mẫu 请让他进来 nghĩa là hãy cho anh ấy vào; không tự suy ra mọi 让 đều là bắt buộc."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

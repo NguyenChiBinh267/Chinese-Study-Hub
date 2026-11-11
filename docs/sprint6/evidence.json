@@ -1,0 +1,170 @@
+{
+  "generatedAt": "2026-10-18T05:22:57.149Z",
+  "scope": "Sprint6 LOCAL DEVELOPMENT only; no SSOT completion, human approval, publication, production identity or cloud readiness",
+  "source": {
+    "branch": "feat/v1-hsk-course-catalog",
+    "base": "1d5abb3d227944a1fcbebf68b1a8f9115a518f8e",
+    "verifiedOriginMain": "0dc42253180ef38d1c43f1f87c9f0f675a851341"
+  },
+  "catalog": {
+    "courses": 5,
+    "units": 4,
+    "lessons": 4,
+    "immutableVersions": 6,
+    "approvedPublishedLessons": 0,
+    "unreleasedLevels": ["HSK2", "HSK3", "HSK4"],
+    "completeHskCoverage": false
+  },
+  "checks": {
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "format": "PASS",
+    "productionBuild": "PASS",
+    "unit": {
+      "passed": 33,
+      "failed": 0,
+      "skipped": 0,
+      "reportSha256": "a271b074ff5b9283515ce3fb238b34ff0d8714fe50f375359ec6adb7f4eeb2f9"
+    },
+    "postgresql": {
+      "passed": 41,
+      "failed": 0,
+      "skipped": 0,
+      "checkedAt": "2026-10-18T05:16:26.462Z",
+      "migrationDigest": "9707af62fe7e24554a82b8304d15719bc1f5f5af0d411ee71dc469183ad3b7ba"
+    },
+    "browser": {
+      "passed": 46,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "suites": [
+        {
+          "suite": "sprint6-desktop",
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T05:17:13.052Z",
+          "reportSha256": "04ff47ea2447e068f264347c311c3b12d4e3956e8e203336aef85e68a50904a5"
+        },
+        {
+          "suite": "sprint6-mobile-360",
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T05:19:26.818Z",
+          "reportSha256": "dd4610d7ea29de624bdece9760f88cd9d372c2ad86081fc0092fafa5f29a87c1"
+        },
+        {
+          "suite": "sprint5-desktop",
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T01:37:28.684Z",
+          "reportSha256": "4470cbe0c433c2280ec804d0cfcf060624dc1ecd407649a9015c58761b1a5391"
+        },
+        {
+          "suite": "sprint5-mobile-360",
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T01:38:52.231Z",
+          "reportSha256": "9c9c227ed5bff58b5b56b8c0e2dbda27015770ad09fa836d1eb487cf2b791e34"
+        },
+        {
+          "suite": "legacy-persistence",
+          "passed": 6,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T01:28:11.060Z",
+          "reportSha256": "bcc7c2827d026676d85291b134cf74b339876fb050a8e96d445b7edb3db11c0c"
+        },
+        {
+          "suite": "legacy-learning",
+          "passed": 4,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T01:28:47.811Z",
+          "reportSha256": "7d47013f7be49508659e37cf4d221f4eb8d108d45fb652709703abf8b774c12b"
+        },
+        {
+          "suite": "legacy-content",
+          "passed": 6,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T01:29:22.271Z",
+          "reportSha256": "980ab264be13cfd627e6e89052c9413cd63ba0e758c05a16d2fa7fcc88911d1c"
+        },
+        {
+          "suite": "demo-production-lockout",
+          "passed": 22,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T05:22:07.734Z",
+          "reportSha256": "7d0b8d3060023709821bd189a93ec6e04511e08f43f78777e84e3438b8635efc"
+        }
+      ]
+    },
+    "source": {
+      "pages": 406,
+      "locators": 26,
+      "status": "PASS",
+      "humanOrRightsApproval": false
+    },
+    "backup": {
+      "source": "1d5abb3d227944a1fcbebf68b1a8f9115a518f8e",
+      "at": "2026-10-18T01:12:50.862Z",
+      "bytes": 812070,
+      "sha256": "5a48c95e7add6791b494c47abd3afddc23ca79cd5512b6f1450574121aa6683d",
+      "restore": "PASS",
+      "freshInstall": "PASS",
+      "upgrade": "PASS",
+      "originalOwnerTablesPreserved": 18
+    },
+    "restart": {
+      "status": "PASS",
+      "ownerTables": 18,
+      "contentCatalogTables": 8,
+      "completedRepositoryViews": 4,
+      "isolatedActiveCursorAndIdempotentReplay": "PASS"
+    },
+    "publicAssets": {
+      "jsFilesScanned": 25,
+      "privateKeyMarkers": 0
+    },
+    "audit": {
+      "production": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "full": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 5,
+        "critical": 0,
+        "total": 5
+      }
+    }
+  },
+  "limits": [
+    "All four lessons unreviewed drafts",
+    "HSK1 source mapping PARTIAL",
+    "No qualified review or audio approval",
+    "No production owner auth/cloud deployment",
+    "Physical Android and screen-reader UAT untested",
+    "Five existing high development dependency advisories"
+  ]
+}

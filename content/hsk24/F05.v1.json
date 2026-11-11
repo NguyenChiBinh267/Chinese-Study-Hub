@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "0887d5698e21727144aa11ab9b389700dd3a59318309efd8d0fe54922532fe7f",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-reading-bridge",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "F05",
+    "version": 1,
+    "versionId": "f05-draft-v1",
+    "title": "Từ chữ Hán đến câu đầu tiên và cách nhập bài",
+    "classification": "FOUNDATION_INTERNAL",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Một chữ Hán thường ghi một âm tiết; một từ có thể có một hoặc nhiều chữ. 你 là một chữ, 你好 có hai chữ và là một mục từ/lời chào. Không ghép nghĩa từng chữ máy móc để đoán mọi từ. Học chữ giản thể trong khóa này; không suy các dạng gần nhau là cùng một chữ.",
+      "我喝茶 theo thứ tự người–hành động–đối tượng. Kết quả nháp không chứng minh năng lực viết hay phát âm."
+    ],
+    "prerequisites": [
+      "f04-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": null,
+    "targetLevel": null,
+    "alignmentStatus": "NOT_APPLICABLE",
+    "alignmentEvidence": [
+      "Original supplementary foundation; no official vocabulary/skill completion claim."
+    ],
+    "alignmentCheckedAt": "2026-10-30T08:06:43.670Z",
+    "sourceSnapshotSha256": null,
+    "taskReferences": [],
+    "topicReferences": [],
+    "vocabularyReferences": [],
+    "characterReferences": [],
+    "grammarReferences": []
+  },
+  "concepts": [
+    {
+      "id": "f05-c0",
+      "version": 1,
+      "senseId": "f05-sense0",
+      "hanzi": "一",
+      "dictionaryPinyin": "yī",
+      "meaning": "nhận diện một nét ngang",
+      "skills": [
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f05-c1",
+      "version": 1,
+      "senseId": "f05-sense1",
+      "hanzi": "人",
+      "dictionaryPinyin": "rén",
+      "meaning": "nhận diện hai nét chính",
+      "skills": [
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f05-c2",
+      "version": 1,
+      "senseId": "f05-sense2",
+      "hanzi": "大",
+      "dictionaryPinyin": "dà",
+      "meaning": "phân biệt 大 với 人",
+      "skills": [
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f05-c3",
+      "version": 1,
+      "senseId": "f05-sense3",
+      "hanzi": "口",
+      "dictionaryPinyin": "kǒu",
+      "meaning": "nhận diện khung kín",
+      "skills": [
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f05-c4",
+      "version": 1,
+      "senseId": "f05-sense4",
+      "hanzi": "日",
+      "dictionaryPinyin": "rì",
+      "meaning": "phân biệt 日 với 口",
+      "skills": [
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    },
+    {
+      "id": "f05-c5",
+      "version": 1,
+      "senseId": "f05-sense5",
+      "hanzi": "我",
+      "dictionaryPinyin": "wǒ",
+      "meaning": "chủ thể tôi trong câu 我喝茶",
+      "skills": [
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [],
+      "scope": "FOUNDATION_INTERNAL"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "f05-intro",
+      "type": "teaching",
+      "title": "Cách học bài này",
+      "text": "Một chữ Hán thường ghi một âm tiết; một từ có thể có một hoặc nhiều chữ. 你 là một chữ, 你好 có hai chữ và là một mục từ/lời chào. Không ghép nghĩa từng chữ máy móc để đoán mọi từ. Học chữ giản thể trong khóa này; không suy các dạng gần nhau là cùng một chữ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f05-note0",
+      "type": "teaching",
+      "title": "Bước 1",
+      "text": "Nhìn số nét và phần cấu tạo: 一 một nét ngang; 人 có hai nét chính; 大 thêm nét ngang so với 人; 口 là khung kín; 日 có thêm nét trong; 我 phức tạp hơn nên nhận diện toàn hình trước. Đây là mô tả để nhận diện, không phải bộ chấm nét viết hay xác nhận thứ tự nét của mọi chữ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f05-note1",
+      "type": "teaching",
+      "title": "Bước 2",
+      "text": "Thử viết tay trên giấy: từ trái sang phải, trên xuống dưới là các nguyên tắc hay gặp, có ngoại lệ; cần tra mẫu cụ thể khi chưa rõ. Bài lựa chọn hình không đo viết tay. Danh mục viết dùng chung HSK1–2 có100 chữ, khác danh mục nhận diện246 chữ của HSK1; chỉ làm bài nhận diện không hoàn thành yêu cầu viết.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f05-note2",
+      "type": "teaching",
+      "title": "Bước 3",
+      "text": "Câu đơn bắt đầu từ người + hành động + đối tượng: 我喝茶 = tôi + uống + trà. Câu 我叫安 = tôi + tên là + An. Giữ thứ tự, không đưa tân ngữ lên đầu tùy ý. L001/L002 sẽ cho hội thoại ngắn, câu hỏi lại và phản hồi từng bước; không cần học thuật ngữ ngữ pháp trước khi hiểu ví dụ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f05-note3",
+      "type": "teaching",
+      "title": "Bước 4",
+      "text": "Cách làm bài: với câu lựa chọn, bấm một phương án; với pinyin có thể gõ dấu hoặc số như ni3. Khi đề yêu cầu chữ Hán, bật bàn phím pinyin của máy, gõ rồi chọn đúng chữ; có thể dùng sao chép để luyện có hỗ trợ, nhưng đó không phải bằng chứng nhớ độc lập. Không nhập nghĩa Việt vào ô chữ Hán. Chỉ báo đã lưu khi server xác nhận; đóng/mở lại để tiếp tục phiên cũ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f05-note4",
+      "type": "teaching",
+      "title": "Bước 5",
+      "text": "Sau bài này, đi đến L001 rồi L002 và phần mở rộng HSK1. DRAFT cho phép luyện theo thứ tự, không tự biến việc bấm hoàn tất thành mastery hay điều kiện tiên quyết đã kiểm chứng. Today còn ưu tiên thẻ FSRS đến hạn; phiên đang dở vẫn được giữ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f05-word0",
+      "type": "teaching",
+      "title": "一 · yī",
+      "text": "nhận diện một nét ngang",
+      "hanzi": "一",
+      "pinyin": "yī",
+      "meaning": "nhận diện một nét ngang",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f05-word1",
+      "type": "teaching",
+      "title": "人 · rén",
+      "text": "nhận diện hai nét chính",
+      "hanzi": "人",
+      "pinyin": "rén",
+      "meaning": "nhận diện hai nét chính",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f05-word2",
+      "type": "teaching",
+      "title": "大 · dà",
+      "text": "phân biệt 大 với 人",
+      "hanzi": "大",
+      "pinyin": "dà",
+      "meaning": "phân biệt 大 với 人",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f05-word3",
+      "type": "teaching",
+      "title": "口 · kǒu",
+      "text": "nhận diện khung kín",
+      "hanzi": "口",
+      "pinyin": "kǒu",
+      "meaning": "nhận diện khung kín",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f05-word4",
+      "type": "teaching",
+      "title": "日 · rì",
+      "text": "phân biệt 日 với 口",
+      "hanzi": "日",
+      "pinyin": "rì",
+      "meaning": "phân biệt 日 với 口",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f05-word5",
+      "type": "teaching",
+      "title": "我 · wǒ",
+      "text": "chủ thể tôi trong câu 我喝茶",
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "meaning": "chủ thể tôi trong câu 我喝茶",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f05-b0",
+      "type": "exercise",
+      "exerciseVersionId": "f05-v1-e0"
+    },
+    {
+      "id": "f05-b1",
+      "type": "exercise",
+      "exerciseVersionId": "f05-v1-e1"
+    },
+    {
+      "id": "f05-b2",
+      "type": "exercise",
+      "exerciseVersionId": "f05-v1-e2"
+    },
+    {
+      "id": "f05-b3",
+      "type": "exercise",
+      "exerciseVersionId": "f05-v1-e3"
+    },
+    {
+      "id": "f05-b4",
+      "type": "exercise",
+      "exerciseVersionId": "f05-v1-e4"
+    },
+    {
+      "id": "f05-b5",
+      "type": "exercise",
+      "exerciseVersionId": "f05-v1-e5"
+    },
+    {
+      "id": "f05-b6",
+      "type": "exercise",
+      "exerciseVersionId": "f05-v1-e6"
+    },
+    {
+      "id": "f05-b7",
+      "type": "exercise",
+      "exerciseVersionId": "f05-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "f05-v1-e0",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f05-c0",
+      "senseId": "f05-sense0",
+      "keyRef": "f05-v1-k0",
+      "prompt": "Theo ví dụ 一 (nhận diện một nét ngang), nhập pinyin được ghi trong bài. Đây là bài ký hiệu, không phải chấm phát âm.",
+      "choices": [],
+      "inputHint": "Dấu thanh hoặc số; không thu âm.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f05-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f05-c1",
+      "senseId": "f05-sense1",
+      "keyRef": "f05-v1-k1",
+      "prompt": "Theo ví dụ 人 (nhận diện hai nét chính), nhập pinyin được ghi trong bài. Đây là bài ký hiệu, không phải chấm phát âm.",
+      "choices": [],
+      "inputHint": "Dấu thanh hoặc số; không thu âm.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f05-v1-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f05-c2",
+      "senseId": "f05-sense2",
+      "keyRef": "f05-v1-k2",
+      "prompt": "Theo ví dụ 大 (phân biệt 大 với 人), nhập pinyin được ghi trong bài. Đây là bài ký hiệu, không phải chấm phát âm.",
+      "choices": [],
+      "inputHint": "Dấu thanh hoặc số; không thu âm.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f05-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f05-c3",
+      "senseId": "f05-sense3",
+      "keyRef": "f05-v1-k3",
+      "prompt": "Theo ví dụ 口 (nhận diện khung kín), nhập pinyin được ghi trong bài. Đây là bài ký hiệu, không phải chấm phát âm.",
+      "choices": [],
+      "inputHint": "Dấu thanh hoặc số; không thu âm.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f05-v1-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f05-c4",
+      "senseId": "f05-sense4",
+      "keyRef": "f05-v1-k4",
+      "prompt": "Theo ví dụ 日 (phân biệt 日 với 口), nhập pinyin được ghi trong bài. Đây là bài ký hiệu, không phải chấm phát âm.",
+      "choices": [],
+      "inputHint": "Dấu thanh hoặc số; không thu âm.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f05-v1-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "f05-c5",
+      "senseId": "f05-sense5",
+      "keyRef": "f05-v1-k5",
+      "prompt": "Theo ví dụ 我 (chủ thể tôi trong câu 我喝茶), nhập pinyin được ghi trong bài. Đây là bài ký hiệu, không phải chấm phát âm.",
+      "choices": [],
+      "inputHint": "Dấu thanh hoặc số; không thu âm.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "f05-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "f05-c0",
+      "senseId": "f05-sense0",
+      "keyRef": "f05-v1-k6",
+      "prompt": "Sau khi làm lựa chọn hình chữ, có thể kết luận đã viết tay đúng chưa?",
+      "choices": [
+        "Chưa; đó là kỹ năng khác",
+        "Có, tự động đạt viết tay",
+        "Có, tự động đạt phát âm"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "f05-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "f05-c0",
+      "senseId": "f05-sense0",
+      "keyRef": "f05-v1-k7",
+      "prompt": "Ghép các cụm theo thứ tự đã giải thích, giữ nguyên cụm.",
+      "choices": [
+        "我",
+        "喝",
+        "茶",
+        "。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "f05-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "f05-v1-e0",
+      "senseId": "f05-sense0",
+      "accepted": [
+        "yī"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一 ghi yī: nhận diện một nét ngang. Chỉ xác nhận biểu diễn chữ, chưa xác nhận âm thực tế."
+    },
+    {
+      "id": "f05-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "f05-v1-e1",
+      "senseId": "f05-sense1",
+      "accepted": [
+        "rén"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "人 ghi rén: nhận diện hai nét chính. Chỉ xác nhận biểu diễn chữ, chưa xác nhận âm thực tế."
+    },
+    {
+      "id": "f05-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "f05-v1-e2",
+      "senseId": "f05-sense2",
+      "accepted": [
+        "dà"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "大 ghi dà: phân biệt 大 với 人. Chỉ xác nhận biểu diễn chữ, chưa xác nhận âm thực tế."
+    },
+    {
+      "id": "f05-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "f05-v1-e3",
+      "senseId": "f05-sense3",
+      "accepted": [
+        "kǒu"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "口 ghi kǒu: nhận diện khung kín. Chỉ xác nhận biểu diễn chữ, chưa xác nhận âm thực tế."
+    },
+    {
+      "id": "f05-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "f05-v1-e4",
+      "senseId": "f05-sense4",
+      "accepted": [
+        "rì"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "日 ghi rì: phân biệt 日 với 口. Chỉ xác nhận biểu diễn chữ, chưa xác nhận âm thực tế."
+    },
+    {
+      "id": "f05-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "f05-v1-e5",
+      "senseId": "f05-sense5",
+      "accepted": [
+        "wǒ"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "我 ghi wǒ: chủ thể tôi trong câu 我喝茶. Chỉ xác nhận biểu diễn chữ, chưa xác nhận âm thực tế."
+    },
+    {
+      "id": "f05-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "f05-v1-e6",
+      "senseId": "f05-sense0",
+      "accepted": [
+        "Chưa; đó là kỹ năng khác"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "我喝茶 theo thứ tự người–hành động–đối tượng. Kết quả nháp không chứng minh năng lực viết hay phát âm."
+    },
+    {
+      "id": "f05-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "f05-v1-e7",
+      "senseId": "f05-sense0",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "我喝茶 theo thứ tự người–hành động–đối tượng. Kết quả nháp không chứng minh năng lực viết hay phát âm."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

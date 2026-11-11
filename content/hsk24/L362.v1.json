@@ -1,0 +1,782 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "e6fb1ef5713995d7c88aa05a7ae2aa7b5fd5ebd33bd6b2188f6ef17560acd650",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-sports-options",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L362",
+    "version": 1,
+    "versionId": "l362-draft-v1",
+    "title": "Chọn môn thể thao",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc nơi chơi và phân biệt tennis, cầu lông với động tác nhảy.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "或者"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 19,
+      "physicalPage": 20,
+      "printedPage": 17,
+      "section": "task",
+      "entry": "二十"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-sports-task",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 19,
+          "physicalPage": 20,
+          "printedPage": 17,
+          "section": "task",
+          "entry": "二十"
+        },
+        "written": "介绍体育项目及比赛",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-sports-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "运动项目"
+        },
+        "written": "运动项目",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l362-v-853",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 853"
+        },
+        "written": "体育",
+        "pinyin": "tǐyù",
+        "senseId": "l362-v-853-sense",
+        "ordinal": 853,
+        "note": "3 tǐyù 名; 体育 chỉ lĩnh vực/môn giáo dục thể chất; 体育课 là giờ thể dục, không chỉ một động tác tập. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l362-v-854",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 854"
+        },
+        "written": "体育馆",
+        "pinyin": "tǐyùguǎn",
+        "senseId": "l362-v-854-sense",
+        "ordinal": 854,
+        "note": "3 tǐyùguǎn 名; 体育馆 là công trình thể thao trong nhà, không phải mọi 球场 đều có mái. Cần đọc địa điểm cụ thể. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l362-v-811",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 811"
+        },
+        "written": "球场",
+        "pinyin": "qiúchǎng",
+        "senseId": "l362-v-811-sense",
+        "ordinal": 811,
+        "note": "3 qiúchǎng 名; 球场 là sân cho môn bóng theo ngữ cảnh; cần tên môn khi muốn biết bóng đá hay tennis. Không phải sân nào cũng dùng mọi môn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l362-v-872",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 872"
+        },
+        "written": "网球",
+        "pinyin": "wǎngqiú",
+        "senseId": "l362-v-872-sense",
+        "ordinal": 872,
+        "note": "3 wǎngqiú 名; 网球 là tennis, dùng 打网球; khác 羽毛球 cầu lông. Không tự chấm kỹ thuật từ nhớ tên môn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l362-v-950",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 950"
+        },
+        "written": "羽毛球",
+        "pinyin": "yǔmáoqiú",
+        "senseId": "l362-v-950-sense",
+        "ordinal": 950,
+        "note": "3 yǔmáoqiú 名; 羽毛球 chỉ môn/quả cầu lông theo câu, 打羽毛球 là chơi cầu lông. 羽毛 không làm từ này thành tên mọi vật có lông. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l362-v-856",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 856"
+        },
+        "written": "跳",
+        "pinyin": "tiào",
+        "senseId": "l362-v-856-sense",
+        "ordinal": 856,
+        "note": "3 tiào 动; 跳 là nhảy trong 跳一下, 跳绳 hay 跳舞 cần tân ngữ bổ sung. Bài chỉ dạy động tác nhảy, không tự dạy kỹ thuật thể dục. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-261",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "261"
+        },
+        "written": "育",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 261,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-260",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "260"
+        },
+        "written": "羽",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 260,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-152",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "152"
+        },
+        "written": "毛",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 152,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-either",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "连词 / 连接词或者短语"
+        },
+        "written": "或者",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l362-c0",
+      "version": 1,
+      "senseId": "l362-v-853-sense",
+      "hanzi": "体育",
+      "dictionaryPinyin": "tǐ yù",
+      "meaning": "thể dục/thể thao",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l362-v-853"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l362-c1",
+      "version": 1,
+      "senseId": "l362-v-854-sense",
+      "hanzi": "体育馆",
+      "dictionaryPinyin": "tǐ yù guǎn",
+      "meaning": "nhà thi đấu/nhà thể thao",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l362-v-854"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l362-c2",
+      "version": 1,
+      "senseId": "l362-v-811-sense",
+      "hanzi": "球场",
+      "dictionaryPinyin": "qiú chǎng",
+      "meaning": "sân bóng/sân chơi môn bóng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l362-v-811"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l362-c3",
+      "version": 1,
+      "senseId": "l362-v-872-sense",
+      "hanzi": "网球",
+      "dictionaryPinyin": "wǎng qiú",
+      "meaning": "quần vợt/tennis",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l362-v-872"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l362-c4",
+      "version": 1,
+      "senseId": "l362-v-950-sense",
+      "hanzi": "羽毛球",
+      "dictionaryPinyin": "yǔ máo qiú",
+      "meaning": "cầu lông",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l362-v-950"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l362-c5",
+      "version": 1,
+      "senseId": "l362-v-856-sense",
+      "hanzi": "跳",
+      "dictionaryPinyin": "tiào",
+      "meaning": "nhảy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l362-v-856"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l362-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 选定 xuǎndìng: chọn xong; 向上 xiàng shàng: lên trên; 做准备 zuò zhǔnbèi: chuẩn bị. Mô tả bài đọc không là huấn luyện thể thao.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l362-t0",
+      "type": "teaching",
+      "title": "体育 · thể dục/thể thao",
+      "text": "体育 chỉ lĩnh vực/môn giáo dục thể chất; 体育课 là giờ thể dục, không chỉ một động tác tập.",
+      "hanzi": "下午我们有体育课。",
+      "pinyin": "Xiàwǔ wǒmen yǒu tǐyù kè.",
+      "meaning": "Chiều chúng tôi có giờ thể dục.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l362-t1",
+      "type": "teaching",
+      "title": "体育馆 · nhà thi đấu/nhà thể thao",
+      "text": "体育馆 là công trình thể thao trong nhà, không phải mọi 球场 đều có mái. Cần đọc địa điểm cụ thể.",
+      "hanzi": "今天体育馆不开门。",
+      "pinyin": "Jīntiān tǐyùguǎn bù kāi mén.",
+      "meaning": "Hôm nay nhà thể thao không mở cửa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l362-t2",
+      "type": "teaching",
+      "title": "球场 · sân bóng/sân chơi môn bóng",
+      "text": "球场 là sân cho môn bóng theo ngữ cảnh; cần tên môn khi muốn biết bóng đá hay tennis. Không phải sân nào cũng dùng mọi môn.",
+      "hanzi": "我们在球场见面。",
+      "pinyin": "Wǒmen zài qiúchǎng jiàn miàn.",
+      "meaning": "Chúng tôi gặp ở sân bóng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l362-t3",
+      "type": "teaching",
+      "title": "网球 · quần vợt/tennis",
+      "text": "网球 là tennis, dùng 打网球; khác 羽毛球 cầu lông. Không tự chấm kỹ thuật từ nhớ tên môn.",
+      "hanzi": "她喜欢打网球。",
+      "pinyin": "Tā xǐhuan dǎ wǎngqiú.",
+      "meaning": "Cô ấy thích chơi tennis.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l362-t4",
+      "type": "teaching",
+      "title": "羽毛球 · cầu lông",
+      "text": "羽毛球 chỉ môn/quả cầu lông theo câu, 打羽毛球 là chơi cầu lông. 羽毛 không làm từ này thành tên mọi vật có lông.",
+      "hanzi": "我想打羽毛球。",
+      "pinyin": "Wǒ xiǎng dǎ yǔmáoqiú.",
+      "meaning": "Tôi muốn chơi cầu lông.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l362-t5",
+      "type": "teaching",
+      "title": "跳 · nhảy",
+      "text": "跳 là nhảy trong 跳一下, 跳绳 hay 跳舞 cần tân ngữ bổ sung. Bài chỉ dạy động tác nhảy, không tự dạy kỹ thuật thể dục.",
+      "hanzi": "他向上跳了一下。",
+      "pinyin": "Tā xiàng shàng tiào le yíxià.",
+      "meaning": "Cậu ấy nhảy lên một cái.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l362-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "打网球或者打羽毛球 là hai phương án trong trần thuật. 用 打 với hai môn này; 跳 là động tác khác, không phải tên mọi môn bóng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l362-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "体育课上，老师说体育馆今天不开门，大家在外面的球场活动。小林打网球或者打羽毛球，还没选定。朋友先向上跳了一下做准备，没有说自己已经参加比赛。",
+      "pinyin": "Tǐyù kè shàng, lǎoshī shuō tǐyùguǎn jīntiān bù kāi mén, dàjiā zài wàimian de qiúchǎng huódòng. Xiǎo Lín dǎ wǎngqiú huòzhě dǎ yǔmáoqiú, hái méi xuǎndìng. Péngyou xiān xiàng shàng tiào le yíxià zuò zhǔnbèi, méiyǒu shuō zìjǐ yǐjīng cānjiā bǐsài.",
+      "meaning": "Nhà thể thao đóng cửa nên lớp hoạt động ngoài sân. Lâm chưa chọn tennis hay cầu lông; bạn nhảy chuẩn bị, chưa nói đã thi đấu.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l362-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l362-v1-e0"
+    },
+    {
+      "id": "l362-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l362-v1-e1"
+    },
+    {
+      "id": "l362-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l362-v1-e2"
+    },
+    {
+      "id": "l362-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l362-v1-e3"
+    },
+    {
+      "id": "l362-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l362-v1-e4"
+    },
+    {
+      "id": "l362-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l362-v1-e5"
+    },
+    {
+      "id": "l362-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l362-v1-e6"
+    },
+    {
+      "id": "l362-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l362-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l362-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l362-c0",
+      "senseId": "l362-v-853-sense",
+      "keyRef": "l362-v1-k0",
+      "prompt": "Tên môn thể dục: □课。",
+      "choices": [
+        "体育馆",
+        "球场",
+        "网球",
+        "羽毛球",
+        "跳",
+        "体育"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l362-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l362-c1",
+      "senseId": "l362-v-854-sense",
+      "keyRef": "l362-v1-k1",
+      "prompt": "Công trình thể thao trong nhà: □今天不开门。",
+      "choices": [
+        "球场",
+        "网球",
+        "羽毛球",
+        "跳",
+        "体育",
+        "体育馆"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l362-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l362-c2",
+      "senseId": "l362-v-811-sense",
+      "keyRef": "l362-v1-k2",
+      "prompt": "Địa điểm sân cho môn bóng: 在□见面。",
+      "choices": [
+        "网球",
+        "羽毛球",
+        "跳",
+        "体育",
+        "体育馆",
+        "球场"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l362-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l362-c3",
+      "senseId": "l362-v-872-sense",
+      "keyRef": "l362-v1-k3",
+      "prompt": "Viết pinyin của 网球 trong câu “她喜欢打网球。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l362-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l362-c4",
+      "senseId": "l362-v-950-sense",
+      "keyRef": "l362-v1-k4",
+      "prompt": "Tên môn cầu lông, không phải tennis.",
+      "choices": [
+        "跳",
+        "体育",
+        "体育馆",
+        "球场",
+        "网球",
+        "羽毛球"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l362-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l362-c5",
+      "senseId": "l362-v-856-sense",
+      "keyRef": "l362-v1-k5",
+      "prompt": "Động từ nhảy: 向上□一下。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l362-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l362-c0",
+      "senseId": "l362-v-853-sense",
+      "keyRef": "l362-v1-k6",
+      "prompt": "Vì sao họ ở sân ngoài?",
+      "choices": [
+        "已经选定网球",
+        "没有体育课",
+        "体育馆不开门"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l362-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l362-c3",
+      "senseId": "l362-v-872-sense",
+      "keyRef": "l362-v1-k7",
+      "prompt": "Xếp hai phương án, bắt đầu bằng 我打网球.",
+      "choices": [
+        "或者打羽毛球",
+        "我打网球"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l362-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l362-v1-e0",
+      "senseId": "l362-v-853-sense",
+      "accepted": [
+        "体育"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "体育: thể dục/thể thao. 体育 chỉ lĩnh vực/môn giáo dục thể chất; 体育课 là giờ thể dục, không chỉ một động tác tập. Chiều chúng tôi có giờ thể dục."
+    },
+    {
+      "id": "l362-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l362-v1-e1",
+      "senseId": "l362-v-854-sense",
+      "accepted": [
+        "体育馆"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "体育馆: nhà thi đấu/nhà thể thao. 体育馆 là công trình thể thao trong nhà, không phải mọi 球场 đều có mái. Cần đọc địa điểm cụ thể. Hôm nay nhà thể thao không mở cửa."
+    },
+    {
+      "id": "l362-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l362-v1-e2",
+      "senseId": "l362-v-811-sense",
+      "accepted": [
+        "球场"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "球场: sân bóng/sân chơi môn bóng. 球场 là sân cho môn bóng theo ngữ cảnh; cần tên môn khi muốn biết bóng đá hay tennis. Không phải sân nào cũng dùng mọi môn. Chúng tôi gặp ở sân bóng."
+    },
+    {
+      "id": "l362-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l362-v1-e3",
+      "senseId": "l362-v-872-sense",
+      "accepted": [
+        "wǎng qiú"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "网球: quần vợt/tennis. 网球 là tennis, dùng 打网球; khác 羽毛球 cầu lông. Không tự chấm kỹ thuật từ nhớ tên môn. Cô ấy thích chơi tennis."
+    },
+    {
+      "id": "l362-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l362-v1-e4",
+      "senseId": "l362-v-950-sense",
+      "accepted": [
+        "羽毛球"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "羽毛球: cầu lông. 羽毛球 chỉ môn/quả cầu lông theo câu, 打羽毛球 là chơi cầu lông. 羽毛 không làm từ này thành tên mọi vật có lông. Tôi muốn chơi cầu lông."
+    },
+    {
+      "id": "l362-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l362-v1-e5",
+      "senseId": "l362-v-856-sense",
+      "accepted": [
+        "跳"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "跳: nhảy. 跳 là nhảy trong 跳一下, 跳绳 hay 跳舞 cần tân ngữ bổ sung. Bài chỉ dạy động tác nhảy, không tự dạy kỹ thuật thể dục. Cậu ấy nhảy lên một cái."
+    },
+    {
+      "id": "l362-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l362-v1-e6",
+      "senseId": "l362-v-853-sense",
+      "accepted": [
+        "体育馆不开门"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 打网球或者打羽毛球 là hai phương án trong trần thuật. 用 打 với hai môn này; 跳 là động tác khác, không phải tên mọi môn bóng."
+    },
+    {
+      "id": "l362-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l362-v1-e7",
+      "senseId": "l362-v-872-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 打网球或者打羽毛球 là hai phương án trong trần thuật. 用 打 với hai môn này; 跳 là động tác khác, không phải tên mọi môn bóng."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

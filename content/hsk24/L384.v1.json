@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "5f493d4096253d5fd9072710e94eece8e5c7cea6053db1468d20ae750c193e00",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-letter-advice",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L384",
+    "version": 1,
+    "versionId": "l384-draft-v1",
+    "title": "Gửi một lá thư và lời khuyên có giới hạn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc ngoại trừ, đương nhiên và thông tin sửa kỳ vọng; viết câu lời khuyên ngắn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "除了"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-social",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "日常交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-etiquette",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "礼貌行为"
+        },
+        "written": "礼貌行为",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l384-v-566",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 566"
+        },
+        "written": "除了",
+        "pinyin": "chúle",
+        "senseId": "l384-v-566-sense",
+        "ordinal": 566,
+        "note": "3 chúle 介; 除了 có nhánh thêm (除了A还B) và loại (除了A都B); phải đọc vế sau, không dùng một bản dịch cho cả hai logic. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l384-v-581",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 581"
+        },
+        "written": "当然",
+        "pinyin": "dāngrán",
+        "senseId": "l384-v-581-sense",
+        "ordinal": 581,
+        "note": "3 dāngrán 副; 当然 thể hiện người nói coi là hiển nhiên/chấp thuận, không tự là bằng chứng điều đó đúng ngoài ngữ cảnh. 当然可以 là lời đồng ý. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l384-v-799",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 799"
+        },
+        "written": "其实",
+        "pinyin": "qíshí",
+        "senseId": "l384-v-799-sense",
+        "ordinal": 799,
+        "note": "3 qíshí 副; 其实 dẫn thông tin thực tế trái điều đang tưởng; chỉ là cách trình bày, chưa tự kiểm chứng chân lý. 其实不是不想写 explains reasonchange. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l384-v-630",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 630"
+        },
+        "written": "封",
+        "pinyin": "fēng",
+        "senseId": "l384-v-630-sense",
+        "ordinal": 630,
+        "note": "3（6） fēng 量、（动）; 封 trong 一封信/邮件 đếm một thư; khác 张 đếm tờ. Bài chưa dạy động từ niêm phong dù nguồn có nghĩa đó. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l384-v-996",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 996"
+        },
+        "written": "最好",
+        "pinyin": "zuìhǎo",
+        "senseId": "l384-v-996-sense",
+        "ordinal": 996,
+        "note": "3 zuìhǎo 副; 最好+động từ thường khuyên nên làm, không ra lệnh tuyệt đối hay đo được “tối ưu”. 最好的书 là cấu trúc đánh giá khác, chưa chấm chung. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-31",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "31"
+        },
+        "written": "除",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 31,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-41",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "41"
+        },
+        "written": "当",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 41,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-168",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "168"
+        },
+        "written": "其",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 168,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-194",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "194"
+        },
+        "written": "实",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 194,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-60",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "60"
+        },
+        "written": "封",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 60,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-exclusion",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定格式 / 除了还也都"
+        },
+        "written": "除了",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l384-c0",
+      "version": 1,
+      "senseId": "l384-v-566-sense",
+      "hanzi": "除了",
+      "dictionaryPinyin": "chú le",
+      "meaning": "ngoài/ngoại trừ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l384-v-566"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l384-c1",
+      "version": 1,
+      "senseId": "l384-v-581-sense",
+      "hanzi": "当然",
+      "dictionaryPinyin": "dāng rán",
+      "meaning": "đương nhiên/tất nhiên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l384-v-581"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l384-c2",
+      "version": 1,
+      "senseId": "l384-v-799-sense",
+      "hanzi": "其实",
+      "dictionaryPinyin": "qí shí",
+      "meaning": "thật ra",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l384-v-799"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l384-c3",
+      "version": 1,
+      "senseId": "l384-v-630-sense",
+      "hanzi": "封",
+      "dictionaryPinyin": "fēng",
+      "meaning": "lượng từ lá thư; niêm/phong tùy ngữ cảnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l384-v-630"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l384-c4",
+      "version": 1,
+      "senseId": "l384-v-996-sense",
+      "hanzi": "最好",
+      "dictionaryPinyin": "zuì hǎo",
+      "meaning": "tốt nhất nên (lời khuyên)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l384-v-996"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l384-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 寄 jì: gửi qua bưu điện; 本人 běnrén: chính người đó; 不过 búguò: nhưng; 地址 dìzhǐ: địa chỉ. Chỉ là tình huống đọc, không gửi thư thật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l384-t0",
+      "type": "teaching",
+      "title": "除了 · ngoài/ngoại trừ",
+      "text": "除了 có nhánh thêm (除了A还B) và loại (除了A都B); phải đọc vế sau, không dùng một bản dịch cho cả hai logic.",
+      "hanzi": "除了小林以外，大家都写了信。",
+      "pinyin": "Chúle Xiǎo Lín yǐwài, dàjiā dōu xiě le xìn.",
+      "meaning": "Ngoại trừ Lâm, mọi người đều viết thư.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l384-t1",
+      "type": "teaching",
+      "title": "当然 · đương nhiên/tất nhiên",
+      "text": "当然 thể hiện người nói coi là hiển nhiên/chấp thuận, không tự là bằng chứng điều đó đúng ngoài ngữ cảnh. 当然可以 là lời đồng ý.",
+      "hanzi": "当然可以，不过要先问本人。",
+      "pinyin": "Dāngrán kěyǐ, búguò yào xiān wèn běnrén.",
+      "meaning": "Tất nhiên được, nhưng cần hỏi chính người đó trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l384-t2",
+      "type": "teaching",
+      "title": "其实 · thật ra",
+      "text": "其实 dẫn thông tin thực tế trái điều đang tưởng; chỉ là cách trình bày, chưa tự kiểm chứng chân lý. 其实不是不想写 explains reasonchange.",
+      "hanzi": "其实我已经写好了。",
+      "pinyin": "Qíshí wǒ yǐjīng xiě hǎo le.",
+      "meaning": "Thật ra tôi đã viết xong.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l384-t3",
+      "type": "teaching",
+      "title": "封 · lượng từ lá thư; niêm/phong tùy ngữ cảnh",
+      "text": "封 trong 一封信/邮件 đếm một thư; khác 张 đếm tờ. Bài chưa dạy động từ niêm phong dù nguồn có nghĩa đó.",
+      "hanzi": "我写了一封信。",
+      "pinyin": "Wǒ xiě le yì fēng xìn.",
+      "meaning": "Tôi viết một lá thư.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l384-t4",
+      "type": "teaching",
+      "title": "最好 · tốt nhất nên (lời khuyên)",
+      "text": "最好+động từ thường khuyên nên làm, không ra lệnh tuyệt đối hay đo được “tối ưu”. 最好的书 là cấu trúc đánh giá khác, chưa chấm chung.",
+      "hanzi": "最好先看要求，再写信。",
+      "pinyin": "Zuìhǎo xiān kàn yāoqiú, zài xiě xìn.",
+      "meaning": "Tốt nhất nên đọc yêu cầu trước rồi viết thư.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l384-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "除了小林以外，大家都写了信 dùng 除了…都… loại trừ Lâm khỏi khẳng định. Khác 除了信以外，还发了邮件 là thêm một việc. 最好 nêu gợi ý, không phải bảo đảm kết quả tốt nhất.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l384-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "朋友以为除了小林以外，大家都写了一封信。小林说：其实我已经写好了，只是还没寄。朋友说：当然可以晚一点儿寄，不过最好先看地址和要求。这里不是说每个人都必须马上寄。",
+      "pinyin": "Péngyou yǐwéi chúle Xiǎo Lín yǐwài, dàjiā dōu xiě le yì fēng xìn. Xiǎo Lín shuō: Qíshí wǒ yǐjīng xiě hǎo le, zhǐshì hái méi jì. Péngyou shuō: Dāngrán kěyǐ wǎn yìdiǎnr jì, búguò zuìhǎo xiān kàn dìzhǐ hé yāoqiú. Zhèlǐ bú shì shuō měi ge rén dōu bìxū mǎshàng jì.",
+      "meaning": "Bạn tưởng Lâm chưa viết, nhưng Lâm nói thật ra đã xong, chỉ chưa gửi. Bạn đồng ý gửi muộn hơn và khuyên kiểm địa chỉ cùng yêu cầu trước; không bắt mọi người gửi ngay.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l384-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l384-v1-e0"
+    },
+    {
+      "id": "l384-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l384-v1-e1"
+    },
+    {
+      "id": "l384-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l384-v1-e2"
+    },
+    {
+      "id": "l384-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l384-v1-e3"
+    },
+    {
+      "id": "l384-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l384-v1-e4"
+    },
+    {
+      "id": "l384-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l384-v1-e5"
+    },
+    {
+      "id": "l384-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l384-v1-e6"
+    },
+    {
+      "id": "l384-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l384-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l384-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l384-c0",
+      "senseId": "l384-v-566-sense",
+      "keyRef": "l384-v1-k0",
+      "prompt": "Dấu ngoại trừ trong □小林以外，大家都写了信。",
+      "choices": [
+        "当然",
+        "其实",
+        "封",
+        "最好",
+        "除了"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l384-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l384-c1",
+      "senseId": "l384-v-581-sense",
+      "keyRef": "l384-v1-k1",
+      "prompt": "Từ nghĩa đương nhiên/tất nhiên trong lời đáp, không phải “thật ra”.",
+      "choices": [
+        "其实",
+        "封",
+        "最好",
+        "除了",
+        "当然"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l384-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l384-c2",
+      "senseId": "l384-v-799-sense",
+      "keyRef": "l384-v1-k2",
+      "prompt": "Dẫn thông tin sửa kỳ vọng “thật ra”: □已经写好了。",
+      "choices": [
+        "封",
+        "最好",
+        "除了",
+        "当然",
+        "其实"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l384-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l384-c3",
+      "senseId": "l384-v-630-sense",
+      "keyRef": "l384-v1-k3",
+      "prompt": "Viết pinyin của 封 trong câu “我写了一封信。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l384-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l384-c4",
+      "senseId": "l384-v-996-sense",
+      "keyRef": "l384-v1-k4",
+      "prompt": "Lời khuyên nên làm trước: □先看要求。",
+      "choices": [
+        "除了",
+        "当然",
+        "其实",
+        "封",
+        "最好"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l384-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l384-c4",
+      "senseId": "l384-v-996-sense",
+      "keyRef": "l384-v1-k5",
+      "prompt": "Viết “Tốt nhất nên đọc yêu cầu trước”, dùng đúng thứ tự 最好 + 先 + 看 + 要求, không thêm chủ ngữ.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l384-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l384-c0",
+      "senseId": "l384-v-566-sense",
+      "keyRef": "l384-v1-k6",
+      "prompt": "Thông tin mới của Lâm là gì?",
+      "choices": [
+        "完全不想写",
+        "已经寄给每个人",
+        "已经写好，还没寄"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l384-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l384-c3",
+      "senseId": "l384-v-630-sense",
+      "keyRef": "l384-v1-k7",
+      "prompt": "Xếp lời khuyên, bắt đầu bằng 最好.",
+      "choices": [
+        "先看要求",
+        "最好"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l384-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l384-v1-e0",
+      "senseId": "l384-v-566-sense",
+      "accepted": [
+        "除了"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "除了: ngoài/ngoại trừ. 除了 có nhánh thêm (除了A还B) và loại (除了A都B); phải đọc vế sau, không dùng một bản dịch cho cả hai logic. Ngoại trừ Lâm, mọi người đều viết thư."
+    },
+    {
+      "id": "l384-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l384-v1-e1",
+      "senseId": "l384-v-581-sense",
+      "accepted": [
+        "当然"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "当然: đương nhiên/tất nhiên. 当然 thể hiện người nói coi là hiển nhiên/chấp thuận, không tự là bằng chứng điều đó đúng ngoài ngữ cảnh. 当然可以 là lời đồng ý. Tất nhiên được, nhưng cần hỏi chính người đó trước."
+    },
+    {
+      "id": "l384-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l384-v1-e2",
+      "senseId": "l384-v-799-sense",
+      "accepted": [
+        "其实"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "其实: thật ra. 其实 dẫn thông tin thực tế trái điều đang tưởng; chỉ là cách trình bày, chưa tự kiểm chứng chân lý. 其实不是不想写 explains reasonchange. Thật ra tôi đã viết xong."
+    },
+    {
+      "id": "l384-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l384-v1-e3",
+      "senseId": "l384-v-630-sense",
+      "accepted": [
+        "fēng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "封: lượng từ lá thư; niêm/phong tùy ngữ cảnh. 封 trong 一封信/邮件 đếm một thư; khác 张 đếm tờ. Bài chưa dạy động từ niêm phong dù nguồn có nghĩa đó. Tôi viết một lá thư."
+    },
+    {
+      "id": "l384-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l384-v1-e4",
+      "senseId": "l384-v-996-sense",
+      "accepted": [
+        "最好"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "最好: tốt nhất nên (lời khuyên). 最好+động từ thường khuyên nên làm, không ra lệnh tuyệt đối hay đo được “tối ưu”. 最好的书 là cấu trúc đánh giá khác, chưa chấm chung. Tốt nhất nên đọc yêu cầu trước rồi viết thư."
+    },
+    {
+      "id": "l384-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l384-v1-e5",
+      "senseId": "l384-v-996-sense",
+      "accepted": [
+        "最好先看要求"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "最好 ở đây là lời khuyên; câu được ràng buộc thành phần, không chấm tự do hay bảo đảm đây là phương án tối ưu thực tế."
+    },
+    {
+      "id": "l384-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l384-v1-e6",
+      "senseId": "l384-v-566-sense",
+      "accepted": [
+        "已经写好，还没寄"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 除了小林以外，大家都写了信 dùng 除了…都… loại trừ Lâm khỏi khẳng định. Khác 除了信以外，还发了邮件 là thêm một việc. 最好 nêu gợi ý, không phải bảo đảm kết quả tốt nhất."
+    },
+    {
+      "id": "l384-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l384-v1-e7",
+      "senseId": "l384-v-630-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 除了小林以外，大家都写了信 dùng 除了…都… loại trừ Lâm khỏi khẳng định. Khác 除了信以外，还发了邮件 là thêm một việc. 最好 nêu gợi ý, không phải bảo đảm kết quả tốt nhất."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,788 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "b6ea144e3c92273d012b6c9cc4c519e4301382e9e002abf7b6f252e91a5dd01c",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-d",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L112",
+    "version": 1,
+    "versionId": "l112-draft-v1",
+    "title": "Hỏi chữ và đọc tên đồ vật",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Hỏi chữ và đọc tên đồ vật; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "哪"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 6,
+      "physicalPage": 7,
+      "printedPage": 4,
+      "section": "task",
+      "entry": "十二"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T09:30:41.58926Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 6,
+          "physicalPage": 7,
+          "printedPage": 4,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "介绍学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-59dbaf6bf45d",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "学习内容"
+        },
+        "written": "学习内容",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l112-v-131",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 131"
+        },
+        "written": "哪",
+        "pinyin": "nǎ",
+        "senseId": "l112-v-131-sense",
+        "ordinal": 131,
+        "note": "1 nǎ 代; 哪 chọn trong các khả năng; 你读哪本书 hỏi quyển nào, không hỏi số lượng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l112-v-40",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 40"
+        },
+        "written": "东西",
+        "pinyin": "dōngxi",
+        "senseId": "l112-v-40-sense",
+        "ordinal": 40,
+        "note": "1 dōngxi 名; 东西 trong câu đồ vật đọc dōng xi; không dùng nghĩa hướng đông/tây để dịch máy móc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l112-v-296",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 296"
+        },
+        "written": "字",
+        "pinyin": "zì",
+        "senseId": "l112-v-296-sense",
+        "ordinal": 296,
+        "note": "1 zì 名; 字 nói một chữ; một từ có thể có nhiều chữ như 你好. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l112-v-70",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 70"
+        },
+        "written": "汉字",
+        "pinyin": "Hànzì",
+        "senseId": "l112-v-70-sense",
+        "ordinal": 70,
+        "note": "1 Hànzì 名; 汉字 là hệ chữ đang học; pinyin viết bằng chữ Latin không tự là 汉字. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l112-v-42",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 42"
+        },
+        "written": "读",
+        "pinyin": "dú",
+        "senseId": "l112-v-42-sense",
+        "ordinal": 42,
+        "note": "1 dú 动; 读 là hành động đọc; 读书 còn là tổ hợp/mục từ riêng sẽ học sau. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-119",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "119"
+        },
+        "written": "哪",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 119,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-37",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "37"
+        },
+        "written": "东",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 37,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-189",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "189"
+        },
+        "written": "西",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 189,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-241",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "241"
+        },
+        "written": "字",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 241,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-64",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "64"
+        },
+        "written": "汉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 64,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-39",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "39"
+        },
+        "written": "读",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 39,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-112",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-8"
+        },
+        "written": "哪",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l112-c0",
+      "version": 1,
+      "senseId": "l112-v-131-sense",
+      "hanzi": "哪",
+      "dictionaryPinyin": "nǎ",
+      "meaning": "nào",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l112-v-131"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l112-c1",
+      "version": 1,
+      "senseId": "l112-v-40-sense",
+      "hanzi": "东西",
+      "dictionaryPinyin": "dōng xi",
+      "meaning": "đồ; vật",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l112-v-40"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l112-c2",
+      "version": 1,
+      "senseId": "l112-v-296-sense",
+      "hanzi": "字",
+      "dictionaryPinyin": "zì",
+      "meaning": "chữ; ký tự",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l112-v-296"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l112-c3",
+      "version": 1,
+      "senseId": "l112-v-70-sense",
+      "hanzi": "汉字",
+      "dictionaryPinyin": "Hàn zì",
+      "meaning": "chữ Hán",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l112-v-70"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l112-c4",
+      "version": 1,
+      "senseId": "l112-v-42-sense",
+      "hanzi": "读",
+      "dictionaryPinyin": "dú",
+      "meaning": "đọc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l112-v-42"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l112-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l112-t0",
+      "type": "teaching",
+      "title": "哪 · nào",
+      "text": "哪 chọn trong các khả năng; 你读哪本书 hỏi quyển nào, không hỏi số lượng.",
+      "hanzi": "你读哪本书？",
+      "pinyin": "Nǐ dú nǎ běn shū?",
+      "meaning": "Bạn đọc quyển sách nào?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l112-t1",
+      "type": "teaching",
+      "title": "东西 · đồ; vật",
+      "text": "东西 trong câu đồ vật đọc dōng xi; không dùng nghĩa hướng đông/tây để dịch máy móc.",
+      "hanzi": "这是什么东西？",
+      "pinyin": "Zhè shì shén me dōng xi?",
+      "meaning": "Đây là đồ gì?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l112-t2",
+      "type": "teaching",
+      "title": "字 · chữ; ký tự",
+      "text": "字 nói một chữ; một từ có thể có nhiều chữ như 你好.",
+      "hanzi": "这个字怎么读？",
+      "pinyin": "Zhè ge zì zěn me dú?",
+      "meaning": "Chữ này đọc thế nào?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l112-t3",
+      "type": "teaching",
+      "title": "汉字 · chữ Hán",
+      "text": "汉字 là hệ chữ đang học; pinyin viết bằng chữ Latin không tự là 汉字.",
+      "hanzi": "我喜欢汉字。",
+      "pinyin": "Wǒ xǐ huan Hàn zì.",
+      "meaning": "Tôi thích chữ Hán.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l112-t4",
+      "type": "teaching",
+      "title": "读 · đọc",
+      "text": "读 là hành động đọc; 读书 còn là tổ hợp/mục từ riêng sẽ học sau.",
+      "hanzi": "我读这本书。",
+      "pinyin": "Wǒ dú zhè běn shū.",
+      "meaning": "Tôi đọc quyển sách này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l112-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "哪 hỏi lựa chọn trong một tập hợp: 你读哪本书？哪 + lượng từ + danh từ vẫn ở vị trí đối tượng cần hỏi. 字 là một chữ; 汉字 là chữ Hán, còn 东西 nói đồ/vật trong tình huống này. 读 có thể đọc thành tiếng hoặc đọc nội dung theo câu; bài chữ không đánh giá phát âm.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l112-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：你读哪本书？\nB：我读这本书。\nA：这是什么字？\nB：这是“人”字。\nA：好，我喜欢汉字。",
+      "pinyin": "A: Nǐ dú nǎ běn shū? B: Wǒ dú zhè běn shū. A: Zhè shì shén me zì? B: Zhè shì “rén” zì. A: Hǎo, wǒ xǐ huan Hàn zì.",
+      "meaning": "怎么 zěn me = thế nào trong ví dụ. Đoạn chỉ rõ chữ đang được hỏi là 人; không yêu cầu đoán nội dung một cuốn sách không hiển thị.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l112-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l112-v1-e0"
+    },
+    {
+      "id": "l112-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l112-v1-e1"
+    },
+    {
+      "id": "l112-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l112-v1-e2"
+    },
+    {
+      "id": "l112-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l112-v1-e3"
+    },
+    {
+      "id": "l112-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l112-v1-e4"
+    },
+    {
+      "id": "l112-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l112-v1-e5"
+    },
+    {
+      "id": "l112-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l112-v1-e6"
+    },
+    {
+      "id": "l112-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l112-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l112-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l112-c0",
+      "senseId": "l112-v-131-sense",
+      "keyRef": "l112-v1-k0",
+      "prompt": "Chọn mục từ có nghĩa “nào” trong câu: 你读□本书？",
+      "choices": [
+        "东西",
+        "字",
+        "汉字",
+        "读",
+        "哪"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l112-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l112-c1",
+      "senseId": "l112-v-40-sense",
+      "keyRef": "l112-v1-k1",
+      "prompt": "Viết pinyin từ điển của 东西 (đồ; vật).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l112-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l112-c2",
+      "senseId": "l112-v-296-sense",
+      "keyRef": "l112-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “chữ; ký tự”: □ (zì). Ngữ cảnh: 这个□怎么读？ Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "好",
+        "字",
+        "学",
+        "子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l112-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l112-c3",
+      "senseId": "l112-v-70-sense",
+      "keyRef": "l112-v1-k3",
+      "prompt": "Chọn mục từ có nghĩa “chữ Hán” trong câu: 我喜欢□。",
+      "choices": [
+        "读",
+        "哪",
+        "东西",
+        "字",
+        "汉字"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l112-v1-e4",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l112-c4",
+      "senseId": "l112-v-42-sense",
+      "keyRef": "l112-v1-k4",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “đọc”: 我□这本书。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l112-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l112-c2",
+      "senseId": "l112-v-296-sense",
+      "keyRef": "l112-v1-k5",
+      "prompt": "Trong câu “这个字怎么读？”, 字 mang nghĩa nào theo bài?",
+      "choices": [
+        "đồ; vật",
+        "chữ; ký tự",
+        "chữ Hán",
+        "đọc",
+        "nào"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l112-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l112-c0",
+      "senseId": "l112-v-131-sense",
+      "keyRef": "l112-v1-k6",
+      "prompt": "B gọi chữ nào?",
+      "choices": [
+        "书",
+        "女",
+        "人"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l112-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l112-c3",
+      "senseId": "l112-v-70-sense",
+      "keyRef": "l112-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "你",
+        "读",
+        "哪本书？"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l112-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l112-v1-e0",
+      "senseId": "l112-v-131-sense",
+      "accepted": [
+        "哪"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "哪: nào. 哪 chọn trong các khả năng; 你读哪本书 hỏi quyển nào, không hỏi số lượng. Bạn đọc quyển sách nào?"
+    },
+    {
+      "id": "l112-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l112-v1-e1",
+      "senseId": "l112-v-40-sense",
+      "accepted": [
+        "dōng xi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "东西 ghi dōng xi. 东西 trong câu đồ vật đọc dōng xi; không dùng nghĩa hướng đông/tây để dịch máy móc."
+    },
+    {
+      "id": "l112-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l112-v1-e2",
+      "senseId": "l112-v-296-sense",
+      "accepted": [
+        "字"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 字 tạo từ 字. 字 nói một chữ; một từ có thể có nhiều chữ như 你好. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l112-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l112-v1-e3",
+      "senseId": "l112-v-70-sense",
+      "accepted": [
+        "汉字"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "汉字: chữ Hán. 汉字 là hệ chữ đang học; pinyin viết bằng chữ Latin không tự là 汉字. Tôi thích chữ Hán."
+    },
+    {
+      "id": "l112-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l112-v1-e4",
+      "senseId": "l112-v-42-sense",
+      "accepted": [
+        "读"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "读: đọc. 读 là hành động đọc; 读书 còn là tổ hợp/mục từ riêng sẽ học sau. Tôi đọc quyển sách này."
+    },
+    {
+      "id": "l112-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l112-v1-e5",
+      "senseId": "l112-v-296-sense",
+      "accepted": [
+        "chữ; ký tự"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "字 nói một chữ; một từ có thể có nhiều chữ như 你好. Chữ này đọc thế nào?"
+    },
+    {
+      "id": "l112-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l112-v1-e6",
+      "senseId": "l112-v-131-sense",
+      "accepted": [
+        "人"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 人. 怎么 zěn me = thế nào trong ví dụ. Đoạn chỉ rõ chữ đang được hỏi là 人; không yêu cầu đoán nội dung một cuốn sách không hiển thị."
+    },
+    {
+      "id": "l112-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l112-v1-e7",
+      "senseId": "l112-v-70-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 哪 hỏi lựa chọn trong một tập hợp: 你读哪本书？哪 + lượng từ + danh từ vẫn ở vị trí đối tượng cần hỏi. 字 là một chữ; 汉字 là chữ Hán, còn 东西 nói đồ/vật trong tình huống này. 读 có thể đọc thành tiếng hoặc đọc nội dung theo câu; bài chữ không đánh giá phát âm."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

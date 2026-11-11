@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "34bb6b7fb3028414d4e99cb9e98db88ddcaae8b81ef9ebe3a59d33108c399afd",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-photos-direction",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L364",
+    "version": 1,
+    "versionId": "l364-draft-v1",
+    "title": "Ảnh chụp và hướng ánh sáng",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân biệt chụp ảnh, tấm ảnh và ánh sáng chiếu; dùng 向 và 像 đúng chức năng.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "向2"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 18,
+      "physicalPage": 19,
+      "printedPage": 16,
+      "section": "task",
+      "entry": "十九"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-art-task",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 18,
+          "physicalPage": 19,
+          "printedPage": 16,
+          "section": "task",
+          "entry": "十九"
+        },
+        "written": "交流文艺活动信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-art-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "文艺活动"
+        },
+        "written": "文艺活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l364-v-972",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 972"
+        },
+        "written": "照片",
+        "pinyin": "zhàopiàn",
+        "senseId": "l364-v-972-sense",
+        "ordinal": 972,
+        "note": "3 zhàopiàn 名; 照片 là sản phẩm ảnh, 一张照片 đếm tấm ảnh; không gọi thiết bị bằng 照片. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l364-v-973",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 973"
+        },
+        "written": "照相",
+        "pinyin": "zhàoxiàng",
+        "senseId": "l364-v-973-sense",
+        "ordinal": 973,
+        "note": "3 zhàoxiàng 动; 照相 gần nghĩa 拍照 trong hoạt động; 去照相 là đi chụp, không tự cho biết chụp cho ai hay kiểu gì. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l364-v-970",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 970"
+        },
+        "written": "照",
+        "pinyin": "zhào",
+        "senseId": "l364-v-970-sense",
+        "ordinal": 970,
+        "note": "3 zhào 动; 照 ở 灯照着桌子 là chiếu sáng; 照相 là từ ghép khác chức năng. Bài chưa dạy mọi nghĩa “theo/đối chiếu” của 照. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l364-v-894",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 894"
+        },
+        "written": "向",
+        "pinyin": "xiàng",
+        "senseId": "l364-v-894-sense",
+        "ordinal": 894,
+        "note": "3 xiàng 动、介; 向 trong 向窗边走 nêu hướng đi; khác 像 là giống. Không dùng 向 thay 像 trong nhận xét ngoại hình. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l364-v-895",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 895"
+        },
+        "written": "像",
+        "pinyin": "xiàng",
+        "senseId": "l364-v-895-sense",
+        "ordinal": 895,
+        "note": "3（4）（7-9） xiàng 动、（副）、（名）; 像 trong 她像姐姐 là giống chị; không phải hướng di chuyển. Chưa biết ai lớn hơn chỉ từ nét mặt giống nhau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l364-v-845",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 845"
+        },
+        "written": "双",
+        "pinyin": "shuāng",
+        "senseId": "l364-v-845-sense",
+        "ordinal": 845,
+        "note": "3 shuāng 量; 双 đếm vật thành cặp như 一双鞋; không dùng 一双照片 thay hai ảnh rời. 两只鞋 mới chắc là hai chiếc, chưa chắc cùng đôi. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-273",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "273"
+        },
+        "written": "照",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 273,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-165",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "165"
+        },
+        "written": "片",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 165,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-226",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "226"
+        },
+        "written": "相",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 226,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-230",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "230"
+        },
+        "written": "向",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 230,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-231",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "231"
+        },
+        "written": "像",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 231,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-206",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "206"
+        },
+        "written": "双",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 206,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-direction2",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "介词 / 引出方向路径 / 向2"
+        },
+        "written": "向2",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l364-c0",
+      "version": 1,
+      "senseId": "l364-v-972-sense",
+      "hanzi": "照片",
+      "dictionaryPinyin": "zhào piàn",
+      "meaning": "tấm ảnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l364-v-972"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l364-c1",
+      "version": 1,
+      "senseId": "l364-v-973-sense",
+      "hanzi": "照相",
+      "dictionaryPinyin": "zhào xiàng",
+      "meaning": "chụp ảnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l364-v-973"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l364-c2",
+      "version": 1,
+      "senseId": "l364-v-970-sense",
+      "hanzi": "照",
+      "dictionaryPinyin": "zhào",
+      "meaning": "chiếu/soi (ánh sáng)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l364-v-970"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l364-c3",
+      "version": 1,
+      "senseId": "l364-v-894-sense",
+      "hanzi": "向",
+      "dictionaryPinyin": "xiàng",
+      "meaning": "hướng về/về phía",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l364-v-894"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l364-c4",
+      "version": 1,
+      "senseId": "l364-v-895-sense",
+      "hanzi": "像",
+      "dictionaryPinyin": "xiàng",
+      "meaning": "giống/tựa như",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l364-v-895"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l364-c5",
+      "version": 1,
+      "senseId": "l364-v-845-sense",
+      "hanzi": "双",
+      "dictionaryPinyin": "shuāng",
+      "meaning": "đôi; lượng từ vật thành cặp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l364-v-845"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l364-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 灯光 dēngguāng: ánh đèn; 窗边 chuāng biān: bên cửa sổ; 外貌 wàimào: ngoại hình; 相似 xiāngsì: tương tự; 长得 zhǎng de: trông/vẻ ngoài.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l364-t0",
+      "type": "teaching",
+      "title": "照片 · tấm ảnh",
+      "text": "照片 là sản phẩm ảnh, 一张照片 đếm tấm ảnh; không gọi thiết bị bằng 照片.",
+      "hanzi": "这张照片是昨天拍的。",
+      "pinyin": "Zhè zhāng zhàopiàn shì zuótiān pāi de.",
+      "meaning": "Ảnh này chụp hôm qua.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l364-t1",
+      "type": "teaching",
+      "title": "照相 · chụp ảnh",
+      "text": "照相 gần nghĩa 拍照 trong hoạt động; 去照相 là đi chụp, không tự cho biết chụp cho ai hay kiểu gì.",
+      "hanzi": "我们一起去照相。",
+      "pinyin": "Wǒmen yìqǐ qù zhào xiàng.",
+      "meaning": "Chúng tôi cùng đi chụp ảnh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l364-t2",
+      "type": "teaching",
+      "title": "照 · chiếu/soi (ánh sáng)",
+      "text": "照 ở 灯照着桌子 là chiếu sáng; 照相 là từ ghép khác chức năng. Bài chưa dạy mọi nghĩa “theo/đối chiếu” của 照.",
+      "hanzi": "灯光照着桌子。",
+      "pinyin": "Dēngguāng zhào zhe zhuōzi.",
+      "meaning": "Ánh đèn chiếu lên bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l364-t3",
+      "type": "teaching",
+      "title": "向 · hướng về/về phía",
+      "text": "向 trong 向窗边走 nêu hướng đi; khác 像 là giống. Không dùng 向 thay 像 trong nhận xét ngoại hình.",
+      "hanzi": "请向窗边走两步。",
+      "pinyin": "Qǐng xiàng chuāng biān zǒu liǎng bù.",
+      "meaning": "Hãy đi hai bước về phía cửa sổ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l364-t4",
+      "type": "teaching",
+      "title": "像 · giống/tựa như",
+      "text": "像 trong 她像姐姐 là giống chị; không phải hướng di chuyển. Chưa biết ai lớn hơn chỉ từ nét mặt giống nhau.",
+      "hanzi": "她长得很像姐姐。",
+      "pinyin": "Tā zhǎng de hěn xiàng jiějie.",
+      "meaning": "Cô ấy trông rất giống chị.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l364-t5",
+      "type": "teaching",
+      "title": "双 · đôi; lượng từ vật thành cặp",
+      "text": "双 đếm vật thành cặp như 一双鞋; không dùng 一双照片 thay hai ảnh rời. 两只鞋 mới chắc là hai chiếc, chưa chắc cùng đôi.",
+      "hanzi": "照片里有一双新鞋。",
+      "pinyin": "Zhàopiàn lǐ yǒu yì shuāng xīn xié.",
+      "meaning": "Trong ảnh có một đôi giày mới.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l364-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "向窗边走 nêu hướng đi trong lời hướng dẫn; 像姐姐 nói giống chị, không chỉ hướng. Hai chữ đều đọc xiàng nhưng khác chữ và chức năng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l364-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "照相时，灯光照着桌子。朋友请小林向窗边走两步，再拍照片。照片里的女孩很像她姐姐，旁边放着一双新鞋。相似只说外貌，不证明两人年龄或经历相同。",
+      "pinyin": "Zhào xiàng shí, dēngguāng zhào zhe zhuōzi. Péngyou qǐng Xiǎo Lín xiàng chuāng biān zǒu liǎng bù, zài pāi zhàopiàn. Zhàopiàn lǐ de nǚhái hěn xiàng tā jiějie, pángbiān fàng zhe yì shuāng xīn xié. Xiāngsì zhǐ shuō wàimào, bù zhèngmíng liǎng rén niánlíng huò jīnglì xiāngtóng.",
+      "meaning": "Khi chụp, ánh đèn chiếu bàn; bạn yêu cầu Lâm đi về phía cửa sổ. Bé gái trong ảnh giống chị, có đôi giày bên cạnh. Giống ngoại hình chưa chứng minh tuổi hay trải nghiệm như nhau.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l364-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l364-v1-e0"
+    },
+    {
+      "id": "l364-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l364-v1-e1"
+    },
+    {
+      "id": "l364-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l364-v1-e2"
+    },
+    {
+      "id": "l364-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l364-v1-e3"
+    },
+    {
+      "id": "l364-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l364-v1-e4"
+    },
+    {
+      "id": "l364-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l364-v1-e5"
+    },
+    {
+      "id": "l364-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l364-v1-e6"
+    },
+    {
+      "id": "l364-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l364-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l364-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l364-c0",
+      "senseId": "l364-v-972-sense",
+      "keyRef": "l364-v1-k0",
+      "prompt": "Sản phẩm tấm ảnh: 一张□。",
+      "choices": [
+        "照相",
+        "照",
+        "向",
+        "像",
+        "双",
+        "照片"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l364-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l364-c1",
+      "senseId": "l364-v-973-sense",
+      "keyRef": "l364-v1-k1",
+      "prompt": "Đúng mục từ 照相 của hoạt động chụp, không phải danh từ tấm ảnh.",
+      "choices": [
+        "照",
+        "向",
+        "像",
+        "双",
+        "照片",
+        "照相"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l364-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l364-c2",
+      "senseId": "l364-v-970-sense",
+      "keyRef": "l364-v1-k2",
+      "prompt": "Ánh sáng chiếu: 灯光□着桌子。",
+      "choices": [
+        "向",
+        "像",
+        "双",
+        "照片",
+        "照相",
+        "照"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l364-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l364-c3",
+      "senseId": "l364-v-894-sense",
+      "keyRef": "l364-v1-k3",
+      "prompt": "Viết pinyin của 向 trong câu “请向窗边走两步。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l364-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l364-c4",
+      "senseId": "l364-v-895-sense",
+      "keyRef": "l364-v1-k4",
+      "prompt": "Giống về vẻ ngoài: 很□姐姐。",
+      "choices": [
+        "双",
+        "照片",
+        "照相",
+        "照",
+        "向",
+        "像"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l364-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l364-c5",
+      "senseId": "l364-v-845-sense",
+      "keyRef": "l364-v1-k5",
+      "prompt": "Lượng từ một đôi giày: 一□鞋。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l364-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l364-c0",
+      "senseId": "l364-v-972-sense",
+      "keyRef": "l364-v1-k6",
+      "prompt": "Trong 请向窗边走, 向 chỉ gì?",
+      "choices": [
+        "外貌相似",
+        "一双鞋",
+        "方向"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l364-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l364-c3",
+      "senseId": "l364-v-894-sense",
+      "keyRef": "l364-v1-k7",
+      "prompt": "Xếp hướng đi, bắt đầu bằng 请.",
+      "choices": [
+        "走两步",
+        "向窗边",
+        "请"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l364-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l364-v1-e0",
+      "senseId": "l364-v-972-sense",
+      "accepted": [
+        "照片"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "照片: tấm ảnh. 照片 là sản phẩm ảnh, 一张照片 đếm tấm ảnh; không gọi thiết bị bằng 照片. Ảnh này chụp hôm qua."
+    },
+    {
+      "id": "l364-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l364-v1-e1",
+      "senseId": "l364-v-973-sense",
+      "accepted": [
+        "照相"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "照相: chụp ảnh. 照相 gần nghĩa 拍照 trong hoạt động; 去照相 là đi chụp, không tự cho biết chụp cho ai hay kiểu gì. Chúng tôi cùng đi chụp ảnh."
+    },
+    {
+      "id": "l364-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l364-v1-e2",
+      "senseId": "l364-v-970-sense",
+      "accepted": [
+        "照"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "照: chiếu/soi (ánh sáng). 照 ở 灯照着桌子 là chiếu sáng; 照相 là từ ghép khác chức năng. Bài chưa dạy mọi nghĩa “theo/đối chiếu” của 照. Ánh đèn chiếu lên bàn."
+    },
+    {
+      "id": "l364-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l364-v1-e3",
+      "senseId": "l364-v-894-sense",
+      "accepted": [
+        "xiàng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "向: hướng về/về phía. 向 trong 向窗边走 nêu hướng đi; khác 像 là giống. Không dùng 向 thay 像 trong nhận xét ngoại hình. Hãy đi hai bước về phía cửa sổ."
+    },
+    {
+      "id": "l364-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l364-v1-e4",
+      "senseId": "l364-v-895-sense",
+      "accepted": [
+        "像"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "像: giống/tựa như. 像 trong 她像姐姐 là giống chị; không phải hướng di chuyển. Chưa biết ai lớn hơn chỉ từ nét mặt giống nhau. Cô ấy trông rất giống chị."
+    },
+    {
+      "id": "l364-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l364-v1-e5",
+      "senseId": "l364-v-845-sense",
+      "accepted": [
+        "双"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "双: đôi; lượng từ vật thành cặp. 双 đếm vật thành cặp như 一双鞋; không dùng 一双照片 thay hai ảnh rời. 两只鞋 mới chắc là hai chiếc, chưa chắc cùng đôi. Trong ảnh có một đôi giày mới."
+    },
+    {
+      "id": "l364-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l364-v1-e6",
+      "senseId": "l364-v-972-sense",
+      "accepted": [
+        "方向"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 向窗边走 nêu hướng đi trong lời hướng dẫn; 像姐姐 nói giống chị, không chỉ hướng. Hai chữ đều đọc xiàng nhưng khác chữ và chức năng."
+    },
+    {
+      "id": "l364-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l364-v1-e7",
+      "senseId": "l364-v-894-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 向窗边走 nêu hướng đi trong lời hướng dẫn; 像姐姐 nói giống chị, không chỉ hướng. Hai chữ đều đọc xiàng nhưng khác chữ và chức năng."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

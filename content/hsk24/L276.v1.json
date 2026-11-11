@@ -1,0 +1,1295 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "84567f4fcc55041db083d4ef83896887bbaa15896860dafc4732120855a23450",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "travel-choice",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L276",
+    "version": 1,
+    "versionId": "l276-draft-v1",
+    "title": "Chẩn đoán mẫu chữ và ngữ cảnh · 2",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Chẩn đoán mẫu chữ và ngữ cảnh đã học; kết quả từng câu, không chứng nhận trình độ.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l202-draft-v1",
+      "l203-draft-v1",
+      "l204-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 9,
+      "physicalPage": 10,
+      "printedPage": 7,
+      "section": "task",
+      "entry": "六 / 做出选择"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-choice",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 9,
+          "physicalPage": 10,
+          "printedPage": 7,
+          "section": "task",
+          "entry": "六 / 做出选择"
+        },
+        "written": "日常言语交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-task-shopping",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "九"
+        },
+        "written": "问答商品情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 11,
+          "physicalPage": 12,
+          "printedPage": 9,
+          "section": "task",
+          "entry": "十三"
+        },
+        "written": "介绍学习情况、学习经历",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-transport",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 出行方式"
+        },
+        "written": "出行方式",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-topic-shopping",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 购物 / 商品选购"
+        },
+        "written": "商品选购",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-study",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 61,
+          "physicalPage": 62,
+          "printedPage": 59,
+          "section": "topic",
+          "entry": "教育情况 / 学习情况"
+        },
+        "written": "学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l202-v-315",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 315"
+        },
+        "written": "车站",
+        "pinyin": "chēzhàn",
+        "senseId": "l202-v-315-sense",
+        "ordinal": 315,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "l202-v-335",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 335"
+        },
+        "written": "地铁",
+        "pinyin": "dìtiě",
+        "senseId": "l202-v-335-sense",
+        "ordinal": 335,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "l202-v-346",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 346"
+        },
+        "written": "公交车",
+        "pinyin": "gōngjiāochē",
+        "senseId": "l202-v-346-sense",
+        "ordinal": 346,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "l202-v-328",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 328"
+        },
+        "written": "打车",
+        "pinyin": "dǎchē",
+        "senseId": "l202-v-328-sense",
+        "ordinal": 328,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "l203-v-353",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 353"
+        },
+        "written": "黑色",
+        "pinyin": "hēisè",
+        "senseId": "l203-v-353-sense",
+        "ordinal": 353,
+        "note": "2 hēisè 名; 黑色 là tên màu, không phải riêng vật màu đen. Thêm 的 trước danh từ: 黑色的裤子. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l203-v-355",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 355"
+        },
+        "written": "红色",
+        "pinyin": "hóngsè",
+        "senseId": "l203-v-355-sense",
+        "ordinal": 355,
+        "note": "2 hóngsè 名; 红色 chỉ màu đỏ; đừng nhầm với 红茶, tên một loại trà. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l203-v-396",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 396"
+        },
+        "written": "绿色",
+        "pinyin": "lǜsè",
+        "senseId": "l203-v-396-sense",
+        "ordinal": 396,
+        "note": "2（4） lǜsè 名、（形）; Chỉ dùng 绿色 như tên màu (danh từ) ở bài này. Không mở rộng sang các nghĩa tính từ ở cấp cao hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l203-v-466",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 466"
+        },
+        "written": "颜色",
+        "pinyin": "yánsè",
+        "senseId": "l203-v-466-sense",
+        "ordinal": 466,
+        "note": "2 yánsè 名; Hỏi màu dùng 什么颜色. 颜色 không phải từ chỉ một màu cụ thể. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l203-v-383",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 383"
+        },
+        "written": "裤子",
+        "pinyin": "kùzi",
+        "senseId": "l203-v-383-sense",
+        "ordinal": 383,
+        "note": "2 kùzi 名; Đếm quần với 条: 一条裤子. 子 đọc nhẹ. 条 được giải thích hỗ trợ ở đây, sẽ luyện riêng trong bài mua đồ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l203-v-434",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 434"
+        },
+        "written": "手表",
+        "pinyin": "shǒubiǎo",
+        "senseId": "l203-v-434-sense",
+        "ordinal": 434,
+        "note": "2 shǒubiǎo 名; 手表 đeo trên tay, không dùng thay cho mọi loại đồng hồ. 手 là tay, 表 trong từ này chỉ đồng hồ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l204-v-435",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 435"
+        },
+        "written": "书包",
+        "pinyin": "shūbāo",
+        "senseId": "l204-v-435-sense",
+        "ordinal": 435,
+        "note": "2 shūbāo 名; 书包 là cặp dùng mang sách vở; không dùng thay cho mọi loại túi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l204-v-368",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 368"
+        },
+        "written": "教室",
+        "pinyin": "jiàoshì",
+        "senseId": "l204-v-368-sense",
+        "ordinal": 368,
+        "note": "2 jiàoshì 名; 教室 đọc jiàoshì; chữ 教 trong từ này đọc jiào, khác động từ 教 jiāo ở dưới. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l204-v-442",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 442"
+        },
+        "written": "题",
+        "pinyin": "tí",
+        "senseId": "l204-v-442-sense",
+        "ordinal": 442,
+        "note": "2 tí 名; 题 dùng cho câu/bài cần làm trong bài tập, không phải mọi câu hỏi giao tiếp. Hỏi ‘câu này’ dùng 这道题; 道 là lượng từ hỗ trợ SUPPLEMENTARY, cấp chưa kiểm chứng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l204-v-381",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 381"
+        },
+        "written": "考试",
+        "pinyin": "kǎoshì",
+        "senseId": "l204-v-381-sense",
+        "ordinal": 381,
+        "note": "2 kǎoshì 动、名; 考试 có thể là việc thi hoặc một kỳ thi; 明天有考试 nói ngày mai có bài kiểm tra. Không suy ra đây là kỳ HSK chính thức. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l204-v-367",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 367"
+        },
+        "written": "教",
+        "pinyin": "jiāo",
+        "senseId": "l204-v-367-sense",
+        "ordinal": 367,
+        "note": "2 jiāo 动; Động từ dạy đọc jiāo: 教我们中文. Không đọc jiào như trong 教室. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l204-v-337",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 337"
+        },
+        "written": "懂",
+        "pinyin": "dǒng",
+        "senseId": "l204-v-337-sense",
+        "ordinal": 337,
+        "note": "2 dǒng 动; 懂 nói hiểu nội dung hoặc lời nói; 不懂 có thể nói chưa hiểu nói chung, 没看懂 nói lần đọc chưa hiểu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l204-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "道",
+        "pinyin": "dào",
+        "senseId": "l204-extra0-sense",
+        "ordinal": null,
+        "note": "Lượng từ cho câu bài tập; cấp chưa kiểm chứng, không tính vào mục từ mục tiêu."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-zhan",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "115"
+        },
+        "written": "站",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 115,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-char-tie",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "86"
+        },
+        "written": "铁",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 86,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-char-26",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "26"
+        },
+        "written": "黑",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 26,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-70",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "70"
+        },
+        "written": "色",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 70,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-27",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "27"
+        },
+        "written": "红",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 27,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-54",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "54"
+        },
+        "written": "绿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 54,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-101",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "101"
+        },
+        "written": "颜",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 101,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-44",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "44"
+        },
+        "written": "裤",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 44,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-6",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "6"
+        },
+        "written": "表",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 6,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-34",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "34"
+        },
+        "written": "教",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 34,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-75",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "75"
+        },
+        "written": "室",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 75,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-43",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "43"
+        },
+        "written": "考",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 43,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-74",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "74"
+        },
+        "written": "试",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 74,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-18",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "18"
+        },
+        "written": "懂",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 18,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-alternative",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "句类 / 疑问句"
+        },
+        "written": "用“还是”连接的选择问句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-g-de-phrase",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "短语 / 其他结构类型 / (1)"
+        },
+        "written": "（1）“的”字短语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-g-result",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "补语 / 结果补语1"
+        },
+        "written": "动词+错/懂/好/会/完",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l202-c1",
+      "version": 1,
+      "senseId": "l202-v-335-sense",
+      "hanzi": "地铁",
+      "dictionaryPinyin": "dì tiě",
+      "meaning": "tàu điện ngầm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l202-v-335"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l203-c4",
+      "version": 1,
+      "senseId": "l203-v-383-sense",
+      "hanzi": "裤子",
+      "dictionaryPinyin": "kù zi",
+      "meaning": "quần",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l203-v-383"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l203-c5",
+      "version": 1,
+      "senseId": "l203-v-434-sense",
+      "hanzi": "手表",
+      "dictionaryPinyin": "shǒu biǎo",
+      "meaning": "đồng hồ đeo tay",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l203-v-434"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l204-c1",
+      "version": 1,
+      "senseId": "l204-v-368-sense",
+      "hanzi": "教室",
+      "dictionaryPinyin": "jiào shì",
+      "meaning": "phòng học",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l204-v-368"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l204-c3",
+      "version": 1,
+      "senseId": "l204-v-381-sense",
+      "hanzi": "考试",
+      "dictionaryPinyin": "kǎo shì",
+      "meaning": "kiểm tra hoặc kỳ thi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l204-v-381"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l204-c5",
+      "version": 1,
+      "senseId": "l204-v-337-sense",
+      "hanzi": "懂",
+      "dictionaryPinyin": "dǒng",
+      "meaning": "hiểu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l204-v-337"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l276-guide",
+      "type": "teaching",
+      "title": "Chẩn đoán mẫu · không phải đề HSK",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l276-reminder0",
+      "type": "teaching",
+      "title": "Phương tiện và điểm đến",
+      "text": "车站 là ga/trạm xe, cần đọc ngữ cảnh để biết loại trạm. 地铁 là tàu điện ngầm; 公交车 là xe buýt công cộng. Nói 坐地铁, 坐公交车. 打车 tự mang nghĩa bắt taxi/gọi xe; không hiểu thành ‘đánh xe’.",
+      "hanzi": "我们坐地铁去车站。他打车去。",
+      "pinyin": "Wǒmen zuò dìtiě qù chēzhàn. Tā dǎchē qù.",
+      "meaning": "Chúng tôi đi tàu điện ngầm đến ga. Anh ấy đi bằng taxi/xe gọi.",
+      "readingMinutes": 3
+    },
+    {
+      "id": "l276-reminder1",
+      "type": "teaching",
+      "title": "黑色 · màu đen",
+      "text": "黑色 là tên màu, không phải riêng vật màu đen. Thêm 的 trước danh từ: 黑色的裤子.",
+      "hanzi": "我想买黑色的裤子。",
+      "pinyin": "Wǒ xiǎng mǎi hēisè de kùzi.",
+      "meaning": "Tôi muốn mua quần màu đen.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l276-reminder2",
+      "type": "teaching",
+      "title": "手表 · đồng hồ đeo tay",
+      "text": "手表 đeo trên tay, không dùng thay cho mọi loại đồng hồ. 手 là tay, 表 trong từ này chỉ đồng hồ.",
+      "hanzi": "我的手表在桌子上。",
+      "pinyin": "Wǒ de shǒubiǎo zài zhuōzi shang.",
+      "meaning": "Đồng hồ đeo tay của tôi ở trên bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l276-reminder3",
+      "type": "teaching",
+      "title": "教室 · phòng học",
+      "text": "教室 đọc jiàoshì; chữ 教 trong từ này đọc jiào, khác động từ 教 jiāo ở dưới.",
+      "hanzi": "学生都在教室里。",
+      "pinyin": "Xuésheng dōu zài jiàoshì li.",
+      "meaning": "Các học sinh đều ở trong phòng học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l276-reminder4",
+      "type": "teaching",
+      "title": "考试 · kiểm tra hoặc kỳ thi",
+      "text": "考试 có thể là việc thi hoặc một kỳ thi; 明天有考试 nói ngày mai có bài kiểm tra. Không suy ra đây là kỳ HSK chính thức.",
+      "hanzi": "我们明天有考试。",
+      "pinyin": "Wǒmen míngtiān yǒu kǎoshì.",
+      "meaning": "Ngày mai chúng tôi có bài kiểm tra.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l276-reminder5",
+      "type": "teaching",
+      "title": "题 · câu hỏi hoặc bài toán trong bài tập",
+      "text": "题 dùng cho câu/bài cần làm trong bài tập, không phải mọi câu hỏi giao tiếp. Hỏi ‘câu này’ dùng 这道题; 道 là lượng từ hỗ trợ SUPPLEMENTARY, cấp chưa kiểm chứng.",
+      "hanzi": "这道题我没看懂。",
+      "pinyin": "Zhè dào tí wǒ méi kàn dǒng.",
+      "meaning": "Câu bài tập này tôi đọc chưa hiểu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l276-context0",
+      "type": "teaching",
+      "title": "Đọc tin nhắn hẹn đi",
+      "text": "Chú ý phân biệt kế hoạch của người nói và người được nhắc tới. Hai người chọn tàu điện ngầm, còn anh trai đi bằng taxi/xe gọi. Đoạn văn không cung cấp giá vé hay thời gian đến.",
+      "hanzi": "甲：我们怎么去车站？坐地铁还是坐公交车？乙：坐地铁吧。甲：好。我哥哥打车去。",
+      "pinyin": "Jiǎ: Wǒmen zěnme qù chēzhàn? Zuò dìtiě háishi zuò gōngjiāochē? Yǐ: Zuò dìtiě ba. Jiǎ: Hǎo. Wǒ gēge dǎchē qù.",
+      "meaning": "A: Chúng ta đến ga thế nào? Tàu điện ngầm hay xe buýt? B: Đi tàu điện ngầm nhé. A: Được. Anh trai tôi đi taxi/xe gọi.",
+      "readingMinutes": 3
+    },
+    {
+      "id": "l276-context1",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：你想买什么颜色的裤子？乙：黑色的。甲：这条怎么样？乙：很好。我还想看手表。",
+      "pinyin": "Jiǎ: Nǐ xiǎng mǎi shénme yánsè de kùzi? Yǐ: Hēisè de. Jiǎ: Zhè tiáo zěnmeyàng? Yǐ: Hěn hǎo. Wǒ hái xiǎng kàn shǒubiǎo.",
+      "meaning": "A: Bạn muốn mua quần màu gì? B: Màu đen. A: Chiếc này thế nào? B: Tốt. Tôi còn muốn xem đồng hồ đeo tay.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l276-context2",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "老师：明天有考试。学生：老师，这道题我没看懂。老师：我们一起看。学生：好，我的书在书包里。",
+      "pinyin": "Lǎoshī: Míngtiān yǒu kǎoshì. Xuésheng: Lǎoshī, zhè dào tí wǒ méi kàn dǒng. Lǎoshī: Wǒmen yìqǐ kàn. Xuésheng: Hǎo, wǒ de shū zài shūbāo li.",
+      "meaning": "Giáo viên: Ngày mai có bài kiểm tra. Học sinh: Thầy/cô ơi, em đọc câu này chưa hiểu. Giáo viên: Chúng ta cùng xem. Học sinh: Vâng, sách của em ở trong cặp.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l276-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l276-e0"
+    },
+    {
+      "id": "l276-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l276-e1"
+    },
+    {
+      "id": "l276-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l276-e2"
+    },
+    {
+      "id": "l276-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l276-e3"
+    },
+    {
+      "id": "l276-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l276-e4"
+    },
+    {
+      "id": "l276-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l276-e5"
+    },
+    {
+      "id": "l276-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l276-e6"
+    },
+    {
+      "id": "l276-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l276-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l276-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l202-c1",
+      "senseId": "l202-v-335-sense",
+      "keyRef": "l276-k0",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “tàu điện ngầm” (dì tiě) viết 地□. Điền chữ nào vào □?",
+      "choices": [
+        "为",
+        "位",
+        "舞",
+        "铁"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l276-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l203-c4",
+      "senseId": "l203-v-383-sense",
+      "keyRef": "l276-k1",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “quần” (kù zi) viết □子. Điền chữ nào vào □?",
+      "choices": [
+        "旅",
+        "绿",
+        "裤",
+        "路"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l276-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l203-c5",
+      "senseId": "l203-v-434-sense",
+      "keyRef": "l276-k2",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “đồng hồ đeo tay” (shǒu biǎo) viết 手□. Điền chữ nào vào □?",
+      "choices": [
+        "等",
+        "表",
+        "但",
+        "地"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l276-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l204-c1",
+      "senseId": "l204-v-368-sense",
+      "keyRef": "l276-k3",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “phòng học” (jiào shì) viết 教□. Điền chữ nào vào □?",
+      "choices": [
+        "室",
+        "踢",
+        "体",
+        "跳"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l276-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l204-c3",
+      "senseId": "l204-v-381-sense",
+      "keyRef": "l276-k4",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “kiểm tra hoặc kỳ thi” (kǎo shì) viết 考□. Điền chữ nào vào □?",
+      "choices": [
+        "疼",
+        "踢",
+        "体",
+        "试"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l276-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l204-c5",
+      "senseId": "l204-v-337-sense",
+      "keyRef": "l276-k5",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “hiểu” (dǒng) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "红",
+        "花",
+        "懂",
+        "黑"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l276-e6",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l204-c3",
+      "senseId": "l204-v-381-sense",
+      "keyRef": "l276-k6",
+      "prompt": "Ôn ngữ cảnh đã học · 7: Xếp câu: thầy/cô Vương dạy chúng tôi tiếng Trung.",
+      "choices": [
+        "中文",
+        "教",
+        "王老师",
+        "我们"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l276-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l204-c3",
+      "senseId": "l204-v-381-sense",
+      "keyRef": "l276-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Trong câu “我们明天有考试。”, 考试 mang nghĩa nào?",
+      "choices": [
+        "cặp sách",
+        "phòng học",
+        "câu hỏi hoặc bài toán trong bài tập",
+        "kiểm tra hoặc kỳ thi",
+        "dạy",
+        "hiểu"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l276-k0",
+      "version": 1,
+      "exerciseVersionId": "l276-e0",
+      "senseId": "l202-v-335-sense",
+      "accepted": [
+        "铁"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "地铁 · dì tiě · tàu điện ngầm. Chữ cần nhận diện là 铁."
+    },
+    {
+      "id": "l276-k1",
+      "version": 1,
+      "exerciseVersionId": "l276-e1",
+      "senseId": "l203-v-383-sense",
+      "accepted": [
+        "裤"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "裤子 · kù zi · quần. Chữ cần nhận diện là 裤."
+    },
+    {
+      "id": "l276-k2",
+      "version": 1,
+      "exerciseVersionId": "l276-e2",
+      "senseId": "l203-v-434-sense",
+      "accepted": [
+        "表"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "手表 · shǒu biǎo · đồng hồ đeo tay. Chữ cần nhận diện là 表."
+    },
+    {
+      "id": "l276-k3",
+      "version": 1,
+      "exerciseVersionId": "l276-e3",
+      "senseId": "l204-v-368-sense",
+      "accepted": [
+        "室"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "教室 · jiào shì · phòng học. Chữ cần nhận diện là 室."
+    },
+    {
+      "id": "l276-k4",
+      "version": 1,
+      "exerciseVersionId": "l276-e4",
+      "senseId": "l204-v-381-sense",
+      "accepted": [
+        "试"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "考试 · kǎo shì · kiểm tra hoặc kỳ thi. Chữ cần nhận diện là 试."
+    },
+    {
+      "id": "l276-k5",
+      "version": 1,
+      "exerciseVersionId": "l276-e5",
+      "senseId": "l204-v-337-sense",
+      "accepted": [
+        "懂"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "懂 · dǒng · hiểu. Chữ cần nhận diện là 懂."
+    },
+    {
+      "id": "l276-k6",
+      "version": 1,
+      "exerciseVersionId": "l276-e6",
+      "senseId": "l204-v-381-sense",
+      "accepted": [
+        "2,1,3,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. Đặt 懂 sau 看 hoặc 听 để nói đạt kết quả hiểu: 看懂 là đọc xem và hiểu. 没看懂 nghĩa là đã đọc nhưng chưa hiểu; không dùng 不看懂 để kể kết quả chưa đạt của lần đọc này."
+    },
+    {
+      "id": "l276-k7",
+      "version": 1,
+      "exerciseVersionId": "l276-e7",
+      "senseId": "l204-v-381-sense",
+      "accepted": [
+        "kiểm tra hoặc kỳ thi"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "考试: kiểm tra hoặc kỳ thi. 考试 có thể là việc thi hoặc một kỳ thi; 明天有考试 nói ngày mai có bài kiểm tra. Không suy ra đây là kỳ HSK chính thức. Ngày mai chúng tôi có bài kiểm tra."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

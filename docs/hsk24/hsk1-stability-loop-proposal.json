@@ -1,0 +1,122 @@
+{
+  "kind": "PROPOSAL_ONLY_NOT_ACTIVATED_NOT_A_CONTROLLER_PACKET",
+  "taskFamily": "T052",
+  "scope": "Bounded local HSK1 catalog error-handling and regression evidence; not whole T052 or authoring.",
+  "reviewBase": "9c10241001d47013662c3556c62021be1076f123",
+  "reviewedRuntimeCommit": "57aa693410ac4da4ba17a8f753e1515522a95a02",
+  "pinnedSourceMain": "ad7f4c59442b89701e5e41cd6a120284532c1650",
+  "sourceHashes": {
+    "master-plan-v1.1.md": "0984cfc38e4b91c5ed214c8e6003434536d9904072164f28f4e0ffd48c8bf47e",
+    "task-status.json": "9b86effd184577ed7f99fd3efa7c3a6a0c1e0232ec641709622d9465bfbadca6",
+    "source-manifest.json": "09164bc3939f45f47386401ebc7fe97e39029e95dc7c4c21a195ee105be02b72"
+  },
+  "actualLoop": {
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "policies": [
+      "T004",
+      "T005",
+      "T068"
+    ],
+    "control": {
+      "pause": false,
+      "stop": true,
+      "changedAt": "2026-10-14T10:03:53.852Z"
+    }
+  },
+  "officialLoopRunCreated": false,
+  "officialTaskStatusChanged": false,
+  "primaryDependencies": [
+    {
+      "id": "T026",
+      "status": "pending"
+    },
+    {
+      "id": "T009",
+      "status": "pending"
+    }
+  ],
+  "traceability": [
+    {
+      "id": "T012",
+      "status": "pending"
+    },
+    {
+      "id": "T013",
+      "status": "pending"
+    },
+    {
+      "id": "T015",
+      "status": "pending"
+    },
+    {
+      "id": "T017",
+      "status": "pending"
+    },
+    {
+      "id": "T021",
+      "status": "pending"
+    },
+    {
+      "id": "T025",
+      "status": "pending"
+    },
+    {
+      "id": "T043",
+      "status": "pending"
+    },
+    {
+      "id": "T044",
+      "status": "pending"
+    },
+    {
+      "id": "T045",
+      "status": "pending"
+    },
+    {
+      "id": "T069",
+      "status": "pending"
+    },
+    {
+      "id": "T053",
+      "status": "pending"
+    }
+  ],
+  "requirementsBeforeActivation": [
+    "Reconcile unintegrated application baseline with main without replacing newer Loop modules.",
+    "Owner-approved bounded task instance/acceptance policy and explicit permitted task grant; T052policy absent.",
+    "Dependency and applicable owner/human gates; source/policy/base hashes and allowed files pinned.",
+    "Fresh exact-SHA independent controller review; no autoMerge/status write or fabricated run."
+  ],
+  "manualReview": {
+    "firstCommit": "b09cf3501f23400594790e968e0f96fcedac6377",
+    "firstVerdict": "REWORK",
+    "repairCount": 1,
+    "reviewedCommit": "57aa693410ac4da4ba17a8f753e1515522a95a02",
+    "verdict": "PASS - manual read-only technical review only",
+    "reviewer": "stability_code_review"
+  },
+  "proposedAllowedFiles": [
+    "playwright.hsk24.config.ts",
+    "scripts/check-catalog-http.mjs",
+    "src/app/api/local/curriculum/route.ts",
+    "src/modules/content/ui/api.ts",
+    "src/modules/curriculum/ui/courses.tsx",
+    "tests/database/catalog-stability.test.ts",
+    "tests/hsk24-browser/catalog-stability.spec.ts",
+    "tests/unit/content-request.test.ts",
+    "docs/hsk24/hsk1-stability-report.md",
+    "docs/hsk24/hsk1-stability-report.json",
+    "docs/hsk24/hsk1-stability-pr-draft.md",
+    "docs/hsk24/hsk1-stability-loop-proposal.json"
+  ],
+  "proposedAcceptance": [
+    "Unit request and full existing suite",
+    "Selected native PostgreSQL grading/FSRS/progress/Today regression and real absent-database negative control",
+    "Desktop/mobile cold-first and warm catalog, explicit network/timeout/503 and manual-retry states, L1152 lesson/navigation/Today",
+    "Typecheck/lint/build, source and historical row-hash preservation",
+    "Requires separately authorized acceptance policy/environment; these are proposal descriptions, not activated controller checks"
+  ]
+}

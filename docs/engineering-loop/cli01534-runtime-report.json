@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-16T16:54:01.039Z",
+  "status": "BLOCKED",
+  "startingHead": "443398d4cff22c2b4072df5e48382ce98529f69a",
+  "testedCodeCommit": "393a2641751fa9acdf36862fe4f8888deedd1a57",
+  "taskScope": "PR #5 exact-warning classification and CLI0.153.4 model-evidence policy only",
+  "sourceVerification": {
+    "installedCli": "codex-cli 0.153.4",
+    "tag": "rust-v0.153.4",
+    "sourceHashes": {
+      "exec_events.rs": "c404928e0f2a463e19d1b263081c9d5e0380aec9f651a05ee0766f7bb7527f32",
+      "event_processor_with_jsonl_output.rs": "2f71fbf8a1b0a79bd342ed3c9caa414f1c5e06d9e52d6a94461799f304a9f255",
+      "render.rs": "139e0af686ff573fc80f663eadbf43c6ff72f2e3ff3805bba0b00da2dbcbdb68"
+    },
+    "exactExpectedWarningEqualsSourceConstant": true,
+    "warningRecognition": "Full string equality in memory and exact item.completed envelope; no byte-count/keyword heuristic; raw runtime message never retained",
+    "expectedWarningConstantSha256": "fc8b11e543ce98ea9a4fdac7644fac927682f7ca40dd302954d2414421f5de6b"
+  },
+  "validation": {
+    "passed": 148,
+    "failed": 0,
+    "noInference": true,
+    "junit": ".engineering-loop/pr5-runtime-regressions.xml",
+    "junitSha256": "092eb1c44075d6c0a934c2258d40ea24e190987b374ca2456260a67a9db48c5a",
+    "legacyPassed": 18,
+    "legacyTotal": 18,
+    "legacyArtifact": ".engineering-loop/pr5-runtime-legacy.json",
+    "whitespace": "PASS",
+    "coverage": [
+      "Exact warning and near/same-length/additional-text rejection",
+      "Unknown errors, reroute, tool/write/delegation and malformed stream stay blocked",
+      "Independent config/sandbox/argument/unclassified stderr gate after a valid warning",
+      "Completed turn, JSON schema, exit0 and valid usage each required",
+      "Requested/catalog/actual evidence stays distinct; synthetic schema-extension fields never verify this pinned smoke model",
+      "Existing grant expiry/ledger/pinning/repair/quota/adoption regression suites"
+    ]
+  },
+  "verified": {
+    "warningNoLongerStopsHarness": true,
+    "exactWarningAcceptedCount": 1,
+    "eventsSeen": 5,
+    "eventPolicyRejections": 0,
+    "turnCompleted": true,
+    "structuredResult": {
+      "ok": true
+    },
+    "structuredSchemaValid": true,
+    "exitCode": 0,
+    "inputTokens": 16501,
+    "cachedInputTokens": 0,
+    "outputTokens": 15,
+    "totalTokens": 16516,
+    "tokenSource": "turn.completed",
+    "observedToolCalls": 0,
+    "oneCliProcessOnly": true,
+    "noOrchestratorRetryOrFallback": true,
+    "quotaScope": "shared-account",
+    "quotaReservePercent": 20,
+    "quotaBefore": {
+      "checkedAt": "2026-10-16T16:52:38.549Z",
+      "model": "gpt-5.6-luna",
+      "quotaScope": "shared-account",
+      "modelQuotaVerified": false,
+      "remainingPercent": 52,
+      "usablePercent": 32,
+      "reservePercent": 20,
+      "buckets": [
+        {
+          "id": "codex",
+          "windows": [
+            {
+              "usedPercent": 30,
+              "remainingPercent": 70,
+              "resetsAt": 1792175935,
+              "windowDurationMins": 300
+            },
+            {
+              "usedPercent": 48,
+              "remainingPercent": 52,
+              "resetsAt": 1792650357,
+              "windowDurationMins": 10080
+            }
+          ]
+        }
+      ],
+      "reserveReached": false,
+      "chatgptOnly": true,
+      "hasCredits": false,
+      "balance": "0",
+      "ordinaryQuotaAvailable": true,
+      "resetCreditsUsed": false
+    },
+    "quotaAfter": {
+      "checkedAt": "2026-10-16T16:52:43.931Z",
+      "model": "gpt-5.6-luna",
+      "quotaScope": "shared-account",
+      "modelQuotaVerified": false,
+      "remainingPercent": 52,
+      "usablePercent": 32,
+      "reservePercent": 20,
+      "buckets": [
+        {
+          "id": "codex",
+          "windows": [
+            {
+              "usedPercent": 30,
+              "remainingPercent": 70,
+              "resetsAt": 1792175935,
+              "windowDurationMins": 300
+            },
+            {
+              "usedPercent": 48,
+              "remainingPercent": 52,
+              "resetsAt": 1792650357,
+              "windowDurationMins": 10080
+            }
+          ]
+        }
+      ],
+      "reserveReached": false,
+      "chatgptOnly": true,
+      "hasCredits": false,
+      "balance": "0",
+      "ordinaryQuotaAvailable": true,
+      "resetCreditsUsed": false
+    },
+    "quotaDelta": [
+      {
+        "bucket": "codex",
+        "windowDurationMins": 300,
+        "usedBefore": 30,
+        "usedAfter": 30,
+        "usedPercentagePointDelta": 0
+      },
+      {
+        "bucket": "codex",
+        "windowDurationMins": 10080,
+        "usedBefore": 48,
+        "usedAfter": 48,
+        "usedPercentagePointDelta": 0
+      }
+    ],
+    "quotaSavingProven": false
+  },
+  "unverified": {
+    "stderr": {
+      "bytes": 158,
+      "classification": "STDERR_UNCLASSIFIED",
+      "explanation": "The existing secret-safe projection did not establish what this stderr means. It is not waived because a known warning or successful output occurred.",
+      "inferredModelFailure": false
+    },
+    "actualModel": null,
+    "actualModelVerified": false,
+    "actualReasoningEffort": null,
+    "actualIdentityChannel": "Not exposed by the supported exec JSONL schema",
+    "fullRuntimePolicyVerification": false,
+    "independentFullCandidateReview": "NOT_RUN"
+  },
+  "modelAssurancePolicy": {
+    "current": "strict actual-model identity gate unchanged",
+    "proposedAlternative": "routing constraints verified from fresh catalogue, exact argv, ChatGPT auth, zero credits, quota and reroute detection; never label this actual identity",
+    "alternativeAuthorized": false,
+    "alternativeActivated": false,
+    "document": "docs/engineering-loop/cli01534-runtime-policy.md"
+  },
+  "blockers": [
+    "Independent stderr classification is incomplete (158 bytes), so full smoke runtime verification is false despite completed valid output/usage and exit0.",
+    "Required actual-model identity remains unverified; replacement assurance is only a proposal without authorization.",
+    "Runtime/model-safety gates are incomplete; no independent full-candidate bootstrap review was invoked."
+  ],
+  "safety": {
+    "diagnosticCliProcesses": 1,
+    "additionalModelRunsAfterSmoke": 0,
+    "reviewerCalls": 0,
+    "subagents": 0,
+    "realBacklogRuns": 0,
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "grantsUnchanged": true,
+    "quotaReservePercent": 20,
+    "pr6Head": "27e7184c89f73d8e6c2d5eaf8da6ed8231b882ef",
+    "pr6Unchanged": true,
+    "pr6Merged": false,
+    "p1p2GrantLedgerPinningAndAdoptionUnchanged": true,
+    "ssotUnchanged": true,
+    "deployed": false,
+    "paidApiOrCredits": false
+  },
+  "evidence": {
+    "receipt": "docs/engineering-loop/cli01534-runtime-receipt.json",
+    "preflight": ".engineering-loop/pr5-runtime-preflight.json",
+    "publication": ".engineering-loop/pr5-runtime-publication.json"
+  },
+  "delivery": {
+    "branch": "loop/adaptive-model-routing",
+    "pr": "https://github.com/NguyenChiBinh267/Chinese-Study-Hub/pull/5",
+    "finalEvidenceCommitDocsOnly": true
+  }
+}

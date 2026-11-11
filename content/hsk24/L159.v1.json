@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "f206062d03a683b439d9386903459f63f1dd4552b1b2b174a233fa069933333f",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-bc",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L159",
+    "version": 1,
+    "versionId": "l159-draft-v1",
+    "title": "Hỏi giá và chọn món vừa túi",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Hỏi giá và chọn món vừa túi; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "钱数表示法"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 6,
+      "physicalPage": 7,
+      "printedPage": 4,
+      "section": "task",
+      "entry": "九"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:17:43.136427Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-shop",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 6,
+          "physicalPage": 7,
+          "printedPage": 4,
+          "section": "task",
+          "entry": "九"
+        },
+        "written": "问答商品信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-463d570c15bd",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "商品价格"
+        },
+        "written": "商品价格",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l159-v-157",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 157"
+        },
+        "written": "便宜",
+        "pinyin": "piányi",
+        "senseId": "l159-v-157-sense",
+        "ordinal": 157,
+        "note": "1 piányi 形; 便宜 trong ví dụ đọc pián yi, không dùng biàn theo một nghĩa khác của chữ 便. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l159-v-268",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 268"
+        },
+        "written": "元",
+        "pinyin": "yuán",
+        "senseId": "l159-v-268-sense",
+        "ordinal": 268,
+        "note": "1 yuán 量; 元 trong 十元 là đơn vị tiền của ví dụ, không phải tỷ giá hay báo giá thật. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l159-v-105",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 105"
+        },
+        "written": "块",
+        "pinyin": "kuài",
+        "senseId": "l159-v-105-sense",
+        "ordinal": 105,
+        "note": "1 kuài 量; 块 ở đây là cách nói đơn vị tiền, khác mọi nghĩa khối/miếng ở ngữ cảnh khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l159-v-47",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 47"
+        },
+        "written": "多少",
+        "pinyin": "duōshao",
+        "senseId": "l159-v-47-sense",
+        "ordinal": 47,
+        "note": "1 duōshao 代; 多少 hỏi số lượng/giá; trong 多少钱 là giá bao nhiêu tiền. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-13",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "13"
+        },
+        "written": "便",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 13,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-215",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "215"
+        },
+        "written": "宜",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 215,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-223",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "223"
+        },
+        "written": "元",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 223,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-95",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "95"
+        },
+        "written": "块",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 95,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-41",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "41"
+        },
+        "written": "多",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 41,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-150",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "150"
+        },
+        "written": "少",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 150,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-159",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 387,
+          "physicalPage": 388,
+          "printedPage": 385,
+          "section": "grammar",
+          "entry": "g-387-9"
+        },
+        "written": "钱数表示法",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l159-c0",
+      "version": 1,
+      "senseId": "l159-v-157-sense",
+      "hanzi": "便宜",
+      "dictionaryPinyin": "pián yi",
+      "meaning": "rẻ; không đắt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l159-v-157"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l159-c1",
+      "version": 1,
+      "senseId": "l159-v-268-sense",
+      "hanzi": "元",
+      "dictionaryPinyin": "yuán",
+      "meaning": "đồng/nguyên (đơn vị yuán trong ví dụ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l159-v-268"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l159-c2",
+      "version": 1,
+      "senseId": "l159-v-105-sense",
+      "hanzi": "块",
+      "dictionaryPinyin": "kuài",
+      "meaning": "đồng (cách nói kuài trong ví dụ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l159-v-105"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l159-c3",
+      "version": 1,
+      "senseId": "l159-v-47-sense",
+      "hanzi": "多少",
+      "dictionaryPinyin": "duō shao",
+      "meaning": "bao nhiêu (dạng duōshao)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l159-v-47"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l159-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l159-t0",
+      "type": "teaching",
+      "title": "便宜 · rẻ; không đắt",
+      "text": "便宜 trong ví dụ đọc pián yi, không dùng biàn theo một nghĩa khác của chữ 便.",
+      "hanzi": "这本书很便宜。",
+      "pinyin": "Zhè běn shū hěn pián yi.",
+      "meaning": "Quyển sách này rẻ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l159-t1",
+      "type": "teaching",
+      "title": "元 · đồng/nguyên (đơn vị yuán trong ví dụ)",
+      "text": "元 trong 十元 là đơn vị tiền của ví dụ, không phải tỷ giá hay báo giá thật.",
+      "hanzi": "这本书十元。",
+      "pinyin": "Zhè běn shū shí yuán.",
+      "meaning": "Quyển sách này10nguyên trong truyện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l159-t2",
+      "type": "teaching",
+      "title": "块 · đồng (cách nói kuài trong ví dụ)",
+      "text": "块 ở đây là cách nói đơn vị tiền, khác mọi nghĩa khối/miếng ở ngữ cảnh khác.",
+      "hanzi": "这本书十块钱。",
+      "pinyin": "Zhè běn shū shí kuài qián.",
+      "meaning": "Quyển sách này10đồng trong truyện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l159-t3",
+      "type": "teaching",
+      "title": "多少 · bao nhiêu (dạng duōshao)",
+      "text": "多少 hỏi số lượng/giá; trong 多少钱 là giá bao nhiêu tiền.",
+      "hanzi": "这本书多少钱？",
+      "pinyin": "Zhè běn shū duō shao qián?",
+      "meaning": "Quyển sách này bao nhiêu tiền?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l159-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "多少钱 hỏi giá bao nhiêu tiền. Trong ví dụ nhân dân tệ, 元 là tên đơn vị thường ghi viết, 块 là cách nói thường dùng cho cùng đơn vị; không đưa tỷ giá hoặc yêu cầu giao dịch. 便宜 là rẻ theo tình huống. Các đề từ vựng chỉ rõ âm để phân biệt từ gần nghĩa.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l159-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：这本书多少钱？\nB：十块钱。\nA：贵吗？\nB：不贵，很便宜。",
+      "pinyin": "A: Zhè běn shū duō shao qián? B: Shí kuài qián. A: Guì ma? B: Bú guì, hěn pián yi.",
+      "meaning": "Giá10đồng là giá hư cấu bằng đơn vị nhân dân tệ của bài; B nói không đắt. Không có tỷ giá, giá thật hay thao tác mua.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l159-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l159-v1-e0"
+    },
+    {
+      "id": "l159-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l159-v1-e1"
+    },
+    {
+      "id": "l159-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l159-v1-e2"
+    },
+    {
+      "id": "l159-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l159-v1-e3"
+    },
+    {
+      "id": "l159-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l159-v1-e4"
+    },
+    {
+      "id": "l159-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l159-v1-e5"
+    },
+    {
+      "id": "l159-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l159-v1-e6"
+    },
+    {
+      "id": "l159-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l159-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l159-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l159-c0",
+      "senseId": "l159-v-157-sense",
+      "keyRef": "l159-v1-k0",
+      "prompt": "Chọn mục từ đọc pián yi, nghĩa “rẻ; không đắt”, trong câu: 这本书很□。",
+      "choices": [
+        "元",
+        "块",
+        "多少",
+        "便宜"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l159-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l159-c1",
+      "senseId": "l159-v-268-sense",
+      "keyRef": "l159-v1-k1",
+      "prompt": "Viết pinyin từ điển của 元 (đồng/nguyên (đơn vị yuán trong ví dụ)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l159-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l159-c2",
+      "senseId": "l159-v-105-sense",
+      "keyRef": "l159-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “đồng (cách nói kuài trong ví dụ)”: □ (kuài). Ngữ cảnh: 这本书十□钱。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "缺",
+        "块",
+        "快",
+        "决"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l159-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l159-c3",
+      "senseId": "l159-v-47-sense",
+      "keyRef": "l159-v1-k3",
+      "prompt": "Chọn mục từ đọc duō shao, nghĩa “bao nhiêu (dạng duōshao)”, trong câu: 这本书□钱？",
+      "choices": [
+        "便宜",
+        "元",
+        "块",
+        "多少"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l159-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l159-c2",
+      "senseId": "l159-v-105-sense",
+      "keyRef": "l159-v1-k4",
+      "prompt": "Trong câu “这本书十块钱。”, 块 mang nghĩa nào theo bài?",
+      "choices": [
+        "đồng/nguyên (đơn vị yuán trong ví dụ)",
+        "đồng (cách nói kuài trong ví dụ)",
+        "bao nhiêu (dạng duōshao)",
+        "rẻ; không đắt"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l159-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l159-c3",
+      "senseId": "l159-v-47-sense",
+      "keyRef": "l159-v1-k5",
+      "prompt": "Trong câu “这本书多少钱？”, 多少 mang nghĩa nào theo bài?",
+      "choices": [
+        "đồng (cách nói kuài trong ví dụ)",
+        "bao nhiêu (dạng duōshao)",
+        "rẻ; không đắt",
+        "đồng/nguyên (đơn vị yuán trong ví dụ)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l159-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l159-c0",
+      "senseId": "l159-v-157-sense",
+      "keyRef": "l159-v1-k6",
+      "prompt": "Giá được B nói là bao nhiêu?",
+      "choices": [
+        "三块钱",
+        "五块钱",
+        "十块钱"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l159-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l159-c3",
+      "senseId": "l159-v-47-sense",
+      "keyRef": "l159-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "这本书",
+        "十块",
+        "钱。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l159-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l159-v1-e0",
+      "senseId": "l159-v-157-sense",
+      "accepted": [
+        "便宜"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc pián yi: 便宜. 便宜 trong ví dụ đọc pián yi, không dùng biàn theo một nghĩa khác của chữ 便. Quyển sách này rẻ."
+    },
+    {
+      "id": "l159-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l159-v1-e1",
+      "senseId": "l159-v-268-sense",
+      "accepted": [
+        "yuán"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "元 ghi yuán. 元 trong 十元 là đơn vị tiền của ví dụ, không phải tỷ giá hay báo giá thật."
+    },
+    {
+      "id": "l159-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l159-v1-e2",
+      "senseId": "l159-v-105-sense",
+      "accepted": [
+        "块"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 块 tạo từ 块. 块 ở đây là cách nói đơn vị tiền, khác mọi nghĩa khối/miếng ở ngữ cảnh khác. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l159-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l159-v1-e3",
+      "senseId": "l159-v-47-sense",
+      "accepted": [
+        "多少"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc duō shao: 多少. 多少 hỏi số lượng/giá; trong 多少钱 là giá bao nhiêu tiền. Quyển sách này bao nhiêu tiền?"
+    },
+    {
+      "id": "l159-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l159-v1-e4",
+      "senseId": "l159-v-105-sense",
+      "accepted": [
+        "đồng (cách nói kuài trong ví dụ)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "块 ở đây là cách nói đơn vị tiền, khác mọi nghĩa khối/miếng ở ngữ cảnh khác. Quyển sách này10đồng trong truyện."
+    },
+    {
+      "id": "l159-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l159-v1-e5",
+      "senseId": "l159-v-47-sense",
+      "accepted": [
+        "bao nhiêu (dạng duōshao)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "多少 hỏi số lượng/giá; trong 多少钱 là giá bao nhiêu tiền. Quyển sách này bao nhiêu tiền?"
+    },
+    {
+      "id": "l159-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l159-v1-e6",
+      "senseId": "l159-v-157-sense",
+      "accepted": [
+        "十块钱"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 十块钱. Giá10đồng là giá hư cấu bằng đơn vị nhân dân tệ của bài; B nói không đắt. Không có tỷ giá, giá thật hay thao tác mua."
+    },
+    {
+      "id": "l159-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l159-v1-e7",
+      "senseId": "l159-v-47-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 多少钱 hỏi giá bao nhiêu tiền. Trong ví dụ nhân dân tệ, 元 là tên đơn vị thường ghi viết, 块 là cách nói thường dùng cho cùng đơn vị; không đưa tỷ giá hoặc yêu cầu giao dịch. 便宜 là rẻ theo tình huống. Các đề từ vựng chỉ rõ âm để phân biệt từ gần nghĩa."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

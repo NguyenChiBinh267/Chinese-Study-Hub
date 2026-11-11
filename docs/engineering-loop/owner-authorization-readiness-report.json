@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-16T13:51:45.258Z",
+  "status": "BLOCKED",
+  "startingPr": 5,
+  "startingHead": "6faabed8acabcf9f99fe64a5a2259cc3382ca473",
+  "testedCodeCommit": "ad5ca77bd4956bdbe223eadac309a13279fb78e5",
+  "diagnosis": {
+    "facts": [
+      "CLI emitted thread.started, turn.started and item.completed/error.",
+      "Harness conservatively stopped at REPORTED_CLI_ERROR_ITEM; zero observed tool calls. Exit code 1 is not used to infer authentication, model denial or paid-quota exhaustion.",
+      "The new fixed-vocabulary projection retained error metadata without arbitrary message text. Actual model, effort, final result and usage remain absent."
+    ],
+    "sourceEvidence": [
+      {
+        "url": "https://raw.githubusercontent.com/openai/codex/rust-v0.153.4/codex-rs/exec/src/event_processor_with_jsonl_output.rs",
+        "lines": "398-411,420-465",
+        "sha256": "2f71fbf8a1b0a79bd342ed3c9caa414f1c5e06d9e52d6a94461799f304a9f255",
+        "meaning": "Nonfatal warnings/config warnings/deprecation notices can be emitted as an error item while CodexStatus remains Running."
+      },
+      {
+        "url": "https://raw.githubusercontent.com/openai/codex/rust-v0.153.4/codex-rs/ext/skills/src/render.rs",
+        "line": 25,
+        "constant": "SKILL_DESCRIPTION_TRUNCATED_WARNING",
+        "sha256": "139e0af686ff573fc80f663eadbf43c6ff72f2e3ff3805bba0b00da2dbcbdb68",
+        "templateBytes": 201,
+        "safeProjectionAndByteCountMatch": true,
+        "meaning": "Static notification about shortening skill descriptions to the context budget; does not report model access failure."
+      },
+      {
+        "url": "https://raw.githubusercontent.com/openai/codex/rust-v0.153.4/codex-rs/exec/src/exec_events.rs",
+        "lines": "36-49,122-123,283-287",
+        "meaning": "thread.started only declares thread_id, turn.started is empty, and turn.completed declares usage; none of these types promises actual model identity."
+      }
+    ],
+    "inference": "The observed error is strongly consistent with the static skill-description shortening warning. This supports a harness false stop on a warning, not proof that Luna itself failed.",
+    "limitation": "The projection is lossy. Raw error bytes were not retained, so a template match is not an exact raw-message hash match; historical missing messages remain unrecoverable. Stderr meaning is still incomplete.",
+    "rootCauseScope": "Harness stop cause confirmed; original full diagnostic text and underlying model runtime outcome remain unverified.",
+    "runtimeGate": "BLOCKED: no actual-model/usage/final-output proof. No further inference, retry, fallback or harness repair performed after this diagnostic."
+  },
+  "validation": {
+    "regressionPassed": 143,
+    "regressionFailed": 0,
+    "mockOnly": true,
+    "junit": ".engineering-loop/owner-readiness-mocks.xml",
+    "junitSha256": "b72a4127c59f59b1cf4c945e798f3a95b5bd16b45e5fceb12737713b95e2a78d",
+    "legacy": {
+      "passed": 18,
+      "total": 18,
+      "artifact": ".engineering-loop/owner-readiness-legacy.json"
+    },
+    "repairedTestFlake": "Existing timer test could wake before wall-clock equality. Subsequent expiry assertions now use an explicitly expired deadline; production expiry behavior unchanged.",
+    "whitespace": "PASS"
+  },
+  "diagnostic": {
+    "maxAuthorizedCalls": 1,
+    "actualLaunches": 1,
+    "orchestratorRetries": 0,
+    "fallbacks": 0,
+    "toolsObserved": 0,
+    "timeoutMs": 30000,
+    "exitCode": 1,
+    "actualModel": null,
+    "usage": null,
+    "receipt": "docs/engineering-loop/owner-readiness-diagnostic-receipt.json",
+    "quotaScope": "shared-account",
+    "reservePercent": 20,
+    "quotaDelta": [
+      {
+        "bucket": "codex",
+        "windowDurationMins": 300,
+        "usedBefore": 15,
+        "usedAfter": 15,
+        "usedPercentagePointDelta": 0
+      },
+      {
+        "bucket": "codex",
+        "windowDurationMins": 10080,
+        "usedBefore": 46,
+        "usedAfter": 46,
+        "usedPercentagePointDelta": 0
+      }
+    ],
+    "quotaSavingsProven": false
+  },
+  "adoption": {
+    "implemented": true,
+    "controllerWiring": "QUEUED discovery/pins → HANDOFF_CREATING → SOURCE_WAIT → REVIEW_WAIT; no generation or imported verdict",
+    "mockVerified": true,
+    "realTaskActivated": false,
+    "observedPr6": {
+      "pr": 6,
+      "url": "https://github.com/NguyenChiBinh267/Chinese-Study-Hub/pull/6",
+      "taskId": "T004",
+      "repository": "NguyenChiBinh267/Chinese-Study-Hub",
+      "branch": "feat/t004-ux-flow-slice",
+      "headSha": "27e7184c89f73d8e6c2d5eaf8da6ed8231b882ef",
+      "baseSha": "3813bda55be7b77108344de6e5cc6bd74c51f034",
+      "state": "open",
+      "draft": true,
+      "merged": false
+    },
+    "unchangedRemoteReadback": true,
+    "runtimeMappingNotActivated": true,
+    "restrictions": [
+      "Unmapped/ambiguous/incomplete candidate discovery blocks regeneration.",
+      "Only pinned same-repository open draft and exact source/HEAD/bytes can enter review.",
+      "Executable-check contracts block pending a reviewed adapter; document checks run normally.",
+      "Independent PASS and task-specific authorization still required before any merge/status write."
+    ]
+  },
+  "bootstrapReview": {
+    "run": false,
+    "reason": "Conditional runtime verification gate did not pass; invoking Reviewer now would violate the requested ordering.",
+    "independentFullCandidatePass": false,
+    "historicalReviewsNotReclassified": true
+  },
+  "blockers": [
+    "Runtime has not been verified: the one diagnostic stopped at an error item consistent with a nonfatal skills warning; actual model, usage and final output are absent.",
+    "CLI exec event schema does not promise the actual-model fields required by the runner; a trustworthy identity evidence channel remains unresolved.",
+    "No independent full-candidate PR #5 bootstrap PASS exists for this updated candidate."
+  ],
+  "safety": {
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "quotaReservePercent": 20,
+    "grantsUnchanged": true,
+    "controllerStopped": true,
+    "pr6EditedOrMerged": false,
+    "ssotStatusChanged": false,
+    "subagents": 0,
+    "reviewerCalls": 0,
+    "realBacklogRun": false,
+    "deployed": false,
+    "paidApiOrCredits": false
+  },
+  "delivery": {
+    "branch": "loop/adaptive-model-routing",
+    "pr": "https://github.com/NguyenChiBinh267/Chinese-Study-Hub/pull/5",
+    "finalEvidenceCommitChangesDocsOnly": true,
+    "publicationReceipt": ".engineering-loop/owner-readiness-publication.json"
+  }
+}

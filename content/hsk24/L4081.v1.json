@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "e7f31845afea89c0d5a2f1fc270f04a92630f27f16c3587e2d371c2dbb24ae56",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eaib",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L4081",
+    "version": 1,
+    "versionId": "l4081-draft-v1",
+    "title": "Hỏi thông tin mà không tự đoán quy định",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Hỏi thông tin mà không tự đoán quy định; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "既然"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 20,
+      "physicalPage": 21,
+      "printedPage": 18,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-29T14:12:17.008378Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-affairs",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 20,
+          "physicalPage": 21,
+          "printedPage": 18,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "交流、处理日常事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-df09e3401170",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "业务办理"
+        },
+        "written": "业务办理",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l4081-v-1589",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 118,
+          "physicalPage": 119,
+          "printedPage": 116,
+          "section": "vocabulary",
+          "entry": "ordinal 1589"
+        },
+        "written": "情况",
+        "pinyin": "qíngkuàng",
+        "senseId": "l4081-v-1589-sense",
+        "ordinal": 1589,
+        "note": "4 qíngkuàng 名; 情况 là những điều đang xảy ra hoặc hoàn cảnh cụ thể. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4081-v-1667",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 120,
+          "physicalPage": 121,
+          "printedPage": 118,
+          "section": "vocabulary",
+          "entry": "ordinal 1667"
+        },
+        "written": "使馆",
+        "pinyin": "shǐguǎn",
+        "senseId": "l4081-v-1667-sense",
+        "ordinal": 1667,
+        "note": "4 shǐguǎn 名; 使馆 là cơ quan đại diện ngoại giao; bài không xác nhận địa chỉ hay quy định thật. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4081-v-1689",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 121,
+          "physicalPage": 122,
+          "printedPage": 119,
+          "section": "vocabulary",
+          "entry": "ordinal 1689"
+        },
+        "written": "熟悉",
+        "pinyin": "shúxi",
+        "senseId": "l4081-v-1689-sense",
+        "ordinal": 1689,
+        "note": "4 shúxi 动; 熟悉 nói có hiểu biết qua tiếp xúc; không đồng nghĩa biết mọi thay đổi mới. Nhận diện chữ 悉 trong 熟悉; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4081-v-1845",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 125,
+          "physicalPage": 126,
+          "printedPage": 123,
+          "section": "vocabulary",
+          "entry": "ordinal 1845"
+        },
+        "written": "严格",
+        "pinyin": "yángé",
+        "senseId": "l4081-v-1845-sense",
+        "ordinal": 1845,
+        "note": "4 yángé 形、动; 严格 nói tiêu chuẩn hoặc cách thực hiện không dễ bỏ qua yêu cầu; không tự suy ra một quy định cụ thể. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-176",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "176"
+        },
+        "written": "况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 176,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-284",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "284"
+        },
+        "written": "使",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 284,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-295",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "295"
+        },
+        "written": "熟",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 295,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-341",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "341"
+        },
+        "written": "悉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 341,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-369",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "369"
+        },
+        "written": "严",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 369,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-87",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "87"
+        },
+        "written": "格",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 87,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-4081",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "既然……，就……"
+        },
+        "written": "既然",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l4081-c0",
+      "version": 1,
+      "senseId": "l4081-v-1589-sense",
+      "hanzi": "情况",
+      "dictionaryPinyin": "qíng kuàng",
+      "meaning": "tình hình; tình huống",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4081-v-1589"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4081-c1",
+      "version": 1,
+      "senseId": "l4081-v-1667-sense",
+      "hanzi": "使馆",
+      "dictionaryPinyin": "shǐ guǎn",
+      "meaning": "sứ quán",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4081-v-1667"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4081-c2",
+      "version": 1,
+      "senseId": "l4081-v-1689-sense",
+      "hanzi": "熟悉",
+      "dictionaryPinyin": "shú xi",
+      "meaning": "quen thuộc; biết rõ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4081-v-1689"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4081-c3",
+      "version": 1,
+      "senseId": "l4081-v-1845-sense",
+      "hanzi": "严格",
+      "dictionaryPinyin": "yán gé",
+      "meaning": "nghiêm; chặt chẽ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4081-v-1845"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l4081-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4081-t0",
+      "type": "teaching",
+      "title": "情况 · tình hình; tình huống",
+      "text": "情况 là những điều đang xảy ra hoặc hoàn cảnh cụ thể.",
+      "hanzi": "请先说明具体情况。",
+      "pinyin": "Qǐng xiān shuō míng jù tǐ qíng kuàng.",
+      "meaning": "Xin nói rõ tình hình cụ thể trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4081-t1",
+      "type": "teaching",
+      "title": "使馆 · sứ quán",
+      "text": "使馆 là cơ quan đại diện ngoại giao; bài không xác nhận địa chỉ hay quy định thật.",
+      "hanzi": "她想向使馆询问信息。",
+      "pinyin": "Tā xiǎng xiàng shǐ guǎn xún wèn xìn xī.",
+      "meaning": "Cô ấy muốn hỏi thông tin từ sứ quán.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4081-t2",
+      "type": "teaching",
+      "title": "熟悉 · quen thuộc; biết rõ",
+      "text": "熟悉 nói có hiểu biết qua tiếp xúc; không đồng nghĩa biết mọi thay đổi mới. Nhận diện chữ 悉 trong 熟悉; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "我不熟悉新的安排。",
+      "pinyin": "Wǒ bù shú xi xīn de ān pái.",
+      "meaning": "Tôi chưa quen với sắp xếp mới.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4081-t3",
+      "type": "teaching",
+      "title": "严格 · nghiêm; chặt chẽ",
+      "text": "严格 nói tiêu chuẩn hoặc cách thực hiện không dễ bỏ qua yêu cầu; không tự suy ra một quy định cụ thể.",
+      "hanzi": "故事里的材料检查很严格。",
+      "pinyin": "Gù shi lǐ de cái liào jiǎn chá hěn yán gé.",
+      "meaning": "Trong truyện việc kiểm tra tài liệu rất nghiêm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4081-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "既然 nêu căn cứ để hỏi đúng nơi. Bài chỉ luyện lời hỏi trong tình huống hư cấu; không đưa ra yêu cầu visa hay thủ tục thật của bất kỳ sứ quán nào.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4081-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小安不熟悉新的安排，想向使馆询问信息。朋友听说材料检查严格，但不知道具体要求。小安说：“既然我们不清楚，就先说明情况，再向负责的人询问。”他们没有把听说的内容当成已确认的规定。",
+      "pinyin": "Xiǎo Ān bù shú xi xīn de ān pái, xiǎng xiàng shǐ guǎn xún wèn xìn xī. Péng you tīng shuō cái liào jiǎn chá yán gé, dàn bù zhī dào jù tǐ yāo qiú. Xiǎo Ān shuō: “Jì rán wǒ men bù qīng chu, jiù xiān shuō míng qíng kuàng, zài xiàng fù zé de rén xún wèn.” Tā men méi yǒu bǎ tīng shuō de nèi róng dàng chéng yǐ què rèn de guī dìng.",
+      "meaning": "Nhóm hỏi nơi phụ trách thay vì coi lời nghe kể là quy định đã xác nhận.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4081-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l4081-v1-e0"
+    },
+    {
+      "id": "l4081-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l4081-v1-e1"
+    },
+    {
+      "id": "l4081-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l4081-v1-e2"
+    },
+    {
+      "id": "l4081-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l4081-v1-e3"
+    },
+    {
+      "id": "l4081-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l4081-v1-e4"
+    },
+    {
+      "id": "l4081-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l4081-v1-e5"
+    },
+    {
+      "id": "l4081-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l4081-v1-e6"
+    },
+    {
+      "id": "l4081-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l4081-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l4081-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4081-c0",
+      "senseId": "l4081-v-1589-sense",
+      "keyRef": "l4081-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “tình hình; tình huống” để điền câu: 请先说明具体□。",
+      "choices": [
+        "使馆",
+        "熟悉",
+        "严格",
+        "情况"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4081-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4081-c1",
+      "senseId": "l4081-v-1667-sense",
+      "keyRef": "l4081-v1-k1",
+      "prompt": "Ghi pinyin của 使馆 trong câu “她想向使馆询问信息。”, theo nghĩa “sứ quán”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4081-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l4081-c2",
+      "senseId": "l4081-v-1689-sense",
+      "keyRef": "l4081-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “quen thuộc; biết rõ”: 熟□ (shú xi). Ngữ cảnh: 我不熟□新的安排。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "悉",
+        "息",
+        "念"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4081-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4081-c3",
+      "senseId": "l4081-v-1845-sense",
+      "keyRef": "l4081-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “nghiêm; chặt chẽ” để điền câu: 故事里的材料检查很□。",
+      "choices": [
+        "情况",
+        "使馆",
+        "熟悉",
+        "严格"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4081-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4081-c2",
+      "senseId": "l4081-v-1689-sense",
+      "keyRef": "l4081-v1-k4",
+      "prompt": "Trong câu “我不熟悉新的安排。”, 熟悉 có nghĩa nào?",
+      "choices": [
+        "sứ quán",
+        "quen thuộc; biết rõ",
+        "nghiêm; chặt chẽ",
+        "tình hình; tình huống"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4081-v1-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4081-c3",
+      "senseId": "l4081-v-1845-sense",
+      "keyRef": "l4081-v1-k5",
+      "prompt": "Viết pinyin của 严格 trong nghĩa “nghiêm; chặt chẽ”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4081-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4081-c0",
+      "senseId": "l4081-v-1589-sense",
+      "keyRef": "l4081-v1-k6",
+      "prompt": "Nhóm có coi lời nghe kể là quy định chắc chắn không?",
+      "choices": [
+        "有，已经知道全部要求",
+        "他们不再说明情况",
+        "没有，先向负责的人询问"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l4081-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l4081-c3",
+      "senseId": "l4081-v-1845-sense",
+      "keyRef": "l4081-v1-k7",
+      "prompt": "Ghép các cụm thành câu theo cấu trúc đang học; giữ nguyên cụm.",
+      "choices": [
+        "既然我们不清楚，",
+        "就先说明情况，",
+        "再向负责的人",
+        "询问。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l4081-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l4081-v1-e0",
+      "senseId": "l4081-v-1589-sense",
+      "accepted": [
+        "情况"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "情况: tình hình; tình huống. 情况 là những điều đang xảy ra hoặc hoàn cảnh cụ thể. Xin nói rõ tình hình cụ thể trước."
+    },
+    {
+      "id": "l4081-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l4081-v1-e1",
+      "senseId": "l4081-v-1667-sense",
+      "accepted": [
+        "shǐ guǎn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc shǐ guǎn. 使馆 là cơ quan đại diện ngoại giao; bài không xác nhận địa chỉ hay quy định thật."
+    },
+    {
+      "id": "l4081-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l4081-v1-e2",
+      "senseId": "l4081-v-1689-sense",
+      "accepted": [
+        "悉"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 悉 tạo từ 熟悉. 熟悉 nói có hiểu biết qua tiếp xúc; không đồng nghĩa biết mọi thay đổi mới. Nhận diện chữ 悉 trong 熟悉; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l4081-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l4081-v1-e3",
+      "senseId": "l4081-v-1845-sense",
+      "accepted": [
+        "严格"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "严格: nghiêm; chặt chẽ. 严格 nói tiêu chuẩn hoặc cách thực hiện không dễ bỏ qua yêu cầu; không tự suy ra một quy định cụ thể. Trong truyện việc kiểm tra tài liệu rất nghiêm."
+    },
+    {
+      "id": "l4081-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l4081-v1-e4",
+      "senseId": "l4081-v-1689-sense",
+      "accepted": [
+        "quen thuộc; biết rõ"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "熟悉 nói có hiểu biết qua tiếp xúc; không đồng nghĩa biết mọi thay đổi mới. Nhận diện chữ 悉 trong 熟悉; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Tôi chưa quen với sắp xếp mới."
+    },
+    {
+      "id": "l4081-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l4081-v1-e5",
+      "senseId": "l4081-v-1845-sense",
+      "accepted": [
+        "yán gé"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "yán gé. 严格 nói tiêu chuẩn hoặc cách thực hiện không dễ bỏ qua yêu cầu; không tự suy ra một quy định cụ thể."
+    },
+    {
+      "id": "l4081-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l4081-v1-e6",
+      "senseId": "l4081-v-1589-sense",
+      "accepted": [
+        "没有，先向负责的人询问"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 没有，先向负责的人询问. Nhóm hỏi nơi phụ trách thay vì coi lời nghe kể là quy định đã xác nhận."
+    },
+    {
+      "id": "l4081-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l4081-v1-e7",
+      "senseId": "l4081-v-1845-sense",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 既然 nêu căn cứ để hỏi đúng nơi. Bài chỉ luyện lời hỏi trong tình huống hư cấu; không đưa ra yêu cầu visa hay thủ tục thật của bất kỳ sứ quán nào."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

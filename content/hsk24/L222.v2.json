@@ -1,0 +1,798 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "02ac8eeb142ff4b26d1bc69dad1a8375a899d0daa4dcdfa5d0b83e8877f684e2",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "rooms-and-floors",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L222",
+    "version": 2,
+    "versionId": "l222-draft-v2",
+    "title": "Phòng, tầng và vị trí đồ vật",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc mô tả phòng và tìm đồ ở phía trên/dưới.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "面"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 9,
+      "physicalPage": 10,
+      "printedPage": 7,
+      "section": "task",
+      "entry": "五"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-place",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 9,
+          "physicalPage": 10,
+          "printedPage": 7,
+          "section": "task",
+          "entry": "五"
+        },
+        "written": "介绍某个地方",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-environment",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "基本信息 / 环境信息 / 环境特征"
+        },
+        "written": "环境特征",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l222-v-321",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 321"
+        },
+        "written": "床",
+        "pinyin": "chuáng",
+        "senseId": "l222-v-321-sense",
+        "ordinal": 321,
+        "note": "2 chuáng 名; 床 là đồ dùng để nằm ngủ; không phải mọi mặt phẳng kê đồ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l222-v-400",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 400"
+        },
+        "written": "门",
+        "pinyin": "mén",
+        "senseId": "l222-v-400-sense",
+        "ordinal": 400,
+        "note": "2 mén 名; 门 là cửa; 门口 là khu vực chỗ cửa. 请关门 là đóng cửa, không yêu cầu ai đứng ở cửa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l222-v-391",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 391"
+        },
+        "written": "楼",
+        "pinyin": "lóu",
+        "senseId": "l222-v-391-sense",
+        "ordinal": 391,
+        "note": "2 lóu 名; 这里有一座楼 nói một tòa nhà; 二楼 là tầng hai. Bài này luyện số tầng trong 二楼. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l222-v-366",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 366"
+        },
+        "written": "间",
+        "pinyin": "jiān",
+        "senseId": "l222-v-366-sense",
+        "ordinal": 366,
+        "note": "2（4） jiān 量、（名）; Ở 一间教室, 间 đọc jiān và là lượng từ. Không mở rộng sang nghĩa danh từ cấp cao hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l222-v-426",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 426"
+        },
+        "written": "上面",
+        "pinyin": "shàngmiàn",
+        "senseId": "l222-v-426-sense",
+        "ordinal": 426,
+        "note": "2 shàngmiàn 名; 上面 có thể nói phía trên một mốc; trong 桌子上面 câu này là trên mặt bàn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l222-v-459",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 459"
+        },
+        "written": "下面",
+        "pinyin": "xiàmiàn",
+        "senseId": "l222-v-459-sense",
+        "ordinal": 459,
+        "note": "2 xiàmiàn 名; 下面 ở đây là vị trí không gian phía dưới; không dùng để suy ra thứ tự bài tiếp theo. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l222-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "张",
+        "pinyin": "zhāng",
+        "senseId": "l222-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: lượng từ cho bàn; thuộc cấp cao hơn theo nguồn, chỉ hỗ trợ đọc."
+      },
+      {
+        "id": "l222-extra1",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "座",
+        "pinyin": "zuò",
+        "senseId": "l222-extra1-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: lượng từ cho tòa nhà; cấp chưa kiểm chứng."
+      },
+      {
+        "id": "l222-extra2",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "房间",
+        "pinyin": "fáng jiān",
+        "senseId": "l222-extra2-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: căn phòng; cấp chưa kiểm chứng."
+      },
+      {
+        "id": "l222-extra3",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "关",
+        "pinyin": "guān",
+        "senseId": "l222-extra3-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: đóng; mục652 HSK3, PDFindex95. Chỉ hỗ trợ ví dụ về cửa."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "门",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-51",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "51"
+        },
+        "written": "楼",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 51,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-localizers",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "语素 / 后缀 面"
+        },
+        "written": "面",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l222-c0",
+      "version": 1,
+      "senseId": "l222-v-321-sense",
+      "hanzi": "床",
+      "dictionaryPinyin": "chuáng",
+      "meaning": "giường",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l222-v-321"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l222-c1",
+      "version": 1,
+      "senseId": "l222-v-400-sense",
+      "hanzi": "门",
+      "dictionaryPinyin": "mén",
+      "meaning": "cửa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l222-v-400"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l222-c2",
+      "version": 1,
+      "senseId": "l222-v-391-sense",
+      "hanzi": "楼",
+      "dictionaryPinyin": "lóu",
+      "meaning": "tòa nhà hoặc tầng trong cách nói số tầng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l222-v-391"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l222-c3",
+      "version": 1,
+      "senseId": "l222-v-366-sense",
+      "hanzi": "间",
+      "dictionaryPinyin": "jiān",
+      "meaning": "lượng từ cho phòng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l222-v-366"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l222-c4",
+      "version": 1,
+      "senseId": "l222-v-426-sense",
+      "hanzi": "上面",
+      "dictionaryPinyin": "shàng miàn",
+      "meaning": "phía trên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l222-v-426"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l222-c5",
+      "version": 1,
+      "senseId": "l222-v-459-sense",
+      "hanzi": "下面",
+      "dictionaryPinyin": "xià miàn",
+      "meaning": "phía dưới",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l222-v-459"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l222-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "在 là ở; 桌子 là bàn. 一间房间 đếm phòng bằng 间; từ hỗ trợ 房间 chỉ căn phòng và chưa được tính thêm vào mục tiêu. 关 (guān, đóng) là SUPPLEMENTARY thuộc HSK3, chỉ giúp hiểu lời nhờ đóng cửa.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l222-t0",
+      "type": "teaching",
+      "title": "床 · giường",
+      "text": "床 là đồ dùng để nằm ngủ; không phải mọi mặt phẳng kê đồ.",
+      "hanzi": "我的床旁边有一张桌子。",
+      "pinyin": "Wǒ de chuáng pángbiān yǒu yì zhāng zhuōzi.",
+      "meaning": "Bên giường tôi có một cái bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l222-t1",
+      "type": "teaching",
+      "title": "门 · cửa",
+      "text": "门 là cửa; 门口 là khu vực chỗ cửa. 请关门 là đóng cửa, không yêu cầu ai đứng ở cửa.",
+      "hanzi": "外面冷，请关门。",
+      "pinyin": "Wàimiàn lěng, qǐng guān mén.",
+      "meaning": "Ngoài lạnh, hãy đóng cửa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l222-t2",
+      "type": "teaching",
+      "title": "楼 · tòa nhà hoặc tầng trong cách nói số tầng",
+      "text": "这里有一座楼 nói một tòa nhà; 二楼 là tầng hai. Bài này luyện số tầng trong 二楼.",
+      "hanzi": "我的教室在二楼。",
+      "pinyin": "Wǒ de jiàoshì zài èr lóu.",
+      "meaning": "Phòng học của tôi ở tầng hai.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l222-t3",
+      "type": "teaching",
+      "title": "间 · lượng từ cho phòng",
+      "text": "Ở 一间教室, 间 đọc jiān và là lượng từ. Không mở rộng sang nghĩa danh từ cấp cao hơn.",
+      "hanzi": "二楼有一间教室。",
+      "pinyin": "Èr lóu yǒu yì jiān jiàoshì.",
+      "meaning": "Tầng hai có một phòng học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l222-t4",
+      "type": "teaching",
+      "title": "上面 · phía trên",
+      "text": "上面 có thể nói phía trên một mốc; trong 桌子上面 câu này là trên mặt bàn.",
+      "hanzi": "书在桌子上面。",
+      "pinyin": "Shū zài zhuōzi shàngmiàn.",
+      "meaning": "Sách ở trên bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l222-t5",
+      "type": "teaching",
+      "title": "下面 · phía dưới",
+      "text": "下面 ở đây là vị trí không gian phía dưới; không dùng để suy ra thứ tự bài tiếp theo.",
+      "hanzi": "书包在桌子下面。",
+      "pinyin": "Shūbāo zài zhuōzi xiàmiàn.",
+      "meaning": "Cặp ở dưới bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l222-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "面 tạo từ vị trí trong 上面/下面. Nêu mốc rõ: 桌子下面; không suy ra vật ở bên trong bàn.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l222-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：你的书包呢？乙：在桌子下面。甲：书也在下面吗？乙：不，书在桌子上面。我的房间在二楼。",
+      "pinyin": "Jiǎ: Nǐ de shūbāo ne? Yǐ: Zài zhuōzi xiàmiàn. Jiǎ: Shū yě zài xiàmiàn ma? Yǐ: Bù, shū zài zhuōzi shàngmiàn. Wǒ de fángjiān zài èr lóu.",
+      "meaning": "A: Cặp bạn đâu? B: Dưới bàn. A: Sách cũng ở dưới à? B: Không, sách ở trên bàn. Phòng tôi ở tầng hai.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l222-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l222-v2-e0"
+    },
+    {
+      "id": "l222-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l222-v2-e1"
+    },
+    {
+      "id": "l222-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l222-v2-e2"
+    },
+    {
+      "id": "l222-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l222-v2-e3"
+    },
+    {
+      "id": "l222-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l222-v2-e4"
+    },
+    {
+      "id": "l222-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l222-v2-e5"
+    },
+    {
+      "id": "l222-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l222-v2-e6"
+    },
+    {
+      "id": "l222-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l222-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l222-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l222-c0",
+      "senseId": "l222-v-321-sense",
+      "keyRef": "l222-v2-k0",
+      "prompt": "Trong câu “我的床旁边有一张桌子。”, 床 mang nghĩa nào?",
+      "choices": [
+        "cửa",
+        "tòa nhà hoặc tầng trong cách nói số tầng",
+        "lượng từ cho phòng",
+        "phía trên",
+        "phía dưới",
+        "giường"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l222-v2-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l222-c1",
+      "senseId": "l222-v-400-sense",
+      "keyRef": "l222-v2-k1",
+      "prompt": "Viết pinyin của 门 trong nghĩa “cửa”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l222-v2-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l222-c2",
+      "senseId": "l222-v-391-sense",
+      "keyRef": "l222-v2-k2",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “tòa nhà hoặc tầng trong cách nói số tầng”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l222-v2-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l222-c3",
+      "senseId": "l222-v-366-sense",
+      "keyRef": "l222-v2-k3",
+      "prompt": "Trong câu “二楼有一间教室。”, 间 mang nghĩa nào?",
+      "choices": [
+        "phía trên",
+        "phía dưới",
+        "giường",
+        "cửa",
+        "tòa nhà hoặc tầng trong cách nói số tầng",
+        "lượng từ cho phòng"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l222-v2-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l222-c4",
+      "senseId": "l222-v-426-sense",
+      "keyRef": "l222-v2-k4",
+      "prompt": "Viết pinyin của 上面 trong nghĩa “phía trên”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l222-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l222-c5",
+      "senseId": "l222-v-459-sense",
+      "keyRef": "l222-v2-k5",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “phía dưới”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l222-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l222-c0",
+      "senseId": "l222-v-321-sense",
+      "keyRef": "l222-v2-k6",
+      "prompt": "Theo hội thoại, sách ở đâu?",
+      "choices": [
+        "Dưới bàn",
+        "Bên ngoài cửa",
+        "Trên bàn"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l222-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l222-c3",
+      "senseId": "l222-v-366-sense",
+      "keyRef": "l222-v2-k7",
+      "prompt": "Xếp câu: cặp ở dưới bàn.",
+      "choices": [
+        "下面",
+        "在",
+        "书包",
+        "桌子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l222-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l222-v2-e0",
+      "senseId": "l222-v-321-sense",
+      "accepted": [
+        "giường"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "床: giường. 床 là đồ dùng để nằm ngủ; không phải mọi mặt phẳng kê đồ. Bên giường tôi có một cái bàn."
+    },
+    {
+      "id": "l222-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l222-v2-e1",
+      "senseId": "l222-v-400-sense",
+      "accepted": [
+        "mén"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc mén. 门 là cửa; 门口 là khu vực chỗ cửa. 请关门 là đóng cửa, không yêu cầu ai đứng ở cửa."
+    },
+    {
+      "id": "l222-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l222-v2-e2",
+      "senseId": "l222-v-391-sense",
+      "accepted": [
+        "楼"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 楼. 这里有一座楼 nói một tòa nhà; 二楼 là tầng hai. Bài này luyện số tầng trong 二楼."
+    },
+    {
+      "id": "l222-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l222-v2-e3",
+      "senseId": "l222-v-366-sense",
+      "accepted": [
+        "lượng từ cho phòng"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "间: lượng từ cho phòng. Ở 一间教室, 间 đọc jiān và là lượng từ. Không mở rộng sang nghĩa danh từ cấp cao hơn. Tầng hai có một phòng học."
+    },
+    {
+      "id": "l222-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l222-v2-e4",
+      "senseId": "l222-v-426-sense",
+      "accepted": [
+        "shàng miàn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc shàng miàn. 上面 có thể nói phía trên một mốc; trong 桌子上面 câu này là trên mặt bàn."
+    },
+    {
+      "id": "l222-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l222-v2-e5",
+      "senseId": "l222-v-459-sense",
+      "accepted": [
+        "下面"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 下面. 下面 ở đây là vị trí không gian phía dưới; không dùng để suy ra thứ tự bài tiếp theo."
+    },
+    {
+      "id": "l222-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l222-v2-e6",
+      "senseId": "l222-v-321-sense",
+      "accepted": [
+        "Trên bàn"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "乙 phân biệt sách ở trên với cặp ở dưới, không phải cả hai đều ở dưới."
+    },
+    {
+      "id": "l222-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l222-v2-e7",
+      "senseId": "l222-v-366-sense",
+      "accepted": [
+        "2,1,3,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 面 tạo từ vị trí trong 上面/下面. Nêu mốc rõ: 桌子下面; không suy ra vật ở bên trong bàn."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

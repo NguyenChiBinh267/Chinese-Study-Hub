@@ -1,0 +1,854 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "40202a43300ded479f4e6e96139f70b7414e7bd66951bc1a588966362281e339",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-body-observation",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L327",
+    "version": 2,
+    "versionId": "l327-draft-v2",
+    "title": "Nhận diện bộ phận cơ thể",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc mô tả tai, mặt, tóc, chân; không chấm sức khỏe từ mô tả.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "主语+动词+宾语+动词+补语"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "一"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:16:38.147Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-person",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "一"
+        },
+        "written": "介绍个人情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-traits",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "个人特征"
+        },
+        "written": "个人特征",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l327-v-612",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 612"
+        },
+        "written": "耳朵",
+        "pinyin": "ěrduo",
+        "senseId": "l327-v-612-sense",
+        "ordinal": 612,
+        "note": "3 ěrduo 名; 耳朵 chỉ bộ phận tai; 朵 đọc nhẹ. 用耳朵听 diễn tả chức năng trong câu, không đánh giá khả năng nghe của người học. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l327-v-750",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 750"
+        },
+        "written": "脸",
+        "pinyin": "liǎn",
+        "senseId": "l327-v-750-sense",
+        "ordinal": 750,
+        "note": "3 liǎn 名; 脸 chỉ khuôn mặt, khác 头 là cả đầu. 洗脸 là rửa mặt, không phải tắm toàn thân. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l327-v-861",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 861"
+        },
+        "written": "头发",
+        "pinyin": "tóufa",
+        "senseId": "l327-v-861-sense",
+        "ordinal": 861,
+        "note": "3 tóufa 名; 头发 là tóc trên đầu; 发 ở từ này đọc nhẹ fa, không phải fā của 发消息. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l327-v-864",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 864"
+        },
+        "written": "腿",
+        "pinyin": "tuǐ",
+        "senseId": "l327-v-864-sense",
+        "ordinal": 864,
+        "note": "3 tuǐ 名; 腿 là phần chân, khác 脚 thường chỉ bàn chân. 画腿不等于只画脚. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l327-v-705",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 705"
+        },
+        "written": "脚",
+        "pinyin": "jiǎo",
+        "senseId": "l327-v-705-sense",
+        "ordinal": 705,
+        "note": "3 jiǎo 名; 脚 chỉ bàn chân trong đối chiếu với 腿; 一只脚 là một bàn chân, 一双脚 là hai bàn chân thành đôi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l327-v-995",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 995"
+        },
+        "written": "嘴",
+        "pinyin": "zuǐ",
+        "senseId": "l327-v-995-sense",
+        "ordinal": 995,
+        "note": "3 zuǐ 名; 嘴 là miệng; 张嘴 là mở miệng. Không lấy việc nhớ tên bộ phận làm bằng chứng nói/phát âm. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-54",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "54"
+        },
+        "written": "耳",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 54,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-51",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "51"
+        },
+        "written": "朵",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 51,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-140",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "140"
+        },
+        "written": "脸",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 140,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-55",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "55"
+        },
+        "written": "发",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 55,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-216",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "216"
+        },
+        "written": "腿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 216,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-107",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "107"
+        },
+        "written": "脚",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 107,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-284",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "284"
+        },
+        "written": "嘴",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 284,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-quantity-redo",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "重动句"
+        },
+        "written": "主语+动词+宾语+动词+补语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l327-c0",
+      "version": 1,
+      "senseId": "l327-v-612-sense",
+      "hanzi": "耳朵",
+      "dictionaryPinyin": "ěr duo",
+      "meaning": "tai",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l327-v-612"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l327-c1",
+      "version": 1,
+      "senseId": "l327-v-750-sense",
+      "hanzi": "脸",
+      "dictionaryPinyin": "liǎn",
+      "meaning": "mặt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l327-v-750"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l327-c2",
+      "version": 1,
+      "senseId": "l327-v-861-sense",
+      "hanzi": "头发",
+      "dictionaryPinyin": "tóu fa",
+      "meaning": "tóc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l327-v-861"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l327-c3",
+      "version": 1,
+      "senseId": "l327-v-864-sense",
+      "hanzi": "腿",
+      "dictionaryPinyin": "tuǐ",
+      "meaning": "chân (phần từ hông đến bàn chân)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l327-v-864"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l327-c4",
+      "version": 1,
+      "senseId": "l327-v-705-sense",
+      "hanzi": "脚",
+      "dictionaryPinyin": "jiǎo",
+      "meaning": "bàn chân",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l327-v-705"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l327-c5",
+      "version": 1,
+      "senseId": "l327-v-995-sense",
+      "hanzi": "嘴",
+      "dictionaryPinyin": "zuǐ",
+      "meaning": "miệng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l327-v-995"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l327-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 美术 měishù: mỹ thuật; 幅 fú: lượng từ bức tranh; 画法 huàfǎ: cách vẽ; 检查 jiǎnchá: kiểm tra. 张嘴 zhāng zuǐ: mở miệng; không dùng làm thước đo phát âm.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l327-t0",
+      "type": "teaching",
+      "title": "耳朵 · tai",
+      "text": "耳朵 chỉ bộ phận tai; 朵 đọc nhẹ. 用耳朵听 diễn tả chức năng trong câu, không đánh giá khả năng nghe của người học.",
+      "hanzi": "画上的人有两只耳朵。",
+      "pinyin": "Huà shàng de rén yǒu liǎng zhī ěrduo.",
+      "meaning": "Người trong tranh có hai tai.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l327-t1",
+      "type": "teaching",
+      "title": "脸 · mặt",
+      "text": "脸 chỉ khuôn mặt, khác 头 là cả đầu. 洗脸 là rửa mặt, không phải tắm toàn thân.",
+      "hanzi": "他在画自己的脸。",
+      "pinyin": "Tā zài huà zìjǐ de liǎn.",
+      "meaning": "Cậu ấy đang vẽ khuôn mặt mình.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l327-t2",
+      "type": "teaching",
+      "title": "头发 · tóc",
+      "text": "头发 là tóc trên đầu; 发 ở từ này đọc nhẹ fa, không phải fā của 发消息.",
+      "hanzi": "她的头发很短。",
+      "pinyin": "Tā de tóufa hěn duǎn.",
+      "meaning": "Tóc cô ấy ngắn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l327-t3",
+      "type": "teaching",
+      "title": "腿 · chân (phần từ hông đến bàn chân)",
+      "text": "腿 là phần chân, khác 脚 thường chỉ bàn chân. 画腿不等于只画脚.",
+      "hanzi": "画里的人腿很长。",
+      "pinyin": "Huà lǐ de rén tuǐ hěn cháng.",
+      "meaning": "Người trong tranh có chân dài.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l327-t4",
+      "type": "teaching",
+      "title": "脚 · bàn chân",
+      "text": "脚 chỉ bàn chân trong đối chiếu với 腿; 一只脚 là một bàn chân, 一双脚 là hai bàn chân thành đôi.",
+      "hanzi": "他的脚在水里。",
+      "pinyin": "Tā de jiǎo zài shuǐ lǐ.",
+      "meaning": "Bàn chân cậu ấy ở trong nước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l327-t5",
+      "type": "teaching",
+      "title": "嘴 · miệng",
+      "text": "嘴 là miệng; 张嘴 là mở miệng. Không lấy việc nhớ tên bộ phận làm bằng chứng nói/phát âm.",
+      "hanzi": "请把嘴画小一点儿。",
+      "pinyin": "Qǐng bǎ zuǐ huà xiǎo yìdiǎnr.",
+      "meaning": "Hãy vẽ miệng nhỏ hơn một chút.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l327-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "他画头发画得很认真 lặp động từ 画 để giữ tân ngữ 头发 và bổ ngữ sau 得. Đây là mô tả cách vẽ, không phải nhận xét đúng/sai về cơ thể.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l327-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "美术课上，小林先画脸、耳朵和嘴，再画头发、腿和脚。他画头发画得很认真。老师说：这幅画的腿很长，脚很小，这是你的画法，不是身体检查。",
+      "pinyin": "Měishù kè shàng, Xiǎo Lín xiān huà liǎn, ěrduo hé zuǐ, zài huà tóufa, tuǐ hé jiǎo. Tā huà tóufa huà de hěn rènzhēn. Lǎoshī shuō: Zhè fú huà de tuǐ hěn cháng, jiǎo hěn xiǎo, zhè shì nǐ de huàfǎ, bú shì shēntǐ jiǎnchá.",
+      "meaning": "Trong giờ mỹ thuật Lâm vẽ các bộ phận cơ thể. Cậu vẽ tóc rất cẩn thận. Thầy nói chân dài, bàn chân nhỏ là cách vẽ của cậu, không phải kết quả khám cơ thể.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l327-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l327-v2-e0"
+    },
+    {
+      "id": "l327-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l327-v2-e1"
+    },
+    {
+      "id": "l327-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l327-v2-e2"
+    },
+    {
+      "id": "l327-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l327-v2-e3"
+    },
+    {
+      "id": "l327-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l327-v2-e4"
+    },
+    {
+      "id": "l327-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l327-v2-e5"
+    },
+    {
+      "id": "l327-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l327-v2-e6"
+    },
+    {
+      "id": "l327-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l327-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l327-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l327-c0",
+      "senseId": "l327-v-612-sense",
+      "keyRef": "l327-v2-k0",
+      "prompt": "Bộ phận ở hai bên đầu để nghe trong mô tả: 两只□。",
+      "choices": [
+        "脸",
+        "头发",
+        "腿",
+        "脚",
+        "嘴",
+        "耳朵"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l327-v2-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l327-c1",
+      "senseId": "l327-v-750-sense",
+      "keyRef": "l327-v2-k1",
+      "prompt": "Phần có mắt, mũi và miệng: 画自己的□。",
+      "choices": [
+        "头发",
+        "腿",
+        "脚",
+        "嘴",
+        "耳朵",
+        "脸"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l327-v2-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l327-c2",
+      "senseId": "l327-v-861-sense",
+      "keyRef": "l327-v2-k2",
+      "prompt": "Tóc trên đầu ngắn: 她的□很短。",
+      "choices": [
+        "腿",
+        "脚",
+        "嘴",
+        "耳朵",
+        "脸",
+        "头发"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l327-v2-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l327-c3",
+      "senseId": "l327-v-864-sense",
+      "keyRef": "l327-v2-k3",
+      "prompt": "Viết pinyin của 腿 trong câu “画里的人腿很长。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l327-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l327-c4",
+      "senseId": "l327-v-705-sense",
+      "keyRef": "l327-v2-k4",
+      "prompt": "Bộ phận ở cuối chân, đi giày vào đó: 一双□。",
+      "choices": [
+        "嘴",
+        "耳朵",
+        "脸",
+        "头发",
+        "腿",
+        "脚"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l327-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l327-c5",
+      "senseId": "l327-v-995-sense",
+      "keyRef": "l327-v2-k5",
+      "prompt": "Bộ phận để ăn và nói trong tranh: 把□画小一点儿。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l327-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l327-c0",
+      "senseId": "l327-v-612-sense",
+      "keyRef": "l327-v2-k6",
+      "prompt": "Lâm vẽ phần nào rất cẩn thận?",
+      "choices": [
+        "学校",
+        "字典",
+        "头发"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l327-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l327-c3",
+      "senseId": "l327-v-864-sense",
+      "keyRef": "l327-v2-k7",
+      "prompt": "Sắp xếp mẫu lặp động từ với bổ ngữ cách thức. Bắt đầu bằng “他画头发”.",
+      "choices": [
+        "画得很认真",
+        "他画头发"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l327-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l327-v2-e0",
+      "senseId": "l327-v-612-sense",
+      "accepted": [
+        "耳朵"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "耳朵: tai. 耳朵 chỉ bộ phận tai; 朵 đọc nhẹ. 用耳朵听 diễn tả chức năng trong câu, không đánh giá khả năng nghe của người học. Người trong tranh có hai tai."
+    },
+    {
+      "id": "l327-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l327-v2-e1",
+      "senseId": "l327-v-750-sense",
+      "accepted": [
+        "脸"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "脸: mặt. 脸 chỉ khuôn mặt, khác 头 là cả đầu. 洗脸 là rửa mặt, không phải tắm toàn thân. Cậu ấy đang vẽ khuôn mặt mình."
+    },
+    {
+      "id": "l327-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l327-v2-e2",
+      "senseId": "l327-v-861-sense",
+      "accepted": [
+        "头发"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "头发: tóc. 头发 là tóc trên đầu; 发 ở từ này đọc nhẹ fa, không phải fā của 发消息. Tóc cô ấy ngắn."
+    },
+    {
+      "id": "l327-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l327-v2-e3",
+      "senseId": "l327-v-864-sense",
+      "accepted": [
+        "tuǐ"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "腿: chân (phần từ hông đến bàn chân). 腿 là phần chân, khác 脚 thường chỉ bàn chân. 画腿不等于只画脚. Người trong tranh có chân dài."
+    },
+    {
+      "id": "l327-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l327-v2-e4",
+      "senseId": "l327-v-705-sense",
+      "accepted": [
+        "脚"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "脚: bàn chân. 脚 chỉ bàn chân trong đối chiếu với 腿; 一只脚 là một bàn chân, 一双脚 là hai bàn chân thành đôi. Bàn chân cậu ấy ở trong nước."
+    },
+    {
+      "id": "l327-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l327-v2-e5",
+      "senseId": "l327-v-995-sense",
+      "accepted": [
+        "嘴"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "嘴: miệng. 嘴 là miệng; 张嘴 là mở miệng. Không lấy việc nhớ tên bộ phận làm bằng chứng nói/phát âm. Hãy vẽ miệng nhỏ hơn một chút."
+    },
+    {
+      "id": "l327-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l327-v2-e6",
+      "senseId": "l327-v-612-sense",
+      "accepted": [
+        "头发"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 他画头发画得很认真 lặp động từ 画 để giữ tân ngữ 头发 và bổ ngữ sau 得. Đây là mô tả cách vẽ, không phải nhận xét đúng/sai về cơ thể."
+    },
+    {
+      "id": "l327-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l327-v2-e7",
+      "senseId": "l327-v-864-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 他画头发画得很认真 lặp động từ 画 để giữ tân ngữ 头发 và bổ ngữ sau 得. Đây là mô tả cách vẽ, không phải nhận xét đúng/sai về cơ thể."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

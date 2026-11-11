@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "a37ef5c31058d28549af59cbd698c3f7cc123da361e05df35dcc0c1d2c44d95e",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-options-differences",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L380",
+    "version": 1,
+    "versionId": "l380-draft-v1",
+    "title": "Ví dụ, khác nhau và chọn phương án",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc ví dụ và so cùng tiêu chí trước lựa chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "A跟B一样"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 14,
+      "physicalPage": 15,
+      "printedPage": 12,
+      "section": "task",
+      "entry": "六"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-shopping",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 14,
+          "physicalPage": 15,
+          "printedPage": 12,
+          "section": "task",
+          "entry": "六"
+        },
+        "written": "交流购物信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-goods",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "商品选购"
+        },
+        "written": "商品选购",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l380-v-523",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 523"
+        },
+        "written": "比如",
+        "pinyin": "bǐrú",
+        "senseId": "l380-v-523-sense",
+        "ordinal": 523,
+        "note": "3 bǐrú 动; 比如 dẫn ví dụ cho nhóm đã nói, không tự liệt kê hết. 比如网球 không có nghĩa chỉ có tennis trong mọi thể thao. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l380-v-541",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 541"
+        },
+        "written": "不同",
+        "pinyin": "bù tóng",
+        "senseId": "l380-v-541-sense",
+        "ordinal": 541,
+        "note": "3 bù tóng; 不同 nêu khác theo tiêu chí cần chỉ rõ; 两本书内容不同 không tự nói giá khác. Pinyin nguồn tách hai từ vẫn giữ mục từ này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l380-v-800",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 800"
+        },
+        "written": "其他",
+        "pinyin": "qítā",
+        "senseId": "l380-v-800-sense",
+        "ordinal": 800,
+        "note": "3 qítā 代; 其他 + danh từ chỉ nhóm còn lại theo phạm vi như 其他书; 不 tự là mọi sách trên đời. 不同 đánh giá khác, 其他 chỉ phần còn lại. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l380-v-913",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 913"
+        },
+        "written": "选",
+        "pinyin": "xuǎn",
+        "senseId": "l380-v-913-sense",
+        "ordinal": 913,
+        "note": "3 xuǎn 动; 选 là chọn một phương án/người/vật; 选择 cũng có thể là động từ, nên đề chỉ truy hồi đúng dạng một chữ. Chọn chưa tự mua. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l380-v-914",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 914"
+        },
+        "written": "选择",
+        "pinyin": "xuǎnzé",
+        "senseId": "l380-v-914-sense",
+        "ordinal": 914,
+        "note": "3 xuǎnzé 动; 选择 có thể là chọn hoặc sự lựa chọn; 做出选择 là đưa lựa chọn, 不 phải mọi lựa chọn đều đã thực hiện. Dạng hai chữ gần 选 khi là động từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l380-v-925",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 925"
+        },
+        "written": "一样",
+        "pinyin": "yíyàng",
+        "senseId": "l380-v-925-sense",
+        "ordinal": 925,
+        "note": "3 yíyàng 形; 一样 nói giống theo tiêu chí nêu: 一样大 là cùng cỡ. Không suy từ cùng cỡ ra cùng nội dung/giá. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-184",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "184"
+        },
+        "written": "如",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 184,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-168",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "168"
+        },
+        "written": "其",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 168,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-239",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "239"
+        },
+        "written": "选",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 239,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-270",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "270"
+        },
+        "written": "择",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 270,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-same-comparison",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "比较句2 / A跟B一样"
+        },
+        "written": "A跟B一样",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l380-c0",
+      "version": 1,
+      "senseId": "l380-v-523-sense",
+      "hanzi": "比如",
+      "dictionaryPinyin": "bǐ rú",
+      "meaning": "ví dụ/chẳng hạn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l380-v-523"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l380-c1",
+      "version": 1,
+      "senseId": "l380-v-541-sense",
+      "hanzi": "不同",
+      "dictionaryPinyin": "bù tóng",
+      "meaning": "khác nhau",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l380-v-541"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l380-c2",
+      "version": 1,
+      "senseId": "l380-v-800-sense",
+      "hanzi": "其他",
+      "dictionaryPinyin": "qí tā",
+      "meaning": "khác/còn lại",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l380-v-800"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l380-c3",
+      "version": 1,
+      "senseId": "l380-v-913-sense",
+      "hanzi": "选",
+      "dictionaryPinyin": "xuǎn",
+      "meaning": "chọn (dạng một chữ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l380-v-913"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l380-c4",
+      "version": 1,
+      "senseId": "l380-v-914-sense",
+      "hanzi": "选择",
+      "dictionaryPinyin": "xuǎn zé",
+      "meaning": "lựa chọn (động từ/danh từ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l380-v-914"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l380-c5",
+      "version": 1,
+      "senseId": "l380-v-925-sense",
+      "hanzi": "一样",
+      "dictionaryPinyin": "yí yàng",
+      "meaning": "giống nhau/cùng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l380-v-925"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l380-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 内容 nèiróng: nội dung; 做出 zuò chū: đưa ra/thực hiện; 不等于 bù děngyú: không bằng/không đồng nghĩa. So sánh cùng tiêu chí, không suy rộng từ một thuộc tính.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l380-t0",
+      "type": "teaching",
+      "title": "比如 · ví dụ/chẳng hạn",
+      "text": "比如 dẫn ví dụ cho nhóm đã nói, không tự liệt kê hết. 比如网球 không có nghĩa chỉ có tennis trong mọi thể thao.",
+      "hanzi": "我喜欢体育，比如网球。",
+      "pinyin": "Wǒ xǐhuan tǐyù, bǐrú wǎngqiú.",
+      "meaning": "Tôi thích thể thao, chẳng hạn tennis.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l380-t1",
+      "type": "teaching",
+      "title": "不同 · khác nhau",
+      "text": "不同 nêu khác theo tiêu chí cần chỉ rõ; 两本书内容不同 không tự nói giá khác. Pinyin nguồn tách hai từ vẫn giữ mục từ này.",
+      "hanzi": "这两本书的内容不同。",
+      "pinyin": "Zhè liǎng běn shū de nèiróng bù tóng.",
+      "meaning": "Nội dung hai sách này khác nhau.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l380-t2",
+      "type": "teaching",
+      "title": "其他 · khác/còn lại",
+      "text": "其他 + danh từ chỉ nhóm còn lại theo phạm vi như 其他书; 不 tự là mọi sách trên đời. 不同 đánh giá khác, 其他 chỉ phần còn lại.",
+      "hanzi": "我想再看看其他书。",
+      "pinyin": "Wǒ xiǎng zài kànkan qítā shū.",
+      "meaning": "Tôi muốn xem thêm sách khác.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l380-t3",
+      "type": "teaching",
+      "title": "选 · chọn (dạng một chữ)",
+      "text": "选 là chọn một phương án/người/vật; 选择 cũng có thể là động từ, nên đề chỉ truy hồi đúng dạng một chữ. Chọn chưa tự mua.",
+      "hanzi": "我选蓝色的。",
+      "pinyin": "Wǒ xuǎn lánsè de.",
+      "meaning": "Tôi chọn chiếc màu xanh lam.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l380-t4",
+      "type": "teaching",
+      "title": "选择 · lựa chọn (động từ/danh từ)",
+      "text": "选择 có thể là chọn hoặc sự lựa chọn; 做出选择 là đưa lựa chọn, 不 phải mọi lựa chọn đều đã thực hiện. Dạng hai chữ gần 选 khi là động từ.",
+      "hanzi": "我们还有别的选择。",
+      "pinyin": "Wǒmen hái yǒu bié de xuǎnzé.",
+      "meaning": "Chúng ta còn lựa chọn khác.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l380-t5",
+      "type": "teaching",
+      "title": "一样 · giống nhau/cùng",
+      "text": "一样 nói giống theo tiêu chí nêu: 一样大 là cùng cỡ. Không suy từ cùng cỡ ra cùng nội dung/giá.",
+      "hanzi": "这两本书一样大。",
+      "pinyin": "Zhè liǎng běn shū yíyàng dà.",
+      "meaning": "Hai sách này cùng kích cỡ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l380-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "A跟B一样大 so cùng kích cỡ; A跟B一样 có thể cần ngữ cảnh tiêu chí. Không biến cùng màu thành giống mọi đặc tính. 比如 đưa ví dụ chứ không liệt kê toàn bộ tập hợp.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l380-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林选书，比如先看有故事的。两本书一样大，内容却不同。他再看看其他书，最后做出选择，但还没买。朋友说：大小一样不等于内容和价格都一样。",
+      "pinyin": "Xiǎo Lín xuǎn shū, bǐrú xiān kàn yǒu gùshi de. Liǎng běn shū yíyàng dà, nèiróng què bù tóng. Tā zài kànkan qítā shū, zuìhòu zuò chū xuǎnzé, dàn hái méi mǎi. Péngyou shuō: Dàxiǎo yíyàng bù děngyú nèiróng hé jiàgé dōu yíyàng.",
+      "meaning": "Lâm chọn sách, chẳng hạn xem loại có truyện. Hai sách cùng cỡ nhưng khác nội dung; cậu xem thêm rồi chọn, chưa mua. Cùng cỡ chưa là giống nội dung và giá.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l380-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l380-v1-e0"
+    },
+    {
+      "id": "l380-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l380-v1-e1"
+    },
+    {
+      "id": "l380-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l380-v1-e2"
+    },
+    {
+      "id": "l380-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l380-v1-e3"
+    },
+    {
+      "id": "l380-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l380-v1-e4"
+    },
+    {
+      "id": "l380-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l380-v1-e5"
+    },
+    {
+      "id": "l380-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l380-v1-e6"
+    },
+    {
+      "id": "l380-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l380-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l380-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l380-c0",
+      "senseId": "l380-v-523-sense",
+      "keyRef": "l380-v1-k0",
+      "prompt": "Dẫn một ví dụ, không liệt kê hết: □网球。",
+      "choices": [
+        "不同",
+        "其他",
+        "选",
+        "选择",
+        "一样",
+        "比如"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l380-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l380-c1",
+      "senseId": "l380-v-541-sense",
+      "keyRef": "l380-v1-k1",
+      "prompt": "Khác về nội dung: 内容□。",
+      "choices": [
+        "其他",
+        "选",
+        "选择",
+        "一样",
+        "比如",
+        "不同"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l380-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l380-c2",
+      "senseId": "l380-v-800-sense",
+      "keyRef": "l380-v1-k2",
+      "prompt": "Nhóm sách còn lại: 再看□书。",
+      "choices": [
+        "选",
+        "选择",
+        "一样",
+        "比如",
+        "不同",
+        "其他"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l380-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l380-c3",
+      "senseId": "l380-v-913-sense",
+      "keyRef": "l380-v1-k3",
+      "prompt": "Viết pinyin của 选 trong câu “我选蓝色的。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l380-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l380-c4",
+      "senseId": "l380-v-914-sense",
+      "keyRef": "l380-v1-k4",
+      "prompt": "Danh từ sự lựa chọn sau 别的: 还有别的□。",
+      "choices": [
+        "一样",
+        "比如",
+        "不同",
+        "其他",
+        "选",
+        "选择"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l380-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l380-c5",
+      "senseId": "l380-v-925-sense",
+      "keyRef": "l380-v1-k5",
+      "prompt": "Cùng kích cỡ: 两本书□大。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l380-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l380-c0",
+      "senseId": "l380-v-523-sense",
+      "keyRef": "l380-v1-k6",
+      "prompt": "Hai cuốn được nói giống nhau ở điểm nào?",
+      "choices": [
+        "所有内容",
+        "所有价格",
+        "大小"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l380-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l380-c3",
+      "senseId": "l380-v-913-sense",
+      "keyRef": "l380-v1-k7",
+      "prompt": "Xếp so kích cỡ, bắt đầu bằng 这本书.",
+      "choices": [
+        "一样大",
+        "跟那本书",
+        "这本书"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l380-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l380-v1-e0",
+      "senseId": "l380-v-523-sense",
+      "accepted": [
+        "比如"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "比如: ví dụ/chẳng hạn. 比如 dẫn ví dụ cho nhóm đã nói, không tự liệt kê hết. 比如网球 không có nghĩa chỉ có tennis trong mọi thể thao. Tôi thích thể thao, chẳng hạn tennis."
+    },
+    {
+      "id": "l380-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l380-v1-e1",
+      "senseId": "l380-v-541-sense",
+      "accepted": [
+        "不同"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "不同: khác nhau. 不同 nêu khác theo tiêu chí cần chỉ rõ; 两本书内容不同 không tự nói giá khác. Pinyin nguồn tách hai từ vẫn giữ mục từ này. Nội dung hai sách này khác nhau."
+    },
+    {
+      "id": "l380-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l380-v1-e2",
+      "senseId": "l380-v-800-sense",
+      "accepted": [
+        "其他"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "其他: khác/còn lại. 其他 + danh từ chỉ nhóm còn lại theo phạm vi như 其他书; 不 tự là mọi sách trên đời. 不同 đánh giá khác, 其他 chỉ phần còn lại. Tôi muốn xem thêm sách khác."
+    },
+    {
+      "id": "l380-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l380-v1-e3",
+      "senseId": "l380-v-913-sense",
+      "accepted": [
+        "xuǎn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "选: chọn (dạng một chữ). 选 là chọn một phương án/người/vật; 选择 cũng có thể là động từ, nên đề chỉ truy hồi đúng dạng một chữ. Chọn chưa tự mua. Tôi chọn chiếc màu xanh lam."
+    },
+    {
+      "id": "l380-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l380-v1-e4",
+      "senseId": "l380-v-914-sense",
+      "accepted": [
+        "选择"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "选择: lựa chọn (động từ/danh từ). 选择 có thể là chọn hoặc sự lựa chọn; 做出选择 là đưa lựa chọn, 不 phải mọi lựa chọn đều đã thực hiện. Dạng hai chữ gần 选 khi là động từ. Chúng ta còn lựa chọn khác."
+    },
+    {
+      "id": "l380-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l380-v1-e5",
+      "senseId": "l380-v-925-sense",
+      "accepted": [
+        "一样"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一样: giống nhau/cùng. 一样 nói giống theo tiêu chí nêu: 一样大 là cùng cỡ. Không suy từ cùng cỡ ra cùng nội dung/giá. Hai sách này cùng kích cỡ."
+    },
+    {
+      "id": "l380-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l380-v1-e6",
+      "senseId": "l380-v-523-sense",
+      "accepted": [
+        "大小"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. A跟B一样大 so cùng kích cỡ; A跟B一样 có thể cần ngữ cảnh tiêu chí. Không biến cùng màu thành giống mọi đặc tính. 比如 đưa ví dụ chứ không liệt kê toàn bộ tập hợp."
+    },
+    {
+      "id": "l380-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l380-v1-e7",
+      "senseId": "l380-v-913-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. A跟B一样大 so cùng kích cỡ; A跟B一样 có thể cần ngữ cảnh tiêu chí. Không biến cùng màu thành giống mọi đặc tính. 比如 đưa ví dụ chứ không liệt kê toàn bộ tập hợp."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

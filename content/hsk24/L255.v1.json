@@ -1,0 +1,848 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "5640ca53c366b4bf3ea7ba5536d6bbe1df055414cfa24aaf7014227c4cc2e5f7",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "weather-choices",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L255",
+    "version": 1,
+    "versionId": "l255-draft-v1",
+    "title": "Ôn tập · Thời tiết và lựa chọn đi lại",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học bằng dạng truy hồi khác; không tính thêm từ mới.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l215-draft-v2"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 8,
+      "physicalPage": 9,
+      "printedPage": 6,
+      "section": "task",
+      "entry": "四"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-weather",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 8,
+          "physicalPage": 9,
+          "printedPage": 6,
+          "section": "task",
+          "entry": "四"
+        },
+        "written": "介绍天气基本情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-weather",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "基本信息 / 环境信息 / 天气"
+        },
+        "written": "天气",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l215-v-420",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 420"
+        },
+        "written": "晴",
+        "pinyin": "qíng",
+        "senseId": "l215-v-420-sense",
+        "ordinal": 420,
+        "note": "2 qíng 形; 晴 nói trạng thái trời quang; không có nghĩa chắc chắn nóng. Trời quang vẫn có thể lạnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-475",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 475"
+        },
+        "written": "阴",
+        "pinyin": "yīn",
+        "senseId": "l215-v-475-sense",
+        "ordinal": 475,
+        "note": "2 yīn 形; 阴 nói trời nhiều mây/âm u, chưa tự cho biết có mưa. Đừng tự thêm thông tin mưa vào đáp án. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-384",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 384"
+        },
+        "written": "快",
+        "pinyin": "kuài",
+        "senseId": "l215-v-384-sense",
+        "ordinal": 384,
+        "note": "2 kuài 形、副; 快 ở đây là tốc độ nhanh; khác 快要 chỉ sắp xảy ra. ‘Nhanh’ luôn cần hiểu hoạt động đang nói. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-397",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 397"
+        },
+        "written": "慢",
+        "pinyin": "màn",
+        "senseId": "l215-v-397-sense",
+        "ordinal": 397,
+        "note": "2 màn 形; 慢 nói tốc độ thấp; không tự đồng nghĩa với trễ giờ. 走得慢 là đi chậm, 得 dẫn phần mô tả mức độ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-476",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 476"
+        },
+        "written": "因为",
+        "pinyin": "yīnwèi",
+        "senseId": "l215-v-476-sense",
+        "ordinal": 476,
+        "note": "2 yīnwèi 介、连; 因为 giới thiệu nguyên nhân được nêu trong lời nói. Ở đây luyện liên từ nối mệnh đề, không phân tích mọi cách dùng giới từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-439",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 439"
+        },
+        "written": "所以",
+        "pinyin": "suǒyǐ",
+        "senseId": "l215-v-439-sense",
+        "ordinal": 439,
+        "note": "2 suǒyǐ 连; 所以 đưa phần kết quả, không đặt vào chỗ nêu nguyên nhân. Có thể đi với 因为 trong mẫu đã học. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-65",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "65"
+        },
+        "written": "晴",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 65,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-108",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "108"
+        },
+        "written": "阴",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 108,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-45",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "45"
+        },
+        "written": "快",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 45,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-55",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "55"
+        },
+        "written": "慢",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 55,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-107",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "107"
+        },
+        "written": "因",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 107,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-94",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "94"
+        },
+        "written": "为",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 94,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-81",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "81"
+        },
+        "written": "所",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 81,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-because",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "复句 / 因果复句"
+        },
+        "written": "因为……，所以……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l215-c0",
+      "version": 1,
+      "senseId": "l215-v-420-sense",
+      "hanzi": "晴",
+      "dictionaryPinyin": "qíng",
+      "meaning": "trời quang, có nắng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l215-v-420"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l215-c1",
+      "version": 1,
+      "senseId": "l215-v-475-sense",
+      "hanzi": "阴",
+      "dictionaryPinyin": "yīn",
+      "meaning": "trời âm u",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l215-v-475"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l215-c2",
+      "version": 1,
+      "senseId": "l215-v-384-sense",
+      "hanzi": "快",
+      "dictionaryPinyin": "kuài",
+      "meaning": "nhanh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l215-v-384"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l215-c3",
+      "version": 1,
+      "senseId": "l215-v-397-sense",
+      "hanzi": "慢",
+      "dictionaryPinyin": "màn",
+      "meaning": "chậm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l215-v-397"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l215-c4",
+      "version": 1,
+      "senseId": "l215-v-476-sense",
+      "hanzi": "因为",
+      "dictionaryPinyin": "yīn wèi",
+      "meaning": "vì, bởi vì",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l215-v-476"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l215-c5",
+      "version": 1,
+      "senseId": "l215-v-439-sense",
+      "hanzi": "所以",
+      "dictionaryPinyin": "suǒ yǐ",
+      "meaning": "nên, cho nên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l215-v-439"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l255-guide",
+      "type": "teaching",
+      "title": "Ôn tập sau bài",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l255-t0-l215-prereq",
+      "type": "teaching",
+      "title": "Nhắc lại · Kiến thức cần nhắc lại",
+      "text": "天气 là thời tiết; 今天 là hôm nay; 比 dùng so sánh. Ví dụ tốc độ không cung cấp lịch chạy hay thời gian thực tế. 但是 nghĩa là nhưng, nối ý trái kỳ vọng; được nhắc hỗ trợ, chưa kiểm chứng mastery.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l255-t0-l215-t0",
+      "type": "teaching",
+      "title": "Nhắc lại · 晴 · trời quang, có nắng",
+      "text": "晴 nói trạng thái trời quang; không có nghĩa chắc chắn nóng. Trời quang vẫn có thể lạnh.",
+      "hanzi": "今天是晴天，但是很冷。",
+      "pinyin": "Jīntiān shì qíngtiān, dànshì hěn lěng.",
+      "meaning": "Hôm nay trời quang nhưng rất lạnh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l255-t0-l215-t1",
+      "type": "teaching",
+      "title": "Nhắc lại · 阴 · trời âm u",
+      "text": "阴 nói trời nhiều mây/âm u, chưa tự cho biết có mưa. Đừng tự thêm thông tin mưa vào đáp án.",
+      "hanzi": "今天是阴天，不太热。",
+      "pinyin": "Jīntiān shì yīntiān, bú tài rè.",
+      "meaning": "Hôm nay trời âm u, không nóng lắm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l255-t0-l215-t2",
+      "type": "teaching",
+      "title": "Nhắc lại · 快 · nhanh",
+      "text": "快 ở đây là tốc độ nhanh; khác 快要 chỉ sắp xảy ra. ‘Nhanh’ luôn cần hiểu hoạt động đang nói.",
+      "hanzi": "坐地铁比走路快。",
+      "pinyin": "Zuò dìtiě bǐ zǒulù kuài.",
+      "meaning": "Đi tàu điện ngầm nhanh hơn đi bộ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l255-t0-l215-t3",
+      "type": "teaching",
+      "title": "Nhắc lại · 慢 · chậm",
+      "text": "慢 nói tốc độ thấp; không tự đồng nghĩa với trễ giờ. 走得慢 là đi chậm, 得 dẫn phần mô tả mức độ.",
+      "hanzi": "爷爷走得很慢。",
+      "pinyin": "Yéye zǒu de hěn màn.",
+      "meaning": "Ông nội đi rất chậm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l255-t0-l215-t4",
+      "type": "teaching",
+      "title": "Nhắc lại · 因为 · vì, bởi vì",
+      "text": "因为 giới thiệu nguyên nhân được nêu trong lời nói. Ở đây luyện liên từ nối mệnh đề, không phân tích mọi cách dùng giới từ.",
+      "hanzi": "因为今天很冷，我不去游泳。",
+      "pinyin": "Yīnwèi jīntiān hěn lěng, wǒ bú qù yóuyǒng.",
+      "meaning": "Vì hôm nay lạnh, tôi không đi bơi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l255-t0-l215-t5",
+      "type": "teaching",
+      "title": "Nhắc lại · 所以 · nên, cho nên",
+      "text": "所以 đưa phần kết quả, không đặt vào chỗ nêu nguyên nhân. Có thể đi với 因为 trong mẫu đã học.",
+      "hanzi": "今天很冷，所以我们在家。",
+      "pinyin": "Jīntiān hěn lěng, suǒyǐ wǒmen zài jiā.",
+      "meaning": "Hôm nay lạnh nên chúng tôi ở nhà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l255-t0-l215-grammar",
+      "type": "teaching",
+      "title": "Nhắc lại · Cách nói trong ngữ cảnh",
+      "text": "因为 dẫn lý do, 所以 dẫn kết quả: 因为冷，所以不去. Câu biểu đạt lý do người nói nêu, không biến mọi tình huống cùng xảy ra thành quan hệ nhân quả.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l255-t0-l215-reading",
+      "type": "teaching",
+      "title": "Nhắc lại · Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：今天是晴天，我们去游泳吧？乙：是晴天，但是很冷。甲：那我们去书店吧。乙：好，因为书店离这里远，所以我们坐地铁去。",
+      "pinyin": "Jiǎ: Jīntiān shì qíngtiān, wǒmen qù yóuyǒng ba? Yǐ: Shì qíngtiān, dànshì hěn lěng. Jiǎ: Nà wǒmen qù shūdiàn ba. Yǐ: Hǎo, yīnwèi shūdiàn lí zhèlǐ yuǎn, suǒyǐ wǒmen zuò dìtiě qù.",
+      "meaning": "A: Hôm nay trời quang, đi bơi nhé? B: Trời quang nhưng rất lạnh. A: Vậy đến hiệu sách nhé. B: Được, vì hiệu sách xa đây nên chúng ta đi tàu điện ngầm.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l255-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l255-e0"
+    },
+    {
+      "id": "l255-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l255-e1"
+    },
+    {
+      "id": "l255-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l255-e2"
+    },
+    {
+      "id": "l255-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l255-e3"
+    },
+    {
+      "id": "l255-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l255-e4"
+    },
+    {
+      "id": "l255-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l255-e5"
+    },
+    {
+      "id": "l255-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l255-e6"
+    },
+    {
+      "id": "l255-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l255-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l255-e0",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l215-c0",
+      "senseId": "l215-v-420-sense",
+      "keyRef": "l255-k0",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “trời quang, có nắng” (qíng).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l255-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l215-c1",
+      "senseId": "l215-v-475-sense",
+      "keyRef": "l255-k1",
+      "prompt": "Ôn nghĩa: 阴 (yīn) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "nhanh",
+        "chậm",
+        "vì, bởi vì",
+        "nên, cho nên",
+        "trời quang, có nắng",
+        "trời âm u"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l255-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l215-c2",
+      "senseId": "l215-v-384-sense",
+      "keyRef": "l255-k2",
+      "prompt": "Ôn cách đọc của 快 trong nghĩa “nhanh”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l255-e3",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l215-c3",
+      "senseId": "l215-v-397-sense",
+      "keyRef": "l255-k3",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “chậm” (màn).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l255-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l215-c4",
+      "senseId": "l215-v-476-sense",
+      "keyRef": "l255-k4",
+      "prompt": "Ôn nghĩa: 因为 (yīn wèi) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "nên, cho nên",
+        "trời quang, có nắng",
+        "trời âm u",
+        "nhanh",
+        "chậm",
+        "vì, bởi vì"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l255-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l215-c5",
+      "senseId": "l215-v-439-sense",
+      "keyRef": "l255-k5",
+      "prompt": "Ôn cách đọc của 所以 trong nghĩa “nên, cho nên”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l255-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l215-c0",
+      "senseId": "l215-v-420-sense",
+      "keyRef": "l255-k6",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “trời quang, có nắng” (qíng) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "室",
+        "晴",
+        "始",
+        "试"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l255-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l215-c3",
+      "senseId": "l215-v-397-sense",
+      "keyRef": "l255-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Xếp câu: hôm nay lạnh nên chúng tôi ở nhà.",
+      "choices": [
+        "所以",
+        "我们在家",
+        "今天很冷"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l255-k0",
+      "version": 1,
+      "exerciseVersionId": "l255-e0",
+      "senseId": "l215-v-420-sense",
+      "accepted": [
+        "晴"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "晴 · trời quang, có nắng."
+    },
+    {
+      "id": "l255-k1",
+      "version": 1,
+      "exerciseVersionId": "l255-e1",
+      "senseId": "l215-v-475-sense",
+      "accepted": [
+        "trời âm u"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "阴: trời âm u."
+    },
+    {
+      "id": "l255-k2",
+      "version": 1,
+      "exerciseVersionId": "l255-e2",
+      "senseId": "l215-v-384-sense",
+      "accepted": [
+        "kuài"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "kuài · nhanh"
+    },
+    {
+      "id": "l255-k3",
+      "version": 1,
+      "exerciseVersionId": "l255-e3",
+      "senseId": "l215-v-397-sense",
+      "accepted": [
+        "慢"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "慢 · chậm."
+    },
+    {
+      "id": "l255-k4",
+      "version": 1,
+      "exerciseVersionId": "l255-e4",
+      "senseId": "l215-v-476-sense",
+      "accepted": [
+        "vì, bởi vì"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "因为: vì, bởi vì."
+    },
+    {
+      "id": "l255-k5",
+      "version": 1,
+      "exerciseVersionId": "l255-e5",
+      "senseId": "l215-v-439-sense",
+      "accepted": [
+        "suǒ yǐ"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "suǒ yǐ · nên, cho nên"
+    },
+    {
+      "id": "l255-k6",
+      "version": 1,
+      "exerciseVersionId": "l255-e6",
+      "senseId": "l215-v-420-sense",
+      "accepted": [
+        "晴"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "晴 · qíng · trời quang, có nắng. Chữ cần nhận diện là 晴."
+    },
+    {
+      "id": "l255-k7",
+      "version": 1,
+      "exerciseVersionId": "l255-e7",
+      "senseId": "l215-v-397-sense",
+      "accepted": [
+        "2,0,1"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 因为 dẫn lý do, 所以 dẫn kết quả: 因为冷，所以不去. Câu biểu đạt lý do người nói nêu, không biến mọi tình huống cùng xảy ra thành quan hệ nhân quả."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

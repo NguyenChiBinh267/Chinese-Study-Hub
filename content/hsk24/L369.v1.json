@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "15256e696e471b446701439377013b31a637ebd156aac242b65c016d6f29d6a0",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-campus-rules",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L369",
+    "version": 1,
+    "versionId": "l369-draft-v1",
+    "title": "Theo dõi sinh hoạt trường",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc giờ học và lời nhắc của hiệu trưởng; phân biệt quên với đến muộn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "一……也/都+不/没"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 16,
+      "physicalPage": 17,
+      "printedPage": 14,
+      "section": "task",
+      "entry": "十二"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-campus-task",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 16,
+          "physicalPage": 17,
+          "printedPage": 14,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "交流校园生活",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-school-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "学校情况"
+        },
+        "written": "学校情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l369-v-899",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 899"
+        },
+        "written": "校园",
+        "pinyin": "xiàoyuán",
+        "senseId": "l369-v-899-sense",
+        "ordinal": 899,
+        "note": "3 xiàoyuán 名; 校园 là khu vực trường, không phải một lớp hoặc phòng riêng. 校园里 thường nêu vị trí trong khuôn viên. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l369-v-900",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 900"
+        },
+        "written": "校长",
+        "pinyin": "xiàozhǎng",
+        "senseId": "l369-v-900-sense",
+        "ordinal": 900,
+        "note": "3 xiàozhǎng 名; 校长 là người đứng đầu trường theo bài, 长 đọc zhǎng không phải cháng. Không tự là giáo viên môn đang học. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l369-v-708",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 708"
+        },
+        "written": "节",
+        "pinyin": "jié",
+        "senseId": "l369-v-708-sense",
+        "ordinal": 708,
+        "note": "3（4） jié 量、名、（动）; 节 trong 一节课 đếm tiết học, khác 节日 ngày lễ. Không dùng 页 đếm tiết. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l369-v-874",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 874"
+        },
+        "written": "忘记",
+        "pinyin": "wàngjì",
+        "senseId": "l369-v-874-sense",
+        "ordinal": 874,
+        "note": "3 wàngjì 动; 忘记 nói không nhớ việc/thông tin, 忘记带书 là quên mang. Chưa có bằng chứng quên nếu chỉ đoán không thấy đồ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l369-v-561",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 561"
+        },
+        "written": "迟到",
+        "pinyin": "chídào",
+        "senseId": "l369-v-561-sense",
+        "ordinal": 561,
+        "note": "3 chídào 动; 迟到 là đến sau giờ quy định; không dùng 晚点 trong mọi ngữ cảnh học sinh. 迟到了未必故意不认真. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l369-v-988",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 988"
+        },
+        "written": "注意",
+        "pinyin": "zhùyì",
+        "senseId": "l369-v-988-sense",
+        "ordinal": 988,
+        "note": "3 zhùyì 动; 注意 có thể nhận đối tượng như 时间、通知; không phải chỉ nhìn mà chắc đã hiểu. 注意到 thường nói nhận ra. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-263",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "263"
+        },
+        "written": "园",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 263,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-111",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "111"
+        },
+        "written": "节",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 111,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-28",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "28"
+        },
+        "written": "迟",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 28,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-282",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "282"
+        },
+        "written": "注",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 282,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-not-one",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定格式 / 一也都不没"
+        },
+        "written": "一……也/都+不/没",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l369-c0",
+      "version": 1,
+      "senseId": "l369-v-899-sense",
+      "hanzi": "校园",
+      "dictionaryPinyin": "xiào yuán",
+      "meaning": "khuôn viên trường",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l369-v-899"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l369-c1",
+      "version": 1,
+      "senseId": "l369-v-900-sense",
+      "hanzi": "校长",
+      "dictionaryPinyin": "xiào zhǎng",
+      "meaning": "hiệu trưởng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l369-v-900"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l369-c2",
+      "version": 1,
+      "senseId": "l369-v-708-sense",
+      "hanzi": "节",
+      "dictionaryPinyin": "jié",
+      "meaning": "tiết; lượng từ tiết học",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l369-v-708"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l369-c3",
+      "version": 1,
+      "senseId": "l369-v-874-sense",
+      "hanzi": "忘记",
+      "dictionaryPinyin": "wàng jì",
+      "meaning": "quên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l369-v-874"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l369-c4",
+      "version": 1,
+      "senseId": "l369-v-561-sense",
+      "hanzi": "迟到",
+      "dictionaryPinyin": "chí dào",
+      "meaning": "đến muộn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l369-v-561"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l369-c5",
+      "version": 1,
+      "senseId": "l369-v-988-sense",
+      "hanzi": "注意",
+      "dictionaryPinyin": "zhù yì",
+      "meaning": "chú ý",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l369-v-988"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l369-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 课本 kèběn: sách giáo khoa; 故意 gùyì: cố ý; 范围 fànwéi: phạm vi. Không suy ra thói quen cả năm từ một tuần.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l369-t0",
+      "type": "teaching",
+      "title": "校园 · khuôn viên trường",
+      "text": "校园 là khu vực trường, không phải một lớp hoặc phòng riêng. 校园里 thường nêu vị trí trong khuôn viên.",
+      "hanzi": "校园里有很多树。",
+      "pinyin": "Xiàoyuán lǐ yǒu hěn duō shù.",
+      "meaning": "Trong khuôn viên có nhiều cây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l369-t1",
+      "type": "teaching",
+      "title": "校长 · hiệu trưởng",
+      "text": "校长 là người đứng đầu trường theo bài, 长 đọc zhǎng không phải cháng. Không tự là giáo viên môn đang học.",
+      "hanzi": "校长今天跟学生见面。",
+      "pinyin": "Xiàozhǎng jīntiān gēn xuésheng jiàn miàn.",
+      "meaning": "Hôm nay hiệu trưởng gặp học sinh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l369-t2",
+      "type": "teaching",
+      "title": "节 · tiết; lượng từ tiết học",
+      "text": "节 trong 一节课 đếm tiết học, khác 节日 ngày lễ. Không dùng 页 đếm tiết.",
+      "hanzi": "上午有三节课。",
+      "pinyin": "Shàngwǔ yǒu sān jié kè.",
+      "meaning": "Buổi sáng có ba tiết.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l369-t3",
+      "type": "teaching",
+      "title": "忘记 · quên",
+      "text": "忘记 nói không nhớ việc/thông tin, 忘记带书 là quên mang. Chưa có bằng chứng quên nếu chỉ đoán không thấy đồ.",
+      "hanzi": "我忘记带课本了。",
+      "pinyin": "Wǒ wàngjì dài kèběn le.",
+      "meaning": "Tôi quên mang sách giáo khoa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l369-t4",
+      "type": "teaching",
+      "title": "迟到 · đến muộn",
+      "text": "迟到 là đến sau giờ quy định; không dùng 晚点 trong mọi ngữ cảnh học sinh. 迟到了未必故意不认真.",
+      "hanzi": "他今天上课迟到了。",
+      "pinyin": "Tā jīntiān shàng kè chídào le.",
+      "meaning": "Hôm nay cậu ấy đến lớp muộn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l369-t5",
+      "type": "teaching",
+      "title": "注意 · chú ý",
+      "text": "注意 có thể nhận đối tượng như 时间、通知; không phải chỉ nhìn mà chắc đã hiểu. 注意到 thường nói nhận ra.",
+      "hanzi": "请注意上课时间。",
+      "pinyin": "Qǐng zhùyì shàng kè shíjiān.",
+      "meaning": "Hãy chú ý giờ vào học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l369-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "一节课也没迟到 nhấn mạnh không đến muộn buổi nào trong phạm vi kể. Không suy ra cả năm không muộn chỉ từ tuần này; 没 phủ định sự kiện quá khứ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l369-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "校长在校园里跟学生见面，请大家注意上课时间。小林这周一节课也没迟到，但今天忘记带课本。他借同学的书看，没有把忘记带书说成没有上课。",
+      "pinyin": "Xiàozhǎng zài xiàoyuán lǐ gēn xuésheng jiàn miàn, qǐng dàjiā zhùyì shàng kè shíjiān. Xiǎo Lín zhè zhōu yì jié kè yě méi chídào, dàn jīntiān wàngjì dài kèběn. Tā jiè tóngxué de shū kàn, méiyǒu bǎ wàngjì dài shū shuō chéng méiyǒu shàng kè.",
+      "meaning": "Hiệu trưởng nhắc giờ học. Lâm tuần này không muộn tiết nào nhưng hôm nay quên sách và mượn bạn; quên sách không có nghĩa nghỉ học.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l369-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l369-v1-e0"
+    },
+    {
+      "id": "l369-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l369-v1-e1"
+    },
+    {
+      "id": "l369-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l369-v1-e2"
+    },
+    {
+      "id": "l369-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l369-v1-e3"
+    },
+    {
+      "id": "l369-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l369-v1-e4"
+    },
+    {
+      "id": "l369-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l369-v1-e5"
+    },
+    {
+      "id": "l369-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l369-v1-e6"
+    },
+    {
+      "id": "l369-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l369-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l369-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l369-c0",
+      "senseId": "l369-v-899-sense",
+      "keyRef": "l369-v1-k0",
+      "prompt": "Toàn khuôn viên trường: □里有树。",
+      "choices": [
+        "校长",
+        "节",
+        "忘记",
+        "迟到",
+        "注意",
+        "校园"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l369-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l369-c1",
+      "senseId": "l369-v-900-sense",
+      "keyRef": "l369-v1-k1",
+      "prompt": "Tên chức danh đứng đầu trường: □跟学生见面。",
+      "choices": [
+        "节",
+        "忘记",
+        "迟到",
+        "注意",
+        "校园",
+        "校长"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l369-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l369-c2",
+      "senseId": "l369-v-708-sense",
+      "keyRef": "l369-v1-k2",
+      "prompt": "Đếm tiết học: 三□课。",
+      "choices": [
+        "忘记",
+        "迟到",
+        "注意",
+        "校园",
+        "校长",
+        "节"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l369-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l369-c3",
+      "senseId": "l369-v-874-sense",
+      "keyRef": "l369-v1-k3",
+      "prompt": "Viết pinyin của 忘记 trong câu “我忘记带课本了。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l369-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l369-c4",
+      "senseId": "l369-v-561-sense",
+      "keyRef": "l369-v1-k4",
+      "prompt": "Học sinh đến sau giờ học: 上课□了。",
+      "choices": [
+        "注意",
+        "校园",
+        "校长",
+        "节",
+        "忘记",
+        "迟到"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l369-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l369-c5",
+      "senseId": "l369-v-988-sense",
+      "keyRef": "l369-v1-k5",
+      "prompt": "Động từ chú ý: 请□上课时间。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l369-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l369-c0",
+      "senseId": "l369-v-899-sense",
+      "keyRef": "l369-v1-k6",
+      "prompt": "Tuần này Lâm có đến lớp muộn không?",
+      "choices": [
+        "每节课都迟到",
+        "忘记上课了",
+        "一节课也没迟到"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l369-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l369-c3",
+      "senseId": "l369-v-874-sense",
+      "keyRef": "l369-v1-k7",
+      "prompt": "Xếp phủ định toàn bộ trong phạm vi, bắt đầu bằng 这周.",
+      "choices": [
+        "一节课也没迟到",
+        "这周"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l369-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l369-v1-e0",
+      "senseId": "l369-v-899-sense",
+      "accepted": [
+        "校园"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "校园: khuôn viên trường. 校园 là khu vực trường, không phải một lớp hoặc phòng riêng. 校园里 thường nêu vị trí trong khuôn viên. Trong khuôn viên có nhiều cây."
+    },
+    {
+      "id": "l369-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l369-v1-e1",
+      "senseId": "l369-v-900-sense",
+      "accepted": [
+        "校长"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "校长: hiệu trưởng. 校长 là người đứng đầu trường theo bài, 长 đọc zhǎng không phải cháng. Không tự là giáo viên môn đang học. Hôm nay hiệu trưởng gặp học sinh."
+    },
+    {
+      "id": "l369-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l369-v1-e2",
+      "senseId": "l369-v-708-sense",
+      "accepted": [
+        "节"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "节: tiết; lượng từ tiết học. 节 trong 一节课 đếm tiết học, khác 节日 ngày lễ. Không dùng 页 đếm tiết. Buổi sáng có ba tiết."
+    },
+    {
+      "id": "l369-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l369-v1-e3",
+      "senseId": "l369-v-874-sense",
+      "accepted": [
+        "wàng jì"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "忘记: quên. 忘记 nói không nhớ việc/thông tin, 忘记带书 là quên mang. Chưa có bằng chứng quên nếu chỉ đoán không thấy đồ. Tôi quên mang sách giáo khoa."
+    },
+    {
+      "id": "l369-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l369-v1-e4",
+      "senseId": "l369-v-561-sense",
+      "accepted": [
+        "迟到"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "迟到: đến muộn. 迟到 là đến sau giờ quy định; không dùng 晚点 trong mọi ngữ cảnh học sinh. 迟到了未必故意不认真. Hôm nay cậu ấy đến lớp muộn."
+    },
+    {
+      "id": "l369-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l369-v1-e5",
+      "senseId": "l369-v-988-sense",
+      "accepted": [
+        "注意"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "注意: chú ý. 注意 có thể nhận đối tượng như 时间、通知; không phải chỉ nhìn mà chắc đã hiểu. 注意到 thường nói nhận ra. Hãy chú ý giờ vào học."
+    },
+    {
+      "id": "l369-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l369-v1-e6",
+      "senseId": "l369-v-899-sense",
+      "accepted": [
+        "一节课也没迟到"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 一节课也没迟到 nhấn mạnh không đến muộn buổi nào trong phạm vi kể. Không suy ra cả năm không muộn chỉ từ tuần này; 没 phủ định sự kiện quá khứ."
+    },
+    {
+      "id": "l369-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l369-v1-e7",
+      "senseId": "l369-v-874-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 一节课也没迟到 nhấn mạnh không đến muộn buổi nào trong phạm vi kể. Không suy ra cả năm không muộn chỉ từ tuần này; 没 phủ định sự kiện quá khứ."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,836 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "4d267ed4231590ac21d8a528ae593c240454f415a75050ce4abd1839fd047527",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-feasibility-clarity",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L360",
+    "version": 1,
+    "versionId": "l360-draft-v1",
+    "title": "Đánh giá khả thi và điều quan trọng",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Nói rõ điều được/không được, hiểu rõ và chọn ưu tiên.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "不必、不用"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 17,
+      "physicalPage": 18,
+      "printedPage": 15,
+      "section": "task",
+      "entry": "十五"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-career",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 17,
+          "physicalPage": 18,
+          "printedPage": 15,
+          "section": "task",
+          "entry": "十五"
+        },
+        "written": "谈论职业",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-work-evaluation",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "职业评价"
+        },
+        "written": "职业评价",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l360-v-908",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 908"
+        },
+        "written": "行",
+        "pinyin": "xíng",
+        "senseId": "l360-v-908-sense",
+        "ordinal": 908,
+        "note": "3 xíng 动、形; 行 xíng ở lời chấp thuận nghĩa được/ổn, khác háng của 银行. 行不行 hỏi khả thi/chấp thuận, không nói nghề nghiệp. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l360-v-543",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 543"
+        },
+        "written": "不行",
+        "pinyin": "bùxíng",
+        "senseId": "l360-v-543-sense",
+        "ordinal": 543,
+        "note": "3 bùxíng 动、形; 不行 có thể không được phép hoặc không khả thi theo cảnh; khác 不用 không cần. 明天不行说明明天不合适. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l360-v-807",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 807"
+        },
+        "written": "清楚",
+        "pinyin": "qīngchu",
+        "senseId": "l360-v-807-sense",
+        "ordinal": 807,
+        "note": "3 qīngchu 形、动; 清楚 có thể mô tả rõ ràng hoặc hiểu rõ; 说清楚 là nói cho rõ, không tự là nói đúng sự thật. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l360-v-985",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 985"
+        },
+        "written": "重要",
+        "pinyin": "zhòngyào",
+        "senseId": "l360-v-985-sense",
+        "ordinal": 985,
+        "note": "3 zhòngyào 形; 重要 nêu tầm quan trọng theo mục tiêu; 不 thể đồng nhất việc gấp với việc quan trọng trong mọi hoàn cảnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l360-v-987",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 987"
+        },
+        "written": "主要",
+        "pinyin": "zhǔyào",
+        "senseId": "l360-v-987-sense",
+        "ordinal": 987,
+        "note": "3 zhǔyào 形; 主要 nêu phần hoặc lý do chính, chưa là duy nhất. 主要原因 là nguyên nhân chính, có thể còn nguyên nhân khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l360-v-948",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 948"
+        },
+        "written": "有用",
+        "pinyin": "yǒuyòng",
+        "senseId": "l360-v-948-sense",
+        "ordinal": 948,
+        "note": "3 yǒuyòng 形; 有用 nói có ích với mục tiêu/người; 对我有用 chưa chứng minh có ích cho tất cả. Không phải mọi thứ dùng được đều quan trọng nhất. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-235",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "235"
+        },
+        "written": "行",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 235,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-175",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "175"
+        },
+        "written": "清",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 175,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-32",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "32"
+        },
+        "written": "楚",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 32,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-279",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "279"
+        },
+        "written": "重",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 279,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-280",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "280"
+        },
+        "written": "主",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 280,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-256",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "256"
+        },
+        "written": "用",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 256,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-not",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "副词 / 否定副词"
+        },
+        "written": "不必、不用",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l360-c0",
+      "version": 1,
+      "senseId": "l360-v-908-sense",
+      "hanzi": "行",
+      "dictionaryPinyin": "xíng",
+      "meaning": "được/ổn/có thể thực hiện",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l360-v-908"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l360-c1",
+      "version": 1,
+      "senseId": "l360-v-543-sense",
+      "hanzi": "不行",
+      "dictionaryPinyin": "bù xíng",
+      "meaning": "không được/không ổn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l360-v-543"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l360-c2",
+      "version": 1,
+      "senseId": "l360-v-807-sense",
+      "hanzi": "清楚",
+      "dictionaryPinyin": "qīng chu",
+      "meaning": "rõ/hiểu rõ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l360-v-807"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l360-c3",
+      "version": 1,
+      "senseId": "l360-v-985-sense",
+      "hanzi": "重要",
+      "dictionaryPinyin": "zhòng yào",
+      "meaning": "quan trọng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l360-v-985"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l360-c4",
+      "version": 1,
+      "senseId": "l360-v-987-sense",
+      "hanzi": "主要",
+      "dictionaryPinyin": "zhǔ yào",
+      "meaning": "chủ yếu/chính",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l360-v-987"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l360-c5",
+      "version": 1,
+      "senseId": "l360-v-948-sense",
+      "hanzi": "有用",
+      "dictionaryPinyin": "yǒu yòng",
+      "meaning": "hữu ích",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l360-v-948"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l360-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 够 gòu: đủ; 记录 jìlù: ghi chép; 删掉 shāndiào: xóa bỏ; 原因 yuányīn: nguyên nhân. Bài chỉ nói tình huống công việc, không hướng dẫn thao tác xóa dữ liệu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l360-t0",
+      "type": "teaching",
+      "title": "行 · được/ổn/có thể thực hiện",
+      "text": "行 xíng ở lời chấp thuận nghĩa được/ổn, khác háng của 银行. 行不行 hỏi khả thi/chấp thuận, không nói nghề nghiệp.",
+      "hanzi": "明天再做也行。",
+      "pinyin": "Míngtiān zài zuò yě xíng.",
+      "meaning": "Ngày mai làm cũng được.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l360-t1",
+      "type": "teaching",
+      "title": "不行 · không được/không ổn",
+      "text": "不行 có thể không được phép hoặc không khả thi theo cảnh; khác 不用 không cần. 明天不行说明明天不合适.",
+      "hanzi": "今天去不行，我有课。",
+      "pinyin": "Jīntiān qù bù xíng, wǒ yǒu kè.",
+      "meaning": "Hôm nay đi không được, tôi có lớp.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l360-t2",
+      "type": "teaching",
+      "title": "清楚 · rõ/hiểu rõ",
+      "text": "清楚 có thể mô tả rõ ràng hoặc hiểu rõ; 说清楚 là nói cho rõ, không tự là nói đúng sự thật.",
+      "hanzi": "请把时间说清楚。",
+      "pinyin": "Qǐng bǎ shíjiān shuō qīngchu.",
+      "meaning": "Hãy nói rõ thời gian.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l360-t3",
+      "type": "teaching",
+      "title": "重要 · quan trọng",
+      "text": "重要 nêu tầm quan trọng theo mục tiêu; 不 thể đồng nhất việc gấp với việc quan trọng trong mọi hoàn cảnh.",
+      "hanzi": "这件事对我们很重要。",
+      "pinyin": "Zhè jiàn shì duì wǒmen hěn zhòngyào.",
+      "meaning": "Việc này quan trọng với chúng tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l360-t4",
+      "type": "teaching",
+      "title": "主要 · chủ yếu/chính",
+      "text": "主要 nêu phần hoặc lý do chính, chưa là duy nhất. 主要原因 là nguyên nhân chính, có thể còn nguyên nhân khác.",
+      "hanzi": "主要问题是时间不够。",
+      "pinyin": "Zhǔyào wèntí shì shíjiān bú gòu.",
+      "meaning": "Vấn đề chính là không đủ thời gian.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l360-t5",
+      "type": "teaching",
+      "title": "有用 · hữu ích",
+      "text": "有用 nói có ích với mục tiêu/người; 对我有用 chưa chứng minh có ích cho tất cả. Không phải mọi thứ dùng được đều quan trọng nhất.",
+      "hanzi": "这本字典对我很有用。",
+      "pinyin": "Zhè běn zìdiǎn duì wǒ hěn yǒuyòng.",
+      "meaning": "Từ điển này hữu ích với tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l360-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "不用 nêu không cần, khác 不行 là không được/không khả thi. 不用再说 nghĩa không cần nói lại; 不行 chưa đủ biết là cấm hay không thể nếu thiếu ngữ cảnh.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l360-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "同事问明天开会行不行。小林说今天不行，明天可以。主要问题是今天时间不够；先把时间说清楚很重要。旧记录也有用，不用因为它旧就全部删掉。",
+      "pinyin": "Tóngshì wèn míngtiān kāi huì xíng bu xíng. Xiǎo Lín shuō jīntiān bù xíng, míngtiān kěyǐ. Zhǔyào wèntí shì jīntiān shíjiān bú gòu; xiān bǎ shíjiān shuō qīngchu hěn zhòngyào. Jiù jìlù yě yǒuyòng, bú yòng yīnwèi tā jiù jiù quánbù shāndiào.",
+      "meaning": "Đồng nghiệp hỏi mai họp được không. Lâm nói hôm nay không, mai được; vấn đề chính là thiếu thời gian. Cần nói rõ thời gian, và ghi chép cũ vẫn hữu ích nên không cần xóa hết.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l360-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l360-v1-e0"
+    },
+    {
+      "id": "l360-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l360-v1-e1"
+    },
+    {
+      "id": "l360-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l360-v1-e2"
+    },
+    {
+      "id": "l360-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l360-v1-e3"
+    },
+    {
+      "id": "l360-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l360-v1-e4"
+    },
+    {
+      "id": "l360-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l360-v1-e5"
+    },
+    {
+      "id": "l360-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l360-v1-e6"
+    },
+    {
+      "id": "l360-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l360-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l360-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l360-c0",
+      "senseId": "l360-v-908-sense",
+      "keyRef": "l360-v1-k0",
+      "prompt": "Mục từ một chữ “được” đọc xíng: 明天做也□。",
+      "choices": [
+        "不行",
+        "清楚",
+        "重要",
+        "主要",
+        "有用",
+        "行"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l360-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l360-c1",
+      "senseId": "l360-v-543-sense",
+      "keyRef": "l360-v1-k1",
+      "prompt": "Không thực hiện được hôm nay vì có lớp: 今天去□。",
+      "choices": [
+        "清楚",
+        "重要",
+        "主要",
+        "有用",
+        "行",
+        "不行"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l360-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l360-c2",
+      "senseId": "l360-v-807-sense",
+      "keyRef": "l360-v1-k2",
+      "prompt": "Nói cho rõ thời gian: 把时间说□。",
+      "choices": [
+        "重要",
+        "主要",
+        "有用",
+        "行",
+        "不行",
+        "清楚"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l360-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l360-c3",
+      "senseId": "l360-v-985-sense",
+      "keyRef": "l360-v1-k3",
+      "prompt": "Viết pinyin của 重要 trong câu “这件事对我们很重要。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l360-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l360-c4",
+      "senseId": "l360-v-987-sense",
+      "keyRef": "l360-v1-k4",
+      "prompt": "Phần chính chứ chưa là duy nhất: □问题。",
+      "choices": [
+        "有用",
+        "行",
+        "不行",
+        "清楚",
+        "重要",
+        "主要"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l360-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l360-c5",
+      "senseId": "l360-v-948-sense",
+      "keyRef": "l360-v1-k5",
+      "prompt": "Tính chất hữu ích: 这本字典很□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l360-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l360-c0",
+      "senseId": "l360-v-908-sense",
+      "keyRef": "l360-v1-k6",
+      "prompt": "不用全部删掉 nghĩa gì?",
+      "choices": [
+        "Tuyệt đối không thể xóa",
+        "Đã xóa hết",
+        "Không cần xóa hết"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l360-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l360-c3",
+      "senseId": "l360-v-985-sense",
+      "keyRef": "l360-v1-k7",
+      "prompt": "Xếp điều không cần làm, bắt đầu bằng 不用.",
+      "choices": [
+        "全部删掉",
+        "不用"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l360-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l360-v1-e0",
+      "senseId": "l360-v-908-sense",
+      "accepted": [
+        "行"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "行: được/ổn/có thể thực hiện. 行 xíng ở lời chấp thuận nghĩa được/ổn, khác háng của 银行. 行不行 hỏi khả thi/chấp thuận, không nói nghề nghiệp. Ngày mai làm cũng được."
+    },
+    {
+      "id": "l360-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l360-v1-e1",
+      "senseId": "l360-v-543-sense",
+      "accepted": [
+        "不行"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "不行: không được/không ổn. 不行 có thể không được phép hoặc không khả thi theo cảnh; khác 不用 không cần. 明天不行说明明天不合适. Hôm nay đi không được, tôi có lớp."
+    },
+    {
+      "id": "l360-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l360-v1-e2",
+      "senseId": "l360-v-807-sense",
+      "accepted": [
+        "清楚"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "清楚: rõ/hiểu rõ. 清楚 có thể mô tả rõ ràng hoặc hiểu rõ; 说清楚 là nói cho rõ, không tự là nói đúng sự thật. Hãy nói rõ thời gian."
+    },
+    {
+      "id": "l360-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l360-v1-e3",
+      "senseId": "l360-v-985-sense",
+      "accepted": [
+        "zhòng yào"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "重要: quan trọng. 重要 nêu tầm quan trọng theo mục tiêu; 不 thể đồng nhất việc gấp với việc quan trọng trong mọi hoàn cảnh. Việc này quan trọng với chúng tôi."
+    },
+    {
+      "id": "l360-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l360-v1-e4",
+      "senseId": "l360-v-987-sense",
+      "accepted": [
+        "主要"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "主要: chủ yếu/chính. 主要 nêu phần hoặc lý do chính, chưa là duy nhất. 主要原因 là nguyên nhân chính, có thể còn nguyên nhân khác. Vấn đề chính là không đủ thời gian."
+    },
+    {
+      "id": "l360-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l360-v1-e5",
+      "senseId": "l360-v-948-sense",
+      "accepted": [
+        "有用"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "有用: hữu ích. 有用 nói có ích với mục tiêu/người; 对我有用 chưa chứng minh có ích cho tất cả. Không phải mọi thứ dùng được đều quan trọng nhất. Từ điển này hữu ích với tôi."
+    },
+    {
+      "id": "l360-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l360-v1-e6",
+      "senseId": "l360-v-908-sense",
+      "accepted": [
+        "Không cần xóa hết"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 不用 nêu không cần, khác 不行 là không được/không khả thi. 不用再说 nghĩa không cần nói lại; 不行 chưa đủ biết là cấm hay không thể nếu thiếu ngữ cảnh."
+    },
+    {
+      "id": "l360-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l360-v1-e7",
+      "senseId": "l360-v-985-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 不用 nêu không cần, khác 不行 là không được/không khả thi. 不用再说 nghĩa không cần nói lại; 不行 chưa đủ biết là cấm hay không thể nếu thiếu ngữ cảnh."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

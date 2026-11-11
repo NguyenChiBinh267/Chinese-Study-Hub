@@ -1,0 +1,912 @@
+{
+  "batch": "HSK1-batch7",
+  "targetLevel": 1,
+  "sourceCheckedAt": "2026-10-30T14:29:15.060289Z",
+  "lessons": [
+    {
+      "id": "L131",
+      "unit": "hsk-one-h",
+      "unitTitle": "Đi lại và công việc",
+      "title": "Ngoài và phía bên kia",
+      "objective": "Ngoài và phía bên kia; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-131",
+        "方位名词",
+        385,
+        "g-385-3",
+        "外放在地名/处所后表示外面：房间外。外边是较完整的地点说法；边可在桌子边中表示旁侧。那边是所指的另一边，不等于任何固定的左边或右边。Bài chỉ học quan hệ vị trí được viết rõ, không đo khoảng cách."
+      ],
+      "task": [
+        "h1-task-place",
+        "问答环境信息",
+        5,
+        "五"
+      ],
+      "topic": [
+        "h1-topic-44be8a5029aa",
+        "环境特点",
+        58,
+        "环境特点"
+      ],
+      "words": [
+        [
+          "外",
+          "wài",
+          "ngoài; bên ngoài (dạng một chữ)",
+          "外 đứng sau nơi chốn, đối lập với 里 trong các ví dụ.",
+          "我在房间外。",
+          "Wǒ zài fáng jiān wài.",
+          "Tôi ở ngoài phòng."
+        ],
+        [
+          "外边",
+          "wài bian",
+          "bên ngoài (dạng hai chữ)",
+          "外边 là dạng hai chữ; 边 nhẹ trong pinyin từ điển của mục này.",
+          "狗在外边。",
+          "Gǒu zài wài bian.",
+          "Chó ở bên ngoài."
+        ],
+        [
+          "边",
+          "biān",
+          "bên; cạnh",
+          "边 trong 桌子边 nói phía cạnh bàn, không phải nhất thiết ở trên bàn.",
+          "猫在桌子边。",
+          "Māo zài zhuō zi biān.",
+          "Mèo ở cạnh bàn."
+        ],
+        [
+          "那边",
+          "nà biān",
+          "bên kia; phía kia",
+          "那边 dựa vào điểm được người nói chỉ; không tự là hướng đông hay tây.",
+          "那边是医院。",
+          "Nà biān shì yī yuàn.",
+          "Bên kia là bệnh viện."
+        ]
+      ],
+      "passage": [
+        "A：你的狗在房间里吗？\nB：不在，它在外边。\nA：猫呢？\nB：猫在桌子边。",
+        "A: Nǐ de gǒu zài fáng jiān lǐ ma? B: Bú zài, tā zài wài bian. A: Māo ne? B: Māo zài zhuō zi biān.",
+        "医院 yī yuàn = bệnh viện, được chú giải trước bài nghề nghiệp. Chó ở ngoài; mèo ở cạnh bàn."
+      ],
+      "comprehension": [
+        "Chó ở đâu theo lời B?",
+        [
+          "外边",
+          "房间里",
+          "桌子上"
+        ],
+        "外边",
+        "Theo đoạn: 外边. 医院 yī yuàn = bệnh viện, được chú giải trước bài nghề nghiệp. Chó ở ngoài; mèo ở cạnh bàn."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "狗",
+          "在",
+          "外边。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "外",
+            "处",
+            "多",
+            "夕"
+          ],
+          "accepted": [
+            "外"
+          ],
+          "feedback": "Chữ 外 tạo từ 外. 外 đứng sau nơi chốn, đối lập với 里 trong các ví dụ. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 外边 (bên ngoài (dạng hai chữ)).",
+          "choices": [],
+          "accepted": [
+            "wài bian"
+          ],
+          "feedback": "外边 ghi wài bian. 外边 là dạng hai chữ; 边 nhẹ trong pinyin từ điển của mục này."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “bên; cạnh”: 猫在桌子□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "边"
+          ],
+          "feedback": "边: bên; cạnh. 边 trong 桌子边 nói phía cạnh bàn, không phải nhất thiết ở trên bàn. Mèo ở cạnh bàn."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “bên kia; phía kia” trong câu: □是医院。",
+          "choices": [
+            "外",
+            "外边",
+            "边",
+            "那边"
+          ],
+          "accepted": [
+            "那边"
+          ],
+          "feedback": "那边: bên kia; phía kia. 那边 dựa vào điểm được người nói chỉ; không tự là hướng đông hay tây. Bên kia là bệnh viện."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “猫在桌子边。”, 边 mang nghĩa nào theo bài?",
+          "choices": [
+            "ngoài; bên ngoài (dạng một chữ)",
+            "bên ngoài (dạng hai chữ)",
+            "bên; cạnh",
+            "bên kia; phía kia"
+          ],
+          "accepted": [
+            "bên; cạnh"
+          ],
+          "feedback": "边 trong 桌子边 nói phía cạnh bàn, không phải nhất thiết ở trên bàn. Mèo ở cạnh bàn."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “那边是医院。”, 那边 mang nghĩa nào theo bài?",
+          "choices": [
+            "ngoài; bên ngoài (dạng một chữ)",
+            "bên ngoài (dạng hai chữ)",
+            "bên; cạnh",
+            "bên kia; phía kia"
+          ],
+          "accepted": [
+            "bên kia; phía kia"
+          ],
+          "feedback": "那边 dựa vào điểm được người nói chỉ; không tự là hướng đông hay tây. Bên kia là bệnh viện."
+        }
+      ],
+      "characterTargets": [
+        "外"
+      ]
+    },
+    {
+      "id": "L132",
+      "unit": "hsk-one-h",
+      "unitTitle": "Đi lại và công việc",
+      "title": "Từ đây đi đến đó",
+      "objective": "Từ đây đi đến đó; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-132",
+        "连动句",
+        386,
+        "g-386-29",
+        "来 hướng về điểm nhìn của người nói/người được đặt làm trung tâm; 去 hướng tới nơi khác theo điểm nhìn đó. 到 nhấn tới/đến đích. Trong 我去学校读书, đi đến trường là để đọc/học; không phải hai chủ ngữ khác nhau. 这边 nói phía này."
+      ],
+      "task": [
+        "h1-task-travel",
+        "问答出行信息",
+        5,
+        "八"
+      ],
+      "topic": [
+        "h1-topic-880196d1f927",
+        "出行安排",
+        58,
+        "出行安排"
+      ],
+      "words": [
+        [
+          "这边",
+          "zhè biān",
+          "bên này; phía này",
+          "这边 không tự chỉ trái hay phải; theo vị trí mà người nói đang xác định.",
+          "请来这边。",
+          "Qǐng lái zhè biān.",
+          "Mời đến phía này."
+        ],
+        [
+          "来",
+          "lái",
+          "đến; tới (về điểm nhìn)",
+          "来 trong lời mời hướng người nghe về phía người nói đang chỉ.",
+          "请来我的学校。",
+          "Qǐng lái wǒ de xué xiào.",
+          "Mời đến trường của tôi."
+        ],
+        [
+          "去",
+          "qù",
+          "đi; tới (nơi khác)",
+          "去 trong câu đi đến trường; nơi học là đích, không phải đối tượng sở hữu.",
+          "我去学校读书。",
+          "Wǒ qù xué xiào dú shū.",
+          "Tôi đến trường để đọc sách/học."
+        ],
+        [
+          "到",
+          "dào",
+          "đến; tới đích",
+          "到 nhấn đến đích; 了 trong ví dụ báo đã đến ở tình huống này.",
+          "我到学校了。",
+          "Wǒ dào xué xiào le.",
+          "Tôi đến trường rồi."
+        ]
+      ],
+      "passage": [
+        "A：你去哪儿？\nB：我去学校读书。\nA：我也去学校。\nB：好，我们去学校。",
+        "A: Nǐ qù nǎr? B: Wǒ qù xué xiào dú shū. A: Wǒ yě qù xué xiào. B: Hǎo, wǒ men qù xué xiào.",
+        "Hai người nói đi đến trường; B nêu mục đích đọc sách/học. Đoạn chưa khẳng định đã tới nơi."
+      ],
+      "comprehension": [
+        "B nói đi trường để làm gì?",
+        [
+          "读书",
+          "下班",
+          "看电影"
+        ],
+        "读书",
+        "Theo đoạn: 读书. Hai người nói đi đến trường; B nêu mục đích đọc sách/học. Đoạn chưa khẳng định đã tới nơi."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "去学校",
+          "读书。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “bên này; phía này” trong câu: 请来□。",
+          "choices": [
+            "这边",
+            "来",
+            "去",
+            "到"
+          ],
+          "accepted": [
+            "这边"
+          ],
+          "feedback": "这边: bên này; phía này. 这边 không tự chỉ trái hay phải; theo vị trí mà người nói đang xác định. Mời đến phía này."
+        },
+        {
+          "concept": 1,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "来",
+            "米",
+            "木",
+            "未"
+          ],
+          "accepted": [
+            "来"
+          ],
+          "feedback": "Chữ 来 tạo từ 来. 来 trong lời mời hướng người nghe về phía người nói đang chỉ. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “đi; tới (nơi khác)”: 我□学校读书。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "去"
+          ],
+          "feedback": "去: đi; tới (nơi khác). 去 trong câu đi đến trường; nơi học là đích, không phải đối tượng sở hữu. Tôi đến trường để đọc sách/học."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “đến; tới đích” trong câu: 我□学校了。",
+          "choices": [
+            "这边",
+            "来",
+            "去",
+            "到"
+          ],
+          "accepted": [
+            "到"
+          ],
+          "feedback": "到: đến; tới đích. 到 nhấn đến đích; 了 trong ví dụ báo đã đến ở tình huống này. Tôi đến trường rồi."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我去学校读书。”, 去 mang nghĩa nào theo bài?",
+          "choices": [
+            "bên này; phía này",
+            "đến; tới (về điểm nhìn)",
+            "đi; tới (nơi khác)",
+            "đến; tới đích"
+          ],
+          "accepted": [
+            "đi; tới (nơi khác)"
+          ],
+          "feedback": "去 trong câu đi đến trường; nơi học là đích, không phải đối tượng sở hữu. Tôi đến trường để đọc sách/học."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我到学校了。”, 到 mang nghĩa nào theo bài?",
+          "choices": [
+            "bên này; phía này",
+            "đến; tới (về điểm nhìn)",
+            "đi; tới (nơi khác)",
+            "đến; tới đích"
+          ],
+          "accepted": [
+            "đến; tới đích"
+          ],
+          "feedback": "到 nhấn đến đích; 了 trong ví dụ báo đã đến ở tình huống này. Tôi đến trường rồi."
+        }
+      ],
+      "characterTargets": [
+        "来"
+      ]
+    },
+    {
+      "id": "L133",
+      "unit": "hsk-one-h",
+      "unitTitle": "Đi lại và công việc",
+      "title": "Trở về và tìm người",
+      "objective": "Trở về và tìm người; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-133",
+        "怎么",
+        385,
+        "g-385-8",
+        "怎么 hỏi cách làm trong 你的名字怎么写？Không đồng nhất với 怎么样 hỏi đánh giá ở nhóm sau. 见 trong 想见老师 là muốn gặp giáo viên; 找 là tìm, chưa nói đã tìm được; 回 là trở về nơi đã được lấy làm mốc."
+      ],
+      "task": [
+        "h1-task-study",
+        "介绍学习情况",
+        6,
+        "十二"
+      ],
+      "topic": [
+        "h1-topic-543a2c7847b9",
+        "简单互动行为",
+        58,
+        "简单互动行为"
+      ],
+      "words": [
+        [
+          "回",
+          "huí",
+          "về; trở lại",
+          "回学校 là trở về trường; 回 không tự có nghĩa đã tới đích.",
+          "我回学校。",
+          "Wǒ huí xué xiào.",
+          "Tôi trở lại trường."
+        ],
+        [
+          "见",
+          "jiàn",
+          "gặp; thấy (theo ngữ cảnh)",
+          "见 trong 想见老师 là gặp giáo viên, không thay mọi hành động nhìn bằng mắt.",
+          "我想见老师。",
+          "Wǒ xiǎng jiàn lǎo shī.",
+          "Tôi muốn gặp giáo viên."
+        ],
+        [
+          "找",
+          "zhǎo",
+          "tìm",
+          "找 một vật/người là tìm; câu không tự chứng minh đã tìm thấy.",
+          "我找我的书。",
+          "Wǒ zhǎo wǒ de shū.",
+          "Tôi tìm sách của tôi."
+        ],
+        [
+          "怎么",
+          "zěn me",
+          "thế nào; bằng cách nào",
+          "怎么 trong câu hỏi cách viết tên, không phải hỏi tên là gì.",
+          "你的名字怎么写？",
+          "Nǐ de míng zi zěn me xiě?",
+          "Tên bạn viết thế nào?"
+        ]
+      ],
+      "passage": [
+        "A：你找谁？\nB：我找老师。我想见老师。\nA：老师在学校。\nB：好，我回学校。",
+        "A: Nǐ zhǎo shéi? B: Wǒ zhǎo lǎo shī. Wǒ xiǎng jiàn lǎo shī. A: Lǎo shī zài xué xiào. B: Hǎo, wǒ huí xué xiào.",
+        "B tìm giáo viên và muốn gặp. B nói sẽ trở lại trường; đoạn không xác nhận đã gặp được."
+      ],
+      "comprehension": [
+        "B tìm ai?",
+        [
+          "老师",
+          "姐姐",
+          "医生"
+        ],
+        "老师",
+        "Theo đoạn: 老师. B tìm giáo viên và muốn gặp. B nói sẽ trở lại trường; đoạn không xác nhận đã gặp được."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "想见",
+          "老师。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "回",
+            "口",
+            "因",
+            "日"
+          ],
+          "accepted": [
+            "回"
+          ],
+          "feedback": "Chữ 回 tạo từ 回. 回学校 là trở về trường; 回 không tự có nghĩa đã tới đích. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 见 (gặp; thấy (theo ngữ cảnh)).",
+          "choices": [],
+          "accepted": [
+            "jiàn"
+          ],
+          "feedback": "见 ghi jiàn. 见 trong 想见老师 là gặp giáo viên, không thay mọi hành động nhìn bằng mắt."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “tìm”: 我□我的书。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "找"
+          ],
+          "feedback": "找: tìm. 找 một vật/người là tìm; câu không tự chứng minh đã tìm thấy. Tôi tìm sách của tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “thế nào; bằng cách nào” trong câu: 你的名字□写？",
+          "choices": [
+            "回",
+            "见",
+            "找",
+            "怎么"
+          ],
+          "accepted": [
+            "怎么"
+          ],
+          "feedback": "怎么: thế nào; bằng cách nào. 怎么 trong câu hỏi cách viết tên, không phải hỏi tên là gì. Tên bạn viết thế nào?"
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我找我的书。”, 找 mang nghĩa nào theo bài?",
+          "choices": [
+            "về; trở lại",
+            "gặp; thấy (theo ngữ cảnh)",
+            "tìm",
+            "thế nào; bằng cách nào"
+          ],
+          "accepted": [
+            "tìm"
+          ],
+          "feedback": "找 một vật/người là tìm; câu không tự chứng minh đã tìm thấy. Tôi tìm sách của tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “你的名字怎么写？”, 怎么 mang nghĩa nào theo bài?",
+          "choices": [
+            "về; trở lại",
+            "gặp; thấy (theo ngữ cảnh)",
+            "tìm",
+            "thế nào; bằng cách nào"
+          ],
+          "accepted": [
+            "thế nào; bằng cách nào"
+          ],
+          "feedback": "怎么 trong câu hỏi cách viết tên, không phải hỏi tên là gì. Tên bạn viết thế nào?"
+        }
+      ],
+      "characterTargets": [
+        "回"
+      ]
+    },
+    {
+      "id": "L134",
+      "unit": "hsk-one-h",
+      "unitTitle": "Đi lại và công việc",
+      "title": "Công việc và giờ làm",
+      "objective": "Công việc và giờ làm; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-134",
+        "上班",
+        385,
+        "g-385-7",
+        "工作 có thể là công việc hoặc hành động làm việc theo câu. 在公司工作 nói làm việc ở công ty; không tự gán ngành nghề. 上班 nói đi/làm ca làm việc, 下班 là hết ca; không hiểu 下班 là nghỉ việc vĩnh viễn."
+      ],
+      "task": [
+        "h1-task-work",
+        "交流工作信息",
+        7,
+        "十四"
+      ],
+      "topic": [
+        "h1-topic-9f819e0e8b74",
+        "工作信息",
+        59,
+        "工作信息"
+      ],
+      "words": [
+        [
+          "公司",
+          "gōng sī",
+          "công ty",
+          "公司 chỉ công ty; không tự cho biết tòa nhà, quy mô hay ngành nghề.",
+          "这是我姐姐的公司。",
+          "Zhè shì wǒ jiě jie de gōng sī.",
+          "Đây là công ty của chị gái tôi."
+        ],
+        [
+          "工作",
+          "gōng zuò",
+          "làm việc; công việc",
+          "工作 trong 在公司工作 là động từ làm việc; trong 我的工作 là danh từ theo ngữ cảnh.",
+          "我在公司工作。",
+          "Wǒ zài gōng sī gōng zuò.",
+          "Tôi làm việc ở công ty."
+        ],
+        [
+          "上班",
+          "shàng bān",
+          "đi làm; vào ca làm",
+          "上班 không buộc phải là tới một văn phòng trong mọi tình huống; bài dùng lịch công việc đơn giản.",
+          "我妈妈上班。",
+          "Wǒ mā ma shàng bān.",
+          "Mẹ tôi đi làm."
+        ],
+        [
+          "下班",
+          "xià bān",
+          "tan ca; hết giờ làm",
+          "下班 là kết thúc ca/lượt làm việc; 了 = rồi trong ví dụ.",
+          "我下班了。",
+          "Wǒ xià bān le.",
+          "Tôi tan ca rồi."
+        ]
+      ],
+      "passage": [
+        "A：你姐姐在哪儿工作？\nB：在公司工作。\nA：她下班了吗？\nB：下班了，她回家了。",
+        "A: Nǐ jiě jie zài nǎr gōng zuò? B: Zài gōng sī gōng zuò. A: Tā xià bān le ma? B: Xià bān le, tā huí jiā le.",
+        "了 le trong đoạn báo tình trạng đã xảy ra. Chị gái B làm ở công ty và đã về nhà sau khi tan ca."
+      ],
+      "comprehension": [
+        "Chị gái B làm việc ở đâu?",
+        [
+          "公司",
+          "学校",
+          "医院"
+        ],
+        "公司",
+        "Theo đoạn: 公司. 了 le trong đoạn báo tình trạng đã xảy ra. Chị gái B làm ở công ty và đã về nhà sau khi tan ca."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "在公司",
+          "工作。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “công ty” trong câu: 这是我姐姐的□。",
+          "choices": [
+            "公司",
+            "工作",
+            "上班",
+            "下班"
+          ],
+          "accepted": [
+            "公司"
+          ],
+          "feedback": "公司: công ty. 公司 chỉ công ty; không tự cho biết tòa nhà, quy mô hay ngành nghề. Đây là công ty của chị gái tôi."
+        },
+        {
+          "concept": 1,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "工",
+            "土",
+            "士",
+            "干"
+          ],
+          "accepted": [
+            "工"
+          ],
+          "feedback": "Chữ 工 tạo từ 工作. 工作 trong 在公司工作 là động từ làm việc; trong 我的工作 là danh từ theo ngữ cảnh. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “đi làm; vào ca làm”: 我妈妈□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "上班"
+          ],
+          "feedback": "上班: đi làm; vào ca làm. 上班 không buộc phải là tới một văn phòng trong mọi tình huống; bài dùng lịch công việc đơn giản. Mẹ tôi đi làm."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “tan ca; hết giờ làm” trong câu: 我□了。",
+          "choices": [
+            "公司",
+            "工作",
+            "上班",
+            "下班"
+          ],
+          "accepted": [
+            "下班"
+          ],
+          "feedback": "下班: tan ca; hết giờ làm. 下班 là kết thúc ca/lượt làm việc; 了 = rồi trong ví dụ. Tôi tan ca rồi."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我妈妈上班。”, 上班 mang nghĩa nào theo bài?",
+          "choices": [
+            "công ty",
+            "làm việc; công việc",
+            "đi làm; vào ca làm",
+            "tan ca; hết giờ làm"
+          ],
+          "accepted": [
+            "đi làm; vào ca làm"
+          ],
+          "feedback": "上班 không buộc phải là tới một văn phòng trong mọi tình huống; bài dùng lịch công việc đơn giản. Mẹ tôi đi làm."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我下班了。”, 下班 mang nghĩa nào theo bài?",
+          "choices": [
+            "công ty",
+            "làm việc; công việc",
+            "đi làm; vào ca làm",
+            "tan ca; hết giờ làm"
+          ],
+          "accepted": [
+            "tan ca; hết giờ làm"
+          ],
+          "feedback": "下班 là kết thúc ca/lượt làm việc; 了 = rồi trong ví dụ. Tôi tan ca rồi."
+        }
+      ],
+      "characterTargets": [
+        "工"
+      ]
+    },
+    {
+      "id": "L135",
+      "unit": "hsk-one-h",
+      "unitTitle": "Đi lại và công việc",
+      "title": "Hỏi nghề nghiệp lịch sự",
+      "objective": "Hỏi nghề nghiệp lịch sự; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-135",
+        "是",
+        386,
+        "g-386-25",
+        "医生 là nghề, 医院 là nơi; 她是医生 và 她在医院工作 có vai trò khác nhau. 先生/女士 là cách xưng hô lịch sự theo thông tin được nêu, không đoán từ tên. Nêu tên nghề không tự xác nhận giấy phép hoặc trình độ một người thật."
+      ],
+      "task": [
+        "h1-task-work",
+        "交流工作信息",
+        7,
+        "十四"
+      ],
+      "topic": [
+        "h1-topic-207de2aac63a",
+        "职业种类",
+        59,
+        "职业种类"
+      ],
+      "words": [
+        [
+          "医生",
+          "yī shēng",
+          "bác sĩ",
+          "医生 không tự chỉ giới tính; câu đang giới thiệu nghề trong tình huống hư cấu.",
+          "她是医生。",
+          "Tā shì yī shēng.",
+          "Cô ấy là bác sĩ."
+        ],
+        [
+          "医院",
+          "yī yuàn",
+          "bệnh viện",
+          "医院 là nơi; không dùng 她是医院 để giới thiệu bác sĩ.",
+          "我去医院。",
+          "Wǒ qù yī yuàn.",
+          "Tôi đến bệnh viện."
+        ],
+        [
+          "先生",
+          "xiān sheng",
+          "ông; anh (xưng hô lịch sự)",
+          "先生 sau tên gọi người nam theo cách xưng hô đã xác định; không đoán chỉ dựa vào tên 林.",
+          "林先生，您好！",
+          "Lín xiān sheng, nín hǎo!",
+          "Chào ông/anh Lâm!"
+        ],
+        [
+          "女士",
+          "nǚ shì",
+          "bà; cô; chị (xưng hô lịch sự)",
+          "女士 là cách xưng hô lịch sự với người nữ theo tình huống; tên 安 chỉ minh họa.",
+          "安女士，您好！",
+          "Ān nǚ shì, nín hǎo!",
+          "Chào bà/chị An!"
+        ]
+      ],
+      "passage": [
+        "A：安女士是老师吗？\nB：不是，她是医生。\nA：她在哪儿工作？\nB：在医院工作。",
+        "A: Ān nǚ shì shì lǎo shī ma? B: Bú shì, tā shì yī shēng. A: Tā zài nǎr gōng zuò? B: Zài yī yuàn gōng zuò.",
+        "Đoạn nói rõ An là bác sĩ và làm ở bệnh viện; không suy nghề từ cách xưng hô hoặc tên."
+      ],
+      "comprehension": [
+        "An được B giới thiệu làm nghề gì?",
+        [
+          "医生",
+          "老师",
+          "学生"
+        ],
+        "医生",
+        "Theo đoạn: 医生. Đoạn nói rõ An là bác sĩ và làm ở bệnh viện; không suy nghề từ cách xưng hô hoặc tên."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "她",
+          "是",
+          "医生。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "医",
+            "区",
+            "匠",
+            "巨"
+          ],
+          "accepted": [
+            "医"
+          ],
+          "feedback": "Chữ 医 tạo từ 医生. 医生 không tự chỉ giới tính; câu đang giới thiệu nghề trong tình huống hư cấu. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 医院 (bệnh viện).",
+          "choices": [],
+          "accepted": [
+            "yī yuàn"
+          ],
+          "feedback": "医院 ghi yī yuàn. 医院 là nơi; không dùng 她是医院 để giới thiệu bác sĩ."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “ông; anh (xưng hô lịch sự)”: 林□，您好！ Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "先生"
+          ],
+          "feedback": "先生: ông; anh (xưng hô lịch sự). 先生 sau tên gọi người nam theo cách xưng hô đã xác định; không đoán chỉ dựa vào tên 林. Chào ông/anh Lâm!"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “bà; cô; chị (xưng hô lịch sự)” trong câu: 安□，您好！",
+          "choices": [
+            "医生",
+            "医院",
+            "先生",
+            "女士"
+          ],
+          "accepted": [
+            "女士"
+          ],
+          "feedback": "女士: bà; cô; chị (xưng hô lịch sự). 女士 là cách xưng hô lịch sự với người nữ theo tình huống; tên 安 chỉ minh họa. Chào bà/chị An!"
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “林先生，您好！”, 先生 mang nghĩa nào theo bài?",
+          "choices": [
+            "bác sĩ",
+            "bệnh viện",
+            "ông; anh (xưng hô lịch sự)",
+            "bà; cô; chị (xưng hô lịch sự)"
+          ],
+          "accepted": [
+            "ông; anh (xưng hô lịch sự)"
+          ],
+          "feedback": "先生 sau tên gọi người nam theo cách xưng hô đã xác định; không đoán chỉ dựa vào tên 林. Chào ông/anh Lâm!"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “安女士，您好！”, 女士 mang nghĩa nào theo bài?",
+          "choices": [
+            "bác sĩ",
+            "bệnh viện",
+            "ông; anh (xưng hô lịch sự)",
+            "bà; cô; chị (xưng hô lịch sự)"
+          ],
+          "accepted": [
+            "bà; cô; chị (xưng hô lịch sự)"
+          ],
+          "feedback": "女士 là cách xưng hô lịch sự với người nữ theo tình huống; tên 安 chỉ minh họa. Chào bà/chị An!"
+        }
+      ],
+      "characterTargets": [
+        "医"
+      ]
+    }
+  ]
+}

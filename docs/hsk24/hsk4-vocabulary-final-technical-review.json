@@ -1,0 +1,89 @@
+{
+  "kind": "INDEPENDENT_AI_READ_ONLY_TECHNICAL_PACKET_REVIEW",
+  "status": "SCOPED_PASS / HSK4_VOCABULARY_COMPLETE / CURRICULUM_AND_RUNTIME_GATES_OPEN",
+  "reviewedPacketCommit": "b6066a0c559483acc911ec25a70f52376504ce2b",
+  "runtimeAndContentFrozenCommit": "7fb19bb33c7069cb10b1957e9be04aa781fb93a0",
+  "reviewer": "/root/vocabulary_final_packet_review",
+  "recordedAtUTC": "2026-10-30T06:57:47.085345+00:00",
+  "reviewedVerificationSha256": "bb038c9862af517983629574a4f1ba616b627ea66e61dfa81ac49d5caf4e6f4a",
+  "reviewedDeliveryDocumentSha256": "60196e749db7f07fa0fbc4ea055edff0dfcd37166a3dca3d45421b2afed63063",
+  "independentFindings": {
+    "unresolvedInTechnicalScope": 0,
+    "evidenceHashesMatched": 159,
+    "clientArchiveMemberHashesMatched": true,
+    "officialEntriesReadingsLocatorsMatched": 1000,
+    "hsk4IntroductionLessons": 168,
+    "hsk4Activities": 194,
+    "hsk4Exercises": 1552,
+    "planGroupsMatched": 60,
+    "newVocabulary": 352,
+    "planningRecordsReconstructed": 522,
+    "currentPackages": 388,
+    "originalPackageFilesMatchedCRLFNormalized": 383,
+    "historicalSourceReferenceObjectsMatched": 2545,
+    "historicalReviewActivityObjectsMatched": 90,
+    "unitPass": 130,
+    "sqlNativePassExecutions": [
+      74,
+      8,
+      12
+    ],
+    "browserRaw": {
+      "pass": 18,
+      "fail": 2,
+      "notRunSlots": 9,
+      "distinctPassingProjectCases": 16,
+      "automaticRetries": 0
+    },
+    "privateKeyIdsScanned": 4158,
+    "developmentFiles": 101,
+    "productionFiles": 32,
+    "privateKeyIdHits": 0,
+    "baselineRowsUnchanged": {
+      "packages": 383,
+      "attempts": 2978,
+      "sessions": 1315,
+      "cards": 2100
+    },
+    "afterRows": {
+      "packages": 522,
+      "attempts": 4540,
+      "sessions": 1999,
+      "cards": 3228
+    },
+    "canonicalManifests": 522,
+    "migrations": 7,
+    "forceRlsTables": 19,
+    "runtimeSuperuser": false,
+    "runtimeBypassRls": false,
+    "ordinaryTodayFullSourceAndDbBodies": [
+      0,
+      0
+    ],
+    "uniqueHSK4OrdinalRange": [
+      1001,
+      2000
+    ]
+  },
+  "reviewerStatement": "SCOPED PASS — no unresolved finding within the reviewed technical scope. CONTEXT_ONLY guards lexical evidence/projection/card writes while preserving attempts/bindings/events; optional absent field preserves legacy behavior. All1000 official entry/reading/locator rows match pinned PDF; this does not attest original semantics or competent language acceptance.",
+  "openLimits": [
+    "Original Today content timeout unresolved; separate recheck failed while PostgreSQL was stopped. Raw failures retained.",
+    "Cold compile exceeds product budgets; cache/transport remains open.",
+    "Baseline L424/L492/L4013/L4024 compound-context masks and old e6/e7 attribution require additive audit.",
+    "Diagnostics are sampled/assisted with some weak distractors; no independent-recognition certification.",
+    "No competent human Mandarin review, publication/rights approval or verified mastery.",
+    "Database verification by reviewer uses saved receipts, not direct database queries.",
+    "Bounded client artifact/key-ID scan is not a formal confidentiality proof or a claim about every future preview asset."
+  ],
+  "reviewerPerformed": {
+    "fileWrites": false,
+    "gitMutations": false,
+    "databaseAccess": false,
+    "testsBuildTypecheckExport": false
+  },
+  "humanLanguageApproval": false,
+  "publicationApproved": false,
+  "masteryGranted": false,
+  "releaseOrEpicClosure": false,
+  "masterPlanTaskStatusWritten": false
+}

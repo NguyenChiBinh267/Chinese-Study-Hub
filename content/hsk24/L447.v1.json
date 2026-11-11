@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "14984592612514d7e1f385bb5086495f5f1133f182aba4ab72c3147964802058",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eeh",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L447",
+    "version": 1,
+    "versionId": "l447-draft-v1",
+    "title": "Đọc giá trước và sau khi giảm",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc giá trước và sau khi giảm; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "由于"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 22,
+      "physicalPage": 23,
+      "printedPage": 20,
+      "section": "task",
+      "entry": "七"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-27T08:32:20.056220Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-shop",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 22,
+          "physicalPage": 23,
+          "printedPage": 20,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "交流购物体验、商业活动内容",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-b1b8f0ebefa6",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "商家活动"
+        },
+        "written": "商家活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l447-v-1346",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1346"
+        },
+        "written": "价格",
+        "pinyin": "jiàgé",
+        "senseId": "l447-v-1346-sense",
+        "ordinal": 1346,
+        "note": "4 jiàgé 名; 价格 thường dùng khi trình bày/so sánh giá hàng hóa; trung tính hơi trang trọng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l447-v-1347",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1347"
+        },
+        "written": "价钱",
+        "pinyin": "jiàqián",
+        "senseId": "l447-v-1347-sense",
+        "ordinal": 1347,
+        "note": "4 jiàqián 名; 价钱 gần nghĩa 价格, thông dụng trong hỏi mua. Bài này phân biệt theo yêu cầu hình thức chứ không nói từ kia sai nghĩa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l447-v-1349",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1349"
+        },
+        "written": "减",
+        "pinyin": "jiǎn",
+        "senseId": "l447-v-1349-sense",
+        "ordinal": 1349,
+        "note": "4 jiǎn 动; 减 là động từ làm bớt số lượng; 三百减五十 là 300 trừ 50. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l447-v-1351",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1351"
+        },
+        "written": "减少",
+        "pinyin": "jiǎnshǎo",
+        "senseId": "l447-v-1351-sense",
+        "ordinal": 1351,
+        "note": "4 jiǎnshǎo 动; 减少 đi với số lượng/tần suất, ví dụ 减少浪费; khác giảm mức giá thường dùng 降低价格. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l447-v-1363",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 113,
+          "physicalPage": 114,
+          "printedPage": 111,
+          "section": "vocabulary",
+          "entry": "ordinal 1363"
+        },
+        "written": "降低",
+        "pinyin": "jiàngdī",
+        "senseId": "l447-v-1363-sense",
+        "ordinal": 1363,
+        "note": "4 jiàngdī 动; 降低 thường đi với mức độ như 价格、温度, không nói 降低人数 theo cách dùng mục tiêu. Nhận diện chữ 降 trong 降低; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l447-v-1364",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 113,
+          "physicalPage": 114,
+          "printedPage": 111,
+          "section": "vocabulary",
+          "entry": "ordinal 1364"
+        },
+        "written": "降价",
+        "pinyin": "jiàngjià",
+        "senseId": "l447-v-1364-sense",
+        "ordinal": 1364,
+        "note": "4 jiàngjià 动; 降价 là giá được hạ, thường không trực tiếp nhận 价格 làm tân ngữ. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-137",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "137"
+        },
+        "written": "价",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 137,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-87",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "87"
+        },
+        "written": "格",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 87,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-138",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "138"
+        },
+        "written": "减",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 138,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-144",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "144"
+        },
+        "written": "降",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 144,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-52",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "52"
+        },
+        "written": "低",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 52,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-447",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "（由于）……，因此……"
+        },
+        "written": "由于",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l447-c0",
+      "version": 1,
+      "senseId": "l447-v-1346-sense",
+      "hanzi": "价格",
+      "dictionaryPinyin": "jià gé",
+      "meaning": "giá cả",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l447-v-1346"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l447-c1",
+      "version": 1,
+      "senseId": "l447-v-1347-sense",
+      "hanzi": "价钱",
+      "dictionaryPinyin": "jià qián",
+      "meaning": "giá tiền",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l447-v-1347"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l447-c2",
+      "version": 1,
+      "senseId": "l447-v-1349-sense",
+      "hanzi": "减",
+      "dictionaryPinyin": "jiǎn",
+      "meaning": "trừ, giảm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l447-v-1349"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l447-c3",
+      "version": 1,
+      "senseId": "l447-v-1351-sense",
+      "hanzi": "减少",
+      "dictionaryPinyin": "jiǎn shǎo",
+      "meaning": "giảm bớt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l447-v-1351"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l447-c4",
+      "version": 1,
+      "senseId": "l447-v-1363-sense",
+      "hanzi": "降低",
+      "dictionaryPinyin": "jiàng dī",
+      "meaning": "hạ thấp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l447-v-1363"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l447-c5",
+      "version": 1,
+      "senseId": "l447-v-1364-sense",
+      "hanzi": "降价",
+      "dictionaryPinyin": "jiàng jià",
+      "meaning": "giảm giá",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l447-v-1364"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l447-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 原价 yuánjià: giá gốc; 现价 xiànjià: giá hiện tại; 包装 bāozhuāng: bao bì; 标签 biāoqiān: nhãn; 考虑 kǎolǜ: cân nhắc.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l447-t0",
+      "type": "teaching",
+      "title": "价格 · giá cả",
+      "text": "价格 thường dùng khi trình bày/so sánh giá hàng hóa; trung tính hơi trang trọng.",
+      "hanzi": "这件外套的价格降低了。",
+      "pinyin": "Zhè jiàn wàitào de jiàgé jiàngdī le.",
+      "meaning": "Giá áo khoác này đã giảm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l447-t1",
+      "type": "teaching",
+      "title": "价钱 · giá tiền",
+      "text": "价钱 gần nghĩa 价格, thông dụng trong hỏi mua. Bài này phân biệt theo yêu cầu hình thức chứ không nói từ kia sai nghĩa.",
+      "hanzi": "请问这件衣服价钱多少？",
+      "pinyin": "Qǐngwèn zhè jiàn yīfu jiàqián duōshao?",
+      "meaning": "Xin hỏi áo này giá bao nhiêu?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l447-t2",
+      "type": "teaching",
+      "title": "减 · trừ, giảm",
+      "text": "减 là động từ làm bớt số lượng; 三百减五十 là 300 trừ 50.",
+      "hanzi": "三百减五十是二百五十。",
+      "pinyin": "Sānbǎi jiǎn wǔshí shì èrbǎi wǔshí.",
+      "meaning": "Ba trăm trừ năm mươi là hai trăm năm mươi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l447-t3",
+      "type": "teaching",
+      "title": "减少 · giảm bớt",
+      "text": "减少 đi với số lượng/tần suất, ví dụ 减少浪费; khác giảm mức giá thường dùng 降低价格.",
+      "hanzi": "商店减少了包装。",
+      "pinyin": "Shāngdiàn jiǎnshǎo le bāozhuāng.",
+      "meaning": "Cửa hàng giảm bớt bao bì.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l447-t4",
+      "type": "teaching",
+      "title": "降低 · hạ thấp",
+      "text": "降低 thường đi với mức độ như 价格、温度, không nói 降低人数 theo cách dùng mục tiêu. Nhận diện chữ 降 trong 降低; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "商店降低了部分商品的价格。",
+      "pinyin": "Shāngdiàn jiàngdī le bùfen shāngpǐn de jiàgé.",
+      "meaning": "Cửa hàng hạ giá một số mặt hàng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l447-t5",
+      "type": "teaching",
+      "title": "降价 · giảm giá",
+      "text": "降价 là giá được hạ, thường không trực tiếp nhận 价格 làm tân ngữ.",
+      "hanzi": "这件外套今天降价了。",
+      "pinyin": "Zhè jiàn wàitào jīntiān jiàngjià le.",
+      "meaning": "Áo khoác này hôm nay giảm giá.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l447-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "由于 nêu nguyên nhân, 因此 nêu kết quả suy ra: 由于价格降低了，因此来买的人多了. Đây là quan hệ trong câu chuyện, không phải quy luật kinh tế luôn đúng. Không đảo kết quả thành nguyên nhân.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l447-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "外套原价三百元，今天减五十元，现价二百五十元。店员说部分商品降价了，商店还减少了包装。小叶先问价钱，再核对标签。由于这件外套的价格降低了，因此来问的人多了；小叶仍然先考虑自己是否需要。",
+      "pinyin": "Wàitào yuánjià sānbǎi yuán, jīntiān jiǎn wǔshí yuán, xiànjià èrbǎi wǔshí yuán. Diànyuán shuō bùfen shāngpǐn jiàngjià le, shāngdiàn hái jiǎnshǎo le bāozhuāng. Xiǎo Yè xiān wèn jiàqián, zài héduì biāoqiān. Yóuyú zhè jiàn wàitào de jiàgé jiàngdī le, yīncǐ lái wèn de rén duō le; Xiǎo Yè réngrán xiān kǎolǜ zìjǐ shìfǒu xūyào.",
+      "meaning": "Áo từ 300 giảm 50 còn 250 tệ. Một số món hạ giá, cửa hàng cũng giảm bao bì. Diệp kiểm tra nhãn và nhu cầu dù có nhiều người hỏi vì giá giảm.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l447-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l447-v1-e0"
+    },
+    {
+      "id": "l447-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l447-v1-e1"
+    },
+    {
+      "id": "l447-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l447-v1-e2"
+    },
+    {
+      "id": "l447-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l447-v1-e3"
+    },
+    {
+      "id": "l447-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l447-v1-e4"
+    },
+    {
+      "id": "l447-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l447-v1-e5"
+    },
+    {
+      "id": "l447-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l447-v1-e6"
+    },
+    {
+      "id": "l447-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l447-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l447-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l447-c0",
+      "senseId": "l447-v-1346-sense",
+      "keyRef": "l447-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “giá cả” để điền câu: 这件外套的□降低了。 Chọn dạng có chữ 格.",
+      "choices": [
+        "价钱",
+        "减",
+        "减少",
+        "降低",
+        "降价",
+        "价格"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l447-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l447-c1",
+      "senseId": "l447-v-1347-sense",
+      "keyRef": "l447-v1-k1",
+      "prompt": "Ghi pinyin của 价钱 trong câu “请问这件衣服价钱多少？”, theo nghĩa “giá tiền”. Ghi pinyin dạng có chữ 钱.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l447-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l447-c2",
+      "senseId": "l447-v-1349-sense",
+      "keyRef": "l447-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “trừ, giảm”: 三百□五十是二百五十。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l447-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l447-c3",
+      "senseId": "l447-v-1351-sense",
+      "keyRef": "l447-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “giảm bớt” để điền câu: 商店□了包装。 Chọn dạng hai chữ có 少.",
+      "choices": [
+        "降低",
+        "降价",
+        "价格",
+        "价钱",
+        "减",
+        "减少"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l447-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l447-c4",
+      "senseId": "l447-v-1363-sense",
+      "keyRef": "l447-v1-k4",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “hạ thấp”: □低 (jiàng dī). Ngữ cảnh: 商店□了部分商品的价格。",
+      "choices": [
+        "隆",
+        "限",
+        "陆",
+        "降"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l447-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l447-c5",
+      "senseId": "l447-v-1364-sense",
+      "keyRef": "l447-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “giảm giá”: 这件外套今天□了。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l447-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l447-c0",
+      "senseId": "l447-v-1346-sense",
+      "keyRef": "l447-v1-k6",
+      "prompt": "外套现价多少？",
+      "choices": [
+        "五十元。",
+        "三百五十元。",
+        "二百五十元。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l447-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l447-c3",
+      "senseId": "l447-v-1351-sense",
+      "keyRef": "l447-v1-k7",
+      "prompt": "Sắp xếp các cụm theo cấu trúc vừa học; giữ nguyên cụm, không thêm/bớt từ.",
+      "choices": [
+        "由于价格降低了，",
+        "因此",
+        "来问的人多了。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l447-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l447-v1-e0",
+      "senseId": "l447-v-1346-sense",
+      "accepted": [
+        "价格"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "价格: giá cả. 价格 thường dùng khi trình bày/so sánh giá hàng hóa; trung tính hơi trang trọng. Giá áo khoác này đã giảm."
+    },
+    {
+      "id": "l447-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l447-v1-e1",
+      "senseId": "l447-v-1347-sense",
+      "accepted": [
+        "jià qián"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc jià qián. 价钱 gần nghĩa 价格, thông dụng trong hỏi mua. Bài này phân biệt theo yêu cầu hình thức chứ không nói từ kia sai nghĩa."
+    },
+    {
+      "id": "l447-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l447-v1-e2",
+      "senseId": "l447-v-1349-sense",
+      "accepted": [
+        "减"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 减. 减 là động từ làm bớt số lượng; 三百减五十 là 300 trừ 50. Ba trăm trừ năm mươi là hai trăm năm mươi."
+    },
+    {
+      "id": "l447-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l447-v1-e3",
+      "senseId": "l447-v-1351-sense",
+      "accepted": [
+        "减少"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "减少: giảm bớt. 减少 đi với số lượng/tần suất, ví dụ 减少浪费; khác giảm mức giá thường dùng 降低价格. Cửa hàng giảm bớt bao bì."
+    },
+    {
+      "id": "l447-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l447-v1-e4",
+      "senseId": "l447-v-1363-sense",
+      "accepted": [
+        "降"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 降 tạo từ 降低. 降低 thường đi với mức độ như 价格、温度, không nói 降低人数 theo cách dùng mục tiêu. Nhận diện chữ 降 trong 降低; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l447-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l447-v1-e5",
+      "senseId": "l447-v-1364-sense",
+      "accepted": [
+        "降价"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 降价. 降价 là giá được hạ, thường không trực tiếp nhận 价格 làm tân ngữ. Áo khoác này hôm nay giảm giá."
+    },
+    {
+      "id": "l447-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l447-v1-e6",
+      "senseId": "l447-v-1346-sense",
+      "accepted": [
+        "二百五十元。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 二百五十元。. Áo từ 300 giảm 50 còn 250 tệ. Một số món hạ giá, cửa hàng cũng giảm bao bì. Diệp kiểm tra nhãn và nhu cầu dù có nhiều người hỏi vì giá giảm."
+    },
+    {
+      "id": "l447-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l447-v1-e7",
+      "senseId": "l447-v-1351-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 由于 nêu nguyên nhân, 因此 nêu kết quả suy ra: 由于价格降低了，因此来买的人多了. Đây là quan hệ trong câu chuyện, không phải quy luật kinh tế luôn đúng. Không đảo kết quả thành nguyên nhân."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

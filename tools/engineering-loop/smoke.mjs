@@ -16,6 +16,8 @@ try {
   git(workspace, 'add', '--', 'AGENTS.md'); git(workspace, 'commit', '-m', 'synthetic CLI smoke setup');
   const output = path.join(workspace, 'report.json');
   const result = await runCodex({ root, workspace, schema: path.join(tool, 'report.schema.json'), output, timeoutMs: 180000,
+    routingContext: { task: { id: 'D001-SMOKE', spec: ['Synthetic file-byte smoke check'] }, policy: { allowedFiles: ['fixture.txt'] },
+      state: { taskId: 'D001-SMOKE', runId: 'synthetic-smoke', repairs: 0, mode: 'dry-local', commitSha: git(workspace, 'rev-parse', 'HEAD') } },
     prompt: 'Execute only synthetic task D001-SMOKE, authorized by owner for loop setup. Read AGENTS.md. Create fixture.txt with exactly APPROVED followed by one newline. Read it back and report a real targeted file-byte check. Do not commit or push. Return taskId D001-SMOKE, result COMPLETE, changedFiles [fixture.txt], tests with actual readback evidence, evidence, blocker empty and commitSha empty. No application work or external calls.',
     onStart: pid => writeJson(path.join(runtime, 'smoke-writer.json'), { writerPid: pid }),
     onStop: () => writeJson(path.join(runtime, 'smoke-writer.json'), { writerPid: null }), control: () => ({}) });

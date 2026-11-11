@@ -1,0 +1,201 @@
+{
+  "kind": "COMPOSITE_CURRENT_CASE_MATRIX",
+  "acceptedExecutions": {
+    "pass": 17,
+    "fail": 0,
+    "skip": 0
+  },
+  "distinctProjectCases": 16,
+  "extraExecution": "mobile Today repeated for both no-debt and due-debt branches",
+  "acceptedCases": [
+    {
+      "project": "desktop",
+      "file": "journey.spec.ts",
+      "title": "L4008: actual content, resume, grading, completion, progress and accessibility",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+    },
+    {
+      "project": "desktop",
+      "file": "journey.spec.ts",
+      "title": "L4017: actual content, resume, grading, completion, progress and accessibility",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+    },
+    {
+      "project": "desktop",
+      "file": "journey.spec.ts",
+      "title": "L4020: actual content, resume, grading, completion, progress and accessibility",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+    },
+    {
+      "project": "desktop",
+      "file": "journey.spec.ts",
+      "title": "L49004: actual content, resume, grading, completion, progress and accessibility",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+    },
+    {
+      "project": "desktop",
+      "file": "navigation.spec.ts",
+      "title": "L437: course and unit links open the exact current immutable lesson",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+    },
+    {
+      "project": "desktop",
+      "file": "navigation.spec.ts",
+      "title": "L4024: course and unit links open the exact current immutable lesson",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+    },
+    {
+      "project": "desktop",
+      "file": "schedule-refresh.spec.ts",
+      "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+    },
+    {
+      "project": "desktop",
+      "file": "today.spec.ts",
+      "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+      "status": "passed",
+      "annotations": [
+        {
+          "type": "today-priority-branch",
+          "description": "NO_DEBT_PINNED_RESUME"
+        }
+      ],
+      "source": ".local-postgres/hsk24/hsk4-runtime-resume-final-browser.json"
+    },
+    {
+      "project": "mobile360",
+      "file": "today.spec.ts",
+      "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+      "status": "passed",
+      "annotations": [
+        {
+          "type": "today-priority-branch",
+          "description": "NO_DEBT_PINNED_RESUME"
+        }
+      ],
+      "source": ".local-postgres/hsk24/hsk4-runtime-resume-final-browser.json"
+    },
+    {
+      "project": "mobile360",
+      "file": "journey.spec.ts",
+      "title": "L4008: actual content, resume, grading, completion, progress and accessibility",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+    },
+    {
+      "project": "mobile360",
+      "file": "journey.spec.ts",
+      "title": "L4017: actual content, resume, grading, completion, progress and accessibility",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+    },
+    {
+      "project": "mobile360",
+      "file": "journey.spec.ts",
+      "title": "L4020: actual content, resume, grading, completion, progress and accessibility",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+    },
+    {
+      "project": "mobile360",
+      "file": "journey.spec.ts",
+      "title": "L49004: actual content, resume, grading, completion, progress and accessibility",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+    },
+    {
+      "project": "mobile360",
+      "file": "navigation.spec.ts",
+      "title": "L437: course and unit links open the exact current immutable lesson",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+    },
+    {
+      "project": "mobile360",
+      "file": "navigation.spec.ts",
+      "title": "L4024: course and unit links open the exact current immutable lesson",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+    },
+    {
+      "project": "mobile360",
+      "file": "schedule-refresh.spec.ts",
+      "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+      "status": "passed",
+      "annotations": [],
+      "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+    },
+    {
+      "project": "mobile360",
+      "file": "today.spec.ts",
+      "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+      "status": "passed",
+      "annotations": [
+        {
+          "type": "today-priority-branch",
+          "description": "DUE_FSRS_BEFORE_RESUME"
+        }
+      ],
+      "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+    }
+  ],
+  "rawFirstRun": {
+    "path": ".local-postgres/hsk24/hsk4-runtime-final-browser.json",
+    "stats": {
+      "startTime": "2026-10-29T08:10:42.219Z",
+      "duration": 270794.431,
+      "expected": 7,
+      "skipped": 8,
+      "unexpected": 1,
+      "flaky": 0
+    },
+    "retainedFailure": "Shared owner created due FSRS cards; old fixture incorrectly required resume to outrank due review. Product follows the required priority.",
+    "traceArchive": ".local-postgres/hsk24/hsk4-runtime-browser-first-traces.zip"
+  },
+  "currentSources": {
+    "runtimeAndContent": "f9607b2e9587ffeb16efdae061171b1e1c31fa8a",
+    "todayFixture": "bdf5370ee38ea2546f0608320dda0cdf857d9c9c"
+  },
+  "unchangedReusedDesktopFiles": [
+    "journey.spec.ts",
+    "navigation.spec.ts",
+    "schedule-refresh.spec.ts"
+  ],
+  "transportLimit": "Browser server logs contain aborted/ECONNRESET messages around navigation. Functional cases passed; cause and general transport stability are not established by passing assertions.",
+  "intermediateMobileFailure": {
+    "path": ".local-postgres/hsk24/hsk4-runtime-mobile-final-browser.json",
+    "stats": {
+      "startTime": "2026-10-29T08:21:34.859Z",
+      "duration": 36162.581,
+      "expected": 0,
+      "skipped": 7,
+      "unexpected": 1,
+      "flaky": 0
+    },
+    "traceArchive": ".local-postgres/hsk24/hsk4-runtime-mobile-failed-traces.zip",
+    "observed": "TypeError reading length in generated Webpack chunk loader before HSK4 course heading; no application source frame.",
+    "controlledRerun": "Identical app/content; prior dev cache archived, new process/cache and synthetic owner. No request retries, timeout changes or source repair.",
+    "interpretation": "Passing a cleared-cache run supports a cache/process condition but does not prove its precise cause or general dev-cache stability."
+  }
+}

@@ -1,0 +1,788 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "2bab690ef848abb6eaab14ecf9607e7cc332ab3ae40c687706d7d12e41e6fe0f",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-c",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L108",
+    "version": 1,
+    "versionId": "l108-draft-v1",
+    "title": "Anh chị em trong nhà",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Anh chị em trong nhà; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "名词"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "一"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T09:27:43.950465Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-person",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "一"
+        },
+        "written": "问答个人基本信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-ef12595fc2f1",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "身份、家庭成员、朋友、技能等"
+        },
+        "written": "身份、家庭成员、朋友、技能等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l108-v-59",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 59"
+        },
+        "written": "哥哥",
+        "pinyin": "gēge",
+        "senseId": "l108-v-59-sense",
+        "ordinal": 59,
+        "note": "1 gēge 名; 哥哥 chỉ anh trai lớn hơn mình trong quan hệ gia đình ở bài. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l108-v-92",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 92"
+        },
+        "written": "姐姐",
+        "pinyin": "jiějie",
+        "senseId": "l108-v-92-sense",
+        "ordinal": 92,
+        "note": "1 jiějie 名; 姐姐 là chị gái lớn hơn người có quan hệ được nói đến. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l108-v-32",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 32"
+        },
+        "written": "弟弟",
+        "pinyin": "dìdi",
+        "senseId": "l108-v-32-sense",
+        "ordinal": 32,
+        "note": "1 dìdi 名; 弟弟 là em trai nhỏ tuổi hơn, không phải mọi người đàn ông trẻ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l108-v-123",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 123"
+        },
+        "written": "妹妹",
+        "pinyin": "mèimei",
+        "senseId": "l108-v-123-sense",
+        "ordinal": 123,
+        "note": "1 mèimei 名; 妹妹 chỉ em gái; cần biết quan hệ, không đoán từ tên. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l108-v-48",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 48"
+        },
+        "written": "儿子",
+        "pinyin": "érzi",
+        "senseId": "l108-v-48-sense",
+        "ordinal": 48,
+        "note": "1 érzi 名; 儿子 nói quan hệ con trai với cha/mẹ, không nói thứ tự anh em. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-51",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "51"
+        },
+        "written": "哥",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 51,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-85",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "85"
+        },
+        "written": "姐",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 85,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-33",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "33"
+        },
+        "written": "弟",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 33,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-113",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "113"
+        },
+        "written": "妹",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 113,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-42",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "42"
+        },
+        "written": "儿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 42,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-240",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "240"
+        },
+        "written": "子",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 240,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-108",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "g-386-8"
+        },
+        "written": "名词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l108-c0",
+      "version": 1,
+      "senseId": "l108-v-59-sense",
+      "hanzi": "哥哥",
+      "dictionaryPinyin": "gē ge",
+      "meaning": "anh trai",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l108-v-59"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l108-c1",
+      "version": 1,
+      "senseId": "l108-v-92-sense",
+      "hanzi": "姐姐",
+      "dictionaryPinyin": "jiě jie",
+      "meaning": "chị gái",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l108-v-92"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l108-c2",
+      "version": 1,
+      "senseId": "l108-v-32-sense",
+      "hanzi": "弟弟",
+      "dictionaryPinyin": "dì di",
+      "meaning": "em trai",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l108-v-32"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l108-c3",
+      "version": 1,
+      "senseId": "l108-v-123-sense",
+      "hanzi": "妹妹",
+      "dictionaryPinyin": "mèi mei",
+      "meaning": "em gái",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l108-v-123"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l108-c4",
+      "version": 1,
+      "senseId": "l108-v-48-sense",
+      "hanzi": "儿子",
+      "dictionaryPinyin": "ér zi",
+      "meaning": "con trai",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l108-v-48"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l108-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l108-t0",
+      "type": "teaching",
+      "title": "哥哥 · anh trai",
+      "text": "哥哥 chỉ anh trai lớn hơn mình trong quan hệ gia đình ở bài.",
+      "hanzi": "我哥哥叫安。",
+      "pinyin": "Wǒ gē ge jiào Ān.",
+      "meaning": "Anh trai tôi tên An.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l108-t1",
+      "type": "teaching",
+      "title": "姐姐 · chị gái",
+      "text": "姐姐 là chị gái lớn hơn người có quan hệ được nói đến.",
+      "hanzi": "她是我姐姐。",
+      "pinyin": "Tā shì wǒ jiě jie.",
+      "meaning": "Cô ấy là chị gái tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l108-t2",
+      "type": "teaching",
+      "title": "弟弟 · em trai",
+      "text": "弟弟 là em trai nhỏ tuổi hơn, không phải mọi người đàn ông trẻ.",
+      "hanzi": "他是我弟弟。",
+      "pinyin": "Tā shì wǒ dì di.",
+      "meaning": "Cậu ấy là em trai tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l108-t3",
+      "type": "teaching",
+      "title": "妹妹 · em gái",
+      "text": "妹妹 chỉ em gái; cần biết quan hệ, không đoán từ tên.",
+      "hanzi": "我妹妹喜欢茶。",
+      "pinyin": "Wǒ mèi mei xǐ huan chá.",
+      "meaning": "Em gái tôi thích trà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l108-t4",
+      "type": "teaching",
+      "title": "儿子 · con trai",
+      "text": "儿子 nói quan hệ con trai với cha/mẹ, không nói thứ tự anh em.",
+      "hanzi": "他是我儿子。",
+      "pinyin": "Tā shì wǒ ér zi.",
+      "meaning": "Cậu ấy là con trai tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l108-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "Anh chị em được gọi theo quan hệ với người nói và thứ tự tuổi: 哥哥/姐姐 lớn hơn, 弟弟/妹妹 nhỏ hơn. 儿子 là con trai của ai, không đồng nghĩa 弟弟. Các danh từ này làm chủ thể hoặc phần sau 是 trong câu giới thiệu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l108-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：他是你弟弟吗？\nB：不是，他是我哥哥。\nA：她呢？\nB：她是我妹妹。",
+      "pinyin": "A: Tā shì nǐ dì di ma? B: Bú shì, tā shì wǒ gē ge. A: Tā ne? B: Tā shì wǒ mèi mei.",
+      "meaning": "B sửa cách gọi của A: người nam là anh trai B; người nữ được nhắc sau là em gái B.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l108-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l108-v1-e0"
+    },
+    {
+      "id": "l108-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l108-v1-e1"
+    },
+    {
+      "id": "l108-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l108-v1-e2"
+    },
+    {
+      "id": "l108-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l108-v1-e3"
+    },
+    {
+      "id": "l108-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l108-v1-e4"
+    },
+    {
+      "id": "l108-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l108-v1-e5"
+    },
+    {
+      "id": "l108-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l108-v1-e6"
+    },
+    {
+      "id": "l108-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l108-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l108-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l108-c0",
+      "senseId": "l108-v-59-sense",
+      "keyRef": "l108-v1-k0",
+      "prompt": "Chọn mục từ có nghĩa “anh trai” trong câu: 我□叫安。",
+      "choices": [
+        "姐姐",
+        "弟弟",
+        "妹妹",
+        "儿子",
+        "哥哥"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l108-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l108-c1",
+      "senseId": "l108-v-92-sense",
+      "keyRef": "l108-v1-k1",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “chị gái”: □姐 (jiě jie). Ngữ cảnh: 她是我□姐。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "好",
+        "如",
+        "姐",
+        "妹"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l108-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l108-c2",
+      "senseId": "l108-v-32-sense",
+      "keyRef": "l108-v1-k2",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “em trai”: 他是我□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l108-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l108-c3",
+      "senseId": "l108-v-123-sense",
+      "keyRef": "l108-v1-k3",
+      "prompt": "Chọn mục từ có nghĩa “em gái” trong câu: 我□喜欢茶。",
+      "choices": [
+        "儿子",
+        "哥哥",
+        "姐姐",
+        "弟弟",
+        "妹妹"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l108-v1-e4",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l108-c4",
+      "senseId": "l108-v-48-sense",
+      "keyRef": "l108-v1-k4",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “con trai”: 他是我□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l108-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l108-c2",
+      "senseId": "l108-v-32-sense",
+      "keyRef": "l108-v1-k5",
+      "prompt": "Trong câu “他是我弟弟。”, 弟弟 mang nghĩa nào theo bài?",
+      "choices": [
+        "chị gái",
+        "em trai",
+        "em gái",
+        "con trai",
+        "anh trai"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l108-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l108-c0",
+      "senseId": "l108-v-59-sense",
+      "keyRef": "l108-v1-k6",
+      "prompt": "Người nam được B giới thiệu là ai?",
+      "choices": [
+        "弟弟",
+        "儿子",
+        "哥哥"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l108-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l108-c3",
+      "senseId": "l108-v-123-sense",
+      "keyRef": "l108-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "她",
+        "是",
+        "我妹妹。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l108-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l108-v1-e0",
+      "senseId": "l108-v-59-sense",
+      "accepted": [
+        "哥哥"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "哥哥: anh trai. 哥哥 chỉ anh trai lớn hơn mình trong quan hệ gia đình ở bài. Anh trai tôi tên An."
+    },
+    {
+      "id": "l108-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l108-v1-e1",
+      "senseId": "l108-v-92-sense",
+      "accepted": [
+        "姐"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 姐 tạo từ 姐姐. 姐姐 là chị gái lớn hơn người có quan hệ được nói đến. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l108-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l108-v1-e2",
+      "senseId": "l108-v-32-sense",
+      "accepted": [
+        "弟弟"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "弟弟: em trai. 弟弟 là em trai nhỏ tuổi hơn, không phải mọi người đàn ông trẻ. Cậu ấy là em trai tôi."
+    },
+    {
+      "id": "l108-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l108-v1-e3",
+      "senseId": "l108-v-123-sense",
+      "accepted": [
+        "妹妹"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "妹妹: em gái. 妹妹 chỉ em gái; cần biết quan hệ, không đoán từ tên. Em gái tôi thích trà."
+    },
+    {
+      "id": "l108-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l108-v1-e4",
+      "senseId": "l108-v-48-sense",
+      "accepted": [
+        "儿子"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "儿子: con trai. 儿子 nói quan hệ con trai với cha/mẹ, không nói thứ tự anh em. Cậu ấy là con trai tôi."
+    },
+    {
+      "id": "l108-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l108-v1-e5",
+      "senseId": "l108-v-32-sense",
+      "accepted": [
+        "em trai"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "弟弟 là em trai nhỏ tuổi hơn, không phải mọi người đàn ông trẻ. Cậu ấy là em trai tôi."
+    },
+    {
+      "id": "l108-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l108-v1-e6",
+      "senseId": "l108-v-59-sense",
+      "accepted": [
+        "哥哥"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 哥哥. B sửa cách gọi của A: người nam là anh trai B; người nữ được nhắc sau là em gái B."
+    },
+    {
+      "id": "l108-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l108-v1-e7",
+      "senseId": "l108-v-123-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. Anh chị em được gọi theo quan hệ với người nói và thứ tự tuổi: 哥哥/姐姐 lớn hơn, 弟弟/妹妹 nhỏ hơn. 儿子 là con trai của ai, không đồng nghĩa 弟弟. Các danh từ này làm chủ thể hoặc phần sau 是 trong câu giới thiệu."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

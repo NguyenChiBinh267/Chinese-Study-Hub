@@ -1,0 +1,831 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "f8f141fbe2d0d972892d9ff75837bee3794c86805129ff17a7edd1574a2ba6ab",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-home-tasks",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L312",
+    "version": 2,
+    "versionId": "l312-draft-v2",
+    "title": "Sắp xếp nhà trước khi ra ngoài",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc lời nhờ dọn nhà, vị trí đồ vật và trạng thái bật/tắt.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l214-draft-v1",
+      "l222-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "主语+把+宾语+动词+在/到+处所"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 15,
+      "physicalPage": 16,
+      "printedPage": 13,
+      "section": "task",
+      "entry": "十"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-family",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 15,
+          "physicalPage": 16,
+          "printedPage": 13,
+          "section": "task",
+          "entry": "十"
+        },
+        "written": "谈论生活习惯、家庭关系和家庭事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-home",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "日常生活 / 家庭生活 / 居家生活"
+        },
+        "written": "居家生活",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l312-v-571",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 571"
+        },
+        "written": "打扫",
+        "pinyin": "dǎsǎo",
+        "senseId": "l312-v-571-sense",
+        "ordinal": 571,
+        "note": "3 dǎsǎo 动; 打扫 chỉ dọn cho sạch theo ngữ cảnh, thường dùng với 房间/教室. Không đồng nghĩa di chuyển mọi đồ vật hay sửa nhà. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l312-v-636",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 636"
+        },
+        "written": "干净",
+        "pinyin": "gānjìng",
+        "senseId": "l312-v-636-sense",
+        "ordinal": 636,
+        "note": "3 gānjìng 形; 干净 là trạng thái sạch; khác 打扫 là hành động dọn. 很干净 chưa cho biết ai đã dọn hay lúc nào. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l312-v-623",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 623"
+        },
+        "written": "房子",
+        "pinyin": "fángzi",
+        "senseId": "l312-v-623-sense",
+        "ordinal": 623,
+        "note": "3 fángzi 名; 房子 thường nói căn nhà/công trình để ở; khác 房间 phòng trong nhà và 家 nhà theo gia đình/nơi thuộc về. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l312-v-624",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 624"
+        },
+        "written": "放",
+        "pinyin": "fàng",
+        "senseId": "l312-v-624-sense",
+        "ordinal": 624,
+        "note": "3 fàng 动; 放 ở đây là đặt vật tại một nơi. 放在桌上 nói đặt trên bàn; không dùng nghĩa nghỉ như 放假. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l312-v-652",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 652"
+        },
+        "written": "关",
+        "pinyin": "guān",
+        "senseId": "l312-v-652-sense",
+        "ordinal": 652,
+        "note": "3（5） guān 动、（名）; 关 với 门 là đóng cửa, với 灯 là tắt đèn. Khác 关心 quan tâm là từ khác chưa được dạy ở đây. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l312-v-588",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 588"
+        },
+        "written": "灯",
+        "pinyin": "dēng",
+        "senseId": "l312-v-588-sense",
+        "ordinal": 588,
+        "note": "3 dēng 名; 灯 là đồ vật phát sáng, không phải động từ tắt. 灯还开着 nói đèn còn bật; không dịch nhầm 关灯 thành bật đèn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l312-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "hỗ trợ trong ngữ cảnh",
+        "pinyin": "",
+        "senseId": "l312-extra0-sense",
+        "ordinal": null,
+        "note": "房间 fángjiān: phòng; 客厅 kètīng: phòng khách (hỗ trợ chưa xác minh cấp); 所 suǒ: lượng từ nhà/công trình; 开着 kāi zhe: đang bật/mở. Chỉ nhánh đặt vật của 把 được đánh giá."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-187",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "187"
+        },
+        "written": "扫",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 187,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-66",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "66"
+        },
+        "written": "干",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 66,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-117",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "117"
+        },
+        "written": "净",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 117,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-58",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "58"
+        },
+        "written": "放",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 58,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-42",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "42"
+        },
+        "written": "灯",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 42,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-g-ba-place",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "特殊句型 / 把字句位置"
+        },
+        "written": "主语+把+宾语+动词+在/到+处所",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l312-c0",
+      "version": 1,
+      "senseId": "l312-v-571-sense",
+      "hanzi": "打扫",
+      "dictionaryPinyin": "dǎ sǎo",
+      "meaning": "quét dọn/dọn vệ sinh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l312-v-571"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l312-c1",
+      "version": 1,
+      "senseId": "l312-v-636-sense",
+      "hanzi": "干净",
+      "dictionaryPinyin": "gān jìng",
+      "meaning": "sạch",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l312-v-636"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l312-c2",
+      "version": 1,
+      "senseId": "l312-v-623-sense",
+      "hanzi": "房子",
+      "dictionaryPinyin": "fáng zi",
+      "meaning": "nhà/căn nhà",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l312-v-623"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l312-c3",
+      "version": 1,
+      "senseId": "l312-v-624-sense",
+      "hanzi": "放",
+      "dictionaryPinyin": "fàng",
+      "meaning": "đặt/để",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l312-v-624"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l312-c4",
+      "version": 1,
+      "senseId": "l312-v-652-sense",
+      "hanzi": "关",
+      "dictionaryPinyin": "guān",
+      "meaning": "đóng/tắt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l312-v-652"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l312-c5",
+      "version": 1,
+      "senseId": "l312-v-588-sense",
+      "hanzi": "灯",
+      "dictionaryPinyin": "dēng",
+      "meaning": "đèn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l312-v-588"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l312-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Nhắc 不/没, 很, số lượng và địa điểm. HSK1/2 chưa hoàn chỉnh; chỉ khám phá DRAFT. 房间 fángjiān: phòng; 客厅 kètīng: phòng khách (hỗ trợ chưa xác minh cấp); 所 suǒ: lượng từ nhà/công trình; 开着 kāi zhe: đang bật/mở. Chỉ nhánh đặt vật của 把 được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l312-t0",
+      "type": "teaching",
+      "title": "打扫 · quét dọn/dọn vệ sinh",
+      "text": "打扫 chỉ dọn cho sạch theo ngữ cảnh, thường dùng với 房间/教室. Không đồng nghĩa di chuyển mọi đồ vật hay sửa nhà.",
+      "hanzi": "我们一起打扫房子。",
+      "pinyin": "Wǒmen yìqǐ dǎsǎo fángzi.",
+      "meaning": "Chúng tôi cùng dọn nhà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l312-t1",
+      "type": "teaching",
+      "title": "干净 · sạch",
+      "text": "干净 là trạng thái sạch; khác 打扫 là hành động dọn. 很干净 chưa cho biết ai đã dọn hay lúc nào.",
+      "hanzi": "这个房间很干净。",
+      "pinyin": "Zhège fángjiān hěn gānjìng.",
+      "meaning": "Phòng này sạch.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l312-t2",
+      "type": "teaching",
+      "title": "房子 · nhà/căn nhà",
+      "text": "房子 thường nói căn nhà/công trình để ở; khác 房间 phòng trong nhà và 家 nhà theo gia đình/nơi thuộc về.",
+      "hanzi": "这所房子有三个房间。",
+      "pinyin": "Zhè suǒ fángzi yǒu sān ge fángjiān.",
+      "meaning": "Căn nhà này có ba phòng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l312-t3",
+      "type": "teaching",
+      "title": "放 · đặt/để",
+      "text": "放 ở đây là đặt vật tại một nơi. 放在桌上 nói đặt trên bàn; không dùng nghĩa nghỉ như 放假.",
+      "hanzi": "请把书放在桌上。",
+      "pinyin": "Qǐng bǎ shū fàng zài zhuō shang.",
+      "meaning": "Hãy đặt sách lên bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l312-t4",
+      "type": "teaching",
+      "title": "关 · đóng/tắt",
+      "text": "关 với 门 là đóng cửa, với 灯 là tắt đèn. Khác 关心 quan tâm là từ khác chưa được dạy ở đây.",
+      "hanzi": "出门以前，请关灯。",
+      "pinyin": "Chū mén yǐqián, qǐng guān dēng.",
+      "meaning": "Trước khi ra ngoài hãy tắt đèn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l312-t5",
+      "type": "teaching",
+      "title": "灯 · đèn",
+      "text": "灯 là đồ vật phát sáng, không phải động từ tắt. 灯还开着 nói đèn còn bật; không dịch nhầm 关灯 thành bật đèn.",
+      "hanzi": "客厅的灯还开着。",
+      "pinyin": "Kètīng de dēng hái kāi zhe.",
+      "meaning": "Đèn phòng khách còn bật.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l312-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "把门口的东西放在桌上 dùng vật đã xác định trước động từ+在+vị trí. Nhánh này là đặt vật ở đâu, bổ sung nhánh 带到 ở bài đi lại; chưa bao phủ toàn bộ mẫu 把.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l312-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小李：出门以前，我们先打扫一下房子。小安：桌上的书放在哪里？小李：放在书包里。小安：现在房间很干净了。小李：好，别忘了关灯，再关门。",
+      "pinyin": "Xiǎo Lǐ: Chū mén yǐqián, wǒmen xiān dǎsǎo yíxià fángzi. Xiǎo Ān: Zhuō shang de shū fàng zài nǎli? Xiǎo Lǐ: Fàng zài shūbāo lǐ. Xiǎo Ān: Xiànzài fángjiān hěn gānjìng le. Xiǎo Lǐ: Hǎo, bié wàng le guān dēng, zài guān mén.",
+      "meaning": "Trước khi ra ngoài, Lý và An dọn nhà. Sách trên bàn được đặt vào cặp. Phòng đã sạch; Lý nhắc tắt đèn rồi đóng cửa.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l312-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l312-v2-e0"
+    },
+    {
+      "id": "l312-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l312-v2-e1"
+    },
+    {
+      "id": "l312-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l312-v2-e2"
+    },
+    {
+      "id": "l312-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l312-v2-e3"
+    },
+    {
+      "id": "l312-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l312-v2-e4"
+    },
+    {
+      "id": "l312-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l312-v2-e5"
+    },
+    {
+      "id": "l312-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l312-v2-e6"
+    },
+    {
+      "id": "l312-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l312-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l312-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l312-c0",
+      "senseId": "l312-v-571-sense",
+      "keyRef": "l312-v2-k0",
+      "prompt": "Bạn và bạn cùng làm cho căn nhà sạch: 一起□房子.",
+      "choices": [
+        "干净",
+        "房子",
+        "放",
+        "关",
+        "灯",
+        "打扫"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l312-v2-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l312-c1",
+      "senseId": "l312-v-636-sense",
+      "keyRef": "l312-v2-k1",
+      "prompt": "Hỏi trạng thái căn phòng sau dọn, không hỏi hành động: 房间很□.",
+      "choices": [
+        "房子",
+        "放",
+        "关",
+        "灯",
+        "打扫",
+        "干净"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l312-v2-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l312-c2",
+      "senseId": "l312-v-623-sense",
+      "keyRef": "l312-v2-k2",
+      "prompt": "Bạn nói cả căn nhà có ba phòng, không chỉ một phòng. Chọn danh từ.",
+      "choices": [
+        "放",
+        "关",
+        "灯",
+        "打扫",
+        "干净",
+        "房子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l312-v2-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l312-c3",
+      "senseId": "l312-v-624-sense",
+      "keyRef": "l312-v2-k3",
+      "prompt": "Viết pinyin của 放 trong nghĩa “đặt/để”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l312-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l312-c4",
+      "senseId": "l312-v-652-sense",
+      "keyRef": "l312-v2-k4",
+      "prompt": "Trước ra ngoài cần tắt đèn trong lời nhắc: 请□灯.",
+      "choices": [
+        "灯",
+        "打扫",
+        "干净",
+        "房子",
+        "放",
+        "关"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l312-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l312-c5",
+      "senseId": "l312-v-588-sense",
+      "keyRef": "l312-v2-k5",
+      "prompt": "Viết câu “Đèn còn bật”, dùng mục từ đèn của bài và trợ từ trạng thái 着. Chỉ viết một câu ngắn.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l312-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l312-c0",
+      "senseId": "l312-v-571-sense",
+      "keyRef": "l312-v2-k6",
+      "prompt": "Sách trên bàn sẽ được đặt ở đâu?",
+      "choices": [
+        "冰箱里",
+        "门口外面",
+        "书包里"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l312-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l312-c3",
+      "senseId": "l312-v-624-sense",
+      "keyRef": "l312-v2-k7",
+      "prompt": "Sắp xếp yêu cầu đặt sách vào cặp.",
+      "choices": [
+        "放在书包里",
+        "把",
+        "书"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l312-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l312-v2-e0",
+      "senseId": "l312-v-571-sense",
+      "accepted": [
+        "打扫"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "打扫 chỉ dọn cho sạch theo ngữ cảnh, thường dùng với 房间/教室. Không đồng nghĩa di chuyển mọi đồ vật hay sửa nhà."
+    },
+    {
+      "id": "l312-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l312-v2-e1",
+      "senseId": "l312-v-636-sense",
+      "accepted": [
+        "干净"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "干净 là trạng thái sạch; khác 打扫 là hành động dọn. 很干净 chưa cho biết ai đã dọn hay lúc nào."
+    },
+    {
+      "id": "l312-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l312-v2-e2",
+      "senseId": "l312-v-623-sense",
+      "accepted": [
+        "房子"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "房子 thường nói căn nhà/công trình để ở; khác 房间 phòng trong nhà và 家 nhà theo gia đình/nơi thuộc về."
+    },
+    {
+      "id": "l312-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l312-v2-e3",
+      "senseId": "l312-v-624-sense",
+      "accepted": [
+        "fàng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "放 ở đây là đặt vật tại một nơi. 放在桌上 nói đặt trên bàn; không dùng nghĩa nghỉ như 放假."
+    },
+    {
+      "id": "l312-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l312-v2-e4",
+      "senseId": "l312-v-652-sense",
+      "accepted": [
+        "关"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "关 với 门 là đóng cửa, với 灯 là tắt đèn. Khác 关心 quan tâm là từ khác chưa được dạy ở đây."
+    },
+    {
+      "id": "l312-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l312-v2-e5",
+      "senseId": "l312-v-588-sense",
+      "accepted": [
+        "灯还开着"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "灯 là danh từ; 开着 là trạng thái còn bật."
+    },
+    {
+      "id": "l312-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l312-v2-e6",
+      "senseId": "l312-v-571-sense",
+      "accepted": [
+        "书包里"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc lời đáp 放在书包里; không lấy ví dụ sách trên bàn để trả lời vị trí mới."
+    },
+    {
+      "id": "l312-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l312-v2-e7",
+      "senseId": "l312-v-624-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 把门口的东西放在桌上 dùng vật đã xác định trước động từ+在+vị trí. Nhánh này là đặt vật ở đâu, bổ sung nhánh 带到 ở bài đi lại; chưa bao phủ toàn bộ mẫu 把."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

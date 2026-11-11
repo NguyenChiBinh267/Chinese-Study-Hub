@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-18T10:41:50.741Z",
+  "base": "9f32d8aa9ccde073031e8a63ac420f2dd96dfcd4",
+  "status": "SPRINT8_PARTIAL",
+  "scope": "Presentation-only rejection diagnostics and conditional retry advice; no change to extraction or thresholds",
+  "ownerReport": {
+    "source": "User-pasted diagnostic text; browser/device/playback not confirmed; no audio inspected",
+    "status": "INSUFFICIENT_SIGNAL",
+    "reason": "INSUFFICIENT_PERIODIC_FRAMES",
+    "decodedSeconds": 0.96,
+    "excludedFrames": 88,
+    "acceptedFrames": 0,
+    "rootCause": "UNKNOWN_PENDING_FRAME_REJECTION_BREAKDOWN"
+  },
+  "preserved": [
+    {
+      "file": "src/modules/pronunciation/domain/acoustic-engine.ts",
+      "sha256": "7dae1d44aa2a9135a379795e14635ebef5bae513acd4792c1d6f29210ed8d2d4"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/acoustic-types.ts",
+      "sha256": "9a895deb74dd4208b126c4b06da1502429ced487f26eff64c1c82dc45dc8860e"
+    }
+  ],
+  "checks": {
+    "unit": {
+      "passed": 62,
+      "failed": 0,
+      "skipped": 0,
+      "sha256": "f0e120835d0c9d290307e1273fbea3a1d20df52b787091efd90c114e122a65bc"
+    },
+    "browser": {
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "sha256": "5cf0bc885a877f61177e0f96d3947e105de0870155244954a77d82b003c618b3"
+    },
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "format": "PASS",
+    "build": "PASS",
+    "buildLogSha256": "d823aed15017a93ebe9dc0b254b2d95ee9d13c2882aa869d2e6688d28f0f7ed8"
+  },
+  "limits": [
+    "No successful owner-voice F0 extraction demonstrated",
+    "No microphone or Mandarin phonetic accuracy PASS",
+    "Full 64-browser/41-PostgreSQL baseline not rerun for this presentation-only follow-up"
+  ]
+}

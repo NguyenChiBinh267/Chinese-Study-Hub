@@ -1,0 +1,773 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "992216a2ad65d005ef0fd54fe876a8922364ab5607d4277adc8abcc0f98899f1",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eij",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L489",
+    "version": 1,
+    "versionId": "l489-draft-v1",
+    "title": "Giữ liên lạc sau lần gia đình gặp mặt",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Giữ liên lạc sau lần gia đình gặp mặt; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "怎么"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 23,
+      "physicalPage": 24,
+      "printedPage": 21,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-27T08:57:57.206689Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-family",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 23,
+          "physicalPage": 24,
+          "printedPage": 21,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "交流家庭生活情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-f0416925bd79",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "家庭关系"
+        },
+        "written": "家庭关系",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l489-v-1514",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 116,
+          "physicalPage": 117,
+          "printedPage": 114,
+          "section": "vocabulary",
+          "entry": "ordinal 1514"
+        },
+        "written": "母女",
+        "pinyin": "mǔnǚ",
+        "senseId": "l489-v-1514-sense",
+        "ordinal": 1514,
+        "note": "4 mǔnǚ 名; 母女 là quan hệ mẹ–con gái của hai người, khác hai phụ nữ bất kỳ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l489-v-1515",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 116,
+          "physicalPage": 117,
+          "printedPage": 114,
+          "section": "vocabulary",
+          "entry": "ordinal 1515"
+        },
+        "written": "母亲",
+        "pinyin": "mǔqīn",
+        "senseId": "l489-v-1515-sense",
+        "ordinal": 1515,
+        "note": "4 mǔqīn 名; 母亲 là từ hơi trang trọng cho mẹ, có thể dùng kể chuyện; gọi thân mật thường 妈妈. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l489-v-1516",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 116,
+          "physicalPage": 117,
+          "printedPage": 114,
+          "section": "vocabulary",
+          "entry": "ordinal 1516"
+        },
+        "written": "母子",
+        "pinyin": "mǔzǐ",
+        "senseId": "l489-v-1516-sense",
+        "ordinal": 1516,
+        "note": "4 mǔzǐ 名; 母子 là quan hệ mẹ–con trai; khác 母女 là mẹ–con gái. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l489-v-1470",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 115,
+          "physicalPage": 116,
+          "printedPage": 113,
+          "section": "vocabulary",
+          "entry": "ordinal 1470"
+        },
+        "written": "联系",
+        "pinyin": "liánxì",
+        "senseId": "l489-v-1470-sense",
+        "ordinal": 1470,
+        "note": "4 liánxì 动; 联系 dùng 与/跟某人联系, không đồng nghĩa đã gặp trực tiếp. Nhận diện chữ 联 trong 联系; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l489-v-1485",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 116,
+          "physicalPage": 117,
+          "printedPage": 114,
+          "section": "vocabulary",
+          "entry": "ordinal 1485"
+        },
+        "written": "留下",
+        "pinyin": "liúxia",
+        "senseId": "l489-v-1485-sense",
+        "ordinal": 1485,
+        "note": "4 liúxia 动; 留下 nói giữ lại hoặc để lại người/vật/dấu vết; bài dùng 留下地址. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l489-v-1295",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 111,
+          "physicalPage": 112,
+          "printedPage": 109,
+          "section": "vocabulary",
+          "entry": "ordinal 1295"
+        },
+        "written": "红包",
+        "pinyin": "hóngbāo",
+        "senseId": "l489-v-1295-sense",
+        "ordinal": 1295,
+        "note": "4 hóngbāo 名; 红包 trong bài là phong bao chúc mừng; không suy ra mức tiền hay nghĩa vụ nhận tiền thực. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-217",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "217"
+        },
+        "written": "母",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 217,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-256",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "256"
+        },
+        "written": "亲",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 256,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-190",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "190"
+        },
+        "written": "联",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 190,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-489",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 395,
+          "physicalPage": 396,
+          "printedPage": 393,
+          "section": "grammar",
+          "entry": "怎么都/也+不/没……"
+        },
+        "written": "怎么",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l489-c0",
+      "version": 1,
+      "senseId": "l489-v-1514-sense",
+      "hanzi": "母女",
+      "dictionaryPinyin": "mǔ nǚ",
+      "meaning": "mẹ và con gái",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l489-v-1514"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l489-c1",
+      "version": 1,
+      "senseId": "l489-v-1515-sense",
+      "hanzi": "母亲",
+      "dictionaryPinyin": "mǔ qīn",
+      "meaning": "mẹ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l489-v-1515"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l489-c2",
+      "version": 1,
+      "senseId": "l489-v-1516-sense",
+      "hanzi": "母子",
+      "dictionaryPinyin": "mǔ zǐ",
+      "meaning": "mẹ và con trai",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l489-v-1516"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l489-c3",
+      "version": 1,
+      "senseId": "l489-v-1470-sense",
+      "hanzi": "联系",
+      "dictionaryPinyin": "lián xì",
+      "meaning": "liên hệ, liên lạc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l489-v-1470"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l489-c4",
+      "version": 1,
+      "senseId": "l489-v-1485-sense",
+      "hanzi": "留下",
+      "dictionaryPinyin": "liú xia",
+      "meaning": "để lại, giữ lại",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l489-v-1485"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l489-c5",
+      "version": 1,
+      "senseId": "l489-v-1295-sense",
+      "hanzi": "红包",
+      "dictionaryPinyin": "hóng bāo",
+      "meaning": "phong bao đỏ, lì xì",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l489-v-1295"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l489-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 祝福 zhùfú: lời chúc; 金额 jīn é: số tiền; 日记 rìjì: nhật ký; đây là gia đình hư cấu, không trình bày quy tắc phong tục bắt buộc.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l489-t0",
+      "type": "teaching",
+      "title": "母女 · mẹ và con gái",
+      "text": "母女 là quan hệ mẹ–con gái của hai người, khác hai phụ nữ bất kỳ.",
+      "hanzi": "这对母女一起做饭。",
+      "pinyin": "Zhè duì mǔnǚ yìqǐ zuò fàn.",
+      "meaning": "Hai mẹ con gái cùng nấu ăn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l489-t1",
+      "type": "teaching",
+      "title": "母亲 · mẹ",
+      "text": "母亲 là từ hơi trang trọng cho mẹ, có thể dùng kể chuyện; gọi thân mật thường 妈妈.",
+      "hanzi": "她给母亲打电话。",
+      "pinyin": "Tā gěi mǔqīn dǎ diànhuà.",
+      "meaning": "Cô gọi điện cho mẹ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l489-t2",
+      "type": "teaching",
+      "title": "母子 · mẹ và con trai",
+      "text": "母子 là quan hệ mẹ–con trai; khác 母女 là mẹ–con gái.",
+      "hanzi": "母子二人在车站见面。",
+      "pinyin": "Mǔzǐ èr rén zài chēzhàn jiànmiàn.",
+      "meaning": "Hai mẹ con trai gặp ở ga.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l489-t3",
+      "type": "teaching",
+      "title": "联系 · liên hệ, liên lạc",
+      "text": "联系 dùng 与/跟某人联系, không đồng nghĩa đã gặp trực tiếp. Nhận diện chữ 联 trong 联系; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "我们以后常联系。",
+      "pinyin": "Wǒmen yǐhòu cháng liánxì.",
+      "meaning": "Sau này mình thường liên lạc nhé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l489-t4",
+      "type": "teaching",
+      "title": "留下 · để lại, giữ lại",
+      "text": "留下 nói giữ lại hoặc để lại người/vật/dấu vết; bài dùng 留下地址.",
+      "hanzi": "请留下联系地址。",
+      "pinyin": "Qǐng liúxia liánxì dìzhǐ.",
+      "meaning": "Xin để lại địa chỉ liên hệ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l489-t5",
+      "type": "teaching",
+      "title": "红包 · phong bao đỏ, lì xì",
+      "text": "红包 trong bài là phong bao chúc mừng; không suy ra mức tiền hay nghĩa vụ nhận tiền thực.",
+      "hanzi": "母亲准备了一个红包。",
+      "pinyin": "Mǔqīn zhǔnbèi le yí ge hóngbāo.",
+      "meaning": "Mẹ chuẩn bị một phong bao đỏ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l489-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "怎么也 + phủ định nhấn mạnh dù cố/đổi cách thế nào cũng không: 我怎么也忘不了这次见面. Khác câu hỏi 怎么办. Ở đây là cách kể không quên được, không đánh giá trí nhớ người học.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l489-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "一家人周末见面，母亲和女儿一起做饭，母子二人去车站接人。母亲准备了一个红包，表达祝福，没有规定金额。离开前，大家留下联系地址，说以后常联系。小宁在日记里写：“我怎么也忘不了这次见面。”",
+      "pinyin": "Yì jiā rén zhōumò jiànmiàn, mǔqīn hé nǚér yìqǐ zuò fàn, mǔzǐ èr rén qù chēzhàn jiē rén. Mǔqīn zhǔnbèi le yí ge hóngbāo, biǎodá zhùfú, méiyǒu guīdìng jīn é. Líkāi qián, dàjiā liúxia liánxì dìzhǐ, shuō yǐhòu cháng liánxì. Xiǎo Níng zài rìjì lǐ xiě: “Wǒ zěnme yě wàng bù liǎo zhè cì jiànmiàn.”",
+      "meaning": "Gia đình gặp cuối tuần, mẹ và con gái nấu, mẹ và con trai đón khách. Phong bao thể hiện lời chúc, không quy định số tiền. Mọi người để địa chỉ liên lạc. Ninh ghi đây là cuộc gặp khó quên.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l489-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l489-v1-e0"
+    },
+    {
+      "id": "l489-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l489-v1-e1"
+    },
+    {
+      "id": "l489-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l489-v1-e2"
+    },
+    {
+      "id": "l489-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l489-v1-e3"
+    },
+    {
+      "id": "l489-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l489-v1-e4"
+    },
+    {
+      "id": "l489-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l489-v1-e5"
+    },
+    {
+      "id": "l489-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l489-v1-e6"
+    },
+    {
+      "id": "l489-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l489-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l489-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l489-c0",
+      "senseId": "l489-v-1514-sense",
+      "keyRef": "l489-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “mẹ và con gái” để điền câu: 这对□一起做饭。",
+      "choices": [
+        "母亲",
+        "母子",
+        "联系",
+        "留下",
+        "红包",
+        "母女"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l489-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l489-c1",
+      "senseId": "l489-v-1515-sense",
+      "keyRef": "l489-v1-k1",
+      "prompt": "Ghi pinyin của 母亲 trong câu “她给母亲打电话。”, theo nghĩa “mẹ”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l489-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l489-c2",
+      "senseId": "l489-v-1516-sense",
+      "keyRef": "l489-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “mẹ và con trai”: □二人在车站见面。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l489-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l489-c3",
+      "senseId": "l489-v-1470-sense",
+      "keyRef": "l489-v1-k3",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “liên hệ, liên lạc”: □系 (lián xì). Ngữ cảnh: 我们以后常□。",
+      "choices": [
+        "联",
+        "连",
+        "关",
+        "耻"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l489-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l489-c4",
+      "senseId": "l489-v-1485-sense",
+      "keyRef": "l489-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “để lại, giữ lại” để điền câu: 请□联系地址。",
+      "choices": [
+        "红包",
+        "母女",
+        "母亲",
+        "母子",
+        "联系",
+        "留下"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l489-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l489-c5",
+      "senseId": "l489-v-1295-sense",
+      "keyRef": "l489-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “phong bao đỏ, lì xì”: 母亲准备了一个□。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l489-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l489-c0",
+      "senseId": "l489-v-1514-sense",
+      "keyRef": "l489-v1-k6",
+      "prompt": "离开前大家做了什么？",
+      "choices": [
+        "规定所有人给同样的钱。",
+        "决定以后不联系。",
+        "留下联系地址。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l489-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l489-c3",
+      "senseId": "l489-v-1470-sense",
+      "keyRef": "l489-v1-k7",
+      "prompt": "Sắp xếp các cụm theo cấu trúc vừa học; giữ nguyên cụm, không thêm/bớt từ.",
+      "choices": [
+        "我",
+        "怎么也",
+        "忘不了这次见面。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l489-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l489-v1-e0",
+      "senseId": "l489-v-1514-sense",
+      "accepted": [
+        "母女"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "母女: mẹ và con gái. 母女 là quan hệ mẹ–con gái của hai người, khác hai phụ nữ bất kỳ. Hai mẹ con gái cùng nấu ăn."
+    },
+    {
+      "id": "l489-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l489-v1-e1",
+      "senseId": "l489-v-1515-sense",
+      "accepted": [
+        "mǔ qīn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc mǔ qīn. 母亲 là từ hơi trang trọng cho mẹ, có thể dùng kể chuyện; gọi thân mật thường 妈妈."
+    },
+    {
+      "id": "l489-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l489-v1-e2",
+      "senseId": "l489-v-1516-sense",
+      "accepted": [
+        "母子"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 母子. 母子 là quan hệ mẹ–con trai; khác 母女 là mẹ–con gái. Hai mẹ con trai gặp ở ga."
+    },
+    {
+      "id": "l489-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l489-v1-e3",
+      "senseId": "l489-v-1470-sense",
+      "accepted": [
+        "联"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 联 tạo từ 联系. 联系 dùng 与/跟某人联系, không đồng nghĩa đã gặp trực tiếp. Nhận diện chữ 联 trong 联系; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l489-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l489-v1-e4",
+      "senseId": "l489-v-1485-sense",
+      "accepted": [
+        "留下"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "留下: để lại, giữ lại. 留下 nói giữ lại hoặc để lại người/vật/dấu vết; bài dùng 留下地址. Xin để lại địa chỉ liên hệ."
+    },
+    {
+      "id": "l489-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l489-v1-e5",
+      "senseId": "l489-v-1295-sense",
+      "accepted": [
+        "红包"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 红包. 红包 trong bài là phong bao chúc mừng; không suy ra mức tiền hay nghĩa vụ nhận tiền thực. Mẹ chuẩn bị một phong bao đỏ."
+    },
+    {
+      "id": "l489-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l489-v1-e6",
+      "senseId": "l489-v-1514-sense",
+      "accepted": [
+        "留下联系地址。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 留下联系地址。. Gia đình gặp cuối tuần, mẹ và con gái nấu, mẹ và con trai đón khách. Phong bao thể hiện lời chúc, không quy định số tiền. Mọi người để địa chỉ liên lạc. Ninh ghi đây là cuộc gặp khó quên."
+    },
+    {
+      "id": "l489-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l489-v1-e7",
+      "senseId": "l489-v-1470-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 怎么也 + phủ định nhấn mạnh dù cố/đổi cách thế nào cũng không: 我怎么也忘不了这次见面. Khác câu hỏi 怎么办. Ở đây là cách kể không quên được, không đánh giá trí nhớ người học."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

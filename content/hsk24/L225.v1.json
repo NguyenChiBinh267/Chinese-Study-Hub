@@ -1,0 +1,822 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "069bd665586a888aaaa0630121de2a3d8b32a091c793ee2765380a98b11ebf45",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "street-route",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L225",
+    "version": 1,
+    "versionId": "l225-draft-v1",
+    "title": "Hướng trái phải trên đường",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Theo một chỉ dẫn đơn giản từ điểm xuất phát đến đích.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "往"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 10,
+      "physicalPage": 11,
+      "printedPage": 8,
+      "section": "task",
+      "entry": "八"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "八"
+        },
+        "written": "问答出行情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-directions",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 问路"
+        },
+        "written": "问路",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l225-v-499",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 499"
+        },
+        "written": "左",
+        "pinyin": "zuǒ",
+        "senseId": "l225-v-499-sense",
+        "ordinal": 499,
+        "note": "2 zuǒ 名; 左 chỉ hướng trái; trái/phải thay đổi theo người và mốc, không tự là đông/tây. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l225-v-481",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 481"
+        },
+        "written": "右",
+        "pinyin": "yòu",
+        "senseId": "l225-v-481-sense",
+        "ordinal": 481,
+        "note": "2 yòu 名; 右 đối lập với 左. Trong 往右走 là hướng đi sang phải. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l225-v-450",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 450"
+        },
+        "written": "往",
+        "pinyin": "wǎng",
+        "senseId": "l225-v-450-sense",
+        "ordinal": 450,
+        "note": "2 wǎng 动、介; Trong 往学校走, 往 dẫn hướng đi. Bài này dùng giới từ chỉ hướng, không dạy các nghĩa động từ khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l225-v-324",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 324"
+        },
+        "written": "从",
+        "pinyin": "cóng",
+        "senseId": "l225-v-324-sense",
+        "ordinal": 324,
+        "note": "2（4） cóng 介、（副）; 从 ở đây là giới từ mở đầu nơi đi: 从我家到学校. Không dạy nghĩa phó từ thuộc cấp cao hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l225-v-495",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 495"
+        },
+        "written": "走",
+        "pinyin": "zǒu",
+        "senseId": "l225-v-495-sense",
+        "ordinal": 495,
+        "note": "2 zǒu 动; 走 trong 往前走 là đi theo hướng được chỉ. Không phải mọi 走 trong tiếng Trung đều mang đúng nghĩa của ví dụ này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l225-v-393",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 393"
+        },
+        "written": "路上",
+        "pinyin": "lùshang",
+        "senseId": "l225-v-393-sense",
+        "ordinal": 393,
+        "note": "2 lùshang 名; 上 trong 路上 đọc nhẹ theo nguồn. 路上 có thể nói khoảng thời gian đang trên đường, không chỉ mặt đường vật lý. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-125",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "125"
+        },
+        "written": "左",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 125,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-111",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "111"
+        },
+        "written": "右",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 111,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-91",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "91"
+        },
+        "written": "往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 91,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-12",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "12"
+        },
+        "written": "从",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 12,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-122",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "122"
+        },
+        "written": "走",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 122,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-52",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "52"
+        },
+        "written": "路",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 52,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-path",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "介词 / 引出方向、路径 / 往"
+        },
+        "written": "往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l225-c0",
+      "version": 1,
+      "senseId": "l225-v-499-sense",
+      "hanzi": "左",
+      "dictionaryPinyin": "zuǒ",
+      "meaning": "trái, phía trái",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l225-v-499"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l225-c1",
+      "version": 1,
+      "senseId": "l225-v-481-sense",
+      "hanzi": "右",
+      "dictionaryPinyin": "yòu",
+      "meaning": "phải, phía phải",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l225-v-481"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l225-c2",
+      "version": 1,
+      "senseId": "l225-v-450-sense",
+      "hanzi": "往",
+      "dictionaryPinyin": "wǎng",
+      "meaning": "về phía, hướng tới",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l225-v-450"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l225-c3",
+      "version": 1,
+      "senseId": "l225-v-324-sense",
+      "hanzi": "从",
+      "dictionaryPinyin": "cóng",
+      "meaning": "từ điểm xuất phát",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l225-v-324"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l225-c4",
+      "version": 1,
+      "senseId": "l225-v-495-sense",
+      "hanzi": "走",
+      "dictionaryPinyin": "zǒu",
+      "meaning": "đi, di chuyển bằng bước chân trong ngữ cảnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l225-v-495"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l225-c5",
+      "version": 1,
+      "senseId": "l225-v-393-sense",
+      "hanzi": "路上",
+      "dictionaryPinyin": "lù shang",
+      "meaning": "trên đường đi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l225-v-393"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l225-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "从 giới thiệu điểm bắt đầu; 到 giới thiệu đích. 左/右 có thể được hiểu theo hướng người đang đi, nên cần mốc rõ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l225-t0",
+      "type": "teaching",
+      "title": "左 · trái, phía trái",
+      "text": "左 chỉ hướng trái; trái/phải thay đổi theo người và mốc, không tự là đông/tây.",
+      "hanzi": "到门口往左走。",
+      "pinyin": "Dào ménkǒu wǎng zuǒ zǒu.",
+      "meaning": "Đến cửa thì đi về bên trái.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l225-t1",
+      "type": "teaching",
+      "title": "右 · phải, phía phải",
+      "text": "右 đối lập với 左. Trong 往右走 là hướng đi sang phải.",
+      "hanzi": "车站在右边，往右走。",
+      "pinyin": "Chēzhàn zài yòubian, wǎng yòu zǒu.",
+      "meaning": "Trạm ở bên phải, hãy đi sang phải.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l225-t2",
+      "type": "teaching",
+      "title": "往 · về phía, hướng tới",
+      "text": "Trong 往学校走, 往 dẫn hướng đi. Bài này dùng giới từ chỉ hướng, không dạy các nghĩa động từ khác.",
+      "hanzi": "我们往学校走。",
+      "pinyin": "Wǒmen wǎng xuéxiào zǒu.",
+      "meaning": "Chúng tôi đi về phía trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l225-t3",
+      "type": "teaching",
+      "title": "从 · từ điểm xuất phát",
+      "text": "从 ở đây là giới từ mở đầu nơi đi: 从我家到学校. Không dạy nghĩa phó từ thuộc cấp cao hơn.",
+      "hanzi": "从我家到学校很近。",
+      "pinyin": "Cóng wǒ jiā dào xuéxiào hěn jìn.",
+      "meaning": "Từ nhà tôi đến trường rất gần.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l225-t4",
+      "type": "teaching",
+      "title": "走 · đi, di chuyển bằng bước chân trong ngữ cảnh",
+      "text": "走 trong 往前走 là đi theo hướng được chỉ. Không phải mọi 走 trong tiếng Trung đều mang đúng nghĩa của ví dụ này.",
+      "hanzi": "请往前走。",
+      "pinyin": "Qǐng wǎng qián zǒu.",
+      "meaning": "Hãy đi về phía trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l225-t5",
+      "type": "teaching",
+      "title": "路上 · trên đường đi",
+      "text": "上 trong 路上 đọc nhẹ theo nguồn. 路上 có thể nói khoảng thời gian đang trên đường, không chỉ mặt đường vật lý.",
+      "hanzi": "我在路上，快到了。",
+      "pinyin": "Wǒ zài lùshang, kuài dào le.",
+      "meaning": "Tôi đang trên đường, sắp đến rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l225-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "往 đứng trước hướng hoặc nơi đến trong 往左走. Không dùng 往 để tự khẳng định đã đến đích; nó chỉ hướng di chuyển.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l225-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：从这里到书店怎么走？乙：往前走，到学校门口往右走。甲：书店远吗？乙：不远。甲：好，我在路上了。",
+      "pinyin": "Jiǎ: Cóng zhèlǐ dào shūdiàn zěnme zǒu? Yǐ: Wǎng qián zǒu, dào xuéxiào ménkǒu wǎng yòu zǒu. Jiǎ: Shūdiàn yuǎn ma? Yǐ: Bù yuǎn. Jiǎ: Hǎo, wǒ zài lùshang le.",
+      "meaning": "A: Từ đây đến hiệu sách đi thế nào? B: Đi thẳng phía trước, đến cổng trường thì đi sang phải. A: Hiệu sách xa không? B: Không xa. A: Được, tôi đi rồi.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l225-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l225-v1-e0"
+    },
+    {
+      "id": "l225-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l225-v1-e1"
+    },
+    {
+      "id": "l225-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l225-v1-e2"
+    },
+    {
+      "id": "l225-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l225-v1-e3"
+    },
+    {
+      "id": "l225-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l225-v1-e4"
+    },
+    {
+      "id": "l225-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l225-v1-e5"
+    },
+    {
+      "id": "l225-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l225-v1-e6"
+    },
+    {
+      "id": "l225-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l225-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l225-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l225-c0",
+      "senseId": "l225-v-499-sense",
+      "keyRef": "l225-v1-k0",
+      "prompt": "Trong câu “到门口往左走。”, 左 mang nghĩa nào?",
+      "choices": [
+        "phải, phía phải",
+        "về phía, hướng tới",
+        "từ điểm xuất phát",
+        "đi, di chuyển bằng bước chân trong ngữ cảnh",
+        "trên đường đi",
+        "trái, phía trái"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l225-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l225-c1",
+      "senseId": "l225-v-481-sense",
+      "keyRef": "l225-v1-k1",
+      "prompt": "Viết pinyin của 右 trong nghĩa “phải, phía phải”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l225-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l225-c2",
+      "senseId": "l225-v-450-sense",
+      "keyRef": "l225-v1-k2",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “về phía, hướng tới”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l225-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l225-c3",
+      "senseId": "l225-v-324-sense",
+      "keyRef": "l225-v1-k3",
+      "prompt": "Trong câu “从我家到学校很近。”, 从 mang nghĩa nào?",
+      "choices": [
+        "đi, di chuyển bằng bước chân trong ngữ cảnh",
+        "trên đường đi",
+        "trái, phía trái",
+        "phải, phía phải",
+        "về phía, hướng tới",
+        "từ điểm xuất phát"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l225-v1-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l225-c4",
+      "senseId": "l225-v-495-sense",
+      "keyRef": "l225-v1-k4",
+      "prompt": "Viết pinyin của 走 trong nghĩa “đi, di chuyển bằng bước chân trong ngữ cảnh”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l225-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l225-c5",
+      "senseId": "l225-v-393-sense",
+      "keyRef": "l225-v1-k5",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “trên đường đi”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l225-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l225-c0",
+      "senseId": "l225-v-499-sense",
+      "keyRef": "l225-v1-k6",
+      "prompt": "Đến cổng trường cần đi về hướng nào?",
+      "choices": [
+        "Trái",
+        "Quay về nhà",
+        "Phải"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l225-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l225-c3",
+      "senseId": "l225-v-324-sense",
+      "keyRef": "l225-v1-k7",
+      "prompt": "Xếp câu: chúng tôi đi về phía trường.",
+      "choices": [
+        "走",
+        "学校",
+        "我们",
+        "往"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l225-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l225-v1-e0",
+      "senseId": "l225-v-499-sense",
+      "accepted": [
+        "trái, phía trái"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "左: trái, phía trái. 左 chỉ hướng trái; trái/phải thay đổi theo người và mốc, không tự là đông/tây. Đến cửa thì đi về bên trái."
+    },
+    {
+      "id": "l225-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l225-v1-e1",
+      "senseId": "l225-v-481-sense",
+      "accepted": [
+        "yòu"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc yòu. 右 đối lập với 左. Trong 往右走 là hướng đi sang phải."
+    },
+    {
+      "id": "l225-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l225-v1-e2",
+      "senseId": "l225-v-450-sense",
+      "accepted": [
+        "往"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 往. Trong 往学校走, 往 dẫn hướng đi. Bài này dùng giới từ chỉ hướng, không dạy các nghĩa động từ khác."
+    },
+    {
+      "id": "l225-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l225-v1-e3",
+      "senseId": "l225-v-324-sense",
+      "accepted": [
+        "từ điểm xuất phát"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "从: từ điểm xuất phát. 从 ở đây là giới từ mở đầu nơi đi: 从我家到学校. Không dạy nghĩa phó từ thuộc cấp cao hơn. Từ nhà tôi đến trường rất gần."
+    },
+    {
+      "id": "l225-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l225-v1-e4",
+      "senseId": "l225-v-495-sense",
+      "accepted": [
+        "zǒu"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc zǒu. 走 trong 往前走 là đi theo hướng được chỉ. Không phải mọi 走 trong tiếng Trung đều mang đúng nghĩa của ví dụ này."
+    },
+    {
+      "id": "l225-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l225-v1-e5",
+      "senseId": "l225-v-393-sense",
+      "accepted": [
+        "路上"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 路上. 上 trong 路上 đọc nhẹ theo nguồn. 路上 có thể nói khoảng thời gian đang trên đường, không chỉ mặt đường vật lý."
+    },
+    {
+      "id": "l225-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l225-v1-e6",
+      "senseId": "l225-v-499-sense",
+      "accepted": [
+        "Phải"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "到学校门口往右走 nêu hướng phải tại mốc cổng trường, không phải trái."
+    },
+    {
+      "id": "l225-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l225-v1-e7",
+      "senseId": "l225-v-324-sense",
+      "accepted": [
+        "2,3,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 往 đứng trước hướng hoặc nơi đến trong 往左走. Không dùng 往 để tự khẳng định đã đến đích; nó chỉ hướng di chuyển."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

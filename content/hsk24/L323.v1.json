@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "77dc5c8bfceac785820a493fd8bcb316f668aaa80cb4bc67944a823b874b4de2",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-solve-problems",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L323",
+    "version": 1,
+    "versionId": "l323-draft-v1",
+    "title": "Tìm cách giải bài khó",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Xin trợ giúp và đánh giá khó/dễ; phân biệt hiểu lời giải với đã biết mọi bài.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "可能补语"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 16,
+      "physicalPage": 17,
+      "printedPage": 14,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 16,
+          "physicalPage": 17,
+          "printedPage": 14,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "沟通学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-study-activities",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "学习活动"
+        },
+        "written": "学习活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l323-v-514",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 514"
+        },
+        "written": "帮助",
+        "pinyin": "bāngzhù",
+        "senseId": "l323-v-514-sense",
+        "ordinal": 514,
+        "note": "3 bāngzhù 动; 帮助 có thể là động từ hoặc danh từ; 谢谢你的帮助 là cảm ơn sự giúp đỡ, 帮助我 là giúp tôi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l323-v-511",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 511"
+        },
+        "written": "办法",
+        "pinyin": "bànfǎ",
+        "senseId": "l323-v-511-sense",
+        "ordinal": 511,
+        "note": "3 bànfǎ 名; 办法 là cách xử lý một việc; 想办法 là tìm cách, chưa khẳng định cách đó hữu hiệu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l323-v-781",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 781"
+        },
+        "written": "难题",
+        "pinyin": "nántí",
+        "senseId": "l323-v-781-sense",
+        "ordinal": 781,
+        "note": "3 nántí 名; 难题 là danh từ chỉ vấn đề khó, khác 难 là tính từ khó; 一个难题 đếm một vấn đề. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l323-v-775",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 775"
+        },
+        "written": "难",
+        "pinyin": "nán",
+        "senseId": "l323-v-775-sense",
+        "ordinal": 775,
+        "note": "3（6） nán 形、（动）; 难 trong bài đánh giá độ khó thực hiện; 很难 chứ không dùng 很难题. Không đánh đồng chưa làm được với không thể học. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l323-v-818",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 818"
+        },
+        "written": "容易",
+        "pinyin": "róngyì",
+        "senseId": "l323-v-818-sense",
+        "ordinal": 818,
+        "note": "3 róngyì 形; 容易 nói dễ thực hiện hoặc dễ xảy ra tùy ngữ cảnh; 很容易 là đánh giá của người nói, không bảo đảm ai cũng làm được. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l323-v-771",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 771"
+        },
+        "written": "明白",
+        "pinyin": "míngbai",
+        "senseId": "l323-v-771-sense",
+        "ordinal": 771,
+        "note": "3 míngbai 形、动; 明白 thường có thể làm động từ “hiểu” hoặc tính từ “rõ”; 我明白了 nêu đã hiểu điều vừa giải thích, không phải đã thuộc tất cả. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-281",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "281"
+        },
+        "written": "助",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 281,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-8",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "8"
+        },
+        "written": "办",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 8,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-56",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "56"
+        },
+        "written": "法",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 56,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-157",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "157"
+        },
+        "written": "难",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 157,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-183",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "183"
+        },
+        "written": "容",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 183,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-250",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "250"
+        },
+        "written": "易",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 250,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-potential",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "补语 / 可能补语1"
+        },
+        "written": "可能补语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l323-c0",
+      "version": 1,
+      "senseId": "l323-v-514-sense",
+      "hanzi": "帮助",
+      "dictionaryPinyin": "bāng zhù",
+      "meaning": "giúp đỡ/sự giúp đỡ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l323-v-514"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l323-c1",
+      "version": 1,
+      "senseId": "l323-v-511-sense",
+      "hanzi": "办法",
+      "dictionaryPinyin": "bàn fǎ",
+      "meaning": "cách làm/biện pháp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l323-v-511"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l323-c2",
+      "version": 1,
+      "senseId": "l323-v-781-sense",
+      "hanzi": "难题",
+      "dictionaryPinyin": "nán tí",
+      "meaning": "bài toán/vấn đề khó",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l323-v-781"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l323-c3",
+      "version": 1,
+      "senseId": "l323-v-775-sense",
+      "hanzi": "难",
+      "dictionaryPinyin": "nán",
+      "meaning": "khó",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l323-v-775"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l323-c4",
+      "version": 1,
+      "senseId": "l323-v-818-sense",
+      "hanzi": "容易",
+      "dictionaryPinyin": "róng yì",
+      "meaning": "dễ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l323-v-818"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l323-c5",
+      "version": 1,
+      "senseId": "l323-v-771-sense",
+      "hanzi": "明白",
+      "dictionaryPinyin": "míng bai",
+      "meaning": "hiểu/rõ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l323-v-771"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l323-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 道 dào: lượng từ câu/bài; 部分 bùfen: phần; 步 bù: bước; 解释 jiěshì: giải thích.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l323-t0",
+      "type": "teaching",
+      "title": "帮助 · giúp đỡ/sự giúp đỡ",
+      "text": "帮助 có thể là động từ hoặc danh từ; 谢谢你的帮助 là cảm ơn sự giúp đỡ, 帮助我 là giúp tôi.",
+      "hanzi": "谢谢你的帮助。",
+      "pinyin": "Xièxie nǐ de bāngzhù.",
+      "meaning": "Cảm ơn sự giúp đỡ của bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l323-t1",
+      "type": "teaching",
+      "title": "办法 · cách làm/biện pháp",
+      "text": "办法 là cách xử lý một việc; 想办法 là tìm cách, chưa khẳng định cách đó hữu hiệu.",
+      "hanzi": "我们一起想办法。",
+      "pinyin": "Wǒmen yìqǐ xiǎng bànfǎ.",
+      "meaning": "Chúng ta cùng tìm cách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l323-t2",
+      "type": "teaching",
+      "title": "难题 · bài toán/vấn đề khó",
+      "text": "难题 là danh từ chỉ vấn đề khó, khác 难 là tính từ khó; 一个难题 đếm một vấn đề.",
+      "hanzi": "这道题是个难题。",
+      "pinyin": "Zhè dào tí shì ge nántí.",
+      "meaning": "Câu này là một bài khó.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l323-t3",
+      "type": "teaching",
+      "title": "难 · khó",
+      "text": "难 trong bài đánh giá độ khó thực hiện; 很难 chứ không dùng 很难题. Không đánh đồng chưa làm được với không thể học.",
+      "hanzi": "这道题对我来说很难。",
+      "pinyin": "Zhè dào tí duì wǒ lái shuō hěn nán.",
+      "meaning": "Bài này khó đối với tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l323-t4",
+      "type": "teaching",
+      "title": "容易 · dễ",
+      "text": "容易 nói dễ thực hiện hoặc dễ xảy ra tùy ngữ cảnh; 很容易 là đánh giá của người nói, không bảo đảm ai cũng làm được.",
+      "hanzi": "这道题比较容易。",
+      "pinyin": "Zhè dào tí bǐjiào róngyì.",
+      "meaning": "Bài này tương đối dễ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l323-t5",
+      "type": "teaching",
+      "title": "明白 · hiểu/rõ",
+      "text": "明白 thường có thể làm động từ “hiểu” hoặc tính từ “rõ”; 我明白了 nêu đã hiểu điều vừa giải thích, không phải đã thuộc tất cả.",
+      "hanzi": "听了你的解释，我明白了。",
+      "pinyin": "Tīng le nǐ de jiěshì, wǒ míngbai le.",
+      "meaning": "Nghe bạn giải thích, tôi đã hiểu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l323-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "看得懂 là có khả năng hiểu khi đọc; 看不懂 là không hiểu được. 得 ở giữa động từ và bổ ngữ đọc de, khác 得 dé “đạt được” và děi “phải”. Chỉ luyện 看得懂/看不懂.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l323-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林：这个难题我看不懂。小王：我帮助你，先看容易的部分，再一起想办法。小林：现在我明白这一步了，可是最后一步还很难。小王：我们再问老师。",
+      "pinyin": "Xiǎo Lín: Zhège nántí wǒ kàn bu dǒng. Xiǎo Wáng: Wǒ bāngzhù nǐ, xiān kàn róngyì de bùfen, zài yìqǐ xiǎng bànfǎ. Xiǎo Lín: Xiànzài wǒ míngbai zhè yí bù le, kěshì zuìhòu yí bù hái hěn nán. Xiǎo Wáng: Wǒmen zài wèn lǎoshī.",
+      "meaning": "Lâm không hiểu bài khó. Vương giúp xem phần dễ trước; Lâm mới hiểu một bước, bước cuối vẫn khó nên sẽ hỏi thầy.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l323-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l323-v1-e0"
+    },
+    {
+      "id": "l323-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l323-v1-e1"
+    },
+    {
+      "id": "l323-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l323-v1-e2"
+    },
+    {
+      "id": "l323-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l323-v1-e3"
+    },
+    {
+      "id": "l323-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l323-v1-e4"
+    },
+    {
+      "id": "l323-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l323-v1-e5"
+    },
+    {
+      "id": "l323-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l323-v1-e6"
+    },
+    {
+      "id": "l323-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l323-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l323-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l323-c0",
+      "senseId": "l323-v-514-sense",
+      "keyRef": "l323-v1-k0",
+      "prompt": "Cảm ơn việc bạn hỗ trợ mình: 谢谢你的□。",
+      "choices": [
+        "办法",
+        "难题",
+        "难",
+        "容易",
+        "明白",
+        "帮助"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l323-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l323-c1",
+      "senseId": "l323-v-511-sense",
+      "keyRef": "l323-v1-k1",
+      "prompt": "Tìm cách xử lý vấn đề: 想一个□。",
+      "choices": [
+        "难题",
+        "难",
+        "容易",
+        "明白",
+        "帮助",
+        "办法"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l323-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l323-c2",
+      "senseId": "l323-v-781-sense",
+      "keyRef": "l323-v1-k2",
+      "prompt": "Chọn danh từ chỉ một vấn đề khó: 一个□。",
+      "choices": [
+        "难",
+        "容易",
+        "明白",
+        "帮助",
+        "办法",
+        "难题"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l323-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l323-c3",
+      "senseId": "l323-v-775-sense",
+      "keyRef": "l323-v1-k3",
+      "prompt": "Viết pinyin của 难 trong câu “这道题对我来说很难。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l323-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l323-c4",
+      "senseId": "l323-v-818-sense",
+      "keyRef": "l323-v1-k4",
+      "prompt": "Đánh giá làm bài không khó: 这道题很□。",
+      "choices": [
+        "明白",
+        "帮助",
+        "办法",
+        "难题",
+        "难",
+        "容易"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l323-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l323-c5",
+      "senseId": "l323-v-771-sense",
+      "keyRef": "l323-v1-k5",
+      "prompt": "Sau lời giải thích, nói đã hiểu: 我□了。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l323-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l323-c0",
+      "senseId": "l323-v-514-sense",
+      "keyRef": "l323-v1-k6",
+      "prompt": "Lâm đã hiểu toàn bộ lời giải chưa?",
+      "choices": [
+        "已经全明白了",
+        "没有看题",
+        "没有，最后一步还很难"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l323-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l323-c3",
+      "senseId": "l323-v-775-sense",
+      "keyRef": "l323-v1-k7",
+      "prompt": "Sắp xếp câu không hiểu được khi đọc.",
+      "choices": [
+        "看不懂",
+        "这个难题",
+        "我"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l323-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l323-v1-e0",
+      "senseId": "l323-v-514-sense",
+      "accepted": [
+        "帮助"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "帮助: giúp đỡ/sự giúp đỡ. 帮助 có thể là động từ hoặc danh từ; 谢谢你的帮助 là cảm ơn sự giúp đỡ, 帮助我 là giúp tôi. Cảm ơn sự giúp đỡ của bạn."
+    },
+    {
+      "id": "l323-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l323-v1-e1",
+      "senseId": "l323-v-511-sense",
+      "accepted": [
+        "办法"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "办法: cách làm/biện pháp. 办法 là cách xử lý một việc; 想办法 là tìm cách, chưa khẳng định cách đó hữu hiệu. Chúng ta cùng tìm cách."
+    },
+    {
+      "id": "l323-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l323-v1-e2",
+      "senseId": "l323-v-781-sense",
+      "accepted": [
+        "难题"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "难题: bài toán/vấn đề khó. 难题 là danh từ chỉ vấn đề khó, khác 难 là tính từ khó; 一个难题 đếm một vấn đề. Câu này là một bài khó."
+    },
+    {
+      "id": "l323-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l323-v1-e3",
+      "senseId": "l323-v-775-sense",
+      "accepted": [
+        "nán"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "难: khó. 难 trong bài đánh giá độ khó thực hiện; 很难 chứ không dùng 很难题. Không đánh đồng chưa làm được với không thể học. Bài này khó đối với tôi."
+    },
+    {
+      "id": "l323-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l323-v1-e4",
+      "senseId": "l323-v-818-sense",
+      "accepted": [
+        "容易"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "容易: dễ. 容易 nói dễ thực hiện hoặc dễ xảy ra tùy ngữ cảnh; 很容易 là đánh giá của người nói, không bảo đảm ai cũng làm được. Bài này tương đối dễ."
+    },
+    {
+      "id": "l323-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l323-v1-e5",
+      "senseId": "l323-v-771-sense",
+      "accepted": [
+        "明白"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "明白: hiểu/rõ. 明白 thường có thể làm động từ “hiểu” hoặc tính từ “rõ”; 我明白了 nêu đã hiểu điều vừa giải thích, không phải đã thuộc tất cả. Nghe bạn giải thích, tôi đã hiểu."
+    },
+    {
+      "id": "l323-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l323-v1-e6",
+      "senseId": "l323-v-514-sense",
+      "accepted": [
+        "没有，最后一步还很难"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 看得懂 là có khả năng hiểu khi đọc; 看不懂 là không hiểu được. 得 ở giữa động từ và bổ ngữ đọc de, khác 得 dé “đạt được” và děi “phải”. Chỉ luyện 看得懂/看不懂."
+    },
+    {
+      "id": "l323-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l323-v1-e7",
+      "senseId": "l323-v-775-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 看得懂 là có khả năng hiểu khi đọc; 看不懂 là không hiểu được. 得 ở giữa động từ và bổ ngữ đọc de, khác 得 dé “đạt được” và děi “phải”. Chỉ luyện 看得懂/看不懂."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

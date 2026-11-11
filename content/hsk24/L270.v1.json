@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "b54b57ba2780916745d3674599695170a783be74aedb6e1e88caef465124480e",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "time-and-frequency",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L270",
+    "version": 1,
+    "versionId": "l270-draft-v1",
+    "title": "Ôn tập · Tuần, thời điểm và số lần",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học bằng dạng truy hồi khác; không tính thêm từ mới.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l230-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 12,
+      "physicalPage": 13,
+      "printedPage": 10,
+      "section": "task",
+      "entry": "十五"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-work",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 12,
+          "physicalPage": 13,
+          "printedPage": 10,
+          "section": "task",
+          "entry": "十五"
+        },
+        "written": "交流工作情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-work-info",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 61,
+          "physicalPage": 62,
+          "printedPage": 59,
+          "section": "topic",
+          "entry": "职场生活 / 工作情况 / 工作信息"
+        },
+        "written": "工作信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l230-v-492",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 492"
+        },
+        "written": "周",
+        "pinyin": "zhōu",
+        "senseId": "l230-v-492-sense",
+        "ordinal": 492,
+        "note": "2（6） zhōu 名、（量）; 周 ở đây là danh từ tuần, 一周 là một tuần. Không dạy cách dùng lượng từ cấp cao hơn theo chú thích nguồn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l230-v-431",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 431"
+        },
+        "written": "时",
+        "pinyin": "shí",
+        "senseId": "l230-v-431-sense",
+        "ordinal": 431,
+        "note": "2（6） shí 名、（量）; 时 trong 吃饭时 chỉ lúc ăn cơm. Không dùng nó làm lượng từ đo thời lượng trong đáp án này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l230-v-323",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 323"
+        },
+        "written": "次",
+        "pinyin": "cì",
+        "senseId": "l230-v-323-sense",
+        "ordinal": 323,
+        "note": "2（7-9） cì 量、（形）; 一次 là một lần; 两次 là hai lần. Không nhầm số lần đi với thời lượng của mỗi lần. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l230-v-471",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 471"
+        },
+        "written": "一会儿",
+        "pinyin": "yíhuìr",
+        "senseId": "l230-v-471-sense",
+        "ordinal": 471,
+        "note": "2（3） yíhuìr 数量、（副）; 一会儿 ở đây là một khoảng ngắn; không bảo đảm đúng số phút cố định. Chỉ dạy nghĩa số lượng thời gian của cấp2. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l230-v-376",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 376"
+        },
+        "written": "就",
+        "pinyin": "jiù",
+        "senseId": "l230-v-376-sense",
+        "ordinal": 376,
+        "note": "2（7-9） jiù 副、（介）; 就 trong 一到家就看书 nối việc làm ngay sau mốc về nhà. Không dùng nghĩa giới từ chú thích cấp cao hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l230-v-491",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 491"
+        },
+        "written": "正",
+        "pinyin": "zhèng",
+        "senseId": "l230-v-491-sense",
+        "ordinal": 491,
+        "note": "2（5） zhèng 副、（形）; 正 là phó từ trước động từ trong 正工作. Không dùng nghĩa tính từ ngay thẳng/chính diện của cấp cao hơn. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-118",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "118"
+        },
+        "written": "周",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 118,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-11",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "11"
+        },
+        "written": "次",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 11,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-41",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "41"
+        },
+        "written": "就",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 41,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-immediate",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "复句 / 紧缩复句"
+        },
+        "written": "一……就……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l230-c0",
+      "version": 1,
+      "senseId": "l230-v-492-sense",
+      "hanzi": "周",
+      "dictionaryPinyin": "zhōu",
+      "meaning": "tuần",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l230-v-492"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l230-c1",
+      "version": 1,
+      "senseId": "l230-v-431-sense",
+      "hanzi": "时",
+      "dictionaryPinyin": "shí",
+      "meaning": "lúc, thời điểm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l230-v-431"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l230-c2",
+      "version": 1,
+      "senseId": "l230-v-323-sense",
+      "hanzi": "次",
+      "dictionaryPinyin": "cì",
+      "meaning": "lượng từ đếm lần làm việc gì",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l230-v-323"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l230-c3",
+      "version": 1,
+      "senseId": "l230-v-471-sense",
+      "hanzi": "一会儿",
+      "dictionaryPinyin": "yí huìr",
+      "meaning": "một lát",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l230-v-471"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l230-c4",
+      "version": 1,
+      "senseId": "l230-v-376-sense",
+      "hanzi": "就",
+      "dictionaryPinyin": "jiù",
+      "meaning": "liền, ngay khi trong mẫu một…thì…",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l230-v-376"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l230-c5",
+      "version": 1,
+      "senseId": "l230-v-491-sense",
+      "hanzi": "正",
+      "dictionaryPinyin": "zhèng",
+      "meaning": "đang, đúng lúc diễn ra hành động",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l230-v-491"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l270-guide",
+      "type": "teaching",
+      "title": "Ôn tập sau bài",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l270-t0-l230-prereq",
+      "type": "teaching",
+      "title": "Nhắc lại · Kiến thức cần nhắc lại",
+      "text": "星期 là tuần/thứ; 小时 là giờ. 时 ở đây có nghĩa thời điểm/lúc, không dạy nghĩa lượng từ cấp cao hơn. 就/正 chỉ luyện cách dùng trong ngữ cảnh đã nêu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l270-t0-l230-t0",
+      "type": "teaching",
+      "title": "Nhắc lại · 周 · tuần",
+      "text": "周 ở đây là danh từ tuần, 一周 là một tuần. Không dạy cách dùng lượng từ cấp cao hơn theo chú thích nguồn.",
+      "hanzi": "我一周工作五天。",
+      "pinyin": "Wǒ yì zhōu gōngzuò wǔ tiān.",
+      "meaning": "Tôi làm việc năm ngày một tuần.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l270-t0-l230-t1",
+      "type": "teaching",
+      "title": "Nhắc lại · 时 · lúc, thời điểm",
+      "text": "时 trong 吃饭时 chỉ lúc ăn cơm. Không dùng nó làm lượng từ đo thời lượng trong đáp án này.",
+      "hanzi": "吃饭时，我不看手机。",
+      "pinyin": "Chī fàn shí, wǒ bú kàn shǒujī.",
+      "meaning": "Lúc ăn cơm, tôi không xem điện thoại.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l270-t0-l230-t2",
+      "type": "teaching",
+      "title": "Nhắc lại · 次 · lượng từ đếm lần làm việc gì",
+      "text": "一次 là một lần; 两次 là hai lần. Không nhầm số lần đi với thời lượng của mỗi lần.",
+      "hanzi": "我一周去两次书店。",
+      "pinyin": "Wǒ yì zhōu qù liǎng cì shūdiàn.",
+      "meaning": "Tôi đến hiệu sách hai lần một tuần.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l270-t0-l230-t3",
+      "type": "teaching",
+      "title": "Nhắc lại · 一会儿 · một lát",
+      "text": "一会儿 ở đây là một khoảng ngắn; không bảo đảm đúng số phút cố định. Chỉ dạy nghĩa số lượng thời gian của cấp2.",
+      "hanzi": "请等一会儿。",
+      "pinyin": "Qǐng děng yíhuìr.",
+      "meaning": "Làm ơn đợi một lát.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l270-t0-l230-t4",
+      "type": "teaching",
+      "title": "Nhắc lại · 就 · liền, ngay khi trong mẫu một…thì…",
+      "text": "就 trong 一到家就看书 nối việc làm ngay sau mốc về nhà. Không dùng nghĩa giới từ chú thích cấp cao hơn.",
+      "hanzi": "我一到家就看书。",
+      "pinyin": "Wǒ yí dào jiā jiù kàn shū.",
+      "meaning": "Tôi vừa về đến nhà là đọc sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l270-t0-l230-t5",
+      "type": "teaching",
+      "title": "Nhắc lại · 正 · đang, đúng lúc diễn ra hành động",
+      "text": "正 là phó từ trước động từ trong 正工作. Không dùng nghĩa tính từ ngay thẳng/chính diện của cấp cao hơn.",
+      "hanzi": "他正工作呢。",
+      "pinyin": "Tā zhèng gōngzuò ne.",
+      "meaning": "Anh ấy đang làm việc đấy.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l270-t0-l230-grammar",
+      "type": "teaching",
+      "title": "Nhắc lại · Cách nói trong ngữ cảnh",
+      "text": "一到……就…… nói vừa đến mốc/sự việc A thì làm B ngay. Không tự hiểu mọi 就 đều là cấu trúc này; ví dụ còn có cách nhấn mạnh khác chưa chấm ở đây.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l270-t0-l230-reading",
+      "type": "teaching",
+      "title": "Nhắc lại · Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：你一周工作几天？乙：五天。我一到家就看书，一周还去两次书店。甲：现在能说话吗？乙：我正工作呢，请等一会儿。",
+      "pinyin": "Jiǎ: Nǐ yì zhōu gōngzuò jǐ tiān? Yǐ: Wǔ tiān. Wǒ yí dào jiā jiù kàn shū, yì zhōu hái qù liǎng cì shūdiàn. Jiǎ: Xiànzài néng shuō huà ma? Yǐ: Wǒ zhèng gōngzuò ne, qǐng děng yíhuìr.",
+      "meaning": "A: Một tuần bạn làm mấy ngày? B: Năm ngày. Vừa về nhà tôi đọc sách, mỗi tuần còn đến hiệu sách hai lần. A: Giờ nói chuyện được không? B: Tôi đang làm việc, làm ơn đợi một lát.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l270-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l270-e0"
+    },
+    {
+      "id": "l270-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l270-e1"
+    },
+    {
+      "id": "l270-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l270-e2"
+    },
+    {
+      "id": "l270-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l270-e3"
+    },
+    {
+      "id": "l270-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l270-e4"
+    },
+    {
+      "id": "l270-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l270-e5"
+    },
+    {
+      "id": "l270-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l270-e6"
+    },
+    {
+      "id": "l270-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l270-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l270-e0",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l230-c0",
+      "senseId": "l230-v-492-sense",
+      "keyRef": "l270-k0",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “tuần” (zhōu).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l270-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l230-c1",
+      "senseId": "l230-v-431-sense",
+      "keyRef": "l270-k1",
+      "prompt": "Ôn nghĩa: 时 (shí) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "lượng từ đếm lần làm việc gì",
+        "một lát",
+        "liền, ngay khi trong mẫu một…thì…",
+        "đang, đúng lúc diễn ra hành động",
+        "tuần",
+        "lúc, thời điểm"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l270-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l230-c2",
+      "senseId": "l230-v-323-sense",
+      "keyRef": "l270-k2",
+      "prompt": "Ôn cách đọc của 次 trong nghĩa “lượng từ đếm lần làm việc gì”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l270-e3",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l230-c3",
+      "senseId": "l230-v-471-sense",
+      "keyRef": "l270-k3",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “một lát” (yí huìr).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l270-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l230-c4",
+      "senseId": "l230-v-376-sense",
+      "keyRef": "l270-k4",
+      "prompt": "Ôn nghĩa: 就 (jiù) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "đang, đúng lúc diễn ra hành động",
+        "tuần",
+        "lúc, thời điểm",
+        "lượng từ đếm lần làm việc gì",
+        "một lát",
+        "liền, ngay khi trong mẫu một…thì…"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l270-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l230-c5",
+      "senseId": "l230-v-491-sense",
+      "keyRef": "l270-k5",
+      "prompt": "Ôn cách đọc của 正 trong nghĩa “đang, đúng lúc diễn ra hành động”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l270-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l230-c0",
+      "senseId": "l230-v-492-sense",
+      "keyRef": "l270-k6",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “tuần” (zhōu) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "红",
+        "周",
+        "过",
+        "黑"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l270-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l230-c0",
+      "senseId": "l230-v-492-sense",
+      "keyRef": "l270-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Mỗi tuần người B đến hiệu sách mấy lần?",
+      "choices": [
+        "Hai lần",
+        "Năm lần",
+        "Một lát"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l270-k0",
+      "version": 1,
+      "exerciseVersionId": "l270-e0",
+      "senseId": "l230-v-492-sense",
+      "accepted": [
+        "周"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "周 · tuần."
+    },
+    {
+      "id": "l270-k1",
+      "version": 1,
+      "exerciseVersionId": "l270-e1",
+      "senseId": "l230-v-431-sense",
+      "accepted": [
+        "lúc, thời điểm"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "时: lúc, thời điểm."
+    },
+    {
+      "id": "l270-k2",
+      "version": 1,
+      "exerciseVersionId": "l270-e2",
+      "senseId": "l230-v-323-sense",
+      "accepted": [
+        "cì"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "cì · lượng từ đếm lần làm việc gì"
+    },
+    {
+      "id": "l270-k3",
+      "version": 1,
+      "exerciseVersionId": "l270-e3",
+      "senseId": "l230-v-471-sense",
+      "accepted": [
+        "一会儿"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一会儿 · một lát."
+    },
+    {
+      "id": "l270-k4",
+      "version": 1,
+      "exerciseVersionId": "l270-e4",
+      "senseId": "l230-v-376-sense",
+      "accepted": [
+        "liền, ngay khi trong mẫu một…thì…"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "就: liền, ngay khi trong mẫu một…thì…."
+    },
+    {
+      "id": "l270-k5",
+      "version": 1,
+      "exerciseVersionId": "l270-e5",
+      "senseId": "l230-v-491-sense",
+      "accepted": [
+        "zhèng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "zhèng · đang, đúng lúc diễn ra hành động"
+    },
+    {
+      "id": "l270-k6",
+      "version": 1,
+      "exerciseVersionId": "l270-e6",
+      "senseId": "l230-v-492-sense",
+      "accepted": [
+        "周"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "周 · zhōu · tuần. Chữ cần nhận diện là 周."
+    },
+    {
+      "id": "l270-k7",
+      "version": 1,
+      "exerciseVersionId": "l270-e7",
+      "senseId": "l230-v-492-sense",
+      "accepted": [
+        "Hai lần"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "两次 là hai lần; 五天 là số ngày làm việc, 一会儿 không phải số lần."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

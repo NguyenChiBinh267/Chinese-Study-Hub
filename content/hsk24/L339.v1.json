@@ -1,0 +1,782 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "4f28f85ed1feb34508b1763080317cca8a51e51f0a0914339dd18ee483874fa8",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-travel-delay",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L339",
+    "version": 1,
+    "versionId": "l339-draft-v1",
+    "title": "Đổi phương tiện khi mưa và chuyến bay muộn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc thời gian khởi hành và thay đổi phương án đi lại.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "或者……，或者……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 14,
+      "physicalPage": 15,
+      "printedPage": 12,
+      "section": "task",
+      "entry": "五"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 14,
+          "physicalPage": 15,
+          "printedPage": 12,
+          "section": "task",
+          "entry": "五"
+        },
+        "written": "谈论交通出行",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-travel-experience",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "出行经历"
+        },
+        "written": "出行经历",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l339-v-797",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 797"
+        },
+        "written": "骑",
+        "pinyin": "qí",
+        "senseId": "l339-v-797-sense",
+        "ordinal": 797,
+        "note": "3 qí 动; 骑 dùng cho cưỡi ngựa hoặc đi xe đạp; không dùng 骑汽车 thay 开/坐汽车. Trong bài là đạp xe. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l339-v-567",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 567"
+        },
+        "written": "船",
+        "pinyin": "chuán",
+        "senseId": "l339-v-567-sense",
+        "ordinal": 567,
+        "note": "3 chuán 名; 船 chỉ phương tiện trên nước; 坐船 là đi tàu/thuyền, không phải máy bay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l339-v-802",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 802"
+        },
+        "written": "起飞",
+        "pinyin": "qǐfēi",
+        "senseId": "l339-v-802-sense",
+        "ordinal": 802,
+        "note": "3 qǐfēi 动; 起飞 nói máy bay bắt đầu bay; khác 到达 là đến nơi. 八点起飞不等于八点到达. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l339-v-870",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 870"
+        },
+        "written": "晚点",
+        "pinyin": "wǎndiǎn",
+        "senseId": "l339-v-870-sense",
+        "ordinal": 870,
+        "note": "3 wǎndiǎn 动; 晚点 là trễ so với lịch, không chỉ thời điểm muộn trong ngày. 晚点了 chưa biết chính xác trễ bao lâu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l339-v-820",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 820"
+        },
+        "written": "伞",
+        "pinyin": "sǎn",
+        "senseId": "l339-v-820-sense",
+        "ordinal": 820,
+        "note": "3 sǎn 名; 伞 là ô; 一把伞 dùng 把 là lượng từ. 没带伞 nói không mang ô, chưa tự có nghĩa sẽ ướt. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l339-v-952",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 952"
+        },
+        "written": "雨衣",
+        "pinyin": "yǔyī",
+        "senseId": "l339-v-952-sense",
+        "ordinal": 952,
+        "note": "3 yǔyī 名; 雨衣 là áo che mưa; 穿雨衣 là mặc áo mưa, khác 打伞 là che ô. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-170",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "170"
+        },
+        "written": "骑",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 170,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-34",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "34"
+        },
+        "written": "船",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 34,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-186",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "186"
+        },
+        "written": "伞",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 186,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-choice-clause",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "复句 / 选择复句"
+        },
+        "written": "或者……，或者……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l339-c0",
+      "version": 1,
+      "senseId": "l339-v-797-sense",
+      "hanzi": "骑",
+      "dictionaryPinyin": "qí",
+      "meaning": "cưỡi/đi (xe đạp, ngựa)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l339-v-797"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l339-c1",
+      "version": 1,
+      "senseId": "l339-v-567-sense",
+      "hanzi": "船",
+      "dictionaryPinyin": "chuán",
+      "meaning": "thuyền/tàu thủy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l339-v-567"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l339-c2",
+      "version": 1,
+      "senseId": "l339-v-802-sense",
+      "hanzi": "起飞",
+      "dictionaryPinyin": "qǐ fēi",
+      "meaning": "cất cánh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l339-v-802"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l339-c3",
+      "version": 1,
+      "senseId": "l339-v-870-sense",
+      "hanzi": "晚点",
+      "dictionaryPinyin": "wǎn diǎn",
+      "meaning": "trễ giờ (chuyến xe/tàu/máy bay)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l339-v-870"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l339-c4",
+      "version": 1,
+      "senseId": "l339-v-820-sense",
+      "hanzi": "伞",
+      "dictionaryPinyin": "sǎn",
+      "meaning": "ô/dù",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l339-v-820"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l339-c5",
+      "version": 1,
+      "senseId": "l339-v-952-sense",
+      "hanzi": "雨衣",
+      "dictionaryPinyin": "yǔ yī",
+      "meaning": "áo mưa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l339-v-952"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l339-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 却 què: lại/nhưng; 改 gǎi: đổi; 确定 quèdìng: xác định; 到达 dàodá: đến nơi, chỉ đối chiếu với 起飞.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l339-t0",
+      "type": "teaching",
+      "title": "骑 · cưỡi/đi (xe đạp, ngựa)",
+      "text": "骑 dùng cho cưỡi ngựa hoặc đi xe đạp; không dùng 骑汽车 thay 开/坐汽车. Trong bài là đạp xe.",
+      "hanzi": "我平时骑车上学。",
+      "pinyin": "Wǒ píngshí qí chē shàng xué.",
+      "meaning": "Bình thường tôi đạp xe đi học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l339-t1",
+      "type": "teaching",
+      "title": "船 · thuyền/tàu thủy",
+      "text": "船 chỉ phương tiện trên nước; 坐船 là đi tàu/thuyền, không phải máy bay.",
+      "hanzi": "我们坐船过河。",
+      "pinyin": "Wǒmen zuò chuán guò hé.",
+      "meaning": "Chúng tôi đi thuyền qua sông.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l339-t2",
+      "type": "teaching",
+      "title": "起飞 · cất cánh",
+      "text": "起飞 nói máy bay bắt đầu bay; khác 到达 là đến nơi. 八点起飞不等于八点到达.",
+      "hanzi": "飞机八点起飞。",
+      "pinyin": "Fēijī bā diǎn qǐfēi.",
+      "meaning": "Máy bay cất cánh lúc tám giờ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l339-t3",
+      "type": "teaching",
+      "title": "晚点 · trễ giờ (chuyến xe/tàu/máy bay)",
+      "text": "晚点 là trễ so với lịch, không chỉ thời điểm muộn trong ngày. 晚点了 chưa biết chính xác trễ bao lâu.",
+      "hanzi": "今天的飞机晚点了。",
+      "pinyin": "Jīntiān de fēijī wǎndiǎn le.",
+      "meaning": "Chuyến bay hôm nay trễ giờ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l339-t4",
+      "type": "teaching",
+      "title": "伞 · ô/dù",
+      "text": "伞 là ô; 一把伞 dùng 把 là lượng từ. 没带伞 nói không mang ô, chưa tự có nghĩa sẽ ướt.",
+      "hanzi": "下雨了，我带了一把伞。",
+      "pinyin": "Xià yǔ le, wǒ dài le yì bǎ sǎn.",
+      "meaning": "Trời mưa, tôi mang một chiếc ô.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l339-t5",
+      "type": "teaching",
+      "title": "雨衣 · áo mưa",
+      "text": "雨衣 là áo che mưa; 穿雨衣 là mặc áo mưa, khác 打伞 là che ô.",
+      "hanzi": "骑车时她穿雨衣。",
+      "pinyin": "Qí chē shí tā chuān yǔyī.",
+      "meaning": "Khi đạp xe cô ấy mặc áo mưa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l339-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "或者坐船，或者坐飞机 đưa hai phương án trong trần thuật. Câu hỏi trực tiếp 你坐船还是坐飞机 cần 还是. Bài luyện phương án dự kiến chứ chưa đặt vé.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l339-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林平时骑车去车站，下雨时穿雨衣，今天却坐车，还带了伞。朋友原来想坐船，后来改坐飞机。飞机晚点了，起飞时间还没确定，两人先看通知。",
+      "pinyin": "Xiǎo Lín píngshí qí chē qù chēzhàn, xià yǔ shí chuān yǔyī, jīntiān què zuò chē, hái dài le sǎn. Péngyou yuánlái xiǎng zuò chuán, hòulái gǎi zuò fēijī. Fēijī wǎndiǎn le, qǐfēi shíjiān hái méi quèdìng, liǎng rén xiān kàn tōngzhī.",
+      "meaning": "Lâm thường đạp xe, mặc áo mưa khi mưa; hôm nay đi xe và mang ô. Bạn đổi đi thuyền sang máy bay, nhưng chuyến trễ và giờ cất cánh chưa xác định.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l339-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l339-v1-e0"
+    },
+    {
+      "id": "l339-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l339-v1-e1"
+    },
+    {
+      "id": "l339-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l339-v1-e2"
+    },
+    {
+      "id": "l339-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l339-v1-e3"
+    },
+    {
+      "id": "l339-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l339-v1-e4"
+    },
+    {
+      "id": "l339-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l339-v1-e5"
+    },
+    {
+      "id": "l339-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l339-v1-e6"
+    },
+    {
+      "id": "l339-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l339-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l339-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l339-c0",
+      "senseId": "l339-v-797-sense",
+      "keyRef": "l339-v1-k0",
+      "prompt": "Động từ đi xe đạp: □自行车。",
+      "choices": [
+        "船",
+        "起飞",
+        "晚点",
+        "伞",
+        "雨衣",
+        "骑"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l339-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l339-c1",
+      "senseId": "l339-v-567-sense",
+      "keyRef": "l339-v1-k1",
+      "prompt": "Phương tiện trên nước: 坐□过河。",
+      "choices": [
+        "起飞",
+        "晚点",
+        "伞",
+        "雨衣",
+        "骑",
+        "船"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l339-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l339-c2",
+      "senseId": "l339-v-802-sense",
+      "keyRef": "l339-v1-k2",
+      "prompt": "Bắt đầu rời mặt đất bay: 飞机八点□。",
+      "choices": [
+        "晚点",
+        "伞",
+        "雨衣",
+        "骑",
+        "船",
+        "起飞"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l339-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l339-c3",
+      "senseId": "l339-v-870-sense",
+      "keyRef": "l339-v1-k3",
+      "prompt": "Viết pinyin của 晚点 trong câu “今天的飞机晚点了。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l339-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l339-c4",
+      "senseId": "l339-v-820-sense",
+      "keyRef": "l339-v1-k4",
+      "prompt": "Đồ cầm che mưa mở trên đầu: 一把□。",
+      "choices": [
+        "雨衣",
+        "骑",
+        "船",
+        "起飞",
+        "晚点",
+        "伞"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l339-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l339-c5",
+      "senseId": "l339-v-952-sense",
+      "keyRef": "l339-v1-k5",
+      "prompt": "Áo mặc che mưa: 穿□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l339-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l339-c0",
+      "senseId": "l339-v-797-sense",
+      "keyRef": "l339-v1-k6",
+      "prompt": "Giờ cất cánh mới đã xác định chưa?",
+      "choices": [
+        "确定是八点",
+        "已经到达",
+        "还没确定"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l339-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l339-c3",
+      "senseId": "l339-v-870-sense",
+      "keyRef": "l339-v1-k7",
+      "prompt": "Xếp hai phương án, bắt đầu bằng 或者坐船.",
+      "choices": [
+        "或者坐飞机",
+        "或者坐船"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l339-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l339-v1-e0",
+      "senseId": "l339-v-797-sense",
+      "accepted": [
+        "骑"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "骑: cưỡi/đi (xe đạp, ngựa). 骑 dùng cho cưỡi ngựa hoặc đi xe đạp; không dùng 骑汽车 thay 开/坐汽车. Trong bài là đạp xe. Bình thường tôi đạp xe đi học."
+    },
+    {
+      "id": "l339-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l339-v1-e1",
+      "senseId": "l339-v-567-sense",
+      "accepted": [
+        "船"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "船: thuyền/tàu thủy. 船 chỉ phương tiện trên nước; 坐船 là đi tàu/thuyền, không phải máy bay. Chúng tôi đi thuyền qua sông."
+    },
+    {
+      "id": "l339-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l339-v1-e2",
+      "senseId": "l339-v-802-sense",
+      "accepted": [
+        "起飞"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "起飞: cất cánh. 起飞 nói máy bay bắt đầu bay; khác 到达 là đến nơi. 八点起飞不等于八点到达. Máy bay cất cánh lúc tám giờ."
+    },
+    {
+      "id": "l339-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l339-v1-e3",
+      "senseId": "l339-v-870-sense",
+      "accepted": [
+        "wǎn diǎn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "晚点: trễ giờ (chuyến xe/tàu/máy bay). 晚点 là trễ so với lịch, không chỉ thời điểm muộn trong ngày. 晚点了 chưa biết chính xác trễ bao lâu. Chuyến bay hôm nay trễ giờ."
+    },
+    {
+      "id": "l339-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l339-v1-e4",
+      "senseId": "l339-v-820-sense",
+      "accepted": [
+        "伞"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "伞: ô/dù. 伞 là ô; 一把伞 dùng 把 là lượng từ. 没带伞 nói không mang ô, chưa tự có nghĩa sẽ ướt. Trời mưa, tôi mang một chiếc ô."
+    },
+    {
+      "id": "l339-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l339-v1-e5",
+      "senseId": "l339-v-952-sense",
+      "accepted": [
+        "雨衣"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "雨衣: áo mưa. 雨衣 là áo che mưa; 穿雨衣 là mặc áo mưa, khác 打伞 là che ô. Khi đạp xe cô ấy mặc áo mưa."
+    },
+    {
+      "id": "l339-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l339-v1-e6",
+      "senseId": "l339-v-797-sense",
+      "accepted": [
+        "还没确定"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 或者坐船，或者坐飞机 đưa hai phương án trong trần thuật. Câu hỏi trực tiếp 你坐船还是坐飞机 cần 还是. Bài luyện phương án dự kiến chứ chưa đặt vé."
+    },
+    {
+      "id": "l339-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l339-v1-e7",
+      "senseId": "l339-v-870-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 或者坐船，或者坐飞机 đưa hai phương án trong trần thuật. Câu hỏi trực tiếp 你坐船还是坐飞机 cần 还是. Bài luyện phương án dự kiến chứ chưa đặt vé."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

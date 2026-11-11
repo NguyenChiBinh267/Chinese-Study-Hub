@@ -1,0 +1,782 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "c3cb0118bcedaede77ee1f72a35fdb2fed3158c8307fd8de2a9381f273ca7126",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-study-exam-requirements",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L404",
+    "version": 1,
+    "versionId": "l404-draft-v1",
+    "title": "Đọc yêu cầu đăng ký thi sau tốt nghiệp",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân biệt ghi danh, đăng ký thi, bậc cử nhân và tiêu chí bài thi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l357-draft-v1",
+      "l375-draft-v1",
+      "l384-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "不仅/不光"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 23,
+      "physicalPage": 24,
+      "printedPage": 21,
+      "section": "task",
+      "entry": "十二"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T08:31:46.731437Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 23,
+          "physicalPage": 24,
+          "printedPage": 21,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "谈论教学、学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-topic-study",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "学习经历"
+        },
+        "written": "学习经历",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l404-v-1017",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1017"
+        },
+        "written": "报考",
+        "pinyin": "bàokǎo",
+        "senseId": "l404-v-1017-sense",
+        "ordinal": 1017,
+        "note": "4 bàokǎo 动; 报考 gắn với đăng ký dự thi/đơn vị đào tạo có kỳ xét/thi theo cảnh, khác 报名 một hoạt động nói chung. 不等于已经通过考试. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l404-v-1024",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1024"
+        },
+        "written": "本科",
+        "pinyin": "běnkē",
+        "senseId": "l404-v-1024-sense",
+        "ordinal": 1024,
+        "note": "4 běnkē 名; 本科 là bậc đào tạo đại học cử nhân trong ngữ cảnh giáo dục Trung Quốc, không tự tương đương mọi chương trình ở mọi nước. 不等于博士. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l404-v-1028",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1028"
+        },
+        "written": "笔试",
+        "pinyin": "bǐshì",
+        "senseId": "l404-v-1028-sense",
+        "ordinal": 1028,
+        "note": "4 bǐshì 动; 笔试 là bài thi viết, khác 口试 thi nói. Nhớ tên từ không phải ứng dụng đã có đề thi chính thức hay chấm bài viết tự do. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l404-v-1029",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1029"
+        },
+        "written": "毕业",
+        "pinyin": "bìyè",
+        "senseId": "l404-v-1029-sense",
+        "ordinal": 1029,
+        "note": "4 bìyè 动; 毕业 là hoàn thành chương trình và tốt nghiệp theo bối cảnh; 已毕业不自动符合下一次报考要求. Không cấp chứng nhận từ bài luyện này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l404-v-1030",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1030"
+        },
+        "written": "毕业生",
+        "pinyin": "bìyèshēng",
+        "senseId": "l404-v-1030-sense",
+        "ordinal": 1030,
+        "note": "4 bìyèshēng 名; 毕业生 là người đã tốt nghiệp, khác 毕业 là hành động/sự kiện. 一名毕业生 nói người, chưa nói chuyên môn hoặc đủ mọi điều kiện việc làm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l404-v-1032",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1032"
+        },
+        "written": "标准",
+        "pinyin": "biāozhǔn",
+        "senseId": "l404-v-1032-sense",
+        "ordinal": 1032,
+        "note": "4 biāozhǔn 名、形; 标准 trong 笔试标准 là tiêu chí/chuẩn đánh giá, không phải điểm thực tế của người học. Bài đọc ví dụ hư cấu, không phải đề thi HSK chính thức hay điểm thi. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-170",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "170"
+        },
+        "written": "科",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 170,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-13",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "13"
+        },
+        "written": "毕",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 13,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-14",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "14"
+        },
+        "written": "标",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 14,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-g-not-only",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "复句 / 递进复句"
+        },
+        "written": "不仅/不光",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l404-c0",
+      "version": 1,
+      "senseId": "l404-v-1017-sense",
+      "hanzi": "报考",
+      "dictionaryPinyin": "bào kǎo",
+      "meaning": "đăng ký dự thi/ứng tuyển học qua thi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l404-v-1017"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l404-c1",
+      "version": 1,
+      "senseId": "l404-v-1024-sense",
+      "hanzi": "本科",
+      "dictionaryPinyin": "běn kē",
+      "meaning": "bậc đại học cử nhân",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l404-v-1024"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l404-c2",
+      "version": 1,
+      "senseId": "l404-v-1028-sense",
+      "hanzi": "笔试",
+      "dictionaryPinyin": "bǐ shì",
+      "meaning": "thi viết",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l404-v-1028"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l404-c3",
+      "version": 1,
+      "senseId": "l404-v-1029-sense",
+      "hanzi": "毕业",
+      "dictionaryPinyin": "bì yè",
+      "meaning": "tốt nghiệp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l404-v-1029"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l404-c4",
+      "version": 1,
+      "senseId": "l404-v-1030-sense",
+      "hanzi": "毕业生",
+      "dictionaryPinyin": "bì yè shēng",
+      "meaning": "người tốt nghiệp/sinh viên tốt nghiệp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l404-v-1030"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l404-c5",
+      "version": 1,
+      "senseId": "l404-v-1032-sense",
+      "hanzi": "标准",
+      "dictionaryPinyin": "biāo zhǔn",
+      "meaning": "tiêu chuẩn/chuẩn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l404-v-1032"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l404-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 继续 jìxù: tiếp tục; 列出 liè chū: liệt kê; 条件 tiáojiàn: điều kiện; 符合 fúhé: đáp ứng; 口试 kǒushì: thi nói; 宣布 xuānbù: tuyên bố. HSK3 đã có dạy từ vựng nháp, các kỹ năng khác và duyệt ngôn ngữ vẫn thiếu. Có thể đọc lại L375 về điều kiện, L384 về lời khuyên, L357 về kế hoạch học; không tự cấp mastery.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l404-t0",
+      "type": "teaching",
+      "title": "报考 · đăng ký dự thi/ứng tuyển học qua thi",
+      "text": "报考 gắn với đăng ký dự thi/đơn vị đào tạo có kỳ xét/thi theo cảnh, khác 报名 một hoạt động nói chung. 不等于已经通过考试.",
+      "hanzi": "他想报考这所学校。",
+      "pinyin": "Tā xiǎng bàokǎo zhè suǒ xuéxiào.",
+      "meaning": "Anh ấy muốn đăng ký dự tuyển trường này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l404-t1",
+      "type": "teaching",
+      "title": "本科 · bậc đại học cử nhân",
+      "text": "本科 là bậc đào tạo đại học cử nhân trong ngữ cảnh giáo dục Trung Quốc, không tự tương đương mọi chương trình ở mọi nước. 不等于博士.",
+      "hanzi": "她正在读本科。",
+      "pinyin": "Tā zhèngzài dú běnkē.",
+      "meaning": "Cô ấy đang học bậc cử nhân.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l404-t2",
+      "type": "teaching",
+      "title": "笔试 · thi viết",
+      "text": "笔试 là bài thi viết, khác 口试 thi nói. Nhớ tên từ không phải ứng dụng đã có đề thi chính thức hay chấm bài viết tự do.",
+      "hanzi": "这次考试有笔试。",
+      "pinyin": "Zhè cì kǎoshì yǒu bǐshì.",
+      "meaning": "Kỳ thi lần này có phần thi viết.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l404-t3",
+      "type": "teaching",
+      "title": "毕业 · tốt nghiệp",
+      "text": "毕业 là hoàn thành chương trình và tốt nghiệp theo bối cảnh; 已毕业不自动符合下一次报考要求. Không cấp chứng nhận từ bài luyện này.",
+      "hanzi": "他去年大学毕业。",
+      "pinyin": "Tā qùnián dàxué bì yè.",
+      "meaning": "Anh ấy tốt nghiệp đại học năm ngoái.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l404-t4",
+      "type": "teaching",
+      "title": "毕业生 · người tốt nghiệp/sinh viên tốt nghiệp",
+      "text": "毕业生 là người đã tốt nghiệp, khác 毕业 là hành động/sự kiện. 一名毕业生 nói người, chưa nói chuyên môn hoặc đủ mọi điều kiện việc làm.",
+      "hanzi": "这位毕业生想继续学习。",
+      "pinyin": "Zhè wèi bìyèshēng xiǎng jìxù xuéxí.",
+      "meaning": "Người tốt nghiệp này muốn học tiếp.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l404-t5",
+      "type": "teaching",
+      "title": "标准 · tiêu chuẩn/chuẩn",
+      "text": "标准 trong 笔试标准 là tiêu chí/chuẩn đánh giá, không phải điểm thực tế của người học. Bài đọc ví dụ hư cấu, không phải đề thi HSK chính thức hay điểm thi.",
+      "hanzi": "请先看清楚笔试标准。",
+      "pinyin": "Qǐng xiān kàn qīngchu bǐshì biāozhǔn.",
+      "meaning": "Hãy đọc rõ tiêu chuẩn thi viết trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l404-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "不仅A，还/而且B nêu bổ sung tăng tiến, không chỉ A mà còn B. 不仅说明时间，还列标准 không tự cho biết ai đạt tiêu chí; tiêu chí cụ thể phải đọc trong bản thông báo hư cấu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l404-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林是本科毕业生，想继续学习并报考一所学校。说明不仅写了报名时间，还列出了笔试标准。他知道毕业不等于自动符合报考条件，先查看本次要求，再决定是否报名。这里讲的是读懂条件，不是宣布已经通过考试。",
+      "pinyin": "Xiǎo Lín shì běnkē bìyèshēng, xiǎng jìxù xuéxí bìng bàokǎo yì suǒ xuéxiào. Shuōmíng bùjǐn xiě le bàomíng shíjiān, hái liè chū le bǐshì biāozhǔn. Tā zhīdào bìyè bù děngyú zìdòng fúhé bàokǎo tiáojiàn, xiān chákàn běn cì yāoqiú, zài juédìng shìfǒu bàomíng. Zhèlǐ jiǎng de shì dú dǒng tiáojiàn, bú shì xuānbù yǐjīng tōngguò kǎoshì.",
+      "meaning": "Lâm đã tốt nghiệp cử nhân, muốn đăng ký học tiếp. Hướng dẫn không chỉ có thời gian mà cả tiêu chuẩn thi viết. Cậu đọc yêu cầu lần này trước khi quyết định; tốt nghiệp chưa tự đủ điều kiện hay đỗ.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l404-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l404-v1-e0"
+    },
+    {
+      "id": "l404-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l404-v1-e1"
+    },
+    {
+      "id": "l404-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l404-v1-e2"
+    },
+    {
+      "id": "l404-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l404-v1-e3"
+    },
+    {
+      "id": "l404-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l404-v1-e4"
+    },
+    {
+      "id": "l404-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l404-v1-e5"
+    },
+    {
+      "id": "l404-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l404-v1-e6"
+    },
+    {
+      "id": "l404-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l404-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l404-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l404-c0",
+      "senseId": "l404-v-1017-sense",
+      "keyRef": "l404-v1-k0",
+      "prompt": "Đăng ký dự tuyển trường, phân biệt với tốt nghiệp: 他想□这所学校。",
+      "choices": [
+        "本科",
+        "笔试",
+        "毕业",
+        "毕业生",
+        "标准",
+        "报考"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l404-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l404-c1",
+      "senseId": "l404-v-1024-sense",
+      "keyRef": "l404-v1-k1",
+      "prompt": "Tên bậc cử nhân trong đoạn: 读□。",
+      "choices": [
+        "笔试",
+        "毕业",
+        "毕业生",
+        "标准",
+        "报考",
+        "本科"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l404-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l404-c2",
+      "senseId": "l404-v-1028-sense",
+      "keyRef": "l404-v1-k2",
+      "prompt": "Tên hình thức thi viết, không phải thi nói.",
+      "choices": [
+        "毕业",
+        "毕业生",
+        "标准",
+        "报考",
+        "本科",
+        "笔试"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l404-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l404-c3",
+      "senseId": "l404-v-1029-sense",
+      "keyRef": "l404-v1-k3",
+      "prompt": "Viết pinyin của 毕业 trong câu “他去年大学毕业。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l404-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l404-c4",
+      "senseId": "l404-v-1030-sense",
+      "keyRef": "l404-v1-k4",
+      "prompt": "Danh từ người tốt nghiệp: 一名□。",
+      "choices": [
+        "标准",
+        "报考",
+        "本科",
+        "笔试",
+        "毕业",
+        "毕业生"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l404-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l404-c5",
+      "senseId": "l404-v-1032-sense",
+      "keyRef": "l404-v1-k5",
+      "prompt": "Tiêu chí/chuẩn đánh giá: 笔试□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l404-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l404-c0",
+      "senseId": "l404-v-1017-sense",
+      "keyRef": "l404-v1-k6",
+      "prompt": "Thông báo có gì ngoài thời gian đăng ký?",
+      "choices": [
+        "保证每个人录取",
+        "已经通过的成绩",
+        "笔试标准"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l404-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l404-c3",
+      "senseId": "l404-v-1029-sense",
+      "keyRef": "l404-v1-k7",
+      "prompt": "Xếp cặp bổ sung, bắt đầu bằng 说明不仅写了报名时间.",
+      "choices": [
+        "还列出了笔试标准",
+        "说明不仅写了报名时间"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l404-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l404-v1-e0",
+      "senseId": "l404-v-1017-sense",
+      "accepted": [
+        "报考"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "报考: đăng ký dự thi/ứng tuyển học qua thi. 报考 gắn với đăng ký dự thi/đơn vị đào tạo có kỳ xét/thi theo cảnh, khác 报名 một hoạt động nói chung. 不等于已经通过考试. Anh ấy muốn đăng ký dự tuyển trường này."
+    },
+    {
+      "id": "l404-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l404-v1-e1",
+      "senseId": "l404-v-1024-sense",
+      "accepted": [
+        "本科"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "本科: bậc đại học cử nhân. 本科 là bậc đào tạo đại học cử nhân trong ngữ cảnh giáo dục Trung Quốc, không tự tương đương mọi chương trình ở mọi nước. 不等于博士. Cô ấy đang học bậc cử nhân."
+    },
+    {
+      "id": "l404-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l404-v1-e2",
+      "senseId": "l404-v-1028-sense",
+      "accepted": [
+        "笔试"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "笔试: thi viết. 笔试 là bài thi viết, khác 口试 thi nói. Nhớ tên từ không phải ứng dụng đã có đề thi chính thức hay chấm bài viết tự do. Kỳ thi lần này có phần thi viết."
+    },
+    {
+      "id": "l404-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l404-v1-e3",
+      "senseId": "l404-v-1029-sense",
+      "accepted": [
+        "bì yè"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "毕业: tốt nghiệp. 毕业 là hoàn thành chương trình và tốt nghiệp theo bối cảnh; 已毕业不自动符合下一次报考要求. Không cấp chứng nhận từ bài luyện này. Anh ấy tốt nghiệp đại học năm ngoái."
+    },
+    {
+      "id": "l404-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l404-v1-e4",
+      "senseId": "l404-v-1030-sense",
+      "accepted": [
+        "毕业生"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "毕业生: người tốt nghiệp/sinh viên tốt nghiệp. 毕业生 là người đã tốt nghiệp, khác 毕业 là hành động/sự kiện. 一名毕业生 nói người, chưa nói chuyên môn hoặc đủ mọi điều kiện việc làm. Người tốt nghiệp này muốn học tiếp."
+    },
+    {
+      "id": "l404-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l404-v1-e5",
+      "senseId": "l404-v-1032-sense",
+      "accepted": [
+        "标准"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "标准: tiêu chuẩn/chuẩn. 标准 trong 笔试标准 là tiêu chí/chuẩn đánh giá, không phải điểm thực tế của người học. Bài đọc ví dụ hư cấu, không phải đề thi HSK chính thức hay điểm thi. Hãy đọc rõ tiêu chuẩn thi viết trước."
+    },
+    {
+      "id": "l404-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l404-v1-e6",
+      "senseId": "l404-v-1017-sense",
+      "accepted": [
+        "笔试标准"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 不仅A，还/而且B nêu bổ sung tăng tiến, không chỉ A mà còn B. 不仅说明时间，还列标准 không tự cho biết ai đạt tiêu chí; tiêu chí cụ thể phải đọc trong bản thông báo hư cấu."
+    },
+    {
+      "id": "l404-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l404-v1-e7",
+      "senseId": "l404-v-1029-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 不仅A，还/而且B nêu bổ sung tăng tiến, không chỉ A mà còn B. 不仅说明时间，还列标准 không tự cho biết ai đạt tiêu chí; tiêu chí cụ thể phải đọc trong bản thông báo hư cấu."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

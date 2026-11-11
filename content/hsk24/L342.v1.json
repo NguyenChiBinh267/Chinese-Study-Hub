@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "2db9d6cb85a9cd4ad1ea8f8143a534bdedbb9b4eb61247fd48875576eb642abf",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-office-mail",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L342",
+    "version": 1,
+    "versionId": "l342-draft-v1",
+    "title": "Nhận và gửi thư công việc",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân biệt gửi, nhận thư và địa chỉ hòm thư.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "动词+到"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 17,
+      "physicalPage": 18,
+      "printedPage": 15,
+      "section": "task",
+      "entry": "十四"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-office",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 17,
+          "physicalPage": 18,
+          "printedPage": 15,
+          "section": "task",
+          "entry": "十四"
+        },
+        "written": "交流日常办公情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-office",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "职场生活 / 日常办公 / 办公事务"
+        },
+        "written": "办公事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l342-v-772",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 772"
+        },
+        "written": "名单",
+        "pinyin": "míngdān",
+        "senseId": "l342-v-772-sense",
+        "ordinal": 772,
+        "note": "3 míngdān 名; 名单 là danh sách tên người, khác 菜单 là danh sách món. Danh sách chưa tự xác nhận mỗi người có mặt. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l342-v-836",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 836"
+        },
+        "written": "收",
+        "pinyin": "shōu",
+        "senseId": "l342-v-836-sense",
+        "ordinal": 836,
+        "note": "3 shōu 动; 收 trong 收信 là nhận thư; 收东西 có thể là cất/thu đồ, cần ngữ cảnh. Không gộp mọi nghĩa thành một bằng chứng đã thuộc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l342-v-837",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 837"
+        },
+        "written": "收到",
+        "pinyin": "shōudào",
+        "senseId": "l342-v-837-sense",
+        "ordinal": 837,
+        "note": "3 shōudào 动; 收到 nêu kết quả đã nhận; 没收到 là chưa/không nhận được, khác 没发 là chưa gửi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l342-v-942",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 942"
+        },
+        "written": "邮件",
+        "pinyin": "yóujiàn",
+        "senseId": "l342-v-942-sense",
+        "ordinal": 942,
+        "note": "3 yóujiàn 名; 邮件 ở bài là thư điện tử qua 邮箱; ở ngữ cảnh khác có thể là thư/bưu phẩm, chưa dạy mọi nghĩa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l342-v-945",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 945"
+        },
+        "written": "邮箱",
+        "pinyin": "yóuxiāng",
+        "senseId": "l342-v-945-sense",
+        "ordinal": 945,
+        "note": "3 yóuxiāng 名; 邮箱 trong địa chỉ liên lạc là hòm thư điện tử, khác 邮件 là từng thư. 不要把邮箱地址当成邮件正文. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l342-v-906",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 906"
+        },
+        "written": "信",
+        "pinyin": "xìn",
+        "senseId": "l342-v-906-sense",
+        "ordinal": 906,
+        "note": "3 xìn 动、名; 信 trong 一封信 là lá thư; 我不信 dùng nghĩa tin. Bài chỉ luyện nghĩa thư ở ví dụ này, không đồng nhất hai chức năng. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-40",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "40"
+        },
+        "written": "单",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 40,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-198",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "198"
+        },
+        "written": "收",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 198,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-257",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "257"
+        },
+        "written": "邮",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 257,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-228",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "228"
+        },
+        "written": "箱",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 228,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-234",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "234"
+        },
+        "written": "信",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 234,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-result-receive",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "补语 / 结果补语2 / 到"
+        },
+        "written": "动词+到",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l342-c0",
+      "version": 1,
+      "senseId": "l342-v-772-sense",
+      "hanzi": "名单",
+      "dictionaryPinyin": "míng dān",
+      "meaning": "danh sách tên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l342-v-772"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l342-c1",
+      "version": 1,
+      "senseId": "l342-v-836-sense",
+      "hanzi": "收",
+      "dictionaryPinyin": "shōu",
+      "meaning": "thu/nhận/cất",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l342-v-836"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l342-c2",
+      "version": 1,
+      "senseId": "l342-v-837-sense",
+      "hanzi": "收到",
+      "dictionaryPinyin": "shōu dào",
+      "meaning": "nhận được",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l342-v-837"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l342-c3",
+      "version": 1,
+      "senseId": "l342-v-942-sense",
+      "hanzi": "邮件",
+      "dictionaryPinyin": "yóu jiàn",
+      "meaning": "thư/bưu phẩm; email theo ngữ cảnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l342-v-942"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l342-c4",
+      "version": 1,
+      "senseId": "l342-v-945-sense",
+      "hanzi": "邮箱",
+      "dictionaryPinyin": "yóu xiāng",
+      "meaning": "hộp thư/hòm thư điện tử",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l342-v-945"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l342-c5",
+      "version": 1,
+      "senseId": "l342-v-906-sense",
+      "hanzi": "信",
+      "dictionaryPinyin": "xìn",
+      "meaning": "thư; tin (động từ ở ngữ cảnh khác)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l342-v-906"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l342-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 发 fā: gửi; 封 fēng: lượng từ thư; 地址 dìzhǐ: địa chỉ; 文件夹 wénjiànjiā: thư mục; 删除 shānchú: xóa chỉ đối chiếu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l342-t0",
+      "type": "teaching",
+      "title": "名单 · danh sách tên",
+      "text": "名单 là danh sách tên người, khác 菜单 là danh sách món. Danh sách chưa tự xác nhận mỗi người có mặt.",
+      "hanzi": "请把名单发给我。",
+      "pinyin": "Qǐng bǎ míngdān fā gěi wǒ.",
+      "meaning": "Hãy gửi danh sách tên cho tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l342-t1",
+      "type": "teaching",
+      "title": "收 · thu/nhận/cất",
+      "text": "收 trong 收信 là nhận thư; 收东西 có thể là cất/thu đồ, cần ngữ cảnh. Không gộp mọi nghĩa thành một bằng chứng đã thuộc.",
+      "hanzi": "他每天收信。",
+      "pinyin": "Tā měi tiān shōu xìn.",
+      "meaning": "Anh ấy nhận thư hằng ngày.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l342-t2",
+      "type": "teaching",
+      "title": "收到 · nhận được",
+      "text": "收到 nêu kết quả đã nhận; 没收到 là chưa/không nhận được, khác 没发 là chưa gửi.",
+      "hanzi": "我已经收到你的邮件了。",
+      "pinyin": "Wǒ yǐjīng shōudào nǐ de yóujiàn le.",
+      "meaning": "Tôi đã nhận được thư điện tử của bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l342-t3",
+      "type": "teaching",
+      "title": "邮件 · thư/bưu phẩm; email theo ngữ cảnh",
+      "text": "邮件 ở bài là thư điện tử qua 邮箱; ở ngữ cảnh khác có thể là thư/bưu phẩm, chưa dạy mọi nghĩa.",
+      "hanzi": "我给同事发了一封邮件。",
+      "pinyin": "Wǒ gěi tóngshì fā le yì fēng yóujiàn.",
+      "meaning": "Tôi gửi cho đồng nghiệp một email.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l342-t4",
+      "type": "teaching",
+      "title": "邮箱 · hộp thư/hòm thư điện tử",
+      "text": "邮箱 trong địa chỉ liên lạc là hòm thư điện tử, khác 邮件 là từng thư. 不要把邮箱地址当成邮件正文.",
+      "hanzi": "请检查邮箱地址。",
+      "pinyin": "Qǐng jiǎnchá yóuxiāng dìzhǐ.",
+      "meaning": "Hãy kiểm tra địa chỉ hòm thư.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l342-t5",
+      "type": "teaching",
+      "title": "信 · thư; tin (động từ ở ngữ cảnh khác)",
+      "text": "信 trong 一封信 là lá thư; 我不信 dùng nghĩa tin. Bài chỉ luyện nghĩa thư ở ví dụ này, không đồng nhất hai chức năng.",
+      "hanzi": "这封信是姐姐写的。",
+      "pinyin": "Zhè fēng xìn shì jiějie xiě de.",
+      "meaning": "Lá thư này do chị viết.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l342-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "收到 nhấn mạnh nhận được, 收 có thể là thu/nhận chưa nêu kết quả tương tự. 我发了邮件 không chứng minh đối phương 收到了; 到 là kết quả trong nghĩa bài.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l342-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "同事说已经发了名单，小林却没收到邮件。他先检查邮箱地址，再看收信的文件夹，最后找到了。回家以后，他又收到姐姐写的一封信，是纸上的信，不是工作邮件。",
+      "pinyin": "Tóngshì shuō yǐjīng fā le míngdān, Xiǎo Lín què méi shōudào yóujiàn. Tā xiān jiǎnchá yóuxiāng dìzhǐ, zài kàn shōu xìn de wénjiànjiā, zuìhòu zhǎodào le. Huí jiā yǐhòu, tā yòu shōudào jiějie xiě de yì fēng xìn, shì zhǐ shàng de xìn, bú shì gōngzuò yóujiàn.",
+      "meaning": "Đồng nghiệp nói đã gửi danh sách nhưng Lâm chưa nhận được. Cậu kiểm tra địa chỉ và thư mục thư rồi tìm thấy; sau đó còn nhận thư giấy của chị.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l342-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l342-v1-e0"
+    },
+    {
+      "id": "l342-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l342-v1-e1"
+    },
+    {
+      "id": "l342-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l342-v1-e2"
+    },
+    {
+      "id": "l342-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l342-v1-e3"
+    },
+    {
+      "id": "l342-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l342-v1-e4"
+    },
+    {
+      "id": "l342-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l342-v1-e5"
+    },
+    {
+      "id": "l342-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l342-v1-e6"
+    },
+    {
+      "id": "l342-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l342-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l342-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l342-c0",
+      "senseId": "l342-v-772-sense",
+      "keyRef": "l342-v1-k0",
+      "prompt": "Danh sách người tham dự: 参加者的□。",
+      "choices": [
+        "收",
+        "收到",
+        "邮件",
+        "邮箱",
+        "信",
+        "名单"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l342-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l342-c1",
+      "senseId": "l342-v-836-sense",
+      "keyRef": "l342-v1-k1",
+      "prompt": "Động từ nhận/thu trong 每天□信。",
+      "choices": [
+        "收到",
+        "邮件",
+        "邮箱",
+        "信",
+        "名单",
+        "收"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l342-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l342-c2",
+      "senseId": "l342-v-837-sense",
+      "keyRef": "l342-v1-k2",
+      "prompt": "Xác nhận thư đã tới mình: 我已经□邮件了。",
+      "choices": [
+        "邮件",
+        "邮箱",
+        "信",
+        "名单",
+        "收",
+        "收到"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l342-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l342-c3",
+      "senseId": "l342-v-942-sense",
+      "keyRef": "l342-v1-k3",
+      "prompt": "Viết pinyin của 邮件 trong câu “我给同事发了一封邮件。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l342-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l342-c4",
+      "senseId": "l342-v-945-sense",
+      "keyRef": "l342-v1-k4",
+      "prompt": "Địa chỉ hộp thư nhận email: □地址。",
+      "choices": [
+        "信",
+        "名单",
+        "收",
+        "收到",
+        "邮件",
+        "邮箱"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l342-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l342-c5",
+      "senseId": "l342-v-906-sense",
+      "keyRef": "l342-v1-k5",
+      "prompt": "Danh từ lá thư: 一封□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l342-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l342-c0",
+      "senseId": "l342-v-772-sense",
+      "keyRef": "l342-v1-k6",
+      "prompt": "Lâm làm gì trước khi xem thư mục?",
+      "choices": [
+        "写纸上的信",
+        "删除名单",
+        "检查邮箱地址"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l342-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l342-c3",
+      "senseId": "l342-v-942-sense",
+      "keyRef": "l342-v1-k7",
+      "prompt": "Xếp câu xác nhận kết quả nhận, bắt đầu bằng 我已经.",
+      "choices": [
+        "收到邮件了",
+        "我已经"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l342-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l342-v1-e0",
+      "senseId": "l342-v-772-sense",
+      "accepted": [
+        "名单"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "名单: danh sách tên. 名单 là danh sách tên người, khác 菜单 là danh sách món. Danh sách chưa tự xác nhận mỗi người có mặt. Hãy gửi danh sách tên cho tôi."
+    },
+    {
+      "id": "l342-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l342-v1-e1",
+      "senseId": "l342-v-836-sense",
+      "accepted": [
+        "收"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "收: thu/nhận/cất. 收 trong 收信 là nhận thư; 收东西 có thể là cất/thu đồ, cần ngữ cảnh. Không gộp mọi nghĩa thành một bằng chứng đã thuộc. Anh ấy nhận thư hằng ngày."
+    },
+    {
+      "id": "l342-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l342-v1-e2",
+      "senseId": "l342-v-837-sense",
+      "accepted": [
+        "收到"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "收到: nhận được. 收到 nêu kết quả đã nhận; 没收到 là chưa/không nhận được, khác 没发 là chưa gửi. Tôi đã nhận được thư điện tử của bạn."
+    },
+    {
+      "id": "l342-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l342-v1-e3",
+      "senseId": "l342-v-942-sense",
+      "accepted": [
+        "yóu jiàn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "邮件: thư/bưu phẩm; email theo ngữ cảnh. 邮件 ở bài là thư điện tử qua 邮箱; ở ngữ cảnh khác có thể là thư/bưu phẩm, chưa dạy mọi nghĩa. Tôi gửi cho đồng nghiệp một email."
+    },
+    {
+      "id": "l342-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l342-v1-e4",
+      "senseId": "l342-v-945-sense",
+      "accepted": [
+        "邮箱"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "邮箱: hộp thư/hòm thư điện tử. 邮箱 trong địa chỉ liên lạc là hòm thư điện tử, khác 邮件 là từng thư. 不要把邮箱地址当成邮件正文. Hãy kiểm tra địa chỉ hòm thư."
+    },
+    {
+      "id": "l342-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l342-v1-e5",
+      "senseId": "l342-v-906-sense",
+      "accepted": [
+        "信"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "信: thư; tin (động từ ở ngữ cảnh khác). 信 trong 一封信 là lá thư; 我不信 dùng nghĩa tin. Bài chỉ luyện nghĩa thư ở ví dụ này, không đồng nhất hai chức năng. Lá thư này do chị viết."
+    },
+    {
+      "id": "l342-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l342-v1-e6",
+      "senseId": "l342-v-772-sense",
+      "accepted": [
+        "检查邮箱地址"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 收到 nhấn mạnh nhận được, 收 có thể là thu/nhận chưa nêu kết quả tương tự. 我发了邮件 không chứng minh đối phương 收到了; 到 là kết quả trong nghĩa bài."
+    },
+    {
+      "id": "l342-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l342-v1-e7",
+      "senseId": "l342-v-942-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 收到 nhấn mạnh nhận được, 收 có thể là thu/nhận chưa nêu kết quả tương tự. 我发了邮件 không chứng minh đối phương 收到了; 到 là kết quả trong nghĩa bài."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

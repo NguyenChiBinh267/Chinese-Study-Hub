@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "b5705966dc21d39a1515f83a882e69dccd8151ff0987af348849df94b1c7bc4b",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-digital-work",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L343",
+    "version": 1,
+    "versionId": "l343-draft-v1",
+    "title": "Bật máy và gửi thông tin",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc trình tự bật/tắt thiết bị và phân biệt loại thẻ.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "“把”字句"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 17,
+      "physicalPage": 18,
+      "printedPage": 15,
+      "section": "task",
+      "entry": "十四"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-office",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 17,
+          "physicalPage": 18,
+          "printedPage": 15,
+          "section": "task",
+          "entry": "十四"
+        },
+        "written": "交流日常办公情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-office",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "职场生活 / 日常办公 / 办公事务"
+        },
+        "written": "办公事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l343-v-653",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 653"
+        },
+        "written": "关机",
+        "pinyin": "guānjī",
+        "senseId": "l343-v-653-sense",
+        "ordinal": 653,
+        "note": "3 guānjī 动; 关机 là tắt nguồn thiết bị; khác 关灯 là tắt đèn, không suy ra máy hỏng khi tắt. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l343-v-728",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 728"
+        },
+        "written": "开机",
+        "pinyin": "kāijī",
+        "senseId": "l343-v-728-sense",
+        "ordinal": 728,
+        "note": "3 kāijī 动; 开机 là bật nguồn máy; khác 开会 là họp. 开机以后才看文件 nói thứ tự trên thiết bị. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l343-v-614",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 614"
+        },
+        "written": "发",
+        "pinyin": "fā",
+        "senseId": "l343-v-614-sense",
+        "ordinal": 614,
+        "note": "3 fā 动; 发 fā trong 发邮件 là gửi; khác 发 fa ở 头发. Không tính nhớ một cách đọc là đã biết mọi từ chứa 发. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l343-v-873",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 873"
+        },
+        "written": "网站",
+        "pinyin": "wǎngzhàn",
+        "senseId": "l343-v-873-sense",
+        "ordinal": 873,
+        "note": "3 wǎngzhàn 名; 网站 là một website, không tự bảo đảm đáng tin hay an toàn; 这个网站 nêu nơi đọc trực tuyến. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l343-v-725",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 725"
+        },
+        "written": "卡",
+        "pinyin": "kǎ",
+        "senseId": "l343-v-725-sense",
+        "ordinal": 725,
+        "note": "3 kǎ 名; 卡 là tên chung thẻ, cần bổ nghĩa để biết loại như 银行卡、学生卡. 不 phải mọi 卡 đều dùng thanh toán. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l343-v-907",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 907"
+        },
+        "written": "信用卡",
+        "pinyin": "xìnyòngkǎ",
+        "senseId": "l343-v-907-sense",
+        "ordinal": 907,
+        "note": "3 xìnyòngkǎ 名; 信用卡 là thẻ tín dụng, khác thẻ ghi nợ/ngân hàng nói chung. Bài học tên từ, không hướng dẫn vay hay mở tài khoản. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-55",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "55"
+        },
+        "written": "发",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 55,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-126",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "126"
+        },
+        "written": "卡",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 126,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-234",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "234"
+        },
+        "written": "信",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 234,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-256",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "256"
+        },
+        "written": "用",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 256,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-ba-give",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "特殊句型 / 把字句 / 给"
+        },
+        "written": "“把”字句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l343-c0",
+      "version": 1,
+      "senseId": "l343-v-653-sense",
+      "hanzi": "关机",
+      "dictionaryPinyin": "guān jī",
+      "meaning": "tắt máy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l343-v-653"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l343-c1",
+      "version": 1,
+      "senseId": "l343-v-728-sense",
+      "hanzi": "开机",
+      "dictionaryPinyin": "kāi jī",
+      "meaning": "bật máy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l343-v-728"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l343-c2",
+      "version": 1,
+      "senseId": "l343-v-614-sense",
+      "hanzi": "发",
+      "dictionaryPinyin": "fā",
+      "meaning": "gửi/phát",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l343-v-614"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l343-c3",
+      "version": 1,
+      "senseId": "l343-v-873-sense",
+      "hanzi": "网站",
+      "dictionaryPinyin": "wǎng zhàn",
+      "meaning": "trang web/website",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l343-v-873"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l343-c4",
+      "version": 1,
+      "senseId": "l343-v-725-sense",
+      "hanzi": "卡",
+      "dictionaryPinyin": "kǎ",
+      "meaning": "thẻ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l343-v-725"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l343-c5",
+      "version": 1,
+      "senseId": "l343-v-907-sense",
+      "hanzi": "信用卡",
+      "dictionaryPinyin": "xìn yòng kǎ",
+      "meaning": "thẻ tín dụng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l343-v-907"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l343-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 学生卡 xuéshengkǎ: thẻ học sinh; 消息 xiāoxi: tin; 文件 wénjiàn: tài liệu; 任何 rènhé: bất kỳ, đối chiếu. Không nhập thông tin thẻ thật vào bài học.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l343-t0",
+      "type": "teaching",
+      "title": "关机 · tắt máy",
+      "text": "关机 là tắt nguồn thiết bị; khác 关灯 là tắt đèn, không suy ra máy hỏng khi tắt.",
+      "hanzi": "离开以前请关机。",
+      "pinyin": "Líkāi yǐqián qǐng guān jī.",
+      "meaning": "Trước khi đi hãy tắt máy.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l343-t1",
+      "type": "teaching",
+      "title": "开机 · bật máy",
+      "text": "开机 là bật nguồn máy; khác 开会 là họp. 开机以后才看文件 nói thứ tự trên thiết bị.",
+      "hanzi": "我先开机，再看文件。",
+      "pinyin": "Wǒ xiān kāi jī, zài kàn wénjiàn.",
+      "meaning": "Tôi bật máy trước rồi xem tài liệu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l343-t2",
+      "type": "teaching",
+      "title": "发 · gửi/phát",
+      "text": "发 fā trong 发邮件 là gửi; khác 发 fa ở 头发. Không tính nhớ một cách đọc là đã biết mọi từ chứa 发.",
+      "hanzi": "请把消息发给我。",
+      "pinyin": "Qǐng bǎ xiāoxi fā gěi wǒ.",
+      "meaning": "Hãy gửi tin cho tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l343-t3",
+      "type": "teaching",
+      "title": "网站 · trang web/website",
+      "text": "网站 là một website, không tự bảo đảm đáng tin hay an toàn; 这个网站 nêu nơi đọc trực tuyến.",
+      "hanzi": "这个网站有学校的通知。",
+      "pinyin": "Zhège wǎngzhàn yǒu xuéxiào de tōngzhī.",
+      "meaning": "Website này có thông báo của trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l343-t4",
+      "type": "teaching",
+      "title": "卡 · thẻ",
+      "text": "卡 là tên chung thẻ, cần bổ nghĩa để biết loại như 银行卡、学生卡. 不 phải mọi 卡 đều dùng thanh toán.",
+      "hanzi": "这张卡是学生卡。",
+      "pinyin": "Zhè zhāng kǎ shì xuéshengkǎ.",
+      "meaning": "Thẻ này là thẻ học sinh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l343-t5",
+      "type": "teaching",
+      "title": "信用卡 · thẻ tín dụng",
+      "text": "信用卡 là thẻ tín dụng, khác thẻ ghi nợ/ngân hàng nói chung. Bài học tên từ, không hướng dẫn vay hay mở tài khoản.",
+      "hanzi": "这张不是学生卡，是信用卡。",
+      "pinyin": "Zhè zhāng bú shì xuéshengkǎ, shì xìnyòngkǎ.",
+      "meaning": "Thẻ này không phải thẻ học sinh, là thẻ tín dụng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l343-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "把名单发给同事 nêu đối tượng đã xác định và người nhận. 给 đứng sau 发 trong kết cấu này; không tự suy ra thư đã tới.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l343-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林先开机，在学校网站看通知，再把消息发给同事。离开以前他关机，把学生卡带走。桌上的信用卡不是他的，他没有拿。开机、发消息和拿卡是不同的事情。",
+      "pinyin": "Xiǎo Lín xiān kāi jī, zài xuéxiào wǎngzhàn kàn tōngzhī, zài bǎ xiāoxi fā gěi tóngshì. Líkāi yǐqián tā guān jī, bǎ xuéshengkǎ dài zǒu. Zhuō shàng de xìnyòngkǎ bú shì tā de, tā méiyǒu ná. Kāi jī, fā xiāoxi hé ná kǎ shì bù tóng de shìqing.",
+      "meaning": "Lâm bật máy, xem thông báo trường và gửi tin cho đồng nghiệp. Trước đi cậu tắt máy, mang thẻ học sinh, không lấy thẻ tín dụng của người khác.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l343-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l343-v1-e0"
+    },
+    {
+      "id": "l343-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l343-v1-e1"
+    },
+    {
+      "id": "l343-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l343-v1-e2"
+    },
+    {
+      "id": "l343-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l343-v1-e3"
+    },
+    {
+      "id": "l343-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l343-v1-e4"
+    },
+    {
+      "id": "l343-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l343-v1-e5"
+    },
+    {
+      "id": "l343-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l343-v1-e6"
+    },
+    {
+      "id": "l343-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l343-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l343-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l343-c0",
+      "senseId": "l343-v-653-sense",
+      "keyRef": "l343-v1-k0",
+      "prompt": "Tắt nguồn máy trước khi rời đi: 请□。",
+      "choices": [
+        "开机",
+        "发",
+        "网站",
+        "卡",
+        "信用卡",
+        "关机"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l343-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l343-c1",
+      "senseId": "l343-v-728-sense",
+      "keyRef": "l343-v1-k1",
+      "prompt": "Bật nguồn máy: 先□，再看文件。",
+      "choices": [
+        "发",
+        "网站",
+        "卡",
+        "信用卡",
+        "关机",
+        "开机"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l343-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l343-c2",
+      "senseId": "l343-v-614-sense",
+      "keyRef": "l343-v1-k2",
+      "prompt": "Động từ gửi tin: 把消息□给我。",
+      "choices": [
+        "网站",
+        "卡",
+        "信用卡",
+        "关机",
+        "开机",
+        "发"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l343-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l343-c3",
+      "senseId": "l343-v-873-sense",
+      "keyRef": "l343-v1-k3",
+      "prompt": "Viết pinyin của 网站 trong câu “这个网站有学校的通知。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l343-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l343-c4",
+      "senseId": "l343-v-725-sense",
+      "keyRef": "l343-v1-k4",
+      "prompt": "Từ chung chỉ thẻ, chưa nêu ngân hàng: 这张□。",
+      "choices": [
+        "信用卡",
+        "关机",
+        "开机",
+        "发",
+        "网站",
+        "卡"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l343-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l343-c5",
+      "senseId": "l343-v-907-sense",
+      "keyRef": "l343-v1-k5",
+      "prompt": "Đúng tên thẻ tín dụng: 这是一张□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l343-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l343-c0",
+      "senseId": "l343-v-653-sense",
+      "keyRef": "l343-v1-k6",
+      "prompt": "Lâm mang thẻ nào đi?",
+      "choices": [
+        "别人的信用卡",
+        "没有拿任何卡",
+        "学生卡"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l343-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l343-c3",
+      "senseId": "l343-v-873-sense",
+      "keyRef": "l343-v1-k7",
+      "prompt": "Xếp câu gửi cho người nhận, bắt đầu bằng 他把消息.",
+      "choices": [
+        "发给同事",
+        "他把消息"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l343-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l343-v1-e0",
+      "senseId": "l343-v-653-sense",
+      "accepted": [
+        "关机"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "关机: tắt máy. 关机 là tắt nguồn thiết bị; khác 关灯 là tắt đèn, không suy ra máy hỏng khi tắt. Trước khi đi hãy tắt máy."
+    },
+    {
+      "id": "l343-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l343-v1-e1",
+      "senseId": "l343-v-728-sense",
+      "accepted": [
+        "开机"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "开机: bật máy. 开机 là bật nguồn máy; khác 开会 là họp. 开机以后才看文件 nói thứ tự trên thiết bị. Tôi bật máy trước rồi xem tài liệu."
+    },
+    {
+      "id": "l343-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l343-v1-e2",
+      "senseId": "l343-v-614-sense",
+      "accepted": [
+        "发"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "发: gửi/phát. 发 fā trong 发邮件 là gửi; khác 发 fa ở 头发. Không tính nhớ một cách đọc là đã biết mọi từ chứa 发. Hãy gửi tin cho tôi."
+    },
+    {
+      "id": "l343-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l343-v1-e3",
+      "senseId": "l343-v-873-sense",
+      "accepted": [
+        "wǎng zhàn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "网站: trang web/website. 网站 là một website, không tự bảo đảm đáng tin hay an toàn; 这个网站 nêu nơi đọc trực tuyến. Website này có thông báo của trường."
+    },
+    {
+      "id": "l343-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l343-v1-e4",
+      "senseId": "l343-v-725-sense",
+      "accepted": [
+        "卡"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "卡: thẻ. 卡 là tên chung thẻ, cần bổ nghĩa để biết loại như 银行卡、学生卡. 不 phải mọi 卡 đều dùng thanh toán. Thẻ này là thẻ học sinh."
+    },
+    {
+      "id": "l343-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l343-v1-e5",
+      "senseId": "l343-v-907-sense",
+      "accepted": [
+        "信用卡"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "信用卡: thẻ tín dụng. 信用卡 là thẻ tín dụng, khác thẻ ghi nợ/ngân hàng nói chung. Bài học tên từ, không hướng dẫn vay hay mở tài khoản. Thẻ này không phải thẻ học sinh, là thẻ tín dụng."
+    },
+    {
+      "id": "l343-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l343-v1-e6",
+      "senseId": "l343-v-653-sense",
+      "accepted": [
+        "学生卡"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 把名单发给同事 nêu đối tượng đã xác định và người nhận. 给 đứng sau 发 trong kết cấu này; không tự suy ra thư đã tới."
+    },
+    {
+      "id": "l343-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l343-v1-e7",
+      "senseId": "l343-v-873-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 把名单发给同事 nêu đối tượng đã xác định và người nhận. 给 đứng sau 发 trong kết cấu này; không tự suy ra thư đã tới."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

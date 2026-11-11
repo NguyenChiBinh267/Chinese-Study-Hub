@@ -1,0 +1,848 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "6b4282326af87fac3ab2d0386adca2afd04402b0c6922802a299cf271d0cf469",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "understand-opinions",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L258",
+    "version": 1,
+    "versionId": "l258-draft-v1",
+    "title": "Ôn tập · Hiểu ý và nêu lý do",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học bằng dạng truy hồi khác; không tính thêm từ mới.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l218-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 8,
+      "physicalPage": 9,
+      "printedPage": 6,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-events",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 8,
+          "physicalPage": 9,
+          "printedPage": 6,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "问答事件情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-feelings",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交往 / 意愿感受"
+        },
+        "written": "意愿感受",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l218-v-454",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 454"
+        },
+        "written": "为什么",
+        "pinyin": "wèi shénme",
+        "senseId": "l218-v-454-sense",
+        "ordinal": 454,
+        "note": "2 wèi shénme; 为什么 hỏi nguyên nhân, không hỏi vị trí hay thời gian. Câu trả lời có thể dùng 因为. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l218-v-331",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 331"
+        },
+        "written": "但是",
+        "pinyin": "dànshì",
+        "senseId": "l218-v-331-sense",
+        "ordinal": 331,
+        "note": "2 dànshì 连; 但是 nối ý tương phản; không dùng thay 所以 nếu cần nêu kết quả nguyên nhân. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l218-v-438",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 438"
+        },
+        "written": "虽然",
+        "pinyin": "suīrán",
+        "senseId": "l218-v-438-sense",
+        "ordinal": 438,
+        "note": "2 suīrán 连; 虽然 thừa nhận một điều trước khi nêu ý trái kỳ vọng. Thường phối hợp 但是 trong mẫu này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l218-v-432",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 432"
+        },
+        "written": "事情",
+        "pinyin": "shìqing",
+        "senseId": "l218-v-432-sense",
+        "ordinal": 432,
+        "note": "2 shìqing 名; 事情 nói việc hoặc chuyện cần làm/được nhắc đến, không chỉ một vật hữu hình. 情 trong từ này đọc nhẹ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l218-v-474",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 474"
+        },
+        "written": "意思",
+        "pinyin": "yìsi",
+        "senseId": "l218-v-474-sense",
+        "ordinal": 474,
+        "note": "2 yìsi 名; 意思 trong 这个词的意思 là nghĩa của từ; không phải động từ thích. 思 đọc nhẹ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l218-v-479",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 479"
+        },
+        "written": "有意思",
+        "pinyin": "yǒu yìsi",
+        "senseId": "l218-v-479-sense",
+        "ordinal": 479,
+        "note": "2 yǒu yìsi; 有意思 là nhận xét thấy thú vị. Không dịch từng chữ thành sở hữu một ý nghĩa trong mẫu 这本书很有意思. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-94",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "94"
+        },
+        "written": "为",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 94,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-14",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "14"
+        },
+        "written": "但",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 14,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-80",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "80"
+        },
+        "written": "虽",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 80,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-67",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "67"
+        },
+        "written": "然",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 67,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-64",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "64"
+        },
+        "written": "情",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 64,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-106",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "106"
+        },
+        "written": "意",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 106,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-77",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "77"
+        },
+        "written": "思",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 77,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-although",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "复句 / 转折复句"
+        },
+        "written": "虽然……，但是……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l218-c0",
+      "version": 1,
+      "senseId": "l218-v-454-sense",
+      "hanzi": "为什么",
+      "dictionaryPinyin": "wèi shén me",
+      "meaning": "tại sao",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l218-v-454"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l218-c1",
+      "version": 1,
+      "senseId": "l218-v-331-sense",
+      "hanzi": "但是",
+      "dictionaryPinyin": "dàn shì",
+      "meaning": "nhưng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l218-v-331"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l218-c2",
+      "version": 1,
+      "senseId": "l218-v-438-sense",
+      "hanzi": "虽然",
+      "dictionaryPinyin": "suī rán",
+      "meaning": "tuy, mặc dù",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l218-v-438"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l218-c3",
+      "version": 1,
+      "senseId": "l218-v-432-sense",
+      "hanzi": "事情",
+      "dictionaryPinyin": "shì qing",
+      "meaning": "việc, sự việc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l218-v-432"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l218-c4",
+      "version": 1,
+      "senseId": "l218-v-474-sense",
+      "hanzi": "意思",
+      "dictionaryPinyin": "yì si",
+      "meaning": "ý nghĩa, ý",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l218-v-474"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l218-c5",
+      "version": 1,
+      "senseId": "l218-v-479-sense",
+      "hanzi": "有意思",
+      "dictionaryPinyin": "yǒu yì si",
+      "meaning": "thú vị",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l218-v-479"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l258-guide",
+      "type": "teaching",
+      "title": "Ôn tập sau bài",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l258-t0-l218-prereq",
+      "type": "teaching",
+      "title": "Nhắc lại · Kiến thức cần nhắc lại",
+      "text": "词 là từ; 怎么样 hỏi nhận xét. Không biến nhận xét chủ quan thú vị/không thú vị thành sự thật về mọi người.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l258-t0-l218-t0",
+      "type": "teaching",
+      "title": "Nhắc lại · 为什么 · tại sao",
+      "text": "为什么 hỏi nguyên nhân, không hỏi vị trí hay thời gian. Câu trả lời có thể dùng 因为.",
+      "hanzi": "你为什么不去？",
+      "pinyin": "Nǐ wèi shénme bú qù?",
+      "meaning": "Tại sao bạn không đi?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l258-t0-l218-t1",
+      "type": "teaching",
+      "title": "Nhắc lại · 但是 · nhưng",
+      "text": "但是 nối ý tương phản; không dùng thay 所以 nếu cần nêu kết quả nguyên nhân.",
+      "hanzi": "我想去，但是今天没有时间。",
+      "pinyin": "Wǒ xiǎng qù, dànshì jīntiān méiyǒu shíjiān.",
+      "meaning": "Tôi muốn đi nhưng hôm nay không có thời gian.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l258-t0-l218-t2",
+      "type": "teaching",
+      "title": "Nhắc lại · 虽然 · tuy, mặc dù",
+      "text": "虽然 thừa nhận một điều trước khi nêu ý trái kỳ vọng. Thường phối hợp 但是 trong mẫu này.",
+      "hanzi": "虽然很远，但是我想去。",
+      "pinyin": "Suīrán hěn yuǎn, dànshì wǒ xiǎng qù.",
+      "meaning": "Tuy xa nhưng tôi muốn đi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l258-t0-l218-t3",
+      "type": "teaching",
+      "title": "Nhắc lại · 事情 · việc, sự việc",
+      "text": "事情 nói việc hoặc chuyện cần làm/được nhắc đến, không chỉ một vật hữu hình. 情 trong từ này đọc nhẹ.",
+      "hanzi": "我今天有很多事情要做。",
+      "pinyin": "Wǒ jīntiān yǒu hěn duō shìqing yào zuò.",
+      "meaning": "Hôm nay tôi có nhiều việc phải làm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l258-t0-l218-t4",
+      "type": "teaching",
+      "title": "Nhắc lại · 意思 · ý nghĩa, ý",
+      "text": "意思 trong 这个词的意思 là nghĩa của từ; không phải động từ thích. 思 đọc nhẹ.",
+      "hanzi": "这个词是什么意思？",
+      "pinyin": "Zhège cí shì shénme yìsi?",
+      "meaning": "Từ này có nghĩa gì?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l258-t0-l218-t5",
+      "type": "teaching",
+      "title": "Nhắc lại · 有意思 · thú vị",
+      "text": "有意思 là nhận xét thấy thú vị. Không dịch từng chữ thành sở hữu một ý nghĩa trong mẫu 这本书很有意思.",
+      "hanzi": "这本书很有意思。",
+      "pinyin": "Zhè běn shū hěn yǒu yìsi.",
+      "meaning": "Quyển sách này rất thú vị.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l258-t0-l218-grammar",
+      "type": "teaching",
+      "title": "Nhắc lại · Cách nói trong ngữ cảnh",
+      "text": "虽然 nêu một điều được thừa nhận, 但是 chuyển sang điều đối lập. ‘Tuy xa nhưng thú vị’ không phủ nhận nơi đó xa.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l258-t0-l218-reading",
+      "type": "teaching",
+      "title": "Nhắc lại · Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：你为什么想去那家书店？乙：虽然很远，但是那里的书很有意思。甲：我今天有很多事情要做，不能和你一起去。乙：好，下次一起去。",
+      "pinyin": "Jiǎ: Nǐ wèi shénme xiǎng qù nà jiā shūdiàn? Yǐ: Suīrán hěn yuǎn, dànshì nàlǐ de shū hěn yǒu yìsi. Jiǎ: Wǒ jīntiān yǒu hěn duō shìqing yào zuò, bù néng hé nǐ yìqǐ qù. Yǐ: Hǎo, xià cì yìqǐ qù.",
+      "meaning": "A: Vì sao bạn muốn đến hiệu sách đó? B: Tuy xa nhưng sách ở đó thú vị. A: Hôm nay tôi có nhiều việc nên không thể cùng đi. B: Được, lần sau cùng đi.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l258-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l258-e0"
+    },
+    {
+      "id": "l258-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l258-e1"
+    },
+    {
+      "id": "l258-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l258-e2"
+    },
+    {
+      "id": "l258-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l258-e3"
+    },
+    {
+      "id": "l258-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l258-e4"
+    },
+    {
+      "id": "l258-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l258-e5"
+    },
+    {
+      "id": "l258-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l258-e6"
+    },
+    {
+      "id": "l258-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l258-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l258-e0",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l218-c0",
+      "senseId": "l218-v-454-sense",
+      "keyRef": "l258-k0",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “tại sao” (wèi shén me).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l258-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l218-c1",
+      "senseId": "l218-v-331-sense",
+      "keyRef": "l258-k1",
+      "prompt": "Ôn nghĩa: 但是 (dàn shì) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "tuy, mặc dù",
+        "việc, sự việc",
+        "ý nghĩa, ý",
+        "thú vị",
+        "tại sao",
+        "nhưng"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l258-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l218-c2",
+      "senseId": "l218-v-438-sense",
+      "keyRef": "l258-k2",
+      "prompt": "Ôn cách đọc của 虽然 trong nghĩa “tuy, mặc dù”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l258-e3",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l218-c3",
+      "senseId": "l218-v-432-sense",
+      "keyRef": "l258-k3",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “việc, sự việc” (shì qing).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l258-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l218-c4",
+      "senseId": "l218-v-474-sense",
+      "keyRef": "l258-k4",
+      "prompt": "Ôn nghĩa: 意思 (yì si) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "thú vị",
+        "tại sao",
+        "nhưng",
+        "tuy, mặc dù",
+        "việc, sự việc",
+        "ý nghĩa, ý"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l258-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l218-c5",
+      "senseId": "l218-v-479-sense",
+      "keyRef": "l258-k5",
+      "prompt": "Ôn cách đọc của 有意思 trong nghĩa “thú vị”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l258-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l218-c0",
+      "senseId": "l218-v-454-sense",
+      "keyRef": "l258-k6",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “tại sao” (wèi shén me) viết □什么. Điền chữ nào vào □?",
+      "choices": [
+        "备",
+        "为",
+        "啊",
+        "帮"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l258-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l218-c0",
+      "senseId": "l218-v-454-sense",
+      "keyRef": "l258-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Vì sao người A không thể cùng đi hôm nay?",
+      "choices": [
+        "Có nhiều việc phải làm",
+        "Ghét sách",
+        "Không biết hiệu sách ở đâu"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l258-k0",
+      "version": 1,
+      "exerciseVersionId": "l258-e0",
+      "senseId": "l218-v-454-sense",
+      "accepted": [
+        "为什么"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "为什么 · tại sao."
+    },
+    {
+      "id": "l258-k1",
+      "version": 1,
+      "exerciseVersionId": "l258-e1",
+      "senseId": "l218-v-331-sense",
+      "accepted": [
+        "nhưng"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "但是: nhưng."
+    },
+    {
+      "id": "l258-k2",
+      "version": 1,
+      "exerciseVersionId": "l258-e2",
+      "senseId": "l218-v-438-sense",
+      "accepted": [
+        "suī rán"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "suī rán · tuy, mặc dù"
+    },
+    {
+      "id": "l258-k3",
+      "version": 1,
+      "exerciseVersionId": "l258-e3",
+      "senseId": "l218-v-432-sense",
+      "accepted": [
+        "事情"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "事情 · việc, sự việc."
+    },
+    {
+      "id": "l258-k4",
+      "version": 1,
+      "exerciseVersionId": "l258-e4",
+      "senseId": "l218-v-474-sense",
+      "accepted": [
+        "ý nghĩa, ý"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "意思: ý nghĩa, ý."
+    },
+    {
+      "id": "l258-k5",
+      "version": 1,
+      "exerciseVersionId": "l258-e5",
+      "senseId": "l218-v-479-sense",
+      "accepted": [
+        "yǒu yì si"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "yǒu yì si · thú vị"
+    },
+    {
+      "id": "l258-k6",
+      "version": 1,
+      "exerciseVersionId": "l258-e6",
+      "senseId": "l218-v-454-sense",
+      "accepted": [
+        "为"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "为什么 · wèi shén me · tại sao. Chữ cần nhận diện là 为."
+    },
+    {
+      "id": "l258-k7",
+      "version": 1,
+      "exerciseVersionId": "l258-e7",
+      "senseId": "l218-v-454-sense",
+      "accepted": [
+        "Có nhiều việc phải làm"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "很多事情要做 là lý do nêu trong hội thoại. Không có bằng chứng A ghét sách."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

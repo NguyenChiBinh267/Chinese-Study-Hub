@@ -1,0 +1,1607 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "be6498b2d5550f6782a880f193a88ac08c6a2ebab63dc975c3f4cb51b3873b88",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-d",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L183",
+    "version": 2,
+    "versionId": "l183-draft-v2",
+    "title": "Ôn đồ vật và quan hệ: dùng đúng lượng từ và đại từ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học trong tình huống viết mới; không thêm từ mục tiêu.",
+      "Bài nháp có hỗ trợ, không phải đề thi, không đo nghe/nói/viết tay hay cấp mastery."
+    ],
+    "prerequisites": [
+      "l111-draft-v1",
+      "l112-draft-v1",
+      "l113-draft-v1",
+      "l114-draft-v2",
+      "l115-draft-v2"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T09:30:41.58926Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-thing",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "问答物品信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 6,
+          "physicalPage": 7,
+          "printedPage": 4,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "介绍学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-task-person",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "一"
+        },
+        "written": "问答个人基本信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-b411fd04a9b3",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "物品名称"
+        },
+        "written": "物品名称",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-topic-59dbaf6bf45d",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "学习内容"
+        },
+        "written": "学习内容",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-topic-ef12595fc2f1",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "身份、家庭成员、朋友、技能等"
+        },
+        "written": "身份、家庭成员、朋友、技能等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l111-v-190",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 190"
+        },
+        "written": "书",
+        "pinyin": "shū",
+        "senseId": "l111-v-190-sense",
+        "ordinal": 190,
+        "note": "1 shū 名; 书 chỉ sách; 一本书 là một quyển sách, không phải 一书. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-10",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 10"
+        },
+        "written": "本1",
+        "pinyin": "běn",
+        "senseId": "l111-v-10-sense",
+        "ordinal": 10,
+        "note": "1 běn 量; 本 trong 一本书 là lượng từ cho sách, không dịch là gốc trong câu này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-60",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 60"
+        },
+        "written": "个",
+        "pinyin": "gè",
+        "senseId": "l111-v-60-sense",
+        "ordinal": 60,
+        "note": "1 gè 量; 个 đếm người/vật ở các trường hợp được học; không dùng 一个人 để chỉ số quyển sách. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-295",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 295"
+        },
+        "written": "桌子",
+        "pinyin": "zhuōzi",
+        "senseId": "l111-v-295-sense",
+        "ordinal": 295,
+        "note": "1 zhuōzi 名; 桌子 là bàn; âm 子 nhẹ trong mục từ này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-260",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 260"
+        },
+        "written": "椅子",
+        "pinyin": "yǐzi",
+        "senseId": "l111-v-260-sense",
+        "ordinal": 260,
+        "note": "1 yǐzi 名; 椅子 là ghế, không đồng nghĩa bàn; so sánh chữ đầu để tránh lẫn hai đồ dùng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l112-v-131",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 131"
+        },
+        "written": "哪",
+        "pinyin": "nǎ",
+        "senseId": "l112-v-131-sense",
+        "ordinal": 131,
+        "note": "1 nǎ 代; 哪 chọn trong các khả năng; 你读哪本书 hỏi quyển nào, không hỏi số lượng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l112-v-40",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 40"
+        },
+        "written": "东西",
+        "pinyin": "dōngxi",
+        "senseId": "l112-v-40-sense",
+        "ordinal": 40,
+        "note": "1 dōngxi 名; 东西 trong câu đồ vật đọc dōng xi; không dùng nghĩa hướng đông/tây để dịch máy móc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l112-v-296",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 296"
+        },
+        "written": "字",
+        "pinyin": "zì",
+        "senseId": "l112-v-296-sense",
+        "ordinal": 296,
+        "note": "1 zì 名; 字 nói một chữ; một từ có thể có nhiều chữ như 你好. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l112-v-70",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 70"
+        },
+        "written": "汉字",
+        "pinyin": "Hànzì",
+        "senseId": "l112-v-70-sense",
+        "ordinal": 70,
+        "note": "1 Hànzì 名; 汉字 là hệ chữ đang học; pinyin viết bằng chữ Latin không tự là 汉字. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l112-v-42",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 42"
+        },
+        "written": "读",
+        "pinyin": "dú",
+        "senseId": "l112-v-42-sense",
+        "ordinal": 42,
+        "note": "1 dú 动; 读 là hành động đọc; 读书 còn là tổ hợp/mục từ riêng sẽ học sau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l113-v-104",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 104"
+        },
+        "written": "口",
+        "pinyin": "kǒu",
+        "senseId": "l113-v-104-sense",
+        "ordinal": 104,
+        "note": "1 kǒu 名、量; 口 trong 三口人 là lượng từ, không dịch là ba cái miệng; ở ngữ cảnh khác 口 có thể chỉ miệng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l113-v-263",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 263"
+        },
+        "written": "有",
+        "pinyin": "yǒu",
+        "senseId": "l113-v-263-sense",
+        "ordinal": 263,
+        "note": "1 yǒu 动; 有 nói có/sở hữu trong mẫu chủ thể + 有 + đối tượng, không dùng 是 thay cho 有. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l113-v-78",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 78"
+        },
+        "written": "和1",
+        "pinyin": "hé",
+        "senseId": "l113-v-78-sense",
+        "ordinal": 78,
+        "note": "1 hé 介、连; 和 nối các danh từ như bố và mẹ; không nhất thiết dịch mọi chữ “và” bằng 和. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l113-v-153",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 153"
+        },
+        "written": "女儿",
+        "pinyin": "nǚ’ér",
+        "senseId": "l113-v-153-sense",
+        "ordinal": 153,
+        "note": "1 nǚ’ér 名; 女儿 là con gái của ai, khác 妹妹 em gái; 儿 ở đây là âm ér riêng, không đọc kiểu hóa r. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l114-v-1",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 1"
+        },
+        "written": "爱",
+        "pinyin": "ài",
+        "senseId": "l114-v-1-sense",
+        "ordinal": 1,
+        "note": "1 ài 动; 爱 trong 我爱我的家人 diễn tả tình yêu thương; bản dịch cần theo đối tượng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l114-v-143",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 143"
+        },
+        "written": "男朋友",
+        "pinyin": "nánpéngyou",
+        "senseId": "l114-v-143-sense",
+        "ordinal": 143,
+        "note": "1 nánpéngyou 名; 男朋友 ở bài này là người yêu nam; muốn nói người bạn nam thông thường cần diễn đạt phù hợp khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l114-v-154",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 154"
+        },
+        "written": "女朋友",
+        "pinyin": "nǚpéngyou",
+        "senseId": "l114-v-154-sense",
+        "ordinal": 154,
+        "note": "1 nǚpéngyou 名; 女朋友 trong câu là người yêu nữ, không tự hiểu mọi 朋友 nữ là 女朋友. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l114-v-203",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 203"
+        },
+        "written": "他们",
+        "pinyin": "tāmen",
+        "senseId": "l114-v-203-sense",
+        "ordinal": 203,
+        "note": "1 tāmen 代; 他们 chỉ nhóm người đã rõ trong ngữ cảnh; không dùng chữ này để khẳng định nhóm toàn nữ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l115-v-205",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 205"
+        },
+        "written": "她们",
+        "pinyin": "tāmen",
+        "senseId": "l115-v-205-sense",
+        "ordinal": 205,
+        "note": "1 tāmen 代; 她们 chỉ nhóm nữ đã biết trong ngữ cảnh; không thay nhóm vật bằng 她们. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l115-v-201",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 201"
+        },
+        "written": "它",
+        "pinyin": "tā",
+        "senseId": "l115-v-201-sense",
+        "ordinal": 201,
+        "note": "1 tā 代; 它 trong câu thay con chó đang được nhắc, không thay người bạn theo mẫu của bài. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l115-v-204",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 204"
+        },
+        "written": "它们",
+        "pinyin": "tāmen",
+        "senseId": "l115-v-204-sense",
+        "ordinal": 204,
+        "note": "1 tāmen 代; 它们 thay nhóm vật/con vật đã xác định, âm giống 他们/她们 nhưng chữ viết khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l115-v-64",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 64"
+        },
+        "written": "狗",
+        "pinyin": "gǒu",
+        "senseId": "l115-v-64-sense",
+        "ordinal": 64,
+        "note": "1 gǒu 名; 狗 chỉ loài chó; câu giới thiệu bằng 是 không tự cho biết số lượng. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-164",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "164"
+        },
+        "written": "书",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 164,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-11",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "11"
+        },
+        "written": "本",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 11,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-53",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "53"
+        },
+        "written": "个",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 53,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-239",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "239"
+        },
+        "written": "桌",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 239,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-240",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "240"
+        },
+        "written": "子",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 240,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-217",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "217"
+        },
+        "written": "椅",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 217,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-119",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "119"
+        },
+        "written": "哪",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 119,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-37",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "37"
+        },
+        "written": "东",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 37,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-189",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "189"
+        },
+        "written": "西",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 189,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-241",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "241"
+        },
+        "written": "字",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 241,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-64",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "64"
+        },
+        "written": "汉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 64,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-39",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "39"
+        },
+        "written": "读",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 39,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-94",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "94"
+        },
+        "written": "口",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 94,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-220",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "220"
+        },
+        "written": "有",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 220,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-68",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "68"
+        },
+        "written": "和",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 68,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-130",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "130"
+        },
+        "written": "女",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 130,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-42",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "42"
+        },
+        "written": "儿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 42,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-1",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "1"
+        },
+        "written": "爱",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 1,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-122",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "122"
+        },
+        "written": "男",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 122,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-131",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "131"
+        },
+        "written": "朋",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 131,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-219",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "219"
+        },
+        "written": "友",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 219,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-171",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "171"
+        },
+        "written": "他",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 171,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-114",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "114"
+        },
+        "written": "们",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 114,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-173",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "173"
+        },
+        "written": "她",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 173,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-172",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "172"
+        },
+        "written": "它",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 172,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "狗",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-111",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-12"
+        },
+        "written": "名量词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-g-112",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-8"
+        },
+        "written": "哪",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-g-113",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "g-386-26"
+        },
+        "written": "有",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-g-114",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-9"
+        },
+        "written": "人称代词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-g-115",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-9"
+        },
+        "written": "人称代词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l111-c0",
+      "version": 1,
+      "senseId": "l111-v-190-sense",
+      "hanzi": "书",
+      "dictionaryPinyin": "shū",
+      "meaning": "sách",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l111-v-190"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l111-c1",
+      "version": 1,
+      "senseId": "l111-v-10-sense",
+      "hanzi": "本",
+      "dictionaryPinyin": "běn",
+      "meaning": "quyển; cuốn (lượng từ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l111-v-10"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l112-c2",
+      "version": 1,
+      "senseId": "l112-v-296-sense",
+      "hanzi": "字",
+      "dictionaryPinyin": "zì",
+      "meaning": "chữ; ký tự",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l112-v-296"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l113-c1",
+      "version": 1,
+      "senseId": "l113-v-263-sense",
+      "hanzi": "有",
+      "dictionaryPinyin": "yǒu",
+      "meaning": "có",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l113-v-263"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l114-c0",
+      "version": 1,
+      "senseId": "l114-v-1-sense",
+      "hanzi": "爱",
+      "dictionaryPinyin": "ài",
+      "meaning": "yêu; yêu thương",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l114-v-1"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l115-c1",
+      "version": 1,
+      "senseId": "l115-v-201-sense",
+      "hanzi": "它",
+      "dictionaryPinyin": "tā",
+      "meaning": "nó (vật hoặc con vật)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l115-v-201"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l183-guide",
+      "type": "teaching",
+      "title": "Ôn có hỗ trợ",
+      "text": "Thử nhớ rồi đọc lại phần nhắc. Đây là ngữ cảnh mới của các nghĩa đã học; hoàn tất luyện không xác nhận mastery. Nhận diện chữ có lựa chọn khác với viết tay. Các từ hỗ trợ đều đã gặp trong nhóm trước.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l183-reminder0",
+      "type": "teaching",
+      "title": "书 · sách",
+      "text": "Nhắc nghĩa đã học: sách. Đọc ví dụ mới, phân biệt với các mục còn lại; không đổi nghĩa gốc hay thẻ ôn.",
+      "hanzi": "我喜欢那本书。",
+      "pinyin": "Wǒ xǐ huan nà běn shū.",
+      "meaning": "Tôi thích quyển sách kia.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l183-reminder1",
+      "type": "teaching",
+      "title": "本 · quyển; cuốn (lượng từ)",
+      "text": "Nhắc nghĩa đã học: quyển; cuốn (lượng từ). Đọc ví dụ mới, phân biệt với các mục còn lại; không đổi nghĩa gốc hay thẻ ôn.",
+      "hanzi": "这是我的一本书。",
+      "pinyin": "Zhè shì wǒ de yì běn shū.",
+      "meaning": "Đây là một quyển sách của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l183-reminder2",
+      "type": "teaching",
+      "title": "字 · chữ; ký tự",
+      "text": "Nhắc nghĩa đã học: chữ; ký tự. Đọc ví dụ mới, phân biệt với các mục còn lại; không đổi nghĩa gốc hay thẻ ôn.",
+      "hanzi": "那个字是“女”。",
+      "pinyin": "Nà ge zì shì “nǚ”.",
+      "meaning": "Chữ kia là 女.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l183-reminder3",
+      "type": "teaching",
+      "title": "有 · có",
+      "text": "Nhắc nghĩa đã học: có. Đọc ví dụ mới, phân biệt với các mục còn lại; không đổi nghĩa gốc hay thẻ ôn.",
+      "hanzi": "我妈妈有一本书。",
+      "pinyin": "Wǒ mā ma yǒu yì běn shū.",
+      "meaning": "Mẹ tôi có một quyển sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l183-reminder4",
+      "type": "teaching",
+      "title": "爱 · yêu; yêu thương",
+      "text": "Nhắc nghĩa đã học: yêu; yêu thương. Đọc ví dụ mới, phân biệt với các mục còn lại; không đổi nghĩa gốc hay thẻ ôn.",
+      "hanzi": "我爱我爸爸和我妈妈。",
+      "pinyin": "Wǒ ài wǒ bà ba hé wǒ mā ma.",
+      "meaning": "Tôi yêu thương bố và mẹ tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l183-reminder5",
+      "type": "teaching",
+      "title": "它 · nó (vật hoặc con vật)",
+      "text": "Nhắc nghĩa đã học: nó (vật hoặc con vật). Đọc ví dụ mới, phân biệt với các mục còn lại; không đổi nghĩa gốc hay thẻ ôn.",
+      "hanzi": "它不是你的狗，它是我的狗。",
+      "pinyin": "Tā bú shì nǐ de gǒu, tā shì wǒ de gǒu.",
+      "meaning": "Nó không phải chó của bạn, nó là chó của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l183-reading",
+      "type": "teaching",
+      "title": "Tình huống ôn mới",
+      "text": "Đọc toàn bộ lời đáp, kể cả phần phủ định. Đây là đọc chữ, chưa có audio tham chiếu được duyệt.",
+      "hanzi": "A：这本书是你的吗？\nB：不是，是我姐姐的。\nA：你有书吗？\nB：有，我有三本书。",
+      "pinyin": "A: Zhè běn shū shì nǐ de ma? B: Bú shì, shì wǒ jiě jie de. A: Nǐ yǒu shū ma? B: Yǒu, wǒ yǒu sān běn shū.",
+      "meaning": "Quyển được chỉ là của chị gái B. B có ba quyển sách riêng; không gộp hai thông tin thành một.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l183-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l183-v2-e0"
+    },
+    {
+      "id": "l183-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l183-v2-e1"
+    },
+    {
+      "id": "l183-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l183-v2-e2"
+    },
+    {
+      "id": "l183-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l183-v2-e3"
+    },
+    {
+      "id": "l183-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l183-v2-e4"
+    },
+    {
+      "id": "l183-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l183-v2-e5"
+    },
+    {
+      "id": "l183-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l183-v2-e6"
+    },
+    {
+      "id": "l183-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l183-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l183-v2-e0",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l111-c0",
+      "senseId": "l111-v-190-sense",
+      "keyRef": "l183-v2-k0",
+      "prompt": "Ghi pinyin từ điển của 书 theo nghĩa “sách”. Ví dụ mới: 我喜欢那本书。",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l183-v2-e1",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l111-c1",
+      "senseId": "l111-v-10-sense",
+      "keyRef": "l183-v2-k1",
+      "prompt": "Điền đúng mục từ đã ôn, nghĩa “quyển; cuốn (lượng từ)”: 这是我的一□书。 Chỉ nhập mục từ.",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l183-v2-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l112-c2",
+      "senseId": "l112-v-296-sense",
+      "keyRef": "l183-v2-k2",
+      "prompt": "Trong câu mới “那个字是“女”。”, 字 mang nghĩa nào theo bài?",
+      "choices": [
+        "có",
+        "yêu; yêu thương",
+        "nó (vật hoặc con vật)",
+        "sách",
+        "quyển; cuốn (lượng từ)",
+        "chữ; ký tự"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l183-v2-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l113-c1",
+      "senseId": "l113-v-263-sense",
+      "keyRef": "l183-v2-k3",
+      "prompt": "Ghi pinyin từ điển của 有 theo nghĩa “có”. Ví dụ mới: 我妈妈有一本书。",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l183-v2-e4",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l114-c0",
+      "senseId": "l114-v-1-sense",
+      "keyRef": "l183-v2-k4",
+      "prompt": "Điền đúng mục từ đã ôn, nghĩa “yêu; yêu thương”: 我□我爸爸和我妈妈。 Chỉ nhập mục từ.",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l183-v2-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l115-c1",
+      "senseId": "l115-v-201-sense",
+      "keyRef": "l183-v2-k5",
+      "prompt": "Trong câu mới “它不是你的狗，它是我的狗。”, 它 mang nghĩa nào theo bài?",
+      "choices": [
+        "sách",
+        "quyển; cuốn (lượng từ)",
+        "chữ; ký tự",
+        "có",
+        "yêu; yêu thương",
+        "nó (vật hoặc con vật)"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l183-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l111-c0",
+      "senseId": "l111-v-190-sense",
+      "keyRef": "l183-v2-k6",
+      "prompt": "B nói mình có bao nhiêu quyển sách?",
+      "choices": [
+        "一本书",
+        "Không có sách",
+        "三本书"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l183-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l111-c0",
+      "senseId": "l111-v-190-sense",
+      "keyRef": "l183-v2-k7",
+      "prompt": "Xếp các cụm thành câu đã nhắc trong phần ôn; không thêm từ.",
+      "choices": [
+        "我妈妈",
+        "有",
+        "一本书。"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l183-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l183-v2-e0",
+      "senseId": "l111-v-190-sense",
+      "accepted": [
+        "shū"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Mục từ ghi shū; cách đọc trong câu có thể có biến điệu."
+    },
+    {
+      "id": "l183-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l183-v2-e1",
+      "senseId": "l111-v-10-sense",
+      "accepted": [
+        "本"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Điền 本. Đây là một quyển sách của tôi."
+    },
+    {
+      "id": "l183-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l183-v2-e2",
+      "senseId": "l112-v-296-sense",
+      "accepted": [
+        "chữ; ký tự"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "字: chữ; ký tự. Chữ kia là 女."
+    },
+    {
+      "id": "l183-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l183-v2-e3",
+      "senseId": "l113-v-263-sense",
+      "accepted": [
+        "yǒu"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Mục từ ghi yǒu; cách đọc trong câu có thể có biến điệu."
+    },
+    {
+      "id": "l183-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l183-v2-e4",
+      "senseId": "l114-v-1-sense",
+      "accepted": [
+        "爱"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Điền 爱. Tôi yêu thương bố và mẹ tôi."
+    },
+    {
+      "id": "l183-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l183-v2-e5",
+      "senseId": "l115-v-201-sense",
+      "accepted": [
+        "nó (vật hoặc con vật)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "它: nó (vật hoặc con vật). Nó không phải chó của bạn, nó là chó của tôi."
+    },
+    {
+      "id": "l183-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l183-v2-e6",
+      "senseId": "l111-v-190-sense",
+      "accepted": [
+        "三本书"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Quyển được chỉ là của chị gái B. B có ba quyển sách riêng; không gộp hai thông tin thành một."
+    },
+    {
+      "id": "l183-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l183-v2-e7",
+      "senseId": "l111-v-190-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Câu: 我妈妈有一本书。"
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

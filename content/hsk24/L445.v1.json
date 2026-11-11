@@ -1,0 +1,827 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "a54e66161ef9cddebb92bb54f97b988abdf89c6d44eb7a4342b24094d3d5f0ff",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eef",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L445",
+    "version": 1,
+    "versionId": "l445-draft-v1",
+    "title": "Góp ý cho trẻ mà không gán nhãn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Góp ý cho trẻ mà không gán nhãn; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "让"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 23,
+      "physicalPage": 24,
+      "printedPage": 21,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-27T08:32:20.056220Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-family",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 23,
+          "physicalPage": 24,
+          "printedPage": 21,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "交流家庭生活情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-781541ed15b0",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "家庭教育"
+        },
+        "written": "家庭教育",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l445-v-1340",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1340"
+        },
+        "written": "家庭",
+        "pinyin": "jiātíng",
+        "senseId": "l445-v-1340-sense",
+        "ordinal": 1340,
+        "note": "4 jiātíng 名; 家庭 nhấn mạnh tập thể/đời sống gia đình, khác 家 còn chỉ nhà ở. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l445-v-1344",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1344"
+        },
+        "written": "家长",
+        "pinyin": "jiāzhǎng",
+        "senseId": "l445-v-1344-sense",
+        "ordinal": 1344,
+        "note": "4 jiāzhǎng 名; 家长 ở ngữ cảnh trường học là phụ huynh/người chăm sóc chính, không nhất thiết chỉ bố. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l445-v-1377",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 113,
+          "physicalPage": 114,
+          "printedPage": 111,
+          "section": "vocabulary",
+          "entry": "ordinal 1377"
+        },
+        "written": "教育",
+        "pinyin": "jiàoyù",
+        "senseId": "l445-v-1377-sense",
+        "ordinal": 1377,
+        "note": "4 jiàoyù 名、动; 教育 có thể chỉ hoạt động giáo dục; bài không dùng nó để mắng người. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l445-v-1184",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1184"
+        },
+        "written": "儿童",
+        "pinyin": "értóng",
+        "senseId": "l445-v-1184-sense",
+        "ordinal": 1184,
+        "note": "4 értóng 名; 儿童 là danh từ trang trọng, như 儿童读物; không gọi trực tiếp một trẻ là 儿童 trong hội thoại thân mật. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l445-v-1368",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 113,
+          "physicalPage": 114,
+          "printedPage": 111,
+          "section": "vocabulary",
+          "entry": "ordinal 1368"
+        },
+        "written": "骄傲",
+        "pinyin": "jiāo’ào",
+        "senseId": "l445-v-1368-sense",
+        "ordinal": 1368,
+        "note": "4 jiāo’ào 形、名; 骄傲 có hai sắc thái: 为孩子骄傲 là tự hào, 骄傲得不听意见 là kiêu ngạo. Bài luyện sắc thái tự hào. Nhận diện chữ 骄 trong 骄傲; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l445-v-1550",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 117,
+          "physicalPage": 118,
+          "printedPage": 115,
+          "section": "vocabulary",
+          "entry": "ordinal 1550"
+        },
+        "written": "批评",
+        "pinyin": "pīpíng",
+        "senseId": "l445-v-1550-sense",
+        "ordinal": 1550,
+        "note": "4 pīpíng 动; 批评 là chỉ ra lỗi/thiếu sót; nên nói hành vi cụ thể, không đồng nhất với xúc phạm. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-322",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "322"
+        },
+        "written": "庭",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 322,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-325",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "325"
+        },
+        "written": "童",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 325,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-146",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "146"
+        },
+        "written": "骄",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 146,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-3",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "3"
+        },
+        "written": "傲",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 3,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-234",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "234"
+        },
+        "written": "批",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 234,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-242",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "242"
+        },
+        "written": "评",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 242,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-445",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 395,
+          "physicalPage": 396,
+          "printedPage": 393,
+          "section": "grammar",
+          "entry": "主语+叫/让+宾语+动词+其他成分"
+        },
+        "written": "让",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l445-c0",
+      "version": 1,
+      "senseId": "l445-v-1340-sense",
+      "hanzi": "家庭",
+      "dictionaryPinyin": "jiā tíng",
+      "meaning": "gia đình",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l445-v-1340"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l445-c1",
+      "version": 1,
+      "senseId": "l445-v-1344-sense",
+      "hanzi": "家长",
+      "dictionaryPinyin": "jiā zhǎng",
+      "meaning": "cha mẹ, người giám hộ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l445-v-1344"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l445-c2",
+      "version": 1,
+      "senseId": "l445-v-1377-sense",
+      "hanzi": "教育",
+      "dictionaryPinyin": "jiào yù",
+      "meaning": "giáo dục",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l445-v-1377"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l445-c3",
+      "version": 1,
+      "senseId": "l445-v-1184-sense",
+      "hanzi": "儿童",
+      "dictionaryPinyin": "ér tóng",
+      "meaning": "trẻ em",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l445-v-1184"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l445-c4",
+      "version": 1,
+      "senseId": "l445-v-1368-sense",
+      "hanzi": "骄傲",
+      "dictionaryPinyin": "jiāo ào",
+      "meaning": "kiêu ngạo; tự hào",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l445-v-1368"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l445-c5",
+      "version": 1,
+      "senseId": "l445-v-1550-sense",
+      "hanzi": "批评",
+      "dictionaryPinyin": "pī píng",
+      "meaning": "phê bình",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l445-v-1550"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l445-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 读物 dúwù: tài liệu đọc; 耐心 nàixīn: kiên nhẫn; 承认 chéngrèn: thừa nhận; 具体 jùtǐ: cụ thể; 行为 xíngwéi: hành vi.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l445-t0",
+      "type": "teaching",
+      "title": "家庭 · gia đình",
+      "text": "家庭 nhấn mạnh tập thể/đời sống gia đình, khác 家 còn chỉ nhà ở.",
+      "hanzi": "这个家庭喜欢一起阅读。",
+      "pinyin": "Zhè ge jiātíng xǐhuan yìqǐ yuèdú.",
+      "meaning": "Gia đình này thích cùng đọc sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l445-t1",
+      "type": "teaching",
+      "title": "家长 · cha mẹ, người giám hộ",
+      "text": "家长 ở ngữ cảnh trường học là phụ huynh/người chăm sóc chính, không nhất thiết chỉ bố.",
+      "hanzi": "老师请家长参加讨论。",
+      "pinyin": "Lǎoshī qǐng jiāzhǎng cānjiā tǎolùn.",
+      "meaning": "Thầy mời phụ huynh dự thảo luận.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l445-t2",
+      "type": "teaching",
+      "title": "教育 · giáo dục",
+      "text": "教育 có thể chỉ hoạt động giáo dục; bài không dùng nó để mắng người.",
+      "hanzi": "家庭教育需要耐心。",
+      "pinyin": "Jiātíng jiàoyù xūyào nàixīn.",
+      "meaning": "Giáo dục gia đình cần kiên nhẫn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l445-t3",
+      "type": "teaching",
+      "title": "儿童 · trẻ em",
+      "text": "儿童 là danh từ trang trọng, như 儿童读物; không gọi trực tiếp một trẻ là 儿童 trong hội thoại thân mật.",
+      "hanzi": "这里有儿童读物。",
+      "pinyin": "Zhèlǐ yǒu értóng dúwù.",
+      "meaning": "Ở đây có sách dành cho trẻ em.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l445-t4",
+      "type": "teaching",
+      "title": "骄傲 · kiêu ngạo; tự hào",
+      "text": "骄傲 có hai sắc thái: 为孩子骄傲 là tự hào, 骄傲得不听意见 là kiêu ngạo. Bài luyện sắc thái tự hào. Nhận diện chữ 骄 trong 骄傲; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "我为孩子的诚实感到骄傲。",
+      "pinyin": "Wǒ wèi háizi de chéngshí gǎndào jiāoào.",
+      "meaning": "Tôi tự hào vì con trung thực.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l445-t5",
+      "type": "teaching",
+      "title": "批评 · phê bình",
+      "text": "批评 là chỉ ra lỗi/thiếu sót; nên nói hành vi cụ thể, không đồng nhất với xúc phạm.",
+      "hanzi": "老师批评了他迟到的行为。",
+      "pinyin": "Lǎoshī pīpíng le tā chídào de xíngwéi.",
+      "meaning": "Thầy phê bình việc cậu đi muộn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l445-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "让 + người + động từ diễn đạt yêu cầu/cho phép hoặc khiến ai làm gì, tùy ngữ cảnh. Ở đây 家长让孩子自己说明原因 là cha mẹ yêu cầu con tự giải thích, không phải cho con tên gọi. Đối tượng của 让 đứng trước hành động.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l445-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "家长会上，老师介绍适合儿童的读物，也谈到家庭教育。小文的母亲说：“孩子做错事时，我先让他自己说明原因，再批评具体行为。这次他主动承认错误，我为他的诚实感到骄傲。”老师提醒大家多听孩子的想法。",
+      "pinyin": "Jiāzhǎnghuì shàng, lǎoshī jièshào shìhé értóng de dúwù, yě tán dào jiātíng jiàoyù. Xiǎo Wén de mǔqīn shuō: “Háizi zuò cuò shì shí, wǒ xiān ràng tā zìjǐ shuōmíng yuányīn, zài pīpíng jùtǐ xíngwéi. Zhè cì tā zhǔdòng chéngrèn cuòwù, wǒ wèi tā de chéngshí gǎndào jiāoào.” Lǎoshī tíxǐng dàjiā duō tīng háizi de xiǎngfǎ.",
+      "meaning": "Họp phụ huynh bàn sách trẻ em và giáo dục gia đình. Mẹ Văn cho con giải thích trước, rồi góp ý hành vi cụ thể. Bà tự hào vì con chủ động nhận lỗi.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l445-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l445-v1-e0"
+    },
+    {
+      "id": "l445-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l445-v1-e1"
+    },
+    {
+      "id": "l445-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l445-v1-e2"
+    },
+    {
+      "id": "l445-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l445-v1-e3"
+    },
+    {
+      "id": "l445-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l445-v1-e4"
+    },
+    {
+      "id": "l445-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l445-v1-e5"
+    },
+    {
+      "id": "l445-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l445-v1-e6"
+    },
+    {
+      "id": "l445-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l445-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l445-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l445-c0",
+      "senseId": "l445-v-1340-sense",
+      "keyRef": "l445-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “gia đình” để điền câu: 这个□喜欢一起阅读。",
+      "choices": [
+        "家长",
+        "教育",
+        "儿童",
+        "骄傲",
+        "批评",
+        "家庭"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l445-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l445-c1",
+      "senseId": "l445-v-1344-sense",
+      "keyRef": "l445-v1-k1",
+      "prompt": "Ghi pinyin của 家长 trong câu “老师请家长参加讨论。”, theo nghĩa “cha mẹ, người giám hộ”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l445-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l445-c2",
+      "senseId": "l445-v-1377-sense",
+      "keyRef": "l445-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “giáo dục”: 家庭□需要耐心。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l445-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l445-c3",
+      "senseId": "l445-v-1184-sense",
+      "keyRef": "l445-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “trẻ em” để điền câu: 这里有□读物。",
+      "choices": [
+        "骄傲",
+        "批评",
+        "家庭",
+        "家长",
+        "教育",
+        "儿童"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l445-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l445-c4",
+      "senseId": "l445-v-1368-sense",
+      "keyRef": "l445-v1-k4",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “kiêu ngạo; tự hào”: □傲 (jiāo ào). Ngữ cảnh: 我为孩子的诚实感到□。",
+      "choices": [
+        "桥",
+        "娇",
+        "校",
+        "骄"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l445-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l445-c5",
+      "senseId": "l445-v-1550-sense",
+      "keyRef": "l445-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “phê bình”: 老师□了他迟到的行为。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l445-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l445-c0",
+      "senseId": "l445-v-1340-sense",
+      "keyRef": "l445-v1-k6",
+      "prompt": "母亲为什么感到骄傲？",
+      "choices": [
+        "孩子从来不犯错。",
+        "孩子批评了老师。",
+        "孩子主动承认错误。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l445-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l445-c3",
+      "senseId": "l445-v-1184-sense",
+      "keyRef": "l445-v1-k7",
+      "prompt": "Sắp xếp các cụm theo cấu trúc vừa học; giữ nguyên cụm, không thêm/bớt từ.",
+      "choices": [
+        "家长",
+        "让孩子",
+        "自己说明原因。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l445-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l445-v1-e0",
+      "senseId": "l445-v-1340-sense",
+      "accepted": [
+        "家庭"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "家庭: gia đình. 家庭 nhấn mạnh tập thể/đời sống gia đình, khác 家 còn chỉ nhà ở. Gia đình này thích cùng đọc sách."
+    },
+    {
+      "id": "l445-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l445-v1-e1",
+      "senseId": "l445-v-1344-sense",
+      "accepted": [
+        "jiā zhǎng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc jiā zhǎng. 家长 ở ngữ cảnh trường học là phụ huynh/người chăm sóc chính, không nhất thiết chỉ bố."
+    },
+    {
+      "id": "l445-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l445-v1-e2",
+      "senseId": "l445-v-1377-sense",
+      "accepted": [
+        "教育"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 教育. 教育 có thể chỉ hoạt động giáo dục; bài không dùng nó để mắng người. Giáo dục gia đình cần kiên nhẫn."
+    },
+    {
+      "id": "l445-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l445-v1-e3",
+      "senseId": "l445-v-1184-sense",
+      "accepted": [
+        "儿童"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "儿童: trẻ em. 儿童 là danh từ trang trọng, như 儿童读物; không gọi trực tiếp một trẻ là 儿童 trong hội thoại thân mật. Ở đây có sách dành cho trẻ em."
+    },
+    {
+      "id": "l445-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l445-v1-e4",
+      "senseId": "l445-v-1368-sense",
+      "accepted": [
+        "骄"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 骄 tạo từ 骄傲. 骄傲 có hai sắc thái: 为孩子骄傲 là tự hào, 骄傲得不听意见 là kiêu ngạo. Bài luyện sắc thái tự hào. Nhận diện chữ 骄 trong 骄傲; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l445-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l445-v1-e5",
+      "senseId": "l445-v-1550-sense",
+      "accepted": [
+        "批评"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 批评. 批评 là chỉ ra lỗi/thiếu sót; nên nói hành vi cụ thể, không đồng nhất với xúc phạm. Thầy phê bình việc cậu đi muộn."
+    },
+    {
+      "id": "l445-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l445-v1-e6",
+      "senseId": "l445-v-1340-sense",
+      "accepted": [
+        "孩子主动承认错误。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 孩子主动承认错误。. Họp phụ huynh bàn sách trẻ em và giáo dục gia đình. Mẹ Văn cho con giải thích trước, rồi góp ý hành vi cụ thể. Bà tự hào vì con chủ động nhận lỗi."
+    },
+    {
+      "id": "l445-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l445-v1-e7",
+      "senseId": "l445-v-1184-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 让 + người + động từ diễn đạt yêu cầu/cho phép hoặc khiến ai làm gì, tùy ngữ cảnh. Ở đây 家长让孩子自己说明原因 là cha mẹ yêu cầu con tự giải thích, không phải cho con tên gọi. Đối tượng của 让 đứng trước hành động."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

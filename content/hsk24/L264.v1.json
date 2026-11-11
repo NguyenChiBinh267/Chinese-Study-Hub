@@ -1,0 +1,752 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "b3e47fd88b1397383c82cda8768387ab80c8cdd3e0c5a194b1b9bed3a212d939",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "stairs-crossing",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L264",
+    "version": 1,
+    "versionId": "l264-draft-v1",
+    "title": "Ôn tập · Lên xuống theo mốc nhìn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học bằng dạng truy hồi khác; không tính thêm từ mới.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l224-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 10,
+      "physicalPage": 11,
+      "printedPage": 8,
+      "section": "task",
+      "entry": "八"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "八"
+        },
+        "written": "问答出行情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-directions",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 问路"
+        },
+        "written": "问路",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l224-v-425",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 425"
+        },
+        "written": "上来",
+        "pinyin": "shànglái",
+        "senseId": "l224-v-425-sense",
+        "ordinal": 425,
+        "note": "2 shànglái 动; Người trên tầng hai gọi người dưới lên chỗ mình dùng 上来. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l224-v-427",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 427"
+        },
+        "written": "上去",
+        "pinyin": "shàngqù",
+        "senseId": "l224-v-427-sense",
+        "ordinal": 427,
+        "note": "2 shàngqù 动; Người ở tầng một nhìn người khác đi lên tầng hai có thể nói 他上去了. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l224-v-458",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 458"
+        },
+        "written": "下来",
+        "pinyin": "xiàlái",
+        "senseId": "l224-v-458-sense",
+        "ordinal": 458,
+        "note": "2 xiàlái 动; Người đứng dưới gọi người trên xuống chỗ mình dùng 下来. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l224-v-460",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 460"
+        },
+        "written": "下去",
+        "pinyin": "xiàqù",
+        "senseId": "l224-v-460-sense",
+        "ordinal": 460,
+        "note": "2 xiàqù 动; Người vẫn ở tầng trên nói người khác xuống bên dưới dùng 下去. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l224-v-348",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 348"
+        },
+        "written": "过来",
+        "pinyin": "guòlái",
+        "senseId": "l224-v-348-sense",
+        "ordinal": 348,
+        "note": "2 guòlái 动; 过来 ở đây là di chuyển sang chỗ người nói. Không suy ra đã hoàn tất một kinh nghiệm quá khứ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l224-v-350",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 350"
+        },
+        "written": "过去1",
+        "pinyin": "guòqù",
+        "senseId": "l224-v-350-sense",
+        "ordinal": 350,
+        "note": "2 guòqù 动; Mục 过去1 đang học là động từ di chuyển sang bên kia; không phải danh từ quá khứ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l224-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "以后",
+        "pinyin": "yǐ hòu",
+        "senseId": "l224-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: sau khi; thuộc cấp cao hơn, chỉ hỗ trợ quan hệ thời gian trong đoạn."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-25",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "25"
+        },
+        "written": "过",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 25,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-direction",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "补语 / 趋向补语1 / 复合趋向"
+        },
+        "written": "趋向补语1",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l224-c0",
+      "version": 1,
+      "senseId": "l224-v-425-sense",
+      "hanzi": "上来",
+      "dictionaryPinyin": "shàng lái",
+      "meaning": "lên về phía mốc người nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l224-v-425"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l224-c1",
+      "version": 1,
+      "senseId": "l224-v-427-sense",
+      "hanzi": "上去",
+      "dictionaryPinyin": "shàng qù",
+      "meaning": "đi lên xa mốc người nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l224-v-427"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l224-c2",
+      "version": 1,
+      "senseId": "l224-v-458-sense",
+      "hanzi": "下来",
+      "dictionaryPinyin": "xià lái",
+      "meaning": "xuống về phía mốc người nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l224-v-458"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l224-c3",
+      "version": 1,
+      "senseId": "l224-v-460-sense",
+      "hanzi": "下去",
+      "dictionaryPinyin": "xià qù",
+      "meaning": "đi xuống xa mốc người nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l224-v-460"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l224-c4",
+      "version": 1,
+      "senseId": "l224-v-348-sense",
+      "hanzi": "过来",
+      "dictionaryPinyin": "guò lái",
+      "meaning": "sang về phía người nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l224-v-348"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l224-c5",
+      "version": 1,
+      "senseId": "l224-v-350-sense",
+      "hanzi": "过去",
+      "dictionaryPinyin": "guò qù",
+      "meaning": "đi sang xa mốc người nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l224-v-350"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l264-guide",
+      "type": "teaching",
+      "title": "Ôn tập sau bài",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l264-t0-l224-prereq",
+      "type": "teaching",
+      "title": "Nhắc lại · Kiến thức cần nhắc lại",
+      "text": "上/下 là lên/xuống; 来 hướng về mốc đang nói, 去 hướng xa. Người nói có thể ở tầng khác nên phải đọc ngữ cảnh.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l264-t0-l224-t0",
+      "type": "teaching",
+      "title": "Nhắc lại · 上来 · lên về phía mốc người nói",
+      "text": "Người trên tầng hai gọi người dưới lên chỗ mình dùng 上来.",
+      "hanzi": "我在二楼，你上来吧。",
+      "pinyin": "Wǒ zài èr lóu, nǐ shànglái ba.",
+      "meaning": "Tôi ở tầng hai, bạn lên đây nhé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l264-t0-l224-t1",
+      "type": "teaching",
+      "title": "Nhắc lại · 上去 · đi lên xa mốc người nói",
+      "text": "Người ở tầng một nhìn người khác đi lên tầng hai có thể nói 他上去了.",
+      "hanzi": "他上去找老师。",
+      "pinyin": "Tā shàngqù zhǎo lǎoshī.",
+      "meaning": "Anh ấy đi lên tìm giáo viên.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l264-t0-l224-t2",
+      "type": "teaching",
+      "title": "Nhắc lại · 下来 · xuống về phía mốc người nói",
+      "text": "Người đứng dưới gọi người trên xuống chỗ mình dùng 下来.",
+      "hanzi": "我在门口，你下来吧。",
+      "pinyin": "Wǒ zài ménkǒu, nǐ xiàlái ba.",
+      "meaning": "Tôi ở cửa, bạn xuống đây nhé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l264-t0-l224-t3",
+      "type": "teaching",
+      "title": "Nhắc lại · 下去 · đi xuống xa mốc người nói",
+      "text": "Người vẫn ở tầng trên nói người khác xuống bên dưới dùng 下去.",
+      "hanzi": "我在二楼，他下去买水了。",
+      "pinyin": "Wǒ zài èr lóu, tā xiàqù mǎi shuǐ le.",
+      "meaning": "Tôi ở tầng hai, anh ấy xuống dưới mua nước rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l264-t0-l224-t4",
+      "type": "teaching",
+      "title": "Nhắc lại · 过来 · sang về phía người nói",
+      "text": "过来 ở đây là di chuyển sang chỗ người nói. Không suy ra đã hoàn tất một kinh nghiệm quá khứ.",
+      "hanzi": "请到我这里来，快过来。",
+      "pinyin": "Qǐng dào wǒ zhèlǐ lái, kuài guòlái.",
+      "meaning": "Hãy đến chỗ tôi, mau sang đây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l264-t0-l224-t5",
+      "type": "teaching",
+      "title": "Nhắc lại · 过去 · đi sang xa mốc người nói",
+      "text": "Mục 过去1 đang học là động từ di chuyển sang bên kia; không phải danh từ quá khứ.",
+      "hanzi": "老师在那里，我们过去吧。",
+      "pinyin": "Lǎoshī zài nàlǐ, wǒmen guòqù ba.",
+      "meaning": "Giáo viên ở đằng kia, chúng ta sang đó nhé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l264-t0-l224-grammar",
+      "type": "teaching",
+      "title": "Nhắc lại · Cách nói trong ngữ cảnh",
+      "text": "Người ở trên gọi 上来, người dưới nói ai đó 上去. Tương tự 下来 hướng xuống về mốc, 下去 hướng xuống xa mốc; không chọn chỉ bằng nghĩa lên/xuống.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l264-t0-l224-reading",
+      "type": "teaching",
+      "title": "Nhắc lại · Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "我在二楼。小李在门口，我说：你上来吧。小李上来以后，我们看见老师在外面。小李说：我们下去找老师吧。",
+      "pinyin": "Wǒ zài èr lóu. Xiǎo Lǐ zài ménkǒu, wǒ shuō: Nǐ shànglái ba. Xiǎo Lǐ shànglái yǐhòu, wǒmen kànjiàn lǎoshī zài wàimiàn. Xiǎo Lǐ shuō: Wǒmen xiàqù zhǎo lǎoshī ba.",
+      "meaning": "Tôi ở tầng hai. Tiểu Lý ở cửa, tôi nói: Bạn lên đây nhé. Sau khi Tiểu Lý lên, chúng tôi thấy giáo viên ở ngoài. Tiểu Lý nói: Chúng ta xuống tìm thầy/cô nhé.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l264-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l264-e0"
+    },
+    {
+      "id": "l264-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l264-e1"
+    },
+    {
+      "id": "l264-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l264-e2"
+    },
+    {
+      "id": "l264-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l264-e3"
+    },
+    {
+      "id": "l264-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l264-e4"
+    },
+    {
+      "id": "l264-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l264-e5"
+    },
+    {
+      "id": "l264-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l264-e6"
+    },
+    {
+      "id": "l264-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l264-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l264-e0",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l224-c0",
+      "senseId": "l224-v-425-sense",
+      "keyRef": "l264-k0",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “lên về phía mốc người nói” (shàng lái).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l264-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l224-c1",
+      "senseId": "l224-v-427-sense",
+      "keyRef": "l264-k1",
+      "prompt": "Ôn nghĩa: 上去 (shàng qù) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "xuống về phía mốc người nói",
+        "đi xuống xa mốc người nói",
+        "sang về phía người nói",
+        "đi sang xa mốc người nói",
+        "lên về phía mốc người nói",
+        "đi lên xa mốc người nói"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l264-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l224-c2",
+      "senseId": "l224-v-458-sense",
+      "keyRef": "l264-k2",
+      "prompt": "Ôn cách đọc của 下来 trong nghĩa “xuống về phía mốc người nói”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l264-e3",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l224-c3",
+      "senseId": "l224-v-460-sense",
+      "keyRef": "l264-k3",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “đi xuống xa mốc người nói” (xià qù).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l264-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l224-c4",
+      "senseId": "l224-v-348-sense",
+      "keyRef": "l264-k4",
+      "prompt": "Ôn nghĩa: 过来 (guò lái) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "đi sang xa mốc người nói",
+        "lên về phía mốc người nói",
+        "đi lên xa mốc người nói",
+        "xuống về phía mốc người nói",
+        "đi xuống xa mốc người nói",
+        "sang về phía người nói"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l264-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l224-c5",
+      "senseId": "l224-v-350-sense",
+      "keyRef": "l264-k5",
+      "prompt": "Ôn cách đọc của 过去 trong nghĩa “đi sang xa mốc người nói”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l264-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l224-c4",
+      "senseId": "l224-v-348-sense",
+      "keyRef": "l264-k6",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “sang về phía người nói” (guò lái) viết □来. Điền chữ nào vào □?",
+      "choices": [
+        "介",
+        "过",
+        "交",
+        "教"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l264-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l224-c0",
+      "senseId": "l224-v-425-sense",
+      "keyRef": "l264-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Khi mời 上来, người nói đang ở đâu?",
+      "choices": [
+        "Tầng hai",
+        "Ngoài cửa cùng Tiểu Lý",
+        "Dưới sân bay"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l264-k0",
+      "version": 1,
+      "exerciseVersionId": "l264-e0",
+      "senseId": "l224-v-425-sense",
+      "accepted": [
+        "上来"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "上来 · lên về phía mốc người nói."
+    },
+    {
+      "id": "l264-k1",
+      "version": 1,
+      "exerciseVersionId": "l264-e1",
+      "senseId": "l224-v-427-sense",
+      "accepted": [
+        "đi lên xa mốc người nói"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "上去: đi lên xa mốc người nói."
+    },
+    {
+      "id": "l264-k2",
+      "version": 1,
+      "exerciseVersionId": "l264-e2",
+      "senseId": "l224-v-458-sense",
+      "accepted": [
+        "xià lái"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "xià lái · xuống về phía mốc người nói"
+    },
+    {
+      "id": "l264-k3",
+      "version": 1,
+      "exerciseVersionId": "l264-e3",
+      "senseId": "l224-v-460-sense",
+      "accepted": [
+        "下去"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "下去 · đi xuống xa mốc người nói."
+    },
+    {
+      "id": "l264-k4",
+      "version": 1,
+      "exerciseVersionId": "l264-e4",
+      "senseId": "l224-v-348-sense",
+      "accepted": [
+        "sang về phía người nói"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "过来: sang về phía người nói."
+    },
+    {
+      "id": "l264-k5",
+      "version": 1,
+      "exerciseVersionId": "l264-e5",
+      "senseId": "l224-v-350-sense",
+      "accepted": [
+        "guò qù"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "guò qù · đi sang xa mốc người nói"
+    },
+    {
+      "id": "l264-k6",
+      "version": 1,
+      "exerciseVersionId": "l264-e6",
+      "senseId": "l224-v-348-sense",
+      "accepted": [
+        "过"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "过来 · guò lái · sang về phía người nói. Chữ cần nhận diện là 过."
+    },
+    {
+      "id": "l264-k7",
+      "version": 1,
+      "exerciseVersionId": "l264-e7",
+      "senseId": "l224-v-425-sense",
+      "accepted": [
+        "Tầng hai"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Người nói nêu 我在二楼; 来 hướng lên về phía mốc đó."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

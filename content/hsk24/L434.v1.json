@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "f6076ffd464a495cb2e6810af99d6cf50af5d557b93e76b91a9c9e1e9232f3a6",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ede",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L434",
+    "version": 1,
+    "versionId": "l434-draft-v1",
+    "title": "Đọc thông tin chuyến xe đến đơn vị công tác",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc thông tin chuyến xe đến đơn vị công tác; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "当"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 21,
+      "physicalPage": 22,
+      "printedPage": 19,
+      "section": "task",
+      "entry": "六"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T17:32:22.299147Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 21,
+          "physicalPage": 22,
+          "printedPage": 19,
+          "section": "task",
+          "entry": "六"
+        },
+        "written": "谈论交通出行",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-57f78ba1f93f",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "交通"
+        },
+        "written": "交通",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l434-v-1075",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1075"
+        },
+        "written": "车速",
+        "pinyin": "chēsù",
+        "senseId": "l434-v-1075-sense",
+        "ordinal": 1075,
+        "note": "4 chēsù 名; 车速 là tốc độ phương tiện đang nói tới; không tự là giới hạn tốc độ được phép. Nhận diện chữ 速 trong 车速; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l434-v-1076",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1076"
+        },
+        "written": "车位",
+        "pinyin": "chēwèi",
+        "senseId": "l434-v-1076-sense",
+        "ordinal": 1076,
+        "note": "4 chēwèi 名; 车位 là vị trí đỗ một xe, khác 车站 là ga/trạm; chưa biết vị trí trống nếu chỉ thấy biển tên. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l434-v-1078",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1078"
+        },
+        "written": "乘1",
+        "pinyin": "chéng",
+        "senseId": "l434-v-1078-sense",
+        "ordinal": 1078,
+        "note": "4 chéng 动; 乘1 đọc chéng khi đi xe/tàu/máy bay, gần 乘坐 nhưng bài hỏi một chữ. Chưa dạy phép nhân của từ đồng hình khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l434-v-1077",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1077"
+        },
+        "written": "城",
+        "pinyin": "chéng",
+        "senseId": "l434-v-1077-sense",
+        "ordinal": 1077,
+        "note": "4 chéng 名; 城 thường trong 进城、城里; 城市 là dạng hai chữ đã gặp nhưng bài hỏi một chữ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l434-v-1134",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 107,
+          "physicalPage": 108,
+          "printedPage": 105,
+          "section": "vocabulary",
+          "entry": "ordinal 1134"
+        },
+        "written": "单位",
+        "pinyin": "dānwèi",
+        "senseId": "l434-v-1134-sense",
+        "ordinal": 1134,
+        "note": "4 dānwèi 名; 单位 ở 工作单位 là tổ chức/cơ quan làm việc; không phải nghĩa đơn vị đo lường trong bài này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l434-v-1135",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 107,
+          "physicalPage": 108,
+          "printedPage": 105,
+          "section": "vocabulary",
+          "entry": "ordinal 1135"
+        },
+        "written": "当",
+        "pinyin": "dāng",
+        "senseId": "l434-v-1135-sense",
+        "ordinal": 1135,
+        "note": "4 dāng 动、介; 当 ở 当…时 là giới từ dẫn khung thời gian; không đọc dàng của nghĩa khác và không mang nghĩa làm nghề trong câu này. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-304",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "304"
+        },
+        "written": "速",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 304,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-33",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "33"
+        },
+        "written": "乘",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 33,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-434",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 394,
+          "physicalPage": 395,
+          "printedPage": 392,
+          "section": "grammar",
+          "entry": "引出时间：当+分句+时"
+        },
+        "written": "当",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l434-c0",
+      "version": 1,
+      "senseId": "l434-v-1075-sense",
+      "hanzi": "车速",
+      "dictionaryPinyin": "chē sù",
+      "meaning": "tốc độ xe",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l434-v-1075"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l434-c1",
+      "version": 1,
+      "senseId": "l434-v-1076-sense",
+      "hanzi": "车位",
+      "dictionaryPinyin": "chē wèi",
+      "meaning": "chỗ đỗ xe",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l434-v-1076"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l434-c2",
+      "version": 1,
+      "senseId": "l434-v-1078-sense",
+      "hanzi": "乘",
+      "dictionaryPinyin": "chéng",
+      "meaning": "đi bằng phương tiện (dạng một chữ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l434-v-1078"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l434-c3",
+      "version": 1,
+      "senseId": "l434-v-1077-sense",
+      "hanzi": "城",
+      "dictionaryPinyin": "chéng",
+      "meaning": "thành, thành phố (dạng đơn âm)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l434-v-1077"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l434-c4",
+      "version": 1,
+      "senseId": "l434-v-1134-sense",
+      "hanzi": "单位",
+      "dictionaryPinyin": "dān wèi",
+      "meaning": "đơn vị công tác",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l434-v-1134"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l434-c5",
+      "version": 1,
+      "senseId": "l434-v-1135-sense",
+      "hanzi": "当",
+      "dictionaryPinyin": "dāng",
+      "meaning": "khi (dẫn mệnh đề)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l434-v-1135"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l434-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 显示屏 xiǎnshìpíng: màn hình hiển thị; 询问 xúnwèn: hỏi; 回程 huíchéng: chiều về. Bài không quy định giới hạn tốc độ giao thông thật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l434-t0",
+      "type": "teaching",
+      "title": "车速 · tốc độ xe",
+      "text": "车速 là tốc độ phương tiện đang nói tới; không tự là giới hạn tốc độ được phép. Nhận diện chữ 速 trong 车速; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "显示屏上可以看到车速。",
+      "pinyin": "Xiǎnshìpíng shàng kěyǐ kàndào chēsù.",
+      "meaning": "Trên màn hình có thể xem tốc độ xe.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l434-t1",
+      "type": "teaching",
+      "title": "车位 · chỗ đỗ xe",
+      "text": "车位 là vị trí đỗ một xe, khác 车站 là ga/trạm; chưa biết vị trí trống nếu chỉ thấy biển tên.",
+      "hanzi": "门口的车位已经满了。",
+      "pinyin": "Ménkǒu de chēwèi yǐjīng mǎn le.",
+      "meaning": "Chỗ đỗ xe ngoài cửa đã đầy.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l434-t2",
+      "type": "teaching",
+      "title": "乘 · đi bằng phương tiện (dạng một chữ)",
+      "text": "乘1 đọc chéng khi đi xe/tàu/máy bay, gần 乘坐 nhưng bài hỏi một chữ. Chưa dạy phép nhân của từ đồng hình khác.",
+      "hanzi": "他每天乘公交车上班。",
+      "pinyin": "Tā měi tiān chéng gōngjiāochē shàng bān.",
+      "meaning": "Hằng ngày anh ấy đi xe buýt tới làm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l434-t3",
+      "type": "teaching",
+      "title": "城 · thành, thành phố (dạng đơn âm)",
+      "text": "城 thường trong 进城、城里; 城市 là dạng hai chữ đã gặp nhưng bài hỏi một chữ.",
+      "hanzi": "他们周一进城办事。",
+      "pinyin": "Tāmen Zhōuyī jìn chéng bànshì.",
+      "meaning": "Thứ hai họ vào thành phố giải quyết việc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l434-t4",
+      "type": "teaching",
+      "title": "单位 · đơn vị công tác",
+      "text": "单位 ở 工作单位 là tổ chức/cơ quan làm việc; không phải nghĩa đơn vị đo lường trong bài này.",
+      "hanzi": "她的新工作单位离车站很近。",
+      "pinyin": "Tā de xīn gōngzuò dānwèi lí chēzhàn hěn jìn.",
+      "meaning": "Đơn vị công tác mới của cô ấy gần ga.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l434-t5",
+      "type": "teaching",
+      "title": "当 · khi (dẫn mệnh đề)",
+      "text": "当 ở 当…时 là giới từ dẫn khung thời gian; không đọc dàng của nghĩa khác và không mang nghĩa làm nghề trong câu này.",
+      "hanzi": "当司机开车时，请不要打扰他。",
+      "pinyin": "Dāng sījī kāi chē shí, qǐng bú yào dǎrǎo tā.",
+      "meaning": "Khi tài xế lái xe, xin đừng làm phiền.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l434-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "当+chủ thể+hành động+时 đặt khung thời gian: 当司机开车时，请不要打扰他. Ở đây 当 là khi, không phải động từ làm nghề/đảm nhiệm.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l434-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小岳周一乘公交车进城，去新的工作单位。单位门口车位满了，不过公交站就在旁边。他在车上看到显示车速的屏幕。当司机开车时，大家安静坐着；下车以后，小岳才向司机询问回程车站的位置。",
+      "pinyin": "Xiǎo Yuè Zhōuyī chéng gōngjiāochē jìn chéng, qù xīn de gōngzuò dānwèi. Dānwèi ménkǒu chēwèi mǎn le, búguò gōngjiāo zhàn jiù zài pángbiān. Tā zài chē shàng kàndào xiǎnshì chēsù de píngmù. Dāng sījī kāi chē shí, dàjiā ānjìng zuò zhe; xià chē yǐhòu, Xiǎo Yuè cái xiàng sījī xúnwèn huíchéng chēzhàn de wèizhi.",
+      "meaning": "Nhạc đi xe buýt đến cơ quan mới dù chỗ đỗ xe đã đầy. Cậu chờ tới khi xuống xe mới hỏi tài xế vị trí trạm chiều về.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l434-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l434-v1-e0"
+    },
+    {
+      "id": "l434-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l434-v1-e1"
+    },
+    {
+      "id": "l434-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l434-v1-e2"
+    },
+    {
+      "id": "l434-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l434-v1-e3"
+    },
+    {
+      "id": "l434-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l434-v1-e4"
+    },
+    {
+      "id": "l434-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l434-v1-e5"
+    },
+    {
+      "id": "l434-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l434-v1-e6"
+    },
+    {
+      "id": "l434-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l434-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l434-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l434-c0",
+      "senseId": "l434-v-1075-sense",
+      "keyRef": "l434-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “tốc độ xe”: 车□ (chē sù). Ngữ cảnh: 显示屏上可以看到□。",
+      "choices": [
+        "束",
+        "逮",
+        "递",
+        "速"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l434-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l434-c1",
+      "senseId": "l434-v-1076-sense",
+      "keyRef": "l434-v1-k1",
+      "prompt": "Ghi pinyin của 车位 trong câu “门口的车位已经满了。”, theo nghĩa “chỗ đỗ xe”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l434-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l434-c2",
+      "senseId": "l434-v-1078-sense",
+      "keyRef": "l434-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “đi bằng phương tiện (dạng một chữ)”: 他每天□公交车上班。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l434-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l434-c3",
+      "senseId": "l434-v-1077-sense",
+      "keyRef": "l434-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “thành, thành phố (dạng đơn âm)” để điền câu: 他们周一进□办事。",
+      "choices": [
+        "单位",
+        "当",
+        "车速",
+        "车位",
+        "乘",
+        "城"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l434-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l434-c4",
+      "senseId": "l434-v-1134-sense",
+      "keyRef": "l434-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “đơn vị công tác” để điền câu: 她的新工作□离车站很近。",
+      "choices": [
+        "当",
+        "车速",
+        "车位",
+        "乘",
+        "城",
+        "单位"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l434-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l434-c5",
+      "senseId": "l434-v-1135-sense",
+      "keyRef": "l434-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “khi (dẫn mệnh đề)”: □司机开车时，请不要打扰他。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l434-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l434-c0",
+      "senseId": "l434-v-1075-sense",
+      "keyRef": "l434-v1-k6",
+      "prompt": "Nhạc hỏi vị trí trạm chiều về lúc nào?",
+      "choices": [
+        "司机开车时一直打断他",
+        "出发前从未见过司机时",
+        "下车以后"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l434-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l434-c3",
+      "senseId": "l434-v-1077-sense",
+      "keyRef": "l434-v1-k7",
+      "prompt": "Xếp khung thời gian và yêu cầu, bắt đầu bằng 当.",
+      "choices": [
+        "请不要打扰他",
+        "开车时",
+        "当",
+        "司机"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l434-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l434-v1-e0",
+      "senseId": "l434-v-1075-sense",
+      "accepted": [
+        "速"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 速 tạo từ 车速. 车速 là tốc độ phương tiện đang nói tới; không tự là giới hạn tốc độ được phép. Nhận diện chữ 速 trong 车速; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l434-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l434-v1-e1",
+      "senseId": "l434-v-1076-sense",
+      "accepted": [
+        "chē wèi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc chē wèi. 车位 là vị trí đỗ một xe, khác 车站 là ga/trạm; chưa biết vị trí trống nếu chỉ thấy biển tên."
+    },
+    {
+      "id": "l434-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l434-v1-e2",
+      "senseId": "l434-v-1078-sense",
+      "accepted": [
+        "乘"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 乘. 乘1 đọc chéng khi đi xe/tàu/máy bay, gần 乘坐 nhưng bài hỏi một chữ. Chưa dạy phép nhân của từ đồng hình khác. Hằng ngày anh ấy đi xe buýt tới làm."
+    },
+    {
+      "id": "l434-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l434-v1-e3",
+      "senseId": "l434-v-1077-sense",
+      "accepted": [
+        "城"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "城: thành, thành phố (dạng đơn âm). 城 thường trong 进城、城里; 城市 là dạng hai chữ đã gặp nhưng bài hỏi một chữ. Thứ hai họ vào thành phố giải quyết việc."
+    },
+    {
+      "id": "l434-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l434-v1-e4",
+      "senseId": "l434-v-1134-sense",
+      "accepted": [
+        "单位"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "单位: đơn vị công tác. 单位 ở 工作单位 là tổ chức/cơ quan làm việc; không phải nghĩa đơn vị đo lường trong bài này. Đơn vị công tác mới của cô ấy gần ga."
+    },
+    {
+      "id": "l434-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l434-v1-e5",
+      "senseId": "l434-v-1135-sense",
+      "accepted": [
+        "当"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 当. 当 ở 当…时 là giới từ dẫn khung thời gian; không đọc dàng của nghĩa khác và không mang nghĩa làm nghề trong câu này. Khi tài xế lái xe, xin đừng làm phiền."
+    },
+    {
+      "id": "l434-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l434-v1-e6",
+      "senseId": "l434-v-1075-sense",
+      "accepted": [
+        "下车以后"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 下车以后. Nhạc đi xe buýt đến cơ quan mới dù chỗ đỗ xe đã đầy. Cậu chờ tới khi xuống xe mới hỏi tài xế vị trí trạm chiều về."
+    },
+    {
+      "id": "l434-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l434-v1-e7",
+      "senseId": "l434-v-1077-sense",
+      "accepted": [
+        "2,3,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 当+chủ thể+hành động+时 đặt khung thời gian: 当司机开车时，请不要打扰他. Ở đây 当 là khi, không phải động từ làm nghề/đảm nhiệm."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

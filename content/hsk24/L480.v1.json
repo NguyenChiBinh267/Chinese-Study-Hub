@@ -1,0 +1,798 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "f3b5d6c895edc8109f365bdd630efeed0b92e2b3d00e8cdde54e6297d16cba67",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eia",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L480",
+    "version": 1,
+    "versionId": "l480-draft-v1",
+    "title": "Phân nhóm tài liệu và đọc nhận xét so sánh",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân nhóm tài liệu và đọc nhận xét so sánh; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "一"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 23,
+      "physicalPage": 24,
+      "printedPage": 21,
+      "section": "task",
+      "entry": "十二"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-27T08:57:57.101647Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 23,
+          "physicalPage": 24,
+          "printedPage": 21,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "谈论教学、学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-6fcb9680e8d1",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "学习心得"
+        },
+        "written": "学习心得",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l480-v-1048",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1048"
+        },
+        "written": "不论",
+        "pinyin": "búlùn",
+        "senseId": "l480-v-1048-sense",
+        "ordinal": 1048,
+        "note": "4 búlùn 连; 不论 thường kết hợp 都/也, không dùng kết luận tùy tiện khi thiếu các trường hợp so sánh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l480-v-1053",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1053"
+        },
+        "written": "不管",
+        "pinyin": "bùguǎn",
+        "senseId": "l480-v-1053-sense",
+        "ordinal": 1053,
+        "note": "4 bùguǎn 连; 不管 gần nghĩa 不论 trong cấu trúc bất kể; còn nghĩa không quản chưa dạy. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l480-v-1052",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1052"
+        },
+        "written": "部分",
+        "pinyin": "bùfen",
+        "senseId": "l480-v-1052-sense",
+        "ordinal": 1052,
+        "note": "4 bùfen 名; 部分 bù fen với fen nhẹ chỉ một phần, không tự nói quá nửa. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l480-v-1193",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1193"
+        },
+        "written": "方面",
+        "pinyin": "fāngmiàn",
+        "senseId": "l480-v-1193-sense",
+        "ordinal": 1193,
+        "note": "4 fāngmiàn 名; 方面 dùng cho mặt/góc xem xét; khác 部分 là bộ phận cấu thành. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l480-v-1202",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1202"
+        },
+        "written": "分为",
+        "pinyin": "fēnwéi",
+        "senseId": "l480-v-1202-sense",
+        "ordinal": 1202,
+        "note": "4 fēnwéi 动; 分为 + các nhóm/phần chỉ phân loại; khác 分给 là chia cho ai. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l480-v-1203",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1203"
+        },
+        "written": "份",
+        "pinyin": "fèn",
+        "senseId": "l480-v-1203-sense",
+        "ordinal": 1203,
+        "note": "4 fèn 量; 份 đếm bản tài liệu/suất ăn; ở đây 一份报告, không đếm cây. Nhận diện chữ 份 trong 份; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-199",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "199"
+        },
+        "written": "论",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 199,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-98",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "98"
+        },
+        "written": "管",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 98,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-20",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "20"
+        },
+        "written": "部",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 20,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-68",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "68"
+        },
+        "written": "份",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 68,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-480",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 395,
+          "physicalPage": 396,
+          "printedPage": 393,
+          "section": "grammar",
+          "entry": "一+量词+比+一+量词"
+        },
+        "written": "一",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l480-c0",
+      "version": 1,
+      "senseId": "l480-v-1048-sense",
+      "hanzi": "不论",
+      "dictionaryPinyin": "bú lùn",
+      "meaning": "bất luận",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l480-v-1048"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l480-c1",
+      "version": 1,
+      "senseId": "l480-v-1053-sense",
+      "hanzi": "不管",
+      "dictionaryPinyin": "bù guǎn",
+      "meaning": "bất kể",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l480-v-1053"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l480-c2",
+      "version": 1,
+      "senseId": "l480-v-1052-sense",
+      "hanzi": "部分",
+      "dictionaryPinyin": "bù fen",
+      "meaning": "bộ phận, phần",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l480-v-1052"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l480-c3",
+      "version": 1,
+      "senseId": "l480-v-1193-sense",
+      "hanzi": "方面",
+      "dictionaryPinyin": "fāng miàn",
+      "meaning": "phương diện",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l480-v-1193"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l480-c4",
+      "version": 1,
+      "senseId": "l480-v-1202-sense",
+      "hanzi": "分为",
+      "dictionaryPinyin": "fēn wéi",
+      "meaning": "chia thành",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l480-v-1202"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l480-c5",
+      "version": 1,
+      "senseId": "l480-v-1203-sense",
+      "hanzi": "份",
+      "dictionaryPinyin": "fèn",
+      "meaning": "bản, suất, phần (lượng từ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l480-v-1203"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l480-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 修改 xiūgǎi: sửa; 补充 bǔchōng: bổ sung; 表达 biǎodá: diễn đạt; 报告 bàogào: báo cáo.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l480-t0",
+      "type": "teaching",
+      "title": "不论 · bất luận",
+      "text": "不论 thường kết hợp 都/也, không dùng kết luận tùy tiện khi thiếu các trường hợp so sánh.",
+      "hanzi": "不论题目难不难，都要认真读。",
+      "pinyin": "Búlùn tímù nán bu nán, dōu yào rènzhēn dú.",
+      "meaning": "Bất luận đề khó không, đều cần đọc kỹ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l480-t1",
+      "type": "teaching",
+      "title": "不管 · bất kể",
+      "text": "不管 gần nghĩa 不论 trong cấu trúc bất kể; còn nghĩa không quản chưa dạy.",
+      "hanzi": "不管结果怎样，我们都总结经验。",
+      "pinyin": "Bùguǎn jiéguǒ zěnyàng, wǒmen dōu zǒngjié jīngyàn.",
+      "meaning": "Bất kể kết quả thế nào, chúng tôi đều rút kinh nghiệm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l480-t2",
+      "type": "teaching",
+      "title": "部分 · bộ phận, phần",
+      "text": "部分 bù fen với fen nhẹ chỉ một phần, không tự nói quá nửa.",
+      "hanzi": "这部分材料需要修改。",
+      "pinyin": "Zhè bùfen cáiliào xūyào xiūgǎi.",
+      "meaning": "Phần tài liệu này cần sửa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l480-t3",
+      "type": "teaching",
+      "title": "方面 · phương diện",
+      "text": "方面 dùng cho mặt/góc xem xét; khác 部分 là bộ phận cấu thành.",
+      "hanzi": "我们从两个方面讨论。",
+      "pinyin": "Wǒmen cóng liǎng ge fāngmiàn tǎolùn.",
+      "meaning": "Chúng tôi thảo luận từ hai phương diện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l480-t4",
+      "type": "teaching",
+      "title": "分为 · chia thành",
+      "text": "分为 + các nhóm/phần chỉ phân loại; khác 分给 là chia cho ai.",
+      "hanzi": "材料分为三类。",
+      "pinyin": "Cáiliào fēnwéi sān lèi.",
+      "meaning": "Tài liệu chia thành ba loại.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l480-t5",
+      "type": "teaching",
+      "title": "份 · bản, suất, phần (lượng từ)",
+      "text": "份 đếm bản tài liệu/suất ăn; ở đây 一份报告, không đếm cây. Nhận diện chữ 份 trong 份; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "请准备一份报告。",
+      "pinyin": "Qǐng zhǔnbèi yí fèn bàogào.",
+      "meaning": "Hãy chuẩn bị một bản báo cáo.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l480-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "一 + lượng từ + 比 + 一 + lượng từ + tính từ biểu thị tăng dần qua từng đơn vị: 报告一份比一份清楚. Không có nghĩa chỉ đúng hai bản. Bài so sánh bản trình bày qua các lần luyện.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l480-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小组把材料分为三类，先修改需要补充的部分，再从内容和表达两个方面讨论。老师看了几次练习，说：“报告一份比一份清楚。”不论题目难不难，大家都先读要求；不管结果怎样，最后都总结经验。",
+      "pinyin": "Xiǎozǔ bǎ cáiliào fēnwéi sān lèi, xiān xiūgǎi xūyào bǔchōng de bùfen, zài cóng nèiróng hé biǎodá liǎng ge fāngmiàn tǎolùn. Lǎoshī kàn le jǐ cì liànxí, shuō: “Bàogào yí fèn bǐ yí fèn qīngchu.” Búlùn tímù nán bu nán, dàjiā dōu xiān dú yāoqiú; bùguǎn jiéguǒ zěnyàng, zuìhòu dōu zǒngjié jīngyàn.",
+      "meaning": "Nhóm phân tài liệu ba loại, bổ sung phần còn thiếu và thảo luận nội dung/cách diễn đạt. Thầy nhận xét mỗi bản rõ hơn. Dù đề khó hay kết quả thế nào, nhóm vẫn đọc yêu cầu và rút kinh nghiệm.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l480-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l480-v1-e0"
+    },
+    {
+      "id": "l480-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l480-v1-e1"
+    },
+    {
+      "id": "l480-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l480-v1-e2"
+    },
+    {
+      "id": "l480-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l480-v1-e3"
+    },
+    {
+      "id": "l480-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l480-v1-e4"
+    },
+    {
+      "id": "l480-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l480-v1-e5"
+    },
+    {
+      "id": "l480-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l480-v1-e6"
+    },
+    {
+      "id": "l480-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l480-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l480-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l480-c0",
+      "senseId": "l480-v-1048-sense",
+      "keyRef": "l480-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “bất luận” để điền câu: □题目难不难，都要认真读。 Chọn dạng có chữ 论.",
+      "choices": [
+        "不管",
+        "部分",
+        "方面",
+        "分为",
+        "份",
+        "不论"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l480-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l480-c1",
+      "senseId": "l480-v-1053-sense",
+      "keyRef": "l480-v1-k1",
+      "prompt": "Ghi pinyin của 不管 trong câu “不管结果怎样，我们都总结经验。”, theo nghĩa “bất kể”. Viết pinyin của dạng có chữ 管.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l480-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l480-c2",
+      "senseId": "l480-v-1052-sense",
+      "keyRef": "l480-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “bộ phận, phần”: 这□材料需要修改。 Chỉ nhập từ, không nhập cả câu. Nhập đúng dạng có chữ 分.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l480-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l480-c3",
+      "senseId": "l480-v-1193-sense",
+      "keyRef": "l480-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “phương diện” để điền câu: 我们从两个□讨论。",
+      "choices": [
+        "分为",
+        "份",
+        "不论",
+        "不管",
+        "部分",
+        "方面"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l480-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l480-c4",
+      "senseId": "l480-v-1202-sense",
+      "keyRef": "l480-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “chia thành” để điền câu: 材料□三类。",
+      "choices": [
+        "份",
+        "不论",
+        "不管",
+        "部分",
+        "方面",
+        "分为"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l480-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l480-c5",
+      "senseId": "l480-v-1203-sense",
+      "keyRef": "l480-v1-k5",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “bản, suất, phần (lượng từ)”: □ (fèn). Ngữ cảnh: 请准备一□报告。",
+      "choices": [
+        "分",
+        "扮",
+        "份",
+        "粉"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l480-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l480-c0",
+      "senseId": "l480-v-1048-sense",
+      "keyRef": "l480-v1-k6",
+      "prompt": "老师怎样评价报告的变化？",
+      "choices": [
+        "一次比一次差。",
+        "所有报告完全相同。",
+        "一份比一份清楚。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l480-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l480-c3",
+      "senseId": "l480-v-1193-sense",
+      "keyRef": "l480-v1-k7",
+      "prompt": "Sắp xếp các cụm theo cấu trúc vừa học; giữ nguyên cụm, không thêm/bớt từ.",
+      "choices": [
+        "报告",
+        "一份比一份",
+        "清楚。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l480-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l480-v1-e0",
+      "senseId": "l480-v-1048-sense",
+      "accepted": [
+        "不论"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "不论: bất luận. 不论 thường kết hợp 都/也, không dùng kết luận tùy tiện khi thiếu các trường hợp so sánh. Bất luận đề khó không, đều cần đọc kỹ."
+    },
+    {
+      "id": "l480-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l480-v1-e1",
+      "senseId": "l480-v-1053-sense",
+      "accepted": [
+        "bù guǎn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc bù guǎn. 不管 gần nghĩa 不论 trong cấu trúc bất kể; còn nghĩa không quản chưa dạy."
+    },
+    {
+      "id": "l480-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l480-v1-e2",
+      "senseId": "l480-v-1052-sense",
+      "accepted": [
+        "部分"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 部分. 部分 bù fen với fen nhẹ chỉ một phần, không tự nói quá nửa. Phần tài liệu này cần sửa."
+    },
+    {
+      "id": "l480-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l480-v1-e3",
+      "senseId": "l480-v-1193-sense",
+      "accepted": [
+        "方面"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "方面: phương diện. 方面 dùng cho mặt/góc xem xét; khác 部分 là bộ phận cấu thành. Chúng tôi thảo luận từ hai phương diện."
+    },
+    {
+      "id": "l480-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l480-v1-e4",
+      "senseId": "l480-v-1202-sense",
+      "accepted": [
+        "分为"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "分为: chia thành. 分为 + các nhóm/phần chỉ phân loại; khác 分给 là chia cho ai. Tài liệu chia thành ba loại."
+    },
+    {
+      "id": "l480-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l480-v1-e5",
+      "senseId": "l480-v-1203-sense",
+      "accepted": [
+        "份"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 份 tạo từ 份. 份 đếm bản tài liệu/suất ăn; ở đây 一份报告, không đếm cây. Nhận diện chữ 份 trong 份; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l480-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l480-v1-e6",
+      "senseId": "l480-v-1048-sense",
+      "accepted": [
+        "一份比一份清楚。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 一份比一份清楚。. Nhóm phân tài liệu ba loại, bổ sung phần còn thiếu và thảo luận nội dung/cách diễn đạt. Thầy nhận xét mỗi bản rõ hơn. Dù đề khó hay kết quả thế nào, nhóm vẫn đọc yêu cầu và rút kinh nghiệm."
+    },
+    {
+      "id": "l480-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l480-v1-e7",
+      "senseId": "l480-v-1193-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 一 + lượng từ + 比 + 一 + lượng từ + tính từ biểu thị tăng dần qua từng đơn vị: 报告一份比一份清楚. Không có nghĩa chỉ đúng hai bản. Bài so sánh bản trình bày qua các lần luyện."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,952 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "5942c7b4bc8206fdb2a343556376906b1f9d74a4cdf9119618a37b9c147d9111",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-closure-grammar",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L1106",
+    "version": 1,
+    "versionId": "l1106-draft-v1",
+    "title": "Hành động đang diễn ra: 在/正在…呢",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học trong tình huống viết mới; không thêm từ mục tiêu.",
+      "Bài nháp có hỗ trợ, không phải đề thi, không đo nghe/nói/viết tay hay cấp mastery."
+    ],
+    "prerequisites": [
+      "l167-draft-v1",
+      "l107-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "h1-closure-1106-grammar"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 6,
+      "physicalPage": 7,
+      "printedPage": 4,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed.",
+      "Original supplementary HSK1 grammar/character practice. Reused word identities; zero new vocabulary; technical mapping is not human approval."
+    ],
+    "alignmentCheckedAt": "2026-10-31T04:12:51.865Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-leisure",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 6,
+          "physicalPage": 7,
+          "printedPage": 4,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "交流休闲活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-task-person",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "一"
+        },
+        "written": "问答个人基本信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-968535cc2a54",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "休闲活动"
+        },
+        "written": "休闲活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-topic-ef12595fc2f1",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "身份、家庭成员、朋友、技能等"
+        },
+        "written": "身份、家庭成员、朋友、技能等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l167-v-99",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 99"
+        },
+        "written": "看",
+        "pinyin": "kàn",
+        "senseId": "l167-v-99-sense",
+        "ordinal": 99,
+        "note": "1 kàn 动; 看 trong 看电视 là xem tivi; đây là hoạt động được kể, không phải bài nghe/xem có chấm điểm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l167-v-299",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 299"
+        },
+        "written": "做",
+        "pinyin": "zuò",
+        "senseId": "l167-v-299-sense",
+        "ordinal": 299,
+        "note": "1 zuò 动; 做 dùng cho làm một việc, như 做什么; khác chữ 坐 cùng âm zuò. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l167-v-300",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 300"
+        },
+        "written": "做饭",
+        "pinyin": "zuò fàn",
+        "senseId": "l167-v-300-sense",
+        "ordinal": 300,
+        "note": "1 zuò fàn; 做饭 là nấu ăn; không dùng riêng 做 để mặc định là nấu ăn trong mọi câu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l167-v-286",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 286"
+        },
+        "written": "正在",
+        "pinyin": "zhèngzài",
+        "senseId": "l167-v-286-sense",
+        "ordinal": 286,
+        "note": "1 zhèngzài 副; 正在 đứng trước cụm hành động trong bài; không tự chứng minh hành động kéo dài bao lâu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l107-v-3",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 3"
+        },
+        "written": "爸爸",
+        "pinyin": "bàba",
+        "senseId": "l107-v-3-sense",
+        "ordinal": 3,
+        "note": "1 bàba 名; 爸爸 là cách gọi bố thân mật; âm sau thường nhẹ trong dạng từ điển ở bài. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l107-v-114",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 114"
+        },
+        "written": "妈妈",
+        "pinyin": "māma",
+        "senseId": "l107-v-114-sense",
+        "ordinal": 114,
+        "note": "1 māma 名; 妈妈 gọi mẹ; 我的妈妈 và 我妈妈 đều có thể chỉ mẹ của tôi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l107-v-68",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 68"
+        },
+        "written": "孩子",
+        "pinyin": "háizi",
+        "senseId": "l107-v-68-sense",
+        "ordinal": 68,
+        "note": "1 háizi 名; 孩子 có thể chỉ trẻ em hoặc con của ai theo ngữ cảnh, không chỉ con trai. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l107-v-87",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 87"
+        },
+        "written": "家人",
+        "pinyin": "jiārén",
+        "senseId": "l107-v-87-sense",
+        "ordinal": 87,
+        "note": "1 jiārén 名; 家人 là người trong gia đình; 这是我的家人 giới thiệu người nhà theo tình huống. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l107-v-86",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 86"
+        },
+        "written": "家",
+        "pinyin": "jiā",
+        "senseId": "l107-v-86-sense",
+        "ordinal": 86,
+        "note": "1（3） jiā 名、量、（后缀）; 家 trong 我家 nói nhà/gia đình tôi; không đồng nghĩa một người thân riêng lẻ. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-90",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "90"
+        },
+        "written": "看",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 90,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-246",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "246"
+        },
+        "written": "做",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 246,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-44",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "44"
+        },
+        "written": "饭",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 44,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-233",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "233"
+        },
+        "written": "正",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 233,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-227",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "227"
+        },
+        "written": "在",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 227,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-3",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "3"
+        },
+        "written": "爸",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 3,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-105",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "105"
+        },
+        "written": "妈",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 105,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-63",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "63"
+        },
+        "written": "孩",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 63,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-240",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "240"
+        },
+        "written": "子",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 240,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-80",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "80"
+        },
+        "written": "家",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 80,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-144",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "144"
+        },
+        "written": "人",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 144,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-closure-1106-grammar",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 387,
+          "physicalPage": 388,
+          "printedPage": 385,
+          "section": "grammar",
+          "entry": "g-387-7"
+        },
+        "written": "……在/正在+动词……+呢",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Pinned PDF physical body row7; only the explicitly taught subalternative is claimed. Vietnamese instruction is original unreviewed DRAFT."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l167-c3",
+      "version": 1,
+      "senseId": "l167-v-286-sense",
+      "hanzi": "正在",
+      "dictionaryPinyin": "zhèng zài",
+      "meaning": "đang (dạng zhèngzài)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l167-v-286"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l167-c2",
+      "version": 1,
+      "senseId": "l167-v-300-sense",
+      "hanzi": "做饭",
+      "dictionaryPinyin": "zuò fàn",
+      "meaning": "nấu ăn (dạng zuò fàn)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l167-v-300"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l167-c0",
+      "version": 1,
+      "senseId": "l167-v-99-sense",
+      "hanzi": "看",
+      "dictionaryPinyin": "kàn",
+      "meaning": "nhìn; xem (dạng kàn)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l167-v-99"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l107-c1",
+      "version": 1,
+      "senseId": "l107-v-114-sense",
+      "hanzi": "妈妈",
+      "dictionaryPinyin": "mā ma",
+      "meaning": "mẹ; má",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l107-v-114"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l1106-guide",
+      "type": "teaching",
+      "title": "Ôn có hỗ trợ",
+      "text": "Thử nhớ rồi đọc lại phần nhắc. Đây là ngữ cảnh mới của các nghĩa đã học; hoàn tất luyện không xác nhận mastery. Nhận diện chữ có lựa chọn khác với viết tay. Các từ hỗ trợ đều đã gặp trong nhóm trước.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1106-grammar",
+      "type": "teaching",
+      "title": "Cách nói và lỗi thường gặp",
+      "text": "Có thể nhấn hành động đang diễn ra bằng 在/正在 + động từ + 呢: 妈妈正在做饭呢. 呢 trong câu này không hỏi lại người khác như 你呢. Đặt 呢 cuối câu mô tả hành động; không đưa nó trước động từ. 在 ở đây đi với hành động, khác 在 + nơi chốn. Việc có 呢 không tự cho biết hành động kéo dài bao lâu.",
+      "hanzi": "妈妈正在做饭呢。",
+      "pinyin": "Mā ma zhèng zài zuò fàn ne.",
+      "meaning": "Mẹ đang nấu ăn đấy.",
+      "readingMinutes": 3
+    },
+    {
+      "id": "l1106-reminder0",
+      "type": "teaching",
+      "title": "正在 · đang (dạng zhèngzài)",
+      "text": "Nhắc nghĩa đã học: đang (dạng zhèngzài). Đọc ví dụ trong phạm vi nghĩa đã học; không đổi thẻ ôn.",
+      "hanzi": "我正在看电视。",
+      "pinyin": "Wǒ zhèng zài kàn diàn shì.",
+      "meaning": "Tôi đang xem tivi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1106-reminder1",
+      "type": "teaching",
+      "title": "做饭 · nấu ăn (dạng zuò fàn)",
+      "text": "Nhắc nghĩa đã học: nấu ăn (dạng zuò fàn). Đọc ví dụ trong phạm vi nghĩa đã học; không đổi thẻ ôn.",
+      "hanzi": "妈妈正在做饭。",
+      "pinyin": "Mā ma zhèng zài zuò fàn.",
+      "meaning": "Mẹ đang nấu ăn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1106-reminder2",
+      "type": "teaching",
+      "title": "看 · nhìn; xem (dạng kàn)",
+      "text": "Nhắc nghĩa đã học: nhìn; xem (dạng kàn). Đọc ví dụ trong phạm vi nghĩa đã học; không đổi thẻ ôn.",
+      "hanzi": "我正在看电视。",
+      "pinyin": "Wǒ zhèng zài kàn diàn shì.",
+      "meaning": "Tôi đang xem tivi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1106-reminder3",
+      "type": "teaching",
+      "title": "妈妈 · mẹ; má",
+      "text": "Nhắc nghĩa đã học: mẹ; má. Đọc ví dụ trong phạm vi nghĩa đã học; không đổi thẻ ôn.",
+      "hanzi": "我妈妈喜欢茶。",
+      "pinyin": "Wǒ mā ma xǐ huan chá.",
+      "meaning": "Mẹ tôi thích trà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1106-reading",
+      "type": "teaching",
+      "title": "Tình huống ôn mới",
+      "text": "Đọc toàn bộ lời đáp, kể cả phần phủ định. Đây là đọc chữ, chưa có audio tham chiếu được duyệt.",
+      "hanzi": "A：妈妈在做什么？\nB：她正在做饭呢。\nA：爸爸呢？\nB：他在看电视呢。",
+      "pinyin": "A: Mā ma zài zuò shén me? B: Tā zhèng zài zuò fàn ne. A: Bà ba ne? B: Tā zài kàn diàn shì ne.",
+      "meaning": "B mô tả mẹ đang nấu ăn, bố đang xem tivi. Câu 爸爸呢 hỏi lại về bố, còn 呢 cuối hai câu trả lời diễn tả hành động đang xảy ra.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l1106-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l1106-e0"
+    },
+    {
+      "id": "l1106-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l1106-e1"
+    },
+    {
+      "id": "l1106-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l1106-e2"
+    },
+    {
+      "id": "l1106-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l1106-e3"
+    },
+    {
+      "id": "l1106-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l1106-e4"
+    },
+    {
+      "id": "l1106-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l1106-e5"
+    },
+    {
+      "id": "l1106-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l1106-e6"
+    },
+    {
+      "id": "l1106-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l1106-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l1106-e0",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l167-c3",
+      "senseId": "l167-v-286-sense",
+      "keyRef": "l1106-k0",
+      "prompt": "Ghi pinyin từ điển của 正在 theo nghĩa “đang (dạng zhèngzài)”. Ví dụ mới: 我正在看电视。",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l1106-e1",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l167-c2",
+      "senseId": "l167-v-300-sense",
+      "keyRef": "l1106-k1",
+      "prompt": "Điền đúng mục từ đọc zuò fàn, nghĩa “nấu ăn (dạng zuò fàn)”: 妈妈正在□。 Chỉ nhập mục từ được hỏi, không chấm mọi cách diễn đạt ngoài đề.",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l1106-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l167-c0",
+      "senseId": "l167-v-99-sense",
+      "keyRef": "l1106-k2",
+      "prompt": "Trong câu mới “我正在看电视。”, 看 mang nghĩa nào theo bài?",
+      "choices": [
+        "mẹ; má",
+        "đang (dạng zhèngzài)",
+        "nấu ăn (dạng zuò fàn)",
+        "nhìn; xem (dạng kàn)"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l1106-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l107-c1",
+      "senseId": "l107-v-114-sense",
+      "keyRef": "l1106-k3",
+      "prompt": "Ghi pinyin từ điển của 妈妈 theo nghĩa “mẹ; má”. Ví dụ mới: 我妈妈喜欢茶。",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l1106-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l167-c3",
+      "senseId": "l167-v-286-sense",
+      "keyRef": "l1106-k4",
+      "prompt": "B mô tả mẹ đang làm gì?",
+      "choices": [
+        "开车",
+        "做饭",
+        "睡觉"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l1106-e5",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l167-c3",
+      "senseId": "l167-v-286-sense",
+      "keyRef": "l1106-k5",
+      "prompt": "Xếp các cụm thành câu mẫu đã nhắc, bắt đầu bằng “妈妈”; không tách cụm hoặc thêm từ.",
+      "choices": [
+        "妈妈",
+        "正在做饭",
+        "呢。"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l1106-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l167-c3",
+      "senseId": "l167-v-286-sense",
+      "keyRef": "l1106-k6",
+      "prompt": "Chọn câu đúng mẫu “Anh ấy đang đọc sách đấy”.",
+      "choices": [
+        "他呢正在读书。",
+        "他正在呢读书。",
+        "他正在读书呢。"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l1106-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l167-c3",
+      "senseId": "l167-v-286-sense",
+      "keyRef": "l1106-k7",
+      "prompt": "Trong 她正在做饭呢, 呢 thực hiện chức năng nào của bài?",
+      "choices": [
+        "Biến câu thành lời chào",
+        "Kèm lời mô tả hành động đang diễn ra",
+        "Hỏi tên của cô ấy"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l1106-k0",
+      "version": 1,
+      "exerciseVersionId": "l1106-e0",
+      "senseId": "l167-v-286-sense",
+      "accepted": [
+        "zhèng zài"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Mục từ ghi zhèng zài; cách đọc trong câu có thể có biến điệu."
+    },
+    {
+      "id": "l1106-k1",
+      "version": 1,
+      "exerciseVersionId": "l1106-e1",
+      "senseId": "l167-v-300-sense",
+      "accepted": [
+        "做饭"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Điền 做饭. Mẹ đang nấu ăn."
+    },
+    {
+      "id": "l1106-k2",
+      "version": 1,
+      "exerciseVersionId": "l1106-e2",
+      "senseId": "l167-v-99-sense",
+      "accepted": [
+        "nhìn; xem (dạng kàn)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "看: nhìn; xem (dạng kàn). Tôi đang xem tivi."
+    },
+    {
+      "id": "l1106-k3",
+      "version": 1,
+      "exerciseVersionId": "l1106-e3",
+      "senseId": "l107-v-114-sense",
+      "accepted": [
+        "mā ma"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Mục từ ghi mā ma; cách đọc trong câu có thể có biến điệu."
+    },
+    {
+      "id": "l1106-k4",
+      "version": 1,
+      "exerciseVersionId": "l1106-e4",
+      "senseId": "l167-v-286-sense",
+      "accepted": [
+        "做饭"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "B mô tả mẹ đang nấu ăn, bố đang xem tivi. Câu 爸爸呢 hỏi lại về bố, còn 呢 cuối hai câu trả lời diễn tả hành động đang xảy ra."
+    },
+    {
+      "id": "l1106-k5",
+      "version": 1,
+      "exerciseVersionId": "l1106-e5",
+      "senseId": "l167-v-286-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Câu: 妈妈正在做饭呢。"
+    },
+    {
+      "id": "l1106-k6",
+      "version": 1,
+      "exerciseVersionId": "l1106-e6",
+      "senseId": "l167-v-286-sense",
+      "accepted": [
+        "他正在读书呢。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "呢 đứng cuối câu trong mẫu đang diễn ra."
+    },
+    {
+      "id": "l1106-k7",
+      "version": 1,
+      "exerciseVersionId": "l1106-e7",
+      "senseId": "l167-v-286-sense",
+      "accepted": [
+        "Kèm lời mô tả hành động đang diễn ra"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Không đồng nhất chức năng này với hỏi lại 你呢 trong lời chào."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

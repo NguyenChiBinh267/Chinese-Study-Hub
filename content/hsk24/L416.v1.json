@@ -1,0 +1,790 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "e72d649eae3198e0403606c561a3167521853a86765fcfcda9822e4de0623050",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ebg",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L416",
+    "version": 1,
+    "versionId": "l416-draft-v1",
+    "title": "Gửi lại thông báo sau khi phát hiện lỗi",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Gửi lại thông báo sau khi phát hiện lỗi; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "既然……，就……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 25,
+      "physicalPage": 26,
+      "printedPage": 23,
+      "section": "task",
+      "entry": "十五"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T16:59:34.156008Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-office",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 25,
+          "physicalPage": 26,
+          "printedPage": 23,
+          "section": "task",
+          "entry": "十五"
+        },
+        "written": "谈论工作情况与表现",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-151497df0c50",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "办公事务"
+        },
+        "written": "办公事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l416-v-1215",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1215"
+        },
+        "written": "负责",
+        "pinyin": "fùzé",
+        "senseId": "l416-v-1215-sense",
+        "ordinal": 1215,
+        "note": "4 fùzé 动、形; 负责 có thể nhận công việc chịu trách nhiệm; ở đây không chỉ khen thái độ có trách nhiệm. Nhận diện chữ 负 trong 负责; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l416-v-1216",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1216"
+        },
+        "written": "负责人",
+        "pinyin": "fùzérén",
+        "senseId": "l416-v-1216-sense",
+        "ordinal": 1216,
+        "note": "4 fùzérén 名; 负责人 là người được giao chịu trách nhiệm; không mặc định chính là giám đốc toàn công ty. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l416-v-1186",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1186"
+        },
+        "written": "发送",
+        "pinyin": "fāsòng",
+        "senseId": "l416-v-1186-sense",
+        "ordinal": 1186,
+        "note": "4 fāsòng 动; 发送 thường nói gửi thông tin/tệp qua phương tiện truyền; nhận được phản hồi là bước khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l416-v-1185",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 108,
+          "physicalPage": 109,
+          "printedPage": 106,
+          "section": "vocabulary",
+          "entry": "ordinal 1185"
+        },
+        "written": "发出",
+        "pinyin": "fāchū",
+        "senseId": "l416-v-1185-sense",
+        "ordinal": 1185,
+        "note": "4 fāchū 动; 发出 nói đưa âm thanh/tín hiệu/thông báo ra; bài dùng với 通知, không phải mọi câu đều loại trừ 发送. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l416-v-1110",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1110"
+        },
+        "written": "错误",
+        "pinyin": "cuòwù",
+        "senseId": "l416-v-1110-sense",
+        "ordinal": 1110,
+        "note": "4 cuòwù 形、名; 错误 ở 发现错误 là danh từ; phát hiện lỗi chưa tự có nghĩa đã sửa xong. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l416-v-1218",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1218"
+        },
+        "written": "改",
+        "pinyin": "gǎi",
+        "senseId": "l416-v-1218-sense",
+        "ordinal": 1218,
+        "note": "4 gǎi 动; 改 trong 改日期、改错误 chỉ sửa đổi; cần nói rõ nội dung nào thay đổi. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-78",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "78"
+        },
+        "written": "负",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 78,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-407",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "407"
+        },
+        "written": "责",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 407,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-339",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "339"
+        },
+        "written": "误",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 339,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-81",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "81"
+        },
+        "written": "改",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 81,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-416",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "因果复句：既然，就"
+        },
+        "written": "既然……，就……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l416-c0",
+      "version": 1,
+      "senseId": "l416-v-1215-sense",
+      "hanzi": "负责",
+      "dictionaryPinyin": "fù zé",
+      "meaning": "phụ trách, chịu trách nhiệm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l416-v-1215"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l416-c1",
+      "version": 1,
+      "senseId": "l416-v-1216-sense",
+      "hanzi": "负责人",
+      "dictionaryPinyin": "fù zé rén",
+      "meaning": "người phụ trách",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l416-v-1216"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l416-c2",
+      "version": 1,
+      "senseId": "l416-v-1186-sense",
+      "hanzi": "发送",
+      "dictionaryPinyin": "fā sòng",
+      "meaning": "gửi đi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l416-v-1186"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l416-c3",
+      "version": 1,
+      "senseId": "l416-v-1185-sense",
+      "hanzi": "发出",
+      "dictionaryPinyin": "fā chū",
+      "meaning": "phát ra, phát đi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l416-v-1185"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l416-c4",
+      "version": 1,
+      "senseId": "l416-v-1110-sense",
+      "hanzi": "错误",
+      "dictionaryPinyin": "cuò wù",
+      "meaning": "lỗi, sai sót",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l416-v-1110"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l416-c5",
+      "version": 1,
+      "senseId": "l416-v-1218-sense",
+      "hanzi": "改",
+      "dictionaryPinyin": "gǎi",
+      "meaning": "sửa, đổi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l416-v-1218"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l416-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 更正 gēngzhèng: đính chính; 以…为准 yǐ…wéi zhǔn: lấy… làm chuẩn. Phân biệt từ ghép 发送/发出 phải dựa ngữ cảnh và phạm vi đề, không tạo quy tắc loại trừ tuyệt đối.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l416-t0",
+      "type": "teaching",
+      "title": "负责 · phụ trách, chịu trách nhiệm",
+      "text": "负责 có thể nhận công việc chịu trách nhiệm; ở đây không chỉ khen thái độ có trách nhiệm. Nhận diện chữ 负 trong 负责; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "我负责发送今天的通知。",
+      "pinyin": "Wǒ fùzé fāsòng jīntiān de tōngzhī.",
+      "meaning": "Tôi phụ trách gửi thông báo hôm nay.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l416-t1",
+      "type": "teaching",
+      "title": "负责人 · người phụ trách",
+      "text": "负责人 là người được giao chịu trách nhiệm; không mặc định chính là giám đốc toàn công ty.",
+      "hanzi": "请先联系这项工作的负责人。",
+      "pinyin": "Qǐng xiān liánxì zhè xiàng gōngzuò de fùzérén.",
+      "meaning": "Hãy liên hệ người phụ trách việc này trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l416-t2",
+      "type": "teaching",
+      "title": "发送 · gửi đi",
+      "text": "发送 thường nói gửi thông tin/tệp qua phương tiện truyền; nhận được phản hồi là bước khác.",
+      "hanzi": "她把文件发送给同事了。",
+      "pinyin": "Tā bǎ wénjiàn fāsòng gěi tóngshì le.",
+      "meaning": "Cô ấy đã gửi tệp cho đồng nghiệp.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l416-t3",
+      "type": "teaching",
+      "title": "发出 · phát ra, phát đi",
+      "text": "发出 nói đưa âm thanh/tín hiệu/thông báo ra; bài dùng với 通知, không phải mọi câu đều loại trừ 发送.",
+      "hanzi": "办公室发出了一份新通知。",
+      "pinyin": "Bàngōngshì fāchū le yí fèn xīn tōngzhī.",
+      "meaning": "Văn phòng phát đi một thông báo mới.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l416-t4",
+      "type": "teaching",
+      "title": "错误 · lỗi, sai sót",
+      "text": "错误 ở 发现错误 là danh từ; phát hiện lỗi chưa tự có nghĩa đã sửa xong.",
+      "hanzi": "我们发现日期有一个错误。",
+      "pinyin": "Wǒmen fāxiàn rìqī yǒu yí ge cuòwù.",
+      "meaning": "Chúng tôi phát hiện một lỗi ở ngày tháng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l416-t5",
+      "type": "teaching",
+      "title": "改 · sửa, đổi",
+      "text": "改 trong 改日期、改错误 chỉ sửa đổi; cần nói rõ nội dung nào thay đổi.",
+      "hanzi": "请把日期改成星期三。",
+      "pinyin": "Qǐng bǎ rìqī gǎi chéng Xīngqīsān.",
+      "meaning": "Hãy sửa ngày thành thứ tư.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l416-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "既然 xem vế đầu là điều đã được chấp nhận làm căn cứ, rồi 就 nêu việc nên làm: 既然发现错误，就马上改. Khác 要是 là còn giả thiết.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l416-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小孟负责发送通知。文件发出后，负责人发现日期有错误。她说既然发现了问题，就先改日期，再发更正说明。小孟改成星期三，重新发送，并请同事以新通知为准。",
+      "pinyin": "Xiǎo Mèng fùzé fāsòng tōngzhī. Wénjiàn fāchū hòu, fùzérén fāxiàn rìqī yǒu cuòwù. Tā shuō jìrán fāxiàn le wèntí, jiù xiān gǎi rìqī, zài fā gēngzhèng shuōmíng. Xiǎo Mèng gǎi chéng Xīngqīsān, chóngxīn fāsòng, bìng qǐng tóngshì yǐ xīn tōngzhī wéi zhǔn.",
+      "meaning": "Mạnh gửi thông báo rồi được báo có lỗi ngày. Cô sửa sang thứ tư, gửi lại và nhờ đồng nghiệp theo thông báo mới.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l416-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l416-v1-e0"
+    },
+    {
+      "id": "l416-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l416-v1-e1"
+    },
+    {
+      "id": "l416-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l416-v1-e2"
+    },
+    {
+      "id": "l416-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l416-v1-e3"
+    },
+    {
+      "id": "l416-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l416-v1-e4"
+    },
+    {
+      "id": "l416-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l416-v1-e5"
+    },
+    {
+      "id": "l416-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l416-v1-e6"
+    },
+    {
+      "id": "l416-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l416-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l416-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l416-c0",
+      "senseId": "l416-v-1215-sense",
+      "keyRef": "l416-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “phụ trách, chịu trách nhiệm”: □责 (fù zé). Ngữ cảnh: 我□发送今天的通知。",
+      "choices": [
+        "贝",
+        "员",
+        "贡",
+        "负"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l416-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l416-c1",
+      "senseId": "l416-v-1216-sense",
+      "keyRef": "l416-v1-k1",
+      "prompt": "Ghi pinyin của 负责人 trong câu “请先联系这项工作的负责人。”, theo nghĩa “người phụ trách”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l416-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l416-c2",
+      "senseId": "l416-v-1186-sense",
+      "keyRef": "l416-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “gửi đi”: 她把文件□给同事了。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l416-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l416-c3",
+      "senseId": "l416-v-1185-sense",
+      "keyRef": "l416-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “phát ra, phát đi” để điền câu: 办公室□了一份新通知。",
+      "choices": [
+        "错误",
+        "改",
+        "负责",
+        "负责人",
+        "发送",
+        "发出"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l416-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l416-c4",
+      "senseId": "l416-v-1110-sense",
+      "keyRef": "l416-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “lỗi, sai sót” để điền câu: 我们发现日期有一个□。",
+      "choices": [
+        "改",
+        "负责",
+        "负责人",
+        "发送",
+        "发出",
+        "错误"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l416-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l416-c5",
+      "senseId": "l416-v-1218-sense",
+      "keyRef": "l416-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “sửa, đổi”: 请把日期□成星期三。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l416-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l416-c0",
+      "senseId": "l416-v-1215-sense",
+      "keyRef": "l416-v1-k6",
+      "prompt": "Đồng nghiệp phải theo thông báo nào?",
+      "choices": [
+        "原来日期有误的通知",
+        "没有日期的口头猜测",
+        "更正后的新通知"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l416-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l416-c3",
+      "senseId": "l416-v-1185-sense",
+      "keyRef": "l416-v1-k7",
+      "prompt": "Xếp lập luận, bắt đầu bằng 既然发现错误.",
+      "choices": [
+        "就马上改",
+        "既然发现错误"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l416-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l416-v1-e0",
+      "senseId": "l416-v-1215-sense",
+      "accepted": [
+        "负"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 负 tạo từ 负责. 负责 có thể nhận công việc chịu trách nhiệm; ở đây không chỉ khen thái độ có trách nhiệm. Nhận diện chữ 负 trong 负责; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l416-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l416-v1-e1",
+      "senseId": "l416-v-1216-sense",
+      "accepted": [
+        "fù zé rén"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc fù zé rén. 负责人 là người được giao chịu trách nhiệm; không mặc định chính là giám đốc toàn công ty."
+    },
+    {
+      "id": "l416-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l416-v1-e2",
+      "senseId": "l416-v-1186-sense",
+      "accepted": [
+        "发送"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 发送. 发送 thường nói gửi thông tin/tệp qua phương tiện truyền; nhận được phản hồi là bước khác. Cô ấy đã gửi tệp cho đồng nghiệp."
+    },
+    {
+      "id": "l416-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l416-v1-e3",
+      "senseId": "l416-v-1185-sense",
+      "accepted": [
+        "发出"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "发出: phát ra, phát đi. 发出 nói đưa âm thanh/tín hiệu/thông báo ra; bài dùng với 通知, không phải mọi câu đều loại trừ 发送. Văn phòng phát đi một thông báo mới."
+    },
+    {
+      "id": "l416-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l416-v1-e4",
+      "senseId": "l416-v-1110-sense",
+      "accepted": [
+        "错误"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "错误: lỗi, sai sót. 错误 ở 发现错误 là danh từ; phát hiện lỗi chưa tự có nghĩa đã sửa xong. Chúng tôi phát hiện một lỗi ở ngày tháng."
+    },
+    {
+      "id": "l416-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l416-v1-e5",
+      "senseId": "l416-v-1218-sense",
+      "accepted": [
+        "改"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 改. 改 trong 改日期、改错误 chỉ sửa đổi; cần nói rõ nội dung nào thay đổi. Hãy sửa ngày thành thứ tư."
+    },
+    {
+      "id": "l416-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l416-v1-e6",
+      "senseId": "l416-v-1215-sense",
+      "accepted": [
+        "更正后的新通知"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 更正后的新通知. Mạnh gửi thông báo rồi được báo có lỗi ngày. Cô sửa sang thứ tư, gửi lại và nhờ đồng nghiệp theo thông báo mới."
+    },
+    {
+      "id": "l416-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l416-v1-e7",
+      "senseId": "l416-v-1185-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 既然 xem vế đầu là điều đã được chấp nhận làm căn cứ, rồi 就 nêu việc nên làm: 既然发现错误，就马上改. Khác 要是 là còn giả thiết."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

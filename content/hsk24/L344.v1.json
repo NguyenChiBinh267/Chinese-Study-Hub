@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "5387ce4c8a38307084a02468dd27a47899cbf6ed657957b4407035392dd6b4de",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-borrow-return",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L344",
+    "version": 1,
+    "versionId": "l344-draft-v1",
+    "title": "Mượn, trả và liên lạc ngân hàng",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc lời đề nghị mượn/trả đồ và thông tin liên lạc; giữ rõ người cho/nhận.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "向1"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-daily",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "交流、处理日常事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-business",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "业务办理"
+        },
+        "written": "业务办理",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l344-v-936",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 936"
+        },
+        "written": "银行",
+        "pinyin": "yínháng",
+        "senseId": "l344-v-936-sense",
+        "ordinal": 936,
+        "note": "3 yínháng 名; 银行 là cơ sở/ngân hàng, 行 đọc háng trong từ này, khác xíng là được/đi. Bài chỉ dùng tình huống hỏi thông tin. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l344-v-937",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 937"
+        },
+        "written": "银行卡",
+        "pinyin": "yínhángkǎ",
+        "senseId": "l344-v-937-sense",
+        "ordinal": 937,
+        "note": "3 yínhángkǎ 名; 银行卡 là tên chung thẻ ngân hàng; không tự chỉ riêng 信用卡. Không cần nhập số thẻ thật để luyện. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l344-v-666",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 666"
+        },
+        "written": "号码",
+        "pinyin": "hàomǎ",
+        "senseId": "l344-v-666-sense",
+        "ordinal": 666,
+        "note": "3 hàomǎ 名; 号码 là chuỗi số định danh/liên lạc như 电话号码; không đồng nghĩa mọi lượng đếm. 不 biết số từ câu hỏi chưa phải số thật. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l344-v-678",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 678"
+        },
+        "written": "还",
+        "pinyin": "huán",
+        "senseId": "l344-v-678-sense",
+        "ordinal": 678,
+        "note": "3 huán 动; 还 huán là trả đồ/trả lại, khác hái là còn/lại. 还给我 nêu người nhận lại đồ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l344-v-715",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 715"
+        },
+        "written": "借",
+        "pinyin": "jiè",
+        "senseId": "l344-v-715-sense",
+        "ordinal": 715,
+        "note": "3 jiè 动; 借 có thể là mượn hoặc cho mượn tùy kết cấu: 向你借是 mượn của bạn, 借给你是 cho bạn mượn. Không chỉ học một bản dịch rời. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l344-v-941",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 941"
+        },
+        "written": "用",
+        "pinyin": "yòng",
+        "senseId": "l344-v-941-sense",
+        "ordinal": 941,
+        "note": "3 yòng 动; 用 nêu công cụ hoặc sử dụng; 用笔写字 khác 借笔 mượn bút. Có quyền dùng chưa tự có quyền giữ lại. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-252",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "252"
+        },
+        "written": "银",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 252,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-235",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "235"
+        },
+        "written": "行",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 235,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-126",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "126"
+        },
+        "written": "卡",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 126,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-150",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "150"
+        },
+        "written": "码",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 150,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-115",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "115"
+        },
+        "written": "借",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 115,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-256",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "256"
+        },
+        "written": "用",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 256,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-to-someone",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "介词 / 引出对象 / 向1"
+        },
+        "written": "向1",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l344-c0",
+      "version": 1,
+      "senseId": "l344-v-936-sense",
+      "hanzi": "银行",
+      "dictionaryPinyin": "yín háng",
+      "meaning": "ngân hàng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l344-v-936"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l344-c1",
+      "version": 1,
+      "senseId": "l344-v-937-sense",
+      "hanzi": "银行卡",
+      "dictionaryPinyin": "yín háng kǎ",
+      "meaning": "thẻ ngân hàng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l344-v-937"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l344-c2",
+      "version": 1,
+      "senseId": "l344-v-666-sense",
+      "hanzi": "号码",
+      "dictionaryPinyin": "hào mǎ",
+      "meaning": "số/mã số",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l344-v-666"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l344-c3",
+      "version": 1,
+      "senseId": "l344-v-678-sense",
+      "hanzi": "还",
+      "dictionaryPinyin": "huán",
+      "meaning": "trả lại",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l344-v-678"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l344-c4",
+      "version": 1,
+      "senseId": "l344-v-715-sense",
+      "hanzi": "借",
+      "dictionaryPinyin": "jiè",
+      "meaning": "mượn/cho mượn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l344-v-715"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l344-c5",
+      "version": 1,
+      "senseId": "l344-v-941-sense",
+      "hanzi": "用",
+      "dictionaryPinyin": "yòng",
+      "meaning": "dùng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l344-v-941"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l344-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 填表 tián biǎo: điền mẫu; 工作人员 gōngzuò rényuán: nhân viên; 真实 zhēnshí: thật; 卡号 kǎhào: số thẻ. Đây là đọc ngôn ngữ, không thực hiện giao dịch hay hướng dẫn tài chính.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l344-t0",
+      "type": "teaching",
+      "title": "银行 · ngân hàng",
+      "text": "银行 là cơ sở/ngân hàng, 行 đọc háng trong từ này, khác xíng là được/đi. Bài chỉ dùng tình huống hỏi thông tin.",
+      "hanzi": "银行在学校旁边。",
+      "pinyin": "Yínháng zài xuéxiào pángbiān.",
+      "meaning": "Ngân hàng ở cạnh trường.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l344-t1",
+      "type": "teaching",
+      "title": "银行卡 · thẻ ngân hàng",
+      "text": "银行卡 là tên chung thẻ ngân hàng; không tự chỉ riêng 信用卡. Không cần nhập số thẻ thật để luyện.",
+      "hanzi": "他把银行卡放在包里。",
+      "pinyin": "Tā bǎ yínhángkǎ fàng zài bāo lǐ.",
+      "meaning": "Anh ấy đặt thẻ ngân hàng trong túi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l344-t2",
+      "type": "teaching",
+      "title": "号码 · số/mã số",
+      "text": "号码 là chuỗi số định danh/liên lạc như 电话号码; không đồng nghĩa mọi lượng đếm. 不 biết số từ câu hỏi chưa phải số thật.",
+      "hanzi": "请再说一遍电话号码。",
+      "pinyin": "Qǐng zài shuō yí biàn diànhuà hàomǎ.",
+      "meaning": "Hãy nói lại số điện thoại một lần.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l344-t3",
+      "type": "teaching",
+      "title": "还 · trả lại",
+      "text": "还 huán là trả đồ/trả lại, khác hái là còn/lại. 还给我 nêu người nhận lại đồ.",
+      "hanzi": "明天请把书还给我。",
+      "pinyin": "Míngtiān qǐng bǎ shū huán gěi wǒ.",
+      "meaning": "Ngày mai hãy trả sách cho tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l344-t4",
+      "type": "teaching",
+      "title": "借 · mượn/cho mượn",
+      "text": "借 có thể là mượn hoặc cho mượn tùy kết cấu: 向你借是 mượn của bạn, 借给你是 cho bạn mượn. Không chỉ học một bản dịch rời.",
+      "hanzi": "我向同事借了一支笔。",
+      "pinyin": "Wǒ xiàng tóngshì jiè le yì zhī bǐ.",
+      "meaning": "Tôi mượn một cây bút của đồng nghiệp.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l344-t5",
+      "type": "teaching",
+      "title": "用 · dùng",
+      "text": "用 nêu công cụ hoặc sử dụng; 用笔写字 khác 借笔 mượn bút. Có quyền dùng chưa tự có quyền giữ lại.",
+      "hanzi": "我用这支笔填表。",
+      "pinyin": "Wǒ yòng zhè zhī bǐ tián biǎo.",
+      "meaning": "Tôi dùng cây bút này điền biểu mẫu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l344-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "向同事借笔 nêu người mình hỏi mượn; 借给同事 là cho đồng nghiệp mượn. 还给 nêu người nhận lại. Cần đọc chủ thể để biết chiều hành động.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l344-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林去银行问银行卡的事情，要记一个电话号码。他向同事借笔，用笔记好，马上还给同事。工作人员说不需要在这个练习里写真实卡号；小林只练习读懂借和还的方向。",
+      "pinyin": "Xiǎo Lín qù yínháng wèn yínhángkǎ de shìqing, yào jì yí ge diànhuà hàomǎ. Tā xiàng tóngshì jiè bǐ, yòng bǐ jì hǎo, mǎshàng huán gěi tóngshì. Gōngzuò rényuán shuō bù xūyào zài zhège liànxí lǐ xiě zhēnshí kǎhào; Xiǎo Lín zhǐ liànxí dú dǒng jiè hé huán de fāngxiàng.",
+      "meaning": "Lâm hỏi thông tin thẻ, mượn bút của đồng nghiệp để ghi số điện thoại rồi trả ngay. Bài không cần số thẻ thật; chỉ luyện chiều mượn và trả.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l344-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l344-v1-e0"
+    },
+    {
+      "id": "l344-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l344-v1-e1"
+    },
+    {
+      "id": "l344-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l344-v1-e2"
+    },
+    {
+      "id": "l344-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l344-v1-e3"
+    },
+    {
+      "id": "l344-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l344-v1-e4"
+    },
+    {
+      "id": "l344-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l344-v1-e5"
+    },
+    {
+      "id": "l344-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l344-v1-e6"
+    },
+    {
+      "id": "l344-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l344-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l344-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l344-c0",
+      "senseId": "l344-v-936-sense",
+      "keyRef": "l344-v1-k0",
+      "prompt": "Nơi tổ chức dịch vụ ngân hàng: □在学校旁边。",
+      "choices": [
+        "银行卡",
+        "号码",
+        "还",
+        "借",
+        "用",
+        "银行"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l344-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l344-c1",
+      "senseId": "l344-v-937-sense",
+      "keyRef": "l344-v1-k1",
+      "prompt": "Tên chung thẻ ngân hàng: 把□放在包里。",
+      "choices": [
+        "号码",
+        "还",
+        "借",
+        "用",
+        "银行",
+        "银行卡"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l344-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l344-c2",
+      "senseId": "l344-v-666-sense",
+      "keyRef": "l344-v1-k2",
+      "prompt": "Phần số trong 电话□。",
+      "choices": [
+        "还",
+        "借",
+        "用",
+        "银行",
+        "银行卡",
+        "号码"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l344-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l344-c3",
+      "senseId": "l344-v-678-sense",
+      "keyRef": "l344-v1-k3",
+      "prompt": "Viết pinyin của 还 trong câu “明天请把书还给我。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l344-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l344-c4",
+      "senseId": "l344-v-715-sense",
+      "keyRef": "l344-v1-k4",
+      "prompt": "Điền động từ mượn trong 向同事□笔。",
+      "choices": [
+        "用",
+        "银行",
+        "银行卡",
+        "号码",
+        "还",
+        "借"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l344-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l344-c5",
+      "senseId": "l344-v-941-sense",
+      "keyRef": "l344-v1-k5",
+      "prompt": "Nêu công cụ sử dụng: 我□这支笔填表。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l344-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l344-c0",
+      "senseId": "l344-v-936-sense",
+      "keyRef": "l344-v1-k6",
+      "prompt": "Ai được trả lại bút?",
+      "choices": [
+        "银行本身",
+        "没有还",
+        "同事"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l344-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l344-c3",
+      "senseId": "l344-v-678-sense",
+      "keyRef": "l344-v1-k7",
+      "prompt": "Xếp câu mượn từ người khác, bắt đầu bằng 我.",
+      "choices": [
+        "借笔",
+        "向同事",
+        "我"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l344-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l344-v1-e0",
+      "senseId": "l344-v-936-sense",
+      "accepted": [
+        "银行"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "银行: ngân hàng. 银行 là cơ sở/ngân hàng, 行 đọc háng trong từ này, khác xíng là được/đi. Bài chỉ dùng tình huống hỏi thông tin. Ngân hàng ở cạnh trường."
+    },
+    {
+      "id": "l344-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l344-v1-e1",
+      "senseId": "l344-v-937-sense",
+      "accepted": [
+        "银行卡"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "银行卡: thẻ ngân hàng. 银行卡 là tên chung thẻ ngân hàng; không tự chỉ riêng 信用卡. Không cần nhập số thẻ thật để luyện. Anh ấy đặt thẻ ngân hàng trong túi."
+    },
+    {
+      "id": "l344-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l344-v1-e2",
+      "senseId": "l344-v-666-sense",
+      "accepted": [
+        "号码"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "号码: số/mã số. 号码 là chuỗi số định danh/liên lạc như 电话号码; không đồng nghĩa mọi lượng đếm. 不 biết số từ câu hỏi chưa phải số thật. Hãy nói lại số điện thoại một lần."
+    },
+    {
+      "id": "l344-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l344-v1-e3",
+      "senseId": "l344-v-678-sense",
+      "accepted": [
+        "huán"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "还: trả lại. 还 huán là trả đồ/trả lại, khác hái là còn/lại. 还给我 nêu người nhận lại đồ. Ngày mai hãy trả sách cho tôi."
+    },
+    {
+      "id": "l344-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l344-v1-e4",
+      "senseId": "l344-v-715-sense",
+      "accepted": [
+        "借"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "借: mượn/cho mượn. 借 có thể là mượn hoặc cho mượn tùy kết cấu: 向你借是 mượn của bạn, 借给你是 cho bạn mượn. Không chỉ học một bản dịch rời. Tôi mượn một cây bút của đồng nghiệp."
+    },
+    {
+      "id": "l344-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l344-v1-e5",
+      "senseId": "l344-v-941-sense",
+      "accepted": [
+        "用"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "用: dùng. 用 nêu công cụ hoặc sử dụng; 用笔写字 khác 借笔 mượn bút. Có quyền dùng chưa tự có quyền giữ lại. Tôi dùng cây bút này điền biểu mẫu."
+    },
+    {
+      "id": "l344-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l344-v1-e6",
+      "senseId": "l344-v-936-sense",
+      "accepted": [
+        "同事"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 向同事借笔 nêu người mình hỏi mượn; 借给同事 là cho đồng nghiệp mượn. 还给 nêu người nhận lại. Cần đọc chủ thể để biết chiều hành động."
+    },
+    {
+      "id": "l344-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l344-v1-e7",
+      "senseId": "l344-v-678-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 向同事借笔 nêu người mình hỏi mượn; 借给同事 là cho đồng nghiệp mượn. 还给 nêu người nhận lại. Cần đọc chủ thể để biết chiều hành động."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

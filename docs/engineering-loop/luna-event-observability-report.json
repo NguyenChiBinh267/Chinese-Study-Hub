@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-16T07:44:54.736Z",
+  "baseCommit": "77ecaf2ebcdf6e4fa268ea4ae91d61ea35308835",
+  "branch": "loop/adaptive-model-routing",
+  "status": "MOCK_VERIFIED_NO_INFERENCE",
+  "runtimeReadiness": "HISTORICAL_SMOKE_STILL_BLOCKED_NOT_RETESTED",
+  "scope": "Smoke observability and event handling only",
+  "schemaEvidence": {
+    "installedCliVersion": "0.153.4",
+    "verification": "Local --version and app-server schema help only; no exec/inference",
+    "primarySource": "https://raw.githubusercontent.com/openai/codex/rust-v0.153.4/codex-rs/exec/src/exec_events.rs",
+    "corroboratingSources": [
+      "https://raw.githubusercontent.com/openai/codex/rust-v0.153.4/sdk/typescript/src/events.ts",
+      "https://raw.githubusercontent.com/openai/codex/rust-v0.153.4/sdk/typescript/src/items.ts"
+    ],
+    "appServerProtocolNotUsedAsExecAllowlist": true
+  },
+  "eventHandling": {
+    "recognizedEvents": [
+      "thread.started",
+      "turn.started",
+      "turn.completed",
+      "turn.failed",
+      "error",
+      "item.started",
+      "item.updated",
+      "item.completed"
+    ],
+    "continuingItems": [
+      "agent_message",
+      "reasoning"
+    ],
+    "errorItem": "Recognized CLI notification; conservatively rejected with REPORTED_CLI_ERROR_ITEM, never counted as a tool or PASS",
+    "deniedItems": [
+      "command_execution",
+      "file_change",
+      "mcp_tool_call",
+      "collab_tool_call",
+      "web_search",
+      "todo_list"
+    ],
+    "unknownOrMalformed": "Stop with explicit reason and no replay",
+    "recordedMetadata": [
+      "eventType",
+      "itemType",
+      "eventFields",
+      "itemFields",
+      "eventFieldCount",
+      "itemFieldCount",
+      "action",
+      "reason",
+      "payloadRetained=false"
+    ],
+    "valuesNotRetained": [
+      "text",
+      "message",
+      "thread/item IDs",
+      "commands",
+      "tool arguments/results",
+      "reasoning"
+    ],
+    "bounds": {
+      "journalRecords": 32,
+      "fieldsPerShape": 32,
+      "firstRejectionAlwaysRetained": true
+    },
+    "unsafeIdentifiersRedacted": true,
+    "stopIsIdempotent": true
+  },
+  "stderrHandling": {
+    "method": "Allowlisted static summaries and safe field projection; arbitrary raw text never logged",
+    "safeFields": [
+      "HTTP status",
+      "fixed error-code labels",
+      "bounded model-name mentions (not identity proof)"
+    ],
+    "omissionReasons": [
+      "UNRECOGNIZED_TEXT_CANNOT_BE_SAFELY_PERSISTED",
+      "NON_STRING_ERROR_PAYLOAD_NOT_PERSISTED",
+      "STDERR_LINE_EXCEEDS_SAFE_BUFFER_LIMIT"
+    ],
+    "omissionFields": [
+      "source",
+      "bytes or observedBytesAtLeast",
+      "sensitivePatternDetected",
+      "payloadRetained=false"
+    ],
+    "maxLineCharacters": 4096,
+    "maxOmissionRecords": 8,
+    "maxErrorDetailRecords": 8,
+    "fragmentedUtf8Handled": true,
+    "noSilentUnknownTextDrop": true
+  },
+  "validation": {
+    "passed": 70,
+    "failed": 0,
+    "files": [
+      "tools/engineering-loop/model-routing.test.mjs",
+      "tools/engineering-loop/local.test.mjs"
+    ],
+    "artifact": ".engineering-loop/luna-event-observability-tests.xml",
+    "sha256": "ae673d9bae70499b4bf63635f67544c4c4c1e63ca2c9a3f188a78dfc07b8c74b",
+    "fakeProcessStreamsOnly": true,
+    "testsCover": [
+      "Valid lifecycle and item.updated with fragmented/final-no-newline JSON",
+      "Error item versus tool",
+      "Unknown event/item shape and rejection reason",
+      "All denied item types on started/updated/completed",
+      "Malformed JSON/envelope/usage and exit 1",
+      "Secret-safe stderr, omissions and bounded logs",
+      "Unsafe identifier/key labels",
+      "One stop and first-cause persistence",
+      "Existing routing, quota, budgets, read-only and identity guards"
+    ]
+  },
+  "historicalEvidence": {
+    "report": "docs/engineering-loop/luna-smoke-fix-report.json",
+    "reportUnchanged": true,
+    "rawReportUnchanged": true,
+    "missingHistoricalPayloadNotRecovered": true,
+    "harnessArchive": ".engineering-loop/luna-fixed-smoke-original-77ecaf2.mjs",
+    "archiveSha256": "9aedbfaa2bfeedb80a513973a18b9086846864002f920b86681a9f6835dd5c35",
+    "localWrapper": ".engineering-loop/luna-fixed-smoke.mjs",
+    "localWrapperSha256": "b3e031573495421557e9aee96e47ccd3a62154572e3baf33cb9aeea14294db17",
+    "localWrapperDelegatesToTrackedGuard": true,
+    "proofIdAndHeadGateNotReset": true
+  },
+  "safety": {
+    "modelInferenceCalls": 0,
+    "modelProcessesLaunched": 0,
+    "modelReviewerRun": false,
+    "subagentsStarted": 0,
+    "smokeRun": false,
+    "bootstrapRun": false,
+    "multiProofRun": false,
+    "realBacklogRun": false,
+    "liveEnabled": false,
+    "authorizedTasks": [],
+    "autoMerge": false,
+    "ssotAllowStatusWrites": false,
+    "bootstrapMergeAuthorization": null,
+    "zeroTouchAuthorization": null,
+    "control": {
+      "pause": false,
+      "stop": true,
+      "changedAt": "2026-10-14T10:03:53.852Z"
+    },
+    "routingReviewerAndGrantsUnchanged": true,
+    "paidApiOrCreditsUsed": false,
+    "pushed": false,
+    "merged": false,
+    "deployed": false
+  },
+  "limitations": [
+    "No actual model availability, identity telemetry, token consumption or quota saving verified.",
+    "Previous missing item type/body and omitted stderr remain unrecoverable.",
+    "Unknown diagnostic text can remain omitted for safety; reason/shape/byte evidence now explains why.",
+    "Mock acceptance does not override independent actual-model/acceptance gates or authorize a new smoke."
+  ]
+}

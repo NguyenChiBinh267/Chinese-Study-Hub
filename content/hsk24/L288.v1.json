@@ -1,0 +1,1447 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "2577188bc28beafe294663c3aa6e76aae1228122f2d58dd74b0a63f4437d954a",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "body-and-cleaning",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L288",
+    "version": 1,
+    "versionId": "l288-draft-v1",
+    "title": "Chẩn đoán mẫu chữ và ngữ cảnh · 14",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Chẩn đoán mẫu chữ và ngữ cảnh đã học; kết quả từng câu, không chứng nhận trình độ.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l227-draft-v1",
+      "l228-draft-v1",
+      "l229-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 10,
+      "physicalPage": 11,
+      "printedPage": 8,
+      "section": "task",
+      "entry": "十"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-health",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "十"
+        },
+        "written": "问答生病、探病",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-leisure",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "交流休闲活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-shopping",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "九"
+        },
+        "written": "问答商品情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-healthcare",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 医疗健康 / 就医"
+        },
+        "written": "就医",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-leisure",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 休闲 / 休闲活动"
+        },
+        "written": "休闲活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-product-description",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 购物 / 商品描述"
+        },
+        "written": "商品描述",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l227-v-445",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 445"
+        },
+        "written": "头",
+        "pinyin": "tóu",
+        "senseId": "l227-v-445-sense",
+        "ordinal": 445,
+        "note": "2（3）（5） tóu 名、（量）、（形）; 头 ở đây là danh từ đầu. Không dạy nghĩa lượng từ đếm động vật hoặc nghĩa tính từ ở cấp khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l227-v-433",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 433"
+        },
+        "written": "手",
+        "pinyin": "shǒu",
+        "senseId": "l227-v-433-sense",
+        "ordinal": 433,
+        "note": "2 shǒu 名; 手 chỉ bàn tay trong 洗手. Đừng nhầm với 首 dù cùng cách đọc trong một số ngữ cảnh khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l227-v-467",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 467"
+        },
+        "written": "眼睛",
+        "pinyin": "yǎnjing",
+        "senseId": "l227-v-467-sense",
+        "ordinal": 467,
+        "note": "2 yǎnjing 名; 睛 đọc nhẹ trong 眼睛. Không phải mọi bộ phận nhìn thấy trên mặt đều gọi là 眼睛. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l227-v-456",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 456"
+        },
+        "written": "洗",
+        "pinyin": "xǐ",
+        "senseId": "l227-v-456-sense",
+        "ordinal": 456,
+        "note": "2 xǐ 动; 洗 kết hợp với đối tượng: 洗手 rửa tay, 洗衣服 giặt quần áo. Không có một nghĩa tiếng Việt duy nhất cho mọi vật. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l227-v-457",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 457"
+        },
+        "written": "洗手间",
+        "pinyin": "xǐshǒujiān",
+        "senseId": "l227-v-457-sense",
+        "ordinal": 457,
+        "note": "2 xǐshǒujiān 名; 洗手间 là cách gọi nhà vệ sinh lịch sự, không chỉ riêng chiếc bồn rửa tay. Pinyin từ điển giữ hai thanh ba ở xǐ/shǒu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l227-v-338",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 338"
+        },
+        "written": "动",
+        "pinyin": "dòng",
+        "senseId": "l227-v-338-sense",
+        "ordinal": 338,
+        "note": "2 dòng 动; 动 trong 动一动 là cử động một chút. Không dùng nó làm tên một môn thể thao cụ thể. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l227-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "有点儿",
+        "pinyin": "yǒu diǎnr",
+        "senseId": "l227-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: hơi; cấp chưa xác minh."
+      },
+      {
+        "id": "l227-extra1",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "很久",
+        "pinyin": "hěn jiǔ",
+        "senseId": "l227-extra1-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: lâu; cấp chưa xác minh."
+      },
+      {
+        "id": "l227-extra2",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "然后",
+        "pinyin": "rán hòu",
+        "senseId": "l227-extra2-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: sau đó; chưa xác minh cấp, chỉ nối trình tự."
+      },
+      {
+        "id": "l228-v-358",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 358"
+        },
+        "written": "花2",
+        "pinyin": "huā",
+        "senseId": "l228-v-358-sense",
+        "ordinal": 358,
+        "note": "2（6） huā 名、（形）; 花2 là danh từ hoa. Cùng âm với động từ 花 tiêu tiền nhưng khác mục từ và nghĩa, không gộp hai bài thành một sense. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l228-v-359",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 359"
+        },
+        "written": "画",
+        "pinyin": "huà",
+        "senseId": "l228-v-359-sense",
+        "ordinal": 359,
+        "note": "2 huà 动、名; 画 trong 画一只鸟 là động từ vẽ. Khi nói 一幅画 thì là danh từ bức tranh; bài không dùng nghĩa danh từ làm đáp án của câu động từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l228-v-411",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 411"
+        },
+        "written": "鸟",
+        "pinyin": "niǎo",
+        "senseId": "l228-v-411-sense",
+        "ordinal": 411,
+        "note": "2 niǎo 名; 鸟 là chim; một con chim không tự cho biết loài cụ thể. Không thêm tên loài không có trong câu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l228-v-421",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 421"
+        },
+        "written": "球",
+        "pinyin": "qiú",
+        "senseId": "l228-v-421-sense",
+        "ordinal": 421,
+        "note": "2 qiú 名; 球 nói bóng nói chung, chưa xác định bóng đá hay bóng rổ khi ngữ cảnh không nêu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l228-v-477",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 477"
+        },
+        "written": "游",
+        "pinyin": "yóu",
+        "senseId": "l228-v-477-sense",
+        "ordinal": 477,
+        "note": "2 yóu 动; 游 ở đây là bơi của cá; không dùng nghĩa đi tham quan trong từ ghép để trả lời. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l228-v-414",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 414"
+        },
+        "written": "跑",
+        "pinyin": "pǎo",
+        "senseId": "l228-v-414-sense",
+        "ordinal": 414,
+        "note": "2 pǎo 动; 跑 chỉ chạy trong câu này, không phải đi bộ chậm. 跑步 là tên hoạt động chạy bộ đã học. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l228-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "朵",
+        "pinyin": "duǒ",
+        "senseId": "l228-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: lượng từ đếm hoa; cấp chưa kiểm chứng."
+      },
+      {
+        "id": "l228-extra1",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "只",
+        "pinyin": "zhī",
+        "senseId": "l228-extra1-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY hỗ trợ đếm chim; không tính thêm vào HSK2."
+      },
+      {
+        "id": "l228-extra2",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "幅",
+        "pinyin": "fú",
+        "senseId": "l228-extra2-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: lượng từ cho bức tranh; cấp chưa kiểm chứng."
+      },
+      {
+        "id": "l228-extra3",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "树",
+        "pinyin": "shù",
+        "senseId": "l228-extra3-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: cây; cấp chưa kiểm chứng."
+      },
+      {
+        "id": "l229-v-307",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 307"
+        },
+        "written": "包",
+        "pinyin": "bāo",
+        "senseId": "l229-v-307-sense",
+        "ordinal": 307,
+        "note": "2 bāo 动、名、量; 包 ở đây là danh từ túi. Nguồn còn ghi động từ/lượng từ, nhưng bài chỉ chấm nghĩa danh từ trong 这个包. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-423",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 423"
+        },
+        "written": "肉",
+        "pinyin": "ròu",
+        "senseId": "l229-v-423-sense",
+        "ordinal": 423,
+        "note": "2 ròu 名; 肉 chỉ thịt nói chung; câu không nêu loại thì không tự kết luận thịt bò hay thịt lợn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-357",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 357"
+        },
+        "written": "花1",
+        "pinyin": "huā",
+        "senseId": "l229-v-357-sense",
+        "ordinal": 357,
+        "note": "2 huā 动; 花1 trong 花钱 là động từ chi tiêu. Không chọn nghĩa bông hoa ở ngữ cảnh này dù cùng đọc huā. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-449",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 449"
+        },
+        "written": "万",
+        "pinyin": "wàn",
+        "senseId": "l229-v-449-sense",
+        "ordinal": 449,
+        "note": "2 wàn 数; 万 là đơn vị số đếm 10.000. 一万 = mười nghìn, không phải một triệu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-402",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 402"
+        },
+        "written": "门票",
+        "pinyin": "ménpiào",
+        "senseId": "l229-v-402-sense",
+        "ordinal": 402,
+        "note": "2 ménpiào 名; 门票 là vé vào một địa điểm/sự kiện; khác 机票 là vé máy bay. Không suy ra được miễn phí nếu chỉ nói có vé. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-360",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 360"
+        },
+        "written": "坏",
+        "pinyin": "huài",
+        "senseId": "l229-v-360-sense",
+        "ordinal": 360,
+        "note": "2 huài 形; 坏 ở đây là hỏng đồ vật. Không dùng nghĩa đạo đức xấu của người để trả lời câu điện thoại hỏng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "千",
+        "pinyin": "qiān",
+        "senseId": "l229-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: nghìn; nhắc để đối chiếu 万, không tính vào mục từ HSK2 mới."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-87",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "87"
+        },
+        "written": "头",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 87,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-102",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "102"
+        },
+        "written": "眼",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 102,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-39",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "39"
+        },
+        "written": "睛",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 39,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-98",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "98"
+        },
+        "written": "洗",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 98,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-19",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "19"
+        },
+        "written": "动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 19,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-28",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "28"
+        },
+        "written": "花",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 28,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-29",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "29"
+        },
+        "written": "画",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 29,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-59",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "59"
+        },
+        "written": "鸟",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 59,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-66",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "66"
+        },
+        "written": "球",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 66,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-110",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "110"
+        },
+        "written": "游",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 110,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-61",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "61"
+        },
+        "written": "跑",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 61,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-69",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "69"
+        },
+        "written": "肉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 69,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-89",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "89"
+        },
+        "written": "万",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 89,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "门",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-62",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "62"
+        },
+        "written": "票",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 62,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-30",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "30"
+        },
+        "written": "坏",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 30,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-serial",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "短语 / 其他结构类型 / 连谓短语"
+        },
+        "written": "（2）连谓短语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-g-reduplication",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "动词 / 动词重叠"
+        },
+        "written": "AA、A一A、A了A、ABAB",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-g-ten-thousand",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "词类 / 数词 / 万"
+        },
+        "written": "万、好多、多",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l227-c2",
+      "version": 1,
+      "senseId": "l227-v-467-sense",
+      "hanzi": "眼睛",
+      "dictionaryPinyin": "yǎn jing",
+      "meaning": "mắt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l227-v-467"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l227-c3",
+      "version": 1,
+      "senseId": "l227-v-456-sense",
+      "hanzi": "洗",
+      "dictionaryPinyin": "xǐ",
+      "meaning": "rửa, giặt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l227-v-456"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l228-c1",
+      "version": 1,
+      "senseId": "l228-v-359-sense",
+      "hanzi": "画",
+      "dictionaryPinyin": "huà",
+      "meaning": "vẽ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l228-v-359"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l228-c2",
+      "version": 1,
+      "senseId": "l228-v-411-sense",
+      "hanzi": "鸟",
+      "dictionaryPinyin": "niǎo",
+      "meaning": "chim",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l228-v-411"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l229-c3",
+      "version": 1,
+      "senseId": "l229-v-449-sense",
+      "hanzi": "万",
+      "dictionaryPinyin": "wàn",
+      "meaning": "mười nghìn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l229-v-449"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l229-c5",
+      "version": 1,
+      "senseId": "l229-v-360-sense",
+      "hanzi": "坏",
+      "dictionaryPinyin": "huài",
+      "meaning": "hỏng, không còn hoạt động tốt trong câu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l229-v-360"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l288-guide",
+      "type": "teaching",
+      "title": "Chẩn đoán mẫu · không phải đề HSK",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l288-reminder0",
+      "type": "teaching",
+      "title": "眼睛 · mắt",
+      "text": "睛 đọc nhẹ trong 眼睛. Không phải mọi bộ phận nhìn thấy trên mặt đều gọi là 眼睛.",
+      "hanzi": "我的眼睛有点儿累。",
+      "pinyin": "Wǒ de yǎnjing yǒudiǎnr lèi.",
+      "meaning": "Mắt tôi hơi mỏi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l288-reminder1",
+      "type": "teaching",
+      "title": "手 · tay",
+      "text": "手 chỉ bàn tay trong 洗手. Đừng nhầm với 首 dù cùng cách đọc trong một số ngữ cảnh khác.",
+      "hanzi": "请洗手再吃饭。",
+      "pinyin": "Qǐng xǐ shǒu zài chī fàn.",
+      "meaning": "Hãy rửa tay rồi ăn cơm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l288-reminder2",
+      "type": "teaching",
+      "title": "花 · bông hoa",
+      "text": "花2 là danh từ hoa. Cùng âm với động từ 花 tiêu tiền nhưng khác mục từ và nghĩa, không gộp hai bài thành một sense.",
+      "hanzi": "我想画一朵花。",
+      "pinyin": "Wǒ xiǎng huà yì duǒ huā.",
+      "meaning": "Tôi muốn vẽ một bông hoa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l288-reminder3",
+      "type": "teaching",
+      "title": "画 · vẽ",
+      "text": "画 trong 画一只鸟 là động từ vẽ. Khi nói 一幅画 thì là danh từ bức tranh; bài không dùng nghĩa danh từ làm đáp án của câu động từ.",
+      "hanzi": "她在画一只鸟。",
+      "pinyin": "Tā zài huà yì zhī niǎo.",
+      "meaning": "Cô ấy đang vẽ một con chim.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l288-reminder4",
+      "type": "teaching",
+      "title": "万 · mười nghìn",
+      "text": "万 là đơn vị số đếm 10.000. 一万 = mười nghìn, không phải một triệu.",
+      "hanzi": "一万比一千多。",
+      "pinyin": "Yí wàn bǐ yì qiān duō.",
+      "meaning": "Mười nghìn lớn hơn một nghìn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l288-reminder5",
+      "type": "teaching",
+      "title": "坏 · hỏng, không còn hoạt động tốt trong câu",
+      "text": "坏 ở đây là hỏng đồ vật. Không dùng nghĩa đạo đức xấu của người để trả lời câu điện thoại hỏng.",
+      "hanzi": "我的手机坏了。",
+      "pinyin": "Wǒ de shǒujī huài le.",
+      "meaning": "Điện thoại của tôi hỏng rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l288-context0",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：你的眼睛怎么了？乙：看书看得有点儿累。甲：我们去洗手间洗手，然后吃饭吧。乙：好，我也想起来动一动。",
+      "pinyin": "Jiǎ: Nǐ de yǎnjing zěnme le? Yǐ: Kàn shū kàn de yǒudiǎnr lèi. Jiǎ: Wǒmen qù xǐshǒujiān xǐ shǒu, ránhòu chī fàn ba. Yǐ: Hǎo, wǒ yě xiǎng qǐlái dòng yi dòng.",
+      "meaning": "A: Mắt bạn sao vậy? B: Đọc sách hơi mỏi. A: Chúng ta đến nhà vệ sinh rửa tay rồi ăn cơm nhé. B: Được, tôi cũng muốn đứng dậy cử động một chút.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l288-context1",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "今天我们在外面画画。妹妹画一朵花，我画一只鸟。弟弟不画，他拿着球在跑。我们看见水里的鱼在游。",
+      "pinyin": "Jīntiān wǒmen zài wàimiàn huà huà. Mèimei huà yì duǒ huā, wǒ huà yì zhī niǎo. Dìdi bú huà, tā ná zhe qiú zài pǎo. Wǒmen kànjiàn shuǐ li de yú zài yóu.",
+      "meaning": "Hôm nay chúng tôi vẽ ở ngoài. Em gái vẽ hoa, tôi vẽ chim. Em trai không vẽ, em cầm bóng chạy. Chúng tôi thấy cá bơi trong nước.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l288-context2",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：明天出去玩，门票买了吗？乙：买好了。我还想买一些肉和水。甲：用这个包吧。乙：这个包坏了，我们用那个。",
+      "pinyin": "Jiǎ: Míngtiān chūqù wán, ménpiào mǎi le ma? Yǐ: Mǎi hǎo le. Wǒ hái xiǎng mǎi yìxiē ròu hé shuǐ. Jiǎ: Yòng zhège bāo ba. Yǐ: Zhège bāo huài le, wǒmen yòng nàge.",
+      "meaning": "A: Mai đi chơi, mua vé vào cửa chưa? B: Mua xong rồi. Tôi còn muốn mua ít thịt và nước. A: Dùng túi này nhé. B: Túi này hỏng rồi, dùng túi kia đi.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l288-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l288-e0"
+    },
+    {
+      "id": "l288-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l288-e1"
+    },
+    {
+      "id": "l288-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l288-e2"
+    },
+    {
+      "id": "l288-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l288-e3"
+    },
+    {
+      "id": "l288-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l288-e4"
+    },
+    {
+      "id": "l288-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l288-e5"
+    },
+    {
+      "id": "l288-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l288-e6"
+    },
+    {
+      "id": "l288-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l288-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l288-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l227-c2",
+      "senseId": "l227-v-467-sense",
+      "keyRef": "l288-k0",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “mắt” (yǎn jing) viết 眼□. Điền chữ nào vào □?",
+      "choices": [
+        "乐",
+        "累",
+        "离",
+        "睛"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l288-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l227-c3",
+      "senseId": "l227-v-456-sense",
+      "keyRef": "l288-k1",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “rửa, giặt” (xǐ) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "表",
+        "别",
+        "洗",
+        "笔"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l288-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l228-c1",
+      "senseId": "l228-v-359-sense",
+      "keyRef": "l288-k2",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “vẽ” (huà) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "睛",
+        "画",
+        "近",
+        "经"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l288-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l228-c2",
+      "senseId": "l228-v-411-sense",
+      "keyRef": "l288-k3",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “chim” (niǎo) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "鸟",
+        "然",
+        "让",
+        "肉"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l288-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l229-c3",
+      "senseId": "l229-v-449-sense",
+      "keyRef": "l288-k4",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “mười nghìn” (wàn) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "希",
+        "洗",
+        "笑",
+        "万"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l288-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l229-c5",
+      "senseId": "l229-v-360-sense",
+      "keyRef": "l288-k5",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “hỏng, không còn hoạt động tốt trong câu” (huài) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "睛",
+        "酒",
+        "坏",
+        "经"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l288-e6",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l227-c3",
+      "senseId": "l227-v-456-sense",
+      "keyRef": "l288-k6",
+      "prompt": "Ôn ngữ cảnh đã học · 7: Xếp câu: nhà vệ sinh ở bên kia.",
+      "choices": [
+        "在",
+        "那边",
+        "洗手间"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l288-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l229-c3",
+      "senseId": "l229-v-449-sense",
+      "keyRef": "l288-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Xếp câu: điện thoại của tôi hỏng rồi.",
+      "choices": [
+        "坏了",
+        "我的",
+        "手机"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l288-k0",
+      "version": 1,
+      "exerciseVersionId": "l288-e0",
+      "senseId": "l227-v-467-sense",
+      "accepted": [
+        "睛"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "眼睛 · yǎn jing · mắt. Chữ cần nhận diện là 睛."
+    },
+    {
+      "id": "l288-k1",
+      "version": 1,
+      "exerciseVersionId": "l288-e1",
+      "senseId": "l227-v-456-sense",
+      "accepted": [
+        "洗"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "洗 · xǐ · rửa, giặt. Chữ cần nhận diện là 洗."
+    },
+    {
+      "id": "l288-k2",
+      "version": 1,
+      "exerciseVersionId": "l288-e2",
+      "senseId": "l228-v-359-sense",
+      "accepted": [
+        "画"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "画 · huà · vẽ. Chữ cần nhận diện là 画."
+    },
+    {
+      "id": "l288-k3",
+      "version": 1,
+      "exerciseVersionId": "l288-e3",
+      "senseId": "l228-v-411-sense",
+      "accepted": [
+        "鸟"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "鸟 · niǎo · chim. Chữ cần nhận diện là 鸟."
+    },
+    {
+      "id": "l288-k4",
+      "version": 1,
+      "exerciseVersionId": "l288-e4",
+      "senseId": "l229-v-449-sense",
+      "accepted": [
+        "万"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "万 · wàn · mười nghìn. Chữ cần nhận diện là 万."
+    },
+    {
+      "id": "l288-k5",
+      "version": 1,
+      "exerciseVersionId": "l288-e5",
+      "senseId": "l229-v-360-sense",
+      "accepted": [
+        "坏"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "坏 · huài · hỏng, không còn hoạt động tốt trong câu. Chữ cần nhận diện là 坏."
+    },
+    {
+      "id": "l288-k6",
+      "version": 1,
+      "exerciseVersionId": "l288-e6",
+      "senseId": "l227-v-456-sense",
+      "accepted": [
+        "2,0,1"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 去洗手间洗手 nối nơi đi với hoạt động cùng người làm. Không thêm một chủ ngữ mới giữa 去 và 洗手."
+    },
+    {
+      "id": "l288-k7",
+      "version": 1,
+      "exerciseVersionId": "l288-e7",
+      "senseId": "l229-v-449-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 一万 là 10.000. Không bỏ một số không khi dịch từ 万 sang nghìn; ví dụ 一万块 là mười nghìn tệ, không phải một nghìn."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

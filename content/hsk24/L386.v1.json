@@ -1,0 +1,803 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "4dbfb9a986d6b47ada5837f5ddff92f266c8052e439bea3bd01cf100767be7cd",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-daily-hygiene",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L386",
+    "version": 1,
+    "versionId": "l386-draft-v1",
+    "title": "Ôn sau bài · Thói quen vệ sinh ở nhà",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn nghĩa/chữ/cấu trúc đã học; không thêm từ, không phải đề thi chính thức.",
+      "Bằng chứng có hỗ trợ; chưa xác nhận năng lực độc lập, nghe, nói hay viết tay."
+    ],
+    "prerequisites": [
+      "l328-draft-v2"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 15,
+      "physicalPage": 16,
+      "printedPage": 13,
+      "section": "task",
+      "entry": "十"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Assisted review of source-checked taught senses; original contextual teaching unreviewed. No vocabulary increase or publication approval."
+    ],
+    "alignmentCheckedAt": "2026-10-26T08:20:34.722Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-family",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 15,
+          "physicalPage": 16,
+          "printedPage": 13,
+          "section": "task",
+          "entry": "十"
+        },
+        "written": "谈论生活习惯、家庭关系和家庭事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-habit",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "生活习惯"
+        },
+        "written": "生活习惯",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l328-v-916",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 916"
+        },
+        "written": "牙",
+        "pinyin": "yá",
+        "senseId": "l328-v-916-sense",
+        "ordinal": 916,
+        "note": "3 yá 名; 牙 là răng; 一颗牙 chỉ một chiếc. 刷牙 là đánh răng, không phải 洗牙 trong mọi ngữ cảnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l328-v-917",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 917"
+        },
+        "written": "牙刷",
+        "pinyin": "yáshuā",
+        "senseId": "l328-v-917-sense",
+        "ordinal": 917,
+        "note": "3 yáshuā 名; 牙刷 là dụng cụ để đánh răng, khác 牙 là răng và 刷 là động tác chải. 一把牙刷 dùng 把 đếm dụng cụ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l328-v-844",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 844"
+        },
+        "written": "刷",
+        "pinyin": "shuā",
+        "senseId": "l328-v-844-sense",
+        "ordinal": 844,
+        "note": "3 shuā 动; 刷 nhận tân ngữ như 牙; 刷牙 là đánh răng, 刷鞋 là chải giày. Không gộp mọi động tác rửa vào 刷. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l328-v-888",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 888"
+        },
+        "written": "洗澡",
+        "pinyin": "xǐzǎo",
+        "senseId": "l328-v-888-sense",
+        "ordinal": 888,
+        "note": "3 xǐzǎo 动; 洗澡 là tắm; đối tượng người thường không đặt thẳng sau từ. 给孩子洗澡 là tắm cho trẻ, khác 洗澡孩子. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l328-v-885",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 885"
+        },
+        "written": "习惯",
+        "pinyin": "xíguàn",
+        "senseId": "l328-v-885-sense",
+        "ordinal": 885,
+        "note": "3 xíguàn 动、名; 习惯 có thể là danh từ hoặc động từ; 生活习惯 là thói quen sinh hoạt, 习惯这里的生活 là quen cuộc sống nơi đây. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l328-v-963",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 963"
+        },
+        "written": "脏",
+        "pinyin": "zāng",
+        "senseId": "l328-v-963-sense",
+        "ordinal": 963,
+        "note": "3 zāng 形; 脏 zāng là bẩn trong bài; khác zàng ở từ chỉ nội tạng. 衣服脏了 mô tả quần áo đã bẩn, không đánh giá con người. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-240",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "240"
+        },
+        "written": "牙",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 240,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-205",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "205"
+        },
+        "written": "刷",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 205,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-269",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "269"
+        },
+        "written": "澡",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 269,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-77",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "77"
+        },
+        "written": "惯",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 77,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-268",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "268"
+        },
+        "written": "脏",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 268,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-first-next",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "复句 / 承接复句"
+        },
+        "written": "先……，再/然后……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l328-c0",
+      "version": 1,
+      "senseId": "l328-v-916-sense",
+      "hanzi": "牙",
+      "dictionaryPinyin": "yá",
+      "meaning": "răng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l328-v-916"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l328-c1",
+      "version": 1,
+      "senseId": "l328-v-917-sense",
+      "hanzi": "牙刷",
+      "dictionaryPinyin": "yá shuā",
+      "meaning": "bàn chải đánh răng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l328-v-917"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l328-c2",
+      "version": 1,
+      "senseId": "l328-v-844-sense",
+      "hanzi": "刷",
+      "dictionaryPinyin": "shuā",
+      "meaning": "chải/đánh (bằng bàn chải)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l328-v-844"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l328-c3",
+      "version": 1,
+      "senseId": "l328-v-888-sense",
+      "hanzi": "洗澡",
+      "dictionaryPinyin": "xǐ zǎo",
+      "meaning": "tắm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l328-v-888"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l328-c4",
+      "version": 1,
+      "senseId": "l328-v-885-sense",
+      "hanzi": "习惯",
+      "dictionaryPinyin": "xí guàn",
+      "meaning": "thói quen; quen với",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l328-v-885"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l328-c5",
+      "version": 1,
+      "senseId": "l328-v-963-sense",
+      "hanzi": "脏",
+      "dictionaryPinyin": "zāng",
+      "meaning": "bẩn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l328-v-963"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l386-guide",
+      "type": "teaching",
+      "title": "Ôn/chẩn đoán có hỗ trợ · không phải đề HSK",
+      "text": "Nên thử trước khi đọc phần nhắc lại. Bài vẫn có gợi ý; không suy từ điểm này ra mastery. Nghe, nói, viết tay và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l386-reminder0",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 颗 kē: lượng từ răng; 把 bǎ trong 一把牙刷 là lượng từ, khác giới từ ở 把衣服放进…. 进 jìn: vào; 长 zhǎng: mọc.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l386-reminder1",
+      "type": "teaching",
+      "title": "牙 · răng",
+      "text": "牙 là răng; 一颗牙 chỉ một chiếc. 刷牙 là đánh răng, không phải 洗牙 trong mọi ngữ cảnh.",
+      "hanzi": "孩子长了一颗新牙。",
+      "pinyin": "Háizi zhǎng le yì kē xīn yá.",
+      "meaning": "Đứa trẻ mọc một chiếc răng mới.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l386-reminder2",
+      "type": "teaching",
+      "title": "牙刷 · bàn chải đánh răng",
+      "text": "牙刷 là dụng cụ để đánh răng, khác 牙 là răng và 刷 là động tác chải. 一把牙刷 dùng 把 đếm dụng cụ.",
+      "hanzi": "这是我的牙刷。",
+      "pinyin": "Zhè shì wǒ de yáshuā.",
+      "meaning": "Đây là bàn chải đánh răng của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l386-reminder3",
+      "type": "teaching",
+      "title": "刷 · chải/đánh (bằng bàn chải)",
+      "text": "刷 nhận tân ngữ như 牙; 刷牙 là đánh răng, 刷鞋 là chải giày. Không gộp mọi động tác rửa vào 刷.",
+      "hanzi": "我早上刷牙。",
+      "pinyin": "Wǒ zǎoshang shuā yá.",
+      "meaning": "Buổi sáng tôi đánh răng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l386-reminder4",
+      "type": "teaching",
+      "title": "洗澡 · tắm",
+      "text": "洗澡 là tắm; đối tượng người thường không đặt thẳng sau từ. 给孩子洗澡 là tắm cho trẻ, khác 洗澡孩子.",
+      "hanzi": "我晚上洗澡。",
+      "pinyin": "Wǒ wǎnshang xǐ zǎo.",
+      "meaning": "Buổi tối tôi tắm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l386-reminder5",
+      "type": "teaching",
+      "title": "习惯 · thói quen; quen với",
+      "text": "习惯 có thể là danh từ hoặc động từ; 生活习惯 là thói quen sinh hoạt, 习惯这里的生活 là quen cuộc sống nơi đây.",
+      "hanzi": "我还不习惯这里的生活。",
+      "pinyin": "Wǒ hái bù xíguàn zhèlǐ de shēnghuó.",
+      "meaning": "Tôi còn chưa quen cuộc sống ở đây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l386-reminder6",
+      "type": "teaching",
+      "title": "脏 · bẩn",
+      "text": "脏 zāng là bẩn trong bài; khác zàng ở từ chỉ nội tạng. 衣服脏了 mô tả quần áo đã bẩn, không đánh giá con người.",
+      "hanzi": "这件衣服脏了，要洗。",
+      "pinyin": "Zhè jiàn yīfu zāng le, yào xǐ.",
+      "meaning": "Chiếc áo này bẩn rồi, cần giặt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l386-reminder7",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "先…再/然后… xếp thứ tự hành động. 先刷牙，再洗澡 nêu kế hoạch cụ thể; không phải quy tắc bắt buộc cho mọi người.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l386-reminder8",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林刚搬家，还不习惯新的生活。晚上他先拿自己的牙刷刷牙，然后洗澡，把脏衣服放进洗衣机。姐姐说：牙刷不要跟别人的放在一起，先找好自己的。",
+      "pinyin": "Xiǎo Lín gāng bān jiā, hái bù xíguàn xīn de shēnghuó. Wǎnshang tā xiān ná zìjǐ de yáshuā shuā yá, ránhòu xǐ zǎo, bǎ zāng yīfu fàng jìn xǐyījī. Jiějie shuō: Yáshuā bú yào gēn biéren de fàng zài yìqǐ, xiān zhǎo hǎo zìjǐ de.",
+      "meaning": "Lâm mới chuyển nhà nên chưa quen. Tối cậu lấy bàn chải của mình đánh răng, tắm rồi cho quần áo bẩn vào máy giặt; chị nhắc phân biệt bàn chải của mỗi người.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l386-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l386-e0"
+    },
+    {
+      "id": "l386-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l386-e1"
+    },
+    {
+      "id": "l386-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l386-e2"
+    },
+    {
+      "id": "l386-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l386-e3"
+    },
+    {
+      "id": "l386-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l386-e4"
+    },
+    {
+      "id": "l386-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l386-e5"
+    },
+    {
+      "id": "l386-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l386-e6"
+    },
+    {
+      "id": "l386-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l386-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l386-e0",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l328-c0",
+      "senseId": "l328-v-916-sense",
+      "keyRef": "l386-k0",
+      "prompt": "Ôn cách đọc 牙 trong nghĩa răng.",
+      "choices": [],
+      "inputHint": "Phạm vi đáp án được ghi trong đề; chưa chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l386-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l328-c1",
+      "senseId": "l328-v-917-sense",
+      "keyRef": "l386-k1",
+      "prompt": "Ôn ngữ cảnh quen · Dụng cụ đánh răng: 一把□。",
+      "choices": [
+        "习惯",
+        "脏",
+        "牙",
+        "牙刷",
+        "刷",
+        "洗澡"
+      ],
+      "inputHint": "Phạm vi đáp án được ghi trong đề; chưa chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l386-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l328-c2",
+      "senseId": "l328-v-844-sense",
+      "keyRef": "l386-k2",
+      "prompt": "Ôn cách đọc 刷 trong nghĩa chải/đánh (bằng bàn chải).",
+      "choices": [],
+      "inputHint": "Phạm vi đáp án được ghi trong đề; chưa chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l386-e3",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l328-c3",
+      "senseId": "l328-v-888-sense",
+      "keyRef": "l386-k3",
+      "prompt": "Ôn truy hồi đúng mục từ: tắm; pinyin xǐ zǎo. Chỉ nhập mục từ được nhắc.",
+      "choices": [],
+      "inputHint": "Phạm vi đáp án được ghi trong đề; chưa chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l386-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l328-c4",
+      "senseId": "l328-v-885-sense",
+      "keyRef": "l386-k4",
+      "prompt": "Ôn cách đọc 习惯 trong nghĩa thói quen; quen với.",
+      "choices": [],
+      "inputHint": "Phạm vi đáp án được ghi trong đề; chưa chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l386-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l328-c5",
+      "senseId": "l328-v-963-sense",
+      "keyRef": "l386-k5",
+      "prompt": "Ôn ngữ cảnh quen · Quần áo có vết bẩn: 这件衣服□了。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Phạm vi đáp án được ghi trong đề; chưa chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l386-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l328-c0",
+      "senseId": "l328-v-916-sense",
+      "keyRef": "l386-k6",
+      "prompt": "Ôn đoạn đã học · Theo đoạn, Lâm làm gì trước khi tắm?",
+      "choices": [
+        "买衣服",
+        "刷牙",
+        "出门"
+      ],
+      "inputHint": "Phạm vi đáp án được ghi trong đề; chưa chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l386-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l328-c3",
+      "senseId": "l328-v-888-sense",
+      "keyRef": "l386-k7",
+      "prompt": "Ôn đoạn đã học · Sắp xếp trình tự vệ sinh được kể. Bắt đầu bằng “他先刷牙”.",
+      "choices": [
+        "然后洗澡",
+        "他先刷牙"
+      ],
+      "inputHint": "Phạm vi đáp án được ghi trong đề; chưa chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l386-k0",
+      "version": 1,
+      "exerciseVersionId": "l386-e0",
+      "senseId": "l328-v-916-sense",
+      "accepted": [
+        "yá"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "yá; đọc theo nghĩa đã nêu, không thay bằng cách đọc đồng hình khác."
+    },
+    {
+      "id": "l386-k1",
+      "version": 1,
+      "exerciseVersionId": "l386-e1",
+      "senseId": "l328-v-917-sense",
+      "accepted": [
+        "牙刷"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "牙刷: bàn chải đánh răng. 牙刷 là dụng cụ để đánh răng, khác 牙 là răng và 刷 là động tác chải. 一把牙刷 dùng 把 đếm dụng cụ. Đây là bàn chải đánh răng của tôi."
+    },
+    {
+      "id": "l386-k2",
+      "version": 1,
+      "exerciseVersionId": "l386-e2",
+      "senseId": "l328-v-844-sense",
+      "accepted": [
+        "shuā"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "shuā; đọc theo nghĩa đã nêu, không thay bằng cách đọc đồng hình khác."
+    },
+    {
+      "id": "l386-k3",
+      "version": 1,
+      "exerciseVersionId": "l386-e3",
+      "senseId": "l328-v-888-sense",
+      "accepted": [
+        "洗澡"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "洗澡 · xǐ zǎo · tắm"
+    },
+    {
+      "id": "l386-k4",
+      "version": 1,
+      "exerciseVersionId": "l386-e4",
+      "senseId": "l328-v-885-sense",
+      "accepted": [
+        "xí guàn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "xí guàn; đọc theo nghĩa đã nêu, không thay bằng cách đọc đồng hình khác."
+    },
+    {
+      "id": "l386-k5",
+      "version": 1,
+      "exerciseVersionId": "l386-e5",
+      "senseId": "l328-v-963-sense",
+      "accepted": [
+        "脏"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "脏: bẩn. 脏 zāng là bẩn trong bài; khác zàng ở từ chỉ nội tạng. 衣服脏了 mô tả quần áo đã bẩn, không đánh giá con người. Chiếc áo này bẩn rồi, cần giặt."
+    },
+    {
+      "id": "l386-k6",
+      "version": 1,
+      "exerciseVersionId": "l386-e6",
+      "senseId": "l328-v-916-sense",
+      "accepted": [
+        "刷牙"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 先…再/然后… xếp thứ tự hành động. 先刷牙，再洗澡 nêu kế hoạch cụ thể; không phải quy tắc bắt buộc cho mọi người."
+    },
+    {
+      "id": "l386-k7",
+      "version": 1,
+      "exerciseVersionId": "l386-e7",
+      "senseId": "l328-v-888-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 先…再/然后… xếp thứ tự hành động. 先刷牙，再洗澡 nêu kế hoạch cụ thể; không phải quy tắc bắt buộc cho mọi người."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

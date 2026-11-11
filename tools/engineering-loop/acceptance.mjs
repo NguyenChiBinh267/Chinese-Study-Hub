@@ -8,7 +8,8 @@ import { blob } from './git-ssot.mjs';
 export const SECRET_PATTERN = /-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|sk-(?:proj-)?[A-Za-z0-9_-]{25,}|gh[pousr]_[A-Za-z0-9]{20,}|ya29\.[A-Za-z0-9_-]{20,}/;
 const json = bytes => { try { return JSON.parse(bytes.toString('utf8').replace(/^\uFEFF/, '')); } catch { throw new Error('Invalid JSON; content not logged'); } };
 function fileBytes(repo, file, policy) {
-  requireThat(allowedPath(file, policy.allowedFiles), 'Acceptance file outside task policy');
+  // Read-only acceptance inputs never expand developer or diff write scope.
+  requireThat(allowedPath(file, policy.allowedFiles) || allowedPath(file, policy.acceptanceReadOnlyFiles ?? []), 'Acceptance file outside task policy');
   const absolute = path.resolve(repo, file), root = fs.realpathSync(repo).toLowerCase() + path.sep;
   requireThat(fs.existsSync(absolute) && fs.statSync(absolute).isFile() && !fs.lstatSync(absolute).isSymbolicLink() && fs.realpathSync(absolute).toLowerCase().startsWith(root), 'Missing/non-file/escaping acceptance path');
   return fs.readFileSync(absolute);

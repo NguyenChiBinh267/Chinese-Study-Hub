@@ -1,0 +1,214 @@
+{
+  "checkedAt": "2026-10-18T08:59:31.455Z",
+  "status": "SPRINT8_PARTIAL",
+  "statusReason": "Local recorded/decoded synthetic audio and real worker F0 pipeline verified. Physical Windows/Android microphone and actual human speech not verified; do not infer hardware PASS or phonetic calibration.",
+  "branch": "feat/v1-acoustic-tone-coach",
+  "base": "3ce6413b11c5fc822f006a7d8f7a32800cee9af7",
+  "verifiedOriginMain": "0dc42253180ef38d1c43f1f87c9f0f675a851341",
+  "unchanged": [
+    {
+      "file": "content/pronunciation/release.v1.json",
+      "sha256": "97dfe6caabb218e389595c36569c1f66ecd1c0dde5a9ab4989abe7241f5dfb5a"
+    },
+    {
+      "file": "content/pronunciation/release-pin.json",
+      "sha256": "884d0406edf4e01d3c8d1de295f788b00398ebc4c1969dd1da3dea59dbd36af7"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/articulation-guide.tsx",
+      "sha256": "33b1322a69c613e36bb4e250b5ab153b90c0b6940064461bd2fd7c502c1a9894"
+    }
+  ],
+  "policy": "csh-pitch-observation-v1",
+  "algorithm": "McLeod Pitch Method / pitchy@4.1.0 / fft.js@4.0.4",
+  "privacy": {
+    "upload": false,
+    "persistentAudio": false,
+    "rawAudioInDatabase": false,
+    "maxCurrentRecordings": 1,
+    "maxNumericAttempts": 2,
+    "recordingSeconds": 12,
+    "encodedBytes": 2097152,
+    "workerOrDecodeWallTimeMs": 8000,
+    "codecAbort": "Browser decode has no standard abort API; drop references/ignore late completion"
+  },
+  "phoneticAssessment": {
+    "calibrated": false,
+    "wordIdentity": false,
+    "articulationDiagnosis": false,
+    "score": false,
+    "mastery": false,
+    "approvedReferenceAudio": 0,
+    "physicalHardware": "NOT_PERFORMED",
+    "humanSpeech": "NOT_PERFORMED",
+    "consentedDataset": "NOT_COLLECTED"
+  },
+  "checks": {
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "format": "PASS",
+    "productionBuild": "PASS",
+    "unit": {
+      "passed": 61,
+      "failed": 0,
+      "skipped": 0,
+      "reportSha256": "adbf77c89ca776b8aa7d964b0e614d78ce7d8db7fb8ac5fee04d1f74d858f796"
+    },
+    "postgresql": {
+      "passed": 41,
+      "failed": 0,
+      "checkedAt": "2026-10-18T08:35:24.823Z",
+      "migrationDigest": "9707af62fe7e24554a82b8304d15719bc1f5f5af0d411ee71dc469183ad3b7ba"
+    },
+    "browser": {
+      "passed": 64,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "totalsMeaning": "Final successful runs; one initial Sprint5 desktop timeout retained separately",
+      "initialFailure": {
+        "suite": "Sprint5 desktop journey F02 step5",
+        "reason": "15-second saved-ack timeout with pending duration and answer requests",
+        "cause": "UNRESOLVED_NOT_REPRODUCED",
+        "rerun": "2/2 PASS",
+        "traceSha256": "4c17988b581465724066a72c7e1142e403ecad7451732188696e9c88347c0d1e"
+      },
+      "suites": [
+        {
+          "suite": "new-acoustic",
+          "passed": 8,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T08:58:02.016Z",
+          "reportSha256": "7567e3590078c74573dcd687531723dabca0dab4fe0c45c97fdd0d8e673b2262"
+        },
+        {
+          "suite": "sprint7-desktop",
+          "passed": 5,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T08:37:08.224Z",
+          "reportSha256": "77718755bac0a5034db882965bac6316b0830954b8c289e4188e5c7b0f9fb648"
+        },
+        {
+          "suite": "sprint7-mobile",
+          "passed": 5,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T08:39:15.978Z",
+          "reportSha256": "a646ecdef83ad39461434f9e417079635ffcf91fc1d4def7b2f85be997ac79df"
+        },
+        {
+          "suite": "sprint6-desktop",
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T08:41:21.319Z",
+          "reportSha256": "5c2f471eebdf4086a4c1cbd83b33dddd03bffaebf0a4862adc8189fa13a06a67"
+        },
+        {
+          "suite": "sprint6-mobile",
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T08:44:09.471Z",
+          "reportSha256": "f0fc504ad2485b42ba7e1f29c74e0738e0be3d6709b9673d332e11285acd6a91"
+        },
+        {
+          "suite": "sprint5-desktop",
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T08:49:00.334Z",
+          "reportSha256": "b5ffd7d6a09fabe5509b3fd5b64cdf364b3aba534bde631604309009b4da4dc9"
+        },
+        {
+          "suite": "sprint5-mobile",
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T08:50:47.661Z",
+          "reportSha256": "7cd55533dd92b145ada84c1ac76f61999c360d915a767747943d9c417a014558"
+        },
+        {
+          "suite": "persistence",
+          "passed": 6,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T08:53:05.855Z",
+          "reportSha256": "1a998d4354b77cd9404dbf6e1fd3731874cfa14cfacb197be33fa8117a1b99a8"
+        },
+        {
+          "suite": "learning",
+          "passed": 4,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T08:53:45.702Z",
+          "reportSha256": "ce57fd1d6b6096ce94110e440882f3def0d6cbc43b5bf65dfdd6ccbd3e387b68"
+        },
+        {
+          "suite": "content",
+          "passed": 6,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T08:54:26.067Z",
+          "reportSha256": "b89270a24f09494c387df4005145139f61ac95dadeaa7f5983d01cc9b692d85c"
+        },
+        {
+          "suite": "production-demo",
+          "passed": 22,
+          "failed": 0,
+          "skipped": 0,
+          "flaky": 0,
+          "startTime": "2026-10-18T06:19:57.987Z",
+          "reportSha256": "5c32ba9ff28224e1b88ce4612ad2a6f365d38a88aa7dd299aefae1f9857737e7"
+        }
+      ]
+    },
+    "backup": {
+      "bytes": 2058818,
+      "sha256": "c3740ae1d9f8356efa22a5de1eb3727a9d78b648b12d8891782245723d074df6",
+      "at": "2026-10-18T08:30:44.078Z",
+      "restore": "PASS",
+      "baselineTables": 26,
+      "metadataNote": "Original private helper metadata inherited Sprint6 source label; actual clean checkout pinned to Sprint7 SHA above. Dump and baseline are unchanged; corrected future helper source label."
+    },
+    "restart": {
+      "exactTables": 26,
+      "repositoryViews": 4,
+      "cursorReplay": "PASS"
+    },
+    "publicJavaScript": {
+      "files": 30,
+      "privateKeyAndDraftContentMarkers": 0
+    },
+    "dependencyAudit": {
+      "production": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "full": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 5,
+        "critical": 0,
+        "total": 5
+      }
+    }
+  }
+}

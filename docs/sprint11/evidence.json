@@ -1,0 +1,1486 @@
+{
+  "schema": "csh-sprint11-local-acceptance-v1",
+  "at": "2026-10-21T14:36:31.567Z",
+  "status": "LOCAL_CHECKS_PASSED",
+  "productionReady": false,
+  "branch": "feat/v1-release-gates",
+  "base": "fd94989a0bb4bd565d7086b1fbef8f7032615a46",
+  "pinnedMain": "0dc42253180ef38d1c43f1f87c9f0f675a851341",
+  "sourceScope": "Delivered source bytes; native matrix preceded the bounded optional Auth flag retry repair. Local persistence and all Auth tests were rerun afterward. Native/domain behavior unchanged; report timestamps and before/after hash are retained. Final delivery requires clean-commit Auth proof.",
+  "sourceFiles": [
+    {
+      "path": "eslint.config.mjs",
+      "sha256": "13a96c60f6113ad643aba6161ff41887ed5af8482a23591e95b9e58f3192e0b5"
+    },
+    {
+      "path": "next.config.ts",
+      "sha256": "fbf171389d52bee2aba853200353c59e38e3c3d9e6ce3f778e419acde9026241"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "0286f3f4d8b92056937660756beea2374b91ba459a079a9a80200ec98a659837"
+    },
+    {
+      "path": "package.json",
+      "sha256": "8a483ea3c6d98c3b8b24cc9e2ea05d58ee7102b7012bf0d8041d8c36504a1ad8"
+    },
+    {
+      "path": "playwright.config.ts",
+      "sha256": "aa9298ed6e5af37b28b9acf6a0137bd35767ae990c605b8d2a227e3aad3acae9"
+    },
+    {
+      "path": "playwright.content.config.ts",
+      "sha256": "de2890934185f23ad7c58fc4256d648e734dda9110d9a230ebc0e4c661b54a64"
+    },
+    {
+      "path": "playwright.learning.config.ts",
+      "sha256": "086e82265869dfbb053a177d3601b27b6500e123c1365c62a4f3b938ca9a47aa"
+    },
+    {
+      "path": "playwright.local.config.ts",
+      "sha256": "412ebcef64452b5e3e79ebdec0da21bc15dd2bab1b5fd4a4caf193b2bfafbcea"
+    },
+    {
+      "path": "playwright.persistence-demo.config.ts",
+      "sha256": "963aa48a604f74ce5fbc44549bccfdbeb4c3090773acc1f5408ac304fc2948cc"
+    },
+    {
+      "path": "playwright.sprint10.config.ts",
+      "sha256": "6c5753c7e6bbb3f9d2713ad1e1f84f290da8cf60a89c6cf0e9419ae3258609d7"
+    },
+    {
+      "path": "playwright.sprint11.config.ts",
+      "sha256": "26ef39e9057896b66df62c7c9a4b3d477edf82f209dbfbcadc9c63362cd9f3d5"
+    },
+    {
+      "path": "playwright.sprint5.config.ts",
+      "sha256": "7a3696f6138d787fe49710a709a9a5cead05ad534d4b869f515b40fa0636dcf8"
+    },
+    {
+      "path": "playwright.sprint6.config.ts",
+      "sha256": "a0822f4a125f888e8ce0e31e4e1338e52815a56c75df7a9961eb84e15c3df98d"
+    },
+    {
+      "path": "playwright.sprint7.config.ts",
+      "sha256": "0e2486c7a61b50e5fb35f21d031399e627448f3897ff30cf059f751cb6e31102"
+    },
+    {
+      "path": "playwright.sprint8.config.ts",
+      "sha256": "e18bc595cb1d805f5f8d82eed6db9cb81511f48aba47ed4513c181efdb431228"
+    },
+    {
+      "path": "playwright.sprint9.config.ts",
+      "sha256": "8ef55da8394f96bedd05444142ac374feff3800b2b8d35720bbb9967dc43aec3"
+    },
+    {
+      "path": "scripts/auth-local-gateway.mjs",
+      "sha256": "fd8904f677e38307aa7d3821bcf002620e7b84d24f814a6192dc36d607469430"
+    },
+    {
+      "path": "scripts/auth-local-preview.mjs",
+      "sha256": "5201e4c707a839b762da70f51de5d0227e461f559a83db49cf3b6b87e904099b"
+    },
+    {
+      "path": "scripts/auth-local.mjs",
+      "sha256": "b3dce38bd6a3744b83efe797c8159fb9bab314ecd7fb92d71d5acd8616d97d16"
+    },
+    {
+      "path": "scripts/auth-technical-db.d.mts",
+      "sha256": "923cf88c9bc779c1ff842727938c4501f888b9bb9915a6be54bc1b531e591580"
+    },
+    {
+      "path": "scripts/auth-technical-db.mjs",
+      "sha256": "2e1164f42a233c28b583bd2d373bfe5678eca3e43a9bec95474c7bd8bacfa891"
+    },
+    {
+      "path": "scripts/author-phase4.mjs",
+      "sha256": "d00ee85b30c5e2a7c806096e1026616eac476e4c0205df2d014a8b9f55c645bf"
+    },
+    {
+      "path": "scripts/author-sprint5.ts",
+      "sha256": "fdc91e7d99043a4a9aa632864966d48e4d1def95ab46f67dcbd34dd4a4c880a1"
+    },
+    {
+      "path": "scripts/check-client-isolation.mjs",
+      "sha256": "25a8d4c44f7ccbf6e67e9bbce8799570807af87bffc0d959a75c6044337e28c1"
+    },
+    {
+      "path": "scripts/export-pronunciation-review.ts",
+      "sha256": "cf0c6acea22662989fb52e1a78ae34553235f68ec838a06f08542be2b1925dd7"
+    },
+    {
+      "path": "scripts/export-release-review.ts",
+      "sha256": "301147a95fef750931a86c28fbc9bc3d2659df7c0dacbe1090c47397de617039"
+    },
+    {
+      "path": "scripts/export-review-packets.ts",
+      "sha256": "80e49487f627234962dea082cfe86791b58ed2ae9e2886f79b59091fc5c3dd19"
+    },
+    {
+      "path": "scripts/local-db.d.mts",
+      "sha256": "724f32f00eae86769c884e2dfd6cf4dcf81e333d35be340017b65e9192f9bff7"
+    },
+    {
+      "path": "scripts/local-db.mjs",
+      "sha256": "4e0a51796e36a7cf0aa8c5ec5ba38095dbc8b0bf1af2794f471c68d9f6bea582"
+    },
+    {
+      "path": "scripts/phase4-preserve.mjs",
+      "sha256": "c0a25adf050ce9d37e8b18415d9ab30a9d7d9b3cbe2bcc30604ac1c4e9913170"
+    },
+    {
+      "path": "scripts/pronunciation-preserve.mjs",
+      "sha256": "537099f6a5d203b07df581595a38a17433c2148d7db9227b3d0af4116d8929a5"
+    },
+    {
+      "path": "scripts/security-preflight.ts",
+      "sha256": "dd03e3161d0fcca0b4e33254613bcda2ed557fe8c5a50c3e27680ce49c297879"
+    },
+    {
+      "path": "scripts/seed-content.ts",
+      "sha256": "1afda939a7323b564c7ad1758ea6aa387f9b1d0a70705e3f80619e151977caa7"
+    },
+    {
+      "path": "scripts/seed-curriculum.ts",
+      "sha256": "190034444f5f3753bd29e45867b3b091318213d7bf8cea6926eb5f8fb4611d8c"
+    },
+    {
+      "path": "scripts/sprint10-preserve.mjs",
+      "sha256": "ace559971d69dde5dfcad7b0dd58294052bdeae940a13a5e104c6ece5e864487"
+    },
+    {
+      "path": "scripts/sprint5-preserve.mjs",
+      "sha256": "1754e99dbcfbdbac995f5c6f587c3c7fea505fe8b8bcde8dc70010b6b70f895e"
+    },
+    {
+      "path": "scripts/sprint6-install-check.mjs",
+      "sha256": "ba35053a6d9f917341194771e4b354d786cdd336f9d15f1e296c681c0a044e60"
+    },
+    {
+      "path": "scripts/sprint6-preserve.mjs",
+      "sha256": "90fcf4f33d37b57bf6d4e6f0192d42359267a047ad17b02752f667dea4bc624a"
+    },
+    {
+      "path": "scripts/sprint8-preserve.mjs",
+      "sha256": "34a8863490488d6922c69079ca3f11e078e4420c9a9689e57451760ab124b3d8"
+    },
+    {
+      "path": "scripts/test-auth-provider.mjs",
+      "sha256": "601e9a45566d3bb93ff753c055419b36d26e4c974bfa9031b271a8c5ca269ae5"
+    },
+    {
+      "path": "scripts/test-local-db.mjs",
+      "sha256": "520dfad25593bab5b5ce8a5fe53edf19abe4418951d10692fa1627743eb67b9d"
+    },
+    {
+      "path": "scripts/test-production-startup.mjs",
+      "sha256": "430cde76e0b23eb810cfc2ecd1fed808a3ed719b1c375285a7e8c3b38fb85cc0"
+    },
+    {
+      "path": "scripts/validate-content-assets.ts",
+      "sha256": "c2a32ad73884083238de740d138f59d835d5495aff7b59e22ad3eb7a000020b0"
+    },
+    {
+      "path": "scripts/verify-auth-release.mjs",
+      "sha256": "26bda763a41c52daf8d0c7da44b9da35a1bf362fa13264abbd1992eb3b41f441"
+    },
+    {
+      "path": "scripts/verify-content-restart.ts",
+      "sha256": "626e7a493d95d0b3fb49e6c438bfaad57859a1a8589382155736d9706b75a410"
+    },
+    {
+      "path": "scripts/verify-hsk-source.py",
+      "sha256": "62dbaea7086616cf48ed9db97b6ec258476fe8e04db5b81b50339060c87e17c0"
+    },
+    {
+      "path": "scripts/verify-sprint5-restart.ts",
+      "sha256": "92cdc4d817b4134c6f50ba690951dcf38d9373871622d64e78b4774b4f07cd74"
+    },
+    {
+      "path": "src/app/(study)/account/page.tsx",
+      "sha256": "7d8d4f6fc650fa9ce7de6ca6d4a752ca25b8eb8b8db1cb1829675b05580a8b2b"
+    },
+    {
+      "path": "src/app/(study)/layout.tsx",
+      "sha256": "22cc079b6e919bf96d79af637336d67ab40fab6e12d40e880d86d702ca0485f1"
+    },
+    {
+      "path": "src/app/(study)/learn/[lessonId]/page.tsx",
+      "sha256": "1806dbcdfabe82ffb14a7071639720464c85b12a04e64c9f652ed7099d94fee3"
+    },
+    {
+      "path": "src/app/(study)/learn/courses/[courseId]/page.tsx",
+      "sha256": "e7e7c8001add2b4b8c2e74156ae41491af9ab96b4529e0d13d375067d7728af1"
+    },
+    {
+      "path": "src/app/(study)/learn/courses/[courseId]/units/[unitSlug]/page.tsx",
+      "sha256": "6b5eb3335df0f94e35d883b9a8d4c91c9c018ed2f89a20ad1c419afe01c20e12"
+    },
+    {
+      "path": "src/app/(study)/learn/draft/[lessonId]/page.tsx",
+      "sha256": "48577c218dfbd65cd98a1953f4b20a4472c5aaa977eed32edee83edb42dc551b"
+    },
+    {
+      "path": "src/app/(study)/learn/page.tsx",
+      "sha256": "298d24532a646835bce2ec88523703aa1f60cb6062c7e83d17a47584ed548c00"
+    },
+    {
+      "path": "src/app/(study)/learn/pronunciation/page.tsx",
+      "sha256": "8aa890d72e26b2d42caef44e2d28aa9431f0c3b21ba3d35f963e8f9431c6e598"
+    },
+    {
+      "path": "src/app/(study)/onboarding/page.tsx",
+      "sha256": "ed4caf3d1429f27b435a87547ee7f721bff824a454247db1cf141d0c06895f0c"
+    },
+    {
+      "path": "src/app/(study)/page.tsx",
+      "sha256": "cdafd6f92f389f7fb2be18bd6d18379ff76051bb8e86107326322502f56014c6"
+    },
+    {
+      "path": "src/app/(study)/progress/page.tsx",
+      "sha256": "304ac2857e1be3a8999233bb51bc4831a2da7aacfb157cc32de75daa4f6b2b69"
+    },
+    {
+      "path": "src/app/(study)/review/page.tsx",
+      "sha256": "7183c5ef08d19d89bb1eec6c77bf8443b7a7ef55066da52dc66d6359250cb1e1"
+    },
+    {
+      "path": "src/app/(study)/schedule/page.tsx",
+      "sha256": "a397ec8b048882a649c7c57b13ee6586993618472ec311cd9d4ec228b757803b"
+    },
+    {
+      "path": "src/app/(study)/today/page.tsx",
+      "sha256": "c271bf341e74f5cdd68ac0c7a1368302f426e51296d75b5f57d11f298107414e"
+    },
+    {
+      "path": "src/app/api/auth/[action]/route.ts",
+      "sha256": "9ad759721f119cae2d26a7ad0a9ac8e48fec694e094337d2b3087314106164fa"
+    },
+    {
+      "path": "src/app/api/local/cards/[cardId]/rating/route.ts",
+      "sha256": "6f4572c425143ffd3a80c25ec02813ef447beaa73ede6ad4fdffb3b5f8ee34d2"
+    },
+    {
+      "path": "src/app/api/local/cards/[cardId]/reveal/route.ts",
+      "sha256": "9ba70444ace6ed9ae933e7491cefcf3741e147c1b21ffba12f19201e6414a1f0"
+    },
+    {
+      "path": "src/app/api/local/content/[version]/route.ts",
+      "sha256": "2615f7b9f71b7691fc2a2227bb0f7248f729067a6bae9352a9aa99c3e3a3236f"
+    },
+    {
+      "path": "src/app/api/local/content/[version]/start/route.ts",
+      "sha256": "8f6d9c2de03f284fe82ae1a29b997d0ed4a27a166b5af7e6dcefce6974d3d7a3"
+    },
+    {
+      "path": "src/app/api/local/content/route.ts",
+      "sha256": "dce0186af3c2f80246f1ea152641178c6b6a02b3cf93b4076dd2191b86175531"
+    },
+    {
+      "path": "src/app/api/local/content/sessions/[sessionId]/advance/route.ts",
+      "sha256": "804906095c2e4d5ab27ef146b76716f8c43c2a5efbd0db8bfa2428819764534d"
+    },
+    {
+      "path": "src/app/api/local/content/sessions/[sessionId]/answers/route.ts",
+      "sha256": "12a82b9ce99011eb896ebf0c19f93ab6293b0766e095530899da66cac94aa9d7"
+    },
+    {
+      "path": "src/app/api/local/content/sessions/[sessionId]/complete/route.ts",
+      "sha256": "ebf3f148af0bfde5eb3ba66cf9fa7b8de62b472e381d2d48472a3a75dc73b9e8"
+    },
+    {
+      "path": "src/app/api/local/content/sessions/[sessionId]/duration/route.ts",
+      "sha256": "b12462e984a3c13d27d468e95dd2e2affc9fcf1b66b61a7cbbf1decf1396d403"
+    },
+    {
+      "path": "src/app/api/local/content/sessions/[sessionId]/lease/route.ts",
+      "sha256": "6d8411d54fce6cd6c339d01fa11cf107e64397e0f9c63739851d1012474a49fb"
+    },
+    {
+      "path": "src/app/api/local/content/summary/route.ts",
+      "sha256": "a1d44bb38b88f03a2e900601fca6d8ef706d39a65d484a06f0296e0da7b3f83c"
+    },
+    {
+      "path": "src/app/api/local/curriculum/route.ts",
+      "sha256": "3d1859d429a528bc416cc4e5e5c7d26624a801beb3752baff643374ca904f04a"
+    },
+    {
+      "path": "src/app/api/local/fixture/route.ts",
+      "sha256": "e8977addef69814f8bc4756353154893dd8677685c41f313034868e42dec3e24"
+    },
+    {
+      "path": "src/app/api/local/mode/route.ts",
+      "sha256": "55e69e385958441476888de12a4aa60d55abec24d26174687d18775a9c08a283"
+    },
+    {
+      "path": "src/app/api/local/preferences/route.ts",
+      "sha256": "a10231757e246b6200a8af4bcd3c10c04a599e88cd08a578133c6a1bb0c9efba"
+    },
+    {
+      "path": "src/app/api/local/pronunciation/route.ts",
+      "sha256": "956caadee2038bcd3b165c97dc54af63d8f60d08ba7b066bd2a623fc48023e69"
+    },
+    {
+      "path": "src/app/api/local/sessions/[sessionId]/answers/route.ts",
+      "sha256": "43b3dd7d5352549e26ad564077afcaf455395566de740b3f17722bc879aa7fdf"
+    },
+    {
+      "path": "src/app/api/local/sessions/[sessionId]/complete/route.ts",
+      "sha256": "ded326b4b6949aa608882568dd33408cc590110800dc8e329790b279e1a4c03d"
+    },
+    {
+      "path": "src/app/api/local/sessions/route.ts",
+      "sha256": "74ac5e89008799f9d35090851639281dd76a4f8fe346fbdf16e8ed8c5b84e9ab"
+    },
+    {
+      "path": "src/app/api/local/snapshot/route.ts",
+      "sha256": "c84d196c7aba349d72594c325756b9ab53f6130a6431abe9dd368921652f00ad"
+    },
+    {
+      "path": "src/app/api/local/status/route.ts",
+      "sha256": "bcb1eb07945e8cb301db661e3cd1837d4ead8e98ba97f93040f388c3099f162c"
+    },
+    {
+      "path": "src/app/api/local/study/preview/route.ts",
+      "sha256": "55a50ea7af7f75a7d0e18489a2adfb1655dc70590baf2282c4310d86fb217d0d"
+    },
+    {
+      "path": "src/app/api/local/study/replan/route.ts",
+      "sha256": "211a907ca2cfe455117a36c887b2df6b27ec155abdde06f5f8e68bef19a4c69e"
+    },
+    {
+      "path": "src/app/api/local/study/review-activity/[sessionId]/close/route.ts",
+      "sha256": "1f556c393262fb0351beac47c2dc3398cc69ac64c8793b04bbaf7fdd9185390a"
+    },
+    {
+      "path": "src/app/api/local/study/review-activity/route.ts",
+      "sha256": "77af2e37bc552c92e389f4cce1c6d65917a37be1183a80ef210a540c4987a7e6"
+    },
+    {
+      "path": "src/app/api/local/study/settings/route.ts",
+      "sha256": "b8ee23d97a98ff35f93a722ef42d54dfc894873a8dee7fb04d766047a8b400e6"
+    },
+    {
+      "path": "src/app/api/local/study/today/route.ts",
+      "sha256": "399384dba8ccb4b30acaa74f906b38780f03d88180a85e6711d00c4cc0d96cd9"
+    },
+    {
+      "path": "src/app/api/v1/[...path]/route.ts",
+      "sha256": "c7c432250b44c73373dc910706a1185f311bfbff4ac4fa77982f5ca5283ba52c"
+    },
+    {
+      "path": "src/app/error.tsx",
+      "sha256": "e9bcb3d67cc17c54afcc026e6702576ccc027b29b1e6748ddfe3ecb7e07c82ce"
+    },
+    {
+      "path": "src/app/globals.css",
+      "sha256": "37509f1562a5ae06854899a35ac32c3543beb66381e1669ff6dd74557827f8f5"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "sha256": "cbdf294b0f643bf4af08016d9bd6a8a8b824a93c0466f4c7b48f8f8b8b297d03"
+    },
+    {
+      "path": "src/app/loading.tsx",
+      "sha256": "63ee44bd8453d72c7b7c1f2153e4b1d65707c081b80041ab4b0df6f31b00fdb0"
+    },
+    {
+      "path": "src/app/login/page.tsx",
+      "sha256": "93bea8184949d1d6ba788bdbaf8d89a39310051eba32844af581be50f506aed1"
+    },
+    {
+      "path": "src/app/not-found.tsx",
+      "sha256": "b4fed0e47aab02c0a106abff20159c55b1863aab9ed04c681bab7583a625ac0a"
+    },
+    {
+      "path": "src/app/session-expired/page.tsx",
+      "sha256": "54049d8c6c34cf8ba74b9a7e91f7bf7a06efed7db46557ac10837ee15cdab9be"
+    },
+    {
+      "path": "src/app/unauthorized/page.tsx",
+      "sha256": "c0a163a6399276587b92ab42ee8047deac0b6d58645321be5104038a2de8b2ba"
+    },
+    {
+      "path": "src/components/app-shell.tsx",
+      "sha256": "24c19fbfe106de9cd308b8aee69aed6cfc398326fae0f970e2d87feed48e8442"
+    },
+    {
+      "path": "src/components/ui.tsx",
+      "sha256": "eef1e60ddb7a9d97924d91763d9202611979fb1c816fc9920e11880346e7cc4a"
+    },
+    {
+      "path": "src/instrumentation.ts",
+      "sha256": "c2d0bb628faa1d270b5769578c279cec8ca00f03db5be16f95ed2307009f586a"
+    },
+    {
+      "path": "src/modules/auth/domain/mode.ts",
+      "sha256": "3de36204a3e39cf6cb22bbedbc9f48d14293db2a9161903c32395c21e294ac1c"
+    },
+    {
+      "path": "src/modules/auth/domain/profile.ts",
+      "sha256": "0e7e62dfa7a913dc083e75290e62ebd65d89048bedb1f2b2b1b5c448b4c61db6"
+    },
+    {
+      "path": "src/modules/auth/domain/technical-fixture.ts",
+      "sha256": "2aded9cbc8a696557fd6e9d6ba70ddfd192761cfcf9724673f96bf2db34c29f1"
+    },
+    {
+      "path": "src/modules/auth/server/config.ts",
+      "sha256": "e437faa1faf0d819ca93749474f4d6e7265c2d7fc9550e353cc7c75709b3b2cb"
+    },
+    {
+      "path": "src/modules/auth/server/page-guard.ts",
+      "sha256": "df0f4b12578554537b21b022e15490c423ea7a56de47642d6d2880a85c8fdd59"
+    },
+    {
+      "path": "src/modules/auth/server/repositories.ts",
+      "sha256": "b79667910a4c2325ccaeff95688136c8d41b89b9452cc4088e039b6c869b4e74"
+    },
+    {
+      "path": "src/modules/auth/server/session.ts",
+      "sha256": "89f15755f2fd771ffde59f7416acb658bb2789873855515eae51d891fa9e0b46"
+    },
+    {
+      "path": "src/modules/auth/server/startup.ts",
+      "sha256": "dd119c6c623f8bedc20c90404868f134dc82519946bc14864d00ec88c3b2c3a7"
+    },
+    {
+      "path": "src/modules/auth/server/technical-learning.ts",
+      "sha256": "9a5062067b755cb6ffc5a69bd41e4fd81f0ffb7be88252ff82d6778ead3b4508"
+    },
+    {
+      "path": "src/modules/auth/ui/account.tsx",
+      "sha256": "f42d9db86da148b96d622203cde56fd6041a86a19060b22ded46164f169e365f"
+    },
+    {
+      "path": "src/modules/auth/ui/login.tsx",
+      "sha256": "8ec207cca056e1b946c16aa91b43e71fe0c2b4e6f471c3090afd6559d9f384fb"
+    },
+    {
+      "path": "src/modules/auth/ui/protected-fetch.ts",
+      "sha256": "19c2fe9644e13c41eafc80aabd33775243fbd92712629558af9c4c9382bc1128"
+    },
+    {
+      "path": "src/modules/auth/ui/runtime.tsx",
+      "sha256": "ff65165a0d056b33e865ece72771399dfc802d0b3fd80d272bf2127dfb99f3e6"
+    },
+    {
+      "path": "src/modules/auth/ui/session-state.tsx",
+      "sha256": "d759ca02c395d99e6ef6e3fd600d3ba9586b5fe5bab97f05fc18bce582b0221f"
+    },
+    {
+      "path": "src/modules/auth/ui/study.tsx",
+      "sha256": "cd2363274303440be689894e11db0a21682ad510857fa7f00473ead49846576a"
+    },
+    {
+      "path": "src/modules/auth/ui/technical-course.tsx",
+      "sha256": "8b18411ccab829543f5d036ae98681f736d9fb84d4076258aaaf415ce74b92ea"
+    },
+    {
+      "path": "src/modules/content/application/catalog.ts",
+      "sha256": "d598ae3ccf76b9a200855afa044c8ba195e2ea1eb77bd5bd42df1dd231f7dd12"
+    },
+    {
+      "path": "src/modules/content/domain/commands.ts",
+      "sha256": "ebf6ad8734ee61229305150f60e115ce464d944befdd6524835fa3767239e165"
+    },
+    {
+      "path": "src/modules/content/domain/package.ts",
+      "sha256": "fe9d20952904b55ecb443f36fd527a464e2d6d4ac3f8d11e4623bc58ad5c4eae"
+    },
+    {
+      "path": "src/modules/content/domain/pinyin.ts",
+      "sha256": "64b4cc6d5586062cfcb482b8c4ce9df042ffd23518289cb6f5581465d3aea39c"
+    },
+    {
+      "path": "src/modules/content/fixtures/demo.ts",
+      "sha256": "24594cde5428cb05a9ace989dfeab56e96c15f984bfd1da35d28cc1ea0dacb1e"
+    },
+    {
+      "path": "src/modules/content/infrastructure/postgres-content.ts",
+      "sha256": "bf679f03b6d589dd4b78497f78643fb9edb51ef36e0f2b2862892cb7d595e53a"
+    },
+    {
+      "path": "src/modules/content/ui/api.ts",
+      "sha256": "94c756e93624cf2fc1260cbb1473f650d8a7d94b36f0a0188edd89c46bacaaa9"
+    },
+    {
+      "path": "src/modules/content/ui/foundation.tsx",
+      "sha256": "4a36759cd6684fbe0a5af5c0954a64e6902727e76d1538bce2d2beb607a73e2c"
+    },
+    {
+      "path": "src/modules/curriculum/application/catalog.ts",
+      "sha256": "06112131cb31d83e3109d0d9c5495467bbff460e199d56445ea6344ecfecbf6a"
+    },
+    {
+      "path": "src/modules/curriculum/domain/catalog.ts",
+      "sha256": "06c7d79b769052d0401ce06e59206b697930a48e457e6af41c6f9bf449a35490"
+    },
+    {
+      "path": "src/modules/curriculum/domain/snapshot.ts",
+      "sha256": "f615848cbd197c12ec3ac2437049b352d14d6b1db348d136c5094954abb69d47"
+    },
+    {
+      "path": "src/modules/curriculum/infrastructure/postgres-curriculum.ts",
+      "sha256": "2656a79fd854c6597d08fbe4595f65ee8f782028fa3327b60e51f7ba52a6d7dc"
+    },
+    {
+      "path": "src/modules/curriculum/ui/courses.tsx",
+      "sha256": "517ef135831606e728583bc9829bc8383b33ffd48e7020eaa9b3495a30f2660f"
+    },
+    {
+      "path": "src/modules/learning/domain/duration.ts",
+      "sha256": "3a119d345aa9aa2c029970c2e07970ad71406728579053ae1b8ed9ed8aa8d1e6"
+    },
+    {
+      "path": "src/modules/learning/domain/local-foundation.ts",
+      "sha256": "672730fd0a3c4ed4dba91bd017d15b1f0c2186fc8ed648d4d508bfc4dfc2cb4a"
+    },
+    {
+      "path": "src/modules/learning/domain/mastery.ts",
+      "sha256": "d7d34aa5946f08543778be354b1085bc2ab37928df03a76e77cc4c5a29d00fe7"
+    },
+    {
+      "path": "src/modules/learning/infrastructure/postgres-learning.ts",
+      "sha256": "5306312fc02fa7bdb0155964bf7044a414e7d6259091c8467129a9a397df977a"
+    },
+    {
+      "path": "src/modules/learning/infrastructure/postgres-local-repository.ts",
+      "sha256": "dfa11e20b798ed680a55b8a821db26bb0289e117d36b3d66253e2fa9f286f883"
+    },
+    {
+      "path": "src/modules/learning/server/local-fixture.ts",
+      "sha256": "a0ae40e5ad18c734972e446f1065738bd4b4a7734792dd5107334cdee1edbe0a"
+    },
+    {
+      "path": "src/modules/learning/server/local-service.ts",
+      "sha256": "71383de64ecdf263ebf7f36fc6a11e005cc8921eab1a5982f0530eee6684ede9"
+    },
+    {
+      "path": "src/modules/learning/ui/active-duration.ts",
+      "sha256": "682b12bdebb4d5a666cb31911d8bc49a44859383603df18a6676abfb04134198"
+    },
+    {
+      "path": "src/modules/learning/ui/lesson-player.tsx",
+      "sha256": "c1e0acefce8fa8e675bcba0c4280b032f1bfa39a53dd87997fede44ea0ccd8ab"
+    },
+    {
+      "path": "src/modules/learning/ui/local-provider.tsx",
+      "sha256": "17315b90f3951542cf435456d5cc41378892ce7dc0966527862c8a89488709b3"
+    },
+    {
+      "path": "src/modules/learning/ui/local-slice.tsx",
+      "sha256": "f9cf2b8452bb06f730a5db49dba634dd6e90c6117c091d1857761467e8e34202"
+    },
+    {
+      "path": "src/modules/planning/domain/preview-plan.ts",
+      "sha256": "fcde40942dd4eae508c79879de53001e5aea4c984874cb00169fdd3a46e07134"
+    },
+    {
+      "path": "src/modules/planning/domain/study-commands.ts",
+      "sha256": "9985536a15740ea136b4758259f9ef3b6d88af40de759bdf71b4862931ce7046"
+    },
+    {
+      "path": "src/modules/planning/domain/study-types.ts",
+      "sha256": "a84b538dd8498e4db3f51ba08527ee76349d28b0d07d42cb7242020fc7e019b7"
+    },
+    {
+      "path": "src/modules/planning/domain/weekly-plan.ts",
+      "sha256": "252a6e4e5bca1296595f4720d6af915903a365de0713ac960151b1df313e4a74"
+    },
+    {
+      "path": "src/modules/planning/infrastructure/postgres-study.ts",
+      "sha256": "f8c24168126f65ca8913ccc3efd3c7906cb89c0fbf6e6bcb125e3565920fdcda"
+    },
+    {
+      "path": "src/modules/planning/ui/home-entry.tsx",
+      "sha256": "76bdf9457fe3179250167739bb9f7533bce62ea304da8ec579fffccac0ebfc45"
+    },
+    {
+      "path": "src/modules/planning/ui/study-panel.tsx",
+      "sha256": "b589d678e697ec381844ba3760536e4bb8c4d7c2ee38a87576b2bd4cd43255a6"
+    },
+    {
+      "path": "src/modules/planning/ui/study-schedule.tsx",
+      "sha256": "221cb7741073813f0a1e2a91e621456991a527dcc2449584163ce9cb84ced531"
+    },
+    {
+      "path": "src/modules/planning/ui/study-today.tsx",
+      "sha256": "5fdb1e86db3169355ed18e64147664a269267f534a967c3649a42d6684f491bd"
+    },
+    {
+      "path": "src/modules/planning/ui/use-study.ts",
+      "sha256": "80dcc96c686d7b8b4a77071e09a1f79b3bf91de66494e3d3e8919524a5cef073"
+    },
+    {
+      "path": "src/modules/preview/ui/preview-provider.tsx",
+      "sha256": "f83c3e76bcc874d3cb4282ba020f9e079e8e69dd3f003a1c12da15efe22be281"
+    },
+    {
+      "path": "src/modules/pronunciation/application/acoustic-session.ts",
+      "sha256": "96a7233ffe5593435bb60e69c09f269cad524607f33d7b61a1bbd92802f3686c"
+    },
+    {
+      "path": "src/modules/pronunciation/application/acoustic-worker.ts",
+      "sha256": "dff5a6485780c9ed142915fa1d93a4167efe6ade1e7a55772f5496fcd9b5ebb6"
+    },
+    {
+      "path": "src/modules/pronunciation/application/analyze-recording.ts",
+      "sha256": "c3e80f0d65d38badfd4dee1e62386930ac41242e39a465fc46be0be99467672e"
+    },
+    {
+      "path": "src/modules/pronunciation/application/input-monitor.ts",
+      "sha256": "399ea935dfc53b7b09e95412fc7189d49e852d86585c191f1ca5f6bf879e0d81"
+    },
+    {
+      "path": "src/modules/pronunciation/application/practice-recorder.ts",
+      "sha256": "b3e49adc2be130d2a8c5ead84635b67a92d213db895409e18e0b23d7bd61d897"
+    },
+    {
+      "path": "src/modules/pronunciation/application/prepare-playback.ts",
+      "sha256": "e24e72227afe9a5038d0d4377cf307f3fcc5ab8261b7359a4c0f05c1d9915db4"
+    },
+    {
+      "path": "src/modules/pronunciation/application/repository.ts",
+      "sha256": "16e9a77d840691b8161ce7b4b21b0778a1fe49dfef85637511734e089b2d1129"
+    },
+    {
+      "path": "src/modules/pronunciation/application/utterance-session.ts",
+      "sha256": "025869016933c2c6e20904802cea8d2919da5022d77e3e4f4ca0aa7c8a1eef58"
+    },
+    {
+      "path": "src/modules/pronunciation/application/utterance-worker.ts",
+      "sha256": "5386189e77addfb563ce460f328e6779a994d7e0b1a0c2db22356a65500bd666"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/acoustic-engine.ts",
+      "sha256": "4396114cf2a5c87c340789e60f2c7d4d70afed850119ad042044e40e95db4efd"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/acoustic-types.ts",
+      "sha256": "cbbabdf871e83f499646e37703b4a3a445e646b9bd4d1f0fc57a244c0a832c9b"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/compare-attempts.ts",
+      "sha256": "4da5963ea17f2a6dc87b20b705fb70d83f86a4afd785d9d646f2e1ae1f0933eb"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/feedback.ts",
+      "sha256": "124b0e22001363917aca574bccffe7ef0ed761e0bb64bff1e19dce353ea68ae9"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/noise-reduction.ts",
+      "sha256": "3d2c811ec8c0a1648a0b461b354caf276fc52bcc8af68b41f67559cca80f846a"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/notes.ts",
+      "sha256": "cd0397bd2cc9fd780dc086135c493b03507d513dc9318618b456733dec68e85a"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/pilot.ts",
+      "sha256": "935dba0efe6529a3adbceb80cad9bed1cd48bae7ad961db60165245a8c9978d7"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/pitch-conditioning.ts",
+      "sha256": "1a5bf31a3007cc4b5bb3824b59d1f691a60f04feb09a761c35e5ff6207609809"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/tone-feedback.ts",
+      "sha256": "3f4cd29b8b3c83741f5a0fee90729208ac5b982b62c1b7970d8a98034471a9c9"
+    },
+    {
+      "path": "src/modules/pronunciation/domain/utterance-playback.ts",
+      "sha256": "6ba33962896ba405d957e6e256bfae0d281ee5785b1ab8a2d77d20ab7488b1f2"
+    },
+    {
+      "path": "src/modules/pronunciation/ui/acoustic-practice.tsx",
+      "sha256": "5db46aebe141594bec2e87bc5f0a5aac52df66355cf43a077463597d75774362"
+    },
+    {
+      "path": "src/modules/pronunciation/ui/articulation-guide.tsx",
+      "sha256": "33b1322a69c613e36bb4e250b5ab153b90c0b6940064461bd2fd7c502c1a9894"
+    },
+    {
+      "path": "src/modules/pronunciation/ui/coach.tsx",
+      "sha256": "b8e62a5b6595e56e631b47a6115f1985853d39b71b942bd26aae759ab3fab8e8"
+    },
+    {
+      "path": "src/modules/pronunciation/ui/pilot-context.tsx",
+      "sha256": "7dd667ea960e62f8fbcb147b7a98e9fab52c8445d457d12dc6f221a17b1d412b"
+    },
+    {
+      "path": "src/modules/pronunciation/ui/pilot-panel.tsx",
+      "sha256": "8d125d919e86d367dc0671b35b57981c853a87eacdb56ec1dc60edb52b69d4be"
+    },
+    {
+      "path": "src/modules/pronunciation/ui/pitch-chart.tsx",
+      "sha256": "1184fa0917dadcdae64389b8bb7425a249ac8cf015ba096433ee0aa6e2231d22"
+    },
+    {
+      "path": "src/modules/pronunciation/ui/practice-recorder.tsx",
+      "sha256": "efc1fe3f40fed749817bd573a5e4fce36eccd13269d09c8aea4dd16bf13b0c3f"
+    },
+    {
+      "path": "src/modules/pronunciation/ui/pronunciation.css",
+      "sha256": "a593ff06862ca57cc497ac1bb5654c15784602c46bd30d80baac4ee585072fab"
+    },
+    {
+      "path": "src/modules/pronunciation/ui/utterance-playback.tsx",
+      "sha256": "abcdd2b5ef49d8ba1231fdc3526a3ed00f2bdb4ac34658afc023e15944c97eb9"
+    },
+    {
+      "path": "src/modules/review/domain/fsrs-adapter.ts",
+      "sha256": "02a815f9e524a34032a3bfd6c73ad9139468b7630fd9f15bcc0e8c817a74bbc6"
+    },
+    {
+      "path": "src/modules/review/domain/local-review.ts",
+      "sha256": "d0f2fd1fb6c17e585fa1c5f97578f2e5f3f81082d815bea107c81a53501f179a"
+    },
+    {
+      "path": "src/modules/review/infrastructure/postgres-review-repository.ts",
+      "sha256": "e20aa50b3a7a66eaf455e34b6d3640899a71e7bbd87134dedd8ff41f8f58a6db"
+    },
+    {
+      "path": "src/modules/review/ui/local-review.tsx",
+      "sha256": "6db0667f3f5dbe9587537baf4ed098fab3c2930ae0f86c8d8d850412753bac0b"
+    },
+    {
+      "path": "src/proxy.ts",
+      "sha256": "9bd947f7ca4adcd1b83f8fdd656eb155089d2ff350157695d44d200ff24939e3"
+    },
+    {
+      "path": "src/shared/db/transaction.ts",
+      "sha256": "05ab3bfbca680ded5d0227d45cc8c22bbc3e4fe56b6540b32d42d125d0ba55ae"
+    },
+    {
+      "path": "supabase/migrations/202610170001_local_foundation.sql",
+      "sha256": "0c2a5172e5277752578e50b5c1ecf0e4edab9c127b45c7365e8c93b2e22f0837"
+    },
+    {
+      "path": "supabase/migrations/202610170002_local_learning.sql",
+      "sha256": "3b10d7029860070c5759532e22c0cc8cc9e16c68f121b11ae760d2528c532546"
+    },
+    {
+      "path": "supabase/migrations/202610170003_content_duration.sql",
+      "sha256": "b826f67ab82c812705bf3e081a2e370177163b508b718d8fef9930b89bebddc2"
+    },
+    {
+      "path": "supabase/migrations/202610180004_weekly_experience.sql",
+      "sha256": "1dbe64fa7085af567d68450d1b55d6295ac87d415ef5bc320aba17cefb067536"
+    },
+    {
+      "path": "supabase/migrations/202610180005_course_catalog.sql",
+      "sha256": "558c100b31e8ba608879e2a9ecc31a2647c64816dc00395fc716be0b23c5535c"
+    },
+    {
+      "path": "supabase/migrations/202610190006_owner_profile.sql",
+      "sha256": "1b0a67a10b02e3a84f734e27c22de282ecc15f51b079b134abf051613abfa8eb"
+    },
+    {
+      "path": "supabase/rollbacks/202610170001_local_foundation.sql",
+      "sha256": "5d26897cef150ccd2001b8402396a4afd83b854b0bca7ead83a292533da528ec"
+    },
+    {
+      "path": "supabase/rollbacks/202610170002_local_learning.sql",
+      "sha256": "80f128b2ac2584ecfa1758c7d79653e359027f08045e0f29ce9080e7cbb5a15c"
+    },
+    {
+      "path": "supabase/rollbacks/202610170003_content_duration.sql",
+      "sha256": "6110e46b19a32a9bf30e4165a70a48f6da54a1cbffb1a6ad49d3481480566466"
+    },
+    {
+      "path": "supabase/rollbacks/202610180004_weekly_experience.sql",
+      "sha256": "fe7322efb29187bd0864e0b2026bfe82b85079dcf29bac0ba707c9e088d66bdd"
+    },
+    {
+      "path": "supabase/rollbacks/202610180005_course_catalog.sql",
+      "sha256": "7908ba0a910609b55dc7383db98fcba20dbdbc603895b6d9028377e6806b616d"
+    },
+    {
+      "path": "supabase/rollbacks/202610190006_owner_profile.sql",
+      "sha256": "75fc825fa2d3081dd4e0ffb61d76f89925bbd5ee0631ab5993733801e3d96284"
+    },
+    {
+      "path": "tests/content-browser/content.spec.ts",
+      "sha256": "4877a305ff611cf895aaf35cc447f32fa1726f1fc1f0381d2b06f19c5a0167ef"
+    },
+    {
+      "path": "tests/database/auth-technical.test.ts",
+      "sha256": "02a26c2ab22604fb7cb4c445b7e23a23da847e37d4ccc5ee3559f36ca400b81c"
+    },
+    {
+      "path": "tests/database/content.test.ts",
+      "sha256": "80d704f8624aa0767a0fb04ad6dbd51409d3acfdd2c2b069d44dee4777458ead"
+    },
+    {
+      "path": "tests/database/curriculum.test.ts",
+      "sha256": "b4e993dbfef5835e8b190f0052c0323f9760cd9b18981833e96b0a48e5370796"
+    },
+    {
+      "path": "tests/database/foundation.test.ts",
+      "sha256": "30426e2323cf3fcef3e8ca9ca57034cbcd0e8079db4f8365979ce8f5bd0339ab"
+    },
+    {
+      "path": "tests/database/learning.test.ts",
+      "sha256": "3404eab238c67966aa4e13afbcfc799c1f746adefefa41ef8ec997c9787272c8"
+    },
+    {
+      "path": "tests/database/study.test.ts",
+      "sha256": "3ff2c910c94697a12789747bbe60ff205713b1b4552027caaaad35c325746c89"
+    },
+    {
+      "path": "tests/fixtures/fsrs-5.4.2.json",
+      "sha256": "db8398a0cb647092ef5a8a48e8f72eb4473e49164a8cc2c1e6c94d5c8aa537a7"
+    },
+    {
+      "path": "tests/fixtures/noisy-vowel.ts",
+      "sha256": "d4fefbfe03c457c9cfc9f6a3abca73cd57af1b6da16c5eb51281624a50c7d2b9"
+    },
+    {
+      "path": "tests/fixtures/synthetic-vowel.ts",
+      "sha256": "2abf4c2d14a5d24cc3b3d2169d3a95913a0ee28fdbd5f13826687ab2dde2ef72"
+    },
+    {
+      "path": "tests/helpers/draft-journey.ts",
+      "sha256": "0acb6e7fbe7f7ab0d4e9e51d988b8285cf8bef5f7588d56a988163b17845ec46"
+    },
+    {
+      "path": "tests/learning-browser/learning.spec.ts",
+      "sha256": "be32ae23f7034f3ebb1ff6b60e1d9f08d4bd1c8a2084ec45742558d92323b545"
+    },
+    {
+      "path": "tests/local/persistence.spec.ts",
+      "sha256": "98c8659de2790d40905f4ebcc914e1a5974fe41a5960ad308031ccca106a99d3"
+    },
+    {
+      "path": "tests/preview/flows.spec.ts",
+      "sha256": "d2a98a86291829b9c21aca939e308991de9896c48ad0151d00f1878fdd2914a4"
+    },
+    {
+      "path": "tests/preview/production-lockout.spec.ts",
+      "sha256": "c4b9681b8265797b490c709f9b094fcb1339f753b8a8e80e647ebdfec11c9d68"
+    },
+    {
+      "path": "tests/sprint10-browser/auth.spec.ts",
+      "sha256": "36ec9863e7ef035aa548364b78765d2913e829d95b3826eaa9a665e6cba143d7"
+    },
+    {
+      "path": "tests/sprint11-browser/journey.spec.ts",
+      "sha256": "b1fdc65acd3c6a0a9b2126ad20466bcf6961120ed9864a60f7895ade61a9d62c"
+    },
+    {
+      "path": "tests/sprint5-browser/journey.spec.ts",
+      "sha256": "276d819fcc2cc7ec072f62a093e851d472faeaa55af6b1e0116070c9b88bc951"
+    },
+    {
+      "path": "tests/sprint6-browser/courses.spec.ts",
+      "sha256": "72a2a922c1960c22fa9beed3022fa73ba240ca841afcbce54492aa8c6533d72f"
+    },
+    {
+      "path": "tests/sprint7-browser/pronunciation.spec.ts",
+      "sha256": "ab6f17dcd7637ade82c1d71a9688b4a176a2decbaee466c943dffb37eb4d0a1d"
+    },
+    {
+      "path": "tests/sprint8-browser/acoustic.spec.ts",
+      "sha256": "5f1cced2e079eae6c038961dd1a919be4761553e6fedf8704f85bcb9c1220194"
+    },
+    {
+      "path": "tests/sprint9-browser/pilot.spec.ts",
+      "sha256": "0f743ee12886bd39f557706a1bb764dddcc41bc7d768625f9bc760b3048a86fd"
+    },
+    {
+      "path": "tests/unit/acoustic-conditioning.test.ts",
+      "sha256": "0f84dd511777d04d9be6d22ed2400a981f51a4d5f310f2b68f76dc29f00c8ee4"
+    },
+    {
+      "path": "tests/unit/acoustic-noise.test.ts",
+      "sha256": "1e7e0ca3cc064d1fa5a0f350f942fab8da3b089a3769be1ada85fda8f0436d18"
+    },
+    {
+      "path": "tests/unit/acoustic.test.ts",
+      "sha256": "192fa9222a8a3db9a7422cdd2ff5f3b9cdd2b914435411f8565fd246dff7981d"
+    },
+    {
+      "path": "tests/unit/auth.test.ts",
+      "sha256": "14cb39efec06828385ed0c8d82f910ee6f1cebfcca8052c4e8279bc232d39fe9"
+    },
+    {
+      "path": "tests/unit/content.test.ts",
+      "sha256": "7391498510551441d5d82309532aad0b64a39eb11f03dbf7f9d2c787414b79a3"
+    },
+    {
+      "path": "tests/unit/curriculum.test.ts",
+      "sha256": "0c72fd46a29d463098e585a0e7d92619f6ee7e8c537b411aa671a91871e1e5cd"
+    },
+    {
+      "path": "tests/unit/learning.test.ts",
+      "sha256": "842286949bf445d2773eeb990bc0ff1ac7629f905b7b7d43e2f9318298d5d39f"
+    },
+    {
+      "path": "tests/unit/pilot.test.ts",
+      "sha256": "dd707e0a68ad3523c9c722b3b813896b4aa5cc68caa39513871657d5b297ebad"
+    },
+    {
+      "path": "tests/unit/practice-recorder.test.ts",
+      "sha256": "dc4719383fae6282927b33f5a649d3c596ddbbdf3cab53f337aab2e0f3beae46"
+    },
+    {
+      "path": "tests/unit/pronunciation.test.ts",
+      "sha256": "486a11a7964d11d08cc4d7f8684735da1857d39f55332020e8bad50dd936622e"
+    },
+    {
+      "path": "tests/unit/utterance-playback.test.ts",
+      "sha256": "57fe5213a0bf571faf4f7feea711fe42d2a12e19c344911d4d3f0179bed650ae"
+    },
+    {
+      "path": "tests/unit/weekly-plan.test.ts",
+      "sha256": "638b7d487ea6ac4cb2079b6126fd7961e754c18739464d57b5062539b9cfdd45"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "4f702e19027e77c3dff6b7b7eaf384a7022fc982c96a9ab755a680f6ec52fd50"
+    }
+  ],
+  "checks": {
+    "nativeBrowser": [
+      {
+        "name": "production",
+        "tests": 22,
+        "expected": 22,
+        "passed": 22,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "status": "PASS",
+        "report": {
+          "path": ".local-postgres/sprint11/evidence-before-documentation-commit/production-browser.xml",
+          "sha256": "8457e9a5417f18a4d9e35ac76fd5724fae019c6897d1fb6d83c4c8d11c53d9a2",
+          "modifiedAt": "2026-10-20T05:18:23.844Z"
+        }
+      },
+      {
+        "name": "local",
+        "tests": 6,
+        "expected": 6,
+        "passed": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "status": "PASS",
+        "report": {
+          "path": ".local-postgres/sprint11/evidence-before-documentation-commit/local-browser.xml",
+          "sha256": "ac71fa34e7c7d1057a615da9345072ddfc36fb5290ea1acaa59a484c268516b4",
+          "modifiedAt": "2026-10-20T05:48:39.958Z"
+        }
+      },
+      {
+        "name": "learning",
+        "tests": 4,
+        "expected": 4,
+        "passed": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "status": "PASS",
+        "report": {
+          "path": ".local-postgres/sprint11/evidence-before-documentation-commit/learning-browser.xml",
+          "sha256": "2badaca42affc11eb75ba5704d964587d024a97c62545fe45069e448c41d89e7",
+          "modifiedAt": "2026-10-20T05:21:15.673Z"
+        }
+      },
+      {
+        "name": "content",
+        "tests": 6,
+        "expected": 6,
+        "passed": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "status": "PASS",
+        "report": {
+          "path": ".local-postgres/sprint11/evidence-before-documentation-commit/content-browser.xml",
+          "sha256": "679132eb9c23e7a4eb673ab98e8c4bceff5684d51865b0bed7a9bb3d45179b6d",
+          "modifiedAt": "2026-10-20T05:25:15.040Z"
+        }
+      },
+      {
+        "name": "sprint5-desktop",
+        "tests": 2,
+        "expected": 2,
+        "passed": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "status": "PASS",
+        "report": {
+          "path": ".local-postgres/sprint11/evidence-before-documentation-commit/sprint5-desktop-browser.xml",
+          "sha256": "00b1973e78123175aff12d0d341aaeaaf52fdfcaa3f3c79bf9c0e89a08143251",
+          "modifiedAt": "2026-10-20T05:28:03.379Z"
+        }
+      },
+      {
+        "name": "sprint5-mobile",
+        "tests": 2,
+        "expected": 2,
+        "passed": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "status": "PASS",
+        "report": {
+          "path": ".local-postgres/sprint11/evidence-before-documentation-commit/sprint5-mobile-browser.xml",
+          "sha256": "1fd723dbc92809ab362ba9726e18e59a0b3f6cc3488d410df36b8e8eb1aa7fb1",
+          "modifiedAt": "2026-10-20T05:31:01.692Z"
+        }
+      },
+      {
+        "name": "sprint6-desktop",
+        "tests": 2,
+        "expected": 2,
+        "passed": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "status": "PASS",
+        "report": {
+          "path": ".local-postgres/sprint11/evidence-before-documentation-commit/sprint6-desktop-browser.xml",
+          "sha256": "a132821ac4440eb39c5faf174cef877322ce6e863ff4d3347525a8d2ddc08400",
+          "modifiedAt": "2026-10-20T05:34:00.558Z"
+        }
+      },
+      {
+        "name": "sprint6-mobile",
+        "tests": 2,
+        "expected": 2,
+        "passed": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "status": "PASS",
+        "report": {
+          "path": ".local-postgres/sprint11/evidence-before-documentation-commit/sprint6-mobile-browser.xml",
+          "sha256": "ec07e2c00836b7314ae8c5078ef3644f243c64ae5594aeb3fc703c1f3468e3a1",
+          "modifiedAt": "2026-10-20T05:36:57.444Z"
+        }
+      },
+      {
+        "name": "sprint7-desktop",
+        "tests": 5,
+        "expected": 5,
+        "passed": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "status": "PASS",
+        "report": {
+          "path": ".local-postgres/sprint11/evidence-before-documentation-commit/sprint7-desktop-browser.xml",
+          "sha256": "51fc50a2472e83fc46d58a1d23fde8af4f18204f37734ff1692caf1815404aa6",
+          "modifiedAt": "2026-10-20T05:39:36.551Z"
+        }
+      },
+      {
+        "name": "sprint7-mobile",
+        "tests": 5,
+        "expected": 5,
+        "passed": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "status": "PASS",
+        "report": {
+          "path": ".local-postgres/sprint11/evidence-before-documentation-commit/sprint7-mobile-browser.xml",
+          "sha256": "c49535958ade1ae6e67ad9342734793f07f91e0569de7ee0d27b6bae4ba31e3c",
+          "modifiedAt": "2026-10-20T05:42:09.781Z"
+        }
+      },
+      {
+        "name": "sprint8",
+        "tests": 18,
+        "expected": 18,
+        "passed": 18,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "status": "PASS",
+        "report": {
+          "path": ".local-postgres/sprint11/evidence-before-documentation-commit/sprint8-browser.xml",
+          "sha256": "0ea549223667cf6e2f91d5d932e24e65f2dfa5419889e5b0e9e0c07e5fb4650e",
+          "modifiedAt": "2026-10-20T05:45:06.191Z"
+        }
+      },
+      {
+        "name": "sprint9",
+        "tests": 8,
+        "expected": 8,
+        "passed": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "status": "PASS",
+        "report": {
+          "path": ".local-postgres/sprint11/evidence-before-documentation-commit/sprint9-browser.xml",
+          "sha256": "fffb2cc07733e38eb94a8361b9121119e048cc5d027b5a5c62e19e1616e0cac1",
+          "modifiedAt": "2026-10-20T05:46:48.139Z"
+        }
+      }
+    ],
+    "authBrowser": {
+      "tests": 8,
+      "expected": 8,
+      "passed": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "status": "PASS",
+      "report": {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/auth-browser.xml",
+        "sha256": "cfcd50ca8ff9fd6e91c5603253aee9ec498accbddd2b706f1c8147e49b78b0d0",
+        "modifiedAt": "2026-10-21T14:35:06.245Z"
+      }
+    },
+    "syntheticJourney": {
+      "tests": 4,
+      "expected": 4,
+      "passed": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "status": "PASS",
+      "report": {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/journey-browser.xml",
+        "sha256": "50b1b3e3e73273a3c4663974c83fe1872e95953f86305c1450cc436468bea7d7",
+        "modifiedAt": "2026-10-21T14:36:26.281Z"
+      }
+    },
+    "unit": {
+      "tests": 88,
+      "expected": 88,
+      "passed": 88,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "status": "PASS",
+      "report": {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/unit.xml",
+        "sha256": "77d6f788260f8a07a66af00f7f9b4d96b67c4c870aa70c72cb3678f9720d82fa",
+        "modifiedAt": "2026-10-20T05:47:51.923Z"
+      }
+    },
+    "nativeDatabase": {
+      "tests": 42,
+      "expected": 42,
+      "passed": 42,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "status": "PASS",
+      "report": {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/database.xml",
+        "sha256": "8b6f73143bd71cc86190f0220a6533cc578d0b599b1a3fd9c246a6f6eb69b518",
+        "modifiedAt": "2026-10-20T05:08:50.790Z"
+      }
+    },
+    "isolatedDatabase": {
+      "tests": 6,
+      "expected": 6,
+      "passed": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "status": "PASS",
+      "report": {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/isolated-database.xml",
+        "sha256": "a201f9d5a55ba2198ce898e1c07272ab98d3d757a5c77080de5084f990d56876",
+        "modifiedAt": "2026-10-21T14:32:19.621Z"
+      }
+    },
+    "realProvider": {
+      "kind": "REAL_LOCAL_GOTRUE_V2_197_0_NOT_MOCK_NOT_CLOUD",
+      "at": "2026-10-21T14:32:16.945Z",
+      "passed": 8,
+      "failed": 0,
+      "checks": [
+        "REAL_PASSWORD_LOGIN",
+        "REAL_PROVIDER_ISSUED_SHORT_LIVED_JWT",
+        "NATURALLY_EXPIRED_ACCESS_TOKEN_REJECTED",
+        "REAL_REFRESH_AFTER_CRYPTOGRAPHIC_EXPIRY",
+        "REVOKED_SESSION_REJECTED_BY_PROVIDER",
+        "SIGNUP_DISABLED",
+        "ADMIN_PASSWORD_RESET_NO_EMAIL_OLD_PASSWORD_DENIED",
+        "NEW_PASSWORD_LOGIN_SUCCEEDS"
+      ],
+      "rawTokensInReport": false,
+      "report": {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/provider-tests.json",
+        "sha256": "ac1a468f86dbba175654376dd1f087e4cc9b8db3efeb3beb26ae56b94bfa3d93",
+        "modifiedAt": "2026-10-21T14:32:16.947Z"
+      }
+    },
+    "productionStartup": {
+      "kind": "REAL_NEXT_PRODUCTION_ARTIFACT_NEGATIVE_CONFIGURATION_TESTS",
+      "at": "2026-10-20T05:49:54.121Z",
+      "passed": 11,
+      "failed": 0,
+      "results": [
+        {
+          "name": "default-missing-owner",
+          "expectedCode": "OWNER_USER_ID_REQUIRED",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "local-mode",
+          "expectedCode": "DEVELOPMENT_MODE_IN_PRODUCTION",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "runtime-node-env-cannot-enable-local",
+          "expectedCode": "DEVELOPMENT_MODE_IN_PRODUCTION",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "http-origin",
+          "expectedCode": "HTTPS_REQUIRED",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "http-auth-provider",
+          "expectedCode": "HTTPS_REQUIRED",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "development-flags",
+          "expectedCode": "DEVELOPMENT_FLAGS_PRESENT",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "service-role",
+          "expectedCode": "UNEXPECTED_PROVIDER_CREDENTIAL",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "public-server-value",
+          "expectedCode": "SERVER_VALUE_MARKED_PUBLIC",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "admin-db-role",
+          "expectedCode": "LEAST_PRIVILEGE_DATABASE_ROLE_REQUIRED",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "unverified-db-tls",
+          "expectedCode": "VERIFIED_DATABASE_TLS_REQUIRED",
+          "result": "PASS_REFUSED_STARTUP"
+        },
+        {
+          "name": "technical-fixture-in-production",
+          "expectedCode": "TECHNICAL_FIXTURE_FORBIDDEN",
+          "result": "PASS_REFUSED_STARTUP"
+        }
+      ],
+      "cloudContact": false,
+      "report": {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/production-startup.json",
+        "sha256": "91eb04b9a0019833c9a34b7ca157d36c2eaa9003d60a8903559b4de48ba4698e",
+        "modifiedAt": "2026-10-20T05:49:54.124Z"
+      }
+    },
+    "clientArtifacts": {
+      "kind": "REAL_BROWSER_ARTIFACT_SCAN",
+      "at": "2026-10-20T05:49:54.429Z",
+      "files": 34,
+      "privateValuesChecked": 11,
+      "privateValuesPrinted": false,
+      "forbiddenServerFieldMarkers": [
+        "answerKey",
+        "acceptedNormalized",
+        "CSH_LOCAL_SESSION_SECRET",
+        "CSH_AUTH_PUBLISHABLE_KEY",
+        "SUPABASE_SERVICE_ROLE_KEY",
+        "csh_runtime"
+      ],
+      "failures": [],
+      "report": {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/client-isolation.json",
+        "sha256": "88e8cc9a74e98e47a1d306f2d98657ccb00ec014f8aa8e36722973accf4922e7",
+        "modifiedAt": "2026-10-20T05:49:54.432Z"
+      }
+    },
+    "audits": {
+      "production": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "all": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 5,
+        "critical": 0,
+        "total": 5
+      },
+      "productionReport": {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/audit-production.json",
+        "sha256": "3485c24018101fcf36e7ec39b4b26ccf15881d36b75d9a82e3458ada30da7a68",
+        "modifiedAt": "2026-10-20T05:15:47.011Z"
+      },
+      "allReport": {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/audit-all.json",
+        "sha256": "8ebb46c5290163783202cda0741eebab6efad58dfe65c5aba1889c093180e77a",
+        "modifiedAt": "2026-10-20T05:15:51.674Z"
+      }
+    },
+    "static": [
+      {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/lint.log",
+        "sha256": "d2246b046ac72a5146dfff03bb52c140232287592ad9a829a65c8e5759484d55",
+        "modifiedAt": "2026-10-20T05:47:41.942Z"
+      },
+      {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/lint-security.log",
+        "sha256": "2f2053b95970e66f0e563a1ba6eede481cff7b685b58c6090d2da23cfacabcda",
+        "modifiedAt": "2026-10-21T14:30:34.169Z"
+      },
+      {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/lint-sprint11.log",
+        "sha256": "436dab4ec360cf3fe29aac30a7f250ee547076e1d985bbf9669a9be79e0fff6a",
+        "modifiedAt": "2026-10-20T05:48:26.568Z"
+      },
+      {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/format-check.log",
+        "sha256": "ab46cd1699a6c0c6eba24e649def92ed7e64255206141e72d4cb000068a36a69",
+        "modifiedAt": "2026-10-21T14:32:08.023Z"
+      },
+      {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/typecheck.log",
+        "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914",
+        "modifiedAt": "2026-10-21T14:31:53.482Z"
+      },
+      {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/build.log",
+        "sha256": "abc29e1197235c600dbae8c11af18c76ecdc846cf3e30e04072a613728c5ad9c",
+        "modifiedAt": "2026-10-20T05:49:41.640Z"
+      }
+    ],
+    "preservation": [
+      {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/backup-meta.json",
+        "sha256": "2c07eec199efc389ac19fbbd15a3f2a69151429236bec0c84a3751deb74e3f6f",
+        "modifiedAt": "2026-10-20T05:14:43.444Z"
+      },
+      {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/preservation.log",
+        "sha256": "bf3ae9f14fc9a7a1ca126dad6666e8077d6f90a0b3640d13cf02b1e2491fe125",
+        "modifiedAt": "2026-10-20T05:49:17.443Z"
+      },
+      {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/restore.log",
+        "sha256": "ddb5d0a95cd7cd9802890b30570995b546b88a34bb2081cd07d63df405598ab9",
+        "modifiedAt": "2026-10-20T05:49:24.971Z"
+      },
+      {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/disposable-preferences-restoration.json",
+        "sha256": "ae8f369a0d4c3cea22ecf9242de4bee3a1e3916f3e0d169685994240f7362561",
+        "modifiedAt": "2026-10-20T05:10:24.712Z"
+      },
+      {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/isolated-rls.json",
+        "sha256": "9fbb0269c2834eb7c8e6b041393f04f1e83905abdbadefb44659cd11115e0871",
+        "modifiedAt": "2026-10-21T14:32:19.589Z"
+      },
+      {
+        "path": ".local-postgres/sprint11/evidence-before-documentation-commit/restart.json",
+        "sha256": "1ae55ef40a2c57a6075f3109e954ae56616994daf5f7fd07154e4ffec187fc27",
+        "modifiedAt": "2026-10-20T05:49:15.286Z"
+      }
+    ],
+    "reviewIndex": {
+      "path": ".local-postgres/sprint11/evidence-before-documentation-commit/review-index-check.json",
+      "sha256": "772fb699ae504cfaf2af32509fe4e93add9345c8fbd2ddab9da434d6284f1b9c",
+      "modifiedAt": "2026-10-20T05:20:38.967Z"
+    },
+    "regressionScreenshots": {
+      "path": ".local-postgres/sprint11/evidence-before-documentation-commit/regression-screenshots.json",
+      "sha256": "c67e84bef8d697398fc07a7aafbd5358b5cbed7efff6d9ded71b4a208920ab29",
+      "modifiedAt": "2026-10-20T05:49:22.758Z"
+    }
+  },
+  "finalCommitProof": {
+    "path": ".local-postgres/sprint11/exact-source-auth.json",
+    "command": "npm.cmd run test:auth:release -- --require-clean",
+    "require": "completed=true, sourceUnchanged=true, cleanAtStart=true, cleanAtEnd=true, commit=delivered HEAD; this is generated after the final commit outside Git"
+  },
+  "limits": {
+    "cloudAuthVerified": false,
+    "actualAccountBillingVerified": false,
+    "hostedRlsVerified": false,
+    "hostingBenchmarked": false,
+    "physicalAndroidVerified": false,
+    "contentApproved": false,
+    "publishedContentAdapterImplemented": false,
+    "independentReviewerRun": false,
+    "canonicalStatusChanged": false,
+    "pushed": false,
+    "merged": false,
+    "deployed": false,
+    "masteryFromSynthetic": false,
+    "rawVoiceUploaded": false
+  },
+  "repairs": [
+    "Recovered Docker by preserving/recreating two socket-only directories, not resetting volumes",
+    "Repaired module loading in the acceptance harness; zero-case failures retained privately",
+    "Corrected test assumption: trusted SQL runtime reads content for grading but cannot publish; browser API denies DRAFT/private manifests",
+    "Fixed player subtree unmount on acknowledged snapshot reload; resumed next unanswered question verified against persisted answer",
+    "Restored three mutable rows of an old disposable Auth identity from backup and moved release Auth tests to a separate generated database"
+  ],
+  "earlierFailureArtifacts": [
+    {
+      "path": ".local-postgres/sprint11/isolated-database-before-module-repair.xml",
+      "sha256": "34ca6670797f0909ec72ea6719d52dc1ff8e5cb4864e04b493afda17b6e2078a"
+    },
+    {
+      "path": ".local-postgres/sprint11/isolated-database-before-trust-boundary-correction.xml",
+      "sha256": "f39753465348addfd9b9d1996b983002716f410f1019b61b484aae1a59e75ecf"
+    },
+    {
+      "path": ".local-postgres/sprint11/journey-before-module-repair.log",
+      "sha256": "85264c34ba8cb3daf805f28adffb29d9d11e3ec0d9ebe016c41570dc5690d5cc"
+    },
+    {
+      "path": ".local-postgres/sprint11/journey-before-player-repair.log",
+      "sha256": "6941a03c0d05c01b6b68c83d64233d13a51f86fa3d6fd28771a0677278f97cb4"
+    },
+    {
+      "path": ".local-postgres/sprint11/journey-before-player-repair.xml",
+      "sha256": "2ccf244b69de4e194253c91363517c5f00de7277e541f8734bed8ed61b90e5be"
+    },
+    {
+      "path": ".local-postgres/sprint11/preservation-before-fixture-isolation.log",
+      "sha256": "4c60041fb8768b087909d6e0c976fc188890b21f812e02553e5b7db4d89e8b88"
+    },
+    {
+      "path": ".local-postgres/sprint11/auth-browser-before-rate-window.log",
+      "sha256": "d3e377b21ed7c8fdea0e716bf0c7554324caffdf875e76e78364a34b7cae44b3"
+    },
+    {
+      "path": ".local-postgres/sprint11/auth-browser-before-rate-window.xml",
+      "sha256": "530975ab1c403a6b0081b80e900c399a23ab2a5a6df687394ecd9d39cb1bc375"
+    }
+  ],
+  "nativeRetryScope": {
+    "path": "src/modules/learning/ui/local-provider.tsx",
+    "at": "2026-10-20T05:47:03.8283228Z",
+    "scope": "82 native cases before final optional technical-flag retry propagation; native status has no flag. Targeted local suite and all Auth tests rerun after repair.",
+    "before": "be9e9e1cd92395bdd497b6ef65c32851b30be8d7ee908be638e2026b100dee3a",
+    "after": "17315b90f3951542cf435456d5cc41378892ce7dc0966527862c8a89488709b3",
+    "report": {
+      "path": ".local-postgres/sprint11/evidence-before-documentation-commit/native-before-auth-retry.json",
+      "sha256": "1f5cd986a300fbdc285cfffea82c5213455dcf03a4eba442dd9dfe4632102614",
+      "modifiedAt": "2026-10-20T05:47:03.935Z"
+    }
+  }
+}

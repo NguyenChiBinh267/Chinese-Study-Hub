@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "5014c63cc1a63a897498d723ab05e1156cc09cc382440a99b10b480a27c82e3e",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-bb",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L152",
+    "version": 1,
+    "versionId": "l152-draft-v1",
+    "title": "Hỏi giờ và khoảng thời gian",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Hỏi giờ và khoảng thời gian; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "钟点表示法"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:10:35.430380Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-event",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "问答事件信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-f80c6b43ef6a",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "日期、时间、地点、方位、参加者、号码等"
+        },
+        "written": "日期、时间、地点、方位、参加者、号码等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l152-v-33",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 33"
+        },
+        "written": "点1",
+        "pinyin": "diǎn",
+        "senseId": "l152-v-33-sense",
+        "ordinal": 33,
+        "note": "1（3） diǎn 量、（名）; 点 trong 三点 là giờ đồng hồ; không dạy nghĩa gọi món/chấm điểm ở đây. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l152-v-55",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 55"
+        },
+        "written": "分",
+        "pinyin": "fēn",
+        "senseId": "l152-v-55-sense",
+        "ordinal": 55,
+        "note": "1（3） fēn 量、（动、名）; 分 trong 三点十分 là phần phút của giờ; câu hỏi âm fēn phân biệt với 分钟. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l152-v-56",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 56"
+        },
+        "written": "分钟",
+        "pinyin": "fēnzhōng",
+        "senseId": "l152-v-56-sense",
+        "ordinal": 56,
+        "note": "1 fēnzhōng 量; 分钟 trong 五分钟 là khoảng năm phút, không tự nói phút thứ5 của một giờ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l152-v-236",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 236"
+        },
+        "written": "小时",
+        "pinyin": "xiǎoshí",
+        "senseId": "l152-v-236-sense",
+        "ordinal": 236,
+        "note": "1 xiǎoshí 名; 小时 đếm thời lượng; 一小时 và 一个小时 đều có thể dùng, khác thời điểm 一点. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-35",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "35"
+        },
+        "written": "点",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 35,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-48",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "48"
+        },
+        "written": "分",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 48,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-237",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "237"
+        },
+        "written": "钟",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 237,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-198",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "198"
+        },
+        "written": "小",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 198,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-156",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "156"
+        },
+        "written": "时",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 156,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-152",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 387,
+          "physicalPage": 388,
+          "printedPage": 385,
+          "section": "grammar",
+          "entry": "g-387-12"
+        },
+        "written": "钟点表示法",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l152-c0",
+      "version": 1,
+      "senseId": "l152-v-33-sense",
+      "hanzi": "点",
+      "dictionaryPinyin": "diǎn",
+      "meaning": "giờ; điểm giờ (lượng từ đồng hồ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l152-v-33"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l152-c1",
+      "version": 1,
+      "senseId": "l152-v-55-sense",
+      "hanzi": "分",
+      "dictionaryPinyin": "fēn",
+      "meaning": "phút (mục fēn)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l152-v-55"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l152-c2",
+      "version": 1,
+      "senseId": "l152-v-56-sense",
+      "hanzi": "分钟",
+      "dictionaryPinyin": "fēn zhōng",
+      "meaning": "phút (khoảng thời gian, dạng fēnzhōng)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l152-v-56"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l152-c3",
+      "version": 1,
+      "senseId": "l152-v-236-sense",
+      "hanzi": "小时",
+      "dictionaryPinyin": "xiǎo shí",
+      "meaning": "giờ; tiếng (khoảng thời gian)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l152-v-236"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l152-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l152-t0",
+      "type": "teaching",
+      "title": "点 · giờ; điểm giờ (lượng từ đồng hồ)",
+      "text": "点 trong 三点 là giờ đồng hồ; không dạy nghĩa gọi món/chấm điểm ở đây.",
+      "hanzi": "现在三点。",
+      "pinyin": "Xiàn zài sān diǎn.",
+      "meaning": "Bây giờ3giờ trong truyện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l152-t1",
+      "type": "teaching",
+      "title": "分 · phút (mục fēn)",
+      "text": "分 trong 三点十分 là phần phút của giờ; câu hỏi âm fēn phân biệt với 分钟.",
+      "hanzi": "现在三点十分。",
+      "pinyin": "Xiàn zài sān diǎn shí fēn.",
+      "meaning": "Bây giờ3giờ10phút trong truyện.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l152-t2",
+      "type": "teaching",
+      "title": "分钟 · phút (khoảng thời gian, dạng fēnzhōng)",
+      "text": "分钟 trong 五分钟 là khoảng năm phút, không tự nói phút thứ5 của một giờ.",
+      "hanzi": "我休息五分钟。",
+      "pinyin": "Wǒ xiū xi wǔ fēn zhōng.",
+      "meaning": "Tôi nghỉ năm phút.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l152-t3",
+      "type": "teaching",
+      "title": "小时 · giờ; tiếng (khoảng thời gian)",
+      "text": "小时 đếm thời lượng; 一小时 và 一个小时 đều có thể dùng, khác thời điểm 一点.",
+      "hanzi": "我上课一小时。",
+      "pinyin": "Wǒ shàng kè yì xiǎo shí.",
+      "meaning": "Tôi học trên lớp một giờ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l152-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "Giờ trên đồng hồ dùng số + 点; phút dùng số + 分: 三点十分 là3giờ10phút. 分钟/小时 thường nói khoảng thời gian như 五分钟/一小时; không trộn 三点十分 với một khoảng ba giờ. Đoạn là giờ trong truyện, không phải số giờ đã học được hệ thống đo.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l152-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：现在几点？\nB：三点十分。\nA：你什么时候上课？\nB：三点上课，我上课一小时。",
+      "pinyin": "A: Xiàn zài jǐ diǎn? B: Sān diǎn shí fēn. A: Nǐ shén me shí hou shàng kè? B: Sān diǎn shàng kè, wǒ shàng kè yì xiǎo shí.",
+      "meaning": "Câu chuyện nói giờ hiện tại3:10, giờ bắt đầu học3:00 và thời lượng một giờ. Không phải dữ liệu đồng hồ hoặc telemetry thật.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l152-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l152-v1-e0"
+    },
+    {
+      "id": "l152-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l152-v1-e1"
+    },
+    {
+      "id": "l152-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l152-v1-e2"
+    },
+    {
+      "id": "l152-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l152-v1-e3"
+    },
+    {
+      "id": "l152-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l152-v1-e4"
+    },
+    {
+      "id": "l152-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l152-v1-e5"
+    },
+    {
+      "id": "l152-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l152-v1-e6"
+    },
+    {
+      "id": "l152-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l152-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l152-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l152-c0",
+      "senseId": "l152-v-33-sense",
+      "keyRef": "l152-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “giờ; điểm giờ (lượng từ đồng hồ)”: □ (diǎn). Ngữ cảnh: 现在三□。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "占",
+        "站",
+        "店",
+        "点"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l152-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l152-c1",
+      "senseId": "l152-v-55-sense",
+      "keyRef": "l152-v1-k1",
+      "prompt": "Viết pinyin từ điển của 分 (phút (mục fēn)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l152-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l152-c2",
+      "senseId": "l152-v-56-sense",
+      "keyRef": "l152-v1-k2",
+      "prompt": "Điền đúng mục từ đọc fēn zhōng, nghĩa “phút (khoảng thời gian, dạng fēnzhōng)”: 我休息五□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l152-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l152-c3",
+      "senseId": "l152-v-236-sense",
+      "keyRef": "l152-v1-k3",
+      "prompt": "Chọn mục từ đọc xiǎo shí, nghĩa “giờ; tiếng (khoảng thời gian)”, trong câu: 我上课一□。",
+      "choices": [
+        "点",
+        "分",
+        "分钟",
+        "小时"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l152-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l152-c2",
+      "senseId": "l152-v-56-sense",
+      "keyRef": "l152-v1-k4",
+      "prompt": "Trong câu “我休息五分钟。”, 分钟 mang nghĩa nào theo bài?",
+      "choices": [
+        "phút (mục fēn)",
+        "phút (khoảng thời gian, dạng fēnzhōng)",
+        "giờ; tiếng (khoảng thời gian)",
+        "giờ; điểm giờ (lượng từ đồng hồ)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l152-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l152-c3",
+      "senseId": "l152-v-236-sense",
+      "keyRef": "l152-v1-k5",
+      "prompt": "Trong câu “我上课一小时。”, 小时 mang nghĩa nào theo bài?",
+      "choices": [
+        "phút (khoảng thời gian, dạng fēnzhōng)",
+        "giờ; tiếng (khoảng thời gian)",
+        "giờ; điểm giờ (lượng từ đồng hồ)",
+        "phút (mục fēn)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l152-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l152-c0",
+      "senseId": "l152-v-33-sense",
+      "keyRef": "l152-v1-k6",
+      "prompt": "B nói giờ bắt đầu học là lúc nào?",
+      "choices": [
+        "三点十分",
+        "五点",
+        "三点"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l152-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l152-c3",
+      "senseId": "l152-v-236-sense",
+      "keyRef": "l152-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "现在",
+        "三点",
+        "十分。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l152-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l152-v1-e0",
+      "senseId": "l152-v-33-sense",
+      "accepted": [
+        "点"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 点 tạo từ 点. 点 trong 三点 là giờ đồng hồ; không dạy nghĩa gọi món/chấm điểm ở đây. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l152-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l152-v1-e1",
+      "senseId": "l152-v-55-sense",
+      "accepted": [
+        "fēn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "分 ghi fēn. 分 trong 三点十分 là phần phút của giờ; câu hỏi âm fēn phân biệt với 分钟."
+    },
+    {
+      "id": "l152-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l152-v1-e2",
+      "senseId": "l152-v-56-sense",
+      "accepted": [
+        "分钟"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc fēn zhōng: 分钟. 分钟 trong 五分钟 là khoảng năm phút, không tự nói phút thứ5 của một giờ. Tôi nghỉ năm phút."
+    },
+    {
+      "id": "l152-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l152-v1-e3",
+      "senseId": "l152-v-236-sense",
+      "accepted": [
+        "小时"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc xiǎo shí: 小时. 小时 đếm thời lượng; 一小时 và 一个小时 đều có thể dùng, khác thời điểm 一点. Tôi học trên lớp một giờ."
+    },
+    {
+      "id": "l152-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l152-v1-e4",
+      "senseId": "l152-v-56-sense",
+      "accepted": [
+        "phút (khoảng thời gian, dạng fēnzhōng)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "分钟 trong 五分钟 là khoảng năm phút, không tự nói phút thứ5 của một giờ. Tôi nghỉ năm phút."
+    },
+    {
+      "id": "l152-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l152-v1-e5",
+      "senseId": "l152-v-236-sense",
+      "accepted": [
+        "giờ; tiếng (khoảng thời gian)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "小时 đếm thời lượng; 一小时 và 一个小时 đều có thể dùng, khác thời điểm 一点. Tôi học trên lớp một giờ."
+    },
+    {
+      "id": "l152-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l152-v1-e6",
+      "senseId": "l152-v-33-sense",
+      "accepted": [
+        "三点"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 三点. Câu chuyện nói giờ hiện tại3:10, giờ bắt đầu học3:00 và thời lượng một giờ. Không phải dữ liệu đồng hồ hoặc telemetry thật."
+    },
+    {
+      "id": "l152-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l152-v1-e7",
+      "senseId": "l152-v-236-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. Giờ trên đồng hồ dùng số + 点; phút dùng số + 分: 三点十分 là3giờ10phút. 分钟/小时 thường nói khoảng thời gian như 五分钟/一小时; không trộn 三点十分 với một khoảng ba giờ. Đoạn là giờ trong truyện, không phải số giờ đã học được hệ thống đo."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}
