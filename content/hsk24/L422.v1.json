@@ -1,0 +1,763 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "ae85e3454746a03adeee36911332055805ac706a372985b4bdc1457af28b5398",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ecc",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L422",
+    "version": 1,
+    "versionId": "l422-draft-v1",
+    "title": "Nhận xét hành vi mà không suy đoán ý định",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Nhận xét hành vi mà không suy đoán ý định; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "从来"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 21,
+      "physicalPage": 22,
+      "printedPage": 19,
+      "section": "task",
+      "entry": "四"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T17:18:31.473810Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-feeling",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 21,
+          "physicalPage": 22,
+          "printedPage": 19,
+          "section": "task",
+          "entry": "四"
+        },
+        "written": "谈论情感话题",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-a65f7777cfac",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "个人特征"
+        },
+        "written": "个人特征",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l422-v-1103",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1103"
+        },
+        "written": "从来",
+        "pinyin": "cónglái",
+        "senseId": "l422-v-1103-sense",
+        "ordinal": 1103,
+        "note": "4 cónglái 副; 从来 ở bài đi với phủ định, nói thói quen hoặc kinh nghiệm trong quãng thời gian đã qua, không bảo đảm tương lai. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l422-v-1025",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1025"
+        },
+        "written": "本来",
+        "pinyin": "běnlái",
+        "senseId": "l422-v-1025-sense",
+        "ordinal": 1025,
+        "note": "4 běnlái 形、副; 本来 ở đây là trạng từ nói dự định/tình trạng ban đầu; không tự khẳng định hiện tại vẫn thế. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l422-v-1106",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1106"
+        },
+        "written": "粗心",
+        "pinyin": "cūxīn",
+        "senseId": "l422-v-1106-sense",
+        "ordinal": 1106,
+        "note": "4 cūxīn 形; 粗心 nói thiếu chú ý trong một việc, không tự chứng minh cố ý làm sai hoặc năng lực thấp. Nhận diện chữ 粗 trong 粗心; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l422-v-1026",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1026"
+        },
+        "written": "笨",
+        "pinyin": "bèn",
+        "senseId": "l422-v-1026-sense",
+        "ordinal": 1026,
+        "note": "4 bèn 形; 笨 là đánh giá có thể làm người nghe khó chịu; bài đặt trong phủ định, không gán năng lực từ một lỗi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l422-v-1267",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 110,
+          "physicalPage": 111,
+          "printedPage": 108,
+          "section": "vocabulary",
+          "entry": "ordinal 1267"
+        },
+        "written": "故意",
+        "pinyin": "gùyì",
+        "senseId": "l422-v-1267-sense",
+        "ordinal": 1267,
+        "note": "4 gùyì 副; 故意 đặt trước hành động cho biết có chủ ý; chỉ nên kết luận khi ngữ cảnh cung cấp căn cứ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l422-v-1117",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1117"
+        },
+        "written": "打工",
+        "pinyin": "dǎgōng",
+        "senseId": "l422-v-1117-sense",
+        "ordinal": 1117,
+        "note": "4 dǎgōng 动; 打工 chỉ làm công/làm thuê; không mặc định là việc bán thời gian trong mọi tình huống. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-40",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "40"
+        },
+        "written": "粗",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 40,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-11",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "11"
+        },
+        "written": "笨",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 11,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-422",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 394,
+          "physicalPage": 395,
+          "printedPage": 392,
+          "section": "grammar",
+          "entry": "时间副词：从来不"
+        },
+        "written": "从来",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l422-c0",
+      "version": 1,
+      "senseId": "l422-v-1103-sense",
+      "hanzi": "从来",
+      "dictionaryPinyin": "cóng lái",
+      "meaning": "từ trước tới nay",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l422-v-1103"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l422-c1",
+      "version": 1,
+      "senseId": "l422-v-1025-sense",
+      "hanzi": "本来",
+      "dictionaryPinyin": "běn lái",
+      "meaning": "vốn, ban đầu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l422-v-1025"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l422-c2",
+      "version": 1,
+      "senseId": "l422-v-1106-sense",
+      "hanzi": "粗心",
+      "dictionaryPinyin": "cū xīn",
+      "meaning": "bất cẩn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l422-v-1106"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l422-c3",
+      "version": 1,
+      "senseId": "l422-v-1026-sense",
+      "hanzi": "笨",
+      "dictionaryPinyin": "bèn",
+      "meaning": "chậm hiểu, vụng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l422-v-1026"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l422-c4",
+      "version": 1,
+      "senseId": "l422-v-1267-sense",
+      "hanzi": "故意",
+      "dictionaryPinyin": "gù yì",
+      "meaning": "cố ý",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l422-v-1267"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l422-c5",
+      "version": 1,
+      "senseId": "l422-v-1117-sense",
+      "hanzi": "打工",
+      "dictionaryPinyin": "dǎ gōng",
+      "meaning": "làm thuê, làm công",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l422-v-1117"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l422-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 暑假 shǔjià: nghỉ hè; 整理 zhěnglǐ: sắp gọn; 菜单 càidān: thực đơn. Đoạn hư cấu dùng để phân biệt trạng thái với ý định, không kết luận tâm lý người thật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l422-t0",
+      "type": "teaching",
+      "title": "从来 · từ trước tới nay",
+      "text": "从来 ở bài đi với phủ định, nói thói quen hoặc kinh nghiệm trong quãng thời gian đã qua, không bảo đảm tương lai.",
+      "hanzi": "他从来不故意迟到。",
+      "pinyin": "Tā cónglái bù gùyì chídào.",
+      "meaning": "Từ trước tới nay anh ấy không cố ý đi muộn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l422-t1",
+      "type": "teaching",
+      "title": "本来 · vốn, ban đầu",
+      "text": "本来 ở đây là trạng từ nói dự định/tình trạng ban đầu; không tự khẳng định hiện tại vẫn thế.",
+      "hanzi": "我本来想走路，后来改坐车。",
+      "pinyin": "Wǒ běnlái xiǎng zǒu lù, hòulái gǎi zuò chē.",
+      "meaning": "Ban đầu tôi định đi bộ, sau đổi sang đi xe.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l422-t2",
+      "type": "teaching",
+      "title": "粗心 · bất cẩn",
+      "text": "粗心 nói thiếu chú ý trong một việc, không tự chứng minh cố ý làm sai hoặc năng lực thấp. Nhận diện chữ 粗 trong 粗心; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "他太粗心，把日期写错了。",
+      "pinyin": "Tā tài cūxīn, bǎ rìqī xiě cuò le.",
+      "meaning": "Anh ấy bất cẩn quá, viết sai ngày.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l422-t3",
+      "type": "teaching",
+      "title": "笨 · chậm hiểu, vụng",
+      "text": "笨 là đánh giá có thể làm người nghe khó chịu; bài đặt trong phủ định, không gán năng lực từ một lỗi.",
+      "hanzi": "她并不笨，只是还没学过。",
+      "pinyin": "Tā bìng bù bèn, zhǐshì hái méi xué guo.",
+      "meaning": "Cô ấy không chậm hiểu, chỉ là chưa học qua.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l422-t4",
+      "type": "teaching",
+      "title": "故意 · cố ý",
+      "text": "故意 đặt trước hành động cho biết có chủ ý; chỉ nên kết luận khi ngữ cảnh cung cấp căn cứ.",
+      "hanzi": "我不是故意打扰你的。",
+      "pinyin": "Wǒ bú shì gùyì dǎrǎo nǐ de.",
+      "meaning": "Tôi không cố ý làm phiền bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l422-t5",
+      "type": "teaching",
+      "title": "打工 · làm thuê, làm công",
+      "text": "打工 chỉ làm công/làm thuê; không mặc định là việc bán thời gian trong mọi tình huống.",
+      "hanzi": "他暑假在一家餐厅打工。",
+      "pinyin": "Tā shǔjià zài yì jiā cāntīng dǎgōng.",
+      "meaning": "Nghỉ hè anh ấy làm thuê ở một nhà hàng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l422-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "从来不/没 nói từ trước đến nay không xảy ra theo lời người nói. Không tự có nghĩa “sẽ không bao giờ”. Cần phân biệt cố ý 故意 với bất cẩn 粗心 và chưa biết cách làm.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l422-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小罗暑假在餐厅打工，本来负责整理菜单。一次他粗心写错日期，经理问是不是故意的。他说明原因后，经理说一次错误不能说明人笨。小罗还说自己从来不故意迟到，但这并不是对未来所有事情的保证。",
+      "pinyin": "Xiǎo Luó shǔjià zài cāntīng dǎgōng, běnlái fùzé zhěnglǐ càidān. Yí cì tā cūxīn xiě cuò rìqī, jīnglǐ wèn shì bu shì gùyì de. Tā shuōmíng yuányīn hòu, jīnglǐ shuō yí cì cuòwù bù néng shuōmíng rén bèn. Xiǎo Luó hái shuō zìjǐ cónglái bù gùyì chídào, dàn zhè bìng bú shì duì wèilái suǒyǒu shìqing de bǎozhèng.",
+      "meaning": "La đi làm hè và viết sai ngày do bất cẩn. Quản lý không suy từ một lỗi ra năng lực. Lời nói về quá khứ cũng không phải cam kết mọi việc tương lai.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l422-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l422-v1-e0"
+    },
+    {
+      "id": "l422-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l422-v1-e1"
+    },
+    {
+      "id": "l422-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l422-v1-e2"
+    },
+    {
+      "id": "l422-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l422-v1-e3"
+    },
+    {
+      "id": "l422-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l422-v1-e4"
+    },
+    {
+      "id": "l422-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l422-v1-e5"
+    },
+    {
+      "id": "l422-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l422-v1-e6"
+    },
+    {
+      "id": "l422-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l422-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l422-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l422-c0",
+      "senseId": "l422-v-1103-sense",
+      "keyRef": "l422-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “từ trước tới nay” để điền câu: 他□不故意迟到。",
+      "choices": [
+        "本来",
+        "粗心",
+        "笨",
+        "故意",
+        "打工",
+        "从来"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l422-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l422-c1",
+      "senseId": "l422-v-1025-sense",
+      "keyRef": "l422-v1-k1",
+      "prompt": "Ghi pinyin của 本来 trong câu “我本来想走路，后来改坐车。”, theo nghĩa “vốn, ban đầu”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l422-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l422-c2",
+      "senseId": "l422-v-1106-sense",
+      "keyRef": "l422-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “bất cẩn”: □心 (cū xīn). Ngữ cảnh: 他太□，把日期写错了。",
+      "choices": [
+        "租",
+        "粗",
+        "祖",
+        "组"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l422-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l422-c3",
+      "senseId": "l422-v-1026-sense",
+      "keyRef": "l422-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “chậm hiểu, vụng” để điền câu: 她并不□，只是还没学过。",
+      "choices": [
+        "故意",
+        "打工",
+        "从来",
+        "本来",
+        "粗心",
+        "笨"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l422-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l422-c4",
+      "senseId": "l422-v-1267-sense",
+      "keyRef": "l422-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “cố ý” để điền câu: 我不是□打扰你的。",
+      "choices": [
+        "打工",
+        "从来",
+        "本来",
+        "粗心",
+        "笨",
+        "故意"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l422-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l422-c5",
+      "senseId": "l422-v-1117-sense",
+      "keyRef": "l422-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “làm thuê, làm công”: 他暑假在一家餐厅□。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l422-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l422-c0",
+      "senseId": "l422-v-1103-sense",
+      "keyRef": "l422-v1-k6",
+      "prompt": "Lỗi ngày tháng chứng minh chắc điều gì?",
+      "choices": [
+        "他一定故意做错",
+        "他以后永远不会迟到",
+        "他写错了一次日期"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l422-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l422-c3",
+      "senseId": "l422-v-1026-sense",
+      "keyRef": "l422-v1-k7",
+      "prompt": "Xếp lời kể thói quen, bắt đầu bằng 他.",
+      "choices": [
+        "故意迟到",
+        "他",
+        "从来",
+        "不"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l422-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l422-v1-e0",
+      "senseId": "l422-v-1103-sense",
+      "accepted": [
+        "从来"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "从来: từ trước tới nay. 从来 ở bài đi với phủ định, nói thói quen hoặc kinh nghiệm trong quãng thời gian đã qua, không bảo đảm tương lai. Từ trước tới nay anh ấy không cố ý đi muộn."
+    },
+    {
+      "id": "l422-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l422-v1-e1",
+      "senseId": "l422-v-1025-sense",
+      "accepted": [
+        "běn lái"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc běn lái. 本来 ở đây là trạng từ nói dự định/tình trạng ban đầu; không tự khẳng định hiện tại vẫn thế."
+    },
+    {
+      "id": "l422-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l422-v1-e2",
+      "senseId": "l422-v-1106-sense",
+      "accepted": [
+        "粗"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 粗 tạo từ 粗心. 粗心 nói thiếu chú ý trong một việc, không tự chứng minh cố ý làm sai hoặc năng lực thấp. Nhận diện chữ 粗 trong 粗心; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l422-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l422-v1-e3",
+      "senseId": "l422-v-1026-sense",
+      "accepted": [
+        "笨"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "笨: chậm hiểu, vụng. 笨 là đánh giá có thể làm người nghe khó chịu; bài đặt trong phủ định, không gán năng lực từ một lỗi. Cô ấy không chậm hiểu, chỉ là chưa học qua."
+    },
+    {
+      "id": "l422-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l422-v1-e4",
+      "senseId": "l422-v-1267-sense",
+      "accepted": [
+        "故意"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "故意: cố ý. 故意 đặt trước hành động cho biết có chủ ý; chỉ nên kết luận khi ngữ cảnh cung cấp căn cứ. Tôi không cố ý làm phiền bạn."
+    },
+    {
+      "id": "l422-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l422-v1-e5",
+      "senseId": "l422-v-1117-sense",
+      "accepted": [
+        "打工"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 打工. 打工 chỉ làm công/làm thuê; không mặc định là việc bán thời gian trong mọi tình huống. Nghỉ hè anh ấy làm thuê ở một nhà hàng."
+    },
+    {
+      "id": "l422-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l422-v1-e6",
+      "senseId": "l422-v-1103-sense",
+      "accepted": [
+        "他写错了一次日期"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 他写错了一次日期. La đi làm hè và viết sai ngày do bất cẩn. Quản lý không suy từ một lỗi ra năng lực. Lời nói về quá khứ cũng không phải cam kết mọi việc tương lai."
+    },
+    {
+      "id": "l422-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l422-v1-e7",
+      "senseId": "l422-v-1026-sense",
+      "accepted": [
+        "1,2,3,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 从来不/没 nói từ trước đến nay không xảy ra theo lời người nói. Không tự có nghĩa “sẽ không bao giờ”. Cần phân biệt cố ý 故意 với bất cẩn 粗心 và chưa biết cách làm."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

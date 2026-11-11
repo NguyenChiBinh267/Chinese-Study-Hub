@@ -1,0 +1,766 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "886c795d8526198a951b0b005af42fc72aceddae8a458037bf92d82c159eef79",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-c",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L110",
+    "version": 1,
+    "versionId": "l110-draft-v1",
+    "title": "Đếm từ sáu đến mười",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đếm từ sáu đến mười; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "数词"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T09:27:43.950465Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-event",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "问答事件信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-f80c6b43ef6a",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "日期、时间、地点、方位、参加者、号码等"
+        },
+        "written": "日期、时间、地点、方位、参加者、号码等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l110-v-113",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 113"
+        },
+        "written": "六",
+        "pinyin": "liù",
+        "senseId": "l110-v-113-sense",
+        "ordinal": 113,
+        "note": "1 liù 数; 六 là số sáu, chữ khác 八; nhìn cả phần trên và dưới. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l110-v-160",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 160"
+        },
+        "written": "七",
+        "pinyin": "qī",
+        "senseId": "l110-v-160-sense",
+        "ordinal": 160,
+        "note": "1 qī 数; 七 đọc qī với thanh một; không nhầm với 去 qù ở các bài sau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l110-v-2",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 2"
+        },
+        "written": "八",
+        "pinyin": "bā",
+        "senseId": "l110-v-2-sense",
+        "ordinal": 2,
+        "note": "1 bā 数; 八 là số tám, có hai nét tách; không phải 人 dù nét gần nhau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l110-v-95",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 95"
+        },
+        "written": "九",
+        "pinyin": "jiǔ",
+        "senseId": "l110-v-95-sense",
+        "ordinal": 95,
+        "note": "1 jiǔ 数; 九 đọc jiǔ, âm cuối ou; bài yêu cầu pinyin của số, không phải tên chữ Latin. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l110-v-184",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 184"
+        },
+        "written": "十",
+        "pinyin": "shí",
+        "senseId": "l110-v-184-sense",
+        "ordinal": 184,
+        "note": "1 shí 数; 十 đứng riêng là mười; ghép với số khác để tạo số lớn hơn cần quy tắc tiếp theo. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-104",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "104"
+        },
+        "written": "六",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 104,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-134",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "134"
+        },
+        "written": "七",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 134,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-2",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "2"
+        },
+        "written": "八",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 2,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-87",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "87"
+        },
+        "written": "九",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 87,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-155",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "155"
+        },
+        "written": "十",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 155,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-110",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-11"
+        },
+        "written": "数词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l110-c0",
+      "version": 1,
+      "senseId": "l110-v-113-sense",
+      "hanzi": "六",
+      "dictionaryPinyin": "liù",
+      "meaning": "sáu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l110-v-113"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l110-c1",
+      "version": 1,
+      "senseId": "l110-v-160-sense",
+      "hanzi": "七",
+      "dictionaryPinyin": "qī",
+      "meaning": "bảy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l110-v-160"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l110-c2",
+      "version": 1,
+      "senseId": "l110-v-2-sense",
+      "hanzi": "八",
+      "dictionaryPinyin": "bā",
+      "meaning": "tám",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l110-v-2"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l110-c3",
+      "version": 1,
+      "senseId": "l110-v-95-sense",
+      "hanzi": "九",
+      "dictionaryPinyin": "jiǔ",
+      "meaning": "chín",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l110-v-95"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l110-c4",
+      "version": 1,
+      "senseId": "l110-v-184-sense",
+      "hanzi": "十",
+      "dictionaryPinyin": "shí",
+      "meaning": "mười",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l110-v-184"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l110-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l110-t0",
+      "type": "teaching",
+      "title": "六 · sáu",
+      "text": "六 là số sáu, chữ khác 八; nhìn cả phần trên và dưới.",
+      "hanzi": "六、七、八。",
+      "pinyin": "Liù, qī, bā.",
+      "meaning": "Sáu, bảy, tám.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l110-t1",
+      "type": "teaching",
+      "title": "七 · bảy",
+      "text": "七 đọc qī với thanh một; không nhầm với 去 qù ở các bài sau.",
+      "hanzi": "七、八。",
+      "pinyin": "Qī, bā.",
+      "meaning": "Bảy, tám.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l110-t2",
+      "type": "teaching",
+      "title": "八 · tám",
+      "text": "八 là số tám, có hai nét tách; không phải 人 dù nét gần nhau.",
+      "hanzi": "八、九、十。",
+      "pinyin": "Bā, jiǔ, shí.",
+      "meaning": "Tám, chín, mười.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l110-t3",
+      "type": "teaching",
+      "title": "九 · chín",
+      "text": "九 đọc jiǔ, âm cuối ou; bài yêu cầu pinyin của số, không phải tên chữ Latin.",
+      "hanzi": "九、十。",
+      "pinyin": "Jiǔ, shí.",
+      "meaning": "Chín, mười.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l110-t4",
+      "type": "teaching",
+      "title": "十 · mười",
+      "text": "十 đứng riêng là mười; ghép với số khác để tạo số lớn hơn cần quy tắc tiếp theo.",
+      "hanzi": "六、七、八、九、十。",
+      "pinyin": "Liù, qī, bā, jiǔ, shí.",
+      "meaning": "Sáu, bảy, tám, chín, mười.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l110-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "Tiếp chuỗi sáu đến mười: 六七八九十. 十 đứng riêng là mười, không viết 一十 trong phép đếm thông thường. Chưa dùng các số này làm điểm số/điện thoại nếu tình huống không nói.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l110-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：六、七、八、九、十。\nB：九？\nA：不是九，是十。\nB：十。好！",
+      "pinyin": "A: Liù, qī, bā, jiǔ, shí. B: Jiǔ? A: Bú shì jiǔ, shì shí. B: Shí. Hǎo!",
+      "meaning": "B hỏi lại chín; A sửa rằng số đang nhấn mạnh là mười. Đọc toàn câu phủ định để không chọn nhầm.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l110-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l110-v1-e0"
+    },
+    {
+      "id": "l110-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l110-v1-e1"
+    },
+    {
+      "id": "l110-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l110-v1-e2"
+    },
+    {
+      "id": "l110-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l110-v1-e3"
+    },
+    {
+      "id": "l110-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l110-v1-e4"
+    },
+    {
+      "id": "l110-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l110-v1-e5"
+    },
+    {
+      "id": "l110-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l110-v1-e6"
+    },
+    {
+      "id": "l110-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l110-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l110-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l110-c0",
+      "senseId": "l110-v-113-sense",
+      "keyRef": "l110-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “sáu”: □ (liù). Ngữ cảnh: □、七、八。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "八",
+        "大",
+        "文",
+        "六"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l110-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l110-c1",
+      "senseId": "l110-v-160-sense",
+      "keyRef": "l110-v1-k1",
+      "prompt": "Viết pinyin từ điển của 七 (bảy).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l110-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l110-c2",
+      "senseId": "l110-v-2-sense",
+      "keyRef": "l110-v1-k2",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “tám”: □、九、十。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l110-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l110-c3",
+      "senseId": "l110-v-95-sense",
+      "keyRef": "l110-v1-k3",
+      "prompt": "Chọn mục từ có nghĩa “chín” trong câu: □、十。",
+      "choices": [
+        "十",
+        "六",
+        "七",
+        "八",
+        "九"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l110-v1-e4",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l110-c4",
+      "senseId": "l110-v-184-sense",
+      "keyRef": "l110-v1-k4",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “mười”: 六、七、八、九、□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l110-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l110-c2",
+      "senseId": "l110-v-2-sense",
+      "keyRef": "l110-v1-k5",
+      "prompt": "Trong câu “八、九、十。”, 八 mang nghĩa nào theo bài?",
+      "choices": [
+        "bảy",
+        "tám",
+        "chín",
+        "mười",
+        "sáu"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l110-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l110-c0",
+      "senseId": "l110-v-113-sense",
+      "keyRef": "l110-v1-k6",
+      "prompt": "Cuối cùng A xác nhận số nào?",
+      "choices": [
+        "九",
+        "六",
+        "十"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l110-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l110-c3",
+      "senseId": "l110-v-95-sense",
+      "keyRef": "l110-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "六、",
+        "七、",
+        "八、",
+        "九、",
+        "十。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l110-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l110-v1-e0",
+      "senseId": "l110-v-113-sense",
+      "accepted": [
+        "六"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 六 tạo từ 六. 六 là số sáu, chữ khác 八; nhìn cả phần trên và dưới. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l110-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l110-v1-e1",
+      "senseId": "l110-v-160-sense",
+      "accepted": [
+        "qī"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "七 ghi qī. 七 đọc qī với thanh một; không nhầm với 去 qù ở các bài sau."
+    },
+    {
+      "id": "l110-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l110-v1-e2",
+      "senseId": "l110-v-2-sense",
+      "accepted": [
+        "八"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "八: tám. 八 là số tám, có hai nét tách; không phải 人 dù nét gần nhau. Tám, chín, mười."
+    },
+    {
+      "id": "l110-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l110-v1-e3",
+      "senseId": "l110-v-95-sense",
+      "accepted": [
+        "九"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "九: chín. 九 đọc jiǔ, âm cuối ou; bài yêu cầu pinyin của số, không phải tên chữ Latin. Chín, mười."
+    },
+    {
+      "id": "l110-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l110-v1-e4",
+      "senseId": "l110-v-184-sense",
+      "accepted": [
+        "十"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "十: mười. 十 đứng riêng là mười; ghép với số khác để tạo số lớn hơn cần quy tắc tiếp theo. Sáu, bảy, tám, chín, mười."
+    },
+    {
+      "id": "l110-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l110-v1-e5",
+      "senseId": "l110-v-2-sense",
+      "accepted": [
+        "tám"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "八 là số tám, có hai nét tách; không phải 人 dù nét gần nhau. Tám, chín, mười."
+    },
+    {
+      "id": "l110-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l110-v1-e6",
+      "senseId": "l110-v-113-sense",
+      "accepted": [
+        "十"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 十. B hỏi lại chín; A sửa rằng số đang nhấn mạnh là mười. Đọc toàn câu phủ định để không chọn nhầm."
+    },
+    {
+      "id": "l110-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l110-v1-e7",
+      "senseId": "l110-v-95-sense",
+      "accepted": [
+        "0,1,2,3,4"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. Tiếp chuỗi sáu đến mười: 六七八九十. 十 đứng riêng là mười, không viết 一十 trong phép đếm thông thường. Chưa dùng các số này làm điểm số/điện thoại nếu tình huống không nói."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

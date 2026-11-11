@@ -1,0 +1,1350 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "4a4a6525bb95a7052cf9851e8c6e483dc1275360d0f776adb702516848874f3d",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-closure-grammar",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L1105",
+    "version": 1,
+    "versionId": "l1105-draft-v1",
+    "title": "Từ bổ nghĩa đứng trước danh từ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học trong tình huống viết mới; không thêm từ mục tiêu.",
+      "Bài nháp có hỗ trợ, không phải đề thi, không đo nghe/nói/viết tay hay cấp mastery."
+    ],
+    "prerequisites": [
+      "l117-draft-v1",
+      "l111-draft-v1",
+      "l154-draft-v1",
+      "l160-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "h1-closure-1105-grammar"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed.",
+      "Original supplementary HSK1 grammar/character practice. Reused word identities; zero new vocabulary; technical mapping is not human approval."
+    ],
+    "alignmentCheckedAt": "2026-10-31T04:12:51.863Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-thing",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "问答物品信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-task-food",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 5,
+          "physicalPage": 6,
+          "printedPage": 3,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "问答饮食喜好",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-task-shop",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 6,
+          "physicalPage": 7,
+          "printedPage": 4,
+          "section": "task",
+          "entry": "九"
+        },
+        "written": "问答商品信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-07c3a037a790",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "物品特征"
+        },
+        "written": "物品特征",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-topic-b411fd04a9b3",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "物品名称"
+        },
+        "written": "物品名称",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-topic-b044c64322e4",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "食物饮品"
+        },
+        "written": "食物饮品",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-topic-a17cba74cc13",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "商品选购"
+        },
+        "written": "商品选购",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l117-v-242",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 242"
+        },
+        "written": "新",
+        "pinyin": "xīn",
+        "senseId": "l117-v-242-sense",
+        "ordinal": 242,
+        "note": "1 xīn 形; 新 tả đồ vật mới; không có nghĩa chỉ một món chưa từng thuộc về ai trong mọi ngữ cảnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l117-v-73",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 73"
+        },
+        "written": "好看",
+        "pinyin": "hǎokàn",
+        "senseId": "l117-v-73-sense",
+        "ordinal": 73,
+        "note": "1 hǎokàn 形; 好看 trong câu khen hình thức con mèo đẹp; không lấy nghĩa này cho mọi động từ 看 đứng riêng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l117-v-158",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 158"
+        },
+        "written": "漂亮",
+        "pinyin": "piàoliang",
+        "senseId": "l117-v-158-sense",
+        "ordinal": 158,
+        "note": "1 piàoliang 形; 漂亮 tả vẻ đẹp ở ví dụ; đọc piào liang với âm sau nhẹ theo mục từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l117-v-79",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 79"
+        },
+        "written": "很",
+        "pinyin": "hěn",
+        "senseId": "l117-v-79-sense",
+        "ordinal": 79,
+        "note": "1 hěn 副; 很 đứng trước tính từ trong câu này, không đặt sau tính từ theo trật tự tiếng Việt. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-190",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 190"
+        },
+        "written": "书",
+        "pinyin": "shū",
+        "senseId": "l111-v-190-sense",
+        "ordinal": 190,
+        "note": "1 shū 名; 书 chỉ sách; 一本书 là một quyển sách, không phải 一书. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-10",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 10"
+        },
+        "written": "本1",
+        "pinyin": "běn",
+        "senseId": "l111-v-10-sense",
+        "ordinal": 10,
+        "note": "1 běn 量; 本 trong 一本书 là lượng từ cho sách, không dịch là gốc trong câu này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-60",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 60"
+        },
+        "written": "个",
+        "pinyin": "gè",
+        "senseId": "l111-v-60-sense",
+        "ordinal": 60,
+        "note": "1 gè 量; 个 đếm người/vật ở các trường hợp được học; không dùng 一个人 để chỉ số quyển sách. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-295",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 295"
+        },
+        "written": "桌子",
+        "pinyin": "zhuōzi",
+        "senseId": "l111-v-295-sense",
+        "ordinal": 295,
+        "note": "1 zhuōzi 名; 桌子 là bàn; âm 子 nhẹ trong mục từ này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l111-v-260",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 260"
+        },
+        "written": "椅子",
+        "pinyin": "yǐzi",
+        "senseId": "l111-v-260-sense",
+        "ordinal": 260,
+        "note": "1 yǐzi 名; 椅子 là ghế, không đồng nghĩa bàn; so sánh chữ đầu để tránh lẫn hai đồ dùng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l154-v-21",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 21"
+        },
+        "written": "吃",
+        "pinyin": "chī",
+        "senseId": "l154-v-21-sense",
+        "ordinal": 21,
+        "note": "1 chī 动; 吃 nói ăn, khác 喝 uống trong các mẫu đồ ăn/đồ uống này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l154-v-16",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 16"
+        },
+        "written": "菜",
+        "pinyin": "cài",
+        "senseId": "l154-v-16-sense",
+        "ordinal": 16,
+        "note": "1 cài 名; 菜 trong 我吃菜 có thể nói rau/món rau; trong câu khác có thể là một món ăn, không tự kết luận mọi 菜 đều chay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l154-v-125",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 125"
+        },
+        "written": "米饭",
+        "pinyin": "mǐfàn",
+        "senseId": "l154-v-125-sense",
+        "ordinal": 125,
+        "note": "1 mǐfàn 名; 米饭 chỉ cơm nấu từ gạo, hẹp hơn 饭 dùng cho bữa ăn nói chung. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l154-v-192",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 192"
+        },
+        "written": "水",
+        "pinyin": "shuǐ",
+        "senseId": "l154-v-192-sense",
+        "ordinal": 192,
+        "note": "1 shuǐ 名; 水 trong câu là nước để uống; không tự đưa lời khuyên lượng nước hay sức khỏe. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l160-v-255",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 255"
+        },
+        "written": "衣服",
+        "pinyin": "yīfu",
+        "senseId": "l160-v-255-sense",
+        "ordinal": 255,
+        "note": "1 yīfu 名; 衣服 gọi quần áo; 一件衣服 chỉ một món trong ví dụ, không phải toàn bộ tủ đồ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l160-v-23",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 23"
+        },
+        "written": "穿",
+        "pinyin": "chuān",
+        "senseId": "l160-v-23-sense",
+        "ordinal": 23,
+        "note": "1 chuān 动; 穿 trong 穿衣服 nói mặc quần áo; không thay bằng 吃/喝 trong mẫu này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l160-v-89",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 89"
+        },
+        "written": "件",
+        "pinyin": "jiàn",
+        "senseId": "l160-v-89-sense",
+        "ordinal": 89,
+        "note": "1 jiàn 量; 件 trong 一件衣服 là lượng từ đếm; không dịch thành một việc ở câu này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l160-v-9",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 9"
+        },
+        "written": "杯子",
+        "pinyin": "bēizi",
+        "senseId": "l160-v-9-sense",
+        "ordinal": 9,
+        "note": "1 bēizi 名; 杯子 là chiếc cốc, không tự chỉ một lượng nước; 一杯水 là một cụm lượng khác. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-203",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "203"
+        },
+        "written": "新",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 203,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-65",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "65"
+        },
+        "written": "好",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 65,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-90",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "90"
+        },
+        "written": "看",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 90,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-132",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "132"
+        },
+        "written": "漂",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 132,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-102",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "102"
+        },
+        "written": "亮",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 102,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-69",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "69"
+        },
+        "written": "很",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 69,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-164",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "164"
+        },
+        "written": "书",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 164,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-11",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "11"
+        },
+        "written": "本",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 11,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-53",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "53"
+        },
+        "written": "个",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 53,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-239",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "239"
+        },
+        "written": "桌",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 239,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-240",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "240"
+        },
+        "written": "子",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 240,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-217",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "217"
+        },
+        "written": "椅",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 217,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-22",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "22"
+        },
+        "written": "吃",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 22,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-16",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "16"
+        },
+        "written": "菜",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 16,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-115",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "115"
+        },
+        "written": "米",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 115,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-44",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "44"
+        },
+        "written": "饭",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 44,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-165",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "165"
+        },
+        "written": "水",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 165,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-213",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "213"
+        },
+        "written": "衣",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 213,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-49",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "49"
+        },
+        "written": "服",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 49,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-24",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "24"
+        },
+        "written": "穿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 24,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-83",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "83"
+        },
+        "written": "件",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 83,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-10",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "10"
+        },
+        "written": "杯",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 10,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-closure-1105-grammar",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "g-386-12"
+        },
+        "written": "定语：名词性词语、形容词性短语、数量短语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Pinned PDF physical body row12; only the explicitly taught subalternative is claimed. Vietnamese instruction is original unreviewed DRAFT."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l117-c0",
+      "version": 1,
+      "senseId": "l117-v-242-sense",
+      "hanzi": "新",
+      "dictionaryPinyin": "xīn",
+      "meaning": "mới",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l117-v-242"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l111-c0",
+      "version": 1,
+      "senseId": "l111-v-190-sense",
+      "hanzi": "书",
+      "dictionaryPinyin": "shū",
+      "meaning": "sách",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l111-v-190"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l154-c3",
+      "version": 1,
+      "senseId": "l154-v-192-sense",
+      "hanzi": "水",
+      "dictionaryPinyin": "shuǐ",
+      "meaning": "nước",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l154-v-192"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l160-c3",
+      "version": 1,
+      "senseId": "l160-v-9-sense",
+      "hanzi": "杯子",
+      "dictionaryPinyin": "bēi zi",
+      "meaning": "cốc; ly (vật chứa)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l160-v-9"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l1105-guide",
+      "type": "teaching",
+      "title": "Ôn có hỗ trợ",
+      "text": "Thử nhớ rồi đọc lại phần nhắc. Đây là ngữ cảnh mới của các nghĩa đã học; hoàn tất luyện không xác nhận mastery. Nhận diện chữ có lựa chọn khác với viết tay. Các từ hỗ trợ đều đã gặp trong nhóm trước.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1105-grammar",
+      "type": "teaching",
+      "title": "Cách nói và lỗi thường gặp",
+      "text": "Phần làm rõ danh từ thường đứng trước danh từ: 我的书 (sách của tôi), 新书 (sách mới), 一杯水 (một cốc nước). Không phải mọi tính từ trước danh từ đều bắt buộc có 的: 新书 và 热水 trong mẫu này không cần 的. Đây là các mẫu cụ thể, không phải quy tắc “bỏ 的 với mọi tính từ”. Lượng từ đi theo số trước danh từ; không đổi thành 水一杯 khi đề yêu cầu cụm mẫu này.",
+      "hanzi": "我的新书。\n一杯热水。",
+      "pinyin": "Wǒ de xīn shū. Yì bēi rè shuǐ.",
+      "meaning": "Sách mới của tôi. Một cốc nước nóng.",
+      "readingMinutes": 3
+    },
+    {
+      "id": "l1105-reminder0",
+      "type": "teaching",
+      "title": "新 · mới",
+      "text": "Nhắc nghĩa đã học: mới. Đọc ví dụ trong phạm vi nghĩa đã học; không đổi thẻ ôn.",
+      "hanzi": "这本书很新。",
+      "pinyin": "Zhè běn shū hěn xīn.",
+      "meaning": "Quyển sách này mới.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1105-reminder1",
+      "type": "teaching",
+      "title": "书 · sách",
+      "text": "Nhắc nghĩa đã học: sách. Đọc ví dụ trong phạm vi nghĩa đã học; không đổi thẻ ôn.",
+      "hanzi": "这是我的书。",
+      "pinyin": "Zhè shì wǒ de shū.",
+      "meaning": "Đây là sách của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1105-reminder2",
+      "type": "teaching",
+      "title": "水 · nước",
+      "text": "Nhắc nghĩa đã học: nước. Đọc ví dụ trong phạm vi nghĩa đã học; không đổi thẻ ôn.",
+      "hanzi": "我喝水。",
+      "pinyin": "Wǒ hē shuǐ.",
+      "meaning": "Tôi uống nước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1105-reminder3",
+      "type": "teaching",
+      "title": "杯子 · cốc; ly (vật chứa)",
+      "text": "Nhắc nghĩa đã học: cốc; ly (vật chứa). Đọc ví dụ trong phạm vi nghĩa đã học; không đổi thẻ ôn.",
+      "hanzi": "我的杯子在桌子上。",
+      "pinyin": "Wǒ de bēi zi zài zhuō zi shang.",
+      "meaning": "Cốc của tôi ở trên bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l1105-reading",
+      "type": "teaching",
+      "title": "Tình huống ôn mới",
+      "text": "Đọc toàn bộ lời đáp, kể cả phần phủ định. Đây là đọc chữ, chưa có audio tham chiếu được duyệt.",
+      "hanzi": "A：这是你的新书吗？\nB：是，这是我的新书。\nA：你想喝什么？\nB：我想喝一杯热水。",
+      "pinyin": "A: Zhè shì nǐ de xīn shū ma? B: Shì, zhè shì wǒ de xīn shū. A: Nǐ xiǎng hē shén me? B: Wǒ xiǎng hē yì bēi rè shuǐ.",
+      "meaning": "B nhận sách mới là của mình và muốn uống một cốc nước nóng. Cụm 我的/新/一杯/热 bổ sung thông tin khác nhau cho danh từ.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l1105-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l1105-e0"
+    },
+    {
+      "id": "l1105-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l1105-e1"
+    },
+    {
+      "id": "l1105-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l1105-e2"
+    },
+    {
+      "id": "l1105-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l1105-e3"
+    },
+    {
+      "id": "l1105-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l1105-e4"
+    },
+    {
+      "id": "l1105-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l1105-e5"
+    },
+    {
+      "id": "l1105-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l1105-e6"
+    },
+    {
+      "id": "l1105-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l1105-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l1105-e0",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l117-c0",
+      "senseId": "l117-v-242-sense",
+      "keyRef": "l1105-k0",
+      "prompt": "Ghi pinyin từ điển của 新 theo nghĩa “mới”. Ví dụ mới: 这本书很新。",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l1105-e1",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l111-c0",
+      "senseId": "l111-v-190-sense",
+      "keyRef": "l1105-k1",
+      "prompt": "Điền đúng mục từ đọc shū, nghĩa “sách”: 这是我的□。 Chỉ nhập mục từ được hỏi, không chấm mọi cách diễn đạt ngoài đề.",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l1105-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l154-c3",
+      "senseId": "l154-v-192-sense",
+      "keyRef": "l1105-k2",
+      "prompt": "Trong câu mới “我喝水。”, 水 mang nghĩa nào theo bài?",
+      "choices": [
+        "cốc; ly (vật chứa)",
+        "mới",
+        "sách",
+        "nước"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l1105-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l160-c3",
+      "senseId": "l160-v-9-sense",
+      "keyRef": "l1105-k3",
+      "prompt": "Ghi pinyin từ điển của 杯子 theo nghĩa “cốc; ly (vật chứa)”. Ví dụ mới: 我的杯子在桌子上。",
+      "choices": [],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l1105-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l117-c0",
+      "senseId": "l117-v-242-sense",
+      "keyRef": "l1105-k4",
+      "prompt": "B muốn uống gì?",
+      "choices": [
+        "冷茶",
+        "一杯热水",
+        "三杯牛奶"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l1105-e5",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l117-c0",
+      "senseId": "l117-v-242-sense",
+      "keyRef": "l1105-k5",
+      "prompt": "Xếp các cụm thành câu mẫu đã nhắc, bắt đầu bằng “我想喝”; không tách cụm hoặc thêm từ.",
+      "choices": [
+        "我想喝",
+        "一杯",
+        "热水。"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l1105-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l117-c0",
+      "senseId": "l117-v-242-sense",
+      "keyRef": "l1105-k6",
+      "prompt": "Cụm nào đúng mẫu “sách mới của tôi”?",
+      "choices": [
+        "书我的新",
+        "我的书的新",
+        "我的新书"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l1105-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l117-c0",
+      "senseId": "l117-v-242-sense",
+      "keyRef": "l1105-k7",
+      "prompt": "Trong 一杯水, 一杯 bổ sung loại thông tin nào?",
+      "choices": [
+        "Tình trạng đang diễn ra",
+        "Số lượng qua đơn vị cốc",
+        "Người sở hữu nước"
+      ],
+      "inputHint": "Trả lời đúng phạm vi đề; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l1105-k0",
+      "version": 1,
+      "exerciseVersionId": "l1105-e0",
+      "senseId": "l117-v-242-sense",
+      "accepted": [
+        "xīn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Mục từ ghi xīn; cách đọc trong câu có thể có biến điệu."
+    },
+    {
+      "id": "l1105-k1",
+      "version": 1,
+      "exerciseVersionId": "l1105-e1",
+      "senseId": "l111-v-190-sense",
+      "accepted": [
+        "书"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Điền 书. Đây là sách của tôi."
+    },
+    {
+      "id": "l1105-k2",
+      "version": 1,
+      "exerciseVersionId": "l1105-e2",
+      "senseId": "l154-v-192-sense",
+      "accepted": [
+        "nước"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "水: nước. Tôi uống nước."
+    },
+    {
+      "id": "l1105-k3",
+      "version": 1,
+      "exerciseVersionId": "l1105-e3",
+      "senseId": "l160-v-9-sense",
+      "accepted": [
+        "bēi zi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Mục từ ghi bēi zi; cách đọc trong câu có thể có biến điệu."
+    },
+    {
+      "id": "l1105-k4",
+      "version": 1,
+      "exerciseVersionId": "l1105-e4",
+      "senseId": "l117-v-242-sense",
+      "accepted": [
+        "一杯热水"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "B nhận sách mới là của mình và muốn uống một cốc nước nóng. Cụm 我的/新/一杯/热 bổ sung thông tin khác nhau cho danh từ."
+    },
+    {
+      "id": "l1105-k5",
+      "version": 1,
+      "exerciseVersionId": "l1105-e5",
+      "senseId": "l117-v-242-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Câu: 我想喝一杯热水。"
+    },
+    {
+      "id": "l1105-k6",
+      "version": 1,
+      "exerciseVersionId": "l1105-e6",
+      "senseId": "l117-v-242-sense",
+      "accepted": [
+        "我的新书"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "我的 và 新 đứng trước 书 trong mẫu đã nêu; không có nghĩa mọi cụm tính từ đều phải thêm 的."
+    },
+    {
+      "id": "l1105-k7",
+      "version": 1,
+      "exerciseVersionId": "l1105-e7",
+      "senseId": "l117-v-242-sense",
+      "accepted": [
+        "Số lượng qua đơn vị cốc"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一 là số, 杯 là lượng từ; 一杯 đứng trước 水."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

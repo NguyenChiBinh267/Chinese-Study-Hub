@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "5ae2f931a5afba53e1e11642bdf716c99edf715ecc2d3c115cab9bdedb94ecd5",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-weather-water",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L331",
+    "version": 1,
+    "versionId": "l331-draft-v1",
+    "title": "Gió, mặt trời và dòng nước",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc quan sát thời tiết; phân biệt sông với biển.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "存现句"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 17,
+      "physicalPage": 18,
+      "printedPage": 15,
+      "section": "task",
+      "entry": "十六"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-nature",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 17,
+          "physicalPage": 18,
+          "printedPage": 15,
+          "section": "task",
+          "entry": "十六"
+        },
+        "written": "谈论自然情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-climate",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "气候"
+        },
+        "written": "气候",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l331-v-629",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 629"
+        },
+        "written": "风",
+        "pinyin": "fēng",
+        "senseId": "l331-v-629-sense",
+        "ordinal": 629,
+        "note": "3 fēng 名; 风 là gió; 刮风 là có gió, 风大 là gió mạnh. Không dùng 很风 như tính từ thông thường. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l331-v-651",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 651"
+        },
+        "written": "刮",
+        "pinyin": "guā",
+        "senseId": "l331-v-651-sense",
+        "ordinal": 651,
+        "note": "3 guā 动; 刮 trong 刮风 nói gió thổi; chưa dạy mọi nghĩa cạo. 刮起了风 nêu bắt đầu nổi gió. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l331-v-849",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 849"
+        },
+        "written": "太阳",
+        "pinyin": "tàiyáng",
+        "senseId": "l331-v-849-sense",
+        "ordinal": 849,
+        "note": "3 tàiyáng 名; 太阳 là mặt trời; 太阳出来了 nói mặt trời ló ra trong cảnh, không phải dự báo mọi nơi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l331-v-959",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 959"
+        },
+        "written": "月亮",
+        "pinyin": "yuèliang",
+        "senseId": "l331-v-959-sense",
+        "ordinal": 959,
+        "note": "3 yuèliang 名; 月亮 là mặt trăng, 亮 đọc nhẹ trong mục từ; không đồng nhất với 月 là tháng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l331-v-661",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 661"
+        },
+        "written": "海",
+        "pinyin": "hǎi",
+        "senseId": "l331-v-661-sense",
+        "ordinal": 661,
+        "note": "3 hǎi 名; 海 là biển, không phải mọi dòng nước lớn. 海边 là ven biển, 河边 là bờ sông. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l331-v-667",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 95,
+          "physicalPage": 96,
+          "printedPage": 93,
+          "section": "vocabulary",
+          "entry": "ordinal 667"
+        },
+        "written": "河",
+        "pinyin": "hé",
+        "senseId": "l331-v-667-sense",
+        "ordinal": 667,
+        "note": "3 hé 名; 河 là sông; 一条河 dùng 条. Không suy ra nước sông uống được từ câu mô tả. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-59",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "59"
+        },
+        "written": "风",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 59,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-75",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "75"
+        },
+        "written": "刮",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 75,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-244",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "244"
+        },
+        "written": "阳",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 244,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-78",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "78"
+        },
+        "written": "海",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 78,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-81",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "81"
+        },
+        "written": "河",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 81,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-appear",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "存现句3 / 出现"
+        },
+        "written": "存现句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l331-c0",
+      "version": 1,
+      "senseId": "l331-v-629-sense",
+      "hanzi": "风",
+      "dictionaryPinyin": "fēng",
+      "meaning": "gió",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l331-v-629"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l331-c1",
+      "version": 1,
+      "senseId": "l331-v-651-sense",
+      "hanzi": "刮",
+      "dictionaryPinyin": "guā",
+      "meaning": "thổi (gió); cạo tùy ngữ cảnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l331-v-651"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l331-c2",
+      "version": 1,
+      "senseId": "l331-v-849-sense",
+      "hanzi": "太阳",
+      "dictionaryPinyin": "tài yáng",
+      "meaning": "mặt trời",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l331-v-849"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l331-c3",
+      "version": 1,
+      "senseId": "l331-v-959-sense",
+      "hanzi": "月亮",
+      "dictionaryPinyin": "yuè liang",
+      "meaning": "mặt trăng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l331-v-959"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l331-c4",
+      "version": 1,
+      "senseId": "l331-v-661-sense",
+      "hanzi": "海",
+      "dictionaryPinyin": "hǎi",
+      "meaning": "biển",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l331-v-661"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l331-c5",
+      "version": 1,
+      "senseId": "l331-v-667-sense",
+      "hanzi": "河",
+      "dictionaryPinyin": "hé",
+      "meaning": "sông",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l331-v-667"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l331-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 沿着 yánzhe: dọc theo; 流向 liú xiàng: chảy về; 天空 tiānkōng: bầu trời; 晴 qíng: quang/nắng; 记录 jìlù: ghi chép; 气候 qìhòu: khí hậu. Không biến quan sát một ngày thành xu hướng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l331-t0",
+      "type": "teaching",
+      "title": "风 · gió",
+      "text": "风 là gió; 刮风 là có gió, 风大 là gió mạnh. Không dùng 很风 như tính từ thông thường.",
+      "hanzi": "今天风很大。",
+      "pinyin": "Jīntiān fēng hěn dà.",
+      "meaning": "Hôm nay gió mạnh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l331-t1",
+      "type": "teaching",
+      "title": "刮 · thổi (gió); cạo tùy ngữ cảnh",
+      "text": "刮 trong 刮风 nói gió thổi; chưa dạy mọi nghĩa cạo. 刮起了风 nêu bắt đầu nổi gió.",
+      "hanzi": "外面刮风了。",
+      "pinyin": "Wàimian guā fēng le.",
+      "meaning": "Ngoài trời có gió rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l331-t2",
+      "type": "teaching",
+      "title": "太阳 · mặt trời",
+      "text": "太阳 là mặt trời; 太阳出来了 nói mặt trời ló ra trong cảnh, không phải dự báo mọi nơi.",
+      "hanzi": "太阳出来了，天亮了。",
+      "pinyin": "Tàiyáng chūlái le, tiān liàng le.",
+      "meaning": "Mặt trời lên, trời sáng rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l331-t3",
+      "type": "teaching",
+      "title": "月亮 · mặt trăng",
+      "text": "月亮 là mặt trăng, 亮 đọc nhẹ trong mục từ; không đồng nhất với 月 là tháng.",
+      "hanzi": "晚上我们看月亮。",
+      "pinyin": "Wǎnshang wǒmen kàn yuèliang.",
+      "meaning": "Buổi tối chúng tôi ngắm trăng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l331-t4",
+      "type": "teaching",
+      "title": "海 · biển",
+      "text": "海 là biển, không phải mọi dòng nước lớn. 海边 là ven biển, 河边 là bờ sông.",
+      "hanzi": "他们住在海边。",
+      "pinyin": "Tāmen zhù zài hǎi biān.",
+      "meaning": "Họ sống ven biển.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l331-t5",
+      "type": "teaching",
+      "title": "河 · sông",
+      "text": "河 là sông; 一条河 dùng 条. Không suy ra nước sông uống được từ câu mô tả.",
+      "hanzi": "公园旁边有一条河。",
+      "pinyin": "Gōngyuán pángbiān yǒu yì tiáo hé.",
+      "meaning": "Cạnh công viên có một con sông.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l331-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "天空中出来了月亮 nêu nơi xuất hiện trước rồi sự vật mới sau; 月亮出来了 là chủ thể đã biết. Bài luyện cấu trúc 处所+动词+了+事物, không đánh giá thiên văn học.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l331-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "白天太阳出来了，小林沿着河走。河流向海。晚上刮起了风，天空中出来了月亮。他回家以后写下：今天白天晴，晚上有风。这是一天天气的记录，不是整个地方的气候结论。",
+      "pinyin": "Báitiān tàiyáng chūlái le, Xiǎo Lín yánzhe hé zǒu. Hé liú xiàng hǎi. Wǎnshang guā qǐ le fēng, tiānkōng zhōng chūlái le yuèliang. Tā huí jiā yǐhòu xiě xià: Jīntiān báitiān qíng, wǎnshang yǒu fēng. Zhè shì yì tiān tiānqì de jìlù, bú shì zhěng ge dìfang de qìhòu jiélùn.",
+      "meaning": "Lâm đi dọc sông ban ngày trời nắng, tối nổi gió và có trăng. Cậu ghi thời tiết một ngày, không rút kết luận khí hậu cả vùng.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l331-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l331-v1-e0"
+    },
+    {
+      "id": "l331-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l331-v1-e1"
+    },
+    {
+      "id": "l331-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l331-v1-e2"
+    },
+    {
+      "id": "l331-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l331-v1-e3"
+    },
+    {
+      "id": "l331-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l331-v1-e4"
+    },
+    {
+      "id": "l331-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l331-v1-e5"
+    },
+    {
+      "id": "l331-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l331-v1-e6"
+    },
+    {
+      "id": "l331-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l331-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l331-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l331-c0",
+      "senseId": "l331-v-629-sense",
+      "keyRef": "l331-v1-k0",
+      "prompt": "Hiện tượng không khí chuyển động: 今天□很大。",
+      "choices": [
+        "刮",
+        "太阳",
+        "月亮",
+        "海",
+        "河",
+        "风"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l331-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l331-c1",
+      "senseId": "l331-v-651-sense",
+      "keyRef": "l331-v1-k1",
+      "prompt": "Điền động từ trong □风了。",
+      "choices": [
+        "太阳",
+        "月亮",
+        "海",
+        "河",
+        "风",
+        "刮"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l331-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l331-c2",
+      "senseId": "l331-v-849-sense",
+      "keyRef": "l331-v1-k2",
+      "prompt": "Vật chiếu sáng ban ngày trong mô tả: □出来了。",
+      "choices": [
+        "月亮",
+        "海",
+        "河",
+        "风",
+        "刮",
+        "太阳"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l331-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l331-c3",
+      "senseId": "l331-v-959-sense",
+      "keyRef": "l331-v1-k3",
+      "prompt": "Viết pinyin của 月亮 trong câu “晚上我们看月亮。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l331-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l331-c4",
+      "senseId": "l331-v-661-sense",
+      "keyRef": "l331-v1-k4",
+      "prompt": "Vùng nước biển ở ven bờ: 住在□边。",
+      "choices": [
+        "河",
+        "风",
+        "刮",
+        "太阳",
+        "月亮",
+        "海"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l331-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l331-c5",
+      "senseId": "l331-v-667-sense",
+      "keyRef": "l331-v1-k5",
+      "prompt": "Con sông cạnh công viên: 一条□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l331-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l331-c0",
+      "senseId": "l331-v-629-sense",
+      "keyRef": "l331-v1-k6",
+      "prompt": "Buổi tối thời tiết được ghi thế nào?",
+      "choices": [
+        "一直下雪",
+        "没有月亮",
+        "有风"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l331-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l331-c3",
+      "senseId": "l331-v-959-sense",
+      "keyRef": "l331-v1-k7",
+      "prompt": "Sắp xếp câu một sự vật xuất hiện trong không gian.",
+      "choices": [
+        "出来了月亮",
+        "天空中"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l331-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l331-v1-e0",
+      "senseId": "l331-v-629-sense",
+      "accepted": [
+        "风"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "风: gió. 风 là gió; 刮风 là có gió, 风大 là gió mạnh. Không dùng 很风 như tính từ thông thường. Hôm nay gió mạnh."
+    },
+    {
+      "id": "l331-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l331-v1-e1",
+      "senseId": "l331-v-651-sense",
+      "accepted": [
+        "刮"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "刮: thổi (gió); cạo tùy ngữ cảnh. 刮 trong 刮风 nói gió thổi; chưa dạy mọi nghĩa cạo. 刮起了风 nêu bắt đầu nổi gió. Ngoài trời có gió rồi."
+    },
+    {
+      "id": "l331-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l331-v1-e2",
+      "senseId": "l331-v-849-sense",
+      "accepted": [
+        "太阳"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "太阳: mặt trời. 太阳 là mặt trời; 太阳出来了 nói mặt trời ló ra trong cảnh, không phải dự báo mọi nơi. Mặt trời lên, trời sáng rồi."
+    },
+    {
+      "id": "l331-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l331-v1-e3",
+      "senseId": "l331-v-959-sense",
+      "accepted": [
+        "yuè liang"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "月亮: mặt trăng. 月亮 là mặt trăng, 亮 đọc nhẹ trong mục từ; không đồng nhất với 月 là tháng. Buổi tối chúng tôi ngắm trăng."
+    },
+    {
+      "id": "l331-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l331-v1-e4",
+      "senseId": "l331-v-661-sense",
+      "accepted": [
+        "海"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "海: biển. 海 là biển, không phải mọi dòng nước lớn. 海边 là ven biển, 河边 là bờ sông. Họ sống ven biển."
+    },
+    {
+      "id": "l331-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l331-v1-e5",
+      "senseId": "l331-v-667-sense",
+      "accepted": [
+        "河"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "河: sông. 河 là sông; 一条河 dùng 条. Không suy ra nước sông uống được từ câu mô tả. Cạnh công viên có một con sông."
+    },
+    {
+      "id": "l331-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l331-v1-e6",
+      "senseId": "l331-v-629-sense",
+      "accepted": [
+        "有风"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 天空中出来了月亮 nêu nơi xuất hiện trước rồi sự vật mới sau; 月亮出来了 là chủ thể đã biết. Bài luyện cấu trúc 处所+动词+了+事物, không đánh giá thiên văn học."
+    },
+    {
+      "id": "l331-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l331-v1-e7",
+      "senseId": "l331-v-959-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 天空中出来了月亮 nêu nơi xuất hiện trước rồi sự vật mới sau; 月亮出来了 là chủ thể đã biết. Bài luyện cấu trúc 处所+动词+了+事物, không đánh giá thiên văn học."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

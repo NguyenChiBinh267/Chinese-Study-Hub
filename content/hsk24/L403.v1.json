@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "aafabd269d0b338c4924e7e16e5321cad2ee0b172a791da1c697a66f8d0a57a2",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-office-procedures",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L403",
+    "version": 1,
+    "versionId": "l403-draft-v1",
+    "title": "Xử lý hồ sơ giữa các phòng ban",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc nơi làm việc, nhiệm vụ xử lý và kiểm danh sách vật liệu/hồ sơ.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l357-draft-v1",
+      "l375-draft-v1",
+      "l384-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "在……方面"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 25,
+      "physicalPage": 26,
+      "printedPage": 23,
+      "section": "task",
+      "entry": "十五"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T08:31:46.731437Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-task-office",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 25,
+          "physicalPage": 26,
+          "printedPage": 23,
+          "section": "task",
+          "entry": "十五"
+        },
+        "written": "谈论工作情况与表现",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-topic-office",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "办公事务"
+        },
+        "written": "办公事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l403-v-1010",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1010"
+        },
+        "written": "办公",
+        "pinyin": "bàngōng",
+        "senseId": "l403-v-1010-sense",
+        "ordinal": 1010,
+        "note": "4 bàngōng 动; 办公 là hoạt động làm công việc văn phòng, 办公室 là nơi. 在家办公 nói làm tại nhà, không tự có văn phòng riêng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l403-v-1011",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1011"
+        },
+        "written": "办理",
+        "pinyin": "bànlǐ",
+        "senseId": "l403-v-1011-sense",
+        "ordinal": 1011,
+        "note": "4 bànlǐ 动; 办理 thường nhận 手续、业务 để xử lý thủ tục, trang trọng hơn 办. 办理中不是已经办完. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l403-v-1012",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1012"
+        },
+        "written": "办事",
+        "pinyin": "bànshì",
+        "senseId": "l403-v-1012-sense",
+        "ordinal": 1012,
+        "note": "4 bànshì 动; 办事 là xử lý việc/công việc thực tế; 来办事 nói đến làm việc, chưa tự là đi làm ở đơn vị đó. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l403-v-1057",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1057"
+        },
+        "written": "部门",
+        "pinyin": "bùmén",
+        "senseId": "l403-v-1057-sense",
+        "ordinal": 1057,
+        "note": "4 bùmén 名; 部门 là bộ phận trong tổ chức, khác 门 là cửa vật lý. 不同部门可能分工不同，未给出真实组织规则. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l403-v-1061",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1061"
+        },
+        "written": "材料",
+        "pinyin": "cáiliào",
+        "senseId": "l403-v-1061-sense",
+        "ordinal": 1061,
+        "note": "4 cáiliào 名; 材料 theo cảnh hồ sơ là tài liệu cần nộp, theo sản xuất có thể là vật liệu. Bài dạy nghĩa hồ sơ, không gộp mọi giấy tờ đều đủ điều kiện. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l403-v-1067",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1067"
+        },
+        "written": "查看",
+        "pinyin": "chákàn",
+        "senseId": "l403-v-1067-sense",
+        "ordinal": 1067,
+        "note": "4 chákàn 动; 查看 là xem kiểm thông tin/trạng thái; 看到 nhìn thấy chưa tự là đã kiểm đúng. 查看清单说 đối chiếu danh sách, không chứng minh đã được duyệt. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-20",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "20"
+        },
+        "written": "部",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 20,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-23",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "23"
+        },
+        "written": "材",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 23,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-g-aspect",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 395,
+          "physicalPage": 396,
+          "printedPage": 393,
+          "section": "grammar",
+          "entry": "固定格式 / 在方面"
+        },
+        "written": "在……方面",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l403-c0",
+      "version": 1,
+      "senseId": "l403-v-1010-sense",
+      "hanzi": "办公",
+      "dictionaryPinyin": "bàn gōng",
+      "meaning": "làm việc văn phòng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l403-v-1010"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l403-c1",
+      "version": 1,
+      "senseId": "l403-v-1011-sense",
+      "hanzi": "办理",
+      "dictionaryPinyin": "bàn lǐ",
+      "meaning": "làm/xử lý (thủ tục)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l403-v-1011"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l403-c2",
+      "version": 1,
+      "senseId": "l403-v-1012-sense",
+      "hanzi": "办事",
+      "dictionaryPinyin": "bàn shì",
+      "meaning": "giải quyết công việc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l403-v-1012"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l403-c3",
+      "version": 1,
+      "senseId": "l403-v-1057-sense",
+      "hanzi": "部门",
+      "dictionaryPinyin": "bù mén",
+      "meaning": "phòng ban/bộ phận",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l403-v-1057"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l403-c4",
+      "version": 1,
+      "senseId": "l403-v-1061-sense",
+      "hanzi": "材料",
+      "dictionaryPinyin": "cái liào",
+      "meaning": "tài liệu/vật liệu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l403-v-1061"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l403-c5",
+      "version": 1,
+      "senseId": "l403-v-1067-sense",
+      "hanzi": "查看",
+      "dictionaryPinyin": "chá kàn",
+      "meaning": "xem/kiểm tra bằng cách xem",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l403-v-1067"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l403-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 方面 fāngmiàn: mặt/khía cạnh; 齐 qí、齐全 qíquán: đủ; 清单 qīngdān: danh sách; 逐项 zhú xiàng: từng mục; 核对 héduì: đối chiếu. Hồ sơ và phòng ban hư cấu. HSK3 đã có dạy từ vựng nháp, các kỹ năng khác và duyệt ngôn ngữ vẫn thiếu. Có thể đọc lại L375 về điều kiện, L384 về lời khuyên, L357 về kế hoạch học; không tự cấp mastery.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l403-t0",
+      "type": "teaching",
+      "title": "办公 · làm việc văn phòng",
+      "text": "办公 là hoạt động làm công việc văn phòng, 办公室 là nơi. 在家办公 nói làm tại nhà, không tự có văn phòng riêng.",
+      "hanzi": "她今天在家办公。",
+      "pinyin": "Tā jīntiān zài jiā bàngōng.",
+      "meaning": "Hôm nay cô ấy làm việc văn phòng ở nhà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l403-t1",
+      "type": "teaching",
+      "title": "办理 · làm/xử lý (thủ tục)",
+      "text": "办理 thường nhận 手续、业务 để xử lý thủ tục, trang trọng hơn 办. 办理中不是已经办完.",
+      "hanzi": "请先办理登记手续。",
+      "pinyin": "Qǐng xiān bànlǐ dēngjì shǒuxù.",
+      "meaning": "Hãy làm thủ tục đăng ký trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l403-t2",
+      "type": "teaching",
+      "title": "办事 · giải quyết công việc",
+      "text": "办事 là xử lý việc/công việc thực tế; 来办事 nói đến làm việc, chưa tự là đi làm ở đơn vị đó.",
+      "hanzi": "他来这个部门办事。",
+      "pinyin": "Tā lái zhège bùmén bàn shì.",
+      "meaning": "Anh ấy đến phòng ban này giải quyết việc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l403-t3",
+      "type": "teaching",
+      "title": "部门 · phòng ban/bộ phận",
+      "text": "部门 là bộ phận trong tổ chức, khác 门 là cửa vật lý. 不同部门可能分工不同，未给出真实组织规则.",
+      "hanzi": "两个部门一起准备材料。",
+      "pinyin": "Liǎng ge bùmén yìqǐ zhǔnbèi cáiliào.",
+      "meaning": "Hai phòng ban cùng chuẩn bị hồ sơ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l403-t4",
+      "type": "teaching",
+      "title": "材料 · tài liệu/vật liệu",
+      "text": "材料 theo cảnh hồ sơ là tài liệu cần nộp, theo sản xuất có thể là vật liệu. Bài dạy nghĩa hồ sơ, không gộp mọi giấy tờ đều đủ điều kiện.",
+      "hanzi": "材料还没准备齐。",
+      "pinyin": "Cáiliào hái méi zhǔnbèi qí.",
+      "meaning": "Hồ sơ còn chưa chuẩn bị đủ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l403-t5",
+      "type": "teaching",
+      "title": "查看 · xem/kiểm tra bằng cách xem",
+      "text": "查看 là xem kiểm thông tin/trạng thái; 看到 nhìn thấy chưa tự là đã kiểm đúng. 查看清单说 đối chiếu danh sách, không chứng minh đã được duyệt.",
+      "hanzi": "请先查看材料清单。",
+      "pinyin": "Qǐng xiān chákàn cáiliào qīngdān.",
+      "meaning": "Hãy xem danh sách hồ sơ trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l403-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "在材料准备方面 giới hạn khía cạnh đang bàn: về chuẩn bị hồ sơ. Không suy từ một khâu làm tốt sang mọi mặt; 方面 đứng sau cụm danh từ chỉ lĩnh vực.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l403-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林到一个部门办事，发现工作人员今天在家办公。他先查看通知，知道办理登记需要准备材料。在材料准备方面，两个部门的要求不完全一样，所以他逐项核对清单，没有把上次交过的材料直接当作本次齐全。",
+      "pinyin": "Xiǎo Lín dào yí ge bùmén bàn shì, fāxiàn gōngzuò rényuán jīntiān zài jiā bàngōng. Tā xiān chákàn tōngzhī, zhīdào bànlǐ dēngjì xūyào zhǔnbèi cáiliào. Zài cáiliào zhǔnbèi fāngmiàn, liǎng ge bùmén de yāoqiú bù wánquán yíyàng, suǒyǐ tā zhú xiàng héduì qīngdān, méiyǒu bǎ shàng cì jiāo guo de cáiliào zhíjiē dàngzuò běn cì qíquán.",
+      "meaning": "Lâm đến giải quyết việc và thấy nhân viên làm ở nhà. Cậu xem thông báo, biết cần hồ sơ; yêu cầu hai bộ phận khác nhau nên đối chiếu từng mục, không coi hồ sơ lần trước đương nhiên đủ lần này.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l403-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l403-v1-e0"
+    },
+    {
+      "id": "l403-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l403-v1-e1"
+    },
+    {
+      "id": "l403-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l403-v1-e2"
+    },
+    {
+      "id": "l403-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l403-v1-e3"
+    },
+    {
+      "id": "l403-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l403-v1-e4"
+    },
+    {
+      "id": "l403-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l403-v1-e5"
+    },
+    {
+      "id": "l403-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l403-v1-e6"
+    },
+    {
+      "id": "l403-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l403-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l403-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l403-c0",
+      "senseId": "l403-v-1010-sense",
+      "keyRef": "l403-v1-k0",
+      "prompt": "Điền động từ đọc bàngōng, nghĩa làm việc văn phòng: 在家□。",
+      "choices": [
+        "办理",
+        "办事",
+        "部门",
+        "材料",
+        "查看",
+        "办公"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l403-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l403-c1",
+      "senseId": "l403-v-1011-sense",
+      "keyRef": "l403-v1-k1",
+      "prompt": "Xử lý thủ tục theo cách nói trang trọng: □登记手续。",
+      "choices": [
+        "办事",
+        "部门",
+        "材料",
+        "查看",
+        "办公",
+        "办理"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l403-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l403-c2",
+      "senseId": "l403-v-1012-sense",
+      "keyRef": "l403-v1-k2",
+      "prompt": "Đến xử lý công việc, dùng cụm động–tân: 来这里□。",
+      "choices": [
+        "部门",
+        "材料",
+        "查看",
+        "办公",
+        "办理",
+        "办事"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l403-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l403-c3",
+      "senseId": "l403-v-1057-sense",
+      "keyRef": "l403-v1-k3",
+      "prompt": "Viết pinyin của 部门 trong câu “两个部门一起准备材料。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l403-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l403-c4",
+      "senseId": "l403-v-1061-sense",
+      "keyRef": "l403-v1-k4",
+      "prompt": "Tài liệu hồ sơ cần chuẩn bị: □还没齐。",
+      "choices": [
+        "查看",
+        "办公",
+        "办理",
+        "办事",
+        "部门",
+        "材料"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l403-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l403-c5",
+      "senseId": "l403-v-1067-sense",
+      "keyRef": "l403-v1-k5",
+      "prompt": "Xem kiểm danh sách, dùng động từ hai chữ: □清单。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l403-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l403-c0",
+      "senseId": "l403-v-1010-sense",
+      "keyRef": "l403-v1-k6",
+      "prompt": "Vì sao Lâm đối chiếu từng mục?",
+      "choices": [
+        "所有材料都自动有效",
+        "已经办完手续",
+        "两个部门要求不完全一样"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l403-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l403-c3",
+      "senseId": "l403-v-1057-sense",
+      "keyRef": "l403-v1-k7",
+      "prompt": "Xếp khía cạnh đang bàn, bắt đầu bằng 在材料准备方面.",
+      "choices": [
+        "要逐项核对",
+        "在材料准备方面"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l403-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l403-v1-e0",
+      "senseId": "l403-v-1010-sense",
+      "accepted": [
+        "办公"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "办公: làm việc văn phòng. 办公 là hoạt động làm công việc văn phòng, 办公室 là nơi. 在家办公 nói làm tại nhà, không tự có văn phòng riêng. Hôm nay cô ấy làm việc văn phòng ở nhà."
+    },
+    {
+      "id": "l403-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l403-v1-e1",
+      "senseId": "l403-v-1011-sense",
+      "accepted": [
+        "办理"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "办理: làm/xử lý (thủ tục). 办理 thường nhận 手续、业务 để xử lý thủ tục, trang trọng hơn 办. 办理中不是已经办完. Hãy làm thủ tục đăng ký trước."
+    },
+    {
+      "id": "l403-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l403-v1-e2",
+      "senseId": "l403-v-1012-sense",
+      "accepted": [
+        "办事"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "办事: giải quyết công việc. 办事 là xử lý việc/công việc thực tế; 来办事 nói đến làm việc, chưa tự là đi làm ở đơn vị đó. Anh ấy đến phòng ban này giải quyết việc."
+    },
+    {
+      "id": "l403-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l403-v1-e3",
+      "senseId": "l403-v-1057-sense",
+      "accepted": [
+        "bù mén"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "部门: phòng ban/bộ phận. 部门 là bộ phận trong tổ chức, khác 门 là cửa vật lý. 不同部门可能分工不同，未给出真实组织规则. Hai phòng ban cùng chuẩn bị hồ sơ."
+    },
+    {
+      "id": "l403-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l403-v1-e4",
+      "senseId": "l403-v-1061-sense",
+      "accepted": [
+        "材料"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "材料: tài liệu/vật liệu. 材料 theo cảnh hồ sơ là tài liệu cần nộp, theo sản xuất có thể là vật liệu. Bài dạy nghĩa hồ sơ, không gộp mọi giấy tờ đều đủ điều kiện. Hồ sơ còn chưa chuẩn bị đủ."
+    },
+    {
+      "id": "l403-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l403-v1-e5",
+      "senseId": "l403-v-1067-sense",
+      "accepted": [
+        "查看"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "查看: xem/kiểm tra bằng cách xem. 查看 là xem kiểm thông tin/trạng thái; 看到 nhìn thấy chưa tự là đã kiểm đúng. 查看清单说 đối chiếu danh sách, không chứng minh đã được duyệt. Hãy xem danh sách hồ sơ trước."
+    },
+    {
+      "id": "l403-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l403-v1-e6",
+      "senseId": "l403-v-1010-sense",
+      "accepted": [
+        "两个部门要求不完全一样"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 在材料准备方面 giới hạn khía cạnh đang bàn: về chuẩn bị hồ sơ. Không suy từ một khâu làm tốt sang mọi mặt; 方面 đứng sau cụm danh từ chỉ lĩnh vực."
+    },
+    {
+      "id": "l403-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l403-v1-e7",
+      "senseId": "l403-v-1057-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 在材料准备方面 giới hạn khía cạnh đang bàn: về chuẩn bị hồ sơ. Không suy từ một khâu làm tốt sang mọi mặt; 方面 đứng sau cụm danh từ chỉ lĩnh vực."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

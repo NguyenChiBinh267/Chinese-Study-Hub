@@ -1,0 +1,752 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "98473047d8bba3a8ac9b2ac381e0f91797e3d1199a611cc404d1014b18b415bd",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "names-childhood",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L260",
+    "version": 1,
+    "versionId": "l260-draft-v1",
+    "title": "Ôn tập · Tên họ và tuổi thơ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học bằng dạng truy hồi khác; không tính thêm từ mới.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l220-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 12,
+      "physicalPage": 13,
+      "printedPage": 10,
+      "section": "task",
+      "entry": "十七"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-address",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 12,
+          "physicalPage": 13,
+          "printedPage": 10,
+          "section": "task",
+          "entry": "十七"
+        },
+        "written": "使用中文称谓语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-names",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 61,
+          "physicalPage": 62,
+          "printedPage": 59,
+          "section": "topic",
+          "entry": "文化与传统 / 姓氏文化"
+        },
+        "written": "主要姓氏、正式称谓等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l220-v-464",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 464"
+        },
+        "written": "姓",
+        "pinyin": "xìng",
+        "senseId": "l220-v-464-sense",
+        "ordinal": 464,
+        "note": "2 xìng 名、动; 我姓王 dùng 姓 như động từ; câu trả lời chỉ họ, không yêu cầu tên đầy đủ. Không dùng 是 sau 姓 trong mẫu này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l220-v-465",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 465"
+        },
+        "written": "姓名",
+        "pinyin": "xìngmíng",
+        "senseId": "l220-v-465-sense",
+        "ordinal": 465,
+        "note": "2 xìngmíng 名; 姓名 gồm họ lẫn tên, thường gặp trên biểu mẫu. Nếu chỉ viết họ thì thông tin có thể chưa đủ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l220-v-410",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 410"
+        },
+        "written": "男孩儿",
+        "pinyin": "nánháir",
+        "senseId": "l220-v-410-sense",
+        "ordinal": 410,
+        "note": "2 nánháir 名; 男孩儿 là một đứa trẻ nam. Đừng dùng mọi người đàn ông trưởng thành làm ví dụ của từ này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l220-v-412",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 412"
+        },
+        "written": "女孩儿",
+        "pinyin": "nǚháir",
+        "senseId": "l220-v-412-sense",
+        "ordinal": 412,
+        "note": "2 nǚháir 名; 女孩儿 là một đứa trẻ nữ; 女 giữ âm ü và thanh ba trong nǚ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l220-v-461",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 461"
+        },
+        "written": "小孩儿",
+        "pinyin": "xiǎoháir",
+        "senseId": "l220-v-461-sense",
+        "ordinal": 461,
+        "note": "2 xiǎoháir 名; 小孩儿 không tự cho biết giới tính. Chỉ kết luận trai/gái khi câu có thông tin thêm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l220-v-462",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 462"
+        },
+        "written": "小时候",
+        "pinyin": "xiǎoshíhou",
+        "senseId": "l220-v-462-sense",
+        "ordinal": 462,
+        "note": "2 xiǎoshíhou 名; 小时候 chỉ quãng đời còn nhỏ, không phải một giờ ngắn. Âm cuối hou đọc nhẹ theo mục từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l220-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "所",
+        "pinyin": "suǒ",
+        "senseId": "l220-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: lượng từ cho trường/cơ sở; cấp chưa xác minh, chỉ hỗ trợ đọc."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-100",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "100"
+        },
+        "written": "姓",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 100,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-self",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "代词 / 人称代词 / 自己"
+        },
+        "written": "自己",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l220-c0",
+      "version": 1,
+      "senseId": "l220-v-464-sense",
+      "hanzi": "姓",
+      "dictionaryPinyin": "xìng",
+      "meaning": "mang họ, họ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l220-v-464"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l220-c1",
+      "version": 1,
+      "senseId": "l220-v-465-sense",
+      "hanzi": "姓名",
+      "dictionaryPinyin": "xìng míng",
+      "meaning": "họ và tên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l220-v-465"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l220-c2",
+      "version": 1,
+      "senseId": "l220-v-410-sense",
+      "hanzi": "男孩儿",
+      "dictionaryPinyin": "nán háir",
+      "meaning": "bé trai, cậu bé",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l220-v-410"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l220-c3",
+      "version": 1,
+      "senseId": "l220-v-412-sense",
+      "hanzi": "女孩儿",
+      "dictionaryPinyin": "nǚ háir",
+      "meaning": "bé gái, cô bé",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l220-v-412"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l220-c4",
+      "version": 1,
+      "senseId": "l220-v-461-sense",
+      "hanzi": "小孩儿",
+      "dictionaryPinyin": "xiǎo háir",
+      "meaning": "trẻ con, một đứa trẻ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l220-v-461"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l220-c5",
+      "version": 1,
+      "senseId": "l220-v-462-sense",
+      "hanzi": "小时候",
+      "dictionaryPinyin": "xiǎo shí hou",
+      "meaning": "hồi còn nhỏ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l220-v-462"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l260-guide",
+      "type": "teaching",
+      "title": "Ôn tập sau bài",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l260-t0-l220-prereq",
+      "type": "teaching",
+      "title": "Nhắc lại · Kiến thức cần nhắc lại",
+      "text": "我/他/她 chỉ người; 小 là nhỏ. 儿 trong 男孩儿、女孩儿、小孩儿 ghi âm uốn lưỡi, không tách thành một âm ér riêng trong mục từ này.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l260-t0-l220-t0",
+      "type": "teaching",
+      "title": "Nhắc lại · 姓 · mang họ, họ",
+      "text": "我姓王 dùng 姓 như động từ; câu trả lời chỉ họ, không yêu cầu tên đầy đủ. Không dùng 是 sau 姓 trong mẫu này.",
+      "hanzi": "我姓王，你呢？",
+      "pinyin": "Wǒ xìng Wáng, nǐ ne?",
+      "meaning": "Tôi họ Vương, còn bạn?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l260-t0-l220-t1",
+      "type": "teaching",
+      "title": "Nhắc lại · 姓名 · họ và tên",
+      "text": "姓名 gồm họ lẫn tên, thường gặp trên biểu mẫu. Nếu chỉ viết họ thì thông tin có thể chưa đủ.",
+      "hanzi": "请在这里写你的姓名。",
+      "pinyin": "Qǐng zài zhèlǐ xiě nǐ de xìngmíng.",
+      "meaning": "Hãy viết họ và tên của bạn ở đây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l260-t0-l220-t2",
+      "type": "teaching",
+      "title": "Nhắc lại · 男孩儿 · bé trai, cậu bé",
+      "text": "男孩儿 là một đứa trẻ nam. Đừng dùng mọi người đàn ông trưởng thành làm ví dụ của từ này.",
+      "hanzi": "这个男孩儿姓李。",
+      "pinyin": "Zhège nánháir xìng Lǐ.",
+      "meaning": "Cậu bé này họ Lý.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l260-t0-l220-t3",
+      "type": "teaching",
+      "title": "Nhắc lại · 女孩儿 · bé gái, cô bé",
+      "text": "女孩儿 là một đứa trẻ nữ; 女 giữ âm ü và thanh ba trong nǚ.",
+      "hanzi": "那个女孩儿是我妹妹。",
+      "pinyin": "Nàge nǚháir shì wǒ mèimei.",
+      "meaning": "Cô bé kia là em gái tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l260-t0-l220-t4",
+      "type": "teaching",
+      "title": "Nhắc lại · 小孩儿 · trẻ con, một đứa trẻ",
+      "text": "小孩儿 không tự cho biết giới tính. Chỉ kết luận trai/gái khi câu có thông tin thêm.",
+      "hanzi": "两个小孩儿在看书。",
+      "pinyin": "Liǎng ge xiǎoháir zài kàn shū.",
+      "meaning": "Hai đứa trẻ đang đọc sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l260-t0-l220-t5",
+      "type": "teaching",
+      "title": "Nhắc lại · 小时候 · hồi còn nhỏ",
+      "text": "小时候 chỉ quãng đời còn nhỏ, không phải một giờ ngắn. Âm cuối hou đọc nhẹ theo mục từ.",
+      "hanzi": "我小时候住在这里。",
+      "pinyin": "Wǒ xiǎoshíhou zhù zài zhèlǐ.",
+      "meaning": "Hồi nhỏ tôi sống ở đây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l260-t0-l220-grammar",
+      "type": "teaching",
+      "title": "Nhắc lại · Cách nói trong ngữ cảnh",
+      "text": "自己 có thể nhấn mạnh tự mình làm: 自己写姓名. Nhắc lại cấu trúc để điền thông tin, không dùng tên tự điền làm bằng chứng danh tính thật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l260-t0-l220-reading",
+      "type": "teaching",
+      "title": "Nhắc lại · Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "王老师：请自己写姓名。男孩儿：我姓李，叫李安。女孩儿：我姓王，叫王月。老师：我小时候也在这所学校学习。",
+      "pinyin": "Wáng lǎoshī: Qǐng zìjǐ xiě xìngmíng. Nánháir: Wǒ xìng Lǐ, jiào Lǐ Ān. Nǚháir: Wǒ xìng Wáng, jiào Wáng Yuè. Lǎoshī: Wǒ xiǎoshíhou yě zài zhè suǒ xuéxiào xuéxí.",
+      "meaning": "Cô/thầy Vương: Hãy tự viết họ tên. Bé trai: Em họ Lý, tên Lý An. Bé gái: Em họ Vương, tên Vương Nguyệt. Giáo viên: Hồi nhỏ thầy/cô cũng học ở trường này.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l260-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l260-e0"
+    },
+    {
+      "id": "l260-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l260-e1"
+    },
+    {
+      "id": "l260-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l260-e2"
+    },
+    {
+      "id": "l260-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l260-e3"
+    },
+    {
+      "id": "l260-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l260-e4"
+    },
+    {
+      "id": "l260-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l260-e5"
+    },
+    {
+      "id": "l260-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l260-e6"
+    },
+    {
+      "id": "l260-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l260-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l260-e0",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l220-c0",
+      "senseId": "l220-v-464-sense",
+      "keyRef": "l260-k0",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “mang họ, họ” (xìng).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l260-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l220-c1",
+      "senseId": "l220-v-465-sense",
+      "keyRef": "l260-k1",
+      "prompt": "Ôn nghĩa: 姓名 (xìng míng) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "bé trai, cậu bé",
+        "bé gái, cô bé",
+        "trẻ con, một đứa trẻ",
+        "hồi còn nhỏ",
+        "mang họ, họ",
+        "họ và tên"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l260-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l220-c2",
+      "senseId": "l220-v-410-sense",
+      "keyRef": "l260-k2",
+      "prompt": "Ôn cách đọc của 男孩儿 trong nghĩa “bé trai, cậu bé”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l260-e3",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l220-c3",
+      "senseId": "l220-v-412-sense",
+      "keyRef": "l260-k3",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “bé gái, cô bé” (nǚ háir).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l260-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l220-c4",
+      "senseId": "l220-v-461-sense",
+      "keyRef": "l260-k4",
+      "prompt": "Ôn nghĩa: 小孩儿 (xiǎo háir) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "hồi còn nhỏ",
+        "mang họ, họ",
+        "họ và tên",
+        "bé trai, cậu bé",
+        "bé gái, cô bé",
+        "trẻ con, một đứa trẻ"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l260-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l220-c5",
+      "senseId": "l220-v-462-sense",
+      "keyRef": "l260-k5",
+      "prompt": "Ôn cách đọc của 小时候 trong nghĩa “hồi còn nhỏ”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l260-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l220-c0",
+      "senseId": "l220-v-464-sense",
+      "keyRef": "l260-k6",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “mang họ, họ” (xìng) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "场",
+        "姓",
+        "别",
+        "步"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l260-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l220-c0",
+      "senseId": "l220-v-464-sense",
+      "keyRef": "l260-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Ai mang họ Lý?",
+      "choices": [
+        "Bé trai",
+        "Bé gái",
+        "Giáo viên"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l260-k0",
+      "version": 1,
+      "exerciseVersionId": "l260-e0",
+      "senseId": "l220-v-464-sense",
+      "accepted": [
+        "姓"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "姓 · mang họ, họ."
+    },
+    {
+      "id": "l260-k1",
+      "version": 1,
+      "exerciseVersionId": "l260-e1",
+      "senseId": "l220-v-465-sense",
+      "accepted": [
+        "họ và tên"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "姓名: họ và tên."
+    },
+    {
+      "id": "l260-k2",
+      "version": 1,
+      "exerciseVersionId": "l260-e2",
+      "senseId": "l220-v-410-sense",
+      "accepted": [
+        "nán háir"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "nán háir · bé trai, cậu bé"
+    },
+    {
+      "id": "l260-k3",
+      "version": 1,
+      "exerciseVersionId": "l260-e3",
+      "senseId": "l220-v-412-sense",
+      "accepted": [
+        "女孩儿"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "女孩儿 · bé gái, cô bé."
+    },
+    {
+      "id": "l260-k4",
+      "version": 1,
+      "exerciseVersionId": "l260-e4",
+      "senseId": "l220-v-461-sense",
+      "accepted": [
+        "trẻ con, một đứa trẻ"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "小孩儿: trẻ con, một đứa trẻ."
+    },
+    {
+      "id": "l260-k5",
+      "version": 1,
+      "exerciseVersionId": "l260-e5",
+      "senseId": "l220-v-462-sense",
+      "accepted": [
+        "xiǎo shí hou"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "xiǎo shí hou · hồi còn nhỏ"
+    },
+    {
+      "id": "l260-k6",
+      "version": 1,
+      "exerciseVersionId": "l260-e6",
+      "senseId": "l220-v-464-sense",
+      "accepted": [
+        "姓"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "姓 · xìng · mang họ, họ. Chữ cần nhận diện là 姓."
+    },
+    {
+      "id": "l260-k7",
+      "version": 1,
+      "exerciseVersionId": "l260-e7",
+      "senseId": "l220-v-464-sense",
+      "accepted": [
+        "Bé trai"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "男孩儿 nói 我姓李. Họ tên do bài tự soạn, không phải dữ liệu cá nhân của người học."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

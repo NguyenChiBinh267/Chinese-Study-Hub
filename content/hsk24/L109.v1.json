@@ -1,0 +1,766 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "5695d65bbc1f3d46330094e8b41bcf515c24085f9d84ce8ae21be15cf054263e",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-c",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L109",
+    "version": 1,
+    "versionId": "l109-draft-v1",
+    "title": "Đếm từ một đến năm",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đếm từ một đến năm; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "数词"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T09:27:43.950465Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-event",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "问答事件信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-f80c6b43ef6a",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "日期、时间、地点、方位、参加者、号码等"
+        },
+        "written": "日期、时间、地点、方位、参加者、号码等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l109-v-254",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 254"
+        },
+        "written": "一",
+        "pinyin": "yī",
+        "senseId": "l109-v-254-sense",
+        "ordinal": 254,
+        "note": "1 yī 数; 一 đứng riêng ghi yī; không lấy âm yí/yì trong cụm thay pinyin từ điển. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l109-v-49",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 49"
+        },
+        "written": "二",
+        "pinyin": "èr",
+        "senseId": "l109-v-49-sense",
+        "ordinal": 49,
+        "note": "1 èr 数; 二 dùng trong chuỗi đếm; 两 là dạng khác sẽ học khi đếm đồ vật. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l109-v-173",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 173"
+        },
+        "written": "三",
+        "pinyin": "sān",
+        "senseId": "l109-v-173-sense",
+        "ordinal": 173,
+        "note": "1 sān 数; 三 gồm ba nét ngang; đừng nhầm với 二 khi nhận diện chữ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l109-v-198",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 198"
+        },
+        "written": "四",
+        "pinyin": "sì",
+        "senseId": "l109-v-198-sense",
+        "ordinal": 198,
+        "note": "1 sì 数; 四 đọc sì, không phải shì của 是; đây là hai âm và hai chữ khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l109-v-223",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 223"
+        },
+        "written": "五",
+        "pinyin": "wǔ",
+        "senseId": "l109-v-223-sense",
+        "ordinal": 223,
+        "note": "1 wǔ 数; 五 là số năm; phân biệt với 我 wǒ đã học. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-212",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "212"
+        },
+        "written": "一",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 212,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-43",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "43"
+        },
+        "written": "二",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 43,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-147",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "147"
+        },
+        "written": "三",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 147,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-169",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "169"
+        },
+        "written": "四",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 169,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-187",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "187"
+        },
+        "written": "五",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 187,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-109",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-11"
+        },
+        "written": "数词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l109-c0",
+      "version": 1,
+      "senseId": "l109-v-254-sense",
+      "hanzi": "一",
+      "dictionaryPinyin": "yī",
+      "meaning": "một",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l109-v-254"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l109-c1",
+      "version": 1,
+      "senseId": "l109-v-49-sense",
+      "hanzi": "二",
+      "dictionaryPinyin": "èr",
+      "meaning": "hai (số đếm)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l109-v-49"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l109-c2",
+      "version": 1,
+      "senseId": "l109-v-173-sense",
+      "hanzi": "三",
+      "dictionaryPinyin": "sān",
+      "meaning": "ba",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l109-v-173"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l109-c3",
+      "version": 1,
+      "senseId": "l109-v-198-sense",
+      "hanzi": "四",
+      "dictionaryPinyin": "sì",
+      "meaning": "bốn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l109-v-198"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l109-c4",
+      "version": 1,
+      "senseId": "l109-v-223-sense",
+      "hanzi": "五",
+      "dictionaryPinyin": "wǔ",
+      "meaning": "năm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l109-v-223"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l109-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l109-t0",
+      "type": "teaching",
+      "title": "一 · một",
+      "text": "一 đứng riêng ghi yī; không lấy âm yí/yì trong cụm thay pinyin từ điển.",
+      "hanzi": "一、二、三。",
+      "pinyin": "Yī, èr, sān.",
+      "meaning": "Một, hai, ba.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l109-t1",
+      "type": "teaching",
+      "title": "二 · hai (số đếm)",
+      "text": "二 dùng trong chuỗi đếm; 两 là dạng khác sẽ học khi đếm đồ vật.",
+      "hanzi": "二、三、四。",
+      "pinyin": "Èr, sān, sì.",
+      "meaning": "Hai, ba, bốn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l109-t2",
+      "type": "teaching",
+      "title": "三 · ba",
+      "text": "三 gồm ba nét ngang; đừng nhầm với 二 khi nhận diện chữ.",
+      "hanzi": "三、四、五。",
+      "pinyin": "Sān, sì, wǔ.",
+      "meaning": "Ba, bốn, năm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l109-t3",
+      "type": "teaching",
+      "title": "四 · bốn",
+      "text": "四 đọc sì, không phải shì của 是; đây là hai âm và hai chữ khác.",
+      "hanzi": "四、五。",
+      "pinyin": "Sì, wǔ.",
+      "meaning": "Bốn, năm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l109-t4",
+      "type": "teaching",
+      "title": "五 · năm",
+      "text": "五 là số năm; phân biệt với 我 wǒ đã học.",
+      "hanzi": "一、二、三、四、五。",
+      "pinyin": "Yī, èr, sān, sì, wǔ.",
+      "meaning": "Một, hai, ba, bốn, năm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l109-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "一二三四五 là số đếm từ một đến năm. Trong bài đếm thành tiếng/đọc thẻ số, số có thể đứng riêng; không cần 是. Khi đi với danh từ thường cần lượng từ, sẽ học ở nhóm đồ vật. 一 đứng riêng đọc yī; biến điệu trong cụm sẽ được nhắc ở ví dụ cụ thể.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l109-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：一、二、三、四、五。\nB：三？\nA：三。\nB：好，谢谢！",
+      "pinyin": "A: Yī, èr, sān, sì, wǔ. B: Sān? A: Sān. B: Hǎo, xiè xie!",
+      "meaning": "A đọc chuỗi một đến năm. B hỏi lại số ba và A xác nhận đúng số đó; đây là luyện đọc chữ số, chưa đánh giá nghe.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l109-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l109-v1-e0"
+    },
+    {
+      "id": "l109-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l109-v1-e1"
+    },
+    {
+      "id": "l109-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l109-v1-e2"
+    },
+    {
+      "id": "l109-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l109-v1-e3"
+    },
+    {
+      "id": "l109-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l109-v1-e4"
+    },
+    {
+      "id": "l109-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l109-v1-e5"
+    },
+    {
+      "id": "l109-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l109-v1-e6"
+    },
+    {
+      "id": "l109-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l109-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l109-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l109-c0",
+      "senseId": "l109-v-254-sense",
+      "keyRef": "l109-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “một”: □ (yī). Ngữ cảnh: □、二、三。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "二",
+        "三",
+        "十",
+        "一"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l109-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l109-c1",
+      "senseId": "l109-v-49-sense",
+      "keyRef": "l109-v1-k1",
+      "prompt": "Viết pinyin từ điển của 二 (hai (số đếm)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l109-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l109-c2",
+      "senseId": "l109-v-173-sense",
+      "keyRef": "l109-v1-k2",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “ba”: □、四、五。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l109-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l109-c3",
+      "senseId": "l109-v-198-sense",
+      "keyRef": "l109-v1-k3",
+      "prompt": "Chọn mục từ có nghĩa “bốn” trong câu: □、五。",
+      "choices": [
+        "五",
+        "一",
+        "二",
+        "三",
+        "四"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l109-v1-e4",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l109-c4",
+      "senseId": "l109-v-223-sense",
+      "keyRef": "l109-v1-k4",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “năm”: 一、二、三、四、□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l109-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l109-c2",
+      "senseId": "l109-v-173-sense",
+      "keyRef": "l109-v1-k5",
+      "prompt": "Trong câu “三、四、五。”, 三 mang nghĩa nào theo bài?",
+      "choices": [
+        "hai (số đếm)",
+        "ba",
+        "bốn",
+        "năm",
+        "một"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l109-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l109-c0",
+      "senseId": "l109-v-254-sense",
+      "keyRef": "l109-v1-k6",
+      "prompt": "B hỏi lại số nào?",
+      "choices": [
+        "五",
+        "二",
+        "三"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l109-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l109-c3",
+      "senseId": "l109-v-198-sense",
+      "keyRef": "l109-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "一、",
+        "二、",
+        "三、",
+        "四、",
+        "五。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l109-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l109-v1-e0",
+      "senseId": "l109-v-254-sense",
+      "accepted": [
+        "一"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 一 tạo từ 一. 一 đứng riêng ghi yī; không lấy âm yí/yì trong cụm thay pinyin từ điển. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l109-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l109-v1-e1",
+      "senseId": "l109-v-49-sense",
+      "accepted": [
+        "èr"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "二 ghi èr. 二 dùng trong chuỗi đếm; 两 là dạng khác sẽ học khi đếm đồ vật."
+    },
+    {
+      "id": "l109-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l109-v1-e2",
+      "senseId": "l109-v-173-sense",
+      "accepted": [
+        "三"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "三: ba. 三 gồm ba nét ngang; đừng nhầm với 二 khi nhận diện chữ. Ba, bốn, năm."
+    },
+    {
+      "id": "l109-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l109-v1-e3",
+      "senseId": "l109-v-198-sense",
+      "accepted": [
+        "四"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "四: bốn. 四 đọc sì, không phải shì của 是; đây là hai âm và hai chữ khác. Bốn, năm."
+    },
+    {
+      "id": "l109-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l109-v1-e4",
+      "senseId": "l109-v-223-sense",
+      "accepted": [
+        "五"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "五: năm. 五 là số năm; phân biệt với 我 wǒ đã học. Một, hai, ba, bốn, năm."
+    },
+    {
+      "id": "l109-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l109-v1-e5",
+      "senseId": "l109-v-173-sense",
+      "accepted": [
+        "ba"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "三 gồm ba nét ngang; đừng nhầm với 二 khi nhận diện chữ. Ba, bốn, năm."
+    },
+    {
+      "id": "l109-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l109-v1-e6",
+      "senseId": "l109-v-254-sense",
+      "accepted": [
+        "三"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 三. A đọc chuỗi một đến năm. B hỏi lại số ba và A xác nhận đúng số đó; đây là luyện đọc chữ số, chưa đánh giá nghe."
+    },
+    {
+      "id": "l109-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l109-v1-e7",
+      "senseId": "l109-v-198-sense",
+      "accepted": [
+        "0,1,2,3,4"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 一二三四五 là số đếm từ một đến năm. Trong bài đếm thành tiếng/đọc thẻ số, số có thể đứng riêng; không cần 是. Khi đi với danh từ thường cần lượng từ, sẽ học ở nhóm đồ vật. 一 đứng riêng đọc yī; biến điệu trong cụm sẽ được nhắc ở ví dụ cụ thể."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

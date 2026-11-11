@@ -1,0 +1,703 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "0648be7090964d23ff5232ee9f7d54a8ea002617c58d5d593044e4381dbc2f90",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-d",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L115",
+    "version": 2,
+    "versionId": "l115-draft-v2",
+    "title": "Nhắc nhóm người và con vật",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Nhắc nhóm người và con vật; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "人称代词"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T09:30:41.58926Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-thing",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "问答物品信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-b411fd04a9b3",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "物品名称"
+        },
+        "written": "物品名称",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l115-v-205",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 205"
+        },
+        "written": "她们",
+        "pinyin": "tāmen",
+        "senseId": "l115-v-205-sense",
+        "ordinal": 205,
+        "note": "1 tāmen 代; 她们 chỉ nhóm nữ đã biết trong ngữ cảnh; không thay nhóm vật bằng 她们. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l115-v-201",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 201"
+        },
+        "written": "它",
+        "pinyin": "tā",
+        "senseId": "l115-v-201-sense",
+        "ordinal": 201,
+        "note": "1 tā 代; 它 trong câu thay con chó đang được nhắc, không thay người bạn theo mẫu của bài. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l115-v-204",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 204"
+        },
+        "written": "它们",
+        "pinyin": "tāmen",
+        "senseId": "l115-v-204-sense",
+        "ordinal": 204,
+        "note": "1 tāmen 代; 它们 thay nhóm vật/con vật đã xác định, âm giống 他们/她们 nhưng chữ viết khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l115-v-64",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 64"
+        },
+        "written": "狗",
+        "pinyin": "gǒu",
+        "senseId": "l115-v-64-sense",
+        "ordinal": 64,
+        "note": "1 gǒu 名; 狗 chỉ loài chó; câu giới thiệu bằng 是 không tự cho biết số lượng. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-173",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "173"
+        },
+        "written": "她",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 173,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-114",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "114"
+        },
+        "written": "们",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 114,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-172",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "172"
+        },
+        "written": "它",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 172,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "狗",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-115",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-9"
+        },
+        "written": "人称代词",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l115-c0",
+      "version": 1,
+      "senseId": "l115-v-205-sense",
+      "hanzi": "她们",
+      "dictionaryPinyin": "tā men",
+      "meaning": "họ (nhóm nữ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l115-v-205"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l115-c1",
+      "version": 1,
+      "senseId": "l115-v-201-sense",
+      "hanzi": "它",
+      "dictionaryPinyin": "tā",
+      "meaning": "nó (vật hoặc con vật)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l115-v-201"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l115-c2",
+      "version": 1,
+      "senseId": "l115-v-204-sense",
+      "hanzi": "它们",
+      "dictionaryPinyin": "tā men",
+      "meaning": "chúng nó (vật hoặc con vật)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l115-v-204"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l115-c3",
+      "version": 1,
+      "senseId": "l115-v-64-sense",
+      "hanzi": "狗",
+      "dictionaryPinyin": "gǒu",
+      "meaning": "chó",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l115-v-64"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l115-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l115-t0",
+      "type": "teaching",
+      "title": "她们 · họ (nhóm nữ)",
+      "text": "她们 chỉ nhóm nữ đã biết trong ngữ cảnh; không thay nhóm vật bằng 她们.",
+      "hanzi": "她们是我的家人。",
+      "pinyin": "Tā men shì wǒ de jiā rén.",
+      "meaning": "Họ là người nhà của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l115-t1",
+      "type": "teaching",
+      "title": "它 · nó (vật hoặc con vật)",
+      "text": "它 trong câu thay con chó đang được nhắc, không thay người bạn theo mẫu của bài.",
+      "hanzi": "它是我的狗。",
+      "pinyin": "Tā shì wǒ de gǒu.",
+      "meaning": "Nó là chó của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l115-t2",
+      "type": "teaching",
+      "title": "它们 · chúng nó (vật hoặc con vật)",
+      "text": "它们 thay nhóm vật/con vật đã xác định, âm giống 他们/她们 nhưng chữ viết khác.",
+      "hanzi": "它们是我的狗。",
+      "pinyin": "Tā men shì wǒ de gǒu.",
+      "meaning": "Chúng là những con chó của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l115-t3",
+      "type": "teaching",
+      "title": "狗 · chó",
+      "text": "狗 chỉ loài chó; câu giới thiệu bằng 是 không tự cho biết số lượng.",
+      "hanzi": "我喜欢狗。",
+      "pinyin": "Wǒ xǐ huan gǒu.",
+      "meaning": "Tôi thích chó.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l115-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "它 chỉ vật/con vật đã rõ trong tình huống; 它们 là số nhiều tương ứng. 他们 thường dùng nhóm nam hoặc nhóm gồm nam nữ; 她们 chỉ nhóm nữ khi biết rõ. Chỉ âm tā/tāmen không đủ phân biệt các chữ. 狗 là chó; không dùng đại từ để đoán một vật chưa được nêu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l115-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：这是什么？\nB：狗。它是我的狗。\nA：你喜欢它吗？\nB：喜欢。",
+      "pinyin": "A: Zhè shì shén me? B: Gǒu. Tā shì wǒ de gǒu. A: Nǐ xǐ huan tā ma? B: Xǐ huan.",
+      "meaning": "Đối tượng đã được B gọi là chó nên 它 có đối tượng rõ; đây là một con trong cuộc hội thoại, không suy số nhiều.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l115-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l115-v2-e0"
+    },
+    {
+      "id": "l115-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l115-v2-e1"
+    },
+    {
+      "id": "l115-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l115-v2-e2"
+    },
+    {
+      "id": "l115-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l115-v2-e3"
+    },
+    {
+      "id": "l115-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l115-v2-e4"
+    },
+    {
+      "id": "l115-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l115-v2-e5"
+    },
+    {
+      "id": "l115-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l115-v2-e6"
+    },
+    {
+      "id": "l115-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l115-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l115-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l115-c0",
+      "senseId": "l115-v-205-sense",
+      "keyRef": "l115-v2-k0",
+      "prompt": "Dữ kiện: nhóm đang nói đến gồm toàn nữ. Chọn đại từ viết theo dữ kiện: □是我的家人。 Không suy giới tính từ âm tāmen.",
+      "choices": [
+        "他们",
+        "她们",
+        "它们"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l115-v2-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l115-c1",
+      "senseId": "l115-v-201-sense",
+      "keyRef": "l115-v2-k1",
+      "prompt": "Viết pinyin từ điển của 它 (nó (vật hoặc con vật)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l115-v2-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l115-c2",
+      "senseId": "l115-v-204-sense",
+      "keyRef": "l115-v2-k2",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “chúng nó (vật hoặc con vật)”: □是我的狗。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l115-v2-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l115-c3",
+      "senseId": "l115-v-64-sense",
+      "keyRef": "l115-v2-k3",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “chó”: □ (gǒu). Ngữ cảnh: 我喜欢□。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "狗",
+        "猫",
+        "狼",
+        "猪"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l115-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l115-c2",
+      "senseId": "l115-v-204-sense",
+      "keyRef": "l115-v2-k4",
+      "prompt": "Trong câu “它们是我的狗。”, 它们 mang nghĩa nào theo bài?",
+      "choices": [
+        "nó (vật hoặc con vật)",
+        "chúng nó (vật hoặc con vật)",
+        "chó",
+        "họ (nhóm nam hoặc nhóm gồm nam nữ)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l115-v2-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l115-c3",
+      "senseId": "l115-v-64-sense",
+      "keyRef": "l115-v2-k5",
+      "prompt": "Trong câu “我喜欢狗。”, 狗 mang nghĩa nào theo bài?",
+      "choices": [
+        "chúng nó (vật hoặc con vật)",
+        "chó",
+        "họ (nhóm nam hoặc nhóm gồm nam nữ)",
+        "nó (vật hoặc con vật)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l115-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l115-c0",
+      "senseId": "l115-v-205-sense",
+      "keyRef": "l115-v2-k6",
+      "prompt": "它 trong lời B thay cho gì?",
+      "choices": [
+        "家人",
+        "朋友",
+        "狗"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l115-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l115-c3",
+      "senseId": "l115-v-64-sense",
+      "keyRef": "l115-v2-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "它",
+        "是",
+        "我的狗。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l115-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l115-v2-e0",
+      "senseId": "l115-v-205-sense",
+      "accepted": [
+        "她们"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chọn 她们 vì đề nêu nhóm toàn nữ. Không đọc tên hay âm tāmen để tự đoán giới tính; 它们 không thay nhóm người trong bài."
+    },
+    {
+      "id": "l115-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l115-v2-e1",
+      "senseId": "l115-v-201-sense",
+      "accepted": [
+        "tā"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "它 ghi tā. 它 trong câu thay con chó đang được nhắc, không thay người bạn theo mẫu của bài."
+    },
+    {
+      "id": "l115-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l115-v2-e2",
+      "senseId": "l115-v-204-sense",
+      "accepted": [
+        "它们"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "它们: chúng nó (vật hoặc con vật). 它们 thay nhóm vật/con vật đã xác định, âm giống 他们/她们 nhưng chữ viết khác. Chúng là những con chó của tôi."
+    },
+    {
+      "id": "l115-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l115-v2-e3",
+      "senseId": "l115-v-64-sense",
+      "accepted": [
+        "狗"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 狗 tạo từ 狗. 狗 chỉ loài chó; câu giới thiệu bằng 是 không tự cho biết số lượng. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l115-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l115-v2-e4",
+      "senseId": "l115-v-204-sense",
+      "accepted": [
+        "chúng nó (vật hoặc con vật)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "它们 thay nhóm vật/con vật đã xác định, âm giống 他们/她们 nhưng chữ viết khác. Chúng là những con chó của tôi."
+    },
+    {
+      "id": "l115-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l115-v2-e5",
+      "senseId": "l115-v-64-sense",
+      "accepted": [
+        "chó"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "狗 chỉ loài chó; câu giới thiệu bằng 是 không tự cho biết số lượng. Tôi thích chó."
+    },
+    {
+      "id": "l115-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l115-v2-e6",
+      "senseId": "l115-v-205-sense",
+      "accepted": [
+        "狗"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 狗. Đối tượng đã được B gọi là chó nên 它 có đối tượng rõ; đây là một con trong cuộc hội thoại, không suy số nhiều."
+    },
+    {
+      "id": "l115-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l115-v2-e7",
+      "senseId": "l115-v-64-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 它 chỉ vật/con vật đã rõ trong tình huống; 它们 là số nhiều tương ứng. 他们 thường dùng nhóm nam hoặc nhóm gồm nam nữ; 她们 chỉ nhóm nữ khi biết rõ. Chỉ âm tā/tāmen không đủ phân biệt các chữ. 狗 là chó; không dùng đại từ để đoán một vật chưa được nêu."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

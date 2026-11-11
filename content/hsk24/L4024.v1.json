@@ -1,0 +1,781 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "87303ff07971d8b33a920afe7c348d19152e702738263203e8e9b77a147cbed2",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eace",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L4024",
+    "version": 1,
+    "versionId": "l4024-draft-v1",
+    "title": "Bữa ăn thường ngày và món bánh dịp lễ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Bữa ăn thường ngày và món bánh dịp lễ; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "不"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 29,
+      "physicalPage": 30,
+      "printedPage": 27,
+      "section": "task",
+      "entry": "二十七"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-29T07:56:43.688013Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-tradition",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 29,
+          "physicalPage": 30,
+          "printedPage": 27,
+          "section": "task",
+          "entry": "二十七"
+        },
+        "written": "介绍传统饮食文化",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-3400137cab42",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 67,
+          "physicalPage": 68,
+          "printedPage": 65,
+          "section": "topic",
+          "entry": "传统饮食观念"
+        },
+        "written": "传统饮食观念",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l4024-v-1957",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 127,
+          "physicalPage": 128,
+          "printedPage": 125,
+          "section": "vocabulary",
+          "entry": "ordinal 1957"
+        },
+        "written": "中餐",
+        "pinyin": "zhōngcān",
+        "senseId": "l4024-v-1957-sense",
+        "ordinal": 1957,
+        "note": "4 zhōngcān 名; 中餐 có thể chỉ ẩm thực Trung Quốc, không phải riêng bữa trưa; 午餐 mới chỉ bữa trưa trong bài. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4024-v-1785",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 123,
+          "physicalPage": 124,
+          "printedPage": 121,
+          "section": "vocabulary",
+          "entry": "ordinal 1785"
+        },
+        "written": "午餐",
+        "pinyin": "wǔcān",
+        "senseId": "l4024-v-1785-sense",
+        "ordinal": 1785,
+        "note": "4 wǔcān 名; 午餐 là bữa ăn giữa ngày, không thay cho tên nền ẩm thực 中餐. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4024-v-1918",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 126,
+          "physicalPage": 127,
+          "printedPage": 124,
+          "section": "vocabulary",
+          "entry": "ordinal 1918"
+        },
+        "written": "早餐",
+        "pinyin": "zǎocān",
+        "senseId": "l4024-v-1918-sense",
+        "ordinal": 1918,
+        "note": "4 zǎocān 名; 早餐 là bữa ăn đầu ngày theo ngữ cảnh, khác 早晨 là thời gian buổi sáng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4024-v-1764",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 123,
+          "physicalPage": 124,
+          "printedPage": 121,
+          "section": "vocabulary",
+          "entry": "ordinal 1764"
+        },
+        "written": "晚餐",
+        "pinyin": "wǎncān",
+        "senseId": "l4024-v-1764-sense",
+        "ordinal": 1764,
+        "note": "4 wǎncān 名; 晚餐 chỉ bữa ăn tối; không nhầm 晚安 là lời chúc ngủ ngon. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4024-v-1908",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 126,
+          "physicalPage": 127,
+          "printedPage": 124,
+          "section": "vocabulary",
+          "entry": "ordinal 1908"
+        },
+        "written": "月饼",
+        "pinyin": "yuèbing",
+        "senseId": "l4024-v-1908-sense",
+        "ordinal": 1908,
+        "note": "4 yuèbing 名; 月饼 là loại bánh gắn với Tết Trung thu, có nhiều loại nhân; không phải mọi người đều ăn cùng một loại. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4024-v-1773",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 123,
+          "physicalPage": 124,
+          "printedPage": 121,
+          "section": "vocabulary",
+          "entry": "ordinal 1773"
+        },
+        "written": "味道",
+        "pinyin": "wèidào",
+        "senseId": "l4024-v-1773-sense",
+        "ordinal": 1773,
+        "note": "4 wèidào 名; 味道 nói mùi/vị của món trong ngữ cảnh; không phải đơn vị đo độ ngon tuyệt đối. Nhận diện chữ 味 trong 味道; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-25",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "25"
+        },
+        "written": "餐",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 25,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-15",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "15"
+        },
+        "written": "饼",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 15,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-335",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "335"
+        },
+        "written": "味",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 335,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-4024",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "不……也……：不吃月饼也能参加聚会"
+        },
+        "written": "不",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l4024-c0",
+      "version": 1,
+      "senseId": "l4024-v-1957-sense",
+      "hanzi": "中餐",
+      "dictionaryPinyin": "zhōng cān",
+      "meaning": "món ăn Trung Quốc; bữa ăn kiểu Trung",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4024-v-1957"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4024-c1",
+      "version": 1,
+      "senseId": "l4024-v-1785-sense",
+      "hanzi": "午餐",
+      "dictionaryPinyin": "wǔ cān",
+      "meaning": "bữa trưa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4024-v-1785"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4024-c2",
+      "version": 1,
+      "senseId": "l4024-v-1918-sense",
+      "hanzi": "早餐",
+      "dictionaryPinyin": "zǎo cān",
+      "meaning": "bữa sáng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4024-v-1918"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4024-c3",
+      "version": 1,
+      "senseId": "l4024-v-1764-sense",
+      "hanzi": "晚餐",
+      "dictionaryPinyin": "wǎn cān",
+      "meaning": "bữa tối",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4024-v-1764"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4024-c4",
+      "version": 1,
+      "senseId": "l4024-v-1908-sense",
+      "hanzi": "月饼",
+      "dictionaryPinyin": "yuè bing",
+      "meaning": "bánh trung thu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4024-v-1908"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4024-c5",
+      "version": 1,
+      "senseId": "l4024-v-1773-sense",
+      "hanzi": "味道",
+      "dictionaryPinyin": "wèi dào",
+      "meaning": "mùi vị",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4024-v-1773"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l4024-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4024-t0",
+      "type": "teaching",
+      "title": "中餐 · món ăn Trung Quốc; bữa ăn kiểu Trung",
+      "text": "中餐 có thể chỉ ẩm thực Trung Quốc, không phải riêng bữa trưa; 午餐 mới chỉ bữa trưa trong bài.",
+      "hanzi": "她想了解中餐的不同口味。",
+      "pinyin": "Tā xiǎng liǎo jiě zhōng cān de bù tóng kǒu wèi.",
+      "meaning": "Cô ấy muốn tìm hiểu các khẩu vị khác nhau của món Trung Quốc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4024-t1",
+      "type": "teaching",
+      "title": "午餐 · bữa trưa",
+      "text": "午餐 là bữa ăn giữa ngày, không thay cho tên nền ẩm thực 中餐.",
+      "hanzi": "我们十二点吃午餐。",
+      "pinyin": "Wǒ men shí èr diǎn chī wǔ cān.",
+      "meaning": "Chúng tôi ăn trưa lúc mười hai giờ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4024-t2",
+      "type": "teaching",
+      "title": "早餐 · bữa sáng",
+      "text": "早餐 là bữa ăn đầu ngày theo ngữ cảnh, khác 早晨 là thời gian buổi sáng.",
+      "hanzi": "今天的早餐是粥和鸡蛋。",
+      "pinyin": "Jīn tiān de zǎo cān shì zhōu hé jī dàn.",
+      "meaning": "Bữa sáng hôm nay là cháo và trứng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4024-t3",
+      "type": "teaching",
+      "title": "晚餐 · bữa tối",
+      "text": "晚餐 chỉ bữa ăn tối; không nhầm 晚安 là lời chúc ngủ ngon.",
+      "hanzi": "晚餐以后，我们一起聊天。",
+      "pinyin": "Wǎn cān yǐ hòu, wǒ men yì qǐ liáo tiān.",
+      "meaning": "Sau bữa tối chúng tôi trò chuyện cùng nhau.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4024-t4",
+      "type": "teaching",
+      "title": "月饼 · bánh trung thu",
+      "text": "月饼 là loại bánh gắn với Tết Trung thu, có nhiều loại nhân; không phải mọi người đều ăn cùng một loại.",
+      "hanzi": "中秋节，朋友带来了一盒月饼。",
+      "pinyin": "Zhōng qiū jié, péng you dài lái le yì hé yuè bing.",
+      "meaning": "Tết Trung thu, bạn mang tới một hộp bánh trung thu.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4024-t5",
+      "type": "teaching",
+      "title": "味道 · mùi vị",
+      "text": "味道 nói mùi/vị của món trong ngữ cảnh; không phải đơn vị đo độ ngon tuyệt đối. Nhận diện chữ 味 trong 味道; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "这种月饼的味道比较甜。",
+      "pinyin": "Zhè zhǒng yuè bing de wèi dào bǐ jiào tián.",
+      "meaning": "Loại bánh trung thu này có vị khá ngọt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4024-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "不A也能B diễn đạt A không phải điều kiện bắt buộc để B: không ăn bánh trung thu vẫn có thể dự họp mặt. Chỉ luyện quan hệ này, không khẳng định tất cả cách dùng 不…也… đã được kiểm tra.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4024-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小云对中餐有兴趣，常问朋友早餐、午餐和晚餐有什么不同。中秋节的晚餐后，朋友拿出一盒月饼，介绍它的味道。小云不想吃甜的，朋友说：“不吃月饼也能参加聚会，坐下来一起聊天吧。”他们觉得分享节日时光不等于要求每个人吃同样的食物。",
+      "pinyin": "Xiǎo Yún duì zhōng cān yǒu xìng qù, cháng wèn péng you zǎo cān, wǔ cān hé wǎn cān yǒu shén me bù tóng. Zhōng qiū jié de wǎn cān hòu, péng you ná chū yì hé yuè bing, jiè shào tā de wèi dào. Xiǎo Yún bù xiǎng chī tián de, péng you shuō: “Bù chī yuè bing yě néng cān jiā jù huì, zuò xià lái yì qǐ liáo tiān ba.” Tā men jué de fēn xiǎng jié rì shí guāng bù děng yú yāo qiú měi ge rén chī tóng yàng de shí wù.",
+      "meaning": "Tiểu Vân không muốn ăn ngọt vẫn được mời dự họp mặt Trung thu; bài phân biệt ba bữa ăn với ẩm thực Trung Quốc.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4024-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l4024-v1-e0"
+    },
+    {
+      "id": "l4024-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l4024-v1-e1"
+    },
+    {
+      "id": "l4024-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l4024-v1-e2"
+    },
+    {
+      "id": "l4024-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l4024-v1-e3"
+    },
+    {
+      "id": "l4024-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l4024-v1-e4"
+    },
+    {
+      "id": "l4024-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l4024-v1-e5"
+    },
+    {
+      "id": "l4024-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l4024-v1-e6"
+    },
+    {
+      "id": "l4024-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l4024-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l4024-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4024-c0",
+      "senseId": "l4024-v-1957-sense",
+      "keyRef": "l4024-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “món ăn Trung Quốc; bữa ăn kiểu Trung” để điền câu: 她想了解□的不同口味。",
+      "choices": [
+        "午餐",
+        "早餐",
+        "晚餐",
+        "月饼",
+        "味道",
+        "中餐"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4024-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4024-c1",
+      "senseId": "l4024-v-1785-sense",
+      "keyRef": "l4024-v1-k1",
+      "prompt": "Ghi pinyin của 午餐 trong câu “我们十二点吃午餐。”, theo nghĩa “bữa trưa”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4024-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4024-c2",
+      "senseId": "l4024-v-1918-sense",
+      "keyRef": "l4024-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “bữa sáng”: 今天的□是粥和鸡蛋。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4024-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4024-c3",
+      "senseId": "l4024-v-1764-sense",
+      "keyRef": "l4024-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “bữa tối” để điền câu: □以后，我们一起聊天。",
+      "choices": [
+        "月饼",
+        "味道",
+        "中餐",
+        "午餐",
+        "早餐",
+        "晚餐"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4024-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4024-c4",
+      "senseId": "l4024-v-1908-sense",
+      "keyRef": "l4024-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “bánh trung thu” để điền câu: 中秋节，朋友带来了一盒□。",
+      "choices": [
+        "味道",
+        "中餐",
+        "午餐",
+        "早餐",
+        "晚餐",
+        "月饼"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4024-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l4024-c5",
+      "senseId": "l4024-v-1773-sense",
+      "keyRef": "l4024-v1-k5",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “mùi vị”: □道 (wèi dào). Ngữ cảnh: 这种月饼的□比较甜。",
+      "choices": [
+        "妹",
+        "未",
+        "味",
+        "昧"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4024-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4024-c0",
+      "senseId": "l4024-v-1957-sense",
+      "keyRef": "l4024-v1-k6",
+      "prompt": "Tiểu Vân có phải ăn bánh mới được dự họp mặt không?",
+      "choices": [
+        "必须先吃一盒",
+        "只能吃早餐",
+        "不吃也能参加"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4024-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l4024-c3",
+      "senseId": "l4024-v-1764-sense",
+      "keyRef": "l4024-v1-k7",
+      "prompt": "Sắp xếp nguyên các cụm thành câu theo mẫu đang học; không thêm/bớt từ.",
+      "choices": [
+        "不吃月饼",
+        "也能",
+        "参加",
+        "聚会。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l4024-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l4024-v1-e0",
+      "senseId": "l4024-v-1957-sense",
+      "accepted": [
+        "中餐"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "中餐: món ăn Trung Quốc; bữa ăn kiểu Trung. 中餐 có thể chỉ ẩm thực Trung Quốc, không phải riêng bữa trưa; 午餐 mới chỉ bữa trưa trong bài. Cô ấy muốn tìm hiểu các khẩu vị khác nhau của món Trung Quốc."
+    },
+    {
+      "id": "l4024-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l4024-v1-e1",
+      "senseId": "l4024-v-1785-sense",
+      "accepted": [
+        "wǔ cān"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc wǔ cān. 午餐 là bữa ăn giữa ngày, không thay cho tên nền ẩm thực 中餐."
+    },
+    {
+      "id": "l4024-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l4024-v1-e2",
+      "senseId": "l4024-v-1918-sense",
+      "accepted": [
+        "早餐"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 早餐. 早餐 là bữa ăn đầu ngày theo ngữ cảnh, khác 早晨 là thời gian buổi sáng. Bữa sáng hôm nay là cháo và trứng."
+    },
+    {
+      "id": "l4024-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l4024-v1-e3",
+      "senseId": "l4024-v-1764-sense",
+      "accepted": [
+        "晚餐"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "晚餐: bữa tối. 晚餐 chỉ bữa ăn tối; không nhầm 晚安 là lời chúc ngủ ngon. Sau bữa tối chúng tôi trò chuyện cùng nhau."
+    },
+    {
+      "id": "l4024-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l4024-v1-e4",
+      "senseId": "l4024-v-1908-sense",
+      "accepted": [
+        "月饼"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "月饼: bánh trung thu. 月饼 là loại bánh gắn với Tết Trung thu, có nhiều loại nhân; không phải mọi người đều ăn cùng một loại. Tết Trung thu, bạn mang tới một hộp bánh trung thu."
+    },
+    {
+      "id": "l4024-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l4024-v1-e5",
+      "senseId": "l4024-v-1773-sense",
+      "accepted": [
+        "味"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 味 tạo từ 味道. 味道 nói mùi/vị của món trong ngữ cảnh; không phải đơn vị đo độ ngon tuyệt đối. Nhận diện chữ 味 trong 味道; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l4024-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l4024-v1-e6",
+      "senseId": "l4024-v-1957-sense",
+      "accepted": [
+        "不吃也能参加"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 不吃也能参加. Tiểu Vân không muốn ăn ngọt vẫn được mời dự họp mặt Trung thu; bài phân biệt ba bữa ăn với ẩm thực Trung Quốc."
+    },
+    {
+      "id": "l4024-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l4024-v1-e7",
+      "senseId": "l4024-v-1764-sense",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 不A也能B diễn đạt A không phải điều kiện bắt buộc để B: không ăn bánh trung thu vẫn có thể dự họp mặt. Chỉ luyện quan hệ này, không khẳng định tất cả cách dùng 不…也… đã được kiểm tra."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

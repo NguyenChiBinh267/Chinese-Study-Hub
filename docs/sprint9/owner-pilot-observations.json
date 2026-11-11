@@ -1,0 +1,56 @@
+{
+  "schema": "csh-owner-pilot-observations-v1",
+  "reportedOnLocalDate": "2026-10-18",
+  "timezone": "Asia/Saigon",
+  "evidenceKind": "OWNER_REPORTED_TEXT_ONLY",
+  "expectedPreviewCommit": "a6d635a1d016476663877d72f31eb5eea3f9e080",
+  "platform": "UNCONFIRMED",
+  "browser": "UNCONFIRMED",
+  "microphone": "UNCONFIRMED",
+  "rawAudioReceived": false,
+  "capture": {
+    "noiseSuppressionRequested": true,
+    "noiseSuppressionReported": true,
+    "remainingNoise": true,
+    "noiseChange": "MUCH_IMPROVED_OWNER_REPORTED",
+    "measuredNoiseReductionDb": null
+  },
+  "analysisReported": {
+    "status": "INSUFFICIENT_SIGNAL",
+    "reason": "INSUFFICIENT_PERIODIC_FRAMES",
+    "durationSeconds": 1.74,
+    "voicedDurationMs": 330,
+    "coverageWholePercentRounded": 20,
+    "coverageEnergeticPercentRounded": 37,
+    "framesKept": 33,
+    "framesTotal": 166,
+    "framesExcluded": 133,
+    "exclusions": {
+      "NOISE_REFERENCE": 26,
+      "QUIET": 50,
+      "LOW_PERIODICITY": 52,
+      "OUT_OF_RANGE": 5,
+      "OCTAVE_JUMP": 0,
+      "INVALID": 0
+    },
+    "warnings": ["INSUFFICIENT_PERIODIC_FRAMES"]
+  },
+  "sourceInterpretation": {
+    "localSpectralFilterApplied": "INFERRED_FROM_NOISE_REFERENCE_EXCLUSIONS_IN_CURRENT_SOURCE",
+    "durationMinimumMs": 300,
+    "energeticCoverageMinimumPercent": 65,
+    "limitingGate": "ENERGETIC_COVERAGE_BELOW_CURRENT_ENGINEERING_THRESHOLD",
+    "noiseOnlyCauseEstablished": false,
+    "doubleFilteringHarmEstablished": false,
+    "contourMatchThisReply": "NOT_REPORTED"
+  },
+  "overall": "PARTIAL_NOT_COMPLETE",
+  "phoneticAccuracy": "UNVERIFIED",
+  "nextExperiment": {
+    "status": "AWAITING_OWNER_RESULT",
+    "captureNoiseSuppression": true,
+    "localSpectralFilter": false,
+    "sameRecordingRequiredForControlledComparison": true,
+    "noNewRecordingOrReload": true
+  }
+}

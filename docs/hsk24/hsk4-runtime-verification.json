@@ -1,0 +1,957 @@
+{
+  "status": "VERIFIED_LOCAL_RUNTIME_OBSERVATIONS / HSK4_648_DRAFT / EPIC_PARTIAL",
+  "branch": "feat/hsk24-curriculum",
+  "baseline": "69707d7e505a66b19eb3ee79fc0901523a94c657",
+  "runtimeAndContentFrozenCommit": "f9607b2e9587ffeb16efdae061171b1e1c31fa8a",
+  "assemblyHeadBeforeDocumentationCommit": "bdf5370ee38ea2546f0608320dda0cdf857d9c9c",
+  "generatedAtUTC": "2026-10-29T08:35:00.315907+00:00",
+  "today": {
+    "cause": "Each ordinary planner snapshot loaded/parsed the complete351 source packages plus351full DB manifests under the owner lock.",
+    "fix": "Validated derived metadata index plus dependency adjacency and live ordered metadata pages; per-request source-pin checks. Load a full body only for selected lesson or bounded review template. Offline import regenerates index; ordinary Today does not.",
+    "before": {
+      "checkedAt": "2026-10-29T04:49:57.091Z",
+      "sourceCommit": "69707d7e505a66b19eb3ee79fc0901523a94c657",
+      "database": "csh_hsk24_bf294b6506c1",
+      "node": "v26.5.0",
+      "platform": "win32",
+      "nativeRepositoryBoundary": true,
+      "freshProcess": true,
+      "explicitCatalogCache": false,
+      "firstConnectionMs": 64.11680000000001,
+      "physicalConnections": 1,
+      "poolAfterEnd": {
+        "total": 0,
+        "idle": 0,
+        "waiting": 0
+      },
+      "samples": [
+        {
+          "phase": "FIRST_TODAY_IN_FRESH_NODE_PROCESS",
+          "wallMs": 1089.5030000000002,
+          "sql": 34,
+          "sqlMs": 240.95989999999983,
+          "maxSqlMs": 97.48020000000008,
+          "fullDatabaseManifests": 351,
+          "sqlResultBytes": 7724331,
+          "transactions": [
+            1088.4587000000001
+          ],
+          "fullSourcePackages": 351,
+          "fsOps": 365,
+          "responseBytes": 1931,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        },
+        {
+          "phase": "WARM_SAME_PROCESS_POOL",
+          "wallMs": 794.4242999999999,
+          "sql": 34,
+          "sqlMs": 93.17900000000031,
+          "maxSqlMs": 72.10899999999992,
+          "fullDatabaseManifests": 351,
+          "sqlResultBytes": 7724331,
+          "transactions": [
+            794.2696000000001
+          ],
+          "fullSourcePackages": 351,
+          "fsOps": 365,
+          "responseBytes": 1931,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        },
+        {
+          "phase": "WARM_SAME_PROCESS_POOL",
+          "wallMs": 707.8703999999998,
+          "sql": 34,
+          "sqlMs": 71.62089999999989,
+          "maxSqlMs": 50.38810000000012,
+          "fullDatabaseManifests": 351,
+          "sqlResultBytes": 7724331,
+          "transactions": [
+            707.6178999999997
+          ],
+          "fullSourcePackages": 351,
+          "fsOps": 365,
+          "responseBytes": 1931,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        },
+        {
+          "phase": "WARM_SAME_PROCESS_POOL",
+          "wallMs": 996.2332999999999,
+          "sql": 34,
+          "sqlMs": 83.81680000000142,
+          "maxSqlMs": 57.84389999999985,
+          "fullDatabaseManifests": 351,
+          "sqlResultBytes": 7724331,
+          "transactions": [
+            996.0140999999994
+          ],
+          "fullSourcePackages": 351,
+          "fsOps": 365,
+          "responseBytes": 1931,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        }
+      ],
+      "methodology": "Source package reads count readFileSync(package filename); full DB manifests count result.rows.manifest objects. These are IO-boundary body counts, not every allocation inside Zod. SQL timing is client wall time including decoding. First connection measured before first Today; all4requests share one bounded pool. No HTTP/GUI or cloud latency claim, no automatic retries. Old learner rows are not modified; dedicated synthetic owner only."
+    },
+    "after": {
+      "checkedAt": "2026-10-29T08:09:56.919Z",
+      "sourceCommit": "f9607b2e9587ffeb16efdae061171b1e1c31fa8a",
+      "database": "csh_hsk24_bf294b6506c1",
+      "node": "v26.5.0",
+      "platform": "win32",
+      "nativeRepositoryBoundary": true,
+      "freshProcess": true,
+      "explicitCatalogCache": false,
+      "firstConnectionMs": 35.78370000000001,
+      "physicalConnections": 1,
+      "poolAfterEnd": {
+        "total": 0,
+        "idle": 0,
+        "waiting": 0
+      },
+      "samples": [
+        {
+          "phase": "FIRST_TODAY_IN_FRESH_NODE_PROCESS",
+          "wallMs": 99.25319999999999,
+          "sql": 23,
+          "sqlMs": 60.75699999999995,
+          "maxSqlMs": 12.729200000000048,
+          "fullDatabaseManifests": 0,
+          "sqlResultBytes": 8245,
+          "transactions": [
+            98.6583
+          ],
+          "fullSourcePackages": 0,
+          "fsOps": 14,
+          "responseBytes": 1942,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        },
+        {
+          "phase": "WARM_SAME_PROCESS_POOL",
+          "wallMs": 33.44040000000001,
+          "sql": 23,
+          "sqlMs": 9.914200000000164,
+          "maxSqlMs": 2.092299999999966,
+          "fullDatabaseManifests": 0,
+          "sqlResultBytes": 8245,
+          "transactions": [
+            33.29509999999999
+          ],
+          "fullSourcePackages": 0,
+          "fsOps": 14,
+          "responseBytes": 1942,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        },
+        {
+          "phase": "WARM_SAME_PROCESS_POOL",
+          "wallMs": 33.72369999999995,
+          "sql": 23,
+          "sqlMs": 10.345799999999826,
+          "maxSqlMs": 2.106899999999996,
+          "fullDatabaseManifests": 0,
+          "sqlResultBytes": 8245,
+          "transactions": [
+            33.61770000000001
+          ],
+          "fullSourcePackages": 0,
+          "fsOps": 14,
+          "responseBytes": 1942,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        },
+        {
+          "phase": "WARM_SAME_PROCESS_POOL",
+          "wallMs": 32.34019999999998,
+          "sql": 23,
+          "sqlMs": 9.41199999999992,
+          "maxSqlMs": 2.2607999999999606,
+          "fullDatabaseManifests": 0,
+          "sqlResultBytes": 8245,
+          "transactions": [
+            32.210500000000025
+          ],
+          "fullSourcePackages": 0,
+          "fsOps": 14,
+          "responseBytes": 1942,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        }
+      ],
+      "methodology": "Source package reads count readFileSync(package filename); full DB manifests count result.rows.manifest objects. These are IO-boundary body counts, not every allocation inside Zod. SQL timing is client wall time including decoding. First connection measured before first Today; all4requests share one bounded pool. No HTTP/GUI or cloud latency claim, no automatic retries. Old learner rows are not modified; dedicated synthetic owner only."
+    },
+    "limits": [
+      "1,319,365byte metadata index still read/parsed each request; not O(1)",
+      "16metadata rows/page; max7new and7resume candidates retained; rejected pages can increase total work",
+      "Counts cover observed readFileSync/readdirSync/statSync and IO body objects, not every allocator/OS call"
+    ]
+  },
+  "coldHttp": {
+    "startedAt": "2026-10-29T08:09:57.106Z",
+    "sourceBaseCommit": "f9607b2e9587ffeb16efdae061171b1e1c31fa8a",
+    "database": "csh_hsk24_bf294b6506c1",
+    "port": 3037,
+    "compiledDevCachePresentBeforeStart": false,
+    "freshNodeProcess": true,
+    "applicationCatalogCache": false,
+    "requests": [
+      {
+        "phase": "FIRST_HTTP_IN_COLD_PROCESS",
+        "path": "/api/local/status",
+        "status": 200,
+        "responseBytes": 31,
+        "wallMs": 6988.5756,
+        "applicationFetchBudgetMs": 20000,
+        "exceedsApplicationFetchBudget": false,
+        "serverErrorCode": null
+      },
+      {
+        "phase": "LOCAL_MODE_SETUP",
+        "path": "/api/local/mode",
+        "status": 200,
+        "responseBytes": 15,
+        "wallMs": 271.84220000000005,
+        "applicationFetchBudgetMs": 20000,
+        "exceedsApplicationFetchBudget": false,
+        "serverErrorCode": null
+      },
+      {
+        "phase": "FIRST_TODAY_HTTP_IN_COLD_PROCESS",
+        "path": "/api/local/study/today",
+        "status": 200,
+        "responseBytes": 1942,
+        "wallMs": 385.58080000000064,
+        "applicationFetchBudgetMs": 15000,
+        "exceedsApplicationFetchBudget": false,
+        "serverErrorCode": null
+      },
+      {
+        "phase": "WARM_TODAY_HTTP",
+        "path": "/api/local/study/today",
+        "status": 200,
+        "responseBytes": 1942,
+        "wallMs": 53.536700000000565,
+        "applicationFetchBudgetMs": 15000,
+        "exceedsApplicationFetchBudget": false,
+        "serverErrorCode": null
+      },
+      {
+        "phase": "WARM_TODAY_HTTP",
+        "path": "/api/local/study/today",
+        "status": 200,
+        "responseBytes": 1942,
+        "wallMs": 53.75879999999961,
+        "applicationFetchBudgetMs": 15000,
+        "exceedsApplicationFetchBudget": false,
+        "serverErrorCode": null
+      }
+    ],
+    "errors": [],
+    "observationRequestBudgetMs": 90000,
+    "automaticRetries": 0,
+    "limits": "Direct HTTP observations allow90s to measure compilation; product15s/20s fetch and5s SQL limits are unchanged. Each record explicitly flags whether it exceeds its application fetch budget. Cold first process is not a fresh client against an existing server.",
+    "connectionsBefore": [],
+    "childPid": 33552,
+    "processReadyMs": 719.7278,
+    "connectionsAfterFirst": [
+      {
+        "pid": 21668,
+        "state": "idle"
+      }
+    ],
+    "connectionsAfterWarm": [
+      {
+        "pid": 21668,
+        "state": "idle"
+      }
+    ],
+    "connectionsAfterProcessStop": [],
+    "totalMs": 8636.5923,
+    "noPersistentRuntimeConnections": true
+  },
+  "connectionPolicy": {
+    "poolMax": 3,
+    "statementTimeoutMs": 5000,
+    "automaticRetries": 0,
+    "cronOrKeepaliveAdded": false,
+    "cleanup": "Native pool0 and observed server connections0 after owned process stop"
+  },
+  "identifiers": {
+    "compatibleNumericWidths": "3–6digits for local L IDs; all prior IDs/hash/history retained",
+    "newIntroductions": "L4001–L4024",
+    "newReviews": "L49001–L49004",
+    "uuid": "Existing values preserved, padded12digit numeric suffix for new UUIDs",
+    "order": "course/unit/lesson ordinal tuple, never lexical ID order",
+    "databaseColumnType": "text; no migration",
+    "privateOnlinePreview": "Existing explicit3digit allowlist intentionally unchanged",
+    "lateDefect": "Seed version-advance guard still3digits; red test/import rejection retained, corrected bounded extension with all safety guards unchanged"
+  },
+  "HSK4": {
+    "completedBatches": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "newVocabulary": 144,
+    "vocabulary": 648,
+    "remaining": 352,
+    "newIntroductions": 24,
+    "newReviewActivities": 4,
+    "newExercises": 224,
+    "currentIntroductions": 108,
+    "currentReviews": 16,
+    "currentActivities": 124,
+    "currentExercises": 992,
+    "fiveDimensions": {
+      "grammarRowsMappedCandidates": 90,
+      "topicLeavesMapped": 66,
+      "taskHeadsReferenced": 24,
+      "recognitionCharacterRefs": 314,
+      "grammarRowsWithExplicitPartialPractice": 87,
+      "recognitionCharactersExplicitlyPracticed": 135,
+      "recognitionPracticeExercises": 155,
+      "fullyAcceptedGrammarRows": 0,
+      "fullyAcceptedTaskBullets": 0,
+      "qualifiedHumanReviews": 0
+    },
+    "baselineFiveDimensions": {
+      "grammarRowsMappedCandidates": 67,
+      "topicLeavesMapped": 52,
+      "taskHeadsReferenced": 19,
+      "recognitionCharacterRefs": 248,
+      "grammarRowsWithExplicitPartialPractice": 64,
+      "recognitionCharactersExplicitlyPracticed": 103,
+      "recognitionPracticeExercises": 118,
+      "fullyAcceptedGrammarRows": 0,
+      "fullyAcceptedTaskBullets": 0,
+      "qualifiedHumanReviews": 0
+    },
+    "delta": {
+      "grammarRowsMappedCandidates": 23,
+      "topicLeavesMapped": 14,
+      "taskHeadsReferenced": 5,
+      "recognitionCharacterRefs": 66,
+      "grammarRowsWithExplicitPartialPractice": 23,
+      "recognitionCharactersExplicitlyPracticed": 32,
+      "recognitionPracticeExercises": 37,
+      "fullyAcceptedGrammarRows": 0,
+      "fullyAcceptedTaskBullets": 0,
+      "qualifiedHumanReviews": 0
+    },
+    "fullyAcceptedGrammarRows": 0,
+    "fullyAcceptedTaskBullets": 0,
+    "qualifiedHumanReviews": 0
+  },
+  "database": {
+    "name": "csh_hsk24_bf294b6506c1",
+    "before": {
+      "packages": 351,
+      "attempts": 2337,
+      "sessions": 1180,
+      "cards": 1650
+    },
+    "after": {
+      "packages": 383,
+      "attempts": 2978,
+      "sessions": 1315,
+      "cards": 2100
+    },
+    "allRecordedOldRowsExact": true,
+    "canonicalManifests": {
+      "sourceCommit": "f9607b2e9587ffeb16efdae061171b1e1c31fa8a",
+      "database": "csh_hsk24_bf294b6506c1",
+      "readOnly": true,
+      "canonicalManifestsMatched": 383,
+      "migrations": [
+        {
+          "version": "202610170001",
+          "digest": "0c2a5172e5277752578e50b5c1ecf0e4edab9c127b45c7365e8c93b2e22f0837"
+        },
+        {
+          "version": "202610170002",
+          "digest": "3b10d7029860070c5759532e22c0cc8cc9e16c68f121b11ae760d2528c532546"
+        },
+        {
+          "version": "202610170003",
+          "digest": "b826f67ab82c812705bf3e081a2e370177163b508b718d8fef9930b89bebddc2"
+        },
+        {
+          "version": "202610180004",
+          "digest": "1dbe64fa7085af567d68450d1b55d6295ac87d415ef5bc320aba17cefb067536"
+        },
+        {
+          "version": "202610180005",
+          "digest": "558c100b31e8ba608879e2a9ecc31a2647c64816dc00395fc716be0b23c5535c"
+        },
+        {
+          "version": "202610190006",
+          "digest": "1b0a67a10b02e3a84f734e27c22de282ecc15f51b079b134abf051613abfa8eb"
+        },
+        {
+          "version": "202610210007",
+          "digest": "8622fadfbfab5a684c3b12192f69395e887aa8dad1c12949830dc5523bd7413e"
+        }
+      ],
+      "role": {
+        "rolname": "csh_runtime",
+        "rolsuper": false,
+        "rolbypassrls": false
+      },
+      "policies": [
+        {
+          "nspname": "app_private",
+          "relname": "activity_leases",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "api_idempotency",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "attempts",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "cards",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "content_attempt_bindings",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "content_session_state",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "duration_events",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "learning_events",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "lesson_progress",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "lesson_sessions",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "mastery_evidence",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "owner_profiles",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "planned_blocks",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "review_logs",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "skill_mastery",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "study_day_overrides",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "study_settings",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "time_preferences",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        },
+        {
+          "nspname": "app_private",
+          "relname": "weekly_plans",
+          "relrowsecurity": true,
+          "relforcerowsecurity": true
+        }
+      ]
+    },
+    "oldExpansionFilesPreserved": 345,
+    "oldSourceReferencesPreserved": 2288,
+    "totalServerVersions": 383,
+    "totalExpansionVersions": 377,
+    "currentExpansion": 314,
+    "historicalExpansion": 63,
+    "limits": "Recorded row families/hash subsets, not full backup/restore proof"
+  },
+  "tests": {
+    "unit": {
+      "path": ".local-postgres/hsk24/hsk4-runtime-final-frozen-unit.log",
+      "tests": 29,
+      "pass": 29,
+      "fail": 0,
+      "skipped": 0
+    },
+    "nativeSqlRuns": [
+      {
+        "path": ".local-postgres/hsk24/hsk4-runtime-batch22-sql.log",
+        "tests": 8,
+        "pass": 8,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-runtime-batch23-sql.log",
+        "tests": 8,
+        "pass": 8,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-runtime-batch24-sql.log",
+        "tests": 10,
+        "pass": 10,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-runtime-batch25-sql.log",
+        "tests": 8,
+        "pass": 8,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-runtime-batch26-sql.log",
+        "tests": 8,
+        "pass": 8,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-runtime-batch27-sql.log",
+        "tests": 10,
+        "pass": 10,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-runtime-all-new-sql.log",
+        "tests": 32,
+        "pass": 32,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-runtime-repair-sql.log",
+        "tests": 9,
+        "pass": 9,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-runtime-wording-sql.log",
+        "tests": 5,
+        "pass": 5,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-runtime-final-existing-sql.log",
+        "tests": 7,
+        "pass": 7,
+        "fail": 0,
+        "skipped": 0
+      },
+      {
+        "path": ".local-postgres/hsk24/hsk4-runtime-final-index383-native.log",
+        "tests": 11,
+        "pass": 11,
+        "fail": 0,
+        "skipped": 0
+      }
+    ],
+    "sqlExecutions": 116,
+    "browser": {
+      "kind": "COMPOSITE_CURRENT_CASE_MATRIX",
+      "acceptedExecutions": {
+        "pass": 17,
+        "fail": 0,
+        "skip": 0
+      },
+      "distinctProjectCases": 16,
+      "extraExecution": "mobile Today repeated for both no-debt and due-debt branches",
+      "acceptedCases": [
+        {
+          "project": "desktop",
+          "file": "journey.spec.ts",
+          "title": "L4008: actual content, resume, grading, completion, progress and accessibility",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+        },
+        {
+          "project": "desktop",
+          "file": "journey.spec.ts",
+          "title": "L4017: actual content, resume, grading, completion, progress and accessibility",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+        },
+        {
+          "project": "desktop",
+          "file": "journey.spec.ts",
+          "title": "L4020: actual content, resume, grading, completion, progress and accessibility",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+        },
+        {
+          "project": "desktop",
+          "file": "journey.spec.ts",
+          "title": "L49004: actual content, resume, grading, completion, progress and accessibility",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+        },
+        {
+          "project": "desktop",
+          "file": "navigation.spec.ts",
+          "title": "L437: course and unit links open the exact current immutable lesson",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+        },
+        {
+          "project": "desktop",
+          "file": "navigation.spec.ts",
+          "title": "L4024: course and unit links open the exact current immutable lesson",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+        },
+        {
+          "project": "desktop",
+          "file": "schedule-refresh.spec.ts",
+          "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-final-browser.json"
+        },
+        {
+          "project": "desktop",
+          "file": "today.spec.ts",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "status": "passed",
+          "annotations": [
+            {
+              "type": "today-priority-branch",
+              "description": "NO_DEBT_PINNED_RESUME"
+            }
+          ],
+          "source": ".local-postgres/hsk24/hsk4-runtime-resume-final-browser.json"
+        },
+        {
+          "project": "mobile360",
+          "file": "today.spec.ts",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "status": "passed",
+          "annotations": [
+            {
+              "type": "today-priority-branch",
+              "description": "NO_DEBT_PINNED_RESUME"
+            }
+          ],
+          "source": ".local-postgres/hsk24/hsk4-runtime-resume-final-browser.json"
+        },
+        {
+          "project": "mobile360",
+          "file": "journey.spec.ts",
+          "title": "L4008: actual content, resume, grading, completion, progress and accessibility",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+        },
+        {
+          "project": "mobile360",
+          "file": "journey.spec.ts",
+          "title": "L4017: actual content, resume, grading, completion, progress and accessibility",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+        },
+        {
+          "project": "mobile360",
+          "file": "journey.spec.ts",
+          "title": "L4020: actual content, resume, grading, completion, progress and accessibility",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+        },
+        {
+          "project": "mobile360",
+          "file": "journey.spec.ts",
+          "title": "L49004: actual content, resume, grading, completion, progress and accessibility",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+        },
+        {
+          "project": "mobile360",
+          "file": "navigation.spec.ts",
+          "title": "L437: course and unit links open the exact current immutable lesson",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+        },
+        {
+          "project": "mobile360",
+          "file": "navigation.spec.ts",
+          "title": "L4024: course and unit links open the exact current immutable lesson",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+        },
+        {
+          "project": "mobile360",
+          "file": "schedule-refresh.spec.ts",
+          "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+          "status": "passed",
+          "annotations": [],
+          "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+        },
+        {
+          "project": "mobile360",
+          "file": "today.spec.ts",
+          "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+          "status": "passed",
+          "annotations": [
+            {
+              "type": "today-priority-branch",
+              "description": "DUE_FSRS_BEFORE_RESUME"
+            }
+          ],
+          "source": ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json"
+        }
+      ],
+      "rawFirstRun": {
+        "path": ".local-postgres/hsk24/hsk4-runtime-final-browser.json",
+        "stats": {
+          "startTime": "2026-10-29T08:10:42.219Z",
+          "duration": 270794.431,
+          "expected": 7,
+          "skipped": 8,
+          "unexpected": 1,
+          "flaky": 0
+        },
+        "retainedFailure": "Shared owner created due FSRS cards; old fixture incorrectly required resume to outrank due review. Product follows the required priority.",
+        "traceArchive": ".local-postgres/hsk24/hsk4-runtime-browser-first-traces.zip"
+      },
+      "currentSources": {
+        "runtimeAndContent": "f9607b2e9587ffeb16efdae061171b1e1c31fa8a",
+        "todayFixture": "bdf5370ee38ea2546f0608320dda0cdf857d9c9c"
+      },
+      "unchangedReusedDesktopFiles": [
+        "journey.spec.ts",
+        "navigation.spec.ts",
+        "schedule-refresh.spec.ts"
+      ],
+      "transportLimit": "Browser server logs contain aborted/ECONNRESET messages around navigation. Functional cases passed; cause and general transport stability are not established by passing assertions.",
+      "intermediateMobileFailure": {
+        "path": ".local-postgres/hsk24/hsk4-runtime-mobile-final-browser.json",
+        "stats": {
+          "startTime": "2026-10-29T08:21:34.859Z",
+          "duration": 36162.581,
+          "expected": 0,
+          "skipped": 7,
+          "unexpected": 1,
+          "flaky": 0
+        },
+        "traceArchive": ".local-postgres/hsk24/hsk4-runtime-mobile-failed-traces.zip",
+        "observed": "TypeError reading length in generated Webpack chunk loader before HSK4 course heading; no application source frame.",
+        "controlledRerun": "Identical app/content; prior dev cache archived, new process/cache and synthetic owner. No request retries, timeout changes or source repair.",
+        "interpretation": "Passing a cleared-cache run supports a cache/process condition but does not prove its precise cause or general dev-cache stability."
+      }
+    },
+    "typeLint": {
+      "unit": 0,
+      "lint": 0,
+      "typecheck": 0,
+      "source": "f9607b2e9587ffeb16efdae061171b1e1c31fa8a",
+      "helperLint": 0
+    },
+    "build": {
+      "localExpansionDisabled": true,
+      "exit": 0,
+      "checkedAt": "2026-10-29T08:32:43.8482721Z",
+      "output": ".next/hsk2-check",
+      "source": "bdf5370ee38ea2546f0608320dda0cdf857d9c9c"
+    }
+  },
+  "intermediateFailures": {
+    "browser": {
+      "path": ".local-postgres/hsk24/hsk4-runtime-final-browser.json",
+      "stats": {
+        "startTime": "2026-10-29T08:10:42.219Z",
+        "duration": 270794.431,
+        "expected": 7,
+        "skipped": 8,
+        "unexpected": 1,
+        "flaky": 0
+      },
+      "retainedFailure": "Shared owner created due FSRS cards; old fixture incorrectly required resume to outrank due review. Product follows the required priority.",
+      "traceArchive": ".local-postgres/hsk24/hsk4-runtime-browser-first-traces.zip"
+    },
+    "idAdvance": {
+      "redLog": ".local-postgres/hsk24/hsk4-runtime-id-advance-red.log",
+      "greenLog": ".local-postgres/hsk24/hsk4-runtime-id-advance-green.log",
+      "fixed": "Compatible ID guard; no other import protections removed"
+    },
+    "postgresServiceRecovery": "On continuation5447had no listener; existing project cluster recovered after interrupted shutdown. No init/reset/database switch. Initial import ECONNREFUSED and starting-up failure retained in execution evidence; preservation rechecked.",
+    "typecheck": "A negative test used nonexistent PUBLISHED enum; corrected to real APPROVED, final exit0.",
+    "measurementPrototype": "Earlier logs labelled69707d7 while running uncommitted intermediate code are advisory only; final native/cold reports pin exact f9607b2.",
+    "databaseVerifierPrototype": "Direct raw JSONB serialization hash was order-sensitive; typed canonical packageSchema parse plus deep equality matches all383. No DB content repair was made."
+  },
+  "policy": {
+    "localOnly": true,
+    "push": false,
+    "merge": false,
+    "deploy": false,
+    "cloudWrites": false,
+    "paidResources": false,
+    "authRlsWeakened": false,
+    "masterPlanTaskStatusChanged": false,
+    "publication": "BLOCKED",
+    "humanReview": false,
+    "mastery": null
+  },
+  "limits": [
+    "352 vocabulary entries not introduced",
+    "Metadata index still parsed per request; rejected candidate pages can grow",
+    "Cold and warm observations are local samples, no SLA",
+    "Browser navigation aborted/ECONNRESET logs retained; no general transport closure",
+    "Listening/speaking/handwriting/free writing unsupported",
+    "L403/L404 shallow ordering; L424 source pronoun slot not practiced",
+    "HSK1 incomplete; HSK2/3 curriculum partial; competent review and publication blocked",
+    "A generated Webpack chunk-loader TypeError was observed in a run reusing development cache; cleared-cache run is recorded separately, general dev-cache stability remains open"
+  ],
+  "nextCheckpoint": "docs/hsk24/hsk4-production-next-checkpoint.json",
+  "preview": "http://127.0.0.1:3037/learn/courses/HSK4",
+  "finalPacketReview": "docs/hsk24/hsk4-runtime-final-technical-review.json",
+  "evidenceFiles": {
+    ".local-postgres/hsk24/hsk4-runtime-batch22-sql.log": "21ccda80114c6af9f8d9624a2ad2da456183bf456a96f674328b37a3eb6ce9b2",
+    ".local-postgres/hsk24/hsk4-runtime-batch23-sql.log": "ea57ce50b215a95b05557ea1f17face2e590c7f9cff04b2de5cd7852d1a1130a",
+    ".local-postgres/hsk24/hsk4-runtime-batch24-sql.log": "58d31c5d9767b13ba7b227a5a1d985aa73343a8f630dbe38a45b50094face72e",
+    ".local-postgres/hsk24/hsk4-runtime-batch25-sql.log": "678601b6567fd14ddba84dfd95494f8a0199299517c453d48207c8e6bfee05d0",
+    ".local-postgres/hsk24/hsk4-runtime-batch26-sql.log": "e1a9124065ccfc842f63fc71e07cb246196bc581e9fdd07f279fc716d440d9a4",
+    ".local-postgres/hsk24/hsk4-runtime-batch27-sql.log": "d5154c1d1300a860d5215389e30508994d2c44adcc1a4e98c7e1115dd77c6179",
+    ".local-postgres/hsk24/hsk4-runtime-all-new-sql.log": "0f9711779bf67b7af1f991dce489fe1320af96d9f0f2350b28965751756f5720",
+    ".local-postgres/hsk24/hsk4-runtime-repair-sql.log": "9a98bda1f0e8ab19e03be3199dc14a5e9abe4f775994876cbfbe61d453f412db",
+    ".local-postgres/hsk24/hsk4-runtime-wording-sql.log": "e39fd173d8c48a67e0fefbb5d2adef9f9f232c6924826c500f11b8688cd226d6",
+    ".local-postgres/hsk24/hsk4-runtime-final-existing-sql.log": "83a11816f4c42676a029ba90393b15f767f2782c5881724255397256988d1c4c",
+    ".local-postgres/hsk24/hsk4-runtime-final-index383-native.log": "15a946843a17e185c6a3c9c2aea55820dba57ee9cebe5bc13f81471e0588014e",
+    ".local-postgres/hsk24/hsk4-runtime-final-frozen-unit.log": "88b33b8b941bffdc5250896d9de19063cf3d8ee9990ff9daef1d8ed808da1cfd",
+    ".local-postgres/hsk24/hsk4-runtime-final-browser.json": "d149b7848ab42b25be16b89484a25b794c65c74acf01b367060e796f7e745058",
+    ".local-postgres/hsk24/hsk4-runtime-resume-final-browser.json": "b432f90c439e7b96d4ad64794c1769bd72fb714c7a20de938f41e62056a942c6",
+    ".local-postgres/hsk24/hsk4-runtime-mobile-cleared-browser.json": "95464347a12aa23324ac1e0f81431711caf9e5699f7dacde6eb7576614b8fb75",
+    ".local-postgres/hsk24/hsk4-runtime-before-69707d7.json": "90adab1a92b55b13b14a0a8db2a47fd850d914ad56b7fb66195ee59d9939871a",
+    ".local-postgres/hsk24/hsk4-runtime-final-f9607b2.json": "9e43bd9dd008cce103f368c607c726dd64408747ebd7faf252272e852bd4e498",
+    ".local-postgres/hsk24/hsk4-runtime-cold-final-f9607b2.json": "463df6469dda2c0291f3624466dae8a6b31a36f4e00c3878d8b32561192f8003",
+    ".local-postgres/hsk24/hsk4-runtime-final-frozen-code-checks.json": "0f6643c3852e32900a55b05274da3e53232f51180b0110ee114c87d5d778a9a5",
+    ".local-postgres/hsk24/hsk4-runtime-final-database-content.json": "c0f1b2940b9e7b5cd9f5fdcf38c1cceaa31787d77361867e0270e8a5899dbab7",
+    ".local-postgres/hsk24/hsk4-runtime-source-reconciliation.json": "02e30508c568259fbbf500793ca294cc290bf0980c2bbe6bb031deb9cb2bb9cf",
+    ".local-postgres/hsk24/hsk4-runtime-build-exit.json": "b933c816de654a8d64e2284fc16ecfa5a16efc8b52e200b4556846a25a1a40dd",
+    ".local-postgres/hsk24/hsk4-runtime-build.log": "93e67f6f9cd155726a084e993717e39b8c899b38fd862b73678cfbbb61fe0437",
+    ".local-postgres/hsk24/hsk4-runtime-browser-fixture-code.json": "6e7b836353387a48cb679e21ec9b8c3502f4f69750b1e30271f89eda862872e6",
+    ".local-postgres/hsk24/hsk4-runtime-source-audit-v2.log": "426efb754b77466c1874772cc3e017ff03f738864f22a264514c462e62cf7352",
+    ".local-postgres/hsk24/hsk4-runtime-instruction-audit-final.log": "b09bb7304e60c49a517e7bf7bbd4286d9d27e4e83d722688283458611eb3cac7",
+    ".local-postgres/hsk24/hsk4-runtime-batch22-20261029-before.json": "8db24026322df4b1921cb5e95c3533ff6e80d39bc0055deb03b031055a68e4f3",
+    ".local-postgres/hsk24/hsk4-runtime-batch22-20261029-after.json": "fd5cfd207392dd20050eeea22154775731c9c05695a5bfd710ba621f5d1306bd",
+    ".local-postgres/hsk24/hsk4-runtime-dev-client-isolation.json": "8ee6eeb73a61aa45a29bb4adc7515b217695ca0f378d93bfc5c4d7e48614b616",
+    ".local-postgres/hsk24/hsk4-runtime-dev-client-artifacts.zip": "cb6a7df6de33bc73e9348d5d1beda849edf431d82f0ca6382532d7088d6bd444",
+    ".local-postgres/hsk24/hsk4-runtime-dev-client-artifacts.json": "2ec4fbff44fdbe393c7a360873e8114c64ac6efdbf062d48c33e535d47fdcd26",
+    ".local-postgres/hsk24/hsk4-runtime-prod-client-isolation.json": "dee01f62cd57e39bdeb58d8c088ab8894735ac3fcbe7049990bb4d4930b012f7",
+    ".local-postgres/hsk24/hsk4-runtime-prod-client-artifacts.zip": "2ce42289b7899a0a782d4c4521384a4f272745df99842db7de70d7b902728648",
+    ".local-postgres/hsk24/hsk4-runtime-prod-client-artifacts.json": "6f63b38777fd7247f69b23e284ebd307bff2eece2215c8205bf241b85ed5c3d4",
+    "docs/hsk24/hsk4-runtime-source-review.json": "8dcac9b62e284af52c4437b049d70a4e547340c011728556dd23472f5771943e",
+    "docs/hsk24/hsk4-runtime-content-review.json": "65e282cdd961c121bd25e37d45769519b43c7faba3b4434610008f2b6697aacb",
+    "docs/hsk24/hsk4-runtime-browser-evidence.json": "1d2faf38335c74b9605fb41d7327c3956b7c90f9442fcc51998582772d4cb408",
+    "docs/hsk24/hsk4-coverage.json": "ec8149b881508188166505d32e5ab1813e5cc0b25f38c457170b2bc2da909e3d",
+    "docs/hsk24/hsk4-instruction-evidence.json": "a975c4d5251ec996a727a032221e04cb5c27c9a3d021daf4a0df2f5ee9447b05",
+    ".local-postgres/hsk24/hsk4-runtime-mobile-final-browser.json": "672a66409c80a953467d61ce0bbd38d26165051edf6ea9ff39d55efc14a52d5c",
+    ".local-postgres/hsk24/hsk4-runtime-mobile-final-browser.log": "d184029c753394e894b35b88a4ed3200fe0f18bc13def8c15e408d188cb423f2",
+    ".local-postgres/hsk24/hsk4-runtime-mobile-failed-traces.zip": "0f2adf730eb163fd4f52403df58ac5320b8aa96506e07c3e0263723409e158e3",
+    ".local-postgres/hsk24/hsk4-runtime-browser-first-traces.zip": "19f59ad662c212fdf6806e4a7f76b1f2f045fa5472ea4ced565f31b328228862",
+    ".local-postgres/hsk24/hsk4-runtime-id-advance-red.log": "0229723a0e79ae10985848a3f5efde52e4899d3c23668bf27b8f9ba15be1562c",
+    ".local-postgres/hsk24/hsk4-runtime-id-advance-green.log": "beb894f3b89ca77f5def9975a002adbd7d0343edbbeea430d69a9b68e32f5099"
+  }
+}

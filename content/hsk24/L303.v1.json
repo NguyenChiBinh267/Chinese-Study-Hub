@@ -1,0 +1,884 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "1c603911ea26529789e6ddc6cce8e7c1d83ec70062efc15fa932170b66839f80",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-class-contest",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L303",
+    "version": 1,
+    "versionId": "l303-draft-v1",
+    "title": "Tham gia một cuộc thi học tập",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc điều kiện tham gia và phân biệt cố gắng với kết quả được ghi nhận.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l204-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "只要……，就……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 16,
+      "physicalPage": 17,
+      "printedPage": 14,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 16,
+          "physicalPage": 17,
+          "printedPage": 14,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "沟通学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-topic-activities",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "教育情况 / 学习情况 / 学习活动"
+        },
+        "written": "学习活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l303-v-559",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 559"
+        },
+        "written": "成绩",
+        "pinyin": "chéngjì",
+        "senseId": "l303-v-559-sense",
+        "ordinal": 559,
+        "note": "3 chéngjì 名; 成绩 nói kết quả học hoặc công việc theo ngữ cảnh. 成绩不错 không đưa ra số điểm cụ thể, cũng không chứng minh nguyên nhân kết quả. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l303-v-585",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 585"
+        },
+        "written": "得分",
+        "pinyin": "défēn",
+        "senseId": "l303-v-585-sense",
+        "ordinal": 585,
+        "note": "3 défēn 动、名; 得分 là đạt điểm theo cách chấm của hoạt động. 得 đọc dé ở đây, không phải děi nghĩa phải. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l303-v-524",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 524"
+        },
+        "written": "比赛",
+        "pinyin": "bǐsài",
+        "senseId": "l303-v-524-sense",
+        "ordinal": 524,
+        "note": "3 bǐsài 动、名; 比赛 có thể là danh từ cuộc thi hoặc động từ thi đấu. 本次比赛 là cuộc thi này; bài không mô phỏng đề HSK chính thức. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l303-v-546",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 546"
+        },
+        "written": "参加",
+        "pinyin": "cānjiā",
+        "senseId": "l303-v-546-sense",
+        "ordinal": 546,
+        "note": "3 cānjiā 动; 参加 dùng với hoạt động hay tổ chức theo ngữ cảnh; không đồng nghĩa chiến thắng hoặc hoàn thành. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l303-v-570",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 570"
+        },
+        "written": "聪明",
+        "pinyin": "cōngmíng",
+        "senseId": "l303-v-570-sense",
+        "ordinal": 570,
+        "note": "3 cōngmíng 形; 聪明 nhận xét khả năng hiểu nhanh; không đồng nghĩa mọi việc đều làm tốt hay không cần luyện. Không suy ra phẩm chất từ một điểm số. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l303-v-786",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 786"
+        },
+        "written": "努力",
+        "pinyin": "nǔlì",
+        "senseId": "l303-v-786-sense",
+        "ordinal": 786,
+        "note": "3 nǔlì 动、形; 努力 có thể làm động từ cố gắng hoặc tính từ chăm chỉ. 努力学习 là cố gắng học; đây là hành động, không phải bảo đảm điểm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l303-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "từ hỗ trợ",
+        "pinyin": "",
+        "senseId": "l303-extra0-sense",
+        "ordinal": null,
+        "note": "只要 zhǐyào: chỉ cần; 结果 jiéguǒ: kết quả (hỗ trợ); 一定 yídìng: chắc chắn; 最多 zuì duō: nhiều nhất. Những từ hỗ trợ không tính vào sáu mục của bài."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-26",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "26"
+        },
+        "written": "成",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 26,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-96",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "96"
+        },
+        "written": "绩",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 96,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-185",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "185"
+        },
+        "written": "赛",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 185,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-19",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "19"
+        },
+        "written": "参",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 19,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-97",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "97"
+        },
+        "written": "加",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 97,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-36",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "36"
+        },
+        "written": "聪",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 36,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-158",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "158"
+        },
+        "written": "努",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 158,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-138",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "138"
+        },
+        "written": "力",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 138,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-g-condition",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 393,
+          "physicalPage": 394,
+          "printedPage": 391,
+          "section": "grammar",
+          "entry": "复句 / 条件复句"
+        },
+        "written": "只要……，就……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l303-c0",
+      "version": 1,
+      "senseId": "l303-v-559-sense",
+      "hanzi": "成绩",
+      "dictionaryPinyin": "chéng jì",
+      "meaning": "kết quả/thành tích học tập",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l303-v-559"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l303-c1",
+      "version": 1,
+      "senseId": "l303-v-585-sense",
+      "hanzi": "得分",
+      "dictionaryPinyin": "dé fēn",
+      "meaning": "ghi/đạt điểm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l303-v-585"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l303-c2",
+      "version": 1,
+      "senseId": "l303-v-524-sense",
+      "hanzi": "比赛",
+      "dictionaryPinyin": "bǐ sài",
+      "meaning": "cuộc thi/thi đấu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l303-v-524"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l303-c3",
+      "version": 1,
+      "senseId": "l303-v-546-sense",
+      "hanzi": "参加",
+      "dictionaryPinyin": "cān jiā",
+      "meaning": "tham gia",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l303-v-546"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l303-c4",
+      "version": 1,
+      "senseId": "l303-v-570-sense",
+      "hanzi": "聪明",
+      "dictionaryPinyin": "cōng míng",
+      "meaning": "thông minh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l303-v-570"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l303-c5",
+      "version": 1,
+      "senseId": "l303-v-786-sense",
+      "hanzi": "努力",
+      "dictionaryPinyin": "nǔ lì",
+      "meaning": "cố gắng/chăm chỉ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l303-v-786"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l303-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Nhắc trật tự chủ ngữ–động từ–tân ngữ, 不/没 và 的; HSK1/HSK2 chưa được chứng nhận. Có thể khám phá bài nháp. 只要 zhǐyào: chỉ cần; 结果 jiéguǒ: kết quả (hỗ trợ); 一定 yídìng: chắc chắn; 最多 zuì duō: nhiều nhất. Những từ hỗ trợ không tính vào sáu mục của bài.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l303-t0",
+      "type": "teaching",
+      "title": "成绩 · kết quả/thành tích học tập",
+      "text": "成绩 nói kết quả học hoặc công việc theo ngữ cảnh. 成绩不错 không đưa ra số điểm cụ thể, cũng không chứng minh nguyên nhân kết quả.",
+      "hanzi": "这次考试的成绩不错。",
+      "pinyin": "Zhè cì kǎoshì de chéngjì búcuò.",
+      "meaning": "Kết quả kiểm tra lần này khá tốt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l303-t1",
+      "type": "teaching",
+      "title": "得分 · ghi/đạt điểm",
+      "text": "得分 là đạt điểm theo cách chấm của hoạt động. 得 đọc dé ở đây, không phải děi nghĩa phải.",
+      "hanzi": "他在比赛中得分了。",
+      "pinyin": "Tā zài bǐsài zhōng défēn le.",
+      "meaning": "Bạn ấy ghi được điểm trong cuộc thi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l303-t2",
+      "type": "teaching",
+      "title": "比赛 · cuộc thi/thi đấu",
+      "text": "比赛 có thể là danh từ cuộc thi hoặc động từ thi đấu. 本次比赛 là cuộc thi này; bài không mô phỏng đề HSK chính thức.",
+      "hanzi": "我们想参加中文比赛。",
+      "pinyin": "Wǒmen xiǎng cānjiā Zhōngwén bǐsài.",
+      "meaning": "Chúng tôi muốn tham gia cuộc thi tiếng Trung.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l303-t3",
+      "type": "teaching",
+      "title": "参加 · tham gia",
+      "text": "参加 dùng với hoạt động hay tổ chức theo ngữ cảnh; không đồng nghĩa chiến thắng hoặc hoàn thành.",
+      "hanzi": "你明天参加比赛吗？",
+      "pinyin": "Nǐ míngtiān cānjiā bǐsài ma?",
+      "meaning": "Ngày mai bạn tham gia cuộc thi không?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l303-t4",
+      "type": "teaching",
+      "title": "聪明 · thông minh",
+      "text": "聪明 nhận xét khả năng hiểu nhanh; không đồng nghĩa mọi việc đều làm tốt hay không cần luyện. Không suy ra phẩm chất từ một điểm số.",
+      "hanzi": "这个孩子很聪明，也很爱学习。",
+      "pinyin": "Zhège háizi hěn cōngmíng, yě hěn ài xuéxí.",
+      "meaning": "Đứa trẻ này thông minh và cũng thích học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l303-t5",
+      "type": "teaching",
+      "title": "努力 · cố gắng/chăm chỉ",
+      "text": "努力 có thể làm động từ cố gắng hoặc tính từ chăm chỉ. 努力学习 là cố gắng học; đây là hành động, không phải bảo đảm điểm.",
+      "hanzi": "她每天都努力学习。",
+      "pinyin": "Tā měi tiān dōu nǔlì xuéxí.",
+      "meaning": "Ngày nào cô ấy cũng cố gắng học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l303-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "只要 nêu điều kiện đủ trong lời quy định hoặc kế hoạch cụ thể. 只要明天不下雨，我们就参加比赛 nói kế hoạch của nhóm, không suy ra cố gắng luôn bảo đảm điểm cao. 只要 là hỗ trợ của bài, không cộng thêm từ mới.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l303-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "老师：只要明天不下雨，我们就参加学校的中文比赛。小安：小李很聪明，一定得分最多吗？老师：不能这样说，比赛结果还不知道。小安：我会努力准备，不只看成绩。",
+      "pinyin": "Lǎoshī: Zhǐyào míngtiān bú xià yǔ, wǒmen jiù cānjiā xuéxiào de Zhōngwén bǐsài. Xiǎo Ān: Xiǎo Lǐ hěn cōngmíng, yídìng défēn zuì duō ma? Lǎoshī: Bù néng zhèyàng shuō, bǐsài jiéguǒ hái bù zhīdào. Xiǎo Ān: Wǒ huì nǔlì zhǔnbèi, bù zhǐ kàn chéngjì.",
+      "meaning": "Thầy nói nếu mai không mưa thì nhóm tham gia cuộc thi tiếng Trung của trường. An hỏi liệu Lý thông minh có chắc đạt nhiều điểm nhất. Thầy nói chưa biết kết quả. An sẽ cố gắng chuẩn bị, không chỉ nhìn thành tích.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l303-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l303-v1-e0"
+    },
+    {
+      "id": "l303-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l303-v1-e1"
+    },
+    {
+      "id": "l303-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l303-v1-e2"
+    },
+    {
+      "id": "l303-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l303-v1-e3"
+    },
+    {
+      "id": "l303-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l303-v1-e4"
+    },
+    {
+      "id": "l303-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l303-v1-e5"
+    },
+    {
+      "id": "l303-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l303-v1-e6"
+    },
+    {
+      "id": "l303-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l303-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l303-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l303-c0",
+      "senseId": "l303-v-559-sense",
+      "keyRef": "l303-v1-k0",
+      "prompt": "Nhà trường gửi thông tin kết quả học tập cuối kỳ, không chỉ một lượt điểm trong trò chơi. Chọn mục từ.",
+      "choices": [
+        "得分",
+        "比赛",
+        "参加",
+        "聪明",
+        "努力",
+        "成绩"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l303-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l303-c1",
+      "senseId": "l303-v-585-sense",
+      "keyRef": "l303-v1-k1",
+      "prompt": "Trong cuộc thi, bảng chấm tăng thêm hai điểm cho đội. Hành động tăng điểm được gọi là gì?",
+      "choices": [
+        "比赛",
+        "参加",
+        "聪明",
+        "努力",
+        "成绩",
+        "得分"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l303-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l303-c2",
+      "senseId": "l303-v-524-sense",
+      "keyRef": "l303-v1-k2",
+      "prompt": "Trường tổ chức hoạt động có người thi và kết quả. Chọn danh từ.",
+      "choices": [
+        "参加",
+        "聪明",
+        "努力",
+        "成绩",
+        "得分",
+        "比赛"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l303-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l303-c3",
+      "senseId": "l303-v-546-sense",
+      "keyRef": "l303-v1-k3",
+      "prompt": "Trong nghĩa “tham gia”, hãy viết pinyin của 参加.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l303-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l303-c4",
+      "senseId": "l303-v-570-sense",
+      "keyRef": "l303-v1-k4",
+      "prompt": "Người hiểu bài nhanh có thể được nhận xét thế nào, dù vẫn cần luyện?",
+      "choices": [
+        "努力",
+        "成绩",
+        "得分",
+        "比赛",
+        "参加",
+        "聪明"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l303-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l303-c5",
+      "senseId": "l303-v-786-sense",
+      "keyRef": "l303-v1-k5",
+      "prompt": "Viết “Tôi sẽ cố gắng” theo mẫu 我会 + mục từ.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l303-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l303-c0",
+      "senseId": "l303-v-559-sense",
+      "keyRef": "l303-v1-k6",
+      "prompt": "Điều gì chưa thể kết luận theo thầy?",
+      "choices": [
+        "明天可能下雨",
+        "大家想准备比赛",
+        "小李一定得分最多"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l303-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l303-c3",
+      "senseId": "l303-v-546-sense",
+      "keyRef": "l303-v1-k7",
+      "prompt": "Sắp xếp kế hoạch có điều kiện.",
+      "choices": [
+        "我们就参加比赛",
+        "明天不下雨",
+        "只要"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l303-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l303-v1-e0",
+      "senseId": "l303-v-559-sense",
+      "accepted": [
+        "成绩"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "成绩 nói kết quả học hoặc công việc theo ngữ cảnh. 成绩不错 không đưa ra số điểm cụ thể, cũng không chứng minh nguyên nhân kết quả."
+    },
+    {
+      "id": "l303-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l303-v1-e1",
+      "senseId": "l303-v-585-sense",
+      "accepted": [
+        "得分"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "得分 là đạt điểm theo cách chấm của hoạt động. 得 đọc dé ở đây, không phải děi nghĩa phải."
+    },
+    {
+      "id": "l303-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l303-v1-e2",
+      "senseId": "l303-v-524-sense",
+      "accepted": [
+        "比赛"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "比赛 có thể là danh từ cuộc thi hoặc động từ thi đấu. 本次比赛 là cuộc thi này; bài không mô phỏng đề HSK chính thức."
+    },
+    {
+      "id": "l303-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l303-v1-e3",
+      "senseId": "l303-v-546-sense",
+      "accepted": [
+        "cān jiā"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "参加 đọc cān jiā; giữ đúng thanh điệu và nghĩa."
+    },
+    {
+      "id": "l303-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l303-v1-e4",
+      "senseId": "l303-v-570-sense",
+      "accepted": [
+        "聪明"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "聪明 nhận xét khả năng hiểu nhanh; không đồng nghĩa mọi việc đều làm tốt hay không cần luyện. Không suy ra phẩm chất từ một điểm số."
+    },
+    {
+      "id": "l303-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l303-v1-e5",
+      "senseId": "l303-v-786-sense",
+      "accepted": [
+        "我会努力"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "我会努力 nói ý định cố gắng, không phải cam kết thắng."
+    },
+    {
+      "id": "l303-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l303-v1-e6",
+      "senseId": "l303-v-559-sense",
+      "accepted": [
+        "小李一定得分最多"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Thầy bác suy ra thông minh chắc chắn đạt nhiều điểm nhất."
+    },
+    {
+      "id": "l303-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l303-v1-e7",
+      "senseId": "l303-v-546-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 只要 nêu điều kiện đủ trong lời quy định hoặc kế hoạch cụ thể. 只要明天不下雨，我们就参加比赛 nói kế hoạch của nhóm, không suy ra cố gắng luôn bảo đảm điểm cao. 只要 là hỗ trợ của bài, không cộng thêm từ mới."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,27 @@
+# Curriculum continuation
+
+Historical checkpoint through batch5. For batches6–9, 200/200 vocabulary and the current review/diagnostic matrix, read [HSK2 delivery](completion.md) and [completion verification](completion-verification.json).
+
+This continuation resumes 983d696; it does not replace the application, change canonical backlog status or authorize production publication.
+
+Latest checkpoint: batches2–5 add96 new introduction entries in16 new lessons. Current HSK2 has104/200 entries,18 lessons and144 exercises; HSK3/4 remain0/500 and0/1000. Seven older versions are retained for historical synthetic attempts and excluded from current coverage. The three-batch description below records the preceding reviewed checkpoint03d8c81.
+
+Batch5 covers weather/choices, completed and imminent actions, asking for help, and reasons/opinions. Final regression:117 unit tests,21 SQL tests covering every current lesson, and10 browser tests across five representatives on desktop/mobile360. Typecheck, lint and production build passed. A bounded scan of31 production client JavaScript files found none of the selected private key/server-role markers; this is not a formal security proof. Source mappings now include16 grammar locators,91/125 recognition-character locators,12/17 task locators and14 topic locators at mixed hierarchy depths. These figures count mappings, not full instructional coverage or mastery.
+
+Preview: http://127.0.0.1:3034/learn/courses/HSK2. Choose LOCAL DATABASE. To launch it, set CSH_HSK24_PREVIEW_PORT=3034 and CSH_ISOLATED_PREVIEW_BUILD=1, then run node scripts/hsk24-preview.mjs. The older3024 local preview was preserved. No authenticated preview was listening on3025 when the test build directory was selected.
+
+For a purely additive batch, scripts/import-hsk24-batch.ts retains existing sandbox state and verifies unchanged package hashes, attempts, sessions and cards. A readback preserved26 packages,403 attempts,56 sessions and43 cards. This is selected-table equality, not a complete backup/restore test. Selected-version revisions use a new retained sandbox because the existing curriculum importer intentionally rejects current-version repointing in an already installed catalog. Earlier databases and their attempts remain intact.
+
+Batches 2–4 add 72 distinct HSK2 entries in twelve original twenty-minute draft lessons (L203–L214). Current HSK2 scope is 80/200 introduction entries, fourteen lessons and112 exercises. Themes cover clothes/colors, classroom study, food/drinks, gifts, travel preparation, relative positions, movement viewpoint, walking distance, family birthdays, exercise habits, sports/interests and feeling unwell.
+
+Each new concept has an original usage explanation, Chinese example, tone-marked pinyin, Vietnamese translation and at least one exercise. Each lesson also has a prerequisite refresher, source-mapped grammar explanation, contextual passage, comprehension feedback and sentence construction. The format reuses existing deterministic grading; free writing is not automatically assessed. There is no approved listening or pronunciation evidence.
+
+The append workflow reads coverage and validates each complete batch before writing. It checks source PDF checksum, selected word/reading/level and bounded locators, duplicated target ordinals/lesson IDs, repeated or nearly identical word explanations, immutable hashes, example/exercise links and successful declared answers. Re-running unchanged batch files skips identical packages. Revisions require a higher immutable version; they do not replace an existing file/hash. Already attempted v1 versions are retained while the catalog selects corrected v2. Do not rerun the old batch1 bootstrap author script on the expanded catalog.
+
+Source checking separately establishes HSK2 recognition characters125, tasks17 and topic hierarchy5/18/34. Topic references mix hierarchy depths, so no percentage is computed. Grammar atomic denominator is still unresolved. Source mappings and instructional coverage remain separate; recognition references do not establish handwriting ability. Full HSK1 mastery and verified HSK2 unlocks remain absent.
+
+All current lessons were exercised through PostgreSQL repositories, including cursor reload, correct answers, idempotency, completion, card creation and course progress. Additional checks reject malformed answers, persist incorrect feedback, reveal/rate a new card idempotently without mastery, and resume a voluntarily opened HSK2 lesson through Today. The browser suite exercised one lesson per new batch plus L201 on desktop and360px mobile, with keyboard sequence inputs and axe checks. These browser results are representative coverage, not an assertion that every lesson received a separate UI run. Exact reports are in continuation-verification.json; the original verification.json remains historical batch1 evidence.
+
+No existing local owner database was reset or updated. New imports and synthetic attempts use isolated local PostgreSQL sandboxes; retained old sandboxes preserve their histories. Original four online versions, their hashes, owner account and cloud data remain unchanged. Local development identity is not a Supabase-authenticated owner test. No push, merge or deployment is authorized.
+
+The machine checkpoint lists pending official ordinals, current selected versions and the next exact authoring file. HSK3/4 remain unimplemented until HSK2 instructional acceptance is actually met. All content remains DRAFT without qualified human sign-off.

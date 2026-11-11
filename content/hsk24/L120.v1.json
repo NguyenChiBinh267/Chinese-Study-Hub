@@ -1,0 +1,763 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "7eef5b233026bd0f8976a183f604f2aaa8904ee72c64be62daa89645800fa08f",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-e",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L120",
+    "version": 1,
+    "versionId": "l120-draft-v1",
+    "title": "Đại học và ngôn ngữ",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đại học và ngôn ngữ; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "动词谓语句"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 6,
+      "physicalPage": 7,
+      "printedPage": 4,
+      "section": "task",
+      "entry": "十二"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T09:37:15.064676Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 6,
+          "physicalPage": 7,
+          "printedPage": 4,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "介绍学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-59dbaf6bf45d",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "学习内容"
+        },
+        "written": "学习内容",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l120-v-27",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 27"
+        },
+        "written": "大学",
+        "pinyin": "dàxué",
+        "senseId": "l120-v-27-sense",
+        "ordinal": 27,
+        "note": "1 dàxué 名; 大学 là nơi/cấp học; muốn gọi người học dùng 大学生 trong ví dụ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l120-v-28",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 28"
+        },
+        "written": "大学生",
+        "pinyin": "dàxuéshēng",
+        "senseId": "l120-v-28-sense",
+        "ordinal": 28,
+        "note": "1 dàxuéshēng 名; 大学生 nói người học ở đại học; không tự kết luận ngành học hay bằng cấp đã đạt. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l120-v-69",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 69"
+        },
+        "written": "汉语",
+        "pinyin": "Hànyǔ",
+        "senseId": "l120-v-69-sense",
+        "ordinal": 69,
+        "note": "1 Hànyǔ 名; 汉语 là tên ngôn ngữ; khóa này luyện tiếng phổ thông, không đồng nhất mọi biến thể với một giọng duy nhất. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l120-v-290",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 290"
+        },
+        "written": "中文",
+        "pinyin": "Zhōngwén",
+        "senseId": "l120-v-290-sense",
+        "ordinal": 290,
+        "note": "1 Zhōngwén 名; 中文 có thể chỉ ngôn ngữ hoặc văn bản tiếng Trung tùy câu; không chỉ riêng chữ Hán như 汉字. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-27",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "27"
+        },
+        "written": "大",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 27,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-207",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "207"
+        },
+        "written": "学",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 207,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-153",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "153"
+        },
+        "written": "生",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 153,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-64",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "64"
+        },
+        "written": "汉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 64,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-222",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "222"
+        },
+        "written": "语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 222,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-236",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "236"
+        },
+        "written": "中",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 236,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-184",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "184"
+        },
+        "written": "文",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 184,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-120",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "g-386-15"
+        },
+        "written": "动词谓语句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l120-c0",
+      "version": 1,
+      "senseId": "l120-v-27-sense",
+      "hanzi": "大学",
+      "dictionaryPinyin": "dà xué",
+      "meaning": "trường đại học; bậc đại học",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l120-v-27"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l120-c1",
+      "version": 1,
+      "senseId": "l120-v-28-sense",
+      "hanzi": "大学生",
+      "dictionaryPinyin": "dà xué shēng",
+      "meaning": "sinh viên đại học",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l120-v-28"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l120-c2",
+      "version": 1,
+      "senseId": "l120-v-69-sense",
+      "hanzi": "汉语",
+      "dictionaryPinyin": "Hàn yǔ",
+      "meaning": "tiếng Hán; tiếng Trung",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l120-v-69"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l120-c3",
+      "version": 1,
+      "senseId": "l120-v-290-sense",
+      "hanzi": "中文",
+      "dictionaryPinyin": "Zhōng wén",
+      "meaning": "tiếng Trung; tiếng Hoa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l120-v-290"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l120-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l120-t0",
+      "type": "teaching",
+      "title": "大学 · trường đại học; bậc đại học",
+      "text": "大学 là nơi/cấp học; muốn gọi người học dùng 大学生 trong ví dụ.",
+      "hanzi": "这是大学。",
+      "pinyin": "Zhè shì dà xué.",
+      "meaning": "Đây là trường đại học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l120-t1",
+      "type": "teaching",
+      "title": "大学生 · sinh viên đại học",
+      "text": "大学生 nói người học ở đại học; không tự kết luận ngành học hay bằng cấp đã đạt.",
+      "hanzi": "我姐姐是大学生。",
+      "pinyin": "Wǒ jiě jie shì dà xué shēng.",
+      "meaning": "Chị gái tôi là sinh viên đại học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l120-t2",
+      "type": "teaching",
+      "title": "汉语 · tiếng Hán; tiếng Trung",
+      "text": "汉语 là tên ngôn ngữ; khóa này luyện tiếng phổ thông, không đồng nhất mọi biến thể với một giọng duy nhất.",
+      "hanzi": "我喜欢汉语。",
+      "pinyin": "Wǒ xǐ huan Hàn yǔ.",
+      "meaning": "Tôi thích tiếng Trung.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l120-t3",
+      "type": "teaching",
+      "title": "中文 · tiếng Trung; tiếng Hoa",
+      "text": "中文 có thể chỉ ngôn ngữ hoặc văn bản tiếng Trung tùy câu; không chỉ riêng chữ Hán như 汉字.",
+      "hanzi": "我们学习中文。",
+      "pinyin": "Wǒ men xué xí Zhōng wén.",
+      "meaning": "Chúng tôi học tiếng Trung.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l120-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "Danh từ chỉ ngôn ngữ có thể làm đối tượng của động từ: 我喜欢汉语. 汉语 và 中文 đều có thể chỉ tiếng Trung theo ngữ cảnh; không ép 汉语 luôn chỉ nói và 中文 luôn chỉ viết. 大学 là trường/cấp đại học, 大学生 là sinh viên. 学习 “học” được chú giải để chuyển sang nhóm học tập tiếp theo.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l120-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：你是大学生吗？\nB：是。\nA：你喜欢汉语吗？\nB：喜欢。我姐姐也喜欢汉语。",
+      "pinyin": "A: Nǐ shì dà xué shēng ma? B: Shì. A: Nǐ xǐ huan Hàn yǔ ma? B: Xǐ huan. Wǒ jiě jie yě xǐ huan Hàn yǔ.",
+      "meaning": "学习 xué xí = học, sẽ học riêng ở nhóm sau. B là sinh viên và nói cả mình lẫn chị gái đều thích tiếng Trung.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l120-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l120-v1-e0"
+    },
+    {
+      "id": "l120-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l120-v1-e1"
+    },
+    {
+      "id": "l120-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l120-v1-e2"
+    },
+    {
+      "id": "l120-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l120-v1-e3"
+    },
+    {
+      "id": "l120-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l120-v1-e4"
+    },
+    {
+      "id": "l120-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l120-v1-e5"
+    },
+    {
+      "id": "l120-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l120-v1-e6"
+    },
+    {
+      "id": "l120-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l120-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l120-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l120-c0",
+      "senseId": "l120-v-27-sense",
+      "keyRef": "l120-v1-k0",
+      "prompt": "Chọn mục từ có nghĩa “trường đại học; bậc đại học” trong câu: 这是□。",
+      "choices": [
+        "大学生",
+        "汉语",
+        "中文",
+        "大学"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l120-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l120-c1",
+      "senseId": "l120-v-28-sense",
+      "keyRef": "l120-v1-k1",
+      "prompt": "Viết pinyin từ điển của 大学生 (sinh viên đại học).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l120-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l120-c2",
+      "senseId": "l120-v-69-sense",
+      "keyRef": "l120-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “tiếng Hán; tiếng Trung”: 汉□ (Hàn yǔ). Ngữ cảnh: 我喜欢汉□。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "说",
+        "语",
+        "话",
+        "请"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l120-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l120-c3",
+      "senseId": "l120-v-290-sense",
+      "keyRef": "l120-v1-k3",
+      "prompt": "Chọn mục từ có nghĩa “tiếng Trung; tiếng Hoa” trong câu: 我们学习□。",
+      "choices": [
+        "大学",
+        "大学生",
+        "汉语",
+        "中文"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l120-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l120-c2",
+      "senseId": "l120-v-69-sense",
+      "keyRef": "l120-v1-k4",
+      "prompt": "Trong câu “我喜欢汉语。”, 汉语 mang nghĩa nào theo bài?",
+      "choices": [
+        "sinh viên đại học",
+        "tiếng Hán; tiếng Trung",
+        "tiếng Trung; tiếng Hoa",
+        "trường đại học; bậc đại học"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l120-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l120-c3",
+      "senseId": "l120-v-290-sense",
+      "keyRef": "l120-v1-k5",
+      "prompt": "Trong câu “我们学习中文。”, 中文 mang nghĩa nào theo bài?",
+      "choices": [
+        "tiếng Hán; tiếng Trung",
+        "tiếng Trung; tiếng Hoa",
+        "trường đại học; bậc đại học",
+        "sinh viên đại học"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l120-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l120-c0",
+      "senseId": "l120-v-27-sense",
+      "keyRef": "l120-v1-k6",
+      "prompt": "Ai được B nói là cũng thích 汉语?",
+      "choices": [
+        "弟弟",
+        "老师",
+        "姐姐"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l120-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l120-c3",
+      "senseId": "l120-v-290-sense",
+      "keyRef": "l120-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我",
+        "喜欢",
+        "汉语。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l120-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l120-v1-e0",
+      "senseId": "l120-v-27-sense",
+      "accepted": [
+        "大学"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "大学: trường đại học; bậc đại học. 大学 là nơi/cấp học; muốn gọi người học dùng 大学生 trong ví dụ. Đây là trường đại học."
+    },
+    {
+      "id": "l120-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l120-v1-e1",
+      "senseId": "l120-v-28-sense",
+      "accepted": [
+        "dà xué shēng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "大学生 ghi dà xué shēng. 大学生 nói người học ở đại học; không tự kết luận ngành học hay bằng cấp đã đạt."
+    },
+    {
+      "id": "l120-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l120-v1-e2",
+      "senseId": "l120-v-69-sense",
+      "accepted": [
+        "语"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 语 tạo từ 汉语. 汉语 là tên ngôn ngữ; khóa này luyện tiếng phổ thông, không đồng nhất mọi biến thể với một giọng duy nhất. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l120-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l120-v1-e3",
+      "senseId": "l120-v-290-sense",
+      "accepted": [
+        "中文"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "中文: tiếng Trung; tiếng Hoa. 中文 có thể chỉ ngôn ngữ hoặc văn bản tiếng Trung tùy câu; không chỉ riêng chữ Hán như 汉字. Chúng tôi học tiếng Trung."
+    },
+    {
+      "id": "l120-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l120-v1-e4",
+      "senseId": "l120-v-69-sense",
+      "accepted": [
+        "tiếng Hán; tiếng Trung"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "汉语 là tên ngôn ngữ; khóa này luyện tiếng phổ thông, không đồng nhất mọi biến thể với một giọng duy nhất. Tôi thích tiếng Trung."
+    },
+    {
+      "id": "l120-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l120-v1-e5",
+      "senseId": "l120-v-290-sense",
+      "accepted": [
+        "tiếng Trung; tiếng Hoa"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "中文 có thể chỉ ngôn ngữ hoặc văn bản tiếng Trung tùy câu; không chỉ riêng chữ Hán như 汉字. Chúng tôi học tiếng Trung."
+    },
+    {
+      "id": "l120-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l120-v1-e6",
+      "senseId": "l120-v-27-sense",
+      "accepted": [
+        "姐姐"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 姐姐. 学习 xué xí = học, sẽ học riêng ở nhóm sau. B là sinh viên và nói cả mình lẫn chị gái đều thích tiếng Trung."
+    },
+    {
+      "id": "l120-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l120-v1-e7",
+      "senseId": "l120-v-290-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. Danh từ chỉ ngôn ngữ có thể làm đối tượng của động từ: 我喜欢汉语. 汉语 và 中文 đều có thể chỉ tiếng Trung theo ngữ cảnh; không ép 汉语 luôn chỉ nói và 中文 luôn chỉ viết. 大学 là trường/cấp đại học, 大学生 là sinh viên. 学习 “học” được chú giải để chuyển sang nhóm học tập tiếp theo."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

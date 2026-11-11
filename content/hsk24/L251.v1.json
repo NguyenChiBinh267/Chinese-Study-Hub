@@ -1,0 +1,794 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "ad74cd5f0b6a1fb1c6cf15faf5db9fe072739434e6b09a7988faadee3f836f2b",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "family-birthday",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L251",
+    "version": 1,
+    "versionId": "l251-draft-v1",
+    "title": "Ôn tập · Gia đình và sinh nhật",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học bằng dạng truy hồi khác; không tính thêm từ mới.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l211-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 11,
+      "physicalPage": 12,
+      "printedPage": 9,
+      "section": "task",
+      "entry": "十二"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-family",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 11,
+          "physicalPage": 12,
+          "printedPage": 9,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "介绍家庭日常生活",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-family",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 家庭生活 / 家庭关系"
+        },
+        "written": "家庭关系",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l211-v-417",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 417"
+        },
+        "written": "妻子",
+        "pinyin": "qīzi",
+        "senseId": "l211-v-417-sense",
+        "ordinal": 417,
+        "note": "2 qīzi 名; 妻子 chỉ người vợ, không phải mọi phụ nữ đã kết hôn trong câu. 子 đọc nhẹ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l211-v-487",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 487"
+        },
+        "written": "丈夫",
+        "pinyin": "zhàngfu",
+        "senseId": "l211-v-487-sense",
+        "ordinal": 487,
+        "note": "2 zhàngfu 名; 丈夫 trong quan hệ gia đình là chồng; 夫 đọc nhẹ. Không dịch theo từng chữ thành đàn ông nói chung. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l211-v-409",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 409"
+        },
+        "written": "奶奶",
+        "pinyin": "nǎinai",
+        "senseId": "l211-v-409-sense",
+        "ordinal": 409,
+        "note": "2 nǎinai 名; 奶奶 trong gia đình là mẹ của bố; không dùng thay cho mọi bà ngoại. Âm thứ hai đọc nhẹ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l211-v-470",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 470"
+        },
+        "written": "爷爷",
+        "pinyin": "yéye",
+        "senseId": "l211-v-470-sense",
+        "ordinal": 470,
+        "note": "2 yéye 名; 爷爷 là bố của bố khi nói quan hệ gia đình. Âm thứ hai đọc nhẹ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l211-v-430",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 430"
+        },
+        "written": "生日",
+        "pinyin": "shēngrì",
+        "senseId": "l211-v-430-sense",
+        "ordinal": 430,
+        "note": "2 shēngrì 名; Hỏi ngày sinh nhật dùng 你的生日是几月几号. 生日 là ngày sinh nhật, không phải số tuổi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l211-v-473",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 473"
+        },
+        "written": "一起",
+        "pinyin": "yìqǐ",
+        "senseId": "l211-v-473-sense",
+        "ordinal": 473,
+        "note": "2 yìqǐ 副; 一起 nói cùng tham gia hoạt động. 一 ở đây đọc yì trong mục từ nguồn; không đổi thành yī khi trả lời pinyin của từ này. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-63",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "63"
+        },
+        "written": "妻",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 63,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-117",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "117"
+        },
+        "written": "丈",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 117,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-21",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "21"
+        },
+        "written": "夫",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 21,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-104",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "104"
+        },
+        "written": "爷",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 104,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-together",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "副词 / 范围副词 / 一起"
+        },
+        "written": "一起",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l211-c0",
+      "version": 1,
+      "senseId": "l211-v-417-sense",
+      "hanzi": "妻子",
+      "dictionaryPinyin": "qī zi",
+      "meaning": "vợ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l211-v-417"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l211-c1",
+      "version": 1,
+      "senseId": "l211-v-487-sense",
+      "hanzi": "丈夫",
+      "dictionaryPinyin": "zhàng fu",
+      "meaning": "chồng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l211-v-487"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l211-c2",
+      "version": 1,
+      "senseId": "l211-v-409-sense",
+      "hanzi": "奶奶",
+      "dictionaryPinyin": "nǎi nai",
+      "meaning": "bà nội",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l211-v-409"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l211-c3",
+      "version": 1,
+      "senseId": "l211-v-470-sense",
+      "hanzi": "爷爷",
+      "dictionaryPinyin": "yé ye",
+      "meaning": "ông nội",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l211-v-470"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l211-c4",
+      "version": 1,
+      "senseId": "l211-v-430-sense",
+      "hanzi": "生日",
+      "dictionaryPinyin": "shēng rì",
+      "meaning": "sinh nhật",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l211-v-430"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l211-c5",
+      "version": 1,
+      "senseId": "l211-v-473-sense",
+      "hanzi": "一起",
+      "dictionaryPinyin": "yì qǐ",
+      "meaning": "cùng nhau",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l211-v-473"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l251-guide",
+      "type": "teaching",
+      "title": "Ôn tập sau bài",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l251-t0-l211-prereq",
+      "type": "teaching",
+      "title": "Nhắc lại · Kiến thức cần nhắc lại",
+      "text": "我/我的 là tôi/của tôi; 过生日 là đón sinh nhật. Nêu tuổi, ngày và quan hệ không đồng nghĩa đã làm chủ toàn bộ HSK1.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l251-t0-l211-t0",
+      "type": "teaching",
+      "title": "Nhắc lại · 妻子 · vợ",
+      "text": "妻子 chỉ người vợ, không phải mọi phụ nữ đã kết hôn trong câu. 子 đọc nhẹ.",
+      "hanzi": "这是我的妻子。",
+      "pinyin": "Zhè shì wǒ de qīzi.",
+      "meaning": "Đây là vợ tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l251-t0-l211-t1",
+      "type": "teaching",
+      "title": "Nhắc lại · 丈夫 · chồng",
+      "text": "丈夫 trong quan hệ gia đình là chồng; 夫 đọc nhẹ. Không dịch theo từng chữ thành đàn ông nói chung.",
+      "hanzi": "她的丈夫是老师。",
+      "pinyin": "Tā de zhàngfu shì lǎoshī.",
+      "meaning": "Chồng cô ấy là giáo viên.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l251-t0-l211-t2",
+      "type": "teaching",
+      "title": "Nhắc lại · 奶奶 · bà nội",
+      "text": "奶奶 trong gia đình là mẹ của bố; không dùng thay cho mọi bà ngoại. Âm thứ hai đọc nhẹ.",
+      "hanzi": "奶奶是爸爸的妈妈。",
+      "pinyin": "Nǎinai shì bàba de māma.",
+      "meaning": "Bà nội là mẹ của bố.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l251-t0-l211-t3",
+      "type": "teaching",
+      "title": "Nhắc lại · 爷爷 · ông nội",
+      "text": "爷爷 là bố của bố khi nói quan hệ gia đình. Âm thứ hai đọc nhẹ.",
+      "hanzi": "爷爷喜欢喝茶。",
+      "pinyin": "Yéye xǐhuan hē chá.",
+      "meaning": "Ông nội thích uống trà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l251-t0-l211-t4",
+      "type": "teaching",
+      "title": "Nhắc lại · 生日 · sinh nhật",
+      "text": "Hỏi ngày sinh nhật dùng 你的生日是几月几号. 生日 là ngày sinh nhật, không phải số tuổi.",
+      "hanzi": "今天是奶奶的生日。",
+      "pinyin": "Jīntiān shì nǎinai de shēngrì.",
+      "meaning": "Hôm nay là sinh nhật bà nội.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l251-t0-l211-t5",
+      "type": "teaching",
+      "title": "Nhắc lại · 一起 · cùng nhau",
+      "text": "一起 nói cùng tham gia hoạt động. 一 ở đây đọc yì trong mục từ nguồn; không đổi thành yī khi trả lời pinyin của từ này.",
+      "hanzi": "我们一起吃饭吧。",
+      "pinyin": "Wǒmen yìqǐ chī fàn ba.",
+      "meaning": "Chúng ta cùng ăn cơm nhé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l251-t0-l211-grammar",
+      "type": "teaching",
+      "title": "Nhắc lại · Cách nói trong ngữ cảnh",
+      "text": "一起 đặt trước hoạt động để nói cùng làm: 一起吃饭. Cùng tham gia không có nghĩa mọi người có cùng quan hệ gia đình.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l251-t0-l211-reading",
+      "type": "teaching",
+      "title": "Nhắc lại · Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "今天是奶奶的生日。我和妻子去看奶奶，爷爷也在家。我们一起吃饭。奶奶说：今天我很高兴。",
+      "pinyin": "Jīntiān shì nǎinai de shēngrì. Wǒ hé qīzi qù kàn nǎinai, yéye yě zài jiā. Wǒmen yìqǐ chī fàn. Nǎinai shuō: Jīntiān wǒ hěn gāoxìng.",
+      "meaning": "Hôm nay là sinh nhật bà nội. Tôi cùng vợ đến thăm bà, ông nội cũng ở nhà. Chúng tôi cùng ăn cơm. Bà nói: Hôm nay bà rất vui.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l251-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l251-e0"
+    },
+    {
+      "id": "l251-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l251-e1"
+    },
+    {
+      "id": "l251-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l251-e2"
+    },
+    {
+      "id": "l251-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l251-e3"
+    },
+    {
+      "id": "l251-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l251-e4"
+    },
+    {
+      "id": "l251-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l251-e5"
+    },
+    {
+      "id": "l251-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l251-e6"
+    },
+    {
+      "id": "l251-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l251-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l251-e0",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l211-c0",
+      "senseId": "l211-v-417-sense",
+      "keyRef": "l251-k0",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “vợ” (qī zi).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l251-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l211-c1",
+      "senseId": "l211-v-487-sense",
+      "keyRef": "l251-k1",
+      "prompt": "Ôn nghĩa: 丈夫 (zhàng fu) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "bà nội",
+        "ông nội",
+        "sinh nhật",
+        "cùng nhau",
+        "vợ",
+        "chồng"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l251-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l211-c2",
+      "senseId": "l211-v-409-sense",
+      "keyRef": "l251-k2",
+      "prompt": "Ôn cách đọc của 奶奶 trong nghĩa “bà nội”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l251-e3",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l211-c3",
+      "senseId": "l211-v-470-sense",
+      "keyRef": "l251-k3",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “ông nội” (yé ye).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l251-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l211-c4",
+      "senseId": "l211-v-430-sense",
+      "keyRef": "l251-k4",
+      "prompt": "Ôn nghĩa: 生日 (shēng rì) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "cùng nhau",
+        "vợ",
+        "chồng",
+        "bà nội",
+        "ông nội",
+        "sinh nhật"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l251-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l211-c5",
+      "senseId": "l211-v-473-sense",
+      "keyRef": "l251-k5",
+      "prompt": "Ôn cách đọc của 一起 trong nghĩa “cùng nhau”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l251-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l211-c0",
+      "senseId": "l211-v-417-sense",
+      "keyRef": "l251-k6",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “vợ” (qī zi) viết □子. Điền chữ nào vào □?",
+      "choices": [
+        "始",
+        "妻",
+        "绍",
+        "身"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l251-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l211-c3",
+      "senseId": "l211-v-470-sense",
+      "keyRef": "l251-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Xếp câu: hôm nay là sinh nhật bà nội.",
+      "choices": [
+        "奶奶的生日",
+        "是",
+        "今天"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l251-k0",
+      "version": 1,
+      "exerciseVersionId": "l251-e0",
+      "senseId": "l211-v-417-sense",
+      "accepted": [
+        "妻子"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "妻子 · vợ."
+    },
+    {
+      "id": "l251-k1",
+      "version": 1,
+      "exerciseVersionId": "l251-e1",
+      "senseId": "l211-v-487-sense",
+      "accepted": [
+        "chồng"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "丈夫: chồng."
+    },
+    {
+      "id": "l251-k2",
+      "version": 1,
+      "exerciseVersionId": "l251-e2",
+      "senseId": "l211-v-409-sense",
+      "accepted": [
+        "nǎi nai"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "nǎi nai · bà nội"
+    },
+    {
+      "id": "l251-k3",
+      "version": 1,
+      "exerciseVersionId": "l251-e3",
+      "senseId": "l211-v-470-sense",
+      "accepted": [
+        "爷爷"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "爷爷 · ông nội."
+    },
+    {
+      "id": "l251-k4",
+      "version": 1,
+      "exerciseVersionId": "l251-e4",
+      "senseId": "l211-v-430-sense",
+      "accepted": [
+        "sinh nhật"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "生日: sinh nhật."
+    },
+    {
+      "id": "l251-k5",
+      "version": 1,
+      "exerciseVersionId": "l251-e5",
+      "senseId": "l211-v-473-sense",
+      "accepted": [
+        "yì qǐ"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "yì qǐ · cùng nhau"
+    },
+    {
+      "id": "l251-k6",
+      "version": 1,
+      "exerciseVersionId": "l251-e6",
+      "senseId": "l211-v-417-sense",
+      "accepted": [
+        "妻"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "妻子 · qī zi · vợ. Chữ cần nhận diện là 妻."
+    },
+    {
+      "id": "l251-k7",
+      "version": 1,
+      "exerciseVersionId": "l251-e7",
+      "senseId": "l211-v-470-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 一起 đặt trước hoạt động để nói cùng làm: 一起吃饭. Cùng tham gia không có nghĩa mọi người có cùng quan hệ gia đình."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

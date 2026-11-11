@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "6a663199f4a37f7f348bfc12946cb4dc33bc4062cf54397174ce952063a0d790",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-class-term",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L321",
+    "version": 1,
+    "versionId": "l321-draft-v1",
+    "title": "Lớp học và kỳ học mới",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc thông báo lớp, khối và yêu cầu bài tập.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "从……起"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 16,
+      "physicalPage": 17,
+      "printedPage": 14,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 16,
+          "physicalPage": 17,
+          "printedPage": 14,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "沟通学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-course",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "课程情况"
+        },
+        "written": "课程情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l321-v-508",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 508"
+        },
+        "written": "班级",
+        "pinyin": "bānjí",
+        "senseId": "l321-v-508-sense",
+        "ordinal": 508,
+        "note": "3 bānjí 名; 班级 chỉ tập thể hoặc đơn vị lớp, khác 年级 là khối/năm học. 一个年级可以有几个班级. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l321-v-783",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 783"
+        },
+        "written": "年级",
+        "pinyin": "niánjí",
+        "senseId": "l321-v-783-sense",
+        "ordinal": 783,
+        "note": "3 niánjí 名; 年级 nêu cấp năm đang học; 三年级 không tự là tên lớp cụ thể như 三班. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l321-v-565",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 565"
+        },
+        "written": "初中",
+        "pinyin": "chūzhōng",
+        "senseId": "l321-v-565-sense",
+        "ordinal": 565,
+        "note": "3 chūzhōng 名; 初中 là bậc trung học cơ sở trong ngữ cảnh giáo dục Trung Quốc; không đồng nhất với mọi hệ thống lớp của nước khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l321-v-915",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 915"
+        },
+        "written": "学期",
+        "pinyin": "xuéqī",
+        "senseId": "l321-v-915-sense",
+        "ordinal": 915,
+        "note": "3 xuéqī 名; 学期 là học kỳ của năm học; 下个学期起 nêu mốc kỳ sau, không phải một tiết học. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l321-v-1000",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 1000"
+        },
+        "written": "作业",
+        "pinyin": "zuòyè",
+        "senseId": "l321-v-1000-sense",
+        "ordinal": 1000,
+        "note": "3 zuòyè 名; 作业 chỉ bài tập/nhiệm vụ được giao để học; 做作业, 交作业 là làm và nộp bài, không phải mọi 工作 công việc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l321-v-921",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 921"
+        },
+        "written": "页",
+        "pinyin": "yè",
+        "senseId": "l321-v-921-sense",
+        "ordinal": 921,
+        "note": "3 yè 量; 页 đếm trang giấy/sách, 第十页 chỉ trang thứ mười, 十页 chỉ mười trang. Không trộn số thứ tự với số lượng. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-92",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "92"
+        },
+        "written": "级",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 92,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-30",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "30"
+        },
+        "written": "初",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 30,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-246",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "246"
+        },
+        "written": "业",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 246,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-247",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "247"
+        },
+        "written": "页",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 247,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-from",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定格式 / 从……起"
+        },
+        "written": "从……起",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l321-c0",
+      "version": 1,
+      "senseId": "l321-v-508-sense",
+      "hanzi": "班级",
+      "dictionaryPinyin": "bān jí",
+      "meaning": "lớp học/tập thể lớp",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l321-v-508"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l321-c1",
+      "version": 1,
+      "senseId": "l321-v-783-sense",
+      "hanzi": "年级",
+      "dictionaryPinyin": "nián jí",
+      "meaning": "khối lớp/năm học",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l321-v-783"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l321-c2",
+      "version": 1,
+      "senseId": "l321-v-565-sense",
+      "hanzi": "初中",
+      "dictionaryPinyin": "chū zhōng",
+      "meaning": "trung học cơ sở",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l321-v-565"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l321-c3",
+      "version": 1,
+      "senseId": "l321-v-915-sense",
+      "hanzi": "学期",
+      "dictionaryPinyin": "xué qī",
+      "meaning": "học kỳ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l321-v-915"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l321-c4",
+      "version": 1,
+      "senseId": "l321-v-1000-sense",
+      "hanzi": "作业",
+      "dictionaryPinyin": "zuò yè",
+      "meaning": "bài tập được giao",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l321-v-1000"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l321-c5",
+      "version": 1,
+      "senseId": "l321-v-921-sense",
+      "hanzi": "页",
+      "dictionaryPinyin": "yè",
+      "meaning": "trang; lượng từ trang",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l321-v-921"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l321-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 交 jiāo: nộp; 通知 tōngzhī: thông báo; 次 cì: lần. 不一定 bù yídìng: chưa chắc.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l321-t0",
+      "type": "teaching",
+      "title": "班级 · lớp học/tập thể lớp",
+      "text": "班级 chỉ tập thể hoặc đơn vị lớp, khác 年级 là khối/năm học. 一个年级可以有几个班级.",
+      "hanzi": "这个班级有二十名学生。",
+      "pinyin": "Zhège bānjí yǒu èrshí míng xuésheng.",
+      "meaning": "Lớp này có hai mươi học sinh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l321-t1",
+      "type": "teaching",
+      "title": "年级 · khối lớp/năm học",
+      "text": "年级 nêu cấp năm đang học; 三年级 không tự là tên lớp cụ thể như 三班.",
+      "hanzi": "她是三年级的学生。",
+      "pinyin": "Tā shì sān niánjí de xuésheng.",
+      "meaning": "Cô ấy là học sinh lớp ba.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l321-t2",
+      "type": "teaching",
+      "title": "初中 · trung học cơ sở",
+      "text": "初中 là bậc trung học cơ sở trong ngữ cảnh giáo dục Trung Quốc; không đồng nhất với mọi hệ thống lớp của nước khác.",
+      "hanzi": "他明年上初中。",
+      "pinyin": "Tā míngnián shàng chūzhōng.",
+      "meaning": "Năm sau cậu ấy học trung học cơ sở.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l321-t3",
+      "type": "teaching",
+      "title": "学期 · học kỳ",
+      "text": "学期 là học kỳ của năm học; 下个学期起 nêu mốc kỳ sau, không phải một tiết học.",
+      "hanzi": "这个学期我们学中文。",
+      "pinyin": "Zhège xuéqī wǒmen xué Zhōngwén.",
+      "meaning": "Học kỳ này chúng tôi học tiếng Trung.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l321-t4",
+      "type": "teaching",
+      "title": "作业 · bài tập được giao",
+      "text": "作业 chỉ bài tập/nhiệm vụ được giao để học; 做作业, 交作业 là làm và nộp bài, không phải mọi 工作 công việc.",
+      "hanzi": "请明天交作业。",
+      "pinyin": "Qǐng míngtiān jiāo zuòyè.",
+      "meaning": "Hãy nộp bài tập ngày mai.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l321-t5",
+      "type": "teaching",
+      "title": "页 · trang; lượng từ trang",
+      "text": "页 đếm trang giấy/sách, 第十页 chỉ trang thứ mười, 十页 chỉ mười trang. Không trộn số thứ tự với số lượng.",
+      "hanzi": "今天的作业在第十页。",
+      "pinyin": "Jīntiān de zuòyè zài dì shí yè.",
+      "meaning": "Bài tập hôm nay ở trang mười.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l321-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "从下个学期起 đánh dấu mốc bắt đầu áp dụng, không nói thời điểm kết thúc. 起 đứng sau cả cụm thời gian; so sánh 从今天起.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l321-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "老师：从下个学期起，这个班级每周有三次中文课。小林：初中一年级都一样吗？老师：不一定，先看自己班级的通知。今天的作业在第十页，明天交。",
+      "pinyin": "Lǎoshī: Cóng xià ge xuéqī qǐ, zhège bānjí měi zhōu yǒu sān cì Zhōngwén kè. Xiǎo Lín: Chūzhōng yī niánjí dōu yíyàng ma? Lǎoshī: Bù yídìng, xiān kàn zìjǐ bānjí de tōngzhī. Jīntiān de zuòyè zài dì shí yè, míngtiān jiāo.",
+      "meaning": "Từ kỳ tới lớp này học tiếng Trung ba buổi một tuần. Thầy yêu cầu xem thông báo đúng lớp; bài hôm nay ở trang mười, nộp ngày mai.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l321-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l321-v1-e0"
+    },
+    {
+      "id": "l321-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l321-v1-e1"
+    },
+    {
+      "id": "l321-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l321-v1-e2"
+    },
+    {
+      "id": "l321-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l321-v1-e3"
+    },
+    {
+      "id": "l321-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l321-v1-e4"
+    },
+    {
+      "id": "l321-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l321-v1-e5"
+    },
+    {
+      "id": "l321-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l321-v1-e6"
+    },
+    {
+      "id": "l321-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l321-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l321-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l321-c0",
+      "senseId": "l321-v-508-sense",
+      "keyRef": "l321-v1-k0",
+      "prompt": "Nêu tập thể hai mươi học sinh học chung: 这个□有二十名学生。",
+      "choices": [
+        "年级",
+        "初中",
+        "学期",
+        "作业",
+        "页",
+        "班级"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l321-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l321-c1",
+      "senseId": "l321-v-783-sense",
+      "keyRef": "l321-v1-k1",
+      "prompt": "Hỏi khối học chứ không hỏi tên tập thể lớp: 你上几□？",
+      "choices": [
+        "初中",
+        "学期",
+        "作业",
+        "页",
+        "班级",
+        "年级"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l321-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l321-c2",
+      "senseId": "l321-v-565-sense",
+      "keyRef": "l321-v1-k2",
+      "prompt": "Nêu bậc học sau tiểu học trong tình huống Trung Quốc: 明年上□。",
+      "choices": [
+        "学期",
+        "作业",
+        "页",
+        "班级",
+        "年级",
+        "初中"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l321-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l321-c3",
+      "senseId": "l321-v-915-sense",
+      "keyRef": "l321-v1-k3",
+      "prompt": "Viết pinyin của 学期 trong câu “这个学期我们学中文。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l321-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l321-c4",
+      "senseId": "l321-v-1000-sense",
+      "keyRef": "l321-v1-k4",
+      "prompt": "Thầy yêu cầu nộp phần bài đã giao: 明天交□。",
+      "choices": [
+        "页",
+        "班级",
+        "年级",
+        "初中",
+        "学期",
+        "作业"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l321-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l321-c5",
+      "senseId": "l321-v-921-sense",
+      "keyRef": "l321-v1-k5",
+      "prompt": "Điền lượng từ trang trong 第十□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l321-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l321-c0",
+      "senseId": "l321-v-508-sense",
+      "keyRef": "l321-v1-k6",
+      "prompt": "Bài tập hôm nay ở đâu?",
+      "choices": [
+        "第三页",
+        "第十个班级",
+        "第十页"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l321-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l321-c3",
+      "senseId": "l321-v-915-sense",
+      "keyRef": "l321-v1-k7",
+      "prompt": "Sắp xếp mốc bắt đầu áp dụng.",
+      "choices": [
+        "我们每周有三次中文课",
+        "从下个学期起"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l321-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l321-v1-e0",
+      "senseId": "l321-v-508-sense",
+      "accepted": [
+        "班级"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "班级: lớp học/tập thể lớp. 班级 chỉ tập thể hoặc đơn vị lớp, khác 年级 là khối/năm học. 一个年级可以有几个班级. Lớp này có hai mươi học sinh."
+    },
+    {
+      "id": "l321-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l321-v1-e1",
+      "senseId": "l321-v-783-sense",
+      "accepted": [
+        "年级"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "年级: khối lớp/năm học. 年级 nêu cấp năm đang học; 三年级 không tự là tên lớp cụ thể như 三班. Cô ấy là học sinh lớp ba."
+    },
+    {
+      "id": "l321-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l321-v1-e2",
+      "senseId": "l321-v-565-sense",
+      "accepted": [
+        "初中"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "初中: trung học cơ sở. 初中 là bậc trung học cơ sở trong ngữ cảnh giáo dục Trung Quốc; không đồng nhất với mọi hệ thống lớp của nước khác. Năm sau cậu ấy học trung học cơ sở."
+    },
+    {
+      "id": "l321-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l321-v1-e3",
+      "senseId": "l321-v-915-sense",
+      "accepted": [
+        "xué qī"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "学期: học kỳ. 学期 là học kỳ của năm học; 下个学期起 nêu mốc kỳ sau, không phải một tiết học. Học kỳ này chúng tôi học tiếng Trung."
+    },
+    {
+      "id": "l321-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l321-v1-e4",
+      "senseId": "l321-v-1000-sense",
+      "accepted": [
+        "作业"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "作业: bài tập được giao. 作业 chỉ bài tập/nhiệm vụ được giao để học; 做作业, 交作业 là làm và nộp bài, không phải mọi 工作 công việc. Hãy nộp bài tập ngày mai."
+    },
+    {
+      "id": "l321-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l321-v1-e5",
+      "senseId": "l321-v-921-sense",
+      "accepted": [
+        "页"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "页: trang; lượng từ trang. 页 đếm trang giấy/sách, 第十页 chỉ trang thứ mười, 十页 chỉ mười trang. Không trộn số thứ tự với số lượng. Bài tập hôm nay ở trang mười."
+    },
+    {
+      "id": "l321-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l321-v1-e6",
+      "senseId": "l321-v-508-sense",
+      "accepted": [
+        "第十页"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 从下个学期起 đánh dấu mốc bắt đầu áp dụng, không nói thời điểm kết thúc. 起 đứng sau cả cụm thời gian; so sánh 从今天起."
+    },
+    {
+      "id": "l321-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l321-v1-e7",
+      "senseId": "l321-v-915-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 从下个学期起 đánh dấu mốc bắt đầu áp dụng, không nói thời điểm kết thúc. 起 đứng sau cả cụm thời gian; so sánh 从今天起."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

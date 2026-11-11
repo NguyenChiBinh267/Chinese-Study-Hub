@@ -1,0 +1,783 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "7369ba910c9db9284181d869f751dfbfc39510a280aa413b3a9365e8d2787752",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eeg",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L446",
+    "version": 1,
+    "versionId": "l446-draft-v1",
+    "title": "Bố trí phòng khách và phân biệt hai cách đọc 空",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Bố trí phòng khách và phân biệt hai cách đọc 空; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "把"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 23,
+      "physicalPage": 24,
+      "printedPage": 21,
+      "section": "task",
+      "entry": "十"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-27T08:32:20.056220Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-home",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 23,
+          "physicalPage": 24,
+          "printedPage": 21,
+          "section": "task",
+          "entry": "十"
+        },
+        "written": "交流居住情况、社区情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-ac4fb0b93f75",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 65,
+          "physicalPage": 66,
+          "printedPage": 63,
+          "section": "topic",
+          "entry": "居住情况"
+        },
+        "written": "居住情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l446-v-1335",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1335"
+        },
+        "written": "家具",
+        "pinyin": "jiājù",
+        "senseId": "l446-v-1335-sense",
+        "ordinal": 1335,
+        "note": "4 jiājù 名; 家具 là tên tập hợp, không dùng 一个家具; đếm bằng 件 khi cần. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l446-v-1434",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 114,
+          "physicalPage": 115,
+          "printedPage": 112,
+          "section": "vocabulary",
+          "entry": "ordinal 1434"
+        },
+        "written": "客厅",
+        "pinyin": "kètīng",
+        "senseId": "l446-v-1434-sense",
+        "ordinal": 1434,
+        "note": "4 kètīng 名; 客厅 là phòng sinh hoạt/tiếp khách trong nhà, khác 客房 là phòng cho khách ở. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l446-v-1406",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 114,
+          "physicalPage": 115,
+          "printedPage": 112,
+          "section": "vocabulary",
+          "entry": "ordinal 1406"
+        },
+        "written": "镜子",
+        "pinyin": "jìngzi",
+        "senseId": "l446-v-1406-sense",
+        "ordinal": 1406,
+        "note": "4 jìngzi 名; 镜子 là đồ soi; không đồng nhất với 眼镜 là kính đeo. Nhận diện chữ 镜 trong 镜子; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l446-v-1436",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 114,
+          "physicalPage": 115,
+          "printedPage": 112,
+          "section": "vocabulary",
+          "entry": "ordinal 1436"
+        },
+        "written": "空",
+        "pinyin": "kōng",
+        "senseId": "l446-v-1436-sense",
+        "ordinal": 1436,
+        "note": "4（5） kōng 形、（副）; 空 đọc kōng khi tả vật rỗng/trống; khác kòng là thời gian rảnh/chỗ trống. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l446-v-1439",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 114,
+          "physicalPage": 115,
+          "printedPage": 112,
+          "section": "vocabulary",
+          "entry": "ordinal 1439"
+        },
+        "written": "空",
+        "pinyin": "kòng",
+        "senseId": "l446-v-1439-sense",
+        "ordinal": 1439,
+        "note": "4 kòng 动、形、名; 空 đọc kòng trong 有空、没空. Bài yêu cầu pinyin để phân biệt với kōng, không đòi phân biệt hai chữ viết giống nhau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l446-v-1497",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 116,
+          "physicalPage": 117,
+          "printedPage": 114,
+          "section": "vocabulary",
+          "entry": "ordinal 1497"
+        },
+        "written": "毛巾",
+        "pinyin": "máojīn",
+        "senseId": "l446-v-1497-sense",
+        "ordinal": 1497,
+        "note": "4 máojīn 名; 毛巾 là khăn vải; dùng khăn phù hợp bề mặt, ví dụ không phải hướng dẫn vệ sinh chuyên môn. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-164",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "164"
+        },
+        "written": "具",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 164,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-321",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "321"
+        },
+        "written": "厅",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 321,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-160",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "160"
+        },
+        "written": "镜",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 160,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-147",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "147"
+        },
+        "written": "巾",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 147,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-446",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 395,
+          "physicalPage": 396,
+          "printedPage": 393,
+          "section": "grammar",
+          "entry": "主语+把+宾语+动词+动量补语/时量补语"
+        },
+        "written": "把",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l446-c0",
+      "version": 1,
+      "senseId": "l446-v-1335-sense",
+      "hanzi": "家具",
+      "dictionaryPinyin": "jiā jù",
+      "meaning": "đồ nội thất",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l446-v-1335"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l446-c1",
+      "version": 1,
+      "senseId": "l446-v-1434-sense",
+      "hanzi": "客厅",
+      "dictionaryPinyin": "kè tīng",
+      "meaning": "phòng khách",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l446-v-1434"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l446-c2",
+      "version": 1,
+      "senseId": "l446-v-1406-sense",
+      "hanzi": "镜子",
+      "dictionaryPinyin": "jìng zi",
+      "meaning": "gương",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l446-v-1406"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l446-c3",
+      "version": 1,
+      "senseId": "l446-v-1436-sense",
+      "hanzi": "空",
+      "dictionaryPinyin": "kōng",
+      "meaning": "trống rỗng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l446-v-1436"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l446-c4",
+      "version": 1,
+      "senseId": "l446-v-1439-sense",
+      "hanzi": "空",
+      "dictionaryPinyin": "kòng",
+      "meaning": "thời gian rảnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l446-v-1439"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l446-c5",
+      "version": 1,
+      "senseId": "l446-v-1497-sense",
+      "hanzi": "毛巾",
+      "dictionaryPinyin": "máo jīn",
+      "meaning": "khăn mặt, khăn lau",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l446-v-1497"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l446-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 擦 cā: lau; 空 có hai mục nguồn cùng chữ: kōng và kòng. 免得 miǎnde: để tránh; 丢掉 diūdiào: vứt/mất; 留下 liúxia: giữ lại.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l446-t0",
+      "type": "teaching",
+      "title": "家具 · đồ nội thất",
+      "text": "家具 là tên tập hợp, không dùng 一个家具; đếm bằng 件 khi cần.",
+      "hanzi": "客厅里的家具不多。",
+      "pinyin": "Kètīng lǐ de jiājù bù duō.",
+      "meaning": "Phòng khách không có nhiều đồ nội thất.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l446-t1",
+      "type": "teaching",
+      "title": "客厅 · phòng khách",
+      "text": "客厅 là phòng sinh hoạt/tiếp khách trong nhà, khác 客房 là phòng cho khách ở.",
+      "hanzi": "我们在客厅讨论。",
+      "pinyin": "Wǒmen zài kètīng tǎolùn.",
+      "meaning": "Chúng tôi thảo luận ở phòng khách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l446-t2",
+      "type": "teaching",
+      "title": "镜子 · gương",
+      "text": "镜子 là đồ soi; không đồng nhất với 眼镜 là kính đeo. Nhận diện chữ 镜 trong 镜子; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "请把镜子擦一遍。",
+      "pinyin": "Qǐng bǎ jìngzi cā yí biàn.",
+      "meaning": "Hãy lau gương một lượt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l446-t3",
+      "type": "teaching",
+      "title": "空 · trống rỗng",
+      "text": "空 đọc kōng khi tả vật rỗng/trống; khác kòng là thời gian rảnh/chỗ trống.",
+      "hanzi": "这个盒子是空的。",
+      "pinyin": "Zhè ge hézi shì kōng de.",
+      "meaning": "Hộp này rỗng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l446-t4",
+      "type": "teaching",
+      "title": "空 · thời gian rảnh",
+      "text": "空 đọc kòng trong 有空、没空. Bài yêu cầu pinyin để phân biệt với kōng, không đòi phân biệt hai chữ viết giống nhau.",
+      "hanzi": "我下午有空。",
+      "pinyin": "Wǒ xiàwǔ yǒu kòng.",
+      "meaning": "Chiều tôi rảnh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l446-t5",
+      "type": "teaching",
+      "title": "毛巾 · khăn mặt, khăn lau",
+      "text": "毛巾 là khăn vải; dùng khăn phù hợp bề mặt, ví dụ không phải hướng dẫn vệ sinh chuyên môn.",
+      "hanzi": "她拿来一条干毛巾。",
+      "pinyin": "Tā ná lái yì tiáo gān máojīn.",
+      "meaning": "Cô ấy mang một chiếc khăn khô tới.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l446-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "把 đưa vật đã xác định lên trước động từ; bổ ngữ 一遍 nêu số lần thực hiện: 把镜子擦一遍. Ở bài này động từ 擦 cần thao tác cụ thể, không chỉ 把镜子擦 là đủ. Không đảo vật và người làm.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l446-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "新家客厅里的家具不多，墙边放着一面镜子和一个空盒子。小方下午有空，想整理一下。他拿来一条干毛巾，对弟弟说：“请把镜子擦一遍，再把毛巾放回去。”弟弟先问哪个盒子要留下，免得把有用的东西丢掉。",
+      "pinyin": "Xīn jiā kètīng lǐ de jiājù bù duō, qiáng biān fàngzhe yí miàn jìngzi hé yí ge kōng hézi. Xiǎo Fāng xiàwǔ yǒu kòng, xiǎng zhěnglǐ yíxià. Tā ná lái yì tiáo gān máojīn, duì dìdi shuō: “Qǐng bǎ jìngzi cā yí biàn, zài bǎ máojīn fàng huí qù.” Dìdi xiān wèn nǎ ge hézi yào liúxià, miǎnde bǎ yǒuyòng de dōngxi diūdiào.",
+      "meaning": "Phòng khách mới ít đồ. Phương rảnh buổi chiều nên nhờ em lau gương rồi cất khăn. Em hỏi hộp nào cần giữ để tránh vứt đồ hữu ích.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l446-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l446-v1-e0"
+    },
+    {
+      "id": "l446-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l446-v1-e1"
+    },
+    {
+      "id": "l446-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l446-v1-e2"
+    },
+    {
+      "id": "l446-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l446-v1-e3"
+    },
+    {
+      "id": "l446-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l446-v1-e4"
+    },
+    {
+      "id": "l446-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l446-v1-e5"
+    },
+    {
+      "id": "l446-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l446-v1-e6"
+    },
+    {
+      "id": "l446-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l446-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l446-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l446-c0",
+      "senseId": "l446-v-1335-sense",
+      "keyRef": "l446-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “đồ nội thất” để điền câu: 客厅里的□不多。",
+      "choices": [
+        "客厅",
+        "镜子",
+        "空",
+        "毛巾",
+        "家具"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l446-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l446-c1",
+      "senseId": "l446-v-1434-sense",
+      "keyRef": "l446-v1-k1",
+      "prompt": "Ghi pinyin của 客厅 trong câu “我们在客厅讨论。”, theo nghĩa “phòng khách”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l446-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l446-c2",
+      "senseId": "l446-v-1406-sense",
+      "keyRef": "l446-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “gương”: □子 (jìng zi). Ngữ cảnh: 请把□擦一遍。",
+      "choices": [
+        "竞",
+        "镜",
+        "境",
+        "竟"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l446-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l446-c3",
+      "senseId": "l446-v-1436-sense",
+      "keyRef": "l446-v1-k3",
+      "prompt": "Viết pinyin của 空 trong 这个盒子是空的, nghĩa trống rỗng.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l446-v1-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l446-c4",
+      "senseId": "l446-v-1439-sense",
+      "keyRef": "l446-v1-k4",
+      "prompt": "Viết pinyin của 空 trong 我下午有空, nghĩa có thời gian rảnh.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l446-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l446-c5",
+      "senseId": "l446-v-1497-sense",
+      "keyRef": "l446-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “khăn mặt, khăn lau”: 她拿来一条干□。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l446-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l446-c0",
+      "senseId": "l446-v-1335-sense",
+      "keyRef": "l446-v1-k6",
+      "prompt": "小方请弟弟先做什么？",
+      "choices": [
+        "把所有盒子扔掉。",
+        "买新家具。",
+        "把镜子擦一遍。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l446-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l446-c3",
+      "senseId": "l446-v-1436-sense",
+      "keyRef": "l446-v1-k7",
+      "prompt": "Sắp xếp các cụm theo cấu trúc vừa học; giữ nguyên cụm, không thêm/bớt từ.",
+      "choices": [
+        "请把镜子",
+        "擦",
+        "一遍。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l446-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l446-v1-e0",
+      "senseId": "l446-v-1335-sense",
+      "accepted": [
+        "家具"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "家具: đồ nội thất. 家具 là tên tập hợp, không dùng 一个家具; đếm bằng 件 khi cần. Phòng khách không có nhiều đồ nội thất."
+    },
+    {
+      "id": "l446-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l446-v1-e1",
+      "senseId": "l446-v-1434-sense",
+      "accepted": [
+        "kè tīng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc kè tīng. 客厅 là phòng sinh hoạt/tiếp khách trong nhà, khác 客房 là phòng cho khách ở."
+    },
+    {
+      "id": "l446-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l446-v1-e2",
+      "senseId": "l446-v-1406-sense",
+      "accepted": [
+        "镜"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 镜 tạo từ 镜子. 镜子 là đồ soi; không đồng nhất với 眼镜 là kính đeo. Nhận diện chữ 镜 trong 镜子; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l446-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l446-v1-e3",
+      "senseId": "l446-v-1436-sense",
+      "accepted": [
+        "kōng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "kōng: trống rỗng; không dùng kòng của 有空."
+    },
+    {
+      "id": "l446-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l446-v1-e4",
+      "senseId": "l446-v-1439-sense",
+      "accepted": [
+        "kòng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "kòng: rảnh; khác kōng trong 空盒子."
+    },
+    {
+      "id": "l446-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l446-v1-e5",
+      "senseId": "l446-v-1497-sense",
+      "accepted": [
+        "毛巾"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 毛巾. 毛巾 là khăn vải; dùng khăn phù hợp bề mặt, ví dụ không phải hướng dẫn vệ sinh chuyên môn. Cô ấy mang một chiếc khăn khô tới."
+    },
+    {
+      "id": "l446-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l446-v1-e6",
+      "senseId": "l446-v-1335-sense",
+      "accepted": [
+        "把镜子擦一遍。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 把镜子擦一遍。. Phòng khách mới ít đồ. Phương rảnh buổi chiều nên nhờ em lau gương rồi cất khăn. Em hỏi hộp nào cần giữ để tránh vứt đồ hữu ích."
+    },
+    {
+      "id": "l446-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l446-v1-e7",
+      "senseId": "l446-v-1436-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 把 đưa vật đã xác định lên trước động từ; bổ ngữ 一遍 nêu số lần thực hiện: 把镜子擦一遍. Ở bài này động từ 擦 cần thao tác cụ thể, không chỉ 把镜子擦 là đủ. Không đảo vật và người làm."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

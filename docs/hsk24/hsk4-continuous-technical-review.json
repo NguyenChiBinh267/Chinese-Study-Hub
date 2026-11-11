@@ -1,0 +1,63 @@
+{
+  "verdict": "VERIFIED_PARTIAL_DELIVERY / MOBILE_TODAY_GATE_OPEN",
+  "reviewedPacketCommit": "fe8777e0755598c7c5f2f07f7f6ebceaf5a79007",
+  "reviewerProcess": "/root/continuous_final_technical_review",
+  "mode": "Separate read-only AI reviewer; no file or database writes",
+  "recordedAtUTC": "2026-10-28T00:28:17.483990+00:00",
+  "reviewedVerificationSha256": "c9bbd83da84a460016f0dc4686735e1eb33f257a61a899820e807eb33cd46b5f",
+  "reviewedDeliverySha256": "0a7ef730f80c5f3fe68271f9065355a64c68856f8cc32699d27ecead2b493928",
+  "finalVerificationSha256": "c93b07ce33b7e8303a462f88f0447fb1c0ff970d331417fda5a7c9b585e2f2ed",
+  "sourceAndKeys": {
+    "newCurrentActivities": 52,
+    "validKeys": 416,
+    "oldImmutableExpansionVersionsPreserved": 289,
+    "oldSourceReferencesPreserved": 1784,
+    "sourceReferencesVerified": 2288
+  },
+  "checks": {
+    "recordedEvidenceHashesMatched": 64,
+    "unitPass": 121,
+    "sqlPass": 148,
+    "browserPass": 11,
+    "browserFail": 1,
+    "browserSkipped": 0,
+    "databaseCanonicalPackages": 351,
+    "protectedRunBaseline": [
+      295,
+      1453,
+      706,
+      1013
+    ],
+    "protectedOriginalBaseline": [
+      237,
+      110,
+      218,
+      67
+    ],
+    "recordedFinalRows": [
+      351,
+      2337,
+      1179,
+      1650
+    ],
+    "immutableDevSnapshot": {
+      "files": 83,
+      "bytes": 30188601,
+      "privateKeyIds": 2760,
+      "hits": 0,
+      "archiveSha256": "b9fc525d5d1d92a8dcf3c4db727c8d06a92d7c1f40dd4f384f82b1e0b136610c"
+    }
+  },
+  "openGates": [
+    "Mobile Today schedule-save navigation fails15sassertion",
+    "Curriculum/Today still reads fullservercorpus",
+    "ProposedL4001–4004 identifiers unimplemented",
+    "Qualifiedhuman language/rights review, publication and mastery approval absent"
+  ],
+  "notTechnicalPass": true,
+  "taskClosureApproved": false,
+  "publication": "BLOCKED",
+  "humanReview": null,
+  "masteryApproved": false,
+  "changesAfterReview": "Only thisreceipt and review-status/link fields; originalfailures and allopengates retained"
+}

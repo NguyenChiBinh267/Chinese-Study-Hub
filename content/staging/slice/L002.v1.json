@@ -1,0 +1,658 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "a42365cd10f2c8996a5bc87b8cc23b1f2ce32c795e8073c9e0af4df5e481f5b1",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "foundation-slice",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L002",
+    "version": 1,
+    "versionId": "l002-draft-v1",
+    "title": "Một sở thích, một câu hỏi lại",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Đọc lời nói về sở thích với 喜欢.",
+      "Hỏi lại bằng cụm 你呢 đã gặp trong L001."
+    ],
+    "prerequisites": [
+      "l001-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "Chủ ngữ + 喜欢 + cụm chỉ điều thích"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "REVIEW_PENDING",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "一"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Narrow entry locators checked in source-evidence.json; exact teaching-pattern interpretation remains unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-17T14:28:19.608Z",
+    "sourceSnapshotSha256": null,
+    "taskReferences": [
+      {
+        "id": "task-personal",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "一"
+        },
+        "written": "问答个人基本信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "task-food",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 5,
+          "physicalPage": 6,
+          "printedPage": 3,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "问答饮食喜好",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "topic-personal",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "基本信息 / 个人信息"
+        },
+        "written": "个人信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "topic-food",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "日常生活 / 饮食"
+        },
+        "written": "食物饮品",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "v-wo",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 221"
+        },
+        "written": "我",
+        "pinyin": "wǒ",
+        "senseId": "sense-speaker",
+        "ordinal": 221,
+        "note": "Entry/reading observed; Vietnamese gloss is original and unreviewed."
+      },
+      {
+        "id": "v-ni",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 146"
+        },
+        "written": "你",
+        "pinyin": "nǐ",
+        "senseId": "sense-addressee",
+        "ordinal": 146,
+        "note": "Entry/reading observed; Vietnamese gloss is original and unreviewed."
+      },
+      {
+        "id": "v-ne",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 144"
+        },
+        "written": "呢",
+        "pinyin": "ne",
+        "senseId": "sense-question-particle",
+        "ordinal": 144,
+        "note": "Entry/reading verified; precise pragmatic sense still needs language review."
+      },
+      {
+        "id": "v-xihuan",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 225"
+        },
+        "written": "喜欢",
+        "pinyin": "xǐhuan",
+        "senseId": "sense-like",
+        "ordinal": 225,
+        "note": "Entry/reading observed; Vietnamese gloss is original and unreviewed."
+      },
+      {
+        "id": "v-cha",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 17"
+        },
+        "written": "茶",
+        "pinyin": "chá",
+        "senseId": "sense-tea",
+        "ordinal": 17,
+        "note": "Entry/reading observed; Vietnamese gloss is original and unreviewed."
+      },
+      {
+        "id": "v-he",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 77"
+        },
+        "written": "喝",
+        "pinyin": "hē",
+        "senseId": "sense-drink",
+        "ordinal": 77,
+        "note": "Entry/reading observed; Vietnamese gloss is original and unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "c-126",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "recognition ordinal 126"
+        },
+        "written": "你",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 126,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "c-186",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "recognition ordinal 186"
+        },
+        "written": "我",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 186,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "c-124",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "recognition ordinal 124"
+        },
+        "written": "呢",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 124,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "c-192",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "recognition ordinal 192"
+        },
+        "written": "喜",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 192,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "c-73",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "recognition ordinal 73"
+        },
+        "written": "欢",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 73,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "c-17",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "recognition ordinal 17"
+        },
+        "written": "茶",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 17,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "c-67",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "recognition ordinal 67"
+        },
+        "written": "喝",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 67,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "g-verb",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "句子的类型 / 句型 / 主谓句1"
+        },
+        "written": "动词谓语句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "g-object",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "短语 / 基本结构类型 (3)"
+        },
+        "written": "动宾短语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "g-ne",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "词类 / 助词 / 语气助词"
+        },
+        "written": "呢",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "g-like-pattern",
+        "kind": "grammar",
+        "status": "UNVERIFIED",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "喜欢 + cụm chỉ sở thích",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Vocabulary and broad verb-predicate/object categories verified; this exact teaching pattern is an original pedagogical interpretation requiring review."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l002-wo",
+      "version": 1,
+      "senseId": "l002-sense-wo",
+      "hanzi": "我",
+      "dictionaryPinyin": "wǒ",
+      "meaning": "tôi",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [
+        "v-wo"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l002-ni",
+      "version": 1,
+      "senseId": "l002-sense-ni",
+      "hanzi": "你",
+      "dictionaryPinyin": "nǐ",
+      "meaning": "bạn",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [
+        "v-ni"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l002-like",
+      "version": 1,
+      "senseId": "l002-sense-like",
+      "hanzi": "喜欢",
+      "dictionaryPinyin": "xǐ huan",
+      "meaning": "thích",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [
+        "v-xihuan",
+        "c-192",
+        "c-73"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l002-tea",
+      "version": 1,
+      "senseId": "l002-sense-tea",
+      "hanzi": "茶",
+      "dictionaryPinyin": "chá",
+      "meaning": "trà",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [
+        "v-cha",
+        "c-17"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l002-drink",
+      "version": 1,
+      "senseId": "l002-sense-drink",
+      "hanzi": "喝",
+      "dictionaryPinyin": "hē",
+      "meaning": "uống",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [
+        "v-he",
+        "c-67"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l002-ne",
+      "version": 1,
+      "senseId": "l002-sense-ne",
+      "hanzi": "呢",
+      "dictionaryPinyin": "ne",
+      "meaning": "trợ từ hỏi lại",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [
+        "v-ne",
+        "g-ne"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l002-draft-v1-b1",
+      "type": "teaching",
+      "title": "Một mẫu nói về điều mình thích",
+      "text": "我喜欢茶 có nghĩa tôi thích trà. Dùng 喜欢 để nói điều mình thích; đây là mẫu chính của bài. Mục 喜欢 và 茶 có locator HSK1; diễn giải ngữ pháp tiếng Việt và đáp án vẫn chưa được người có năng lực duyệt.",
+      "hanzi": "我喜欢茶。",
+      "pinyin": "wǒ xǐ huan chá",
+      "meaning": "Tôi thích trà.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l002-draft-v1-e1-block",
+      "type": "exercise",
+      "exerciseVersionId": "l002-draft-v1-e1"
+    },
+    {
+      "id": "l002-draft-v1-b3",
+      "type": "teaching",
+      "title": "Thêm việc làm và hỏi lại",
+      "text": "我喜欢喝茶 diễn tả thích việc uống trà. 喝 nghĩa là uống. Cụm 你呢？ đã gặp ở L001 dùng để hỏi lại trong ngữ cảnh này; không coi nó là một câu hỏi tự đủ trong mọi tình huống.",
+      "hanzi": "我喜欢喝茶。你呢？",
+      "pinyin": "wǒ xǐ huan hē chá. nǐ ne",
+      "meaning": "Tôi thích uống trà. Còn bạn?",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l002-draft-v1-e2-block",
+      "type": "exercise",
+      "exerciseVersionId": "l002-draft-v1-e2"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l002-draft-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l002-tea",
+      "senseId": "l002-sense-tea",
+      "keyRef": "l002-draft-v1-e1-key-v1",
+      "prompt": "Người nói trong 我喜欢茶 thích gì?",
+      "choices": [
+        "Trà",
+        "Một người tên An",
+        "Thời tiết"
+      ],
+      "inputHint": "Chọn một đáp án.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l002-draft-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l002-like",
+      "senseId": "l002-sense-like",
+      "keyRef": "l002-draft-v1-e2-key-v1",
+      "prompt": "Trong đoạn trên, 喜欢 thể hiện điều gì?",
+      "choices": [
+        "Một sở thích",
+        "Một địa điểm",
+        "Một thời điểm"
+      ],
+      "inputHint": "Chọn một đáp án.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l002-draft-v1-e1-key-v1",
+      "version": 1,
+      "exerciseVersionId": "l002-draft-v1-e1",
+      "senseId": "l002-sense-tea",
+      "accepted": [
+        "Trà"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "茶 được dùng với nghĩa trà trong ví dụ gốc."
+    },
+    {
+      "id": "l002-draft-v1-e2-key-v1",
+      "version": 1,
+      "exerciseVersionId": "l002-draft-v1-e2",
+      "senseId": "l002-sense-like",
+      "accepted": [
+        "Một sở thích"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "喜欢 nói về điều thích. Bản nháp không chứng nhận khả năng giao tiếp."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

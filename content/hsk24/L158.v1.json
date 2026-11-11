@@ -1,0 +1,704 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "0441dd8f30e3f133eabb77d605097e86830879b78bf43badae611204b85810e4",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-bc",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L158",
+    "version": 1,
+    "versionId": "l158-draft-v1",
+    "title": "Mua bán và giá cao",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Mua bán và giá cao; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "正反问句"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 6,
+      "physicalPage": 7,
+      "printedPage": 4,
+      "section": "task",
+      "entry": "九"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:17:43.136427Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-shop",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 6,
+          "physicalPage": 7,
+          "printedPage": 4,
+          "section": "task",
+          "entry": "九"
+        },
+        "written": "问答商品信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-463d570c15bd",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "商品价格"
+        },
+        "written": "商品价格",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l158-v-116",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 116"
+        },
+        "written": "买",
+        "pinyin": "mǎi",
+        "senseId": "l158-v-116-sense",
+        "ordinal": 116,
+        "note": "1 mǎi 动; 买 là mua; khác 卖 bán cả chữ và thanh điệu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l158-v-117",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 117"
+        },
+        "written": "卖",
+        "pinyin": "mài",
+        "senseId": "l158-v-117-sense",
+        "ordinal": 117,
+        "note": "1 mài 动; 卖 là bán; không bỏ nét để biến thành 买 mua. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l158-v-164",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 164"
+        },
+        "written": "钱",
+        "pinyin": "qián",
+        "senseId": "l158-v-164-sense",
+        "ordinal": 164,
+        "note": "1 qián 名; 钱 là tiền trong câu; không tự có số tiền hoặc loại tiền nếu chưa nêu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l158-v-65",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 65"
+        },
+        "written": "贵",
+        "pinyin": "guì",
+        "senseId": "l158-v-65-sense",
+        "ordinal": 65,
+        "note": "1 guì 形; 贵 là nhận xét giá trong tình huống, không phải báo giá đã kiểm chứng của một cuốn sách thật. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-107",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "107"
+        },
+        "written": "买",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 107,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-108",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "108"
+        },
+        "written": "卖",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 108,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-140",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "140"
+        },
+        "written": "钱",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 140,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-59",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "59"
+        },
+        "written": "贵",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 59,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-158",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "g-386-22"
+        },
+        "written": "正反问句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l158-c0",
+      "version": 1,
+      "senseId": "l158-v-116-sense",
+      "hanzi": "买",
+      "dictionaryPinyin": "mǎi",
+      "meaning": "mua",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l158-v-116"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l158-c1",
+      "version": 1,
+      "senseId": "l158-v-117-sense",
+      "hanzi": "卖",
+      "dictionaryPinyin": "mài",
+      "meaning": "bán",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l158-v-117"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l158-c2",
+      "version": 1,
+      "senseId": "l158-v-164-sense",
+      "hanzi": "钱",
+      "dictionaryPinyin": "qián",
+      "meaning": "tiền",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l158-v-164"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l158-c3",
+      "version": 1,
+      "senseId": "l158-v-65-sense",
+      "hanzi": "贵",
+      "dictionaryPinyin": "guì",
+      "meaning": "đắt; giá cao",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l158-v-65"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l158-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l158-t0",
+      "type": "teaching",
+      "title": "买 · mua",
+      "text": "买 là mua; khác 卖 bán cả chữ và thanh điệu.",
+      "hanzi": "我买书。",
+      "pinyin": "Wǒ mǎi shū.",
+      "meaning": "Tôi mua sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l158-t1",
+      "type": "teaching",
+      "title": "卖 · bán",
+      "text": "卖 là bán; không bỏ nét để biến thành 买 mua.",
+      "hanzi": "这家店卖书。",
+      "pinyin": "Zhè jiā diàn mài shū.",
+      "meaning": "Tiệm này bán sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l158-t2",
+      "type": "teaching",
+      "title": "钱 · tiền",
+      "text": "钱 là tiền trong câu; không tự có số tiền hoặc loại tiền nếu chưa nêu.",
+      "hanzi": "我没有钱。",
+      "pinyin": "Wǒ méi yǒu qián.",
+      "meaning": "Tôi không có tiền.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l158-t3",
+      "type": "teaching",
+      "title": "贵 · đắt; giá cao",
+      "text": "贵 là nhận xét giá trong tình huống, không phải báo giá đã kiểm chứng của một cuốn sách thật.",
+      "hanzi": "这本书很贵。",
+      "pinyin": "Zhè běn shū hěn guì.",
+      "meaning": "Quyển sách này đắt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l158-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "Động từ/tính từ + 不 + chính từ đó tạo câu hỏi chính-phản như 买不买/贵不贵. Với mẫu này không thêm 吗 như câu hỏi có-không thông thường. 买 mǎi là mua, 卖 mài là bán; giữ thanh và chữ khác nhau. 贵 chỉ giá cao theo nhận xét trong câu, không phải giá thị trường thật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l158-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：这本书贵不贵？\nB：很贵。\nA：你买不买？\nB：我不买这本，我买那本。",
+      "pinyin": "A: Zhè běn shū guì bu guì? B: Hěn guì. A: Nǐ mǎi bu mǎi? B: Wǒ bù mǎi zhè běn, wǒ mǎi nà běn.",
+      "meaning": "B nhận xét quyển này đắt và chọn quyển kia. 不 trong câu hỏi chính-phản có thể nhẹ; pinyin mục 不 riêng vẫn bù.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l158-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l158-v1-e0"
+    },
+    {
+      "id": "l158-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l158-v1-e1"
+    },
+    {
+      "id": "l158-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l158-v1-e2"
+    },
+    {
+      "id": "l158-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l158-v1-e3"
+    },
+    {
+      "id": "l158-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l158-v1-e4"
+    },
+    {
+      "id": "l158-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l158-v1-e5"
+    },
+    {
+      "id": "l158-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l158-v1-e6"
+    },
+    {
+      "id": "l158-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l158-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l158-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l158-c0",
+      "senseId": "l158-v-116-sense",
+      "keyRef": "l158-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “mua”: □ (mǎi). Ngữ cảnh: 我□书。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "卖",
+        "头",
+        "实",
+        "买"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l158-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l158-c1",
+      "senseId": "l158-v-117-sense",
+      "keyRef": "l158-v1-k1",
+      "prompt": "Viết pinyin từ điển của 卖 (bán).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l158-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l158-c2",
+      "senseId": "l158-v-164-sense",
+      "keyRef": "l158-v1-k2",
+      "prompt": "Điền đúng mục từ đọc qián, nghĩa “tiền”: 我没有□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l158-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l158-c3",
+      "senseId": "l158-v-65-sense",
+      "keyRef": "l158-v1-k3",
+      "prompt": "Chọn mục từ đọc guì, nghĩa “đắt; giá cao”, trong câu: 这本书很□。",
+      "choices": [
+        "买",
+        "卖",
+        "钱",
+        "贵"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l158-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l158-c2",
+      "senseId": "l158-v-164-sense",
+      "keyRef": "l158-v1-k4",
+      "prompt": "Trong câu “我没有钱。”, 钱 mang nghĩa nào theo bài?",
+      "choices": [
+        "bán",
+        "tiền",
+        "đắt; giá cao",
+        "mua"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l158-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l158-c3",
+      "senseId": "l158-v-65-sense",
+      "keyRef": "l158-v1-k5",
+      "prompt": "Trong câu “这本书很贵。”, 贵 mang nghĩa nào theo bài?",
+      "choices": [
+        "tiền",
+        "đắt; giá cao",
+        "mua",
+        "bán"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l158-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l158-c0",
+      "senseId": "l158-v-116-sense",
+      "keyRef": "l158-v1-k6",
+      "prompt": "B chọn mua quyển nào?",
+      "choices": [
+        "这本",
+        "Không chọn quyển nào",
+        "那本"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l158-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l158-c3",
+      "senseId": "l158-v-65-sense",
+      "keyRef": "l158-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "这本书",
+        "很",
+        "贵。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l158-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l158-v1-e0",
+      "senseId": "l158-v-116-sense",
+      "accepted": [
+        "买"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 买 tạo từ 买. 买 là mua; khác 卖 bán cả chữ và thanh điệu. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l158-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l158-v1-e1",
+      "senseId": "l158-v-117-sense",
+      "accepted": [
+        "mài"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "卖 ghi mài. 卖 là bán; không bỏ nét để biến thành 买 mua."
+    },
+    {
+      "id": "l158-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l158-v1-e2",
+      "senseId": "l158-v-164-sense",
+      "accepted": [
+        "钱"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc qián: 钱. 钱 là tiền trong câu; không tự có số tiền hoặc loại tiền nếu chưa nêu. Tôi không có tiền."
+    },
+    {
+      "id": "l158-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l158-v1-e3",
+      "senseId": "l158-v-65-sense",
+      "accepted": [
+        "贵"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc guì: 贵. 贵 là nhận xét giá trong tình huống, không phải báo giá đã kiểm chứng của một cuốn sách thật. Quyển sách này đắt."
+    },
+    {
+      "id": "l158-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l158-v1-e4",
+      "senseId": "l158-v-164-sense",
+      "accepted": [
+        "tiền"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "钱 là tiền trong câu; không tự có số tiền hoặc loại tiền nếu chưa nêu. Tôi không có tiền."
+    },
+    {
+      "id": "l158-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l158-v1-e5",
+      "senseId": "l158-v-65-sense",
+      "accepted": [
+        "đắt; giá cao"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "贵 là nhận xét giá trong tình huống, không phải báo giá đã kiểm chứng của một cuốn sách thật. Quyển sách này đắt."
+    },
+    {
+      "id": "l158-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l158-v1-e6",
+      "senseId": "l158-v-116-sense",
+      "accepted": [
+        "那本"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 那本. B nhận xét quyển này đắt và chọn quyển kia. 不 trong câu hỏi chính-phản có thể nhẹ; pinyin mục 不 riêng vẫn bù."
+    },
+    {
+      "id": "l158-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l158-v1-e7",
+      "senseId": "l158-v-65-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. Động từ/tính từ + 不 + chính từ đó tạo câu hỏi chính-phản như 买不买/贵不贵. Với mẫu này không thêm 吗 như câu hỏi có-không thông thường. 买 mǎi là mua, 卖 mài là bán; giữ thanh và chữ khác nhau. 贵 chỉ giá cao theo nhận xét trong câu, không phải giá thị trường thật."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

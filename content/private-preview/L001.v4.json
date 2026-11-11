@@ -1,0 +1,743 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "dcf8cfca1e463ab02a2551ed0d26535c0260456aa01805935c4f583c8c7f3445",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "foundation-slice",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L001",
+    "version": 4,
+    "versionId": "l001-private-v4",
+    "title": "Lời chào và tên của mình",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Đọc hội thoại tự giới thiệu và hiểu lời hỏi lại.",
+      "Tự sắp xếp và nhập câu ngắn 我叫安 theo đáp án nháp."
+    ],
+    "prerequisites": [
+      "f01-private-v2",
+      "f02-private-v2"
+    ],
+    "newGrammarPatterns": [
+      "我叫 + tên"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "一"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Narrow entry locators checked in source-evidence.json; exact teaching-pattern interpretation remains unreviewed.",
+      "Sprint5 original text/exercises; same 26 checked factual locators, direct exact-PDF pin. No human language/key approval; exact teaching-pattern interpretation remains UNVERIFIED."
+    ],
+    "alignmentCheckedAt": "2026-10-17T14:28:19.608Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "task-personal",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "一"
+        },
+        "written": "问答个人基本信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "task-social",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 5,
+          "physicalPage": 6,
+          "printedPage": 3,
+          "section": "task",
+          "entry": "六"
+        },
+        "written": "日常言语交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "topic-personal",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "基本信息 / 个人信息"
+        },
+        "written": "个人信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "topic-social",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "日常生活 / 交往"
+        },
+        "written": "基本礼貌行为",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "v-nihao",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 147"
+        },
+        "written": "你好",
+        "pinyin": "nǐhǎo",
+        "senseId": "sense-greeting",
+        "ordinal": 147,
+        "note": "Entry/reading observed; Vietnamese gloss is original and unreviewed."
+      },
+      {
+        "id": "v-wo",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 221"
+        },
+        "written": "我",
+        "pinyin": "wǒ",
+        "senseId": "sense-speaker",
+        "ordinal": 221,
+        "note": "Entry/reading observed; Vietnamese gloss is original and unreviewed."
+      },
+      {
+        "id": "v-ni",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 146"
+        },
+        "written": "你",
+        "pinyin": "nǐ",
+        "senseId": "sense-addressee",
+        "ordinal": 146,
+        "note": "Entry/reading observed; Vietnamese gloss is original and unreviewed."
+      },
+      {
+        "id": "v-jiao",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 91"
+        },
+        "written": "叫",
+        "pinyin": "jiào",
+        "senseId": "sense-be-called",
+        "ordinal": 91,
+        "note": "HSK1 verb reading jiào; higher-level preposition sense excluded."
+      },
+      {
+        "id": "v-ne",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 144"
+        },
+        "written": "呢",
+        "pinyin": "ne",
+        "senseId": "sense-question-particle",
+        "ordinal": 144,
+        "note": "Entry/reading verified; precise pragmatic sense still needs language review."
+      },
+      {
+        "id": "v-an",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "安",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Proper-name example only; no checked HSK1 vocabulary entry. Not counted as HSK coverage."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "c-126",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "recognition ordinal 126"
+        },
+        "written": "你",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 126,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "c-65",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "recognition ordinal 65"
+        },
+        "written": "好",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 65,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "c-186",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "recognition ordinal 186"
+        },
+        "written": "我",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 186,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "c-84",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "recognition ordinal 84"
+        },
+        "written": "叫",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 84,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "c-124",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "recognition ordinal 124"
+        },
+        "written": "呢",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 124,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "g-verb",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "句子的类型 / 句型 / 主谓句1"
+        },
+        "written": "动词谓语句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "g-ne",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "词类 / 助词 / 语气助词"
+        },
+        "written": "呢",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Direct reading of the exact official PDF; narrow factual locator, not redistribution permission."
+      },
+      {
+        "id": "g-jiao-pattern",
+        "kind": "grammar",
+        "status": "UNVERIFIED",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "我叫 + tên",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Generic verb-predicate category verified; exact pedagogical pattern is an authored interpretation, not an official named grammar entry."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l001-hello",
+      "version": 1,
+      "senseId": "l001-sense-hello",
+      "hanzi": "你好",
+      "dictionaryPinyin": "nǐ hǎo",
+      "meaning": "xin chào",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [
+        "v-nihao",
+        "c-126",
+        "c-65"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l001-wo",
+      "version": 1,
+      "senseId": "l001-sense-wo",
+      "hanzi": "我",
+      "dictionaryPinyin": "wǒ",
+      "meaning": "tôi",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [
+        "v-wo",
+        "c-186"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l001-ni",
+      "version": 1,
+      "senseId": "l001-sense-ni",
+      "hanzi": "你",
+      "dictionaryPinyin": "nǐ",
+      "meaning": "bạn",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [
+        "v-ni",
+        "c-126"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l001-jiao",
+      "version": 1,
+      "senseId": "l001-sense-jiao",
+      "hanzi": "叫",
+      "dictionaryPinyin": "jiào",
+      "meaning": "tên là / được gọi",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [
+        "v-jiao",
+        "c-84"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l001-ne",
+      "version": 1,
+      "senseId": "l001-sense-ne",
+      "hanzi": "呢",
+      "dictionaryPinyin": "ne",
+      "meaning": "trợ từ hỏi lại trong ví dụ",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [
+        "v-ne",
+        "g-ne",
+        "c-124"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l001-an",
+      "version": 1,
+      "senseId": "l001-sense-an",
+      "hanzi": "安",
+      "dictionaryPinyin": "Ān",
+      "meaning": "tên riêng An",
+      "skills": [
+        "recognition",
+        "pinyin",
+        "reading"
+      ],
+      "referenceIds": [
+        "v-an"
+      ],
+      "scope": "SUPPLEMENTARY"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l001-private-v4-b1",
+      "type": "teaching",
+      "title": "Gặp nhau và nói tên",
+      "text": "Hội thoại gốc: A chào và giới thiệu; B đáp lời chào. 安 là tên riêng minh họa bổ trợ, không được tính vào coverage HSK1. Pinyin ghi dạng từ điển; nghe và phát âm chưa được đánh giá.",
+      "hanzi": "A：你好！我叫安。\nB：你好！",
+      "pinyin": "A: Nǐ hǎo! Wǒ jiào Ān.\nB: Nǐ hǎo!",
+      "meaning": "A: Xin chào! Tôi tên là An.\nB: Xin chào!",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l001-private-v4-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l001-private-v4-e1"
+    },
+    {
+      "id": "l001-private-v4-b3",
+      "type": "teaching",
+      "title": "Mẫu 我叫 + tên",
+      "text": "我 là tôi; 叫 ở đây dùng khi nói tên mình. Thứ tự là người nói + 叫 + tên. Không đảo vị trí tên lên trước 我. Bài tập dùng tên 安 để có một đáp án rõ ràng, không chấm tên riêng tự do.",
+      "hanzi": "我叫安。",
+      "pinyin": "Wǒ jiào Ān.",
+      "meaning": "Tôi tên là An.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l001-private-v4-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l001-private-v4-e2"
+    },
+    {
+      "id": "l001-private-v4-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l001-private-v4-e3"
+    },
+    {
+      "id": "l001-private-v4-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l001-private-v4-e4"
+    },
+    {
+      "id": "l001-private-v4-b7",
+      "type": "teaching",
+      "title": "Hỏi lại trong cùng ngữ cảnh",
+      "text": "Sau khi giới thiệu tên, A hỏi 你呢？ để mời người kia nói về mình. 呢 là trợ từ trong cấu trúc đang học. Câu hỏi này phụ thuộc ngữ cảnh; bản nháp không khẳng định nó dùng giống nhau trong mọi tình huống.",
+      "hanzi": "A：我叫安。你呢？",
+      "pinyin": "A: Wǒ jiào Ān. Nǐ ne?",
+      "meaning": "A: Tôi tên là An. Còn bạn thì sao?",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l001-private-v4-b8",
+      "type": "exercise",
+      "exerciseVersionId": "l001-private-v4-e5"
+    },
+    {
+      "id": "l001-private-v4-b9",
+      "type": "exercise",
+      "exerciseVersionId": "l001-private-v4-e6"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l001-private-v4-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l001-hello",
+      "senseId": "l001-sense-hello",
+      "keyRef": "l001-private-v4-e1-key-v1",
+      "prompt": "你好 trong hội thoại có nghĩa gì?",
+      "choices": [
+        "Xin chào.",
+        "Tôi tên là An.",
+        "Còn bạn thì sao?"
+      ],
+      "inputHint": "Chọn từng mảnh theo thứ tự; có thể bỏ mảnh cuối để sửa.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l001-private-v4-e2",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l001-jiao",
+      "senseId": "l001-sense-jiao",
+      "keyRef": "l001-private-v4-e2-key-v1",
+      "prompt": "Sắp xếp thành: Tôi tên là An.",
+      "choices": [
+        "安",
+        "我",
+        "叫"
+      ],
+      "inputHint": "Chọn từng mảnh theo thứ tự; có thể bỏ mảnh cuối để sửa.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l001-private-v4-e3",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l001-jiao",
+      "senseId": "l001-sense-jiao",
+      "keyRef": "l001-private-v4-e3-key-v1",
+      "prompt": "Nhập bằng chữ Hán: Tôi tên là An.",
+      "choices": [],
+      "inputHint": "Nhập đúng câu đã học bằng chữ Hán giản thể. Bỏ qua dấu câu và khoảng trắng; không chấm câu tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l001-private-v4-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l001-wo",
+      "senseId": "l001-sense-wo",
+      "keyRef": "l001-private-v4-e4-key-v1",
+      "prompt": "Gõ pinyin từ điển của 我.",
+      "choices": [],
+      "inputHint": "Gõ dấu thanh hoặc số, ví dụ wo3; không bỏ thanh.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l001-private-v4-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l001-ne",
+      "senseId": "l001-sense-ne",
+      "keyRef": "l001-private-v4-e5-key-v1",
+      "prompt": "Sau khi nói tên mình, 你呢？ hỏi điều gì?",
+      "choices": [
+        "Còn bạn thì sao?",
+        "Tôi thích trà.",
+        "Xin chào."
+      ],
+      "inputHint": "Chọn từng mảnh theo thứ tự; có thể bỏ mảnh cuối để sửa.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l001-private-v4-e6",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l001-ni",
+      "senseId": "l001-sense-ni",
+      "keyRef": "l001-private-v4-e6-key-v1",
+      "prompt": "Sắp xếp lời hỏi lại: Còn bạn thì sao?",
+      "choices": [
+        "呢",
+        "你"
+      ],
+      "inputHint": "Chọn từng mảnh theo thứ tự; có thể bỏ mảnh cuối để sửa.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l001-private-v4-e1-key-v1",
+      "version": 1,
+      "exerciseVersionId": "l001-private-v4-e1",
+      "senseId": "l001-sense-hello",
+      "accepted": [
+        "Xin chào."
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "你好 · nǐ hǎo là lời chào trong ngữ cảnh này. Cách đọc thực tế của chuỗi thanh 3 cần mẫu âm được duyệt."
+    },
+    {
+      "id": "l001-private-v4-e2-key-v1",
+      "version": 1,
+      "exerciseVersionId": "l001-private-v4-e2",
+      "senseId": "l001-sense-jiao",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Thứ tự trong câu mẫu là 我 + 叫 + 安. Đây là luyện tập theo đáp án nháp, không phải đánh giá hội thoại tự do."
+    },
+    {
+      "id": "l001-private-v4-e3-key-v1",
+      "version": 1,
+      "exerciseVersionId": "l001-private-v4-e3",
+      "senseId": "l001-sense-jiao",
+      "accepted": [
+        "我叫安"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án mẫu: 我叫安。Ứng dụng bỏ qua dấu câu/khoảng trắng, nhưng giữ thứ tự chữ và nghĩa."
+    },
+    {
+      "id": "l001-private-v4-e4-key-v1",
+      "version": 1,
+      "exerciseVersionId": "l001-private-v4-e4",
+      "senseId": "l001-sense-wo",
+      "accepted": [
+        "wǒ"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "我 có pinyin từ điển wǒ (wo3). Thanh khác hoặc thiếu thanh không được tính khớp."
+    },
+    {
+      "id": "l001-private-v4-e5-key-v1",
+      "version": 1,
+      "exerciseVersionId": "l001-private-v4-e5",
+      "senseId": "l001-sense-ne",
+      "accepted": [
+        "Còn bạn thì sao?"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "你呢？ hỏi lại người đối thoại trong ngữ cảnh vừa nói về bản thân. Không có nghĩa là một lời tự giới thiệu mới."
+    },
+    {
+      "id": "l001-private-v4-e6-key-v1",
+      "version": 1,
+      "exerciseVersionId": "l001-private-v4-e6",
+      "senseId": "l001-sense-ni",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Câu mẫu là 你呢？(nǐ ne). 呢 đọc thanh nhẹ trong ví dụ này."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

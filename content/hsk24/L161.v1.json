@@ -1,0 +1,709 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "bc35a1b15aea7fc84d7f2642276fe0f7bb89a582809ad95d3548ca369d16e0fa",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-bd",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L161",
+    "version": 1,
+    "versionId": "l161-draft-v1",
+    "title": "Hỏi số lượng ít và nhiều",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Hỏi số lượng ít và nhiều; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "几"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:27:25.806090Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-thing",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "问答物品信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-b411fd04a9b3",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "物品名称"
+        },
+        "written": "物品名称",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l161-v-46",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 80,
+          "physicalPage": 81,
+          "printedPage": 78,
+          "section": "vocabulary",
+          "entry": "ordinal 46"
+        },
+        "written": "多",
+        "pinyin": "duō",
+        "senseId": "l161-v-46-sense",
+        "ordinal": 46,
+        "note": "1（2） duō 形、动、代、（数、副）; 多 trong 很多 tả số lượng nhiều; câu không cho biết chính xác bao nhiêu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l161-v-180",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 180"
+        },
+        "written": "少",
+        "pinyin": "shǎo",
+        "senseId": "l161-v-180-sense",
+        "ordinal": 180,
+        "note": "1 shǎo 形、动; 少 trong 很少 tả ít theo ngữ cảnh; không tự bằng số0. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l161-v-85",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 85"
+        },
+        "written": "几",
+        "pinyin": "jǐ",
+        "senseId": "l161-v-85-sense",
+        "ordinal": 85,
+        "note": "1 jǐ 代、数; 几 trong 几本书 hỏi số lượng; đề nêu âm để phân biệt với 多少. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l161-v-111",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 81,
+          "physicalPage": 82,
+          "printedPage": 79,
+          "section": "vocabulary",
+          "entry": "ordinal 111"
+        },
+        "written": "两1",
+        "pinyin": "liǎng",
+        "senseId": "l161-v-111-sense",
+        "ordinal": 111,
+        "note": "1 liǎng 数; 两 trong 两本书 là hai; không thay mọi cách viết số二 trên lịch hay chuỗi đếm bằng 两. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-41",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "41"
+        },
+        "written": "多",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 41,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-150",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "150"
+        },
+        "written": "少",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 150,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-79",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "79"
+        },
+        "written": "几",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 79,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-101",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "101"
+        },
+        "written": "两",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 101,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-161",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-8"
+        },
+        "written": "几",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l161-c0",
+      "version": 1,
+      "senseId": "l161-v-46-sense",
+      "hanzi": "多",
+      "dictionaryPinyin": "duō",
+      "meaning": "nhiều",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l161-v-46"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l161-c1",
+      "version": 1,
+      "senseId": "l161-v-180-sense",
+      "hanzi": "少",
+      "dictionaryPinyin": "shǎo",
+      "meaning": "ít",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l161-v-180"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l161-c2",
+      "version": 1,
+      "senseId": "l161-v-85-sense",
+      "hanzi": "几",
+      "dictionaryPinyin": "jǐ",
+      "meaning": "mấy; bao nhiêu (dạng jǐ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l161-v-85"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l161-c3",
+      "version": 1,
+      "senseId": "l161-v-111-sense",
+      "hanzi": "两",
+      "dictionaryPinyin": "liǎng",
+      "meaning": "hai (dạng liǎng trước lượng từ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l161-v-111"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l161-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l161-t0",
+      "type": "teaching",
+      "title": "多 · nhiều",
+      "text": "多 trong 很多 tả số lượng nhiều; câu không cho biết chính xác bao nhiêu.",
+      "hanzi": "我的书很多。",
+      "pinyin": "Wǒ de shū hěn duō.",
+      "meaning": "Sách của tôi nhiều.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l161-t1",
+      "type": "teaching",
+      "title": "少 · ít",
+      "text": "少 trong 很少 tả ít theo ngữ cảnh; không tự bằng số0.",
+      "hanzi": "我的书很少。",
+      "pinyin": "Wǒ de shū hěn shǎo.",
+      "meaning": "Sách của tôi ít.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l161-t2",
+      "type": "teaching",
+      "title": "几 · mấy; bao nhiêu (dạng jǐ)",
+      "text": "几 trong 几本书 hỏi số lượng; đề nêu âm để phân biệt với 多少.",
+      "hanzi": "你有几本书？",
+      "pinyin": "Nǐ yǒu jǐ běn shū?",
+      "meaning": "Bạn có mấy quyển sách?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l161-t3",
+      "type": "teaching",
+      "title": "两 · hai (dạng liǎng trước lượng từ)",
+      "text": "两 trong 两本书 là hai; không thay mọi cách viết số二 trên lịch hay chuỗi đếm bằng 两.",
+      "hanzi": "我有两本书。",
+      "pinyin": "Wǒ yǒu liǎng běn shū.",
+      "meaning": "Tôi có hai quyển sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l161-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "几 thường hỏi số lượng nhỏ/được hình dung là không lớn; 多少 có phạm vi rộng hơn, không dùng một ranh10 tuyệt đối cho mọi câu. 两 thường đứng trước lượng từ như 两本书; 二 dùng trong chuỗi đếm/nhãn số đã học. 多/少 tả nhiều/ít theo ngữ cảnh, không phải số đếm cụ thể.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l161-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：你有几本书？\nB：我有两本书。你呢？\nA：我的书很多。",
+      "pinyin": "A: Nǐ yǒu jǐ běn shū? B: Wǒ yǒu liǎng běn shū. Nǐ ne? A: Wǒ de shū hěn duō.",
+      "meaning": "B có hai quyển; A chỉ nói có nhiều, chưa cho một con số chính xác.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l161-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l161-v1-e0"
+    },
+    {
+      "id": "l161-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l161-v1-e1"
+    },
+    {
+      "id": "l161-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l161-v1-e2"
+    },
+    {
+      "id": "l161-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l161-v1-e3"
+    },
+    {
+      "id": "l161-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l161-v1-e4"
+    },
+    {
+      "id": "l161-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l161-v1-e5"
+    },
+    {
+      "id": "l161-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l161-v1-e6"
+    },
+    {
+      "id": "l161-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l161-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l161-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l161-c0",
+      "senseId": "l161-v-46-sense",
+      "keyRef": "l161-v1-k0",
+      "prompt": "Chọn mục từ đọc duō, nghĩa “nhiều”, trong câu: 我的书很□。",
+      "choices": [
+        "少",
+        "几",
+        "两",
+        "多"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l161-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l161-c1",
+      "senseId": "l161-v-180-sense",
+      "keyRef": "l161-v1-k1",
+      "prompt": "Viết pinyin từ điển của 少 (ít).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l161-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l161-c2",
+      "senseId": "l161-v-85-sense",
+      "keyRef": "l161-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “mấy; bao nhiêu (dạng jǐ)”: □ (jǐ). Ngữ cảnh: 你有□本书？ Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "凡",
+        "几",
+        "儿",
+        "九"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l161-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l161-c3",
+      "senseId": "l161-v-111-sense",
+      "keyRef": "l161-v1-k3",
+      "prompt": "Chọn mục từ đọc liǎng, nghĩa “hai (dạng liǎng trước lượng từ)”, trong câu: 我有□本书。",
+      "choices": [
+        "多",
+        "少",
+        "几",
+        "两"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l161-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l161-c2",
+      "senseId": "l161-v-85-sense",
+      "keyRef": "l161-v1-k4",
+      "prompt": "Trong câu “你有几本书？”, 几 mang nghĩa nào theo bài?",
+      "choices": [
+        "ít",
+        "mấy; bao nhiêu (dạng jǐ)",
+        "hai (dạng liǎng trước lượng từ)",
+        "nhiều"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l161-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l161-c3",
+      "senseId": "l161-v-111-sense",
+      "keyRef": "l161-v1-k5",
+      "prompt": "Trong câu “我有两本书。”, 两 mang nghĩa nào theo bài?",
+      "choices": [
+        "mấy; bao nhiêu (dạng jǐ)",
+        "hai (dạng liǎng trước lượng từ)",
+        "nhiều",
+        "ít"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l161-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l161-c0",
+      "senseId": "l161-v-46-sense",
+      "keyRef": "l161-v1-k6",
+      "prompt": "Ai nêu đúng số lượng hai quyển?",
+      "choices": [
+        "A",
+        "Cả hai đều nêu hai",
+        "B"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l161-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l161-c3",
+      "senseId": "l161-v-111-sense",
+      "keyRef": "l161-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我",
+        "有",
+        "两本书。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l161-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l161-v1-e0",
+      "senseId": "l161-v-46-sense",
+      "accepted": [
+        "多"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc duō: 多. 多 trong 很多 tả số lượng nhiều; câu không cho biết chính xác bao nhiêu. Sách của tôi nhiều."
+    },
+    {
+      "id": "l161-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l161-v1-e1",
+      "senseId": "l161-v-180-sense",
+      "accepted": [
+        "shǎo"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "少 ghi shǎo. 少 trong 很少 tả ít theo ngữ cảnh; không tự bằng số0."
+    },
+    {
+      "id": "l161-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l161-v1-e2",
+      "senseId": "l161-v-85-sense",
+      "accepted": [
+        "几"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 几 tạo từ 几. 几 trong 几本书 hỏi số lượng; đề nêu âm để phân biệt với 多少. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l161-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l161-v1-e3",
+      "senseId": "l161-v-111-sense",
+      "accepted": [
+        "两"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc liǎng: 两. 两 trong 两本书 là hai; không thay mọi cách viết số二 trên lịch hay chuỗi đếm bằng 两. Tôi có hai quyển sách."
+    },
+    {
+      "id": "l161-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l161-v1-e4",
+      "senseId": "l161-v-85-sense",
+      "accepted": [
+        "mấy; bao nhiêu (dạng jǐ)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "几 trong 几本书 hỏi số lượng; đề nêu âm để phân biệt với 多少. Bạn có mấy quyển sách?"
+    },
+    {
+      "id": "l161-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l161-v1-e5",
+      "senseId": "l161-v-111-sense",
+      "accepted": [
+        "hai (dạng liǎng trước lượng từ)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "两 trong 两本书 là hai; không thay mọi cách viết số二 trên lịch hay chuỗi đếm bằng 两. Tôi có hai quyển sách."
+    },
+    {
+      "id": "l161-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l161-v1-e6",
+      "senseId": "l161-v-46-sense",
+      "accepted": [
+        "B"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: B. B có hai quyển; A chỉ nói có nhiều, chưa cho một con số chính xác."
+    },
+    {
+      "id": "l161-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l161-v1-e7",
+      "senseId": "l161-v-111-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 几 thường hỏi số lượng nhỏ/được hình dung là không lớn; 多少 có phạm vi rộng hơn, không dùng một ranh10 tuyệt đối cho mọi câu. 两 thường đứng trước lượng từ như 两本书; 二 dùng trong chuỗi đếm/nhãn số đã học. 多/少 tả nhiều/ít theo ngữ cảnh, không phải số đếm cụ thể."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

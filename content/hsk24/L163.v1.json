@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "cd0dd7bb42deb74cd1bceb163ea69590fa1eb30bca004fd2d2859a6806e88131",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-bd",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L163",
+    "version": 1,
+    "versionId": "l163-draft-v1",
+    "title": "Một phần và một ít",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Một phần và một ít; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "数量短语"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:27:25.806090Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-thing",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "问答物品信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-b411fd04a9b3",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "物品名称"
+        },
+        "written": "物品名称",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l163-v-258",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 258"
+        },
+        "written": "一半",
+        "pinyin": "yíbàn",
+        "senseId": "l163-v-258-sense",
+        "ordinal": 258,
+        "note": "1 yíbàn 数; 一半 là một nửa của toàn thể đang nói; không tự xác định toàn thể có bao nhiêu phần tử. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l163-v-261",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 261"
+        },
+        "written": "一点儿",
+        "pinyin": "yìdiǎnr",
+        "senseId": "l163-v-261-sense",
+        "ordinal": 261,
+        "note": "1 yìdiǎnr 数量; 一点儿 ở ví dụ là lượng nước nhỏ; giữ hóa r khi hỏi đúng mục nguồn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l163-v-262",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 262"
+        },
+        "written": "一些",
+        "pinyin": "yìxiē",
+        "senseId": "l163-v-262-sense",
+        "ordinal": 262,
+        "note": "1 yìxiē 数量; 一些 thường đi với danh từ; không coi nó là một con số chính xác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l163-v-266",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 266"
+        },
+        "written": "有些",
+        "pinyin": "yǒuxiē",
+        "senseId": "l163-v-266-sense",
+        "ordinal": 266,
+        "note": "1（3） yǒuxiē 代、（副）; 有些 trong 有些书 chỉ một số sách; bài chưa khái quát mọi cách dùng mức độ của từ này. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-212",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "212"
+        },
+        "written": "一",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 212,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-8",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "8"
+        },
+        "written": "半",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 8,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-35",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "35"
+        },
+        "written": "点",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 35,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-42",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "42"
+        },
+        "written": "儿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 42,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-200",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "200"
+        },
+        "written": "些",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 200,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-220",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "220"
+        },
+        "written": "有",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 220,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-163",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 386,
+          "physicalPage": 387,
+          "printedPage": 384,
+          "section": "grammar",
+          "entry": "g-386-5"
+        },
+        "written": "数量短语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l163-c0",
+      "version": 1,
+      "senseId": "l163-v-258-sense",
+      "hanzi": "一半",
+      "dictionaryPinyin": "yí bàn",
+      "meaning": "một nửa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l163-v-258"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l163-c1",
+      "version": 1,
+      "senseId": "l163-v-261-sense",
+      "hanzi": "一点儿",
+      "dictionaryPinyin": "yì diǎnr",
+      "meaning": "một ít; một chút (dạng yìdiǎnr)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l163-v-261"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l163-c2",
+      "version": 1,
+      "senseId": "l163-v-262-sense",
+      "hanzi": "一些",
+      "dictionaryPinyin": "yì xiē",
+      "meaning": "một số; một ít (dạng yìxiē)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l163-v-262"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l163-c3",
+      "version": 1,
+      "senseId": "l163-v-266-sense",
+      "hanzi": "有些",
+      "dictionaryPinyin": "yǒu xiē",
+      "meaning": "một số (dạng yǒuxiē trong mẫu danh từ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l163-v-266"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l163-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l163-t0",
+      "type": "teaching",
+      "title": "一半 · một nửa",
+      "text": "一半 là một nửa của toàn thể đang nói; không tự xác định toàn thể có bao nhiêu phần tử.",
+      "hanzi": "这些苹果，一半是我的。",
+      "pinyin": "Zhè xiē píng guǒ, yí bàn shì wǒ de.",
+      "meaning": "Những quả táo này, một nửa là của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l163-t1",
+      "type": "teaching",
+      "title": "一点儿 · một ít; một chút (dạng yìdiǎnr)",
+      "text": "一点儿 ở ví dụ là lượng nước nhỏ; giữ hóa r khi hỏi đúng mục nguồn.",
+      "hanzi": "我想喝一点儿水。",
+      "pinyin": "Wǒ xiǎng hē yì diǎnr shuǐ.",
+      "meaning": "Tôi muốn uống một chút nước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l163-t2",
+      "type": "teaching",
+      "title": "一些 · một số; một ít (dạng yìxiē)",
+      "text": "一些 thường đi với danh từ; không coi nó là một con số chính xác.",
+      "hanzi": "我有一些书。",
+      "pinyin": "Wǒ yǒu yì xiē shū.",
+      "meaning": "Tôi có một số sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l163-t3",
+      "type": "teaching",
+      "title": "有些 · một số (dạng yǒuxiē trong mẫu danh từ)",
+      "text": "有些 trong 有些书 chỉ một số sách; bài chưa khái quát mọi cách dùng mức độ của từ này.",
+      "hanzi": "有些书是新的。",
+      "pinyin": "Yǒu xiē shū shì xīn de.",
+      "meaning": "Một số sách là sách mới.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l163-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "一半 là một nửa của một lượng/nhóm đã nêu. 一点儿 và 一些 nói một ít/một số, không ấn định số chính xác; 一点儿 nhấn lượng nhỏ trong ví dụ. 有些 + danh từ nói một số đối tượng. Các từ gần nghĩa có chỗ giao nhau nên câu từ vựng nêu rõ âm của mục được hỏi.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l163-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：这些苹果都是你的吗？\nB：不是，一半是我的，一半是我姐姐的。\nA：你有一些书吗？\nB：有。",
+      "pinyin": "A: Zhè xiē píng guǒ dōu shì nǐ de ma? B: Bú shì, yí bàn shì wǒ de, yí bàn shì wǒ jiě jie de. A: Nǐ yǒu yì xiē shū ma? B: Yǒu.",
+      "meaning": "都 dōu = đều/tất cả, học mục riêng ở nhóm cuối. B nhận một nửa táo; nửa còn lại là của chị. Không nêu tổng số táo.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l163-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l163-v1-e0"
+    },
+    {
+      "id": "l163-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l163-v1-e1"
+    },
+    {
+      "id": "l163-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l163-v1-e2"
+    },
+    {
+      "id": "l163-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l163-v1-e3"
+    },
+    {
+      "id": "l163-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l163-v1-e4"
+    },
+    {
+      "id": "l163-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l163-v1-e5"
+    },
+    {
+      "id": "l163-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l163-v1-e6"
+    },
+    {
+      "id": "l163-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l163-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l163-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l163-c0",
+      "senseId": "l163-v-258-sense",
+      "keyRef": "l163-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “một nửa”: 一□ (yí bàn). Ngữ cảnh: 这些苹果，一□是我的。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "羊",
+        "平",
+        "米",
+        "半"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l163-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l163-c1",
+      "senseId": "l163-v-261-sense",
+      "keyRef": "l163-v1-k1",
+      "prompt": "Viết pinyin từ điển của 一点儿 (một ít; một chút (dạng yìdiǎnr)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l163-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l163-c2",
+      "senseId": "l163-v-262-sense",
+      "keyRef": "l163-v1-k2",
+      "prompt": "Điền đúng mục từ đọc yì xiē, nghĩa “một số; một ít (dạng yìxiē)”: 我有□书。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l163-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l163-c3",
+      "senseId": "l163-v-266-sense",
+      "keyRef": "l163-v1-k3",
+      "prompt": "Chọn mục từ đọc yǒu xiē, nghĩa “một số (dạng yǒuxiē trong mẫu danh từ)”, trong câu: □书是新的。",
+      "choices": [
+        "一半",
+        "一点儿",
+        "一些",
+        "有些"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l163-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l163-c2",
+      "senseId": "l163-v-262-sense",
+      "keyRef": "l163-v1-k4",
+      "prompt": "Trong câu “我有一些书。”, 一些 mang nghĩa nào theo bài?",
+      "choices": [
+        "một ít; một chút (dạng yìdiǎnr)",
+        "một số; một ít (dạng yìxiē)",
+        "một số (dạng yǒuxiē trong mẫu danh từ)",
+        "một nửa"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l163-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l163-c3",
+      "senseId": "l163-v-266-sense",
+      "keyRef": "l163-v1-k5",
+      "prompt": "Trong câu “有些书是新的。”, 有些 mang nghĩa nào theo bài?",
+      "choices": [
+        "một số; một ít (dạng yìxiē)",
+        "một số (dạng yǒuxiē trong mẫu danh từ)",
+        "một nửa",
+        "một ít; một chút (dạng yìdiǎnr)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l163-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l163-c0",
+      "senseId": "l163-v-258-sense",
+      "keyRef": "l163-v1-k6",
+      "prompt": "Phần táo B nhận là bao nhiêu?",
+      "choices": [
+        "Tất cả",
+        "Không có quả nào",
+        "一半"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l163-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l163-c3",
+      "senseId": "l163-v-266-sense",
+      "keyRef": "l163-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "这些苹果，",
+        "一半",
+        "是我的。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l163-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l163-v1-e0",
+      "senseId": "l163-v-258-sense",
+      "accepted": [
+        "半"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 半 tạo từ 一半. 一半 là một nửa của toàn thể đang nói; không tự xác định toàn thể có bao nhiêu phần tử. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l163-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l163-v1-e1",
+      "senseId": "l163-v-261-sense",
+      "accepted": [
+        "yì diǎnr"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一点儿 ghi yì diǎnr. 一点儿 ở ví dụ là lượng nước nhỏ; giữ hóa r khi hỏi đúng mục nguồn."
+    },
+    {
+      "id": "l163-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l163-v1-e2",
+      "senseId": "l163-v-262-sense",
+      "accepted": [
+        "一些"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc yì xiē: 一些. 一些 thường đi với danh từ; không coi nó là một con số chính xác. Tôi có một số sách."
+    },
+    {
+      "id": "l163-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l163-v1-e3",
+      "senseId": "l163-v-266-sense",
+      "accepted": [
+        "有些"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc yǒu xiē: 有些. 有些 trong 有些书 chỉ một số sách; bài chưa khái quát mọi cách dùng mức độ của từ này. Một số sách là sách mới."
+    },
+    {
+      "id": "l163-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l163-v1-e4",
+      "senseId": "l163-v-262-sense",
+      "accepted": [
+        "một số; một ít (dạng yìxiē)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一些 thường đi với danh từ; không coi nó là một con số chính xác. Tôi có một số sách."
+    },
+    {
+      "id": "l163-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l163-v1-e5",
+      "senseId": "l163-v-266-sense",
+      "accepted": [
+        "một số (dạng yǒuxiē trong mẫu danh từ)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "有些 trong 有些书 chỉ một số sách; bài chưa khái quát mọi cách dùng mức độ của từ này. Một số sách là sách mới."
+    },
+    {
+      "id": "l163-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l163-v1-e6",
+      "senseId": "l163-v-258-sense",
+      "accepted": [
+        "一半"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 一半. 都 dōu = đều/tất cả, học mục riêng ở nhóm cuối. B nhận một nửa táo; nửa còn lại là của chị. Không nêu tổng số táo."
+    },
+    {
+      "id": "l163-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l163-v1-e7",
+      "senseId": "l163-v-266-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 一半 là một nửa của một lượng/nhóm đã nêu. 一点儿 và 一些 nói một ít/một số, không ấn định số chính xác; 一点儿 nhấn lượng nhỏ trong ví dụ. 有些 + danh từ nói một số đối tượng. Các từ gần nghĩa có chỗ giao nhau nên câu từ vựng nêu rõ âm của mục được hỏi."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,763 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "86d6ba578b81b887c18d50b2f9b5da5932fa9e11e7786dc43506a32180a1f9f6",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-ba",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L148",
+    "version": 1,
+    "versionId": "l148-draft-v1",
+    "title": "Hẹn lúc nào trong tuần",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Hẹn lúc nào trong tuần; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "什么"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "二"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:01:24.391777Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-event",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "问答事件信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-f80c6b43ef6a",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "日期、时间、地点、方位、参加者、号码等"
+        },
+        "written": "日期、时间、地点、方位、参加者、号码等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l148-v-244",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 244"
+        },
+        "written": "星期日",
+        "pinyin": "xīngqīrì",
+        "senseId": "l148-v-244-sense",
+        "ordinal": 244,
+        "note": "1 xīngqīrì 名; 星期日 cùng ngày với 星期天; đừng gán hai tên này thành hai ngày khác nhau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l148-v-245",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 85,
+          "physicalPage": 86,
+          "printedPage": 83,
+          "section": "vocabulary",
+          "entry": "ordinal 245"
+        },
+        "written": "星期天",
+        "pinyin": "xīngqītiān",
+        "senseId": "l148-v-245-sense",
+        "ordinal": 245,
+        "note": "1 xīngqītiān 名; 星期天 là tên khác của Chủ nhật; đề âm đọc này giữ chữ 天 ở cuối. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l148-v-185",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 185"
+        },
+        "written": "时候",
+        "pinyin": "shíhou",
+        "senseId": "l148-v-185-sense",
+        "ordinal": 185,
+        "note": "1 shíhou 名; 时候 trong 什么时候 hỏi lúc nào; âm sau nhẹ theo mục từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l148-v-186",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 186"
+        },
+        "written": "时间",
+        "pinyin": "shíjiān",
+        "senseId": "l148-v-186-sense",
+        "ordinal": 186,
+        "note": "1 shíjiān 名; 时间 trong 有时间 nói có thời gian rảnh cho việc đang nêu; không có giờ cụ thể nếu chưa nói. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-204",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "204"
+        },
+        "written": "星",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 204,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-135",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "135"
+        },
+        "written": "期",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 135,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-146",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "146"
+        },
+        "written": "日",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 146,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-176",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "176"
+        },
+        "written": "天",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 176,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-156",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "156"
+        },
+        "written": "时",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 156,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-71",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "71"
+        },
+        "written": "候",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 71,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-81",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "81"
+        },
+        "written": "间",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 81,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-148",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-8"
+        },
+        "written": "什么",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l148-c0",
+      "version": 1,
+      "senseId": "l148-v-244-sense",
+      "hanzi": "星期日",
+      "dictionaryPinyin": "xīng qī rì",
+      "meaning": "Chủ nhật (dạng kết thúc bằng rì)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l148-v-244"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l148-c1",
+      "version": 1,
+      "senseId": "l148-v-245-sense",
+      "hanzi": "星期天",
+      "dictionaryPinyin": "xīng qī tiān",
+      "meaning": "Chủ nhật (dạng kết thúc bằng tiān)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l148-v-245"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l148-c2",
+      "version": 1,
+      "senseId": "l148-v-185-sense",
+      "hanzi": "时候",
+      "dictionaryPinyin": "shí hou",
+      "meaning": "lúc; khi (dạng shíhou)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l148-v-185"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l148-c3",
+      "version": 1,
+      "senseId": "l148-v-186-sense",
+      "hanzi": "时间",
+      "dictionaryPinyin": "shí jiān",
+      "meaning": "thời gian (dạng shíjiān)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l148-v-186"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l148-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l148-t0",
+      "type": "teaching",
+      "title": "星期日 · Chủ nhật (dạng kết thúc bằng rì)",
+      "text": "星期日 cùng ngày với 星期天; đừng gán hai tên này thành hai ngày khác nhau.",
+      "hanzi": "星期日我休息。",
+      "pinyin": "Xīng qī rì wǒ xiū xi.",
+      "meaning": "Chủ nhật tôi nghỉ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l148-t1",
+      "type": "teaching",
+      "title": "星期天 · Chủ nhật (dạng kết thúc bằng tiān)",
+      "text": "星期天 là tên khác của Chủ nhật; đề âm đọc này giữ chữ 天 ở cuối.",
+      "hanzi": "我星期天不上班。",
+      "pinyin": "Wǒ xīng qī tiān bù shàng bān.",
+      "meaning": "Tôi không đi làm vào Chủ nhật.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l148-t2",
+      "type": "teaching",
+      "title": "时候 · lúc; khi (dạng shíhou)",
+      "text": "时候 trong 什么时候 hỏi lúc nào; âm sau nhẹ theo mục từ.",
+      "hanzi": "你什么时候上课？",
+      "pinyin": "Nǐ shén me shí hou shàng kè?",
+      "meaning": "Bạn lên lớp khi nào?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l148-t3",
+      "type": "teaching",
+      "title": "时间 · thời gian (dạng shíjiān)",
+      "text": "时间 trong 有时间 nói có thời gian rảnh cho việc đang nêu; không có giờ cụ thể nếu chưa nói.",
+      "hanzi": "我有时间。",
+      "pinyin": "Wǒ yǒu shí jiān.",
+      "meaning": "Tôi có thời gian.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l148-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "星期日/星期天 cùng chỉ Chủ nhật; bài phân biệt cách đọc/chữ cuối khi yêu cầu hình thức. 什么 + 时候 tạo câu hỏi khi nào: 你什么时候上课？时间 trong 有时间 nói có thời gian. Hai danh từ thời gian có chỗ giao nhau, nên đề từ vựng luôn chỉ rõ mục/âm đang hỏi.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l148-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：你星期天上班吗？\nB：不上班，我有时间。\nA：你什么时候读书？\nB：星期日我读书。",
+      "pinyin": "A: Nǐ xīng qī tiān shàng bān ma? B: Bù shàng bān, wǒ yǒu shí jiān. A: Nǐ shén me shí hou dú shū? B: Xīng qī rì wǒ dú shū.",
+      "meaning": "星期天 và 星期日 cùng Chủ nhật. B không đi làm và đọc sách vào ngày ấy; đoạn không nêu giờ.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l148-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l148-v1-e0"
+    },
+    {
+      "id": "l148-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l148-v1-e1"
+    },
+    {
+      "id": "l148-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l148-v1-e2"
+    },
+    {
+      "id": "l148-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l148-v1-e3"
+    },
+    {
+      "id": "l148-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l148-v1-e4"
+    },
+    {
+      "id": "l148-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l148-v1-e5"
+    },
+    {
+      "id": "l148-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l148-v1-e6"
+    },
+    {
+      "id": "l148-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l148-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l148-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l148-c0",
+      "senseId": "l148-v-244-sense",
+      "keyRef": "l148-v1-k0",
+      "prompt": "Chọn mục từ đọc xīng qī rì, nghĩa “Chủ nhật (dạng kết thúc bằng rì)”, trong câu: □我休息。",
+      "choices": [
+        "星期天",
+        "时候",
+        "时间",
+        "星期日"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l148-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l148-c1",
+      "senseId": "l148-v-245-sense",
+      "keyRef": "l148-v1-k1",
+      "prompt": "Viết pinyin từ điển của 星期天 (Chủ nhật (dạng kết thúc bằng tiān)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l148-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l148-c2",
+      "senseId": "l148-v-185-sense",
+      "keyRef": "l148-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “lúc; khi (dạng shíhou)”: □候 (shí hou). Ngữ cảnh: 你什么□候上课？ Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "寺",
+        "时",
+        "日",
+        "诗"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l148-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l148-c3",
+      "senseId": "l148-v-186-sense",
+      "keyRef": "l148-v1-k3",
+      "prompt": "Chọn mục từ đọc shí jiān, nghĩa “thời gian (dạng shíjiān)”, trong câu: 我有□。",
+      "choices": [
+        "星期日",
+        "星期天",
+        "时候",
+        "时间"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l148-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l148-c2",
+      "senseId": "l148-v-185-sense",
+      "keyRef": "l148-v1-k4",
+      "prompt": "Trong câu “你什么时候上课？”, 时候 mang nghĩa nào theo bài?",
+      "choices": [
+        "Chủ nhật (dạng kết thúc bằng tiān)",
+        "lúc; khi (dạng shíhou)",
+        "thời gian (dạng shíjiān)",
+        "Chủ nhật (dạng kết thúc bằng rì)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l148-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l148-c3",
+      "senseId": "l148-v-186-sense",
+      "keyRef": "l148-v1-k5",
+      "prompt": "Trong câu “我有时间。”, 时间 mang nghĩa nào theo bài?",
+      "choices": [
+        "lúc; khi (dạng shíhou)",
+        "thời gian (dạng shíjiān)",
+        "Chủ nhật (dạng kết thúc bằng rì)",
+        "Chủ nhật (dạng kết thúc bằng tiān)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l148-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l148-c0",
+      "senseId": "l148-v-244-sense",
+      "keyRef": "l148-v1-k6",
+      "prompt": "B có đi làm vào Chủ nhật không?",
+      "choices": [
+        "Có, B nói 上班",
+        "B không được hỏi",
+        "Không, B nói 不上班"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l148-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l148-c3",
+      "senseId": "l148-v-186-sense",
+      "keyRef": "l148-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我星期天",
+        "不",
+        "上班。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l148-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l148-v1-e0",
+      "senseId": "l148-v-244-sense",
+      "accepted": [
+        "星期日"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc xīng qī rì: 星期日. 星期日 cùng ngày với 星期天; đừng gán hai tên này thành hai ngày khác nhau. Chủ nhật tôi nghỉ."
+    },
+    {
+      "id": "l148-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l148-v1-e1",
+      "senseId": "l148-v-245-sense",
+      "accepted": [
+        "xīng qī tiān"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "星期天 ghi xīng qī tiān. 星期天 là tên khác của Chủ nhật; đề âm đọc này giữ chữ 天 ở cuối."
+    },
+    {
+      "id": "l148-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l148-v1-e2",
+      "senseId": "l148-v-185-sense",
+      "accepted": [
+        "时"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 时 tạo từ 时候. 时候 trong 什么时候 hỏi lúc nào; âm sau nhẹ theo mục từ. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l148-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l148-v1-e3",
+      "senseId": "l148-v-186-sense",
+      "accepted": [
+        "时间"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc shí jiān: 时间. 时间 trong 有时间 nói có thời gian rảnh cho việc đang nêu; không có giờ cụ thể nếu chưa nói. Tôi có thời gian."
+    },
+    {
+      "id": "l148-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l148-v1-e4",
+      "senseId": "l148-v-185-sense",
+      "accepted": [
+        "lúc; khi (dạng shíhou)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "时候 trong 什么时候 hỏi lúc nào; âm sau nhẹ theo mục từ. Bạn lên lớp khi nào?"
+    },
+    {
+      "id": "l148-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l148-v1-e5",
+      "senseId": "l148-v-186-sense",
+      "accepted": [
+        "thời gian (dạng shíjiān)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "时间 trong 有时间 nói có thời gian rảnh cho việc đang nêu; không có giờ cụ thể nếu chưa nói. Tôi có thời gian."
+    },
+    {
+      "id": "l148-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l148-v1-e6",
+      "senseId": "l148-v-244-sense",
+      "accepted": [
+        "Không, B nói 不上班"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: Không, B nói 不上班. 星期天 và 星期日 cùng Chủ nhật. B không đi làm và đọc sách vào ngày ấy; đoạn không nêu giờ."
+    },
+    {
+      "id": "l148-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l148-v1-e7",
+      "senseId": "l148-v-186-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 星期日/星期天 cùng chỉ Chủ nhật; bài phân biệt cách đọc/chữ cuối khi yêu cầu hình thức. 什么 + 时候 tạo câu hỏi khi nào: 你什么时候上课？时间 trong 有时间 nói có thời gian. Hai danh từ thời gian có chỗ giao nhau, nên đề từ vựng luôn chỉ rõ mục/âm đang hỏi."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

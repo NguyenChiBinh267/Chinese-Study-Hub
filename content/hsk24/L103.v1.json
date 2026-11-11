@@ -1,0 +1,788 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "fc71541633942e38c25be3363283aede1ad2f9bcbf0d8ef5411791ce38c512e9",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-b",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L103",
+    "version": 1,
+    "versionId": "l103-draft-v1",
+    "title": "Nói về một người",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Nói về một người; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "他"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 4,
+      "physicalPage": 5,
+      "printedPage": 2,
+      "section": "task",
+      "entry": "一"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T08:16:46.313372Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-person",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 4,
+          "physicalPage": 5,
+          "printedPage": 2,
+          "section": "task",
+          "entry": "一"
+        },
+        "written": "问答个人基本信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-00e3195e7830",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "姓名、国籍、年龄、性别、喜好、习惯等"
+        },
+        "written": "姓名、国籍、年龄、性别、喜好、习惯等",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l103-v-200",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 200"
+        },
+        "written": "他",
+        "pinyin": "tā",
+        "senseId": "l103-v-200-sense",
+        "ordinal": 200,
+        "note": "1 tā 代; 他 dùng thay người nam trong tình huống đã biết; không đoán giới tính chỉ từ tên. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l103-v-202",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 84,
+          "physicalPage": 85,
+          "printedPage": 82,
+          "section": "vocabulary",
+          "entry": "ordinal 202"
+        },
+        "written": "她",
+        "pinyin": "tā",
+        "senseId": "l103-v-202-sense",
+        "ordinal": 202,
+        "note": "1 tā 代; 她 cùng âm tā với 他, khác chữ viết và đối tượng đang được nhắc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l103-v-142",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 142"
+        },
+        "written": "男",
+        "pinyin": "nán",
+        "senseId": "l103-v-142-sense",
+        "ordinal": 142,
+        "note": "1 nán 形; 男 có thể xuất hiện như nhãn giới tính trên phiếu; 性别 được chú giải là “giới tính”, không tính mục từ mới. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l103-v-152",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 152"
+        },
+        "written": "女",
+        "pinyin": "nǚ",
+        "senseId": "l103-v-152-sense",
+        "ordinal": 152,
+        "note": "1 nǚ 形; 女 ở phiếu dưới đây là nhãn nữ, không phải toàn bộ nghĩa “con gái của ai”. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l103-v-156",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 156"
+        },
+        "written": "朋友",
+        "pinyin": "péngyou",
+        "senseId": "l103-v-156-sense",
+        "ordinal": 156,
+        "note": "1 péngyou 名; 朋友 gọi người bạn; không tự hiểu là 男朋友/女朋友. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-171",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "171"
+        },
+        "written": "他",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 171,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-173",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "173"
+        },
+        "written": "她",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 173,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-122",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "122"
+        },
+        "written": "男",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 122,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-130",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "130"
+        },
+        "written": "女",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 130,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-131",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "131"
+        },
+        "written": "朋",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 131,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-219",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 356,
+          "physicalPage": 357,
+          "printedPage": 354,
+          "section": "character",
+          "entry": "219"
+        },
+        "written": "友",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 219,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-103",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 385,
+          "physicalPage": 386,
+          "printedPage": 383,
+          "section": "grammar",
+          "entry": "g-385-9"
+        },
+        "written": "他",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l103-c0",
+      "version": 1,
+      "senseId": "l103-v-200-sense",
+      "hanzi": "他",
+      "dictionaryPinyin": "tā",
+      "meaning": "anh ấy; ông ấy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l103-v-200"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l103-c1",
+      "version": 1,
+      "senseId": "l103-v-202-sense",
+      "hanzi": "她",
+      "dictionaryPinyin": "tā",
+      "meaning": "cô ấy; bà ấy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l103-v-202"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l103-c2",
+      "version": 1,
+      "senseId": "l103-v-142-sense",
+      "hanzi": "男",
+      "dictionaryPinyin": "nán",
+      "meaning": "nam",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l103-v-142"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l103-c3",
+      "version": 1,
+      "senseId": "l103-v-152-sense",
+      "hanzi": "女",
+      "dictionaryPinyin": "nǚ",
+      "meaning": "nữ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l103-v-152"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l103-c4",
+      "version": 1,
+      "senseId": "l103-v-156-sense",
+      "hanzi": "朋友",
+      "dictionaryPinyin": "péng you",
+      "meaning": "bạn; bạn bè",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l103-v-156"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l103-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l103-t0",
+      "type": "teaching",
+      "title": "他 · anh ấy; ông ấy",
+      "text": "他 dùng thay người nam trong tình huống đã biết; không đoán giới tính chỉ từ tên.",
+      "hanzi": "他叫安。",
+      "pinyin": "Tā jiào Ān.",
+      "meaning": "Anh ấy tên An.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l103-t1",
+      "type": "teaching",
+      "title": "她 · cô ấy; bà ấy",
+      "text": "她 cùng âm tā với 他, khác chữ viết và đối tượng đang được nhắc.",
+      "hanzi": "她叫林。",
+      "pinyin": "Tā jiào Lín.",
+      "meaning": "Cô ấy tên Lâm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l103-t2",
+      "type": "teaching",
+      "title": "男 · nam",
+      "text": "男 có thể xuất hiện như nhãn giới tính trên phiếu; 性别 được chú giải là “giới tính”, không tính mục từ mới.",
+      "hanzi": "性别：男。",
+      "pinyin": "Xìng bié: nán.",
+      "meaning": "Giới tính: nam.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l103-t3",
+      "type": "teaching",
+      "title": "女 · nữ",
+      "text": "女 ở phiếu dưới đây là nhãn nữ, không phải toàn bộ nghĩa “con gái của ai”.",
+      "hanzi": "性别：女。",
+      "pinyin": "Xìng bié: nǚ.",
+      "meaning": "Giới tính: nữ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l103-t4",
+      "type": "teaching",
+      "title": "朋友 · bạn; bạn bè",
+      "text": "朋友 gọi người bạn; không tự hiểu là 男朋友/女朋友.",
+      "hanzi": "你好，朋友！",
+      "pinyin": "Nǐ hǎo, péng you!",
+      "meaning": "Chào bạn!",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l103-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "他 và 她 đều đọc tā; trong bài chữ, 他 dùng cho người nam, 她 cho người nữ theo thông tin đã cho. Không thể phân biệt hai chữ chỉ từ âm tā. 男/女 trong phiếu là nhãn nam/nữ; 朋友 không tự có nghĩa người yêu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l103-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "Phiếu trong truyện ghi：安，男；林，女。\nA：我认识他，他叫安。\nB：我认识她，她叫林。\nA：你好，朋友！",
+      "pinyin": "Phiếu: Ān, nán; Lín, nǚ. A: Wǒ rèn shi tā, tā jiào Ān. B: Wǒ rèn shi tā, tā jiào Lín. A: Nǐ hǎo, péng you!",
+      "meaning": "Nam/nữ đã được ghi rõ trên phiếu hư cấu; không suy từ tên người hoặc từ âm tā.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l103-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l103-v1-e0"
+    },
+    {
+      "id": "l103-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l103-v1-e1"
+    },
+    {
+      "id": "l103-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l103-v1-e2"
+    },
+    {
+      "id": "l103-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l103-v1-e3"
+    },
+    {
+      "id": "l103-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l103-v1-e4"
+    },
+    {
+      "id": "l103-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l103-v1-e5"
+    },
+    {
+      "id": "l103-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l103-v1-e6"
+    },
+    {
+      "id": "l103-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l103-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l103-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l103-c0",
+      "senseId": "l103-v-200-sense",
+      "keyRef": "l103-v1-k0",
+      "prompt": "Chọn mục từ có nghĩa “anh ấy; ông ấy” trong câu: □叫安。",
+      "choices": [
+        "她",
+        "男",
+        "女",
+        "朋友",
+        "他"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l103-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l103-c1",
+      "senseId": "l103-v-202-sense",
+      "keyRef": "l103-v1-k1",
+      "prompt": "Viết pinyin từ điển của 她 (cô ấy; bà ấy).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l103-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l103-c2",
+      "senseId": "l103-v-142-sense",
+      "keyRef": "l103-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “nam”: □ (nán). Ngữ cảnh: 性别：□。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "女",
+        "男",
+        "田",
+        "力"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l103-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l103-c3",
+      "senseId": "l103-v-152-sense",
+      "keyRef": "l103-v1-k3",
+      "prompt": "Chọn mục từ có nghĩa “nữ” trong câu: 性别：□。",
+      "choices": [
+        "朋友",
+        "他",
+        "她",
+        "男",
+        "女"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l103-v1-e4",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l103-c4",
+      "senseId": "l103-v-156-sense",
+      "keyRef": "l103-v1-k4",
+      "prompt": "Điền đúng mục từ của bài có nghĩa “bạn; bạn bè”: 你好，□！ Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l103-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l103-c2",
+      "senseId": "l103-v-142-sense",
+      "keyRef": "l103-v1-k5",
+      "prompt": "Trong câu “性别：男。”, 男 mang nghĩa nào theo bài?",
+      "choices": [
+        "cô ấy; bà ấy",
+        "nam",
+        "nữ",
+        "bạn; bạn bè",
+        "anh ấy; ông ấy"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l103-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l103-c0",
+      "senseId": "l103-v-200-sense",
+      "keyRef": "l103-v1-k6",
+      "prompt": "Theo phiếu đã cho, ai được ghi 男?",
+      "choices": [
+        "林",
+        "Không được ghi ai",
+        "安"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l103-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l103-c3",
+      "senseId": "l103-v-152-sense",
+      "keyRef": "l103-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "他",
+        "叫",
+        "安。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l103-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l103-v1-e0",
+      "senseId": "l103-v-200-sense",
+      "accepted": [
+        "他"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "他: anh ấy; ông ấy. 他 dùng thay người nam trong tình huống đã biết; không đoán giới tính chỉ từ tên. Anh ấy tên An."
+    },
+    {
+      "id": "l103-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l103-v1-e1",
+      "senseId": "l103-v-202-sense",
+      "accepted": [
+        "tā"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "她 ghi tā. 她 cùng âm tā với 他, khác chữ viết và đối tượng đang được nhắc."
+    },
+    {
+      "id": "l103-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l103-v1-e2",
+      "senseId": "l103-v-142-sense",
+      "accepted": [
+        "男"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 男 tạo từ 男. 男 có thể xuất hiện như nhãn giới tính trên phiếu; 性别 được chú giải là “giới tính”, không tính mục từ mới. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l103-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l103-v1-e3",
+      "senseId": "l103-v-152-sense",
+      "accepted": [
+        "女"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "女: nữ. 女 ở phiếu dưới đây là nhãn nữ, không phải toàn bộ nghĩa “con gái của ai”. Giới tính: nữ."
+    },
+    {
+      "id": "l103-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l103-v1-e4",
+      "senseId": "l103-v-156-sense",
+      "accepted": [
+        "朋友"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "朋友: bạn; bạn bè. 朋友 gọi người bạn; không tự hiểu là 男朋友/女朋友. Chào bạn!"
+    },
+    {
+      "id": "l103-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l103-v1-e5",
+      "senseId": "l103-v-142-sense",
+      "accepted": [
+        "nam"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "男 có thể xuất hiện như nhãn giới tính trên phiếu; 性别 được chú giải là “giới tính”, không tính mục từ mới. Giới tính: nam."
+    },
+    {
+      "id": "l103-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l103-v1-e6",
+      "senseId": "l103-v-200-sense",
+      "accepted": [
+        "安"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 安. Nam/nữ đã được ghi rõ trên phiếu hư cấu; không suy từ tên người hoặc từ âm tā."
+    },
+    {
+      "id": "l103-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l103-v1-e7",
+      "senseId": "l103-v-152-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 他 và 她 đều đọc tā; trong bài chữ, 他 dùng cho người nam, 她 cho người nữ theo thông tin đã cho. Không thể phân biệt hai chữ chỉ từ âm tā. 男/女 trong phiếu là nhãn nam/nữ; 朋友 không tự có nghĩa người yêu."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

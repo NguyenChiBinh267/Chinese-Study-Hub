@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "df8ab52393e70d4777ee53b2260e53a490fe95d7ff2547c08aa476a79427f174",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-emotions-change",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L349",
+    "version": 1,
+    "versionId": "l349-draft-v1",
+    "title": "Cảm xúc khi kế hoạch thay đổi",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc lời nói vui, buồn, giận và lo; không suy đoán nguyên nhân khi chưa hỏi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "看起来"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-social",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "日常交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-feelings",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "意愿感受"
+        },
+        "written": "意愿感受",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l349-v-729",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 729"
+        },
+        "written": "开心",
+        "pinyin": "kāixīn",
+        "senseId": "l349-v-729-sense",
+        "ordinal": 729,
+        "note": "3 kāixīn 形; 开心 nói cảm thấy vui/hân hoan, không phải mở tim theo từng chữ. 很开心 là trạng thái, không nhất thiết mọi lúc đều vui. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l349-v-740",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 740"
+        },
+        "written": "哭",
+        "pinyin": "kū",
+        "senseId": "l349-v-740-sense",
+        "ordinal": 740,
+        "note": "3 kū 动; 哭 là khóc; nhìn thấy khóc không đủ biết vui hay buồn nếu chưa có ngữ cảnh. 别哭 chỉ lời an ủi, không xóa cảm xúc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l349-v-777",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 98,
+          "physicalPage": 99,
+          "printedPage": 96,
+          "section": "vocabulary",
+          "entry": "ordinal 777"
+        },
+        "written": "难过",
+        "pinyin": "nánguò",
+        "senseId": "l349-v-777-sense",
+        "ordinal": 777,
+        "note": "3 nánguò 形; 难过 là buồn hoặc cảm thấy khó chịu tùy ngữ cảnh; khác 难 là khó làm. 别难过 là lời an ủi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l349-v-830",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 830"
+        },
+        "written": "生气",
+        "pinyin": "shēngqì",
+        "senseId": "l349-v-830-sense",
+        "ordinal": 830,
+        "note": "3 shēngqì 动; 生气 thường có thể tách trong 生我的气; 对…生气 nói giận về ai/việc. Không phải “sinh ra không khí”. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l349-v-969",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 969"
+        },
+        "written": "着急",
+        "pinyin": "zháojí",
+        "senseId": "l349-v-969-sense",
+        "ordinal": 969,
+        "note": "3 zháojí 形; 着急 là lo và sốt ruột về việc gấp hoặc chưa rõ; 着 ở đây đọc zháo, khác trợ từ zhe. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l349-v-691",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 691"
+        },
+        "written": "急",
+        "pinyin": "jí",
+        "senseId": "l349-v-691-sense",
+        "ordinal": 691,
+        "note": "3 jí 形、动; 急 trong 别急 là đừng vội/đừng sốt ruột; 这件事很急 là việc gấp. Đề giữ mục từ một chữ để tránh trùng 着急. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-233",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "233"
+        },
+        "written": "心",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 233,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-131",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "131"
+        },
+        "written": "哭",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 131,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-157",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "157"
+        },
+        "written": "难",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 157,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-94",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "94"
+        },
+        "written": "急",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 94,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-sudden",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定短语 / 看起来"
+        },
+        "written": "看起来",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l349-c0",
+      "version": 1,
+      "senseId": "l349-v-729-sense",
+      "hanzi": "开心",
+      "dictionaryPinyin": "kāi xīn",
+      "meaning": "vui",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l349-v-729"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l349-c1",
+      "version": 1,
+      "senseId": "l349-v-740-sense",
+      "hanzi": "哭",
+      "dictionaryPinyin": "kū",
+      "meaning": "khóc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l349-v-740"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l349-c2",
+      "version": 1,
+      "senseId": "l349-v-777-sense",
+      "hanzi": "难过",
+      "dictionaryPinyin": "nán guò",
+      "meaning": "buồn/đau lòng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l349-v-777"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l349-c3",
+      "version": 1,
+      "senseId": "l349-v-830-sense",
+      "hanzi": "生气",
+      "dictionaryPinyin": "shēng qì",
+      "meaning": "giận/tức",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l349-v-830"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l349-c4",
+      "version": 1,
+      "senseId": "l349-v-969-sense",
+      "hanzi": "着急",
+      "dictionaryPinyin": "zháo jí",
+      "meaning": "sốt ruột/lo cuống",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l349-v-969"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l349-c5",
+      "version": 1,
+      "senseId": "l349-v-691-sense",
+      "hanzi": "急",
+      "dictionaryPinyin": "jí",
+      "meaning": "gấp/vội; lo",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l349-v-691"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l349-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 却 què: nhưng/lại; 急得 jí de: lo đến mức; 断定 duàndìng: khẳng định chỉ dùng đối chiếu. Cảm xúc trong bài không là đánh giá tâm lý người học.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l349-t0",
+      "type": "teaching",
+      "title": "开心 · vui",
+      "text": "开心 nói cảm thấy vui/hân hoan, không phải mở tim theo từng chữ. 很开心 là trạng thái, không nhất thiết mọi lúc đều vui.",
+      "hanzi": "收到朋友的信，我很开心。",
+      "pinyin": "Shōudào péngyou de xìn, wǒ hěn kāixīn.",
+      "meaning": "Nhận thư bạn, tôi rất vui.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l349-t1",
+      "type": "teaching",
+      "title": "哭 · khóc",
+      "text": "哭 là khóc; nhìn thấy khóc không đủ biết vui hay buồn nếu chưa có ngữ cảnh. 别哭 chỉ lời an ủi, không xóa cảm xúc.",
+      "hanzi": "孩子找不到妈妈，哭了。",
+      "pinyin": "Háizi zhǎo bu dào māma, kū le.",
+      "meaning": "Đứa trẻ không tìm thấy mẹ nên khóc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l349-t2",
+      "type": "teaching",
+      "title": "难过 · buồn/đau lòng",
+      "text": "难过 là buồn hoặc cảm thấy khó chịu tùy ngữ cảnh; khác 难 là khó làm. 别难过 là lời an ủi.",
+      "hanzi": "听到这个消息，她很难过。",
+      "pinyin": "Tīngdào zhège xiāoxi, tā hěn nánguò.",
+      "meaning": "Nghe tin này, cô ấy rất buồn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l349-t3",
+      "type": "teaching",
+      "title": "生气 · giận/tức",
+      "text": "生气 thường có thể tách trong 生我的气; 对…生气 nói giận về ai/việc. Không phải “sinh ra không khí”.",
+      "hanzi": "他因为迟到的事生气了。",
+      "pinyin": "Tā yīnwèi chídào de shì shēngqì le.",
+      "meaning": "Anh ấy giận vì chuyện đến muộn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l349-t4",
+      "type": "teaching",
+      "title": "着急 · sốt ruột/lo cuống",
+      "text": "着急 là lo và sốt ruột về việc gấp hoặc chưa rõ; 着 ở đây đọc zháo, khác trợ từ zhe.",
+      "hanzi": "找不到票，她很着急。",
+      "pinyin": "Zhǎo bu dào piào, tā hěn zháojí.",
+      "meaning": "Không tìm thấy vé, cô ấy rất sốt ruột.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l349-t5",
+      "type": "teaching",
+      "title": "急 · gấp/vội; lo",
+      "text": "急 trong 别急 là đừng vội/đừng sốt ruột; 这件事很急 là việc gấp. Đề giữ mục từ một chữ để tránh trùng 着急.",
+      "hanzi": "别急，我们还有时间。",
+      "pinyin": "Bié jí, wǒmen hái yǒu shíjiān.",
+      "meaning": "Đừng vội, chúng ta còn thời gian.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l349-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "看起来难过 là có vẻ buồn theo quan sát, chưa chắc biết nguyên nhân. 极了 có thể tăng mức cảm xúc, nhưng không dùng để suy ra chẩn đoán.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l349-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林昨天收到信很开心，今天却看起来难过。朋友没有马上说他生气，只问发生了什么。小林说孩子找不到票，急得哭了，自己也着急。朋友说：别急，先一起找。",
+      "pinyin": "Xiǎo Lín zuótiān shōudào xìn hěn kāixīn, jīntiān què kàn qǐlái nánguò. Péngyou méiyǒu mǎshàng shuō tā shēngqì, zhǐ wèn fāshēng le shénme. Xiǎo Lín shuō háizi zhǎo bu dào piào, jí de kū le, zìjǐ yě zháojí. Péngyou shuō: Bié jí, xiān yìqǐ zhǎo.",
+      "meaning": "Hôm qua Lâm vui vì nhận thư, hôm nay có vẻ buồn. Bạn hỏi thay vì đoán cậu giận. Lâm kể trẻ không thấy vé, lo đến khóc; họ cùng tìm.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l349-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l349-v1-e0"
+    },
+    {
+      "id": "l349-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l349-v1-e1"
+    },
+    {
+      "id": "l349-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l349-v1-e2"
+    },
+    {
+      "id": "l349-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l349-v1-e3"
+    },
+    {
+      "id": "l349-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l349-v1-e4"
+    },
+    {
+      "id": "l349-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l349-v1-e5"
+    },
+    {
+      "id": "l349-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l349-v1-e6"
+    },
+    {
+      "id": "l349-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l349-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l349-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l349-c0",
+      "senseId": "l349-v-729-sense",
+      "keyRef": "l349-v1-k0",
+      "prompt": "Cảm xúc vui khi nhận thư: 我很□。",
+      "choices": [
+        "哭",
+        "难过",
+        "生气",
+        "着急",
+        "急",
+        "开心"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l349-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l349-c1",
+      "senseId": "l349-v-740-sense",
+      "keyRef": "l349-v1-k1",
+      "prompt": "Hành động rơi nước mắt được nêu rõ: 孩子□了。",
+      "choices": [
+        "难过",
+        "生气",
+        "着急",
+        "急",
+        "开心",
+        "哭"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l349-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l349-c2",
+      "senseId": "l349-v-777-sense",
+      "keyRef": "l349-v1-k2",
+      "prompt": "Cảm xúc đau buồn vì tin xấu: 很□。",
+      "choices": [
+        "生气",
+        "着急",
+        "急",
+        "开心",
+        "哭",
+        "难过"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l349-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l349-c3",
+      "senseId": "l349-v-830-sense",
+      "keyRef": "l349-v1-k3",
+      "prompt": "Viết pinyin của 生气 trong câu “他因为迟到的事生气了。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l349-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l349-c4",
+      "senseId": "l349-v-969-sense",
+      "keyRef": "l349-v1-k4",
+      "prompt": "Sốt ruột vì chưa tìm thấy vé: 很□。",
+      "choices": [
+        "急",
+        "开心",
+        "哭",
+        "难过",
+        "生气",
+        "着急"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l349-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l349-c5",
+      "senseId": "l349-v-691-sense",
+      "keyRef": "l349-v1-k5",
+      "prompt": "Điền mục từ một chữ “vội”: 别□，还有时间。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l349-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l349-c0",
+      "senseId": "l349-v-729-sense",
+      "keyRef": "l349-v1-k6",
+      "prompt": "Bạn phản ứng thế nào trước vẻ buồn của Lâm?",
+      "choices": [
+        "断定他生气",
+        "马上离开",
+        "先问发生了什么"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l349-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l349-c3",
+      "senseId": "l349-v-830-sense",
+      "keyRef": "l349-v1-k7",
+      "prompt": "Xếp quan sát cảm xúc, bắt đầu bằng 他.",
+      "choices": [
+        "看起来很难过",
+        "他"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l349-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l349-v1-e0",
+      "senseId": "l349-v-729-sense",
+      "accepted": [
+        "开心"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "开心: vui. 开心 nói cảm thấy vui/hân hoan, không phải mở tim theo từng chữ. 很开心 là trạng thái, không nhất thiết mọi lúc đều vui. Nhận thư bạn, tôi rất vui."
+    },
+    {
+      "id": "l349-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l349-v1-e1",
+      "senseId": "l349-v-740-sense",
+      "accepted": [
+        "哭"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "哭: khóc. 哭 là khóc; nhìn thấy khóc không đủ biết vui hay buồn nếu chưa có ngữ cảnh. 别哭 chỉ lời an ủi, không xóa cảm xúc. Đứa trẻ không tìm thấy mẹ nên khóc."
+    },
+    {
+      "id": "l349-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l349-v1-e2",
+      "senseId": "l349-v-777-sense",
+      "accepted": [
+        "难过"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "难过: buồn/đau lòng. 难过 là buồn hoặc cảm thấy khó chịu tùy ngữ cảnh; khác 难 là khó làm. 别难过 là lời an ủi. Nghe tin này, cô ấy rất buồn."
+    },
+    {
+      "id": "l349-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l349-v1-e3",
+      "senseId": "l349-v-830-sense",
+      "accepted": [
+        "shēng qì"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "生气: giận/tức. 生气 thường có thể tách trong 生我的气; 对…生气 nói giận về ai/việc. Không phải “sinh ra không khí”. Anh ấy giận vì chuyện đến muộn."
+    },
+    {
+      "id": "l349-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l349-v1-e4",
+      "senseId": "l349-v-969-sense",
+      "accepted": [
+        "着急"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "着急: sốt ruột/lo cuống. 着急 là lo và sốt ruột về việc gấp hoặc chưa rõ; 着 ở đây đọc zháo, khác trợ từ zhe. Không tìm thấy vé, cô ấy rất sốt ruột."
+    },
+    {
+      "id": "l349-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l349-v1-e5",
+      "senseId": "l349-v-691-sense",
+      "accepted": [
+        "急"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "急: gấp/vội; lo. 急 trong 别急 là đừng vội/đừng sốt ruột; 这件事很急 là việc gấp. Đề giữ mục từ một chữ để tránh trùng 着急. Đừng vội, chúng ta còn thời gian."
+    },
+    {
+      "id": "l349-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l349-v1-e6",
+      "senseId": "l349-v-729-sense",
+      "accepted": [
+        "先问发生了什么"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 看起来难过 là có vẻ buồn theo quan sát, chưa chắc biết nguyên nhân. 极了 có thể tăng mức cảm xúc, nhưng không dùng để suy ra chẩn đoán."
+    },
+    {
+      "id": "l349-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l349-v1-e7",
+      "senseId": "l349-v-830-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 看起来难过 là có vẻ buồn theo quan sát, chưa chắc biết nguyên nhân. 极了 có thể tăng mức cảm xúc, nhưng không dùng để suy ra chẩn đoán."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

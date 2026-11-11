@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "926b5fbc66383cbb50d5bf967b7abd375bca7f87435c981ef4b277137b2c073b",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-clothes-weather",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L319",
+    "version": 3,
+    "versionId": "l319-draft-v3",
+    "title": "Thử đồ theo thời tiết",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Hỏi và chọn quần áo, phân biệt vật đi trên chân với đồ mặc thân.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "或者"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 14,
+      "physicalPage": 15,
+      "printedPage": 12,
+      "section": "task",
+      "entry": "六"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T08:20:32.686Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-shopping",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 14,
+          "physicalPage": 15,
+          "printedPage": 12,
+          "section": "task",
+          "entry": "六"
+        },
+        "written": "交流购物信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-goods",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "商品选购"
+        },
+        "written": "商品选购",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l319-v-558",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 92,
+          "physicalPage": 93,
+          "printedPage": 90,
+          "section": "vocabulary",
+          "entry": "ordinal 558"
+        },
+        "written": "衬衫",
+        "pinyin": "chènshān",
+        "senseId": "l319-v-558-sense",
+        "ordinal": 558,
+        "note": "3 chènshān 名; 衬衫 là áo sơ mi, thuộc loại 上衣; hai từ có thể bao hàm nhau nên cần ngữ cảnh nói rõ kiểu áo, không dùng làm đáp án loại trừ khi hỏi chung. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l319-v-577",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 93,
+          "physicalPage": 94,
+          "printedPage": 91,
+          "section": "vocabulary",
+          "entry": "ordinal 577"
+        },
+        "written": "大衣",
+        "pinyin": "dàyī",
+        "senseId": "l319-v-577-sense",
+        "ordinal": 577,
+        "note": "3 dàyī 名; 大衣 thường là áo khoác dài mặc ngoài; 大 không có nghĩa chọn cỡ lớn của mọi áo. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l319-v-606",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 606"
+        },
+        "written": "短裤",
+        "pinyin": "duǎnkù",
+        "senseId": "l319-v-606-sense",
+        "ordinal": 606,
+        "note": "3 duǎnkù 名; 短裤 chỉ quần ngắn; 裤 là phần tên đồ quần, không dùng cho váy. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l319-v-812",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 812"
+        },
+        "written": "裙子",
+        "pinyin": "qúnzi",
+        "senseId": "l319-v-812-sense",
+        "ordinal": 812,
+        "note": "3 qúnzi 名; 裙子 là váy, 子 đọc nhẹ; 一条裙子 dùng lượng từ 条, không phải 件 trong ví dụ này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l319-v-824",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 824"
+        },
+        "written": "上衣",
+        "pinyin": "shàngyī",
+        "senseId": "l319-v-824-sense",
+        "ordinal": 824,
+        "note": "3 shàngyī 名; 上衣 là tên khái quát áo phần trên; 衬衫 là một loại cụ thể. Khi dịch “áo thân trên” ở đây cần từ chung. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l319-v-901",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 901"
+        },
+        "written": "鞋",
+        "pinyin": "xié",
+        "senseId": "l319-v-901-sense",
+        "ordinal": 901,
+        "note": "3 xié 名; 鞋 là giày; 一双鞋 chỉ một đôi, khác 一只鞋 một chiếc. Từ này không chỉ quần áo mặc trên thân. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-25",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "25"
+        },
+        "written": "衬",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 25,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-190",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "190"
+        },
+        "written": "衫",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 190,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-48",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "48"
+        },
+        "written": "短",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 48,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-182",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "182"
+        },
+        "written": "裙",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 182,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-232",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "232"
+        },
+        "written": "鞋",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 232,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-or",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "连词 / 连接词或者短语"
+        },
+        "written": "或者",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l319-c0",
+      "version": 1,
+      "senseId": "l319-v-558-sense",
+      "hanzi": "衬衫",
+      "dictionaryPinyin": "chèn shān",
+      "meaning": "áo sơ mi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l319-v-558"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l319-c1",
+      "version": 1,
+      "senseId": "l319-v-577-sense",
+      "hanzi": "大衣",
+      "dictionaryPinyin": "dà yī",
+      "meaning": "áo khoác dài",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l319-v-577"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l319-c2",
+      "version": 1,
+      "senseId": "l319-v-606-sense",
+      "hanzi": "短裤",
+      "dictionaryPinyin": "duǎn kù",
+      "meaning": "quần đùi/quần ngắn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l319-v-606"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l319-c3",
+      "version": 1,
+      "senseId": "l319-v-812-sense",
+      "hanzi": "裙子",
+      "dictionaryPinyin": "qún zi",
+      "meaning": "váy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l319-v-812"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l319-c4",
+      "version": 1,
+      "senseId": "l319-v-824-sense",
+      "hanzi": "上衣",
+      "dictionaryPinyin": "shàng yī",
+      "meaning": "áo mặc phần thân trên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l319-v-824"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l319-c5",
+      "version": 1,
+      "senseId": "l319-v-901-sense",
+      "hanzi": "鞋",
+      "dictionaryPinyin": "xié",
+      "meaning": "giày",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l319-v-901"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l319-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 穿 chuān: mặc/mang; 口袋 kǒudai: túi áo/quần; 件 jiàn, 条 tiáo và 双 shuāng là lượng từ được giải thích tại ví dụ. 蓝 lán: xanh lam; 合适 héshì: phù hợp.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l319-t0",
+      "type": "teaching",
+      "title": "衬衫 · áo sơ mi",
+      "text": "衬衫 là áo sơ mi, thuộc loại 上衣; hai từ có thể bao hàm nhau nên cần ngữ cảnh nói rõ kiểu áo, không dùng làm đáp án loại trừ khi hỏi chung.",
+      "hanzi": "这件白衬衫有两个口袋。",
+      "pinyin": "Zhè jiàn bái chènshān yǒu liǎng ge kǒudai.",
+      "meaning": "Áo sơ mi trắng này có hai túi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l319-t1",
+      "type": "teaching",
+      "title": "大衣 · áo khoác dài",
+      "text": "大衣 thường là áo khoác dài mặc ngoài; 大 không có nghĩa chọn cỡ lớn của mọi áo.",
+      "hanzi": "冬天我穿这件大衣。",
+      "pinyin": "Dōngtiān wǒ chuān zhè jiàn dàyī.",
+      "meaning": "Mùa đông tôi mặc chiếc áo khoác dài này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l319-t2",
+      "type": "teaching",
+      "title": "短裤 · quần đùi/quần ngắn",
+      "text": "短裤 chỉ quần ngắn; 裤 là phần tên đồ quần, không dùng cho váy.",
+      "hanzi": "夏天他常穿短裤。",
+      "pinyin": "Xiàtiān tā cháng chuān duǎnkù.",
+      "meaning": "Mùa hè anh ấy hay mặc quần ngắn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l319-t3",
+      "type": "teaching",
+      "title": "裙子 · váy",
+      "text": "裙子 là váy, 子 đọc nhẹ; 一条裙子 dùng lượng từ 条, không phải 件 trong ví dụ này.",
+      "hanzi": "她买了一条蓝裙子。",
+      "pinyin": "Tā mǎi le yì tiáo lán qúnzi.",
+      "meaning": "Cô ấy mua một chiếc váy xanh lam.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l319-t4",
+      "type": "teaching",
+      "title": "上衣 · áo mặc phần thân trên",
+      "text": "上衣 là tên khái quát áo phần trên; 衬衫 là một loại cụ thể. Khi dịch “áo thân trên” ở đây cần từ chung.",
+      "hanzi": "这件上衣很合适。",
+      "pinyin": "Zhè jiàn shàngyī hěn héshì.",
+      "meaning": "Chiếc áo này rất vừa/phù hợp.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l319-t5",
+      "type": "teaching",
+      "title": "鞋 · giày",
+      "text": "鞋 là giày; 一双鞋 chỉ một đôi, khác 一只鞋 một chiếc. Từ này không chỉ quần áo mặc trên thân.",
+      "hanzi": "这双鞋有点儿小。",
+      "pinyin": "Zhè shuāng xié yǒudiǎnr xiǎo.",
+      "meaning": "Đôi giày này hơi nhỏ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l319-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "或者 nối phương án trong câu trần thuật: 买衬衫或者上衣. Câu hỏi trực tiếp chọn A hay B thường dùng 还是; bài luyện 或者 trong kế hoạch, không đổi tùy ý hai từ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l319-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林：夏天我想买短裤和一双鞋。小王：我先看看衬衫或者别的上衣。小林：这条裙子呢？小王：也不错，可是今天不买。冬天穿的大衣也先不买。",
+      "pinyin": "Xiǎo Lín: Xiàtiān wǒ xiǎng mǎi duǎnkù hé yì shuāng xié. Xiǎo Wáng: Wǒ xiān kànkan chènshān huòzhě bié de shàngyī. Xiǎo Lín: Zhè tiáo qúnzi ne? Xiǎo Wáng: Yě búcuò, kěshì jīntiān bù mǎi. Dōngtiān chuān de dàyī yě xiān bù mǎi.",
+      "meaning": "Lâm muốn mua quần ngắn và giày. Vương xem sơ mi hoặc áo khác, chưa mua váy và áo khoác mùa đông.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l319-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l319-v3-e0"
+    },
+    {
+      "id": "l319-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l319-v3-e1"
+    },
+    {
+      "id": "l319-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l319-v3-e2"
+    },
+    {
+      "id": "l319-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l319-v3-e3"
+    },
+    {
+      "id": "l319-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l319-v3-e4"
+    },
+    {
+      "id": "l319-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l319-v3-e5"
+    },
+    {
+      "id": "l319-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l319-v3-e6"
+    },
+    {
+      "id": "l319-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l319-v3-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l319-v3-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l319-c0",
+      "senseId": "l319-v-558-sense",
+      "keyRef": "l319-v3-k0",
+      "prompt": "Đề yêu cầu đúng tên áo sơ mi, không phải loại áo nói chung: 白□。",
+      "choices": [
+        "大衣",
+        "短裤",
+        "裙子",
+        "上衣",
+        "鞋",
+        "衬衫"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l319-v3-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l319-c1",
+      "senseId": "l319-v-577-sense",
+      "keyRef": "l319-v3-k1",
+      "prompt": "Chọn tên áo khoác dài mặc ngoài vào mùa đông: 冬天穿□。",
+      "choices": [
+        "短裤",
+        "裙子",
+        "上衣",
+        "鞋",
+        "衬衫",
+        "大衣"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l319-v3-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l319-c2",
+      "senseId": "l319-v-606-sense",
+      "keyRef": "l319-v3-k2",
+      "prompt": "Đồ được mô tả có hai ống quần ngắn: 他穿□。",
+      "choices": [
+        "裙子",
+        "上衣",
+        "鞋",
+        "衬衫",
+        "大衣",
+        "短裤"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l319-v3-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l319-c3",
+      "senseId": "l319-v-812-sense",
+      "keyRef": "l319-v3-k3",
+      "prompt": "Viết pinyin của 裙子 trong câu “她买了一条蓝裙子。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l319-v3-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l319-c4",
+      "senseId": "l319-v-824-sense",
+      "keyRef": "l319-v3-k4",
+      "prompt": "Chọn từ chỉ chung áo phần thân trên theo định nghĩa, chưa nói riêng sơ mi.",
+      "choices": [
+        "鞋",
+        "衬衫",
+        "大衣",
+        "短裤",
+        "裙子",
+        "上衣"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l319-v3-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l319-c5",
+      "senseId": "l319-v-901-sense",
+      "keyRef": "l319-v3-k5",
+      "prompt": "Vật mang ở chân thành một đôi: 一双□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l319-v3-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l319-c0",
+      "senseId": "l319-v-558-sense",
+      "keyRef": "l319-v3-k6",
+      "prompt": "Hôm nay Vương nói chưa mua món nào?",
+      "choices": [
+        "所有上衣",
+        "一双鞋",
+        "大衣"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l319-v3-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l319-c3",
+      "senseId": "l319-v-812-sense",
+      "keyRef": "l319-v3-k7",
+      "prompt": "Sắp xếp hai phương án xem hàng. Bắt đầu bằng “我先看看衬衫”.",
+      "choices": [
+        "或者别的上衣",
+        "我先看看衬衫"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l319-v3-k0",
+      "version": 1,
+      "exerciseVersionId": "l319-v3-e0",
+      "senseId": "l319-v-558-sense",
+      "accepted": [
+        "衬衫"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "衬衫: áo sơ mi. 衬衫 là áo sơ mi, thuộc loại 上衣; hai từ có thể bao hàm nhau nên cần ngữ cảnh nói rõ kiểu áo, không dùng làm đáp án loại trừ khi hỏi chung. Áo sơ mi trắng này có hai túi."
+    },
+    {
+      "id": "l319-v3-k1",
+      "version": 1,
+      "exerciseVersionId": "l319-v3-e1",
+      "senseId": "l319-v-577-sense",
+      "accepted": [
+        "大衣"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "大衣: áo khoác dài. 大衣 thường là áo khoác dài mặc ngoài; 大 không có nghĩa chọn cỡ lớn của mọi áo. Mùa đông tôi mặc chiếc áo khoác dài này."
+    },
+    {
+      "id": "l319-v3-k2",
+      "version": 1,
+      "exerciseVersionId": "l319-v3-e2",
+      "senseId": "l319-v-606-sense",
+      "accepted": [
+        "短裤"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "短裤: quần đùi/quần ngắn. 短裤 chỉ quần ngắn; 裤 là phần tên đồ quần, không dùng cho váy. Mùa hè anh ấy hay mặc quần ngắn."
+    },
+    {
+      "id": "l319-v3-k3",
+      "version": 1,
+      "exerciseVersionId": "l319-v3-e3",
+      "senseId": "l319-v-812-sense",
+      "accepted": [
+        "qún zi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "裙子: váy. 裙子 là váy, 子 đọc nhẹ; 一条裙子 dùng lượng từ 条, không phải 件 trong ví dụ này. Cô ấy mua một chiếc váy xanh lam."
+    },
+    {
+      "id": "l319-v3-k4",
+      "version": 1,
+      "exerciseVersionId": "l319-v3-e4",
+      "senseId": "l319-v-824-sense",
+      "accepted": [
+        "上衣"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "上衣: áo mặc phần thân trên. 上衣 là tên khái quát áo phần trên; 衬衫 là một loại cụ thể. Khi dịch “áo thân trên” ở đây cần từ chung. Chiếc áo này rất vừa/phù hợp."
+    },
+    {
+      "id": "l319-v3-k5",
+      "version": 1,
+      "exerciseVersionId": "l319-v3-e5",
+      "senseId": "l319-v-901-sense",
+      "accepted": [
+        "鞋"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "鞋: giày. 鞋 là giày; 一双鞋 chỉ một đôi, khác 一只鞋 một chiếc. Từ này không chỉ quần áo mặc trên thân. Đôi giày này hơi nhỏ."
+    },
+    {
+      "id": "l319-v3-k6",
+      "version": 1,
+      "exerciseVersionId": "l319-v3-e6",
+      "senseId": "l319-v-558-sense",
+      "accepted": [
+        "大衣"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 或者 nối phương án trong câu trần thuật: 买衬衫或者上衣. Câu hỏi trực tiếp chọn A hay B thường dùng 还是; bài luyện 或者 trong kế hoạch, không đổi tùy ý hai từ."
+    },
+    {
+      "id": "l319-v3-k7",
+      "version": 1,
+      "exerciseVersionId": "l319-v3-e7",
+      "senseId": "l319-v-812-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 或者 nối phương án trong câu trần thuật: 买衬衫或者上衣. Câu hỏi trực tiếp chọn A hay B thường dùng 还是; bài luyện 或者 trong kế hoạch, không đổi tùy ý hai từ."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

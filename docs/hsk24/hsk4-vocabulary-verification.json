@@ -1,0 +1,3758 @@
+{
+  "status": "HSK4_VOCABULARY_COMPLETE / HSK4_CURRICULUM_PARTIAL",
+  "epicStatus": "HSK24_EPIC_PARTIAL",
+  "generatedAtUTC": "2026-10-30T06:45:52.238490+00:00",
+  "branch": "feat/hsk24-curriculum",
+  "baseline": "c5e557fde345f1efebba6952fdbbff50d975cba3",
+  "runtimeAndContentFrozenCommit": "7fb19bb33c7069cb10b1957e9be04aa781fb93a0",
+  "assemblyHeadBeforeDocumentationCommit": "4c68106d5e848422f6efb7b55a7cda5a242c5ce6",
+  "completedBatches": [
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "newVocabulary": 352,
+  "newIntroductionLessons": 60,
+  "newReviewActivities": 10,
+  "remainingHSK4Ordinals": [],
+  "hsk4": {
+    "vocabulary": 1000,
+    "denominator": 1000,
+    "introductions": 168,
+    "introductionExercises": 1344,
+    "reviewActivities": 26,
+    "reviewExercises": 208,
+    "unitReviews": 13,
+    "diagnostics": 13,
+    "totalActivities": 194,
+    "totalExercises": 1552,
+    "denominators": {
+      "additionalVocabulary": 1000,
+      "grammarPhysicalRows": 95,
+      "topicLeaves": 77,
+      "taskHeads": 30,
+      "taskPhysicalBullets": 139,
+      "recognitionCharacters": 441,
+      "writingCharacters": 150
+    },
+    "fiveDimensions": {
+      "grammarRowsMappedCandidates": 95,
+      "topicLeavesMapped": 70,
+      "taskHeadsReferenced": 27,
+      "recognitionCharacterRefs": 441,
+      "grammarRowsWithExplicitPartialPractice": 93,
+      "recognitionCharactersExplicitlyPracticed": 209,
+      "recognitionPracticeExercises": 247,
+      "fullyAcceptedGrammarRows": 0,
+      "fullyAcceptedTaskBullets": 0,
+      "qualifiedHumanReviews": 0
+    },
+    "reviewMeaning": "Sampled/assisted practice reuses immutable original senses; no new vocabulary or independent recognition certification."
+  },
+  "catalog": {
+    "allCurrentActivities": 388,
+    "allCurrentExercises": 3098,
+    "currentExpandedActivities": 384,
+    "currentExpandedIntroductions": 286,
+    "currentExpandedExercises": 3072,
+    "expandedImmutableVersions": 516,
+    "historicalExpandedVersions": 132,
+    "planningIndexRecords": 522,
+    "planningIndexBytes": 1776350,
+    "planningIndexSha256": "efd68f7b443609189bbf58e8a1d1d6048e988492640c16bfaf6a9ccc5e50821c",
+    "fourFoundationCurrentPackagesAreAdditional": true
+  },
+  "languageFindings": {
+    "corrected": [
+      "Compound character masking and near-identical Unicode distractor in new L4025–L4084 continuation scope",
+      "失败 overbroad single-game distinction; historical note explicitly errata",
+      "用来/用于 and 证/证明 legitimate alternatives removed as wrong distractors",
+      "Explicit CONTEXT_ONLY versions in the70 new/current continuation activities skip arbitrary lexical evidence and cards; absent flags retain legacy behavior",
+      "Task/topic/source-locator mismatches in L4048 and L4073",
+      "有效 absolute part-of-speech claim in introduction and review",
+      "然而/却 alternate form and 图/图片 word-length requirement"
+    ],
+    "preservedCaveats": [
+      "Retained baseline L424,L492,L4013,L4024 compound context masks require additive audit/repair; no claim every247 recognition item is consistently word-masked",
+      "Legacy baseline e6/e7 without evidenceScope keep prior attribution and need an additive evidence-scope audit",
+      "No competent human Mandarin/key review",
+      "Historical source semantic notes remain unreviewed; entry/reading/locator verification is narrower",
+      "Diagnostics are sampled/assisted, with some weak distractors",
+      "Only shú selected from the source 熟 shú/shóu variants; not all variants assessed",
+      "No listening, speaking or handwriting coverage from text exercises"
+    ],
+    "humanReviewed": false,
+    "publication": "BLOCKED"
+  },
+  "validation": {
+    "finalRuns": {
+      "hsk4-vocabulary-unit-default-env.log": {
+        "tests": 130,
+        "pass": 130,
+        "fail": 0,
+        "skip": 0
+      },
+      "hsk4-vocabulary-final-sql.log": {
+        "tests": 74,
+        "pass": 74,
+        "fail": 0,
+        "skip": 0
+      },
+      "hsk4-vocabulary-last-repair-sql.log": {
+        "tests": 8,
+        "pass": 8,
+        "fail": 0,
+        "skip": 0
+      },
+      "hsk4-vocabulary-native-regressions.log": {
+        "tests": 12,
+        "pass": 12,
+        "fail": 0,
+        "skip": 0
+      }
+    },
+    "browserRuns": [
+      {
+        "file": ".local-postgres/hsk24/hsk4-vocabulary-browser-today.json",
+        "stats": {
+          "startTime": "2026-10-29T14:30:20.917Z",
+          "duration": 79015.897,
+          "expected": 1,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "project": "desktop",
+            "file": "today.spec.ts",
+            "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 39155,
+            "annotations": [
+              {
+                "type": "today-priority-branch",
+                "description": "NO_DEBT_PINNED_RESUME"
+              }
+            ],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-today.json"
+          }
+        ]
+      },
+      {
+        "file": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json",
+        "stats": {
+          "startTime": "2026-10-29T14:32:17.503Z",
+          "duration": 481811.37399999995,
+          "expected": 7,
+          "skipped": 8,
+          "unexpected": 1,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "project": "desktop",
+            "file": "journey.spec.ts",
+            "title": "L4025: actual content, resume, grading, completion, progress and accessibility",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 120560,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "desktop",
+            "file": "journey.spec.ts",
+            "title": "L4049: actual content, resume, grading, completion, progress and accessibility",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 85181,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "desktop",
+            "file": "journey.spec.ts",
+            "title": "L4073: actual content, resume, grading, completion, progress and accessibility",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 90005,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "desktop",
+            "file": "journey.spec.ts",
+            "title": "L4084: actual content, resume, grading, completion, progress and accessibility",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 78295,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "journey.spec.ts",
+            "title": "L4025: actual content, resume, grading, completion, progress and accessibility",
+            "status": "NOT_RUN",
+            "retry": 0,
+            "durationMs": 0,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "journey.spec.ts",
+            "title": "L4049: actual content, resume, grading, completion, progress and accessibility",
+            "status": "NOT_RUN",
+            "retry": 0,
+            "durationMs": 0,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "journey.spec.ts",
+            "title": "L4073: actual content, resume, grading, completion, progress and accessibility",
+            "status": "NOT_RUN",
+            "retry": 0,
+            "durationMs": 0,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "journey.spec.ts",
+            "title": "L4084: actual content, resume, grading, completion, progress and accessibility",
+            "status": "NOT_RUN",
+            "retry": 0,
+            "durationMs": 0,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "desktop",
+            "file": "navigation.spec.ts",
+            "title": "L4025: course and unit links open the exact current immutable lesson",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 29116,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "desktop",
+            "file": "navigation.spec.ts",
+            "title": "L4084: course and unit links open the exact current immutable lesson",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 18022,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "navigation.spec.ts",
+            "title": "L4025: course and unit links open the exact current immutable lesson",
+            "status": "NOT_RUN",
+            "retry": 0,
+            "durationMs": 0,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "navigation.spec.ts",
+            "title": "L4084: course and unit links open the exact current immutable lesson",
+            "status": "NOT_RUN",
+            "retry": 0,
+            "durationMs": 0,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "desktop",
+            "file": "schedule-refresh.spec.ts",
+            "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 14789,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "schedule-refresh.spec.ts",
+            "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+            "status": "NOT_RUN",
+            "retry": 0,
+            "durationMs": 0,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "desktop",
+            "file": "today.spec.ts",
+            "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+            "status": "failed",
+            "retry": 0,
+            "durationMs": 25236,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "today.spec.ts",
+            "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+            "status": "NOT_RUN",
+            "retry": 0,
+            "durationMs": 0,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+          }
+        ]
+      },
+      {
+        "file": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-recheck.json",
+        "stats": {
+          "startTime": "2026-10-30T06:12:55.714Z",
+          "duration": 109889.638,
+          "expected": 0,
+          "skipped": 1,
+          "unexpected": 1,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "project": "desktop",
+            "file": "journey.spec.ts",
+            "title": "L4025: actual content, resume, grading, completion, progress and accessibility",
+            "status": "failed",
+            "retry": 0,
+            "durationMs": 75042,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-recheck.json"
+          },
+          {
+            "project": "desktop",
+            "file": "today.spec.ts",
+            "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+            "status": "NOT_RUN",
+            "retry": 0,
+            "durationMs": 0,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-recheck.json"
+          }
+        ]
+      },
+      {
+        "file": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-final.json",
+        "stats": {
+          "startTime": "2026-10-30T06:19:38.281Z",
+          "duration": 231917.47,
+          "expected": 2,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "project": "desktop",
+            "file": "journey.spec.ts",
+            "title": "L4025: actual content, resume, grading, completion, progress and accessibility",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 165298,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-final.json"
+          },
+          {
+            "project": "desktop",
+            "file": "today.spec.ts",
+            "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 39171,
+            "annotations": [
+              {
+                "type": "today-priority-branch",
+                "description": "DUE_FSRS_BEFORE_RESUME"
+              }
+            ],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-final.json"
+          }
+        ]
+      },
+      {
+        "file": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-today.json",
+        "stats": {
+          "startTime": "2026-10-30T06:23:34.171Z",
+          "duration": 202056.248,
+          "expected": 2,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "project": "mobile360",
+            "file": "journey.spec.ts",
+            "title": "L4025: actual content, resume, grading, completion, progress and accessibility",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 133472,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-today.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "today.spec.ts",
+            "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 37799,
+            "annotations": [
+              {
+                "type": "today-priority-branch",
+                "description": "DUE_FSRS_BEFORE_RESUME"
+              }
+            ],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-today.json"
+          }
+        ]
+      },
+      {
+        "file": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json",
+        "stats": {
+          "startTime": "2026-10-30T06:27:38.972Z",
+          "duration": 404278.516,
+          "expected": 6,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "cases": [
+          {
+            "project": "mobile360",
+            "file": "journey.spec.ts",
+            "title": "L4049: actual content, resume, grading, completion, progress and accessibility",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 135600,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "journey.spec.ts",
+            "title": "L4073: actual content, resume, grading, completion, progress and accessibility",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 94410,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "journey.spec.ts",
+            "title": "L4084: actual content, resume, grading, completion, progress and accessibility",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 84230,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "navigation.spec.ts",
+            "title": "L4025: course and unit links open the exact current immutable lesson",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 31377,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "navigation.spec.ts",
+            "title": "L4084: course and unit links open the exact current immutable lesson",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 17609,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json"
+          },
+          {
+            "project": "mobile360",
+            "file": "schedule-refresh.spec.ts",
+            "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+            "status": "passed",
+            "retry": 0,
+            "durationMs": 18464,
+            "annotations": [],
+            "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json"
+          }
+        ]
+      }
+    ],
+    "browserPassExecutions": 18,
+    "browserRawFailExecutions": 2,
+    "browserRawNotRunSlots": 9,
+    "browserDistinctProjectCases": 16,
+    "acceptedCurrentBrowserCases": [
+      {
+        "project": "desktop",
+        "file": "today.spec.ts",
+        "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 39171,
+        "annotations": [
+          {
+            "type": "today-priority-branch",
+            "description": "DUE_FSRS_BEFORE_RESUME"
+          }
+        ],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-final.json"
+      },
+      {
+        "project": "desktop",
+        "file": "journey.spec.ts",
+        "title": "L4025: actual content, resume, grading, completion, progress and accessibility",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 165298,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-final.json"
+      },
+      {
+        "project": "desktop",
+        "file": "journey.spec.ts",
+        "title": "L4049: actual content, resume, grading, completion, progress and accessibility",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 85181,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+      },
+      {
+        "project": "desktop",
+        "file": "journey.spec.ts",
+        "title": "L4073: actual content, resume, grading, completion, progress and accessibility",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 90005,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+      },
+      {
+        "project": "desktop",
+        "file": "journey.spec.ts",
+        "title": "L4084: actual content, resume, grading, completion, progress and accessibility",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 78295,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+      },
+      {
+        "project": "desktop",
+        "file": "navigation.spec.ts",
+        "title": "L4025: course and unit links open the exact current immutable lesson",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 29116,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+      },
+      {
+        "project": "desktop",
+        "file": "navigation.spec.ts",
+        "title": "L4084: course and unit links open the exact current immutable lesson",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 18022,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+      },
+      {
+        "project": "desktop",
+        "file": "schedule-refresh.spec.ts",
+        "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 14789,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json"
+      },
+      {
+        "project": "mobile360",
+        "file": "journey.spec.ts",
+        "title": "L4025: actual content, resume, grading, completion, progress and accessibility",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 133472,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-today.json"
+      },
+      {
+        "project": "mobile360",
+        "file": "today.spec.ts",
+        "title": "Today preserves pinned resume and prioritizes due FSRS reviews",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 37799,
+        "annotations": [
+          {
+            "type": "today-priority-branch",
+            "description": "DUE_FSRS_BEFORE_RESUME"
+          }
+        ],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-today.json"
+      },
+      {
+        "project": "mobile360",
+        "file": "journey.spec.ts",
+        "title": "L4049: actual content, resume, grading, completion, progress and accessibility",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 135600,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json"
+      },
+      {
+        "project": "mobile360",
+        "file": "journey.spec.ts",
+        "title": "L4073: actual content, resume, grading, completion, progress and accessibility",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 94410,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json"
+      },
+      {
+        "project": "mobile360",
+        "file": "journey.spec.ts",
+        "title": "L4084: actual content, resume, grading, completion, progress and accessibility",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 84230,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json"
+      },
+      {
+        "project": "mobile360",
+        "file": "navigation.spec.ts",
+        "title": "L4025: course and unit links open the exact current immutable lesson",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 31377,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json"
+      },
+      {
+        "project": "mobile360",
+        "file": "navigation.spec.ts",
+        "title": "L4084: course and unit links open the exact current immutable lesson",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 17609,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json"
+      },
+      {
+        "project": "mobile360",
+        "file": "schedule-refresh.spec.ts",
+        "title": "Saving a schedule retains the form while the acknowledged write refreshes its snapshot",
+        "status": "passed",
+        "retry": 0,
+        "durationMs": 18464,
+        "annotations": [],
+        "source": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json"
+      }
+    ],
+    "browserRecheckMeaning": "Composite scoped case coverage, not a clean aggregate run: original7PASS/1FAIL/8not-run; offline-DB recheck0PASS/1FAIL/1not-run; explicit fresh-process rechecks retained. No timeout increase or runtime code repair; reliability gate stays open.",
+    "browserAutomaticRetries": 0,
+    "typecheckExit": 0,
+    "lintExit": 0,
+    "helperLintExit": 0,
+    "lastHelperLintExit": 0,
+    "buildExit": 0,
+    "buildSourceCommit": "6f84fd6211fee37d301916097e8bd915f2e8d89a",
+    "buildApplicationSourceEquivalentToFrozenCommit": true,
+    "intermediateFailuresRetained": {
+      "hsk4-vocabulary-pinyin-red.log": {
+        "tests": 2,
+        "pass": 0,
+        "fail": 2,
+        "skip": 0
+      },
+      "hsk4-vocabulary-glyph-red.log": {
+        "tests": 3,
+        "pass": 0,
+        "fail": 3,
+        "skip": 0
+      },
+      "hsk4-vocabulary-context-scope-red.log": {
+        "tests": 5,
+        "pass": 4,
+        "fail": 1,
+        "skip": 0
+      },
+      "hsk4-vocabulary-unit.log": {
+        "tests": 130,
+        "pass": 126,
+        "fail": 4,
+        "skip": 0
+      }
+    },
+    "intermediateUnitEnvironmentRepair": "Initial all-unit run incorrectly enabled expansion for legacy four-package tests:126PASS/4FAIL. Correct environment gives130PASS/0FAIL without changing test expectations.",
+    "nativeFullScopeMeaning": "74=70 new activities +4 shared;8=4 additive repairs +4 shared;12 regressions include exact saved-session/hash checks across all384 current HSK2–4 activities. These are execution counts, not distinct tests summed across runs.",
+    "batchEvidence": [
+      {
+        "batch": 28,
+        "focusedIds": [
+          "L4025",
+          "L4026",
+          "L4027",
+          "L4028"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch28-sql.log",
+        "sqlLogSha256": "2fcdf800757869dd3de892ec657dd7e5562b03e405cbe6c3ba8924cdf5098e0c",
+        "pass": 8,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 29,
+        "focusedIds": [
+          "L4029",
+          "L4030",
+          "L4031",
+          "L4032"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch29-sql.log",
+        "sqlLogSha256": "2ff0b39682200f41aeee9b82cb78db2ba6b0760157445a74c153541e912eede0",
+        "pass": 8,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 30,
+        "focusedIds": [
+          "L4033",
+          "L4034",
+          "L4035",
+          "L4036",
+          "L49005",
+          "L49006"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch30-sql.log",
+        "sqlLogSha256": "b9b44119079287e13d004836ca34b88f2d72a33bc22b3b2deb778d44835e6c4e",
+        "pass": 10,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 31,
+        "focusedIds": [
+          "L4037",
+          "L4038",
+          "L4039",
+          "L4040"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch31-sql.log",
+        "sqlLogSha256": "4f0b49653fb711a85a9b8f1e9e3e1585de4572393f800ba218366d3394d4ca36",
+        "pass": 8,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 32,
+        "focusedIds": [
+          "L4041",
+          "L4042",
+          "L4043",
+          "L4044"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch32-sql.log",
+        "sqlLogSha256": "cfb8990fe6aedf0fb8a6437e06e0e341e2c610dbdf84978b1fcbc116239bcbbb",
+        "pass": 8,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 33,
+        "focusedIds": [
+          "L4045",
+          "L4046",
+          "L4047",
+          "L4048",
+          "L49007",
+          "L49008"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch33-sql.log",
+        "sqlLogSha256": "3c7962970823f81074690c7d128b79f79f92602c755a1c6ce5541f001056dcb8",
+        "pass": 10,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 34,
+        "focusedIds": [
+          "L4049",
+          "L4050",
+          "L4051",
+          "L4052"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch34-sql.log",
+        "sqlLogSha256": "9311c6746c919b88abd797b7df8ff142251818ca2d6dd098e0fe12db27c5767a",
+        "pass": 8,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 35,
+        "focusedIds": [
+          "L4053",
+          "L4054",
+          "L4055",
+          "L4056"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch35-sql.log",
+        "sqlLogSha256": "494b153ddd125453a685f09b68b9ced744e097d5b3e9322b6c14d8bb56ae62d0",
+        "pass": 8,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 36,
+        "focusedIds": [
+          "L4057",
+          "L4058",
+          "L4059",
+          "L4060",
+          "L49009",
+          "L49010"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch36-sql.log",
+        "sqlLogSha256": "82dd620e3adb5b6be9debf803407b89050caa466e86c568078885e6c5023dc8c",
+        "pass": 10,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 37,
+        "focusedIds": [
+          "L4061",
+          "L4062",
+          "L4063",
+          "L4064"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch37-sql.log",
+        "sqlLogSha256": "a702b7b2aa38fe63a89bbf5af6f978c82af253f95ec27676aadd47e9855b52c9",
+        "pass": 8,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 38,
+        "focusedIds": [
+          "L4065",
+          "L4066",
+          "L4067",
+          "L4068"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch38-sql.log",
+        "sqlLogSha256": "a5ea6a331fecaac0ef050e7de49bea11f9cf1808a219f1434b07b231512a77aa",
+        "pass": 8,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 39,
+        "focusedIds": [
+          "L4069",
+          "L4070",
+          "L4071",
+          "L4072",
+          "L49011",
+          "L49012"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch39-sql.log",
+        "sqlLogSha256": "d6128e8abee56d31b944e284b7aef10ab3a1c0f690a37cafae56f97727bd1464",
+        "pass": 10,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 40,
+        "focusedIds": [
+          "L4073",
+          "L4074",
+          "L4075",
+          "L4076"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch40-sql.log",
+        "sqlLogSha256": "7ff70d3f98326db6c1a9ebaee3f1294943c7406f9b9389db68f5ea7916e08621",
+        "pass": 8,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 41,
+        "focusedIds": [
+          "L4077",
+          "L4078",
+          "L4079",
+          "L4080"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch41-sql.log",
+        "sqlLogSha256": "e41aac1dc5e1bb03dd578a84a299aca6d70c70811d7ca9bdd65d855e24c31730",
+        "pass": 8,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "batch": 42,
+        "focusedIds": [
+          "L4081",
+          "L4082",
+          "L4083",
+          "L4084",
+          "L49013",
+          "L49014"
+        ],
+        "sqlLog": ".local-postgres/hsk24/hsk4-vocabulary-batch42-sql.log",
+        "sqlLogSha256": "c77fd984a79887a9ae8e7d46835b533f9aa3675a1d70811e30828c3819ce1702",
+        "pass": 10,
+        "fail": 0,
+        "skip": 0
+      }
+    ]
+  },
+  "today": {
+    "native": {
+      "checkedAt": "2026-10-30T06:36:08.096Z",
+      "sourceCommit": "7fb19bb33c7069cb10b1957e9be04aa781fb93a0",
+      "database": "csh_hsk24_bf294b6506c1",
+      "node": "v26.5.0",
+      "platform": "win32",
+      "nativeRepositoryBoundary": true,
+      "freshProcess": true,
+      "explicitCatalogCache": false,
+      "firstConnectionMs": 88.70830000000001,
+      "physicalConnections": 1,
+      "poolAfterEnd": {
+        "total": 0,
+        "idle": 0,
+        "waiting": 0
+      },
+      "samples": [
+        {
+          "phase": "FIRST_TODAY_IN_FRESH_NODE_PROCESS",
+          "wallMs": 223.4339,
+          "sql": 28,
+          "sqlMs": 138.03100000000006,
+          "maxSqlMs": 25.069599999999923,
+          "fullDatabaseManifests": 0,
+          "sqlResultBytes": 8262,
+          "transactions": [
+            221.95129999999995
+          ],
+          "fullSourcePackages": 0,
+          "fsOps": 14,
+          "responseBytes": 1942,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        },
+        {
+          "phase": "WARM_SAME_PROCESS_POOL",
+          "wallMs": 72.91009999999994,
+          "sql": 23,
+          "sqlMs": 22.60280000000023,
+          "maxSqlMs": 3.822400000000016,
+          "fullDatabaseManifests": 0,
+          "sqlResultBytes": 8245,
+          "transactions": [
+            72.67010000000016
+          ],
+          "fullSourcePackages": 0,
+          "fsOps": 14,
+          "responseBytes": 1942,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        },
+        {
+          "phase": "WARM_SAME_PROCESS_POOL",
+          "wallMs": 70.88589999999999,
+          "sql": 23,
+          "sqlMs": 22.768999999999096,
+          "maxSqlMs": 5.005700000000161,
+          "fullDatabaseManifests": 0,
+          "sqlResultBytes": 8245,
+          "transactions": [
+            70.72489999999993
+          ],
+          "fullSourcePackages": 0,
+          "fsOps": 14,
+          "responseBytes": 1942,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        },
+        {
+          "phase": "WARM_SAME_PROCESS_POOL",
+          "wallMs": 67.19200000000001,
+          "sql": 23,
+          "sqlMs": 21.243699999999762,
+          "maxSqlMs": 4.180499999999938,
+          "fullDatabaseManifests": 0,
+          "sqlResultBytes": 8245,
+          "transactions": [
+            66.92010000000005
+          ],
+          "fullSourcePackages": 0,
+          "fsOps": 14,
+          "responseBytes": 1942,
+          "pool": {
+            "total": 1,
+            "idle": 1,
+            "waiting": 0
+          }
+        }
+      ],
+      "methodology": "Source package reads count readFileSync(package filename); full DB manifests count result.rows.manifest objects. These are IO-boundary body counts, not every allocation inside Zod. SQL timing is client wall time including decoding. First connection measured before first Today; all4requests share one bounded pool. No HTTP/GUI or cloud latency claim, no automatic retries. Old learner rows are not modified; dedicated synthetic owner only."
+    },
+    "coldHttpAtFinalSize": {
+      "startedAt": "2026-10-29T14:28:45.975Z",
+      "sourceBaseCommit": "7fb19bb33c7069cb10b1957e9be04aa781fb93a0",
+      "database": "csh_hsk24_bf294b6506c1",
+      "port": 3037,
+      "compiledDevCachePresentBeforeStart": true,
+      "freshNodeProcess": true,
+      "applicationCatalogCache": false,
+      "requests": [
+        {
+          "phase": "FIRST_HTTP_IN_COLD_PROCESS",
+          "path": "/api/local/status",
+          "status": 200,
+          "responseBytes": 31,
+          "wallMs": 15431.0705,
+          "applicationFetchBudgetMs": 20000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "LOCAL_MODE_SETUP",
+          "path": "/api/local/mode",
+          "status": 200,
+          "responseBytes": 15,
+          "wallMs": 1093.510199999997,
+          "applicationFetchBudgetMs": 20000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "FIRST_TODAY_HTTP_IN_COLD_PROCESS",
+          "path": "/api/local/study/today",
+          "status": 200,
+          "responseBytes": 1942,
+          "wallMs": 785.4708000000028,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "WARM_TODAY_HTTP",
+          "path": "/api/local/study/today",
+          "status": 200,
+          "responseBytes": 1942,
+          "wallMs": 109.08510000000024,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "WARM_TODAY_HTTP",
+          "path": "/api/local/study/today",
+          "status": 200,
+          "responseBytes": 1942,
+          "wallMs": 113.86070000000109,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "REUSED_CACHE_ROUTE_REPRO",
+          "path": "/learn/courses/HSK4",
+          "status": 200,
+          "responseBytes": 20759,
+          "wallMs": 23528.7704,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": true,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "REUSED_CACHE_ROUTE_REPRO",
+          "path": "/learn/draft/L4024",
+          "status": 200,
+          "responseBytes": 22615,
+          "wallMs": 18661.272699999994,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": true,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "REUSED_CACHE_ROUTE_REPRO",
+          "path": "/learn/courses/HSK4",
+          "status": 200,
+          "responseBytes": 20759,
+          "wallMs": 216.65929999999935,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "REUSED_CACHE_ROUTE_REPRO",
+          "path": "/schedule",
+          "status": 200,
+          "responseBytes": 26063,
+          "wallMs": 2565.3724,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "REUSED_CACHE_ROUTE_REPRO",
+          "path": "/today",
+          "status": 200,
+          "responseBytes": 29309,
+          "wallMs": 1865.756899999993,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        }
+      ],
+      "errors": [],
+      "observationRequestBudgetMs": 90000,
+      "automaticRetries": 0,
+      "limits": "Direct HTTP observations allow90s to measure compilation; product15s/20s fetch and5s SQL limits are unchanged. Each record explicitly flags whether it exceeds its application fetch budget. Cold first process is not a fresh client against an existing server.",
+      "connectionsBefore": [],
+      "childPid": 29304,
+      "processReadyMs": 1832.6894000000002,
+      "connectionsAfterFirst": [
+        {
+          "pid": 7376,
+          "state": "idle"
+        }
+      ],
+      "connectionsAfterWarm": [],
+      "connectionsAfterProcessStop": [],
+      "totalMs": 66521.147,
+      "noPersistentRuntimeConnections": true
+    },
+    "boundedInitialReusedCacheProbe": {
+      "startedAt": "2026-10-29T10:46:44.259Z",
+      "sourceBaseCommit": "c5e557fde345f1efebba6952fdbbff50d975cba3",
+      "database": "csh_hsk24_bf294b6506c1",
+      "port": 3037,
+      "compiledDevCachePresentBeforeStart": true,
+      "freshNodeProcess": true,
+      "applicationCatalogCache": false,
+      "requests": [
+        {
+          "phase": "FIRST_HTTP_IN_COLD_PROCESS",
+          "path": "/api/local/status",
+          "status": 200,
+          "responseBytes": 31,
+          "wallMs": 21814.618300000002,
+          "applicationFetchBudgetMs": 20000,
+          "exceedsApplicationFetchBudget": true,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "LOCAL_MODE_SETUP",
+          "path": "/api/local/mode",
+          "status": 200,
+          "responseBytes": 15,
+          "wallMs": 40398.32759999999,
+          "applicationFetchBudgetMs": 20000,
+          "exceedsApplicationFetchBudget": true,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "FIRST_TODAY_HTTP_IN_COLD_PROCESS",
+          "path": "/api/local/study/today",
+          "status": 200,
+          "responseBytes": 1942,
+          "wallMs": 1342.62539999999,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "WARM_TODAY_HTTP",
+          "path": "/api/local/study/today",
+          "status": 200,
+          "responseBytes": 1942,
+          "wallMs": 87.1765000000014,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "WARM_TODAY_HTTP",
+          "path": "/api/local/study/today",
+          "status": 200,
+          "responseBytes": 1942,
+          "wallMs": 95.01350000000093,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "REUSED_CACHE_ROUTE_REPRO",
+          "path": "/learn/courses/HSK4",
+          "status": 200,
+          "responseBytes": 20759,
+          "wallMs": 206.11669999999867,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "REUSED_CACHE_ROUTE_REPRO",
+          "path": "/learn/draft/L4024",
+          "status": 200,
+          "responseBytes": 22615,
+          "wallMs": 3002.4545999999973,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "REUSED_CACHE_ROUTE_REPRO",
+          "path": "/learn/courses/HSK4",
+          "status": 200,
+          "responseBytes": 20759,
+          "wallMs": 122.58389999999781,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "REUSED_CACHE_ROUTE_REPRO",
+          "path": "/schedule",
+          "status": 200,
+          "responseBytes": 26063,
+          "wallMs": 1567.4504999999917,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        },
+        {
+          "phase": "REUSED_CACHE_ROUTE_REPRO",
+          "path": "/today",
+          "status": 200,
+          "responseBytes": 29309,
+          "wallMs": 1300.7988000000041,
+          "applicationFetchBudgetMs": 15000,
+          "exceedsApplicationFetchBudget": false,
+          "serverErrorCode": null
+        }
+      ],
+      "errors": [],
+      "observationRequestBudgetMs": 90000,
+      "automaticRetries": 0,
+      "limits": "Direct HTTP observations allow90s to measure compilation; product15s/20s fetch and5s SQL limits are unchanged. Each record explicitly flags whether it exceeds its application fetch budget. Cold first process is not a fresh client against an existing server.",
+      "connectionsBefore": [],
+      "childPid": 24872,
+      "processReadyMs": 9622.6248,
+      "connectionsAfterFirst": [
+        {
+          "pid": 5304,
+          "state": "idle"
+        }
+      ],
+      "connectionsAfterWarm": [
+        {
+          "pid": 5304,
+          "state": "idle"
+        }
+      ],
+      "connectionsAfterProcessStop": [
+        {
+          "pid": 5304,
+          "state": "idle"
+        }
+      ],
+      "totalMs": 79863.6606,
+      "noPersistentRuntimeConnections": false
+    },
+    "gate": "OPEN_COLD_COMPILE_BUDGET_AND_DEV_TRANSPORT",
+    "coldHttpBudgetExceedances": [
+      {
+        "phase": "REUSED_CACHE_ROUTE_REPRO",
+        "path": "/learn/courses/HSK4",
+        "status": 200,
+        "responseBytes": 20759,
+        "wallMs": 23528.7704,
+        "applicationFetchBudgetMs": 15000,
+        "exceedsApplicationFetchBudget": true,
+        "serverErrorCode": null
+      },
+      {
+        "phase": "REUSED_CACHE_ROUTE_REPRO",
+        "path": "/learn/draft/L4024",
+        "status": 200,
+        "responseBytes": 22615,
+        "wallMs": 18661.272699999994,
+        "applicationFetchBudgetMs": 15000,
+        "exceedsApplicationFetchBudget": true,
+        "serverErrorCode": null
+      }
+    ],
+    "transportLogOccurrences": {
+      "hsk4-vocabulary-browser-today.log": 3,
+      "hsk4-vocabulary-browser-full.log": 1,
+      "hsk4-vocabulary-browser-desktop-recheck.log": 0,
+      "hsk4-vocabulary-browser-desktop-final.log": 3,
+      "hsk4-vocabulary-browser-mobile-today.log": 6,
+      "hsk4-vocabulary-browser-mobile-remaining.log": 0
+    },
+    "limitations": "Zero ordinary full-body reads is verified. Metadata index parsing remains corpus-sized, rejected pages can add work. HTTP200 within a90s observer does not pass unchanged15s/20s product budgets. ECONNRESET/aborted server logs remain observations, not an established root cause. No general SLA or cache/transport closure."
+  },
+  "clientIsolation": {
+    "development": {
+      "passed": true,
+      "scope": "Frozen actual dev JS/maps; bounded literal private-key-ID scan plus public projection/native tests, not formal leak proof",
+      "files": 101,
+      "bytes": 27748117,
+      "privateKeyIdsChecked": 4158,
+      "markerHits": 0,
+      "archive": ".local-postgres/hsk24/hsk4-vocabulary-dev-client-artifacts.zip",
+      "archiveSha256": "70bc7896f8115dbb564d6669a527ac53db01fb4354c4663834243702d14a7d9c",
+      "manifest": ".local-postgres/hsk24/hsk4-vocabulary-dev-client-artifacts.json",
+      "manifestSha256": "3e1c25f747d5789873240716615df445ae917407f3246cdae3d81786212f0682"
+    },
+    "production": {
+      "passed": true,
+      "scope": "Frozen actual prod JS/maps; bounded literal private-key-ID scan plus public projection/native tests, not formal leak proof",
+      "files": 32,
+      "bytes": 966574,
+      "privateKeyIdsChecked": 4158,
+      "markerHits": 0,
+      "archive": ".local-postgres/hsk24/hsk4-vocabulary-prod-client-artifacts.zip",
+      "archiveSha256": "1ff9f815f591371b80461364df7436a6ffbd57f4bb8b19599d1f5af0762cf711",
+      "manifest": ".local-postgres/hsk24/hsk4-vocabulary-prod-client-artifacts.json",
+      "manifestSha256": "aff7cddd3e5a5485f442b7fcb188c2fcd4d2f7778e8763221d0bef51dd133904"
+    },
+    "limits": "Literal private-key-ID artifact scan plus separate public-projection/native tests; bounded evidence, not a formal confidentiality proof."
+  },
+  "database": {
+    "name": "csh_hsk24_bf294b6506c1",
+    "preservedBaselineRows": {
+      "packages": 383,
+      "attempts": 2978,
+      "sessions": 1315,
+      "cards": 2100
+    },
+    "afterRows": {
+      "packages": 522,
+      "attempts": 4540,
+      "sessions": 1999,
+      "cards": 3228
+    },
+    "allBaselineHashesEqual": true,
+    "canonicalManifestsMatched": 522,
+    "migrationCount": 7,
+    "forceRlsTableCount": 19,
+    "runtimeSuperuser": false,
+    "runtimeBypassRls": false,
+    "scope": "Four historical row groups plus canonical content/migrations/role/RLS flags; no claim of full backup/restore validation."
+  },
+  "sourcePreservation": {
+    "baseline": "c5e557fde345f1efebba6952fdbbff50d975cba3",
+    "checkedAtSourceCommit": "7fb19bb33c7069cb10b1957e9be04aa781fb93a0",
+    "originalPackageFilesMatched": 383,
+    "originalReferencesMatched": 2545,
+    "originalReviewActivitiesMatched": 90,
+    "protectedSourceStatusLoopFilesChanged": 0,
+    "normalization": "CRLF to LF only, then exact bytes; source-reference/review objects deep equality",
+    "files": [
+      {
+        "file": "content/hsk24/L201.v1.json",
+        "normalizedSha256": "a531c4e9d2fd05be4eed2ef327b8a95e89e1f0f442aa88540ee260033afebf7d"
+      },
+      {
+        "file": "content/hsk24/L202.v1.json",
+        "normalizedSha256": "1f8425d2acd3c48daecd8b9d95ca008006f74bd9c06c331f23da0b213511625e"
+      },
+      {
+        "file": "content/hsk24/L203.v1.json",
+        "normalizedSha256": "d4c08683625826022ad64ddaef3f35464b1a4597adc8f6809d629c45d0a23c2e"
+      },
+      {
+        "file": "content/hsk24/L204.v1.json",
+        "normalizedSha256": "3fad79d544442d33e60050702fd1b3f9c9105b44c919d56328c6a294d272ef82"
+      },
+      {
+        "file": "content/hsk24/L205.v1.json",
+        "normalizedSha256": "722bef44b0028d24589aa568b2fe5ff53239f1c43bffda93637ee24d8f055c96"
+      },
+      {
+        "file": "content/hsk24/L206.v1.json",
+        "normalizedSha256": "18b6082a187aa6b741af22397ef2cf3710768de3fe22c4bf45145f0c8aed4edc"
+      },
+      {
+        "file": "content/hsk24/L207.v1.json",
+        "normalizedSha256": "fdadbbb354f862bf7ac2cacfcc794bfbe2215e5f4a2304b2da2f85f16a84f203"
+      },
+      {
+        "file": "content/hsk24/L207.v2.json",
+        "normalizedSha256": "d41e26843519b2137b76cdf3fc0fe80cdb7f8088b7f008a76c784529f6f561f7"
+      },
+      {
+        "file": "content/hsk24/L208.v1.json",
+        "normalizedSha256": "c6f5633691dd8ed6bdfed831351720aa783b1be8f2ec417b0ca7c67a7e5efdcb"
+      },
+      {
+        "file": "content/hsk24/L209.v1.json",
+        "normalizedSha256": "e4ef2e55b98a3fcc52aceaa95b728d81964b53b04108944427952eb231f644d1"
+      },
+      {
+        "file": "content/hsk24/L209.v2.json",
+        "normalizedSha256": "12e8d50156b51be3923cb0c68030b0d3d9f152cddba4451c3d19c5d149224b81"
+      },
+      {
+        "file": "content/hsk24/L210.v1.json",
+        "normalizedSha256": "eb22788875a896608f3c580b9c336a689098786d453ccb6ea9dcec35279713d2"
+      },
+      {
+        "file": "content/hsk24/L210.v2.json",
+        "normalizedSha256": "97da930250aa6c3a3161b8432a4ee9b5e5267080173146bc41dbad73caf87520"
+      },
+      {
+        "file": "content/hsk24/L211.v1.json",
+        "normalizedSha256": "d82fe345156794f816bd8f1ac76c8d3e0e8674c4b444a83a529ed1e3afd2f29e"
+      },
+      {
+        "file": "content/hsk24/L212.v1.json",
+        "normalizedSha256": "d837a05f26c03d7c648820ae85dfaefb9d9e3db677249591937918b9c77d9088"
+      },
+      {
+        "file": "content/hsk24/L212.v2.json",
+        "normalizedSha256": "d8ead8eeca7a18d462f29bd83d15e1b5d032c68281adc849a7ea5e2806eaa776"
+      },
+      {
+        "file": "content/hsk24/L213.v1.json",
+        "normalizedSha256": "e7c6ba18da431e9e30745256df5dca3ed58690823a8d67bc437bf07a67d9c7a9"
+      },
+      {
+        "file": "content/hsk24/L213.v2.json",
+        "normalizedSha256": "9a0626e8beefba2851f08ffbecb25b85940627ebe4c0255d9fbfff0391427a69"
+      },
+      {
+        "file": "content/hsk24/L214.v1.json",
+        "normalizedSha256": "05cd0a0b42be2e74023c5c16d394e04884a77e3ebb1cba0f5e752080e61022bd"
+      },
+      {
+        "file": "content/hsk24/L214.v2.json",
+        "normalizedSha256": "8a9528729dfdd076860692f3163c6c78b0fb707f91e420685cad7e35bc72865f"
+      },
+      {
+        "file": "content/hsk24/L215.v1.json",
+        "normalizedSha256": "bb06ab382ed0aa55b6590fdfed2f0204733e0ff30e323658a06d7273a48183f7"
+      },
+      {
+        "file": "content/hsk24/L215.v2.json",
+        "normalizedSha256": "f79464d724e1613d79c8fcad12d62677bac194cc7973e7debe70a6a693a496d7"
+      },
+      {
+        "file": "content/hsk24/L216.v1.json",
+        "normalizedSha256": "a6e4dff66f6f6e0a2fdea647c5b4565f7bc09ddfcc1075c2a448fee230ad0d5b"
+      },
+      {
+        "file": "content/hsk24/L217.v1.json",
+        "normalizedSha256": "33435071266523bc9d3bae4082d40e4b84df706dd2e8ca095adacfd5da3aa20e"
+      },
+      {
+        "file": "content/hsk24/L218.v1.json",
+        "normalizedSha256": "19a4fbe53d5d5d711586b7f7174dfd96be5be7225a828372411756b7c4baee9e"
+      },
+      {
+        "file": "content/hsk24/L219.v1.json",
+        "normalizedSha256": "9c1b52dfe98ef59f235c73f5086d002cb8c852f0b7cc347f20beb1a3e388ff79"
+      },
+      {
+        "file": "content/hsk24/L220.v1.json",
+        "normalizedSha256": "93f6fdf24eb516f9cd77eace515fb292cfe6cb78494ae5b3ee7446e8ff6c829b"
+      },
+      {
+        "file": "content/hsk24/L221.v1.json",
+        "normalizedSha256": "fdc073d48061322fe90e888513f76fdc45ea5912ac549e5eb5d1b7a8d311cf8b"
+      },
+      {
+        "file": "content/hsk24/L221.v2.json",
+        "normalizedSha256": "02a73fc2948ef41b79fbb6cb30d6c79db6cec0e32309247677d2ecba4532bc72"
+      },
+      {
+        "file": "content/hsk24/L222.v1.json",
+        "normalizedSha256": "a26d3ff8c74ca5632e490ccc41011c09f6b8bff73592853c081fb37259cb2f5e"
+      },
+      {
+        "file": "content/hsk24/L222.v2.json",
+        "normalizedSha256": "771a358f2fec04b1e6dd227e1e30b3a9824dfa904aca26de8984c5adb01bc9f8"
+      },
+      {
+        "file": "content/hsk24/L223.v1.json",
+        "normalizedSha256": "d7ea05acdcd199dc503d34446461a25fbf59442558ba37e71506a63d3baf210a"
+      },
+      {
+        "file": "content/hsk24/L224.v1.json",
+        "normalizedSha256": "90c592b25b82351e17ef0e44a097f82ccbf82c16cae2f77b0823835a0653f78d"
+      },
+      {
+        "file": "content/hsk24/L225.v1.json",
+        "normalizedSha256": "5d34203cd8b346cb0e39888917ce288d291e2b4588dad8902f15bdb8d2876c5b"
+      },
+      {
+        "file": "content/hsk24/L226.v1.json",
+        "normalizedSha256": "ac8ff3b0c7bfcc4504b5027379b4a46c8e24caf65a231884e54f66fe4ada796f"
+      },
+      {
+        "file": "content/hsk24/L227.v1.json",
+        "normalizedSha256": "a216959a18129845675906a7faea255dd57a943488b52c2c5c4acf3ea0be5b2f"
+      },
+      {
+        "file": "content/hsk24/L228.v1.json",
+        "normalizedSha256": "a43e70208002923c537dd2ba1123038b721054cf522402a7b3cb1c09c279f42e"
+      },
+      {
+        "file": "content/hsk24/L229.v1.json",
+        "normalizedSha256": "971ec8b8ff155d67527e85cdc4e8e5c67857574ed51628e7810f7e57831b8f90"
+      },
+      {
+        "file": "content/hsk24/L230.v1.json",
+        "normalizedSha256": "a925ba98d32b261ab6b82d5035f05cdae4b760db76f20122966f4740d415a288"
+      },
+      {
+        "file": "content/hsk24/L231.v1.json",
+        "normalizedSha256": "3c88ee09d5012eb7d587728daf3f11e72a0df195d649956c864a08829675e043"
+      },
+      {
+        "file": "content/hsk24/L232.v1.json",
+        "normalizedSha256": "9330bb40ac433d5cf44408e4779a4467a0fc1286cd715ec37fb8a75596adf235"
+      },
+      {
+        "file": "content/hsk24/L233.v1.json",
+        "normalizedSha256": "e5e9cbaa87a00561703f8dc94c514796b7f9109d3ea6fd6c521bd5f7e234494f"
+      },
+      {
+        "file": "content/hsk24/L234.v1.json",
+        "normalizedSha256": "53e9d24b49ea90b40f3d2354b47b9aa6b737691125f901fcecc42b42713fe405"
+      },
+      {
+        "file": "content/hsk24/L235.v1.json",
+        "normalizedSha256": "0bace94177423d3ea8f28a2402a7fcfb8af27de931318db6623f9a6c8c27ccd3"
+      },
+      {
+        "file": "content/hsk24/L235.v2.json",
+        "normalizedSha256": "c390f4d21df6f73da6a26b438092006db7ca6fff840ef24a4e1e9e2046dc4f9e"
+      },
+      {
+        "file": "content/hsk24/L236.v1.json",
+        "normalizedSha256": "d5477fba55ee44fd4a8439642ae1e2c4758d1eb19bad71a43a83b5713d9d9fab"
+      },
+      {
+        "file": "content/hsk24/L237.v1.json",
+        "normalizedSha256": "ec80fedd04e7393748263225521f49193b9e142f07c3c90763be9dcca86a3f27"
+      },
+      {
+        "file": "content/hsk24/L238.v1.json",
+        "normalizedSha256": "fee2fa32881bdebd6edec0e419a3f1ee8d2e8d95cef29553974770bf9c07f437"
+      },
+      {
+        "file": "content/hsk24/L238.v2.json",
+        "normalizedSha256": "3ebf2551b0608376f648451f4d87bcc377a93ad11bc9eb14b56a6f89275444fa"
+      },
+      {
+        "file": "content/hsk24/L239.v1.json",
+        "normalizedSha256": "551a2d6d9225b7ac1d0f1e727bbb368834b41825d3300f8a84f9f71a37ea6a7e"
+      },
+      {
+        "file": "content/hsk24/L240.v1.json",
+        "normalizedSha256": "30409ea1ba0fa190fcbf6ca2ba7377ca8fc842e31e281f07248fe7fdfbca4608"
+      },
+      {
+        "file": "content/hsk24/L241.v1.json",
+        "normalizedSha256": "d3bf1e21b1f42781baa96b44b9b1c43d5ac75910af31753f5df5c92a950b529c"
+      },
+      {
+        "file": "content/hsk24/L242.v1.json",
+        "normalizedSha256": "831b545b383dcda9c1fa663c8b87b67df668f3838e0b9abc6bb28c86d40f6fe7"
+      },
+      {
+        "file": "content/hsk24/L243.v1.json",
+        "normalizedSha256": "927a74c9eeaf3fda5d15bda9fdd6ab0a0828dc95c8b52dd470b9d4b363a1db75"
+      },
+      {
+        "file": "content/hsk24/L244.v1.json",
+        "normalizedSha256": "d0283f815e50bab934e89a46879dbbd15b3ce0981bbf477328dca68b80405152"
+      },
+      {
+        "file": "content/hsk24/L245.v1.json",
+        "normalizedSha256": "85edc01d70312db3d15ce4a6c589605b75b33491410196fe8492e6771785963d"
+      },
+      {
+        "file": "content/hsk24/L246.v1.json",
+        "normalizedSha256": "c975266d567077284e8c1bd38ae23b4142e56b2cbb829e8c0780ad97f86b6665"
+      },
+      {
+        "file": "content/hsk24/L247.v1.json",
+        "normalizedSha256": "dfb1e76e9229ac50edd5a63c5aa87be75f204babb76b63e47a0a75efb8c25d92"
+      },
+      {
+        "file": "content/hsk24/L248.v1.json",
+        "normalizedSha256": "26bab24cfa95cf394061731866b262fa5ab11fb587fe132fb6080df169302d5f"
+      },
+      {
+        "file": "content/hsk24/L249.v1.json",
+        "normalizedSha256": "cf99f76e40ca6a50680f6d7bc99939d0c9629e8d8bcd949b5607707e2bcc21d7"
+      },
+      {
+        "file": "content/hsk24/L250.v1.json",
+        "normalizedSha256": "5818aa6da01fdad0d4779d90bc410b6e4136a80e050c316e028aa67b3f806521"
+      },
+      {
+        "file": "content/hsk24/L251.v1.json",
+        "normalizedSha256": "4cf05b3dcdf01116fc415c84d0069dd41925227c4c3a0cb70b80bc57918efc5a"
+      },
+      {
+        "file": "content/hsk24/L252.v1.json",
+        "normalizedSha256": "094e97e77d5dd0b1795fe8e77e388cf38be12a47bcb19f6c6bd00dd53592bbe5"
+      },
+      {
+        "file": "content/hsk24/L253.v1.json",
+        "normalizedSha256": "771472d8f7dd30491390fac4c976c1139e84cd0f66a87195b6545805c6e25899"
+      },
+      {
+        "file": "content/hsk24/L254.v1.json",
+        "normalizedSha256": "b0c1d19b29808536417959aa891575a0afd4c02655cab2759d31b8cd7c8f4ba7"
+      },
+      {
+        "file": "content/hsk24/L255.v1.json",
+        "normalizedSha256": "4ba6033a6e284d348928ca83301bcf57d8a4684c2828338c317840c0f18c2117"
+      },
+      {
+        "file": "content/hsk24/L256.v1.json",
+        "normalizedSha256": "770c976f1de81d879fe33d7cd8e033d30d9369e55fdb71908b41197f19d3cbc8"
+      },
+      {
+        "file": "content/hsk24/L257.v1.json",
+        "normalizedSha256": "dd21684f35d32fa62d669d97229cd26c29805dfde435c7f290025e3f45460621"
+      },
+      {
+        "file": "content/hsk24/L258.v1.json",
+        "normalizedSha256": "917c65b06cf99ff897e61fa3681fdaef65a3994fb3ca064c337ebac341e9429b"
+      },
+      {
+        "file": "content/hsk24/L259.v1.json",
+        "normalizedSha256": "d9211f4f19cccb5ba226c85a000522905c5e6282f2af131e435e7469edddfcf1"
+      },
+      {
+        "file": "content/hsk24/L260.v1.json",
+        "normalizedSha256": "b89222e77dfaec387fbc3016dbbb33eac412b0b6cb2125af7eae043255e85239"
+      },
+      {
+        "file": "content/hsk24/L261.v1.json",
+        "normalizedSha256": "7bfef4cdd965de7d5eb6a1a943f43d3fab1b2203bb8e32197022e3f098204e8d"
+      },
+      {
+        "file": "content/hsk24/L262.v1.json",
+        "normalizedSha256": "9ba41ffd8316b03f548aa3360031b1e338058333e000ad1d923792cdb4cea1aa"
+      },
+      {
+        "file": "content/hsk24/L263.v1.json",
+        "normalizedSha256": "cdc01e9583e0618b94153a3927e28e48d02737882b477155ca0bbdae41983f76"
+      },
+      {
+        "file": "content/hsk24/L264.v1.json",
+        "normalizedSha256": "383142a0401d548b11a5210f5fea64587ed55fa0262e4197069f1c2da09be49b"
+      },
+      {
+        "file": "content/hsk24/L265.v1.json",
+        "normalizedSha256": "29c6fdbb700425cb48fc6f27b7d736e0fca534089bd33d22f223b79d3ffb66a6"
+      },
+      {
+        "file": "content/hsk24/L266.v1.json",
+        "normalizedSha256": "c553c0f33ca83252c7b6bbe57f70f29662f3763e42ad768b26e58476db93c17a"
+      },
+      {
+        "file": "content/hsk24/L267.v1.json",
+        "normalizedSha256": "614f578d29a5e654ecf171ce47c9b7968eeabac76714903e0474b6a4febe81e7"
+      },
+      {
+        "file": "content/hsk24/L268.v1.json",
+        "normalizedSha256": "f3a7ed897166f2289c97253a9d9291010c8cccd10cd75c833517f1733e23eef7"
+      },
+      {
+        "file": "content/hsk24/L269.v1.json",
+        "normalizedSha256": "f9e075ac530422efc2efe71ff3b1b1a005bcccf4afc1d25e27c86b482f4f8a89"
+      },
+      {
+        "file": "content/hsk24/L270.v1.json",
+        "normalizedSha256": "f2d5a649fe19e4537cdc8347c753c807c46eccd38afb4213f0bfcc57f6c53794"
+      },
+      {
+        "file": "content/hsk24/L271.v1.json",
+        "normalizedSha256": "1565fdfc5c93a5cb78578dfc771a261ac771225dda0ad84e127a6e08ac8981e8"
+      },
+      {
+        "file": "content/hsk24/L272.v1.json",
+        "normalizedSha256": "c4421944f606c4aaf81c21342e2c908b2eda1c23f300ef13d6ab3298f92bb55d"
+      },
+      {
+        "file": "content/hsk24/L273.v1.json",
+        "normalizedSha256": "4afa47845dff02d5ccc599b491bb38c88255aef598720b0557be1c782d739a8f"
+      },
+      {
+        "file": "content/hsk24/L274.v1.json",
+        "normalizedSha256": "4d21f6edffe29dc42cf6dcaf7dee743cb2f9613afdaa1ec7e206167421937378"
+      },
+      {
+        "file": "content/hsk24/L275.v1.json",
+        "normalizedSha256": "1d924ca8ee3e6962416f7f09f0eed2ca70fa23eb6dadd949fdb5329377edd6a8"
+      },
+      {
+        "file": "content/hsk24/L276.v1.json",
+        "normalizedSha256": "c0ded2e7e290cf6b527bc0cf262c5075fbc8ee8faa54b34a46997f657cbef20a"
+      },
+      {
+        "file": "content/hsk24/L277.v1.json",
+        "normalizedSha256": "141a33bb0045c1d1031a65a3397b287a79faba928864aed6f47a1f9406a1256b"
+      },
+      {
+        "file": "content/hsk24/L278.v1.json",
+        "normalizedSha256": "b129b633b9b9d8a146783c37e1329ccd2a31437a33cf719a41006f4ef3b44286"
+      },
+      {
+        "file": "content/hsk24/L279.v1.json",
+        "normalizedSha256": "c12962594eb273ef0aa19ffb5a1a16caa7149c836f786d67359bbba6c7f15a84"
+      },
+      {
+        "file": "content/hsk24/L280.v1.json",
+        "normalizedSha256": "c37ac9daacf83c63227b821ac695a550b74bbb237a55eb035a94af902909f68c"
+      },
+      {
+        "file": "content/hsk24/L281.v1.json",
+        "normalizedSha256": "e83235c977402e5feeeef1b211dc9ed077ae4f789281a6850599ee3bc3dbb429"
+      },
+      {
+        "file": "content/hsk24/L282.v1.json",
+        "normalizedSha256": "e1ac9e61aa595c89a68a8cdcf7ff463226e0655a9c24e273b940509e10c9a10f"
+      },
+      {
+        "file": "content/hsk24/L283.v1.json",
+        "normalizedSha256": "0b8555501a81f748c7ab32d61b3551289ccc9754f7f2b2c3684c814da9d8ce36"
+      },
+      {
+        "file": "content/hsk24/L284.v1.json",
+        "normalizedSha256": "24e9a6b2132a57d7704ebee25ff98d82a3928d3886767ca81cf66703f9c547cd"
+      },
+      {
+        "file": "content/hsk24/L285.v1.json",
+        "normalizedSha256": "8f9c1021d999f0bd1ef6e88ae312fe29b7aa274494b364eff346121bb140219f"
+      },
+      {
+        "file": "content/hsk24/L286.v1.json",
+        "normalizedSha256": "cb33e78631e4f309a60029c412084bb5d07c8e7c259ff879f5c475b63a447f22"
+      },
+      {
+        "file": "content/hsk24/L287.v1.json",
+        "normalizedSha256": "16bfd8b9df8678279a27e2972f4402a161af0cad0527d74d029527a9218998a7"
+      },
+      {
+        "file": "content/hsk24/L288.v1.json",
+        "normalizedSha256": "91e9ccf2ba045c60b0c48bfd26d0082e032f1946890fd35d62f6697f38159583"
+      },
+      {
+        "file": "content/hsk24/L289.v1.json",
+        "normalizedSha256": "a3f1890a7918949f098717c18160d50901da1e74ba2bf20f5b1d2b661be3e658"
+      },
+      {
+        "file": "content/hsk24/L290.v1.json",
+        "normalizedSha256": "437e2a85b05073fe9d45b98c70affc0af9e3dd92f3f2c76ddbad2dbeba90c847"
+      },
+      {
+        "file": "content/hsk24/L296.v1.json",
+        "normalizedSha256": "a5479eeb1af8bb300174ebcb5df83502a2f83099ad2539ae65a387b325b3895c"
+      },
+      {
+        "file": "content/hsk24/L301.v1.json",
+        "normalizedSha256": "d4ae940e8f472b2b2f08131882f4542940602b70b862250a12c04e55e48958e7"
+      },
+      {
+        "file": "content/hsk24/L302.v1.json",
+        "normalizedSha256": "567eebfb77dce6ede9723b424807ddf073d5503cb4fc21654c81c73e718d2e77"
+      },
+      {
+        "file": "content/hsk24/L303.v1.json",
+        "normalizedSha256": "9f8399f58aaa4fe5ed2c5bcdd2b251c994c2ef86e7289e74c328f7844bf4b252"
+      },
+      {
+        "file": "content/hsk24/L304.v1.json",
+        "normalizedSha256": "38910df990cd269fce461143f02753ee0d4ce70ca627da2ce3c1720d80724ea0"
+      },
+      {
+        "file": "content/hsk24/L305.v1.json",
+        "normalizedSha256": "a9feeb080ef8f54a7bc8e25add2074559a669356f6760c58e1bbfe6149a87bc5"
+      },
+      {
+        "file": "content/hsk24/L306.v1.json",
+        "normalizedSha256": "892df3f408017dfaa5335acca0f3f7ac7a6ae0a0617d30b977bfd9b7bfc4ca66"
+      },
+      {
+        "file": "content/hsk24/L307.v1.json",
+        "normalizedSha256": "3e7a3f4ef8b7b790d92d131fa388ef6f0cba829a1b5a6e9dd1ea8c2a479ed741"
+      },
+      {
+        "file": "content/hsk24/L308.v1.json",
+        "normalizedSha256": "e9d44b7b102ba8fb50e8c8e1a076b8e6063cf90303615770bbee666de8cd799f"
+      },
+      {
+        "file": "content/hsk24/L309.v1.json",
+        "normalizedSha256": "b7ec4809b712beaa33640b4fd32acdc51da99d6665b576f99397b9797d377b93"
+      },
+      {
+        "file": "content/hsk24/L309.v2.json",
+        "normalizedSha256": "fb3f8dd5b2b83e92f42eedc3e64613be944e66e94394e24e824d386775b31fbb"
+      },
+      {
+        "file": "content/hsk24/L310.v1.json",
+        "normalizedSha256": "a71ae23ca52fcc8021b07a908f8894442c6f2ff5d65767e5a03ff5bf155fdae9"
+      },
+      {
+        "file": "content/hsk24/L311.v1.json",
+        "normalizedSha256": "8cf0fad07e22cbc4a49c866913a367169e2c8d456ee66408a42a78eae01b9a84"
+      },
+      {
+        "file": "content/hsk24/L312.v1.json",
+        "normalizedSha256": "df13f92ea6e6a6269208f44bd7ca28eb11e4cab4e603bfbe3753054f5c5196ba"
+      },
+      {
+        "file": "content/hsk24/L312.v2.json",
+        "normalizedSha256": "f6e84938c0ff0f69d1d4ef861010f9ea00cd1050f881d24d7cb30c290aab89c0"
+      },
+      {
+        "file": "content/hsk24/L313.v1.json",
+        "normalizedSha256": "455a7021a3c32a6da382475d4622eaa71f315a0e9804e2515e2dbea7370bb88a"
+      },
+      {
+        "file": "content/hsk24/L313.v2.json",
+        "normalizedSha256": "2b16e5ecd310626bf05d7b361745c5a863d5e494dd5339381b56716843b966e2"
+      },
+      {
+        "file": "content/hsk24/L314.v1.json",
+        "normalizedSha256": "7fc9948ab6003250ce287b1c19d80574109c0d3238c24c010badf7b92bd256b8"
+      },
+      {
+        "file": "content/hsk24/L315.v1.json",
+        "normalizedSha256": "06e5010983a21c3b11284cd62d6111d80bfb5822a5db9d3bc4a73fd47b8038af"
+      },
+      {
+        "file": "content/hsk24/L315.v2.json",
+        "normalizedSha256": "834fac9455663044c2c976dbdd05fa8ebd73c0b9ec71ce3e01af8932b4f7e9af"
+      },
+      {
+        "file": "content/hsk24/L316.v1.json",
+        "normalizedSha256": "8ad5106e757fbbc3db232dbd03d2c479139932be8460643820f5ce5fb86799c9"
+      },
+      {
+        "file": "content/hsk24/L316.v2.json",
+        "normalizedSha256": "c32e1bbf499c480b3ab1b2e20f2d17a06ce27b9367115778910baaafffb47700"
+      },
+      {
+        "file": "content/hsk24/L317.v1.json",
+        "normalizedSha256": "299b6a2d2139e1fa2b12bf9a99b52cd0d522f88b9c1cc7c67893f700b766884e"
+      },
+      {
+        "file": "content/hsk24/L317.v2.json",
+        "normalizedSha256": "3b7a450e6480cfa564e919c2693662b9d6c1f54db9ab0a2739f5d2266a61aac2"
+      },
+      {
+        "file": "content/hsk24/L318.v1.json",
+        "normalizedSha256": "9b592a3627ede313daa076b656b5b0bf4711b3c5fde1598cb7e47b734a8fdcfd"
+      },
+      {
+        "file": "content/hsk24/L318.v2.json",
+        "normalizedSha256": "0d6a8810e72c3ea789960f7a1380a834e0d343894e60d351d479d0e9240f261a"
+      },
+      {
+        "file": "content/hsk24/L319.v1.json",
+        "normalizedSha256": "7ad0d30c4feb6edb2b376c9682fa7feb18b13e37aa2c4488da01f0316524f0f5"
+      },
+      {
+        "file": "content/hsk24/L319.v2.json",
+        "normalizedSha256": "539f87c0168ab9c0a213be9ad8ea323129f4f9d799740a4e24b513c42e27ad10"
+      },
+      {
+        "file": "content/hsk24/L319.v3.json",
+        "normalizedSha256": "aadf67831525fa538c0912cd340da3c45c4e661e599e8e40f1a6f61a72dfc393"
+      },
+      {
+        "file": "content/hsk24/L320.v1.json",
+        "normalizedSha256": "770ade7e3df1b179017ee0f88b1c93f25141a5f4aafbe2740dfb80cab06cf1c2"
+      },
+      {
+        "file": "content/hsk24/L320.v2.json",
+        "normalizedSha256": "fc40d70e574b6e82ab7e3bd893001f45a594d1ea2e6f0bf786f9d43d2ba18aa4"
+      },
+      {
+        "file": "content/hsk24/L321.v1.json",
+        "normalizedSha256": "7186b3a40b6df0e4fe8f8083cc50b91887294d738f131a695432cdb257f9be6c"
+      },
+      {
+        "file": "content/hsk24/L321.v2.json",
+        "normalizedSha256": "dcdc808048b3691279a0cd9d009bfd02fb94aa21c555ded27b7731a20716249a"
+      },
+      {
+        "file": "content/hsk24/L322.v1.json",
+        "normalizedSha256": "3a63d14f3ff340970c1b13785d7ff44cc35f8bf260a1d4b148880006991806d2"
+      },
+      {
+        "file": "content/hsk24/L322.v2.json",
+        "normalizedSha256": "795815fc7f6c853680c47027d553727bc1f2b177be1e846a330bfe1c799e2f60"
+      },
+      {
+        "file": "content/hsk24/L323.v1.json",
+        "normalizedSha256": "1a7e9f3fa872956c19e80adda57b3614370687026afc20573061fa669d95e114"
+      },
+      {
+        "file": "content/hsk24/L323.v2.json",
+        "normalizedSha256": "59cd0dd16d0bbbc2ddbc9a4967581c0573594f906c9db159335573c802abef20"
+      },
+      {
+        "file": "content/hsk24/L324.v1.json",
+        "normalizedSha256": "1341b8572aee47a3adcb8116d5c294998c8ae49791c75d6de23b74ebd30934db"
+      },
+      {
+        "file": "content/hsk24/L324.v2.json",
+        "normalizedSha256": "c333cdd6e5fd5fa35aa7f029002badb8cbfbbffc7b3199629d0c56626a12346e"
+      },
+      {
+        "file": "content/hsk24/L325.v1.json",
+        "normalizedSha256": "2af3bff37b6661c6c0be849bab7c575b2c6c0b48635be07e44d0cc8d8123470e"
+      },
+      {
+        "file": "content/hsk24/L325.v2.json",
+        "normalizedSha256": "7b8ed56717bbb8b7891a094610d04af083d91f6c0f72d5c1d51bca29ed8b5ba5"
+      },
+      {
+        "file": "content/hsk24/L326.v1.json",
+        "normalizedSha256": "eb8a11fdcbf2f35ed0542ab8e01c23443e361b0753f7f8ebd43c12e508754a26"
+      },
+      {
+        "file": "content/hsk24/L326.v2.json",
+        "normalizedSha256": "84ebe81924f504b1b1bf4435fa46dc152dd24762f64559b460aee31d083ca01e"
+      },
+      {
+        "file": "content/hsk24/L327.v1.json",
+        "normalizedSha256": "d3bbae221846ed1c2d050d6036e6fdf81df26ec805db440deb4dbb499423b3d6"
+      },
+      {
+        "file": "content/hsk24/L327.v2.json",
+        "normalizedSha256": "a0a5f3bdc966ee3a3a57279e63f197ce80f2fd23df0a6c84ab8aa34bc7911fca"
+      },
+      {
+        "file": "content/hsk24/L328.v1.json",
+        "normalizedSha256": "14c6186d7a1db2903dbfbe66ec59c00d932eb1cfeb0f63d8d4eb4d94c5f8f7dc"
+      },
+      {
+        "file": "content/hsk24/L328.v2.json",
+        "normalizedSha256": "1d7eec24b71ac42bec57ba4afc173f0f5912a2a9f506a110f5e9acceb5096de3"
+      },
+      {
+        "file": "content/hsk24/L329.v1.json",
+        "normalizedSha256": "fb96bd92532b54a9c807e83c1b9bba9cea1103c59a3e41fc0330bcb385f24ee9"
+      },
+      {
+        "file": "content/hsk24/L330.v1.json",
+        "normalizedSha256": "2b34780d8f188fbf5172a4e91cc316935deb9c0cb4384b3eaf4d6a1da6e5a67d"
+      },
+      {
+        "file": "content/hsk24/L331.v1.json",
+        "normalizedSha256": "a6bee67123a28ed3c4761767d179195061ab17e5be9d18e6f3b369813dbb9ed3"
+      },
+      {
+        "file": "content/hsk24/L331.v2.json",
+        "normalizedSha256": "4a71d5e92e04924c2cbde7460351acec973b93a4bb825e2d4713198df977d116"
+      },
+      {
+        "file": "content/hsk24/L332.v1.json",
+        "normalizedSha256": "2604fe73f4dd0ad3ffd86ca8720d966eccbca417e2b2a33ae9371ed8cbe4d874"
+      },
+      {
+        "file": "content/hsk24/L333.v1.json",
+        "normalizedSha256": "548cd1d6afcf262a90d56a570860db809066c9cdc4238669b8fb5c79e6ab1b8f"
+      },
+      {
+        "file": "content/hsk24/L334.v1.json",
+        "normalizedSha256": "7188e026be1c4343a1ee385686ae42ad1568267c95e32877470aef94e8471854"
+      },
+      {
+        "file": "content/hsk24/L335.v1.json",
+        "normalizedSha256": "b169efff721d4731e9464f3196be7a42b05d163918205de645a0545d4c7fafd3"
+      },
+      {
+        "file": "content/hsk24/L336.v1.json",
+        "normalizedSha256": "0a287cef23b10e098192d414551ba50637149051170a2407cdf9c5ef4107859d"
+      },
+      {
+        "file": "content/hsk24/L337.v1.json",
+        "normalizedSha256": "48328f4f13a3ae0df5a7aa6951ce45b4a33b1a407a31db2e53d4a6b1f3106b06"
+      },
+      {
+        "file": "content/hsk24/L338.v1.json",
+        "normalizedSha256": "dceaba5ef36d0936ec2c47d1aec6eb9f06c5674afa9c3c4564c91fa1dc0cdd8d"
+      },
+      {
+        "file": "content/hsk24/L339.v1.json",
+        "normalizedSha256": "3dcae3f6e76a3af56707f0e5b6d81b80e3c6e09b7ac71778679ae31690c046bb"
+      },
+      {
+        "file": "content/hsk24/L340.v1.json",
+        "normalizedSha256": "6ed54d088f6e06ab9b883039cade64beebdf73fb291d5bd42299e2b060bcfdec"
+      },
+      {
+        "file": "content/hsk24/L341.v1.json",
+        "normalizedSha256": "ed0a95313a248603fc060588ee14b7e5ad341a4ba80b9e8bfa96187d884d2fb4"
+      },
+      {
+        "file": "content/hsk24/L342.v1.json",
+        "normalizedSha256": "26d1af8ac7e931f48df8fc245c616fa28ea414d94dcefc8628a9c48268034179"
+      },
+      {
+        "file": "content/hsk24/L342.v2.json",
+        "normalizedSha256": "4988a9b0ca4a5d43f8ed08c48d9c48b005f79a2f9401c700e190b6c8a42f0523"
+      },
+      {
+        "file": "content/hsk24/L343.v1.json",
+        "normalizedSha256": "963ee9d3280f8d69867172bce281ebf14d29431f34ef039889b416e07155c40f"
+      },
+      {
+        "file": "content/hsk24/L344.v1.json",
+        "normalizedSha256": "0f7f7f62c3d2f2e29be79b6f7dcf7fcbc2eaf145252368c3458e1e4ec921e42f"
+      },
+      {
+        "file": "content/hsk24/L345.v1.json",
+        "normalizedSha256": "33a29bef3893aeaa6f86061ce3912e991d21455a9249465fe3982bc9bb0d0934"
+      },
+      {
+        "file": "content/hsk24/L346.v1.json",
+        "normalizedSha256": "7223346d07d4b0db4e2264be56bf1306082a5f75e732fb87486a9c10053aaaae"
+      },
+      {
+        "file": "content/hsk24/L346.v2.json",
+        "normalizedSha256": "55bde6adaa9862726911bbe7a0d9e5d3ce2202a99bd06b0daed3c80df99ea089"
+      },
+      {
+        "file": "content/hsk24/L347.v1.json",
+        "normalizedSha256": "9f9d6aaf28df1018ef6f2115f90d1237c56a0eeaea40fd20a819e94afdd74bcc"
+      },
+      {
+        "file": "content/hsk24/L348.v1.json",
+        "normalizedSha256": "31e3b30c78719d855198336da891d3e11c8512659fb087e95a86a3ac8b621fec"
+      },
+      {
+        "file": "content/hsk24/L349.v1.json",
+        "normalizedSha256": "d277d7a93c20d3e634db69fb0b2085b1b9df1f1be100e75bdeb24a4d563a3d43"
+      },
+      {
+        "file": "content/hsk24/L350.v1.json",
+        "normalizedSha256": "96a8561a3031243de22196f126f492f05d87329629d4e9591ce541c346920574"
+      },
+      {
+        "file": "content/hsk24/L350.v2.json",
+        "normalizedSha256": "4e53c7b77a0f03fcdc5a2b9475dcd94eefad66d2682c243fb8dee94c576005b1"
+      },
+      {
+        "file": "content/hsk24/L351.v1.json",
+        "normalizedSha256": "9f5b28dd3b86fd4c13d3c226806facdfc4aafc8d9ac082e285933d6b2b7a9eaf"
+      },
+      {
+        "file": "content/hsk24/L352.v1.json",
+        "normalizedSha256": "f77d1a6ff1b92fc13989540a5f11e752c8704cf817c4bd048a7da7e1e75143d3"
+      },
+      {
+        "file": "content/hsk24/L353.v1.json",
+        "normalizedSha256": "8db1ab2d3b78a874444cc1dd83eee4a5b82ce739f68c7af4b668691ab8464401"
+      },
+      {
+        "file": "content/hsk24/L354.v1.json",
+        "normalizedSha256": "1f4cf76c065f1224bb31590cbd66f7a734ea60c01dc5a2334cc807a037bf3288"
+      },
+      {
+        "file": "content/hsk24/L355.v1.json",
+        "normalizedSha256": "64623fe38169216ddec57d5a2fa39985a2f273a6bcc71242407eba07a610b23f"
+      },
+      {
+        "file": "content/hsk24/L355.v2.json",
+        "normalizedSha256": "f6963c5dcc5b6205597ef55a612f585ed55df40fdd60bc949c8c2879f34a14a3"
+      },
+      {
+        "file": "content/hsk24/L356.v1.json",
+        "normalizedSha256": "d7330b344521ddcfa68cdc8605173bf0072d0db1dc2aea817236c281f771b2b8"
+      },
+      {
+        "file": "content/hsk24/L356.v2.json",
+        "normalizedSha256": "f3204b434a2398d089e16824b4b7071a2eed03b7c7ff248e6cb8f39784a84589"
+      },
+      {
+        "file": "content/hsk24/L357.v1.json",
+        "normalizedSha256": "b8d5ea675751002093998b915384151a13b2ff47e7ec42362d1d63f4161186d3"
+      },
+      {
+        "file": "content/hsk24/L358.v1.json",
+        "normalizedSha256": "72c4d36c82b8142fef2628d133263ef750cd881a5330ddc20a752614ed080da6"
+      },
+      {
+        "file": "content/hsk24/L359.v1.json",
+        "normalizedSha256": "394598596bdbb31350f6f766d428cc077ddfc5fc0d9cc95769e15b2ca111bcf2"
+      },
+      {
+        "file": "content/hsk24/L360.v1.json",
+        "normalizedSha256": "975ceda9378e0d2b9ed0bbae153ab875ac597bdfb0f11107896bb3e615a8b567"
+      },
+      {
+        "file": "content/hsk24/L361.v1.json",
+        "normalizedSha256": "a74874232d938e42fea8036a12bfbc3a92827ff819453ef7936f75588b04d1a0"
+      },
+      {
+        "file": "content/hsk24/L362.v1.json",
+        "normalizedSha256": "be6ba05d18ecb22320ea9a929a6891d389a553664d2a10b134d001f39fe43cd6"
+      },
+      {
+        "file": "content/hsk24/L363.v1.json",
+        "normalizedSha256": "089f4d66eb0bb522e11f3206efbd54564d23a6e204b607ee860cc04a5e1dc5e4"
+      },
+      {
+        "file": "content/hsk24/L364.v1.json",
+        "normalizedSha256": "7edaedb6499c66601feacbdecd412161155ac716e3f62f40a957e787a7812a3d"
+      },
+      {
+        "file": "content/hsk24/L365.v1.json",
+        "normalizedSha256": "7f291a6ea38842e7099bfa0d71dfa917885dbd7f39f436836cf2f7e2a14d504a"
+      },
+      {
+        "file": "content/hsk24/L365.v2.json",
+        "normalizedSha256": "19a77ab5dc02a9736f93c7aadbadf3213f3bc0c26deb4f2cab0f75e5cae86371"
+      },
+      {
+        "file": "content/hsk24/L366.v1.json",
+        "normalizedSha256": "e0fe0a409209bf2d575d2f4e546357c7240ed7f07ad6447e4579817ddc49e963"
+      },
+      {
+        "file": "content/hsk24/L367.v1.json",
+        "normalizedSha256": "ee70825908be4813ca23ead793a96c8679fb1a3b292c8f9113e8173870c46f74"
+      },
+      {
+        "file": "content/hsk24/L368.v1.json",
+        "normalizedSha256": "674dd6bb0dd13d8d92881bb2b245ca9c0f89dd22afea2b0fc75966e0ef0a9c59"
+      },
+      {
+        "file": "content/hsk24/L369.v1.json",
+        "normalizedSha256": "2b1dc8bc3ecf729312e94e404d4ef06783dc702b2ed10368c508f3a7a931ea2c"
+      },
+      {
+        "file": "content/hsk24/L370.v1.json",
+        "normalizedSha256": "bf56733a1243c1d8333e5a59b8957b69ec4d461ed366dee3cc5080951800b427"
+      },
+      {
+        "file": "content/hsk24/L371.v1.json",
+        "normalizedSha256": "885623889d5aae955950c2c74dba7e5a76485c5bd777925c9b72b7c7563e81d6"
+      },
+      {
+        "file": "content/hsk24/L371.v2.json",
+        "normalizedSha256": "45dfbfda088c38d85595c0d0d9037316fb506f2f0a8c3310b90633232f1125a8"
+      },
+      {
+        "file": "content/hsk24/L372.v1.json",
+        "normalizedSha256": "1800fe37c44b1927d3a742cf7e95e24367e99fb77d6e6bc22ebe10f720c797f2"
+      },
+      {
+        "file": "content/hsk24/L373.v1.json",
+        "normalizedSha256": "d8ef2c4c43790ed0d48e0d6ecf9921128c74d7346646876c1839fa94bed645fe"
+      },
+      {
+        "file": "content/hsk24/L374.v1.json",
+        "normalizedSha256": "fe5d636a4d47dc194e129417876d14e80d5cc1152f8786c83ecc9880fdc94ed2"
+      },
+      {
+        "file": "content/hsk24/L375.v1.json",
+        "normalizedSha256": "9bc3382ce742876789bdf773fe96d4035a0d5a85e08274d5c3fe9cc543df41b0"
+      },
+      {
+        "file": "content/hsk24/L376.v1.json",
+        "normalizedSha256": "e6528477981e4e9ee2d6b0bc31cbcd8dcd4ba7f8a52a6783d6960caebd0582b6"
+      },
+      {
+        "file": "content/hsk24/L377.v1.json",
+        "normalizedSha256": "def116c8ed11dd04ec76ab83c69a39a05e1fda7853d47dbacae5165d5a4a0ba5"
+      },
+      {
+        "file": "content/hsk24/L378.v1.json",
+        "normalizedSha256": "084502d82905abf7bd01717256c8cd97d17622d9f9159196650e86cd55e20ab6"
+      },
+      {
+        "file": "content/hsk24/L379.v1.json",
+        "normalizedSha256": "e618a4aa4c8845e57014fccc9c441b8bd05fdf39d05ae0edcceddda4983738a8"
+      },
+      {
+        "file": "content/hsk24/L380.v1.json",
+        "normalizedSha256": "5b7d63e6bd052b439850780e2262ba479fb85dd50cbcc8ac0be2245cbe953076"
+      },
+      {
+        "file": "content/hsk24/L381.v1.json",
+        "normalizedSha256": "af1801dfa7cc44fc659b3c2d488af756508fb078cabfbfc8a43057edcbcb7b8d"
+      },
+      {
+        "file": "content/hsk24/L382.v1.json",
+        "normalizedSha256": "348a038b1bb46a23a55f31c60fb4b0153843661b82a109ce9add9dc7d60f98db"
+      },
+      {
+        "file": "content/hsk24/L383.v1.json",
+        "normalizedSha256": "2eb2e60997744ef22d6bc327dd9c57b1336ec8957754160a184586a4d570224f"
+      },
+      {
+        "file": "content/hsk24/L384.v1.json",
+        "normalizedSha256": "8fe6908ac119d326dc999edec392e624a8bd25412977f8601b27b1c7bfd3c612"
+      },
+      {
+        "file": "content/hsk24/L385.v1.json",
+        "normalizedSha256": "64b53b037ff8a3d5f92ff58ca3feb5ad89cf50d4620f61ce0f71b8defabba268"
+      },
+      {
+        "file": "content/hsk24/L386.v1.json",
+        "normalizedSha256": "eda3eff53d519d5312fb478cac04bf9c2f99f52b1a9112342431a3a4587fbf6e"
+      },
+      {
+        "file": "content/hsk24/L387.v1.json",
+        "normalizedSha256": "f3db54bf0a46917fe0e1a757b22d64ddebe9ff4c657a4e3237f1b1415feb31f8"
+      },
+      {
+        "file": "content/hsk24/L388.v1.json",
+        "normalizedSha256": "baa8c8e6ec7c0e8195f0e135724aa52b6532f245478b52c701e6d1f908a0eb48"
+      },
+      {
+        "file": "content/hsk24/L389.v1.json",
+        "normalizedSha256": "9cceabbd9a1d00f3a9cfe0a33b476c0236e570aed3866659198a697be6daeb6f"
+      },
+      {
+        "file": "content/hsk24/L390.v1.json",
+        "normalizedSha256": "1e9817205ebf93f8b7215a19f9a72ec6402528245ee12b9a314ca1905e01694c"
+      },
+      {
+        "file": "content/hsk24/L391.v1.json",
+        "normalizedSha256": "27f96c92486d3dbefed8ea4ace87dc76128ec588c1e44f3cba4aa1927761fa5f"
+      },
+      {
+        "file": "content/hsk24/L392.v1.json",
+        "normalizedSha256": "f7b242555de0047186382e11de6a5e4b3b27b48bc56409d2aa5308e1949cf309"
+      },
+      {
+        "file": "content/hsk24/L393.v1.json",
+        "normalizedSha256": "d1c4e81ccc46919040218dda768bdf56e059ea53d6247de4e87494ea2618aeb4"
+      },
+      {
+        "file": "content/hsk24/L394.v1.json",
+        "normalizedSha256": "12431beb44063f70945a6b1b416981d3be52caaa972210d99b7bd9dee60a8a90"
+      },
+      {
+        "file": "content/hsk24/L395.v1.json",
+        "normalizedSha256": "095cbf85269862506baea17e6a3c308e2273ffcdb6e136aae217e82d0757cb9b"
+      },
+      {
+        "file": "content/hsk24/L396.v1.json",
+        "normalizedSha256": "6aee83f336c0050f40a2e1c90dc8d50f638dc3dc0955fe9fb6dd1fe20b1abf88"
+      },
+      {
+        "file": "content/hsk24/L397.v1.json",
+        "normalizedSha256": "670b4533880f6677a59604539516b684ac063af29a5ba78243fc2655bcd3ce87"
+      },
+      {
+        "file": "content/hsk24/L398.v1.json",
+        "normalizedSha256": "0027f2a68ab053d4e63398dd45fb6ce5b2b43ed1010586144a079c2e32ff89a3"
+      },
+      {
+        "file": "content/hsk24/L399.v1.json",
+        "normalizedSha256": "dcfe1ae36fc10645d6e0b3fce50554035f7c421c7753bbf66769e633903cdaee"
+      },
+      {
+        "file": "content/hsk24/L4001.v1.json",
+        "normalizedSha256": "dba79fead65eedbd12993d92b9ca95ff239756f002f85c882647a7c4aa2e45ad"
+      },
+      {
+        "file": "content/hsk24/L4002.v1.json",
+        "normalizedSha256": "fce8aa19741ed515eebfd0c10e181b96d060170981fda740c184e94f0e026280"
+      },
+      {
+        "file": "content/hsk24/L4003.v1.json",
+        "normalizedSha256": "1c96b8f7470a9b0e173a7cd60be546d842885aec10fbd60151b78772de7218b5"
+      },
+      {
+        "file": "content/hsk24/L4004.v1.json",
+        "normalizedSha256": "618164fb600b6aa32a59f457eab3cc7e6cbd9c4e119275ecee536410e7ffdf1d"
+      },
+      {
+        "file": "content/hsk24/L4005.v1.json",
+        "normalizedSha256": "2045e86b2cbb60a619601a0fc890d3402b30a06f0d7532987b5ffd315fb8651f"
+      },
+      {
+        "file": "content/hsk24/L4006.v1.json",
+        "normalizedSha256": "3ea1babbcef471097c5a2939b5f36b3bcebf643a01f99a814334bb05fd6e7bf8"
+      },
+      {
+        "file": "content/hsk24/L4007.v1.json",
+        "normalizedSha256": "ade7680dea079241f6a6909007b4f819e55f9f433fc08b2b77b0c40458d90a4d"
+      },
+      {
+        "file": "content/hsk24/L4008.v1.json",
+        "normalizedSha256": "214bf1ae9fc2bd4a75579501efb8e27a47c51e02112cee3973e98fba7ceeb600"
+      },
+      {
+        "file": "content/hsk24/L4008.v2.json",
+        "normalizedSha256": "3026bf83fd953426058e572eca7c79a7b386e697d5ae78ad20d66a4c3cef7c81"
+      },
+      {
+        "file": "content/hsk24/L4008.v3.json",
+        "normalizedSha256": "2566345cca01334a4dee7e189d3a187a7d74abc0549a1a93c1e9c06e6718fbee"
+      },
+      {
+        "file": "content/hsk24/L4009.v1.json",
+        "normalizedSha256": "2bf1d71832983856c4f167de9e99ae3ddc012ee13bd71659c51b56aa706bf274"
+      },
+      {
+        "file": "content/hsk24/L401.v1.json",
+        "normalizedSha256": "c2073784f96869efc68d630d88948f20f5429494050ec3b71e0acc6823e76115"
+      },
+      {
+        "file": "content/hsk24/L4010.v1.json",
+        "normalizedSha256": "e4747f9a60ad39620349e60062206eaeae7deeba4c6ecd7299bd83c16a3c4963"
+      },
+      {
+        "file": "content/hsk24/L4011.v1.json",
+        "normalizedSha256": "e6bc71c9baf1d44d56ed66c9dcd44261b32a186d1432e9d586076e71fe62b823"
+      },
+      {
+        "file": "content/hsk24/L4012.v1.json",
+        "normalizedSha256": "5e10a85d1544f5f5e71c8564970f756165619473ce3295f163258f274f0b6669"
+      },
+      {
+        "file": "content/hsk24/L4013.v1.json",
+        "normalizedSha256": "a1440dd3f36f84d0f8192362edb08936b02f7b85d7777a25284ec7a010539ab3"
+      },
+      {
+        "file": "content/hsk24/L4014.v1.json",
+        "normalizedSha256": "3ad442be040b2a5f18d2018468f926582e140bfad1d37dcf47daf25791b9cc08"
+      },
+      {
+        "file": "content/hsk24/L4015.v1.json",
+        "normalizedSha256": "0e5d914843a10fe157b9390b2989db53369a59b4a3723f4ac33d87ab2c0a6ac5"
+      },
+      {
+        "file": "content/hsk24/L4016.v1.json",
+        "normalizedSha256": "8503810648de847c73336ecba46fe27204e58b88fda2f04cc2aee9311d3f655b"
+      },
+      {
+        "file": "content/hsk24/L4017.v1.json",
+        "normalizedSha256": "3fc52ea7f800842a73b314a3bb39791cfdc41933f4a45069a9b652414e909847"
+      },
+      {
+        "file": "content/hsk24/L4017.v2.json",
+        "normalizedSha256": "c8530bab7486b1283d3f692e3cbed694d021ac5ac6850431d13fb064d6d9b7a3"
+      },
+      {
+        "file": "content/hsk24/L4018.v1.json",
+        "normalizedSha256": "b871786d55b0beeb665fd8bfd0dc5a04405f044b4b4292610901c29afcded46c"
+      },
+      {
+        "file": "content/hsk24/L4019.v1.json",
+        "normalizedSha256": "ef343c591950005cbe38e5759208d684e9ba93d67d4fbbacb40b4fd061703886"
+      },
+      {
+        "file": "content/hsk24/L402.v1.json",
+        "normalizedSha256": "fd2bd557c6331e7d2aaee19a1a219e637614cc94cd44a6062fa006f2c96c9843"
+      },
+      {
+        "file": "content/hsk24/L4020.v1.json",
+        "normalizedSha256": "fd9ac0b0e4b1a4cece3f06d19f113319a27da69932d1b4397d07ec9558bc78b3"
+      },
+      {
+        "file": "content/hsk24/L4020.v2.json",
+        "normalizedSha256": "ad616666ec12c52a39c93733d09e2efa5fb94f584edabdc7b19d960538edf19e"
+      },
+      {
+        "file": "content/hsk24/L4021.v1.json",
+        "normalizedSha256": "0bfdb2839225558900cea8f845713051ff373b7462cf60620a88a839da2b1a1d"
+      },
+      {
+        "file": "content/hsk24/L4022.v1.json",
+        "normalizedSha256": "2abd275418544d0e9498a367065f8b79cd0bd3f7b7e27bb3dce44f60a76d89f5"
+      },
+      {
+        "file": "content/hsk24/L4023.v1.json",
+        "normalizedSha256": "f68a4d24de505a2128b95fd785a8d10c971c2f98836293c3e8cd61204b01b145"
+      },
+      {
+        "file": "content/hsk24/L4024.v1.json",
+        "normalizedSha256": "661dc7665a92628322b1651bd603bcbedbca83a13b2c8bf45e4c014131a9dd72"
+      },
+      {
+        "file": "content/hsk24/L403.v1.json",
+        "normalizedSha256": "58cc9e883ddbc5cb7cea534ae65c3d59568a63c80351fa52225598c7bbfd69e0"
+      },
+      {
+        "file": "content/hsk24/L404.v1.json",
+        "normalizedSha256": "6865a8832319c340246b4ed23b71c24b09af08bfe018de4297633ecd3c87e599"
+      },
+      {
+        "file": "content/hsk24/L405.v1.json",
+        "normalizedSha256": "9b15db11d9fd08d406e0b09a1f0e5886c1bdf2bba74f991cf96b6f077c7cc356"
+      },
+      {
+        "file": "content/hsk24/L405.v2.json",
+        "normalizedSha256": "8bcd91e175668919590146ab4ea7d8759a596f9595eaf2c5d5d5549a3196f382"
+      },
+      {
+        "file": "content/hsk24/L406.v1.json",
+        "normalizedSha256": "e7ff2614b2671e1f4182ddc15bd17eb4b6b34d25b5d400210be099f60257fd27"
+      },
+      {
+        "file": "content/hsk24/L406.v2.json",
+        "normalizedSha256": "d23011784282c2195552943859bbff469a530178da0bf1bcc63475b0dbc87115"
+      },
+      {
+        "file": "content/hsk24/L407.v1.json",
+        "normalizedSha256": "ff3afdc18488d8583be3daa6879eb62e2b282fd7852e1c5deca6a795f863d8d2"
+      },
+      {
+        "file": "content/hsk24/L407.v2.json",
+        "normalizedSha256": "7812d90e562ea5047326e28045f1ac31c1a6a8b81f0fa95b62b5b73cfb0c969b"
+      },
+      {
+        "file": "content/hsk24/L408.v1.json",
+        "normalizedSha256": "9b76cffc9ad34745e78eaa04ee271f78c58ffe53d51cba102e724e55b6c0d4fa"
+      },
+      {
+        "file": "content/hsk24/L408.v2.json",
+        "normalizedSha256": "c7d64e4235649bfb56a1a8bb3d22ec9bd4dfa6263c0385c9ab030513ff518457"
+      },
+      {
+        "file": "content/hsk24/L409.v1.json",
+        "normalizedSha256": "08bf9d5f74203099bda4fa25c9e71a65f87ec08c9b6356360f6d90ff5ee44363"
+      },
+      {
+        "file": "content/hsk24/L409.v2.json",
+        "normalizedSha256": "40a5209d49eddb9b16e63fcfd6d5b7ed44ff4308fafda282d62e9447b88aa7e0"
+      },
+      {
+        "file": "content/hsk24/L410.v1.json",
+        "normalizedSha256": "aa79c5e5940e4670d3199c05182160014853fa2de0c4c54f10a7f445909c3f2b"
+      },
+      {
+        "file": "content/hsk24/L410.v2.json",
+        "normalizedSha256": "fdfcc1bcd8719d8b1bd17d373b59676f082f72a94ccfe3c1696c98ea63060fe2"
+      },
+      {
+        "file": "content/hsk24/L411.v1.json",
+        "normalizedSha256": "7fe9ad506f5ff8d27330f4d87b2b26b75dd6a9039c638054ac659bdb2ce4d58d"
+      },
+      {
+        "file": "content/hsk24/L411.v2.json",
+        "normalizedSha256": "809b5af9d7e61c914fb5518277a1585691e005aefa036c7162c211ad546a658e"
+      },
+      {
+        "file": "content/hsk24/L412.v1.json",
+        "normalizedSha256": "d3e479d8427f469afbc4201badeeaabec4b54750a5b35b1196b6de5d4bdee40c"
+      },
+      {
+        "file": "content/hsk24/L412.v2.json",
+        "normalizedSha256": "fe8baf9cd14392f81e7146264d24954f9497796b784eca14160b2331ee41a09b"
+      },
+      {
+        "file": "content/hsk24/L413.v1.json",
+        "normalizedSha256": "17db2cd0547ae1381aab3246665283f0e1d4524dfd8e8d5eabcdb61097b2acf2"
+      },
+      {
+        "file": "content/hsk24/L413.v2.json",
+        "normalizedSha256": "4a146e4821d3f8fa0b4f9bc11aee94d22c7be8550f7ef21cc9a4fad802243e12"
+      },
+      {
+        "file": "content/hsk24/L414.v1.json",
+        "normalizedSha256": "223709bb6fa6001c536e6c4d94fa9600ed0d9a377fc3e260e1e78ceab51289c3"
+      },
+      {
+        "file": "content/hsk24/L414.v2.json",
+        "normalizedSha256": "e1172e819a42295aadecf02a4e86df926624bdc214e8e32458bde59e3e209e3b"
+      },
+      {
+        "file": "content/hsk24/L415.v1.json",
+        "normalizedSha256": "9d56024e952a47188c0da124e883d4f687f36036184799d550397ee88262ef8b"
+      },
+      {
+        "file": "content/hsk24/L415.v2.json",
+        "normalizedSha256": "7758d1499d856496c4228fcb94e311dd113e861ecd4f6e755931cea3171a64ae"
+      },
+      {
+        "file": "content/hsk24/L416.v1.json",
+        "normalizedSha256": "10a87ada34bfe77ce19ac937e9dbf451cc17bfb51490fe66cfc93272e72b1fc0"
+      },
+      {
+        "file": "content/hsk24/L416.v2.json",
+        "normalizedSha256": "4a17db7334b70ac2f20f066ba6d0818f955e3596924adbba0afba91ebb403f00"
+      },
+      {
+        "file": "content/hsk24/L416.v3.json",
+        "normalizedSha256": "54feb1b66dc458718dbc23ca1d6d14fcee871f37c32da8d7616ece23970354b3"
+      },
+      {
+        "file": "content/hsk24/L417.v1.json",
+        "normalizedSha256": "4c86b35d0d7276a0ad73d1ed850a6c6c2c8ec5e547c716845f627746a6896f6a"
+      },
+      {
+        "file": "content/hsk24/L418.v1.json",
+        "normalizedSha256": "5a74185e52c9d59105547f0779f9c16f54b5f3c1c4b6258aeade1c8290571876"
+      },
+      {
+        "file": "content/hsk24/L419.v1.json",
+        "normalizedSha256": "7fbb015821efb06b1d369214376c7b8d704203fcf1b146cb167373c5a5117821"
+      },
+      {
+        "file": "content/hsk24/L420.v1.json",
+        "normalizedSha256": "863748ec2bad6829b369bfbd7c1aa8197e1380c2a6f2d6584fadd1bc842fea29"
+      },
+      {
+        "file": "content/hsk24/L421.v1.json",
+        "normalizedSha256": "983b0cf27943478ae042cc53a6e785ff2c27bf0fe9b8c70bf0bda4ff2c344d80"
+      },
+      {
+        "file": "content/hsk24/L422.v1.json",
+        "normalizedSha256": "ba0ae63013480e524e5e2a9ad59b9b97621af2eb78790d0a7aa10fa5b903f00b"
+      },
+      {
+        "file": "content/hsk24/L423.v1.json",
+        "normalizedSha256": "e59e43404fe1ebade031ec88a8e944837f451e8464b0f0be10605a91b59c98dd"
+      },
+      {
+        "file": "content/hsk24/L423.v2.json",
+        "normalizedSha256": "17d20bfaa61ef85aa17ce6dee5f48bc3f9758bdaaa0db0fee9895ccb85b4fbfc"
+      },
+      {
+        "file": "content/hsk24/L424.v1.json",
+        "normalizedSha256": "b492bb41006e35b97435230ca131a649e1f5f03ba62c1dacda6c5c580fb59f46"
+      },
+      {
+        "file": "content/hsk24/L425.v1.json",
+        "normalizedSha256": "eb65cf30a8321d4865edb75f8bceaec31cd990d2e7aaa44c3184f7fb221a5896"
+      },
+      {
+        "file": "content/hsk24/L426.v1.json",
+        "normalizedSha256": "cd5e86298a1e42e46a55b03419d5de96054ee096c2fdbf3b429966104e9340e4"
+      },
+      {
+        "file": "content/hsk24/L426.v2.json",
+        "normalizedSha256": "4da464f4c322ae0dbbd95cd165c8c476fc60aeb29388a61f673412057fe96ac7"
+      },
+      {
+        "file": "content/hsk24/L427.v1.json",
+        "normalizedSha256": "f84ebdfe313ca543995394aa4ca147fa60962e13f429d01f28aff4b045b2cd44"
+      },
+      {
+        "file": "content/hsk24/L428.v1.json",
+        "normalizedSha256": "adcd0fee96015cdd1c8d67c51798389a13a69715dcf183737142ca72e8200138"
+      },
+      {
+        "file": "content/hsk24/L428.v2.json",
+        "normalizedSha256": "b012a9025af793bc7c5c90b9faef42ff3ca29350fe6313f9dec19333b72bed6a"
+      },
+      {
+        "file": "content/hsk24/L429.v1.json",
+        "normalizedSha256": "9a6a28f2a50f4c764f3168b12e9bbec437f6b6b74f926d29c24e8f8ec34c3b4d"
+      },
+      {
+        "file": "content/hsk24/L430.v1.json",
+        "normalizedSha256": "bf2abd1fa298b9159e592c61c2a3f41b49b7c3481242a4a036080a0cfbe06ce9"
+      },
+      {
+        "file": "content/hsk24/L431.v1.json",
+        "normalizedSha256": "9bff3d7af2429fb8d43d8945aa092183fa40a0575a405a00f791f84a3b110655"
+      },
+      {
+        "file": "content/hsk24/L432.v1.json",
+        "normalizedSha256": "8a1fc132a343a50762bae31448833a2228a3a2f1280fedaa77a5173ae7b41b3f"
+      },
+      {
+        "file": "content/hsk24/L433.v1.json",
+        "normalizedSha256": "fb07efb620b585148be932ad04bcc2eab0d72f086ea69662e4fd1052c37f7b2d"
+      },
+      {
+        "file": "content/hsk24/L433.v2.json",
+        "normalizedSha256": "68191d2266d12591ad1caa8c9f67c9a5d32c077510a435c1b24eac5712e63054"
+      },
+      {
+        "file": "content/hsk24/L434.v1.json",
+        "normalizedSha256": "debe772a8ddc4a0d0ba26ce2b75a5a220ce933e7678ea5775580e709fcdba668"
+      },
+      {
+        "file": "content/hsk24/L435.v1.json",
+        "normalizedSha256": "8e1f20543199af8a20f65849349435a0703fb58a3f4132f56151058bed8426fe"
+      },
+      {
+        "file": "content/hsk24/L436.v1.json",
+        "normalizedSha256": "354ce4c2bb32a89898c8dd3286e7f870bc92dc7f905650c8d7984cf249167b0b"
+      },
+      {
+        "file": "content/hsk24/L436.v2.json",
+        "normalizedSha256": "99a79366ef18b29e71b408d9cc3b6458da390eb13fe62e99022b3cd384958b89"
+      },
+      {
+        "file": "content/hsk24/L437.v1.json",
+        "normalizedSha256": "1ccf774de93ec345105989c0a7fb34d29ca0fc832e86056fa11440d20fa56d6c"
+      },
+      {
+        "file": "content/hsk24/L437.v2.json",
+        "normalizedSha256": "52906500b551e7e0eabe5ae62d6eeda7f1d1f6730e049120298d0fa37c84d377"
+      },
+      {
+        "file": "content/hsk24/L438.v1.json",
+        "normalizedSha256": "e761251d5c448b3c03bc79449e3119371e3447ed8fc6a0101f0424c255eea07f"
+      },
+      {
+        "file": "content/hsk24/L438.v2.json",
+        "normalizedSha256": "a1ae06b68ca92b6106bf4e0c6a9664ebeed24e79f04474b64acbe1ff9ffac271"
+      },
+      {
+        "file": "content/hsk24/L439.v1.json",
+        "normalizedSha256": "2f9a628fc22a7dadd43ca257fdbf31bac7d943cb4a5b663256a0e89a2840f6b3"
+      },
+      {
+        "file": "content/hsk24/L439.v2.json",
+        "normalizedSha256": "91824db6c51e61d9127f1e67bf691be2056e0718dea78ba28f07798de23b050d"
+      },
+      {
+        "file": "content/hsk24/L440.v1.json",
+        "normalizedSha256": "edee8a0bea262d8f48ea3f97e7f18bc0ed69bf8ee8cc14b850d0cff8b6f00934"
+      },
+      {
+        "file": "content/hsk24/L440.v2.json",
+        "normalizedSha256": "28737a066707c587a9e041af831500088c74044bb544d81100e99f1f09eed908"
+      },
+      {
+        "file": "content/hsk24/L441.v1.json",
+        "normalizedSha256": "1f48972ea4dea74edf3dd0b9f12b6c91960d5a8f7ece7810234707fc3f3ec58a"
+      },
+      {
+        "file": "content/hsk24/L442.v1.json",
+        "normalizedSha256": "bd06c2034d672f4ec88d9be8bd621cbcbe9861faa1a9439f3180aea8d0c7a3b3"
+      },
+      {
+        "file": "content/hsk24/L443.v1.json",
+        "normalizedSha256": "0e0408be4059fc6ca9ca2c2d0b0aa1a0a44d7556a171eaee3b48b58d1b771b5b"
+      },
+      {
+        "file": "content/hsk24/L444.v1.json",
+        "normalizedSha256": "60f54c886b2b532610dc135ee12f7fa3f0b8ec1e252b41b3a8deef104f9e9fd6"
+      },
+      {
+        "file": "content/hsk24/L445.v1.json",
+        "normalizedSha256": "4e03f746ce4352c662e514233bacb8d4e3613e0ce19d1b8910375cc2e6e1999a"
+      },
+      {
+        "file": "content/hsk24/L446.v1.json",
+        "normalizedSha256": "0e256a664af1ea594d3e15e08838235537901f21df94c52a155c34e5c5c2ca48"
+      },
+      {
+        "file": "content/hsk24/L447.v1.json",
+        "normalizedSha256": "8e12bb6cfe7c0824138d04cc684a611e21ce597a6bc391451774fbe06181263c"
+      },
+      {
+        "file": "content/hsk24/L448.v1.json",
+        "normalizedSha256": "1646e6d85190ccfbea49ea9836fc74e1456df729af7314fb48a9db54f58a2cd8"
+      },
+      {
+        "file": "content/hsk24/L449.v1.json",
+        "normalizedSha256": "21c90e7b6400a5d5ff2f9bc756bc26e98331c84a8cc94a0dff97dcd5b8fe5be6"
+      },
+      {
+        "file": "content/hsk24/L450.v1.json",
+        "normalizedSha256": "5068b9e24bc1bf3833c149b42d071c89626aa1bd9a8b16280d5fe7ebdd9c1917"
+      },
+      {
+        "file": "content/hsk24/L451.v1.json",
+        "normalizedSha256": "5edb47b30a4edc6a80819d92abc3d6189a2272ba1cb5d07bcef511fbc62b5cad"
+      },
+      {
+        "file": "content/hsk24/L452.v1.json",
+        "normalizedSha256": "41d9f1c4f7c87378b7679d022511caacbcaacef9a5e7725ee3938a4ff87e5bad"
+      },
+      {
+        "file": "content/hsk24/L453.v1.json",
+        "normalizedSha256": "164381cba5ac0e0378210f4bde7ffbf28e250f41c08c6fccd851c7ef1872d3ba"
+      },
+      {
+        "file": "content/hsk24/L454.v1.json",
+        "normalizedSha256": "a4458a3078ecff4576bf7f3d40d897ab2a45a462e37b21d1e186f8ca6301d9ef"
+      },
+      {
+        "file": "content/hsk24/L455.v1.json",
+        "normalizedSha256": "370849d8cd9ac15026c27ce8d3aeae7a16fb2f78686bbc48eec94cadaec52eb8"
+      },
+      {
+        "file": "content/hsk24/L456.v1.json",
+        "normalizedSha256": "67a502120838f506116cfaf4c0bb370f43f5d15e03195928e209bbe34c2967fe"
+      },
+      {
+        "file": "content/hsk24/L457.v1.json",
+        "normalizedSha256": "c0a8cca5ec76d7e50a882b69dc9c6af2b615713c962263a4e661c8e8f3a9faad"
+      },
+      {
+        "file": "content/hsk24/L458.v1.json",
+        "normalizedSha256": "e671b21906ae6ac45c4b4b7c6b7c37b876199cebe717171c04c6755fbf568d97"
+      },
+      {
+        "file": "content/hsk24/L459.v1.json",
+        "normalizedSha256": "ef2b3dee74d74d8209a304c08291dfc2c78bac56323da2975c17f4348f1c2113"
+      },
+      {
+        "file": "content/hsk24/L460.v1.json",
+        "normalizedSha256": "f3928384f7d3a88027057065788d961d0027256a2bb02545a338ce5283d32227"
+      },
+      {
+        "file": "content/hsk24/L461.v1.json",
+        "normalizedSha256": "61c8b5372b96bb0ac65f2db4b0e315c989feaa663a2a1c77d19db992d7091c60"
+      },
+      {
+        "file": "content/hsk24/L462.v1.json",
+        "normalizedSha256": "f12c2c2d01cbb0e24ceb76cadd67e702a199926d7a58e5e8a4918531dfcec180"
+      },
+      {
+        "file": "content/hsk24/L463.v1.json",
+        "normalizedSha256": "5adf34db2e975972d782db76c2fe89595a071b5ede850d07087db7d1f0645ade"
+      },
+      {
+        "file": "content/hsk24/L464.v1.json",
+        "normalizedSha256": "887be6aa0c039ffcf05ac611e1b291d454e7c016b1fc90a8c25bac03b128fbf4"
+      },
+      {
+        "file": "content/hsk24/L465.v1.json",
+        "normalizedSha256": "fbd060d020a8a52da17e491becc5dd1666616f403dfbeb42e2a8ecc4ed06537a"
+      },
+      {
+        "file": "content/hsk24/L466.v1.json",
+        "normalizedSha256": "701bcfefb8467f1a9b64445e78f2d24b75514946e74d652abb1398b6d3cf39b0"
+      },
+      {
+        "file": "content/hsk24/L467.v1.json",
+        "normalizedSha256": "c2023f9cc62c633256162153ebe608b5b2003f1785d82b8502682c09649d8124"
+      },
+      {
+        "file": "content/hsk24/L468.v1.json",
+        "normalizedSha256": "42d10a05a95704daecd69d196ef732262c41393ccad3a38426789e87e95ac59c"
+      },
+      {
+        "file": "content/hsk24/L469.v1.json",
+        "normalizedSha256": "f01817f0e579c6aefa51b4cbf8124a6861523ee03620b4a3349b47a8312f23dd"
+      },
+      {
+        "file": "content/hsk24/L470.v1.json",
+        "normalizedSha256": "e3ff5fb837acc03402675288aae19664ba12a65ce62aa7974660bd7bde8c8096"
+      },
+      {
+        "file": "content/hsk24/L471.v1.json",
+        "normalizedSha256": "478034c94e20c24c8d3e13dbf6f1ca02e66207d8738d659f89fa6dee7c0fa891"
+      },
+      {
+        "file": "content/hsk24/L472.v1.json",
+        "normalizedSha256": "4344af99c64d113de9f1b9c2532cc705dbbffc3a684d46f2c145ae4fc2bfda8d"
+      },
+      {
+        "file": "content/hsk24/L473.v1.json",
+        "normalizedSha256": "8d675ffe1194010b672a6a4ebe6961fdff44934bf7e659c3aed802ed7ba56ba3"
+      },
+      {
+        "file": "content/hsk24/L474.v1.json",
+        "normalizedSha256": "3d50f1e5fbf3f2570f6f20a6aa90b5c1f4fff08c00dc012a9eaf9f07a2add47d"
+      },
+      {
+        "file": "content/hsk24/L475.v1.json",
+        "normalizedSha256": "7cba18b726922949d83183311b064a261250e2c1bc57ea42af6a7ebffd66b065"
+      },
+      {
+        "file": "content/hsk24/L476.v1.json",
+        "normalizedSha256": "f342bfc2a02e7ce2d4d3ab33f3b87d05c5f0eb4ea15268e8822e8dc9bc59cea0"
+      },
+      {
+        "file": "content/hsk24/L477.v1.json",
+        "normalizedSha256": "adae09293d3993673e62cf83f01393e2e208153ea083712bd136c09d6d12c737"
+      },
+      {
+        "file": "content/hsk24/L478.v1.json",
+        "normalizedSha256": "9faf74bad5f43335f8b126c18f733fd38104c34fb86438d2680811c493c80c76"
+      },
+      {
+        "file": "content/hsk24/L479.v1.json",
+        "normalizedSha256": "68ef7799ccac219ed510298a3a84e5f0b1bd2127b228b0dcdd2fd36faaa82646"
+      },
+      {
+        "file": "content/hsk24/L480.v1.json",
+        "normalizedSha256": "9fb70aff809513554eb7cd207eacd698d8c4a8fe17df7f319213e515f1bf9b1c"
+      },
+      {
+        "file": "content/hsk24/L481.v1.json",
+        "normalizedSha256": "dc1e16ceb4f67895b4bc09795f6f12c3a364c95d945bb48ab899f4b7f3175b8c"
+      },
+      {
+        "file": "content/hsk24/L482.v1.json",
+        "normalizedSha256": "54ed7f7e1e9cf4a792efdeb0034b8cb7b3451c3a2b094d4d9738fcc843d3cacd"
+      },
+      {
+        "file": "content/hsk24/L483.v1.json",
+        "normalizedSha256": "fd4cf822a5e2bb468a11928a5c1b4b28d9d095c5ee6b0ae4123190703e46388f"
+      },
+      {
+        "file": "content/hsk24/L484.v1.json",
+        "normalizedSha256": "27a0d09aeed6019000fa682aadb8b7cf13c39286ccf2a3050bf76c0b37174c32"
+      },
+      {
+        "file": "content/hsk24/L485.v1.json",
+        "normalizedSha256": "9aaf604b34af163f506f99845d9adf5c2d7e1c30782fb9ace72a5f60d276cb83"
+      },
+      {
+        "file": "content/hsk24/L486.v1.json",
+        "normalizedSha256": "268a6c920a1f8324c7e4b30fe6308055c7a939d27ffa68a7cd1fed23d8a2bdea"
+      },
+      {
+        "file": "content/hsk24/L487.v1.json",
+        "normalizedSha256": "c66226a2d5f690a4816267b8abd3eb54862e587c57584be14991e30cd0407c1f"
+      },
+      {
+        "file": "content/hsk24/L488.v1.json",
+        "normalizedSha256": "0cd119b27822ac48a2eceb88650284f2d6463e3016558d0166f4f23c3c382afe"
+      },
+      {
+        "file": "content/hsk24/L489.v1.json",
+        "normalizedSha256": "a034e427cd76c75b5288f4ca174e4d7e5c19cf58d2ea187c17496669ead94355"
+      },
+      {
+        "file": "content/hsk24/L490.v1.json",
+        "normalizedSha256": "75345e884ca77da218eb4af892145c23473a819dca8ca69ce627486f3981ec76"
+      },
+      {
+        "file": "content/hsk24/L49001.v1.json",
+        "normalizedSha256": "4daf1907a94366f2c4a2e248c339dc9491efc909f0916473f336491eebe98cf8"
+      },
+      {
+        "file": "content/hsk24/L49002.v1.json",
+        "normalizedSha256": "88a3a76a3988ff39735ba29c0ad95acd0705793323e9390b68e0521fa304975f"
+      },
+      {
+        "file": "content/hsk24/L49003.v1.json",
+        "normalizedSha256": "1612d33509f316af4d10d240ed8bfdb988d3f4fc553b911a0698a06c9169f90a"
+      },
+      {
+        "file": "content/hsk24/L49004.v1.json",
+        "normalizedSha256": "443b9aa35d1e842f6cbd6a5153f7c285544f2f84939d64bcbd0e46f4e1522e33"
+      },
+      {
+        "file": "content/hsk24/L491.v1.json",
+        "normalizedSha256": "e818ae99190316510c33ce8107291be5bd681bf7e5a46801032c76c481c713d6"
+      },
+      {
+        "file": "content/hsk24/L492.v1.json",
+        "normalizedSha256": "d8db44e0ba308e7fa3f8c4a9026c635d4ab37452900fd303272dee2a07a67689"
+      },
+      {
+        "file": "content/hsk24/L493.v1.json",
+        "normalizedSha256": "2aa24df6862600205a8abee862b850c11d99d62aa0703844983eb3025fe4872f"
+      },
+      {
+        "file": "content/hsk24/L494.v1.json",
+        "normalizedSha256": "8cd15686894dc782ff781eccd0504866a7d306dd3895e7a5342264d79fbcea64"
+      },
+      {
+        "file": "content/hsk24/L495.v1.json",
+        "normalizedSha256": "5682b0376ce19e0ac10dd7529bd34554e6ba33d3620da4ad4586ad8af3eedfc4"
+      },
+      {
+        "file": "content/hsk24/L496.v1.json",
+        "normalizedSha256": "beeb881b3129e23398d4d9c16d3d73ce966de9b1e34264e0788d25d653c4da7c"
+      },
+      {
+        "file": "content/staging/slice/F01.v1.json",
+        "normalizedSha256": "68b4d65ecec528f3ad0c1dd5c53a59b9c401cc07e61ff8d90741fd82fc0694d8"
+      },
+      {
+        "file": "content/staging/slice/F02.v1.json",
+        "normalizedSha256": "93686ceb97d1c940107a18c66776a26e302e5857bf6c2d0c8bd1c3a9c5d196c4"
+      },
+      {
+        "file": "content/staging/slice/L001.v1.json",
+        "normalizedSha256": "c891c804a50e4764bc8ea23f195ecca4861d007f47178308cdc1ae4915c87392"
+      },
+      {
+        "file": "content/staging/slice/L001.v2.json",
+        "normalizedSha256": "8310c971a4990e647767a4c22548d1c476dabfc53b1d5d58212103ebdd349209"
+      },
+      {
+        "file": "content/staging/slice/L002.v1.json",
+        "normalizedSha256": "09fd52769497ab946bcde57d568034257645ddb0869bac8a61ad255c446038d8"
+      },
+      {
+        "file": "content/staging/slice/L002.v2.json",
+        "normalizedSha256": "30f30e61fa2891afa7d0758a7bdfa3958a523f6461465844c498eb6ec9bfc650"
+      }
+    ]
+  },
+  "gapAudit": "docs/hsk24/hsk14-gap-audit.json",
+  "gapAuditDocument": "docs/hsk24/hsk14-gap-audit.md",
+  "nextCheckpoint": {
+    "id": "GAP-H14-001",
+    "action": "Evidence-only HSK1 prerequisite/five-dimension audit before a separately scoped implementation proposal."
+  },
+  "verifiedOriginMain": "ad7f4c59442b89701e5e41cd6a120284532c1650",
+  "preview": {
+    "checkedAt": "2026-10-30T06:41:38.8062015Z",
+    "url": "http://127.0.0.1:3037",
+    "statusHttp": 200,
+    "onboardingHttp": 200,
+    "listenerPid": 864,
+    "database": "csh_hsk24_bf294b6506c1",
+    "runtimeAndContentSource": "7fb19bb33c7069cb10b1957e9be04aa781fb93a0",
+    "localOnly": true
+  },
+  "previewUrl": "http://127.0.0.1:3037",
+  "independentFinalTechnicalReviewAtAssembly": "PENDING_FRESH_READ_ONLY_PACKET_REVIEW",
+  "finalTechnicalReviewReceipt": "docs/hsk24/hsk4-vocabulary-final-technical-review.json",
+  "closureReady": false,
+  "boundaries": "Local only; no push/merge/deploy/cloud writes/paid service/publication/mastery or HSK1 rewrite. Master Plan and loop status unchanged.",
+  "evidenceFiles": [
+    {
+      "path": ".local-postgres/hsk24/hsk14-gap-audit-final.log",
+      "sha256": "1440260314badd25d2e0c4764b73291c2e98e98d72345d322e35b5fb4cf7dcc3",
+      "bytes": 96
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk14-gap-audit-qualified.log",
+      "sha256": "1440260314badd25d2e0c4764b73291c2e98e98d72345d322e35b5fb4cf7dcc3",
+      "bytes": 96
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk14-gap-audit-scope.log",
+      "sha256": "1440260314badd25d2e0c4764b73291c2e98e98d72345d322e35b5fb4cf7dcc3",
+      "bytes": 96
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk14-gap-audit.log",
+      "sha256": "1440260314badd25d2e0c4764b73291c2e98e98d72345d322e35b5fb4cf7dcc3",
+      "bytes": 96
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-runtime-cold-vocabulary-complete.json",
+      "sha256": "d69da2c95fecbc2ccd0afe333c2720c385cc95e63ec5dadcb38fbabfb3509ace",
+      "bytes": 3853
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-runtime-cold-vocabulary-reused.json",
+      "sha256": "acfdadc0c6c4db28f1e6410b44cd2df8f1fafe84b982e35e9d13f1d24d908dd0",
+      "bytes": 3980
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-runtime-vocabulary-complete-20261030.json",
+      "sha256": "3f26faa40e993935ed5b7c07121e010ad3d99bea11d18a49e6a1ccb0c789d548",
+      "bytes": 2766
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-runtime-vocabulary-complete.json",
+      "sha256": "868c7d786aaab5082770e5652142d733179ea6a76bb60a04c7852bd41eca8e5d",
+      "bytes": 2775
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch28-checkpoint.log",
+      "sha256": "42594123b548eccd01ba2a7a1bb8886fa78f1960e6b0f4e247cb29432e36b85c",
+      "bytes": 959
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch28-import.log",
+      "sha256": "8145fa5728c0823a05d7441b24aba976068ebd513f7ed5832b2e13ea20a82244",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch28-preservation.json",
+      "sha256": "7c97478fd47ef39a86054f5fa7efc4e8b6c1f6c7f9515adb1c8335ba4f11c9c7",
+      "bytes": 772254
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch28-sql.log",
+      "sha256": "2fcdf800757869dd3de892ec657dd7e5562b03e405cbe6c3ba8924cdf5098e0c",
+      "bytes": 957
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch29-checkpoint.log",
+      "sha256": "fb3d8ce7e6c5349ac7f48d0346b07510557c656463b3581d435a8acdfdbbc116",
+      "bytes": 959
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch29-import.log",
+      "sha256": "0806c02f67a0d867518973c043d65a046db4067774b7fde64a4897757b047e48",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch29-preservation.json",
+      "sha256": "08c18efc94471b26ccfd725bda71236cfc7afb3f8320a410b8222086b7077205",
+      "bytes": 780602
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch29-sql.log",
+      "sha256": "2ff0b39682200f41aeee9b82cb78db2ba6b0760157445a74c153541e912eede0",
+      "bytes": 955
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch30-checkpoint.log",
+      "sha256": "a4e30f3e7545dd6002c4185fb9ec501d3549a984871bae07fa1dca33e0ddb6f0",
+      "bytes": 959
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch30-import.log",
+      "sha256": "e4ec7c4d140ac5c35d25487c0c8bf5efc5746a5da11108d865de04cdfb8e4a3c",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch30-preservation.json",
+      "sha256": "f75b99793794692b4f5d26d7a3dc506a945117f4be441d56de19514757acd8a7",
+      "bytes": 792556
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch30-sql.log",
+      "sha256": "b9b44119079287e13d004836ca34b88f2d72a33bc22b3b2deb778d44835e6c4e",
+      "bytes": 1172
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch31-checkpoint.log",
+      "sha256": "0bd5655ae3598fcf41fc363aff0502fb61e5dfd29ef3f3979a33c0bdb7cf5975",
+      "bytes": 959
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch31-import.log",
+      "sha256": "bd664b2c2276b88a50e99361e781d59f104ff7f95dd91affa6e9aaa74e789eb3",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch31-preservation.json",
+      "sha256": "831290c32dff85186c947b6506b6bba3b3fa8f41715110bbd99492fd98254188",
+      "bytes": 800904
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch31-sql.log",
+      "sha256": "4f0b49653fb711a85a9b8f1e9e3e1585de4572393f800ba218366d3394d4ca36",
+      "bytes": 957
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch32-checkpoint.log",
+      "sha256": "77583d5910a22892f9c2d22d214c62bd5902ed54f02ce80194aa8c6cebdb76f4",
+      "bytes": 959
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch32-import.log",
+      "sha256": "71c4cddf4be858bd2d0f5f32af28a7762b03ca0d65785fe699f39bf418bbd727",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch32-preservation.json",
+      "sha256": "9312e9aefb370fffe9d0c3ed457abcf020418232d0a56821d6f90c8083d165b3",
+      "bytes": 809252
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch32-sql.log",
+      "sha256": "cfb8990fe6aedf0fb8a6437e06e0e341e2c610dbdf84978b1fcbc116239bcbbb",
+      "bytes": 956
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch33-checkpoint.log",
+      "sha256": "b2eb30f443f3b6e8eebb23a3851a020dc669bd325fe39012a9c6f0a01d9688b7",
+      "bytes": 959
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch33-import.log",
+      "sha256": "be6fe7ace7b32e9f5b3f1022e9232a8fc22361d13940789055913c38b91545fd",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch33-preservation.json",
+      "sha256": "86931ba23abca295dfbcffc251432c7013326dead12ce132571fdc1ad39943d0",
+      "bytes": 860189
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch33-sql.log",
+      "sha256": "3c7962970823f81074690c7d128b79f79f92602c755a1c6ce5541f001056dcb8",
+      "bytes": 1173
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch34-checkpoint.log",
+      "sha256": "a4871f58801b79012932f817b8da9799e63345c58982686a388b8f77e8033a82",
+      "bytes": 959
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch34-import.log",
+      "sha256": "ee0e3fa777dbd1afd4571e187b6adf5bc9fa5ed759f3a487430c2b612e073243",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch34-preservation.json",
+      "sha256": "416a49c810374fb685d90f1bfb2ba1bd6d923ff12940f453e81953b600979286",
+      "bytes": 871479
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch34-sql.log",
+      "sha256": "9311c6746c919b88abd797b7df8ff142251818ca2d6dd098e0fe12db27c5767a",
+      "bytes": 958
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch35-checkpoint.log",
+      "sha256": "7c1d5c4415f2d3c2bb09e66605fb77a0d8f8e732e05f292469fe6f2fe88dbaef",
+      "bytes": 959
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch35-import.log",
+      "sha256": "80b7b1fd81af0e0c00b8c7054f0e865c96aae85188e2f5a9e5ddeefb0b116b36",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch35-preservation.json",
+      "sha256": "57f018f56497a3d2a11877eeec58d8f4c99cd95921b3226d8c6a8117c2c5fec5",
+      "bytes": 879827
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch35-sql.log",
+      "sha256": "494b153ddd125453a685f09b68b9ced744e097d5b3e9322b6c14d8bb56ae62d0",
+      "bytes": 958
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch36-checkpoint.log",
+      "sha256": "2ce4290285d4d67710212b98c986d848eb9c3c0257aa8cdf0f9e2cc0254b0920",
+      "bytes": 959
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch36-import.log",
+      "sha256": "ce56f2c29a5d8d3e9749ad8c2d345a77af923d5b094e1ec961d15783ab9505d6",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch36-preservation.json",
+      "sha256": "d39357e88fbaa40bd89e951418f627161862c3ee8e011e7edfb535bcc962791a",
+      "bytes": 891781
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch36-sql.log",
+      "sha256": "82dd620e3adb5b6be9debf803407b89050caa466e86c568078885e6c5023dc8c",
+      "bytes": 1174
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch37-checkpoint.log",
+      "sha256": "adac45ad84dd5ff33843856cbb8bc03a6eafeca0db591dbac16c556fe3f8192a",
+      "bytes": 959
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch37-import.log",
+      "sha256": "45969fd522946fa22d0a8dd2ba981be0e77cc68e642c962f081fdfe3af0c54ff",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch37-preservation.json",
+      "sha256": "7ac2a8cbf9070e76b5ba197cb5ac885156b54dc14bf8a4ed797dff6c160902c0",
+      "bytes": 925089
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch37-run.log",
+      "sha256": "350ac5c78df4aa4442688f5b9dc4153ff8a7a4770fc76c3d88ef7bf70c8916c2",
+      "bytes": 1913
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch37-sql.log",
+      "sha256": "a702b7b2aa38fe63a89bbf5af6f978c82af253f95ec27676aadd47e9855b52c9",
+      "bytes": 956
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch38-checkpoint.log",
+      "sha256": "390976e43b7a13a2280ccc9c3a8be45d1254fdc05dccb2285c394b862a2a885b",
+      "bytes": 958
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch38-import.log",
+      "sha256": "0b4374b38c86e45b1e593baadec69b4439bbfbb540e34159de734806ff99ad69",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch38-preservation.json",
+      "sha256": "b8b537df3db8fc7e897e05d469df60752e88b5fd1203440adde1c8397057dc98",
+      "bytes": 933437
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch38-repaired-run.log",
+      "sha256": "186ec2ecaac016f68ef3c5bc177720bc961f9c156ba1881ffd69ca13d4b574c6",
+      "bytes": 1912
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch38-run.log",
+      "sha256": "2f81922a2d28bf69938f5f8c8ce77873c16087a2e175d3b6dd35e1ecf3af5e06",
+      "bytes": 2462
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch38-sql.log",
+      "sha256": "a5ea6a331fecaac0ef050e7de49bea11f9cf1808a219f1434b07b231512a77aa",
+      "bytes": 958
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch39-checkpoint.log",
+      "sha256": "4ffd815dbea04d66889f72c73c98b771d7178328450df289750c9aef3c9ece90",
+      "bytes": 958
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch39-import.log",
+      "sha256": "02f0fbdc84a7aa7a3c3472a20d031ca883c61e5fab0680ff268b14858c88407d",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch39-preservation.json",
+      "sha256": "14b7cfa6fb4413daacfe6211412327d45768048a693046e5230a261d115b4860",
+      "bytes": 948333
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch39-run.log",
+      "sha256": "70283285058c2fb8fe9211144ed7d1fe20f548651b96702584f9498299bdcf23",
+      "bytes": 1091
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch39-source-run.log",
+      "sha256": "07c776166e6bceaccf4c007b1f83afa7b00b2c6c74ab6f8939a7659e56ccc827",
+      "bytes": 2449
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch39-sql.log",
+      "sha256": "d6128e8abee56d31b944e284b7aef10ab3a1c0f690a37cafae56f97727bd1464",
+      "bytes": 1174
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch40-checkpoint.log",
+      "sha256": "46c4b141737d963089897f97968547c47d854f23d8ca6f87ab9a5c6b10f1a0ac",
+      "bytes": 958
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch40-import.log",
+      "sha256": "b1821b5b29a59459c17761369da2e6fd0d4f9878df98c187058f0829989c2998",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch40-preservation.json",
+      "sha256": "4442d8d4272967d96172facf867d6d7a654ac096890ddf4b9a7c0934a7a1e5d9",
+      "bytes": 956681
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch40-run.log",
+      "sha256": "fed9bc67571e3ed4b7e31370c731274bce6f91679529f9d9b678c53be338a7d0",
+      "bytes": 1091
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch40-source-run.log",
+      "sha256": "fed9bc67571e3ed4b7e31370c731274bce6f91679529f9d9b678c53be338a7d0",
+      "bytes": 1091
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch40-sql.log",
+      "sha256": "7ff70d3f98326db6c1a9ebaee3f1294943c7406f9b9389db68f5ea7916e08621",
+      "bytes": 957
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch40-valid-run.log",
+      "sha256": "4a8331e7d74a592b11925fa81abab910bf30be300f754302de9d593db4f202fa",
+      "bytes": 1912
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch41-checkpoint.log",
+      "sha256": "c7336a04017ebc7ee7a219585ec4add5b869050b016ee76e900a2763971fb117",
+      "bytes": 958
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch41-import.log",
+      "sha256": "369884e0b9ef9262861b6a1b5ec4518e1f9e6ae96fc0cde67a7359532f2b228e",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch41-preservation.json",
+      "sha256": "bc69c2a720af4b636ce9dcbcc1289447eff5cf30c4dcd4217e4eeeeab0d87450",
+      "bytes": 965029
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch41-run.log",
+      "sha256": "6cc4b90b859ed8058b639c5f9a2940ccab7ec00ea5b5e5bb161aecb57ca8508f",
+      "bytes": 2462
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch41-source-run.log",
+      "sha256": "8dd3fe4e7c0f5efbd15ca2fde77c94b6d45e3ef7b1baf3ea77159a7d79280845",
+      "bytes": 1912
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch41-sql.log",
+      "sha256": "e41aac1dc5e1bb03dd578a84a299aca6d70c70811d7ca9bdd65d855e24c31730",
+      "bytes": 957
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch42-checkpoint.log",
+      "sha256": "a6f044cf9a3f5ba1f914f01d43f643d63a163582b7e527e1d27f4a6fd164b34e",
+      "bytes": 959
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch42-import.log",
+      "sha256": "8c6a49faea886b99e39273a6aa22aec1fd09b1142d8e06ffe27208e71ba955c4",
+      "bytes": 566
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch42-preservation.json",
+      "sha256": "f5c69252001b86367c6c531f0906dce269e93629e659dadcecfeaac7ae8a13bf",
+      "bytes": 976071
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch42-run.log",
+      "sha256": "e6f0268deb8cafd51995b07cadf7677978ab7342ce081d88552b4ae1f2124dcf",
+      "bytes": 2449
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-batch42-sql.log",
+      "sha256": "c77fd984a79887a9ae8e7d46835b533f9aa3675a1d70811e30828c3819ce1702",
+      "bytes": 1174
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-final.json",
+      "sha256": "3215d1b237e8ac77c5a49841ffb5bc4b0d5ecb0269a53a979b38a09faf990a81",
+      "bytes": 7043
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-final.log",
+      "sha256": "1b6af281d9ecd458feda77f315d705c0f3e9141a173716c5d06a2f756c93e02a",
+      "bytes": 17236
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-recheck-failure/.last-run.json",
+      "sha256": "d6c72d50f18c761e0130a65e26f17ecfcfa7b306e6516a9082e24363db291e3d",
+      "bytes": 145
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-recheck-failure/journey-L4025-actual-conte-856d3--progress-and-accessibility-desktop/error-context.md",
+      "sha256": "5ac1192fe0483b130670fd71e8b0b09e2578ff65e037b781a1fac0420378ecdf",
+      "bytes": 7472
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-recheck-failure/journey-L4025-actual-conte-856d3--progress-and-accessibility-desktop/trace.zip",
+      "sha256": "76e17d575ec52e56a214b7165425394547ff10919e598e538f50950f444e78f9",
+      "bytes": 1156282
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-recheck.json",
+      "sha256": "906ab7c7519478c6750c2a7659fbc54bda3cfd8016b729e4d63dee5b53e3b5fc",
+      "bytes": 10116
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-desktop-recheck.log",
+      "sha256": "2b0013dfa2051d842c3980b32b5f9751f06992246665839e8bfbc5e1ff29f6c6",
+      "bytes": 3037
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-full-failure/.last-run.json",
+      "sha256": "a1aa36fbad9cde61952134dba15cf860a61ea106e8a1b098012f62c94873fc0f",
+      "bytes": 488
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-full-failure/today-Today-preserves-pinn-485df-rioritizes-due-FSRS-reviews-desktop/error-context.md",
+      "sha256": "a0b6066883c6d92193fa715cb4f9a7b1058b0cc7b47d32c9ceaf49cad1772321",
+      "bytes": 7703
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-full-failure/today-Today-preserves-pinn-485df-rioritizes-due-FSRS-reviews-desktop/trace.zip",
+      "sha256": "8ac9d248769357a89823e91969aee2b12046ed03a0c4a52842cc0f03504aebe9",
+      "bytes": 3304480
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.json",
+      "sha256": "a8b2383f0acc470c8a8e1656c21e03bce4ea08175be2c2724f9fe6970988eea2",
+      "bytes": 23734
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-full.log",
+      "sha256": "c7ec285fdaf955f0f348cfe7e5abe8addad5debf943385719d2e0631b81ae9b5",
+      "bytes": 55746
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.json",
+      "sha256": "c540b6534e3bd3356f672e9016216723ae0d2573b46291154b2bd9bb1d83f511",
+      "bytes": 11301
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-remaining.log",
+      "sha256": "687b10a0a823061759335d796e33c3f032ce95e7ea7e59ebc4acd42d95766d86",
+      "bytes": 40046
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-today.json",
+      "sha256": "43eff5ed914176f224b5395b07a7457bcd23b6c73b6acc315d9130024069e142",
+      "bytes": 7061
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-mobile-today.log",
+      "sha256": "10315b61f312d2caf452d5542bebf228783dddf87155b8c08af40f1fe420e351",
+      "bytes": 17263
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-today.json",
+      "sha256": "30f25496364dbd1f8c58297b696d75f9c0aa708b1ff0208b09f95c6ac8fe283e",
+      "bytes": 5769
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-browser-today.log",
+      "sha256": "d07a481671b3b84cdefa630d7c74adf46b3d6761a4c9a343ff686324acdc00af",
+      "bytes": 3803
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-build.log",
+      "sha256": "1d7324b7751eb35b567f4f88eac0ebf35ac83e3658e739707769d6cc4eb5f2ca",
+      "bytes": 2266
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-context-locator-import.log",
+      "sha256": "8595bce6620ba7412c2c74049f827e371f99bc5a604ded854adeac45083743a7",
+      "bytes": 633
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-context-locator-sql.log",
+      "sha256": "d3c88d561483aadf052b5f967eabf1e5eb15ff92d5cfcbf0b970a430eed1ef0a",
+      "bytes": 653
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-context-scope-green.log",
+      "sha256": "953e0435ab4308e4a56d272e0c597083556eb7d4368c9d93a929a1102ad04725",
+      "bytes": 1615
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-context-scope-import.log",
+      "sha256": "527b034f20c43f6afb2fef1d73df892f0ee84098ecd73ee995dc01cf93961d04",
+      "bytes": 3316
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-context-scope-red.log",
+      "sha256": "f35b0266d46978d53cc5c514baba2f85fa91d30f6938b1cf664057842434292d",
+      "bytes": 1594
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-desktop-recheck-network.json",
+      "sha256": "84d7169c59cb52e80a155f5258e61cccb2f60e50979c689e6f8e819383aaedf3",
+      "bytes": 939
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-dev-client-artifacts.json",
+      "sha256": "3e1c25f747d5789873240716615df445ae917407f3246cdae3d81786212f0682",
+      "bytes": 35087
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-dev-client-artifacts.zip",
+      "sha256": "70bc7896f8115dbb564d6669a527ac53db01fb4354c4663834243702d14a7d9c",
+      "bytes": 6574243
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-dev-client-isolation.json",
+      "sha256": "c814fe8aec0ab0b64835eb2860a5f5482470cd67cfe4efcf172c54fb26c46662",
+      "bytes": 592
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-dev-client-scan.log",
+      "sha256": "9fecf37441acbe17e670d0c4bc7874a7b074cac61d360475a126b3d1b3c9a6e2",
+      "bytes": 559
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-failure-sense-audit.log",
+      "sha256": "ac224f4d893ee92d538592c923398a53a5b11d374f1b0b0d5d309493436b50fc",
+      "bytes": 870
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-failure-sense-import.log",
+      "sha256": "ef1606e1cb682b6879e11a9e5f0c4057f7a6d05ffc8b3187d1a53652abcdfa0e",
+      "bytes": 630
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-failure-sense-repair.json",
+      "sha256": "dbc67da071037883151c7ed7a7d4d7d1c9f35b39e410bc9375076d6932eaf861",
+      "bytes": 305
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-failure-sense-sql.log",
+      "sha256": "6d2cfeb08a3c94ac553293b66bbd444d8c20cd5bcdcc5ec936023dd0f05d2bf8",
+      "bytes": 640
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-final-20261029-after.json",
+      "sha256": "a9ee9fa36fc128a04dd490bd5f3efb54f2e80b84fa21cfd224f6d67df8907cb2",
+      "bytes": 1161348
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-final-20261029-before.json",
+      "sha256": "0633d7b7227ed1f16107f56cfa63fac31767ba70adc6f66460a13955531ce7d7",
+      "bytes": 763906
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-final-after-database-content.json",
+      "sha256": "f5869b0bcb2df39327bc8bb334e81bc2d3098bb6d0986c5c32ce891dbdf7146f",
+      "bytes": 3949
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-final-before-database-content.json",
+      "sha256": "f154ea7c6b9d3c10bc51c9065c202659d74d5d19188e981ab6092255e2dbe051",
+      "bytes": 3949
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-final-cold.log",
+      "sha256": "0a367f7e4664dac802479d3f0700dd5b1a7498a52c442ffc11ed11efc698d738",
+      "bytes": 2296
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-final-database-canonical.log",
+      "sha256": "9674941a82320b1c2ecc4c1a533c5a5506155eaab9b2b8c37f8f91751a11c129",
+      "bytes": 156
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-final-instruction-audit.log",
+      "sha256": "7c7224bda24a17903e581c0eb7f133760e615c42bdb16fac39f60331c2ced7cc",
+      "bytes": 871
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-final-scope-audit.log",
+      "sha256": "7c7224bda24a17903e581c0eb7f133760e615c42bdb16fac39f60331c2ced7cc",
+      "bytes": 871
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-final-scope-qualified-audit.log",
+      "sha256": "02445dfb9b6ae2ac1e97e6366e55880ee81d219e45d071bb7de137a51e15cb59",
+      "bytes": 917
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-final-source-audit.log",
+      "sha256": "03405f3592b2a8757eb3e54f15b4265820ee8f4e3abb65d8c6d5f0a19b08abf5",
+      "bytes": 126
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-final-sql.log",
+      "sha256": "6737e5103f6ceed453719524555e36f90ab802391b8600de7ae3f1f80f5c22c7",
+      "bytes": 8038
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-final-typecheck.log",
+      "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914",
+      "bytes": 57
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-glyph-green.log",
+      "sha256": "8b207c7caa67ed5365af8d0f254176b0ecdf2eb5b74ceb5f7cdbd179afc738bb",
+      "bytes": 353
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-glyph-red.log",
+      "sha256": "08780d44584795b41229d77726ba0986f003803603007baff55c646c49f63232",
+      "bytes": 3009
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-glyph-repair-audit.log",
+      "sha256": "aa06d4c87f0ba90e1c966c985da85299609f7893758253cc830e5dd58e27e018",
+      "bytes": 870
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-glyph-repair-import.log",
+      "sha256": "3453b1e2d5889711dd3b69d0d2260a86f7636cbbedaac5465e383884a421ffe9",
+      "bytes": 1933
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-glyph-repair-preservation.json",
+      "sha256": "a51620e7b0ee74360cdbcf6f856f0e7d236c2b19e74693ea371c5f197d34f153",
+      "bytes": 848235
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-glyph-repair-sql.log",
+      "sha256": "687bf2e97717c7601f92f2e9c13bc0c65c15daa581b19c6a986b36ddc708d07e",
+      "bytes": 2760
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-helper-lint.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-last-content-repair.log",
+      "sha256": "e149696aea59ac63f84df3784b4a9930585bfc07709213df8f9d8ce6672b4b39",
+      "bytes": 132
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-last-helper-lint.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-last-repair-import.log",
+      "sha256": "8ab55406cc7799a9fdc3ba9ae6abb3ed5cbe74c9f57e7aa64c936964bc641441",
+      "bytes": 831
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-last-repair-sql.log",
+      "sha256": "8ceaf7815546816fe9bb1a3d988c7465fc71ef9fdaa85b51cf3cd6dc3e495417",
+      "bytes": 975
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-lint.log",
+      "sha256": "d2246b046ac72a5146dfff03bb52c140232287592ad9a829a65c8e5759484d55",
+      "bytes": 595
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-native-measure-20261030.log",
+      "sha256": "f9869b38fbdea6c7ac7cce0b81dcbb9bb651d83273016e15b3f05f41863896b5",
+      "bytes": 493
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-native-measure.log",
+      "sha256": "5542ebb0fcf869effe59dc6a3230595fe44fe41aec480eacbb148c0cd9b0976f",
+      "bytes": 493
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-native-regressions.log",
+      "sha256": "ffe602dd4938fc8b85beaa106563b7f9f08e2bea62aa1d4e8e3d8ef665ef5912",
+      "bytes": 1517
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-origin-readback-20261030.log",
+      "sha256": "1745d7ba52b323f3c5bb4ff368242ea84b69d49b819b38d93d7a3e9b29bd44ab",
+      "bytes": 107
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-pinyin-green.log",
+      "sha256": "2769726bff61a4097c68f23c1601083febbd4430186f10b86341f2e6600d27c4",
+      "bytes": 1459
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-pinyin-red.log",
+      "sha256": "3e86d33194132e810a8ea343251494ad0944439c4e4e316af120dfd3e2da225d",
+      "bytes": 1959
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-prod-client-artifacts.json",
+      "sha256": "aff7cddd3e5a5485f442b7fcb188c2fcd4d2f7778e8763221d0bef51dd133904",
+      "bytes": 8163
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-prod-client-artifacts.zip",
+      "sha256": "1ff9f815f591371b80461364df7436a6ffbd57f4bb8b19599d1f5af0762cf711",
+      "bytes": 308673
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-prod-client-isolation.json",
+      "sha256": "8d34568de3781a84c52a22db53c36b1d7a63ec4b228e026eabbaabf0c26d70b4",
+      "bytes": 592
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-prod-client-scan.log",
+      "sha256": "493d329db7c6d657d322437ea5983bd8a3a8e0aeb5985632d26c4d3ccfcab5fb",
+      "bytes": 559
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-resume-db-start-20261030.log",
+      "sha256": "00aafd7dadbfba99b6a1ca06a715136d742707f6d528ddea5e422be68b204172",
+      "bytes": 49
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-runtime-triage.log",
+      "sha256": "ee28aaa86bfa2bd198e0a0a5cfc5471ba0cae1837f3494260c5afe9f2807b410",
+      "bytes": 2317
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-source-audit.log",
+      "sha256": "03405f3592b2a8757eb3e54f15b4265820ee8f4e3abb65d8c6d5f0a19b08abf5",
+      "bytes": 126
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-source-preservation.json",
+      "sha256": "ac523d528826211f9362b608beb2dc2695d6c048bd71221063589d9beb0c96ad",
+      "bytes": 59489
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-typecheck.log",
+      "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914",
+      "bytes": 57
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-unit-default-env.log",
+      "sha256": "67d11654d8918bc5901230f345274ac3f989e6b224101317246c7bffc6c6d41b",
+      "bytes": 15431
+    },
+    {
+      "path": ".local-postgres/hsk24/hsk4-vocabulary-unit.log",
+      "sha256": "410717169ad90a725f4091c10f6b1a079c89b524086335e7c96b61643a7c893b",
+      "bytes": 18877
+    },
+    {
+      "path": "docs/hsk24/hsk14-gap-audit.json",
+      "sha256": "0cd87c7bba8a1b0d865f1c9e4b8fb62d2bc13b6c8dea3b7100aa9aa5d00f7a14",
+      "bytes": 22312
+    },
+    {
+      "path": "docs/hsk24/hsk14-gap-audit.md",
+      "sha256": "3cca28de76a8d8830efc5509237bf663ed1090b4adae891332e491e0f1d5dce9",
+      "bytes": 5311
+    },
+    {
+      "path": "docs/hsk24/hsk4-coverage.json",
+      "sha256": "017ae0bd680b540857cf341ef9cbedf12dabd2c33e4ee2ed32514a69927b9b17",
+      "bytes": 1667687
+    },
+    {
+      "path": "docs/hsk24/hsk4-instruction-evidence.json",
+      "sha256": "438d4d472d47e3b82b0981b84e449cb247bb0facaf9e430bdd2bd160a3d83079",
+      "bytes": 491920
+    },
+    {
+      "path": "docs/hsk24/hsk4-source-note-errata.json",
+      "sha256": "0c5d62907a746ed3689b0e0573c004b744635f0bfd87938b17f73cf392fdcc5f",
+      "bytes": 1566
+    },
+    {
+      "path": "docs/hsk24/hsk4-vocabulary-run-checkpoint.json",
+      "sha256": "9aa50e12c963104844661e7893aec6acc22da2931cbdbfaf9fbf7a66ae43a41d",
+      "bytes": 13211
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "validatedAt": "2026-10-18T00:55:16.087548+00:00",
+  "scope": "LOCAL V1 CANDIDATE; no production approval or SSOT completion",
+  "baseCommit": "83590552619235f0f01a52e263a56970ee40138c",
+  "branch": "feat/v1-learning-experience",
+  "preview": "http://127.0.0.1:3015/",
+  "checks": {
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "format": "PASS",
+    "build": "PASS",
+    "unitGroups": {
+      "learning": 5,
+      "content": 10,
+      "weekly": 10,
+      "generatedPlannerInputs": 750
+    },
+    "nativePostgreSQL": 33,
+    "browser": {
+      "sprint5Desktop": {
+        "expected": 2,
+        "unexpected": 0,
+        "skipped": 0,
+        "flaky": 0,
+        "duration": 97150.921
+      },
+      "sprint5Mobile360": {
+        "expected": 2,
+        "unexpected": 0,
+        "skipped": 0,
+        "flaky": 0,
+        "duration": 112774.51
+      },
+      "legacyPersistence": {
+        "expected": 6,
+        "unexpected": 0,
+        "skipped": 0,
+        "flaky": 0,
+        "duration": 36831.808
+      },
+      "legacyLearning": {
+        "expected": 4,
+        "unexpected": 0,
+        "skipped": 0,
+        "flaky": 0,
+        "duration": 28393.802
+      },
+      "legacyContent": {
+        "expected": 6,
+        "unexpected": 0,
+        "skipped": 0,
+        "flaky": 0,
+        "duration": 111164.135
+      },
+      "demoProductionLockout": {
+        "expected": 22,
+        "unexpected": 0,
+        "skipped": 0,
+        "flaky": 0,
+        "duration": 27477.84
+      }
+    },
+    "realDatabaseRestart": "18 owner + 2 content tables identical; four completed projections preserved; isolated active checkpoint resumed, duplicate advance idempotent",
+    "historicalRows": "All rows in 14 original owner tables preserved",
+    "backupRestoreUpgrade": "PASS",
+    "publicJsPrivateKeyMarkers": 0
+  },
+  "migration": "202610180004_weekly_experience.sql",
+  "backup": {
+    "source": "83590552619235f0f01a52e263a56970ee40138c",
+    "at": "2026-10-18T00:14:24.012Z",
+    "bytes": 287740,
+    "sha256": "d9b0371445cc88da71df1affad05e33b94b4e61490031402705bc859efe78c56"
+  },
+  "limits": [
+    "All four current lessons remain unreviewed draft practice; zero independent evidence",
+    "L001/L002 mapping PARTIAL; two exact grammar patterns unresolved; supplementary proper name",
+    "No approved audio/listening/pronunciation assessment, production auth or cloud setup",
+    "No physical Android/screen-reader UAT or durable offline queue",
+    "5 existing high development dependency advisories; 0 production dependency advisories"
+  ]
+}

@@ -1,0 +1,839 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "b1a939619cd64ecd4b58d0f64deba32b6a913011b6d75c9253540dc79ea30622",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "feeling-unwell",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L214",
+    "version": 1,
+    "versionId": "l214-draft-v1",
+    "title": "Mệt và không khỏe",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Mô tả cảm giác cơ thể và hiểu kế hoạch đến khám, không tự suy ra chẩn đoán.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "因为……，所以……"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 10,
+      "physicalPage": 11,
+      "printedPage": 8,
+      "section": "task",
+      "entry": "十"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-health",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "十"
+        },
+        "written": "问答生病、探病",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-health",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 医疗健康 / 生病"
+        },
+        "written": "生病",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l214-v-429",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 429"
+        },
+        "written": "身体",
+        "pinyin": "shēntǐ",
+        "senseId": "l214-v-429-sense",
+        "ordinal": 429,
+        "note": "2 shēntǐ 名; 身体 có thể nói cơ thể hoặc thể trạng trong 身体很好. Không dùng mỗi từ này để chẩn đoán bộ phận bị bệnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-436",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 436"
+        },
+        "written": "舒服",
+        "pinyin": "shūfu",
+        "senseId": "l214-v-436-sense",
+        "ordinal": 436,
+        "note": "2 shūfu 形; 舒服 đọc âm sau nhẹ. 不舒服 nói không dễ chịu/không khỏe, không xác định một bệnh cụ thể. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-440",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 440"
+        },
+        "written": "疼",
+        "pinyin": "téng",
+        "senseId": "l214-v-440-sense",
+        "ordinal": 440,
+        "note": "2（6） téng 形、（动）; Trong bài dùng tính từ mô tả đau: 头疼. Không mở rộng sang nghĩa động từ thương yêu ở cấp khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-468",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 468"
+        },
+        "written": "药",
+        "pinyin": "yào",
+        "senseId": "l214-v-468-sense",
+        "ordinal": 468,
+        "note": "2 yào 名; 药 chỉ thuốc nói chung. Tên từ không cho biết loại thuốc, liều hay cách dùng; bài không hướng dẫn tự uống. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-469",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 469"
+        },
+        "written": "药店",
+        "pinyin": "yàodiàn",
+        "senseId": "l214-v-469-sense",
+        "ordinal": 469,
+        "note": "2 yàodiàn 名; 药店 là nơi bán thuốc, khác 医院 là bệnh viện. Có hiệu thuốc gần nhà không có nghĩa phải tự mua thuốc. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l214-v-388",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 388"
+        },
+        "written": "累",
+        "pinyin": "lèi",
+        "senseId": "l214-v-388-sense",
+        "ordinal": 388,
+        "note": "2 lèi 形、动; 累 ở đây là tính từ mệt. Chưa phân tích nghĩa gây mệt hay kết quả làm ai mệt trong cấu trúc khác. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-72",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "72"
+        },
+        "written": "身",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 72,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-84",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "84"
+        },
+        "written": "体",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 84,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-76",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "76"
+        },
+        "written": "舒",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 76,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-82",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "82"
+        },
+        "written": "疼",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 82,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-103",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "103"
+        },
+        "written": "药",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 103,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-17",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "17"
+        },
+        "written": "店",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 17,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-48",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "48"
+        },
+        "written": "累",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 48,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-because",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "复句 / 因果复句"
+        },
+        "written": "因为……，所以……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l214-c0",
+      "version": 1,
+      "senseId": "l214-v-429-sense",
+      "hanzi": "身体",
+      "dictionaryPinyin": "shēn tǐ",
+      "meaning": "cơ thể, thể trạng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l214-v-429"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l214-c1",
+      "version": 1,
+      "senseId": "l214-v-436-sense",
+      "hanzi": "舒服",
+      "dictionaryPinyin": "shū fu",
+      "meaning": "dễ chịu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l214-v-436"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l214-c2",
+      "version": 1,
+      "senseId": "l214-v-440-sense",
+      "hanzi": "疼",
+      "dictionaryPinyin": "téng",
+      "meaning": "đau",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l214-v-440"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l214-c3",
+      "version": 1,
+      "senseId": "l214-v-468-sense",
+      "hanzi": "药",
+      "dictionaryPinyin": "yào",
+      "meaning": "thuốc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l214-v-468"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l214-c4",
+      "version": 1,
+      "senseId": "l214-v-469-sense",
+      "hanzi": "药店",
+      "dictionaryPinyin": "yào diàn",
+      "meaning": "hiệu thuốc",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l214-v-469"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l214-c5",
+      "version": 1,
+      "senseId": "l214-v-388-sense",
+      "hanzi": "累",
+      "dictionaryPinyin": "lèi",
+      "meaning": "mệt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l214-v-388"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l214-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "医生 là bác sĩ; 医院 là bệnh viện; 看医生 là đi khám. Bài luyện ngôn ngữ mô tả, không đưa khuyến nghị thuốc hay chẩn đoán.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l214-t0",
+      "type": "teaching",
+      "title": "身体 · cơ thể, thể trạng",
+      "text": "身体 có thể nói cơ thể hoặc thể trạng trong 身体很好. Không dùng mỗi từ này để chẩn đoán bộ phận bị bệnh.",
+      "hanzi": "你最近身体怎么样？",
+      "pinyin": "Nǐ zuìjìn shēntǐ zěnmeyàng?",
+      "meaning": "Gần đây sức khỏe bạn thế nào?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l214-t1",
+      "type": "teaching",
+      "title": "舒服 · dễ chịu",
+      "text": "舒服 đọc âm sau nhẹ. 不舒服 nói không dễ chịu/không khỏe, không xác định một bệnh cụ thể.",
+      "hanzi": "我今天不太舒服。",
+      "pinyin": "Wǒ jīntiān bú tài shūfu.",
+      "meaning": "Hôm nay tôi không khỏe lắm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l214-t2",
+      "type": "teaching",
+      "title": "疼 · đau",
+      "text": "Trong bài dùng tính từ mô tả đau: 头疼. Không mở rộng sang nghĩa động từ thương yêu ở cấp khác.",
+      "hanzi": "我的头很疼。",
+      "pinyin": "Wǒ de tóu hěn téng.",
+      "meaning": "Đầu tôi rất đau.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l214-t3",
+      "type": "teaching",
+      "title": "药 · thuốc",
+      "text": "药 chỉ thuốc nói chung. Tên từ không cho biết loại thuốc, liều hay cách dùng; bài không hướng dẫn tự uống.",
+      "hanzi": "桌子上有药。",
+      "pinyin": "Zhuōzi shang yǒu yào.",
+      "meaning": "Trên bàn có thuốc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l214-t4",
+      "type": "teaching",
+      "title": "药店 · hiệu thuốc",
+      "text": "药店 là nơi bán thuốc, khác 医院 là bệnh viện. Có hiệu thuốc gần nhà không có nghĩa phải tự mua thuốc.",
+      "hanzi": "我家旁边有一家药店。",
+      "pinyin": "Wǒ jiā pángbiān yǒu yì jiā yàodiàn.",
+      "meaning": "Bên nhà tôi có một hiệu thuốc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l214-t5",
+      "type": "teaching",
+      "title": "累 · mệt",
+      "text": "累 ở đây là tính từ mệt. Chưa phân tích nghĩa gây mệt hay kết quả làm ai mệt trong cấu trúc khác.",
+      "hanzi": "今天工作很多，我很累。",
+      "pinyin": "Jīntiān gōngzuò hěn duō, wǒ hěn lèi.",
+      "meaning": "Hôm nay nhiều việc, tôi rất mệt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l214-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "因为 nêu nguyên nhân, 所以 nêu kết quả trong lời kể. Câu mô tả cảm giác không đủ để xác định một bệnh; chỉ chấm hiểu thông tin đã nêu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l214-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：你怎么了？乙：我头疼，身体不太舒服。甲：你今天去上班吗？乙：因为不舒服，所以我先去看医生。",
+      "pinyin": "Jiǎ: Nǐ zěnme le? Yǐ: Wǒ tóu téng, shēntǐ bú tài shūfu. Jiǎ: Nǐ jīntiān qù shàng bān ma? Yǐ: Yīnwèi bù shūfu, suǒyǐ wǒ xiān qù kàn yīshēng.",
+      "meaning": "A: Bạn sao vậy? B: Tôi đau đầu, không khỏe lắm. A: Hôm nay bạn đi làm không? B: Vì không khỏe nên tôi đi khám trước.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l214-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l214-v1-e0"
+    },
+    {
+      "id": "l214-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l214-v1-e1"
+    },
+    {
+      "id": "l214-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l214-v1-e2"
+    },
+    {
+      "id": "l214-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l214-v1-e3"
+    },
+    {
+      "id": "l214-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l214-v1-e4"
+    },
+    {
+      "id": "l214-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l214-v1-e5"
+    },
+    {
+      "id": "l214-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l214-v1-e6"
+    },
+    {
+      "id": "l214-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l214-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l214-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l214-c0",
+      "senseId": "l214-v-429-sense",
+      "keyRef": "l214-v1-k0",
+      "prompt": "Trong câu “你最近身体怎么样？”, 身体 mang nghĩa nào?",
+      "choices": [
+        "dễ chịu",
+        "đau",
+        "thuốc",
+        "hiệu thuốc",
+        "mệt",
+        "cơ thể, thể trạng"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l214-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l214-c1",
+      "senseId": "l214-v-436-sense",
+      "keyRef": "l214-v1-k1",
+      "prompt": "Viết pinyin của 舒服 trong nghĩa “dễ chịu”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l214-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l214-c2",
+      "senseId": "l214-v-440-sense",
+      "keyRef": "l214-v1-k2",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “đau”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l214-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l214-c3",
+      "senseId": "l214-v-468-sense",
+      "keyRef": "l214-v1-k3",
+      "prompt": "Trong câu “桌子上有药。”, 药 mang nghĩa nào?",
+      "choices": [
+        "hiệu thuốc",
+        "mệt",
+        "cơ thể, thể trạng",
+        "dễ chịu",
+        "đau",
+        "thuốc"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l214-v1-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l214-c4",
+      "senseId": "l214-v-469-sense",
+      "keyRef": "l214-v1-k4",
+      "prompt": "Viết pinyin của 药店 trong nghĩa “hiệu thuốc”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l214-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l214-c5",
+      "senseId": "l214-v-388-sense",
+      "keyRef": "l214-v1-k5",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “mệt”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l214-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l214-c0",
+      "senseId": "l214-v-429-sense",
+      "keyRef": "l214-v1-k6",
+      "prompt": "Người B nói sẽ làm gì trước?",
+      "choices": [
+        "Tự mua thuốc",
+        "Đi đá bóng",
+        "Đi khám"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l214-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l214-c3",
+      "senseId": "l214-v-468-sense",
+      "keyRef": "l214-v1-k7",
+      "prompt": "Xếp câu: hôm nay tôi không khỏe lắm.",
+      "choices": [
+        "不太舒服",
+        "我",
+        "今天"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l214-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l214-v1-e0",
+      "senseId": "l214-v-429-sense",
+      "accepted": [
+        "cơ thể, thể trạng"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "身体: cơ thể, thể trạng. 身体 có thể nói cơ thể hoặc thể trạng trong 身体很好. Không dùng mỗi từ này để chẩn đoán bộ phận bị bệnh. Gần đây sức khỏe bạn thế nào?"
+    },
+    {
+      "id": "l214-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l214-v1-e1",
+      "senseId": "l214-v-436-sense",
+      "accepted": [
+        "shū fu"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc shū fu. 舒服 đọc âm sau nhẹ. 不舒服 nói không dễ chịu/không khỏe, không xác định một bệnh cụ thể."
+    },
+    {
+      "id": "l214-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l214-v1-e2",
+      "senseId": "l214-v-440-sense",
+      "accepted": [
+        "疼"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 疼. Trong bài dùng tính từ mô tả đau: 头疼. Không mở rộng sang nghĩa động từ thương yêu ở cấp khác."
+    },
+    {
+      "id": "l214-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l214-v1-e3",
+      "senseId": "l214-v-468-sense",
+      "accepted": [
+        "thuốc"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "药: thuốc. 药 chỉ thuốc nói chung. Tên từ không cho biết loại thuốc, liều hay cách dùng; bài không hướng dẫn tự uống. Trên bàn có thuốc."
+    },
+    {
+      "id": "l214-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l214-v1-e4",
+      "senseId": "l214-v-469-sense",
+      "accepted": [
+        "yào diàn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc yào diàn. 药店 là nơi bán thuốc, khác 医院 là bệnh viện. Có hiệu thuốc gần nhà không có nghĩa phải tự mua thuốc."
+    },
+    {
+      "id": "l214-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l214-v1-e5",
+      "senseId": "l214-v-388-sense",
+      "accepted": [
+        "累"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 累. 累 ở đây là tính từ mệt. Chưa phân tích nghĩa gây mệt hay kết quả làm ai mệt trong cấu trúc khác."
+    },
+    {
+      "id": "l214-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l214-v1-e6",
+      "senseId": "l214-v-429-sense",
+      "accepted": [
+        "Đi khám"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "先去看医生 nêu kế hoạch. Đoạn văn không nêu bệnh hay chỉ định thuốc."
+    },
+    {
+      "id": "l214-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l214-v1-e7",
+      "senseId": "l214-v-468-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 因为 nêu nguyên nhân, 所以 nêu kết quả trong lời kể. Câu mô tả cảm giác không đủ để xác định một bệnh; chỉ chấm hiểu thông tin đã nêu."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

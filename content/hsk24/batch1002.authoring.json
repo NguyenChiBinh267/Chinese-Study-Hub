@@ -1,0 +1,948 @@
+{
+  "batch": "HSK1-batch2",
+  "targetLevel": 1,
+  "sourceCheckedAt": "2026-10-30T09:27:43.950465Z",
+  "lessons": [
+    {
+      "id": "L106",
+      "unit": "hsk-one-c",
+      "unitTitle": "Người thân và những con số đầu tiên",
+      "title": "Hỏi người và gọi cả nhóm",
+      "objective": "Hỏi người và gọi cả nhóm; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-106",
+        "人称代词",
+        385,
+        "g-385-9",
+        "我/你 thêm 们 thành 我们/你们 để chỉ nhiều người. 们 gắn với đại từ/người trong phạm vi bài, không gắn sau động từ hoặc mọi danh từ. 大家 gọi cả nhóm trong ngữ cảnh; 谁 hỏi danh tính. 谁 có cách đọc shéi và shuí trong nguồn, bài dùng shéi."
+      ],
+      "task": [
+        "h1-task-person",
+        "问答个人基本信息",
+        4,
+        "一"
+      ],
+      "topic": [
+        "h1-topic-ef12595fc2f1",
+        "身份、家庭成员、朋友、技能等",
+        58,
+        "身份、家庭成员、朋友、技能等"
+      ],
+      "words": [
+        [
+          "谁",
+          "shéi",
+          "ai",
+          "谁 hỏi người chưa rõ; bài chọn cách đọc shéi, nguồn cũng ghi shuí.",
+          "他是谁？",
+          "Tā shì shéi?",
+          "Anh ấy là ai?"
+        ],
+        [
+          "们",
+          "men",
+          "hậu tố số nhiều cho người",
+          "们 trong 我们 tạo dạng chúng tôi/chúng ta; không tự đứng thành chủ thể.",
+          "我们喜欢茶。",
+          "Wǒ men xǐ huan chá.",
+          "Chúng tôi thích trà."
+        ],
+        [
+          "我们",
+          "wǒ men",
+          "chúng tôi; chúng ta",
+          "我们 bao gồm người nói; có bao gồm người nghe hay không phải xem tình huống.",
+          "我们是朋友。",
+          "Wǒ men shì péng you.",
+          "Chúng ta là bạn."
+        ],
+        [
+          "你们",
+          "nǐ men",
+          "các bạn",
+          "你们 chỉ nhiều người đang nghe; 你 chỉ một người trong tình huống đơn giản này.",
+          "你们叫什么名字？",
+          "Nǐ men jiào shén me míng zi?",
+          "Các bạn tên là gì?"
+        ],
+        [
+          "大家",
+          "dà jiā",
+          "mọi người; cả nhóm",
+          "大家 là cả nhóm đang được gọi, không phải cách nói một ngôi nhà lớn.",
+          "大家好！",
+          "Dà jiā hǎo!",
+          "Chào mọi người!"
+        ]
+      ],
+      "passage": [
+        "A：大家好！我叫安。你们叫什么名字？\nB：我叫林。他叫文。我们是朋友。\nA：你们好！",
+        "A: Dà jiā hǎo! Wǒ jiào Ān. Nǐ men jiào shén me míng zi? B: Wǒ jiào Lín. Tā jiào Wén. Wǒ men shì péng you. A: Nǐ men hǎo!",
+        "安、林、文 là tên minh họa. B giới thiệu mình và 文; 我们 trong lời B chỉ B và 文."
+      ],
+      "comprehension": [
+        "Trong lời B, ai là bạn của B?",
+        [
+          "文",
+          "茶",
+          "Đoạn nói B không có bạn"
+        ],
+        "文",
+        "Theo đoạn: 文. 安、林、文 là tên minh họa. B giới thiệu mình và 文; 我们 trong lời B chỉ B và 文."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我们",
+          "是",
+          "朋友。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “ai” trong câu: 他是□？",
+          "choices": [
+            "谁",
+            "们",
+            "我们",
+            "你们",
+            "大家"
+          ],
+          "accepted": [
+            "谁"
+          ],
+          "feedback": "谁: ai. 谁 hỏi người chưa rõ; bài chọn cách đọc shéi, nguồn cũng ghi shuí. Anh ấy là ai?"
+        },
+        {
+          "concept": 1,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "们",
+            "门",
+            "问",
+            "间"
+          ],
+          "accepted": [
+            "们"
+          ],
+          "feedback": "Chữ 们 tạo từ 们. 们 trong 我们 tạo dạng chúng tôi/chúng ta; không tự đứng thành chủ thể. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “chúng tôi; chúng ta”: □是朋友。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "我们"
+          ],
+          "feedback": "我们: chúng tôi; chúng ta. 我们 bao gồm người nói; có bao gồm người nghe hay không phải xem tình huống. Chúng ta là bạn."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “các bạn” trong câu: □叫什么名字？",
+          "choices": [
+            "谁",
+            "们",
+            "我们",
+            "你们",
+            "大家"
+          ],
+          "accepted": [
+            "你们"
+          ],
+          "feedback": "你们: các bạn. 你们 chỉ nhiều người đang nghe; 你 chỉ một người trong tình huống đơn giản này. Các bạn tên là gì?"
+        },
+        {
+          "concept": 4,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “mọi người; cả nhóm”: □好！ Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "大家"
+          ],
+          "feedback": "大家: mọi người; cả nhóm. 大家 là cả nhóm đang được gọi, không phải cách nói một ngôi nhà lớn. Chào mọi người!"
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我们是朋友。”, 我们 mang nghĩa nào theo bài?",
+          "choices": [
+            "ai",
+            "hậu tố số nhiều cho người",
+            "chúng tôi; chúng ta",
+            "các bạn",
+            "mọi người; cả nhóm"
+          ],
+          "accepted": [
+            "chúng tôi; chúng ta"
+          ],
+          "feedback": "我们 bao gồm người nói; có bao gồm người nghe hay không phải xem tình huống. Chúng ta là bạn."
+        }
+      ],
+      "characterTargets": [
+        "们"
+      ]
+    },
+    {
+      "id": "L107",
+      "unit": "hsk-one-c",
+      "unitTitle": "Người thân và những con số đầu tiên",
+      "title": "Gia đình của mình",
+      "objective": "Gia đình của mình; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-107",
+        "的",
+        385,
+        "g-385-24",
+        "我的爸爸/我的妈妈 chỉ quan hệ người thân; với quan hệ thân thiết thường có thể bỏ 的: 我爸爸. 家人 là người trong gia đình, 家 có thể là nhà/gia đình theo câu. Không dùng 家 thay tất cả các cách gọi một người thân."
+      ],
+      "task": [
+        "h1-task-person",
+        "问答个人基本信息",
+        4,
+        "一"
+      ],
+      "topic": [
+        "h1-topic-ef12595fc2f1",
+        "身份、家庭成员、朋友、技能等",
+        58,
+        "身份、家庭成员、朋友、技能等"
+      ],
+      "words": [
+        [
+          "爸爸",
+          "bà ba",
+          "bố; ba",
+          "爸爸 là cách gọi bố thân mật; âm sau thường nhẹ trong dạng từ điển ở bài.",
+          "这是我爸爸。",
+          "Zhè shì wǒ bà ba.",
+          "Đây là bố tôi."
+        ],
+        [
+          "妈妈",
+          "mā ma",
+          "mẹ; má",
+          "妈妈 gọi mẹ; 我的妈妈 và 我妈妈 đều có thể chỉ mẹ của tôi.",
+          "我妈妈喜欢茶。",
+          "Wǒ mā ma xǐ huan chá.",
+          "Mẹ tôi thích trà."
+        ],
+        [
+          "孩子",
+          "hái zi",
+          "trẻ em; con",
+          "孩子 có thể chỉ trẻ em hoặc con của ai theo ngữ cảnh, không chỉ con trai.",
+          "那个孩子叫文。",
+          "Nà ge hái zi jiào Wén.",
+          "Đứa trẻ kia tên Văn."
+        ],
+        [
+          "家人",
+          "jiā rén",
+          "người nhà; thành viên gia đình",
+          "家人 là người trong gia đình; 这是我的家人 giới thiệu người nhà theo tình huống.",
+          "这是我的家人。",
+          "Zhè shì wǒ de jiā rén.",
+          "Đây là người nhà của tôi."
+        ],
+        [
+          "家",
+          "jiā",
+          "nhà; gia đình",
+          "家 trong 我家 nói nhà/gia đình tôi; không đồng nghĩa một người thân riêng lẻ.",
+          "这是我家。",
+          "Zhè shì wǒ jiā.",
+          "Đây là nhà tôi."
+        ]
+      ],
+      "passage": [
+        "A：这是我爸爸，这是我妈妈。\nB：那个孩子是谁？\nA：他叫文。他是我的家人。\nB：你好，文！",
+        "A: Zhè shì wǒ bà ba, zhè shì wǒ mā ma. B: Nà ge hái zi shì shéi? A: Tā jiào Wén. Tā shì wǒ de jiā rén. B: Nǐ hǎo, Wén!",
+        "A giới thiệu bố mẹ và nói Văn là người nhà. Đoạn không nói quan hệ cụ thể giữa A và Văn."
+      ],
+      "comprehension": [
+        "Đoạn xác nhận điều gì về 文?",
+        [
+          "Là người nhà của A",
+          "Là bố của A",
+          "Là mẹ của B"
+        ],
+        "Là người nhà của A",
+        "Theo đoạn: Là người nhà của A. A giới thiệu bố mẹ và nói Văn là người nhà. Đoạn không nói quan hệ cụ thể giữa A và Văn."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "这",
+          "是",
+          "我爸爸。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “bố; ba” trong câu: 这是我□。",
+          "choices": [
+            "爸爸",
+            "妈妈",
+            "孩子",
+            "家人",
+            "家"
+          ],
+          "accepted": [
+            "爸爸"
+          ],
+          "feedback": "爸爸: bố; ba. 爸爸 là cách gọi bố thân mật; âm sau thường nhẹ trong dạng từ điển ở bài. Đây là bố tôi."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 妈妈 (mẹ; má).",
+          "choices": [],
+          "accepted": [
+            "mā ma"
+          ],
+          "feedback": "妈妈 ghi mā ma. 妈妈 gọi mẹ; 我的妈妈 và 我妈妈 đều có thể chỉ mẹ của tôi."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “trẻ em; con”: 那个□叫文。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "孩子"
+          ],
+          "feedback": "孩子: trẻ em; con. 孩子 có thể chỉ trẻ em hoặc con của ai theo ngữ cảnh, không chỉ con trai. Đứa trẻ kia tên Văn."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "家",
+            "字",
+            "安",
+            "室"
+          ],
+          "accepted": [
+            "家"
+          ],
+          "feedback": "Chữ 家 tạo từ 家人. 家人 là người trong gia đình; 这是我的家人 giới thiệu người nhà theo tình huống. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 4,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “nhà; gia đình”: 这是我□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "家"
+          ],
+          "feedback": "家: nhà; gia đình. 家 trong 我家 nói nhà/gia đình tôi; không đồng nghĩa một người thân riêng lẻ. Đây là nhà tôi."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “那个孩子叫文。”, 孩子 mang nghĩa nào theo bài?",
+          "choices": [
+            "bố; ba",
+            "mẹ; má",
+            "trẻ em; con",
+            "người nhà; thành viên gia đình",
+            "nhà; gia đình"
+          ],
+          "accepted": [
+            "trẻ em; con"
+          ],
+          "feedback": "孩子 có thể chỉ trẻ em hoặc con của ai theo ngữ cảnh, không chỉ con trai. Đứa trẻ kia tên Văn."
+        }
+      ],
+      "characterTargets": [
+        "家"
+      ]
+    },
+    {
+      "id": "L108",
+      "unit": "hsk-one-c",
+      "unitTitle": "Người thân và những con số đầu tiên",
+      "title": "Anh chị em trong nhà",
+      "objective": "Anh chị em trong nhà; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-108",
+        "名词",
+        386,
+        "g-386-8",
+        "Anh chị em được gọi theo quan hệ với người nói và thứ tự tuổi: 哥哥/姐姐 lớn hơn, 弟弟/妹妹 nhỏ hơn. 儿子 là con trai của ai, không đồng nghĩa 弟弟. Các danh từ này làm chủ thể hoặc phần sau 是 trong câu giới thiệu."
+      ],
+      "task": [
+        "h1-task-person",
+        "问答个人基本信息",
+        4,
+        "一"
+      ],
+      "topic": [
+        "h1-topic-ef12595fc2f1",
+        "身份、家庭成员、朋友、技能等",
+        58,
+        "身份、家庭成员、朋友、技能等"
+      ],
+      "words": [
+        [
+          "哥哥",
+          "gē ge",
+          "anh trai",
+          "哥哥 chỉ anh trai lớn hơn mình trong quan hệ gia đình ở bài.",
+          "我哥哥叫安。",
+          "Wǒ gē ge jiào Ān.",
+          "Anh trai tôi tên An."
+        ],
+        [
+          "姐姐",
+          "jiě jie",
+          "chị gái",
+          "姐姐 là chị gái lớn hơn người có quan hệ được nói đến.",
+          "她是我姐姐。",
+          "Tā shì wǒ jiě jie.",
+          "Cô ấy là chị gái tôi."
+        ],
+        [
+          "弟弟",
+          "dì di",
+          "em trai",
+          "弟弟 là em trai nhỏ tuổi hơn, không phải mọi người đàn ông trẻ.",
+          "他是我弟弟。",
+          "Tā shì wǒ dì di.",
+          "Cậu ấy là em trai tôi."
+        ],
+        [
+          "妹妹",
+          "mèi mei",
+          "em gái",
+          "妹妹 chỉ em gái; cần biết quan hệ, không đoán từ tên.",
+          "我妹妹喜欢茶。",
+          "Wǒ mèi mei xǐ huan chá.",
+          "Em gái tôi thích trà."
+        ],
+        [
+          "儿子",
+          "ér zi",
+          "con trai",
+          "儿子 nói quan hệ con trai với cha/mẹ, không nói thứ tự anh em.",
+          "他是我儿子。",
+          "Tā shì wǒ ér zi.",
+          "Cậu ấy là con trai tôi."
+        ]
+      ],
+      "passage": [
+        "A：他是你弟弟吗？\nB：不是，他是我哥哥。\nA：她呢？\nB：她是我妹妹。",
+        "A: Tā shì nǐ dì di ma? B: Bú shì, tā shì wǒ gē ge. A: Tā ne? B: Tā shì wǒ mèi mei.",
+        "B sửa cách gọi của A: người nam là anh trai B; người nữ được nhắc sau là em gái B."
+      ],
+      "comprehension": [
+        "Người nam được B giới thiệu là ai?",
+        [
+          "哥哥",
+          "弟弟",
+          "儿子"
+        ],
+        "哥哥",
+        "Theo đoạn: 哥哥. B sửa cách gọi của A: người nam là anh trai B; người nữ được nhắc sau là em gái B."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "她",
+          "是",
+          "我妹妹。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “anh trai” trong câu: 我□叫安。",
+          "choices": [
+            "哥哥",
+            "姐姐",
+            "弟弟",
+            "妹妹",
+            "儿子"
+          ],
+          "accepted": [
+            "哥哥"
+          ],
+          "feedback": "哥哥: anh trai. 哥哥 chỉ anh trai lớn hơn mình trong quan hệ gia đình ở bài. Anh trai tôi tên An."
+        },
+        {
+          "concept": 1,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "姐",
+            "妹",
+            "好",
+            "如"
+          ],
+          "accepted": [
+            "姐"
+          ],
+          "feedback": "Chữ 姐 tạo từ 姐姐. 姐姐 là chị gái lớn hơn người có quan hệ được nói đến. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “em trai”: 他是我□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "弟弟"
+          ],
+          "feedback": "弟弟: em trai. 弟弟 là em trai nhỏ tuổi hơn, không phải mọi người đàn ông trẻ. Cậu ấy là em trai tôi."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “em gái” trong câu: 我□喜欢茶。",
+          "choices": [
+            "哥哥",
+            "姐姐",
+            "弟弟",
+            "妹妹",
+            "儿子"
+          ],
+          "accepted": [
+            "妹妹"
+          ],
+          "feedback": "妹妹: em gái. 妹妹 chỉ em gái; cần biết quan hệ, không đoán từ tên. Em gái tôi thích trà."
+        },
+        {
+          "concept": 4,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “con trai”: 他是我□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "儿子"
+          ],
+          "feedback": "儿子: con trai. 儿子 nói quan hệ con trai với cha/mẹ, không nói thứ tự anh em. Cậu ấy là con trai tôi."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “他是我弟弟。”, 弟弟 mang nghĩa nào theo bài?",
+          "choices": [
+            "anh trai",
+            "chị gái",
+            "em trai",
+            "em gái",
+            "con trai"
+          ],
+          "accepted": [
+            "em trai"
+          ],
+          "feedback": "弟弟 là em trai nhỏ tuổi hơn, không phải mọi người đàn ông trẻ. Cậu ấy là em trai tôi."
+        }
+      ],
+      "characterTargets": [
+        "姐"
+      ]
+    },
+    {
+      "id": "L109",
+      "unit": "hsk-one-c",
+      "unitTitle": "Người thân và những con số đầu tiên",
+      "title": "Đếm từ một đến năm",
+      "objective": "Đếm từ một đến năm; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-109",
+        "数词",
+        385,
+        "g-385-11",
+        "一二三四五 là số đếm từ một đến năm. Trong bài đếm thành tiếng/đọc thẻ số, số có thể đứng riêng; không cần 是. Khi đi với danh từ thường cần lượng từ, sẽ học ở nhóm đồ vật. 一 đứng riêng đọc yī; biến điệu trong cụm sẽ được nhắc ở ví dụ cụ thể."
+      ],
+      "task": [
+        "h1-task-event",
+        "问答事件信息",
+        4,
+        "二"
+      ],
+      "topic": [
+        "h1-topic-f80c6b43ef6a",
+        "日期、时间、地点、方位、参加者、号码等",
+        58,
+        "日期、时间、地点、方位、参加者、号码等"
+      ],
+      "words": [
+        [
+          "一",
+          "yī",
+          "một",
+          "一 đứng riêng ghi yī; không lấy âm yí/yì trong cụm thay pinyin từ điển.",
+          "一、二、三。",
+          "Yī, èr, sān.",
+          "Một, hai, ba."
+        ],
+        [
+          "二",
+          "èr",
+          "hai (số đếm)",
+          "二 dùng trong chuỗi đếm; 两 là dạng khác sẽ học khi đếm đồ vật.",
+          "二、三、四。",
+          "Èr, sān, sì.",
+          "Hai, ba, bốn."
+        ],
+        [
+          "三",
+          "sān",
+          "ba",
+          "三 gồm ba nét ngang; đừng nhầm với 二 khi nhận diện chữ.",
+          "三、四、五。",
+          "Sān, sì, wǔ.",
+          "Ba, bốn, năm."
+        ],
+        [
+          "四",
+          "sì",
+          "bốn",
+          "四 đọc sì, không phải shì của 是; đây là hai âm và hai chữ khác.",
+          "四、五。",
+          "Sì, wǔ.",
+          "Bốn, năm."
+        ],
+        [
+          "五",
+          "wǔ",
+          "năm",
+          "五 là số năm; phân biệt với 我 wǒ đã học.",
+          "一、二、三、四、五。",
+          "Yī, èr, sān, sì, wǔ.",
+          "Một, hai, ba, bốn, năm."
+        ]
+      ],
+      "passage": [
+        "A：一、二、三、四、五。\nB：三？\nA：三。\nB：好，谢谢！",
+        "A: Yī, èr, sān, sì, wǔ. B: Sān? A: Sān. B: Hǎo, xiè xie!",
+        "A đọc chuỗi một đến năm. B hỏi lại số ba và A xác nhận đúng số đó; đây là luyện đọc chữ số, chưa đánh giá nghe."
+      ],
+      "comprehension": [
+        "B hỏi lại số nào?",
+        [
+          "三",
+          "五",
+          "二"
+        ],
+        "三",
+        "Theo đoạn: 三. A đọc chuỗi một đến năm. B hỏi lại số ba và A xác nhận đúng số đó; đây là luyện đọc chữ số, chưa đánh giá nghe."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "一、",
+          "二、",
+          "三、",
+          "四、",
+          "五。"
+        ],
+        "0,1,2,3,4"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "一",
+            "二",
+            "三",
+            "十"
+          ],
+          "accepted": [
+            "一"
+          ],
+          "feedback": "Chữ 一 tạo từ 一. 一 đứng riêng ghi yī; không lấy âm yí/yì trong cụm thay pinyin từ điển. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 二 (hai (số đếm)).",
+          "choices": [],
+          "accepted": [
+            "èr"
+          ],
+          "feedback": "二 ghi èr. 二 dùng trong chuỗi đếm; 两 là dạng khác sẽ học khi đếm đồ vật."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “ba”: □、四、五。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "三"
+          ],
+          "feedback": "三: ba. 三 gồm ba nét ngang; đừng nhầm với 二 khi nhận diện chữ. Ba, bốn, năm."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “bốn” trong câu: □、五。",
+          "choices": [
+            "一",
+            "二",
+            "三",
+            "四",
+            "五"
+          ],
+          "accepted": [
+            "四"
+          ],
+          "feedback": "四: bốn. 四 đọc sì, không phải shì của 是; đây là hai âm và hai chữ khác. Bốn, năm."
+        },
+        {
+          "concept": 4,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “năm”: 一、二、三、四、□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "五"
+          ],
+          "feedback": "五: năm. 五 là số năm; phân biệt với 我 wǒ đã học. Một, hai, ba, bốn, năm."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “三、四、五。”, 三 mang nghĩa nào theo bài?",
+          "choices": [
+            "một",
+            "hai (số đếm)",
+            "ba",
+            "bốn",
+            "năm"
+          ],
+          "accepted": [
+            "ba"
+          ],
+          "feedback": "三 gồm ba nét ngang; đừng nhầm với 二 khi nhận diện chữ. Ba, bốn, năm."
+        }
+      ],
+      "characterTargets": [
+        "一"
+      ]
+    },
+    {
+      "id": "L110",
+      "unit": "hsk-one-c",
+      "unitTitle": "Người thân và những con số đầu tiên",
+      "title": "Đếm từ sáu đến mười",
+      "objective": "Đếm từ sáu đến mười; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-110",
+        "数词",
+        385,
+        "g-385-11",
+        "Tiếp chuỗi sáu đến mười: 六七八九十. 十 đứng riêng là mười, không viết 一十 trong phép đếm thông thường. Chưa dùng các số này làm điểm số/điện thoại nếu tình huống không nói."
+      ],
+      "task": [
+        "h1-task-event",
+        "问答事件信息",
+        4,
+        "二"
+      ],
+      "topic": [
+        "h1-topic-f80c6b43ef6a",
+        "日期、时间、地点、方位、参加者、号码等",
+        58,
+        "日期、时间、地点、方位、参加者、号码等"
+      ],
+      "words": [
+        [
+          "六",
+          "liù",
+          "sáu",
+          "六 là số sáu, chữ khác 八; nhìn cả phần trên và dưới.",
+          "六、七、八。",
+          "Liù, qī, bā.",
+          "Sáu, bảy, tám."
+        ],
+        [
+          "七",
+          "qī",
+          "bảy",
+          "七 đọc qī với thanh một; không nhầm với 去 qù ở các bài sau.",
+          "七、八。",
+          "Qī, bā.",
+          "Bảy, tám."
+        ],
+        [
+          "八",
+          "bā",
+          "tám",
+          "八 là số tám, có hai nét tách; không phải 人 dù nét gần nhau.",
+          "八、九、十。",
+          "Bā, jiǔ, shí.",
+          "Tám, chín, mười."
+        ],
+        [
+          "九",
+          "jiǔ",
+          "chín",
+          "九 đọc jiǔ, âm cuối ou; bài yêu cầu pinyin của số, không phải tên chữ Latin.",
+          "九、十。",
+          "Jiǔ, shí.",
+          "Chín, mười."
+        ],
+        [
+          "十",
+          "shí",
+          "mười",
+          "十 đứng riêng là mười; ghép với số khác để tạo số lớn hơn cần quy tắc tiếp theo.",
+          "六、七、八、九、十。",
+          "Liù, qī, bā, jiǔ, shí.",
+          "Sáu, bảy, tám, chín, mười."
+        ]
+      ],
+      "passage": [
+        "A：六、七、八、九、十。\nB：九？\nA：不是九，是十。\nB：十。好！",
+        "A: Liù, qī, bā, jiǔ, shí. B: Jiǔ? A: Bú shì jiǔ, shì shí. B: Shí. Hǎo!",
+        "B hỏi lại chín; A sửa rằng số đang nhấn mạnh là mười. Đọc toàn câu phủ định để không chọn nhầm."
+      ],
+      "comprehension": [
+        "Cuối cùng A xác nhận số nào?",
+        [
+          "十",
+          "九",
+          "六"
+        ],
+        "十",
+        "Theo đoạn: 十. B hỏi lại chín; A sửa rằng số đang nhấn mạnh là mười. Đọc toàn câu phủ định để không chọn nhầm."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "六、",
+          "七、",
+          "八、",
+          "九、",
+          "十。"
+        ],
+        "0,1,2,3,4"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "六",
+            "八",
+            "大",
+            "文"
+          ],
+          "accepted": [
+            "六"
+          ],
+          "feedback": "Chữ 六 tạo từ 六. 六 là số sáu, chữ khác 八; nhìn cả phần trên và dưới. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 七 (bảy).",
+          "choices": [],
+          "accepted": [
+            "qī"
+          ],
+          "feedback": "七 ghi qī. 七 đọc qī với thanh một; không nhầm với 去 qù ở các bài sau."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “tám”: □、九、十。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "八"
+          ],
+          "feedback": "八: tám. 八 là số tám, có hai nét tách; không phải 人 dù nét gần nhau. Tám, chín, mười."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ có nghĩa “chín” trong câu: □、十。",
+          "choices": [
+            "六",
+            "七",
+            "八",
+            "九",
+            "十"
+          ],
+          "accepted": [
+            "九"
+          ],
+          "feedback": "九: chín. 九 đọc jiǔ, âm cuối ou; bài yêu cầu pinyin của số, không phải tên chữ Latin. Chín, mười."
+        },
+        {
+          "concept": 4,
+          "type": "short",
+          "prompt": "Điền đúng mục từ của bài có nghĩa “mười”: 六、七、八、九、□。 Chỉ nhập mục từ, giữ đúng số chữ của mục đã học.",
+          "choices": [],
+          "accepted": [
+            "十"
+          ],
+          "feedback": "十: mười. 十 đứng riêng là mười; ghép với số khác để tạo số lớn hơn cần quy tắc tiếp theo. Sáu, bảy, tám, chín, mười."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “八、九、十。”, 八 mang nghĩa nào theo bài?",
+          "choices": [
+            "sáu",
+            "bảy",
+            "tám",
+            "chín",
+            "mười"
+          ],
+          "accepted": [
+            "tám"
+          ],
+          "feedback": "八 là số tám, có hai nét tách; không phải 人 dù nét gần nhau. Tám, chín, mười."
+        }
+      ],
+      "characterTargets": [
+        "六"
+      ]
+    }
+  ]
+}

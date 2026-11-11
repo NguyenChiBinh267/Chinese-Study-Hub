@@ -1,0 +1,791 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "77616a724b8cd90a718f01794d15dfdbd4a43b284e7507aa74f4944d9c803278",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "going-abroad",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L223",
+    "version": 1,
+    "versionId": "l223-draft-v1",
+    "title": "Ra ngoài và đi nước ngoài",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Phân biệt đi ra, vào, xuất ngoại và đọc điểm dừng.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "（2）连谓短语"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 10,
+      "physicalPage": 11,
+      "printedPage": 8,
+      "section": "task",
+      "entry": "八"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "八"
+        },
+        "written": "问答出行情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-arrangements",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 出行安排"
+        },
+        "written": "出行安排",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l223-v-316",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 316"
+        },
+        "written": "出",
+        "pinyin": "chū",
+        "senseId": "l223-v-316-sense",
+        "ordinal": 316,
+        "note": "2 chū 动; 出 là động từ ra; trong 出学校 nói đi ra khỏi trường. Không lẫn với 进 là vào. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l223-v-317",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 317"
+        },
+        "written": "出国",
+        "pinyin": "chūguó",
+        "senseId": "l223-v-317-sense",
+        "ordinal": 317,
+        "note": "2 chūguó 动; 出国 nói rời đất nước để đến nước khác. Đi từ nhà đến ga chưa đủ để gọi là 出国. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l223-v-319",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 319"
+        },
+        "written": "出门",
+        "pinyin": "chūmén",
+        "senseId": "l223-v-319-sense",
+        "ordinal": 319,
+        "note": "2 chūmén 动; 出门 trong kế hoạch hằng ngày thường nói ra khỏi nhà. Không đồng nghĩa nhất thiết đi nước ngoài. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l223-v-370",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 370"
+        },
+        "written": "进",
+        "pinyin": "jìn",
+        "senseId": "l223-v-370-sense",
+        "ordinal": 370,
+        "note": "2 jìn 动; 进 là động từ vào. 同音 近 jìn chỉ gần; câu đi vào phải chọn chữ 进. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l223-v-340",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 340"
+        },
+        "written": "飞",
+        "pinyin": "fēi",
+        "senseId": "l223-v-340-sense",
+        "ordinal": 340,
+        "note": "2 fēi 动; 飞 là bay trong không trung; 坐飞机 là đi bằng máy bay. Không phải mọi đi xa đều dùng 飞. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l223-v-486",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 486"
+        },
+        "written": "站1",
+        "pinyin": "zhàn",
+        "senseId": "l223-v-486-sense",
+        "ordinal": 486,
+        "note": "2 zhàn 名; Mục từ chính thức 站1 là danh từ trạm ở cấp này; không dùng động từ đứng để chứng minh nghĩa này đã học. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l223-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "刚",
+        "pinyin": "gāng",
+        "senseId": "l223-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: vừa mới; cấp chưa xác minh, hỗ trợ ví dụ."
+      },
+      {
+        "id": "l223-extra1",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "明年",
+        "pinyin": "míng nián",
+        "senseId": "l223-extra1-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: năm sau; chưa xác minh cấp, không tính vào mục từ mới."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "门",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-36",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "36"
+        },
+        "written": "进",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 36,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-115",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "115"
+        },
+        "written": "站",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 115,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-serial",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "短语 / 其他结构类型 / 连谓短语"
+        },
+        "written": "（2）连谓短语",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l223-c0",
+      "version": 1,
+      "senseId": "l223-v-316-sense",
+      "hanzi": "出",
+      "dictionaryPinyin": "chū",
+      "meaning": "ra, đi từ trong ra",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l223-v-316"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l223-c1",
+      "version": 1,
+      "senseId": "l223-v-317-sense",
+      "hanzi": "出国",
+      "dictionaryPinyin": "chū guó",
+      "meaning": "ra nước ngoài",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l223-v-317"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l223-c2",
+      "version": 1,
+      "senseId": "l223-v-319-sense",
+      "hanzi": "出门",
+      "dictionaryPinyin": "chū mén",
+      "meaning": "ra khỏi nhà hoặc cửa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l223-v-319"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l223-c3",
+      "version": 1,
+      "senseId": "l223-v-370-sense",
+      "hanzi": "进",
+      "dictionaryPinyin": "jìn",
+      "meaning": "vào",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l223-v-370"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l223-c4",
+      "version": 1,
+      "senseId": "l223-v-340-sense",
+      "hanzi": "飞",
+      "dictionaryPinyin": "fēi",
+      "meaning": "bay",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l223-v-340"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l223-c5",
+      "version": 1,
+      "senseId": "l223-v-486-sense",
+      "hanzi": "站",
+      "dictionaryPinyin": "zhàn",
+      "meaning": "trạm, điểm dừng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l223-v-486"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l223-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "去 là đi đến; 来/去 chọn theo mốc người nói. 站 trong bài là danh từ trạm, không phải động từ đứng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l223-t0",
+      "type": "teaching",
+      "title": "出 · ra, đi từ trong ra",
+      "text": "出 là động từ ra; trong 出学校 nói đi ra khỏi trường. Không lẫn với 进 là vào.",
+      "hanzi": "他刚出教室。",
+      "pinyin": "Tā gāng chū jiàoshì.",
+      "meaning": "Anh ấy vừa ra khỏi phòng học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l223-t1",
+      "type": "teaching",
+      "title": "出国 · ra nước ngoài",
+      "text": "出国 nói rời đất nước để đến nước khác. Đi từ nhà đến ga chưa đủ để gọi là 出国.",
+      "hanzi": "我想明年出国学习。",
+      "pinyin": "Wǒ xiǎng míngnián chūguó xuéxí.",
+      "meaning": "Tôi muốn năm sau ra nước ngoài học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l223-t2",
+      "type": "teaching",
+      "title": "出门 · ra khỏi nhà hoặc cửa",
+      "text": "出门 trong kế hoạch hằng ngày thường nói ra khỏi nhà. Không đồng nghĩa nhất thiết đi nước ngoài.",
+      "hanzi": "我出门买东西。",
+      "pinyin": "Wǒ chūmén mǎi dōngxi.",
+      "meaning": "Tôi ra ngoài mua đồ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l223-t3",
+      "type": "teaching",
+      "title": "进 · vào",
+      "text": "进 là động từ vào. 同音 近 jìn chỉ gần; câu đi vào phải chọn chữ 进.",
+      "hanzi": "请进教室。",
+      "pinyin": "Qǐng jìn jiàoshì.",
+      "meaning": "Mời vào phòng học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l223-t4",
+      "type": "teaching",
+      "title": "飞 · bay",
+      "text": "飞 là bay trong không trung; 坐飞机 là đi bằng máy bay. Không phải mọi đi xa đều dùng 飞.",
+      "hanzi": "鸟在天上飞。",
+      "pinyin": "Niǎo zài tiān shang fēi.",
+      "meaning": "Chim bay trên trời.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l223-t5",
+      "type": "teaching",
+      "title": "站 · trạm, điểm dừng",
+      "text": "Mục từ chính thức 站1 là danh từ trạm ở cấp này; không dùng động từ đứng để chứng minh nghĩa này đã học.",
+      "hanzi": "下一站是机场。",
+      "pinyin": "Xià yí zhàn shì jīchǎng.",
+      "meaning": "Trạm tiếp theo là sân bay.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l223-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "Một người có thể nối hai hoạt động: 出门买东西, ra ngoài để mua đồ. Không cần thêm một chủ ngữ mới giữa hai hoạt động cùng người làm.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l223-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：你今天出国吗？乙：不是，我出门去机场看朋友。甲：怎么去？乙：坐地铁，下一站就是机场。",
+      "pinyin": "Jiǎ: Nǐ jīntiān chūguó ma? Yǐ: Bú shì, wǒ chūmén qù jīchǎng kàn péngyou. Jiǎ: Zěnme qù? Yǐ: Zuò dìtiě, xià yí zhàn jiù shì jīchǎng.",
+      "meaning": "A: Hôm nay bạn ra nước ngoài à? B: Không, tôi ra ngoài đến sân bay gặp bạn. A: Đi thế nào? B: Tàu điện ngầm, trạm kế tiếp là sân bay.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l223-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l223-v1-e0"
+    },
+    {
+      "id": "l223-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l223-v1-e1"
+    },
+    {
+      "id": "l223-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l223-v1-e2"
+    },
+    {
+      "id": "l223-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l223-v1-e3"
+    },
+    {
+      "id": "l223-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l223-v1-e4"
+    },
+    {
+      "id": "l223-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l223-v1-e5"
+    },
+    {
+      "id": "l223-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l223-v1-e6"
+    },
+    {
+      "id": "l223-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l223-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l223-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l223-c0",
+      "senseId": "l223-v-316-sense",
+      "keyRef": "l223-v1-k0",
+      "prompt": "Trong câu “他刚出教室。”, 出 mang nghĩa nào?",
+      "choices": [
+        "ra nước ngoài",
+        "ra khỏi nhà hoặc cửa",
+        "vào",
+        "bay",
+        "trạm, điểm dừng",
+        "ra, đi từ trong ra"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l223-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l223-c1",
+      "senseId": "l223-v-317-sense",
+      "keyRef": "l223-v1-k1",
+      "prompt": "Viết pinyin của 出国 trong nghĩa “ra nước ngoài”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l223-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l223-c2",
+      "senseId": "l223-v-319-sense",
+      "keyRef": "l223-v1-k2",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “ra khỏi nhà hoặc cửa”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l223-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l223-c3",
+      "senseId": "l223-v-370-sense",
+      "keyRef": "l223-v1-k3",
+      "prompt": "Trong câu “请进教室。”, 进 mang nghĩa nào?",
+      "choices": [
+        "bay",
+        "trạm, điểm dừng",
+        "ra, đi từ trong ra",
+        "ra nước ngoài",
+        "ra khỏi nhà hoặc cửa",
+        "vào"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l223-v1-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l223-c4",
+      "senseId": "l223-v-340-sense",
+      "keyRef": "l223-v1-k4",
+      "prompt": "Viết pinyin của 飞 trong nghĩa “bay”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l223-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l223-c5",
+      "senseId": "l223-v-486-sense",
+      "keyRef": "l223-v1-k5",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “trạm, điểm dừng”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l223-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l223-c0",
+      "senseId": "l223-v-316-sense",
+      "keyRef": "l223-v1-k6",
+      "prompt": "Người B đến sân bay để làm gì?",
+      "choices": [
+        "Ra nước ngoài học",
+        "Mua quần",
+        "Gặp bạn"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l223-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l223-c3",
+      "senseId": "l223-v-370-sense",
+      "keyRef": "l223-v1-k7",
+      "prompt": "Xếp câu: tôi ra ngoài mua đồ.",
+      "choices": [
+        "买东西",
+        "我",
+        "出门"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l223-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l223-v1-e0",
+      "senseId": "l223-v-316-sense",
+      "accepted": [
+        "ra, đi từ trong ra"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "出: ra, đi từ trong ra. 出 là động từ ra; trong 出学校 nói đi ra khỏi trường. Không lẫn với 进 là vào. Anh ấy vừa ra khỏi phòng học."
+    },
+    {
+      "id": "l223-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l223-v1-e1",
+      "senseId": "l223-v-317-sense",
+      "accepted": [
+        "chū guó"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc chū guó. 出国 nói rời đất nước để đến nước khác. Đi từ nhà đến ga chưa đủ để gọi là 出国."
+    },
+    {
+      "id": "l223-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l223-v1-e2",
+      "senseId": "l223-v-319-sense",
+      "accepted": [
+        "出门"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 出门. 出门 trong kế hoạch hằng ngày thường nói ra khỏi nhà. Không đồng nghĩa nhất thiết đi nước ngoài."
+    },
+    {
+      "id": "l223-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l223-v1-e3",
+      "senseId": "l223-v-370-sense",
+      "accepted": [
+        "vào"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "进: vào. 进 là động từ vào. 同音 近 jìn chỉ gần; câu đi vào phải chọn chữ 进. Mời vào phòng học."
+    },
+    {
+      "id": "l223-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l223-v1-e4",
+      "senseId": "l223-v-340-sense",
+      "accepted": [
+        "fēi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc fēi. 飞 là bay trong không trung; 坐飞机 là đi bằng máy bay. Không phải mọi đi xa đều dùng 飞."
+    },
+    {
+      "id": "l223-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l223-v1-e5",
+      "senseId": "l223-v-486-sense",
+      "accepted": [
+        "站"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 站. Mục từ chính thức 站1 là danh từ trạm ở cấp này; không dùng động từ đứng để chứng minh nghĩa này đã học."
+    },
+    {
+      "id": "l223-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l223-v1-e6",
+      "senseId": "l223-v-316-sense",
+      "accepted": [
+        "Gặp bạn"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "B nói 看朋友 và phủ nhận 出国. Đến sân bay không tự chứng minh sẽ bay."
+    },
+    {
+      "id": "l223-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l223-v1-e7",
+      "senseId": "l223-v-370-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. Một người có thể nối hai hoạt động: 出门买东西, ra ngoài để mua đồ. Không cần thêm một chủ ngữ mới giữa hai hoạt động cùng người làm."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

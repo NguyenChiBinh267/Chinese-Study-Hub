@@ -1,0 +1,816 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "cd2542a7a62fc48810d5e68f104f8475690639a77bca4de690655f7ab13570f3",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eeb",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L441",
+    "version": 1,
+    "versionId": "l441-draft-v1",
+    "title": "Xây nền tảng bằng luyện tập đều đặn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Xây nền tảng bằng luyện tập đều đặn; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "首先"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 23,
+      "physicalPage": 24,
+      "printedPage": 21,
+      "section": "task",
+      "entry": "十二"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-27T08:29:17.309401Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 23,
+          "physicalPage": 24,
+          "printedPage": 21,
+          "section": "task",
+          "entry": "十二"
+        },
+        "written": "谈论教学、学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-81c3bdd789d8",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 66,
+          "physicalPage": 67,
+          "printedPage": 64,
+          "section": "topic",
+          "entry": "学习经历"
+        },
+        "written": "学习经历",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l441-v-1319",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 111,
+          "physicalPage": 112,
+          "printedPage": 109,
+          "section": "vocabulary",
+          "entry": "ordinal 1319"
+        },
+        "written": "基本",
+        "pinyin": "jīběn",
+        "senseId": "l441-v-1319-sense",
+        "ordinal": 1319,
+        "note": "4 jīběn 形、副; 基本 bổ nghĩa danh từ, như 基本方法; không tự mang nghĩa đã thành thạo. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l441-v-1320",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 111,
+          "physicalPage": 112,
+          "printedPage": 109,
+          "section": "vocabulary",
+          "entry": "ordinal 1320"
+        },
+        "written": "基本上",
+        "pinyin": "jīběnshàng",
+        "senseId": "l441-v-1320-sense",
+        "ordinal": 1320,
+        "note": "4 jīběnshàng 副; 基本上 là phó từ nghĩa nhìn chung/gần như, vẫn có thể còn ngoại lệ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l441-v-1321",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1321"
+        },
+        "written": "基础",
+        "pinyin": "jīchǔ",
+        "senseId": "l441-v-1321-sense",
+        "ordinal": 1321,
+        "note": "4 jīchǔ 名; 基础 là phần kiến thức/kỹ năng làm nền; dùng 打好基础. Nhận diện chữ 础 trong 基础; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l441-v-1323",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1323"
+        },
+        "written": "积极",
+        "pinyin": "jījí",
+        "senseId": "l441-v-1323-sense",
+        "ordinal": 1323,
+        "note": "4 jījí 形; 积极 nói thái độ chủ động tham gia; không chỉ cảm giác vui vẻ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l441-v-1324",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1324"
+        },
+        "written": "积累",
+        "pinyin": "jīlěi",
+        "senseId": "l441-v-1324-sense",
+        "ordinal": 1324,
+        "note": "4 jīlěi 动; 积累 thường đi với 经验、知识; cần quá trình chứ không chỉ đọc một lần. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l441-v-1332",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 112,
+          "physicalPage": 113,
+          "printedPage": 110,
+          "section": "vocabulary",
+          "entry": "ordinal 1332"
+        },
+        "written": "继续",
+        "pinyin": "jìxù",
+        "senseId": "l441-v-1332-sense",
+        "ordinal": 1332,
+        "note": "4 jìxù 动; 继续 nối hoạt động đã bắt đầu; không nhất thiết làm lại từ đầu như 重新. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-125",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "125"
+        },
+        "written": "基",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 125,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-36",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "36"
+        },
+        "written": "础",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 36,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-124",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "124"
+        },
+        "written": "积",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 124,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-135",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "135"
+        },
+        "written": "继",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 135,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-364",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "364"
+        },
+        "written": "续",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 364,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-441",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 396,
+          "physicalPage": 397,
+          "printedPage": 394,
+          "section": "grammar",
+          "entry": "首先……，其次……"
+        },
+        "written": "首先",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l441-c0",
+      "version": 1,
+      "senseId": "l441-v-1319-sense",
+      "hanzi": "基本",
+      "dictionaryPinyin": "jī běn",
+      "meaning": "cơ bản",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l441-v-1319"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l441-c1",
+      "version": 1,
+      "senseId": "l441-v-1320-sense",
+      "hanzi": "基本上",
+      "dictionaryPinyin": "jī běn shàng",
+      "meaning": "về cơ bản",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l441-v-1320"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l441-c2",
+      "version": 1,
+      "senseId": "l441-v-1321-sense",
+      "hanzi": "基础",
+      "dictionaryPinyin": "jī chǔ",
+      "meaning": "nền tảng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l441-v-1321"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l441-c3",
+      "version": 1,
+      "senseId": "l441-v-1323-sense",
+      "hanzi": "积极",
+      "dictionaryPinyin": "jī jí",
+      "meaning": "tích cực",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l441-v-1323"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l441-c4",
+      "version": 1,
+      "senseId": "l441-v-1324-sense",
+      "hanzi": "积累",
+      "dictionaryPinyin": "jī lěi",
+      "meaning": "tích lũy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l441-v-1324"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l441-c5",
+      "version": 1,
+      "senseId": "l441-v-1332-sense",
+      "hanzi": "继续",
+      "dictionaryPinyin": "jì xù",
+      "meaning": "tiếp tục",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l441-v-1332"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l441-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 讨论 tǎolùn: thảo luận; 交流 jiāoliú: giao lưu; 经验 jīngyàn: kinh nghiệm; 顺 shùn: suôn sẻ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l441-t0",
+      "type": "teaching",
+      "title": "基本 · cơ bản",
+      "text": "基本 bổ nghĩa danh từ, như 基本方法; không tự mang nghĩa đã thành thạo.",
+      "hanzi": "先学习基本方法。",
+      "pinyin": "Xiān xuéxí jīběn fāngfǎ.",
+      "meaning": "Hãy học phương pháp cơ bản trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l441-t1",
+      "type": "teaching",
+      "title": "基本上 · về cơ bản",
+      "text": "基本上 là phó từ nghĩa nhìn chung/gần như, vẫn có thể còn ngoại lệ.",
+      "hanzi": "这些词我基本上都认识。",
+      "pinyin": "Zhèxiē cí wǒ jīběnshàng dōu rènshi.",
+      "meaning": "Về cơ bản tôi nhận ra những từ này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l441-t2",
+      "type": "teaching",
+      "title": "基础 · nền tảng",
+      "text": "基础 là phần kiến thức/kỹ năng làm nền; dùng 打好基础. Nhận diện chữ 础 trong 基础; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "我们要打好基础。",
+      "pinyin": "Wǒmen yào dǎ hǎo jīchǔ.",
+      "meaning": "Chúng ta cần xây nền tảng tốt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l441-t3",
+      "type": "teaching",
+      "title": "积极 · tích cực",
+      "text": "积极 nói thái độ chủ động tham gia; không chỉ cảm giác vui vẻ.",
+      "hanzi": "她积极参加讨论。",
+      "pinyin": "Tā jījí cānjiā tǎolùn.",
+      "meaning": "Cô ấy tích cực tham gia thảo luận.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l441-t4",
+      "type": "teaching",
+      "title": "积累 · tích lũy",
+      "text": "积累 thường đi với 经验、知识; cần quá trình chứ không chỉ đọc một lần.",
+      "hanzi": "每天阅读可以积累词语。",
+      "pinyin": "Měi tiān yuèdú kěyǐ jīlěi cíyǔ.",
+      "meaning": "Đọc hằng ngày giúp tích lũy từ ngữ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l441-t5",
+      "type": "teaching",
+      "title": "继续 · tiếp tục",
+      "text": "继续 nối hoạt động đã bắt đầu; không nhất thiết làm lại từ đầu như 重新.",
+      "hanzi": "休息以后继续练习。",
+      "pinyin": "Xiūxi yǐhòu jìxù liànxí.",
+      "meaning": "Nghỉ xong tiếp tục luyện tập.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l441-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "首先 nêu việc đầu tiên, 其次 nêu ý/việc tiếp theo trong trình bày có thứ tự. Chúng không tự khẳng định quan hệ nguyên nhân. Ví dụ 首先打好基础，其次积累经验. Bài luyện giữ hai bước này theo thứ tự.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l441-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小安学中文三个月了，基本上认识课本里的词，却不敢参加讨论。老师建议：“首先打好基础，其次积累交流经验。”小安先复习基本方法，再积极参加小组讨论。第一次说得不太顺，他休息以后继续练习。",
+      "pinyin": "Xiǎo Ān xué Zhōngwén sān ge yuè le, jīběnshàng rènshi kèběn lǐ de cí, què bù gǎn cānjiā tǎolùn. Lǎoshī jiànyì: “Shǒuxiān dǎ hǎo jīchǔ, qícì jīlěi jiāoliú jīngyàn.” Xiǎo Ān xiān fùxí jīběn fāngfǎ, zài jījí cānjiā xiǎozǔ tǎolùn. Dì yī cì shuō de bú tài shùn, tā xiūxi yǐhòu jìxù liànxí.",
+      "meaning": "An nhận mặt nhiều từ nhưng ngại thảo luận. Thầy khuyên xây nền trước, rồi tích lũy kinh nghiệm giao tiếp. Cậu ôn phương pháp và tham gia nhóm, tiếp tục luyện dù lần đầu chưa trôi chảy.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l441-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l441-v1-e0"
+    },
+    {
+      "id": "l441-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l441-v1-e1"
+    },
+    {
+      "id": "l441-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l441-v1-e2"
+    },
+    {
+      "id": "l441-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l441-v1-e3"
+    },
+    {
+      "id": "l441-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l441-v1-e4"
+    },
+    {
+      "id": "l441-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l441-v1-e5"
+    },
+    {
+      "id": "l441-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l441-v1-e6"
+    },
+    {
+      "id": "l441-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l441-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l441-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l441-c0",
+      "senseId": "l441-v-1319-sense",
+      "keyRef": "l441-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “cơ bản” để điền câu: 先学习□方法。",
+      "choices": [
+        "基本上",
+        "基础",
+        "积极",
+        "积累",
+        "继续",
+        "基本"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l441-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l441-c1",
+      "senseId": "l441-v-1320-sense",
+      "keyRef": "l441-v1-k1",
+      "prompt": "Ghi pinyin của 基本上 trong câu “这些词我基本上都认识。”, theo nghĩa “về cơ bản”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l441-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l441-c2",
+      "senseId": "l441-v-1321-sense",
+      "keyRef": "l441-v1-k2",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “nền tảng”: 基□ (jī chǔ). Ngữ cảnh: 我们要打好□。",
+      "choices": [
+        "硬",
+        "础",
+        "拙",
+        "确"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l441-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l441-c3",
+      "senseId": "l441-v-1323-sense",
+      "keyRef": "l441-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “tích cực” để điền câu: 她□参加讨论。",
+      "choices": [
+        "积累",
+        "继续",
+        "基本",
+        "基本上",
+        "基础",
+        "积极"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l441-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l441-c4",
+      "senseId": "l441-v-1324-sense",
+      "keyRef": "l441-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “tích lũy” để điền câu: 每天阅读可以□词语。",
+      "choices": [
+        "继续",
+        "基本",
+        "基本上",
+        "基础",
+        "积极",
+        "积累"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l441-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l441-c5",
+      "senseId": "l441-v-1332-sense",
+      "keyRef": "l441-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “tiếp tục”: 休息以后□练习。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l441-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l441-c0",
+      "senseId": "l441-v-1319-sense",
+      "keyRef": "l441-v1-k6",
+      "prompt": "老师建议先做什么？",
+      "choices": [
+        "马上放弃课本。",
+        "只背答案。",
+        "打好基础。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l441-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l441-c3",
+      "senseId": "l441-v-1323-sense",
+      "keyRef": "l441-v1-k7",
+      "prompt": "Sắp xếp các cụm theo cấu trúc vừa học; giữ nguyên cụm, không thêm/bớt từ.",
+      "choices": [
+        "首先打好基础，",
+        "其次",
+        "积累交流经验。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l441-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l441-v1-e0",
+      "senseId": "l441-v-1319-sense",
+      "accepted": [
+        "基本"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "基本: cơ bản. 基本 bổ nghĩa danh từ, như 基本方法; không tự mang nghĩa đã thành thạo. Hãy học phương pháp cơ bản trước."
+    },
+    {
+      "id": "l441-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l441-v1-e1",
+      "senseId": "l441-v-1320-sense",
+      "accepted": [
+        "jī běn shàng"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc jī běn shàng. 基本上 là phó từ nghĩa nhìn chung/gần như, vẫn có thể còn ngoại lệ."
+    },
+    {
+      "id": "l441-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l441-v1-e2",
+      "senseId": "l441-v-1321-sense",
+      "accepted": [
+        "础"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 础 tạo từ 基础. 基础 là phần kiến thức/kỹ năng làm nền; dùng 打好基础. Nhận diện chữ 础 trong 基础; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l441-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l441-v1-e3",
+      "senseId": "l441-v-1323-sense",
+      "accepted": [
+        "积极"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "积极: tích cực. 积极 nói thái độ chủ động tham gia; không chỉ cảm giác vui vẻ. Cô ấy tích cực tham gia thảo luận."
+    },
+    {
+      "id": "l441-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l441-v1-e4",
+      "senseId": "l441-v-1324-sense",
+      "accepted": [
+        "积累"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "积累: tích lũy. 积累 thường đi với 经验、知识; cần quá trình chứ không chỉ đọc một lần. Đọc hằng ngày giúp tích lũy từ ngữ."
+    },
+    {
+      "id": "l441-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l441-v1-e5",
+      "senseId": "l441-v-1332-sense",
+      "accepted": [
+        "继续"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 继续. 继续 nối hoạt động đã bắt đầu; không nhất thiết làm lại từ đầu như 重新. Nghỉ xong tiếp tục luyện tập."
+    },
+    {
+      "id": "l441-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l441-v1-e6",
+      "senseId": "l441-v-1319-sense",
+      "accepted": [
+        "打好基础。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 打好基础。. An nhận mặt nhiều từ nhưng ngại thảo luận. Thầy khuyên xây nền trước, rồi tích lũy kinh nghiệm giao tiếp. Cậu ôn phương pháp và tham gia nhóm, tiếp tục luyện dù lần đầu chưa trôi chảy."
+    },
+    {
+      "id": "l441-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l441-v1-e7",
+      "senseId": "l441-v-1323-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 首先 nêu việc đầu tiên, 其次 nêu ý/việc tiếp theo trong trình bày có thứ tự. Chúng không tự khẳng định quan hệ nguyên nhân. Ví dụ 首先打好基础，其次积累经验. Bài luyện giữ hai bước này theo thứ tự."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "checkedAt": "2026-10-18T14:55:15.856Z",
+  "requestedBase": "9f32d8aa9ccde073031e8a63ac420f2dd96dfcd4",
+  "actualBase": "71e59cb5e93d11de9fe9d355a5a2e0aaa9dce51f",
+  "branch": "feat/v1-pronunciation-pilot",
+  "sourceMain": "0dc42253180ef38d1c43f1f87c9f0f675a851341",
+  "status": "SPRINT9_PARTIAL_HARDWARE_PENDING",
+  "hardware": {
+    "windows": "NOT_TESTED",
+    "android": "NOT_TESTED",
+    "phoneticAccuracy": "UNVERIFIED",
+    "ownerAudioCollected": false,
+    "adb": {
+      "found": true,
+      "readyDevices": 0,
+      "pendingDevices": 0,
+      "reverseRun": false
+    },
+    "ownerTrialAfterCutoff": {
+      "outcome": "OWNER_REPORTED_FAIL",
+      "platform": "UNCONFIRMED",
+      "browser": "UNCONFIRMED",
+      "microphone": "UNCONFIRMED",
+      "originalAndSelectedPlayback": "HEAVY_NOISE",
+      "graph": "OWNER_REPORTED_MISMATCH",
+      "analysisFilterOption": "UNKNOWN",
+      "rawAudioReceived": false
+    }
+  },
+  "syntheticAndPipeline": {
+    "generatedSourceOnly": true,
+    "realMediaRecorderOpusDecodeWorker": true,
+    "hardwareEvidence": false
+  },
+  "checks": {
+    "unit": {
+      "tests": 80,
+      "failures": 0,
+      "report": {
+        "file": ".local-postgres/sprint9/unit.xml",
+        "sha256": "e69427d62fad36db4f8b27c7e703004a37e934e2be4af3ad35096c0cc2bec69e"
+      }
+    },
+    "postgresql": {
+      "tests": 41,
+      "status": "PASS",
+      "report": {
+        "file": ".local-postgres/db-tests.xml",
+        "sha256": "765b72b8c4e09444667dc281c138c2d3d7aabcdea927758bb32848b53f311366"
+      },
+      "log": {
+        "file": ".local-postgres/sprint9/database.log",
+        "sha256": "808f8f4b87427c7024bd56f0b66917f7c71575d46e8f0a99551ee047936ee135"
+      }
+    },
+    "browserCases": [
+      {
+        "exitCode": 0,
+        "name": "demo-production",
+        "config": "playwright.persistence-demo.config.ts",
+        "report": {
+          "file": ".local-postgres/sprint9/demo-production-final.xml",
+          "sha256": "d58d6bb59b6e20a7ea0c3d1a67d2cb97ab7d63d6aad65c6f5ca4da0a8e6cfbad"
+        },
+        "log": ".local-postgres/sprint9/demo-production-final.log",
+        "tests": 22,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "initialReport": {
+          "file": ".local-postgres/sprint9/demo-production.xml",
+          "sha256": "4afdee07a2f6a7232c7d41e1919bae9e757443f6633471dadd66368d5453a2af"
+        },
+        "initialLog": ".local-postgres/sprint9/demo-production.log",
+        "revalidatedAfterFinalBuild": true
+      },
+      {
+        "exitCode": 0,
+        "name": "local-persistence",
+        "config": "playwright.local.config.ts",
+        "report": {
+          "file": ".local-postgres/sprint9/local-persistence.xml",
+          "sha256": "67eb68bbcfd113d2934f5deccd622f0f49d2528898f90b971a461b09829566de"
+        },
+        "log": ".local-postgres/sprint9/local-persistence.log",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "exitCode": 0,
+        "name": "learning",
+        "config": "playwright.learning.config.ts",
+        "report": {
+          "file": ".local-postgres/sprint9/learning.xml",
+          "sha256": "6a63e9865118afcfad578f0aaa3eb91554a167e792e4f6445793d3f1388a9a30"
+        },
+        "log": ".local-postgres/sprint9/learning.log",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "exitCode": 0,
+        "name": "content",
+        "config": "playwright.content.config.ts",
+        "report": {
+          "file": ".local-postgres/sprint9/content.xml",
+          "sha256": "ecf27ca62b2a3d8ea7f17868a8953d0be799eaf1810f80e619c0af0aef90707b"
+        },
+        "log": ".local-postgres/sprint9/content.log",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "exitCode": 0,
+        "name": "sprint5-desktop",
+        "config": "playwright.sprint5.config.ts",
+        "report": {
+          "file": ".local-postgres/sprint9/sprint5-desktop.xml",
+          "sha256": "9ccd0599c93fc9ea78ce1ff5ffb6619e247c438c35560151f528ff5cd7891e8b"
+        },
+        "log": ".local-postgres/sprint9/sprint5-desktop.log",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "exitCode": 0,
+        "name": "sprint5-mobile",
+        "config": "playwright.sprint5.config.ts",
+        "report": {
+          "file": ".local-postgres/sprint9/sprint5-mobile.xml",
+          "sha256": "2829ec195022831b5afd0aa30cea1a99ed9b355cf0e7826ddb127abafcca16fd"
+        },
+        "log": ".local-postgres/sprint9/sprint5-mobile.log",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "exitCode": 0,
+        "name": "sprint6-desktop",
+        "config": "playwright.sprint6.config.ts",
+        "report": {
+          "file": ".local-postgres/sprint9/sprint6-desktop.xml",
+          "sha256": "7728c927ae928938606813ce95355ec7db98f79b0632dd64649e628635ceedc6"
+        },
+        "log": ".local-postgres/sprint9/sprint6-desktop.log",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "exitCode": 0,
+        "name": "sprint6-mobile",
+        "config": "playwright.sprint6.config.ts",
+        "report": {
+          "file": ".local-postgres/sprint9/sprint6-mobile.xml",
+          "sha256": "65ef6c3ec56685dc7e93ac299709fb868a9c09b53fd5364165db10eea799a1d1"
+        },
+        "log": ".local-postgres/sprint9/sprint6-mobile.log",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "exitCode": 0,
+        "name": "sprint7-desktop",
+        "config": "playwright.sprint7.config.ts",
+        "report": {
+          "file": ".local-postgres/sprint9/sprint7-desktop.xml",
+          "sha256": "c09d81268511a1c303aceb8b2d66bf3b0ab66c3f199a515db4c0a03534242e8c"
+        },
+        "log": ".local-postgres/sprint9/sprint7-desktop.log",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "exitCode": 0,
+        "name": "sprint7-mobile",
+        "config": "playwright.sprint7.config.ts",
+        "report": {
+          "file": ".local-postgres/sprint9/sprint7-mobile.xml",
+          "sha256": "a52a1bf33cdde2cd7562ca6fa64d875a7068cf54f33775ce940fbafbc563fd05"
+        },
+        "log": ".local-postgres/sprint9/sprint7-mobile.log",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "exitCode": 0,
+        "name": "sprint8",
+        "config": "playwright.sprint8.config.ts",
+        "report": {
+          "file": ".local-postgres/sprint9/sprint8.xml",
+          "sha256": "6f4554a5d33ab5647d05555873da5694789fd436df6ef8c267ef1172fad084c1"
+        },
+        "log": ".local-postgres/sprint9/sprint8.log",
+        "tests": 18,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "exitCode": 0,
+        "name": "sprint9",
+        "config": "playwright.sprint9.config.ts",
+        "report": {
+          "file": ".local-postgres/sprint9/sprint9.xml",
+          "sha256": "94d64a89902899d4b3703ffdc6eadbc9c8ec25dfa6f53d2da3b1e6ee322edf5f"
+        },
+        "log": ".local-postgres/sprint9/sprint9.log",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "browserTotal": 78,
+    "browserAllPass": true,
+    "lint": {
+      "file": ".local-postgres/sprint9/lint.log",
+      "sha256": "d2246b046ac72a5146dfff03bb52c140232287592ad9a829a65c8e5759484d55"
+    },
+    "typecheck": {
+      "file": ".local-postgres/sprint9/typecheck.log",
+      "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914"
+    },
+    "format": {
+      "file": ".local-postgres/sprint9/format.log",
+      "sha256": "3443897b7d89155994e838066b1553e02a1cdc22ecfb4ebbc740e4b2b38c3555"
+    },
+    "build": {
+      "file": ".local-postgres/sprint9/build.log",
+      "sha256": "dd9803110861cfc6e98608103b3f792a96855e6c6452c0df3303eb62d0907fe5"
+    },
+    "databasePreservation": {
+      "file": ".local-postgres/sprint9/preservation-after.log",
+      "sha256": "03bba912f54b4f5183c6cdf9f4a5cb0d70a8158a3eface1a7b7f0b9ef3567e5c"
+    }
+  },
+  "preservation": {
+    "notes": 31,
+    "illustrations": 26,
+    "currentBaseline26Tables": true,
+    "unchangedSources": [
+      {
+        "file": "content/pronunciation/release.v1.json",
+        "sha256NormalizedLF": "97dfe6caabb218e389595c36569c1f66ecd1c0dde5a9ab4989abe7241f5dfb5a",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "content/pronunciation/release-pin.json",
+        "sha256NormalizedLF": "884d0406edf4e01d3c8d1de295f788b00398ebc4c1969dd1da3dea59dbd36af7",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "src/modules/pronunciation/domain/acoustic-engine.ts",
+        "sha256NormalizedLF": "4396114cf2a5c87c340789e60f2c7d4d70afed850119ad042044e40e95db4efd",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "src/modules/pronunciation/domain/acoustic-types.ts",
+        "sha256NormalizedLF": "cbbabdf871e83f499646e37703b4a3a445e646b9bd4d1f0fc57a244c0a832c9b",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "src/modules/pronunciation/domain/pitch-conditioning.ts",
+        "sha256NormalizedLF": "1a5bf31a3007cc4b5bb3824b59d1f691a60f04feb09a761c35e5ff6207609809",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "src/modules/pronunciation/domain/noise-reduction.ts",
+        "sha256NormalizedLF": "3d2c811ec8c0a1648a0b461b354caf276fc52bcc8af68b41f67559cca80f846a",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "src/modules/pronunciation/domain/utterance-playback.ts",
+        "sha256NormalizedLF": "6ba33962896ba405d957e6e256bfae0d281ee5785b1ab8a2d77d20ab7488b1f2",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "src/modules/pronunciation/application/acoustic-worker.ts",
+        "sha256NormalizedLF": "dff5a6485780c9ed142915fa1d93a4167efe6ade1e7a55772f5496fcd9b5ebb6",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "src/modules/pronunciation/application/analyze-recording.ts",
+        "sha256NormalizedLF": "c3e80f0d65d38badfd4dee1e62386930ac41242e39a465fc46be0be99467672e",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "src/modules/pronunciation/application/acoustic-session.ts",
+        "sha256NormalizedLF": "96a7233ffe5593435bb60e69c09f269cad524607f33d7b61a1bbd92802f3686c",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "src/modules/pronunciation/ui/articulation-guide.tsx",
+        "sha256NormalizedLF": "33b1322a69c613e36bb4e250b5ab153b90c0b6940064461bd2fd7c502c1a9894",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "src/modules/pronunciation/ui/pitch-chart.tsx",
+        "sha256NormalizedLF": "1184fa0917dadcdae64389b8bb7425a249ac8cf015ba096433ee0aa6e2231d22",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "package-lock.json",
+        "sha256NormalizedLF": "35424acc5dca91fecb9101b8f62974142bc2ecd2502c33759cb940582ffc4520",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "docs/master-plan/master-plan-v1.1.md",
+        "sha256NormalizedLF": "0984cfc38e4b91c5ed214c8e6003434536d9904072164f28f4e0ffd48c8bf47e",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "docs/master-plan/task-status.json",
+        "sha256NormalizedLF": "9b86effd184577ed7f99fd3efa7c3a6a0c1e0232ec641709622d9465bfbadca6",
+        "unchangedFromActualBase": true
+      },
+      {
+        "file": "docs/master-plan/source-manifest.json",
+        "sha256NormalizedLF": "09164bc3939f45f47386401ebc7fe97e39029e95dc7c4c21a195ee105be02b72",
+        "unchangedFromActualBase": true
+      }
+    ]
+  },
+  "changedSourceHashConvention": "UTF8 normalized LF, evidence self hash excluded",
+  "sourceFiles": [
+    {
+      "file": "README.md",
+      "sha256": "4470ee6b94bedc36043d9800b201f0a60e7e55ead7fa82e43c6117034f832879"
+    },
+    {
+      "file": "package.json",
+      "sha256": "d31fddff0d36e33e30e6f99fb7ed246d80aef030d12bf7769a90c002e93ef332"
+    },
+    {
+      "file": "src/app/learn/pronunciation/page.tsx",
+      "sha256": "8aa890d72e26b2d42caef44e2d28aa9431f0c3b21ba3d35f963e8f9431c6e598"
+    },
+    {
+      "file": "src/modules/pronunciation/application/practice-recorder.ts",
+      "sha256": "89a6837e48de92c9273bc0e2bd4ef89cdeb37bebee54972531bdba77763b5449"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/tone-feedback.ts",
+      "sha256": "3f4cd29b8b3c83741f5a0fee90729208ac5b982b62c1b7970d8a98034471a9c9"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/acoustic-practice.tsx",
+      "sha256": "5db46aebe141594bec2e87bc5f0a5aac52df66355cf43a077463597d75774362"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/coach.tsx",
+      "sha256": "b8e62a5b6595e56e631b47a6115f1985853d39b71b942bd26aae759ab3fab8e8"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/practice-recorder.tsx",
+      "sha256": "49cac957f4df08bfb1a5571f472d2ea7ef65659b9517f874c986a625d020cf32"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/pronunciation.css",
+      "sha256": "a593ff06862ca57cc497ac1bb5654c15784602c46bd30d80baac4ee585072fab"
+    },
+    {
+      "file": "tests/unit/practice-recorder.test.ts",
+      "sha256": "45e087bb40583cf311a7585712868335039158f8797e52d48d4040631ba2e64c"
+    },
+    {
+      "file": "docs/sprint9/manual-pilot.md",
+      "sha256": "f7f71da226f9d07e03fc4c6e0de5a59f49510d35a09182c0f5c003e4afbceafd"
+    },
+    {
+      "file": "docs/sprint9/reliability-audit.md",
+      "sha256": "b06492688749f901651ec5c16d66ed12863a268295fd6d1c9725558ba243ffed"
+    },
+    {
+      "file": "docs/sprint9/verification.md",
+      "sha256": "ec52c7877242a1d8915738a293488201b9e744c3ed7c252e3578420d09c7160a"
+    },
+    {
+      "file": "playwright.sprint9.config.ts",
+      "sha256": "39abdb63b18a905fde5394d17d0af2209be780689af6c4739bc1e8d42cf5a87f"
+    },
+    {
+      "file": "src/modules/pronunciation/application/input-monitor.ts",
+      "sha256": "399ea935dfc53b7b09e95412fc7189d49e852d86585c191f1ca5f6bf879e0d81"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/compare-attempts.ts",
+      "sha256": "4da5963ea17f2a6dc87b20b705fb70d83f86a4afd785d9d646f2e1ae1f0933eb"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/pilot.ts",
+      "sha256": "992979a237223f27b3465cdc9f79d9ad7f54bbd049bb07af25eacf5a8ec3b806"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/pilot-context.tsx",
+      "sha256": "7dd667ea960e62f8fbcb147b7a98e9fab52c8445d457d12dc6f221a17b1d412b"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/pilot-panel.tsx",
+      "sha256": "8d125d919e86d367dc0671b35b57981c853a87eacdb56ec1dc60edb52b69d4be"
+    },
+    {
+      "file": "tests/sprint9-browser/pilot.spec.ts",
+      "sha256": "716d35d7c55e58af4e5a81e4f2896d95687a1826f0de106e1d097d1c544fd8f2"
+    },
+    {
+      "file": "tests/unit/pilot.test.ts",
+      "sha256": "dd707e0a68ad3523c9c722b3b813896b4aa5cc68caa39513871657d5b297ebad"
+    }
+  ],
+  "developmentHistory": {
+    "productionRevalidation": {
+      "firstFailure": {
+        "tests": 22,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0,
+        "report": {
+          "file": ".local-postgres/sprint9/demo-production-final-first-failed.xml",
+          "sha256": "7587550fea4aace136821e5032b4b41ce89a96808202440b4bb30cf354c98acf"
+        }
+      },
+      "log": {
+        "file": ".local-postgres/sprint9/demo-production-final-first-failed.log",
+        "sha256": "2bb72554308fa5073d6ddee65df8c5227eb6c57aa54741cc4f182f0ffa7b8971"
+      },
+      "context": {
+        "file": ".local-postgres/sprint9/production-browser-close-context.md",
+        "sha256": "114e211cd614b97e88d4c3561c0de17753e67d738a20b015ab9b655ae7badfd9"
+      },
+      "rootCause": "UNKNOWN: Chromium closed during the mobile onboarding screenshot; no app source change before the explicit rerun"
+    },
+    "selectorFix": "Initial pilot test used label-text lookup for wrapped selects; switched to actual accessible combobox roles. Not a microphone or engine bug.",
+    "log": {
+      "file": ".local-postgres/sprint9/browser-selector-development.log",
+      "sha256": "a5caecae0c6b1b95898c9f47d24d1280340828c297f7f50a920afeda164d66c1"
+    },
+    "safetyFix": "Meter cleanup errors cannot prevent physical tracks from being stopped; dedicated failure-path unit added."
+  },
+  "limits": [
+    "No hardware PASS without owner trial",
+    "No ASR/LLM or phonetic calibration",
+    "Original owner feedback is historical; no new raw voice obtained",
+    "No audio upload/persistent storage or score/mastery/FSRS/planner changes",
+    "No canonical status, Engineering Loop, PR #5/#6, cloud, paid service, push/merge/deploy changes"
+  ],
+  "evidenceCutoffCommit": "69e1d8b065d2bfc1e3d8d53cc1b1b88b35d521aa",
+  "currentFollowupEvidence": "docs/sprint9/noise-followup-evidence.json"
+}

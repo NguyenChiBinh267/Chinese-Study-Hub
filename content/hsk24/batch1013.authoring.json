@@ -1,0 +1,907 @@
+{
+  "batch": "HSK1-batch13",
+  "targetLevel": 1,
+  "sourceCheckedAt": "2026-10-30T15:27:25.806090Z",
+  "lessons": [
+    {
+      "id": "L161",
+      "unit": "hsk-one-bd",
+      "unitTitle": "Số lượng và phương tiện",
+      "title": "Hỏi số lượng ít và nhiều",
+      "objective": "Hỏi số lượng ít và nhiều; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-161",
+        "几",
+        385,
+        "g-385-8",
+        "几 thường hỏi số lượng nhỏ/được hình dung là không lớn; 多少 có phạm vi rộng hơn, không dùng một ranh10 tuyệt đối cho mọi câu. 两 thường đứng trước lượng từ như 两本书; 二 dùng trong chuỗi đếm/nhãn số đã học. 多/少 tả nhiều/ít theo ngữ cảnh, không phải số đếm cụ thể."
+      ],
+      "task": [
+        "h1-task-thing",
+        "问答物品信息",
+        4,
+        "三"
+      ],
+      "topic": [
+        "h1-topic-b411fd04a9b3",
+        "物品名称",
+        58,
+        "物品名称"
+      ],
+      "words": [
+        [
+          "多",
+          "duō",
+          "nhiều",
+          "多 trong 很多 tả số lượng nhiều; câu không cho biết chính xác bao nhiêu.",
+          "我的书很多。",
+          "Wǒ de shū hěn duō.",
+          "Sách của tôi nhiều."
+        ],
+        [
+          "少",
+          "shǎo",
+          "ít",
+          "少 trong 很少 tả ít theo ngữ cảnh; không tự bằng số0.",
+          "我的书很少。",
+          "Wǒ de shū hěn shǎo.",
+          "Sách của tôi ít."
+        ],
+        [
+          "几",
+          "jǐ",
+          "mấy; bao nhiêu (dạng jǐ)",
+          "几 trong 几本书 hỏi số lượng; đề nêu âm để phân biệt với 多少.",
+          "你有几本书？",
+          "Nǐ yǒu jǐ běn shū?",
+          "Bạn có mấy quyển sách?"
+        ],
+        [
+          "两1",
+          "liǎng",
+          "hai (dạng liǎng trước lượng từ)",
+          "两 trong 两本书 là hai; không thay mọi cách viết số二 trên lịch hay chuỗi đếm bằng 两.",
+          "我有两本书。",
+          "Wǒ yǒu liǎng běn shū.",
+          "Tôi có hai quyển sách."
+        ]
+      ],
+      "passage": [
+        "A：你有几本书？\nB：我有两本书。你呢？\nA：我的书很多。",
+        "A: Nǐ yǒu jǐ běn shū? B: Wǒ yǒu liǎng běn shū. Nǐ ne? A: Wǒ de shū hěn duō.",
+        "B có hai quyển; A chỉ nói có nhiều, chưa cho một con số chính xác."
+      ],
+      "comprehension": [
+        "Ai nêu đúng số lượng hai quyển?",
+        [
+          "B",
+          "A",
+          "Cả hai đều nêu hai"
+        ],
+        "B",
+        "Theo đoạn: B. B có hai quyển; A chỉ nói có nhiều, chưa cho một con số chính xác."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "有",
+          "两本书。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc duō, nghĩa “nhiều”, trong câu: 我的书很□。",
+          "choices": [
+            "多",
+            "少",
+            "几",
+            "两"
+          ],
+          "accepted": [
+            "多"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc duō: 多. 多 trong 很多 tả số lượng nhiều; câu không cho biết chính xác bao nhiêu. Sách của tôi nhiều."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 少 (ít).",
+          "choices": [],
+          "accepted": [
+            "shǎo"
+          ],
+          "feedback": "少 ghi shǎo. 少 trong 很少 tả ít theo ngữ cảnh; không tự bằng số0."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "几",
+            "儿",
+            "九",
+            "凡"
+          ],
+          "accepted": [
+            "几"
+          ],
+          "feedback": "Chữ 几 tạo từ 几. 几 trong 几本书 hỏi số lượng; đề nêu âm để phân biệt với 多少. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc liǎng, nghĩa “hai (dạng liǎng trước lượng từ)”, trong câu: 我有□本书。",
+          "choices": [
+            "多",
+            "少",
+            "几",
+            "两"
+          ],
+          "accepted": [
+            "两"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc liǎng: 两. 两 trong 两本书 là hai; không thay mọi cách viết số二 trên lịch hay chuỗi đếm bằng 两. Tôi có hai quyển sách."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “你有几本书？”, 几 mang nghĩa nào theo bài?",
+          "choices": [
+            "nhiều",
+            "ít",
+            "mấy; bao nhiêu (dạng jǐ)",
+            "hai (dạng liǎng trước lượng từ)"
+          ],
+          "accepted": [
+            "mấy; bao nhiêu (dạng jǐ)"
+          ],
+          "feedback": "几 trong 几本书 hỏi số lượng; đề nêu âm để phân biệt với 多少. Bạn có mấy quyển sách?"
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我有两本书。”, 两 mang nghĩa nào theo bài?",
+          "choices": [
+            "nhiều",
+            "ít",
+            "mấy; bao nhiêu (dạng jǐ)",
+            "hai (dạng liǎng trước lượng từ)"
+          ],
+          "accepted": [
+            "hai (dạng liǎng trước lượng từ)"
+          ],
+          "feedback": "两 trong 两本书 là hai; không thay mọi cách viết số二 trên lịch hay chuỗi đếm bằng 两. Tôi có hai quyển sách."
+        }
+      ],
+      "characterTargets": [
+        "几"
+      ]
+    },
+    {
+      "id": "L162",
+      "unit": "hsk-one-bd",
+      "unitTitle": "Số lượng và phương tiện",
+      "title": "Từ số không đến nghìn",
+      "objective": "Từ số không đến nghìn; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-162",
+        "数词",
+        385,
+        "g-385-11",
+        "零=0, 百=100, 千=1000; 一百/一千 là một trăm/một nghìn, không phải lần lượt101/1001. 半 là nửa: 半小时 là nửa giờ, còn 三点半 là3giờ30 trong cách nói đồng hồ. Bài chỉ giới thiệu số/cụm, không suy số tiền thật của người học."
+      ],
+      "task": [
+        "h1-task-event",
+        "问答事件信息",
+        4,
+        "二"
+      ],
+      "topic": [
+        "h1-topic-f80c6b43ef6a",
+        "日期、时间、地点、方位、参加者、号码等",
+        58,
+        "日期、时间、地点、方位、参加者、号码等"
+      ],
+      "words": [
+        [
+          "零",
+          "líng",
+          "không; số0",
+          "零 là số0 khi đếm/đọc số; không dùng nó thay phủ định 不 trong mọi câu.",
+          "零、一、二。",
+          "Líng, yī, èr.",
+          "Không, một, hai."
+        ],
+        [
+          "百",
+          "bǎi",
+          "trăm",
+          "百 là trăm; 一百 là100, khác 十 là10.",
+          "一百元。",
+          "Yì bǎi yuán.",
+          "Một trăm nguyên trong ví dụ."
+        ],
+        [
+          "千",
+          "qiān",
+          "nghìn",
+          "千 là nghìn; 一千 là1000, không thêm 万 chưa học ở bài này.",
+          "一千元。",
+          "Yì qiān yuán.",
+          "Một nghìn nguyên trong ví dụ."
+        ],
+        [
+          "半",
+          "bàn",
+          "nửa (dạng một chữ)",
+          "半 đứng trước đơn vị ở 半小时; không thay mọi danh từ một nửa bằng cùng một cấu trúc này.",
+          "半小时。",
+          "Bàn xiǎo shí.",
+          "Nửa giờ."
+        ]
+      ],
+      "passage": [
+        "A：这本书一百元吗？\nB：不是，是十元。\nA：好，我有十元。",
+        "A: Zhè běn shū yì bǎi yuán ma? B: Bú shì, shì shí yuán. A: Hǎo, wǒ yǒu shí yuán.",
+        "Giá hư cấu được B sửa từ100 xuống10nguyên. Đọc phủ định để không giữ con số trong câu hỏi làm sự thật."
+      ],
+      "comprehension": [
+        "B xác nhận giá bao nhiêu?",
+        [
+          "十元",
+          "一百元",
+          "一千元"
+        ],
+        "十元",
+        "Theo đoạn: 十元. Giá hư cấu được B sửa từ100 xuống10nguyên. Đọc phủ định để không giữ con số trong câu hỏi làm sự thật."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "有",
+          "一百元。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "零",
+            "雪",
+            "雷",
+            "霜"
+          ],
+          "accepted": [
+            "零"
+          ],
+          "feedback": "Chữ 零 tạo từ 零. 零 là số0 khi đếm/đọc số; không dùng nó thay phủ định 不 trong mọi câu. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 百 (trăm).",
+          "choices": [],
+          "accepted": [
+            "bǎi"
+          ],
+          "feedback": "百 ghi bǎi. 百 là trăm; 一百 là100, khác 十 là10."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc qiān, nghĩa “nghìn”: 一□元。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "千"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc qiān: 千. 千 là nghìn; 一千 là1000, không thêm 万 chưa học ở bài này. Một nghìn nguyên trong ví dụ."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc bàn, nghĩa “nửa (dạng một chữ)”, trong câu: □小时。",
+          "choices": [
+            "零",
+            "百",
+            "千",
+            "半"
+          ],
+          "accepted": [
+            "半"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc bàn: 半. 半 đứng trước đơn vị ở 半小时; không thay mọi danh từ một nửa bằng cùng một cấu trúc này. Nửa giờ."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “一千元。”, 千 mang nghĩa nào theo bài?",
+          "choices": [
+            "không; số0",
+            "trăm",
+            "nghìn",
+            "nửa (dạng một chữ)"
+          ],
+          "accepted": [
+            "nghìn"
+          ],
+          "feedback": "千 là nghìn; 一千 là1000, không thêm 万 chưa học ở bài này. Một nghìn nguyên trong ví dụ."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “半小时。”, 半 mang nghĩa nào theo bài?",
+          "choices": [
+            "không; số0",
+            "trăm",
+            "nghìn",
+            "nửa (dạng một chữ)"
+          ],
+          "accepted": [
+            "nửa (dạng một chữ)"
+          ],
+          "feedback": "半 đứng trước đơn vị ở 半小时; không thay mọi danh từ một nửa bằng cùng một cấu trúc này. Nửa giờ."
+        }
+      ],
+      "characterTargets": [
+        "零"
+      ]
+    },
+    {
+      "id": "L163",
+      "unit": "hsk-one-bd",
+      "unitTitle": "Số lượng và phương tiện",
+      "title": "Một phần và một ít",
+      "objective": "Một phần và một ít; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-163",
+        "数量短语",
+        386,
+        "g-386-5",
+        "一半 là một nửa của một lượng/nhóm đã nêu. 一点儿 và 一些 nói một ít/một số, không ấn định số chính xác; 一点儿 nhấn lượng nhỏ trong ví dụ. 有些 + danh từ nói một số đối tượng. Các từ gần nghĩa có chỗ giao nhau nên câu từ vựng nêu rõ âm của mục được hỏi."
+      ],
+      "task": [
+        "h1-task-thing",
+        "问答物品信息",
+        4,
+        "三"
+      ],
+      "topic": [
+        "h1-topic-b411fd04a9b3",
+        "物品名称",
+        58,
+        "物品名称"
+      ],
+      "words": [
+        [
+          "一半",
+          "yí bàn",
+          "một nửa",
+          "一半 là một nửa của toàn thể đang nói; không tự xác định toàn thể có bao nhiêu phần tử.",
+          "这些苹果，一半是我的。",
+          "Zhè xiē píng guǒ, yí bàn shì wǒ de.",
+          "Những quả táo này, một nửa là của tôi."
+        ],
+        [
+          "一点儿",
+          "yì diǎnr",
+          "một ít; một chút (dạng yìdiǎnr)",
+          "一点儿 ở ví dụ là lượng nước nhỏ; giữ hóa r khi hỏi đúng mục nguồn.",
+          "我想喝一点儿水。",
+          "Wǒ xiǎng hē yì diǎnr shuǐ.",
+          "Tôi muốn uống một chút nước."
+        ],
+        [
+          "一些",
+          "yì xiē",
+          "một số; một ít (dạng yìxiē)",
+          "一些 thường đi với danh từ; không coi nó là một con số chính xác.",
+          "我有一些书。",
+          "Wǒ yǒu yì xiē shū.",
+          "Tôi có một số sách."
+        ],
+        [
+          "有些",
+          "yǒu xiē",
+          "một số (dạng yǒuxiē trong mẫu danh từ)",
+          "有些 trong 有些书 chỉ một số sách; bài chưa khái quát mọi cách dùng mức độ của từ này.",
+          "有些书是新的。",
+          "Yǒu xiē shū shì xīn de.",
+          "Một số sách là sách mới."
+        ]
+      ],
+      "passage": [
+        "A：这些苹果都是你的吗？\nB：不是，一半是我的，一半是我姐姐的。\nA：你有一些书吗？\nB：有。",
+        "A: Zhè xiē píng guǒ dōu shì nǐ de ma? B: Bú shì, yí bàn shì wǒ de, yí bàn shì wǒ jiě jie de. A: Nǐ yǒu yì xiē shū ma? B: Yǒu.",
+        "都 dōu = đều/tất cả, học mục riêng ở nhóm cuối. B nhận một nửa táo; nửa còn lại là của chị. Không nêu tổng số táo."
+      ],
+      "comprehension": [
+        "Phần táo B nhận là bao nhiêu?",
+        [
+          "一半",
+          "Tất cả",
+          "Không có quả nào"
+        ],
+        "一半",
+        "Theo đoạn: 一半. 都 dōu = đều/tất cả, học mục riêng ở nhóm cuối. B nhận một nửa táo; nửa còn lại là của chị. Không nêu tổng số táo."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "这些苹果，",
+          "一半",
+          "是我的。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "半",
+            "羊",
+            "平",
+            "米"
+          ],
+          "accepted": [
+            "半"
+          ],
+          "feedback": "Chữ 半 tạo từ 一半. 一半 là một nửa của toàn thể đang nói; không tự xác định toàn thể có bao nhiêu phần tử. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 一点儿 (một ít; một chút (dạng yìdiǎnr)).",
+          "choices": [],
+          "accepted": [
+            "yì diǎnr"
+          ],
+          "feedback": "一点儿 ghi yì diǎnr. 一点儿 ở ví dụ là lượng nước nhỏ; giữ hóa r khi hỏi đúng mục nguồn."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc yì xiē, nghĩa “một số; một ít (dạng yìxiē)”: 我有□书。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "一些"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc yì xiē: 一些. 一些 thường đi với danh từ; không coi nó là một con số chính xác. Tôi có một số sách."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc yǒu xiē, nghĩa “một số (dạng yǒuxiē trong mẫu danh từ)”, trong câu: □书是新的。",
+          "choices": [
+            "一半",
+            "一点儿",
+            "一些",
+            "有些"
+          ],
+          "accepted": [
+            "有些"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc yǒu xiē: 有些. 有些 trong 有些书 chỉ một số sách; bài chưa khái quát mọi cách dùng mức độ của từ này. Một số sách là sách mới."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我有一些书。”, 一些 mang nghĩa nào theo bài?",
+          "choices": [
+            "một nửa",
+            "một ít; một chút (dạng yìdiǎnr)",
+            "một số; một ít (dạng yìxiē)",
+            "một số (dạng yǒuxiē trong mẫu danh từ)"
+          ],
+          "accepted": [
+            "một số; một ít (dạng yìxiē)"
+          ],
+          "feedback": "一些 thường đi với danh từ; không coi nó là một con số chính xác. Tôi có một số sách."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “有些书是新的。”, 有些 mang nghĩa nào theo bài?",
+          "choices": [
+            "một nửa",
+            "một ít; một chút (dạng yìdiǎnr)",
+            "một số; một ít (dạng yìxiē)",
+            "một số (dạng yǒuxiē trong mẫu danh từ)"
+          ],
+          "accepted": [
+            "một số (dạng yǒuxiē trong mẫu danh từ)"
+          ],
+          "feedback": "有些 trong 有些书 chỉ một số sách; bài chưa khái quát mọi cách dùng mức độ của từ này. Một số sách là sách mới."
+        }
+      ],
+      "characterTargets": [
+        "半"
+      ]
+    },
+    {
+      "id": "L164",
+      "unit": "hsk-one-bd",
+      "unitTitle": "Số lượng và phương tiện",
+      "title": "Các phần khác nhau và lần nữa",
+      "objective": "Các phần khác nhau và lần nữa; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-164",
+        "动量补语",
+        386,
+        "g-386-14",
+        "Động từ + 一下 thường nói làm một chút hoặc làm nhẹ lời yêu cầu: 请读一下这个字. Không quy nó thành chính xác một giây. 有点儿 đứng trước tính từ để nói hơi trong mẫu 有点儿忙; khác lượng 一点儿水. 有的 chỉ một số trong nhóm đã nêu; 再 trong 请再说 yêu cầu nói thêm lần nữa."
+      ],
+      "task": [
+        "h1-task-polite",
+        "日常言语交往",
+        5,
+        "六"
+      ],
+      "topic": [
+        "h1-topic-543a2c7847b9",
+        "简单互动行为",
+        58,
+        "简单互动行为"
+      ],
+      "words": [
+        [
+          "有的",
+          "yǒu de",
+          "một số trong nhóm đã nêu (dạng yǒude)",
+          "有的 có thể thay các đối tượng đã biết; 的 nhẹ trong mục này.",
+          "这些书，有的是新的。",
+          "Zhè xiē shū, yǒu de shì xīn de.",
+          "Trong số sách này, có những quyển mới."
+        ],
+        [
+          "有点儿",
+          "yǒu diǎnr",
+          "hơi; có phần (dạng yǒudiǎnr)",
+          "有点儿 trong 有点儿忙 nói mức độ hơi bận; không thay thẳng vào mẫu lượng nước 一点儿水.",
+          "我有点儿忙。",
+          "Wǒ yǒu diǎnr máng.",
+          "Tôi hơi bận."
+        ],
+        [
+          "一下",
+          "yí xià",
+          "một chút; một lượt ngắn (dạng yíxià)",
+          "一下 sau động từ làm nhẹ lời yêu cầu; đây không phải số đo thời gian chính xác.",
+          "请读一下这个字。",
+          "Qǐng dú yí xià zhè ge zì.",
+          "Xin đọc chữ này một chút/một lượt."
+        ],
+        [
+          "再",
+          "zài",
+          "lại; thêm lần nữa (dạng zài)",
+          "再 trong 请再说 nói thêm một lượt theo yêu cầu, khác 在 chỉ vị trí dù cùng âm zài.",
+          "请再说。",
+          "Qǐng zài shuō.",
+          "Xin nói lại."
+        ]
+      ],
+      "passage": [
+        "A：请读一下这个字。\nB：好。\nA：请再说。\nB：我有点儿忙。\nA：没关系。",
+        "A: Qǐng dú yí xià zhè ge zì. B: Hǎo. A: Qǐng zài shuō. B: Wǒ yǒu diǎnr máng. A: Méi guān xi.",
+        "A đưa lời yêu cầu đọc/nói lại; B nói hơi bận. Đoạn viết không xác nhận người học đã đọc hoặc phát âm đúng."
+      ],
+      "comprehension": [
+        "B nói trạng thái của mình thế nào?",
+        [
+          "有点儿忙",
+          "非常冷",
+          "没有事"
+        ],
+        "有点儿忙",
+        "Theo đoạn: 有点儿忙. A đưa lời yêu cầu đọc/nói lại; B nói hơi bận. Đoạn viết không xác nhận người học đã đọc hoặc phát âm đúng."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "请",
+          "读一下",
+          "这个字。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc yǒu de, nghĩa “một số trong nhóm đã nêu (dạng yǒude)”, trong câu: 这些书，□是新的。",
+          "choices": [
+            "有的",
+            "有点儿",
+            "一下",
+            "再"
+          ],
+          "accepted": [
+            "有的"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc yǒu de: 有的. 有的 có thể thay các đối tượng đã biết; 的 nhẹ trong mục này. Trong số sách này, có những quyển mới."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 有点儿 (hơi; có phần (dạng yǒudiǎnr)).",
+          "choices": [],
+          "accepted": [
+            "yǒu diǎnr"
+          ],
+          "feedback": "有点儿 ghi yǒu diǎnr. 有点儿 trong 有点儿忙 nói mức độ hơi bận; không thay thẳng vào mẫu lượng nước 一点儿水."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc yí xià, nghĩa “một chút; một lượt ngắn (dạng yíxià)”: 请读□这个字。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "一下"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc yí xià: 一下. 一下 sau động từ làm nhẹ lời yêu cầu; đây không phải số đo thời gian chính xác. Xin đọc chữ này một chút/một lượt."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "再",
+            "在",
+            "冉",
+            "两"
+          ],
+          "accepted": [
+            "再"
+          ],
+          "feedback": "Chữ 再 tạo từ 再. 再 trong 请再说 nói thêm một lượt theo yêu cầu, khác 在 chỉ vị trí dù cùng âm zài. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “请读一下这个字。”, 一下 mang nghĩa nào theo bài?",
+          "choices": [
+            "một số trong nhóm đã nêu (dạng yǒude)",
+            "hơi; có phần (dạng yǒudiǎnr)",
+            "một chút; một lượt ngắn (dạng yíxià)",
+            "lại; thêm lần nữa (dạng zài)"
+          ],
+          "accepted": [
+            "một chút; một lượt ngắn (dạng yíxià)"
+          ],
+          "feedback": "一下 sau động từ làm nhẹ lời yêu cầu; đây không phải số đo thời gian chính xác. Xin đọc chữ này một chút/một lượt."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “请再说。”, 再 mang nghĩa nào theo bài?",
+          "choices": [
+            "một số trong nhóm đã nêu (dạng yǒude)",
+            "hơi; có phần (dạng yǒudiǎnr)",
+            "một chút; một lượt ngắn (dạng yíxià)",
+            "lại; thêm lần nữa (dạng zài)"
+          ],
+          "accepted": [
+            "lại; thêm lần nữa (dạng zài)"
+          ],
+          "feedback": "再 trong 请再说 nói thêm một lượt theo yêu cầu, khác 在 chỉ vị trí dù cùng âm zài. Xin nói lại."
+        }
+      ],
+      "characterTargets": [
+        "再"
+      ]
+    },
+    {
+      "id": "L165",
+      "unit": "hsk-one-bd",
+      "unitTitle": "Số lượng và phương tiện",
+      "title": "Phương tiện đi lại",
+      "objective": "Phương tiện đi lại; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "prerequisite": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "prerequisiteVersions": [
+        "f05-draft-v1",
+        "l002-draft-v2"
+      ],
+      "grammar": [
+        "h1-g-165",
+        "连动句",
+        386,
+        "g-386-30",
+        "Trong 我坐火车去学校, đi tàu là phương thức để tới trường: cùng một chủ thể làm chuỗi hành động. 坐 zuò trong mẫu nói đi bằng/ngồi trên phương tiện, học mục từ riêng ở bài kế tiếp. 车 là tên xe chung, 出租车/火车/飞机 là các loại phương tiện khác nhau; không đặt vé hay xác nhận hành trình thật."
+      ],
+      "task": [
+        "h1-task-travel",
+        "问答出行信息",
+        5,
+        "八"
+      ],
+      "topic": [
+        "h1-topic-e9b0e57eec5b",
+        "出行方式",
+        58,
+        "出行方式"
+      ],
+      "words": [
+        [
+          "车",
+          "chē",
+          "xe; phương tiện xe",
+          "车 là tên xe chung trong bài, không suy mọi phương tiện đều gọi là 车.",
+          "这是我的车。",
+          "Zhè shì wǒ de chē.",
+          "Đây là xe của tôi."
+        ],
+        [
+          "出租车",
+          "chū zū chē",
+          "taxi; xe cho thuê chở khách",
+          "出租车 là danh từ taxi, không phải động từ đặt/gọi xe.",
+          "我坐出租车。",
+          "Wǒ zuò chū zū chē.",
+          "Tôi đi taxi."
+        ],
+        [
+          "火车",
+          "huǒ chē",
+          "tàu hỏa; xe lửa",
+          "火车 là tàu hỏa, không suy lịch chạy hoặc giá vé từ tên phương tiện.",
+          "我坐火车去学校。",
+          "Wǒ zuò huǒ chē qù xué xiào.",
+          "Tôi đi tàu hỏa đến trường."
+        ],
+        [
+          "飞机",
+          "fēi jī",
+          "máy bay",
+          "飞机 là máy bay; câu mẫu không xác nhận chuyến bay/điểm đến thực.",
+          "我坐飞机。",
+          "Wǒ zuò fēi jī.",
+          "Tôi đi máy bay."
+        ]
+      ],
+      "passage": [
+        "A：你怎么去学校？\nB：我坐火车去学校。\nA：你姐姐呢？\nB：她坐出租车去学校。",
+        "A: Nǐ zěn me qù xué xiào? B: Wǒ zuò huǒ chē qù xué xiào. A: Nǐ jiě jie ne? B: Tā zuò chū zū chē qù xué xiào.",
+        "B đi tàu hỏa; chị gái đi taxi. Đây là thông tin trong truyện, không phải đề xuất tuyến đi hoặc dịch vụ thực."
+      ],
+      "comprehension": [
+        "B nói đi bằng phương tiện nào?",
+        [
+          "火车",
+          "出租车",
+          "飞机"
+        ],
+        "火车",
+        "Theo đoạn: 火车. B đi tàu hỏa; chị gái đi taxi. Đây là thông tin trong truyện, không phải đề xuất tuyến đi hoặc dịch vụ thực."
+      ],
+      "sequence": [
+        "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+        [
+          "我",
+          "坐火车",
+          "去学校。"
+        ],
+        "0,1,2"
+      ],
+      "practice": [
+        {
+          "concept": 0,
+          "type": "choice",
+          "skill": "recognition",
+          "prompt": "Nhận diện chữ",
+          "choices": [
+            "车",
+            "东",
+            "军",
+            "丰"
+          ],
+          "accepted": [
+            "车"
+          ],
+          "feedback": "Chữ 车 tạo từ 车. 车 là tên xe chung trong bài, không suy mọi phương tiện đều gọi là 车. Đây là nhận diện có gợi ý, không chấm viết tay."
+        },
+        {
+          "concept": 1,
+          "type": "pinyin",
+          "prompt": "Viết pinyin từ điển của 出租车 (taxi; xe cho thuê chở khách).",
+          "choices": [],
+          "accepted": [
+            "chū zū chē"
+          ],
+          "feedback": "出租车 ghi chū zū chē. 出租车 là danh từ taxi, không phải động từ đặt/gọi xe."
+        },
+        {
+          "concept": 2,
+          "type": "short",
+          "prompt": "Điền đúng mục từ đọc huǒ chē, nghĩa “tàu hỏa; xe lửa”: 我坐□去学校。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+          "choices": [],
+          "accepted": [
+            "火车"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc huǒ chē: 火车. 火车 là tàu hỏa, không suy lịch chạy hoặc giá vé từ tên phương tiện. Tôi đi tàu hỏa đến trường."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Chọn mục từ đọc fēi jī, nghĩa “máy bay”, trong câu: 我坐□。",
+          "choices": [
+            "车",
+            "出租车",
+            "火车",
+            "飞机"
+          ],
+          "accepted": [
+            "飞机"
+          ],
+          "feedback": "Đề yêu cầu mục từ đọc fēi jī: 飞机. 飞机 là máy bay; câu mẫu không xác nhận chuyến bay/điểm đến thực. Tôi đi máy bay."
+        },
+        {
+          "concept": 2,
+          "type": "choice",
+          "prompt": "Trong câu “我坐火车去学校。”, 火车 mang nghĩa nào theo bài?",
+          "choices": [
+            "xe; phương tiện xe",
+            "taxi; xe cho thuê chở khách",
+            "tàu hỏa; xe lửa",
+            "máy bay"
+          ],
+          "accepted": [
+            "tàu hỏa; xe lửa"
+          ],
+          "feedback": "火车 là tàu hỏa, không suy lịch chạy hoặc giá vé từ tên phương tiện. Tôi đi tàu hỏa đến trường."
+        },
+        {
+          "concept": 3,
+          "type": "choice",
+          "prompt": "Trong câu “我坐飞机。”, 飞机 mang nghĩa nào theo bài?",
+          "choices": [
+            "xe; phương tiện xe",
+            "taxi; xe cho thuê chở khách",
+            "tàu hỏa; xe lửa",
+            "máy bay"
+          ],
+          "accepted": [
+            "máy bay"
+          ],
+          "feedback": "飞机 là máy bay; câu mẫu không xác nhận chuyến bay/điểm đến thực. Tôi đi máy bay."
+        }
+      ],
+      "characterTargets": [
+        "车"
+      ]
+    }
+  ]
+}

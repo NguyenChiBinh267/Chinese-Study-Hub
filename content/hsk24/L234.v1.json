@@ -1,0 +1,815 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "d7afd0012cf73daaff7cd5701e9b8d24b82856dfe2cdf57c6848a90fdaa25623",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "birthday-courtesy",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L234",
+    "version": 1,
+    "versionId": "l234-draft-v1",
+    "title": "Lời nhắc lịch sự trong bữa sinh nhật",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Hiểu lời nhắc đừng làm, người đi cùng và cách gọi món.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "用“别”的祈使句"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 9,
+      "physicalPage": 10,
+      "printedPage": 7,
+      "section": "task",
+      "entry": "六 / 做出选择"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-choice",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 9,
+          "physicalPage": 10,
+          "printedPage": 7,
+          "section": "task",
+          "entry": "六 / 做出选择"
+        },
+        "written": "日常言语交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-politeness",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交往 / 基本礼貌行为"
+        },
+        "written": "基本礼貌行为",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l234-v-311",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 311"
+        },
+        "written": "别1",
+        "pinyin": "bié",
+        "senseId": "l234-v-311-sense",
+        "ordinal": 311,
+        "note": "2 bié 副; 别1 là phó từ phủ định trong lời yêu cầu 别跑. Không nhầm với từ khác nghĩa chia lìa hay khác biệt. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l234-v-345",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 345"
+        },
+        "written": "跟",
+        "pinyin": "gēn",
+        "senseId": "l234-v-345-sense",
+        "ordinal": 345,
+        "note": "2（5） gēn 介、连、（名、动）; 跟 trong 跟奶奶一起 là giới từ chỉ người đi cùng. Nguồn còn ghi liên từ ở cấp này; nghĩa danh từ/động từ cấp cao hơn không được tính ở đây. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l234-v-336",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 336"
+        },
+        "written": "点2",
+        "pinyin": "diǎn",
+        "senseId": "l234-v-336-sense",
+        "ordinal": 336,
+        "note": "2（4） diǎn 动、（名、量）; 点2 là động từ trong 点菜 ở cấp2. Không dùng danh từ chấm/điểm hay lượng từ được chú thích cấp cao hơn để trả lời câu này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l234-v-347",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 347"
+        },
+        "written": "过",
+        "pinyin": "guò",
+        "senseId": "l234-v-347-sense",
+        "ordinal": 347,
+        "note": "2 guò 动; Mục347 là động từ guò có thanh bốn. Trong 过生日 nghĩa là đón sinh nhật, không phải trợ từ kinh nghiệm guo đọc nhẹ mục351. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l234-v-463",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 463"
+        },
+        "written": "笑",
+        "pinyin": "xiào",
+        "senseId": "l234-v-463-sense",
+        "ordinal": 463,
+        "note": "2 xiào 动; 笑 ở đây là cười; không tự suy ra đang chế nhạo ai khi câu không nêu đối tượng/ngữ cảnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l234-v-325",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 325"
+        },
+        "written": "从小",
+        "pinyin": "cóngxiǎo",
+        "senseId": "l234-v-325-sense",
+        "ordinal": 325,
+        "note": "2 cóngxiǎo 副; 从小 chỉ khoảng bắt đầu từ thời thơ ấu đến mốc được nói. Không đồng nghĩa mọi việc đều xảy ra đúng một ngày lúc nhỏ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l234-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "然后",
+        "pinyin": "rán hòu",
+        "senseId": "l234-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: sau đó; cấp chưa xác minh, chỉ nối sự việc."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-7",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "7"
+        },
+        "written": "别",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 7,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-23",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "23"
+        },
+        "written": "跟",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 23,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-25",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "25"
+        },
+        "written": "过",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 25,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-99",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "99"
+        },
+        "written": "笑",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 99,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-12",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "12"
+        },
+        "written": "从",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 12,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-negative-command",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "句类 / 祈使句 / 别"
+        },
+        "written": "用“别”的祈使句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l234-c0",
+      "version": 1,
+      "senseId": "l234-v-311-sense",
+      "hanzi": "别",
+      "dictionaryPinyin": "bié",
+      "meaning": "đừng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l234-v-311"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l234-c1",
+      "version": 1,
+      "senseId": "l234-v-345-sense",
+      "hanzi": "跟",
+      "dictionaryPinyin": "gēn",
+      "meaning": "với, cùng, đi theo đối tượng trong mẫu này",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l234-v-345"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l234-c2",
+      "version": 1,
+      "senseId": "l234-v-336-sense",
+      "hanzi": "点",
+      "dictionaryPinyin": "diǎn",
+      "meaning": "gọi, chọn món",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l234-v-336"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l234-c3",
+      "version": 1,
+      "senseId": "l234-v-347-sense",
+      "hanzi": "过",
+      "dictionaryPinyin": "guò",
+      "meaning": "đón, trải qua một dịp trong ngữ cảnh sinh nhật",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l234-v-347"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l234-c4",
+      "version": 1,
+      "senseId": "l234-v-463-sense",
+      "hanzi": "笑",
+      "dictionaryPinyin": "xiào",
+      "meaning": "cười",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l234-v-463"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l234-c5",
+      "version": 1,
+      "senseId": "l234-v-325-sense",
+      "hanzi": "从小",
+      "dictionaryPinyin": "cóng xiǎo",
+      "meaning": "từ nhỏ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l234-v-325"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l234-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "请 mở đầu lời nhờ; 菜 là món ăn. Khi cùng chữ có nhiều nghĩa, chọn theo toàn câu và chú thích cấp của nguồn.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l234-t0",
+      "type": "teaching",
+      "title": "别 · đừng",
+      "text": "别1 là phó từ phủ định trong lời yêu cầu 别跑. Không nhầm với từ khác nghĩa chia lìa hay khác biệt.",
+      "hanzi": "这里有小孩儿，别跑。",
+      "pinyin": "Zhèlǐ yǒu xiǎoháir, bié pǎo.",
+      "meaning": "Ở đây có trẻ con, đừng chạy.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l234-t1",
+      "type": "teaching",
+      "title": "跟 · với, cùng, đi theo đối tượng trong mẫu này",
+      "text": "跟 trong 跟奶奶一起 là giới từ chỉ người đi cùng. Nguồn còn ghi liên từ ở cấp này; nghĩa danh từ/động từ cấp cao hơn không được tính ở đây.",
+      "hanzi": "我跟奶奶一起去饭馆。",
+      "pinyin": "Wǒ gēn nǎinai yìqǐ qù fànguǎn.",
+      "meaning": "Tôi cùng bà nội đến quán ăn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l234-t2",
+      "type": "teaching",
+      "title": "点 · gọi, chọn món",
+      "text": "点2 là động từ trong 点菜 ở cấp2. Không dùng danh từ chấm/điểm hay lượng từ được chú thích cấp cao hơn để trả lời câu này.",
+      "hanzi": "我们点鱼和肉吧。",
+      "pinyin": "Wǒmen diǎn yú hé ròu ba.",
+      "meaning": "Chúng ta gọi cá và thịt nhé.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l234-t3",
+      "type": "teaching",
+      "title": "过 · đón, trải qua một dịp trong ngữ cảnh sinh nhật",
+      "text": "Mục347 là động từ guò có thanh bốn. Trong 过生日 nghĩa là đón sinh nhật, không phải trợ từ kinh nghiệm guo đọc nhẹ mục351.",
+      "hanzi": "今天我们一起过生日。",
+      "pinyin": "Jīntiān wǒmen yìqǐ guò shēngrì.",
+      "meaning": "Hôm nay chúng tôi cùng đón sinh nhật.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l234-t4",
+      "type": "teaching",
+      "title": "笑 · cười",
+      "text": "笑 ở đây là cười; không tự suy ra đang chế nhạo ai khi câu không nêu đối tượng/ngữ cảnh.",
+      "hanzi": "奶奶高兴地笑了。",
+      "pinyin": "Nǎinai gāoxìng de xiào le.",
+      "meaning": "Bà nội vui vẻ cười.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l234-t5",
+      "type": "teaching",
+      "title": "从小 · từ nhỏ",
+      "text": "从小 chỉ khoảng bắt đầu từ thời thơ ấu đến mốc được nói. Không đồng nghĩa mọi việc đều xảy ra đúng một ngày lúc nhỏ.",
+      "hanzi": "我从小跟奶奶住在一起。",
+      "pinyin": "Wǒ cóngxiǎo gēn nǎinai zhù zài yìqǐ.",
+      "meaning": "Tôi sống cùng bà nội từ nhỏ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l234-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "别 đứng trước động từ để nhắc hoặc yêu cầu đừng làm. 别笑 không có nghĩa chưa từng cười; đó là yêu cầu ở tình huống hiện tại.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l234-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "我从小跟奶奶住在一起。今天是奶奶的生日，我们一起去饭馆。我说：我们点鱼和肉吧。弟弟想跑，奶奶说：别跑，慢慢走。然后她高兴地笑了。",
+      "pinyin": "Wǒ cóngxiǎo gēn nǎinai zhù zài yìqǐ. Jīntiān shì nǎinai de shēngrì, wǒmen yìqǐ qù fànguǎn. Wǒ shuō: Wǒmen diǎn yú hé ròu ba. Dìdi xiǎng pǎo, nǎinai shuō: Bié pǎo, mànmàn zǒu. Ránhòu tā gāoxìng de xiào le.",
+      "meaning": "Tôi sống với bà nội từ nhỏ. Hôm nay sinh nhật bà, chúng tôi cùng đến quán ăn. Tôi nói: Gọi cá và thịt nhé. Em trai muốn chạy, bà nói: Đừng chạy, đi chậm thôi. Rồi bà vui vẻ cười.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l234-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l234-v1-e0"
+    },
+    {
+      "id": "l234-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l234-v1-e1"
+    },
+    {
+      "id": "l234-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l234-v1-e2"
+    },
+    {
+      "id": "l234-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l234-v1-e3"
+    },
+    {
+      "id": "l234-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l234-v1-e4"
+    },
+    {
+      "id": "l234-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l234-v1-e5"
+    },
+    {
+      "id": "l234-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l234-v1-e6"
+    },
+    {
+      "id": "l234-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l234-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l234-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l234-c0",
+      "senseId": "l234-v-311-sense",
+      "keyRef": "l234-v1-k0",
+      "prompt": "Trong câu “这里有小孩儿，别跑。”, 别 mang nghĩa nào?",
+      "choices": [
+        "với, cùng, đi theo đối tượng trong mẫu này",
+        "gọi, chọn món",
+        "đón, trải qua một dịp trong ngữ cảnh sinh nhật",
+        "cười",
+        "từ nhỏ",
+        "đừng"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l234-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l234-c1",
+      "senseId": "l234-v-345-sense",
+      "keyRef": "l234-v1-k1",
+      "prompt": "Viết pinyin của 跟 trong nghĩa “với, cùng, đi theo đối tượng trong mẫu này”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l234-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l234-c2",
+      "senseId": "l234-v-336-sense",
+      "keyRef": "l234-v1-k2",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “gọi, chọn món”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l234-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l234-c3",
+      "senseId": "l234-v-347-sense",
+      "keyRef": "l234-v1-k3",
+      "prompt": "Trong câu “今天我们一起过生日。”, 过 mang nghĩa nào?",
+      "choices": [
+        "cười",
+        "từ nhỏ",
+        "đừng",
+        "với, cùng, đi theo đối tượng trong mẫu này",
+        "gọi, chọn món",
+        "đón, trải qua một dịp trong ngữ cảnh sinh nhật"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l234-v1-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l234-c4",
+      "senseId": "l234-v-463-sense",
+      "keyRef": "l234-v1-k4",
+      "prompt": "Viết pinyin của 笑 trong nghĩa “cười”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l234-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l234-c5",
+      "senseId": "l234-v-325-sense",
+      "keyRef": "l234-v1-k5",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “từ nhỏ”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l234-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l234-c0",
+      "senseId": "l234-v-311-sense",
+      "keyRef": "l234-v1-k6",
+      "prompt": "Bà nội yêu cầu em trai làm gì?",
+      "choices": [
+        "Chạy nhanh hơn",
+        "Gọi thêm vé",
+        "Đừng chạy, đi chậm"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l234-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l234-c3",
+      "senseId": "l234-v-347-sense",
+      "keyRef": "l234-v1-k7",
+      "prompt": "Xếp câu: bà nội vui vẻ cười rồi.",
+      "choices": [
+        "笑了",
+        "高兴地",
+        "奶奶"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l234-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l234-v1-e0",
+      "senseId": "l234-v-311-sense",
+      "accepted": [
+        "đừng"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "别: đừng. 别1 là phó từ phủ định trong lời yêu cầu 别跑. Không nhầm với từ khác nghĩa chia lìa hay khác biệt. Ở đây có trẻ con, đừng chạy."
+    },
+    {
+      "id": "l234-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l234-v1-e1",
+      "senseId": "l234-v-345-sense",
+      "accepted": [
+        "gēn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc gēn. 跟 trong 跟奶奶一起 là giới từ chỉ người đi cùng. Nguồn còn ghi liên từ ở cấp này; nghĩa danh từ/động từ cấp cao hơn không được tính ở đây."
+    },
+    {
+      "id": "l234-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l234-v1-e2",
+      "senseId": "l234-v-336-sense",
+      "accepted": [
+        "点"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 点. 点2 là động từ trong 点菜 ở cấp2. Không dùng danh từ chấm/điểm hay lượng từ được chú thích cấp cao hơn để trả lời câu này."
+    },
+    {
+      "id": "l234-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l234-v1-e3",
+      "senseId": "l234-v-347-sense",
+      "accepted": [
+        "đón, trải qua một dịp trong ngữ cảnh sinh nhật"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "过: đón, trải qua một dịp trong ngữ cảnh sinh nhật. Mục347 là động từ guò có thanh bốn. Trong 过生日 nghĩa là đón sinh nhật, không phải trợ từ kinh nghiệm guo đọc nhẹ mục351. Hôm nay chúng tôi cùng đón sinh nhật."
+    },
+    {
+      "id": "l234-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l234-v1-e4",
+      "senseId": "l234-v-463-sense",
+      "accepted": [
+        "xiào"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc xiào. 笑 ở đây là cười; không tự suy ra đang chế nhạo ai khi câu không nêu đối tượng/ngữ cảnh."
+    },
+    {
+      "id": "l234-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l234-v1-e5",
+      "senseId": "l234-v-325-sense",
+      "accepted": [
+        "从小"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 从小. 从小 chỉ khoảng bắt đầu từ thời thơ ấu đến mốc được nói. Không đồng nghĩa mọi việc đều xảy ra đúng một ngày lúc nhỏ."
+    },
+    {
+      "id": "l234-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l234-v1-e6",
+      "senseId": "l234-v-311-sense",
+      "accepted": [
+        "Đừng chạy, đi chậm"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "别跑 là yêu cầu phủ định, tiếp theo 慢慢走 chỉ cách đi; không phải nhận xét em chưa từng chạy."
+    },
+    {
+      "id": "l234-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l234-v1-e7",
+      "senseId": "l234-v-347-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 别 đứng trước động từ để nhắc hoặc yêu cầu đừng làm. 别笑 không có nghĩa chưa từng cười; đó là yêu cầu ở tình huống hiện tại."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

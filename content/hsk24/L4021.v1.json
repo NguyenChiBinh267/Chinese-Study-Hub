@@ -1,0 +1,774 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "c7618d67d6c06dafd5986bee49782cbb99d09c022fb412fdcf3a29b89d432cab",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-eacb",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L4021",
+    "version": 1,
+    "versionId": "l4021-draft-v1",
+    "title": "Mua hàng kết hợp trực tuyến và cửa hàng",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Mua hàng kết hợp trực tuyến và cửa hàng; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "X是X"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 22,
+      "physicalPage": 23,
+      "printedPage": 20,
+      "section": "task",
+      "entry": "七"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-29T07:56:43.688013Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-shop",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 22,
+          "physicalPage": 23,
+          "printedPage": 20,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "交流购物体验、商业活动内容",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-eeff8e3ae633",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 67,
+          "physicalPage": 68,
+          "printedPage": 65,
+          "section": "topic",
+          "entry": "新商业形态"
+        },
+        "written": "新商业形态",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l4021-v-1765",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 123,
+          "physicalPage": 124,
+          "printedPage": 121,
+          "section": "vocabulary",
+          "entry": "ordinal 1765"
+        },
+        "written": "网购",
+        "pinyin": "wǎnggòu",
+        "senseId": "l4021-v-1765-sense",
+        "ordinal": 1765,
+        "note": "4 wǎnggòu 动; 网购 là hoạt động mua trực tuyến; không phải mọi việc lên mạng đều là mua hàng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4021-v-1767",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 123,
+          "physicalPage": 124,
+          "printedPage": 121,
+          "section": "vocabulary",
+          "entry": "ordinal 1767"
+        },
+        "written": "网页",
+        "pinyin": "wǎngyè",
+        "senseId": "l4021-v-1767-sense",
+        "ordinal": 1767,
+        "note": "4 wǎngyè 名; 网页 là một trang nội dung trên web; khác 网址 là địa chỉ của trang. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4021-v-1768",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 123,
+          "physicalPage": 124,
+          "printedPage": 121,
+          "section": "vocabulary",
+          "entry": "ordinal 1768"
+        },
+        "written": "网友",
+        "pinyin": "wǎngyǒu",
+        "senseId": "l4021-v-1768-sense",
+        "ordinal": 1768,
+        "note": "4 wǎngyǒu 名; 网友 chỉ người quen/giao tiếp trên mạng; lời họ kể không tự trở thành bằng chứng về sản phẩm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4021-v-1769",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 123,
+          "physicalPage": 124,
+          "printedPage": 121,
+          "section": "vocabulary",
+          "entry": "ordinal 1769"
+        },
+        "written": "网址",
+        "pinyin": "wǎngzhǐ",
+        "senseId": "l4021-v-1769-sense",
+        "ordinal": 1769,
+        "note": "4 wǎngzhǐ 名; 网址 là chuỗi địa chỉ để đến trang web; không phải bản thân nội dung trang. Bài không đưa địa chỉ thật. Nhận diện chữ 址 trong 网址; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4021-v-1799",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 123,
+          "physicalPage": 124,
+          "printedPage": 121,
+          "section": "vocabulary",
+          "entry": "ordinal 1799"
+        },
+        "written": "线上",
+        "pinyin": "xiànshàng",
+        "senseId": "l4021-v-1799-sense",
+        "ordinal": 1799,
+        "note": "4 xiànshàng 名; 线上 chỉ hoạt động qua mạng; khác 线下 là diễn ra tại nơi thực tế. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l4021-v-1800",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 123,
+          "physicalPage": 124,
+          "printedPage": 121,
+          "section": "vocabulary",
+          "entry": "ordinal 1800"
+        },
+        "written": "线下",
+        "pinyin": "xiànxià",
+        "senseId": "l4021-v-1800-sense",
+        "ordinal": 1800,
+        "note": "4 xiànxià 名; 线下 trong mua sắm là hoạt động ở cửa hàng/nơi thực, không phải đường dây bị đứt. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-91",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "91"
+        },
+        "written": "购",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 91,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-424",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "424"
+        },
+        "written": "址",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 424,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-346",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 362,
+          "physicalPage": 363,
+          "printedPage": 360,
+          "section": "character",
+          "entry": "346"
+        },
+        "written": "线",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 346,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-4021",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 395,
+          "physicalPage": 396,
+          "printedPage": 393,
+          "section": "grammar",
+          "entry": "X是X：买是买了，可是……"
+        },
+        "written": "X是X",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l4021-c0",
+      "version": 1,
+      "senseId": "l4021-v-1765-sense",
+      "hanzi": "网购",
+      "dictionaryPinyin": "wǎng gòu",
+      "meaning": "mua hàng qua mạng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4021-v-1765"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4021-c1",
+      "version": 1,
+      "senseId": "l4021-v-1767-sense",
+      "hanzi": "网页",
+      "dictionaryPinyin": "wǎng yè",
+      "meaning": "trang web",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4021-v-1767"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4021-c2",
+      "version": 1,
+      "senseId": "l4021-v-1768-sense",
+      "hanzi": "网友",
+      "dictionaryPinyin": "wǎng yǒu",
+      "meaning": "bạn qua mạng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4021-v-1768"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4021-c3",
+      "version": 1,
+      "senseId": "l4021-v-1769-sense",
+      "hanzi": "网址",
+      "dictionaryPinyin": "wǎng zhǐ",
+      "meaning": "địa chỉ web",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4021-v-1769"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4021-c4",
+      "version": 1,
+      "senseId": "l4021-v-1799-sense",
+      "hanzi": "线上",
+      "dictionaryPinyin": "xiàn shàng",
+      "meaning": "trực tuyến",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4021-v-1799"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l4021-c5",
+      "version": 1,
+      "senseId": "l4021-v-1800-sense",
+      "hanzi": "线下",
+      "dictionaryPinyin": "xiàn xià",
+      "meaning": "trực tiếp; ngoại tuyến",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l4021-v-1800"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l4021-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4021-t0",
+      "type": "teaching",
+      "title": "网购 · mua hàng qua mạng",
+      "text": "网购 là hoạt động mua trực tuyến; không phải mọi việc lên mạng đều là mua hàng.",
+      "hanzi": "她第一次尝试网购。",
+      "pinyin": "Tā dì yī cì cháng shì wǎng gòu.",
+      "meaning": "Cô ấy lần đầu thử mua hàng qua mạng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4021-t1",
+      "type": "teaching",
+      "title": "网页 · trang web",
+      "text": "网页 là một trang nội dung trên web; khác 网址 là địa chỉ của trang.",
+      "hanzi": "这个网页介绍了商品尺寸。",
+      "pinyin": "Zhè ge wǎng yè jiè shào le shāng pǐn chǐ cùn.",
+      "meaning": "Trang web này giới thiệu kích thước sản phẩm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4021-t2",
+      "type": "teaching",
+      "title": "网友 · bạn qua mạng",
+      "text": "网友 chỉ người quen/giao tiếp trên mạng; lời họ kể không tự trở thành bằng chứng về sản phẩm.",
+      "hanzi": "一位网友分享了自己的购物经历。",
+      "pinyin": "Yí wèi wǎng yǒu fēn xiǎng le zì jǐ de gòu wù jīng lì.",
+      "meaning": "Một người bạn qua mạng chia sẻ trải nghiệm mua sắm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4021-t3",
+      "type": "teaching",
+      "title": "网址 · địa chỉ web",
+      "text": "网址 là chuỗi địa chỉ để đến trang web; không phải bản thân nội dung trang. Bài không đưa địa chỉ thật. Nhận diện chữ 址 trong 网址; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "请检查网址有没有写错。",
+      "pinyin": "Qǐng jiǎn chá wǎng zhǐ yǒu méi yǒu xiě cuò.",
+      "meaning": "Hãy kiểm tra địa chỉ web có viết sai không.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4021-t4",
+      "type": "teaching",
+      "title": "线上 · trực tuyến",
+      "text": "线上 chỉ hoạt động qua mạng; khác 线下 là diễn ra tại nơi thực tế.",
+      "hanzi": "这家店线上接受订单。",
+      "pinyin": "Zhè jiā diàn xiàn shàng jiē shòu dìng dān.",
+      "meaning": "Cửa hàng này nhận đơn trực tuyến.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4021-t5",
+      "type": "teaching",
+      "title": "线下 · trực tiếp; ngoại tuyến",
+      "text": "线下 trong mua sắm là hoạt động ở cửa hàng/nơi thực, không phải đường dây bị đứt.",
+      "hanzi": "顾客可以线下取货。",
+      "pinyin": "Gù kè kě yǐ xiàn xià qǔ huò.",
+      "meaning": "Khách có thể nhận hàng trực tiếp tại cửa hàng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l4021-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "买是买了，可是… thừa nhận việc mua rồi bổ sung điều hạn chế: mua thì đã mua, nhưng chưa nhận được. Luyện nhượng bộ với động từ; không hàm ý khuyến khích mua hàng hay cung cấp đường dẫn bán hàng thật.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4021-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "一位网友介绍一家虚构的小店：顾客在网页上看尺寸，线上下单，线下取货。小夏核对网址后尝试网购。朋友问东西到了没有，她说：“买是买了，可是还没取到。我明天去店里看看。”这只是阅读场景，没有实际网址、商家推荐或交易。",
+      "pinyin": "Yí wèi wǎng yǒu jiè shào yì jiā xū gòu de xiǎo diàn: gù kè zài wǎng yè shàng kàn chǐ cùn, xiàn shàng xià dān, xiàn xià qǔ huò. Xiǎo Xià hé duì wǎng zhǐ hòu cháng shì wǎng gòu. Péng you wèn dōng xi dào le méi yǒu, tā shuō: “Mǎi shì mǎi le, kě shì hái méi qǔ dào. Wǒ míng tiān qù diàn lǐ kàn kan.” Zhè zhǐ shì yuè dú chǎng jǐng, méi yǒu shí jì wǎng zhǐ, shāng jiā tuī jiàn huò jiāo yì.",
+      "meaning": "Cửa hàng hư cấu nhận đơn online và giao tại cửa hàng; Tiểu Hạ đã mua nhưng chưa nhận. Không có giao dịch hay địa chỉ thật.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l4021-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l4021-v1-e0"
+    },
+    {
+      "id": "l4021-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l4021-v1-e1"
+    },
+    {
+      "id": "l4021-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l4021-v1-e2"
+    },
+    {
+      "id": "l4021-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l4021-v1-e3"
+    },
+    {
+      "id": "l4021-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l4021-v1-e4"
+    },
+    {
+      "id": "l4021-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l4021-v1-e5"
+    },
+    {
+      "id": "l4021-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l4021-v1-e6"
+    },
+    {
+      "id": "l4021-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l4021-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l4021-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4021-c0",
+      "senseId": "l4021-v-1765-sense",
+      "keyRef": "l4021-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “mua hàng qua mạng” để điền câu: 她第一次尝试□。",
+      "choices": [
+        "网页",
+        "网友",
+        "网址",
+        "线上",
+        "线下",
+        "网购"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4021-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l4021-c1",
+      "senseId": "l4021-v-1767-sense",
+      "keyRef": "l4021-v1-k1",
+      "prompt": "Ghi pinyin của 网页 trong câu “这个网页介绍了商品尺寸。”, theo nghĩa “trang web”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4021-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4021-c2",
+      "senseId": "l4021-v-1768-sense",
+      "keyRef": "l4021-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “bạn qua mạng”: 一位□分享了自己的购物经历。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4021-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l4021-c3",
+      "senseId": "l4021-v-1769-sense",
+      "keyRef": "l4021-v1-k3",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “địa chỉ web”: 网□ (wǎng zhǐ). Ngữ cảnh: 请检查□有没有写错。",
+      "choices": [
+        "址",
+        "趾",
+        "止",
+        "扯"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4021-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4021-c4",
+      "senseId": "l4021-v-1799-sense",
+      "keyRef": "l4021-v1-k4",
+      "prompt": "Chọn mục từ của bài có nghĩa “trực tuyến” để điền câu: 这家店□接受订单。",
+      "choices": [
+        "线下",
+        "网购",
+        "网页",
+        "网友",
+        "网址",
+        "线上"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4021-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l4021-c5",
+      "senseId": "l4021-v-1800-sense",
+      "keyRef": "l4021-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “trực tiếp; ngoại tuyến”: 顾客可以□取货。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4021-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l4021-c0",
+      "senseId": "l4021-v-1765-sense",
+      "keyRef": "l4021-v1-k6",
+      "prompt": "Tiểu Hạ đã nhận được hàng chưa?",
+      "choices": [
+        "已经拿回家了",
+        "还没有购买",
+        "还没取到"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l4021-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l4021-c3",
+      "senseId": "l4021-v-1769-sense",
+      "keyRef": "l4021-v1-k7",
+      "prompt": "Sắp xếp nguyên các cụm thành câu theo mẫu đang học; không thêm/bớt từ.",
+      "choices": [
+        "买",
+        "是买了，",
+        "可是",
+        "还没取到。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l4021-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l4021-v1-e0",
+      "senseId": "l4021-v-1765-sense",
+      "accepted": [
+        "网购"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "网购: mua hàng qua mạng. 网购 là hoạt động mua trực tuyến; không phải mọi việc lên mạng đều là mua hàng. Cô ấy lần đầu thử mua hàng qua mạng."
+    },
+    {
+      "id": "l4021-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l4021-v1-e1",
+      "senseId": "l4021-v-1767-sense",
+      "accepted": [
+        "wǎng yè"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc wǎng yè. 网页 là một trang nội dung trên web; khác 网址 là địa chỉ của trang."
+    },
+    {
+      "id": "l4021-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l4021-v1-e2",
+      "senseId": "l4021-v-1768-sense",
+      "accepted": [
+        "网友"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 网友. 网友 chỉ người quen/giao tiếp trên mạng; lời họ kể không tự trở thành bằng chứng về sản phẩm. Một người bạn qua mạng chia sẻ trải nghiệm mua sắm."
+    },
+    {
+      "id": "l4021-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l4021-v1-e3",
+      "senseId": "l4021-v-1769-sense",
+      "accepted": [
+        "址"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 址 tạo từ 网址. 网址 là chuỗi địa chỉ để đến trang web; không phải bản thân nội dung trang. Bài không đưa địa chỉ thật. Nhận diện chữ 址 trong 网址; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l4021-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l4021-v1-e4",
+      "senseId": "l4021-v-1799-sense",
+      "accepted": [
+        "线上"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "线上: trực tuyến. 线上 chỉ hoạt động qua mạng; khác 线下 là diễn ra tại nơi thực tế. Cửa hàng này nhận đơn trực tuyến."
+    },
+    {
+      "id": "l4021-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l4021-v1-e5",
+      "senseId": "l4021-v-1800-sense",
+      "accepted": [
+        "线下"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 线下. 线下 trong mua sắm là hoạt động ở cửa hàng/nơi thực, không phải đường dây bị đứt. Khách có thể nhận hàng trực tiếp tại cửa hàng."
+    },
+    {
+      "id": "l4021-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l4021-v1-e6",
+      "senseId": "l4021-v-1765-sense",
+      "accepted": [
+        "还没取到"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 还没取到. Cửa hàng hư cấu nhận đơn online và giao tại cửa hàng; Tiểu Hạ đã mua nhưng chưa nhận. Không có giao dịch hay địa chỉ thật."
+    },
+    {
+      "id": "l4021-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l4021-v1-e7",
+      "senseId": "l4021-v-1769-sense",
+      "accepted": [
+        "0,1,2,3"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 买是买了，可是… thừa nhận việc mua rồi bổ sung điều hạn chế: mua thì đã mua, nhưng chưa nhận được. Luyện nhượng bộ với động từ; không hàm ý khuyến khích mua hàng hay cung cấp đường dẫn bán hàng thật."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

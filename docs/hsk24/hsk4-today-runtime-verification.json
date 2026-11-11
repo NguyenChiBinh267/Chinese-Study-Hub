@@ -1,0 +1,266 @@
+{
+  "kind": "HSK4_LOCAL_RUNTIME_CONTINUATION",
+  "recordedAtUTC": "2026-10-29T02:50:10.439073+00:00",
+  "sourceCommit": "9a38ca84d79ea28a483ab97c70ce2fa62234c024",
+  "baselineCommit": "f80064364caa2bb4e1488a5a3158d5b3d2ea1553",
+  "status": "VERIFIED_SCOPED_FUNCTIONAL_REPAIR / FULL_CORPUS_AND_COLD_INITIALIZATION_GATES_OPEN",
+  "scope": "Local runtime follow-up only. HSK4 draft vocabulary remains 504/1000; no new authoring batch or release approval.",
+  "changes": [
+    "Retain the local schedule form during an acknowledged write snapshot refresh when prior data exists; initial/no-data and error states remain gated.",
+    "Planner reuses the same freshly source-validated and DB-validated request-local packages returned internally by curriculumStateWithin; public curriculum returns only snapshot.",
+    "Construct concept labels once per curriculum read rather than once per lesson.",
+    "Require computed content hash == stored DB hash == manifest packageHash == expected pinned package hash."
+  ],
+  "tests": {
+    "native": {
+      "pass": 8,
+      "fail": 0,
+      "skip": 0
+    },
+    "focusedUnit": {
+      "pass": 18,
+      "fail": 0,
+      "skip": 0
+    },
+    "warmedMobile": {
+      "pass": 2,
+      "fail": 0,
+      "skip": 0,
+      "retries": 0,
+      "functionalAssertionMs": 15000,
+      "routeCompilationWarmup": true,
+      "generalColdStartOrLatencyPass": false
+    },
+    "typecheckExit": 0,
+    "lintExit": 0,
+    "productionBuildExit": 0
+  },
+  "performance": {
+    "packageFiles": 351,
+    "sourceReadsBefore": 702,
+    "sourceReadsAfter": 351,
+    "maxReadsPerPackageBefore": 2,
+    "maxReadsPerPackageAfter": 1,
+    "sourceFullCatalogReadsStillPerRequest": 1,
+    "fullDatabaseManifestReadsStillPerRequest": 1,
+    "ownerAdvisoryLockUnchanged": true,
+    "fullCorpusIndependentPlanner": "OPEN",
+    "timingsAreConcurrentRunObservationsNotSLA": true
+  },
+  "database": {
+    "name": "csh_hsk24_bf294b6506c1",
+    "protectedBeforeCounts": {
+      "packages": 351,
+      "attempts": 2337,
+      "sessions": 1179,
+      "cards": 1650
+    },
+    "afterCounts": {
+      "packages": 351,
+      "attempts": 2337,
+      "sessions": 1180,
+      "cards": 1650
+    },
+    "everyProtectedOldRowHashPreserved": true,
+    "canonicalDatabaseManifestsVerified": 351,
+    "limits": "Package version/hash bindings and full attempt/session/card rows are protected; not a full backup/restore or proof for every private table."
+  },
+  "chronology": [
+    {
+      "run": "refresh-before",
+      "result": "0 PASS / 1 FAIL",
+      "observed": "Initial cold dev run failed before reaching the schedule form, with mode request aborted; not the deterministic form regression."
+    },
+    {
+      "run": "refresh-warm-before",
+      "result": "0 PASS / 1 FAIL",
+      "observed": "PATCH preferences returned200; holding the follow-up snapshot made the entered schedule field disappear. The same baseline trace also has one study/preview503 LOCAL_DB_UNAVAILABLE; precise cause is unproven."
+    },
+    {
+      "run": "native-before",
+      "result": "0 PASS / 1 FAIL",
+      "observed": "Structural regression failed because each of351package files was read twice (702reads)."
+    },
+    {
+      "run": "browser-after",
+      "result": "1 PASS / 1 FAIL",
+      "observed": "Schedule preservation passed. Today navigated past the original save gate but failed its first L492 heading assertion while mode/status initialization was still pending. Cold route compilation/hydration is a hypothesis, not established unique cause."
+    },
+    {
+      "run": "browser-warm",
+      "result": "2 PASS / 0 FAIL / 0 SKIP",
+      "observed": "Compilation-only route warmup precedes unchanged15s assertions and unchanged product/API/SQL timeouts. Saved L492 cursor, exact Today pinned URL and reload retention pass. One transient aborted/ECONNRESET log remains; no general transport/cold-start stability claim."
+    },
+    {
+      "run": "independent-review-attempt1",
+      "result": "DISQUALIFIED_AS_READ_ONLY",
+      "observed": "Reviewer unit command created8ignored scratch files under .local-postgres/review-packets/test-66b2c5ea-3fd5-46d0-a5a5-8a042e491f41. No source/DB writes. Its findings are advisory; a fresh strictly read-only process performs final review."
+    },
+    {
+      "run": "preview-launch",
+      "result": "BOUNDED_LOCAL_START_SUCCEEDED",
+      "observed": "Automatic policy rejected a compound launcher without a more specific reason. A narrower launch naming the absolute Node executable succeeded; local-only preview readiness is separately recorded."
+    }
+  ],
+  "openGates": [
+    "Full corpus-independent Today/NextLesson metadata path and owner-lock contention",
+    "Cold dev initialization and transport stability; no latency SLA accepted",
+    "L4001-L4004 namespace and deterministic UUID support before batch22",
+    "Remaining HSK4 vocabulary/curriculum, competent human review, rights/publication and mastery evidence"
+  ],
+  "preservedBoundaries": [
+    "No package/source/authoring/manifest change",
+    "No Auth/RLS/migration/dependency/release allowlist/SSOT/engineering-loop change",
+    "No push/merge/deploy/cloud write or paid resource",
+    "No human review/publication/mastery approval"
+  ],
+  "sourceFiles": {
+    "src/app/(study)/schedule/page.tsx": "68caa3593cd7043d73e5676f91c513c386748f61e54a26523a88f8afcbeb3188",
+    "src/modules/curriculum/infrastructure/postgres-curriculum.ts": "2a9634c18315a119513ceb65349345aa69f7c390502cf6304d55396bd5068675",
+    "src/modules/planning/infrastructure/postgres-study.ts": "c32a9955130e70d2c13a899f2759082b849b1a3460436dfdea00c7d62430bede",
+    "tests/database/hsk4-library.test.ts": "5821ac4d0e790316e59a8f4a3e5f4283af3f95dc7fdabc7f30af4a7385044b5f",
+    "tests/database/hsk4-planner.test.ts": "0743b13d9f695ab48052915493358f541ac263e5ddb4e6c5650bdfcfdfcb138a",
+    "tests/hsk24-browser/schedule-refresh.spec.ts": "bdc10bd153c49a6738e1aa62623a2944320e3da1dca5ff306256345d9f047163",
+    "tests/hsk24-browser/today.spec.ts": "ae77ba2769991a57362ef3a7192cb5e5b5f761850ebececda92cafe78cd841f3"
+  },
+  "evidence": {
+    ".local-postgres/hsk24/hsk4-today-planner-before.json": {
+      "sha256": "6b1e7d741f4757bb28a912212dac0a9b8d4682981037b6af46d2e2646b445258",
+      "bytes": 374
+    },
+    ".local-postgres/hsk24/hsk4-today-planner-before.log": {
+      "sha256": "46003184513df3d3422f4d12e660278e136b8ea0ccd774d2755a8cb8b844508c",
+      "bytes": 1044
+    },
+    ".local-postgres/hsk24/hsk4-today-planner-final.json": {
+      "sha256": "3cd5a309d600d1010c49038bb6717199d7ceae77c75129d4b908a61fe6c06d8a",
+      "bytes": 384
+    },
+    ".local-postgres/hsk24/hsk4-today-native-final.log": {
+      "sha256": "b505120ddcfd1e3e6c2464a2e52174ff73885a725dd23ec6d7be3c06e219f5cb",
+      "bytes": 1035
+    },
+    ".local-postgres/hsk24/hsk4-today-library-final.json": {
+      "sha256": "ff524d8982d0101bde2a584d4efc9a32a8e3187b531f348e5acbcc05c68ae382",
+      "bytes": 601
+    },
+    ".local-postgres/hsk24/hsk4-today-unit.log": {
+      "sha256": "d37d32b10da6400d9f206d884791aa227cb3cadb231509ffae7dd2d6db705a84",
+      "bytes": 2477
+    },
+    ".local-postgres/hsk24/hsk4-today-typecheck-final.log": {
+      "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914",
+      "bytes": 57
+    },
+    ".local-postgres/hsk24/hsk4-today-lint-final.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    ".local-postgres/hsk24/hsk4-today-build.log": {
+      "sha256": "c70a85ef8c8577b7eb152ab31bfa0679e78756f9fb4cdb1d54506f943e08147a",
+      "bytes": 2268
+    },
+    ".local-postgres/hsk24/hsk4-today-refresh-before.json": {
+      "sha256": "793039b2d3ded2122d3988ce1fdd565a20c9b3763463837feb5ab9e292bc9de1",
+      "bytes": 9591
+    },
+    ".local-postgres/hsk24/hsk4-today-refresh-before.log": {
+      "sha256": "60c117fae2a2158c64bd6c7f8c06107f4f373d7317e6ce750db872e8d40ffab3",
+      "bytes": 3381
+    },
+    ".local-postgres/hsk24/hsk4-today-refresh-cold-failure.zip": {
+      "sha256": "0fb17bb71001c19c75fdbe03842885618673fb9f6e8a14cbc0646d88a07f72f0",
+      "bytes": 998694
+    },
+    ".local-postgres/hsk24/hsk4-today-refresh-warm-before.json": {
+      "sha256": "392de4fda0d2cc41cfd5c55bb37f7d666d1a27b2478bd68d095d4fb9544c99db",
+      "bytes": 8986
+    },
+    ".local-postgres/hsk24/hsk4-today-refresh-warm-before.log": {
+      "sha256": "661fb198be42c32ae4af07c819dca83872a8ae290ad5b58fa53697f411dfd261",
+      "bytes": 2763
+    },
+    ".local-postgres/hsk24/hsk4-today-refresh-warm-before.zip": {
+      "sha256": "d4e437b3aefaddbeb201777f78f7bd1035330ba6d001bb57392d79dbe62c0a61",
+      "bytes": 2082018
+    },
+    ".local-postgres/hsk24/hsk4-today-refresh-warm-before.spec.ts": {
+      "sha256": "a8c44ce9ead326b02a6e7e1bc5a8ae6f3b60d0f1d2f27a1246c40f48fe8667ee",
+      "bytes": 1802
+    },
+    ".local-postgres/hsk24/hsk4-today-browser-after.json": {
+      "sha256": "98b8783b2dedf4e68e3f8747a36a44a9445c57f478be2bd74d37dba409b38699",
+      "bytes": 11006
+    },
+    ".local-postgres/hsk24/hsk4-today-browser-after.log": {
+      "sha256": "7feb2b3b7093ff370fbb3b537d32aa8b760bc71ced5f7efaa365e05b5f1b18c0",
+      "bytes": 3315
+    },
+    ".local-postgres/hsk24/hsk4-today-player-heading-failure.zip": {
+      "sha256": "4fd098ea7d022fce1b5cc0b1e09421e2d167d0a5fa4a0ff1226d806576ef024e",
+      "bytes": 2116047
+    },
+    ".local-postgres/hsk24/hsk4-today-browser-warm.json": {
+      "sha256": "5b8f455d291b5a10786780145cdebab298213000649c969fff4aa79349b68778",
+      "bytes": 6714
+    },
+    ".local-postgres/hsk24/hsk4-today-browser-warm.log": {
+      "sha256": "90f86fd97efef73eb23dcd6c1aeb6f6e44852786807193b4f5e3bdc4915cf230",
+      "bytes": 4270
+    },
+    ".local-postgres/hsk24/hsk4-today-20261028-before.json": {
+      "sha256": "81704614cc65e3e02a35056d8cea58392714773c4dffec862925352f93989d0f",
+      "bytes": 621080
+    },
+    ".local-postgres/hsk24/hsk4-today-20261028-after.json": {
+      "sha256": "dad61ed7147c787eab9ebcc81cf035fd5cdf505385618bb1040713348274413f",
+      "bytes": 621194
+    },
+    ".local-postgres/hsk24/hsk4-today-database-content-check.json": {
+      "sha256": "5d059773f6af3a3b1145345bd15ad16f2559735f705f5229d3220ede04bf2328",
+      "bytes": 272
+    },
+    ".local-postgres/hsk24/hsk4-today-dev-client-isolation.json": {
+      "sha256": "afd1214bab2a25bbb318f9588686d3d03c804bf998187668780ce119219fae98",
+      "bytes": 836
+    },
+    ".local-postgres/hsk24/hsk4-today-dev-client-artifacts.json": {
+      "sha256": "cc34c6206183fd992515de84fc3438dce8b1136102f31d8924dc72385e281db2",
+      "bytes": 25441
+    },
+    ".local-postgres/hsk24/hsk4-today-dev-client-artifacts.zip": {
+      "sha256": "4ee9574693341d264be6dc222684342b6c1da59bcc19538c8fe12bbce6fdb0a0",
+      "bytes": 7573363
+    },
+    ".local-postgres/hsk24/hsk4-today-production-client-isolation.json": {
+      "sha256": "ad5ebf0fe69f592ae8ae276e8e139df34ef3ea0493b3038eb73e548f9e18bee0",
+      "bytes": 425
+    },
+    ".local-postgres/hsk24/hsk4-today-production-client-artifacts.json": {
+      "sha256": "e8635cc10ae21f9aa68260d5ec8268474acf2d6edc4a5c835d562a5a4b12789f",
+      "bytes": 8151
+    },
+    ".local-postgres/hsk24/hsk4-today-production-client-artifacts.zip": {
+      "sha256": "372936a3c1ab9d0f6101ba2c26becc764768c5ca5ae5b9ec1a53ae5ca9dd4ca8",
+      "bytes": 308673
+    },
+    ".local-postgres/hsk24/hsk4-today-preview-readback.json": {
+      "sha256": "a14b46680242add3435d44ce6e9c70d06a2b10479882a95f1887a6332996e31d",
+      "bytes": 541
+    },
+    ".local-postgres/hsk24/today-db-packages.ts": {
+      "sha256": "f27e5f77c466148817404b80eb8f1225c5d4a2a0112f0b92df8e766436f8c02d",
+      "bytes": 1717
+    },
+    ".local-postgres/hsk24/today-dev-snapshot.py": {
+      "sha256": "2f379e3d2a08061857500bd4bd8caed6360d5919c8b86c18e480292df92dfe5f",
+      "bytes": 2890
+    }
+  },
+  "independentTechnicalReview": {
+    "verdict": "VERIFIED_SCOPED_FUNCTIONAL_REPAIR / FULL_CORPUS_AND_COLD_INITIALIZATION_GATES_OPEN",
+    "receipt": "docs/hsk24/hsk4-today-runtime-technical-review.json",
+    "reviewedPacketCommit": "69918a1ef4a4c2cd5b4c668012fc84b756a86ccb",
+    "closureReady": false
+  }
+}

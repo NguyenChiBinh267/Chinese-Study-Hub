@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "f660b570f90d762146c24e22ccf5ec3cabfd73c1d149a5a47e42ffa2626ae0eb",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-family-meeting",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L317",
+    "version": 2,
+    "versionId": "l317-draft-v2",
+    "title": "Gặp gia đình người bạn",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc lời giới thiệu quan hệ gia đình và hẹn gặp; dùng đúng 见面/结婚.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "见面"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 15,
+      "physicalPage": 16,
+      "printedPage": 13,
+      "section": "task",
+      "entry": "十"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:16:38.137Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-family",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 15,
+          "physicalPage": 16,
+          "printedPage": 13,
+          "section": "task",
+          "entry": "十"
+        },
+        "written": "谈论生活习惯、家庭关系和家庭事务",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-family-topic",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "家庭关系"
+        },
+        "written": "家庭关系",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l317-v-501",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 501"
+        },
+        "written": "阿姨",
+        "pinyin": "āyí",
+        "senseId": "l317-v-501-sense",
+        "ordinal": 501,
+        "note": "3 āyí 名; 阿姨 có thể là em/chị của mẹ hoặc cách xưng hô lịch sự với phụ nữ thế hệ cha mẹ; không tự suy ra quan hệ máu mủ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l317-v-503",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 503"
+        },
+        "written": "爱人",
+        "pinyin": "àiren",
+        "senseId": "l317-v-503-sense",
+        "ordinal": 503,
+        "note": "3 àiren 名; 爱人 trong giới thiệu gia đình ở đây chỉ người phối ngẫu, không phải bất kỳ người mình thích; 人 đọc nhẹ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l317-v-631",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 631"
+        },
+        "written": "夫妻",
+        "pinyin": "fūqī",
+        "senseId": "l317-v-631-sense",
+        "ordinal": 631,
+        "note": "3 fūqī 名; 夫妻 chỉ một cặp vợ chồng; 他们是夫妻 xác định quan hệ giữa hai người, không dùng cho anh chị em. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l317-v-702",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 702"
+        },
+        "written": "见面",
+        "pinyin": "jiànmiàn",
+        "senseId": "l317-v-702-sense",
+        "ordinal": 702,
+        "note": "3 jiànmiàn 动; 见面 thường đi với 跟/和 để nêu người gặp; tân ngữ người không đặt ngay sau toàn từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l317-v-709",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 709"
+        },
+        "written": "结婚",
+        "pinyin": "jiéhūn",
+        "senseId": "l317-v-709-sense",
+        "ordinal": 709,
+        "note": "3 jiéhūn 动; 结婚 là sự kiện lập gia đình; 跟他结婚 chứ không dùng 结婚他. 去年结婚了 nói sự kiện quá khứ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l317-v-841",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 841"
+        },
+        "written": "叔叔",
+        "pinyin": "shūshu",
+        "senseId": "l317-v-841-sense",
+        "ordinal": 841,
+        "note": "3 shūshu 名; 叔叔 có thể chỉ em trai của bố; cũng dùng xưng hô với đàn ông thế hệ cha mẹ. Đây không phải tên mọi người lớn. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-1",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "1"
+        },
+        "written": "阿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 1,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-248",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "248"
+        },
+        "written": "姨",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 248,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-112",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "112"
+        },
+        "written": "结",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 112,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-88",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "88"
+        },
+        "written": "婚",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 88,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-201",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "201"
+        },
+        "written": "叔",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 201,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-separable",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "动词 / 动宾式离合词"
+        },
+        "written": "见面",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l317-c0",
+      "version": 1,
+      "senseId": "l317-v-501-sense",
+      "hanzi": "阿姨",
+      "dictionaryPinyin": "ā yí",
+      "meaning": "dì/cô; cách gọi phụ nữ lớn tuổi hơn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l317-v-501"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l317-c1",
+      "version": 1,
+      "senseId": "l317-v-503-sense",
+      "hanzi": "爱人",
+      "dictionaryPinyin": "ài ren",
+      "meaning": "vợ hoặc chồng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l317-v-503"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l317-c2",
+      "version": 1,
+      "senseId": "l317-v-631-sense",
+      "hanzi": "夫妻",
+      "dictionaryPinyin": "fū qī",
+      "meaning": "vợ chồng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l317-v-631"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l317-c3",
+      "version": 1,
+      "senseId": "l317-v-702-sense",
+      "hanzi": "见面",
+      "dictionaryPinyin": "jiàn miàn",
+      "meaning": "gặp mặt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l317-v-702"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l317-c4",
+      "version": 1,
+      "senseId": "l317-v-709-sense",
+      "hanzi": "结婚",
+      "dictionaryPinyin": "jié hūn",
+      "meaning": "kết hôn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l317-v-709"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l317-c5",
+      "version": 1,
+      "senseId": "l317-v-841-sense",
+      "hanzi": "叔叔",
+      "dictionaryPinyin": "shū shu",
+      "meaning": "chú; cách gọi nam giới thế hệ cha mẹ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l317-v-841"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l317-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 兄妹 xiōngmèi: anh trai và em gái; phối ngẫu là vợ/chồng theo ngữ cảnh, không suy ra giới tính từ 他/她 trong lời kể. 什么…的 ôn cách hỏi thời điểm sự kiện đã biết.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l317-t0",
+      "type": "teaching",
+      "title": "阿姨 · dì/cô; cách gọi phụ nữ lớn tuổi hơn",
+      "text": "阿姨 có thể là em/chị của mẹ hoặc cách xưng hô lịch sự với phụ nữ thế hệ cha mẹ; không tự suy ra quan hệ máu mủ.",
+      "hanzi": "这是我妈妈的妹妹，我叫她阿姨。",
+      "pinyin": "Zhè shì wǒ māma de mèimei, wǒ jiào tā āyí.",
+      "meaning": "Đây là em gái mẹ tôi, tôi gọi là dì.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l317-t1",
+      "type": "teaching",
+      "title": "爱人 · vợ hoặc chồng",
+      "text": "爱人 trong giới thiệu gia đình ở đây chỉ người phối ngẫu, không phải bất kỳ người mình thích; 人 đọc nhẹ.",
+      "hanzi": "这是我的爱人，我们去年结婚了。",
+      "pinyin": "Zhè shì wǒ de àiren, wǒmen qùnián jié hūn le.",
+      "meaning": "Đây là vợ/chồng tôi, chúng tôi kết hôn năm ngoái.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l317-t2",
+      "type": "teaching",
+      "title": "夫妻 · vợ chồng",
+      "text": "夫妻 chỉ một cặp vợ chồng; 他们是夫妻 xác định quan hệ giữa hai người, không dùng cho anh chị em.",
+      "hanzi": "他们是夫妻，不是兄妹。",
+      "pinyin": "Tāmen shì fūqī, bú shì xiōngmèi.",
+      "meaning": "Họ là vợ chồng, không phải anh em.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l317-t3",
+      "type": "teaching",
+      "title": "见面 · gặp mặt",
+      "text": "见面 thường đi với 跟/和 để nêu người gặp; tân ngữ người không đặt ngay sau toàn từ.",
+      "hanzi": "我们周末跟朋友见面。",
+      "pinyin": "Wǒmen zhōumò gēn péngyou jiàn miàn.",
+      "meaning": "Cuối tuần chúng tôi gặp bạn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l317-t4",
+      "type": "teaching",
+      "title": "结婚 · kết hôn",
+      "text": "结婚 là sự kiện lập gia đình; 跟他结婚 chứ không dùng 结婚他. 去年结婚了 nói sự kiện quá khứ.",
+      "hanzi": "叔叔去年结婚了。",
+      "pinyin": "Shūshu qùnián jié hūn le.",
+      "meaning": "Chú kết hôn năm ngoái.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l317-t5",
+      "type": "teaching",
+      "title": "叔叔 · chú; cách gọi nam giới thế hệ cha mẹ",
+      "text": "叔叔 có thể chỉ em trai của bố; cũng dùng xưng hô với đàn ông thế hệ cha mẹ. Đây không phải tên mọi người lớn.",
+      "hanzi": "他是爸爸的弟弟，我叫他叔叔。",
+      "pinyin": "Tā shì bàba de dìdi, wǒ jiào tā shūshu.",
+      "meaning": "Ông ấy là em trai bố tôi, tôi gọi là chú.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l317-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "见面 và 结婚 là kết cấu động–tân có thể tách: 跟朋友见面, 见过一次面, 结了婚. Không nói 见面他; dùng 跟他见面. Trong bài luyện kết cấu 跟…见面; chưa đánh giá mọi dạng tách.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l317-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林：周末跟谁见面？小王：跟叔叔和他的爱人。小林：他们是什么时候结婚的？小王：去年。他们是夫妻。我妈妈的妹妹也来，我叫她阿姨。",
+      "pinyin": "Xiǎo Lín: Zhōumò gēn shéi jiàn miàn? Xiǎo Wáng: Gēn shūshu hé tā de àiren. Xiǎo Lín: Tāmen shì shénme shíhou jié hūn de? Xiǎo Wáng: Qùnián. Tāmen shì fūqī. Wǒ māma de mèimei yě lái, wǒ jiào tā āyí.",
+      "meaning": "Vương sẽ gặp chú và người phối ngẫu vào cuối tuần; họ cưới năm ngoái. Em gái mẹ cũng đến.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l317-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l317-v2-e0"
+    },
+    {
+      "id": "l317-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l317-v2-e1"
+    },
+    {
+      "id": "l317-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l317-v2-e2"
+    },
+    {
+      "id": "l317-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l317-v2-e3"
+    },
+    {
+      "id": "l317-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l317-v2-e4"
+    },
+    {
+      "id": "l317-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l317-v2-e5"
+    },
+    {
+      "id": "l317-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l317-v2-e6"
+    },
+    {
+      "id": "l317-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l317-v2-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l317-v2-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l317-c0",
+      "senseId": "l317-v-501-sense",
+      "keyRef": "l317-v2-k0",
+      "prompt": "Người nói gọi em gái của mẹ: 我叫她□。",
+      "choices": [
+        "爱人",
+        "夫妻",
+        "见面",
+        "结婚",
+        "叔叔",
+        "阿姨"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l317-v2-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l317-c1",
+      "senseId": "l317-v-503-sense",
+      "keyRef": "l317-v2-k1",
+      "prompt": "Giới thiệu người đã kết hôn với mình: 这是我的□。",
+      "choices": [
+        "夫妻",
+        "见面",
+        "结婚",
+        "叔叔",
+        "阿姨",
+        "爱人"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l317-v2-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l317-c2",
+      "senseId": "l317-v-631-sense",
+      "keyRef": "l317-v2-k2",
+      "prompt": "Nêu quan hệ hôn nhân của hai người: 他们是□。",
+      "choices": [
+        "见面",
+        "结婚",
+        "叔叔",
+        "阿姨",
+        "爱人",
+        "夫妻"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l317-v2-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l317-c3",
+      "senseId": "l317-v-702-sense",
+      "keyRef": "l317-v2-k3",
+      "prompt": "Viết pinyin của 见面 trong câu “我们周末跟朋友见面。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l317-v2-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l317-c4",
+      "senseId": "l317-v-709-sense",
+      "keyRef": "l317-v2-k4",
+      "prompt": "Chú tổ chức cưới năm ngoái: 叔叔去年□了。",
+      "choices": [
+        "叔叔",
+        "阿姨",
+        "爱人",
+        "夫妻",
+        "见面",
+        "结婚"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l317-v2-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l317-c5",
+      "senseId": "l317-v-841-sense",
+      "keyRef": "l317-v2-k5",
+      "prompt": "Bố có em trai: 我叫爸爸的弟弟□。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l317-v2-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l317-c0",
+      "senseId": "l317-v-501-sense",
+      "keyRef": "l317-v2-k6",
+      "prompt": "Chú của Vương kết hôn khi nào?",
+      "choices": [
+        "今年",
+        "后年",
+        "去年"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l317-v2-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l317-c3",
+      "senseId": "l317-v-702-sense",
+      "keyRef": "l317-v2-k7",
+      "prompt": "Sắp xếp câu hẹn gặp bạn. Bắt đầu bằng “我们周末”.",
+      "choices": [
+        "见面",
+        "我们周末",
+        "跟朋友"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l317-v2-k0",
+      "version": 1,
+      "exerciseVersionId": "l317-v2-e0",
+      "senseId": "l317-v-501-sense",
+      "accepted": [
+        "阿姨"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "阿姨: dì/cô; cách gọi phụ nữ lớn tuổi hơn. 阿姨 có thể là em/chị của mẹ hoặc cách xưng hô lịch sự với phụ nữ thế hệ cha mẹ; không tự suy ra quan hệ máu mủ. Đây là em gái mẹ tôi, tôi gọi là dì."
+    },
+    {
+      "id": "l317-v2-k1",
+      "version": 1,
+      "exerciseVersionId": "l317-v2-e1",
+      "senseId": "l317-v-503-sense",
+      "accepted": [
+        "爱人"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "爱人: vợ hoặc chồng. 爱人 trong giới thiệu gia đình ở đây chỉ người phối ngẫu, không phải bất kỳ người mình thích; 人 đọc nhẹ. Đây là vợ/chồng tôi, chúng tôi kết hôn năm ngoái."
+    },
+    {
+      "id": "l317-v2-k2",
+      "version": 1,
+      "exerciseVersionId": "l317-v2-e2",
+      "senseId": "l317-v-631-sense",
+      "accepted": [
+        "夫妻"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "夫妻: vợ chồng. 夫妻 chỉ một cặp vợ chồng; 他们是夫妻 xác định quan hệ giữa hai người, không dùng cho anh chị em. Họ là vợ chồng, không phải anh em."
+    },
+    {
+      "id": "l317-v2-k3",
+      "version": 1,
+      "exerciseVersionId": "l317-v2-e3",
+      "senseId": "l317-v-702-sense",
+      "accepted": [
+        "jiàn miàn"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "见面: gặp mặt. 见面 thường đi với 跟/和 để nêu người gặp; tân ngữ người không đặt ngay sau toàn từ. Cuối tuần chúng tôi gặp bạn."
+    },
+    {
+      "id": "l317-v2-k4",
+      "version": 1,
+      "exerciseVersionId": "l317-v2-e4",
+      "senseId": "l317-v-709-sense",
+      "accepted": [
+        "结婚"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "结婚: kết hôn. 结婚 là sự kiện lập gia đình; 跟他结婚 chứ không dùng 结婚他. 去年结婚了 nói sự kiện quá khứ. Chú kết hôn năm ngoái."
+    },
+    {
+      "id": "l317-v2-k5",
+      "version": 1,
+      "exerciseVersionId": "l317-v2-e5",
+      "senseId": "l317-v-841-sense",
+      "accepted": [
+        "叔叔"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "叔叔: chú; cách gọi nam giới thế hệ cha mẹ. 叔叔 có thể chỉ em trai của bố; cũng dùng xưng hô với đàn ông thế hệ cha mẹ. Đây không phải tên mọi người lớn. Ông ấy là em trai bố tôi, tôi gọi là chú."
+    },
+    {
+      "id": "l317-v2-k6",
+      "version": 1,
+      "exerciseVersionId": "l317-v2-e6",
+      "senseId": "l317-v-501-sense",
+      "accepted": [
+        "去年"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 见面 và 结婚 là kết cấu động–tân có thể tách: 跟朋友见面, 见过一次面, 结了婚. Không nói 见面他; dùng 跟他见面. Trong bài luyện kết cấu 跟…见面; chưa đánh giá mọi dạng tách."
+    },
+    {
+      "id": "l317-v2-k7",
+      "version": 1,
+      "exerciseVersionId": "l317-v2-e7",
+      "senseId": "l317-v-702-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 见面 và 结婚 là kết cấu động–tân có thể tách: 跟朋友见面, 见过一次面, 结了婚. Không nói 见面他; dùng 跟他见面. Trong bài luyện kết cấu 跟…见面; chưa đánh giá mọi dạng tách."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

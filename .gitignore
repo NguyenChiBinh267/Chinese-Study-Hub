@@ -4,3 +4,13 @@ node_modules/
 .env.*
 !.env.example
 *.log
+.local-postgres/
+.next/
+out/
+*.tsbuildinfo
+test-results/
+playwright-report/
+supabase/.temp/
+benchmarks/cloud-proof/next-env.d.ts
+benchmarks/cloud-proof/.generated-shared/
+/next-env.d.ts

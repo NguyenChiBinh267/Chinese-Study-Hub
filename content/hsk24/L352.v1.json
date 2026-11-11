@@ -1,0 +1,782 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "b0f38fcd7879931a1d7e0e6e376f9b6fa1f33d23165673338a3daf285abc2c2e",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-belief-evidence",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L352",
+    "version": 1,
+    "versionId": "l352-draft-v1",
+    "title": "Nghe nói, tin và tự kiểm tra",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc nhận định có nguồn và sửa suy đoán khi có thông tin mới.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "看来"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 13,
+      "physicalPage": 14,
+      "printedPage": 11,
+      "section": "task",
+      "entry": "三"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-social",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 13,
+          "physicalPage": 14,
+          "printedPage": 11,
+          "section": "task",
+          "entry": "三"
+        },
+        "written": "日常交往",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-feelings",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "意愿感受"
+        },
+        "written": "意愿感受",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l352-v-902",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 902"
+        },
+        "written": "心里",
+        "pinyin": "xīnlǐ",
+        "senseId": "l352-v-902-sense",
+        "ordinal": 902,
+        "note": "3 xīnlǐ 名; 心里 nói nội tâm hoặc ý nghĩ, không phải vị trí giải phẫu dùng trong y khoa. 心里想 nêu điều nghĩ thầm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l352-v-892",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 101,
+          "physicalPage": 102,
+          "printedPage": 99,
+          "section": "vocabulary",
+          "entry": "ordinal 892"
+        },
+        "written": "相信",
+        "pinyin": "xiāngxìn",
+        "senseId": "l352-v-892-sense",
+        "ordinal": 892,
+        "note": "3 xiāngxìn 动; 相信 là tin người/thông tin, chưa chứng minh thông tin đúng. 我相信你 là thái độ tin tưởng của chủ thể. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l352-v-857",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 100,
+          "physicalPage": 101,
+          "printedPage": 98,
+          "section": "vocabulary",
+          "entry": "ordinal 857"
+        },
+        "written": "听说",
+        "pinyin": "tīngshuō",
+        "senseId": "l352-v-857-sense",
+        "ordinal": 857,
+        "note": "3 tīngshuō 动; 听说 đánh dấu nhận thông tin qua lời người khác; không tự là đã kiểm chứng hay một bài nghe có audio. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l352-v-930",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 930"
+        },
+        "written": "以为",
+        "pinyin": "yǐwéi",
+        "senseId": "l352-v-930-sense",
+        "ordinal": 930,
+        "note": "3 yǐwéi 动; 以为 thường nêu suy nghĩ trước có thể sai; 我以为放假了 chưa khẳng định thực tế nghỉ. Cần đối chiếu câu sau. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l352-v-816",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 816"
+        },
+        "written": "认为",
+        "pinyin": "rènwéi",
+        "senseId": "l352-v-816-sense",
+        "ordinal": 816,
+        "note": "3 rènwéi 动; 认为 nêu quan điểm hay đánh giá; không hàm ý chắc chắn sai như khuynh hướng 以为 trong ví dụ đối chiếu, cũng không tự là chứng cứ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l352-v-730",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 97,
+          "physicalPage": 98,
+          "printedPage": 95,
+          "section": "vocabulary",
+          "entry": "ordinal 730"
+        },
+        "written": "看来",
+        "pinyin": "kànlái",
+        "senseId": "l352-v-730-sense",
+        "ordinal": 730,
+        "note": "3 kànlái 动; 看来 ở đầu câu đưa kết luận từ thông tin hiện có, vẫn có thể sửa khi biết thêm. 不 phải hành động quay đầu nhìn lại. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-233",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "233"
+        },
+        "written": "心",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 233,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-226",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "226"
+        },
+        "written": "相",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 226,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-234",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "234"
+        },
+        "written": "信",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 234,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-seems",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "固定短语 / 看来"
+        },
+        "written": "看来",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l352-c0",
+      "version": 1,
+      "senseId": "l352-v-902-sense",
+      "hanzi": "心里",
+      "dictionaryPinyin": "xīn lǐ",
+      "meaning": "trong lòng/trong suy nghĩ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l352-v-902"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l352-c1",
+      "version": 1,
+      "senseId": "l352-v-892-sense",
+      "hanzi": "相信",
+      "dictionaryPinyin": "xiāng xìn",
+      "meaning": "tin/tin tưởng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l352-v-892"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l352-c2",
+      "version": 1,
+      "senseId": "l352-v-857-sense",
+      "hanzi": "听说",
+      "dictionaryPinyin": "tīng shuō",
+      "meaning": "nghe nói",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l352-v-857"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l352-c3",
+      "version": 1,
+      "senseId": "l352-v-930-sense",
+      "hanzi": "以为",
+      "dictionaryPinyin": "yǐ wéi",
+      "meaning": "tưởng/đã cho rằng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l352-v-930"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l352-c4",
+      "version": 1,
+      "senseId": "l352-v-816-sense",
+      "hanzi": "认为",
+      "dictionaryPinyin": "rèn wéi",
+      "meaning": "cho rằng/nhận định",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l352-v-816"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l352-c5",
+      "version": 1,
+      "senseId": "l352-v-730-sense",
+      "hanzi": "看来",
+      "dictionaryPinyin": "kàn lái",
+      "meaning": "xem ra/có vẻ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l352-v-730"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l352-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 正式 zhèngshì: chính thức; 真话 zhēnhuà: lời thật; 听到 tīngdào: nghe được, chỉ là nội dung đoạn đọc, không phải kiểm thử nghe thực.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l352-t0",
+      "type": "teaching",
+      "title": "心里 · trong lòng/trong suy nghĩ",
+      "text": "心里 nói nội tâm hoặc ý nghĩ, không phải vị trí giải phẫu dùng trong y khoa. 心里想 nêu điều nghĩ thầm.",
+      "hanzi": "我心里有一个问题。",
+      "pinyin": "Wǒ xīnlǐ yǒu yí ge wèntí.",
+      "meaning": "Trong lòng tôi có một thắc mắc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l352-t1",
+      "type": "teaching",
+      "title": "相信 · tin/tin tưởng",
+      "text": "相信 là tin người/thông tin, chưa chứng minh thông tin đúng. 我相信你 là thái độ tin tưởng của chủ thể.",
+      "hanzi": "我相信你说的是真话。",
+      "pinyin": "Wǒ xiāngxìn nǐ shuō de shì zhēnhuà.",
+      "meaning": "Tôi tin điều bạn nói là thật.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l352-t2",
+      "type": "teaching",
+      "title": "听说 · nghe nói",
+      "text": "听说 đánh dấu nhận thông tin qua lời người khác; không tự là đã kiểm chứng hay một bài nghe có audio.",
+      "hanzi": "听说学校明天放假。",
+      "pinyin": "Tīngshuō xuéxiào míngtiān fàng jià.",
+      "meaning": "Nghe nói ngày mai trường nghỉ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l352-t3",
+      "type": "teaching",
+      "title": "以为 · tưởng/đã cho rằng",
+      "text": "以为 thường nêu suy nghĩ trước có thể sai; 我以为放假了 chưa khẳng định thực tế nghỉ. Cần đối chiếu câu sau.",
+      "hanzi": "我以为今天不上课。",
+      "pinyin": "Wǒ yǐwéi jīntiān bú shàng kè.",
+      "meaning": "Tôi tưởng hôm nay không học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l352-t4",
+      "type": "teaching",
+      "title": "认为 · cho rằng/nhận định",
+      "text": "认为 nêu quan điểm hay đánh giá; không hàm ý chắc chắn sai như khuynh hướng 以为 trong ví dụ đối chiếu, cũng không tự là chứng cứ.",
+      "hanzi": "我认为先看通知比较好。",
+      "pinyin": "Wǒ rènwéi xiān kàn tōngzhī bǐjiào hǎo.",
+      "meaning": "Tôi cho rằng xem thông báo trước tốt hơn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l352-t5",
+      "type": "teaching",
+      "title": "看来 · xem ra/có vẻ",
+      "text": "看来 ở đầu câu đưa kết luận từ thông tin hiện có, vẫn có thể sửa khi biết thêm. 不 phải hành động quay đầu nhìn lại.",
+      "hanzi": "看来明天还要上课。",
+      "pinyin": "Kànlái míngtiān hái yào shàng kè.",
+      "meaning": "Xem ra ngày mai vẫn phải đi học.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l352-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "看来 nêu kết luận dựa trên điều vừa biết, chưa chắc chắn tuyệt đối. 在我看来 nêu quan điểm cá nhân; 以为常 đưa niềm tin trước đó có thể sai, không là bằng chứng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l352-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "小林听说学校放假，心里很开心。他说：我以为明天不上课。朋友说：我相信你听到了，但我认为先看正式通知比较好。两人看完通知才说：看来明天还要上课。",
+      "pinyin": "Xiǎo Lín tīngshuō xuéxiào fàng jià, xīnlǐ hěn kāixīn. Tā shuō: Wǒ yǐwéi míngtiān bú shàng kè. Péngyou shuō: Wǒ xiāngxìn nǐ tīngdào le, dàn wǒ rènwéi xiān kàn zhèngshì tōngzhī bǐjiào hǎo. Liǎng rén kàn wán tōngzhī cái shuō: Kànlái míngtiān hái yào shàng kè.",
+      "meaning": "Lâm vui vì nghe tin nghỉ. Bạn tin cậu đã nghe nhưng đề nghị kiểm tra thông báo chính thức. Xem xong họ nhận ra ngày mai vẫn học.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l352-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l352-v1-e0"
+    },
+    {
+      "id": "l352-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l352-v1-e1"
+    },
+    {
+      "id": "l352-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l352-v1-e2"
+    },
+    {
+      "id": "l352-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l352-v1-e3"
+    },
+    {
+      "id": "l352-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l352-v1-e4"
+    },
+    {
+      "id": "l352-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l352-v1-e5"
+    },
+    {
+      "id": "l352-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l352-v1-e6"
+    },
+    {
+      "id": "l352-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l352-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l352-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l352-c0",
+      "senseId": "l352-v-902-sense",
+      "keyRef": "l352-v1-k0",
+      "prompt": "Nêu suy nghĩ nội tâm: 我□有一个问题。",
+      "choices": [
+        "相信",
+        "听说",
+        "以为",
+        "认为",
+        "看来",
+        "心里"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l352-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l352-c1",
+      "senseId": "l352-v-892-sense",
+      "keyRef": "l352-v1-k1",
+      "prompt": "Động từ tin tưởng: 我□你。",
+      "choices": [
+        "听说",
+        "以为",
+        "认为",
+        "看来",
+        "心里",
+        "相信"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l352-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l352-c2",
+      "senseId": "l352-v-857-sense",
+      "keyRef": "l352-v1-k2",
+      "prompt": "Nêu tin nghe người khác kể: □学校明天放假。",
+      "choices": [
+        "以为",
+        "认为",
+        "看来",
+        "心里",
+        "相信",
+        "听说"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l352-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l352-c3",
+      "senseId": "l352-v-930-sense",
+      "keyRef": "l352-v1-k3",
+      "prompt": "Viết pinyin của 以为 trong câu “我以为今天不上课。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l352-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l352-c4",
+      "senseId": "l352-v-816-sense",
+      "keyRef": "l352-v1-k4",
+      "prompt": "Nêu quan điểm hiện tại: 我□先看通知比较好。",
+      "choices": [
+        "看来",
+        "心里",
+        "相信",
+        "听说",
+        "以为",
+        "认为"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l352-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l352-c5",
+      "senseId": "l352-v-730-sense",
+      "keyRef": "l352-v1-k5",
+      "prompt": "Kết luận sau xem thông báo: □明天还要上课。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l352-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l352-c0",
+      "senseId": "l352-v-902-sense",
+      "keyRef": "l352-v1-k6",
+      "prompt": "Sau xem thông báo, họ kết luận gì?",
+      "choices": [
+        "已经确定全校放假",
+        "不用看通知",
+        "明天还要上课"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l352-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l352-c3",
+      "senseId": "l352-v-930-sense",
+      "keyRef": "l352-v1-k7",
+      "prompt": "Xếp nhận định từ thông tin mới, bắt đầu bằng 看来.",
+      "choices": [
+        "明天还要上课",
+        "看来"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l352-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l352-v1-e0",
+      "senseId": "l352-v-902-sense",
+      "accepted": [
+        "心里"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "心里: trong lòng/trong suy nghĩ. 心里 nói nội tâm hoặc ý nghĩ, không phải vị trí giải phẫu dùng trong y khoa. 心里想 nêu điều nghĩ thầm. Trong lòng tôi có một thắc mắc."
+    },
+    {
+      "id": "l352-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l352-v1-e1",
+      "senseId": "l352-v-892-sense",
+      "accepted": [
+        "相信"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "相信: tin/tin tưởng. 相信 là tin người/thông tin, chưa chứng minh thông tin đúng. 我相信你 là thái độ tin tưởng của chủ thể. Tôi tin điều bạn nói là thật."
+    },
+    {
+      "id": "l352-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l352-v1-e2",
+      "senseId": "l352-v-857-sense",
+      "accepted": [
+        "听说"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "听说: nghe nói. 听说 đánh dấu nhận thông tin qua lời người khác; không tự là đã kiểm chứng hay một bài nghe có audio. Nghe nói ngày mai trường nghỉ."
+    },
+    {
+      "id": "l352-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l352-v1-e3",
+      "senseId": "l352-v-930-sense",
+      "accepted": [
+        "yǐ wéi"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "以为: tưởng/đã cho rằng. 以为 thường nêu suy nghĩ trước có thể sai; 我以为放假了 chưa khẳng định thực tế nghỉ. Cần đối chiếu câu sau. Tôi tưởng hôm nay không học."
+    },
+    {
+      "id": "l352-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l352-v1-e4",
+      "senseId": "l352-v-816-sense",
+      "accepted": [
+        "认为"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "认为: cho rằng/nhận định. 认为 nêu quan điểm hay đánh giá; không hàm ý chắc chắn sai như khuynh hướng 以为 trong ví dụ đối chiếu, cũng không tự là chứng cứ. Tôi cho rằng xem thông báo trước tốt hơn."
+    },
+    {
+      "id": "l352-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l352-v1-e5",
+      "senseId": "l352-v-730-sense",
+      "accepted": [
+        "看来"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "看来: xem ra/có vẻ. 看来 ở đầu câu đưa kết luận từ thông tin hiện có, vẫn có thể sửa khi biết thêm. 不 phải hành động quay đầu nhìn lại. Xem ra ngày mai vẫn phải đi học."
+    },
+    {
+      "id": "l352-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l352-v1-e6",
+      "senseId": "l352-v-902-sense",
+      "accepted": [
+        "明天还要上课"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 看来 nêu kết luận dựa trên điều vừa biết, chưa chắc chắn tuyệt đối. 在我看来 nêu quan điểm cá nhân; 以为常 đưa niềm tin trước đó có thể sai, không là bằng chứng."
+    },
+    {
+      "id": "l352-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l352-v1-e7",
+      "senseId": "l352-v-930-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 看来 nêu kết luận dựa trên điều vừa biết, chưa chắc chắn tuyệt đối. 在我看来 nêu quan điểm cá nhân; 以为常 đưa niềm tin trước đó có thể sai, không là bằng chứng."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

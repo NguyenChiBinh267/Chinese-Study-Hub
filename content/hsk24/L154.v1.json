@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "b0453819c673bd08fa93890ecdf7854c0c7378e7f5893ca1ea1ac812ae864285",
+  "course": {
+    "id": "hsk1-local-course",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-one-bb",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L154",
+    "version": 1,
+    "versionId": "l154-draft-v1",
+    "title": "Một bữa ăn đơn giản",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Một bữa ăn đơn giản; đọc hội thoại ngắn, hiểu cách dùng từng mục và thử câu hỏi có phản hồi.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "f05-draft-v1",
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "了"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 5,
+      "physicalPage": 6,
+      "printedPage": 3,
+      "section": "task",
+      "entry": "七"
+    },
+    "targetLevel": 1,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-30T15:10:35.430380Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h1-task-food",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 5,
+          "physicalPage": 6,
+          "printedPage": 3,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "问答饮食喜好",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h1-topic-b044c64322e4",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 58,
+          "physicalPage": 59,
+          "printedPage": 56,
+          "section": "topic",
+          "entry": "食物饮品"
+        },
+        "written": "食物饮品",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l154-v-21",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 21"
+        },
+        "written": "吃",
+        "pinyin": "chī",
+        "senseId": "l154-v-21-sense",
+        "ordinal": 21,
+        "note": "1 chī 动; 吃 nói ăn, khác 喝 uống trong các mẫu đồ ăn/đồ uống này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l154-v-16",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 79,
+          "physicalPage": 80,
+          "printedPage": 77,
+          "section": "vocabulary",
+          "entry": "ordinal 16"
+        },
+        "written": "菜",
+        "pinyin": "cài",
+        "senseId": "l154-v-16-sense",
+        "ordinal": 16,
+        "note": "1 cài 名; 菜 trong 我吃菜 có thể nói rau/món rau; trong câu khác có thể là một món ăn, không tự kết luận mọi 菜 đều chay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l154-v-125",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 82,
+          "physicalPage": 83,
+          "printedPage": 80,
+          "section": "vocabulary",
+          "entry": "ordinal 125"
+        },
+        "written": "米饭",
+        "pinyin": "mǐfàn",
+        "senseId": "l154-v-125-sense",
+        "ordinal": 125,
+        "note": "1 mǐfàn 名; 米饭 chỉ cơm nấu từ gạo, hẹp hơn 饭 dùng cho bữa ăn nói chung. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l154-v-192",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 83,
+          "physicalPage": 84,
+          "printedPage": 81,
+          "section": "vocabulary",
+          "entry": "ordinal 192"
+        },
+        "written": "水",
+        "pinyin": "shuǐ",
+        "senseId": "l154-v-192-sense",
+        "ordinal": 192,
+        "note": "1 shuǐ 名; 水 trong câu là nước để uống; không tự đưa lời khuyên lượng nước hay sức khỏe. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h1-char-22",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "22"
+        },
+        "written": "吃",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 22,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-16",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "16"
+        },
+        "written": "菜",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 16,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-115",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "115"
+        },
+        "written": "米",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 115,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-44",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "44"
+        },
+        "written": "饭",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 44,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h1-char-165",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 355,
+          "physicalPage": 356,
+          "printedPage": 353,
+          "section": "character",
+          "entry": "165"
+        },
+        "written": "水",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 165,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h1-g-154",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 1,
+        "sourceLocator": {
+          "pdfIndex": 387,
+          "physicalPage": 388,
+          "printedPage": 385,
+          "section": "grammar",
+          "entry": "g-387-4"
+        },
+        "written": "了",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l154-c0",
+      "version": 1,
+      "senseId": "l154-v-21-sense",
+      "hanzi": "吃",
+      "dictionaryPinyin": "chī",
+      "meaning": "ăn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l154-v-21"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l154-c1",
+      "version": 1,
+      "senseId": "l154-v-16-sense",
+      "hanzi": "菜",
+      "dictionaryPinyin": "cài",
+      "meaning": "rau; món ăn (theo ngữ cảnh)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l154-v-16"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l154-c2",
+      "version": 1,
+      "senseId": "l154-v-125-sense",
+      "hanzi": "米饭",
+      "dictionaryPinyin": "mǐ fàn",
+      "meaning": "cơm (gạo đã nấu)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l154-v-125"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l154-c3",
+      "version": 1,
+      "senseId": "l154-v-192-sense",
+      "hanzi": "水",
+      "dictionaryPinyin": "shuǐ",
+      "meaning": "nước",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l154-v-192"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l154-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Đi theo F01–F05 rồi L001/L002; đọc các bài HSK1 theo thứ tự hiển thị. Có thể luyện nháp khi điều kiện mastery còn thiếu; không tự cấp mastery từ hoàn tất. ",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l154-t0",
+      "type": "teaching",
+      "title": "吃 · ăn",
+      "text": "吃 nói ăn, khác 喝 uống trong các mẫu đồ ăn/đồ uống này.",
+      "hanzi": "我吃了米饭。",
+      "pinyin": "Wǒ chī le mǐ fàn.",
+      "meaning": "Tôi đã ăn cơm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l154-t1",
+      "type": "teaching",
+      "title": "菜 · rau; món ăn (theo ngữ cảnh)",
+      "text": "菜 trong 我吃菜 có thể nói rau/món rau; trong câu khác có thể là một món ăn, không tự kết luận mọi 菜 đều chay.",
+      "hanzi": "我吃菜。",
+      "pinyin": "Wǒ chī cài.",
+      "meaning": "Tôi ăn rau/món rau.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l154-t2",
+      "type": "teaching",
+      "title": "米饭 · cơm (gạo đã nấu)",
+      "text": "米饭 chỉ cơm nấu từ gạo, hẹp hơn 饭 dùng cho bữa ăn nói chung.",
+      "hanzi": "我喜欢吃米饭。",
+      "pinyin": "Wǒ xǐ huan chī mǐ fàn.",
+      "meaning": "Tôi thích ăn cơm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l154-t3",
+      "type": "teaching",
+      "title": "水 · nước",
+      "text": "水 trong câu là nước để uống; không tự đưa lời khuyên lượng nước hay sức khỏe.",
+      "hanzi": "我喝水。",
+      "pinyin": "Wǒ hē shuǐ.",
+      "meaning": "Tôi uống nước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l154-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "Trong 我吃了米饭, 了 sau động từ nói hành động đã hoàn thành trong ngữ cảnh. Không phải cứ có thời gian quá khứ là mọi câu đều thêm 了. 吃 dùng với đồ ăn, 喝 đã học với đồ uống; 菜/米饭/水 là những đối tượng khác nhau trong các câu.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l154-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "A：你想喝茶吗？\nB：不想，我想喝水。\nA：好。你吃饭了吗？\nB：吃了，我吃了米饭和菜。",
+      "pinyin": "A: Nǐ xiǎng hē chá ma? B: Bù xiǎng, wǒ xiǎng hē shuǐ. A: Hǎo. Nǐ chī fàn le ma? B: Chī le, wǒ chī le mǐ fàn hé cài.",
+      "meaning": "B muốn uống nước, không muốn trà ở tình huống này; B nói đã ăn cơm và rau/món ăn. Không suy chế độ ăn thường xuyên.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l154-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l154-v1-e0"
+    },
+    {
+      "id": "l154-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l154-v1-e1"
+    },
+    {
+      "id": "l154-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l154-v1-e2"
+    },
+    {
+      "id": "l154-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l154-v1-e3"
+    },
+    {
+      "id": "l154-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l154-v1-e4"
+    },
+    {
+      "id": "l154-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l154-v1-e5"
+    },
+    {
+      "id": "l154-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l154-v1-e6"
+    },
+    {
+      "id": "l154-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l154-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l154-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l154-c0",
+      "senseId": "l154-v-21-sense",
+      "keyRef": "l154-v1-k0",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “ăn”: □ (chī). Ngữ cảnh: 我□了米饭。 Chỉ chọn một chữ còn thiếu; giữ nguyên các chữ đã hiện.",
+      "choices": [
+        "叫",
+        "听",
+        "喝",
+        "吃"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l154-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l154-c1",
+      "senseId": "l154-v-16-sense",
+      "keyRef": "l154-v1-k1",
+      "prompt": "Viết pinyin từ điển của 菜 (rau; món ăn (theo ngữ cảnh)).",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l154-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l154-c2",
+      "senseId": "l154-v-125-sense",
+      "keyRef": "l154-v1-k2",
+      "prompt": "Điền đúng mục từ đọc mǐ fàn, nghĩa “cơm (gạo đã nấu)”: 我喜欢吃□。 Chỉ nhập mục từ được hỏi; không chấm mọi cách diễn đạt khác ngoài đề.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l154-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l154-c3",
+      "senseId": "l154-v-192-sense",
+      "keyRef": "l154-v1-k3",
+      "prompt": "Chọn mục từ đọc shuǐ, nghĩa “nước”, trong câu: 我喝□。",
+      "choices": [
+        "吃",
+        "菜",
+        "米饭",
+        "水"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l154-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l154-c2",
+      "senseId": "l154-v-125-sense",
+      "keyRef": "l154-v1-k4",
+      "prompt": "Trong câu “我喜欢吃米饭。”, 米饭 mang nghĩa nào theo bài?",
+      "choices": [
+        "rau; món ăn (theo ngữ cảnh)",
+        "cơm (gạo đã nấu)",
+        "nước",
+        "ăn"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l154-v1-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l154-c3",
+      "senseId": "l154-v-192-sense",
+      "keyRef": "l154-v1-k5",
+      "prompt": "Trong câu “我喝水。”, 水 mang nghĩa nào theo bài?",
+      "choices": [
+        "cơm (gạo đã nấu)",
+        "nước",
+        "ăn",
+        "rau; món ăn (theo ngữ cảnh)"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l154-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l154-c0",
+      "senseId": "l154-v-21-sense",
+      "keyRef": "l154-v1-k6",
+      "prompt": "B muốn uống gì?",
+      "choices": [
+        "茶",
+        "牛奶",
+        "水"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    },
+    {
+      "id": "l154-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l154-c3",
+      "senseId": "l154-v-192-sense",
+      "keyRef": "l154-v1-k7",
+      "prompt": "Xếp các cụm thành câu đã giải thích; không thêm hay bỏ từ.",
+      "choices": [
+        "我",
+        "吃了",
+        "米饭。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": [],
+      "evidenceScope": "CONTEXT_ONLY"
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l154-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l154-v1-e0",
+      "senseId": "l154-v-21-sense",
+      "accepted": [
+        "吃"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 吃 tạo từ 吃. 吃 nói ăn, khác 喝 uống trong các mẫu đồ ăn/đồ uống này. Đây là nhận diện có gợi ý, không chấm viết tay."
+    },
+    {
+      "id": "l154-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l154-v1-e1",
+      "senseId": "l154-v-16-sense",
+      "accepted": [
+        "cài"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "菜 ghi cài. 菜 trong 我吃菜 có thể nói rau/món rau; trong câu khác có thể là một món ăn, không tự kết luận mọi 菜 đều chay."
+    },
+    {
+      "id": "l154-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l154-v1-e2",
+      "senseId": "l154-v-125-sense",
+      "accepted": [
+        "米饭"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc mǐ fàn: 米饭. 米饭 chỉ cơm nấu từ gạo, hẹp hơn 饭 dùng cho bữa ăn nói chung. Tôi thích ăn cơm."
+    },
+    {
+      "id": "l154-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l154-v1-e3",
+      "senseId": "l154-v-192-sense",
+      "accepted": [
+        "水"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đề yêu cầu mục từ đọc shuǐ: 水. 水 trong câu là nước để uống; không tự đưa lời khuyên lượng nước hay sức khỏe. Tôi uống nước."
+    },
+    {
+      "id": "l154-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l154-v1-e4",
+      "senseId": "l154-v-125-sense",
+      "accepted": [
+        "cơm (gạo đã nấu)"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "米饭 chỉ cơm nấu từ gạo, hẹp hơn 饭 dùng cho bữa ăn nói chung. Tôi thích ăn cơm."
+    },
+    {
+      "id": "l154-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l154-v1-e5",
+      "senseId": "l154-v-192-sense",
+      "accepted": [
+        "nước"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "水 trong câu là nước để uống; không tự đưa lời khuyên lượng nước hay sức khỏe. Tôi uống nước."
+    },
+    {
+      "id": "l154-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l154-v1-e6",
+      "senseId": "l154-v-21-sense",
+      "accepted": [
+        "水"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Theo đoạn: 水. B muốn uống nước, không muốn trà ở tình huống này; B nói đã ăn cơm và rau/món ăn. Không suy chế độ ăn thường xuyên."
+    },
+    {
+      "id": "l154-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l154-v1-e7",
+      "senseId": "l154-v-192-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. Trong 我吃了米饭, 了 sau động từ nói hành động đã hoàn thành trong ngữ cảnh. Không phải cứ có thời gian quá khứ là mọi câu đều thêm 了. 吃 dùng với đồ ăn, 喝 đã học với đồ uống; 菜/米饭/水 là những đối tượng khác nhau trong các câu."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

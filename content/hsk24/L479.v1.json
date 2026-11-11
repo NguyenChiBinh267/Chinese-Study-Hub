@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "bd7f058e6b44a1cd6432765f30047b498946bd6b2c22faa681568533d0f49b70",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-four-continuation-ehj",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L479",
+    "version": 1,
+    "versionId": "l479-draft-v1",
+    "title": "Đọc hướng dẫn vẽ và sửa bản nháp",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc hướng dẫn vẽ và sửa bản nháp; đọc tình huống, dùng từ/cấu trúc trong phạm vi bài và nhận diện chữ được chọn.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l401-draft-v1",
+      "l375-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "幅"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 28,
+      "physicalPage": 29,
+      "printedPage": 26,
+      "section": "task",
+      "entry": "二十三"
+    },
+    "targetLevel": 4,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-27T08:57:57.101647Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h4-cont-task-art",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 28,
+          "physicalPage": 29,
+          "printedPage": 26,
+          "section": "task",
+          "entry": "二十三"
+        },
+        "written": "介绍文艺形式、活动、作品",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h4-cont-topic-ff67ab61aa4c",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 67,
+          "physicalPage": 68,
+          "printedPage": 65,
+          "section": "topic",
+          "entry": "文艺形式"
+        },
+        "written": "文艺形式",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l479-v-1006",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 104,
+          "physicalPage": 105,
+          "printedPage": 102,
+          "section": "vocabulary",
+          "entry": "ordinal 1006"
+        },
+        "written": "按",
+        "pinyin": "àn",
+        "senseId": "l479-v-1006-sense",
+        "ordinal": 1006,
+        "note": "4 àn 动、介; 按 trong 按按钮 là ấn, 按说明 là theo chỉ dẫn; bài dạy cả hai ngữ cảnh tách rõ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l479-v-1059",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 105,
+          "physicalPage": 106,
+          "printedPage": 103,
+          "section": "vocabulary",
+          "entry": "ordinal 1059"
+        },
+        "written": "擦",
+        "pinyin": "cā",
+        "senseId": "l479-v-1059-sense",
+        "ordinal": 1059,
+        "note": "4 cā 动; 擦 dùng để lau/xóa bằng ma sát, như 擦桌子、擦掉铅笔字. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l479-v-1086",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1086"
+        },
+        "written": "重",
+        "pinyin": "chóng",
+        "senseId": "l479-v-1086-sense",
+        "ordinal": 1086,
+        "note": "4（5） chóng 副、（动）; 重 chóng trong 重写 là lại; khác zhòng nặng. Bài không dạy nghĩa nặng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l479-v-1105",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 106,
+          "physicalPage": 107,
+          "printedPage": 104,
+          "section": "vocabulary",
+          "entry": "ordinal 1105"
+        },
+        "written": "粗",
+        "pinyin": "cū",
+        "senseId": "l479-v-1105-sense",
+        "ordinal": 1105,
+        "note": "4 cū 形; 粗 ở 笔太粗 chỉ nét/ngòi to; khác 粗心 là bất cẩn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l479-v-1207",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 109,
+          "physicalPage": 110,
+          "printedPage": 107,
+          "section": "vocabulary",
+          "entry": "ordinal 1207"
+        },
+        "written": "幅",
+        "pinyin": "fú",
+        "senseId": "l479-v-1207-sense",
+        "ordinal": 1207,
+        "note": "4 fú 量; 幅 đếm bức tranh/cuộn thư pháp; không phải từ chỉ cái hộp. Nhận diện chữ 幅 trong 幅; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l479-v-1424",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 114,
+          "physicalPage": 115,
+          "printedPage": 112,
+          "section": "vocabulary",
+          "entry": "ordinal 1424"
+        },
+        "written": "棵",
+        "pinyin": "kē",
+        "senseId": "l479-v-1424-sense",
+        "ordinal": 1424,
+        "note": "4 kē 量; 棵 đếm cây có thân/gốc trong phạm vi này; không dùng đếm bức tranh. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h4-char-1",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "1"
+        },
+        "written": "按",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 1,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-21",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "21"
+        },
+        "written": "擦",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 21,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-40",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "40"
+        },
+        "written": "粗",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 40,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-74",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 360,
+          "physicalPage": 361,
+          "printedPage": 358,
+          "section": "character",
+          "entry": "74"
+        },
+        "written": "幅",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 74,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h4-char-171",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 361,
+          "physicalPage": 362,
+          "printedPage": 359,
+          "section": "character",
+          "entry": "171"
+        },
+        "written": "棵",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 171,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h4-cont-g-479",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 4,
+        "sourceLocator": {
+          "pdfIndex": 394,
+          "physicalPage": 395,
+          "printedPage": 392,
+          "section": "grammar",
+          "entry": "专用名量词：打、袋、棵、台、幅"
+        },
+        "written": "幅",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l479-c0",
+      "version": 1,
+      "senseId": "l479-v-1006-sense",
+      "hanzi": "按",
+      "dictionaryPinyin": "àn",
+      "meaning": "ấn; theo",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l479-v-1006"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l479-c1",
+      "version": 1,
+      "senseId": "l479-v-1059-sense",
+      "hanzi": "擦",
+      "dictionaryPinyin": "cā",
+      "meaning": "lau, xóa bằng chà",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l479-v-1059"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l479-c2",
+      "version": 1,
+      "senseId": "l479-v-1086-sense",
+      "hanzi": "重",
+      "dictionaryPinyin": "chóng",
+      "meaning": "lại, làm lại",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l479-v-1086"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l479-c3",
+      "version": 1,
+      "senseId": "l479-v-1105-sense",
+      "hanzi": "粗",
+      "dictionaryPinyin": "cū",
+      "meaning": "thô, to nét",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l479-v-1105"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l479-c4",
+      "version": 1,
+      "senseId": "l479-v-1207-sense",
+      "hanzi": "幅",
+      "dictionaryPinyin": "fú",
+      "meaning": "bức (lượng từ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l479-v-1207"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l479-c5",
+      "version": 1,
+      "senseId": "l479-v-1424-sense",
+      "hanzi": "棵",
+      "dictionaryPinyin": "kē",
+      "meaning": "cây (lượng từ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l479-v-1424"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l479-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn L401–404, trật tự chủ ngữ–thời gian–động từ–tân ngữ, 了, 的 và câu 把. HSK1–3 còn thiếu kỹ năng; đây là luyện nháp, không tự cấp mastery. 按钮 ànniǔ: nút; 铅笔 qiānbǐ: bút chì; 线条 xiàntiáo: nét; 挡住 dǎng zhù: che; 电子版 diànzǐbǎn: bản điện tử.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l479-t0",
+      "type": "teaching",
+      "title": "按 · ấn; theo",
+      "text": "按 trong 按按钮 là ấn, 按说明 là theo chỉ dẫn; bài dạy cả hai ngữ cảnh tách rõ.",
+      "hanzi": "请按这个按钮。",
+      "pinyin": "Qǐng àn zhè ge ànniǔ.",
+      "meaning": "Hãy ấn nút này.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l479-t1",
+      "type": "teaching",
+      "title": "擦 · lau, xóa bằng chà",
+      "text": "擦 dùng để lau/xóa bằng ma sát, như 擦桌子、擦掉铅笔字.",
+      "hanzi": "先把桌子擦干净。",
+      "pinyin": "Xiān bǎ zhuōzi cā gānjìng.",
+      "meaning": "Hãy lau bàn sạch trước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l479-t2",
+      "type": "teaching",
+      "title": "重 · lại, làm lại",
+      "text": "重 chóng trong 重写 là lại; khác zhòng nặng. Bài không dạy nghĩa nặng.",
+      "hanzi": "写错以后可以重写。",
+      "pinyin": "Xiě cuò yǐhòu kěyǐ chóng xiě.",
+      "meaning": "Viết sai có thể viết lại.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l479-t3",
+      "type": "teaching",
+      "title": "粗 · thô, to nét",
+      "text": "粗 ở 笔太粗 chỉ nét/ngòi to; khác 粗心 là bất cẩn.",
+      "hanzi": "这支笔画出的线很粗。",
+      "pinyin": "Zhè zhī bǐ huà chū de xiàn hěn cū.",
+      "meaning": "Bút này vẽ nét rất to.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l479-t4",
+      "type": "teaching",
+      "title": "幅 · bức (lượng từ)",
+      "text": "幅 đếm bức tranh/cuộn thư pháp; không phải từ chỉ cái hộp. Nhận diện chữ 幅 trong 幅; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay.",
+      "hanzi": "墙上挂着一幅画。",
+      "pinyin": "Qiáng shàng guàzhe yì fú huà.",
+      "meaning": "Tường treo một bức tranh.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l479-t5",
+      "type": "teaching",
+      "title": "棵 · cây (lượng từ)",
+      "text": "棵 đếm cây có thân/gốc trong phạm vi này; không dùng đếm bức tranh.",
+      "hanzi": "画里有一棵树。",
+      "pinyin": "Huà lǐ yǒu yì kē shù.",
+      "meaning": "Trong tranh có một cây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l479-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "幅 đếm tranh/thư pháp: 一幅画; 棵 đếm cây: 一棵树. Không dùng 个 thay mọi lượng từ trong bài mục tiêu. Một tờ giấy 张 giấy có thể mang một bức tranh 幅画, cần xem danh từ theo sau.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l479-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "美术课上，学生按说明画一幅画，画里要有一棵树。小白的笔太粗，线条挡住了树叶。他先擦掉几条线，再重写旁边的说明。老师提醒保存电子版时先按按钮确认，“重写”的“重”读chóng，不读zhòng。",
+      "pinyin": "Měishù kè shàng, xuésheng àn shuōmíng huà yì fú huà, huà lǐ yào yǒu yì kē shù. Xiǎo Bái de bǐ tài cū, xiàntiáo dǎng zhù le shùyè. Tā xiān cā diào jǐ tiáo xiàn, zài chóng xiě pángbiān de shuōmíng. Lǎoshī tíxǐng bǎocún diànzǐbǎn shí xiān àn ànniǔ quèrèn, “chóng xiě” de “chóng” dú chóng, bù dú zhòng.",
+      "meaning": "Lớp vẽ một tranh có cây. Bạch dùng bút nét to che lá, xóa vài nét rồi viết lại chú thích. Thầy nhắc xác nhận khi lưu bản điện tử và phân biệt chóng làm lại với zhòng nặng.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l479-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l479-v1-e0"
+    },
+    {
+      "id": "l479-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l479-v1-e1"
+    },
+    {
+      "id": "l479-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l479-v1-e2"
+    },
+    {
+      "id": "l479-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l479-v1-e3"
+    },
+    {
+      "id": "l479-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l479-v1-e4"
+    },
+    {
+      "id": "l479-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l479-v1-e5"
+    },
+    {
+      "id": "l479-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l479-v1-e6"
+    },
+    {
+      "id": "l479-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l479-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l479-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l479-c0",
+      "senseId": "l479-v-1006-sense",
+      "keyRef": "l479-v1-k0",
+      "prompt": "Chọn mục từ của bài có nghĩa “ấn; theo” để điền câu: 请□这个按钮。",
+      "choices": [
+        "擦",
+        "重",
+        "粗",
+        "幅",
+        "棵",
+        "按"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l479-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l479-c1",
+      "senseId": "l479-v-1059-sense",
+      "keyRef": "l479-v1-k1",
+      "prompt": "Ghi pinyin của 擦 trong câu “先把桌子擦干净。”, theo nghĩa “lau, xóa bằng chà”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l479-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l479-c2",
+      "senseId": "l479-v-1086-sense",
+      "keyRef": "l479-v1-k2",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “lại, làm lại”: 写错以后可以□写。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l479-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l479-c3",
+      "senseId": "l479-v-1105-sense",
+      "keyRef": "l479-v1-k3",
+      "prompt": "Chọn mục từ của bài có nghĩa “thô, to nét” để điền câu: 这支笔画出的线很□。",
+      "choices": [
+        "幅",
+        "棵",
+        "按",
+        "擦",
+        "重",
+        "粗"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l479-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l479-c4",
+      "senseId": "l479-v-1207-sense",
+      "keyRef": "l479-v1-k4",
+      "prompt": "Nhận diện chữ trong từ mang nghĩa “bức (lượng từ)”: □ (fú). Ngữ cảnh: 墙上挂着一□画。",
+      "choices": [
+        "福",
+        "副",
+        "辐",
+        "幅"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l479-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l479-c5",
+      "senseId": "l479-v-1424-sense",
+      "keyRef": "l479-v1-k5",
+      "prompt": "Điền đúng mục từ của bài vào □, nghĩa “cây (lượng từ)”: 画里有一□树。 Chỉ nhập từ, không nhập cả câu.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l479-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l479-c0",
+      "senseId": "l479-v-1006-sense",
+      "keyRef": "l479-v1-k6",
+      "prompt": "小白为什么擦掉几条线？",
+      "choices": [
+        "画里不准有树。",
+        "老师要求删掉全部材料。",
+        "线太粗，挡住了树叶。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l479-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l479-c3",
+      "senseId": "l479-v-1105-sense",
+      "keyRef": "l479-v1-k7",
+      "prompt": "Sắp xếp các cụm theo cấu trúc vừa học; giữ nguyên cụm, không thêm/bớt từ.",
+      "choices": [
+        "墙上",
+        "挂着",
+        "一幅画。"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l479-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l479-v1-e0",
+      "senseId": "l479-v-1006-sense",
+      "accepted": [
+        "按"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "按: ấn; theo. 按 trong 按按钮 là ấn, 按说明 là theo chỉ dẫn; bài dạy cả hai ngữ cảnh tách rõ. Hãy ấn nút này."
+    },
+    {
+      "id": "l479-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l479-v1-e1",
+      "senseId": "l479-v-1059-sense",
+      "accepted": [
+        "cā"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc cā. 擦 dùng để lau/xóa bằng ma sát, như 擦桌子、擦掉铅笔字."
+    },
+    {
+      "id": "l479-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l479-v1-e2",
+      "senseId": "l479-v-1086-sense",
+      "accepted": [
+        "重"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 重. 重 chóng trong 重写 là lại; khác zhòng nặng. Bài không dạy nghĩa nặng. Viết sai có thể viết lại."
+    },
+    {
+      "id": "l479-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l479-v1-e3",
+      "senseId": "l479-v-1105-sense",
+      "accepted": [
+        "粗"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "粗: thô, to nét. 粗 ở 笔太粗 chỉ nét/ngòi to; khác 粗心 là bất cẩn. Bút này vẽ nét rất to."
+    },
+    {
+      "id": "l479-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l479-v1-e4",
+      "senseId": "l479-v-1207-sense",
+      "accepted": [
+        "幅"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Chữ 幅 tạo từ 幅. 幅 đếm bức tranh/cuộn thư pháp; không phải từ chỉ cái hộp. Nhận diện chữ 幅 trong 幅; bài luyện nhận diện có hỗ trợ nghĩa/pinyin, chưa kiểm tra viết tay."
+    },
+    {
+      "id": "l479-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l479-v1-e5",
+      "senseId": "l479-v-1424-sense",
+      "accepted": [
+        "棵"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Trong phạm vi mục từ đã học: 棵. 棵 đếm cây có thân/gốc trong phạm vi này; không dùng đếm bức tranh. Trong tranh có một cây."
+    },
+    {
+      "id": "l479-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l479-v1-e6",
+      "senseId": "l479-v-1006-sense",
+      "accepted": [
+        "线太粗，挡住了树叶。"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Dựa vào chi tiết trong đoạn: 线太粗，挡住了树叶。. Lớp vẽ một tranh có cây. Bạch dùng bút nét to che lá, xóa vài nét rồi viết lại chú thích. Thầy nhắc xác nhận khi lưu bản điện tử và phân biệt chóng làm lại với zhòng nặng."
+    },
+    {
+      "id": "l479-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l479-v1-e7",
+      "senseId": "l479-v-1105-sense",
+      "accepted": [
+        "0,1,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 幅 đếm tranh/thư pháp: 一幅画; 棵 đếm cây: 一棵树. Không dùng 个 thay mọi lượng từ trong bài mục tiêu. Một tờ giấy 张 giấy có thể mang một bức tranh 幅画, cần xem danh từ theo sau."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

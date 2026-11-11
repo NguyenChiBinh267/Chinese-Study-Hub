@@ -1,0 +1,1124 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "fd141fad645bf9b269ea03dce1e8a3ab35d510f680979b7cd9e34c72c588981e",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "weather-choices",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L284",
+    "version": 1,
+    "versionId": "l284-draft-v1",
+    "title": "Chẩn đoán mẫu chữ và ngữ cảnh · 10",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Chẩn đoán mẫu chữ và ngữ cảnh đã học; kết quả từng câu, không chứng nhận trình độ.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l215-draft-v2",
+      "l216-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 8,
+      "physicalPage": 9,
+      "printedPage": 6,
+      "section": "task",
+      "entry": "四"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-weather",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 8,
+          "physicalPage": 9,
+          "printedPage": 6,
+          "section": "task",
+          "entry": "四"
+        },
+        "written": "介绍天气基本情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-events",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 8,
+          "physicalPage": 9,
+          "printedPage": 6,
+          "section": "task",
+          "entry": "二"
+        },
+        "written": "问答事件情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-weather",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "基本信息 / 环境信息 / 天气"
+        },
+        "written": "天气",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-events",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "基本信息 / 事件信息"
+        },
+        "written": "事件信息",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l215-v-420",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 420"
+        },
+        "written": "晴",
+        "pinyin": "qíng",
+        "senseId": "l215-v-420-sense",
+        "ordinal": 420,
+        "note": "2 qíng 形; 晴 nói trạng thái trời quang; không có nghĩa chắc chắn nóng. Trời quang vẫn có thể lạnh. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-475",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 475"
+        },
+        "written": "阴",
+        "pinyin": "yīn",
+        "senseId": "l215-v-475-sense",
+        "ordinal": 475,
+        "note": "2 yīn 形; 阴 nói trời nhiều mây/âm u, chưa tự cho biết có mưa. Đừng tự thêm thông tin mưa vào đáp án. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-384",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 384"
+        },
+        "written": "快",
+        "pinyin": "kuài",
+        "senseId": "l215-v-384-sense",
+        "ordinal": 384,
+        "note": "2 kuài 形、副; 快 ở đây là tốc độ nhanh; khác 快要 chỉ sắp xảy ra. ‘Nhanh’ luôn cần hiểu hoạt động đang nói. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-397",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 397"
+        },
+        "written": "慢",
+        "pinyin": "màn",
+        "senseId": "l215-v-397-sense",
+        "ordinal": 397,
+        "note": "2 màn 形; 慢 nói tốc độ thấp; không tự đồng nghĩa với trễ giờ. 走得慢 là đi chậm, 得 dẫn phần mô tả mức độ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-476",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 476"
+        },
+        "written": "因为",
+        "pinyin": "yīnwèi",
+        "senseId": "l215-v-476-sense",
+        "ordinal": 476,
+        "note": "2 yīnwèi 介、连; 因为 giới thiệu nguyên nhân được nêu trong lời nói. Ở đây luyện liên từ nối mệnh đề, không phân tích mọi cách dùng giới từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l215-v-439",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 439"
+        },
+        "written": "所以",
+        "pinyin": "suǒyǐ",
+        "senseId": "l215-v-439-sense",
+        "ordinal": 439,
+        "note": "2 suǒyǐ 连; 所以 đưa phần kết quả, không đặt vào chỗ nêu nguyên nhân. Có thể đi với 因为 trong mẫu đã học. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l216-v-472",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 472"
+        },
+        "written": "已经",
+        "pinyin": "yǐjīng",
+        "senseId": "l216-v-472-sense",
+        "ordinal": 472,
+        "note": "2 yǐjīng 副; 已经 đặt trước động từ, nhấn mạnh việc đã xảy ra trước mốc đang nói. Không dùng thay 快要 cho việc chưa bắt đầu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l216-v-378",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 378"
+        },
+        "written": "开始",
+        "pinyin": "kāishǐ",
+        "senseId": "l216-v-378-sense",
+        "ordinal": 378,
+        "note": "2 kāishǐ 动、名; 开始 có thể là động từ hoặc danh từ; ở đây nói hoạt động bắt đầu, không phải làm xong. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l216-v-386",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 386"
+        },
+        "written": "快要",
+        "pinyin": "kuàiyào",
+        "senseId": "l216-v-386-sense",
+        "ordinal": 386,
+        "note": "2 kuàiyào 副; 快要 cho biết rất gần thời điểm xảy ra; chưa xác nhận đã bắt đầu. Mẫu thường đi với 了 cuối câu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l216-v-448",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 448"
+        },
+        "written": "完",
+        "pinyin": "wán",
+        "senseId": "l216-v-448-sense",
+        "ordinal": 448,
+        "note": "2 wán 动; 完 sau động từ nói đạt kết quả xong: 看完. 看了 chỉ đã đọc, chưa tự bảo đảm đọc hết. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l216-v-365",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 365"
+        },
+        "written": "记得",
+        "pinyin": "jìde",
+        "senseId": "l216-v-365-sense",
+        "ordinal": 365,
+        "note": "2 jìde 动; 记得 thường chỉ giữ được thông tin trong trí nhớ; không phải mọi cách học thuộc. 得 trong từ này đọc nhẹ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l216-v-452",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 452"
+        },
+        "written": "忘",
+        "pinyin": "wàng",
+        "senseId": "l216-v-452-sense",
+        "ordinal": 452,
+        "note": "2 wàng 动; 忘 đối lập với 记得. 别忘了 là lời nhắc đừng quên, không khẳng định người kia đã quên. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-65",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "65"
+        },
+        "written": "晴",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 65,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-108",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "108"
+        },
+        "written": "阴",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 108,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-45",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "45"
+        },
+        "written": "快",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 45,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-55",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "55"
+        },
+        "written": "慢",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 55,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-107",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "107"
+        },
+        "written": "因",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 107,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-94",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "94"
+        },
+        "written": "为",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 94,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-81",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "81"
+        },
+        "written": "所",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 81,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-105",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "105"
+        },
+        "written": "已",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 105,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-38",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "38"
+        },
+        "written": "经",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 38,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-73",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "73"
+        },
+        "written": "始",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 73,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-88",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "88"
+        },
+        "written": "完",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 88,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-32",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "32"
+        },
+        "written": "记",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 32,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-92",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "92"
+        },
+        "written": "忘",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 92,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-because",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 390,
+          "physicalPage": 391,
+          "printedPage": 388,
+          "section": "grammar",
+          "entry": "复句 / 因果复句"
+        },
+        "written": "因为……，所以……",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-g-imminent",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "固定格式 / 要/快要/就要……了"
+        },
+        "written": "要/快要/就要……了",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l215-c3",
+      "version": 1,
+      "senseId": "l215-v-397-sense",
+      "hanzi": "慢",
+      "dictionaryPinyin": "màn",
+      "meaning": "chậm",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l215-v-397"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l215-c4",
+      "version": 1,
+      "senseId": "l215-v-476-sense",
+      "hanzi": "因为",
+      "dictionaryPinyin": "yīn wèi",
+      "meaning": "vì, bởi vì",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l215-v-476"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l215-c5",
+      "version": 1,
+      "senseId": "l215-v-439-sense",
+      "hanzi": "所以",
+      "dictionaryPinyin": "suǒ yǐ",
+      "meaning": "nên, cho nên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l215-v-439"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l216-c1",
+      "version": 1,
+      "senseId": "l216-v-378-sense",
+      "hanzi": "开始",
+      "dictionaryPinyin": "kāi shǐ",
+      "meaning": "bắt đầu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l216-v-378"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l216-c3",
+      "version": 1,
+      "senseId": "l216-v-448-sense",
+      "hanzi": "完",
+      "dictionaryPinyin": "wán",
+      "meaning": "xong, hoàn tất",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l216-v-448"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l216-c4",
+      "version": 1,
+      "senseId": "l216-v-365-sense",
+      "hanzi": "记得",
+      "dictionaryPinyin": "jì de",
+      "meaning": "nhớ, còn nhớ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l216-v-365"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l284-guide",
+      "type": "teaching",
+      "title": "Chẩn đoán mẫu · không phải đề HSK",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l284-reminder0",
+      "type": "teaching",
+      "title": "慢 · chậm",
+      "text": "慢 nói tốc độ thấp; không tự đồng nghĩa với trễ giờ. 走得慢 là đi chậm, 得 dẫn phần mô tả mức độ.",
+      "hanzi": "爷爷走得很慢。",
+      "pinyin": "Yéye zǒu de hěn màn.",
+      "meaning": "Ông nội đi rất chậm.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l284-reminder1",
+      "type": "teaching",
+      "title": "因为 · vì, bởi vì",
+      "text": "因为 giới thiệu nguyên nhân được nêu trong lời nói. Ở đây luyện liên từ nối mệnh đề, không phân tích mọi cách dùng giới từ.",
+      "hanzi": "因为今天很冷，我不去游泳。",
+      "pinyin": "Yīnwèi jīntiān hěn lěng, wǒ bú qù yóuyǒng.",
+      "meaning": "Vì hôm nay lạnh, tôi không đi bơi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l284-reminder2",
+      "type": "teaching",
+      "title": "所以 · nên, cho nên",
+      "text": "所以 đưa phần kết quả, không đặt vào chỗ nêu nguyên nhân. Có thể đi với 因为 trong mẫu đã học.",
+      "hanzi": "今天很冷，所以我们在家。",
+      "pinyin": "Jīntiān hěn lěng, suǒyǐ wǒmen zài jiā.",
+      "meaning": "Hôm nay lạnh nên chúng tôi ở nhà.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l284-reminder3",
+      "type": "teaching",
+      "title": "开始 · bắt đầu",
+      "text": "开始 có thể là động từ hoặc danh từ; ở đây nói hoạt động bắt đầu, không phải làm xong.",
+      "hanzi": "考试九点开始。",
+      "pinyin": "Kǎoshì jiǔ diǎn kāishǐ.",
+      "meaning": "Bài kiểm tra bắt đầu lúc chín giờ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l284-reminder4",
+      "type": "teaching",
+      "title": "完 · xong, hoàn tất",
+      "text": "完 sau động từ nói đạt kết quả xong: 看完. 看了 chỉ đã đọc, chưa tự bảo đảm đọc hết.",
+      "hanzi": "我看完这本书了。",
+      "pinyin": "Wǒ kàn wán zhè běn shū le.",
+      "meaning": "Tôi đọc xong quyển sách này rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l284-reminder5",
+      "type": "teaching",
+      "title": "记得 · nhớ, còn nhớ",
+      "text": "记得 thường chỉ giữ được thông tin trong trí nhớ; không phải mọi cách học thuộc. 得 trong từ này đọc nhẹ.",
+      "hanzi": "我记得明天有考试。",
+      "pinyin": "Wǒ jìde míngtiān yǒu kǎoshì.",
+      "meaning": "Tôi nhớ ngày mai có bài kiểm tra.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l284-context0",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：今天是晴天，我们去游泳吧？乙：是晴天，但是很冷。甲：那我们去书店吧。乙：好，因为书店离这里远，所以我们坐地铁去。",
+      "pinyin": "Jiǎ: Jīntiān shì qíngtiān, wǒmen qù yóuyǒng ba? Yǐ: Shì qíngtiān, dànshì hěn lěng. Jiǎ: Nà wǒmen qù shūdiàn ba. Yǐ: Hǎo, yīnwèi shūdiàn lí zhèlǐ yuǎn, suǒyǐ wǒmen zuò dìtiě qù.",
+      "meaning": "A: Hôm nay trời quang, đi bơi nhé? B: Trời quang nhưng rất lạnh. A: Vậy đến hiệu sách nhé. B: Được, vì hiệu sách xa đây nên chúng ta đi tàu điện ngầm.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l284-context1",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：考试快要开始了，你记得拿书吗？乙：记得，我已经拿来了。甲：这本书你看完了吗？乙：还没有，今天我想看完。",
+      "pinyin": "Jiǎ: Kǎoshì kuàiyào kāishǐ le, nǐ jìde ná shū ma? Yǐ: Jìde, wǒ yǐjīng ná lái le. Jiǎ: Zhè běn shū nǐ kàn wán le ma? Yǐ: Hái méiyǒu, jīntiān wǒ xiǎng kàn wán.",
+      "meaning": "A: Bài kiểm tra sắp bắt đầu, bạn nhớ lấy sách không? B: Nhớ, tôi lấy đến rồi. A: Bạn đọc xong quyển sách này chưa? B: Chưa, hôm nay tôi muốn đọc xong.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l284-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l284-e0"
+    },
+    {
+      "id": "l284-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l284-e1"
+    },
+    {
+      "id": "l284-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l284-e2"
+    },
+    {
+      "id": "l284-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l284-e3"
+    },
+    {
+      "id": "l284-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l284-e4"
+    },
+    {
+      "id": "l284-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l284-e5"
+    },
+    {
+      "id": "l284-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l284-e6"
+    },
+    {
+      "id": "l284-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l284-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l284-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l215-c3",
+      "senseId": "l215-v-397-sense",
+      "keyRef": "l284-k0",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “chậm” (màn) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "妻",
+        "情",
+        "晴",
+        "慢"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l284-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l215-c4",
+      "senseId": "l215-v-476-sense",
+      "keyRef": "l284-k1",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “vì, bởi vì” (yīn wèi) viết □为. Điền chữ nào vào □?",
+      "choices": [
+        "地",
+        "等",
+        "因",
+        "但"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l284-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l215-c5",
+      "senseId": "l215-v-439-sense",
+      "keyRef": "l284-k2",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “nên, cho nên” (suǒ yǐ) viết □以. Điền chữ nào vào □?",
+      "choices": [
+        "往",
+        "所",
+        "万",
+        "网"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l284-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l216-c1",
+      "senseId": "l216-v-378-sense",
+      "keyRef": "l284-k3",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “bắt đầu” (kāi shǐ) viết 开□. Điền chữ nào vào □?",
+      "choices": [
+        "始",
+        "所",
+        "疼",
+        "踢"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l284-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l216-c3",
+      "senseId": "l216-v-448-sense",
+      "keyRef": "l284-k4",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “xong, hoàn tất” (wán) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "舞",
+        "希",
+        "洗",
+        "完"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l284-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l216-c4",
+      "senseId": "l216-v-365-sense",
+      "keyRef": "l284-k5",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “nhớ, còn nhớ” (jì de) viết □得. Điền chữ nào vào □?",
+      "choices": [
+        "就",
+        "咖",
+        "记",
+        "酒"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l284-e6",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l215-c3",
+      "senseId": "l215-v-397-sense",
+      "keyRef": "l284-k6",
+      "prompt": "Ôn ngữ cảnh đã học · 7: Xếp câu: hôm nay lạnh nên chúng tôi ở nhà.",
+      "choices": [
+        "所以",
+        "我们在家",
+        "今天很冷"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l284-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l216-c3",
+      "senseId": "l216-v-448-sense",
+      "keyRef": "l284-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Xếp câu: phim sắp bắt đầu rồi.",
+      "choices": [
+        "开始了",
+        "电影",
+        "快要"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l284-k0",
+      "version": 1,
+      "exerciseVersionId": "l284-e0",
+      "senseId": "l215-v-397-sense",
+      "accepted": [
+        "慢"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "慢 · màn · chậm. Chữ cần nhận diện là 慢."
+    },
+    {
+      "id": "l284-k1",
+      "version": 1,
+      "exerciseVersionId": "l284-e1",
+      "senseId": "l215-v-476-sense",
+      "accepted": [
+        "因"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "因为 · yīn wèi · vì, bởi vì. Chữ cần nhận diện là 因."
+    },
+    {
+      "id": "l284-k2",
+      "version": 1,
+      "exerciseVersionId": "l284-e2",
+      "senseId": "l215-v-439-sense",
+      "accepted": [
+        "所"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "所以 · suǒ yǐ · nên, cho nên. Chữ cần nhận diện là 所."
+    },
+    {
+      "id": "l284-k3",
+      "version": 1,
+      "exerciseVersionId": "l284-e3",
+      "senseId": "l216-v-378-sense",
+      "accepted": [
+        "始"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "开始 · kāi shǐ · bắt đầu. Chữ cần nhận diện là 始."
+    },
+    {
+      "id": "l284-k4",
+      "version": 1,
+      "exerciseVersionId": "l284-e4",
+      "senseId": "l216-v-448-sense",
+      "accepted": [
+        "完"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "完 · wán · xong, hoàn tất. Chữ cần nhận diện là 完."
+    },
+    {
+      "id": "l284-k5",
+      "version": 1,
+      "exerciseVersionId": "l284-e5",
+      "senseId": "l216-v-365-sense",
+      "accepted": [
+        "记"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "记得 · jì de · nhớ, còn nhớ. Chữ cần nhận diện là 记."
+    },
+    {
+      "id": "l284-k6",
+      "version": 1,
+      "exerciseVersionId": "l284-e6",
+      "senseId": "l215-v-397-sense",
+      "accepted": [
+        "2,0,1"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 因为 dẫn lý do, 所以 dẫn kết quả: 因为冷，所以不去. Câu biểu đạt lý do người nói nêu, không biến mọi tình huống cùng xảy ra thành quan hệ nhân quả."
+    },
+    {
+      "id": "l284-k7",
+      "version": 1,
+      "exerciseVersionId": "l284-e7",
+      "senseId": "l216-v-448-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 快要 + hoạt động + 了 báo việc sắp xảy ra. Phân biệt với 已经 là đã xảy ra và 完 chỉ kết quả làm xong."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

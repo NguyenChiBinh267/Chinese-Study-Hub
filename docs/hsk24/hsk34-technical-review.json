@@ -1,0 +1,119 @@
+{
+  "verdict": "TECHNICAL_PASS",
+  "recordedAt": "2026-10-26T16:20:20.888481+00:00",
+  "reviewedSourceCommit": "ceab4739be378ebe413a0b8b20d0620c5c09ac31",
+  "reviewedDocumentationCommit": "8c2d06862999a908d838cade2d29e134d78ba9a7",
+  "HSK3FullRuntimeSourceCommit": "d284063a0b01b7c105b1f2366499bcff03dc398c",
+  "baseline": "55870a2962390df07c68cd3476f38c87fc80f0dd",
+  "reviewerProcess": "/root/hsk34_final_independent_review",
+  "role": "fresh separate read-only technical reviewer",
+  "reviewMethod": "Independent inspection of Git source, actual evidence bytes and counters, package hashes, pinned PDF and client artifacts; no test reruns or file/database mutations.",
+  "reviewedVerificationSha256": "ae691d2c2aa4c67f98c7a6d23ca68680baad674aafe4e6ed23a006510b208a63",
+  "finalVerificationSha256": "fa605db64ef99b228f5ad93044a3deded72a4e3b705814a06d226aad29abe7a3",
+  "hashNormalization": "UTF8 LF matching Git",
+  "verified": [
+    "All nine evidence files match actual hashes and counters:119 unit,113 SQL,14 browser PASS;zero final FAIL/SKIP.",
+    "All231 semantic package hashes and version bindings match;194 current expansion activities/1552 exercises.",
+    "HSK3:500 source ordinals,84 introductory lessons/672 exercises plus15 reviews/120 exercises.",
+    "HSK4:24 source ordinals,four lessons/32 exercises;976 remaining ordinals are the exact complement.",
+    "All123 baseline packages and650 source references remain unchanged.",
+    "Retained before/after full-row package-hash,attempt,session and card digests match.",
+    "Pinned PDF hash and406 pages match;HSK4 source bounds and next-level starts verified.",
+    "Production32 artifacts/966566 bytes and development114 artifacts/31904131 bytes match stored digests;1848 private-key identifiers and zero hits.",
+    "Protected paths unchanged;post-source delta limited to documentation/proof finalizer;clean worktree during independent audit.",
+    "Frozen HSK3 full-runtime source d284063 remains distinguished from final candidate and subsequent regression evidence."
+  ],
+  "rawEvidence": {
+    "unit": {
+      "path": ".local-postgres/hsk24/hsk34-final-unit.log",
+      "sha256": "bd5143da54f448b9f3384cd1388c413b56d5f92ae7eff566d66806319d64f127",
+      "tests": 119,
+      "pass": 119,
+      "fail": 0,
+      "skipped": 0
+    },
+    "HSK3NewAndRefinedActivitiesSQL": {
+      "path": ".local-postgres/hsk24/hsk3-final-sql.log",
+      "sha256": "d3ff4c6e6888b12bb73346607c88a7e1e530483e436f775f79cf8b848b7a381e",
+      "tests": 87,
+      "pass": 87,
+      "fail": 0,
+      "skipped": 0
+    },
+    "HSK4SQL": {
+      "path": ".local-postgres/hsk24/hsk4-final-sql.log",
+      "sha256": "52a373137d49e7e0f8e582b2c27cab0347c2a5b92584e6467500ecdc3f756d2f",
+      "tests": 8,
+      "pass": 8,
+      "fail": 0,
+      "skipped": 0
+    },
+    "HSK3PostAdapterSQL": {
+      "path": ".local-postgres/hsk24/hsk34-post-adapter-hsk3-sql.log",
+      "sha256": "79d02e7a1d354e42513ff243360e08f42591fc9cd4c21ea0323c8d4e350558bd",
+      "tests": 9,
+      "pass": 9,
+      "fail": 0,
+      "skipped": 0
+    },
+    "HSK2RegressionSQL": {
+      "path": ".local-postgres/hsk24/hsk34-hsk2-regression-sql.log",
+      "sha256": "bb6ef19d5c597ff7cd0ed522bc1c2221e63ae6e45a1d35de9659c6f8cd9ee167",
+      "tests": 8,
+      "pass": 8,
+      "fail": 0,
+      "skipped": 0
+    },
+    "all194ManifestResumeSQL": {
+      "path": ".local-postgres/hsk24/hsk34-manifest-sql.log",
+      "sha256": "2dd3c7c6445126ac64aec5c456a8e406abce31aee9e46fb9e390db1fa27f0a2b",
+      "tests": 1,
+      "pass": 1,
+      "fail": 0,
+      "skipped": 0
+    },
+    "HSK3BrowserDesktopAnd360": {
+      "path": ".local-postgres/hsk24/hsk3-final-browser.json",
+      "sha256": "e2b42d61bc98b329d21408c269330c76941dafb0f13e4d8db6097f2cba1f220e",
+      "pass": 8,
+      "fail": 0,
+      "flaky": 0,
+      "skipped": 0
+    },
+    "HSK4BrowserDesktopAnd360": {
+      "path": ".local-postgres/hsk24/hsk4-final-browser.json",
+      "sha256": "a8ccdbb4016d805c290c09bb5586c451d3259b260a2ace9e823b080ed1270ce7",
+      "pass": 4,
+      "fail": 0,
+      "flaky": 0,
+      "skipped": 0
+    },
+    "HSK4TodayDesktopAnd360": {
+      "path": ".local-postgres/hsk24/hsk4-today-browser.json",
+      "sha256": "585e9c46fe4a58af368e03ff58fdafc6fa227a6f3ee01e97ab5051ef2fd3aa0e",
+      "pass": 2,
+      "fail": 0,
+      "flaky": 0,
+      "skipped": 0
+    }
+  },
+  "clientArtifactDigests": {
+    "production": "1473711218a5f8e6e6c1ed90da48fb4f6a6e468910a6a3bdbff2c8b25468ec4b",
+    "development": "4d07dc048d25eeb4f07f3c2546411a71f41de2f8fdad9d23132ba437a91020e3"
+  },
+  "historyEvidence": {
+    "beforePath": ".local-postgres/hsk24/history-before.json",
+    "beforeSha256": "f05b5f3a5884125ecc97347637f6935939d5add15452b508d70e96a57f9dab32",
+    "afterPath": ".local-postgres/hsk24/history-after.json",
+    "afterSha256": "a3cef1db8a5e188d72dda53143253df071440d959260897d9878fcd02a9de436"
+  },
+  "qualifiedLanguageApproval": false,
+  "rightsApproval": false,
+  "publicationApproval": false,
+  "masteryApproval": false,
+  "publicationStatus": "BLOCKED",
+  "HSK3Status": "VOCABULARY_COMPLETE / CURRICULUM_PARTIAL",
+  "HSK4Status": "PARTIAL",
+  "HSK24Status": "EPIC_PARTIAL",
+  "scope": "The subsequent receipt commit changes only this receipt,review-status fields and a report link;runtime/content/tests remain the reviewed source. Semantic checks and assisted draft practice are not competent human or mastery evidence."
+}

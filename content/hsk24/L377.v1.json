@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "7bc0e2c3082e98c4d93b14a08281ec03f58a3b04043ddbf6683b13445591b03c",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-word-parts",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L377",
+    "version": 1,
+    "versionId": "l377-draft-v1",
+    "title": "Nhận diện thành tố trong tên nơi và người",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc hậu tố/ngữ tố trong từ đã gặp; không dùng chúng như từ độc lập tùy ý.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "—子、—员"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 16,
+      "physicalPage": 17,
+      "printedPage": 14,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-task-study",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 16,
+          "physicalPage": 17,
+          "printedPage": 14,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "沟通学习情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-study-activities",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 63,
+          "physicalPage": 64,
+          "printedPage": 61,
+          "section": "topic",
+          "entry": "学习活动"
+        },
+        "written": "学习活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l377-v-955",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 955"
+        },
+        "written": "园",
+        "pinyin": "yuán",
+        "senseId": "l377-v-955-sense",
+        "ordinal": 955,
+        "note": "3 yuán 名; 园 là vườn/khu, thường gặp trong 公园、花园、动物园; 园内 là bên trong khu vườn trong văn viết. Không coi mọi chữ kết thúc cùng âm là cùng thành tố. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l377-v-956",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 956"
+        },
+        "written": "员",
+        "pinyin": "yuán",
+        "senseId": "l377-v-956-sense",
+        "ordinal": 956,
+        "note": "3 yuán 后缀; 员 ở 服务员、运动员 là hậu tố chỉ người, không tự thay cho 人 trong mọi câu. 与园同音但意义不同. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l377-v-992",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 992"
+        },
+        "written": "子",
+        "pinyin": "zi",
+        "senseId": "l377-v-992-sense",
+        "ordinal": 992,
+        "note": "3 zi 后缀; 子 ở 桌子、箱子 là hậu tố đọc nhẹ zi; không có nghĩa đứa con ở đây. 不把形态成分当作独立人称名词. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l377-v-834",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 99,
+          "physicalPage": 100,
+          "printedPage": 97,
+          "section": "vocabulary",
+          "entry": "ordinal 834"
+        },
+        "written": "室",
+        "pinyin": "shì",
+        "senseId": "l377-v-834-sense",
+        "ordinal": 834,
+        "note": "3 shì 名; 室 tạo tên phòng như 教室、办公室; 室内 nói trong phòng. Không dùng cả từ 办公室 để đếm thêm mục mới lần này. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l377-v-984",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 984"
+        },
+        "written": "种",
+        "pinyin": "zhǒng",
+        "senseId": "l377-v-984-sense",
+        "ordinal": 984,
+        "note": "3 zhǒng 量; 种 zhǒng đếm loại như 两种书; khác zhòng trồng. Hai cuốn cùng loại không tự là hai loại. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l377-v-967",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 103,
+          "physicalPage": 104,
+          "printedPage": 101,
+          "section": "vocabulary",
+          "entry": "ordinal 967"
+        },
+        "written": "张",
+        "pinyin": "zhāng",
+        "senseId": "l377-v-967-sense",
+        "ordinal": 967,
+        "note": "3 zhāng 动、量; 张 trong 一张纸 đếm vật phẳng, 张嘴 là động từ mở. Bài luyện lượng từ, đối chiếu chức năng trong giải thích, không khẳng định mọi nghĩa đã được kiểm tra. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-263",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "263"
+        },
+        "written": "园",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 263,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-264",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "264"
+        },
+        "written": "员",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 264,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-278",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "278"
+        },
+        "written": "种",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 278,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-272",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "272"
+        },
+        "written": "张",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 272,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-suffixes",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 391,
+          "physicalPage": 392,
+          "printedPage": 389,
+          "section": "grammar",
+          "entry": "语素 / 后缀 / 子员"
+        },
+        "written": "—子、—员",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l377-c0",
+      "version": 1,
+      "senseId": "l377-v-955-sense",
+      "hanzi": "园",
+      "dictionaryPinyin": "yuán",
+      "meaning": "vườn/khu vườn (thành tố danh từ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l377-v-955"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l377-c1",
+      "version": 1,
+      "senseId": "l377-v-956-sense",
+      "hanzi": "员",
+      "dictionaryPinyin": "yuán",
+      "meaning": "hậu tố chỉ người/thành viên",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l377-v-956"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l377-c2",
+      "version": 1,
+      "senseId": "l377-v-992-sense",
+      "hanzi": "子",
+      "dictionaryPinyin": "zi",
+      "meaning": "hậu tố tạo danh từ (âm nhẹ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l377-v-992"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l377-c3",
+      "version": 1,
+      "senseId": "l377-v-834-sense",
+      "hanzi": "室",
+      "dictionaryPinyin": "shì",
+      "meaning": "phòng (thành tố danh từ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l377-v-834"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l377-c4",
+      "version": 1,
+      "senseId": "l377-v-984-sense",
+      "hanzi": "种",
+      "dictionaryPinyin": "zhǒng",
+      "meaning": "loại; lượng từ loại",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l377-v-984"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l377-c5",
+      "version": 1,
+      "senseId": "l377-v-967-sense",
+      "hanzi": "张",
+      "dictionaryPinyin": "zhāng",
+      "meaning": "lượng từ vật phẳng; mở tùy kết cấu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l377-v-967"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l377-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 内 nèi: bên trong; 后缀 hòuzhuì: hậu tố; 组成 zǔchéng: cấu tạo; 类别 lèibié: loại; 单位 dānwèi: đơn vị. Đối chiếu 园/员 đồng âm, không gộp nghĩa hoặc thẻ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l377-t0",
+      "type": "teaching",
+      "title": "园 · vườn/khu vườn (thành tố danh từ)",
+      "text": "园 là vườn/khu, thường gặp trong 公园、花园、动物园; 园内 là bên trong khu vườn trong văn viết. Không coi mọi chữ kết thúc cùng âm là cùng thành tố.",
+      "hanzi": "园内有很多树。",
+      "pinyin": "Yuán nèi yǒu hěn duō shù.",
+      "meaning": "Bên trong vườn có nhiều cây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l377-t1",
+      "type": "teaching",
+      "title": "员 · hậu tố chỉ người/thành viên",
+      "text": "员 ở 服务员、运动员 là hậu tố chỉ người, không tự thay cho 人 trong mọi câu. 与园同音但意义不同.",
+      "hanzi": "这位服务员很热情。",
+      "pinyin": "Zhè wèi fúwùyuán hěn rèqíng.",
+      "meaning": "Nhân viên phục vụ này rất niềm nở.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l377-t2",
+      "type": "teaching",
+      "title": "子 · hậu tố tạo danh từ (âm nhẹ)",
+      "text": "子 ở 桌子、箱子 là hậu tố đọc nhẹ zi; không có nghĩa đứa con ở đây. 不把形态成分当作独立人称名词.",
+      "hanzi": "箱子放在桌子下面。",
+      "pinyin": "Xiāngzi fàng zài zhuōzi xiàmian.",
+      "meaning": "Thùng được đặt dưới bàn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l377-t3",
+      "type": "teaching",
+      "title": "室 · phòng (thành tố danh từ)",
+      "text": "室 tạo tên phòng như 教室、办公室; 室内 nói trong phòng. Không dùng cả từ 办公室 để đếm thêm mục mới lần này.",
+      "hanzi": "请在室内等。",
+      "pinyin": "Qǐng zài shì nèi děng.",
+      "meaning": "Hãy chờ trong phòng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l377-t4",
+      "type": "teaching",
+      "title": "种 · loại; lượng từ loại",
+      "text": "种 zhǒng đếm loại như 两种书; khác zhòng trồng. Hai cuốn cùng loại không tự là hai loại.",
+      "hanzi": "这里有两种书。",
+      "pinyin": "Zhèlǐ yǒu liǎng zhǒng shū.",
+      "meaning": "Ở đây có hai loại sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l377-t5",
+      "type": "teaching",
+      "title": "张 · lượng từ vật phẳng; mở tùy kết cấu",
+      "text": "张 trong 一张纸 đếm vật phẳng, 张嘴 là động từ mở. Bài luyện lượng từ, đối chiếu chức năng trong giải thích, không khẳng định mọi nghĩa đã được kiểm tra.",
+      "hanzi": "请给我一张纸。",
+      "pinyin": "Qǐng gěi wǒ yì zhāng zhǐ.",
+      "meaning": "Hãy cho tôi một tờ giấy.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l377-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "—员 chỉ người/thành viên trong 运动员/服务员, —子 trong 桌子/箱子 không có nghĩa “con” như mọi trường hợp. Đây là thành tố gắn, không tạo câu *他是一个员. 园、室 có thể tạo tên nơi.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l377-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "老师在室内讲词的组成：园内的园和服务员的员同音，但一个指地方，一个是人的后缀。箱子的子读轻声。桌上有两种书和一张纸；种数类别，张数纸，不按字数猜单位。",
+      "pinyin": "Lǎoshī zài shì nèi jiǎng cí de zǔchéng: Yuán nèi de yuán hé fúwùyuán de yuán tóng yīn, dàn yí ge zhǐ dìfang, yí ge shì rén de hòuzhuì. Xiāngzi de zi dú qīngshēng. Zhuō shàng yǒu liǎng zhǒng shū hé yì zhāng zhǐ; zhǒng shǔ lèibié, zhāng shǔ zhǐ, bù àn zìshù cāi dānwèi.",
+      "meaning": "Thầy giảng trong phòng: 园 và 员 đồng âm nhưng khác nghĩa; 子 trong 箱子 đọc nhẹ. Hai loại sách và một tờ giấy dùng đơn vị loại và tờ, không đoán theo số chữ.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l377-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l377-v1-e0"
+    },
+    {
+      "id": "l377-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l377-v1-e1"
+    },
+    {
+      "id": "l377-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l377-v1-e2"
+    },
+    {
+      "id": "l377-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l377-v1-e3"
+    },
+    {
+      "id": "l377-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l377-v1-e4"
+    },
+    {
+      "id": "l377-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l377-v1-e5"
+    },
+    {
+      "id": "l377-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l377-v1-e6"
+    },
+    {
+      "id": "l377-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l377-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l377-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l377-c0",
+      "senseId": "l377-v-955-sense",
+      "keyRef": "l377-v1-k0",
+      "prompt": "Thành tố chỉ vườn trong 花□、公□。",
+      "choices": [
+        "员",
+        "子",
+        "室",
+        "种",
+        "张",
+        "园"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l377-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l377-c1",
+      "senseId": "l377-v-956-sense",
+      "keyRef": "l377-v1-k1",
+      "prompt": "Thành tố chỉ người trong 服务□、运动□, không phải 园。",
+      "choices": [
+        "子",
+        "室",
+        "种",
+        "张",
+        "园",
+        "员"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l377-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l377-c2",
+      "senseId": "l377-v-992-sense",
+      "keyRef": "l377-v1-k2",
+      "prompt": "Hậu tố âm nhẹ chung của 桌□、箱□。",
+      "choices": [
+        "室",
+        "种",
+        "张",
+        "园",
+        "员",
+        "子"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l377-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l377-c3",
+      "senseId": "l377-v-834-sense",
+      "keyRef": "l377-v1-k3",
+      "prompt": "Viết pinyin của 室 trong câu “请在室内等。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l377-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l377-c4",
+      "senseId": "l377-v-984-sense",
+      "keyRef": "l377-v1-k4",
+      "prompt": "Lượng từ loại, không phải cuốn: 两□书。",
+      "choices": [
+        "张",
+        "园",
+        "员",
+        "子",
+        "室",
+        "种"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l377-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l377-c5",
+      "senseId": "l377-v-967-sense",
+      "keyRef": "l377-v1-k5",
+      "prompt": "Lượng từ tờ giấy: 一□纸。 Chỉ nhập mục từ cần điền.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l377-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l377-c0",
+      "senseId": "l377-v-955-sense",
+      "keyRef": "l377-v1-k6",
+      "prompt": "Trong 服务员, 员 có chức năng gì?",
+      "choices": [
+        "Tên một khu vườn",
+        "Lượng từ giấy",
+        "Hậu tố chỉ người"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l377-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l377-c3",
+      "senseId": "l377-v-834-sense",
+      "keyRef": "l377-v1-k7",
+      "prompt": "Xếp câu đếm loại sách, bắt đầu bằng 这里有.",
+      "choices": [
+        "两种书",
+        "这里有"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l377-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l377-v1-e0",
+      "senseId": "l377-v-955-sense",
+      "accepted": [
+        "园"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "园: vườn/khu vườn (thành tố danh từ). 园 là vườn/khu, thường gặp trong 公园、花园、动物园; 园内 là bên trong khu vườn trong văn viết. Không coi mọi chữ kết thúc cùng âm là cùng thành tố. Bên trong vườn có nhiều cây."
+    },
+    {
+      "id": "l377-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l377-v1-e1",
+      "senseId": "l377-v-956-sense",
+      "accepted": [
+        "员"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "员: hậu tố chỉ người/thành viên. 员 ở 服务员、运动员 là hậu tố chỉ người, không tự thay cho 人 trong mọi câu. 与园同音但意义不同. Nhân viên phục vụ này rất niềm nở."
+    },
+    {
+      "id": "l377-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l377-v1-e2",
+      "senseId": "l377-v-992-sense",
+      "accepted": [
+        "子"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "子: hậu tố tạo danh từ (âm nhẹ). 子 ở 桌子、箱子 là hậu tố đọc nhẹ zi; không có nghĩa đứa con ở đây. 不把形态成分当作独立人称名词. Thùng được đặt dưới bàn."
+    },
+    {
+      "id": "l377-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l377-v1-e3",
+      "senseId": "l377-v-834-sense",
+      "accepted": [
+        "shì"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "室: phòng (thành tố danh từ). 室 tạo tên phòng như 教室、办公室; 室内 nói trong phòng. Không dùng cả từ 办公室 để đếm thêm mục mới lần này. Hãy chờ trong phòng."
+    },
+    {
+      "id": "l377-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l377-v1-e4",
+      "senseId": "l377-v-984-sense",
+      "accepted": [
+        "种"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "种: loại; lượng từ loại. 种 zhǒng đếm loại như 两种书; khác zhòng trồng. Hai cuốn cùng loại không tự là hai loại. Ở đây có hai loại sách."
+    },
+    {
+      "id": "l377-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l377-v1-e5",
+      "senseId": "l377-v-967-sense",
+      "accepted": [
+        "张"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "张: lượng từ vật phẳng; mở tùy kết cấu. 张 trong 一张纸 đếm vật phẳng, 张嘴 là động từ mở. Bài luyện lượng từ, đối chiếu chức năng trong giải thích, không khẳng định mọi nghĩa đã được kiểm tra. Hãy cho tôi một tờ giấy."
+    },
+    {
+      "id": "l377-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l377-v1-e6",
+      "senseId": "l377-v-955-sense",
+      "accepted": [
+        "Hậu tố chỉ người"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. —员 chỉ người/thành viên trong 运动员/服务员, —子 trong 桌子/箱子 không có nghĩa “con” như mọi trường hợp. Đây là thành tố gắn, không tạo câu *他是一个员. 园、室 có thể tạo tên nơi."
+    },
+    {
+      "id": "l377-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l377-v1-e7",
+      "senseId": "l377-v-834-sense",
+      "accepted": [
+        "1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. —员 chỉ người/thành viên trong 运动员/服务员, —子 trong 桌子/箱子 không có nghĩa “con” như mọi trường hợp. Đây là thành tố gắn, không tạo câu *他是一个员. 园、室 có thể tạo tên nơi."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

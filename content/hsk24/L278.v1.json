@@ -1,0 +1,1618 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "62701e0472272a04b81ad68a59fb8290e1e67287be9379f7656c007f2b0c83c1",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "food-drinks",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L278",
+    "version": 1,
+    "versionId": "l278-draft-v1",
+    "title": "Chẩn đoán mẫu chữ và ngữ cảnh · 4",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Chẩn đoán mẫu chữ và ngữ cảnh đã học; kết quả từng câu, không chứng nhận trình độ.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l205-draft-v1",
+      "l206-draft-v1",
+      "l207-draft-v2",
+      "l208-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 9,
+      "physicalPage": 10,
+      "printedPage": 7,
+      "section": "task",
+      "entry": "七"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-food",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 9,
+          "physicalPage": 10,
+          "printedPage": 7,
+          "section": "task",
+          "entry": "七"
+        },
+        "written": "问答日常饮食",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-shopping",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "九"
+        },
+        "written": "问答商品情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-travel",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "八"
+        },
+        "written": "问答出行情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-task-place",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 9,
+          "physicalPage": 10,
+          "printedPage": 7,
+          "section": "task",
+          "entry": "五"
+        },
+        "written": "介绍某个地方",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-food",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 饮食 / 食物饮品"
+        },
+        "written": "食物饮品",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-shopping",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 购物 / 商品选购"
+        },
+        "written": "商品选购",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-arrangements",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 出行安排"
+        },
+        "written": "出行安排",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-topic-directions",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 交通出行 / 问路"
+        },
+        "written": "问路",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l205-v-354",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 354"
+        },
+        "written": "红茶",
+        "pinyin": "hóngchá",
+        "senseId": "l205-v-354-sense",
+        "ordinal": 354,
+        "note": "2 hóngchá 名; 红茶 là tên loại trà, thường tương ứng black tea. Không dịch máy móc thành mọi nước trà màu đỏ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l205-v-395",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 395"
+        },
+        "written": "绿茶",
+        "pinyin": "lǜchá",
+        "senseId": "l205-v-395-sense",
+        "ordinal": 395,
+        "note": "2 lǜchá 名; 绿茶 là tên trà xanh; chữ 绿 có âm ü, không đọc lù. Giữ thanh bốn ở lǜ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l205-v-377",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 377"
+        },
+        "written": "咖啡",
+        "pinyin": "kāfēi",
+        "senseId": "l205-v-377-sense",
+        "ordinal": 377,
+        "note": "2 kāfēi 名; Hai âm tiết đều thanh một. 咖啡 là đồ uống; 一杯咖啡 là một cốc cà phê. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l205-v-408",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 408"
+        },
+        "written": "奶茶",
+        "pinyin": "nǎichá",
+        "senseId": "l205-v-408-sense",
+        "ordinal": 408,
+        "note": "2 nǎichá 名; 奶茶 là trà pha sữa; không mặc định có trân châu hay nhiều đường. Muốn biết thành phần phải hỏi thêm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l205-v-339",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 339"
+        },
+        "written": "饭馆",
+        "pinyin": "fànguǎn",
+        "senseId": "l205-v-339-sense",
+        "ordinal": 339,
+        "note": "2 fànguǎn 名; 饭馆 là nơi ăn uống; không phải 饭店 trong mọi ngữ cảnh và không phải ‘nhà cơm’ dịch từng chữ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l205-v-483",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 483"
+        },
+        "written": "鱼",
+        "pinyin": "yú",
+        "senseId": "l205-v-483-sense",
+        "ordinal": 483,
+        "note": "2 yú 名; 鱼 có âm ü, không đọc yǔ hoặc yù. Ở đây dùng danh từ món cá; việc nói 我不吃鱼 không tự cho biết lý do. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l206-v-424",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 424"
+        },
+        "written": "商场",
+        "pinyin": "shāngchǎng",
+        "senseId": "l206-v-424-sense",
+        "ordinal": 424,
+        "note": "2 shāngchǎng 名; 商场 là nơi có hoạt động bán hàng, không phải mọi cửa hàng nhỏ. 去商场 là đến khu mua sắm. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l206-v-312",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 312"
+        },
+        "written": "不错",
+        "pinyin": "búcuò",
+        "senseId": "l206-v-312-sense",
+        "ordinal": 312,
+        "note": "2 búcuò 形; 不错 thường là lời nhận xét tích cực ‘khá tốt’, không đơn thuần là ‘không có lỗi’. Nói búcuò do 不 trước thanh bốn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l206-v-399",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 399"
+        },
+        "written": "每",
+        "pinyin": "měi",
+        "senseId": "l206-v-399-sense",
+        "ordinal": 399,
+        "note": "2（4） měi 代、（副）; Mỗi món dùng 每 + lượng từ + danh từ: 每条裤子. Bài chỉ dạy cách dùng đại từ này, không mở rộng nghĩa phó từ cấp cao hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l206-v-443",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 443"
+        },
+        "written": "条",
+        "pinyin": "tiáo",
+        "senseId": "l206-v-443-sense",
+        "ordinal": 443,
+        "note": "2（5） tiáo 量、（名）; Trong bài dùng 条 để đếm quần: 一条裤子. Đây là lượng từ, không dạy nghĩa danh từ ‘dải’ thuộc phạm vi cao hơn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l206-v-405",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 405"
+        },
+        "written": "拿",
+        "pinyin": "ná",
+        "senseId": "l206-v-405-sense",
+        "ordinal": 405,
+        "note": "2 ná 动; 拿 là cầm/lấy, không có nghĩa mua. Có thể cầm xem một món rồi không mua. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l206-v-437",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 437"
+        },
+        "written": "送",
+        "pinyin": "sòng",
+        "senseId": "l206-v-437-sense",
+        "ordinal": 437,
+        "note": "2 sòng 动; Bài này luyện nghĩa tặng quà: 送给妈妈. Không dùng câu này để suy ra nghĩa tiễn/đưa người trong ngữ cảnh khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l207-v-363",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 363"
+        },
+        "written": "机场",
+        "pinyin": "jīchǎng",
+        "senseId": "l207-v-363-sense",
+        "ordinal": 363,
+        "note": "2 jīchǎng 名; 机场 là nơi máy bay đến và đi, khác 车站. Không dùng 机场 để chỉ riêng một chuyến bay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l207-v-364",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 364"
+        },
+        "written": "机票",
+        "pinyin": "jīpiào",
+        "senseId": "l207-v-364-sense",
+        "ordinal": 364,
+        "note": "2 jīpiào 名; 机票 là vé cho chuyến bay; 买了机票 chưa nói đã đến sân bay. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l207-v-416",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 416"
+        },
+        "written": "票",
+        "pinyin": "piào",
+        "senseId": "l207-v-416-sense",
+        "ordinal": 416,
+        "note": "2 piào 名; 票 là tên chung cho vé; ngữ cảnh mới cho biết vé xe, vé máy bay hay loại khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l207-v-375",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 375"
+        },
+        "written": "酒店",
+        "pinyin": "jiǔdiàn",
+        "senseId": "l207-v-375-sense",
+        "ordinal": 375,
+        "note": "2 jiǔdiàn 名; 酒店 ở đây là nơi ở khi đi xa; không nhầm với 饭馆 là nơi ăn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l207-v-394",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 394"
+        },
+        "written": "旅游",
+        "pinyin": "lǚyóu",
+        "senseId": "l207-v-394-sense",
+        "ordinal": 394,
+        "note": "2 lǚyóu 动; 旅游 là đi để tham quan, nghỉ hoặc trải nghiệm, không dùng cho mọi lần đi làm xa. Giữ âm ü trong lǚ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l207-v-493",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 493"
+        },
+        "written": "准备",
+        "pinyin": "zhǔnbèi",
+        "senseId": "l207-v-493-sense",
+        "ordinal": 493,
+        "note": "2 zhǔnbèi 动; 准备 có thể nói chuẩn bị đồ/việc hoặc dự định làm gì; bài tập nghĩa ở đây là chuẩn bị cho chuyến đi. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l208-v-500",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 500"
+        },
+        "written": "左边",
+        "pinyin": "zuǒbian",
+        "senseId": "l208-v-500-sense",
+        "ordinal": 500,
+        "note": "2 zuǒbian 名; 边 trong 左边 đọc nhẹ theo mục từ nguồn. Nêu mốc rõ: 学校的左边. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l208-v-482",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 91,
+          "physicalPage": 92,
+          "printedPage": 89,
+          "section": "vocabulary",
+          "entry": "ordinal 482"
+        },
+        "written": "右边",
+        "pinyin": "yòubian",
+        "senseId": "l208-v-482-sense",
+        "ordinal": 482,
+        "note": "2 yòubian 名; Đối lập với 左边. 边 đọc nhẹ trong mục từ này, không đổi thành biān khi làm bài pinyin của từ đã cho. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l208-v-419",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 419"
+        },
+        "written": "前面",
+        "pinyin": "qiánmiàn",
+        "senseId": "l208-v-419-sense",
+        "ordinal": 419,
+        "note": "2 qiánmiàn 名; 前面 ở đây là vị trí không gian, không phải tự động chỉ thời gian trước đó. 面 giữ thanh bốn theo nguồn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l208-v-356",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 356"
+        },
+        "written": "后面",
+        "pinyin": "hòumiàn",
+        "senseId": "l208-v-356-sense",
+        "ordinal": 356,
+        "note": "2 hòumiàn 名; Chỉ phía sau mốc nói đến; không đồng nghĩa với bên phải. 面 giữ thanh bốn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l208-v-413",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 413"
+        },
+        "written": "旁边",
+        "pinyin": "pángbiān",
+        "senseId": "l208-v-413-sense",
+        "ordinal": 413,
+        "note": "2 pángbiān 名; 旁边 chỉ ở sát hoặc gần một bên, chưa xác định trái/phải. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l208-v-390",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 88,
+          "physicalPage": 89,
+          "printedPage": 86,
+          "section": "vocabulary",
+          "entry": "ordinal 390"
+        },
+        "written": "里面",
+        "pinyin": "lǐmiàn",
+        "senseId": "l208-v-390-sense",
+        "ordinal": 390,
+        "note": "2 lǐmiàn 名; 里面 chỉ không gian bên trong, có thể đặt sau mốc: 书包里面. Không dùng để chỉ phía trước. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-27",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "27"
+        },
+        "written": "红",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 27,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-54",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "54"
+        },
+        "written": "绿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 54,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-42",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "42"
+        },
+        "written": "咖",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 42,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-20",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "20"
+        },
+        "written": "啡",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 20,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-24",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "24"
+        },
+        "written": "馆",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 24,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-112",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "112"
+        },
+        "written": "鱼",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 112,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-9",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "9"
+        },
+        "written": "场",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 9,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-13",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "13"
+        },
+        "written": "错",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 13,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-56",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "56"
+        },
+        "written": "每",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 56,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-58",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "58"
+        },
+        "written": "拿",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 58,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-78",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "78"
+        },
+        "written": "送",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 78,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-62",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "62"
+        },
+        "written": "票",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 62,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-40",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "40"
+        },
+        "written": "酒",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 40,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-17",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "17"
+        },
+        "written": "店",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 17,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-53",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "53"
+        },
+        "written": "旅",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 53,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-110",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "110"
+        },
+        "written": "游",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 110,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-120",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "120"
+        },
+        "written": "准",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 120,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-3",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "3"
+        },
+        "written": "备",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 3,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-125",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "125"
+        },
+        "written": "左",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 125,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-111",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "111"
+        },
+        "written": "右",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 111,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-60",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "60"
+        },
+        "written": "旁",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 60,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-alternative",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 389,
+          "physicalPage": 390,
+          "printedPage": 387,
+          "section": "grammar",
+          "entry": "句类 / 疑问句"
+        },
+        "written": "用“还是”连接的选择问句",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Exact pinned PDF entry/reading/category observed. Vietnamese teaching interpretation and sense restriction are original DRAFT, not human approved."
+      },
+      {
+        "id": "h2-g-every",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "代词 / 指示代词 / 每"
+        },
+        "written": "那么、那样、这么、这样、每",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-g-already",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "副词 / 时间副词 / 已经"
+        },
+        "written": "还2、已经、有时（候）、快、快要、正",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-g-localizers",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "语素 / 后缀 面"
+        },
+        "written": "面",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l205-c2",
+      "version": 1,
+      "senseId": "l205-v-377-sense",
+      "hanzi": "咖啡",
+      "dictionaryPinyin": "kā fēi",
+      "meaning": "cà phê",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l205-v-377"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l206-c5",
+      "version": 1,
+      "senseId": "l206-v-437-sense",
+      "hanzi": "送",
+      "dictionaryPinyin": "sòng",
+      "meaning": "tặng hoặc trao cho người khác",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l206-v-437"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l207-c3",
+      "version": 1,
+      "senseId": "l207-v-375-sense",
+      "hanzi": "酒店",
+      "dictionaryPinyin": "jiǔ diàn",
+      "meaning": "khách sạn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l207-v-375"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l207-c4",
+      "version": 1,
+      "senseId": "l207-v-394-sense",
+      "hanzi": "旅游",
+      "dictionaryPinyin": "lǚ yóu",
+      "meaning": "đi du lịch",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l207-v-394"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l207-c5",
+      "version": 1,
+      "senseId": "l207-v-493-sense",
+      "hanzi": "准备",
+      "dictionaryPinyin": "zhǔn bèi",
+      "meaning": "chuẩn bị",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l207-v-493"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l208-c4",
+      "version": 1,
+      "senseId": "l208-v-413-sense",
+      "hanzi": "旁边",
+      "dictionaryPinyin": "páng biān",
+      "meaning": "bên cạnh",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l208-v-413"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l278-guide",
+      "type": "teaching",
+      "title": "Chẩn đoán mẫu · không phải đề HSK",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l278-reminder0",
+      "type": "teaching",
+      "title": "咖啡 · cà phê",
+      "text": "Hai âm tiết đều thanh một. 咖啡 là đồ uống; 一杯咖啡 là một cốc cà phê.",
+      "hanzi": "这杯咖啡很热。",
+      "pinyin": "Zhè bēi kāfēi hěn rè.",
+      "meaning": "Cốc cà phê này nóng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l278-reminder1",
+      "type": "teaching",
+      "title": "送 · tặng hoặc trao cho người khác",
+      "text": "Bài này luyện nghĩa tặng quà: 送给妈妈. Không dùng câu này để suy ra nghĩa tiễn/đưa người trong ngữ cảnh khác.",
+      "hanzi": "我想买一条裤子送给妈妈。",
+      "pinyin": "Wǒ xiǎng mǎi yì tiáo kùzi sòng gěi māma.",
+      "meaning": "Tôi muốn mua một chiếc quần tặng mẹ.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l278-reminder2",
+      "type": "teaching",
+      "title": "酒店 · khách sạn",
+      "text": "酒店 ở đây là nơi ở khi đi xa; không nhầm với 饭馆 là nơi ăn.",
+      "hanzi": "这家酒店离机场很近。",
+      "pinyin": "Zhè jiā jiǔdiàn lí jīchǎng hěn jìn.",
+      "meaning": "Khách sạn này rất gần sân bay.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l278-reminder3",
+      "type": "teaching",
+      "title": "旅游 · đi du lịch",
+      "text": "旅游 là đi để tham quan, nghỉ hoặc trải nghiệm, không dùng cho mọi lần đi làm xa. Giữ âm ü trong lǚ.",
+      "hanzi": "我们想去中国旅游。",
+      "pinyin": "Wǒmen xiǎng qù Zhōngguó lǚyóu.",
+      "meaning": "Chúng tôi muốn đi du lịch Trung Quốc.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l278-reminder4",
+      "type": "teaching",
+      "title": "准备 · chuẩn bị",
+      "text": "准备 có thể nói chuẩn bị đồ/việc hoặc dự định làm gì; bài tập nghĩa ở đây là chuẩn bị cho chuyến đi.",
+      "hanzi": "我在准备明天的东西。",
+      "pinyin": "Wǒ zài zhǔnbèi míngtiān de dōngxi.",
+      "meaning": "Tôi đang chuẩn bị đồ cho ngày mai.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l278-reminder5",
+      "type": "teaching",
+      "title": "旁边 · bên cạnh",
+      "text": "旁边 chỉ ở sát hoặc gần một bên, chưa xác định trái/phải.",
+      "hanzi": "我家旁边有一家书店。",
+      "pinyin": "Wǒ jiā pángbiān yǒu yì jiā shūdiàn.",
+      "meaning": "Bên cạnh nhà tôi có một hiệu sách.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l278-context0",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：这家饭馆有鱼，我们在这里吃吧。乙：好。甲：你喝红茶还是绿茶？乙：我要绿茶，不要奶茶。",
+      "pinyin": "Jiǎ: Zhè jiā fànguǎn yǒu yú, wǒmen zài zhèlǐ chī ba. Yǐ: Hǎo. Jiǎ: Nǐ hē hóngchá háishi lǜchá? Yǐ: Wǒ yào lǜchá, bú yào nǎichá.",
+      "meaning": "A: Quán này có cá, chúng ta ăn ở đây nhé. B: Được. A: Bạn uống hồng trà hay trà xanh? B: Tôi muốn trà xanh, không lấy trà sữa.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l278-context1",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：这条裤子不错，多少钱？乙：这里每条都是一百块。甲：请拿黑色的给我看看。我想买一条送给妈妈。",
+      "pinyin": "Jiǎ: Zhè tiáo kùzi búcuò, duōshao qián? Yǐ: Zhèlǐ měi tiáo dōu shì yì bǎi kuài. Jiǎ: Qǐng ná hēisè de gěi wǒ kànkan. Wǒ xiǎng mǎi yì tiáo sòng gěi māma.",
+      "meaning": "A: Chiếc quần này khá ổn, bao nhiêu tiền? B: Ở đây mỗi chiếc đều một trăm tệ. A: Làm ơn lấy chiếc màu đen cho tôi xem. Tôi muốn mua một chiếc tặng mẹ.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l278-context2",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：明天去旅游，你准备好了吗？乙：机票已经买了。我们早上去机场。甲：住哪里？乙：住机场旁边的酒店。",
+      "pinyin": "Jiǎ: Míngtiān qù lǚyóu, nǐ zhǔnbèi hǎo le ma? Yǐ: Jīpiào yǐjīng mǎi le. Wǒmen zǎoshang qù jīchǎng. Jiǎ: Zhù nǎlǐ? Yǐ: Zhù jīchǎng pángbiān de jiǔdiàn.",
+      "meaning": "A: Mai đi du lịch, bạn chuẩn bị xong chưa? B: Vé máy bay đã mua rồi. Sáng chúng ta đến sân bay. A: Ở đâu? B: Ở khách sạn bên cạnh sân bay.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l278-context3",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：你的书包在哪里？乙：在椅子后面。甲：里面有我的书吗？乙：有，在本子旁边。",
+      "pinyin": "Jiǎ: Nǐ de shūbāo zài nǎlǐ? Yǐ: Zài yǐzi hòumiàn. Jiǎ: Lǐmiàn yǒu wǒ de shū ma? Yǐ: Yǒu, zài běnzi pángbiān.",
+      "meaning": "A: Cặp bạn ở đâu? B: Ở sau ghế. A: Trong đó có sách của tôi không? B: Có, bên cạnh quyển vở.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l278-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l278-e0"
+    },
+    {
+      "id": "l278-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l278-e1"
+    },
+    {
+      "id": "l278-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l278-e2"
+    },
+    {
+      "id": "l278-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l278-e3"
+    },
+    {
+      "id": "l278-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l278-e4"
+    },
+    {
+      "id": "l278-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l278-e5"
+    },
+    {
+      "id": "l278-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l278-e6"
+    },
+    {
+      "id": "l278-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l278-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l278-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l205-c2",
+      "senseId": "l205-v-377-sense",
+      "keyRef": "l278-k0",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “cà phê” (kā fēi) viết 咖□. Điền chữ nào vào □?",
+      "choices": [
+        "花",
+        "画",
+        "坏",
+        "啡"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l278-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l206-c5",
+      "senseId": "l206-v-437-sense",
+      "keyRef": "l278-k1",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “tặng hoặc trao cho người khác” (sòng) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "头",
+        "完",
+        "送",
+        "铁"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l278-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l207-c3",
+      "senseId": "l207-v-375-sense",
+      "keyRef": "l278-k2",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “khách sạn” (jiǔ diàn) viết □店. Điền chữ nào vào □?",
+      "choices": [
+        "留",
+        "酒",
+        "累",
+        "离"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l278-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l207-c4",
+      "senseId": "l207-v-394-sense",
+      "keyRef": "l278-k3",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “đi du lịch” (lǚ yóu) viết □游. Điền chữ nào vào □?",
+      "choices": [
+        "旅",
+        "跑",
+        "票",
+        "妻"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l278-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l207-c5",
+      "senseId": "l207-v-493-sense",
+      "keyRef": "l278-k4",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “chuẩn bị” (zhǔn bèi) viết □备. Điền chữ nào vào □?",
+      "choices": [
+        "红",
+        "花",
+        "画",
+        "准"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l278-e5",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l208-c4",
+      "senseId": "l208-v-413-sense",
+      "keyRef": "l278-k5",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “bên cạnh” (páng biān) viết □边. Điền chữ nào vào □?",
+      "choices": [
+        "肉",
+        "色",
+        "旁",
+        "让"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l278-e6",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l207-c3",
+      "senseId": "l207-v-375-sense",
+      "keyRef": "l278-k6",
+      "prompt": "Ôn ngữ cảnh đã học · 7: Xếp câu: tôi đã mua vé máy bay.",
+      "choices": [
+        "买了",
+        "我",
+        "机票",
+        "已经"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l278-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l207-c3",
+      "senseId": "l207-v-375-sense",
+      "keyRef": "l278-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Trong câu “这家酒店离机场很近。”, 酒店 mang nghĩa nào?",
+      "choices": [
+        "sân bay",
+        "vé máy bay",
+        "vé",
+        "khách sạn",
+        "đi du lịch",
+        "chuẩn bị"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l278-k0",
+      "version": 1,
+      "exerciseVersionId": "l278-e0",
+      "senseId": "l205-v-377-sense",
+      "accepted": [
+        "啡"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "咖啡 · kā fēi · cà phê. Chữ cần nhận diện là 啡."
+    },
+    {
+      "id": "l278-k1",
+      "version": 1,
+      "exerciseVersionId": "l278-e1",
+      "senseId": "l206-v-437-sense",
+      "accepted": [
+        "送"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "送 · sòng · tặng hoặc trao cho người khác. Chữ cần nhận diện là 送."
+    },
+    {
+      "id": "l278-k2",
+      "version": 1,
+      "exerciseVersionId": "l278-e2",
+      "senseId": "l207-v-375-sense",
+      "accepted": [
+        "酒"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "酒店 · jiǔ diàn · khách sạn. Chữ cần nhận diện là 酒."
+    },
+    {
+      "id": "l278-k3",
+      "version": 1,
+      "exerciseVersionId": "l278-e3",
+      "senseId": "l207-v-394-sense",
+      "accepted": [
+        "旅"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "旅游 · lǚ yóu · đi du lịch. Chữ cần nhận diện là 旅."
+    },
+    {
+      "id": "l278-k4",
+      "version": 1,
+      "exerciseVersionId": "l278-e4",
+      "senseId": "l207-v-493-sense",
+      "accepted": [
+        "准"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "准备 · zhǔn bèi · chuẩn bị. Chữ cần nhận diện là 准."
+    },
+    {
+      "id": "l278-k5",
+      "version": 1,
+      "exerciseVersionId": "l278-e5",
+      "senseId": "l208-v-413-sense",
+      "accepted": [
+        "旁"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "旁边 · páng biān · bên cạnh. Chữ cần nhận diện là 旁."
+    },
+    {
+      "id": "l278-k6",
+      "version": 1,
+      "exerciseVersionId": "l278-e6",
+      "senseId": "l207-v-375-sense",
+      "accepted": [
+        "1,3,0,2"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 已经 đặt trước động từ để báo việc đã xảy ra. 我已经买了机票 nói đã mua vé; không tự cho biết giờ bay hay nơi ở."
+    },
+    {
+      "id": "l278-k7",
+      "version": 1,
+      "exerciseVersionId": "l278-e7",
+      "senseId": "l207-v-375-sense",
+      "accepted": [
+        "khách sạn"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "酒店: khách sạn. 酒店 ở đây là nơi ở khi đi xa; không nhầm với 饭馆 là nơi ăn. Khách sạn này rất gần sân bay."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

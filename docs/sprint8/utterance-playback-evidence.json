@@ -1,0 +1,205 @@
+{
+  "checkedAt": "2026-10-18T11:34:43.355Z",
+  "base": "c268f030a724e22a23863a900cfb4f1b42dedfd2",
+  "sourceMain": "0dc42253180ef38d1c43f1f87c9f0f675a851341",
+  "status": "SPRINT8_PARTIAL",
+  "playbackPolicy": "csh-utterance-playback-v1",
+  "pitchPolicy": "csh-pitch-observation-v3 unchanged",
+  "ownerEvidence": {
+    "report": "Loud initial background followed around 0.5 s by lower background and voice; asks to keep/filter the utterance",
+    "rootCause": "UNCONFIRMED",
+    "browserDevice": "UNCONFIRMED",
+    "actualAudioInspected": false,
+    "newCaptureAndPlaybackRetest": "PENDING"
+  },
+  "captureRequest": {
+    "autoGainControl": false,
+    "noiseSuppression": false,
+    "echoCancellation": false,
+    "channelCount": 1
+  },
+  "captureLimits": "Best effort; getSettings booleans shown, no driver/hardware proof, no device IDs retained",
+  "sourceHashConvention": "UTF8 normalized LF, evidence file excluded from self hash",
+  "sourceFiles": [
+    {
+      "file": "README.md",
+      "sha256": "76371919892b243131e90f19ba655e2f52733c9c97292b8bdfdce1ebd5c3d029"
+    },
+    {
+      "file": "docs/sprint8/verification.md",
+      "sha256": "d1377a7daf9b5e4d94cc74727072bc6db21c9025da674c447b09d8c57ea49430"
+    },
+    {
+      "file": "package.json",
+      "sha256": "cdd643c430264a760aeb9dcacb599270a7510608c6e61a0e721ffbc4a036b54f"
+    },
+    {
+      "file": "src/modules/pronunciation/application/practice-recorder.ts",
+      "sha256": "29510eb90a4786a48c09ccd1e16c8bbce88aafa90388f0e3fe8eb47fe9b4692a"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/practice-recorder.tsx",
+      "sha256": "e2596b81531c34cf2988a822e698568b3be40c85b3dec98e4a78fbc711724e47"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/pronunciation.css",
+      "sha256": "ab46f1e11e8a90da72cf0e6d92a0fb7d5f65d5d6fa9f2f54d7b8d4b7a1ba5ffa"
+    },
+    {
+      "file": "tests/sprint8-browser/acoustic.spec.ts",
+      "sha256": "5f1cced2e079eae6c038961dd1a919be4761553e6fedf8704f85bcb9c1220194"
+    },
+    {
+      "file": "tests/unit/practice-recorder.test.ts",
+      "sha256": "1c370ce843f8c04b669a8a36eb8401c5883cb62624016a5ec52005ac3c6e2902"
+    },
+    {
+      "file": "docs/sprint8/utterance-playback.md",
+      "sha256": "43ad3236b62c2b38a442f3eef1ff03afe10c00f60519471f1f4d37ca61d9acec"
+    },
+    {
+      "file": "src/modules/pronunciation/application/prepare-playback.ts",
+      "sha256": "e24e72227afe9a5038d0d4377cf307f3fcc5ab8261b7359a4c0f05c1d9915db4"
+    },
+    {
+      "file": "src/modules/pronunciation/application/utterance-session.ts",
+      "sha256": "025869016933c2c6e20904802cea8d2919da5022d77e3e4f4ca0aa7c8a1eef58"
+    },
+    {
+      "file": "src/modules/pronunciation/application/utterance-worker.ts",
+      "sha256": "5386189e77addfb563ce460f328e6779a994d7e0b1a0c2db22356a65500bd666"
+    },
+    {
+      "file": "src/modules/pronunciation/domain/utterance-playback.ts",
+      "sha256": "6ba33962896ba405d957e6e256bfae0d281ee5785b1ab8a2d77d20ab7488b1f2"
+    },
+    {
+      "file": "src/modules/pronunciation/ui/utterance-playback.tsx",
+      "sha256": "abcdd2b5ef49d8ba1231fdc3526a3ed00f2bdb4ac34658afc023e15944c97eb9"
+    },
+    {
+      "file": "tests/unit/utterance-playback.test.ts",
+      "sha256": "57fe5213a0bf571faf4f7feea711fe42d2a12e19c344911d4d3f0179bed650ae"
+    }
+  ],
+  "checks": {
+    "unit": {
+      "passed": 74,
+      "failed": 0,
+      "report": {
+        "file": ".local-postgres/utterance-playback/unit.xml",
+        "sha256": "3040f7f8204718153d46e391b08653c57ceb8edf1a21a686cc6cc3d7dba1ba10"
+      }
+    },
+    "initialDevelopmentRun": {
+      "tests": 18,
+      "failed": 2,
+      "assertionFailures": 1,
+      "runnerErrors": 1,
+      "report": {
+        "file": ".local-postgres/utterance-playback/browser-initial.xml",
+        "sha256": "9b76de03d91bdc3eca6b0c6f4d14591ad3b27e7d888f41c3f5682fc6c2180b7e"
+      },
+      "log": {
+        "file": ".local-postgres/utterance-playback/browser-initial.log",
+        "sha256": "4f345f5c2527fbf7a1c3a7c5ee84787e9047363fab892395e95a3fc83dfa2c67"
+      },
+      "issues": [
+        "Excerpt paused when switching playback: callback ref recreated; fixed with stable callback",
+        "LOCAL DATABASE disabled during 15-second mode-check timeout; root cause unknown, no mode/backend change"
+      ]
+    },
+    "postfixFullRun": {
+      "tests": 18,
+      "failed": 1,
+      "assertionFailures": 0,
+      "runnerErrors": 1,
+      "report": {
+        "file": ".local-postgres/utterance-playback/browser.xml",
+        "sha256": "912b44e6f52b6a9b438d95eacac0167db658199e3f0cfc53ea334a75d5dfec42"
+      },
+      "log": {
+        "file": ".local-postgres/utterance-playback/browser.log",
+        "sha256": "a14889660a8cb978a21f5fee3ef8a55c091c30d4929504a9d75d84b5ed8d2c91"
+      },
+      "issue": "No app assertion failure reported; browserContext.close teardown error on desktop silence/background case; root cause unknown"
+    },
+    "finalTargetedPlayback": {
+      "tests": 6,
+      "failed": 0,
+      "assertionFailures": 0,
+      "runnerErrors": 0,
+      "report": {
+        "file": ".local-postgres/utterance-playback/browser-targeted.xml",
+        "sha256": "e724e7e5f3c20c5511021dce06ca4d00f94d07a8fa46a662dcfc34d1ebacdcbe"
+      }
+    },
+    "legacyRecorderRegression": {
+      "tests": 2,
+      "failed": 0,
+      "assertionFailures": 0,
+      "runnerErrors": 0,
+      "report": {
+        "file": ".local-postgres/utterance-playback/recorder-browser.xml",
+        "sha256": "781897dd296981c627ee492b20145f3ce794dd0ced8c02343338bb9abda8605d"
+      }
+    },
+    "lint": {
+      "status": "PASS",
+      "warnings": 0,
+      "log": {
+        "file": ".local-postgres/utterance-playback/lint.log",
+        "sha256": "d2246b046ac72a5146dfff03bb52c140232287592ad9a829a65c8e5759484d55"
+      }
+    },
+    "typecheck": {
+      "status": "PASS",
+      "log": {
+        "file": ".local-postgres/utterance-playback/typecheck.log",
+        "sha256": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914"
+      }
+    },
+    "format": {
+      "status": "PASS",
+      "log": {
+        "file": ".local-postgres/utterance-playback/format.log",
+        "sha256": "3443897b7d89155994e838066b1553e02a1cdc22ecfb4ebbc740e4b2b38c3555"
+      }
+    },
+    "build": {
+      "status": "PASS",
+      "log": {
+        "file": ".local-postgres/utterance-playback/build.log",
+        "sha256": "47806b5163df9b7cdab5942905e6131118d5abc641e9d5e6469ce268786ee2a7"
+      }
+    }
+  },
+  "syntheticWavRegression": {
+    "generatedAudioOnly": true,
+    "originalDurationSeconds": 1.6,
+    "noise": {
+      "status": "APPLIED",
+      "referenceMs": 300
+    },
+    "suggested": {
+      "start": 0.32,
+      "end": 1.5000000000000002
+    },
+    "manualRange": {
+      "start": 0.5,
+      "end": 1.3
+    },
+    "wavSamples": 19200,
+    "interiorMaxPcmQuantizationError": 0.00002422928810119629,
+    "noAdditionalNormalization": true
+  },
+  "packageLockUnchanged": true,
+  "limits": [
+    "Final PASS is 6 targeted playback browser cases plus 2 legacy recorder cases, not a clean aggregate 18-case suite",
+    "Generated sources through real MediaRecorder/Opus/worker/WAV are not physical microphone/voice accuracy proof",
+    "Original 64-browser / 41-PostgreSQL baseline not rerun or relabelled",
+    "Same-range noise reduction does not identify a person or remove overlapping speech",
+    "Pitch engine uses original Blob; playback excerpt does not change score/mastery/FSRS/planner",
+    "No upload/storage/backend/schema/content/SSOT/Engineering Loop changes"
+  ]
+}

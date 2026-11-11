@@ -1,0 +1,200 @@
+{
+  "status": "HSK24_EPIC_PARTIAL",
+  "startingCommit": "983d6961c723a0059196a30ba78e352fc753649c",
+  "batches": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "newLessons": 16,
+  "newVocabulary": 96,
+  "totalCurrentLessons": 18,
+  "totalCurrentExercises": 144,
+  "counts": [
+    {
+      "level": 1,
+      "status": "PARTIAL",
+      "vocabularyDenominator": 300,
+      "cumulativeDenominator": 300,
+      "locatorRows": 300,
+      "contentCreated": 2,
+      "entriesWithDraftTeaching": 8,
+      "entriesMapped": 8,
+      "entriesPracticed": null,
+      "approved": 0,
+      "userMastery": null
+    },
+    {
+      "level": 2,
+      "status": "PARTIAL",
+      "vocabularyDenominator": 200,
+      "cumulativeDenominator": 500,
+      "locatorRows": 200,
+      "contentCreated": 18,
+      "entriesWithDraftTeaching": 104,
+      "entriesMapped": 104,
+      "entriesPracticed": null,
+      "approved": 0,
+      "userMastery": null
+    },
+    {
+      "level": 3,
+      "status": "PARTIAL",
+      "vocabularyDenominator": 500,
+      "cumulativeDenominator": 1000,
+      "locatorRows": 500,
+      "contentCreated": 0,
+      "entriesWithDraftTeaching": 0,
+      "entriesMapped": 0,
+      "entriesPracticed": null,
+      "approved": 0,
+      "userMastery": null
+    },
+    {
+      "level": 4,
+      "status": "PARTIAL",
+      "vocabularyDenominator": 1000,
+      "cumulativeDenominator": 2000,
+      "locatorRows": 1000,
+      "contentCreated": 0,
+      "entriesWithDraftTeaching": 0,
+      "entriesMapped": 0,
+      "entriesPracticed": null,
+      "approved": 0,
+      "userMastery": null
+    }
+  ],
+  "tests": {
+    "fullUnit": {
+      "passed": 117,
+      "failed": 0
+    },
+    "finalSql": {
+      "passed": 21,
+      "failed": 0,
+      "scope": "all18 current lessons plus curriculum, incorrect/invalid feedback and review persistence, Today resume"
+    },
+    "browser": {
+      "passed": 10,
+      "failed": 0,
+      "previousCheckpoint": 8,
+      "latestBatch": {
+        "startTime": "2026-10-23T12:42:20.928Z",
+        "duration": 111281.43699999999,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "representatives": [
+        "L201",
+        "L203",
+        "L207",
+        "L211",
+        "L215"
+      ],
+      "scope": "5 representatives x desktop/mobile360; not all18 lessons separately browser tested"
+    },
+    "sourceReferences": 237,
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "productionBuild": "PASS",
+    "clientMarkerScan": {
+      "files": 31,
+      "failures": 0
+    },
+    "resumeNoOp": "batch5 re-run validated/skipped without hash changes"
+  },
+  "sourceScope": {
+    "tasks": {
+      "denominator": 17,
+      "pdfIndexes": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "characterRecognition": {
+      "denominator": 125,
+      "pdfIndex": 357
+    },
+    "topics": {
+      "hierarchyCounts": [
+        5,
+        18,
+        34
+      ],
+      "pdfIndexes": [
+        60,
+        61
+      ],
+      "warning": "References mix hierarchy depths; no coverage percentage derived"
+    },
+    "grammar": {
+      "denominator": null,
+      "pdfIndexes": [
+        388,
+        389,
+        390
+      ],
+      "status": "ATOMIC_SCOPE_NOT_FULLY_ENUMERATED"
+    },
+    "historicalPackagesExcludedFromCurrentCounts": true
+  },
+  "logs": {
+    "unit": ".local-postgres/hsk24/continuation-all-unit.log",
+    "sql": ".local-postgres/hsk24/batch5-sql.log",
+    "priorBrowser": ".local-postgres/hsk24/continuation-browser.log",
+    "batch5Browser": ".local-postgres/hsk24/batch5-browser.log",
+    "build": ".local-postgres/hsk24/continuation-build.log",
+    "clientScan": ".local-postgres/hsk24/continuation-client-scan.json"
+  },
+  "dataPreservation": {
+    "existingDatabaseReset": false,
+    "immutableOriginalPackagesChanged": false,
+    "oldAttemptedVersionsRetained": true,
+    "liveDataWritten": false
+  },
+  "runtimeIdentity": "LOCAL_DEVELOPMENT_ONLY",
+  "humanApproval": false,
+  "publication": false,
+  "retainedHistoricalVersions": 7,
+  "dimensionMappings": [
+    {
+      "dimension": "grammar",
+      "mappedSourceLocators": 16,
+      "denominator": null,
+      "educationalCoverage": null
+    },
+    {
+      "dimension": "character",
+      "mappedSourceLocators": 91,
+      "denominator": 125,
+      "educationalCoverage": null
+    },
+    {
+      "dimension": "topic",
+      "mappedSourceLocators": 14,
+      "denominator": null,
+      "educationalCoverage": null
+    },
+    {
+      "dimension": "task",
+      "mappedSourceLocators": 12,
+      "denominator": 17,
+      "educationalCoverage": null
+    }
+  ],
+  "additiveImportReadback": {
+    "existingPackagesPreserved": 26,
+    "existingAttemptsPreserved": 403,
+    "existingSessionsPreserved": 56,
+    "existingCardsPreserved": 43,
+    "scope": "selected tables; not full backup/restore; later fresh sandbox retains all prior DBs"
+  },
+  "localPreviewUrl": "http://127.0.0.1:3034/learn/courses/HSK2",
+  "productionEffects": "NONE; no push,merge,deploy,cloud writes or online policy changes"
+}

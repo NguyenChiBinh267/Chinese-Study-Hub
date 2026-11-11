@@ -1,0 +1,833 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "24823a59cb7980f1b30f3c1f04bcb00e97cb00317890726a3082a057b36ff3b2",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "outing-purchases",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L229",
+    "version": 1,
+    "versionId": "l229-draft-v1",
+    "title": "Mua đồ cho buổi đi chơi",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc một danh sách mua và phân biệt chi phí, đồ bị hỏng, vé vào cửa.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2"
+    ],
+    "newGrammarPatterns": [
+      "万、好多、多"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 10,
+      "physicalPage": 11,
+      "printedPage": 8,
+      "section": "task",
+      "entry": "九"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-shopping",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "九"
+        },
+        "written": "问答商品情况",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-product-description",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 购物 / 商品描述"
+        },
+        "written": "商品描述",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l229-v-307",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 86,
+          "physicalPage": 87,
+          "printedPage": 84,
+          "section": "vocabulary",
+          "entry": "ordinal 307"
+        },
+        "written": "包",
+        "pinyin": "bāo",
+        "senseId": "l229-v-307-sense",
+        "ordinal": 307,
+        "note": "2 bāo 动、名、量; 包 ở đây là danh từ túi. Nguồn còn ghi động từ/lượng từ, nhưng bài chỉ chấm nghĩa danh từ trong 这个包. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-423",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 423"
+        },
+        "written": "肉",
+        "pinyin": "ròu",
+        "senseId": "l229-v-423-sense",
+        "ordinal": 423,
+        "note": "2 ròu 名; 肉 chỉ thịt nói chung; câu không nêu loại thì không tự kết luận thịt bò hay thịt lợn. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-357",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 357"
+        },
+        "written": "花1",
+        "pinyin": "huā",
+        "senseId": "l229-v-357-sense",
+        "ordinal": 357,
+        "note": "2 huā 动; 花1 trong 花钱 là động từ chi tiêu. Không chọn nghĩa bông hoa ở ngữ cảnh này dù cùng đọc huā. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-449",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 449"
+        },
+        "written": "万",
+        "pinyin": "wàn",
+        "senseId": "l229-v-449-sense",
+        "ordinal": 449,
+        "note": "2 wàn 数; 万 là đơn vị số đếm 10.000. 一万 = mười nghìn, không phải một triệu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-402",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 402"
+        },
+        "written": "门票",
+        "pinyin": "ménpiào",
+        "senseId": "l229-v-402-sense",
+        "ordinal": 402,
+        "note": "2 ménpiào 名; 门票 là vé vào một địa điểm/sự kiện; khác 机票 là vé máy bay. Không suy ra được miễn phí nếu chỉ nói có vé. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-v-360",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 360"
+        },
+        "written": "坏",
+        "pinyin": "huài",
+        "senseId": "l229-v-360-sense",
+        "ordinal": 360,
+        "note": "2 huài 形; 坏 ở đây là hỏng đồ vật. Không dùng nghĩa đạo đức xấu của người để trả lời câu điện thoại hỏng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l229-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "千",
+        "pinyin": "qiān",
+        "senseId": "l229-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: nghìn; nhắc để đối chiếu 万, không tính vào mục từ HSK2 mới."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-69",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "69"
+        },
+        "written": "肉",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 69,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-28",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "28"
+        },
+        "written": "花",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 28,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-89",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "89"
+        },
+        "written": "万",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 89,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-57",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "57"
+        },
+        "written": "门",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 57,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-62",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "62"
+        },
+        "written": "票",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 62,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-30",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "30"
+        },
+        "written": "坏",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 30,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-ten-thousand",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "词类 / 数词 / 万"
+        },
+        "written": "万、好多、多",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l229-c0",
+      "version": 1,
+      "senseId": "l229-v-307-sense",
+      "hanzi": "包",
+      "dictionaryPinyin": "bāo",
+      "meaning": "túi, chiếc túi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l229-v-307"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l229-c1",
+      "version": 1,
+      "senseId": "l229-v-423-sense",
+      "hanzi": "肉",
+      "dictionaryPinyin": "ròu",
+      "meaning": "thịt",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l229-v-423"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l229-c2",
+      "version": 1,
+      "senseId": "l229-v-357-sense",
+      "hanzi": "花",
+      "dictionaryPinyin": "huā",
+      "meaning": "tiêu, chi tiền hoặc thời gian",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l229-v-357"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l229-c3",
+      "version": 1,
+      "senseId": "l229-v-449-sense",
+      "hanzi": "万",
+      "dictionaryPinyin": "wàn",
+      "meaning": "mười nghìn",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l229-v-449"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l229-c4",
+      "version": 1,
+      "senseId": "l229-v-402-sense",
+      "hanzi": "门票",
+      "dictionaryPinyin": "mén piào",
+      "meaning": "vé vào cửa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l229-v-402"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l229-c5",
+      "version": 1,
+      "senseId": "l229-v-360-sense",
+      "hanzi": "坏",
+      "dictionaryPinyin": "huài",
+      "meaning": "hỏng, không còn hoạt động tốt trong câu",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l229-v-360"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l229-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "买 là mua; 钱 là tiền; 块 trong giá tiền là đơn vị tệ trong ví dụ hư cấu. Các số tiền tự soạn chỉ dùng học ngôn ngữ, không phải giá thị trường.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l229-t0",
+      "type": "teaching",
+      "title": "包 · túi, chiếc túi",
+      "text": "包 ở đây là danh từ túi. Nguồn còn ghi động từ/lượng từ, nhưng bài chỉ chấm nghĩa danh từ trong 这个包.",
+      "hanzi": "这个包是我的。",
+      "pinyin": "Zhège bāo shì wǒ de.",
+      "meaning": "Chiếc túi này của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l229-t1",
+      "type": "teaching",
+      "title": "肉 · thịt",
+      "text": "肉 chỉ thịt nói chung; câu không nêu loại thì không tự kết luận thịt bò hay thịt lợn.",
+      "hanzi": "我们买一些肉。",
+      "pinyin": "Wǒmen mǎi yìxiē ròu.",
+      "meaning": "Chúng tôi mua một ít thịt.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l229-t2",
+      "type": "teaching",
+      "title": "花 · tiêu, chi tiền hoặc thời gian",
+      "text": "花1 trong 花钱 là động từ chi tiêu. Không chọn nghĩa bông hoa ở ngữ cảnh này dù cùng đọc huā.",
+      "hanzi": "买这些东西要花多少钱？",
+      "pinyin": "Mǎi zhèxiē dōngxi yào huā duōshao qián?",
+      "meaning": "Mua những đồ này phải tốn bao nhiêu tiền?",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l229-t3",
+      "type": "teaching",
+      "title": "万 · mười nghìn",
+      "text": "万 là đơn vị số đếm 10.000. 一万 = mười nghìn, không phải một triệu.",
+      "hanzi": "一万比一千多。",
+      "pinyin": "Yí wàn bǐ yì qiān duō.",
+      "meaning": "Mười nghìn lớn hơn một nghìn.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l229-t4",
+      "type": "teaching",
+      "title": "门票 · vé vào cửa",
+      "text": "门票 là vé vào một địa điểm/sự kiện; khác 机票 là vé máy bay. Không suy ra được miễn phí nếu chỉ nói có vé.",
+      "hanzi": "门票已经买好了。",
+      "pinyin": "Ménpiào yǐjīng mǎi hǎo le.",
+      "meaning": "Vé vào cửa đã mua xong rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l229-t5",
+      "type": "teaching",
+      "title": "坏 · hỏng, không còn hoạt động tốt trong câu",
+      "text": "坏 ở đây là hỏng đồ vật. Không dùng nghĩa đạo đức xấu của người để trả lời câu điện thoại hỏng.",
+      "hanzi": "我的手机坏了。",
+      "pinyin": "Wǒ de shǒujī huài le.",
+      "meaning": "Điện thoại của tôi hỏng rồi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l229-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "一万 là 10.000. Không bỏ một số không khi dịch từ 万 sang nghìn; ví dụ 一万块 là mười nghìn tệ, không phải một nghìn.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l229-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "甲：明天出去玩，门票买了吗？乙：买好了。我还想买一些肉和水。甲：用这个包吧。乙：这个包坏了，我们用那个。",
+      "pinyin": "Jiǎ: Míngtiān chūqù wán, ménpiào mǎi le ma? Yǐ: Mǎi hǎo le. Wǒ hái xiǎng mǎi yìxiē ròu hé shuǐ. Jiǎ: Yòng zhège bāo ba. Yǐ: Zhège bāo huài le, wǒmen yòng nàge.",
+      "meaning": "A: Mai đi chơi, mua vé vào cửa chưa? B: Mua xong rồi. Tôi còn muốn mua ít thịt và nước. A: Dùng túi này nhé. B: Túi này hỏng rồi, dùng túi kia đi.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l229-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l229-v1-e0"
+    },
+    {
+      "id": "l229-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l229-v1-e1"
+    },
+    {
+      "id": "l229-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l229-v1-e2"
+    },
+    {
+      "id": "l229-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l229-v1-e3"
+    },
+    {
+      "id": "l229-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l229-v1-e4"
+    },
+    {
+      "id": "l229-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l229-v1-e5"
+    },
+    {
+      "id": "l229-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l229-v1-e6"
+    },
+    {
+      "id": "l229-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l229-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l229-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l229-c0",
+      "senseId": "l229-v-307-sense",
+      "keyRef": "l229-v1-k0",
+      "prompt": "Trong câu “这个包是我的。”, 包 mang nghĩa nào?",
+      "choices": [
+        "thịt",
+        "tiêu, chi tiền hoặc thời gian",
+        "mười nghìn",
+        "vé vào cửa",
+        "hỏng, không còn hoạt động tốt trong câu",
+        "túi, chiếc túi"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l229-v1-e1",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l229-c1",
+      "senseId": "l229-v-423-sense",
+      "keyRef": "l229-v1-k1",
+      "prompt": "Viết pinyin của 肉 trong nghĩa “thịt”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l229-v1-e2",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l229-c2",
+      "senseId": "l229-v-357-sense",
+      "keyRef": "l229-v1-k2",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “tiêu, chi tiền hoặc thời gian”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l229-v1-e3",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l229-c3",
+      "senseId": "l229-v-449-sense",
+      "keyRef": "l229-v1-k3",
+      "prompt": "Trong câu “一万比一千多。”, 万 mang nghĩa nào?",
+      "choices": [
+        "vé vào cửa",
+        "hỏng, không còn hoạt động tốt trong câu",
+        "túi, chiếc túi",
+        "thịt",
+        "tiêu, chi tiền hoặc thời gian",
+        "mười nghìn"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l229-v1-e4",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l229-c4",
+      "senseId": "l229-v-402-sense",
+      "keyRef": "l229-v1-k4",
+      "prompt": "Viết pinyin của 门票 trong nghĩa “vé vào cửa”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l229-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l229-c5",
+      "senseId": "l229-v-360-sense",
+      "keyRef": "l229-v1-k5",
+      "prompt": "Chỉ nhập mục từ tiếng Trung của bài có nghĩa “hỏng, không còn hoạt động tốt trong câu”.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l229-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l229-c0",
+      "senseId": "l229-v-307-sense",
+      "keyRef": "l229-v1-k6",
+      "prompt": "Vì sao hai người dùng chiếc túi kia?",
+      "choices": [
+        "Túi kia có vé máy bay",
+        "Chưa mua vé vào cửa",
+        "Túi này bị hỏng"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l229-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l229-c3",
+      "senseId": "l229-v-449-sense",
+      "keyRef": "l229-v1-k7",
+      "prompt": "Xếp câu: điện thoại của tôi hỏng rồi.",
+      "choices": [
+        "坏了",
+        "我的",
+        "手机"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l229-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l229-v1-e0",
+      "senseId": "l229-v-307-sense",
+      "accepted": [
+        "túi, chiếc túi"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "包: túi, chiếc túi. 包 ở đây là danh từ túi. Nguồn còn ghi động từ/lượng từ, nhưng bài chỉ chấm nghĩa danh từ trong 这个包. Chiếc túi này của tôi."
+    },
+    {
+      "id": "l229-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l229-v1-e1",
+      "senseId": "l229-v-423-sense",
+      "accepted": [
+        "ròu"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc ròu. 肉 chỉ thịt nói chung; câu không nêu loại thì không tự kết luận thịt bò hay thịt lợn."
+    },
+    {
+      "id": "l229-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l229-v1-e2",
+      "senseId": "l229-v-357-sense",
+      "accepted": [
+        "花"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 花. 花1 trong 花钱 là động từ chi tiêu. Không chọn nghĩa bông hoa ở ngữ cảnh này dù cùng đọc huā."
+    },
+    {
+      "id": "l229-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l229-v1-e3",
+      "senseId": "l229-v-449-sense",
+      "accepted": [
+        "mười nghìn"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "万: mười nghìn. 万 là đơn vị số đếm 10.000. 一万 = mười nghìn, không phải một triệu. Mười nghìn lớn hơn một nghìn."
+    },
+    {
+      "id": "l229-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l229-v1-e4",
+      "senseId": "l229-v-402-sense",
+      "accepted": [
+        "mén piào"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đọc mén piào. 门票 là vé vào một địa điểm/sự kiện; khác 机票 là vé máy bay. Không suy ra được miễn phí nếu chỉ nói có vé."
+    },
+    {
+      "id": "l229-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l229-v1-e5",
+      "senseId": "l229-v-360-sense",
+      "accepted": [
+        "坏"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đáp án giới hạn: 坏. 坏 ở đây là hỏng đồ vật. Không dùng nghĩa đạo đức xấu của người để trả lời câu điện thoại hỏng."
+    },
+    {
+      "id": "l229-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l229-v1-e6",
+      "senseId": "l229-v-307-sense",
+      "accepted": [
+        "Túi này bị hỏng"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "这个包坏了 giải thích việc đổi túi; không có thông tin vé máy bay."
+    },
+    {
+      "id": "l229-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l229-v1-e7",
+      "senseId": "l229-v-449-sense",
+      "accepted": [
+        "1,2,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 一万 là 10.000. Không bỏ một số không khi dịch từ 万 sang nghìn; ví dụ 一万块 là mười nghìn tệ, không phải một nghìn."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

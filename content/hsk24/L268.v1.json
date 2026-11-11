@@ -1,0 +1,878 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "c129e1eddae88f0e1d34ed82ab85ca36f0364e7a05ce19a315f9ea25b5e7dba4",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "drawing-and-play",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L268",
+    "version": 1,
+    "versionId": "l268-draft-v1",
+    "title": "Ôn tập · Vẽ, chạy và chơi ngoài trời",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Ôn các nghĩa đã học bằng dạng truy hồi khác; không tính thêm từ mới.",
+      "Làm lại sau một khoảng nghỉ; thẻ FSRS giữ nguyên danh tính từ bài gốc."
+    ],
+    "prerequisites": [
+      "l228-draft-v1"
+    ],
+    "newGrammarPatterns": []
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 10,
+      "physicalPage": 11,
+      "printedPage": 8,
+      "section": "task",
+      "entry": "十一"
+    },
+    "targetLevel": 2,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Review of taught draft senses; source mapping only, no new vocabulary or competent approval."
+    ],
+    "alignmentCheckedAt": "2026-10-23T00:00:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h2-task-leisure",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 10,
+          "physicalPage": 11,
+          "printedPage": 8,
+          "section": "task",
+          "entry": "十一"
+        },
+        "written": "交流休闲活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h2-topic-leisure",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 60,
+          "physicalPage": 61,
+          "printedPage": 58,
+          "section": "topic",
+          "entry": "日常生活 / 休闲 / 休闲活动"
+        },
+        "written": "休闲活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l228-v-358",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 358"
+        },
+        "written": "花2",
+        "pinyin": "huā",
+        "senseId": "l228-v-358-sense",
+        "ordinal": 358,
+        "note": "2（6） huā 名、（形）; 花2 là danh từ hoa. Cùng âm với động từ 花 tiêu tiền nhưng khác mục từ và nghĩa, không gộp hai bài thành một sense. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l228-v-359",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 87,
+          "physicalPage": 88,
+          "printedPage": 85,
+          "section": "vocabulary",
+          "entry": "ordinal 359"
+        },
+        "written": "画",
+        "pinyin": "huà",
+        "senseId": "l228-v-359-sense",
+        "ordinal": 359,
+        "note": "2 huà 动、名; 画 trong 画一只鸟 là động từ vẽ. Khi nói 一幅画 thì là danh từ bức tranh; bài không dùng nghĩa danh từ làm đáp án của câu động từ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l228-v-411",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 411"
+        },
+        "written": "鸟",
+        "pinyin": "niǎo",
+        "senseId": "l228-v-411-sense",
+        "ordinal": 411,
+        "note": "2 niǎo 名; 鸟 là chim; một con chim không tự cho biết loài cụ thể. Không thêm tên loài không có trong câu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l228-v-421",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 421"
+        },
+        "written": "球",
+        "pinyin": "qiú",
+        "senseId": "l228-v-421-sense",
+        "ordinal": 421,
+        "note": "2 qiú 名; 球 nói bóng nói chung, chưa xác định bóng đá hay bóng rổ khi ngữ cảnh không nêu. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l228-v-477",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 90,
+          "physicalPage": 91,
+          "printedPage": 88,
+          "section": "vocabulary",
+          "entry": "ordinal 477"
+        },
+        "written": "游",
+        "pinyin": "yóu",
+        "senseId": "l228-v-477-sense",
+        "ordinal": 477,
+        "note": "2 yóu 动; 游 ở đây là bơi của cá; không dùng nghĩa đi tham quan trong từ ghép để trả lời. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l228-v-414",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 89,
+          "physicalPage": 90,
+          "printedPage": 87,
+          "section": "vocabulary",
+          "entry": "ordinal 414"
+        },
+        "written": "跑",
+        "pinyin": "pǎo",
+        "senseId": "l228-v-414-sense",
+        "ordinal": 414,
+        "note": "2 pǎo 动; 跑 chỉ chạy trong câu này, không phải đi bộ chậm. 跑步 là tên hoạt động chạy bộ đã học. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l228-extra0",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "朵",
+        "pinyin": "duǒ",
+        "senseId": "l228-extra0-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: lượng từ đếm hoa; cấp chưa kiểm chứng."
+      },
+      {
+        "id": "l228-extra1",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "只",
+        "pinyin": "zhī",
+        "senseId": "l228-extra1-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY hỗ trợ đếm chim; không tính thêm vào HSK2."
+      },
+      {
+        "id": "l228-extra2",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "幅",
+        "pinyin": "fú",
+        "senseId": "l228-extra2-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: lượng từ cho bức tranh; cấp chưa kiểm chứng."
+      },
+      {
+        "id": "l228-extra3",
+        "kind": "vocabulary",
+        "status": "SUPPLEMENTARY",
+        "officialLevel": null,
+        "sourceLocator": null,
+        "written": "树",
+        "pinyin": "shù",
+        "senseId": "l228-extra3-sense",
+        "ordinal": null,
+        "note": "SUPPLEMENTARY: cây; cấp chưa kiểm chứng."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h2-char-28",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "28"
+        },
+        "written": "花",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 28,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-29",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "29"
+        },
+        "written": "画",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 29,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-59",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "59"
+        },
+        "written": "鸟",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 59,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-66",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "66"
+        },
+        "written": "球",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 66,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-110",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "110"
+        },
+        "written": "游",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 110,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h2-char-61",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 357,
+          "physicalPage": 358,
+          "printedPage": 355,
+          "section": "character",
+          "entry": "61"
+        },
+        "written": "跑",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 61,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h2-g-reduplication",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 2,
+        "sourceLocator": {
+          "pdfIndex": 388,
+          "physicalPage": 389,
+          "printedPage": 386,
+          "section": "grammar",
+          "entry": "动词 / 动词重叠"
+        },
+        "written": "AA、A一A、A了A、ABAB",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l228-c0",
+      "version": 1,
+      "senseId": "l228-v-358-sense",
+      "hanzi": "花",
+      "dictionaryPinyin": "huā",
+      "meaning": "bông hoa",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l228-v-358"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l228-c1",
+      "version": 1,
+      "senseId": "l228-v-359-sense",
+      "hanzi": "画",
+      "dictionaryPinyin": "huà",
+      "meaning": "vẽ",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l228-v-359"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l228-c2",
+      "version": 1,
+      "senseId": "l228-v-411-sense",
+      "hanzi": "鸟",
+      "dictionaryPinyin": "niǎo",
+      "meaning": "chim",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l228-v-411"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l228-c3",
+      "version": 1,
+      "senseId": "l228-v-421-sense",
+      "hanzi": "球",
+      "dictionaryPinyin": "qiú",
+      "meaning": "quả bóng, bóng nói chung",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l228-v-421"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l228-c4",
+      "version": 1,
+      "senseId": "l228-v-477-sense",
+      "hanzi": "游",
+      "dictionaryPinyin": "yóu",
+      "meaning": "bơi, di chuyển trong nước",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l228-v-477"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l228-c5",
+      "version": 1,
+      "senseId": "l228-v-414-sense",
+      "hanzi": "跑",
+      "dictionaryPinyin": "pǎo",
+      "meaning": "chạy",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l228-v-414"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l268-guide",
+      "type": "teaching",
+      "title": "Ôn tập sau bài",
+      "text": "Hãy nghỉ rồi quay lại làm trước khi mở lại gợi ý. Có thể xem phần nhắc lại, vì vậy đây là luyện tập có hỗ trợ, không phải điểm năng lực độc lập. Nghe, nói và viết tự do chưa được đánh giá.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l268-t0-l228-prereq",
+      "type": "teaching",
+      "title": "Nhắc lại · Kiến thức cần nhắc lại",
+      "text": "画 có thể là vẽ hoặc bức tranh; bài luyện hành động vẽ. 花 ở bài này là bông hoa, khác 花 tiền đã dành riêng ở bài mua đồ.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l268-t0-l228-t0",
+      "type": "teaching",
+      "title": "Nhắc lại · 花 · bông hoa",
+      "text": "花2 là danh từ hoa. Cùng âm với động từ 花 tiêu tiền nhưng khác mục từ và nghĩa, không gộp hai bài thành một sense.",
+      "hanzi": "我想画一朵花。",
+      "pinyin": "Wǒ xiǎng huà yì duǒ huā.",
+      "meaning": "Tôi muốn vẽ một bông hoa.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l268-t0-l228-t1",
+      "type": "teaching",
+      "title": "Nhắc lại · 画 · vẽ",
+      "text": "画 trong 画一只鸟 là động từ vẽ. Khi nói 一幅画 thì là danh từ bức tranh; bài không dùng nghĩa danh từ làm đáp án của câu động từ.",
+      "hanzi": "她在画一只鸟。",
+      "pinyin": "Tā zài huà yì zhī niǎo.",
+      "meaning": "Cô ấy đang vẽ một con chim.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l268-t0-l228-t2",
+      "type": "teaching",
+      "title": "Nhắc lại · 鸟 · chim",
+      "text": "鸟 là chim; một con chim không tự cho biết loài cụ thể. Không thêm tên loài không có trong câu.",
+      "hanzi": "那只鸟在树上。",
+      "pinyin": "Nà zhī niǎo zài shù shang.",
+      "meaning": "Con chim kia ở trên cây.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l268-t0-l228-t3",
+      "type": "teaching",
+      "title": "Nhắc lại · 球 · quả bóng, bóng nói chung",
+      "text": "球 nói bóng nói chung, chưa xác định bóng đá hay bóng rổ khi ngữ cảnh không nêu.",
+      "hanzi": "这个球是弟弟的。",
+      "pinyin": "Zhège qiú shì dìdi de.",
+      "meaning": "Quả bóng này của em trai.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l268-t0-l228-t4",
+      "type": "teaching",
+      "title": "Nhắc lại · 游 · bơi, di chuyển trong nước",
+      "text": "游 ở đây là bơi của cá; không dùng nghĩa đi tham quan trong từ ghép để trả lời.",
+      "hanzi": "鱼在水里游。",
+      "pinyin": "Yú zài shuǐ li yóu.",
+      "meaning": "Cá bơi trong nước.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l268-t0-l228-t5",
+      "type": "teaching",
+      "title": "Nhắc lại · 跑 · chạy",
+      "text": "跑 chỉ chạy trong câu này, không phải đi bộ chậm. 跑步 là tên hoạt động chạy bộ đã học.",
+      "hanzi": "小孩儿在外面跑。",
+      "pinyin": "Xiǎoháir zài wàimiàn pǎo.",
+      "meaning": "Đứa trẻ đang chạy ở ngoài.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l268-t0-l228-grammar",
+      "type": "teaching",
+      "title": "Nhắc lại · Cách nói trong ngữ cảnh",
+      "text": "Động từ lặp như 看看 hoặc 看一看 diễn đạt xem một chút, thử xem. 画一画 có thể nói thử vẽ; 画画 trong đoạn đọc gọi tên hoạt động vẽ tranh, không dùng riêng từ đó để khẳng định nghĩa làm một chút. Các mẫu A了A/ABAB vẫn cần luyện riêng.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l268-t0-l228-reading",
+      "type": "teaching",
+      "title": "Nhắc lại · Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "今天我们在外面画画。妹妹画一朵花，我画一只鸟。弟弟不画，他拿着球在跑。我们看见水里的鱼在游。",
+      "pinyin": "Jīntiān wǒmen zài wàimiàn huà huà. Mèimei huà yì duǒ huā, wǒ huà yì zhī niǎo. Dìdi bú huà, tā ná zhe qiú zài pǎo. Wǒmen kànjiàn shuǐ li de yú zài yóu.",
+      "meaning": "Hôm nay chúng tôi vẽ ở ngoài. Em gái vẽ hoa, tôi vẽ chim. Em trai không vẽ, em cầm bóng chạy. Chúng tôi thấy cá bơi trong nước.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l268-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l268-e0"
+    },
+    {
+      "id": "l268-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l268-e1"
+    },
+    {
+      "id": "l268-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l268-e2"
+    },
+    {
+      "id": "l268-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l268-e3"
+    },
+    {
+      "id": "l268-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l268-e4"
+    },
+    {
+      "id": "l268-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l268-e5"
+    },
+    {
+      "id": "l268-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l268-e6"
+    },
+    {
+      "id": "l268-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l268-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l268-e0",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l228-c0",
+      "senseId": "l228-v-358-sense",
+      "keyRef": "l268-k0",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “bông hoa” (huā).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l268-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l228-c1",
+      "senseId": "l228-v-359-sense",
+      "keyRef": "l268-k1",
+      "prompt": "Ôn nghĩa: 画 (huà) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "chim",
+        "quả bóng, bóng nói chung",
+        "bơi, di chuyển trong nước",
+        "chạy",
+        "bông hoa",
+        "vẽ"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l268-e2",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l228-c2",
+      "senseId": "l228-v-411-sense",
+      "keyRef": "l268-k2",
+      "prompt": "Ôn cách đọc của 鸟 trong nghĩa “chim”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l268-e3",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l228-c3",
+      "senseId": "l228-v-421-sense",
+      "keyRef": "l268-k3",
+      "prompt": "Ôn truy hồi: nhập mục từ của bài có nghĩa “quả bóng, bóng nói chung” (qiú).",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l268-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l228-c4",
+      "senseId": "l228-v-477-sense",
+      "keyRef": "l268-k4",
+      "prompt": "Ôn nghĩa: 游 (yóu) trong bài đã học có nghĩa nào?",
+      "choices": [
+        "chạy",
+        "bông hoa",
+        "vẽ",
+        "chim",
+        "quả bóng, bóng nói chung",
+        "bơi, di chuyển trong nước"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l268-e5",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l228-c5",
+      "senseId": "l228-v-414-sense",
+      "keyRef": "l268-k5",
+      "prompt": "Ôn cách đọc của 跑 trong nghĩa “chạy”.",
+      "choices": [],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l268-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "recognition",
+      "conceptId": "l228-c0",
+      "senseId": "l228-v-358-sense",
+      "keyRef": "l268-k6",
+      "prompt": "Nhận diện chữ: từ mang nghĩa “bông hoa” (huā) viết □. Điền chữ nào vào □?",
+      "choices": [
+        "经",
+        "花",
+        "进",
+        "近"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l268-e7",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l228-c0",
+      "senseId": "l228-v-358-sense",
+      "keyRef": "l268-k7",
+      "prompt": "Ôn ngữ cảnh đã học · 8: Ai đang cầm bóng chạy?",
+      "choices": [
+        "Em trai",
+        "Em gái",
+        "Người kể"
+      ],
+      "inputHint": "Đáp án giới hạn theo nghĩa đã học; chưa chấm viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l268-k0",
+      "version": 1,
+      "exerciseVersionId": "l268-e0",
+      "senseId": "l228-v-358-sense",
+      "accepted": [
+        "花"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "花 · bông hoa."
+    },
+    {
+      "id": "l268-k1",
+      "version": 1,
+      "exerciseVersionId": "l268-e1",
+      "senseId": "l228-v-359-sense",
+      "accepted": [
+        "vẽ"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "画: vẽ."
+    },
+    {
+      "id": "l268-k2",
+      "version": 1,
+      "exerciseVersionId": "l268-e2",
+      "senseId": "l228-v-411-sense",
+      "accepted": [
+        "niǎo"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "niǎo · chim"
+    },
+    {
+      "id": "l268-k3",
+      "version": 1,
+      "exerciseVersionId": "l268-e3",
+      "senseId": "l228-v-421-sense",
+      "accepted": [
+        "球"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "球 · quả bóng, bóng nói chung."
+    },
+    {
+      "id": "l268-k4",
+      "version": 1,
+      "exerciseVersionId": "l268-e4",
+      "senseId": "l228-v-477-sense",
+      "accepted": [
+        "bơi, di chuyển trong nước"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "游: bơi, di chuyển trong nước."
+    },
+    {
+      "id": "l268-k5",
+      "version": 1,
+      "exerciseVersionId": "l268-e5",
+      "senseId": "l228-v-414-sense",
+      "accepted": [
+        "pǎo"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "pǎo · chạy"
+    },
+    {
+      "id": "l268-k6",
+      "version": 1,
+      "exerciseVersionId": "l268-e6",
+      "senseId": "l228-v-358-sense",
+      "accepted": [
+        "花"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "花 · huā · bông hoa. Chữ cần nhận diện là 花."
+    },
+    {
+      "id": "l268-k7",
+      "version": 1,
+      "exerciseVersionId": "l268-e7",
+      "senseId": "l228-v-358-sense",
+      "accepted": [
+        "Em trai"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "弟弟拿着球在跑 chỉ em trai; em gái đang vẽ hoa."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

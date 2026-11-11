@@ -1,0 +1,752 @@
+{
+  "schemaVersion": 1,
+  "packageHash": "f1156f707c3b840aa79d57f06777d153f84499d5d8f5c81d091822f3ae2f6094",
+  "course": {
+    "id": "chinese-study-local",
+    "version": 1
+  },
+  "unit": {
+    "id": "hsk-three-shared-game",
+    "version": 1
+  },
+  "release": {
+    "id": "local-development-phase4",
+    "version": 1
+  },
+  "lesson": {
+    "id": "L383",
+    "version": 1,
+    "versionId": "l383-draft-v1",
+    "title": "Chơi cùng nhau và đếm tổng",
+    "classification": "HSK_ALIGNED_DRAFT",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Đọc tổng số, hoạt động chung và cảm nhận âm thanh bằng lời.",
+      "Luyện đọc và nhớ từ; kết quả nháp không phải mastery."
+    ],
+    "prerequisites": [
+      "l002-draft-v2",
+      "l231-draft-v1",
+      "l233-draft-v1"
+    ],
+    "newGrammarPatterns": [
+      "极了"
+    ]
+  },
+  "locale": "vi",
+  "contentLanguage": "zh-Hans",
+  "state": "DRAFT",
+  "reviewStatus": "DRAFT_UNREVIEWED",
+  "publicationStatus": "BLOCKED",
+  "humanReview": null,
+  "rights": {
+    "authorship": "PROJECT_ORIGINAL_DRAFT",
+    "licenseDecision": "ORIGINAL_REVIEW_PENDING",
+    "sourceUse": "REFERENCE_ONLY",
+    "publicationReceipt": null
+  },
+  "alignment": {
+    "syllabusId": "hsk-exam-2025-11",
+    "syllabusVersion": "2025-11",
+    "sourceId": "S01",
+    "sourceUrl": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+    "sourceLocator": {
+      "pdfIndex": 15,
+      "physicalPage": 16,
+      "printedPage": 13,
+      "section": "task",
+      "entry": "八"
+    },
+    "targetLevel": 3,
+    "alignmentStatus": "PARTIAL",
+    "alignmentEvidence": [
+      "Original teaching batch; exact PDF reference check; Vietnamese sense interpretation unreviewed."
+    ],
+    "alignmentCheckedAt": "2026-10-26T07:20:00Z",
+    "sourceSnapshotSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+    "taskReferences": [
+      {
+        "id": "h3-next-leisure",
+        "kind": "task",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 15,
+          "physicalPage": 16,
+          "printedPage": 13,
+          "section": "task",
+          "entry": "八"
+        },
+        "written": "谈论休闲生活",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "topicReferences": [
+      {
+        "id": "h3-next-leisure-activity",
+        "kind": "topic",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 62,
+          "physicalPage": 63,
+          "printedPage": 60,
+          "section": "topic",
+          "entry": "休闲活动"
+        },
+        "written": "休闲活动",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "vocabularyReferences": [
+      {
+        "id": "l383-v-613",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 94,
+          "physicalPage": 95,
+          "printedPage": 92,
+          "section": "vocabulary",
+          "entry": "ordinal 613"
+        },
+        "written": "耳机",
+        "pinyin": "ěrjī",
+        "senseId": "l383-v-613-sense",
+        "ordinal": 613,
+        "note": "3 ěrjī 名; 耳机 là thiết bị đeo nghe âm, khác 耳朵 là tai. 一副耳机 đếm một bộ, không tự có nhạc hay hoạt động nghe trong bài chữ. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l383-v-944",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 944"
+        },
+        "written": "游戏",
+        "pinyin": "yóuxì",
+        "senseId": "l383-v-944-sense",
+        "ordinal": 944,
+        "note": "3 yóuxì 名; 游戏 là trò chơi; 玩游戏 là chơi, không tự là bài học/thi có điểm năng lực. Bài đọc nói trò chơi hư cấu, không cài thêm game. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l383-v-923",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 923"
+        },
+        "written": "一共",
+        "pinyin": "yígòng",
+        "senseId": "l383-v-923-sense",
+        "ordinal": 923,
+        "note": "3 yígòng 副; 一共 nêu tổng trong tập đang xét; 两人一共… khác 每人… mỗi người. Không cộng lặp cùng đối tượng. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l383-v-924",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 102,
+          "physicalPage": 103,
+          "printedPage": 100,
+          "section": "vocabulary",
+          "entry": "ordinal 924"
+        },
+        "written": "一块儿",
+        "pinyin": "yíkuàir",
+        "senseId": "l383-v-924-sense",
+        "ordinal": 924,
+        "note": "3 yíkuàir 名、副; 一块儿 trong 一块儿玩 là cùng nhau, không phải một khối vật liệu. 儿 hóa vào kuàir, khác 块儿 như khối trong ngữ cảnh khác. Original teaching sense unreviewed."
+      },
+      {
+        "id": "l383-v-690",
+        "kind": "vocabulary",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 96,
+          "physicalPage": 97,
+          "printedPage": 94,
+          "section": "vocabulary",
+          "entry": "ordinal 690"
+        },
+        "written": "极",
+        "pinyin": "jí",
+        "senseId": "l383-v-690-sense",
+        "ordinal": 690,
+        "note": "3 jí 副; 极 trong 开心极了 làm mức độ cao sau tính từ. 不 dùng 开心很极了; chưa dạy nghĩa cực địa/đỉnh điểm ở ngữ cảnh khác. Original teaching sense unreviewed."
+      }
+    ],
+    "characterReferences": [
+      {
+        "id": "h3-char-54",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "54"
+        },
+        "written": "耳",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 54,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-223",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 359,
+          "physicalPage": 360,
+          "printedPage": 357,
+          "section": "character",
+          "entry": "223"
+        },
+        "written": "戏",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 223,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-71",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "71"
+        },
+        "written": "共",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 71,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      },
+      {
+        "id": "h3-char-93",
+        "kind": "character",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 358,
+          "physicalPage": 359,
+          "printedPage": 356,
+          "section": "character",
+          "entry": "93"
+        },
+        "written": "极",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": 93,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ],
+    "grammarReferences": [
+      {
+        "id": "h3-next-extreme",
+        "kind": "grammar",
+        "status": "VERIFIED",
+        "officialLevel": 3,
+        "sourceLocator": {
+          "pdfIndex": 392,
+          "physicalPage": 393,
+          "printedPage": 390,
+          "section": "grammar",
+          "entry": "补语 / 程度补语1 / 极了"
+        },
+        "written": "极了",
+        "pinyin": null,
+        "senseId": null,
+        "ordinal": null,
+        "note": "Checked exact pinned PDF entry/reading/category. Original Vietnamese sense/teaching interpretation remains DRAFT without human approval."
+      }
+    ]
+  },
+  "concepts": [
+    {
+      "id": "l383-c0",
+      "version": 1,
+      "senseId": "l383-v-613-sense",
+      "hanzi": "耳机",
+      "dictionaryPinyin": "ěr jī",
+      "meaning": "tai nghe",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l383-v-613"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l383-c1",
+      "version": 1,
+      "senseId": "l383-v-944-sense",
+      "hanzi": "游戏",
+      "dictionaryPinyin": "yóu xì",
+      "meaning": "trò chơi",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l383-v-944"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l383-c2",
+      "version": 1,
+      "senseId": "l383-v-923-sense",
+      "hanzi": "一共",
+      "dictionaryPinyin": "yí gòng",
+      "meaning": "tổng cộng",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l383-v-923"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l383-c3",
+      "version": 1,
+      "senseId": "l383-v-924-sense",
+      "hanzi": "一块儿",
+      "dictionaryPinyin": "yí kuàir",
+      "meaning": "cùng nhau (trạng ngữ)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l383-v-924"
+      ],
+      "scope": "TARGET"
+    },
+    {
+      "id": "l383-c4",
+      "version": 1,
+      "senseId": "l383-v-690-sense",
+      "hanzi": "极",
+      "dictionaryPinyin": "jí",
+      "meaning": "cực kỳ/rất (trong 极了)",
+      "skills": [
+        "recognition",
+        "reading",
+        "pinyin"
+      ],
+      "referenceIds": [
+        "l383-v-690"
+      ],
+      "scope": "TARGET"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "l383-prereq",
+      "type": "teaching",
+      "title": "Kiến thức cần nhắc lại",
+      "text": "Ôn chủ ngữ–động từ–tân ngữ, thời gian trước động từ, 的 nối định ngữ, không có 的 trước tân ngữ thường. HSK1/2 chưa hoàn tất và không tự cấp mastery. 副 fù: lượng từ một bộ tai nghe; 音量 yīnliàng: âm lượng; 调 tiáo: điều chỉnh; 播放 bōfàng: phát media. Chưa có bài kiểm tra nghe hoặc chấm chơi game.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l383-t0",
+      "type": "teaching",
+      "title": "耳机 · tai nghe",
+      "text": "耳机 là thiết bị đeo nghe âm, khác 耳朵 là tai. 一副耳机 đếm một bộ, không tự có nhạc hay hoạt động nghe trong bài chữ.",
+      "hanzi": "这副耳机是我的。",
+      "pinyin": "Zhè fù ěrjī shì wǒ de.",
+      "meaning": "Bộ tai nghe này của tôi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l383-t1",
+      "type": "teaching",
+      "title": "游戏 · trò chơi",
+      "text": "游戏 là trò chơi; 玩游戏 là chơi, không tự là bài học/thi có điểm năng lực. Bài đọc nói trò chơi hư cấu, không cài thêm game.",
+      "hanzi": "我们周末玩游戏。",
+      "pinyin": "Wǒmen zhōumò wán yóuxì.",
+      "meaning": "Cuối tuần chúng tôi chơi trò chơi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l383-t2",
+      "type": "teaching",
+      "title": "一共 · tổng cộng",
+      "text": "一共 nêu tổng trong tập đang xét; 两人一共… khác 每人… mỗi người. Không cộng lặp cùng đối tượng.",
+      "hanzi": "今天一共来了三个人。",
+      "pinyin": "Jīntiān yígòng lái le sān ge rén.",
+      "meaning": "Hôm nay tổng cộng có ba người đến.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l383-t3",
+      "type": "teaching",
+      "title": "一块儿 · cùng nhau (trạng ngữ)",
+      "text": "一块儿 trong 一块儿玩 là cùng nhau, không phải một khối vật liệu. 儿 hóa vào kuàir, khác 块儿 như khối trong ngữ cảnh khác.",
+      "hanzi": "我们一块儿玩游戏。",
+      "pinyin": "Wǒmen yíkuàir wán yóuxì.",
+      "meaning": "Chúng ta cùng chơi trò chơi.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l383-t4",
+      "type": "teaching",
+      "title": "极 · cực kỳ/rất (trong 极了)",
+      "text": "极 trong 开心极了 làm mức độ cao sau tính từ. 不 dùng 开心很极了; chưa dạy nghĩa cực địa/đỉnh điểm ở ngữ cảnh khác.",
+      "hanzi": "收到礼物，她开心极了。",
+      "pinyin": "Shōudào lǐwù, tā kāixīn jí le.",
+      "meaning": "Nhận quà, cô ấy vui vô cùng.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "l383-grammar",
+      "type": "teaching",
+      "title": "Cách nói trong ngữ cảnh",
+      "text": "形容词+极了 nhấn mức cao, 如 开心极了; không đặt 极了 trước tính từ trong mẫu này. 一共 đếm tổng đúng phạm vi, 一块儿 nói cùng nhau theo cảnh.",
+      "hanzi": "",
+      "pinyin": "",
+      "meaning": "",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l383-reading",
+      "type": "teaching",
+      "title": "Đọc và hiểu tình huống",
+      "text": "Đọc lời từng người; chỉ trả lời theo thông tin trong đoạn. Chưa có audio tham chiếu, đây là luyện đọc.",
+      "hanzi": "今天一共来了三个人，大家一块儿玩游戏。小林带了耳机，但先把音量调小，听到有人叫就停下来。他说收到朋友的礼物开心极了。文字只描述这些动作，并没有真的播放声音。",
+      "pinyin": "Jīntiān yígòng lái le sān ge rén, dàjiā yíkuàir wán yóuxì. Xiǎo Lín dài le ěrjī, dàn xiān bǎ yīnliàng tiáo xiǎo, tīngdào yǒu rén jiào jiù tíng xiàlái. Tā shuō shōudào péngyou de lǐwù kāixīn jí le. Wénzì zhǐ miáoshù zhèxiē dòngzuò, bìng méiyǒu zhēn de bōfàng shēngyīn.",
+      "meaning": "Có tổng cộng ba người cùng chơi. Lâm mang tai nghe, chỉnh âm lượng nhỏ và dừng khi có người gọi, rất vui vì quà. Đoạn chữ không phát âm thanh thật.",
+      "readingMinutes": 2
+    },
+    {
+      "id": "l383-b0",
+      "type": "exercise",
+      "exerciseVersionId": "l383-v1-e0"
+    },
+    {
+      "id": "l383-b1",
+      "type": "exercise",
+      "exerciseVersionId": "l383-v1-e1"
+    },
+    {
+      "id": "l383-b2",
+      "type": "exercise",
+      "exerciseVersionId": "l383-v1-e2"
+    },
+    {
+      "id": "l383-b3",
+      "type": "exercise",
+      "exerciseVersionId": "l383-v1-e3"
+    },
+    {
+      "id": "l383-b4",
+      "type": "exercise",
+      "exerciseVersionId": "l383-v1-e4"
+    },
+    {
+      "id": "l383-b5",
+      "type": "exercise",
+      "exerciseVersionId": "l383-v1-e5"
+    },
+    {
+      "id": "l383-b6",
+      "type": "exercise",
+      "exerciseVersionId": "l383-v1-e6"
+    },
+    {
+      "id": "l383-b7",
+      "type": "exercise",
+      "exerciseVersionId": "l383-v1-e7"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l383-v1-e0",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l383-c0",
+      "senseId": "l383-v-613-sense",
+      "keyRef": "l383-v1-k0",
+      "prompt": "Thiết bị tai nghe, không phải tai cơ thể: 一副□。",
+      "choices": [
+        "游戏",
+        "一共",
+        "一块儿",
+        "极",
+        "耳机"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l383-v1-e1",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l383-c1",
+      "senseId": "l383-v-944-sense",
+      "keyRef": "l383-v1-k1",
+      "prompt": "Danh từ trò chơi: 玩□。",
+      "choices": [
+        "一共",
+        "一块儿",
+        "极",
+        "耳机",
+        "游戏"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l383-v1-e2",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l383-c2",
+      "senseId": "l383-v-923-sense",
+      "keyRef": "l383-v1-k2",
+      "prompt": "Tổng cộng chứ không phải mỗi người: □来了三个人。",
+      "choices": [
+        "一块儿",
+        "极",
+        "耳机",
+        "游戏",
+        "一共"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l383-v1-e3",
+      "version": 1,
+      "type": "pinyin",
+      "skill": "pinyin",
+      "conceptId": "l383-c3",
+      "senseId": "l383-v-924-sense",
+      "keyRef": "l383-v1-k3",
+      "prompt": "Viết pinyin của 一块儿 trong câu “我们一块儿玩游戏。”.",
+      "choices": [],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l383-v1-e4",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l383-c4",
+      "senseId": "l383-v-690-sense",
+      "keyRef": "l383-v1-k4",
+      "prompt": "Thành phần tăng mức sau 开心 và trước 了: 开心□了。",
+      "choices": [
+        "耳机",
+        "游戏",
+        "一共",
+        "一块儿",
+        "极"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l383-v1-e5",
+      "version": 1,
+      "type": "short",
+      "skill": "reading",
+      "conceptId": "l383-c3",
+      "senseId": "l383-v-924-sense",
+      "keyRef": "l383-v1-k5",
+      "prompt": "Viết “Chúng ta cùng chơi trò chơi”, dùng đúng 我们 + 一块儿 + 玩 + 游戏; không thêm 儿 sau 玩.",
+      "choices": [],
+      "inputHint": "Chỉ nhập từ được hỏi; không chấm văn viết tự do.",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l383-v1-e6",
+      "version": 1,
+      "type": "choice",
+      "skill": "reading",
+      "conceptId": "l383-c0",
+      "senseId": "l383-v-613-sense",
+      "keyRef": "l383-v1-k6",
+      "prompt": "一共三个人 nghĩa là gì?",
+      "choices": [
+        "Mỗi người thêm ba",
+        "Ba bộ tai nghe",
+        "Tổng cộng ba người"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    },
+    {
+      "id": "l383-v1-e7",
+      "version": 1,
+      "type": "sequence",
+      "skill": "reading",
+      "conceptId": "l383-c3",
+      "senseId": "l383-v-924-sense",
+      "keyRef": "l383-v1-k7",
+      "prompt": "Xếp mức độ sau tính từ, bắt đầu bằng 她.",
+      "choices": [
+        "极了",
+        "开心",
+        "她"
+      ],
+      "inputHint": "",
+      "requiresAudio": false,
+      "mediaIds": []
+    }
+  ],
+  "privateKeys": [
+    {
+      "id": "l383-v1-k0",
+      "version": 1,
+      "exerciseVersionId": "l383-v1-e0",
+      "senseId": "l383-v-613-sense",
+      "accepted": [
+        "耳机"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "耳机: tai nghe. 耳机 là thiết bị đeo nghe âm, khác 耳朵 là tai. 一副耳机 đếm một bộ, không tự có nhạc hay hoạt động nghe trong bài chữ. Bộ tai nghe này của tôi."
+    },
+    {
+      "id": "l383-v1-k1",
+      "version": 1,
+      "exerciseVersionId": "l383-v1-e1",
+      "senseId": "l383-v-944-sense",
+      "accepted": [
+        "游戏"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "游戏: trò chơi. 游戏 là trò chơi; 玩游戏 là chơi, không tự là bài học/thi có điểm năng lực. Bài đọc nói trò chơi hư cấu, không cài thêm game. Cuối tuần chúng tôi chơi trò chơi."
+    },
+    {
+      "id": "l383-v1-k2",
+      "version": 1,
+      "exerciseVersionId": "l383-v1-e2",
+      "senseId": "l383-v-923-sense",
+      "accepted": [
+        "一共"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一共: tổng cộng. 一共 nêu tổng trong tập đang xét; 两人一共… khác 每人… mỗi người. Không cộng lặp cùng đối tượng. Hôm nay tổng cộng có ba người đến."
+    },
+    {
+      "id": "l383-v1-k3",
+      "version": 1,
+      "exerciseVersionId": "l383-v1-e3",
+      "senseId": "l383-v-924-sense",
+      "accepted": [
+        "yí kuàir"
+      ],
+      "normalizerVersion": "pinyin-nfc-tone-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一块儿: cùng nhau (trạng ngữ). 一块儿 trong 一块儿玩 là cùng nhau, không phải một khối vật liệu. 儿 hóa vào kuàir, khác 块儿 như khối trong ngữ cảnh khác. Chúng ta cùng chơi trò chơi."
+    },
+    {
+      "id": "l383-v1-k4",
+      "version": 1,
+      "exerciseVersionId": "l383-v1-e4",
+      "senseId": "l383-v-690-sense",
+      "accepted": [
+        "极"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "极: cực kỳ/rất (trong 极了). 极 trong 开心极了 làm mức độ cao sau tính từ. 不 dùng 开心很极了; chưa dạy nghĩa cực địa/đỉnh điểm ở ngữ cảnh khác. Nhận quà, cô ấy vui vô cùng."
+    },
+    {
+      "id": "l383-v1-k5",
+      "version": 1,
+      "exerciseVersionId": "l383-v1-e5",
+      "senseId": "l383-v-924-sense",
+      "accepted": [
+        "我们一块儿玩游戏"
+      ],
+      "normalizerVersion": "hanzi-nfc-exact-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "一块儿 đứng trước động từ, nghĩa cùng nhau. Dạng chữ đã được đề giới hạn, không chấm mọi biến thể tự do."
+    },
+    {
+      "id": "l383-v1-k6",
+      "version": 1,
+      "exerciseVersionId": "l383-v1-e6",
+      "senseId": "l383-v-613-sense",
+      "accepted": [
+        "Tổng cộng ba người"
+      ],
+      "normalizerVersion": "exact-choice-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Đối chiếu đúng thông tin trong đoạn, không suy ra việc chưa được kể. 形容词+极了 nhấn mức cao, 如 开心极了; không đặt 极了 trước tính từ trong mẫu này. 一共 đếm tổng đúng phạm vi, 一块儿 nói cùng nhau theo cảnh."
+    },
+    {
+      "id": "l383-v1-k7",
+      "version": 1,
+      "exerciseVersionId": "l383-v1-e7",
+      "senseId": "l383-v-924-sense",
+      "accepted": [
+        "2,1,0"
+      ],
+      "normalizerVersion": "token-order-v1",
+      "gradingVersion": "deterministic-content-v1",
+      "feedback": "Xem lại cách đặt các thành phần trong ví dụ. 形容词+极了 nhấn mức cao, 如 开心极了; không đặt 极了 trước tính từ trong mẫu này. 一共 đếm tổng đúng phạm vi, 一块儿 nói cùng nhau theo cảnh."
+    }
+  ],
+  "media": [],
+  "missingAssessments": [
+    "listening",
+    "pronunciation"
+  ]
+}

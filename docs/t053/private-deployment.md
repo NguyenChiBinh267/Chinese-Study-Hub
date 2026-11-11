@@ -1,0 +1,21 @@
+# T053: owner-only online private practice
+
+The owner's 2026-10-23 deployment instruction authorizes one Vercel Hobby personal preview using the existing Supabase Free project `yartjbdapoyqcxfagsrj`. This is an explicit private-practice exception, not public publication or competent-language approval. Canonical task status and main remain unchanged.
+
+The public deployment branch starts at verified main and copies application source without the local development history. No private lesson package, answer fixture, review packet, database dump, recording, credential or personal history is exported. Git-triggered deployments are disabled; production environment variables are not provided to preview environments.
+
+`cloud-v1` accepts only the canonical HTTPS alias `chinese-study-hub-owner.vercel.app`, production Vercel environment, pinned Supabase provider and least-privilege TLS transaction pooler. The four full originals are gzip/base64 encoded in a sensitive **server-only** environment variable, `CSH_PRIVATE_PACKAGE_BUNDLE`. Encoding is not encryption; protection comes from provider environment access control and server-only execution. Hash validation authenticates all four packages against the existing immutable selection. Missing, changed or extra content refuses service. No private package is present in Git or deployed source files. Runtime cannot publish or replace a package.
+
+The exact versions remain `f01-private-v2`, `f02-private-v2`, `l001-private-v4`, `l002-private-v4`. Human labels L001v2/L002v2 refer to the corrected, previously audited private versions, not older answer-key versions. All remain DRAFT / DRAFT_UNREVIEWED, with no human review or publication receipt. Grammar mappings `g-jiao-pattern` and `g-like-pattern` remain UNVERIFIED. Draft practice and FSRS self-ratings do not establish verified mastery or prerequisite eligibility. HSK2–4 remain unreleased.
+
+Owner authentication is verified by Supabase on the server. Passwords and tokens are never browser props. Secure HttpOnly SameSite=Strict cookies, same-origin JSON mutations, immutable version binding, idempotency and 19 FORCE RLS tables remain enforced. Public signup stays disabled. The technical benchmark owner is not the configured human owner. Pronunciation notes and original schematic illustrations are available only inside the owner preview and retain unreviewed labels. Browser TTS remains optional and synthetic; no reference audio or calibrated phonetic assessment is claimed.
+
+## Operation and rollback
+
+Use the clean application checkout in `.local-postgres/t053/application`, branch `feat/t053-private-owner`. `npm ci`, `npm run lint`, `npm run typecheck`, `npm run build`. Local development uses the original workspace's documented local adapter. The exported online application requires explicit secure server configuration and never falls back to DEMO in production.
+
+Production-only values: `CSH_APP_MODE=PRODUCTION_AUTHENTICATED`, `CSH_PRIVATE_OWNER_PREVIEW=cloud-v1`, `CSH_APP_ORIGIN`, `CSH_AUTH_URL`, public Auth key in `CSH_AUTH_PUBLISHABLE_KEY`, real `OWNER_USER_ID`, least-privilege `DATABASE_URL` with verify-full, pinned `CSH_DATABASE_CA_PEM`, private bundle, exact `CSH_DEPLOY_COMMIT`. Never use NEXT_PUBLIC for private configuration. No admin/service-role key goes to Vercel.
+
+On a critical failure, remove only the new Vercel project/deployment or revoke its production environment, preserving Supabase and all owner records. For routine code rollback, redeploy the last tested clean commit with its matching private bundle and configuration. Never reset the database or import local learning history. Public signup must remain disabled. Backup/export and bounded restoration cover application-managed tables only; managed Auth recovery and automatic platform backups are not proven.
+
+The live verification report, when produced, is separate from this policy. A build, HTTP 200 or successful microphone UI alone does not establish release acceptance. Vercel Hobby and Supabase Free must remain in place; no paid upgrade/add-on/trial/card is authorized. Missing usage cost data is reported as unavailable, never measured zero. Physical Android/microphone accuracy and true platform cold starts remain unverified.

@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-17T05:56:04.961Z",
+  "status": "LOCAL_VERTICAL_SLICE_VERIFIED",
+  "branch": "feat/local-postgres-learning-foundation",
+  "baseCommit": "2e1e0c36fb4a778d27a9b4f181287540e69df5b3",
+  "verifiedMain": "3813bda55be7b77108344de6e5cc6bd74c51f034",
+  "scope": "Local PostgreSQL development persistence only. No canonical task completion or production release claim.",
+  "realPersistence": [
+    "Weekly budget, selected weekdays/day cap and session duration with version",
+    "Versioned local fixture session/answer/attempt",
+    "Atomic append-only learning events and completion projection",
+    "Progress read from SQL, reload and dedicated database restart"
+  ],
+  "stillDemo": [
+    "Onboarding level",
+    "F01/F02/L001/L002 and their client feedback",
+    "Flashcards/review ratings",
+    "Weekly preview calculation; no production planner"
+  ],
+  "notImplemented": [
+    "Production authentication/Supabase topology",
+    "Official HSK material/competent review",
+    "Mastery/FSRS/unlocks",
+    "Cloud/hosting/deployment",
+    "Durable offline sync/backup automation"
+  ],
+  "verification": {
+    "lint": "PASS",
+    "strictTypecheck": "PASS",
+    "productionBuild": "PASS",
+    "buildId": "W_xNtgKlOqYNEVcNszv0C",
+    "database": {
+      "status": "PASS",
+      "junitTestCases": 10,
+      "nodeTotalIncludingGroup": 11,
+      "actualDatabase": true,
+      "migrationDigest": "0c2a5172e5277752578e50b5c1ecf0e4edab9c127b45c7365e8c93b2e22f0837"
+    },
+    "localBrowser": {
+      "passed": 6,
+      "failed": 0,
+      "desktop": "1440x1000",
+      "mobile": "360x800",
+      "engine": "Chromium emulation",
+      "checks": [
+        "Settings reload from SQL",
+        "Real commit with lost acknowledgement, same-key retry no duplication",
+        "Session reload/resume and SQL progress",
+        "Forged owner header denied",
+        "Mocked503 stays unsaved and LOCAL",
+        "Expired identity stays LOCAL until explicit re-entry",
+        "Keyboard/overflow/axe serious and critical0 on progress"
+      ]
+    },
+    "originalDemoAndProductionLockout": {
+      "passed": 20,
+      "failed": 0,
+      "productionPort": 3011,
+      "checks": [
+        "All six original screens, four DEMO lessons, flashcards and demo reload reset",
+        "No external/write request or storage in DEMO",
+        "Production refuses local auth and reads/writes despite local env flags"
+      ]
+    },
+    "nativeDatabaseRestart": {
+      "status": "PASS",
+      "checkedAt": "2026-10-17T05:51:11.755Z",
+      "scope": "Dedicated project PostgreSQL 127.0.0.1:5447 only",
+      "before": {
+        "version": "18.4",
+        "settings": 11,
+        "attempts": 29,
+        "events": 41,
+        "progress": 6,
+        "proof": "0c2a5172e5277752578e50b5c1ecf0e4edab9c127b45c7365e8c93b2e22f0837"
+      },
+      "after": {
+        "version": "18.4",
+        "settings": 11,
+        "attempts": 29,
+        "events": 41,
+        "progress": 6,
+        "proof": "0c2a5172e5277752578e50b5c1ecf0e4edab9c127b45c7365e8c93b2e22f0837"
+      }
+    },
+    "artifacts": {
+      ".local-postgres/db-tests.xml": "4a5c871951bdced81ec73254bc2dd8b39bcecdd566a19f865ae397cacadb1f99",
+      ".local-postgres/browser-results.json": "6347741b0eb7232eb23b9df4f991b1805d0a1ae3ef3d9b9ee82286a3a420024a",
+      ".local-postgres/demo-regression-results.json": "9c729331eb4623a82ea6d2de4eb2aac6a0775d5ed340fbc17ee8ef1273b79517",
+      ".local-postgres/restart-evidence.json": "d7fd9a7fa6abfc524a2ce484f1c439173946310ab3c9fccda15c560441602ff5",
+      ".local-postgres/final-lint.log": "3777b74b3bf632f7f6b037c95cae644fb74347bdda3d692c92d65513bf2e9646",
+      ".local-postgres/final-typecheck.log": "9844cd440c86d4a4ddd00fb7536ed85088cf24270452d24c4afd593eaa686914"
+    }
+  },
+  "security": {
+    "runtime": {
+      "rolname": "csh_runtime",
+      "rolsuper": false,
+      "rolbypassrls": false,
+      "rolcreaterole": false,
+      "rolcreatedb": false,
+      "rolinherit": false
+    },
+    "privateTables": [
+      {
+        "relname": "api_idempotency",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "attempts",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "learning_events",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "lesson_progress",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "lesson_sessions",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      },
+      {
+        "relname": "time_preferences",
+        "relrowsecurity": true,
+        "relforcerowsecurity": true,
+        "owner": "csh_schema_owner"
+      }
+    ],
+    "proof": {
+      "migration_digest": "0c2a5172e5277752578e50b5c1ecf0e4edab9c127b45c7365e8c93b2e22f0837",
+      "verified_at": "2026-10-17T05:48:41.245Z",
+      "evidence": {
+        "kind": "native-postgresql-local-only",
+        "checks": [
+          "least-privilege-non-owner-no-bypass-no-membership-evidence-append-only",
+          "unauthenticated-read-and-write-denied-learning-gate-closed",
+          "same-backend-pool-A-B-cross-read-update-insert-owner-forgery",
+          "rollback-atomicity-LOCAL-claim-clear-after-success-and-failure",
+          "cross-owner-composite-FK-and-FORCE-RLS-owner"
+        ]
+      }
+    },
+    "fixtureOnly": true,
+    "noClientOwnerOrScore": true,
+    "noAdminForAppRequests": true,
+    "privateSecretsGitIgnored": true,
+    "localIdentityIsNotRealLogin": true,
+    "productionLocalAdapterDisabled": true,
+    "sameClientLocalTransactionContext": true,
+    "poolReuseVerifiedWithMax": 1,
+    "appPoolMaxPerProcess": 3,
+    "proofScope": "Native PostgreSQL18.4 only; not completion of canonical T009 or a Supabase Free proof"
+  },
+  "screenshots": [
+    {
+      "file": "docs/local-persistence/evidence/desktop-schedule.png",
+      "sha256": "b8f6c693a07d324f47369c32cbc64d96256f5993d2ae4b5e228a2e4be88d43fa"
+    },
+    {
+      "file": "docs/local-persistence/evidence/desktop-progress.png",
+      "sha256": "57aeefee43b18a30e8db609866a8e3032280c2ead43f943307e4cc9b7ba2c167"
+    },
+    {
+      "file": "docs/local-persistence/evidence/mobile-schedule.png",
+      "sha256": "83f4ba2eaeda2e9fc44b929f71e6c439851054c7c405bbc78fe9af67fc0c2b66"
+    },
+    {
+      "file": "docs/local-persistence/evidence/mobile-progress.png",
+      "sha256": "13883d3ea84266b7293f80fb53d74e267edfcef89214c7701c2d0e42f4db3f41"
+    }
+  ],
+  "protectedArtifacts": {
+    "docs/master-plan/master-plan-v1.1.md": {
+      "baseBlob": "6281d91594588c4d775a577d45fe6d21a335698f",
+      "mainBlob": "6281d91594588c4d775a577d45fe6d21a335698f",
+      "unchanged": true
+    },
+    "docs/master-plan/task-status.json": {
+      "baseBlob": "c1d797d3bb388f371631177fa388394d973b5993",
+      "mainBlob": "c1d797d3bb388f371631177fa388394d973b5993",
+      "unchanged": true
+    },
+    "docs/master-plan/source-manifest.json": {
+      "baseBlob": "554d607389f7b6e2ddc4a73a6b8f29f582714913",
+      "mainBlob": "554d607389f7b6e2ddc4a73a6b8f29f582714913",
+      "unchanged": true
+    }
+  },
+  "actionsNotTaken": {
+    "engineeringLoop": true,
+    "reviewerSubagent": true,
+    "modelSmoke": true,
+    "paidApi": true,
+    "cloud": true,
+    "deploy": true,
+    "push": true,
+    "merge": true,
+    "canonicalStatusWrite": true,
+    "pr5OrPr6Mutation": true
+  },
+  "residualRisks": {
+    "localFeatureBlocker": null,
+    "productionRelease": [
+      "T009 real auth/topology, T068/T069 remain gates",
+      "No reviewed publishable lesson/audio or mastery/FSRS",
+      "No independent review/real Android/TalkBack UAT"
+    ],
+    "audit": {
+      "high": 5,
+      "critical": 0,
+      "packages": [
+        "@next/eslint-plugin-next",
+        "braces",
+        "eslint-config-next",
+        "fast-glob",
+        "micromatch"
+      ],
+      "existingLintChainVersionsUnchangedFromBase": true,
+      "newPgOrZodAdvisoryReported": false
+    },
+    "developmentData": "Browser tests append acknowledged local fixture attempts; no user evidence deleted. Existing local fixture counts include test runs."
+  }
+}
