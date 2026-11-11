@@ -52,7 +52,8 @@ export async function adoptExisting({ root, data, state, cfg, task, policy, sour
   move(state, 'HANDOFF_CREATING', { adoptedPullRequest: { ...target }, baseSha: target.baseSha, commitSha: target.headSha,
     branch: target.branch, pr: target.pr, prUrl: `https://github.com/${target.repository}/pull/${target.pr}`, worktree }); save(state);
   fs.mkdirSync(path.dirname(worktree), { recursive: true });
-  command('git', ['clone', '--no-local', '--no-hardlinks', '--no-checkout', root, worktree], root);
+  // Git for Windows must be able to create pack .keep files below this nested path.
+  command('git', ['clone', '--config', 'core.longpaths=true', '--no-local', '--no-hardlinks', '--no-checkout', root, worktree], root);
   git(worktree, 'config', 'core.autocrlf', 'false');
   const clonedBranch = git(worktree, 'for-each-ref', '--format=%(objectname)', `refs/heads/${target.branch}`);
   if (clonedBranch) { requireThat(clonedBranch === target.headSha, 'Clone branch differs from pinned candidate'); git(worktree, 'checkout', target.branch); }
