@@ -1,15 +1,18 @@
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import assert from 'node:assert/strict';
+import { readAssuranceDecision } from './model-assurance.mjs';
 import { test } from 'node:test';
 import { fileURLToPath } from 'node:url';
 import childProcess from 'node:child_process';
 import { syncBuiltinESMExports } from 'node:module';
-import { validateAuthorization, preflight, recoveryDecision, chooseTask, newLedger, summarize, autonomousRun, bindRunDeadline, checkpointRetry } from './autonomous.mjs';
+import { validateAuthorization, validateLiveBootstrap, authorizeLiveStep, preflight, recoveryDecision, chooseTask, newLedger, summarize, autonomousRun, bindRunDeadline, checkpointRetry } from './autonomous.mjs';
 import { makeMultiGitFixture } from './fixtures.mjs';
 import { GitSource, blob } from './git-ssot.mjs';
 import { git, validateFreeQuota, GitHub, remainingTime, deadlineTimer, command, writeJson, readJson } from './io.mjs';
 import { STATUS } from './plan.mjs';
+import { hash } from './core.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 fs.mkdirSync(path.join(root, '.engineering-loop'), { recursive: true });
 const cfg = { repository: 'NguyenChiBinh267/Chinese-Study-Hub', liveEnabled: false, autoMerge: false, ssotAllowStatusWrites: false, authorizedTasks: [] };
@@ -24,6 +27,187 @@ test('No absent/expired/paid/mismatched grant can activate autonomous authority'
   assert.throws(() => validateAuthorization(real, cfg), /match/);
   assert.ok(validateAuthorization(real, { ...cfg, liveEnabled: true, autoMerge: true, ssotAllowStatusWrites: true, authorizedTasks: ['T004'] }));
 });
+test('Live bootstrap and driver-owned step require exact evidence and the current durable grant', async t => {
+  const checkout = fs.mkdtempSync(path.join(root, '.engineering-loop', 'b-'));
+  git(checkout, 'init', '-b', 'main');
+  const policyPath = 'tools/engineering-loop/model-assurance-policy.json';
+  fs.mkdirSync(path.join(checkout, 'tools/engineering-loop'), { recursive: true });
+  fs.copyFileSync(path.join(root, policyPath), path.join(checkout, policyPath));
+  const write = (name, text) => {
+    fs.mkdirSync(path.dirname(path.join(checkout, name)), { recursive: true });
+    fs.writeFileSync(path.join(checkout, name), text);
+  };
+  const commit = message => {
+    git(checkout, 'add', '.');
+    git(checkout, 'commit', '-m', message);
+    return git(checkout, 'rev-parse', 'HEAD');
+  };
+  const tool = 'tools/engineering-loop/driver.mjs';
+  write(tool, 'first version');
+  const baseSha = commit('base');
+  write(tool, 'reviewed version');
+  const head = commit('bootstrap candidate');
+  const repository = cfg.repository;
+  const revision = `git-bootstrap:${repository}#8:${baseSha}:${head}`;
+  const auth = { repository, bootstrapReviewedSha: head };
+  const state = {
+    mode: 'bootstrap', taskId: 'B001', bootstrapTarget: { repository, pr: 8, baseBranch: 'main', branch: 'loop/bootstrap', baseSha, initialHeadSha: head },
+    pr: 8, branch: 'loop/bootstrap', baseSha, phase: 'DONE', sourceRevision: revision, runId: 'review-run', nonce: 'nonce', commitSha: head,
+    review: { taskId: 'B001', verdict: 'PASS', commitSha: head, sourceRevision: revision, runId: 'review-run', nonce: 'nonce', findings: [], sourceReadbackVerified: true },
+    checks: [{ name: 'tests', passed: true, commitSha: head }],
+    reviewerReceipt: {
+      taskId: 'B001', role: 'reviewer', sandbox: 'read-only', newSession: true, processId: 42, threadId: 'review-thread',
+      costProof: { chatgptOnly: true, hasCredits: false, balance: '0' },
+      sourceBefore: revision, sourceAfter: revision, snapshotHashBefore: 'same', snapshotHashAfter: 'same',
+      reviewContext: { fullTaskCoverage: true, reviewedSha: head, sourceBase: baseSha },
+      runtimeVerification: { verified: true }, routingAssuranceVerified: true,
+      routingAssurance: { verified: true, commitSha: head, taskId: 'B001', decisionDigest: readAssuranceDecision(checkout, repository).digest }
+    }
+  };
+  validateLiveBootstrap(checkout, state, auth, head);
+  assert.throws(() => validateLiveBootstrap(checkout, { ...state, checks: [] }, auth, head), /exact-SHA PASS/);
+  assert.throws(() => validateLiveBootstrap(checkout, { ...state, checks: [{ ...state.checks[0], commitSha: baseSha }] }, auth, head), /exact-SHA PASS/);
+  assert.throws(() => validateLiveBootstrap(checkout, { ...state, reviewerReceipt: { ...state.reviewerReceipt, sourceAfter: 'drift' } }, auth, head), /full-candidate PASS/);
+  assert.throws(() => validateLiveBootstrap(checkout, { ...state, reviewerReceipt: { ...state.reviewerReceipt, routingAssuranceVerified: false } }, auth, head), /runtime routing assurance/);
+  assert.throws(() => validateLiveBootstrap(checkout, state, { ...auth, bootstrapReviewedSha: baseSha }, head), /full-candidate PASS/);
+  write('docs/master-plan/task-status.json', '{}');
+  write('docs/master-plan/owner-evidence/T004.json', '{}');
+  const newStatus = commit('task ledger and owner evidence');
+  validateLiveBootstrap(checkout, state, auth, newStatus);
+  assert.throws(() => validateLiveBootstrap(checkout, { ...state, mode: 'git-fixture' }, auth, newStatus), /full-candidate PASS/);
+
+  git(checkout, 'remote', 'add', 'origin', `https://github.com/${repository}.git`);
+  let remoteHead = newStatus;
+  t.mock.method(GitSource.prototype, 'fetchHead', () => remoteHead);
+  const zeroTouchAuthorization = { ...grant(), ...auth, release: 'M0', tasks: ['T004'] };
+  const live = { ...cfg, zeroTouchAuthorization, liveEnabled: true, autoMerge: true, ssotAllowStatusWrites: true, authorizedTasks: ['T004'] };
+  const ledger = newLedger(validateAuthorization(zeroTouchAuthorization, live), zeroTouchAuthorization);
+  const data = path.join(checkout, '.engineering-loop');
+  const ownerFile = path.join(data, 'git-driver.lock', 'owner.json');
+  const ledgerFile = path.join(data, 'grant-ledgers', 'live', `${hash(zeroTouchAuthorization.grantId)}.json`);
+  const liveState = { mode: 'live', phase: 'REVIEW_WAIT', taskId: 'T004', cycleId: ledger.cycleId, authorizationHash: ledger.grantHash };
+  const bootstrapFile = path.join(data, 'bootstrap-latest.json');
+  const check = (config = live, checkpoint = liveState) => authorizeLiveStep(checkout, data, config, checkpoint);
+  assert.throws(() => check(), /active autonomous driver/);
+  writeJson(ownerFile, { pid: process.ppid, host: os.hostname() });
+  writeJson(ledgerFile, ledger);
+  const priorDeadline = process.env.ENGINEERING_LOOP_DEADLINE;
+  try {
+    process.env.ENGINEERING_LOOP_DEADLINE = String(ledger.effectiveDeadline);
+    assert.throws(() => check(), /bootstrap PASS receipt is missing/);
+    writeJson(bootstrapFile, { ...state, phase: 'BLOCKED' });
+    assert.throws(() => check(), /full-candidate PASS/);
+    writeJson(bootstrapFile, state);
+    check();
+    assert.throws(() => check({ ...live, zeroTouchAuthorization: null }), /owner authorization missing/);
+    assert.throws(() => check(live, { ...liveState, cycleId: null }), /outside the autonomous grant/);
+    assert.throws(() => check(live, { ...liveState, taskId: 'T005' }), /outside the autonomous grant/);
+    assert.throws(() => check(live, { ...liveState, cycleId: 'prior-cycle' }), /no current durable cycle/);
+    writeJson(ledgerFile, { ...ledger, phase: 'STOPPED' });
+    assert.throws(() => check(), /no current durable cycle/);
+    writeJson(ledgerFile, ledger);
+    process.env.ENGINEERING_LOOP_DEADLINE = String(ledger.effectiveDeadline + 1);
+    assert.throws(() => check(), /no current durable cycle/);
+    process.env.ENGINEERING_LOOP_DEADLINE = String(ledger.effectiveDeadline);
+    const restarted = path.join(data, 'restart');
+    writeJson(path.join(restarted, 'config.json'), live);
+    writeJson(path.join(restarted, 'autonomous-ledger.json'), ledger);
+    writeJson(path.join(restarted, 'bootstrap-latest.json'), state);
+    const report = await autonomousRun({ root: checkout, tool: 'must-not-dispatch', data: restarted, cfg: live, resume: true,
+      sourceFactory: () => ({
+        fetchHead: () => remoteHead,
+        loadRemote: () => {
+          writeJson(path.join(restarted, 'bootstrap-latest.json'), { ...state, phase: 'BLOCKED' });
+          return { commit: remoteHead, tasks: [], kind: 'git-origin-main' };
+        }
+      }) });
+    assert.match(report.stopReason, /full-candidate PASS/);
+    assert.equal(report.modelCalls, 0);
+    assert.equal(fs.existsSync(path.join(restarted, 'state.json')), false);
+
+    write(tool, 'local unreviewed edit');
+    assert.throws(() => check(), /Local bootstrap inputs differ/);
+    remoteHead = commit('tooling drift');
+    assert.throws(() => check(), /inputs changed on main/);
+  } finally {
+    if (priorDeadline === undefined) delete process.env.ENGINEERING_LOOP_DEADLINE;
+    else process.env.ENGINEERING_LOOP_DEADLINE = priorDeadline;
+  }
+});
+
+test('CLI step, run, recover and relay refuse direct or legacy live checkpoints', () => {
+  const checkout = fs.mkdtempSync(path.join(root, '.engineering-loop', 'entry-'));
+  const tools = path.join(checkout, 'tools', 'engineering-loop');
+  fs.cpSync(path.dirname(fileURLToPath(import.meta.url)), tools, { recursive: true });
+  const data = path.join(checkout, '.engineering-loop');
+  const zeroTouchAuthorization = { ...grant(), release: 'M0', tasks: ['T004'], bootstrapReviewedSha: 'a'.repeat(40) };
+  writeJson(path.join(data, 'config.json'), {
+    ...readJson(path.join(tools, 'config.example.json')), zeroTouchAuthorization, liveEnabled: true, autoMerge: true,
+    ssotAllowStatusWrites: true, authorizedTasks: ['T004']
+  });
+  writeJson(path.join(data, 'control.json'), { stop: false, pause: false });
+  const stateFile = path.join(data, 'state.json');
+  const invoke = (args, reason) => {
+    const result = childProcess.spawnSync(process.execPath, [path.join(tools, 'loop.mjs'), ...args],
+      { cwd: checkout, encoding: 'utf8', windowsHide: true, timeout: 15000 });
+    assert.equal(result.status, 1, result.stderr);
+    assert.match(result.stderr, reason);
+  };
+  invoke(['step'], /fixture-only/);
+  invoke(['run'], /fixture-only/);
+  writeJson(path.join(data, 'multi-ledger.json'), {});
+  invoke(['multi-resume'], /requires a fixture checkpoint/);
+  assert.equal(fs.existsSync(stateFile), false);
+  const old = { mode: 'live', taskId: 'T004', phase: 'BLOCKED', blockedFrom: 'REVIEW_WAIT', pr: 1 };
+  writeJson(stateFile, old);
+  invoke(['step'], /active autonomous driver/);
+  invoke(['run'], /fixture-only/);
+  invoke(['recover', 'REVIEW_WAIT'], /fixture-only/);
+  invoke(['relay', 'unused.json'], /fixture-only/);
+  assert.deepEqual(readJson(stateFile), old);
+  const fakeFixture = { ...old, mode: 'dry-local', phase: 'QUEUED' };
+  writeJson(stateFile, fakeFixture);
+  invoke(['step'], /fixture-only/);
+  assert.deepEqual(readJson(stateFile), fakeFixture);
+  writeJson(path.join(data, 'config.json'), readJson(path.join(tools, 'config.example.json')));
+  const completed = { mode: 'dry-local', taskId: 'D001', phase: 'DONE' };
+  writeJson(stateFile, completed);
+  for (const action of ['step', 'run']) {
+    const result = childProcess.spawnSync(process.execPath, [path.join(tools, 'loop.mjs'), action],
+      { cwd: checkout, encoding: 'utf8', windowsHide: true, timeout: 15000 });
+    assert.equal(result.status, 0, result.stderr);
+    assert.equal(JSON.parse(result.stdout).phase, 'DONE');
+  }
+  assert.deepEqual(readJson(stateFile), completed);
+});
+
+test('Autonomous start and resume with a valid grant cannot advance with missing bootstrap evidence', async () => {
+  for (const resume of [false, true]) {
+    const data = fs.mkdtempSync(path.join(root, '.engineering-loop', 'live-denied-'));
+    const zeroTouchAuthorization = { ...grant(), release: 'M0', tasks: ['T004'], bootstrapReviewedSha: 'a'.repeat(40) };
+    const live = { ...cfg, zeroTouchAuthorization, liveEnabled: true, autoMerge: true, ssotAllowStatusWrites: true, authorizedTasks: ['T004'] };
+    const stateFile = path.join(data, 'state.json');
+    writeJson(path.join(data, 'control.json'), { stop: true, pause: false });
+    const ledger = newLedger(validateAuthorization(zeroTouchAuthorization, live), zeroTouchAuthorization);
+    const old = { mode: 'live', cycleId: ledger.cycleId, taskId: 'T004', phase: 'BLOCKED', blockedFrom: 'REVIEW_WAIT' };
+    if (resume) {
+      ledger.retryPending = { runId: 'interrupted' };
+      writeJson(path.join(data, 'autonomous-ledger.json'), ledger);
+      writeJson(stateFile, old);
+    }
+    const report = await autonomousRun({ root, tool: 'must-not-dispatch', data, cfg: live, resume,
+      sourceFactory: () => ({ fetchHead: () => 'a'.repeat(40), loadRemote: () => assert.fail('No selection without bootstrap') }) });
+    assert.match(report.stopReason, /bootstrap PASS receipt is missing/);
+    assert.deepEqual(report.outcomes, []);
+    assert.equal(report.modelCalls, 0);
+    assert.equal(readJson(path.join(data, 'control.json')).stop, true);
+    if (resume) {
+      assert.deepEqual(readJson(stateFile), old);
+      assert.deepEqual(report.retryPending, ledger.retryPending);
+    } else assert.equal(fs.existsSync(stateFile), false);
+  }
+});
+
 test('Grant binding changes when scope, expiry or budgets change across restart', () => {
   const g = grant(), h = validateAuthorization(g, cfg, true), l = newLedger(h, g);
   const restored = JSON.parse(JSON.stringify(l)); assert.equal(restored.grantHash, h);

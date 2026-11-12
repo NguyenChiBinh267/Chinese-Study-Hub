@@ -47,8 +47,8 @@ async function fixture(s = {}) {
           if (s.changeContext) options.routingContext.state.commitSha = 'c'.repeat(40);
           if (s.changeDecision) writeJson(path.join(policyDir, 'model-assurance-policy.json'), { ownerApproved: false });
           for (const e of s.events ?? events()) child.stdout.write(typeof e === 'string' ? e : JSON.stringify(e) + '\n');
-          if (s.stderr) child.stderr.write(s.stderr);
-          writeJson(options.output, s.output ?? { ok: true }); child.emit('close', s.exit ?? 0, null);
+          for (const chunk of s.stderrChunks ?? (s.stderr ? [s.stderr] : [])) child.stderr.write(chunk);
+          writeJson(options.output, s.output ?? { ok: true }); child.emit('close', s.signal ? null : s.exit ?? 0, s.signal ?? null);
         });
       } });
       return child;
@@ -128,6 +128,55 @@ test('Stderr exact source match only; lossily projected historical evidence stay
   assert.equal(stderrAccepted({ stderrBytes: 158 }), false);
   const bad = processDiagnostics({}); bad.stderr(Buffer.from(safeLine + 'error loading config\n')); bad.finish(0);
   assert.equal(stderrAccepted(bad.value), false); assert.equal(bad.value.messages[0].category, 'CLI_CONFIGURATION');
+});
+
+test('Reviewer stderr receipts classify split known lines and omit all unknown payloads', async () => {
+  const known = await fixture({ role: 'reviewer', stderrChunks: [safeLine.slice(0, 21), safeLine.slice(21) + safeLine] });
+  assert.ifError(known.error);
+  assert.equal(known.receipt.diagnostics.safeStderr.length, 2);
+  assert.equal(known.receipt.diagnostics.stderrRejectedLines, 0);
+  const secret = 'CSH_PRIVATE_FIXTURE_ONLY';
+  const mixed = await fixture({ role: 'reviewer', stderrChunks: [
+    safeLine + 'unknown warning\nAuthorization: Bea', `rer ${secret}\n`
+  ] });
+  assert.ok(mixed.error);
+  assert.equal(mixed.receipt.runtimeVerification.criteria.stderrAccepted, false);
+  assert.equal(mixed.receipt.routingAssuranceVerified, false);
+  assert.equal(mixed.receipt.diagnostics.stderrRejectedLines, 2);
+  assert.equal(mixed.receipt.diagnostics.safeStderr.length, 1);
+  assert.ok(mixed.receipt.diagnostics.omissions.some(x => x.sensitivePatternDetected && !x.payloadRetained));
+  assert.ok(!JSON.stringify([mixed.receipt, mixed.ledger]).includes(secret));
+});
+
+test('Incomplete stderr and decoder overflow at EOF fail closed without retaining raw bytes', async () => {
+  const prefix = safeLine.slice(0, -9);
+  const incomplete = await fixture({ role: 'reviewer', stderr: prefix });
+  assert.ok(incomplete.error);
+  assert.equal(incomplete.receipt.runtimeVerification.criteria.stderrAccepted, false);
+  assert.equal(incomplete.receipt.diagnostics.stderrRejectedLines, 1);
+  const overflow = await fixture({ role: 'reviewer', stderrChunks: [
+    Buffer.alloc(4096, 0x78), Buffer.from([0xe2, 0x82])
+  ] });
+  assert.ok(overflow.error);
+  assert.equal(overflow.receipt.diagnostics.stderrBytes, 4098);
+  assert.equal(overflow.receipt.diagnostics.truncated, true);
+  assert.equal(overflow.receipt.runtimeVerification.criteria.stderrAccepted, false);
+  assert.equal(overflow.receipt.routingAssuranceVerified, false);
+  assert.ok(overflow.receipt.diagnostics.omissions.some(x => x.reason === 'STDERR_LINE_EXCEEDS_SAFE_BUFFER_LIMIT' && !x.payloadRetained));
+  assert.ok(!JSON.stringify([overflow.receipt, overflow.ledger]).includes('x'.repeat(64)));
+});
+
+test('Known safe stderr cannot accept a nonzero or signalled Reviewer process', async () => {
+  for (const failure of [{ exit: 3 }, { signal: 'SIGTERM' }]) {
+    const r = await fixture({ role: 'reviewer', stderr: safeLine, ...failure });
+    assert.ok(r.error);
+    assert.equal(r.receipt.diagnostics.stderrRejectedLines, 0);
+    assert.equal(r.receipt.diagnostics.exitCode, failure.exit ?? null);
+    assert.equal(r.receipt.diagnostics.signal, failure.signal ?? null);
+    assert.equal(r.receipt.runtimeVerification.verified, false);
+    assert.equal(r.receipt.routingAssuranceVerified, false);
+    assert.equal(r.ledger[0].attempts[0].status, 'BLOCKED');
+  }
 });
 
 test('Task event guard preserves exact warning and sandboxed reads while blocking errors and reviewer writes', () => {
