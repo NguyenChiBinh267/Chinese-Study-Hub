@@ -37,7 +37,16 @@ const synthetic = { id: 'D001', title: 'D001 — synthetic loop verification (no
   spec: ['Only docs/engineering-loop/dry-run-fixture.txt may change.', 'Acceptance: file must contain exactly APPROVED followed by one newline.',
     'The first local fixture intentionally contains NEEDS_REPAIR to exercise REWORK. This is test data, not lesson content.'] };
 const reviewerReady = cfg => cfg.reviewerBackend === 'local-codex' || cfg.workTriggerVerified;
-const isSynthetic = state => ['dry-local', 'dry-github', 'git-fixture'].includes(state.mode);
+const isSynthetic = state => state?.mode === 'git-fixture' ? /^D\d{3}$/.test(state.taskId) :
+  ['dry-local', 'dry-github'].includes(state?.mode) && state.taskId === synthetic.id;
+function requireFixtureConfig(cfg) {
+  requireThat(!cfg.liveEnabled && !cfg.autoMerge && !cfg.ssotAllowStatusWrites && cfg.authorizedTasks.length === 0,
+    'Synthetic execution requires dormant live configuration');
+}
+function requireManualFixture(state, cfg) {
+  requireThat(isSynthetic(state), 'Manual execution and recovery are fixture-only; live work requires the autonomous driver');
+  requireFixtureConfig(cfg);
+}
 function fixtureSnapshot() { return { revision: `fixture:${hash(JSON.stringify(synthetic))}`, sourceUrl: 'synthetic fixture (not Google Docs)', version: 'synthetic-v1', activeRelease: 'synthetic', common: [] }; }
 function adapterFor(state, cfg) {
   if (state.mode === 'dry-local') return new FixtureSource(state.fixtureSpecPath);
@@ -280,31 +289,19 @@ async function implement(state, cfg, gh, snap, task) {
 
 export async function step() {
   remainingTime(30000);
+  const cfg = config(), state = stateOrNull();
+  if (state?.mode === 'live') {
+    const { authorizeLiveStep } = await import('./autonomous.mjs');
+    authorizeLiveStep(ROOT, DATA, cfg, state);
+  } else requireManualFixture(state, cfg);
+  if (control().pause || control().stop) return { phase: 'PAUSED', execution: state.phase };
+  if (TERMINAL.has(state.phase)) return state;
   assertOrdinaryUser();
-  const cfg = config(), gh = new GitHub(ROOT, cfg.repository);
-  let state = stateOrNull();
-  if (state?.cycleId && state.mode === 'live') {
-    const { validateAuthorization } = await import('./autonomous.mjs');
-    requireThat(validateAuthorization(cfg.zeroTouchAuthorization, cfg) === state.authorizationHash, 'One-time grant changed during execution');
-  }
-  if (control().pause || control().stop) return { phase: 'PAUSED', execution: state?.phase ?? 'IDLE' };
-  if (state?.mode === 'git-fixture') { (state.controllerProcessIds ??= []).push(process.pid); save(state); }
+  const gh = new GitHub(ROOT, cfg.repository);
+  if (state.mode === 'git-fixture') { (state.controllerProcessIds ??= []).push(process.pid); save(state); }
   let snap;
-  try {
-    snap = executionSnapshot(state, cfg);
-    if ((!state || state.phase === 'DONE') && cfg.sourceBackend === 'git' && cfg.liveEnabled) snap = new GitSource({ root: ROOT, data: DATA }).loadRemote();
-  } catch (error) { if (state) { move(state, 'BLOCKED', { blockedFrom: state.phase, blocker: error.message }); save(state); return state; } throw error; }
-  if (!state || state.phase === 'DONE') {
-    requireThat(cfg.liveEnabled && reviewerReady(cfg), 'Live backlog disabled; verify selected adapters before activation');
-    const task = readyTasks(snap).find(t => cfg.authorizedTasks.includes(t.id) && cfg.policies[t.id]);
-    requireThat(task, 'No authorized ready task');
-    requireThat(!['T053', 'T069'].includes(task.id), 'Hosting/deployment requires separate authorization and concrete gates');
-    requireThat(!['T016', 'T034', 'T044', 'T047', 'T050', 'T055'].includes(task.id), 'Content family dispatch requires SSOT-materialized bounded instance IDs and a reviewed instance policy; this minimal harness blocks unbounded family execution');
-    state = newExecution(task, snap);
-    if (cfg.sourceBackend === 'git') Object.assign(state, { sourceCommit: snap.commit, specHash: hash(JSON.stringify(task.spec)), taskStatusHash: snap.statusHash });
-    save(state);
-  }
-  if (state.phase === 'BLOCKED') return state;
+  try { snap = executionSnapshot(state, cfg); }
+  catch (error) { move(state, 'BLOCKED', { blockedFrom: state.phase, blocker: error.message }); save(state); return state; }
   const task = taskFor(state, snap);
   try {
     remainingTime(30000);
@@ -547,7 +544,7 @@ async function main() {
     console.log(JSON.stringify({ phase: report.phase, stopReason: report.stopReason, outcomes: report.outcomes.map(x => ({ taskId: x.taskId, phase: x.phase })) })); return;
   }
   if (['autonomous', 'autonomous-resume', 'dry-multi', 'multi-resume'].includes(action)) {
-    const { autonomousRun, validateAuthorization } = await import('./autonomous.mjs');
+    const { autonomousRun } = await import('./autonomous.mjs');
     let fixture = null, driverRelease = null;
     if (action === 'dry-multi') {
       const releaseLock = lock(path.join(DATA, 'git-driver.lock'), STATE); let released = false;
@@ -566,10 +563,9 @@ async function main() {
         writeJson(CONTROL, { pause: false, stop: false, changedAt: now() });
       } catch (error) { driverRelease(); throw error; }
       finally { writerRelease?.(); }
-    } else if (action === 'multi-resume') fixture = readJson(path.join(DATA, 'multi-ledger.json')).fixture;
-    if (action.startsWith('autonomous')) {
-      const cfg = config(); validateAuthorization(cfg.zeroTouchAuthorization, cfg);
-      writeJson(CONTROL, { pause: false, stop: false, changedAt: now() });
+    } else if (action === 'multi-resume') {
+      fixture = readJson(path.join(DATA, 'multi-ledger.json')).fixture;
+      requireThat(fixture?.grant?.release === 'fixture', 'Synthetic resume requires a fixture checkpoint');
     }
     let result;
     try { result = await autonomousRun({ root: ROOT, tool: TOOL, data: DATA, cfg: config(), fixture, resume: action.endsWith('resume'), driverRelease }); }
@@ -591,7 +587,8 @@ async function main() {
     } else if (action === 'dry-local') {
       assertOrdinaryUser();
       const cfg = config(), prior = stateOrNull();
-      requireThat(cfg.reviewerBackend === 'local-codex' && cfg.liveEnabled === false && cfg.autoMerge === false && cfg.authorizedTasks.length === 0, 'Synthetic cycle requires local reviewer and disabled backlog/merge');
+      requireFixtureConfig(cfg);
+      requireThat(cfg.reviewerBackend === 'local-codex', 'Synthetic local cycle requires local reviewer');
       requireThat(!prior || !prior.writerPid && !prior.reviewerPid && isSynthetic(prior) && (['DONE', 'BLOCKED'].includes(prior.phase) || prior.phase === 'MERGE_WAIT' && prior.review?.verdict === 'PASS'), 'Do not overwrite an active execution');
       if (prior) writeJson(path.join(DATA, 'history', `${prior.runId}-${Date.now()}.json`), prior);
       save(newExecution(synthetic, fixtureSnapshot(), 'dry-local'));
@@ -611,13 +608,15 @@ async function main() {
         requireThat(state.phase === 'MERGE_WAIT' && state.review?.verdict === 'PASS', state.blocker || 'Synthetic cycle did not finish its independent review');
       } finally { writeJson(CONTROL, { pause: false, stop: true, changedAt: now() }); }
     } else if (action === 'dry-github') {
+      requireFixtureConfig(config());
       assertOrdinaryUser(); assertCleanRoot();
       const prior = stateOrNull(); requireThat(!prior || prior.phase === 'DONE', 'An execution already exists; do not overwrite it');
       save(newExecution(synthetic, source(), 'dry-github'));
       console.log(JSON.stringify(await step(), null, 2));
     } else if (action === 'relay') {
       const state = stateOrNull(), cfg = config();
-      requireThat(state?.pr && !state.writerPid && !state.reviewerPid && cfg.reviewerBackend === 'work', 'No idle Work PR execution for reviewer artifact');
+      requireManualFixture(state, cfg);
+      requireThat(state.pr && !state.writerPid && !state.reviewerPid && cfg.reviewerBackend === 'work', 'No idle Work PR execution for reviewer artifact');
       const input = path.resolve(process.argv[3] ?? '');
       const inbox = path.join(DATA, 'review-inbox') + path.sep;
       requireThat(input.startsWith(inbox) && !fs.lstatSync(input).isSymbolicLink(), 'Artifact must be a real file in the local review inbox');
@@ -641,7 +640,8 @@ async function main() {
       console.log(JSON.stringify({ relayed: true, commentId: comment.id, commentUrl: comment.html_url, readbackVerified: true, automaticTrigger: false }));
     } else if (action === 'recover') {
       const state = stateOrNull(), cfg = config();
-      requireThat(state?.phase === 'BLOCKED', 'No BLOCKED execution to recover');
+      requireManualFixture(state, cfg);
+      requireThat(state.phase === 'BLOCKED', 'No BLOCKED execution to recover');
       const target = process.argv[3];
       requireThat(['SOURCE_WAIT', 'REVIEW_WAIT', 'MERGE_WAIT', 'SSOT_WAIT'].includes(target) && target === state.blockedFrom,
         'Recovery is allowed only to the prior stable wait phase; interrupted writes need manual inspection');
@@ -655,13 +655,13 @@ async function main() {
       console.log(JSON.stringify(state, null, 2));
     } else if (action === 'step') console.log(JSON.stringify(await step(), null, 2));
     else if (action === 'run') {
-      const cfg = config(); let completed = 0;
-      while (!control().pause && !control().stop && completed < cfg.maxTasksPerRun) {
+      const cfg = config();
+      requireManualFixture(stateOrNull(), cfg);
+      while (!control().pause && !control().stop) {
         const state = await step();
         console.log(JSON.stringify({ at: now(), taskId: state.taskId, phase: state.phase, repairs: state.repairs, blocker: state.blocker }));
-        if (state.phase === 'BLOCKED' || state.phase === 'PAUSED') break;
-        if (state.phase === 'DONE') { completed++; if (state.mode === 'dry-github') break; }
-        if (completed < cfg.maxTasksPerRun) await new Promise(resolve => setTimeout(resolve, Math.min(cfg.pollSeconds, 60) * 1000));
+        if (TERMINAL.has(state.phase) || state.phase === 'PAUSED') break;
+        await new Promise(resolve => setTimeout(resolve, Math.min(cfg.pollSeconds, 60) * 1000));
       }
     } else throw new Error('Commands: doctor, status, pick, candidate-pick, dry-run, dry-local, dry-git, dry-github, ssot-status, ssot-check TASK_ID, step, run, pause, stop, resume, relay INBOX_ARTIFACT, recover PRIOR_WAIT_PHASE');
   } finally { release(); }

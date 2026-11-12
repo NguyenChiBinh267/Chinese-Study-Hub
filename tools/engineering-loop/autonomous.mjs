@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import os from 'node:os';
 import { randomUUID } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
 import { hash, now, requireThat, newExecution } from './core.mjs';
@@ -35,7 +36,8 @@ const BOOTSTRAP_INPUTS = [
 export function validateLiveBootstrap(root, state, grant, main) {
   const target = validateBootstrapPass(state);
   const receipt = state.reviewerReceipt, context = receipt.reviewContext;
-  requireThat(target.repository === grant.repository && state.commitSha === grant.bootstrapReviewedSha &&
+  requireThat(state.mode === 'bootstrap' && state.taskId === 'B001' && state.review.taskId === 'B001' && receipt.taskId === 'B001' &&
+    target.repository === grant.repository && state.commitSha === grant.bootstrapReviewedSha &&
     ['MERGE_WAIT', 'DONE'].includes(state.phase) && state.review.sourceReadbackVerified === true &&
     context?.fullTaskCoverage === true && context.reviewedSha === state.commitSha && context.sourceBase === target.baseSha &&
     receipt.sourceBefore === state.sourceRevision && receipt.sourceAfter === state.sourceRevision &&
@@ -44,6 +46,8 @@ export function validateLiveBootstrap(root, state, grant, main) {
   git(root, 'merge-base', '--is-ancestor', state.commitSha, main);
   requireThat(git(root, 'diff', '--name-only', '--no-renames', state.commitSha, main, '--', ...BOOTSTRAP_INPUTS) === '',
     'Reviewed bootstrap inputs changed on main; reconcile before live execution');
+  requireThat(git(root, 'diff', '--name-only', '--no-renames', main, '--', ...BOOTSTRAP_INPUTS) === '',
+    'Local bootstrap inputs differ from verified main; reconcile before live execution');
   const decision = readAssuranceDecision(root, target.repository);
   if (decision) {
     requireThat(receipt.runtimeVerification?.verified === true && receipt.routingAssuranceVerified === true &&
@@ -53,6 +57,31 @@ export function validateLiveBootstrap(root, state, grant, main) {
   } else {
     requireThat(receipt.actualModelVerified === true, 'Missing bootstrap actual-model validation');
   }
+}
+
+function verifyLiveBootstrap(root, data, grant, main) {
+  const file = path.join(data, 'bootstrap-latest.json');
+  requireThat(fs.existsSync(file), 'Independent bootstrap PASS receipt is missing');
+  validateLiveBootstrap(root, readJson(file), grant, main);
+}
+
+// Only the driver dispatches live steps and charges their durable cycle budget.
+export function authorizeLiveStep(root, data, cfg, state) {
+  const ownerFile = path.join(data, 'git-driver.lock', 'owner.json');
+  const owner = fs.existsSync(ownerFile) ? readJson(ownerFile) : null;
+  requireThat(owner?.pid === process.ppid && owner.host === os.hostname(),
+    'Live step requires the active autonomous driver');
+  const grant = cfg.zeroTouchAuthorization, grantHash = validateAuthorization(grant, cfg);
+  requireThat(state?.mode === 'live' && STABLE.includes(state.phase) && state.cycleId &&
+    state.authorizationHash === grantHash && grant.tasks.includes(state.taskId), 'Live state is outside the autonomous grant');
+  const ledger = readJson(path.join(data, 'grant-ledgers', 'live', `${hash(grant.grantId)}.json`));
+  const inherited = process.env.ENGINEERING_LOOP_DEADLINE;
+  requireThat(ledger.phase === 'RUNNING' && ledger.grantId === grant.grantId && ledger.grantHash === grantHash &&
+    ledger.cycleId === state.cycleId && inherited !== undefined && Number(inherited) === ledger.effectiveDeadline &&
+    bindRunDeadline(ledger, grant, inherited) === Number(inherited) && Date.now() < ledger.effectiveDeadline,
+    'Live step has no current durable cycle and deadline');
+  const source = new GitSource({ root, data });
+  verifyLiveBootstrap(root, data, grant, source.fetchHead());
 }
 
 // Missing contracts/attestations are task-local. Source/security/unknown errors always stop the run.
@@ -179,11 +208,10 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
     requireThat(Date.now() < runDeadline, 'Authorized deadline reached');
     src = sourceFactory({ root: synthetic ? fixture.controller : root, synthetic,
       expectedRemote: synthetic ? fixture.remote : `https://github.com/${cfg.repository}.git`, data: path.join(data, 'git-operations', ledger.cycleId.slice(0, 8)) });
-    const bootstrap = synthetic ? null : readJson(path.join(data, 'bootstrap-latest.json'));
-    let bootstrapValidatedHead;
     if (!synthetic) {
-      bootstrapValidatedHead = src.fetchHead();
-      validateLiveBootstrap(root, bootstrap, grant, bootstrapValidatedHead);
+      verifyLiveBootstrap(root, data, grant, src.fetchHead());
+      requireThat(Date.now() < runDeadline, 'Authorized deadline reached');
+      writeJson(controlPath, { pause: false, stop: false, changedAt: now() });
     }
     ledger.driverPids ??= []; ledger.driverPids.push(process.pid);
     persist();
@@ -194,7 +222,7 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
       if (ctl.pause || ctl.stop) { reason = 'Operator stop/pause'; break; }
       if (Date.now() - Date.parse(ledger.startedAt) >= grant.maxRunSeconds * 1000) { reason = 'Run time budget'; break; }
       if (Date.now() >= runDeadline) { reason = 'Authorized deadline reached'; break; }
-      if (ledger.retryPending) checkpointRetry({ state: readJson(statePath), grant, ledger, statePath, persist });
+      if (synthetic && ledger.retryPending) checkpointRetry({ state: readJson(statePath), grant, ledger, statePath, persist });
       // Respect durable backoff before any remote read, including after restart.
       const pendingAt = Math.max(ledger.remoteWait?.at ?? 0, ledger.wait?.at ?? 0);
       if (Date.now() < pendingAt) {
@@ -213,9 +241,9 @@ export async function autonomousRun({ root, tool, data, cfg, fixture = null, res
         persist(); continue;
       }
       if (Date.now() >= runDeadline) { reason = 'Authorized deadline reached'; break; }
-      if (!synthetic && snapshot.commit !== bootstrapValidatedHead) {
-        validateLiveBootstrap(root, bootstrap, grant, snapshot.commit);
-        bootstrapValidatedHead = snapshot.commit;
+      if (!synthetic) {
+        verifyLiveBootstrap(root, data, grant, snapshot.commit);
+        if (ledger.retryPending) checkpointRetry({ state: readJson(statePath), grant, ledger, statePath, persist });
       }
       let state = fs.existsSync(statePath) ? readJson(statePath) : null;
       if (!state || ['DONE', 'BLOCKED'].includes(state.phase)) {
