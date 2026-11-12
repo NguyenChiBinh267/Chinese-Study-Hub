@@ -74,11 +74,19 @@ export function processDiagnostics(launch) {
       else { d.stderrRejectedLines++; diagnostic(line, 'stderr'); }
     } else if (line) d.stderrBlankLines++;
   }
+  function appendStderr(part) {
+    if (dropping) return;
+    pending += part;
+    if (pending.length <= 4096) return;
+    omit('STDERR_LINE_EXCEEDS_SAFE_BUFFER_LIMIT', 'stderr', Buffer.byteLength(pending));
+    pending = '';
+    dropping = true;
+    d.truncated = true;
+  }
   function stderr(bytes) {
     d.stderrBytes += bytes.length;
     for (const part of decoder.write(bytes).split(/(?<=\n)/)) {
-      if (!dropping) pending += part;
-      if (pending.length > 4096) { omit('STDERR_LINE_EXCEEDS_SAFE_BUFFER_LIMIT', 'stderr', Buffer.byteLength(pending)); pending = ''; dropping = true; d.truncated = true; }
+      appendStderr(part);
       if (part.endsWith('\n')) { if (!dropping) stderrLine(pending); pending = ''; dropping = false; }
     }
   }
@@ -91,7 +99,8 @@ export function processDiagnostics(launch) {
   }
   function nonJson(line) { if (line.trim()) { d.nonJsonStdoutLines++; diagnostic(line, 'stdout-non-json'); } }
   function finish(code, signal) {
-    const tail = decoder.end(); if (!dropping && pending.length + tail.length <= 4096) stderrLine(pending + tail);
+    appendStderr(decoder.end());
+    if (!dropping) stderrLine(pending);
     pending = ''; d.stderrFinalized = true; d.exitCode = Number.isInteger(code) ? code : null;
     d.signal = ['SIGTERM', 'SIGKILL', 'SIGINT', 'SIGABRT'].includes(signal) ? signal : null;
     const spawnFailed = d.spawnErrorCode && !d.sessionEventObserved && !d.turnEventObserved;
